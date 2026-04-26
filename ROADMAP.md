@@ -14,11 +14,13 @@ The founder's time is the scarcest resource. Every agent must respect that.
 
 | Role | Job | Cadence | Folder |
 |---|---|---|---|
-| **Scout** *(live)* | Find profitable online business ideas | Daily 09:00 Asia/Yerevan | `ideas/` |
-| **Surgeon** | Deconstruct ONE successful digital product per day across 8 dimensions | Daily 14:00 | `teardowns/` |
-| **Teacher** | Weekly deep-dive on ONE core business skill from a 52-skill curriculum | Saturday 10:00 | `lessons/` |
-| **News editor** | Morning briefing on launches, funding, trends in the solo-creator economy | Daily 07:30 | `news/` |
+| **Scout** *(live)* | Find profitable online business ideas | Daily 09:00 Asia/Yerevan (05:00 UTC) | `ideas/` |
+| **Surgeon** | Deconstruct ONE successful digital product per day across 8 dimensions | Daily 12:00 Asia/Yerevan (08:00 UTC) | `teardowns/` |
+| **Teacher** | Weekly deep-dive on ONE core business skill from a 52-skill curriculum | Saturday 10:00 Asia/Yerevan (06:00 UTC) | `lessons/` |
+| **News editor** | Morning briefing on launches, funding, trends in the solo-creator economy | Daily 07:30 Asia/Yerevan (03:30 UTC) | `news/` |
 | **Coach** | Brutal review of the founder's own work (landing pages, copy, pricing, design) | On-demand | `critiques/` |
+
+All scheduled times are deliberately placed in Anthropic's **off-peak window** (03:00–14:00 UTC) to avoid rate-limit contention with US business hours (14:00–22:00 UTC = 18:00–02:00 Asia/Yerevan). When adding new agents, keep them inside this window unless there's a strong reason not to.
 
 ## Living documents shared across all agents
 
@@ -45,11 +47,11 @@ Strong businessman. Numbers first. No hype words. No emojis in committed files (
 
 ## Telegram channel rhythm at full rollout
 
-| Time | Day | Message |
-|---|---|---|
-| 07:30 | Daily | 📰 News brief |
-| 09:00 | Daily | 💡 Idea memo |
-| 14:00 | Daily | 🔬 Product teardown |
-| 10:00 | Saturday | 📚 Weekly lesson |
+| Time (Asia/Yerevan) | UTC | Day | Message |
+|---|---|---|---|
+| 07:30 | 03:30 | Daily | 📰 News brief |
+| 09:00 | 05:00 | Daily | 💡 Idea memo |
+| 12:00 | 08:00 | Daily | 🔬 Product teardown |
+| 10:00 | 06:00 | Saturday | 📚 Weekly lesson |
 
 ~22 deliverables per week. Readable in <15 min/day on a phone.
