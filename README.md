@@ -6,4 +6,4 @@ This system compounds: every run reads `LEARNINGS.md`, `MARKET_MAP.md`, `KILLED.
 
 ## Log
 
-_The agent will prepend each day's entry here automatically._
+- 2026-04-27 — Async English: Slack and PR-comment swipe file for non-native software professionals — high
