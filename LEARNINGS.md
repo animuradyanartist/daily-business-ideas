@@ -2,6 +2,13 @@
 
 Hard-won priors from every Scout run. Newest at top. Every entry should be a pattern, not a fact about a single idea.
 
+## 2026-04-28
+- Non-native creator anxiety has two distinct surfaces: reactive private workplace writing (Slack/PR) and proactive public personal-brand publishing (LinkedIn/IG). Same buyer base, different artifacts, both monetizable.
+- "Unbundling the premium creator OS" is a strategic frame: when a $250-300 course exists at the top of a category (Justin Welsh's LinkedIn OS, Pat Walls's Starter Story), there is reliable demand for a $29-39 entry-level productized SKU underneath it.
+- Editable Canva + Notion is now the default delivery medium. Static PDF-only products are losing share on Etsy and Gumroad in 2026; design-first founders should default to Canva-editable.
+- The "literal-translation traps" callout is a portable wedge across non-native products — converts a generic template pack into a non-native-specific one with marginal effort. Use as a recurring design pattern.
+- Outcome-anchored buyers (build audience, win clients) convert higher and tolerate price ladders better than pain-anchored buyers (avoid embarrassment). Future memos should prefer outcome-anchored framing where both are available.
+
 ## 2026-04-27
 - The non-native English-speaking professional is a distinct, higher-ARPU buyer than the ESL learner. Frame products to them as career tools, not language tools.
 - Async written communication (Slack, PR comments, async meetings) is undefended white space in the Business English category. Live-speaking and email each have incumbents (Talaera, Grammarly); async does not.
