@@ -26,6 +26,7 @@ jobs:
         run: node scripts/daily-research.mjs
 
       - name: Commit and push
+        id: commit
         run: |
           set -e
           DATE=$(date -u +%Y-%m-%d)
@@ -34,6 +35,7 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "Nothing to commit"
+            echo "committed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -43,5 +45,33 @@ jobs:
             TITLE="daily idea"
           fi
 
+          # Pull conviction
+          CONVICTION=$(grep -oE 'conviction:\s*(high|medium|low)' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "medium")
+
           git commit -m "idea(${DATE}): ${TITLE}"
           git push
+
+          echo "committed=true" >> $GITHUB_OUTPUT
+          echo "title=${TITLE}" >> $GITHUB_OUTPUT
+          echo "conviction=${CONVICTION}" >> $GITHUB_OUTPUT
+          echo "date=${DATE}" >> $GITHUB_OUTPUT
+
+      - name: Notify Telegram
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          DATE="${{ steps.commit.outputs.date }}"
+          TITLE="${{ steps.commit.outputs.title }}"
+          CONVICTION="${{ steps.commit.outputs.conviction }}"
+          MEMO_URL="https://github.com/${GITHUB_REPOSITORY}/blob/main/ideas/${DATE}.md"
+
+          MSG="💡 ${DATE} — ${CONVICTION} conviction
+          ${TITLE}
+
+          Memo: ${MEMO_URL}"
+
+          curl -sS -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TG_CHAT_ID}" \
+            --data-urlencode "text=${MSG}"
