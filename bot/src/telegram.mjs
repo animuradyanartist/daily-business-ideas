@@ -32,9 +32,11 @@ export function answerCallbackQuery(token, callbackQueryId, text = null) {
 export function persistentKeyboard() {
   return {
     keyboard: [
-      [{ text: '📋 All ideas' }],
-      [{ text: '📈 All trends' }],
-      [{ text: '⭐ Favorites' }],
+      [
+        { text: '📋 All ideas' },
+        { text: '📈 All trends' },
+        { text: '⭐ Favorites' },
+      ],
     ],
     resize_keyboard: true,
     is_persistent: true,
