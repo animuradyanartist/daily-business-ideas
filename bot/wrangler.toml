@@ -1,0 +1,12 @@
+name = "daily-business-ideas-bot"
+main = "src/index.mjs"
+compatibility_date = "2026-04-01"
+
+[[kv_namespaces]]
+binding = "BOT_KV"
+id = "REPLACE_WITH_KV_ID_FROM_WRANGLER_OUTPUT"
+
+[vars]
+GITHUB_REPO = "animuradyanartist/daily-business-ideas"
+ALLOWED_CHAT_ID = "1010175368"
+# BOT_TOKEN and WEBHOOK_SECRET are set as secrets, not vars

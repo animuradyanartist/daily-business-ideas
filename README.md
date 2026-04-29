@@ -4,6 +4,10 @@ A daily decision-quality memo from a remote research agent. One idea per day. Ba
 
 This system compounds: every run reads `LEARNINGS.md`, `MARKET_MAP.md`, `KILLED.md`, and `outcomes/` before researching, then writes back to them. Day 30 is sharper than day 1.
 
+## Bot
+
+The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button menu (📋 ideas / 📈 trends / ⭐ favorites) for browsing this repo's memos directly from Telegram. Runs on Cloudflare Workers, free.
+
 ## Log
 
 - 2026-04-29 — trend forecast — Short-Form Video as an Automated Workflow +2 more
