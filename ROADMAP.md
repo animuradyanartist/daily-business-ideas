@@ -4,7 +4,7 @@ This repo is the shared memory of a multi-agent system that exists to make one s
 
 ## Vision
 
-A team of specialized agents — Scout, Surgeon, Teacher, News editor, Coach — each playing a distinct role. Together they form a daily MBA delivered to Telegram, with all artifacts stored here so the system compounds over time.
+A team of specialized agents — Scout, Surgeon, Teacher, Trend Forecaster, Coach — each playing a distinct role. Together they form a daily MBA delivered to Telegram, with all artifacts stored here so the system compounds over time.
 
 Phase 30: dozens of high-conviction ideas killed or kept on signal. Hundreds of deconstructed successful products. A 52-week mastery scorecard across the core business skills. Daily morning briefings. On-demand expert critique of the founder's own work.
 
@@ -15,9 +15,9 @@ The founder's time is the scarcest resource. Every agent must respect that.
 | Role | Job | Cadence | Folder |
 |---|---|---|---|
 | **Scout** *(live)* | Find profitable online business ideas | Daily 09:00 Asia/Yerevan (05:00 UTC) | `ideas/` |
-| **Surgeon** | Deconstruct ONE successful digital product per day across 8 dimensions | Daily 12:00 Asia/Yerevan (08:00 UTC) | `teardowns/` |
+| **Trend Forecaster** *(live)* | Find 3 near-term trends per day with sources <90 days old; track them in TRENDS_WATCH.md | Daily 12:00 Asia/Yerevan (08:00 UTC) | `trends/` |
+| **Surgeon** | Deconstruct ONE successful digital product per day across 8 dimensions | Daily 14:00 Asia/Yerevan (10:00 UTC) | `teardowns/` |
 | **Teacher** | Weekly deep-dive on ONE core business skill from a 52-skill curriculum | Saturday 10:00 Asia/Yerevan (06:00 UTC) | `lessons/` |
-| **News editor** | Morning briefing on launches, funding, trends in the solo-creator economy | Daily 07:30 Asia/Yerevan (03:30 UTC) | `news/` |
 | **Coach** | Brutal review of the founder's own work (landing pages, copy, pricing, design) | On-demand | `critiques/` |
 
 All scheduled times are deliberately placed in Anthropic's **off-peak window** (03:00–14:00 UTC) to avoid rate-limit contention with US business hours (14:00–22:00 UTC = 18:00–02:00 Asia/Yerevan). When adding new agents, keep them inside this window unless there's a strong reason not to.
@@ -35,10 +35,10 @@ Every agent reads what's relevant to its role before working, and writes back to
 
 ## Rollout phases
 
-- **Phase 1 — Scout** *(LIVE since 2026-04-25)*
-- **Phase 2 — Surgeon** — build after Phase 1 proves end-to-end (target: 2026-04-28)
-- **Phase 3 — Teacher** — add after Scout + Surgeon have run for ~1 week
-- **Phase 4 — News editor** — add only when the founder has appetite for more daily input
+- **Phase 1 — Scout** *(LIVE since 2026-04-29 on GitHub Actions + Gemini)*
+- **Phase 2 — Trend Forecaster** *(LIVE since 2026-04-29)*
+- **Phase 3 — Surgeon** — daily product teardowns
+- **Phase 4 — Teacher** — weekly skill deep-dive
 - **Phase 5 — Coach** — activate when the founder starts shipping a product to review
 
 ## Tone shared across all agents
@@ -49,9 +49,9 @@ Strong businessman. Numbers first. No hype words. No emojis in committed files (
 
 | Time (Asia/Yerevan) | UTC | Day | Message |
 |---|---|---|---|
-| 07:30 | 03:30 | Daily | 📰 News brief |
-| 09:00 | 05:00 | Daily | 💡 Idea memo |
-| 12:00 | 08:00 | Daily | 🔬 Product teardown |
-| 10:00 | 06:00 | Saturday | 📚 Weekly lesson |
+| 09:00 | 05:00 | Daily | 💡 Idea memo (Scout) |
+| 12:00 | 08:00 | Daily | 📈 Trend forecast (Trend Forecaster) |
+| 14:00 | 10:00 | Daily | 🔬 Product teardown (Surgeon — future) |
+| 10:00 | 06:00 | Saturday | 📚 Weekly lesson (Teacher — future) |
 
 ~22 deliverables per week. Readable in <15 min/day on a phone.
