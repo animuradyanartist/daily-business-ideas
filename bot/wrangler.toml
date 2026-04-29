@@ -4,7 +4,7 @@ compatibility_date = "2026-04-01"
 
 [[kv_namespaces]]
 binding = "BOT_KV"
-id = "REPLACE_WITH_KV_ID_FROM_WRANGLER_OUTPUT"
+id = "d1edb794ea3442a790d4e9e69127a5ca"
 
 [vars]
 GITHUB_REPO = "animuradyanartist/daily-business-ideas"
