@@ -80,8 +80,8 @@ Saved to `trends/YYYY-MM-DD.md`:
 **Confidence:** high | medium | low — one-line reasoning.
 
 **Sources:**
-- <link 1>
-- <link 2>
+- [<source title>](<url>) (YYYY-MM-DD)
+- [<source title>](<url>) (YYYY-MM-DD)
 - ...
 
 ## Trend 2: <name>
@@ -119,9 +119,12 @@ Bulleted list of every URL opened today. Minimum 8 across all four sections.
 
 **Hard rules baked into the Gemini prompt:**
 - Every factual claim must have an inline source link.
-- Minimum 2 sources per trend.
-- If a candidate trend has fewer than 2 quality sources, kill it and find another.
-- If fewer than 3 candidates pass the source bar, write "No GO today — insufficient sources" with reasoning.
+- Every source must be **dated within the last 90 days** (ideally last 30). Sources older than 180 days do NOT count toward the 2-source minimum.
+- Each source citation must show the source's publication date inline, e.g. `[Article title](url) (2026-04-15)`.
+- Minimum 2 fresh sources per trend.
+- If a candidate trend can only find sources from 2024–2025 or older, the agent must kill it and find a fresher one. No exceptions.
+- The agent must NOT rely on its training data for trend claims — training cutoff is older than today's market. Use Google Search exclusively for live signals.
+- If fewer than 3 candidates pass the freshness + source bar, write "No GO today — insufficient fresh sources" with reasoning.
 
 **Length target:** 600–800 words total. Deep but compact.
 
@@ -209,6 +212,19 @@ Not acceptable as the only source:
 - Marketing copy from the company being analyzed (it's biased)
 - Wikipedia for trend claims (lagging indicator; can be used for definitions only)
 - AI-generated content without a primary source
+
+## Freshness rules (critical)
+
+The whole value of a trend agent collapses if it surfaces stale signals.
+
+- Every source must carry a **visible publication date** in the memo: `[title](url) (YYYY-MM-DD)`.
+- Sources from the **last 30 days** are strongly preferred.
+- Sources from **31–90 days old** are acceptable.
+- Sources from **91–180 days old** count only as supporting context, not toward the 2-source minimum.
+- Sources older than **180 days** are NOT acceptable for trend claims at all.
+- The agent must NOT use its own training data as a source. Training cutoff is older than today's market.
+- The script appends a Google Search time filter to bias results: `after:YYYY-MM-DD` (90 days before today).
+- If the agent cannot find 2 fresh sources for a candidate trend, it kills the trend and looks elsewhere. No exceptions.
 
 ## Cost
 
