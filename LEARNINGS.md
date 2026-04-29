@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-04-29 (trends)
+-   AI is shifting from being a discrete "tool" to an integrated "system" or "partner." All three trends point toward workflows and collaborative processes rather than one-off tasks.
+-   The value is moving from the AI's generic output to its ability to operate on a user's specific context, whether that's their long-form content, their unique way of thinking, or their personal knowledge base.
+-   There is a growing market for products and services that help non-technical users bridge the gap between powerful AI tools and practical, daily workflows. The opportunity is in the setup, templates, and strategy, not just the tool itself.
+
+---
+
 ## 2026-04-29
 *   Drilling down into a professional vertical (from "designer" to "UX researcher") creates a sharper, more defensible product wedge.
 *   The pain of non-native communication is not monolithic; it has specific, high-stakes contexts (like a live user interview) that are monetizable.
