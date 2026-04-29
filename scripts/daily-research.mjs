@@ -112,6 +112,16 @@ Free lead magnet, landing page, distribution channels, exact GO / REFINE / PAUSE
 ## 4-week build plan (10 hrs/week)
 Week 1 / 2 / 3 / 4 deliverables with hour estimates.
 
+## Sales playbook
+How to actually sell this once built. Be specific, not generic. Cover all six:
+
+1. **Pricing strategy** — launch price, sustained price, any tier structure, when to raise prices, what justifies each tier.
+2. **Top 3 sales channels** — pick three specific channels (e.g., "r/Entrepreneur Wednesday post", "DM 30 new Preply tutors", "TikTok hashtag #onlineteacher") and write the EXACT first move on each. Include hook line, day/time to post, what asset to share.
+3. **Hook copy** — the actual landing-page headline and sub-headline (in the founder's voice — pragmatic, no hype). Write 2 versions to A/B test.
+4. **Pre-launch → launch → sustained** sequence — 3–5 concrete actions per phase. Pre-launch builds waitlist; launch converts; sustained keeps revenue trickling. Name dates relative to "Day 0 = launch day".
+5. **Top 2 buyer objections** and a 1-sentence rebuttal for each. Write the rebuttal as the founder would actually say it.
+6. **Social proof strategy** — what evidence to collect (screenshots, quotes, before/after), what to show on the sales page first, what to add over time.
+
 ## Risks and kill criteria
 Top 3 ways this fails. Exact metric or signal that says "stop now."
 
