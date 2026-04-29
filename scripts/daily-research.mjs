@@ -142,34 +142,63 @@ Tone: Strong businessman. Numbers first. No hype words ("revolutionary", "game-c
 
 Begin.`;
 
-// ---------- Call Gemini ----------
-const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${API_KEY}`;
+// ---------- Call Gemini with retry + fallback ----------
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const body = {
-  contents: [{ parts: [{ text: prompt }] }],
-  tools: [{ google_search: {} }],
-  generationConfig: {
-    temperature: 0.6,
-    maxOutputTokens: 16384,
-  },
-};
+async function callGemini(model, attempt = 1) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${API_KEY}`;
+  const body = {
+    contents: [{ parts: [{ text: prompt }] }],
+    tools: [{ google_search: {} }],
+    generationConfig: {
+      temperature: 0.6,
+      maxOutputTokens: 16384,
+    },
+  };
 
-console.log(`[${TODAY}] Calling Gemini 2.5 Pro with Google Search…`);
-console.log(`Prompt length: ${prompt.length} chars`);
+  console.log(`[${TODAY}] Calling ${model} (attempt ${attempt})…`);
 
-const res = await fetch(url, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(body),
-});
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
 
-if (!res.ok) {
-  const t = await res.text();
-  console.error(`Gemini error ${res.status}:`, t);
-  process.exit(1);
+  if (res.ok) {
+    return res.json();
+  }
+
+  const status = res.status;
+  const errBody = await res.text();
+  console.error(`${model} returned ${status}: ${errBody.slice(0, 300)}`);
+
+  // Retry on transient errors (429 rate limit, 5xx server)
+  if ((status === 429 || status >= 500) && attempt < 3) {
+    const wait = 2 ** attempt * 1000; // 2s, 4s
+    console.log(`Retrying ${model} in ${wait}ms…`);
+    await sleep(wait);
+    return callGemini(model, attempt + 1);
+  }
+
+  // Out of retries — caller decides whether to fall back
+  throw new Error(`${model} failed after ${attempt} attempts: ${status}`);
 }
 
-const data = await res.json();
+console.log(`Prompt length: ${prompt.length} chars`);
+
+let data;
+try {
+  data = await callGemini('gemini-2.5-pro');
+} catch (err) {
+  console.error('Pro exhausted retries. Falling back to Flash.');
+  try {
+    data = await callGemini('gemini-2.5-flash');
+  } catch (err2) {
+    console.error('Both Pro and Flash failed. Aborting.');
+    process.exit(1);
+  }
+}
+
 const memo =
   data.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
 
