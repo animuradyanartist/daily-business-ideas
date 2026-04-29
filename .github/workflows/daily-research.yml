@@ -1,0 +1,47 @@
+name: Daily research agent
+
+on:
+  schedule:
+    # 09:00 Asia/Yerevan = 05:00 UTC
+    - cron: '0 5 * * *'
+  workflow_dispatch: # manual run button
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run daily research
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/daily-research.mjs
+
+      - name: Commit and push
+        run: |
+          set -e
+          DATE=$(date -u +%Y-%m-%d)
+          git config user.name "Daily Ideas Agent"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+
+          # Pull the title from today's memo for the commit message
+          TITLE=$(head -1 "ideas/${DATE}.md" | sed 's/^#[[:space:]]*//' | tr -d '\r')
+          if [ -z "${TITLE}" ]; then
+            TITLE="daily idea"
+          fi
+
+          git commit -m "idea(${DATE}): ${TITLE}"
+          git push
