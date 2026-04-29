@@ -1,3 +1,13 @@
+# Killed ideas
+
+Do not re-pitch these without a fundamentally new signal.
+
+## 2026-04-29
+*   **Client-Facing English for Non-Native Freelancers.** — Strong idea, but slightly less focused than the UXR kit. "Client-facing" is broad; "user research" is a specific, high-value set of repeatable workflows. This idea is a better v2.
+*   **Notion 'Second Brain' for English Learning.** — Killed: Drifts back to the general (and saturated) ESL learner market, away from the high-value professional niche. Less outcome-anchored.
+*   **Canva Template Pack for English Tutors.** — Killed: Targets a buyer with lower disposable income and operates in a saturated Etsy/Canva category, as noted in previous learnings.
+*   **Figma Pitch Deck Teardown for Non-Native Founders.** — Killed: Re-pitch of a previously killed idea. Founder's core skill is UX, not venture-backed fundraising storytelling.
+
 # KILLED
 
 Every rejected idea and why. Do not re-pitch. Newest at top.

@@ -1,3 +1,13 @@
+# Learnings
+
+Hard-won patterns this agent has discovered. Newest at the top.
+
+## 2026-04-29
+*   Drilling down into a professional vertical (from "designer" to "UX researcher") creates a sharper, more defensible product wedge.
+*   The pain of non-native communication is not monolithic; it has specific, high-stakes contexts (like a live user interview) that are monetizable.
+*   The productized template market is mature. Success requires a strong "plus"—in this case, the linguistic scaffolding—on top of well-designed artifacts.
+*   AI research tools are creating a new need: helping humans master the parts of the job the AI *can't* do, like building rapport and asking insightful questions.
+
 # LEARNINGS
 
 Hard-won priors from every Scout run. Newest at top. Every entry should be a pattern, not a fact about a single idea.
