@@ -1,0 +1,72 @@
+name: Trend Forecaster
+
+on:
+  schedule:
+    # 12:00 Asia/Yerevan = 08:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch: # manual run button
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run trend research
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/trends.mjs
+
+      - name: Commit and push
+        id: commit
+        run: |
+          set -e
+          DATE=$(date -u +%Y-%m-%d)
+          git config user.name "Trend Forecaster"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            echo "committed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Pull the first trend name for the commit message
+          TOP=$(grep -m1 -oE '## Trend 1:\s*.+' "trends/${DATE}.md" | sed 's/## Trend 1:[[:space:]]*//' | tr -d '\r' || echo "trend forecast")
+
+          git commit -m "trends(${DATE}): ${TOP} +2 more"
+          git push
+
+          echo "committed=true" >> $GITHUB_OUTPUT
+          echo "top=${TOP}" >> $GITHUB_OUTPUT
+          echo "date=${DATE}" >> $GITHUB_OUTPUT
+
+      - name: Notify Telegram
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          DATE="${{ steps.commit.outputs.date }}"
+          TOP="${{ steps.commit.outputs.top }}"
+          MEMO_URL="https://github.com/${GITHUB_REPOSITORY}/blob/main/trends/${DATE}.md"
+
+          MSG="📈 ${DATE} — daily trend forecast
+
+          3 new trends + 1 status update
+
+          Top: ${TOP}
+
+          Memo: ${MEMO_URL}"
+
+          curl -sS -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TG_CHAT_ID}" \
+            --data-urlencode "text=${MSG}"
