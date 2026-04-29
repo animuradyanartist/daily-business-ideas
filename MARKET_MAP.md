@@ -1,3 +1,9 @@
+# Market map
+
+Niches, buyers, and comparable products this agent has studied. Updated incrementally.
+
+
+
 # MARKET_MAP
 
 Running atlas of niches, buyers, and comparables studied across all Scout runs. Update existing sections; add new sections only when a run opens a genuinely new niche.

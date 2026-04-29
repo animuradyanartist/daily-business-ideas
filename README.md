@@ -6,5 +6,6 @@ This system compounds: every run reads `LEARNINGS.md`, `MARKET_MAP.md`, `KILLED.
 
 ## Log
 
+- 2026-04-29 — The UX Research Kit for Non-Native UX Designers — high
 - 2026-04-28 — LinkedIn-Native: Canva carousel pack plus native-sounding caption swipes for non-native solo designers — high
 - 2026-04-27 — Async English: Slack and PR-comment swipe file for non-native software professionals — high
