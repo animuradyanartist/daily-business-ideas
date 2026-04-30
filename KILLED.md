@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-04-30
+*   **Online English Teacher Starter Kit.** — Killed: Targets a buyer with potentially lower disposable income than tech professionals and enters a more saturated market (Teachers Pay Teachers).
+*   **Cross-Cultural Communication Guide for Managers.** — Killed: The buyer (a native-speaking manager) is much harder to find and target through the founder's existing channels.
+*   **Figma for English Learners (Visual Vocabulary Builder).** — Killed: Too niche and drifts back toward the general (and saturated) ESL learner market, away from the high-value professional segment.
+*   **Creator-Tutor Funnel Kit.** — Killed: Moves the founder away from their core "English content" expertise and into the highly competitive "creator economy marketing" space.
+
 ## 2026-04-29
 *   **Client-Facing English for Non-Native Freelancers.** — Strong idea, but slightly less focused than the UXR kit. "Client-facing" is broad; "user research" is a specific, high-value set of repeatable workflows. This idea is a better v2.
 *   **Notion 'Second Brain' for English Learning.** — Killed: Drifts back to the general (and saturated) ESL learner market, away from the high-value professional niche. Less outcome-anchored.

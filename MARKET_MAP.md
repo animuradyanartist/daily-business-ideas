@@ -4,10 +4,6 @@ Niches, buyers, and comparable products this agent has studied. Updated incremen
 
 
 
-# MARKET_MAP
-
-Running atlas of niches, buyers, and comparables studied across all Scout runs. Update existing sections; add new sections only when a run opens a genuinely new niche.
-
 ## LinkedIn personal brand for non-native solo creators
 - Buyer: non-native English-speaking solo designer, freelancer, consultant, coach, or knowledge-worker creator (EU, LatAm, India, MENA, SEA) building inbound on LinkedIn. Visually fluent, English-anxious. Willingness to pay anchored by Justin Welsh's $250-300 LinkedIn OS at the top of the funnel.
 - Where they gather:

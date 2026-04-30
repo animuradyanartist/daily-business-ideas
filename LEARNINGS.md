@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-04-30
+*   A successful productized service for a professional niche can be created by mapping their core workflow (e.g., Research -> Design -> **Present** -> Ship) and building a specific tool for each high-anxiety step.
+*   The winning formula for this founder seems to be: [Standard design artifact they already want] + [Linguistic scaffold they desperately need]. This pattern is repeatable.
+*   High-priced courses ($100+) and free templates validate the top and bottom of a market, creating a profitable opportunity for a $39 "toolkit" that offers more structure than a template but is cheaper than a course.
+
 ## 2026-04-29 (trends)
 -   AI is shifting from being a discrete "tool" to an integrated "system" or "partner." All three trends point toward workflows and collaborative processes rather than one-off tasks.
 -   The value is moving from the AI's generic output to its ability to operate on a user's specific context, whether that's their long-form content, their unique way of thinking, or their personal knowledge base.
