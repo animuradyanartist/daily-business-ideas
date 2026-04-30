@@ -22,6 +22,13 @@ const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
 
 const readSafe = (p) => (existsSync(p) ? readFileSync(p, 'utf8') : '');
 
+// Idempotency check: if today's memo is already committed, do nothing.
+// This lets a backup cron run safely without producing duplicates.
+if (existsSync(`ideas/${TODAY}.md`)) {
+  console.log(`ideas/${TODAY}.md already exists — skipping run.`);
+  process.exit(0);
+}
+
 const ideaFiles = existsSync('ideas')
   ? readdirSync('ideas')
       .filter((f) => f.endsWith('.md') && f !== '.gitkeep')
