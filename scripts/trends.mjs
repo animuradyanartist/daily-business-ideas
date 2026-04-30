@@ -21,6 +21,13 @@ if (!API_KEY) {
 
 const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
 
+// Idempotency check: if today's trend forecast already exists, do nothing.
+// This lets a backup cron run safely without producing duplicates.
+if (existsSync(`trends/${TODAY}.md`)) {
+  console.log(`trends/${TODAY}.md already exists — skipping run.`);
+  process.exit(0);
+}
+
 // 90 days ago in YYYY-MM-DD form, used as the freshness floor
 const ninetyDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000)
   .toISOString()

@@ -2,8 +2,10 @@ name: Trend Forecaster
 
 on:
   schedule:
-    # 12:00 Asia/Yerevan = 08:00 UTC
+    # Primary: 12:00 Asia/Yerevan = 08:00 UTC
     - cron: '0 8 * * *'
+    # Backup: 13:00 Asia/Yerevan = 09:00 UTC — runs only if today's trend forecast is still missing
+    - cron: '0 9 * * *'
   workflow_dispatch: # manual run button
 
 jobs:

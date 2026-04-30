@@ -2,8 +2,10 @@ name: Daily research agent
 
 on:
   schedule:
-    # 09:00 Asia/Yerevan = 05:00 UTC
+    # Primary: 09:00 Asia/Yerevan = 05:00 UTC
     - cron: '0 5 * * *'
+    # Backup: 10:00 Asia/Yerevan = 06:00 UTC — runs only if today's memo is still missing
+    - cron: '0 6 * * *'
   workflow_dispatch: # manual run button
 
 jobs:
