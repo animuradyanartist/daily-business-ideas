@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-04-30 (trends)
+-   AI is becoming a specialized co-pilot for creative professionals (UX researchers, language learners, interior designers), automating tedious work to free up time for high-level strategy and refinement.
+-   The "prompt pack" is an emerging digital product category. As powerful generative tools become mainstream, the value shifts to teaching non-experts how to get high-quality, specific results from them.
+-   The most successful AI tools are those that integrate deeply into an existing workflow (e.g., AI inside Figma) or consolidate an entire multi-step process into a single platform (e.g., video clipping + scheduling).
+
+---
+
 ## 2026-04-30
 *   A successful productized service for a professional niche can be created by mapping their core workflow (e.g., Research -> Design -> **Present** -> Ship) and building a specific tool for each high-anxiety step.
 *   The winning formula for this founder seems to be: [Standard design artifact they already want] + [Linguistic scaffold they desperately need]. This pattern is repeatable.
