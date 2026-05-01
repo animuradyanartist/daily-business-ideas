@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-01
+*   **The Product Manager's Comms Kit.** — Killed: Moves away from the founder's core identity as a designer, potentially weakening credibility.
+*   **The Academic Poster & Presentation Kit for PhDs.** — Killed: The buyer (PhD student) has a lower and less certain willingness to pay than a professional freelancer.
+*   **The "Get Hired" Kit for Non-Native Designers.** — Killed: A very strong idea, but the Client Communication Kit is a more logical sequel to previous ideas, serving an existing freelancer rather than a job-seeker.
+*   **The Cross-Cultural Design System Documentation Kit.** — Killed: The buyer (design lead) is too niche and harder to reach/validate with via the founder's existing channels.
+
 ## 2026-04-30
 *   **Online English Teacher Starter Kit.** — Killed: Targets a buyer with potentially lower disposable income than tech professionals and enters a more saturated market (Teachers Pay Teachers).
 *   **Cross-Cultural Communication Guide for Managers.** — Killed: The buyer (a native-speaking manager) is much harder to find and target through the founder's existing channels.
