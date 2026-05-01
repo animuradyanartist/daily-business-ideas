@@ -12,6 +12,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Assisted UX Research Synthesis** · Using AI to automate the analysis of user interviews and generate design artifacts. · flagged 2026-04-30 · last checked 2026-04-30 · [origin memo](trends/2026-04-30.md)
 - **Conversational AI Language Tutors** · Using AI chatbots for immersive, low-pressure speaking and pronunciation practice. · flagged 2026-04-30 · last checked 2026-04-30 · [origin memo](trends/2026-04-30.md)
 - **Generative AI for Interior Design Ideation** · Using text-to-image AI to visualize and iterate on home design concepts. · flagged 2026-04-30 · last checked 2026-04-30 · [origin memo](trends/2026-04-30.md)
+- **AI-Powered Conversational Trip Planning** · Using conversational AI to discover, plan, and book travel based on open-ended queries. · flagged 2026-05-01 · last checked 2026-05-01 · [origin memo](trends/2026-05-01.md)
+- **Generative Music for Creator Content** · Using AI to generate custom, royalty-free music for videos, podcasts, and social media. · flagged 2026-05-01 · last checked 2026-05-01 · [origin memo](trends/2026-05-01.md)
+- **Autonomous AI Agents for Business Tasks** · Deploying AI systems that can independently execute multi-step business workflows. · flagged 2026-05-01 · last checked 2026-05-01 · [origin memo](trends/2026-05-01.md)
 
 
 ## ➡️ Active — plateauing
@@ -27,3 +30,5 @@ _(empty)_
 _(empty)_
 
 <!-- 2026-04-30 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-05-01 status-update directive: 🚀 | AI as a Thought Partner -->

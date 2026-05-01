@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-01 (trends)
+-   AI is enabling a shift from discrete, manual tasks to continuous, automated systems. Whether it's travel planning, music creation, or business operations, the trend is toward building goal-oriented engines rather than using one-off tools.
+-   The "front door" to many digital experiences (discovery, research, planning) is moving from traditional search interfaces to conversational AI.
+-   As AI handles more execution, the most valuable human skill becomes direction and judgment. The opportunity is in teaching people how to effectively manage and guide these new AI systems.
+
+---
+
 ## 2026-05-01
 *   The non-native freelancer's professional journey consists of distinct, monetizable stages: Getting Found (marketing) → Managing Work (client comms) → Getting Paid (invoicing/finance). A product suite can be built along this value chain.
 *   The most powerful wedge is not just adding a "linguistic scaffold" to an artifact, but applying it to the most financially consequential moments in a professional's workflow (e.g., scope creep, negotiations).
