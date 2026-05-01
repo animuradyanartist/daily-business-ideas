@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-01
+*   The non-native freelancer's professional journey consists of distinct, monetizable stages: Getting Found (marketing) → Managing Work (client comms) → Getting Paid (invoicing/finance). A product suite can be built along this value chain.
+*   The most powerful wedge is not just adding a "linguistic scaffold" to an artifact, but applying it to the most financially consequential moments in a professional's workflow (e.g., scope creep, negotiations).
+*   The market for generic templates validates demand for the *artifact*, creating an opportunity to launch a more differentiated version for a specific audience with a specific pain point (non-native communication).
+
 ## 2026-04-30 (trends)
 -   AI is becoming a specialized co-pilot for creative professionals (UX researchers, language learners, interior designers), automating tedious work to free up time for high-level strategy and refinement.
 -   The "prompt pack" is an emerging digital product category. As powerful generative tools become mainstream, the value shifts to teaching non-experts how to get high-quality, specific results from them.
