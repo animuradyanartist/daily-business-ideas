@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-02
+*   **The "Redesign" Project Kit.** — Killed: Targets a more junior audience (students, career-switchers) with potentially lower willingness to pay than working professionals.
+*   **The Case Study Metrics & ROI Calculator.** — Killed: Too narrow. Better as a feature within the main kit than a standalone product.
+*   **The Behance/Dribbble Presentation Kit.** — Killed: Too focused on the visual component, where competition from free templates is highest and the founder's linguistic edge is less valuable.
+*   **The "Articulating Design Decisions" Swipe File.** — Killed: Too small in scope. The pain is the entire case study narrative, not just justifying individual decisions.
+
 ## 2026-05-01
 *   **The Product Manager's Comms Kit.** — Killed: Moves away from the founder's core identity as a designer, potentially weakening credibility.
 *   **The Academic Poster & Presentation Kit for PhDs.** — Killed: The buyer (PhD student) has a lower and less certain willingness to pay than a professional freelancer.
