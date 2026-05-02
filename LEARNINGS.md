@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-02 (trends)
+-   The value proposition of AI is shifting from task automation to strategic structuring. Whether it's a portfolio, a fitness plan, or a business workflow, the winning products are those that use AI to impose a coherent, effective structure on the user's raw inputs.
+-   The "builder" economy is expanding beyond websites and apps to include AI agents. The rise of no-code platforms empowers non-technical individuals to create and deploy sophisticated software, creating a new market for education and templates.
+-   As AI becomes more embedded in personal and professional tools, the source of differentiation is moving from the AI model itself to the quality and completeness of the data it can access (the portfolio content, the workout history, the second brain).
+
+---
+
 ## 2026-05-02
 *   The designer's journey has another high-stakes, monetizable moment: creating the portfolio. This sits between "getting found" and "getting hired."
 *   When a market is saturated with visual templates (like portfolios), the opportunity shifts to the non-visual components: the story, the strategy, and the words.
