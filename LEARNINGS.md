@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-02
+*   The designer's journey has another high-stakes, monetizable moment: creating the portfolio. This sits between "getting found" and "getting hired."
+*   When a market is saturated with visual templates (like portfolios), the opportunity shifts to the non-visual components: the story, the strategy, and the words.
+*   The pain of writing isn't just about grammar; it's about structure and storytelling. A successful product must provide frameworks, not just phrases.
+*   The "bootcamp saturation" trend creates a new pain point: the need to sound unique and authentic, which is a gap that AI-generated text currently struggles to fill.
+
 ## 2026-05-01 (trends)
 -   AI is enabling a shift from discrete, manual tasks to continuous, automated systems. Whether it's travel planning, music creation, or business operations, the trend is toward building goal-oriented engines rather than using one-off tools.
 -   The "front door" to many digital experiences (discovery, research, planning) is moving from traditional search interfaces to conversational AI.
