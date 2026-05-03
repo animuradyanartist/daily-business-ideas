@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-03 (trends)
+-   The point of value is shifting from the *creation* of an artifact (a design, a slide, a logo) to the *codification* of the rules that allow an AI to create that artifact on demand. The most valuable skill is no longer execution, but direction.
+-   AI is collapsing multi-step, multi-role professional workflows (design -> spec -> code; strategy -> outline -> slide design) into single-player, single-prompt loops, creating a new class of "full-stack" solo operators.
+-   As AI handles more of the "what" and "how," the opportunity for digital products is moving to the "why." Products that help users define their strategy *before* they write the prompt (e.g., brand strategy, presentation narrative, feature requirements) will have a durable advantage.
+
+---
+
 ## 2026-05-03
 *   The non-native designer's workflow has distinct "communication" pain points that map to different counterparts: stakeholders (presentations), clients (proposals), and now, developers (handoffs). Each is a monetizable surface.
 *   The opportunity is not just in providing templates for artifacts (the design) but in providing templates for the communication *about* the artifact (the documentation).
