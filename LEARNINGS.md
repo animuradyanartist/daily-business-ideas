@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-03
+*   The non-native designer's workflow has distinct "communication" pain points that map to different counterparts: stakeholders (presentations), clients (proposals), and now, developers (handoffs). Each is a monetizable surface.
+*   The opportunity is not just in providing templates for artifacts (the design) but in providing templates for the communication *about* the artifact (the documentation).
+*   As design tools like Figma automate more of the visual spec, the remaining value is in communicating intent and logic, which is a prime area for a linguistic-scaffolding product.
+
 ## 2026-05-02 (trends)
 -   The value proposition of AI is shifting from task automation to strategic structuring. Whether it's a portfolio, a fitness plan, or a business workflow, the winning products are those that use AI to impose a coherent, effective structure on the user's raw inputs.
 -   The "builder" economy is expanding beyond websites and apps to include AI agents. The rise of no-code platforms empowers non-technical individuals to create and deploy sophisticated software, creating a new market for education and templates.
