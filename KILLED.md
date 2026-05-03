@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-03
+*   **The Design System Documentation Kit.** — Killed: More niche. The buyer is likely a more senior designer or lead, making the market smaller and harder to reach than the more universal pain of project handoffs.
+*   **The Job Application "Wrapper" Kit (Resume/Cover Letter).** — Killed: Too similar to yesterday's portfolio idea. Better as a feature or bundle component than a standalone product.
+*   **The A/B Test & Experimentation Proposal Kit.** — Killed: Targets a more data-focused subset of designers. The handoff problem is a more fundamental and widespread pain point across all product design roles.
+*   **The "Networking DM" Swipe File.** — Killed: The scope is too small for a $39 product. This is a bonus or an add-on, not the main offering.
+
 ## 2026-05-02
 *   **The "Redesign" Project Kit.** — Killed: Targets a more junior audience (students, career-switchers) with potentially lower willingness to pay than working professionals.
 *   **The Case Study Metrics & ROI Calculator.** — Killed: Too narrow. Better as a feature within the main kit than a standalone product.
