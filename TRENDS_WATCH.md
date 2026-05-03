@@ -18,6 +18,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Structured Portfolio Generation** · Using AI to generate a narrative-driven portfolio website from a resume, focusing on structure and copy. · flagged 2026-05-02 · last checked 2026-05-02 · [origin memo](trends/2026-05-02.md)
 - **Adaptive AI Fitness Coaching** · Using AI to create and adjust workout and nutrition plans in real-time based on performance data. · flagged 2026-05-02 · last checked 2026-05-02 · [origin memo](trends/2026-05-02.md)
 - **No-Code AI Agent Builders** · Platforms that enable non-technical users to build and deploy autonomous AI agents for business workflows. · flagged 2026-05-02 · last checked 2026-05-02 · [origin memo](trends/2026-05-02.md)
+- **Spec-Driven AI Development** · Writing machine-readable specs that AI agents use to generate production code directly. · flagged 2026-05-03 · last checked 2026-05-03 · [origin memo](trends/2026-05-03.md)
+- **AI-Generated Business Presentations** · Using AI to generate complete, structured slide decks from a single text prompt. · flagged 2026-05-03 · last checked 2026-05-03 · [origin memo](trends/2026-05-03.md)
+- **AI-Generated Brand Identity Systems** · Using AI to generate a full brand kit, including logos, colors, fonts, and guidelines. · flagged 2026-05-03 · last checked 2026-05-03 · [origin memo](trends/2026-05-03.md)
 
 
 ## ➡️ Active — plateauing
@@ -37,3 +40,5 @@ _(empty)_
 <!-- 2026-05-01 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-05-02 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-05-03 status-update directive: 🚀 | Conversational AI Language Tutors -->
