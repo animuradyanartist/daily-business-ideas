@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-04
+*   The "linguistic scaffold" pattern can be extended from human-to-human communication to human-to-AI communication. The core pain is the same: the user knows what they want but doesn't know the right words to get it.
+*   The "prompt pack" is a validated, high-leverage digital product format for a solo creator. It requires domain expertise but minimal technical overhead.
+*   When a new technology (like Generative AI) becomes mainstream, a primary market opportunity emerges in teaching professionals how to integrate it into their existing workflows effectively.
+
 ## 2026-05-03 (trends)
 -   The point of value is shifting from the *creation* of an artifact (a design, a slide, a logo) to the *codification* of the rules that allow an AI to create that artifact on demand. The most valuable skill is no longer execution, but direction.
 -   AI is collapsing multi-step, multi-role professional workflows (design -> spec -> code; strategy -> outline -> slide design) into single-player, single-prompt loops, creating a new class of "full-stack" solo operators.

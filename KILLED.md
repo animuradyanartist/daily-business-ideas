@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-04
+*   **The Design Brief & Project Scoping Kit.** — Killed: A strong, logical idea, but the AI prompt kit feels more timely and taps into a newer, higher-growth pain point.
+*   **The Usability Testing Kit.** — Killed: Too niche. Better as an expansion pack for the original UX Research Kit than a standalone product.
+*   **The "Getting Feedback" Kit.** — Killed: The pain is real, but the willingness to pay for a productized solution for this "soft skill" is less certain than for a productivity-enhancing tool like a prompt kit.
+*   **The "Design-to-Marketing" Handoff Kit.** — Killed: The pain point is less frequent and less universal than the pain of using AI tools, which is now a daily task for many designers.
+
 ## 2026-05-03
 *   **The Design System Documentation Kit.** — Killed: More niche. The buyer is likely a more senior designer or lead, making the market smaller and harder to reach than the more universal pain of project handoffs.
 *   **The Job Application "Wrapper" Kit (Resume/Cover Letter).** — Killed: Too similar to yesterday's portfolio idea. Better as a feature or bundle component than a standalone product.
