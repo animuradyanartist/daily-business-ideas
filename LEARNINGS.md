@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-04 (trends)
+-   AI is automating the "translation" layer between different professional domains: from creator-to-global-audience (dubbing), from code-to-human-readable-text (documentation), and from sales-conversation-to-performance-data (call analysis).
+-   The point of leverage is moving from creating the initial artifact (the video, the code, the sales pitch) to scaling its distribution and impact through AI-driven repurposing and analysis.
+-   For every professional workflow being automated by AI, a secondary opportunity is emerging to teach people how to use the automation tools more effectively.
+
+---
+
 ## 2026-05-04
 *   The "linguistic scaffold" pattern can be extended from human-to-human communication to human-to-AI communication. The core pain is the same: the user knows what they want but doesn't know the right words to get it.
 *   The "prompt pack" is a validated, high-leverage digital product format for a solo creator. It requires domain expertise but minimal technical overhead.

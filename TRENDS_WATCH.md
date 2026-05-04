@@ -21,6 +21,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **Spec-Driven AI Development** · Writing machine-readable specs that AI agents use to generate production code directly. · flagged 2026-05-03 · last checked 2026-05-03 · [origin memo](trends/2026-05-03.md)
 - **AI-Generated Business Presentations** · Using AI to generate complete, structured slide decks from a single text prompt. · flagged 2026-05-03 · last checked 2026-05-03 · [origin memo](trends/2026-05-03.md)
 - **AI-Generated Brand Identity Systems** · Using AI to generate a full brand kit, including logos, colors, fonts, and guidelines. · flagged 2026-05-03 · last checked 2026-05-03 · [origin memo](trends/2026-05-03.md)
+- **AI-Powered Language Dubbing for Creators** · Using AI voice cloning and translation to localize video content for global audiences. · flagged 2026-05-04 · last checked 2026-05-04 · [origin memo](trends/2026-05-04.md)
+- **AI-Generated Technical Documentation** · Using AI to automate the creation of software documentation directly from source code. · flagged 2026-05-04 · last checked 2026-05-04 · [origin memo](trends/2026-05-04.md)
+- **AI-Powered Sales Call Analysis** · Using AI to automatically transcribe, summarize, and analyze sales calls for coaching insights. · flagged 2026-05-04 · last checked 2026-05-04 · [origin memo](trends/2026-05-04.md)
 
 
 ## ➡️ Active — plateauing
@@ -42,3 +45,5 @@ _(empty)_
 <!-- 2026-05-02 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-05-03 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-05-04 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
