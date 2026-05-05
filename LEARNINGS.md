@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-05
+*   The `[Artifact] + [Linguistic Scaffold]` pattern can be applied directly to the core design deliverable (the UI itself), not just the communication surrounding it.
+*   As job roles blend (e.g., designer + writer), new product opportunities emerge to help professionals master the "intersection" of skills.
+*   For non-native speakers, the highest-anxiety moments are often about producing nuanced, creative text under pressure, which is a perfect gap for a toolkit to fill.
+
 ## 2026-05-04 (trends)
 -   AI is automating the "translation" layer between different professional domains: from creator-to-global-audience (dubbing), from code-to-human-readable-text (documentation), and from sales-conversation-to-performance-data (call analysis).
 -   The point of leverage is moving from creating the initial artifact (the video, the code, the sales pitch) to scaling its distribution and impact through AI-driven repurposing and analysis.

@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-05
+*   **The Design Leadership Kit.** — Killed: A strong idea, but targets a more senior, smaller market that may be harder to reach. The UX Writing kit addresses a more universal and immediate pain for the core product designer persona.
+*   **The Solopreneur's Branding Kit.** — Killed: Targets a different buyer (founders) who are often more price-sensitive and harder to convert than employed professionals looking to upskill.
+*   **Visual Storytelling for Non-Designers.** — Killed: The audience is too broad, and the pain point is less specific than the acute anxiety of writing UI copy in a second language.
+*   **The Canva Template Creator Starter Kit.** — Killed: Violates the "no get-rich-quick framings" constraint by entering the "make money online" space.
+
 ## 2026-05-04
 *   **The Design Brief & Project Scoping Kit.** — Killed: A strong, logical idea, but the AI prompt kit feels more timely and taps into a newer, higher-growth pain point.
 *   **The Usability Testing Kit.** — Killed: Too niche. Better as an expansion pack for the original UX Research Kit than a standalone product.
