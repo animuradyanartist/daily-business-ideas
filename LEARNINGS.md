@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-05 (trends)
+-   AI is automating niche, time-consuming writing tasks for non-writers. Designers are using AI for UI copy, and teachers are using it for quiz questions. The value is in providing a "good enough" first draft that the professional can then refine.
+-   The effectiveness of AI is now directly tied to the quality of its input data. In sales, generic personalization is failing, while signal-based personalization, which uses real-time data, is succeeding. This pattern applies across domains.
+-   For every professional workflow being impacted by AI, an opportunity is emerging to create "meta-products"—guides, prompt packs, and templates that teach people how to use the new AI tools more effectively.
+
+---
+
 ## 2026-05-05
 *   The `[Artifact] + [Linguistic Scaffold]` pattern can be applied directly to the core design deliverable (the UI itself), not just the communication surrounding it.
 *   As job roles blend (e.g., designer + writer), new product opportunities emerge to help professionals master the "intersection" of skills.

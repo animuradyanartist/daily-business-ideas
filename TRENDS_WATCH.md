@@ -24,6 +24,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Language Dubbing for Creators** · Using AI voice cloning and translation to localize video content for global audiences. · flagged 2026-05-04 · last checked 2026-05-04 · [origin memo](trends/2026-05-04.md)
 - **AI-Generated Technical Documentation** · Using AI to automate the creation of software documentation directly from source code. · flagged 2026-05-04 · last checked 2026-05-04 · [origin memo](trends/2026-05-04.md)
 - **AI-Powered Sales Call Analysis** · Using AI to automatically transcribe, summarize, and analyze sales calls for coaching insights. · flagged 2026-05-04 · last checked 2026-05-04 · [origin memo](trends/2026-05-04.md)
+- **AI-Powered UX Writing & UI Copy Generation** · Using AI plugins within design tools like Figma to generate context-aware interface copy. · flagged 2026-05-05 · last checked 2026-05-05 · [origin memo](trends/2026-05-05.md)
+- **Generative AI for Educational Assessments** · Using AI to automatically generate quizzes and tests from course materials. · flagged 2026-05-05 · last checked 2026-05-05 · [origin memo](trends/2026-05-05.md)
+- **Signal-Based AI Sales Personalization** · Using AI to personalize outreach based on real-time company signals instead of static data. · flagged 2026-05-05 · last checked 2026-05-05 · [origin memo](trends/2026-05-05.md)
 
 
 ## ➡️ Active — plateauing
@@ -47,3 +50,5 @@ _(empty)_
 <!-- 2026-05-03 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-05-04 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-05-05 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
