@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-06
+*   The non-native designer's communication pain extends beyond formal deliverables (presentations, handoffs) into the informal, high-stakes realm of internal team collaboration (critiques, feedback).
+*   "Soft skills" are highly monetizable when framed as a direct enabler of career progression and on-the-job effectiveness.
+*   The market validates demand for process templates (how to run a meeting) and communication courses (how to speak well) separately, creating a clear opportunity to merge them into a single, low-cost toolkit.
+
 ## 2026-05-05 (trends)
 -   AI is automating niche, time-consuming writing tasks for non-writers. Designers are using AI for UI copy, and teachers are using it for quiz questions. The value is in providing a "good enough" first draft that the professional can then refine.
 -   The effectiveness of AI is now directly tied to the quality of its input data. In sales, generic personalization is failing, while signal-based personalization, which uses real-time data, is succeeding. This pattern applies across domains.

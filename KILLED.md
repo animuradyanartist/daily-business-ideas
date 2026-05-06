@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-06
+*   **The Accessibility (A11y) Documentation Kit.** — Killed: Too niche for an initial product. Better as an expansion pack for the more general "Handoff Kit."
+*   **The "Side Project" Launch Kit for Designers.** — Killed: The buyer persona (designer-as-founder) is smaller and less defined than the core "employed product designer" audience.
+*   **The "Designer to Product Manager" Transition Kit.** — Killed: Targets a more senior, smaller market that is harder to reach and requires more domain expertise (in product management) to serve effectively.
+*   **The Visual Content Kit for Non-Designer Marketers.** — Killed: Moves away from the validated "non-native designer" buyer persona, increasing validation risk.
+
 ## 2026-05-05
 *   **The Design Leadership Kit.** — Killed: A strong idea, but targets a more senior, smaller market that may be harder to reach. The UX Writing kit addresses a more universal and immediate pain for the core product designer persona.
 *   **The Solopreneur's Branding Kit.** — Killed: Targets a different buyer (founders) who are often more price-sensitive and harder to convert than employed professionals looking to upskill.
