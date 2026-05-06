@@ -27,6 +27,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered UX Writing & UI Copy Generation** · Using AI plugins within design tools like Figma to generate context-aware interface copy. · flagged 2026-05-05 · last checked 2026-05-05 · [origin memo](trends/2026-05-05.md)
 - **Generative AI for Educational Assessments** · Using AI to automatically generate quizzes and tests from course materials. · flagged 2026-05-05 · last checked 2026-05-05 · [origin memo](trends/2026-05-05.md)
 - **Signal-Based AI Sales Personalization** · Using AI to personalize outreach based on real-time company signals instead of static data. · flagged 2026-05-05 · last checked 2026-05-05 · [origin memo](trends/2026-05-05.md)
+- **AI-Powered Communication Coaching** · Using AI platforms to practice and get data-driven feedback on soft skills like public speaking and negotiation. · flagged 2026-05-06 · last checked 2026-05-06 · [origin memo](trends/2026-05-06.md)
+- **AI-Automated Meeting Workflows** · Using AI to connect meeting notes to action items, tasks in project management tools, and CRM updates. · flagged 2026-05-06 · last checked 2026-05-06 · [origin memo](trends/2026-05-06.md)
+- **Integrated AI Research Environments** · Using all-in-one platforms that combine AI-powered discovery, analysis, and writing tools for academic research. · flagged 2026-05-06 · last checked 2026-05-06 · [origin memo](trends/2026-05-06.md)
 
 
 ## ➡️ Active — plateauing
@@ -52,3 +55,5 @@ _(empty)_
 <!-- 2026-05-04 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-05-05 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
+
+<!-- 2026-05-06 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-06 (trends)
+-   The primary value of AI is shifting from performing a single task (transcribing, summarizing) to automating an entire multi-step professional workflow (the meeting lifecycle, the research process).
+-   For every professional role, a market is emerging for AI-powered "coaches" that provide a private, scalable way to practice and improve core skills like communication and presentation.
+-   The most successful AI tools are those that deeply integrate with a user's existing systems (CRM, project management, reference managers), reducing friction rather than creating a new, isolated data silo.
+
+---
+
 ## 2026-05-06
 *   The non-native designer's communication pain extends beyond formal deliverables (presentations, handoffs) into the informal, high-stakes realm of internal team collaboration (critiques, feedback).
 *   "Soft skills" are highly monetizable when framed as a direct enabler of career progression and on-the-job effectiveness.
