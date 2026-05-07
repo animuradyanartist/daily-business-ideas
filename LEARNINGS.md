@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-07 (trends)
+-   AI is automating the creation of "foundational artifacts" in professional workflows—the personas, journey maps, and contracts that precede the core execution work. The value is in creating a solid, structured starting point faster.
+-   For every professional role, a market is emerging for AI tools that act as a "sparring partner" or "auditor," providing instant, objective feedback that was previously only available from a human peer.
+-   The most valuable "meta-products" are no longer just prompt packs, but "structuring kits"—templates and guides that teach users how to organize their raw inputs *before* they even get to the prompt, ensuring higher-quality AI output.
+
+---
+
 ## 2026-05-07
 *   The highest-anxiety moments for a professional are often live, high-stakes, public performances (critiques, presentations, workshops). These are prime opportunities for productization.
 *   A validated market for process templates (the "what") is a strong signal for an opportunity to sell the linguistic script (the "how").

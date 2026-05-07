@@ -30,6 +30,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Communication Coaching** · Using AI platforms to practice and get data-driven feedback on soft skills like public speaking and negotiation. · flagged 2026-05-06 · last checked 2026-05-06 · [origin memo](trends/2026-05-06.md)
 - **AI-Automated Meeting Workflows** · Using AI to connect meeting notes to action items, tasks in project management tools, and CRM updates. · flagged 2026-05-06 · last checked 2026-05-06 · [origin memo](trends/2026-05-06.md)
 - **Integrated AI Research Environments** · Using all-in-one platforms that combine AI-powered discovery, analysis, and writing tools for academic research. · flagged 2026-05-06 · last checked 2026-05-06 · [origin memo](trends/2026-05-06.md)
+- **AI-Powered Design Critique & Validation** · Using AI to automatically audit UI designs for heuristic and accessibility issues. · flagged 2026-05-07 · last checked 2026-05-07 · [origin memo](trends/2026-05-07.md)
+- **AI-Generated UX Artifacts (Personas & Journey Maps)** · Using AI to automate the creation of user personas and journey maps from raw research data. · flagged 2026-05-07 · last checked 2026-05-07 · [origin memo](trends/2026-05-07.md)
+- **AI Contract Generation for Freelancers & Solo Businesses** · Using AI to generate customized legal agreements from natural language prompts. · flagged 2026-05-07 · last checked 2026-05-07 · [origin memo](trends/2026-05-07.md)
 
 
 ## ➡️ Active — plateauing
@@ -57,3 +60,5 @@ _(empty)_
 <!-- 2026-05-05 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-05-06 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-05-07 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
