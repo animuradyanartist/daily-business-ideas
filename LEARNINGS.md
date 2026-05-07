@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-07
+*   The highest-anxiety moments for a professional are often live, high-stakes, public performances (critiques, presentations, workshops). These are prime opportunities for productization.
+*   A validated market for process templates (the "what") is a strong signal for an opportunity to sell the linguistic script (the "how").
+*   Pain expressed in visceral, emotional language on Reddit ("I faked a weak network connection and disconnected") is one of the strongest possible signals for a monetizable problem.
+
 ## 2026-05-06 (trends)
 -   The primary value of AI is shifting from performing a single task (transcribing, summarizing) to automating an entire multi-step professional workflow (the meeting lifecycle, the research process).
 -   For every professional role, a market is emerging for AI-powered "coaches" that provide a private, scalable way to practice and improve core skills like communication and presentation.

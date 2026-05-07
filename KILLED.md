@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-07
+*   **The Freelance Client Onboarding Kit.** — Killed: Strong idea, but the workshop facilitator kit targets a more acute, event-driven pain point that is a novel extension of the existing product strategy.
+*   **The Design System Contribution Kit.** — Killed: Too niche and targets a more senior audience. Workshop facilitation is a more universal skill across different levels of seniority.
+*   **The "Internal Pitch" Kit (for getting design buy-in).** — Killed: Overlaps too much with the previously explored "Design Presentation" and "Design Critique" kits. Workshops are a distinct and underserved activity.
+
 ## 2026-05-06
 *   **The Accessibility (A11y) Documentation Kit.** — Killed: Too niche for an initial product. Better as an expansion pack for the more general "Handoff Kit."
 *   **The "Side Project" Launch Kit for Designers.** — Killed: The buyer persona (designer-as-founder) is smaller and less defined than the core "employed product designer" audience.
