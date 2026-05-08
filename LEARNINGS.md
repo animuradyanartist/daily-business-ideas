@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-08 (trends)
+-   AI is enabling a new class of "intelligence" products that automate the work of a human analyst, whether it's for competitive intelligence, financial planning, or market research.
+-   The primary business opportunity is shifting from just providing the AI tool to providing the "scaffolding" around it—the educational content, templates, and workflows that teach people how to use the tool to achieve a specific business or personal outcome.
+-   For every high-cost professional service (video production, market analysis, financial advice), an AI-powered alternative is emerging that is 10x cheaper and faster, creating entirely new markets of users who were previously priced out.
+
+---
+
 ## 2026-05-08
 *   The `[High-Stakes Live Performance] + [Linguistic Scaffold]` is a repeatable and potent product pattern for the non-native professional audience.
 *   A validated market for expensive, high-end training (like NN/g courses at $1000+) is a strong signal for a profitable opportunity for a low-cost, self-serve toolkit ($39).

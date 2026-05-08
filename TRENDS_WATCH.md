@@ -33,6 +33,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Design Critique & Validation** · Using AI to automatically audit UI designs for heuristic and accessibility issues. · flagged 2026-05-07 · last checked 2026-05-07 · [origin memo](trends/2026-05-07.md)
 - **AI-Generated UX Artifacts (Personas & Journey Maps)** · Using AI to automate the creation of user personas and journey maps from raw research data. · flagged 2026-05-07 · last checked 2026-05-07 · [origin memo](trends/2026-05-07.md)
 - **AI Contract Generation for Freelancers & Solo Businesses** · Using AI to generate customized legal agreements from natural language prompts. · flagged 2026-05-07 · last checked 2026-05-07 · [origin memo](trends/2026-05-07.md)
+- **AI-Generated Video for Marketing** · Using generative AI tools to create short-form marketing and social media videos from text prompts. · flagged 2026-05-08 · last checked 2026-05-08 · [origin memo](trends/2026-05-08.md)
+- **AI-Powered Competitive Intelligence** · Using AI platforms to automatically monitor and analyze competitor activities. · flagged 2026-05-08 · last checked 2026-05-08 · [origin memo](trends/2026-05-08.md)
+- **AI-Powered Personal Financial Planning** · Using AI apps for personalized financial advice and automated money management. · flagged 2026-05-08 · last checked 2026-05-08 · [origin memo](trends/2026-05-08.md)
 
 
 ## ➡️ Active — plateauing
@@ -62,3 +65,5 @@ _(empty)_
 <!-- 2026-05-06 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-05-07 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-05-08 status-update directive: 🚀 | Generative Music for Creator Content -->
