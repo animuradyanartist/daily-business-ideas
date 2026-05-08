@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-08
+*   **The Design Job Interview Kit.** — Killed: Market is crowded with interview prep courses and coaches. The buyer (job seeker) may have a lower ability to pay than an employed professional.
+*   **The Stakeholder Management Kit.** — Killed: The "problem" is too continuous and ill-defined. It's harder to package into a discrete, event-based toolkit compared to an interview or workshop.
+*   **The Freelance Creative Brief Kit.** — Killed: Targets a different buyer persona (freelancers) than the recent successful ideas (in-house designers), which would require building a new audience.
+*   **The A/B Test Results Presentation Kit.** — Killed: Too niche. Not all designers are involved in quantitative testing, whereas user interviews are a more foundational skill.
+
 ## 2026-05-07
 *   **The Freelance Client Onboarding Kit.** — Killed: Strong idea, but the workshop facilitator kit targets a more acute, event-driven pain point that is a novel extension of the existing product strategy.
 *   **The Design System Contribution Kit.** — Killed: Too niche and targets a more senior audience. Workshop facilitation is a more universal skill across different levels of seniority.

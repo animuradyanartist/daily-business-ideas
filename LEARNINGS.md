@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-08
+*   The `[High-Stakes Live Performance] + [Linguistic Scaffold]` is a repeatable and potent product pattern for the non-native professional audience.
+*   A validated market for expensive, high-end training (like NN/g courses at $1000+) is a strong signal for a profitable opportunity for a low-cost, self-serve toolkit ($39).
+*   The most acute pain points are often not about the core artifact (the design) but about the communication and interpersonal challenges surrounding it.
+
 ## 2026-05-07 (trends)
 -   AI is automating the creation of "foundational artifacts" in professional workflows—the personas, journey maps, and contracts that precede the core execution work. The value is in creating a solid, structured starting point faster.
 -   For every professional role, a market is emerging for AI tools that act as a "sparring partner" or "auditor," providing instant, objective feedback that was previously only available from a human peer.
