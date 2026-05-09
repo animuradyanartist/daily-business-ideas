@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-09 (trends)
+-   AI is automating entire "life cycle" workflows for individuals, not just discrete business tasks. The job application process—from discovery to submission—is now being managed as a single, continuous AI-driven campaign.
+-   The value of AI is moving up the stack from *execution* (making a chart) to *synthesis* (explaining what the chart means). The most valuable tools are those that provide narrative and insight, not just raw output.
+-   For every process that AI automates (writing documentation, applying for jobs), a secondary market is emerging for "human-in-the-loop" services that provide the final 10% of quality control and strategic refinement.
+
+---
+
 ## 2026-05-09
 *   After solving the pain of a live performance (the interview), the next logical pain point is in processing and communicating the results of that performance.
 *   The market for visual templates (presentations, reports) is highly validated at low price points, creating a perfect opportunity to add a high-value "linguistic/structural" layer on top.

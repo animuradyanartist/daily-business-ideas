@@ -36,6 +36,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Generated Video for Marketing** · Using generative AI tools to create short-form marketing and social media videos from text prompts. · flagged 2026-05-08 · last checked 2026-05-08 · [origin memo](trends/2026-05-08.md)
 - **AI-Powered Competitive Intelligence** · Using AI platforms to automatically monitor and analyze competitor activities. · flagged 2026-05-08 · last checked 2026-05-08 · [origin memo](trends/2026-05-08.md)
 - **AI-Powered Personal Financial Planning** · Using AI apps for personalized financial advice and automated money management. · flagged 2026-05-08 · last checked 2026-05-08 · [origin memo](trends/2026-05-08.md)
+- **AI-Powered Job Application Automation** · Using AI platforms to manage the entire job application workflow, from discovery to submission. · flagged 2026-05-09 · last checked 2026-05-09 · [origin memo](trends/2026-05-09.md)
+- **AI-Driven Data Storytelling** · Using AI to automatically generate reports with written narratives and insights from raw data. · flagged 2026-05-09 · last checked 2026-05-09 · [origin memo](trends/2026-05-09.md)
+- **AI-Generated User Manuals & How-To Guides** · Using AI to create step-by-step support documentation from screen recordings. · flagged 2026-05-09 · last checked 2026-05-09 · [origin memo](trends/2026-05-09.md)
 
 
 ## ➡️ Active — plateauing
@@ -67,3 +70,5 @@ _(empty)_
 <!-- 2026-05-07 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-05-08 status-update directive: 🚀 | Generative Music for Creator Content -->
+
+<!-- 2026-05-09 status-update directive: 🚀 | AI as a Thought Partner -->
