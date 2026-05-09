@@ -10,6 +10,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-05-09 — The Research Synthesis & Storytelling Kit — high
 - 2026-05-08 — trend forecast — AI-Generated Video for Marketing +2 more
 - 2026-05-08 — The User Interview Kit for Non-Native Designers — high
 - 2026-05-07 — trend forecast — AI-Powered Design Critique & Validation +2 more

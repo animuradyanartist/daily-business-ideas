@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-09
+*   After solving the pain of a live performance (the interview), the next logical pain point is in processing and communicating the results of that performance.
+*   The market for visual templates (presentations, reports) is highly validated at low price points, creating a perfect opportunity to add a high-value "linguistic/structural" layer on top.
+*   The pain of "being ignored" is a powerful motivator. Products that help professionals get their ideas heard and acted upon are selling influence, which is a higher-value proposition than just selling efficiency.
+
 ## 2026-05-08 (trends)
 -   AI is enabling a new class of "intelligence" products that automate the work of a human analyst, whether it's for competitive intelligence, financial planning, or market research.
 -   The primary business opportunity is shifting from just providing the AI tool to providing the "scaffolding" around it—the educational content, templates, and workflows that teach people how to use the tool to achieve a specific business or personal outcome.

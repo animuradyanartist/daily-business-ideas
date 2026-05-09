@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-09
+*   **The Usability Testing Kit.** — Killed: A very strong and logical next step, but the Synthesis & Storytelling kit solves a higher-level strategic pain (influence and impact) that is a more powerful value proposition than moderating another type of research session.
+*   **The "Managing Scope Creep" Kit.** — Killed: The pain is real, but it's a reactive, defensive skill. Research storytelling is a proactive, offensive skill that more directly leads to career growth and leadership opportunities.
+*   **The Design System Documentation Kit.** — Killed: Too niche. More designers are involved in presenting research than in writing documentation for a mature design system.
+*   **The "Asking for a Promotion" Kit.** — Killed: The event is too infrequent. A designer presents research findings quarterly or monthly; they ask for a promotion annually at best.
+
 ## 2026-05-08
 *   **The Design Job Interview Kit.** — Killed: Market is crowded with interview prep courses and coaches. The buyer (job seeker) may have a lower ability to pay than an employed professional.
 *   **The Stakeholder Management Kit.** — Killed: The "problem" is too continuous and ill-defined. It's harder to package into a discrete, event-based toolkit compared to an interview or workshop.
