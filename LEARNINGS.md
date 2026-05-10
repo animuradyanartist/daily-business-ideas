@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-10 (trends)
+-   The most persistent pain points for professionals are often not in the core craft (designing, teaching), but in the "meta-work" that surrounds it (proposals, curriculum planning, project management).
+-   A validated market for generic professional software (e.g., project management) is a strong signal for a profitable niche version (e.g., project management *for designers*).
+-   Products that sell "control" and "reduced stress" over high-stakes, time-consuming tasks have a powerful emotional value proposition, potentially more so than products that just sell "efficiency."
+
+---
+
 ## 2026-05-10
 *   The most persistent pain points for professionals are often not in the core craft (designing), but in the "meta-work" that surrounds it (planning, communicating, negotiating).
 *   A validated market for generic templates (project management) is a strong signal for a profitable niche version (project management *for designers*).

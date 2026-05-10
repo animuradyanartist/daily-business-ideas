@@ -39,6 +39,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Job Application Automation** · Using AI platforms to manage the entire job application workflow, from discovery to submission. · flagged 2026-05-09 · last checked 2026-05-09 · [origin memo](trends/2026-05-09.md)
 - **AI-Driven Data Storytelling** · Using AI to automatically generate reports with written narratives and insights from raw data. · flagged 2026-05-09 · last checked 2026-05-09 · [origin memo](trends/2026-05-09.md)
 - **AI-Generated User Manuals & How-To Guides** · Using AI to create step-by-step support documentation from screen recordings. · flagged 2026-05-09 · last checked 2026-05-09 · [origin memo](trends/2026-05-09.md)
+- **AI-Generated Business Proposals & RFP Responses** · Using AI to automate the creation of proposals and responses to client RFPs. · flagged 2026-05-10 · last checked 2026-05-10 · [origin memo](trends/2026-05-10.md)
+- **AI-Powered Curriculum Design & Course Building** · Using AI to generate a complete, structured course from a collection of unstructured content. · flagged 2026-05-10 · last checked 2026-05-10 · [origin memo](trends/2026-05-10.md)
+- **AI-Powered Project Management for Creative Teams** · Using AI to automate the planning, task management, and status reporting for creative projects. · flagged 2026-05-10 · last checked 2026-05-10 · [origin memo](trends/2026-05-10.md)
 
 
 ## ➡️ Active — plateauing
@@ -72,3 +75,5 @@ _(empty)_
 <!-- 2026-05-08 status-update directive: 🚀 | Generative Music for Creator Content -->
 
 <!-- 2026-05-09 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-05-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->
