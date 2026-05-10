@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-10
+*   The most persistent pain points for professionals are often not in the core craft (designing), but in the "meta-work" that surrounds it (planning, communicating, negotiating).
+*   A validated market for generic templates (project management) is a strong signal for a profitable niche version (project management *for designers*).
+*   Products that sell "control" and "reduced stress" have a powerful emotional value proposition, potentially even more so than products that sell "efficiency" or "influence."
+
 ## 2026-05-09 (trends)
 -   AI is automating entire "life cycle" workflows for individuals, not just discrete business tasks. The job application process—from discovery to submission—is now being managed as a single, continuous AI-driven campaign.
 -   The value of AI is moving up the stack from *execution* (making a chart) to *synthesis* (explaining what the chart means). The most valuable tools are those that provide narrative and insight, not just raw output.
