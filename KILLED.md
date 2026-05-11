@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-11
+*   **The Design Proposal & Scoping Kit.** — Killed: A strong idea, but targets a freelance persona, which is a slight departure from the validated "in-house product designer" audience of recent ideas.
+*   **The Designer's "Brag Document" & Performance Review Kit.** — Killed: Re-confirming a previous decision. The core event (performance review) is too infrequent, making it hard to build urgency and recurring relevance.
+*   **The Creative Brief & Project Kickoff Kit.** — Killed: A solid idea, but the handoff process is a higher-frequency pain point (happens every sprint) compared to a project kickoff (happens once per project).
+
 ## 2026-05-10
 *   **The "Getting Things Built" Kit (Advanced Handoff).** — Killed: A strong idea, but project and stakeholder management is a higher-frequency, more universal pain point that happens throughout the entire project lifecycle, not just during the build phase.
 *   **The Design System Contribution & Advocacy Kit.** — Killed: Re-confirming a previous decision. The market is too niche and targets a more senior designer, making it harder to reach and validate for an initial product.
