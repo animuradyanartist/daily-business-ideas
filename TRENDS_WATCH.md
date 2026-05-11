@@ -42,6 +42,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Generated Business Proposals & RFP Responses** · Using AI to automate the creation of proposals and responses to client RFPs. · flagged 2026-05-10 · last checked 2026-05-10 · [origin memo](trends/2026-05-10.md)
 - **AI-Powered Curriculum Design & Course Building** · Using AI to generate a complete, structured course from a collection of unstructured content. · flagged 2026-05-10 · last checked 2026-05-10 · [origin memo](trends/2026-05-10.md)
 - **AI-Powered Project Management for Creative Teams** · Using AI to automate the planning, task management, and status reporting for creative projects. · flagged 2026-05-10 · last checked 2026-05-10 · [origin memo](trends/2026-05-10.md)
+- **Generative AI for E-commerce Product Photography** · Using AI to create studio-quality product photos and lifestyle scenes from a single image. · flagged 2026-05-11 · last checked 2026-05-11 · [origin memo](trends/2026-05-11.md)
+- **AI-Automated Public Relations & Media Outreach** · Using AI platforms to identify journalists, generate pitches, and draft press releases. · flagged 2026-05-11 · last checked 2026-05-11 · [origin memo](trends/2026-05-11.md)
+- **AI-Powered Market Research Automation** · Using AI to manage the end-to-end market research process, from survey generation to insights reporting. · flagged 2026-05-11 · last checked 2026-05-11 · [origin memo](trends/2026-05-11.md)
 
 
 ## ➡️ Active — plateauing
@@ -77,3 +80,5 @@ _(empty)_
 <!-- 2026-05-09 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-05-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-05-11 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->

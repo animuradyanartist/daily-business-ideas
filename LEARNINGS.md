@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-11 (trends)
+-   AI is automating entire professional "services" that were previously inaccessible to small businesses due to cost and complexity, such as product photography, public relations, and market research.
+-   The value proposition of new AI tools is increasingly focused on automating the full "lifecycle" of a business task—from creation (survey design, photo generation) to distribution (media outreach) and analysis (research reports).
+-   For every professional workflow being automated by AI, a secondary market is emerging for educational "scaffolding"—digital products that teach non-experts how to strategically manage and interpret the outputs of these powerful new tools.
+
+---
+
 ## 2026-05-11
 *   The design workflow can be systematically "productized" by identifying each high-friction communication point (critique, workshop, interview, synthesis, management, handoff) and applying the `[Artifact] + [Linguistic Scaffold]` pattern.
 *   The launch of a major platform feature (like Figma's Dev Mode) can create new product opportunities by solving one part of a problem and, in doing so, making the remaining, unsolved parts more obvious and painful.
