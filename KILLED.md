@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-12
+*   **The "Visual Bug Report" Kit.** — Killed: A logical next step in the design workflow, but the emotional driver is weaker. A product launch is about achieving an upside (sales, recognition), while bug reporting is about mitigating a downside (fixing errors). The upside is a stronger motivator to buy.
+*   **The Design System Advocacy Kit.** — Killed: Re-confirming a previous decision. The market is too niche and targets a senior designer, making it harder to reach and validate for an initial product.
+*   **The English Teacher's Canva Kit.** — Killed: Re-confirming a previous decision. The buyer persona (teachers) likely has a lower willingness to pay than tech solopreneurs.
+*   **The "Post-Launch Analytics" Kit.** — Killed: Moves into data analysis, which is a step away from the founder's core design and communication skills. The launch itself is a more acute pain point.
+
 ## 2026-05-11
 *   **The Design Proposal & Scoping Kit.** — Killed: A strong idea, but targets a freelance persona, which is a slight departure from the validated "in-house product designer" audience of recent ideas.
 *   **The Designer's "Brag Document" & Performance Review Kit.** — Killed: Re-confirming a previous decision. The core event (performance review) is too infrequent, making it hard to build urgency and recurring relevance.

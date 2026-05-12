@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-12
+*   The `[Artifact] + [Linguistic Scaffold]` pattern is portable from the "in-house employee" to the "solo business owner" persona.
+*   The most powerful products solve problems that occur at moments of maximum leverage and anxiety, such as a public product launch.
+*   Targeting a market of peers (in this case, other solo creators) can be a powerful advantage, as the founder's own experience provides deep empathy and credibility.
+
 ## 2026-05-11 (trends)
 -   AI is automating entire professional "services" that were previously inaccessible to small businesses due to cost and complexity, such as product photography, public relations, and market research.
 -   The value proposition of new AI tools is increasingly focused on automating the full "lifecycle" of a business task—from creation (survey design, photo generation) to distribution (media outreach) and analysis (research reports).
