@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-12 (trends)
+-   The `[High-Stakes Moment] + [AI-Generated Strategic Plan]` is a potent pattern. AI is moving up the value chain from creating assets (a blog post) to creating the entire strategy for high-anxiety events like a product launch.
+-   AI is enabling a shift from reactive business functions (waiting for a support ticket) to proactive ones (anticipating a customer's problem). The value is in solving problems before they happen.
+-   For every professional role that involves managing a group of people (customers, community members), an AI tool is emerging to automate the routine communication and moderation, allowing the human to focus on higher-value relationships.
+
+---
+
 ## 2026-05-12
 *   The `[Artifact] + [Linguistic Scaffold]` pattern is portable from the "in-house employee" to the "solo business owner" persona.
 *   The most powerful products solve problems that occur at moments of maximum leverage and anxiety, such as a public product launch.
