@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-13
+*   **The Cold Outreach Kit.** — Killed: A very strong candidate, but proposals are a higher-intent moment. The client has already expressed interest, making the proposal the critical step to close the deal. It's a slightly more acute pain point than initial outreach.
+*   **The Creator Collaboration Kit.** — Killed: The financial ROI is less direct than for a proposal that wins a paid project, making it a harder sell.
+*   **The Community Engagement Kit.** — Killed: A logical post-launch product, but it serves a user who has already achieved some success. The proposal kit targets the more desperate user who is still trying to secure income.
+*   **The Personal Website Copy & Design Kit.** — Killed: Re-confirming a prior decision. The market is saturated with free website templates. While a copy-first approach is a good angle, the proposal is a higher-leverage, recurring business activity.
+
 ## 2026-05-12
 *   **The "Visual Bug Report" Kit.** — Killed: A logical next step in the design workflow, but the emotional driver is weaker. A product launch is about achieving an upside (sales, recognition), while bug reporting is about mitigating a downside (fixing errors). The upside is a stronger motivator to buy.
 *   **The Design System Advocacy Kit.** — Killed: Re-confirming a previous decision. The market is too niche and targets a senior designer, making it harder to reach and validate for an initial product.

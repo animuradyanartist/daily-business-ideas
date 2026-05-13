@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-13
+*   The `[Artifact] + [Linguistic Scaffold]` pattern is highly effective when applied to moments of direct financial transaction, like sending a proposal.
+*   The freelancer/solopreneur is a validated buyer persona with intense, recurring anxieties around sales, pricing, and communication that they are willing to pay to solve.
+*   A validated market for expensive SaaS tools (like Proposify at $20/mo) is a strong signal for a profitable opportunity for a low-cost, one-time-purchase toolkit.
+
 ## 2026-05-12 (trends)
 -   The `[High-Stakes Moment] + [AI-Generated Strategic Plan]` is a potent pattern. AI is moving up the value chain from creating assets (a blog post) to creating the entire strategy for high-anxiety events like a product launch.
 -   AI is enabling a shift from reactive business functions (waiting for a support ticket) to proactive ones (anticipating a customer's problem). The value is in solving problems before they happen.
