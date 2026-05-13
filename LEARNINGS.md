@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-13 (trends)
+-   AI is enabling a new category of "life-scaffolding" products. Whether it's planning a career, writing a novel, or creating a children's book, AI is being used to provide structure and consistency to complex, long-term personal projects.
+-   The value proposition of AI is increasingly about deep personalization. The most compelling new tools are those that can incorporate a user's unique context—their appearance, their career history, their fictional canon—to generate truly bespoke outputs.
+-   For every AI tool that automates a creative or strategic process, a secondary market is emerging for "structuring kits"—templates and guides that teach users how to organize their inputs to get higher-quality, more consistent results from the AI.
+
+---
+
 ## 2026-05-13
 *   The `[Artifact] + [Linguistic Scaffold]` pattern is highly effective when applied to moments of direct financial transaction, like sending a proposal.
 *   The freelancer/solopreneur is a validated buyer persona with intense, recurring anxieties around sales, pricing, and communication that they are willing to pay to solve.

@@ -48,6 +48,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Go-to-Market Strategy Generation** · Using AI to generate a complete product launch plan, from market analysis to channel strategy. · flagged 2026-05-12 · last checked 2026-05-12 · [origin memo](trends/2026-05-12.md)
 - **AI-Powered Proactive Customer Support** · Using AI to anticipate customer issues and initiate contact before a support ticket is created. · flagged 2026-05-12 · last checked 2026-05-12 · [origin memo](trends/2026-05-12.md)
 - **AI-Powered Community Management** · Using AI to automate moderation, content creation, and member engagement in online communities. · flagged 2026-05-12 · last checked 2026-05-12 · [origin memo](trends/2026-05-12.md)
+- **AI-Powered Career Roadmapping** · Using AI to generate personalized, step-by-step career development plans. · flagged 2026-05-13 · last checked 2026-05-13 · [origin memo](trends/2026-05-13.md)
+- **AI-Assisted World-Building for Fiction** · Using specialized AI tools to manage and maintain narrative consistency in complex fictional worlds. · flagged 2026-05-13 · last checked 2026-05-13 · [origin memo](trends/2026-05-13.md)
+- **AI-Generated Personalized Children's Stories** · Using AI to create custom storybooks with illustrations featuring a child as the main character. · flagged 2026-05-13 · last checked 2026-05-13 · [origin memo](trends/2026-05-13.md)
 
 
 ## ➡️ Active — plateauing
@@ -87,3 +90,5 @@ _(empty)_
 <!-- 2026-05-11 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
 
 <!-- 2026-05-12 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-05-13 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
