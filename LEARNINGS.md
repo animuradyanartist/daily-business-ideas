@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-14 (trends)
+- The freelancer workflow is a linear, monetizable journey: Win the Work -> **Start the Work** -> Do the Work -> End the Work. Each stage has high-stakes communication moments perfect for the `[Artifact] + [Linguistic Scaffold]` pattern.
+- The existence of high-priced B2B SaaS validates the pain for a low-cost, one-time-purchase B2C product. If businesses pay hundreds per month for grant-writing software, a non-profit will pay $39 once for a toolkit that helps them use it.
+- A "welcome packet" or "onboarding kit" is a perfect product for a designer founder. It leverages their core visual design skills while serving a clear business need for professionalism and efficiency.
+
+---
+
 ## 2026-05-14
 *   The freelancer workflow is a linear, monetizable journey: Win the Work -> **Start the Work** -> Do the Work -> End the Work. Each stage has high-stakes communication moments perfect for the `[Artifact] + [Linguistic Scaffold]` pattern.
 *   The existence of high-priced B2B SaaS validates the pain for a low-cost, one-time-purchase B2C product. If businesses pay $40/month for a problem, a solo operator will pay $39 once for a slice of that solution.

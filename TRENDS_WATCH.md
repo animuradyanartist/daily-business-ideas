@@ -51,6 +51,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Career Roadmapping** · Using AI to generate personalized, step-by-step career development plans. · flagged 2026-05-13 · last checked 2026-05-13 · [origin memo](trends/2026-05-13.md)
 - **AI-Assisted World-Building for Fiction** · Using specialized AI tools to manage and maintain narrative consistency in complex fictional worlds. · flagged 2026-05-13 · last checked 2026-05-13 · [origin memo](trends/2026-05-13.md)
 - **AI-Generated Personalized Children's Stories** · Using AI to create custom storybooks with illustrations featuring a child as the main character. · flagged 2026-05-13 · last checked 2026-05-13 · [origin memo](trends/2026-05-13.md)
+- **AI-Generated Client Onboarding Kits** · Using AI to automate the creation of welcome packets, timelines, and checklists for new clients. · flagged 2026-05-14 · last checked 2026-05-14 · [origin memo](trends/2026-05-14.md)
+- **AI-Powered Grant Proposal Writing** · Using purpose-built AI platforms to manage the full grant-seeking lifecycle, from discovery to submission. · flagged 2026-05-14 · last checked 2026-05-14 · [origin memo](trends/2026-05-14.md)
+- **AI Legal Document Generation for Creators** · Using AI tools to generate standardized contracts for brand sponsorships and collaborations. · flagged 2026-05-14 · last checked 2026-05-14 · [origin memo](trends/2026-05-14.md)
 
 
 ## ➡️ Active — plateauing
@@ -92,3 +95,5 @@ _(empty)_
 <!-- 2026-05-12 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-05-13 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-05-14 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
