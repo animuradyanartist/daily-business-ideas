@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-14
+*   The freelancer workflow is a linear, monetizable journey: Win the Work -> **Start the Work** -> Do the Work -> End the Work. Each stage has high-stakes communication moments perfect for the `[Artifact] + [Linguistic Scaffold]` pattern.
+*   The existence of high-priced B2B SaaS validates the pain for a low-cost, one-time-purchase B2C product. If businesses pay $40/month for a problem, a solo operator will pay $39 once for a slice of that solution.
+*   A "welcome packet" is a perfect product for a designer founder. It leverages their core visual design skills while serving a clear business need.
+
 ## 2026-05-13 (trends)
 -   AI is enabling a new category of "life-scaffolding" products. Whether it's planning a career, writing a novel, or creating a children's book, AI is being used to provide structure and consistency to complex, long-term personal projects.
 -   The value proposition of AI is increasingly about deep personalization. The most compelling new tools are those that can incorporate a user's unique context—their appearance, their career history, their fictional canon—to generate truly bespoke outputs.

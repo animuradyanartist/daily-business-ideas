@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-14
+*   **The "Get Paid & Get Testimonials" Offboarding Kit.** — Killed: The pain points are valid but less acute than onboarding. Invoicing is largely solved by payment platforms, and asking for testimonials is a softer problem.
+*   **The "Managing Difficult Client Feedback" Kit.** — Killed: Overlaps too much with the previously explored "Design Project Control Kit." It's a feature of client management, not a standalone product for this system.
+*   **The Non-Native YouTuber's Starter Kit.** — Killed: Moves away from the validated freelancer/solopreneur persona. It would require building a new audience and testing a different market, increasing risk.
+*   **The Contract Template Kit.** — Killed: Violates the "no regulated industries" constraint by entering the legal space. The risk is too high.
+
 ## 2026-05-13
 *   **The Cold Outreach Kit.** — Killed: A very strong candidate, but proposals are a higher-intent moment. The client has already expressed interest, making the proposal the critical step to close the deal. It's a slightly more acute pain point than initial outreach.
 *   **The Creator Collaboration Kit.** — Killed: The financial ROI is less direct than for a proposal that wins a paid project, making it a harder sell.
