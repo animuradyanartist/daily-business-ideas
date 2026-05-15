@@ -54,6 +54,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Generated Client Onboarding Kits** · Using AI to automate the creation of welcome packets, timelines, and checklists for new clients. · flagged 2026-05-14 · last checked 2026-05-14 · [origin memo](trends/2026-05-14.md)
 - **AI-Powered Grant Proposal Writing** · Using purpose-built AI platforms to manage the full grant-seeking lifecycle, from discovery to submission. · flagged 2026-05-14 · last checked 2026-05-14 · [origin memo](trends/2026-05-14.md)
 - **AI Legal Document Generation for Creators** · Using AI tools to generate standardized contracts for brand sponsorships and collaborations. · flagged 2026-05-14 · last checked 2026-05-14 · [origin memo](trends/2026-05-14.md)
+- **AI-Generated Pitch Decks for Fundraising** · Using AI to generate structured investor presentations from a text prompt. · flagged 2026-05-15 · last checked 2026-05-15 · [origin memo](trends/2026-05-15.md)
+- **AI-Powered Brand Reputation & Sentiment Monitoring** · Using AI to track and analyze brand mentions and public sentiment in real-time. · flagged 2026-05-15 · last checked 2026-05-15 · [origin memo](trends/2026-05-15.md)
+- **AI-Automated Client & Employee Offboarding** · Using AI to manage the administrative workflows for ending client projects and employee tenure. · flagged 2026-05-15 · last checked 2026-05-15 · [origin memo](trends/2026-05-15.md)
 
 
 ## ➡️ Active — plateauing
@@ -97,3 +100,5 @@ _(empty)_
 <!-- 2026-05-13 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-05-14 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
+
+<!-- 2026-05-15 status-update directive: 🚀 | Conversational AI Language Tutors -->

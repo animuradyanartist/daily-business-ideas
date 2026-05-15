@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-15 (trends)
+-   AI is automating the full business lifecycle, from the "first impression" (pitch decks, brand reputation) to the "last impression" (client and employee offboarding).
+-   The value proposition of AI is shifting from task execution to risk management. Whether it's preventing a PR crisis, closing a security hole during offboarding, or de-risking a startup pitch, AI is being sold as a tool for control and prevention.
+-   For every high-stakes professional workflow (fundraising, reputation management, offboarding), a market is emerging for AI-powered "scaffolding"—toolkits that provide the structure, templates, and best practices needed to execute that workflow effectively.
+
+---
+
 ## 2026-05-15
 *   The freelancer workflow has a final, monetizable "End the Work" phase that is currently underserved by one-time-purchase toolkits.
 *   Framing a product's value around *generating future revenue* is more powerful than framing it around *reducing current friction* or *preventing future problems*.
