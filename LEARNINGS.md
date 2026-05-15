@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-15
+*   The freelancer workflow has a final, monetizable "End the Work" phase that is currently underserved by one-time-purchase toolkits.
+*   Framing a product's value around *generating future revenue* is more powerful than framing it around *reducing current friction* or *preventing future problems*.
+*   The "Bestseller" tag on Etsy is a strong, public signal of validated demand for a specific digital product artifact, which can be used as the foundation for a more comprehensive kit.
+
 ## 2026-05-14 (trends)
 - The freelancer workflow is a linear, monetizable journey: Win the Work -> **Start the Work** -> Do the Work -> End the Work. Each stage has high-stakes communication moments perfect for the `[Artifact] + [Linguistic Scaffold]` pattern.
 - The existence of high-priced B2B SaaS validates the pain for a low-cost, one-time-purchase B2C product. If businesses pay hundreds per month for grant-writing software, a non-profit will pay $39 once for a toolkit that helps them use it.

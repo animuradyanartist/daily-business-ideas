@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-15
+*   **The "Getting Client Feedback & Revisions" Kit.** — Killed: While the pain is real, the "Offboarding Kit" is more directly tied to generating the *next* dollar of revenue, which is a stronger, more tangible value proposition.
+*   **The Freelancer's AI Co-pilot Kit.** — Killed: Moves away from the core, validated "human-to-human communication" pain point that the founder has a proven edge in.
+*   **The Weekly Status Report Kit.** — Killed: The pain of writing a weekly update is less acute than the anxiety of asking for more money or a public testimonial. It's a "nice-to-have" optimization, not a "must-have" solution.
+*   **The "Managing Scope Creep" Kit for Freelancers.** — Killed: This is a defensive product (protecting your time). The Offboarding Kit is an offensive product (growing your income), which is a more compelling purchase driver.
+
 ## 2026-05-14
 *   **The "Get Paid & Get Testimonials" Offboarding Kit.** — Killed: The pain points are valid but less acute than onboarding. Invoicing is largely solved by payment platforms, and asking for testimonials is a softer problem.
 *   **The "Managing Difficult Client Feedback" Kit.** — Killed: Overlaps too much with the previously explored "Design Project Control Kit." It's a feature of client management, not a standalone product for this system.
