@@ -57,6 +57,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Generated Pitch Decks for Fundraising** · Using AI to generate structured investor presentations from a text prompt. · flagged 2026-05-15 · last checked 2026-05-15 · [origin memo](trends/2026-05-15.md)
 - **AI-Powered Brand Reputation & Sentiment Monitoring** · Using AI to track and analyze brand mentions and public sentiment in real-time. · flagged 2026-05-15 · last checked 2026-05-15 · [origin memo](trends/2026-05-15.md)
 - **AI-Automated Client & Employee Offboarding** · Using AI to manage the administrative workflows for ending client projects and employee tenure. · flagged 2026-05-15 · last checked 2026-05-15 · [origin memo](trends/2026-05-15.md)
+- **AI-Powered Upselling for Freelancers** · Using AI to analyze client data and proactively identify and propose new revenue opportunities. · flagged 2026-05-16 · last checked 2026-05-16 · [origin memo](trends/2026-05-16.md)
+- **AI-Generated Portfolio Case Studies** · Using AI to automate the writing and structuring of project case studies from raw data or project files. · flagged 2026-05-16 · last checked 2026-05-16 · [origin memo](trends/2026-05-16.md)
+- **No-Code Interactive Product Demos** · Using no-code platforms, often with AI assistance, to create clickable, self-guided product tours. · flagged 2026-05-16 · last checked 2026-05-16 · [origin memo](trends/2026-05-16.md)
 
 
 ## ➡️ Active — plateauing
@@ -102,3 +105,5 @@ _(empty)_
 <!-- 2026-05-14 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-05-15 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-05-16 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->

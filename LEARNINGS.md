@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-16 (trends)
+-   The freelancer/solopreneur workflow is being systematically automated, with AI moving from "doing the work" (design, writing) to "getting the work" (proposals, upselling) and "proving the work" (case studies).
+-   The value proposition of many new tools is "friction removal" for high-value but tedious tasks. Creating portfolios, building demos, and identifying upsell opportunities are not new problems, but AI is making the solutions accessible to teams of one.
+-   For every AI tool that automates a creation process (a demo, a case study), a secondary market is emerging for "strategy kits"—digital products that teach users how to structure their inputs and design the experience *around* the AI-generated asset.
+
+---
+
 ## 2026-05-16
 *   The "Do the Work" phase of the freelancer workflow is underserved, specifically around offensive, revenue-generating activities like upselling.
 *   Deep-seated emotional pain (like feeling "uncomfortable" or "undeserving" of more money) is a powerful signal for a product that provides not just tools, but confidence and permission.
