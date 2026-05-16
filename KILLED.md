@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-16
+*   **The "Faster Approval" Presentation Kit.** — Killed: It's a defensive "problem-prevention" product. The Upsell Kit is an offensive "revenue-generation" product, which is a stronger value proposition.
+*   **The "Monthly Value Report" Kit.** — Killed: A good idea for retainer clients, but the Upsell Kit applies to both project-based and retainer clients, giving it a broader market and targeting new revenue.
+*   **The "Difficult Conversations" Kit.** — Killed: Re-confirming a prior decision. This is a defensive product (protecting profit). The Upsell Kit is an offensive product (generating new profit).
+*   **The Freelancer's "Networking" Kit.** — Killed: This is a top-of-funnel problem. Pitching an existing client is a higher-leverage activity with a higher probability of success.
+
 ## 2026-05-15
 *   **The "Getting Client Feedback & Revisions" Kit.** — Killed: While the pain is real, the "Offboarding Kit" is more directly tied to generating the *next* dollar of revenue, which is a stronger, more tangible value proposition.
 *   **The Freelancer's AI Co-pilot Kit.** — Killed: Moves away from the core, validated "human-to-human communication" pain point that the founder has a proven edge in.

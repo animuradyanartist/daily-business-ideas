@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-16
+*   The "Do the Work" phase of the freelancer workflow is underserved, specifically around offensive, revenue-generating activities like upselling.
+*   Deep-seated emotional pain (like feeling "uncomfortable" or "undeserving" of more money) is a powerful signal for a product that provides not just tools, but confidence and permission.
+*   The business trend of focusing on Customer Lifetime Value (CLV) can be directly translated into a product for the solopreneur/freelancer market.
+*   A product's value is amplified when it helps a user overcome a limiting mindset that is costing them tangible income.
+
 ## 2026-05-15 (trends)
 -   AI is automating the full business lifecycle, from the "first impression" (pitch decks, brand reputation) to the "last impression" (client and employee offboarding).
 -   The value proposition of AI is shifting from task execution to risk management. Whether it's preventing a PR crisis, closing a security hole during offboarding, or de-risking a startup pitch, AI is being sold as a tool for control and prevention.

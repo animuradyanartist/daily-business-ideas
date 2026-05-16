@@ -10,6 +10,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-05-16 — The Freelancer's Project Expansion Kit — high
 - 2026-05-15 — trend forecast — AI-Generated Pitch Decks for Fundraising +2 more
 - 2026-05-15 — The Freelancer's Revenue-Multiplying Offboarding Kit — high
 - 2026-05-14 — trend forecast — AI-Generated Client Onboarding Kits +2 more
