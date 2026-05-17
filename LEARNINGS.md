@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-17 (trends)
+- A new, monetizable persona for the `[Artifact] + [Linguistic Scaffold]` pattern is the independent online tutor.
+- The most acute pain points for solopreneurs are often found in the unbillable "admin" work that is required to maintain client relationships and look professional.
+- A validated market for marketing-focused templates (like on Etsy) is a strong signal that a market exists for operational-focused templates that solve a higher-frequency problem.
+- Parent communication is a universal, high-anxiety task for anyone providing services to children, making it a robust problem space.
+
+---
+
 ## 2026-05-17
 *   A new, monetizable persona for the `[Artifact] + [Linguistic Scaffold]` pattern is the independent online tutor.
 *   The most acute pain points for solopreneurs are often found in the unbillable "admin" work that is required to maintain client relationships and look professional.

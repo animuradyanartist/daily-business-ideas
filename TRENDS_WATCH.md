@@ -60,6 +60,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Upselling for Freelancers** · Using AI to analyze client data and proactively identify and propose new revenue opportunities. · flagged 2026-05-16 · last checked 2026-05-16 · [origin memo](trends/2026-05-16.md)
 - **AI-Generated Portfolio Case Studies** · Using AI to automate the writing and structuring of project case studies from raw data or project files. · flagged 2026-05-16 · last checked 2026-05-16 · [origin memo](trends/2026-05-16.md)
 - **No-Code Interactive Product Demos** · Using no-code platforms, often with AI assistance, to create clickable, self-guided product tours. · flagged 2026-05-16 · last checked 2026-05-16 · [origin memo](trends/2026-05-16.md)
+- **AI-Generated Coloring Books for Digital Marketplaces** · Using AI image generators to create and sell themed coloring pages and books on platforms like Etsy. · flagged 2026-05-17 · last checked 2026-05-17 · [origin memo](trends/2026-05-17.md)
+- **AI-Automated Parent Communication for Educators** · Using AI to draft student progress reports, report card comments, and other parent-facing communication. · flagged 2026-05-17 · last checked 2026-05-17 · [origin memo](trends/2026-05-17.md)
+- **AI-Powered Social Media Engagement & Moderation** · Using AI to analyze comment sentiment, draft on-brand replies, and automate content moderation. · flagged 2026-05-17 · last checked 2026-05-17 · [origin memo](trends/2026-05-17.md)
 
 
 ## ➡️ Active — plateauing
@@ -107,3 +110,5 @@ _(empty)_
 <!-- 2026-05-15 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-05-16 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-05-17 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
