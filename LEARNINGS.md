@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-17
+*   A new, monetizable persona for the `[Artifact] + [Linguistic Scaffold]` pattern is the independent online tutor.
+*   The most acute pain points for solopreneurs are often found in the unbillable "admin" work that is required to maintain client relationships and look professional.
+*   A validated market for marketing-focused templates (like on Etsy) is a strong signal that a market exists for operational-focused templates that solve a higher-frequency problem.
+*   Parent communication is a universal, high-anxiety task for anyone providing services to children, making it a robust problem space.
+
 ## 2026-05-16 (trends)
 -   The freelancer/solopreneur workflow is being systematically automated, with AI moving from "doing the work" (design, writing) to "getting the work" (proposals, upselling) and "proving the work" (case studies).
 -   The value proposition of many new tools is "friction removal" for high-value but tedious tasks. Creating portfolios, building demos, and identifying upsell opportunities are not new problems, but AI is making the solutions accessible to teams of one.

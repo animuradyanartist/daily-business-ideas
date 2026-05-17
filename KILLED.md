@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-17
+*   **The Freelancer's Networking Kit.** — Killed: Top-of-funnel is a crowded space. The online tutor idea targets a more specific, underserved operational pain point.
+*   **The Non-Native Community Manager's Kit.** — Killed: Smaller market, and the ROI is less direct than for a tutor whose income depends on retaining individual students.
+*   **The "Managing Difficult Students" Kit.** — Killed: A real pain, but more of a "soft skill" problem. The parent communication kit provides tangible artifacts and solves a more universal administrative burden.
+*   **The Course Creator's Launch Kit.** — Killed: Too similar to the "Solopreneur's Product Launch Kit" from 05-12. The online tutor persona is a fresh, validated market to explore.
+
 ## 2026-05-16
 *   **The "Faster Approval" Presentation Kit.** — Killed: It's a defensive "problem-prevention" product. The Upsell Kit is an offensive "revenue-generation" product, which is a stronger value proposition.
 *   **The "Monthly Value Report" Kit.** — Killed: A good idea for retainer clients, but the Upsell Kit applies to both project-based and retainer clients, giving it a broader market and targeting new revenue.
