@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-18
+*   The `[Artifact] + [Linguistic Scaffold]` pattern is portable to the e-commerce solopreneur persona.
+*   The most acute, emotionally-charged pain for e-commerce sellers is often not in marketing or sales, but in post-sale customer service.
+*   A validated market for *marketing* templates (Etsy shop kits) is a strong signal for a gap in the market for *operational* templates that solve a higher-frequency problem.
+*   When a platform (like Etsy) fails to provide adequate support to its sellers, it creates a clear opportunity for third-party tools to fill the void.
+
 ## 2026-05-17 (trends)
 - A new, monetizable persona for the `[Artifact] + [Linguistic Scaffold]` pattern is the independent online tutor.
 - The most acute pain points for solopreneurs are often found in the unbillable "admin" work that is required to maintain client relationships and look professional.

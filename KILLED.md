@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-18
+*   **The Shopify Store Trust-Builder Kit.** — Killed: The Etsy market feels more aligned with the founder's simple, design-led toolkit. The Shopify ecosystem is crowded with more complex app-based solutions.
+*   **The "Negative Review Reversal" Kit.** — Killed: Too niche. It's a defensive, low-frequency problem. The general customer service kit solves a higher-frequency, daily pain point.
+*   **The Digital Product Seller's Info-Kit.** — Killed: Excellent idea, but it's a sub-niche of the broader Etsy seller market. Better as a v2 or an expansion pack.
+*   **The Solopreneur's AI Customer Service Prompt Pack.** — Killed: Moves away from the validated `[Artifact] + [Linguistic Scaffold]` pattern. Focuses on human-to-AI communication, while the bigger pain is human-to-human.
+
 ## 2026-05-17
 *   **The Freelancer's Networking Kit.** — Killed: Top-of-funnel is a crowded space. The online tutor idea targets a more specific, underserved operational pain point.
 *   **The Non-Native Community Manager's Kit.** — Killed: Smaller market, and the ROI is less direct than for a tutor whose income depends on retaining individual students.
