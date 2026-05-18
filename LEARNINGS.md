@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-18 (trends)
+-   AI is automating the high-stakes, emotionally-charged communication tasks in both business and personal life. Whether it's a frustrated customer, a nervous bride, or a confused student, AI is being deployed as a "linguistic scaffold" to ensure clarity and professionalism.
+-   For every professional "service" (customer support, wedding planning, instructional design), a category of AI tools is emerging to productize it, making the service accessible to a mass market of solo operators and consumers.
+-   The value proposition of AI is moving up the stack from *creating an artifact* (a response, a vow, a lesson) to *designing the system* that creates the artifact (the support workflow, the wedding plan, the course curriculum).
+
+---
+
 ## 2026-05-18
 *   The `[Artifact] + [Linguistic Scaffold]` pattern is portable to the e-commerce solopreneur persona.
 *   The most acute, emotionally-charged pain for e-commerce sellers is often not in marketing or sales, but in post-sale customer service.

@@ -63,6 +63,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Generated Coloring Books for Digital Marketplaces** · Using AI image generators to create and sell themed coloring pages and books on platforms like Etsy. · flagged 2026-05-17 · last checked 2026-05-17 · [origin memo](trends/2026-05-17.md)
 - **AI-Automated Parent Communication for Educators** · Using AI to draft student progress reports, report card comments, and other parent-facing communication. · flagged 2026-05-17 · last checked 2026-05-17 · [origin memo](trends/2026-05-17.md)
 - **AI-Powered Social Media Engagement & Moderation** · Using AI to analyze comment sentiment, draft on-brand replies, and automate content moderation. · flagged 2026-05-17 · last checked 2026-05-17 · [origin memo](trends/2026-05-17.md)
+- **AI-Automated E-commerce Customer Service** · Using AI agents to handle order tracking, returns, and product questions for online stores. · flagged 2026-05-18 · last checked 2026-05-18 · [origin memo](trends/2026-05-18.md)
+- **AI-Powered Wedding Planning & Content Creation** · Using AI to manage logistical tasks and generate creative content like vows and speeches for weddings. · flagged 2026-05-18 · last checked 2026-05-18 · [origin memo](trends/2026-05-18.md)
+- **AI-Powered Niche Curriculum & Course Generation** · Using AI to generate structured curricula and lesson plans for specialized subjects. · flagged 2026-05-18 · last checked 2026-05-18 · [origin memo](trends/2026-05-18.md)
 
 
 ## ➡️ Active — plateauing
@@ -112,3 +115,5 @@ _(empty)_
 <!-- 2026-05-16 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-05-17 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
+
+<!-- 2026-05-18 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
