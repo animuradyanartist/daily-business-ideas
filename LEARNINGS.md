@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-19
+*   The `[Artifact] + [Linguistic Scaffold]` pattern is portable to the "online educator" or "course creator" persona.
+*   A saturated market for *marketing* templates (e.g., for course launches) is a powerful signal of an underserved market for *operational* templates (e.g., for student retention).
+*   As AI commoditizes content creation, the value shifts to the human-led communication, community management, and experience *around* the content.
+*   The pain of student churn and low course completion rates is a significant, well-documented, and emotionally-charged problem for the growing class of solo course creators.
+
 ## 2026-05-18 (trends)
 -   AI is automating the high-stakes, emotionally-charged communication tasks in both business and personal life. Whether it's a frustrated customer, a nervous bride, or a confused student, AI is being deployed as a "linguistic scaffold" to ensure clarity and professionalism.
 -   For every professional "service" (customer support, wedding planning, instructional design), a category of AI tools is emerging to productize it, making the service accessible to a mass market of solo operators and consumers.

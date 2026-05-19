@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-19
+*   **The YouTuber's Sponsor Outreach Kit.** — Killed: Lower frequency problem. A course creator deals with student communication daily; a YouTuber might only pitch sponsors monthly.
+*   **The Indie Hacker's First 100 Users Kit.** — Killed: Less leverage for the founder's design skills. The market is also smaller and more technical than the broad "course creator" economy.
+*   **The Newsletter Writer's Growth Kit.** — Killed: A strong idea, but the pain of managing a *cohort* of students who expect a result is more acute than managing a passive list of subscribers.
+*   **The Virtual Assistant's Client Management Kit.** — Killed: A smaller, more fragmented market than course creators, making them harder to reach through the founder's preferred channels.
+
 ## 2026-05-18
 *   **The Shopify Store Trust-Builder Kit.** — Killed: The Etsy market feels more aligned with the founder's simple, design-led toolkit. The Shopify ecosystem is crowded with more complex app-based solutions.
 *   **The "Negative Review Reversal" Kit.** — Killed: Too niche. It's a defensive, low-frequency problem. The general customer service kit solves a higher-frequency, daily pain point.
