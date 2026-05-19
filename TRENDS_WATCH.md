@@ -66,6 +66,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated E-commerce Customer Service** · Using AI agents to handle order tracking, returns, and product questions for online stores. · flagged 2026-05-18 · last checked 2026-05-18 · [origin memo](trends/2026-05-18.md)
 - **AI-Powered Wedding Planning & Content Creation** · Using AI to manage logistical tasks and generate creative content like vows and speeches for weddings. · flagged 2026-05-18 · last checked 2026-05-18 · [origin memo](trends/2026-05-18.md)
 - **AI-Powered Niche Curriculum & Course Generation** · Using AI to generate structured curricula and lesson plans for specialized subjects. · flagged 2026-05-18 · last checked 2026-05-18 · [origin memo](trends/2026-05-18.md)
+- **AI-Powered Podcast Production Workflows** · Using integrated AI platforms to automate podcast editing, transcription, show notes, and marketing content generation. · flagged 2026-05-19 · last checked 2026-05-19 · [origin memo](trends/2026-05-19.md)
+- **AI-Generated Real Estate Marketing Content** · Using AI to automate the creation of property descriptions, video tours, and virtual staging. · flagged 2026-05-19 · last checked 2026-05-19 · [origin memo](trends/2026-05-19.md)
+- **AI-Powered Event Planning & Automation** · Using AI to manage event logistics, marketing, and personalized attendee engagement. · flagged 2026-05-19 · last checked 2026-05-19 · [origin memo](trends/2026-05-19.md)
 
 
 ## ➡️ Active — plateauing
@@ -117,3 +120,5 @@ _(empty)_
 <!-- 2026-05-17 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
 
 <!-- 2026-05-18 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
+
+<!-- 2026-05-19 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->

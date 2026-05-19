@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-19 (trends)
+-   AI is systematically automating entire professional service workflows (podcasting, real estate marketing, event planning), collapsing what used to require a team or agency into a solo operation.
+-   The value proposition of AI is moving from creating a single artifact (an audio file, a description, an email) to managing the entire lifecycle of a project (a podcast launch, a property sale, an event).
+-   For every professional workflow being automated by AI, a secondary market is emerging for "Strategy Kits"—digital products that teach non-experts how to manage these new AI systems for optimal business results.
+
+---
+
 ## 2026-05-19
 *   The `[Artifact] + [Linguistic Scaffold]` pattern is portable to the "online educator" or "course creator" persona.
 *   A saturated market for *marketing* templates (e.g., for course launches) is a powerful signal of an underserved market for *operational* templates (e.g., for student retention).
