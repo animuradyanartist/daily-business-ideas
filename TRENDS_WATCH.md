@@ -69,6 +69,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Podcast Production Workflows** · Using integrated AI platforms to automate podcast editing, transcription, show notes, and marketing content generation. · flagged 2026-05-19 · last checked 2026-05-19 · [origin memo](trends/2026-05-19.md)
 - **AI-Generated Real Estate Marketing Content** · Using AI to automate the creation of property descriptions, video tours, and virtual staging. · flagged 2026-05-19 · last checked 2026-05-19 · [origin memo](trends/2026-05-19.md)
 - **AI-Powered Event Planning & Automation** · Using AI to manage event logistics, marketing, and personalized attendee engagement. · flagged 2026-05-19 · last checked 2026-05-19 · [origin memo](trends/2026-05-19.md)
+- **AI-Powered Sales Coaching & Role-Play** · Using AI platforms to practice sales conversations and get real-time feedback. · flagged 2026-05-20 · last checked 2026-05-20 · [origin memo](trends/2026-05-20.md)
+- **AI-Powered Customer Discovery from Online Communities** · Using AI to analyze online conversations to find customer pain points and business opportunities. · flagged 2026-05-20 · last checked 2026-05-20 · [origin memo](trends/2026-05-20.md)
+- **AI-Personalized Meal Planning** · Using AI to generate custom meal plans and grocery lists based on goals and ingredients. · flagged 2026-05-20 · last checked 2026-05-20 · [origin memo](trends/2026-05-20.md)
 
 
 ## ➡️ Active — plateauing
@@ -122,3 +125,5 @@ _(empty)_
 <!-- 2026-05-18 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
 
 <!-- 2026-05-19 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
+
+<!-- 2026-05-20 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->

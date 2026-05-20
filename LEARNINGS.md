@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-20 (trends)
+-   The "Online Coach" is a large, accessible, and validated new persona that fits the founder's business model perfectly. They are solopreneurs who actively buy digital products to solve business problems.
+-   For any service-based solopreneur, the highest-leverage and highest-anxiety moment is the initial sales conversation ("the discovery call"). This is a repeatable point of entry for new product ideas.
+-   The most successful consumer AI applications are those that automate high-frequency, high-friction domestic tasks like meal planning, reducing cognitive load for busy individuals and families.
+
+---
+
 ## 2026-05-20
 *   The "Online Coach" is a large, accessible, and validated new persona that fits the founder's business model perfectly. They are solopreneurs who actively buy digital products to solve business problems.
 *   For any service-based solopreneur, the highest-leverage and highest-anxiety moment is the initial sales conversation ("the discovery call"). This is a repeatable point of entry for new product ideas.
