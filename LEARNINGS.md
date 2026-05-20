@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-20
+*   The "Online Coach" is a large, accessible, and validated new persona that fits the founder's business model perfectly. They are solopreneurs who actively buy digital products to solve business problems.
+*   For any service-based solopreneur, the highest-leverage and highest-anxiety moment is the initial sales conversation ("the discovery call"). This is a repeatable point of entry for new product ideas.
+*   Etsy is a powerful signal machine. A saturated market for *post-sale* operational templates (like onboarding kits) is a strong indicator of an underserved market for *pre-sale* operational templates (like discovery call kits).
+
 ## 2026-05-19 (trends)
 -   AI is systematically automating entire professional service workflows (podcasting, real estate marketing, event planning), collapsing what used to require a team or agency into a solo operation.
 -   The value proposition of AI is moving from creating a single artifact (an audio file, a description, an email) to managing the entire lifecycle of a project (a podcast launch, a property sale, an event).

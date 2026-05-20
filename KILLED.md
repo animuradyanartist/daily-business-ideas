@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-20
+*   **The Online Coach's Client Onboarding Kit.** — Killed: A huge, validated market, but the discovery call is a higher-leverage, more acute pain point. Winning the client comes before onboarding them.
+*   **The Online Coach's First 90 Days Kit.** — Killed: Solves the important problem of retention, but it's a "problem #2." The first and most urgent problem for a new coach is getting the client in the door.
+*   **The Niche Coach's Content Marketing Kit.** — Killed: A real pain point, but the market for social media templates is more saturated. The "live sales call" is a more defensible and underserved niche for a toolkit.
+
 ## 2026-05-19
 *   **The YouTuber's Sponsor Outreach Kit.** — Killed: Lower frequency problem. A course creator deals with student communication daily; a YouTuber might only pitch sponsors monthly.
 *   **The Indie Hacker's First 100 Users Kit.** — Killed: Less leverage for the founder's design skills. The market is also smaller and more technical than the broad "course creator" economy.
