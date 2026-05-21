@@ -72,6 +72,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Sales Coaching & Role-Play** · Using AI platforms to practice sales conversations and get real-time feedback. · flagged 2026-05-20 · last checked 2026-05-20 · [origin memo](trends/2026-05-20.md)
 - **AI-Powered Customer Discovery from Online Communities** · Using AI to analyze online conversations to find customer pain points and business opportunities. · flagged 2026-05-20 · last checked 2026-05-20 · [origin memo](trends/2026-05-20.md)
 - **AI-Personalized Meal Planning** · Using AI to generate custom meal plans and grocery lists based on goals and ingredients. · flagged 2026-05-20 · last checked 2026-05-20 · [origin memo](trends/2026-05-20.md)
+- **AI-Automated Financial Admin for Solopreneurs** · Using AI-powered "pocket CFO" apps to automate bookkeeping, tax prep, and financial analysis. · flagged 2026-05-21 · last checked 2026-05-21 · [origin memo](trends/2026-05-21.md)
+- **AI-Generated Community Content Calendars** · Using AI to generate structured, multi-format content plans to drive member engagement in online communities. · flagged 2026-05-21 · last checked 2026-05-21 · [origin memo](trends/2026-05-21.md)
+- **AI-Assisted Cultural Heritage Preservation** · Using AI to document, archive, and revitalize intangible cultural heritage like oral traditions and languages. · flagged 2026-05-21 · last checked 2026-05-21 · [origin memo](trends/2026-05-21.md)
 
 
 ## ➡️ Active — plateauing
@@ -127,3 +130,5 @@ _(empty)_
 <!-- 2026-05-19 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-05-20 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
+
+<!-- 2026-05-21 status-update directive: 🚀 | Generative Music for Creator Content -->

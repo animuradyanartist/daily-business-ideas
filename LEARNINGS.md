@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-21 (trends)
+-   The "solopreneur stack" is being automated end-to-end. AI is collapsing entire business functions—from financial management to community engagement—into affordable, one-person workflows.
+-   The value proposition for AI tools is shifting from *creation* (making a post) to *strategy* (planning a month of posts). The opportunity is in selling the system, not just the single output.
+-   For every professional workflow being automated by AI, a secondary market is emerging for "scaffolding"—digital products that teach non-experts how to strategically manage these new AI systems for specific outcomes.
+
+---
+
 ## 2026-05-21
 *   The shift from public social media to private, paid communities is creating a new, underserved solopreneur persona: the Creator-as-Community-Manager.
 *   The pain of low engagement in a paid community is acute because it directly threatens monthly recurring revenue and the creator's reputation.
