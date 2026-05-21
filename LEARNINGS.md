@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-21
+*   The shift from public social media to private, paid communities is creating a new, underserved solopreneur persona: the Creator-as-Community-Manager.
+*   The pain of low engagement in a paid community is acute because it directly threatens monthly recurring revenue and the creator's reputation.
+*   A validated market for "launch kits" (like on Skool) is a strong signal for an underserved market for "retention kits" that solve the more persistent, post-launch problems.
+*   The most effective products for this new persona will likely be "rituals-in-a-box"—structured, repeatable processes that create predictability and value for members.
+
 ## 2026-05-20 (trends)
 -   The "Online Coach" is a large, accessible, and validated new persona that fits the founder's business model perfectly. They are solopreneurs who actively buy digital products to solve business problems.
 -   For any service-based solopreneur, the highest-leverage and highest-anxiety moment is the initial sales conversation ("the discovery call"). This is a repeatable point of entry for new product ideas.

@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-21
+*   **The PhD Student's Grant Proposal Kit.** — Killed: The buyer (PhD student) has a very low and uncertain willingness to pay, despite the high theoretical ROI.
+*   **The Indie SaaS Founder's Customer Lifecycle Comms Kit.** — Killed: A strong idea, but the market for lifecycle email templates is mature and competitive. The Community Manager space is a newer, bluer ocean.
+*   **The Self-Published Author's Book Launch Kit.** — Killed: A large market, but the product is very similar in structure to previously explored "launch kit" ideas. This idea feels less novel.
+
 ## 2026-05-20
 *   **The Online Coach's Client Onboarding Kit.** — Killed: A huge, validated market, but the discovery call is a higher-leverage, more acute pain point. Winning the client comes before onboarding them.
 *   **The Online Coach's First 90 Days Kit.** — Killed: Solves the important problem of retention, but it's a "problem #2." The first and most urgent problem for a new coach is getting the client in the door.
