@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-22
+*   **The Bootstrapped SaaS Founder's "First 100 Users" Kit.** — Killed: Too similar to a previously killed idea. The Indie Hacker market was deemed smaller and more technical.
+*   **The Substack Writer's "First 1,000 Subscribers" Kit.** — Killed: The market for "newsletter growth" products is extremely crowded, making it difficult to establish a unique and profitable wedge.
+*   **The Virtual Assistant's "Client Reporting & Value-Add" Kit.** — Killed: The market is fragmented and harder to reach than the centralized communities of podcasters.
+*   **The Non-Profit Manager's "Volunteer Onboarding" Kit.** — Killed: The buyer (small non-profit) has a high but unproven willingness to pay for operational tools.
+
 ## 2026-05-21
 *   **The PhD Student's Grant Proposal Kit.** — Killed: The buyer (PhD student) has a very low and uncertain willingness to pay, despite the high theoretical ROI.
 *   **The Indie SaaS Founder's Customer Lifecycle Comms Kit.** — Killed: A strong idea, but the market for lifecycle email templates is mature and competitive. The Community Manager space is a newer, bluer ocean.
