@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-22 (trends)
+- The "solopreneur creator" persona extends to podcasters, who face significant operational and communication challenges beyond just content creation.
+- The `[Artifact] + [Linguistic Scaffold]` pattern is highly applicable to the high-anxiety, high-rejection process of cold outreach for collaborations.
+- A saturated market for *post-event* templates (e.g., guest onboarding) is a strong signal of an underserved market for *pre-event* operational systems (e.g., guest outreach and management).
+- The value of AI in creative fields is shifting the human bottleneck from technical execution to strategic relationship management, creating new opportunities for process-based products.
+
+---
+
 ## 2026-05-22
 *   The "solopreneur creator" persona extends to podcasters, who face significant operational and communication challenges beyond just content creation.
 *   The `[Artifact] + [Linguistic Scaffold]` pattern is highly applicable to the high-anxiety, high-rejection process of cold outreach for collaborations.

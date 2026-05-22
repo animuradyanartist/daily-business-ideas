@@ -75,6 +75,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Financial Admin for Solopreneurs** · Using AI-powered "pocket CFO" apps to automate bookkeeping, tax prep, and financial analysis. · flagged 2026-05-21 · last checked 2026-05-21 · [origin memo](trends/2026-05-21.md)
 - **AI-Generated Community Content Calendars** · Using AI to generate structured, multi-format content plans to drive member engagement in online communities. · flagged 2026-05-21 · last checked 2026-05-21 · [origin memo](trends/2026-05-21.md)
 - **AI-Assisted Cultural Heritage Preservation** · Using AI to document, archive, and revitalize intangible cultural heritage like oral traditions and languages. · flagged 2026-05-21 · last checked 2026-05-21 · [origin memo](trends/2026-05-21.md)
+- **AI-Automated Podcast Guest Outreach** · Using AI platforms to automate the discovery, pitching, and booking of podcast guests. · flagged 2026-05-22 · last checked 2026-05-22 · [origin memo](trends/2026-05-22.md)
+- **AI-Generated User-Generated Content (UGC) for Ads** · Using AI to generate synthetic, creator-style video ads for high-volume testing. · flagged 2026-05-22 · last checked 2026-05-22 · [origin memo](trends/2026-05-22.md)
+- **AI-Powered Contract Management for Solopreneurs** · Using affordable AI tools to generate, review, and manage client contracts without a lawyer. · flagged 2026-05-22 · last checked 2026-05-22 · [origin memo](trends/2026-05-22.md)
 
 
 ## ➡️ Active — plateauing
@@ -132,3 +135,5 @@ _(empty)_
 <!-- 2026-05-20 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
 
 <!-- 2026-05-21 status-update directive: 🚀 | Generative Music for Creator Content -->
+
+<!-- 2026-05-22 status-update directive: 🚀 | AI as a Thought Partner -->
