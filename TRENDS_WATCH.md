@@ -78,6 +78,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Podcast Guest Outreach** · Using AI platforms to automate the discovery, pitching, and booking of podcast guests. · flagged 2026-05-22 · last checked 2026-05-22 · [origin memo](trends/2026-05-22.md)
 - **AI-Generated User-Generated Content (UGC) for Ads** · Using AI to generate synthetic, creator-style video ads for high-volume testing. · flagged 2026-05-22 · last checked 2026-05-22 · [origin memo](trends/2026-05-22.md)
 - **AI-Powered Contract Management for Solopreneurs** · Using affordable AI tools to generate, review, and manage client contracts without a lawyer. · flagged 2026-05-22 · last checked 2026-05-22 · [origin memo](trends/2026-05-22.md)
+- **AI-Powered Home Renovation Management** · Using AI to manage the logistical planning, budgeting, and documentation of home renovation projects. · flagged 2026-05-23 · last checked 2026-05-23 · [origin memo](trends/2026-05-23.md)
+- **AI-Generated Lesson Plans for Homeschooling** · Using specialized AI tools to generate structured, curriculum-aligned lesson plans for homeschooling parents. · flagged 2026-05-23 · last checked 2026-05-23 · [origin memo](trends/2026-05-23.md)
+- **AI-Automated Brand Voice Definition** · Using AI to analyze existing content and automatically generate a formal brand voice and style guide. · flagged 2026-05-23 · last checked 2026-05-23 · [origin memo](trends/2026-05-23.md)
 
 
 ## ➡️ Active — plateauing
@@ -137,3 +140,5 @@ _(empty)_
 <!-- 2026-05-21 status-update directive: 🚀 | Generative Music for Creator Content -->
 
 <!-- 2026-05-22 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-05-23 status-update directive: 🚀 | The AI-Augmented Second Brain -->

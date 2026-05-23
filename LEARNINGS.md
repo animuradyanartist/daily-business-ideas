@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-23 (trends)
+-   AI is automating the "setup" phase of complex personal and professional projects. Whether it's planning a home renovation, designing a curriculum, or defining a brand, AI is being used to create the foundational structure and reduce upfront uncertainty.
+-   The value proposition of AI is moving from generating a single asset (a lesson plan, a marketing email) to defining and enforcing the *system* that creates those assets consistently (the curriculum, the brand voice).
+-   For every complex, high-stakes project a non-expert undertakes (renovating a home, homeschooling a child), a market is emerging for "scaffolding kits"—digital products that provide the process and guidance for managing that project with AI tools.
+
+---
+
 ## 2026-05-23
 *   For any two-sided marketplace (e.g., podcasters and guests), a validated pain on one side is a strong signal of a reciprocal, monetizable pain on the other.
 *   The `[Artifact] + [Linguistic Scaffold]` pattern is powerfully suited for "pitching" or "application" scenarios, where the buyer's anxiety is high and the outcome of the communication is binary (yes/no).
