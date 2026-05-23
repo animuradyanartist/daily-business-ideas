@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-23
+*   **The Bootstrapped SaaS Founder's "First Demo Call" Kit.** — Killed: The Indie Hacker market is smaller and notoriously frugal. The risk of low willingness-to-pay is higher than for the author persona.
+*   **The Academic's Conference Presentation Kit.** — Killed: The buyer (PhD student/researcher) has a low and unproven willingness to spend their own money on professional development tools.
+*   **The Wedding Photographer's Client Experience Kit.** — Killed: A strong idea, but the market for photographer templates is extremely saturated on Etsy, making it harder to stand out. The "non-native" wedge is also less pronounced.
+
 ## 2026-05-22
 *   **The Bootstrapped SaaS Founder's "First 100 Users" Kit.** — Killed: Too similar to a previously killed idea. The Indie Hacker market was deemed smaller and more technical.
 *   **The Substack Writer's "First 1,000 Subscribers" Kit.** — Killed: The market for "newsletter growth" products is extremely crowded, making it difficult to establish a unique and profitable wedge.

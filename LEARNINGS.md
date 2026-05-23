@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-23
+*   For any two-sided marketplace (e.g., podcasters and guests), a validated pain on one side is a strong signal of a reciprocal, monetizable pain on the other.
+*   The `[Artifact] + [Linguistic Scaffold]` pattern is powerfully suited for "pitching" or "application" scenarios, where the buyer's anxiety is high and the outcome of the communication is binary (yes/no).
+*   High-ticket "done-for-you" services (like podcast booking agencies charging $5k+) are the strongest possible signal for a profitable "done-with-you" toolkit at a $39 price point.
+
 ## 2026-05-22 (trends)
 - The "solopreneur creator" persona extends to podcasters, who face significant operational and communication challenges beyond just content creation.
 - The `[Artifact] + [Linguistic Scaffold]` pattern is highly applicable to the high-anxiety, high-rejection process of cold outreach for collaborations.
