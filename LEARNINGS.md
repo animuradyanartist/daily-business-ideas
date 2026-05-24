@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-24 (trends)
+-   AI is automating the high-stakes, high-effort "deliverable" moments in professional workflows. Whether it's a performance review, an SOP, or a client report, AI is being used to produce the formal artifacts that document value and drive decisions.
+-   The value proposition of many new AI tools is the conversion of unstructured, messy inputs (screen recordings, meeting notes, raw data) into structured, professional outputs (SOPs, performance reviews, slide decks).
+-   For every professional workflow being automated by AI, a secondary market is emerging for "Scaffolding Kits"—digital products that provide the templates, prompts, and strategic frameworks needed to manage these AI systems effectively.
+
+---
+
 ## 2026-05-24
 *   The shift in the consulting market toward "measurable outcomes" creates a clear opportunity for products that help solo operators narrate and prove their value.
 *   The market for visual templates (PowerPoint, Canva) is highly validated, which is a strong signal for a profitable opportunity to add a high-value "linguistic/structural" layer on top.

@@ -81,6 +81,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Home Renovation Management** · Using AI to manage the logistical planning, budgeting, and documentation of home renovation projects. · flagged 2026-05-23 · last checked 2026-05-23 · [origin memo](trends/2026-05-23.md)
 - **AI-Generated Lesson Plans for Homeschooling** · Using specialized AI tools to generate structured, curriculum-aligned lesson plans for homeschooling parents. · flagged 2026-05-23 · last checked 2026-05-23 · [origin memo](trends/2026-05-23.md)
 - **AI-Automated Brand Voice Definition** · Using AI to analyze existing content and automatically generate a formal brand voice and style guide. · flagged 2026-05-23 · last checked 2026-05-23 · [origin memo](trends/2026-05-23.md)
+- **AI-Powered Performance Reviews for Managers** · Using AI to automate the drafting of structured, data-driven employee evaluations. · flagged 2026-05-24 · last checked 2026-05-24 · [origin memo](trends/2026-05-24.md)
+- **AI-Generated Standard Operating Procedures (SOPs)** · Using AI to automatically generate step-by-step guides with screenshots from screen recordings. · flagged 2026-05-24 · last checked 2026-05-24 · [origin memo](trends/2026-05-24.md)
+- **AI-Generated Consulting Deliverables** · Using AI to automate the creation of client-ready reports, presentations, and data analysis. · flagged 2026-05-24 · last checked 2026-05-24 · [origin memo](trends/2026-05-24.md)
 
 
 ## ➡️ Active — plateauing
@@ -142,3 +145,5 @@ _(empty)_
 <!-- 2026-05-22 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-05-23 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-05-24 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
