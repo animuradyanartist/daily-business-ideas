@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-24
+*   **The Homeschooling Parent's Curriculum Design Kit.** — Killed: The willingness to pay is likely lower than for a business professional, and the market is crowded with free resources.
+*   **The Non-Profit's Annual Impact Report Kit.** — Killed: The buyer (small non-profit) has a high but unproven willingness to pay for operational tools, a risk previously identified in `KILLED.md`.
+*   **The Academic's Research Poster Kit.** — Killed: Re-confirming a prior decision. The buyer (PhD student) has a very low willingness to spend their own money on professional development tools.
+
 ## 2026-05-23
 *   **The Bootstrapped SaaS Founder's "First Demo Call" Kit.** — Killed: The Indie Hacker market is smaller and notoriously frugal. The risk of low willingness-to-pay is higher than for the author persona.
 *   **The Academic's Conference Presentation Kit.** — Killed: The buyer (PhD student/researcher) has a low and unproven willingness to spend their own money on professional development tools.

@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-24
+*   The shift in the consulting market toward "measurable outcomes" creates a clear opportunity for products that help solo operators narrate and prove their value.
+*   The market for visual templates (PowerPoint, Canva) is highly validated, which is a strong signal for a profitable opportunity to add a high-value "linguistic/structural" layer on top.
+*   For every operational workflow (client management, project management), a key "performance" moment exists (the proposal, the kickoff, the final report). These high-stakes moments are prime targets for productization.
+
 ## 2026-05-23 (trends)
 -   AI is automating the "setup" phase of complex personal and professional projects. Whether it's planning a home renovation, designing a curriculum, or defining a brand, AI is being used to create the foundational structure and reduce upfront uncertainty.
 -   The value proposition of AI is moving from generating a single asset (a lesson plan, a marketing email) to defining and enforcing the *system* that creates those assets consistently (the curriculum, the brand voice).
