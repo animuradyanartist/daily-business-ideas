@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-25
+*   **The "First 90 Days" Success Kit.** — Killed: A strong idea, but the pain of securing the initial salary is more acute and has a more immediate, quantifiable ROI.
+*   **The Freelancer's "Rate Increase" Kit.** — Killed: Also a strong, financially-leveraged idea. The "new job offer" is a slightly larger market and a moment of higher, one-time leverage.
+*   **The Internal Transfer/Promotion Pitch Kit.** — Killed: A good idea, but the market for external job seekers is larger and the negotiation moment is more standardized than a complex internal move.
+
 ## 2026-05-24
 *   **The Homeschooling Parent's Curriculum Design Kit.** — Killed: The willingness to pay is likely lower than for a business professional, and the market is crowded with free resources.
 *   **The Non-Profit's Annual Impact Report Kit.** — Killed: The buyer (small non-profit) has a high but unproven willingness to pay for operational tools, a risk previously identified in `KILLED.md`.

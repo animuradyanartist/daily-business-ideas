@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-25
+*   The most powerful products solve problems with direct, immediate, and quantifiable financial leverage. A $39 product that can make you $5,000 is an incredibly compelling value proposition.
+*   For high-anxiety moments, the core value of a product is often "confidence-in-a-box." The buyer isn't just purchasing templates; they are purchasing the courage to act.
+*   The rise of information transparency (like pay transparency laws) doesn't eliminate the need for tools; it increases the pressure on individuals to act on that information, creating new anxieties and new product opportunities.
+
 ## 2026-05-24 (trends)
 -   AI is automating the high-stakes, high-effort "deliverable" moments in professional workflows. Whether it's a performance review, an SOP, or a client report, AI is being used to produce the formal artifacts that document value and drive decisions.
 -   The value proposition of many new AI tools is the conversion of unstructured, messy inputs (screen recordings, meeting notes, raw data) into structured, professional outputs (SOPs, performance reviews, slide decks).

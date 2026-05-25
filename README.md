@@ -10,6 +10,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-05-25 — The Non-Native Professional's Job Offer Negotiation Kit — high
 - 2026-05-24 — trend forecast — AI-Powered Performance Reviews for Managers +2 more
 - 2026-05-24 — The Independent Consultant's "Final Report & Value" Kit — high
 - 2026-05-23 — trend forecast — AI-Powered Home Renovation Management +2 more
