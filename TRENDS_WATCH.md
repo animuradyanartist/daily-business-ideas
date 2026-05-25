@@ -84,6 +84,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Performance Reviews for Managers** · Using AI to automate the drafting of structured, data-driven employee evaluations. · flagged 2026-05-24 · last checked 2026-05-24 · [origin memo](trends/2026-05-24.md)
 - **AI-Generated Standard Operating Procedures (SOPs)** · Using AI to automatically generate step-by-step guides with screenshots from screen recordings. · flagged 2026-05-24 · last checked 2026-05-24 · [origin memo](trends/2026-05-24.md)
 - **AI-Generated Consulting Deliverables** · Using AI to automate the creation of client-ready reports, presentations, and data analysis. · flagged 2026-05-24 · last checked 2026-05-24 · [origin memo](trends/2026-05-24.md)
+- **AI-Powered Salary Negotiation Coaching** · Using AI to practice and get data-driven guidance for high-stakes salary negotiations. · flagged 2026-05-25 · last checked 2026-05-25 · [origin memo](trends/2026-05-25.md)
+- **AI-Automated Investor Relations & Reporting** · Using AI platforms to generate investor updates, meeting prep, and due diligence responses. · flagged 2026-05-25 · last checked 2026-05-25 · [origin memo](trends/2026-05-25.md)
+- **AI-Powered "Therapy-Lite" Journaling** · Using AI apps based on CBT principles to guide interactive self-reflection and identify cognitive biases. · flagged 2026-05-25 · last checked 2026-05-25 · [origin memo](trends/2026-05-25.md)
 
 
 ## ➡️ Active — plateauing
@@ -147,3 +150,5 @@ _(empty)_
 <!-- 2026-05-23 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-05-24 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-05-25 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->

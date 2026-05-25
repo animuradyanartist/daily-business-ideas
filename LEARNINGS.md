@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-25 (trends)
+-   The most powerful products solve problems with direct, immediate, and quantifiable financial leverage. A $39 product that can make you $5,000 is an incredibly compelling value proposition.
+-   For high-anxiety moments, the core value of a product is often "confidence-in-a-box." The buyer isn't just purchasing templates; they are purchasing the courage to act.
+-   The rise of information transparency (like pay transparency laws) doesn't eliminate the need for tools; it increases the pressure on individuals to act on that information, creating new anxieties and new product opportunities.
+
+---
+
 ## 2026-05-25
 *   The most powerful products solve problems with direct, immediate, and quantifiable financial leverage. A $39 product that can make you $5,000 is an incredibly compelling value proposition.
 *   For high-anxiety moments, the core value of a product is often "confidence-in-a-box." The buyer isn't just purchasing templates; they are purchasing the courage to act.
