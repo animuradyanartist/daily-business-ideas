@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-26
+*   **The Non-Native Tenant's "Lease Application" Kit.** — Killed: Enters the regulated real estate industry, violating a hard constraint.
+*   **The "Parent-Teacher Conference" Prep Kit.** — Killed: Willingness to pay for this problem is unproven and likely lower than for a business owner solving a financial problem.
+*   **The Remote Worker's "Requesting a Home Office Stipend" Kit.** — Killed: The financial leverage is too small and the problem is not frequent enough to justify a dedicated product.
+*   **The University Student's "Professor Outreach" Kit.** — Killed: Re-confirming a prior learning that students have a very low willingness to pay for self-improvement tools.
+
 ## 2026-05-25
 *   **The "First 90 Days" Success Kit.** — Killed: A strong idea, but the pain of securing the initial salary is more acute and has a more immediate, quantifiable ROI.
 *   **The Freelancer's "Rate Increase" Kit.** — Killed: Also a strong, financially-leveraged idea. The "new job offer" is a slightly larger market and a moment of higher, one-time leverage.

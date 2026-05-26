@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-26
+*   The "direct financial leverage" pattern is just as powerful when applied to cost-saving (procurement) as it is to revenue-generation (sales, negotiation).
+*   A market with expensive "done-for-you" services (like sourcing agents) and cheap, single-artifact templates (like a PO form on Etsy) is a strong signal for a profitable "done-with-you" toolkit in the middle.
+*   The solo business owner persona (e.g., e-commerce founder) is a strong target because they face recurring, high-stakes operational problems and are already accustomed to buying tools to solve them.
+
 ## 2026-05-25 (trends)
 -   The most powerful products solve problems with direct, immediate, and quantifiable financial leverage. A $39 product that can make you $5,000 is an incredibly compelling value proposition.
 -   For high-anxiety moments, the core value of a product is often "confidence-in-a-box." The buyer isn't just purchasing templates; they are purchasing the courage to act.
