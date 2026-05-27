@@ -87,6 +87,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Salary Negotiation Coaching** · Using AI to practice and get data-driven guidance for high-stakes salary negotiations. · flagged 2026-05-25 · last checked 2026-05-25 · [origin memo](trends/2026-05-25.md)
 - **AI-Automated Investor Relations & Reporting** · Using AI platforms to generate investor updates, meeting prep, and due diligence responses. · flagged 2026-05-25 · last checked 2026-05-25 · [origin memo](trends/2026-05-25.md)
 - **AI-Powered "Therapy-Lite" Journaling** · Using AI apps based on CBT principles to guide interactive self-reflection and identify cognitive biases. · flagged 2026-05-25 · last checked 2026-05-25 · [origin memo](trends/2026-05-25.md)
+- **AI-Automated Client Intake & Qualification** · Using AI agents to handle and pre-qualify new client inquiries for service-based businesses. · flagged 2026-05-27 · last checked 2026-05-27 · [origin memo](trends/2026-05-27.md)
+- **AI-Powered Procurement & Negotiation for SMBs** · Using AI agents to automate supplier sourcing, price negotiation, and spend management. · flagged 2026-05-27 · last checked 2026-05-27 · [origin memo](trends/2026-05-27.md)
+- **AI Co-pilots for Coaching & Consulting Delivery** · Using AI to automate the administrative and content delivery workflows of coaching and consulting engagements. · flagged 2026-05-27 · last checked 2026-05-27 · [origin memo](trends/2026-05-27.md)
 
 
 ## ➡️ Active — plateauing
@@ -152,3 +155,5 @@ _(empty)_
 <!-- 2026-05-24 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-05-25 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-05-27 status-update directive: 🚀 | Conversational AI Language Tutors -->

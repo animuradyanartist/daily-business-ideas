@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-27 (trends)
+-   The transition from "creator" to "coach" is a distinct, high-anxiety, and monetizable moment in a solopreneur's journey.
+-   A saturated market for *post-sale* operational templates (like client welcome kits) is a powerful signal of an underserved market for *pre-sale* strategic toolkits (like offer definition and sales).
+-   The most acute pain for a new service provider isn't marketing or delivery; it's the "moment of truth" where they must package their expertise and ask for money for the first time.
+
+---
+
 ## 2026-05-27
 *   The transition from "creator" to "coach" is a distinct, high-anxiety, and monetizable moment in a solopreneur's journey.
 *   A saturated market for *post-sale* operational templates (like client welcome kits) is a powerful signal of an underserved market for *pre-sale* strategic toolkits (like offer definition and sales).
