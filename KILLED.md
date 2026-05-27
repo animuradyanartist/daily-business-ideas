@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-27
+*   **The Non-Native YouTuber's Sponsor Outreach Kit.** — Killed: A solid idea, but too similar in pattern to the recent podcasting and author kits. Less opportunity for new learning.
+*   **The SaaS Founder's "Customer Interview" Kit.** — Killed: Re-confirming a prior decision. The Indie Hacker / SaaS founder market is notoriously frugal and has a high risk of low willingness-to-pay.
+*   **The Non-Profit's "Grant Application" Kit.** — Killed: Re-confirming a prior decision. The buyer (small non-profit) has a high but unproven willingness to pay for operational tools.
+*   **The Online Course Creator's "Affiliate Recruitment" Kit.** — Killed: A strong idea, but it solves a "scaling" problem. The "first client" kit solves a more fundamental "survival" problem, which is more acute.
+
 ## 2026-05-26
 *   **The Non-Native Tenant's "Lease Application" Kit.** — Killed: Enters the regulated real estate industry, violating a hard constraint.
 *   **The "Parent-Teacher Conference" Prep Kit.** — Killed: Willingness to pay for this problem is unproven and likely lower than for a business owner solving a financial problem.
