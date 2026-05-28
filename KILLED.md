@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-28
+*   **The New Manager's Team Communication Kit.** — Killed: The Etsy seller persona better leverages the founder's design skills and is more accessible through their existing distribution channels than a corporate manager.
+*   **The Upwork Freelancer's Proposal Kit.** — Killed: Too similar to previously explored proposal kit ideas. The Etsy idea opens up a new market (e-commerce) and offers more opportunity for new learning.
+*   **The Non-Native Student's University Application Kit.** — Killed: Re-confirming a prior learning that students have a very low willingness to pay for tools, making the validation risk too high.
+
 ## 2026-05-27
 *   **The Non-Native YouTuber's Sponsor Outreach Kit.** — Killed: A solid idea, but too similar in pattern to the recent podcasting and author kits. Less opportunity for new learning.
 *   **The SaaS Founder's "Customer Interview" Kit.** — Killed: Re-confirming a prior decision. The Indie Hacker / SaaS founder market is notoriously frugal and has a high risk of low willingness-to-pay.

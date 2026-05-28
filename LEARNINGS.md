@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-28
+*   A market with a high volume of very low-priced, low-value products (like $3 SEO guides) is a strong signal for an opportunity to launch a premium, high-value toolkit that actually solves the whole problem.
+*   The most effective products for solo creators often solve both the "strategic/linguistic" problem (what to say) and the "visual/artifact" problem (how to present it).
+*   For platform-dependent entrepreneurs (like Etsy sellers), the pain of being invisible or ignored by the platform's algorithm is a primary, recurring, and highly monetizable fear.
+
 ## 2026-05-27 (trends)
 -   The transition from "creator" to "coach" is a distinct, high-anxiety, and monetizable moment in a solopreneur's journey.
 -   A saturated market for *post-sale* operational templates (like client welcome kits) is a powerful signal of an underserved market for *pre-sale* strategic toolkits (like offer definition and sales).
