@@ -90,6 +90,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Client Intake & Qualification** · Using AI agents to handle and pre-qualify new client inquiries for service-based businesses. · flagged 2026-05-27 · last checked 2026-05-27 · [origin memo](trends/2026-05-27.md)
 - **AI-Powered Procurement & Negotiation for SMBs** · Using AI agents to automate supplier sourcing, price negotiation, and spend management. · flagged 2026-05-27 · last checked 2026-05-27 · [origin memo](trends/2026-05-27.md)
 - **AI Co-pilots for Coaching & Consulting Delivery** · Using AI to automate the administrative and content delivery workflows of coaching and consulting engagements. · flagged 2026-05-27 · last checked 2026-05-27 · [origin memo](trends/2026-05-27.md)
+- **AI-Powered Etsy Operations** · Using purpose-built AI tools to automate Etsy shop management, including SEO, product research, and customer service. · flagged 2026-05-28 · last checked 2026-05-28 · [origin memo](trends/2026-05-28.md)
+- **AI-Automated Systematic Literature Reviews** · Using specialized AI platforms to automate the structured process of academic literature reviews, from screening to synthesis. · flagged 2026-05-28 · last checked 2026-05-28 · [origin memo](trends/2026-05-28.md)
+- **AI Grant Proposal Generators** · Using AI platforms to automate the writing of grant proposals, including funder matching and compliance checks. · flagged 2026-05-28 · last checked 2026-05-28 · [origin memo](trends/2026-05-28.md)
 
 
 ## ➡️ Active — plateauing
@@ -157,3 +160,5 @@ _(empty)_
 <!-- 2026-05-25 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-05-27 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-05-28 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->

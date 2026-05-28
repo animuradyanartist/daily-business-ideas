@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-28 (trends)
+-   AI is productizing the "paperwork" of specialized knowledge work. Whether it's an Etsy listing, a literature review, or a grant proposal, AI is automating the structured, high-friction documentation required to succeed in these domains.
+-   The most valuable AI tools are "platform-aware." Generic AI is a commodity; tools that are deeply integrated with a specific platform's data and algorithms (Etsy, NIH grant portals) have a durable advantage.
+-   For every professional workflow being automated by AI, a secondary market is emerging for "Scaffolding Kits"—digital products that provide the strategic frameworks, prompts, and processes needed to manage these new AI systems effectively.
+
+---
+
 ## 2026-05-28
 *   A market with a high volume of very low-priced, low-value products (like $3 SEO guides) is a strong signal for an opportunity to launch a premium, high-value toolkit that actually solves the whole problem.
 *   The most effective products for solo creators often solve both the "strategic/linguistic" problem (what to say) and the "visual/artifact" problem (how to present it).
