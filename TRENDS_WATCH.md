@@ -93,6 +93,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Etsy Operations** · Using purpose-built AI tools to automate Etsy shop management, including SEO, product research, and customer service. · flagged 2026-05-28 · last checked 2026-05-28 · [origin memo](trends/2026-05-28.md)
 - **AI-Automated Systematic Literature Reviews** · Using specialized AI platforms to automate the structured process of academic literature reviews, from screening to synthesis. · flagged 2026-05-28 · last checked 2026-05-28 · [origin memo](trends/2026-05-28.md)
 - **AI Grant Proposal Generators** · Using AI platforms to automate the writing of grant proposals, including funder matching and compliance checks. · flagged 2026-05-28 · last checked 2026-05-28 · [origin memo](trends/2026-05-28.md)
+- **AI-Generated Webinar & Workshop Kits** · Using AI to automate the creation of a complete slide deck, speaker script, and promotional materials for live events. · flagged 2026-05-29 · last checked 2026-05-29 · [origin memo](trends/2026-05-29.md)
+- **AI "Digital Clones" for Creator-Led Communities** · Using an AI chatbot trained on a creator's own content to provide scalable, personalized advice to their audience. · flagged 2026-05-29 · last checked 2026-05-29 · [origin memo](trends/2026-05-29.md)
+- **AI-Automated "Proposal-to-Invoice" for Freelancers** · Using integrated AI systems to automate the full client admin workflow, from proposal to final payment. · flagged 2026-05-29 · last checked 2026-05-29 · [origin memo](trends/2026-05-29.md)
 
 
 ## ➡️ Active — plateauing
@@ -162,3 +165,5 @@ _(empty)_
 <!-- 2026-05-27 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-05-28 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-05-29 status-update directive: 🚀 | AI-Structured Portfolio Generation -->

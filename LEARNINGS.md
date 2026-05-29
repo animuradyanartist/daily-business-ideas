@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-29 (trends)
+-   The "one-to-many" selling moment (a webinar or workshop) is a distinct, high-leverage, and monetizable event in a creator's journey, representing a step-change from one-to-one sales.
+-   The most powerful toolkits for performance-based events integrate the three key components: the visual aids (slides), the strategic structure (the plan/flow), and the linguistic script (the exact words).
+-   The existence of extremely high-priced courses ($500+) teaching a specific business process is one of the strongest possible signals for a profitable, unbundled toolkit at a $39 price point.
+
+---
+
 ## 2026-05-29
 *   The "one-to-many" selling moment (a webinar or workshop) is a distinct, high-leverage, and monetizable event in a creator's journey, representing a step-change from one-to-one sales.
 *   The most powerful toolkits for performance-based events integrate the three key components: the visual aids (slides), the strategic structure (the plan/flow), and the linguistic script (the exact words).
