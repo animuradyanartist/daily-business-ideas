@@ -47,17 +47,17 @@ const marketMap = readSafe('MARKET_MAP.md');
 const killed = readSafe('KILLED.md');
 
 // ---------- Prompt ----------
-const prompt = `You are a ruthless solo-founder business researcher. Your job is to find ONE high-conviction, profitable online business idea today and write a decision-quality memo.
+const prompt = `You are a ruthless business-opportunity researcher. Your job is to find the ONE most compelling business opportunity today — judged on TWO things only — and write a decision-quality memo.
+
+The two things that matter:
+1. REAL PAIN — a problem that is acute, frequent, and genuinely felt by real people (not a "nice to have"). You must prove it with the buyers' own words.
+2. MARKET VALUE — solving it is worth real money: people already spend to relieve this pain, or clearly would, and the addressable market is meaningful.
 
 Today is ${TODAY}.
 
-The founder you work for:
-- Solo creator. Has product/UX design (Canva, Figma) and English-learning content skills — but treat these as OPTIONAL advantages, not the topic. Most ideas should NOT be about design or English.
-- ~10 hours/week to build
-- 4-week build-then-validate sprints
-- Comfortable with $19–$99 price points and is open to formats beyond a Gumroad PDF (tools, directories, newsletters, productized services, communities, no-code apps)
-- Distribution: Reddit, Facebook groups, TikTok, IG Reels, DM outreach
-- Hard limits: no team, no VC, no inventory, no physical product, no regulated industries (medical/legal/financial), no get-rich-quick framings, no fabricated credentials
+Do NOT narrow by who would build it, what skills they have, company size, capital, business model, or product format. Any industry, any format (software, service, marketplace, physical, B2B, B2C, etc.) is fair game. Let the PAIN and the MARKET lead — surface the best opportunity you can find, wherever it is.
+
+Only hard limits (integrity, not narrowing): nothing illegal, nothing in clearly regulated spaces you can't substantiate (e.g. dispensing medical/legal/financial advice), no get-rich-quick framings, no fabricated data or credentials. Every claim needs a source.
 
 Use Google Search aggressively. Open at least 8 distinct sources across: what's selling now (Gumroad / ProductHunt / IndieHackers / Etsy / App stores), buyer pain (Reddit / Quora / Twitter complaints / niche forums), trends up (Google Trends, TikTok hashtags, funding news), and a WIDE range of buyer worlds — deliberately rotate beyond creators/designers: small local services, trades, e-commerce ops, finance/admin, healthcare-adjacent (non-regulated), education, hobbies, B2B niches, blue-collar work, parents, seniors, etc. Cite all sources.
 
@@ -80,16 +80,16 @@ ${recentIdeas || '(no prior memos)'}
 
 ---
 
-Generate 4–6 candidate ideas internally, drawn from DIFFERENT buyer worlds (do not generate 4–6 variations of the same niche). Kill all but one against these 7 gates:
-1. Specific buyer findable in <30 min online
-2. Already paying for something nearby (proof of wallet)
-3. v1 ships in 4 weeks at ~10 hrs/week
-4. A solo operator can realistically execute v1 in ~10 hrs/week. Design/English skills are a bonus where relevant — NOT a requirement. Actively prefer niches outside design and language.
-5. 14-day cheap validation test exists
-6. Realistic year-1 revenue ≥ $5,000 with a believable path to $25k+
-7. Genuinely novel relative to LEARNINGS / MARKET_MAP / KILLED — and not just a near-duplicate of a past niche. DIVERSITY MANDATE: if the last 5 memos share a theme, buyer type, or product format, deliberately break the pattern. Over any 5 runs, span ≥3 unrelated buyer categories and ≥2 product formats. A "kit for non-native [X]" or another "[creator type] kit" is a RED FLAG if recent memos already did one — pick a different lane.
+Generate 4–6 candidate opportunities internally, drawn from DIFFERENT industries and buyer worlds (do not generate 4–6 variations of the same niche). Kill all but one against these gates — the first two are the real bar, the rest are sanity checks:
+1. REAL PAIN — the problem is acute and frequent, evidenced by ≥2 real people describing it in their own words, with source links. "How intense is this pain?" must have a strong answer.
+2. MARKET VALUE — clear proof of wallet: people already pay for partial/adjacent solutions, OR there is obvious willingness to pay. Estimate the size of the money on the table.
+3. Identifiable buyer — you can name exactly who has this pain and where they are.
+4. Real gap — current alternatives leave the pain badly solved or unsolved; there is a credible wedge to win.
+5. Substantiated — every key claim is backed by a cited source, not a guess.
+6. Meaningful upside — a believable path to a real business, not a tiny one-off.
+7. Genuinely novel relative to LEARNINGS / MARKET_MAP / KILLED — not a near-duplicate of a past idea. DIVERSITY MANDATE: if the last 5 memos share a theme, industry, or buyer type, deliberately break the pattern. Over any 5 runs, span ≥3 unrelated industries.
 
-If nothing passes all 7, output a "No GO today" memo explaining what failed and what signal would change tomorrow.
+If nothing clears gates 1 and 2 convincingly, output a "No GO today" memo explaining what failed and what signal would change tomorrow.
 
 Output the memo as markdown using EXACTLY this structure (no preamble, start at "# "):
 
@@ -107,23 +107,23 @@ Specific buyer. Quote pain language from 2+ real people with source links. Name 
 The trend / gap / shift in 2026 specifically. With 2+ sources.
 
 ## Size of opportunity
-Napkin math: TAM, 2+ comparables with revenue or proxy data, realistic year-1 revenue range, path to $25k+ ARR, ceiling.
+Napkin math: TAM, 2+ comparables with revenue or proxy data, the money currently spent on this pain, a realistic revenue range, and the ceiling. Scale it to the actual market — don't assume a tiny solo product.
 
 ## Competitive landscape
 Top 3 closest competitors. What they do right. What they leave on the table that this idea exploits.
 
-## Validation plan (14 days, < $50)
-Free lead magnet, landing page, distribution channels, exact GO / REFINE / PAUSE thresholds.
+## Validation plan
+The cheapest, fastest test that would prove the pain is real and people will pay. Concrete steps, where to run it, and exact GO / REFINE / PAUSE thresholds. Scale the test to the opportunity.
 
-## 4-week build plan (10 hrs/week)
-Week 1 / 2 / 3 / 4 deliverables with hour estimates.
+## Path to v1
+The realistic route to a first sellable version: scope, key milestones, what it takes (time, skills, capital) and roughly how long. Be honest about the lift — don't pretend a big opportunity is trivial.
 
 ## Sales playbook
 How to actually sell this once built. Be specific, not generic. Cover all six:
 
 1. **Pricing strategy** — launch price, sustained price, any tier structure, when to raise prices, what justifies each tier.
 2. **Top 3 sales channels** — pick three specific channels (e.g., "r/Entrepreneur Wednesday post", "DM 30 new Preply tutors", "TikTok hashtag #onlineteacher") and write the EXACT first move on each. Include hook line, day/time to post, what asset to share.
-3. **Hook copy** — the actual landing-page headline and sub-headline (in the founder's voice — pragmatic, no hype). Write 2 versions to A/B test.
+3. **Hook copy** — the actual landing-page headline and sub-headline (pragmatic, no hype). Write 2 versions to A/B test.
 4. **Pre-launch → launch → sustained** sequence — 3–5 concrete actions per phase. Pre-launch builds waitlist; launch converts; sustained keeps revenue trickling. Name dates relative to "Day 0 = launch day".
 5. **Top 2 buyer objections** and a 1-sentence rebuttal for each. Write the rebuttal as the founder would actually say it.
 6. **Social proof strategy** — what evidence to collect (screenshots, quotes, before/after), what to show on the sales page first, what to add over time.
