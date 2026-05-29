@@ -10,6 +10,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-05-29 — The Creator's "First Workshop & Sales Presentation" Kit — high
 - 2026-05-28 — trend forecast — AI-Powered Etsy Operations +2 more
 - 2026-05-28 — The Etsy Seller's "Perfect Listing" Kit — high
 - 2026-05-27 — trend forecast — AI-Automated Client Intake & Qualification +2 more

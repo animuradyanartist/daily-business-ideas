@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-29
+*   **The "Firing a Difficult Client" Kit.** — Killed: Solves a negative, defensive, and low-frequency problem. Buyers are more motivated to pay for upside.
+*   **The "Partnership Outreach" Kit.** — Killed: Too similar to previously explored outreach kits with a less direct ROI than a sales presentation.
+*   **The "Community Manager's Engagement" Kit.** — Killed: A strong idea, but the financial outcome is less direct and quantifiable than a sales workshop, making the value prop slightly weaker.
+*   **The "Indie Author's Book Launch" Kit.** — Killed: The market for "book launch" products is crowded, and the "live selling" angle of the workshop kit feels like a sharper, more novel wedge.
+
 ## 2026-05-28
 *   **The New Manager's Team Communication Kit.** — Killed: The Etsy seller persona better leverages the founder's design skills and is more accessible through their existing distribution channels than a corporate manager.
 *   **The Upwork Freelancer's Proposal Kit.** — Killed: Too similar to previously explored proposal kit ideas. The Etsy idea opens up a new market (e-commerce) and offers more opportunity for new learning.
