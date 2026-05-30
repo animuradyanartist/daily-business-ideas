@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-30 (trends)
+-   The most intense, monetizable pain points are often found in "forced customer" scenarios—situations where a person must engage with a complex, bureaucratic system to protect their family or livelihood (e.g., special education, taxes, insurance claims).
+-   A market with very expensive "Done For You" services (like advocates/lawyers) is a powerful signal for a profitable "Done With You" toolkit that productizes the expert's process for a fraction of the cost.
+-   For high-anxiety problems, the core value proposition is often "control." The buyer is purchasing a system that helps them feel organized, prepared, and confident in a situation where they initially felt powerless.
+
+---
+
 ## 2026-05-30
 *   The most intense, monetizable pain points are often found in "forced customer" scenarios—situations where a person must engage with a complex, bureaucratic system to protect their family or livelihood (e.g., special education, taxes, insurance claims).
 *   A market with very expensive "Done For You" services (like advocates/lawyers) is a powerful signal for a profitable "Done With You" toolkit that productizes the expert's process for a fraction of the cost.

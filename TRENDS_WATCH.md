@@ -96,6 +96,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Generated Webinar & Workshop Kits** · Using AI to automate the creation of a complete slide deck, speaker script, and promotional materials for live events. · flagged 2026-05-29 · last checked 2026-05-29 · [origin memo](trends/2026-05-29.md)
 - **AI "Digital Clones" for Creator-Led Communities** · Using an AI chatbot trained on a creator's own content to provide scalable, personalized advice to their audience. · flagged 2026-05-29 · last checked 2026-05-29 · [origin memo](trends/2026-05-29.md)
 - **AI-Automated "Proposal-to-Invoice" for Freelancers** · Using integrated AI systems to automate the full client admin workflow, from proposal to final payment. · flagged 2026-05-29 · last checked 2026-05-29 · [origin memo](trends/2026-05-29.md)
+- **AI-Powered "Advocate-in-a-Box" for Special Education** · Using AI to help parents manage the IEP process, understand their rights, and prepare for meetings. · flagged 2026-05-30 · last checked 2026-05-30 · [origin memo](trends/2026-05-30.md)
+- **AI-Assisted "Pro Se" Legal Document Generation** · Using AI to draft court documents for self-representation, creating a need for "guardrail" tools and education. · flagged 2026-05-30 · last checked 2026-05-30 · [origin memo](trends/2026-05-30.md)
+- **AI-Generated Employee Handbooks for Startups** · Using AI to automatically generate compliant, customized employee handbooks for new businesses. · flagged 2026-05-30 · last checked 2026-05-30 · [origin memo](trends/2026-05-30.md)
 
 
 ## ➡️ Active — plateauing
@@ -167,3 +170,5 @@ _(empty)_
 <!-- 2026-05-28 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-05-29 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
+
+<!-- 2026-05-30 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
