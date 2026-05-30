@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-30
+*   **The Truck Driver's Paperwork & Compliance Kit.** — Killed: A very strong B2B opportunity, but the IEP kit targets a more acute, emotional pain point that feels like a better fit for a solo founder's first product in a new space.
+*   **The Private Practice Therapist's Client Intake Kit.** — Killed: The pain is real, but largely solved by comprehensive (and expensive) Electronic Health Record (EHR) systems. The wedge for a standalone toolkit is less clear.
+*   **The Miniature Painter's Project Tracker.** — Killed: The pain is not acute or frequent enough. It's a "nice to have" for a hobby, not a "must have" to solve a major life stressor.
+*   **The Executive Assistant's Meeting Prep System.** — Killed: This is a real B2B pain, but many solutions are likely provided by corporate software (Microsoft 365, etc.), making a standalone product harder to sell.
+
 ## 2026-05-29
 *   **The "Firing a Difficult Client" Kit.** — Killed: Solves a negative, defensive, and low-frequency problem. Buyers are more motivated to pay for upside.
 *   **The "Partnership Outreach" Kit.** — Killed: Too similar to previously explored outreach kits with a less direct ROI than a sales presentation.
