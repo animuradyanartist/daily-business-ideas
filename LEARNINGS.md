@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-05-31
+*   The most severe business pains are often found in industries with fragmented power dynamics (e.g., many small sellers, few large buyers), creating opportunities for tools that empower the smaller players.
+*   Cash flow is the ultimate pain point for any small business. A product that can directly and immediately improve cash flow has one of the clearest ROIs possible.
+*   The existence of a large, expensive, and often disliked "done-for-you" industry (like freight factoring) is a massive signal for a profitable "done-with-you" toolkit.
+
 ## 2026-05-30 (trends)
 -   The most intense, monetizable pain points are often found in "forced customer" scenarios—situations where a person must engage with a complex, bureaucratic system to protect their family or livelihood (e.g., special education, taxes, insurance claims).
 -   A market with very expensive "Done For You" services (like advocates/lawyers) is a powerful signal for a profitable "Done With You" toolkit that productizes the expert's process for a fraction of the cost.

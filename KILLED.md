@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-05-31
+*   **The General Contractor's "Change Order" Kit.** — Killed: A very strong opportunity, but the cash flow pain for truckers is more existential and frequent, making it a slightly more compelling problem to solve first.
+*   **The Small Farm's "Direct-to-Consumer" Starter Kit.** — Killed: The core pain is marketing, which feels too similar to the creator-focused ideas explored recently. Fails the diversity mandate.
+*   **The Mobile Mechanic's "Job Quoting & Invoicing" System.** — Killed: A real pain, but the problem of "quoting/invoicing" is broad. The trucker's pain is a more specific, systemic issue of "getting paid for work already done," which is more acute.
+*   **The Dental Office Manager's Patient Recall System.** — Killed: Strong B2B niche, but gets too close to handling Patient Health Information (PHI), which creates regulatory complexity.
+
 ## 2026-05-30
 *   **The Truck Driver's Paperwork & Compliance Kit.** — Killed: A very strong B2B opportunity, but the IEP kit targets a more acute, emotional pain point that feels like a better fit for a solo founder's first product in a new space.
 *   **The Private Practice Therapist's Client Intake Kit.** — Killed: The pain is real, but largely solved by comprehensive (and expensive) Electronic Health Record (EHR) systems. The wedge for a standalone toolkit is less clear.
