@@ -99,6 +99,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered "Advocate-in-a-Box" for Special Education** · Using AI to help parents manage the IEP process, understand their rights, and prepare for meetings. · flagged 2026-05-30 · last checked 2026-05-30 · [origin memo](trends/2026-05-30.md)
 - **AI-Assisted "Pro Se" Legal Document Generation** · Using AI to draft court documents for self-representation, creating a need for "guardrail" tools and education. · flagged 2026-05-30 · last checked 2026-05-30 · [origin memo](trends/2026-05-30.md)
 - **AI-Generated Employee Handbooks for Startups** · Using AI to automatically generate compliant, customized employee handbooks for new businesses. · flagged 2026-05-30 · last checked 2026-05-30 · [origin memo](trends/2026-05-30.md)
+- **AI-Automated Freight Factoring & Cash Flow** · Using AI to automate invoice processing and accelerate cash flow for trucking and logistics companies. · flagged 2026-05-31 · last checked 2026-05-31 · [origin memo](trends/2026-05-31.md)
+- **AI-Generated B2B Case Studies & Video Testimonials** · Using AI to automate the creation of customer success stories and video testimonials from raw data or text. · flagged 2026-05-31 · last checked 2026-05-31 · [origin memo](trends/2026-05-31.md)
+- **AI-Powered Competitive Intelligence for E-commerce** · Using AI to automatically discover and monitor competitor pricing and product catalogs for online stores. · flagged 2026-05-31 · last checked 2026-05-31 · [origin memo](trends/2026-05-31.md)
 
 
 ## ➡️ Active — plateauing
@@ -172,3 +175,5 @@ _(empty)_
 <!-- 2026-05-29 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
 
 <!-- 2026-05-30 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
+
+<!-- 2026-05-31 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
