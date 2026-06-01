@@ -91,11 +91,20 @@ Generate 4–6 candidate opportunities internally, drawn from DIFFERENT industri
 
 If nothing clears gates 1 and 2 convincingly, output a "No GO today" memo explaining what failed and what signal would change tomorrow.
 
+CONVICTION SCORING — be a harsh grader. The score is the headline signal of this whole system, so it MUST discriminate between a great idea and an ordinary one. Score the single surviving idea 0–100 using this weighted rubric, and show every sub-score:
+- Pain intensity & frequency — out of 30. Full marks only for acute, recurring pain quoted by 3+ real buyers.
+- Wallet proof / market value — out of 30. Full marks only with multiple independent proofs that money already moves here.
+- Gap & defensible wedge — out of 15. Full marks only if incumbents leave an obvious, hard-to-copy opening.
+- Novelty vs. prior memos — out of 15. Full marks only if neither the buyer NOR the product format repeats a recent memo.
+- Evidence quality — out of 10. Full marks only for independent, recent (<12mo), directly-cited sources.
+
+Sum to a /100 total, then map STRICTLY: 82–100 = high, 65–81 = medium, below 65 = low. Calibration: a genuinely solid idea typically lands 60–75. Reserve 82+ for ideas where every single dimension is independently well-evidenced; reserve 90+ for a once-a-month exceptional find. If your total lands above 80, re-read your own evidence, find the weakest dimension, and justify it before you commit the number. Do NOT inflate a sub-score to reach a band. A defensible "medium" beats an inflated "high".
+
 Output the memo as markdown using EXACTLY this structure (no preamble, start at "# "):
 
 # <One-line idea title — concrete, not generic>
 
-_${TODAY} · conviction: high | medium | low_
+_${TODAY} · conviction: <high|medium|low> · score: <NN>/100_
 
 ## The idea
 One paragraph: what it is, what the buyer gets, what it costs.
@@ -111,6 +120,9 @@ Napkin math: TAM, 2+ comparables with revenue or proxy data, the money currently
 
 ## Competitive landscape
 Top 3 closest competitors. What they do right. What they leave on the table that this idea exploits.
+
+## Conviction score
+Score the idea now that the evidence is on the table. Output a markdown table with columns: Dimension | Score | Max | Justification. One row per dimension (Pain intensity & frequency /30, Wallet proof / market value /30, Gap & defensible wedge /15, Novelty vs. prior memos /15, Evidence quality /10). Then a final bold line exactly in this form: **Total: <NN>/100 → conviction: <high|medium|low>**. The band MUST follow the thresholds (82+ high, 65–81 medium, below 65 low) — do not inflate.
 
 ## Validation plan
 The cheapest, fastest test that would prove the pain is real and people will pay. Concrete steps, where to run it, and exact GO / REFINE / PAUSE thresholds. Scale the test to the opportunity.
@@ -215,7 +227,7 @@ try {
   }
 }
 
-const memo =
+let memo =
   data.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
 
 if (!memo || memo.length < 500) {
@@ -233,8 +245,40 @@ const fullTitle = firstHeadingLine.replace(/^#\s+/, '').trim();
 // Strip trailing markdown/punctuation if any
 const titleClean = fullTitle.replace(/\s+$/, '').replace(/[.\s]+$/, '');
 
-const convictionMatch = memo.match(/conviction:\s*(high|medium|low)/i);
-const conviction = convictionMatch ? convictionMatch[1].toLowerCase() : 'medium';
+// ---------- Conviction score: parse the number, derive the band in code ----------
+// The model self-scores, but the BAND is recomputed here from the number so the
+// thresholds are enforced regardless of how the model labels it. A "No GO" memo
+// has no score and stays at conviction low / score 0.
+function bandFromScore(score) {
+  if (score >= 82) return 'high';
+  if (score >= 65) return 'medium';
+  return 'low';
+}
+
+const isNoGo = /no\s*go\s*today/i.test(memo.slice(0, 400));
+
+// Prefer the score on the "Total:" line in the Conviction score section; fall
+// back to any "NN/100" in the memo, then to the metadata "score:" token.
+const totalLineMatch = memo.match(/total:\s*(\d{1,3})\s*\/\s*100/i);
+const anyPer100Match = memo.match(/\b(\d{1,3})\s*\/\s*100\b/);
+const metaScoreMatch = memo.match(/score:\s*(\d{1,3})/i);
+const rawScore =
+  totalLineMatch?.[1] ?? anyPer100Match?.[1] ?? metaScoreMatch?.[1] ?? null;
+
+let score = rawScore === null ? null : Math.max(0, Math.min(100, parseInt(rawScore, 10)));
+if (isNoGo) score = 0;
+
+const conviction = score === null ? 'medium' : bandFromScore(score);
+
+// Rewrite the metadata line so the displayed band + score are the enforced ones,
+// not whatever the model wrote before it finished its analysis.
+{
+  const scoreText = score === null ? '—' : `${score}/100`;
+  const newMeta = `_${TODAY} · conviction: ${conviction} · score: ${scoreText}_`;
+  if (/_[^\n]*conviction:[^\n]*_/i.test(memo)) {
+    memo = memo.replace(/_[^\n]*conviction:[^\n]*_/i, newMeta);
+  }
+}
 
 function extractSection(text, heading) {
   const re = new RegExp(
@@ -321,7 +365,8 @@ Niches, buyers, and comparable products this agent has studied. Updated incremen
 {
   const existing = readSafe('README.md');
   const logTitle = titleClean || `idea ${TODAY}`;
-  const logEntry = `- ${TODAY} — ${logTitle} — ${conviction}`;
+  const scoreTag = score === null ? conviction : `${score}/100 ${conviction}`;
+  const logEntry = `- ${TODAY} — ${logTitle} — ${scoreTag}`;
 
   if (/##\s+Log/i.test(existing)) {
     // Insert today's entry right after the "## Log" heading
@@ -336,7 +381,38 @@ Niches, buyers, and comparable products this agent has studied. Updated incremen
   }
 }
 
+// ---------- Update SCORES.md leaderboard (ranked by score, highest first) ----------
+{
+  const header = `# Conviction leaderboard
+
+Every scored idea, ranked highest-conviction first. Score is the agent's calibrated
+0–100 self-assessment (82+ = high, 65–81 = medium, below 65 = low). "No GO" days are 0.
+
+| Score | Conviction | Date | Idea |
+|---|---|---|---|`;
+
+  const existing = readSafe('SCORES.md');
+  // Parse existing rows: | <int> | <band> | <date> | <idea> |
+  const rowRe = /^\|\s*(\d{1,3})\s*\|\s*([a-z]+)\s*\|\s*(\d{4}-\d{2}-\d{2})\s*\|\s*(.+?)\s*\|$/gim;
+  const rows = [];
+  let m;
+  while ((m = rowRe.exec(existing)) !== null) {
+    if (m[3] === TODAY) continue; // replace any prior entry for today (idempotent reruns)
+    rows.push({ score: parseInt(m[1], 10), band: m[2], date: m[3], idea: m[4] });
+  }
+  const safeTitle = (titleClean || `idea ${TODAY}`).replace(/\|/g, '\\|');
+  rows.push({ score: score ?? 0, band: conviction, date: TODAY, idea: safeTitle });
+
+  // Sort by score desc, then date desc for ties.
+  rows.sort((a, b) => b.score - a.score || b.date.localeCompare(a.date));
+
+  const body = rows
+    .map((r) => `| ${r.score} | ${r.band} | ${r.date} | ${r.idea} |`)
+    .join('\n');
+  writeFileSync('SCORES.md', `${header}\n${body}\n`);
+}
+
 console.log(`✓ Wrote ideas/${TODAY}.md (${memo.length} chars)`);
 console.log(`✓ Title: ${titleClean}`);
-console.log(`✓ Conviction: ${conviction}`);
-console.log('✓ Updated LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md');
+console.log(`✓ Conviction: ${conviction} (score: ${score === null ? 'n/a' : score})`);
+console.log('✓ Updated LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md, SCORES.md');

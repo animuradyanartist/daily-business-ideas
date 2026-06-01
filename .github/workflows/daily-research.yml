@@ -47,8 +47,9 @@ jobs:
             TITLE="daily idea"
           fi
 
-          # Pull conviction
+          # Pull conviction + score
           CONVICTION=$(grep -oE 'conviction:\s*(high|medium|low)' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "medium")
+          SCORE=$(grep -oE 'score:\s*[0-9]{1,3}/100' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "")
 
           git commit -m "idea(${DATE}): ${TITLE}"
 
@@ -68,6 +69,7 @@ jobs:
           echo "committed=true" >> $GITHUB_OUTPUT
           echo "title=${TITLE}" >> $GITHUB_OUTPUT
           echo "conviction=${CONVICTION}" >> $GITHUB_OUTPUT
+          echo "score=${SCORE}" >> $GITHUB_OUTPUT
           echo "date=${DATE}" >> $GITHUB_OUTPUT
 
       - name: Notify Telegram
@@ -79,9 +81,16 @@ jobs:
           DATE="${{ steps.commit.outputs.date }}"
           TITLE="${{ steps.commit.outputs.title }}"
           CONVICTION="${{ steps.commit.outputs.conviction }}"
+          SCORE="${{ steps.commit.outputs.score }}"
           MEMO_URL="https://github.com/${GITHUB_REPOSITORY}/blob/main/ideas/${DATE}.md"
 
-          MSG="💡 ${DATE} — ${CONVICTION} conviction
+          if [ -n "${SCORE}" ]; then
+            HEAD_LINE="${DATE} — ${CONVICTION} conviction (${SCORE})"
+          else
+            HEAD_LINE="${DATE} — ${CONVICTION} conviction"
+          fi
+
+          MSG="💡 ${HEAD_LINE}
           ${TITLE}
 
           Memo: ${MEMO_URL}"
