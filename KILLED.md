@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-01
+*   **The Residential Cleaner's "First Commercial Contract" Kit.** — Killed: A strong idea, but the financial pain for restaurant owners is more frequent and existential, making it a more acute problem to solve.
+*   **The Independent Insurance Adjuster's "Claim Documentation" System.** — Killed: This is a workflow efficiency play. The restaurant idea is a direct profitability play, which is a more powerful value proposition. Also avoids any perceived proximity to regulated industries.
+*   **The Local Landscaper's "Upsell the Neighbors" Kit.** — Killed: This is a marketing/revenue growth opportunity. The restaurant kit solves a more fundamental problem of cost control and profitability, which is a more urgent pain point.
+
 ## 2026-05-31
 *   **The General Contractor's "Change Order" Kit.** — Killed: A very strong opportunity, but the cash flow pain for truckers is more existential and frequent, making it a slightly more compelling problem to solve first.
 *   **The Small Farm's "Direct-to-Consumer" Starter Kit.** — Killed: The core pain is marketing, which feels too similar to the creator-focused ideas explored recently. Fails the diversity mandate.

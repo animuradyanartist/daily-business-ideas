@@ -10,6 +10,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-01 — The Independent Restaurant's "Menu Profitability" Kit — high
 - 2026-05-31 — trend forecast — AI-Automated Freight Factoring & Cash Flow +2 more
 - 2026-05-31 — The Owner-Operator Trucker's "Get Paid Faster" Kit — high
 - 2026-05-30 — trend forecast — AI-Powered "Advocate-in-a-Box" for Special Education +2 more

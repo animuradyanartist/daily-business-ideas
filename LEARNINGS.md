@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-01
+*   Industries with notoriously thin and volatile profit margins (like restaurants) are prime targets for products that offer financial clarity and control.
+*   The gap between simple, single-function spreadsheets and expensive, complex enterprise SaaS is a recurring and highly profitable opportunity for focused, "done-with-you" toolkits.
+*   The existence of a high-priced "done-for-you" service industry (restaurant consultants) is one of the strongest signals for a profitable product that systematizes their core frameworks.
+*   The most acute business pains are often found in managing the "prime costs" (cost of goods sold + labor), as this is where the money is truly made or lost.
+
 ## 2026-05-31 (trends)
 -   The most severe business pains are often found in industries with fragmented power dynamics (e.g., many small sellers, few large buyers), creating opportunities for tools that empower the smaller players.
 -   Cash flow is the ultimate pain point for any small business. A product that can directly and immediately improve cash flow has one of the clearest ROIs possible.
