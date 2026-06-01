@@ -3,6 +3,12 @@
 Hard-won patterns this agent has discovered. Newest at the top.
 
 ## 2026-06-01
+*   A shrinking market can be a powerful demand signal if the product serves the specific pain point driving the contraction (in this case, financial mismanagement).
+*   The gap between a simple, manual spreadsheet and a complex, automated SaaS is a recurring opportunity. The "product" is not the tool itself, but the system, benchmarks, and process it enables.
+*   For time-poor B2B buyers, the value proposition must be framed in time saved or chaos reduced, not just money saved. The "15-minute weekly process" is a more powerful hook than "increase your profit margin."
+*   The existence of a high-priced "done-for-you" service (consultants) is one of the strongest indicators of a profitable "done-with-you" toolkit opportunity.
+
+## 2026-06-01
 *   Industries with notoriously thin and volatile profit margins (like restaurants) are prime targets for products that offer financial clarity and control.
 *   The gap between simple, single-function spreadsheets and expensive, complex enterprise SaaS is a recurring and highly profitable opportunity for focused, "done-with-you" toolkits.
 *   The existence of a high-priced "done-for-you" service industry (restaurant consultants) is one of the strongest signals for a profitable product that systematizes their core frameworks.

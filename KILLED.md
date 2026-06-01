@@ -3,6 +3,11 @@
 Do not re-pitch these without a fundamentally new signal.
 
 ## 2026-06-01
+*   **The E-commerce Operator's "True Cost of Returns" Dashboard.** — Killed: While the pain is real, the restaurant owner's pain is more existential and frequent, making it a more acute problem to solve.
+*   **The Construction Subcontractor's "Get Paid" Lien Waiver Kit.** — Killed: A strong B2B opportunity, but the problem space has more legal complexity. The restaurant kit is a pure financial control play, which is cleaner.
+*   **The Residential Cleaner's "First Commercial Contract" Kit.** — Killed: This is a revenue-growth product. The restaurant kit solves a more fundamental problem of cost control and profitability, which is a more urgent pain point for a business on thin margins.
+
+## 2026-06-01
 *   **The Residential Cleaner's "First Commercial Contract" Kit.** — Killed: A strong idea, but the financial pain for restaurant owners is more frequent and existential, making it a more acute problem to solve.
 *   **The Independent Insurance Adjuster's "Claim Documentation" System.** — Killed: This is a workflow efficiency play. The restaurant idea is a direct profitability play, which is a more powerful value proposition. Also avoids any perceived proximity to regulated industries.
 *   **The Local Landscaper's "Upsell the Neighbors" Kit.** — Killed: This is a marketing/revenue growth opportunity. The restaurant kit solves a more fundamental problem of cost control and profitability, which is a more urgent pain point.
