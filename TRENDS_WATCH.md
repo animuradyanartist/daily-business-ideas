@@ -102,6 +102,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Freight Factoring & Cash Flow** · Using AI to automate invoice processing and accelerate cash flow for trucking and logistics companies. · flagged 2026-05-31 · last checked 2026-05-31 · [origin memo](trends/2026-05-31.md)
 - **AI-Generated B2B Case Studies & Video Testimonials** · Using AI to automate the creation of customer success stories and video testimonials from raw data or text. · flagged 2026-05-31 · last checked 2026-05-31 · [origin memo](trends/2026-05-31.md)
 - **AI-Powered Competitive Intelligence for E-commerce** · Using AI to automatically discover and monitor competitor pricing and product catalogs for online stores. · flagged 2026-05-31 · last checked 2026-05-31 · [origin memo](trends/2026-05-31.md)
+- **AI-Powered Restaurant Financial Operations** · Using AI to automate financial management and operational planning for restaurants. · flagged 2026-06-01 · last checked 2026-06-01 · [origin memo](trends/2026-06-01.md)
+- **AI-Powered Government Proposal Automation** · Using purpose-built AI platforms to automate the creation of proposals for government contracts. · flagged 2026-06-01 · last checked 2026-06-01 · [origin memo](trends/2026-06-01.md)
+- **AI-Automated Employee Onboarding Workflows** · Using AI to automate and personalize the entire new hire onboarding process. · flagged 2026-06-01 · last checked 2026-06-01 · [origin memo](trends/2026-06-01.md)
 
 
 ## ➡️ Active — plateauing
@@ -177,3 +180,5 @@ _(empty)_
 <!-- 2026-05-30 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-05-31 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
+
+<!-- 2026-06-01 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->

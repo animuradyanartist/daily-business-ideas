@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-01 — trend forecast — AI-Powered Restaurant Financial Operations +2 more
 - 2026-06-01 — The Restaurant Owner's Prime Cost Control Kit — 78/100 medium
 - 2026-06-01 — The Independent Restaurant's "Menu Profitability" Kit — high
 - 2026-05-31 — trend forecast — AI-Automated Freight Factoring & Cash Flow +2 more
