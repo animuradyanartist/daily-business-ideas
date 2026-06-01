@@ -45,7 +45,19 @@ jobs:
           TOP=$(grep -m1 -oE '## Trend 1:\s*.+' "trends/${DATE}.md" | sed 's/## Trend 1:[[:space:]]*//' | tr -d '\r' || echo "trend forecast")
 
           git commit -m "trends(${DATE}): ${TOP} +2 more"
-          git push
+
+          # Push resiliently: another scheduled workflow may have pushed to main
+          # between checkout and now. Rebase onto latest and retry.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              break
+            fi
+            echo "push rejected, rebasing onto latest main (attempt ${i})…"
+            git pull --rebase origin main
+            if [ "${i}" -eq 5 ]; then
+              echo "push failed after retries"; exit 1
+            fi
+          done
 
           echo "committed=true" >> $GITHUB_OUTPUT
           echo "top=${TOP}" >> $GITHUB_OUTPUT

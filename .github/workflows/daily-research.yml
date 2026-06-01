@@ -51,7 +51,19 @@ jobs:
           CONVICTION=$(grep -oE 'conviction:\s*(high|medium|low)' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "medium")
 
           git commit -m "idea(${DATE}): ${TITLE}"
-          git push
+
+          # Push resiliently: another scheduled workflow may have pushed to main
+          # between checkout and now. Rebase onto latest and retry.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              break
+            fi
+            echo "push rejected, rebasing onto latest main (attempt ${i})…"
+            git pull --rebase origin main
+            if [ "${i}" -eq 5 ]; then
+              echo "push failed after retries"; exit 1
+            fi
+          done
 
           echo "committed=true" >> $GITHUB_OUTPUT
           echo "title=${TITLE}" >> $GITHUB_OUTPUT
