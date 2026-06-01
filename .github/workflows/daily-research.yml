@@ -11,6 +11,8 @@ on:
 jobs:
   research:
     runs-on: ubuntu-latest
+    # 6-stage Gemini pipeline; bound the run so a hung call can't burn minutes.
+    timeout-minutes: 20
     permissions:
       contents: write
     steps:

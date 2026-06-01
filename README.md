@@ -2,7 +2,20 @@
 
 A daily decision-quality memo from a remote research agent. One idea per day. Bad ideas killed fast.
 
-This system compounds: every run reads `LEARNINGS.md`, `MARKET_MAP.md`, `KILLED.md`, and `outcomes/` before researching, then writes back to them. Day 30 is sharper than day 1.
+This system compounds: every run reads `LEARNINGS.md`, `MARKET_MAP.md`, `KILLED.md`, the `markets/` atlas, and `outcomes/` before researching, then writes back to them. Day 30 is sharper than day 1.
+
+## How Scout thinks
+
+Scout doesn't reason in one pass. Each daily run is a 6-stage senior-analyst pipeline, every stage grounded in fresh Google Search and feeding the next:
+
+1. **Scan** — cast wide: 10–12 candidate opportunities across unrelated markets.
+2. **Market structure** — rigorous TAM/SAM/SOM, growth, fragmentation, margin pool, distribution control, and incumbent inertia for the top 3.
+3. **Economics & moat** — unit economics (pricing, gross margin, CAC/LTV, payback) and the defensibility that compounds over time.
+4. **Scope of work** — the honest build: MVP cut, critical-path milestones, load-bearing assumptions, resources required.
+5. **Red-team** — a skeptical investor attacks the survivor; every attack is rebutted or conceded.
+6. **Synthesis** — the final decision memo with a calibrated 0–100 conviction score that must reconcile with the red-team verdict.
+
+Artifacts it maintains: `ideas/` (daily memos), `markets/` (structural market teardowns + `INDEX.md`), `SCORES.md` (ideas ranked by conviction), plus `LEARNINGS.md` / `MARKET_MAP.md` / `KILLED.md`.
 
 ## Bot
 

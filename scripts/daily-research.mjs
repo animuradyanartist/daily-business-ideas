@@ -1,6 +1,18 @@
-// Daily business-idea research agent.
-// Runs in GitHub Actions. Calls Gemini 2.5 Pro with Google Search grounding.
-// Writes ideas/YYYY-MM-DD.md plus updates to LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md.
+// Daily business-idea research agent — 6-stage senior-analyst pipeline.
+// Runs in GitHub Actions. Calls Gemini 2.5 Pro with Google Search grounding,
+// falling back to Flash on transient errors.
+//
+// Instead of one prompt, the agent reasons in layers like a senior business
+// builder, each stage grounded in fresh search and feeding the next:
+//   1. scan      — cast wide: 10-12 candidate opportunities across markets
+//   2. market    — rigorous market-structure analysis of the top 3
+//   3. economics — unit economics + moat thesis for the most attractive one
+//   4. scope     — honest scope of work to build a first sellable version
+//   5. redteam   — a skeptical investor attacks it; rebut or downgrade
+//   6. synthesis — the final decision memo + calibrated conviction score
+//
+// Writes ideas/YYYY-MM-DD.md, a markets/ atlas, plus updates to
+// LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md, SCORES.md.
 // The workflow does the git commit + push.
 
 import {
@@ -22,8 +34,7 @@ const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
 
 const readSafe = (p) => (existsSync(p) ? readFileSync(p, 'utf8') : '');
 
-// Idempotency check: if today's memo is already committed, do nothing.
-// This lets a backup cron run safely without producing duplicates.
+// Idempotency: if today's memo is already committed, do nothing.
 if (existsSync(`ideas/${TODAY}.md`)) {
   console.log(`ideas/${TODAY}.md already exists — skipping run.`);
   process.exit(0);
@@ -35,7 +46,8 @@ const ideaFiles = existsSync('ideas')
       .sort()
   : [];
 
-// Pull recent context — last 5 memos + the three living docs + roadmap
+const cap = (s, n) => (s && s.length > n ? s.slice(0, n) + '\n…(truncated)…' : s);
+
 const recentIdeas = ideaFiles
   .slice(-5)
   .map((f) => `### ${f}\n\n${readSafe(join('ideas', f))}`)
@@ -45,60 +57,212 @@ const roadmap = readSafe('ROADMAP.md');
 const learnings = readSafe('LEARNINGS.md');
 const marketMap = readSafe('MARKET_MAP.md');
 const killed = readSafe('KILLED.md');
+const marketsIndex = readSafe('markets/INDEX.md');
 
-// ---------- Prompt ----------
-const prompt = `You are a ruthless business-opportunity researcher. Your job is to find the ONE most compelling business opportunity today — judged on TWO things only — and write a decision-quality memo.
+// ---------- Shared persona + memory context ----------
+const SYSTEM = `You are a senior business builder operating at the level of a top-tier operator and early-stage investor combined — someone who has built, sized, and killed dozens of ventures and can see a market's structure, the real opportunity inside it, its economic potential, and the true scope of work to win it.
 
-The two things that matter:
-1. REAL PAIN — a problem that is acute, frequent, and genuinely felt by real people (not a "nice to have"). You must prove it with the buyers' own words.
-2. MARKET VALUE — solving it is worth real money: people already spend to relieve this pain, or clearly would, and the addressable market is meaningful.
+You do not chase "nice to have" pains or hype. You reason in numbers, cite every material claim, and you are honest about effort and odds. You are builder-agnostic: do NOT pre-narrow the opportunity by who would build it, their skills, capital, or preferred format (software, service, marketplace, physical, B2B, B2C — all fair game). Let the PAIN, the MARKET STRUCTURE, and the ECONOMICS lead.
 
-Today is ${TODAY}.
+Hard limits (integrity, not narrowing): nothing illegal, nothing in regulated spaces you can't substantiate (dispensing medical/legal/financial advice), no get-rich-quick framing, no fabricated data, credentials, or sources. Every material claim needs a real, cited source you actually opened via Google Search.
 
-Do NOT narrow by who would build it, what skills they have, company size, capital, business model, or product format. Any industry, any format (software, service, marketplace, physical, B2B, B2C, etc.) is fair game. Let the PAIN and the MARKET lead — surface the best opportunity you can find, wherever it is.
+Tone in everything you write: strong businessperson, numbers first, no hype words ("revolutionary", "game-changer", "unlock"), no emojis, sentence-case headers, concrete over abstract. Today is ${TODAY}.`;
 
-Only hard limits (integrity, not narrowing): nothing illegal, nothing in clearly regulated spaces you can't substantiate (e.g. dispensing medical/legal/financial advice), no get-rich-quick framings, no fabricated data or credentials. Every claim needs a source.
+const MEMORY = `You are part of a compounding system. Everything you produce today MUST be novel relative to the accumulated knowledge below, and should deepen it.
 
-Use Google Search aggressively. Open at least 8 distinct sources across: what's selling now (Gumroad / ProductHunt / IndieHackers / Etsy / App stores), buyer pain (Reddit / Quora / Twitter complaints / niche forums), trends up (Google Trends, TikTok hashtags, funding news), and a WIDE range of buyer worlds — deliberately rotate beyond creators/designers: small local services, trades, e-commerce ops, finance/admin, healthcare-adjacent (non-regulated), education, hobbies, B2B niches, blue-collar work, parents, seniors, etc. Cite all sources.
+=== ROADMAP.md (the system's mission) ===
+${cap(roadmap, 4000) || '(empty)'}
 
-You are part of a compounding system. Today's idea MUST be novel relative to everything below.
-
-=== ROADMAP.md ===
-${roadmap || '(empty)'}
-
-=== LEARNINGS.md (priors) ===
-${learnings || '(empty)'}
+=== LEARNINGS.md (priors discovered so far) ===
+${cap(learnings, 4000) || '(empty)'}
 
 === MARKET_MAP.md (niches already explored) ===
-${marketMap || '(empty)'}
+${cap(marketMap, 4000) || '(empty)'}
 
-=== KILLED.md (DO NOT re-pitch) ===
-${killed || '(empty)'}
+=== markets/ atlas index (markets already structurally analyzed) ===
+${cap(marketsIndex, 2000) || '(none yet)'}
 
-=== Recent idea memos (last 5) ===
-${recentIdeas || '(no prior memos)'}
+=== KILLED.md (DO NOT re-pitch these) ===
+${cap(killed, 4000) || '(empty)'}
 
----
+=== Recent idea memos (last 5 — today must be clearly different) ===
+${cap(recentIdeas, 8000) || '(no prior memos)'}`;
 
-Generate 4–6 candidate opportunities internally, drawn from DIFFERENT industries and buyer worlds (do not generate 4–6 variations of the same niche). Kill all but one against these gates — the first two are the real bar, the rest are sanity checks:
-1. REAL PAIN — the problem is acute and frequent, evidenced by ≥2 real people describing it in their own words, with source links. "How intense is this pain?" must have a strong answer.
-2. MARKET VALUE — clear proof of wallet: people already pay for partial/adjacent solutions, OR there is obvious willingness to pay. Estimate the size of the money on the table.
-3. Identifiable buyer — you can name exactly who has this pain and where they are.
-4. Real gap — current alternatives leave the pain badly solved or unsolved; there is a credible wedge to win.
-5. Substantiated — every key claim is backed by a cited source, not a guess.
-6. Meaningful upside — a believable path to a real business, not a tiny one-off.
-7. Genuinely novel relative to LEARNINGS / MARKET_MAP / KILLED — not a near-duplicate of a past idea. DIVERSITY MANDATE: if the last 5 memos share a theme, industry, or buyer type, deliberately break the pattern. Over any 5 runs, span ≥3 unrelated industries.
+// ---------- Gemini call with retry + Pro→Flash fallback ----------
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-If nothing clears gates 1 and 2 convincingly, output a "No GO today" memo explaining what failed and what signal would change tomorrow.
+async function rawCall(model, prompt, { temperature, maxTokens }, attempt = 1) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${API_KEY}`;
+  const body = {
+    contents: [{ parts: [{ text: prompt }] }],
+    tools: [{ google_search: {} }],
+    generationConfig: { temperature, maxOutputTokens: maxTokens },
+  };
 
-CONVICTION SCORING — be a harsh grader. The score is the headline signal of this whole system, so it MUST discriminate between a great idea and an ordinary one. Score the single surviving idea 0–100 using this weighted rubric, and show every sub-score:
-- Pain intensity & frequency — out of 30. Full marks only for acute, recurring pain quoted by 3+ real buyers.
-- Wallet proof / market value — out of 30. Full marks only with multiple independent proofs that money already moves here.
-- Gap & defensible wedge — out of 15. Full marks only if incumbents leave an obvious, hard-to-copy opening.
-- Novelty vs. prior memos — out of 15. Full marks only if neither the buyer NOR the product format repeats a recent memo.
-- Evidence quality — out of 10. Full marks only for independent, recent (<12mo), directly-cited sources.
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
 
-Sum to a /100 total, then map STRICTLY: 82–100 = high, 65–81 = medium, below 65 = low. Calibration: a genuinely solid idea typically lands 60–75. Reserve 82+ for ideas where every single dimension is independently well-evidenced; reserve 90+ for a once-a-month exceptional find. If your total lands above 80, re-read your own evidence, find the weakest dimension, and justify it before you commit the number. Do NOT inflate a sub-score to reach a band. A defensible "medium" beats an inflated "high".
+  if (res.ok) return res.json();
+
+  const status = res.status;
+  const errBody = await res.text();
+  console.error(`${model} returned ${status}: ${errBody.slice(0, 250)}`);
+
+  if ((status === 429 || status >= 500) && attempt < 3) {
+    const wait = 2 ** attempt * 1000;
+    console.log(`Retrying ${model} in ${wait}ms…`);
+    await sleep(wait);
+    return rawCall(model, prompt, { temperature, maxTokens }, attempt + 1);
+  }
+  throw new Error(`${model} failed after ${attempt} attempts: ${status}`);
+}
+
+async function generate(label, prompt, { temperature = 0.5, maxTokens = 8192 } = {}) {
+  console.log(`[${label}] prompt ${prompt.length} chars — calling gemini-2.5-pro…`);
+  let data;
+  try {
+    data = await rawCall('gemini-2.5-pro', prompt, { temperature, maxTokens });
+  } catch (err) {
+    console.error(`[${label}] Pro exhausted retries — falling back to Flash.`);
+    data = await rawCall('gemini-2.5-flash', prompt, { temperature, maxTokens });
+  }
+  const text =
+    data.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
+  if (!text || text.length < 80) {
+    throw new Error(`[${label}] empty / too-short output (${text.length} chars)`);
+  }
+  console.log(`[${label}] got ${text.length} chars`);
+  return text;
+}
+
+// ---------- The pipeline ----------
+const scan = await generate(
+  'scan',
+  `${SYSTEM}
+
+${MEMORY}
+
+STAGE 1 of 6 — DIVERGENT OPPORTUNITY SCAN.
+Cast wide. Use Google Search aggressively across: what's selling now (marketplaces, app stores, ProductHunt, IndieHackers), buyer pain (Reddit, Quora, niche forums, complaint threads), trends up (Google Trends, funding news), and a WIDE range of buyer worlds — deliberately rotate beyond creators/designers into local services, trades, e-commerce ops, finance/admin, education, healthcare-adjacent (non-regulated), B2B niches, blue-collar, parents, seniors.
+
+Produce 10-12 candidate opportunities, each from a DIFFERENT industry (no two from the same world). For each, give: a concrete title, the buyer, the pain (one real signal + where to verify it), the market hypothesis (who pays, rough size signal), and why now. Avoid anything in KILLED.md or the recent memos. Rank by raw promise.
+
+End with a section "## Shortlist" naming the 3 strongest candidates to investigate deeply, each with one sentence on why it survived.`,
+  { temperature: 0.85, maxTokens: 5000 }
+);
+await sleep(1500);
+
+const market = await generate(
+  'market',
+  `${SYSTEM}
+
+${MEMORY}
+
+=== STAGE 1 OUTPUT: SCAN ===
+${scan}
+
+STAGE 2 of 6 — MARKET-STRUCTURE ANALYSIS.
+For the 3 shortlisted candidates, do rigorous, grounded market-structure analysis. For EACH, cover: TAM / SAM / SOM with the method and sources behind the numbers; growth rate and direction; fragmentation (how concentrated are buyers and suppliers); where the margin pool actually sits in the value chain; who controls distribution / customer access; the incumbents and the structural reason they can't or won't serve this well; regulatory or platform risk. Cite real sources for every material number.
+
+End with "## Most attractive market" — name the single best market and one paragraph on why its STRUCTURE (not just the pain) makes it the place to build.`,
+  { temperature: 0.4, maxTokens: 7000 }
+);
+await sleep(1500);
+
+const economics = await generate(
+  'economics',
+  `${SYSTEM}
+
+${MEMORY}
+
+=== SCAN ===
+${cap(scan, 3000)}
+
+=== STAGE 2 OUTPUT: MARKET STRUCTURE ===
+${market}
+
+STAGE 3 of 6 — POTENTIAL: UNIT ECONOMICS + MOAT.
+For the most attractive market's opportunity, analyse the economic potential like an investor:
+- Pricing power: realistic price point(s) with named comparables and what justifies them.
+- Unit economics: gross margin, CAC by the most likely acquisition channel, LTV proxy, payback period — with the assumptions stated.
+- Capital intensity and time-to-first-revenue.
+- Moat thesis: which durable advantage compounds over time (data, network effects, brand, switching costs, distribution lock-in) and WHY — not just "first mover".
+- Expansion path: the beachhead, then the adjacent segments/products it unlocks. Quantify the ceiling.
+Be numeric. Cite comparables with real revenue or proxy data.`,
+  { temperature: 0.4, maxTokens: 6000 }
+);
+await sleep(1500);
+
+const scope = await generate(
+  'scope',
+  `${SYSTEM}
+
+${MEMORY}
+
+=== MARKET STRUCTURE ===
+${cap(market, 3000)}
+
+=== ECONOMICS + MOAT ===
+${economics}
+
+STAGE 4 of 6 — SCOPE OF WORK.
+Define honestly what it takes to build a first sellable version and win the beachhead:
+- MVP cut: what is in, what is explicitly out for v1, and why.
+- Critical path and the 4-8 milestones from zero to first paying customer, with rough durations.
+- What must be TRUE for this to work (the load-bearing assumptions).
+- Resources required: skills, capital, and realistic calendar time.
+- The cheapest, fastest validation test that would de-risk the biggest assumption first, with exact GO / REFINE / PAUSE thresholds.
+Be honest about the lift. Do not pretend a big opportunity is trivial; do not inflate a small one.`,
+  { temperature: 0.4, maxTokens: 5000 }
+);
+await sleep(1500);
+
+const redteam = await generate(
+  'redteam',
+  `${SYSTEM}
+
+=== MARKET STRUCTURE ===
+${cap(market, 2500)}
+
+=== ECONOMICS + MOAT ===
+${cap(economics, 2500)}
+
+=== SCOPE OF WORK ===
+${cap(scope, 2500)}
+
+STAGE 5 of 6 — ADVERSARIAL RED-TEAM.
+You are now a skeptical senior investor who has seen 1000 pitches and funded few. Attack this opportunity as hard as you fairly can. Cover at least: where the market is smaller or slower than claimed; whether the pain is a painkiller or merely a vitamin; where the moat is actually fake or easily copied; where the timing is wrong; the strongest competitive response; and the single most likely way the founder fails. For EACH attack, give the strongest honest rebuttal, or concede it if it stands.
+
+End with "## Verdict": does the opportunity survive, what the surviving weaknesses do to conviction, and an honest score using this rubric — pain intensity & frequency /30, wallet proof / market value /30, gap & defensible wedge /15, novelty /15, evidence quality /10. State it as "Total: NN/100". Be a harsh grader: a solid idea is 60-75; reserve 82+ for opportunities strong on every dimension.`,
+  { temperature: 0.5, maxTokens: 5000 }
+);
+await sleep(1500);
+
+const synthesis = await generate(
+  'synthesis',
+  `${SYSTEM}
+
+${MEMORY}
+
+You have completed a full analyst dossier on the best opportunity found today. Synthesise the FINAL decision memo. Reconcile the conviction score with the red-team verdict — do NOT inflate past what the red-team supports. If the red-team killed it and nothing else clears the bar, write a "No GO today" memo instead, explaining what failed and what signal would change tomorrow.
+
+=== SCAN ===
+${cap(scan, 3000)}
+
+=== MARKET STRUCTURE ===
+${cap(market, 4000)}
+
+=== ECONOMICS + MOAT ===
+${cap(economics, 4000)}
+
+=== SCOPE OF WORK ===
+${cap(scope, 3000)}
+
+=== RED-TEAM VERDICT ===
+${cap(redteam, 3000)}
 
 Output the memo as markdown using EXACTLY this structure (no preamble, start at "# "):
 
@@ -115,48 +279,56 @@ Specific buyer. Quote pain language from 2+ real people with source links. Name 
 ## Why now
 The trend / gap / shift in 2026 specifically. With 2+ sources.
 
+## Market structure
+The structural picture from the analysis: TAM/SAM/SOM with method, growth, fragmentation, where the margin pool sits, who controls distribution, and why incumbents leave this open. Numbers with sources.
+
 ## Size of opportunity
-Napkin math: TAM, 2+ comparables with revenue or proxy data, the money currently spent on this pain, a realistic revenue range, and the ceiling. Scale it to the actual market — don't assume a tiny solo product.
+Napkin math tied to the structure above: realistic revenue range, 2+ comparables with revenue or proxy data, and the ceiling. Scale to the actual market.
+
+## Unit economics and moat
+Pricing, gross margin, CAC/LTV proxy, payback, capital intensity, time-to-first-revenue. Then the moat thesis: the defensibility that compounds and the expansion path. Numbers with comparables.
 
 ## Competitive landscape
 Top 3 closest competitors. What they do right. What they leave on the table that this idea exploits.
 
 ## Conviction score
-Score the idea now that the evidence is on the table. Output a markdown table with columns: Dimension | Score | Max | Justification. One row per dimension (Pain intensity & frequency /30, Wallet proof / market value /30, Gap & defensible wedge /15, Novelty vs. prior memos /15, Evidence quality /10). Then a final bold line exactly in this form: **Total: <NN>/100 → conviction: <high|medium|low>**. The band MUST follow the thresholds (82+ high, 65–81 medium, below 65 low) — do not inflate.
+A markdown table with columns: Dimension | Score | Max | Justification. One row each for Pain intensity & frequency /30, Wallet proof / market value /30, Gap & defensible wedge /15, Novelty vs. prior memos /15, Evidence quality /10. Then a final bold line exactly: **Total: <NN>/100 → conviction: <high|medium|low>**. The band MUST follow the thresholds (82+ high, 65-81 medium, below 65 low) and MUST reconcile with the red-team verdict. Do not inflate.
+
+## Scope of work
+The realistic build: MVP cut (in/out), critical-path milestones with rough durations, the load-bearing assumptions, and resources required (skills, capital, time). Be honest about the lift.
 
 ## Validation plan
-The cheapest, fastest test that would prove the pain is real and people will pay. Concrete steps, where to run it, and exact GO / REFINE / PAUSE thresholds. Scale the test to the opportunity.
-
-## Path to v1
-The realistic route to a first sellable version: scope, key milestones, what it takes (time, skills, capital) and roughly how long. Be honest about the lift — don't pretend a big opportunity is trivial.
+The cheapest, fastest test that de-risks the biggest assumption first. Concrete steps, where to run it, and exact GO / REFINE / PAUSE thresholds.
 
 ## Sales playbook
-How to actually sell this once built. Be specific, not generic. Cover all six:
+Be specific, not generic. Cover all six:
+1. **Pricing strategy** — launch price, sustained price, tier structure, when to raise, what justifies each tier.
+2. **Top 3 sales channels** — three specific channels with the EXACT first move on each (hook line, day/time, asset to share).
+3. **Hook copy** — the actual landing-page headline + sub-headline (pragmatic, no hype). Write 2 versions to A/B test.
+4. **Pre-launch → launch → sustained** — 3-5 concrete actions per phase, dated relative to "Day 0 = launch day".
+5. **Top 2 buyer objections** + a 1-sentence founder-voice rebuttal each.
+6. **Social proof strategy** — what evidence to collect and what to show first.
 
-1. **Pricing strategy** — launch price, sustained price, any tier structure, when to raise prices, what justifies each tier.
-2. **Top 3 sales channels** — pick three specific channels (e.g., "r/Entrepreneur Wednesday post", "DM 30 new Preply tutors", "TikTok hashtag #onlineteacher") and write the EXACT first move on each. Include hook line, day/time to post, what asset to share.
-3. **Hook copy** — the actual landing-page headline and sub-headline (pragmatic, no hype). Write 2 versions to A/B test.
-4. **Pre-launch → launch → sustained** sequence — 3–5 concrete actions per phase. Pre-launch builds waitlist; launch converts; sustained keeps revenue trickling. Name dates relative to "Day 0 = launch day".
-5. **Top 2 buyer objections** and a 1-sentence rebuttal for each. Write the rebuttal as the founder would actually say it.
-6. **Social proof strategy** — what evidence to collect (screenshots, quotes, before/after), what to show on the sales page first, what to add over time.
+## Red-team and rebuttal
+The 2-3 strongest attacks from the red-team and how this opportunity answers them (or where it concedes). Honest.
 
 ## Risks and kill criteria
 Top 3 ways this fails. Exact metric or signal that says "stop now."
 
 ## Candidates I considered and killed today
-3–5 other candidates, one line each, with reason. Format: "- <idea> — <reason>"
+3-5 other candidates from the scan, one line each, with reason. Format: "- <idea> — <reason>"
 
 ## What I learned today
-2–4 concrete patterns this run revealed about markets, buyers, pricing, distribution, or research itself. Format: "- <pattern>"
+2-4 concrete, NON-OBVIOUS patterns this run revealed about markets, economics, distribution, or research itself — not restatements of yesterday's learnings. Format: "- <pattern>"
 
 ## Why this beats yesterday's idea
 One paragraph contrasting against the most recent prior idea. Day 1 = "First idea — baseline."
 
 ## Sources
-Bulleted list of every URL you opened. Minimum 8.
+Bulleted list of every URL opened across all stages. Minimum 10.
 
 ## Market map update
-Either "(new niche)" followed by a section like:
+Either "(new niche)" followed by:
 ## <Niche name>
 - Buyer: <one-line>
 - Where they gather: <links/communities>
@@ -164,75 +336,29 @@ Either "(new niche)" followed by a section like:
 - Price range: <$X–$Y>
 - Last researched: ${TODAY}
 - Status: open
-…OR "(updated existing: <name>)" followed by 2–3 lines of new comparables / data.
+…OR "(updated existing: <name>)" followed by 2-3 lines of new comparables / data.
 
-Tone: Strong businessman. Numbers first. No hype words ("revolutionary", "game-changer", "unlock"). No emojis. Sentence-case headers. Concrete > abstract. No claim without a source.
+## Market atlas entry
+A structured teardown of the winning market for the markets/ atlas. Use EXACTLY this shape:
+slug: <kebab-case-market-slug>
+market: <market name>
+- TAM/SAM/SOM: <with method + sources>
+- Growth: <rate + direction + source>
+- Fragmentation: <buyer/supplier concentration>
+- Margin pool: <where the money sits in the chain>
+- Distribution control: <who owns customer access>
+- Incumbents and inertia: <who, and why they leave this open>
+- Regulatory / platform risk: <one line>
+- Key sources: <2-4 URLs>
 
-Begin.`;
+Begin.`,
+  { temperature: 0.5, maxTokens: 16384 }
+);
 
-// ---------- Call Gemini with retry + fallback ----------
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-async function callGemini(model, attempt = 1) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${API_KEY}`;
-  const body = {
-    contents: [{ parts: [{ text: prompt }] }],
-    tools: [{ google_search: {} }],
-    generationConfig: {
-      temperature: 0.6,
-      maxOutputTokens: 16384,
-    },
-  };
-
-  console.log(`[${TODAY}] Calling ${model} (attempt ${attempt})…`);
-
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-
-  if (res.ok) {
-    return res.json();
-  }
-
-  const status = res.status;
-  const errBody = await res.text();
-  console.error(`${model} returned ${status}: ${errBody.slice(0, 300)}`);
-
-  // Retry on transient errors (429 rate limit, 5xx server)
-  if ((status === 429 || status >= 500) && attempt < 3) {
-    const wait = 2 ** attempt * 1000; // 2s, 4s
-    console.log(`Retrying ${model} in ${wait}ms…`);
-    await sleep(wait);
-    return callGemini(model, attempt + 1);
-  }
-
-  // Out of retries — caller decides whether to fall back
-  throw new Error(`${model} failed after ${attempt} attempts: ${status}`);
-}
-
-console.log(`Prompt length: ${prompt.length} chars`);
-
-let data;
-try {
-  data = await callGemini('gemini-2.5-pro');
-} catch (err) {
-  console.error('Pro exhausted retries. Falling back to Flash.');
-  try {
-    data = await callGemini('gemini-2.5-flash');
-  } catch (err2) {
-    console.error('Both Pro and Flash failed. Aborting.');
-    process.exit(1);
-  }
-}
-
-let memo =
-  data.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
+let memo = synthesis;
 
 if (!memo || memo.length < 500) {
-  console.error('Gemini returned empty / too-short response.');
-  console.error(JSON.stringify(data, null, 2).slice(0, 2000));
+  console.error('Synthesis returned empty / too-short response.');
   process.exit(1);
 }
 
@@ -242,7 +368,6 @@ console.log(`Got memo: ${memo.length} chars`);
 const firstHeadingLine =
   memo.split('\n').find((l) => l.trim().startsWith('# ')) || '';
 const fullTitle = firstHeadingLine.replace(/^#\s+/, '').trim();
-// Strip trailing markdown/punctuation if any
 const titleClean = fullTitle.replace(/\s+$/, '').replace(/[.\s]+$/, '');
 
 // ---------- Conviction score: parse the number, derive the band in code ----------
@@ -257,8 +382,6 @@ function bandFromScore(score) {
 
 const isNoGo = /no\s*go\s*today/i.test(memo.slice(0, 400));
 
-// Prefer the score on the "Total:" line in the Conviction score section; fall
-// back to any "NN/100" in the memo, then to the metadata "score:" token.
 const totalLineMatch = memo.match(/total:\s*(\d{1,3})\s*\/\s*100/i);
 const anyPer100Match = memo.match(/\b(\d{1,3})\s*\/\s*100\b/);
 const metaScoreMatch = memo.match(/score:\s*(\d{1,3})/i);
@@ -281,20 +404,16 @@ const conviction = score === null ? 'medium' : bandFromScore(score);
 }
 
 function extractSection(text, heading) {
-  const re = new RegExp(
-    `##\\s+${heading}[\\s\\S]*?(?=\\n##\\s|\\n#\\s|$)`,
-    'i'
-  );
+  const re = new RegExp(`##\\s+${heading}[\\s\\S]*?(?=\\n##\\s|\\n#\\s|$)`, 'i');
   const m = text.match(re);
   if (!m) return '';
-  return m[0]
-    .replace(/^##\s+[^\n]*\n/, '')
-    .trim();
+  return m[0].replace(/^##\s+[^\n]*\n/, '').trim();
 }
 
 const learningsToday = extractSection(memo, 'What I learned today');
 const killedToday = extractSection(memo, 'Candidates I considered and killed today');
 const marketMapUpdate = extractSection(memo, 'Market map update');
+const atlasEntry = extractSection(memo, 'Market atlas entry');
 
 // ---------- Write today's memo ----------
 mkdirSync('ideas', { recursive: true });
@@ -307,7 +426,6 @@ writeFileSync(`ideas/${TODAY}.md`, memo.endsWith('\n') ? memo : memo + '\n');
 Hard-won patterns this agent has discovered. Newest at the top.
 `;
   const existing = readSafe('LEARNINGS.md');
-  // strip the existing header if present
   const body = existing
     .replace(/^#\s+Learnings[\s\S]*?(?=\n##\s|$)/, '')
     .trimStart();
@@ -345,19 +463,97 @@ Niches, buyers, and comparable products this agent has studied. Updated incremen
     .trimStart();
 
   if (marketMapUpdate && marketMapUpdate.toLowerCase().startsWith('(new niche)')) {
-    // Prepend the new niche block
     const block = marketMapUpdate.replace(/^\(new niche\)\s*\n*/i, '').trim();
-    const next =
-      `${header}\n${block}\n\n${trimmedExisting}`.trimEnd() + '\n';
+    const next = `${header}\n${block}\n\n${trimmedExisting}`.trimEnd() + '\n';
     writeFileSync('MARKET_MAP.md', next);
   } else if (marketMapUpdate && marketMapUpdate.toLowerCase().startsWith('(updated existing')) {
-    // Append the update note at the top of the body
     const note = `\n_(${TODAY} update)_ ${marketMapUpdate.trim()}\n`;
     const next = `${header}${note}\n${trimmedExisting}`.trimEnd() + '\n';
     writeFileSync('MARKET_MAP.md', next);
   } else if (!existing) {
-    // First run — at least write the header so future runs have it
     writeFileSync('MARKET_MAP.md', header);
+  }
+}
+
+// ---------- Update markets/ atlas (structural market teardowns) ----------
+if (atlasEntry && !isNoGo) {
+  const slugMatch = atlasEntry.match(/slug:\s*(.+)/i);
+  const nameMatch = atlasEntry.match(/market:\s*(.+)/i);
+  const slug = slugMatch
+    ? slugMatch[1]
+        .trim()
+        .toLowerCase()
+        .replace(/[\s_]+/g, '-')
+        .replace(/[^a-z0-9-]/g, '')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '')
+        .slice(0, 60)
+    : '';
+  const marketName = (nameMatch ? nameMatch[1] : slug).trim();
+
+  if (slug) {
+    mkdirSync('markets', { recursive: true });
+
+    // Strip the slug/market lines from the body we store as the revision.
+    const revisionBody = atlasEntry
+      .replace(/^\s*slug:.*$/im, '')
+      .replace(/^\s*market:.*$/im, '')
+      .trim();
+
+    const file = `markets/${slug}.md`;
+    const revision = `## ${TODAY} revision — idea: ${titleClean || 'n/a'} (score: ${score ?? 'n/a'})\n${revisionBody}\n`;
+    if (existsSync(file)) {
+      const prior = readSafe(file);
+      // Insert the new revision right after the title block.
+      const updated = prior.replace(
+        /(^#\s+Market:[^\n]*\n(?:slug:[^\n]*\n)?)/i,
+        `$1\n${revision}\n---\n\n`
+      );
+      writeFileSync(
+        file,
+        /^#\s+Market:/i.test(prior)
+          ? updated
+          : `# Market: ${marketName}\nslug: ${slug}\n\n${revision}\n---\n\n${prior}`
+      );
+    } else {
+      writeFileSync(file, `# Market: ${marketName}\nslug: ${slug}\n\n${revision}`);
+    }
+
+    // Maintain markets/INDEX.md (one row per market, newest update first).
+    const idxHeader = `# Markets atlas index
+
+Structural teardowns of markets this agent has analyzed. Newest update first.
+
+| Market | Slug | Last updated | Last score | Last idea |
+|---|---|---|---|---|`;
+    const idxExisting = readSafe('markets/INDEX.md');
+    const idxRowRe =
+      /^\|\s*(.+?)\s*\|\s*([a-z0-9-]+)\s*\|\s*(\d{4}-\d{2}-\d{2})\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|$/gim;
+    const idxRows = [];
+    let im;
+    while ((im = idxRowRe.exec(idxExisting)) !== null) {
+      if (im[2] === slug) continue; // replace this market's row
+      idxRows.push({
+        market: im[1],
+        slug: im[2],
+        updated: im[3],
+        score: im[4],
+        idea: im[5],
+      });
+    }
+    idxRows.push({
+      market: marketName.replace(/\|/g, '\\|'),
+      slug,
+      updated: TODAY,
+      score: String(score ?? 'n/a'),
+      idea: (titleClean || 'n/a').replace(/\|/g, '\\|'),
+    });
+    idxRows.sort((a, b) => b.updated.localeCompare(a.updated));
+    const idxBody = idxRows
+      .map((r) => `| ${r.market} | ${r.slug} | ${r.updated} | ${r.score} | ${r.idea} |`)
+      .join('\n');
+    writeFileSync('markets/INDEX.md', `${idxHeader}\n${idxBody}\n`);
+    console.log(`✓ Updated markets/${slug}.md + markets/INDEX.md`);
   }
 }
 
@@ -369,14 +565,9 @@ Niches, buyers, and comparable products this agent has studied. Updated incremen
   const logEntry = `- ${TODAY} — ${logTitle} — ${scoreTag}`;
 
   if (/##\s+Log/i.test(existing)) {
-    // Insert today's entry right after the "## Log" heading
-    const updated = existing.replace(
-      /(##\s+Log[^\n]*\n+)/i,
-      `$1${logEntry}\n`
-    );
+    const updated = existing.replace(/(##\s+Log[^\n]*\n+)/i, `$1${logEntry}\n`);
     writeFileSync('README.md', updated);
   } else {
-    // Append a Log section if missing
     writeFileSync('README.md', existing.trimEnd() + `\n\n## Log\n\n${logEntry}\n`);
   }
 }
@@ -392,18 +583,15 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 |---|---|---|---|`;
 
   const existing = readSafe('SCORES.md');
-  // Parse existing rows: | <int> | <band> | <date> | <idea> |
   const rowRe = /^\|\s*(\d{1,3})\s*\|\s*([a-z]+)\s*\|\s*(\d{4}-\d{2}-\d{2})\s*\|\s*(.+?)\s*\|$/gim;
   const rows = [];
   let m;
   while ((m = rowRe.exec(existing)) !== null) {
-    if (m[3] === TODAY) continue; // replace any prior entry for today (idempotent reruns)
+    if (m[3] === TODAY) continue;
     rows.push({ score: parseInt(m[1], 10), band: m[2], date: m[3], idea: m[4] });
   }
   const safeTitle = (titleClean || `idea ${TODAY}`).replace(/\|/g, '\\|');
   rows.push({ score: score ?? 0, band: conviction, date: TODAY, idea: safeTitle });
-
-  // Sort by score desc, then date desc for ties.
   rows.sort((a, b) => b.score - a.score || b.date.localeCompare(a.date));
 
   const body = rows
@@ -415,4 +603,4 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 console.log(`✓ Wrote ideas/${TODAY}.md (${memo.length} chars)`);
 console.log(`✓ Title: ${titleClean}`);
 console.log(`✓ Conviction: ${conviction} (score: ${score === null ? 'n/a' : score})`);
-console.log('✓ Updated LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md, SCORES.md');
+console.log('✓ Updated LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md, SCORES.md, markets/');
