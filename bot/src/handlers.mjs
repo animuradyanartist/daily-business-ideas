@@ -7,7 +7,13 @@ import {
   persistentKeyboard,
   inlineKeyboard,
 } from './telegram.mjs';
-import { listFiles, fetchRaw, dateFromFilename, repoBlobUrl } from './github.mjs';
+import {
+  listFiles,
+  fetchRaw,
+  dateFromFilename,
+  repoBlobUrl,
+  writeOutcome,
+} from './github.mjs';
 import {
   parseIdeaTitle,
   parseTrendTitle,
@@ -181,13 +187,73 @@ async function renderItem(env, chatId, type, date, fromPage, messageId) {
   const favLabel = favored ? '★ Remove from favorites' : '⭐ Add to favorites';
   const listType = type === 'idea' ? 'ideas' : 'trends';
 
-  const markup = inlineKeyboard([
+  const rows = [
     [{ text: favLabel, callback_data: `fav:${type}:${date}:${fromPage}` }],
-    [{ text: '📖 Read full memo on GitHub', url: repoBlobUrl(env, path) }],
-    [{ text: '◀️ Back to list', callback_data: `page:${listType}:${fromPage}` }],
-  ]);
+  ];
+  // Outcomes only make sense for ideas, not trend forecasts.
+  if (type === 'idea') {
+    rows.push([{ text: '📊 Log outcome', callback_data: `outcome:${date}:${fromPage}` }]);
+  }
+  rows.push([{ text: '📖 Read full memo on GitHub', url: repoBlobUrl(env, path) }]);
+  rows.push([{ text: '◀️ Back to list', callback_data: `page:${listType}:${fromPage}` }]);
 
-  await editMessageText(env.BOT_TOKEN, chatId, messageId, text, markup);
+  await editMessageText(env.BOT_TOKEN, chatId, messageId, text, inlineKeyboard(rows));
+}
+
+// --- Outcome logging (real-world results → outcomes/<date>.md) ---
+
+const PENDING_TTL_S = 3600; // an outcome prompt expires after an hour
+
+async function startOutcome(env, chatId, date, fromPage, messageId) {
+  await env.BOT_KV.put(`pending_outcome:${chatId}`, date, { expirationTtl: PENDING_TTL_S });
+  const text =
+    `📊 Logging an outcome for the idea dated ${date}.\n\n` +
+    'Reply with what actually happened — what you did, the hard result (numbers if you have them), and what you learned. This is the highest-weight signal the agent has, so be concrete.\n\n' +
+    'Send it as your next message, or tap Cancel.';
+  await editMessageText(
+    env.BOT_TOKEN,
+    chatId,
+    messageId,
+    text,
+    inlineKeyboard([[{ text: '✖️ Cancel', callback_data: `outcome_cancel:${date}:${fromPage}` }]])
+  );
+}
+
+// Called from index.mjs for any free-text message. Returns true if the message
+// was consumed as a pending outcome, false if there was nothing pending.
+export async function handleText(env, chatId, text) {
+  const pendingKey = `pending_outcome:${chatId}`;
+  const date = await env.BOT_KV.get(pendingKey);
+  if (!date) return false;
+
+  const body = (text || '').trim();
+  if (!body) {
+    await sendMessage(
+      env.BOT_TOKEN,
+      chatId,
+      "That looked empty — send the outcome as text, or it'll expire on its own."
+    );
+    return true;
+  }
+
+  try {
+    await writeOutcome(env, date, body);
+    await env.BOT_KV.delete(pendingKey);
+    await sendMessage(
+      env.BOT_TOKEN,
+      chatId,
+      `✅ Logged to outcomes/${date}.md. The agent will weigh this above everything else on its next run.`,
+      persistentKeyboard()
+    );
+  } catch (err) {
+    console.error('writeOutcome failed:', err);
+    await sendMessage(
+      env.BOT_TOKEN,
+      chatId,
+      "Couldn't save that outcome (the bot's GitHub write token may be missing or expired). Your text wasn't lost — try again in a moment."
+    );
+  }
+  return true;
 }
 
 // --- Callback dispatch ---
@@ -228,6 +294,19 @@ export async function handleCallback(env, callbackQuery) {
     const key = `${type}:${date}`;
     await toggleFav(env, chatId, key);
     await renderItem(env, chatId, type, date, parseInt(fromPage, 10) || 1, messageId);
+    return;
+  }
+
+  if (data.startsWith('outcome_cancel:')) {
+    const [, date, fromPage] = data.split(':');
+    await env.BOT_KV.delete(`pending_outcome:${chatId}`);
+    await renderItem(env, chatId, 'idea', date, parseInt(fromPage, 10) || 1, messageId);
+    return;
+  }
+
+  if (data.startsWith('outcome:')) {
+    const [, date, fromPage] = data.split(':');
+    await startOutcome(env, chatId, date, parseInt(fromPage, 10) || 1, messageId);
     return;
   }
 }

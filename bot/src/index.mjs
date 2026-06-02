@@ -1,7 +1,7 @@
 // Cloudflare Worker entry point.
 // Verifies webhook secret, enforces single-user allowlist, dispatches to handlers.
 
-import { handleStart, handleMenuTap, handleCallback } from './handlers.mjs';
+import { handleStart, handleMenuTap, handleCallback, handleText } from './handlers.mjs';
 import { sendMessage } from './telegram.mjs';
 
 export default {
@@ -46,15 +46,23 @@ export default {
       } else if (update.message) {
         const text = update.message.text || '';
         if (text === '/start') {
+          await env.BOT_KV.delete(`pending_outcome:${chatId}`);
           await handleStart(env, chatId);
         } else if (
           text === '📋 All ideas' ||
           text === '📈 All trends' ||
           text === '⭐ Favorites'
         ) {
+          // A menu tap cancels any half-finished outcome prompt.
+          await env.BOT_KV.delete(`pending_outcome:${chatId}`);
           await handleMenuTap(env, chatId, text);
         } else {
-          await handleStart(env, chatId);
+          // Free text: consume it as a pending outcome if one is awaiting,
+          // otherwise fall back to the welcome/menu.
+          const consumed = await handleText(env, chatId, text);
+          if (!consumed) {
+            await handleStart(env, chatId);
+          }
         }
       }
     } catch (err) {
