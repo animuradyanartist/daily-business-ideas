@@ -164,10 +164,14 @@ ${MEMORY}
 === STAGE 1 OUTPUT: SCAN ===
 ${scan}
 
-STAGE 2 of 6 — MARKET-STRUCTURE ANALYSIS.
-For the 3 shortlisted candidates, do rigorous, grounded market-structure analysis. For EACH, cover: TAM / SAM / SOM with the method and sources behind the numbers; growth rate and direction; fragmentation (how concentrated are buyers and suppliers); where the margin pool actually sits in the value chain; who controls distribution / customer access; the incumbents and the structural reason they can't or won't serve this well; regulatory or platform risk. Cite real sources for every material number.
+STAGE 2 of 6 — MARKET-STRUCTURE ANALYSIS + PROBLEM PROOF.
+For the 3 shortlisted candidates, do rigorous, grounded analysis. For EACH, cover two blocks:
 
-End with "## Most attractive market" — name the single best market and one paragraph on why its STRUCTURE (not just the pain) makes it the place to build.`,
+A) MARKET STRUCTURE: TAM / SAM / SOM with the method and sources behind the numbers (show the multiplication: # of buyers × spend); growth rate and direction; fragmentation (how concentrated are buyers and suppliers); where the margin pool actually sits in the value chain; who controls distribution / customer access; the incumbents and the structural reason they can't or won't serve this well; regulatory or platform risk. Cite real sources for every material number.
+
+B) PROBLEM PROOF (this is the bar — prove the pain is real, not assumed): pull at least 3 DIRECT buyer quotes in their own words, each with a source URL and a date, from places buyers actually complain (Reddit, Quora, niche forums, review sites, X). Then quantify the pain's prevalence with hard signals: subreddit/forum/group size, count of threads or complaints on the topic, search-volume or Google-Trends direction, review counts. Then quantify the COST of the pain to the buyer (time lost, money lost, revenue at risk) and its FREQUENCY (daily/weekly/per-cycle). Prefer evidence under 12 months old. No quote without a link.
+
+End with "## Most attractive market" — name the single best market and one paragraph on why its STRUCTURE and the STRENGTH OF THE PROBLEM PROOF make it the place to build.`,
   { temperature: 0.4, maxTokens: 7000 }
 );
 await sleep(1500);
@@ -191,6 +195,9 @@ For the most attractive market's opportunity, analyse the economic potential lik
 - Capital intensity and time-to-first-revenue.
 - Moat thesis: which durable advantage compounds over time (data, network effects, brand, switching costs, distribution lock-in) and WHY — not just "first mover".
 - Expansion path: the beachhead, then the adjacent segments/products it unlocks. Quantify the ceiling.
+
+Then a block "## Reference solutions" — find 4-6 real, existing solutions that prove this kind of product can sell and work. Mix three types: (1) DIRECT comparables solving the same pain, (2) ADJACENT analogues solving the same shape of pain in a neighbouring market, (3) PRECEDENTS — a product that proves the business model or price point. For EACH, give: name + URL, what it is, its price, any traction signal (revenue, users, reviews, funding), and one line on exactly what it proves for our opportunity (demand / willingness-to-pay / feasibility / pricing). No reference without a link.
+
 Be numeric. Cite comparables with real revenue or proxy data.`,
   { temperature: 0.4, maxTokens: 6000 }
 );
@@ -274,7 +281,10 @@ _${TODAY} · conviction: <high|medium|low> · score: <NN>/100_
 One paragraph: what it is, what the buyer gets, what it costs.
 
 ## Who pays and why
-Specific buyer. Quote pain language from 2+ real people with source links. Name the exact community / platform / search query where they live.
+Specific buyer. Name the exact community / platform / search query where they live, and why this buyer has both the pain and the budget.
+
+## Problem proof
+Prove the pain is real and acute, with data — do not assert it. Include: at least 3 DIRECT buyer quotes in their own words, each with a source URL and date. Then hard prevalence signals (community/forum size, count of complaint threads, search-volume or Trends direction, review counts). Then the COST of the pain (time or money lost, revenue at risk) and its FREQUENCY (how often it bites). Pull this from the dossier's problem-proof block; prefer evidence under 12 months old. Every claim links to a source.
 
 ## Why now
 The trend / gap / shift in 2026 specifically. With 2+ sources.
@@ -283,13 +293,16 @@ The trend / gap / shift in 2026 specifically. With 2+ sources.
 The structural picture from the analysis: TAM/SAM/SOM with method, growth, fragmentation, where the margin pool sits, who controls distribution, and why incumbents leave this open. Numbers with sources.
 
 ## Size of opportunity
-Napkin math tied to the structure above: realistic revenue range, 2+ comparables with revenue or proxy data, and the ceiling. Scale to the actual market.
+Show the sizing math explicitly, tied to the structure above: TAM → SAM → SOM with the multiplication shown (# of buyers × realistic spend), each input sourced. Give a realistic year-1 and steady-state revenue range, 3+ comparables with revenue or proxy data, and the ceiling. State the key assumptions. Scale to the actual market — do not default to a tiny solo product.
 
 ## Unit economics and moat
 Pricing, gross margin, CAC/LTV proxy, payback, capital intensity, time-to-first-revenue. Then the moat thesis: the defensibility that compounds and the expansion path. Numbers with comparables.
 
 ## Competitive landscape
 Top 3 closest competitors. What they do right. What they leave on the table that this idea exploits.
+
+## Reference solutions
+4-6 real, existing solutions that prove this kind of product sells and works, drawn from the dossier. Mix direct comparables, adjacent analogues (same shape of pain in a neighbouring market), and precedents that prove the model or price point. Format each as: "- **<name>** (<URL>) — <what it is>, <price>, <traction signal> → proves <demand | willingness-to-pay | feasibility | pricing>." Every reference has a link.
 
 ## Conviction score
 A markdown table with columns: Dimension | Score | Max | Justification. One row each for Pain intensity & frequency /30, Wallet proof / market value /30, Gap & defensible wedge /15, Novelty vs. prior memos /15, Evidence quality /10. Then a final bold line exactly: **Total: <NN>/100 → conviction: <high|medium|low>**. The band MUST follow the thresholds (82+ high, 65-81 medium, below 65 low) and MUST reconcile with the red-team verdict. Do not inflate.

@@ -9,8 +9,8 @@ This system compounds: every run reads `LEARNINGS.md`, `MARKET_MAP.md`, `KILLED.
 Scout doesn't reason in one pass. Each daily run is a 6-stage senior-analyst pipeline, every stage grounded in fresh Google Search and feeding the next:
 
 1. **Scan** — cast wide: 10–12 candidate opportunities across unrelated markets.
-2. **Market structure** — rigorous TAM/SAM/SOM, growth, fragmentation, margin pool, distribution control, and incumbent inertia for the top 3.
-3. **Economics & moat** — unit economics (pricing, gross margin, CAC/LTV, payback) and the defensibility that compounds over time.
+2. **Market structure + problem proof** — rigorous TAM/SAM/SOM, growth, fragmentation, margin pool, distribution control, incumbent inertia, plus quantified proof the pain is real (3+ buyer quotes with links, prevalence signals, cost and frequency of the pain).
+3. **Economics, moat & reference solutions** — unit economics (pricing, gross margin, CAC/LTV, payback), the defensibility that compounds, and 4–6 real comparable/analogue/precedent solutions that prove the model.
 4. **Scope of work** — the honest build: MVP cut, critical-path milestones, load-bearing assumptions, resources required.
 5. **Red-team** — a skeptical investor attacks the survivor; every attack is rebutted or conceded.
 6. **Synthesis** — the final decision memo with a calibrated 0–100 conviction score that must reconcile with the red-team verdict.
