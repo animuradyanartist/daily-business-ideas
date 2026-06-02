@@ -29,7 +29,7 @@ All scheduled times are deliberately placed in Anthropic's **off-peak window** (
 - `KILLED.md` — every rejected idea and why. Do not re-pitch.
 - `PATTERNS.md` — patterns discovered by the Surgeon across teardowns (introduced in Phase 2).
 - `MASTERY.md` — the Teacher's scorecard of skills covered (introduced in Phase 3).
-- `outcomes/` — real-world validation results when the founder runs tests. Highest-weight signal.
+- `outcomes/` — real-world validation results when the founder runs tests. Highest-weight signal. **Live:** logged via the Telegram bot (📊 Log outcome) and read by Scout as the top-weight prior, above LEARNINGS — a logged outcome overrides any reasoned pattern.
 
 Every agent reads what's relevant to its role before working, and writes back to the shared knowledge files.
 

@@ -58,6 +58,20 @@ const learnings = readSafe('LEARNINGS.md');
 const marketMap = readSafe('MARKET_MAP.md');
 const killed = readSafe('KILLED.md');
 const marketsIndex = readSafe('markets/INDEX.md');
+const scoresBoard = readSafe('SCORES.md');
+
+// Real-world outcomes logged via the Telegram bot. These are the HIGHEST-weight
+// prior in the system: actual results (built / tested / shipped / sold / failed)
+// beat any amount of upstream reasoning. Newest first.
+const outcomeFiles = existsSync('outcomes')
+  ? readdirSync('outcomes')
+      .filter((f) => f.endsWith('.md') && f !== '.gitkeep' && f.toLowerCase() !== 'readme.md')
+      .sort()
+      .reverse()
+  : [];
+const outcomes = outcomeFiles
+  .map((f) => `### ${f}\n\n${readSafe(join('outcomes', f))}`)
+  .join('\n\n---\n\n');
 
 // ---------- Shared persona + memory context ----------
 const SYSTEM = `You are a senior business builder operating at the level of a top-tier operator and early-stage investor combined — someone who has built, sized, and killed dozens of ventures and can see a market's structure, the real opportunity inside it, its economic potential, and the true scope of work to win it.
@@ -69,6 +83,14 @@ Hard limits (integrity, not narrowing): nothing illegal, nothing in regulated sp
 Tone in everything you write: strong businessperson, numbers first, no hype words ("revolutionary", "game-changer", "unlock"), no emojis, sentence-case headers, concrete over abstract. Today is ${TODAY}.`;
 
 const MEMORY = `You are part of a compounding system. Everything you produce today MUST be novel relative to the accumulated knowledge below, and should deepen it.
+
+=== outcomes/ (REAL-WORLD RESULTS — these OUTWEIGH every other prior below) ===
+These are actual results from people who acted on past ideas: built it, tested it, ran the validation, tried to sell it, or shipped it. Reality beats reasoning. If an outcome contradicts a pattern you would otherwise assume, the OUTCOME wins. Mine these hard for what actually made buyers pay vs. what merely sounded good, and let them reshape today's pick, your demand bar, and your scoring. If empty, you have no real-world feedback yet — be correspondingly humble about conviction.
+${cap(outcomes, 6000) || '(no outcomes logged yet — no real-world feedback to learn from)'}
+
+=== SCORES.md (your own past conviction calls — calibration check) ===
+These are scores you gave earlier ideas. Use them to stay calibrated: if you are about to score today's idea high, it must be genuinely stronger on demand and wallet proof than the high-scored ideas here, not merely described more confidently.
+${cap(scoresBoard, 2500) || '(no scores yet)'}
 
 === ROADMAP.md (the system's mission) ===
 ${cap(roadmap, 4000) || '(empty)'}
@@ -198,6 +220,14 @@ For the most attractive market's opportunity, analyse the economic potential lik
 
 Then a block "## Reference solutions" — find 4-6 real, existing solutions that prove this kind of product can sell and work. Mix three types: (1) DIRECT comparables solving the same pain, (2) ADJACENT analogues solving the same shape of pain in a neighbouring market, (3) PRECEDENTS — a product that proves the business model or price point. For EACH, give: name + URL, what it is, its price, any traction signal (revenue, users, reviews, funding), and one line on exactly what it proves for our opportunity (demand / willingness-to-pay / feasibility / pricing). No reference without a link.
 
+Then a block "## Demand signals — pay vs. complain". This is a hard gate: most ideas die because people complain but won't pay. Separate PROVEN DEMAND (money is already moving) from MERE INTEREST (people talk but don't pay). Find at least 4 hard demand signals that money already flows for this pain, each with a source URL and date:
+- existing paid products in this space with revenue, paying-user counts, or review counts (reviews ≈ a floor on paying buyers),
+- "I'll pay for / does anyone sell / shut up and take my money / what do you use for" buyer quotes where a buyer is actively trying to spend,
+- spend that already happens on a worse substitute (agency, freelancer, spreadsheet, manual workaround) and what it costs them,
+- search intent with commercial signal (e.g. "<job> software/service/tool/template" queries, marketplace listings selling and their sales counts),
+- ad spend or sponsored results against these keywords (someone paying to acquire = a live market).
+Then state a one-line WALLET VERDICT: is this PROVEN DEMAND (money already moves), EMERGING (some money, thin), or VITAMIN (complaints without spend)? If it is VITAMIN, say so plainly — that caps conviction hard regardless of how big the TAM looks.
+
 Be numeric. Cite comparables with real revenue or proxy data.`,
   { temperature: 0.4, maxTokens: 6000 }
 );
@@ -286,6 +316,9 @@ Specific buyer. Name the exact community / platform / search query where they li
 ## Problem proof
 Prove the pain is real and acute, with data — do not assert it. Include: at least 3 DIRECT buyer quotes in their own words, each with a source URL and date. Then hard prevalence signals (community/forum size, count of complaint threads, search-volume or Trends direction, review counts). Then the COST of the pain (time or money lost, revenue at risk) and its FREQUENCY (how often it bites). Pull this from the dossier's problem-proof block; prefer evidence under 12 months old. Every claim links to a source.
 
+## Demand signals
+The pay-vs-complain gate, drawn from the dossier. Separate PROVEN DEMAND (money already moves) from MERE INTEREST (people talk but don't pay). List at least 4 hard signals that money already flows for this pain — paid products with revenue/review counts, "I'll pay for / who sells / what do you use for" buyer quotes, spend on a worse substitute (agency/freelancer/manual) and its cost, commercial search intent, or ad spend against the keywords — each with a source URL and date. End with a bold one-line **Wallet verdict: PROVEN DEMAND | EMERGING | VITAMIN** and one sentence of why. A VITAMIN verdict caps the Wallet-proof sub-score and overall conviction hard, no matter how large the TAM.
+
 ## Why now
 The trend / gap / shift in 2026 specifically. With 2+ sources.
 
@@ -305,7 +338,7 @@ Top 3 closest competitors. What they do right. What they leave on the table that
 4-6 real, existing solutions that prove this kind of product sells and works, drawn from the dossier. Mix direct comparables, adjacent analogues (same shape of pain in a neighbouring market), and precedents that prove the model or price point. Format each as: "- **<name>** (<URL>) — <what it is>, <price>, <traction signal> → proves <demand | willingness-to-pay | feasibility | pricing>." Every reference has a link.
 
 ## Conviction score
-A markdown table with columns: Dimension | Score | Max | Justification. One row each for Pain intensity & frequency /30, Wallet proof / market value /30, Gap & defensible wedge /15, Novelty vs. prior memos /15, Evidence quality /10. Then a final bold line exactly: **Total: <NN>/100 → conviction: <high|medium|low>**. The band MUST follow the thresholds (82+ high, 65-81 medium, below 65 low) and MUST reconcile with the red-team verdict. Do not inflate.
+A markdown table with columns: Dimension | Score | Max | Justification. One row each for Pain intensity & frequency /30, Wallet proof / market value /30, Gap & defensible wedge /15, Novelty vs. prior memos /15, Evidence quality /10. The Wallet-proof score MUST follow the Demand signals section: a VITAMIN wallet verdict scores under 12/30 here; only PROVEN DEMAND can score above 22/30. Then a final bold line exactly: **Total: <NN>/100 → conviction: <high|medium|low>**. The band MUST follow the thresholds (82+ high, 65-81 medium, below 65 low) and MUST reconcile with the red-team verdict. Do not inflate.
 
 ## Scope of work
 The realistic build: MVP cut (in/out), critical-path milestones with rough durations, the load-bearing assumptions, and resources required (skills, capital, time). Be honest about the lift.
