@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-02
+- **The Property Manager's Tenant Turnover System.** — Killed: The sales cycle is longer and the buyer is less accustomed to self-serve SaaS compared to Shopify merchants.
+- **The Independent Consultant's Proposal-to-Paid Kit.** — Killed: A real pain, but the market is fragmented across many tools (Word, PandaDoc, invoicing software). The Shopify ecosystem is a more concentrated and efficient market.
+- **The Tradesperson's "Good-Better-Best" Quoting System.** — Killed: This is a strong opportunity, but the Shopify app has a clearer, more scalable distribution channel.
+
 ## 2026-06-01
 *   **The E-commerce Operator's "True Cost of Returns" Dashboard.** — Killed: While the pain is real, the restaurant owner's pain is more existential and frequent, making it a more acute problem to solve.
 *   **The Construction Subcontractor's "Get Paid" Lien Waiver Kit.** — Killed: A strong B2B opportunity, but the problem space has more legal complexity. The restaurant kit is a pure financial control play, which is cleaner.

@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-02
+- The existence of a dominant platform with a built-in App Store (like Shopify) dramatically changes the go-to-market calculus. It concentrates both the target audience and the competition, making distribution more direct but also more intense.
+- In a mature SaaS category, the winning wedge is often not a novel feature, but a relentless focus on a superior, simpler user experience for a specific sub-segment of the market.
+- For B2B tools, the pain of "I don't know my numbers" becomes acute at the precise moment a business transitions from a hobby to a real operation, creating a predictable and targetable customer lifecycle stage.
+
 ## 2026-06-01 (trends)
 -   Industries with notoriously thin and volatile profit margins (like restaurants) are prime targets for products that offer financial clarity and control.
 -   The gap between simple, single-function spreadsheets and expensive, complex enterprise SaaS is a recurring and highly profitable opportunity for focused, "done-with-you" toolkits.

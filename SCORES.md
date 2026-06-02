@@ -5,4 +5,5 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 81 | medium | 2026-06-02 | The Shopify Merchant's Real Profit Dashboard |
 | 78 | medium | 2026-06-01 | The Restaurant Owner's Prime Cost Control Kit |
