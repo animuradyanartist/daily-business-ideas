@@ -105,6 +105,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Restaurant Financial Operations** · Using AI to automate financial management and operational planning for restaurants. · flagged 2026-06-01 · last checked 2026-06-01 · [origin memo](trends/2026-06-01.md)
 - **AI-Powered Government Proposal Automation** · Using purpose-built AI platforms to automate the creation of proposals for government contracts. · flagged 2026-06-01 · last checked 2026-06-01 · [origin memo](trends/2026-06-01.md)
 - **AI-Automated Employee Onboarding Workflows** · Using AI to automate and personalize the entire new hire onboarding process. · flagged 2026-06-01 · last checked 2026-06-01 · [origin memo](trends/2026-06-01.md)
+- **AI-Automated Workflows for Real Estate Agents** · Using AI platforms to automate lead generation, nurturing, and client communication for real estate professionals. · flagged 2026-06-02 · last checked 2026-06-02 · [origin memo](trends/2026-06-02.md)
+- **AI-Generated Product Requirements Documents (PRDs)** · Using specialized AI tools to automate the creation of structured product specifications, user stories, and feature definitions. · flagged 2026-06-02 · last checked 2026-06-02 · [origin memo](trends/2026-06-02.md)
+- **AI-Powered Operations for Home Service Businesses** · Using all-in-one AI platforms to automate booking, dispatch, invoicing, and client communication for trades like plumbing and HVAC. · flagged 2026-06-02 · last checked 2026-06-02 · [origin memo](trends/2026-06-02.md)
 
 
 ## ➡️ Active — plateauing
@@ -182,3 +185,5 @@ _(empty)_
 <!-- 2026-05-31 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
 
 <!-- 2026-06-01 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
+
+<!-- 2026-06-02 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-02 (trends)
+-   AI is productizing the "business-in-a-box" concept for specific professional verticals. Whether it's a real estate agent, a product manager, or a plumber, AI platforms are emerging to automate the entire core workflow, not just a single task.
+-   The most acute pain points being solved by AI are often related to communication bottlenecks and administrative friction—the unbillable work that prevents a skilled professional from focusing on their revenue-generating craft.
+-   For every professional workflow being automated by AI, a secondary market is emerging for "Scaffolding Kits"—digital products that provide the strategic frameworks, templates, and processes needed to manage these new AI systems effectively.
+
+---
+
 ## 2026-06-02
 - The existence of a dominant platform with a built-in App Store (like Shopify) dramatically changes the go-to-market calculus. It concentrates both the target audience and the competition, making distribution more direct but also more intense.
 - In a mature SaaS category, the winning wedge is often not a novel feature, but a relentless focus on a superior, simpler user experience for a specific sub-segment of the market.
