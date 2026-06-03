@@ -108,6 +108,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Workflows for Real Estate Agents** · Using AI platforms to automate lead generation, nurturing, and client communication for real estate professionals. · flagged 2026-06-02 · last checked 2026-06-02 · [origin memo](trends/2026-06-02.md)
 - **AI-Generated Product Requirements Documents (PRDs)** · Using specialized AI tools to automate the creation of structured product specifications, user stories, and feature definitions. · flagged 2026-06-02 · last checked 2026-06-02 · [origin memo](trends/2026-06-02.md)
 - **AI-Powered Operations for Home Service Businesses** · Using all-in-one AI platforms to automate booking, dispatch, invoicing, and client communication for trades like plumbing and HVAC. · flagged 2026-06-02 · last checked 2026-06-02 · [origin memo](trends/2026-06-02.md)
+- **AI-Powered Wealth Management Automation** · Using AI platforms to automate client communication, meeting workflows, and portfolio analysis for financial advisors. · flagged 2026-06-03 · last checked 2026-06-03 · [origin memo](trends/2026-06-03.md)
+- **AI-Powered Paralegal & Legal Assistant Tooling** · Using specialized AI to automate document review, legal research, and case management for law firms. · flagged 2026-06-03 · last checked 2026-06-03 · [origin memo](trends/2026-06-03.md)
+- **AI-Generated Adaptive Soundscapes for Wellness** · Using AI to create personalized sound environments for focus and sleep that react to biometric and environmental data. · flagged 2026-06-03 · last checked 2026-06-03 · [origin memo](trends/2026-06-03.md)
 
 
 ## ➡️ Active — plateauing
@@ -187,3 +190,5 @@ _(empty)_
 <!-- 2026-06-01 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
 
 <!-- 2026-06-02 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
+
+<!-- 2026-06-03 status-update directive: 🚀 | AI as a Thought Partner -->

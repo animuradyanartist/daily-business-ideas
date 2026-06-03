@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-03 (trends)
+-   AI is systematically automating the "paperwork of judgment" in professional services. Whether it's a financial advisor's meeting notes, a lawyer's deposition summary, or a doctor's sleep analysis, AI is handling the documentation and first-pass analysis, freeing the human expert for high-level synthesis and client-facing empathy.
+-   The value proposition of AI is bifurcating. For convergent tasks (finding a specific legal precedent, analyzing a portfolio), AI provides precision and speed. For divergent tasks (brainstorming, creative ideation), it provides breadth but risks homogeneity, creating a new market for tools and methods that promote true originality.
+-   For every professional workflow being automated, an "AI augmentation" layer is emerging. These tools are not replacing the professional but are becoming a required co-pilot for operating at a competitive level, similar to how spreadsheets became essential for finance professionals.
+
+---
+
 ## 2026-06-03
 - The gap between a generic, horizontal SaaS behemoth (like QuickBooks) and a complex, vertical-specific ERP (like Procore) is a recurring and highly valuable market opportunity.
 - For hard-to-reach, non-technical B2B audiences, a "Toolkit-to-SaaS" go-to-market strategy can be superior. The initial non-software toolkit generates cash flow, builds trust, and pre-qualifies customers for the higher-priced software solution.
