@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-03 — The Small Construction Co's "Know Your Number" Job Costing Kit — 82/100 high
 - 2026-06-02 — trend forecast — AI-Automated Workflows for Real Estate Agents +2 more
 - 2026-06-02 — The Shopify Merchant's Real Profit Dashboard — 81/100 medium
 - 2026-06-01 — trend forecast — AI-Powered Restaurant Financial Operations +2 more

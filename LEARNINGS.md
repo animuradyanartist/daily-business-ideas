@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-03
+- The gap between a generic, horizontal SaaS behemoth (like QuickBooks) and a complex, vertical-specific ERP (like Procore) is a recurring and highly valuable market opportunity.
+- For hard-to-reach, non-technical B2B audiences, a "Toolkit-to-SaaS" go-to-market strategy can be superior. The initial non-software toolkit generates cash flow, builds trust, and pre-qualifies customers for the higher-priced software solution.
+- The most powerful moats are not always based on technology. A data moat built on proprietary industry benchmarks can provide more durable value and defensibility than features alone.
+
 ## 2026-06-02 (trends)
 -   AI is productizing the "business-in-a-box" concept for specific professional verticals. Whether it's a real estate agent, a product manager, or a plumber, AI platforms are emerging to automate the entire core workflow, not just a single task.
 -   The most acute pain points being solved by AI are often related to communication bottlenecks and administrative friction—the unbillable work that prevents a skilled professional from focusing on their revenue-generating craft.

@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-03
+- **The Independent Event Planner's Vendor Payment Hub** — Killed: While the pain is real, the construction market is significantly larger and the financial pain is more directly tied to the survival of the business itself.
+- **The Small Landscaper's "Quote with Confidence" Calculator** — Killed: This is a strong idea but is a subset of the larger job costing problem. Solving for total job profitability is a more fundamental and valuable starting point than quoting alone.
+- **The Freelancer's "Client Offboarding" Kit** — Killed: The frequency of the pain is too low. A contractor feels the pain of poor cost control daily, while a freelancer offboards a client infrequently.
+
 ## 2026-06-02
 - **The Property Manager's Tenant Turnover System.** — Killed: The sales cycle is longer and the buyer is less accustomed to self-serve SaaS compared to Shopify merchants.
 - **The Independent Consultant's Proposal-to-Paid Kit.** — Killed: A real pain, but the market is fragmented across many tools (Word, PandaDoc, invoicing software). The Shopify ecosystem is a more concentrated and efficient market.
