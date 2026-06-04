@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-04
+- The unreliability of a major incumbent's integration (QuickBooks + Etsy) can be a powerful market opportunity in itself.
+- For platform-dependent businesses (like Etsy sellers), the gap between the platform's native analytics and what's required to actually run a business is a recurring source of high-value problems.
+- The "premium spreadsheet" model is a highly effective, capital-efficient wedge to enter a market before committing to the expense and complexity of building a full SaaS application.
+- Market consolidation is not always a negative signal; it can indicate the departure of low-quality customers, leaving a more concentrated and professional user base.
+
 ## 2026-06-03 (trends)
 -   AI is systematically automating the "paperwork of judgment" in professional services. Whether it's a financial advisor's meeting notes, a lawyer's deposition summary, or a doctor's sleep analysis, AI is handling the documentation and first-pass analysis, freeing the human expert for high-level synthesis and client-facing empathy.
 -   The value proposition of AI is bifurcating. For convergent tasks (finding a specific legal precedent, analyzing a portfolio), AI provides precision and speed. For divergent tasks (brainstorming, creative ideation), it provides breadth but risks homogeneity, creating a new market for tools and methods that promote true originality.

@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-04
+- **The Private Practice Physical Therapist's "Patient Reactivation" System** — Killed: Longer sales cycle and a buyer who is less accustomed to self-serve digital products compared to e-commerce sellers.
+- **The Mobile Pet Groomer's "Route & Client" Sanity Kit** — Killed: This is a strong niche, but the problem is primarily operational efficiency. The Etsy idea solves a more fundamental financial pain.
+- **The Independent Insurance Adjuster's "Claim Documentation" System** — Killed: Avoids any proximity to regulated industries. The Etsy tool is a pure e-commerce play, which is cleaner.
+- **The Non-Profit's "Grant Application" Template Library** — Killed: While the pain is real, the buying cycle is slow and often committee-based. The Etsy seller is a solo decision-maker.
+
 ## 2026-06-03
 - **The Independent Event Planner's Vendor Payment Hub** — Killed: While the pain is real, the construction market is significantly larger and the financial pain is more directly tied to the survival of the business itself.
 - **The Small Landscaper's "Quote with Confidence" Calculator** — Killed: This is a strong idea but is a subset of the larger job costing problem. Solving for total job profitability is a more fundamental and valuable starting point than quoting alone.

@@ -7,4 +7,5 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 |---|---|---|---|
 | 82 | high | 2026-06-03 | The Small Construction Co's "Know Your Number" Job Costing Kit |
 | 81 | medium | 2026-06-02 | The Shopify Merchant's Real Profit Dashboard |
+| 80 | medium | 2026-06-04 | The Etsy Seller's "True Profit" Toolkit |
 | 78 | medium | 2026-06-01 | The Restaurant Owner's Prime Cost Control Kit |
