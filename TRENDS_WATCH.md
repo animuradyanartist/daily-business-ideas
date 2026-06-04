@@ -111,6 +111,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Wealth Management Automation** · Using AI platforms to automate client communication, meeting workflows, and portfolio analysis for financial advisors. · flagged 2026-06-03 · last checked 2026-06-03 · [origin memo](trends/2026-06-03.md)
 - **AI-Powered Paralegal & Legal Assistant Tooling** · Using specialized AI to automate document review, legal research, and case management for law firms. · flagged 2026-06-03 · last checked 2026-06-03 · [origin memo](trends/2026-06-03.md)
 - **AI-Generated Adaptive Soundscapes for Wellness** · Using AI to create personalized sound environments for focus and sleep that react to biometric and environmental data. · flagged 2026-06-03 · last checked 2026-06-03 · [origin memo](trends/2026-06-03.md)
+- **AI-Powered Qualitative Data Analysis** · Using AI to automate the thematic analysis of interview transcripts and other qualitative data. · flagged 2026-06-04 · last checked 2026-06-04 · [origin memo](trends/2026-06-04.md)
+- **AI-Automated Grant Lifecycle Management** · Using AI to manage the full grant workflow, from proposal writing to post-award impact reporting. · flagged 2026-06-04 · last checked 2026-06-04 · [origin memo](trends/2026-06-04.md)
+- **AI-Automated Film & Video Pre-Production** · Using AI platforms to automatically generate script breakdowns, schedules, and storyboards. · flagged 2026-06-04 · last checked 2026-06-04 · [origin memo](trends/2026-06-04.md)
 
 
 ## ➡️ Active — plateauing
@@ -192,3 +195,5 @@ _(empty)_
 <!-- 2026-06-02 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-06-03 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-06-04 status-update directive: 🚀 | The AI-Augmented Second Brain -->

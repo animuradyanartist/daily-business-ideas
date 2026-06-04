@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-04 (trends)
+- The most valuable AI tools are those that automate an entire professional *workflow*, not just a single task. Whether it's grant management, qualitative research, or film production, the trend is toward integrated platforms that manage a process from end to end.
+- For every complex, high-friction professional workflow, a market is emerging for "Scaffolding Kits"—digital products that teach non-experts how to use the new generation of AI platforms to achieve a specific outcome.
+- The value proposition of AI is shifting from generating novel content to imposing structure on complex, unstructured information. The AI's primary job is to act as an organizational and analytical layer on top of existing data.
+
+---
+
 ## 2026-06-04
 - The unreliability of a major incumbent's integration (QuickBooks + Etsy) can be a powerful market opportunity in itself.
 - For platform-dependent businesses (like Etsy sellers), the gap between the platform's native analytics and what's required to actually run a business is a recurring source of high-value problems.
