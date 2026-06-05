@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-05 (trends)
+- A significant legal or regulatory change can act as a powerful market catalyst, instantly creating an urgent need for new compliance-focused technology.
+- The most valuable B2B AI tools automate an entire, high-friction professional workflow (claims processing, documentation lifecycle), not just a single, isolated task.
+- For every professional workflow being automated, a secondary market is emerging for "scaffolding kits"—digital products that teach non-experts how to strategically manage these new AI systems.
+
+---
+
 ## 2026-06-05
 - A significant legal ruling (like the recent Supreme Court decision on broker liability) can act as a powerful market catalyst, instantly transforming a "vitamin" into a "painkiller."
 - The most valuable B2B SaaS tools often don't replace an entire system but instead provide a superior workflow for a single, high-stakes job-to-be-done that the larger system handles poorly.

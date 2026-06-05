@@ -114,6 +114,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Qualitative Data Analysis** · Using AI to automate the thematic analysis of interview transcripts and other qualitative data. · flagged 2026-06-04 · last checked 2026-06-04 · [origin memo](trends/2026-06-04.md)
 - **AI-Automated Grant Lifecycle Management** · Using AI to manage the full grant workflow, from proposal writing to post-award impact reporting. · flagged 2026-06-04 · last checked 2026-06-04 · [origin memo](trends/2026-06-04.md)
 - **AI-Automated Film & Video Pre-Production** · Using AI platforms to automatically generate script breakdowns, schedules, and storyboards. · flagged 2026-06-04 · last checked 2026-06-04 · [origin memo](trends/2026-06-04.md)
+- **AI-Powered Real Estate Brokerage Compliance** · Using AI to monitor agent communications and transactions for regulatory compliance. · flagged 2026-06-05 · last checked 2026-06-05 · [origin memo](trends/2026-06-05.md)
+- **AI-Automated Insurance Claims Processing** · Using AI to manage the full claims lifecycle, from intake and document extraction to fraud detection and adjudication. · flagged 2026-06-05 · last checked 2026-06-05 · [origin memo](trends/2026-06-05.md)
+- **AI-Generated API & Software Documentation** · Using AI to automatically generate and maintain technical documentation from source code and API specifications. · flagged 2026-06-05 · last checked 2026-06-05 · [origin memo](trends/2026-06-05.md)
 
 
 ## ➡️ Active — plateauing
@@ -197,3 +200,5 @@ _(empty)_
 <!-- 2026-06-03 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-06-04 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-06-05 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
