@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-05
+- A significant legal ruling (like the recent Supreme Court decision on broker liability) can act as a powerful market catalyst, instantly transforming a "vitamin" into a "painkiller."
+- The most valuable B2B SaaS tools often don't replace an entire system but instead provide a superior workflow for a single, high-stakes job-to-be-done that the larger system handles poorly.
+- In fragmented markets with established data providers, the opportunity is often not in providing new data, but in creating a structured, opinionated workflow on top of the existing, commoditized data.
+- The value of a B2B tool can be anchored against the cost of a catastrophic failure. A product that costs $1,500/year is an easy decision if it prevents a single $40,000 loss.
+
 ## 2026-06-04 (trends)
 - The most valuable AI tools are those that automate an entire professional *workflow*, not just a single task. Whether it's grant management, qualitative research, or film production, the trend is toward integrated platforms that manage a process from end to end.
 - For every complex, high-friction professional workflow, a market is emerging for "Scaffolding Kits"—digital products that teach non-experts how to use the new generation of AI platforms to achieve a specific outcome.

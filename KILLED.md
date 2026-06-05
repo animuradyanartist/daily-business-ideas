@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-05
+- **The Small Law Firm's "Client Intake & Onboarding" System.** — Killed: The legal tech market has strong, established incumbents (Clio, MyCase), making the wedge for a new entrant more difficult to establish than in the fragmented freight-tech space.
+- **The Vacation Rental Cleaner's "Owner & Schedule" Management Hub.** — Killed: The buyer's willingness-to-pay and average revenue are significantly lower than a freight broker's. The pain is operational inconvenience, not existential financial risk.
+- **The Independent Financial Advisor's "Meeting Prep & Summary" AI.** — Killed: Avoids any product that could be perceived as giving financial advice. The freight tool is a pure B2B operational workflow, which is cleaner.
+
 ## 2026-06-04
 - **The Private Practice Physical Therapist's "Patient Reactivation" System** — Killed: Longer sales cycle and a buyer who is less accustomed to self-serve digital products compared to e-commerce sellers.
 - **The Mobile Pet Groomer's "Route & Client" Sanity Kit** — Killed: This is a strong niche, but the problem is primarily operational efficiency. The Etsy idea solves a more fundamental financial pain.

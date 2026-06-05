@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 84 | high | 2026-06-05 | The Independent Freight Broker's "Carrier Vetting & Compliance" Hub |
 | 82 | high | 2026-06-03 | The Small Construction Co's "Know Your Number" Job Costing Kit |
 | 81 | medium | 2026-06-02 | The Shopify Merchant's Real Profit Dashboard |
 | 80 | medium | 2026-06-04 | The Etsy Seller's "True Profit" Toolkit |
