@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-06 (trends)
+-   AI is productizing the operational "back office" for niche, non-technical verticals. Whether it's a church, a research clinic, or a small e-commerce brand, AI platforms are emerging to automate the entire administrative workflow, not just a single task.
+-   The most intense, monetizable pain points are often found in high-stakes, high-friction "matching" problems—matching a patient to a trial, a risk to a mitigation, or a volunteer to a need.
+-   The value proposition of AI is shifting from being a tool for a human to use, to being an autonomous agent that a human governs. The opportunity is in building the "scaffolding" that helps managers oversee these new digital workforces.
+
+---
+
 ## 2026-06-06
 - A powerful go-to-market strategy is to identify a mature SaaS category and attack the low end with a product focused on simplicity and predictable, flat-rate pricing, as incumbents inevitably move upmarket and add complexity.
 - For small business owners, the most valuable "analytics" tools are not those that provide complex dashboards, but those that enable a clear, binary business decision (e.g., "keep spending" vs. "stop spending").

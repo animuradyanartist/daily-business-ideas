@@ -117,6 +117,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Real Estate Brokerage Compliance** · Using AI to monitor agent communications and transactions for regulatory compliance. · flagged 2026-06-05 · last checked 2026-06-05 · [origin memo](trends/2026-06-05.md)
 - **AI-Automated Insurance Claims Processing** · Using AI to manage the full claims lifecycle, from intake and document extraction to fraud detection and adjudication. · flagged 2026-06-05 · last checked 2026-06-05 · [origin memo](trends/2026-06-05.md)
 - **AI-Generated API & Software Documentation** · Using AI to automatically generate and maintain technical documentation from source code and API specifications. · flagged 2026-06-05 · last checked 2026-06-05 · [origin memo](trends/2026-06-05.md)
+- **AI-Powered Clinical Trial Patient Recruitment** · Using AI to automate patient identification and matching for clinical research. · flagged 2026-06-06 · last checked 2026-06-06 · [origin memo](trends/2026-06-06.md)
+- **AI-Powered Church Operations Management** · Using AI platforms to automate communication, financial management, and administration for churches. · flagged 2026-06-06 · last checked 2026-06-06 · [origin memo](trends/2026-06-06.md)
+- **AI-Powered Supply Chain Risk Management** · Using generative AI to forecast and autonomously mitigate supply chain disruptions. · flagged 2026-06-06 · last checked 2026-06-06 · [origin memo](trends/2026-06-06.md)
 
 
 ## ➡️ Active — plateauing
@@ -202,3 +205,5 @@ _(empty)_
 <!-- 2026-06-04 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-06-05 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-06-06 status-update directive: 🚀 | Generative Music for Creator Content -->
