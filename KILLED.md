@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-06
+- **The Independent Dental Practice "Patient Recall" Automation System** — Killed: The sales cycle is longer, and integration with legacy Practice Management Systems is a significant technical barrier compared to a standalone tool.
+- **The "Done-For-You" Webflow Agency Starter Kit** — Killed: This is a "business in a box" product, which often attracts lower-quality buyers who are less likely to succeed, leading to higher churn and support load. The call tracking tool solves a direct financial pain for an established business.
+- **The AI-Powered "RFP Response" Generator** — Killed: While the pain is real, the output quality required is extremely high, and the risk of generating inaccurate or nonsensical responses is a significant liability.
+
 ## 2026-06-05
 - **The Small Law Firm's "Client Intake & Onboarding" System.** — Killed: The legal tech market has strong, established incumbents (Clio, MyCase), making the wedge for a new entrant more difficult to establish than in the fragmented freight-tech space.
 - **The Vacation Rental Cleaner's "Owner & Schedule" Management Hub.** — Killed: The buyer's willingness-to-pay and average revenue are significantly lower than a freight broker's. The pain is operational inconvenience, not existential financial risk.

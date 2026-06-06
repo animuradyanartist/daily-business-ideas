@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-06
+- A powerful go-to-market strategy is to identify a mature SaaS category and attack the low end with a product focused on simplicity and predictable, flat-rate pricing, as incumbents inevitably move upmarket and add complexity.
+- For small business owners, the most valuable "analytics" tools are not those that provide complex dashboards, but those that enable a clear, binary business decision (e.g., "keep spending" vs. "stop spending").
+- The friction of changing a published phone number creates a surprisingly strong "low-tech" moat of switching costs, even for a simple software product.
+
 ## 2026-06-05 (trends)
 - A significant legal or regulatory change can act as a powerful market catalyst, instantly creating an urgent need for new compliance-focused technology.
 - The most valuable B2B AI tools automate an entire, high-friction professional workflow (claims processing, documentation lifecycle), not just a single, isolated task.
