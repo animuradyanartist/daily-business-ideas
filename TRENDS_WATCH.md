@@ -120,6 +120,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Clinical Trial Patient Recruitment** · Using AI to automate patient identification and matching for clinical research. · flagged 2026-06-06 · last checked 2026-06-06 · [origin memo](trends/2026-06-06.md)
 - **AI-Powered Church Operations Management** · Using AI platforms to automate communication, financial management, and administration for churches. · flagged 2026-06-06 · last checked 2026-06-06 · [origin memo](trends/2026-06-06.md)
 - **AI-Powered Supply Chain Risk Management** · Using generative AI to forecast and autonomously mitigate supply chain disruptions. · flagged 2026-06-06 · last checked 2026-06-06 · [origin memo](trends/2026-06-06.md)
+- **AI-Powered HOA Operations Management** · Using AI platforms to automate communication, compliance, and financial management for homeowner associations. · flagged 2026-06-07 · last checked 2026-06-07 · [origin memo](trends/2026-06-07.md)
+- **AI-Automated Donor Relations for Non-Profits** · Using AI to automate personalized donor outreach, predict giving patterns, and manage fundraising campaigns. · flagged 2026-06-07 · last checked 2026-06-07 · [origin memo](trends/2026-06-07.md)
+- **AI-Powered Local Political Campaigning** · Using AI platforms to automate voter outreach, content creation, and strategy for smaller political campaigns. · flagged 2026-06-07 · last checked 2026-06-07 · [origin memo](trends/2026-06-07.md)
 
 
 ## ➡️ Active — plateauing
@@ -207,3 +210,5 @@ _(empty)_
 <!-- 2026-06-05 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-06-06 status-update directive: 🚀 | Generative Music for Creator Content -->
+
+<!-- 2026-06-07 status-update directive: 🚀 | Conversational AI Language Tutors -->

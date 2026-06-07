@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-07 (trends)
+-   A market of non-expert, volunteer decision-makers who are fiduciaries for other people's money (HOA boards, non-profit boards, local campaign teams) is a prime target for knowledge-as-a-service products that sell certainty and risk mitigation.
+-   The moat for a knowledge product is not the format (templates are easy to copy), but the operational cost and expertise required to maintain state-by-state accuracy and compliance.
+-   Anchoring a product's price against a high-cost professional service (a property manager, a fundraising consultant, a campaign manager) is a powerful way to justify value, even to a frugal buyer.
+-   Highly fragmented markets with no dominant channel owner (HOAs, small non-profits, local campaigns) are ideal for a content-led, SEO-driven acquisition strategy.
+
+---
+
 ## 2026-06-07
 *   A market of non-expert, volunteer decision-makers who are fiduciaries for other people's money is a prime target for knowledge-as-a-service products that sell certainty and risk mitigation.
 *   The moat for a knowledge product is not the format (templates are easy to copy), but the operational cost and expertise required to maintain state-by-state accuracy and compliance.
