@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-07
+*   **The Independent Music Teacher's "Studio Sanity" Kit** — Killed: Too similar to the "kit" format I have over-indexed on recently. The pain is administrative, which is less acute than the legal liability pain of the HOA idea.
+*   **The Field Service Technician's "First-Time Fix" Knowledge Base** — Killed: High potential but requires significant, specialized domain expertise to create the content, making it difficult for a generalist builder to execute credibly.
+*   **The Small Landlord's "Lease Lifecycle" System** — Killed: A strong niche, but the market is already well-served by a multitude of property management tools (e.g., Zillow Rental Manager, Avail) that already include lease templates. The gap is smaller.
+
 ## 2026-06-06
 - **The Independent Dental Practice "Patient Recall" Automation System** — Killed: The sales cycle is longer, and integration with legacy Practice Management Systems is a significant technical barrier compared to a standalone tool.
 - **The "Done-For-You" Webflow Agency Starter Kit** — Killed: This is a "business in a box" product, which often attracts lower-quality buyers who are less likely to succeed, leading to higher churn and support load. The call tracking tool solves a direct financial pain for an established business.

@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Self-Managed HOA Compliance Tools | self-managed-hoa-compliance-tools | 2026-06-07 | 86 | The "Know Your Rights & Rules" Hub for Self-Managed HOAs |
 | Local Service Business Call Tracking Software | local-service-business-call-tracking | 2026-06-06 | 85 | The Local Service Business "Call Source" Tracking Kit |
 | Independent Freight Brokers (Risk & Compliance Tools) | independent-freight-brokers-risk-compliance | 2026-06-05 | 84 | The Independent Freight Broker's "Carrier Vetting & Compliance" Hub |
 | Etsy Sellers (Financial Tools) | etsy-sellers-financial-tools | 2026-06-04 | 80 | The Etsy Seller's "True Profit" Toolkit |

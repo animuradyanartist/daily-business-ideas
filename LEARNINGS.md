@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-07
+*   A market of non-expert, volunteer decision-makers who are fiduciaries for other people's money is a prime target for knowledge-as-a-service products that sell certainty and risk mitigation.
+*   The moat for a knowledge product is not the format (templates are easy to copy), but the operational cost and expertise required to maintain state-by-state accuracy and compliance.
+*   Anchoring a product's price against a high-cost professional service (like a lawyer) is a powerful way to justify value, even to a frugal buyer.
+*   Highly fragmented markets with no dominant channel owner are ideal for a content-led, SEO-driven acquisition strategy.
+
 ## 2026-06-06 (trends)
 -   AI is productizing the operational "back office" for niche, non-technical verticals. Whether it's a church, a research clinic, or a small e-commerce brand, AI platforms are emerging to automate the entire administrative workflow, not just a single task.
 -   The most intense, monetizable pain points are often found in high-stakes, high-friction "matching" problems—matching a patient to a trial, a risk to a mitigation, or a volunteer to a need.
