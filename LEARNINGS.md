@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-08
+- A solo professional's willingness to pay for a tool is highest when the value can be measured in "billable hours recovered" or "additional jobs completed." The ROI is explicit.
+- For AI-powered professional tools, the moat is not the AI model itself, but the highly specific workflow integration, templates, and compliance guardrails built around it.
+- A shrinking profession can be an opportunity if the tool serves the most productive members who are likely to survive and consolidate work.
+- The price anchor for a professional tool isn't just other software, but the value of the user's own time (e.g., one closed claim = $500).
+
 ## 2026-06-07 (trends)
 -   A market of non-expert, volunteer decision-makers who are fiduciaries for other people's money (HOA boards, non-profit boards, local campaign teams) is a prime target for knowledge-as-a-service products that sell certainty and risk mitigation.
 -   The moat for a knowledge product is not the format (templates are easy to copy), but the operational cost and expertise required to maintain state-by-state accuracy and compliance.

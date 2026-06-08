@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-08
+- **AI-powered subrogation demand letter generator:** Killed — More legally sensitive and a smaller subset of the claims process compared to the universal pain of narrative writing.
+- **The Public Adjuster's "Client Update" automation tool:** Killed — The buyer (PA) is a smaller market than IAs, and the pain is less directly tied to throughput-based income.
+- **A marketplace for freelance claims administrators:** Killed — Building a two-sided marketplace is significantly more complex and capital-intensive than a SaaS tool.
+- **The Restoration Contractor's "Insurance-Compliant" Invoicing System:** Killed — This moves into the contractor's workflow, which is already served by tools like Xactimate and various construction management platforms. The gap is smaller.
+
 ## 2026-06-07
 *   **The Independent Music Teacher's "Studio Sanity" Kit** — Killed: Too similar to the "kit" format I have over-indexed on recently. The pain is administrative, which is less acute than the legal liability pain of the HOA idea.
 *   **The Field Service Technician's "First-Time Fix" Knowledge Base** — Killed: High potential but requires significant, specialized domain expertise to create the content, making it difficult for a generalist builder to execute credibly.
