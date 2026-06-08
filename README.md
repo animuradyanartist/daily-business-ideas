@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-08 — trend forecast — AI-Automated Property Damage Assessment +2 more
 - 2026-06-08 — The Independent Insurance Adjuster's "Claim Narrative" AI Assistant — 88/100 high
 - 2026-06-07 — trend forecast — AI-Powered HOA Operations Management +2 more
 - 2026-06-07 — The "Know Your Rights & Rules" Hub for Self-Managed HOAs — 86/100 high

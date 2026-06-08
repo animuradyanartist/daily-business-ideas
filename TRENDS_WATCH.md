@@ -123,6 +123,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered HOA Operations Management** · Using AI platforms to automate communication, compliance, and financial management for homeowner associations. · flagged 2026-06-07 · last checked 2026-06-07 · [origin memo](trends/2026-06-07.md)
 - **AI-Automated Donor Relations for Non-Profits** · Using AI to automate personalized donor outreach, predict giving patterns, and manage fundraising campaigns. · flagged 2026-06-07 · last checked 2026-06-07 · [origin memo](trends/2026-06-07.md)
 - **AI-Powered Local Political Campaigning** · Using AI platforms to automate voter outreach, content creation, and strategy for smaller political campaigns. · flagged 2026-06-07 · last checked 2026-06-07 · [origin memo](trends/2026-06-07.md)
+- **AI-Automated Property Damage Assessment** · Using computer vision to analyze photos and generate detailed repair estimates for insurance claims. · flagged 2026-06-08 · last checked 2026-06-08 · [origin memo](trends/2026-06-08.md)
+- **AI-Powered Fleet Safety & Driver Coaching** · Using AI dashcams to analyze driver behavior, deliver real-time alerts, and automate safety coaching. · flagged 2026-06-08 · last checked 2026-06-08 · [origin memo](trends/2026-06-08.md)
+- **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-06-08 · last checked 2026-06-08 · [origin memo](trends/2026-06-08.md)
 
 
 ## ➡️ Active — plateauing
@@ -212,3 +215,5 @@ _(empty)_
 <!-- 2026-06-06 status-update directive: 🚀 | Generative Music for Creator Content -->
 
 <!-- 2026-06-07 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-06-08 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
