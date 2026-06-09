@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-09
+- Incumbent complexity is a significant opportunity. When market leaders move upmarket and add features, they create a vacuum at the low end for simple, focused, and affordable solutions.
+- For fragmented SMB markets, the most potent value proposition is often not efficiency, but risk mitigation. Protecting a business owner from a catastrophic event (losing a key contract, a lawsuit) commands a higher willingness to pay than simply saving them time.
+- A compliance requirement, even one that is not aggressively enforced (like OSHA's lone worker rules), can be a powerful sales and marketing lever. It provides an external, authoritative reason for a buyer to act.
+
 ## 2026-06-08 (trends)
 - A solo professional's willingness to pay for a tool is highest when the value can be measured in "billable hours recovered" or "additional jobs completed." The ROI is explicit.
 - For AI-powered professional tools, the moat is not the AI model itself, but the highly specific workflow integration, templates, and compliance guardrails built around it.

@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-09
+- **The Consumable Inventory & Job Costing Tool for Commercial Cleaners** — Killed: While the pain is real, it's a margin-optimization problem, which is less acute than the existential liability/client-loss problem faced by security firms.
+- **The Digital Maintenance Logbook for Agricultural Equipment** — Killed: High seasonality and a buyer who is notoriously difficult to reach and sell to via digital channels. The sales cycle would be long.
+- **The "Client Deliverable" Tracker for Small Marketing Agencies** — Killed: The market is hyper-competitive with hundreds of project management tools. The wedge is not clear enough.
+- **The Automated "End-of-Day" Reporting Tool for Multi-Unit Restaurant GMs** — Killed: High integration complexity with legacy POS systems makes this a difficult technical challenge for a small initial market.
+
 ## 2026-06-08
 - **AI-powered subrogation demand letter generator:** Killed — More legally sensitive and a smaller subset of the claims process compared to the universal pain of narrative writing.
 - **The Public Adjuster's "Client Update" automation tool:** Killed — The buyer (PA) is a smaller market than IAs, and the pain is less directly tied to throughput-based income.
