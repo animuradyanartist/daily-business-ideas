@@ -126,6 +126,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Property Damage Assessment** · Using computer vision to analyze photos and generate detailed repair estimates for insurance claims. · flagged 2026-06-08 · last checked 2026-06-08 · [origin memo](trends/2026-06-08.md)
 - **AI-Powered Fleet Safety & Driver Coaching** · Using AI dashcams to analyze driver behavior, deliver real-time alerts, and automate safety coaching. · flagged 2026-06-08 · last checked 2026-06-08 · [origin memo](trends/2026-06-08.md)
 - **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-06-08 · last checked 2026-06-08 · [origin memo](trends/2026-06-08.md)
+- **AI-Powered Lone Worker Safety Monitoring** · Using AI to analyze data from mobile apps and wearables to automatically detect safety incidents for isolated employees. · flagged 2026-06-09 · last checked 2026-06-09 · [origin memo](trends/2026-06-09.md)
+- **AI-Automated Construction Site Monitoring** · Using computer vision to analyze site imagery for automated progress tracking, quality control, and safety compliance. · flagged 2026-06-09 · last checked 2026-06-09 · [origin memo](trends/2026-06-09.md)
+- **No-Code AI for Manufacturing Quality Control** · Using visual platforms to allow non-technical factory staff to build and deploy AI-powered visual inspection systems. · flagged 2026-06-09 · last checked 2026-06-09 · [origin memo](trends/2026-06-09.md)
 
 
 ## ➡️ Active — plateauing
@@ -217,3 +220,5 @@ _(empty)_
 <!-- 2026-06-07 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-06-08 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-06-09 status-update directive: 🚀 | AI as a Thought Partner -->

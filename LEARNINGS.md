@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-09 (trends)
+- AI is moving from digital workflows into physical-world operations. Whether it's monitoring a lone worker, a construction site, or a factory line, AI is being deployed to interpret and act on visual and sensory data from the real world.
+- Compliance is a powerful catalyst for AI adoption. The need to meet regulatory requirements, like OSHA's safety standards, is creating a clear business case for AI systems that can automate monitoring and documentation.
+- The "no-code" movement is a key enabler for bringing AI to fragmented, non-technical SMB markets. By removing the need for specialized developers, no-code platforms are making sophisticated AI accessible to smaller operators in fields like manufacturing and construction.
+
+---
+
 ## 2026-06-09
 - Incumbent complexity is a significant opportunity. When market leaders move upmarket and add features, they create a vacuum at the low end for simple, focused, and affordable solutions.
 - For fragmented SMB markets, the most potent value proposition is often not efficiency, but risk mitigation. Protecting a business owner from a catastrophic event (losing a key contract, a lawsuit) commands a higher willingness to pay than simply saving them time.
