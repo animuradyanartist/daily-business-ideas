@@ -129,6 +129,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Lone Worker Safety Monitoring** · Using AI to analyze data from mobile apps and wearables to automatically detect safety incidents for isolated employees. · flagged 2026-06-09 · last checked 2026-06-09 · [origin memo](trends/2026-06-09.md)
 - **AI-Automated Construction Site Monitoring** · Using computer vision to analyze site imagery for automated progress tracking, quality control, and safety compliance. · flagged 2026-06-09 · last checked 2026-06-09 · [origin memo](trends/2026-06-09.md)
 - **No-Code AI for Manufacturing Quality Control** · Using visual platforms to allow non-technical factory staff to build and deploy AI-powered visual inspection systems. · flagged 2026-06-09 · last checked 2026-06-09 · [origin memo](trends/2026-06-09.md)
+- **AI-Powered Accounting & Tax Automation** · Using AI to automate professional workflows like compliance, audit, and financial statement generation. · flagged 2026-06-10 · last checked 2026-06-10 · [origin memo](trends/2026-06-10.md)
+- **AI-Powered Veterinary Practice Operations** · Using AI to automate clinical documentation, diagnostics, and administrative tasks for veterinary clinics. · flagged 2026-06-10 · last checked 2026-06-10 · [origin memo](trends/2026-06-10.md)
+- **AI-Automated Mortgage Document Processing** · Using AI to automate the intake, classification, and data extraction from mortgage loan files. · flagged 2026-06-10 · last checked 2026-06-10 · [origin memo](trends/2026-06-10.md)
 
 
 ## ➡️ Active — plateauing
@@ -222,3 +225,5 @@ _(empty)_
 <!-- 2026-06-08 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-06-09 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-06-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-10 (trends)
+- AI is systematically productizing the "back office" for licensed professionals. Whether it's an accountant, a veterinarian, or a mortgage broker, AI platforms are emerging to automate the high-friction, non-billable administrative and documentation work that surrounds the core professional service.
+- The value proposition of AI is moving from a "tool" that a human uses to an "agent" that a human governs. The opportunity is in building the scaffolding—the toolkits, playbooks, and training—that helps non-technical managers oversee these new digital workforces.
+- For every professional workflow being automated, a secondary market is emerging for compliance and governance. As AI agents take on more work, the need for auditable, transparent, and explainable AI systems becomes a critical business requirement.
+
+---
+
 ## 2026-06-10
 - A regulatory catalyst can be powerful, but its delay or removal can instantly reshape an opportunity.
 - Commercial mandates from major channel partners (like Walmart) can be an even stronger forcing function than government regulation.
