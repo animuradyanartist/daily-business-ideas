@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-10
+- **The Independent Publisher's Royalty & Collaborator Payout Hub** — Killed: Administrative pain is less acute than the commercial survival pain of the food traceability idea. A vitamin, not a painkiller.
+- **The Fire Department's Certification & Equipment Tracking System** — Killed: Selling to municipal/government entities involves long, complex sales cycles, which is a poor fit for a bootstrapped venture.
+- **AI-powered "Menu Engineering" for Independent Restaurants** — Killed: This is an optimization tool. The buyer is more concerned with prime cost control and survival than menu optimization, a lower-priority pain.
+- **The Small E-commerce Brand's "Landed Cost" Calculator** — Killed: While a real pain, it's a feature, not a standalone product. It's being absorbed into larger inventory management platforms.
+
 ## 2026-06-09
 - **The Consumable Inventory & Job Costing Tool for Commercial Cleaners** — Killed: While the pain is real, it's a margin-optimization problem, which is less acute than the existential liability/client-loss problem faced by security firms.
 - **The Digital Maintenance Logbook for Agricultural Equipment** — Killed: High seasonality and a buyer who is notoriously difficult to reach and sell to via digital channels. The sales cycle would be long.

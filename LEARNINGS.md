@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-10
+- A regulatory catalyst can be powerful, but its delay or removal can instantly reshape an opportunity.
+- Commercial mandates from major channel partners (like Walmart) can be an even stronger forcing function than government regulation.
+- The same product idea can be a "vitamin" for the broad market but a "painkiller" for a specific, high-value niche within it.
+- The gap between enterprise software (>$20k/year) and free spreadsheets is a recurring and durable opportunity space.
+
 ## 2026-06-09 (trends)
 - AI is moving from digital workflows into physical-world operations. Whether it's monitoring a lone worker, a construction site, or a factory line, AI is being deployed to interpret and act on visual and sensory data from the real world.
 - Compliance is a powerful catalyst for AI adoption. The need to meet regulatory requirements, like OSHA's safety standards, is creating a clear business case for AI systems that can automate monitoring and documentation.
