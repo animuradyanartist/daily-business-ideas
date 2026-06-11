@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-11
+- **The Dental Lab "Case Intake & Communication" Portal** — Killed: While the pain is real, the market size ($5.35M SAM) is significantly smaller than the auto repair opportunity. The buyer may also be less tech-savvy and have a longer sales cycle.
+- **The Pet Boarding Facility "Vaccination & Liability" Compliance Kit** — Killed: This is a risk-mitigation tool, which is strong, but many existing kennel management software platforms already include vaccination tracking. The wedge for a standalone product is less clear.
+- **The Small Law Firm "Client Intake & Conflict Check" System** — Killed: This is a highly regulated space, and the risk of error in a conflict check has significant legal malpractice implications, making it a difficult market to enter for a new player.
+
 ## 2026-06-10
 - **The Independent Publisher's Royalty & Collaborator Payout Hub** — Killed: Administrative pain is less acute than the commercial survival pain of the food traceability idea. A vitamin, not a painkiller.
 - **The Fire Department's Certification & Equipment Tracking System** — Killed: Selling to municipal/government entities involves long, complex sales cycles, which is a poor fit for a bootstrapped venture.
