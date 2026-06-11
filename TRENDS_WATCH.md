@@ -132,6 +132,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Accounting & Tax Automation** · Using AI to automate professional workflows like compliance, audit, and financial statement generation. · flagged 2026-06-10 · last checked 2026-06-10 · [origin memo](trends/2026-06-10.md)
 - **AI-Powered Veterinary Practice Operations** · Using AI to automate clinical documentation, diagnostics, and administrative tasks for veterinary clinics. · flagged 2026-06-10 · last checked 2026-06-10 · [origin memo](trends/2026-06-10.md)
 - **AI-Automated Mortgage Document Processing** · Using AI to automate the intake, classification, and data extraction from mortgage loan files. · flagged 2026-06-10 · last checked 2026-06-10 · [origin memo](trends/2026-06-10.md)
+- **AI-Powered Farm Operations Management** · Using integrated AI platforms to automate real-time agricultural decisions for planting, irrigation, and pest control. · flagged 2026-06-11 · last checked 2026-06-11 · [origin memo](trends/2026-06-11.md)
+- **AI-Powered Music Practice & Education** · Using AI apps that listen to a student's playing to provide real-time, personalized feedback on performance. · flagged 2026-06-11 · last checked 2026-06-11 · [origin memo](trends/2026-06-11.md)
+- **AI-Automated Environmental & ESG Reporting** · Using AI to automate data collection and generate audit-ready sustainability and governance reports for regulators. · flagged 2026-06-11 · last checked 2026-06-11 · [origin memo](trends/2026-06-11.md)
 
 
 ## ➡️ Active — plateauing
@@ -227,3 +230,5 @@ _(empty)_
 <!-- 2026-06-09 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-06-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-06-11 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->

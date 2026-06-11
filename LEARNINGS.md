@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-11 (trends)
+-   AI is productizing the operational "back office" for physical-world industries. Whether it's a farm, a factory, or a construction site, AI platforms are emerging to automate the high-friction, non-digital workflows that govern these businesses.
+-   Compliance is a massive accelerant for AI adoption. The need to meet complex, mandatory reporting standards (like ESG regulations) is creating a clear, non-negotiable business case for AI systems that can automate data collection and ensure auditability.
+-   The value proposition of AI is shifting from a "tool" a human uses to an "agent" a human governs. The opportunity is in building the scaffolding—the toolkits, playbooks, and training—that helps non-technical managers oversee these new digital workforces.
+
+---
+
 ## 2026-06-11
 - A massive, fragmented SMB market (like auto repair) is an ideal structure for a focused SaaS tool because no single customer has pricing power and distribution can be achieved through digital channels.
 - The "best-in-class feature" strategy is potent when an all-in-one incumbent's bundled offering is merely "good enough" and the pain point it addresses is a high-frequency, revenue-gating workflow.
