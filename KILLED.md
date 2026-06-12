@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-12
+- **The Craft Brewery "TTB Compliance" Hub** — Killed: While the pain is real, many brewery management ERPs already solve this. The wedge for a standalone tool is less clear, and the market may be smaller.
+- **The Small Manufacturer "ISO 9001 Prep" Kit** — Killed: This is a one-time, project-based sale, making it a service business disguised as a product. The recurring revenue potential is low compared to the scheduler.
+- **The Academic Research Lab "Grant Application" Assistant** — Killed: This is a high-stakes problem, but the "solution" is highly qualitative and difficult to productize effectively. It veers into regulated advice and has a less clear, repeatable workflow to automate.
+
 ## 2026-06-11
 - **The Dental Lab "Case Intake & Communication" Portal** — Killed: While the pain is real, the market size ($5.35M SAM) is significantly smaller than the auto repair opportunity. The buyer may also be less tech-savvy and have a longer sales cycle.
 - **The Pet Boarding Facility "Vaccination & Liability" Compliance Kit** — Killed: This is a risk-mitigation tool, which is strong, but many existing kennel management software platforms already include vaccination tracking. The wedge for a standalone product is less clear.

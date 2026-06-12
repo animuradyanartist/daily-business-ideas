@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-12
+- A viable wedge into a large, established market can be a simple tool that solves a single, high-frequency annoyance for a user who is underserved by complex, enterprise-grade incumbents.
+- The buyer's budget source is a critical structural element. "Grant money" is a distinct category with its own rules and psychology, different from a typical corporate or SMB budget.
+- The most dangerous competitor is not another paid product, but a "good enough" free tool. The value proposition must be framed around de-risking a catastrophic failure that the free tool cannot prevent.
+
 ## 2026-06-11 (trends)
 -   AI is productizing the operational "back office" for physical-world industries. Whether it's a farm, a factory, or a construction site, AI platforms are emerging to automate the high-friction, non-digital workflows that govern these businesses.
 -   Compliance is a massive accelerant for AI adoption. The need to meet complex, mandatory reporting standards (like ESG regulations) is creating a clear, non-negotiable business case for AI systems that can automate data collection and ensure auditability.
