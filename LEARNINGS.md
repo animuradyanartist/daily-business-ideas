@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-12 (trends)
+-   AI is productizing the "back office" for entire professional verticals. Whether it's a foundation, a law firm, or a university, platforms are emerging to automate the full administrative and operational workflow, not just a single task.
+-   The value proposition of AI is shifting from a "tool" a human uses to an "agent" a human governs. The opportunity is in building the scaffolding—the toolkits, playbooks, and training—that helps non-technical managers oversee these new digital workforces.
+-   A clear external pressure (demographic shifts for universities, client cost-cutting for law firms) is a powerful catalyst for the adoption of AI-powered operational software.
+
+---
+
 ## 2026-06-12
 - A viable wedge into a large, established market can be a simple tool that solves a single, high-frequency annoyance for a user who is underserved by complex, enterprise-grade incumbents.
 - The buyer's budget source is a critical structural element. "Grant money" is a distinct category with its own rules and psychology, different from a typical corporate or SMB budget.
