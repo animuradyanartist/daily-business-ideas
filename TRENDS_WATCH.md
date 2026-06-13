@@ -138,6 +138,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Grant Lifecycle Management for Funders** · Using AI to automate post-award compliance, reporting, and impact analysis for grant-making organizations. · flagged 2026-06-12 · last checked 2026-06-12 · [origin memo](trends/2026-06-12.md)
 - **AI-Automated Law Firm Practice Management** · Using all-in-one AI platforms to automate the client lifecycle, from intake and billing to case management. · flagged 2026-06-12 · last checked 2026-06-12 · [origin memo](trends/2026-06-12.md)
 - **AI-Automated University Enrollment Management** · Using AI to automate student recruitment, application processing, and yield prediction. · flagged 2026-06-12 · last checked 2026-06-12 · [origin memo](trends/2026-06-12.md)
+- **AI-Powered Scientific Hypothesis Generation** · Using AI to synthesize data and autonomously generate novel, testable research hypotheses. · flagged 2026-06-13 · last checked 2026-06-13 · [origin memo](trends/2026-06-13.md)
+- **AI-Powered Corporate Mental Wellness Platforms** · Using AI chatbots and analytics to provide scalable, 24/7 mental health support for employees. · flagged 2026-06-13 · last checked 2026-06-13 · [origin memo](trends/2026-06-13.md)
+- **AI-Powered Political Campaign Content Generation** · Using generative AI to create and distribute targeted political content like ads, memes, and chatbots. · flagged 2026-06-13 · last checked 2026-06-13 · [origin memo](trends/2026-06-13.md)
 
 
 ## ➡️ Active — plateauing
@@ -237,3 +240,5 @@ _(empty)_
 <!-- 2026-06-11 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-06-12 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-06-13 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->

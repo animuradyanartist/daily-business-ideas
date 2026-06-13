@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-13 (trends)
+-   AI is moving from automating known workflows to generating novel starting points. Whether it's a scientific hypothesis or a political campaign angle, the highest-value AI is now being used to tackle the "blank page" problem at the beginning of a complex process.
+-   The "scaffolding kit" opportunity is robust. For every new, powerful AI platform that automates a professional workflow (scientific research, mental health support, UX synthesis), a secondary market emerges for digital products that teach non-experts how to use and govern these systems effectively.
+-   The value proposition of AI is increasingly about scale and speed in qualitative domains. AI is enabling the mass execution of tasks—like in-depth interviews or hypothesis generation—that were previously limited by the time constraints of human experts.
+
+---
+
 ## 2026-06-13
 - The non-profit sector, while appearing budget-constrained, has a clear precedent for paying for software that solves a core operational or financial pain, with price points from $45-$300+/month being common.
 - A powerful go-to-market wedge in a market served by expensive, all-in-one incumbents is to build a cheaper, simpler tool that solves just one critical part of the workflow exceptionally well.
