@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Small Non-Profit Operational Software (US) | small-non-profit-operational-software | 2026-06-13 | 95 | The Small Non-Profit's Grant Compliance & Reporting Hub |
 | Academic Research Lab Operational Software (US) | academic-research-lab-operational-software | 2026-06-12 | 89 | The Academic Research Lab's "Shared Equipment" Scheduler |
 | Independent Auto Repair Shop Software (US) | independent-auto-repair-shop-software | 2026-06-11 | 91 | The Independent Auto Repair Shop's "Parts Procurement" Hub |
 | Small Food Manufacturer Compliance Tools | small-food-manufacturer-compliance-tools | 2026-06-10 | 75 | The "Retailer-Ready" Food Traceability Kit for Small Manufacturers |

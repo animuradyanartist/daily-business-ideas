@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-13 — The Small Non-Profit's Grant Compliance & Reporting Hub — 95/100 high
 - 2026-06-12 — trend forecast — AI-Powered Grant Lifecycle Management for Funders +2 more
 - 2026-06-12 — The Academic Research Lab's "Shared Equipment" Scheduler — 89/100 high
 - 2026-06-11 — trend forecast — AI-Powered Farm Operations Management +2 more

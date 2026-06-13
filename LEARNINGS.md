@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-13
+- The non-profit sector, while appearing budget-constrained, has a clear precedent for paying for software that solves a core operational or financial pain, with price points from $45-$300+/month being common.
+- A powerful go-to-market wedge in a market served by expensive, all-in-one incumbents is to build a cheaper, simpler tool that solves just one critical part of the workflow exceptionally well.
+- For risk-averse buyers like non-profit EDs, framing the value proposition around "de-risking a catastrophic failure" (losing a grant) is more powerful than framing it around "efficiency gains" (saving time).
+- High staff turnover in a sector can be a feature, not a bug, for a SaaS product. A tool that becomes the "institutional memory" has incredibly high switching costs.
+
 ## 2026-06-12 (trends)
 -   AI is productizing the "back office" for entire professional verticals. Whether it's a foundation, a law firm, or a university, platforms are emerging to automate the full administrative and operational workflow, not just a single task.
 -   The value proposition of AI is shifting from a "tool" a human uses to an "agent" a human governs. The opportunity is in building the scaffolding—the toolkits, playbooks, and training—that helps non-technical managers oversee these new digital workforces.

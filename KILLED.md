@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-13
+- **The Independent Funeral Home's "Pre-Need" Arrangement Tracker** — Killed: Niche market, but the sales cycle could be very long, and the buyer is traditionally slow to adopt technology. The pain, while acute when it happens, is low frequency.
+- **The Geotechnical Engineering Firm's "Field-to-Lab" Data Integrity System** — Killed: Solves a real data-integrity and liability problem, but the workflow is highly specialized, making the product difficult to build and the market small.
+- **The Small Landlord "Lease Lifecycle" Automation Tool** — Killed: Hyper-competitive market with many existing property management software solutions. The wedge is not clear enough.
+- **The Craft Distillery's "TTB Reporting" Automation** — Killed: Similar to the brewery idea from a few days ago; the pain is real but likely already addressed by existing distillery management ERPs. Niche market.
+
 ## 2026-06-12
 - **The Craft Brewery "TTB Compliance" Hub** — Killed: While the pain is real, many brewery management ERPs already solve this. The wedge for a standalone tool is less clear, and the market may be smaller.
 - **The Small Manufacturer "ISO 9001 Prep" Kit** — Killed: This is a one-time, project-based sale, making it a service business disguised as a product. The recurring revenue potential is low compared to the scheduler.
