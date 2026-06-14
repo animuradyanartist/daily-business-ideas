@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-14
+- **The "Proof-of-Clean" Hub for STR Cleaning Businesses** — Killed: Highly competitive market with many existing players (Turno, Breezeway, etc.). The wedge is less clear, and the value proposition is weaker than the clinical trial idea, which is tied to a high-stakes compliance and financial risk workflow.
+- **The Sales Commission Accuracy & Transparency Portal** — Killed: Extremely crowded market with well-funded, sophisticated incumbents (Xactly, CaptivateIQ, Qobra). Entering this market would require significant capital and a 10x better product to unseat established players. The clinical trial space is a much bluer ocean.
+- **AI-powered menu optimization for restaurants** — Killed: This is a "nice-to-have" optimization tool. The primary pain for restaurant owners is cost control (labor, food), not menu engineering. Lower priority pain.
+
 ## 2026-06-13
 - **The Independent Funeral Home's "Pre-Need" Arrangement Tracker** — Killed: Niche market, but the sales cycle could be very long, and the buyer is traditionally slow to adopt technology. The pain, while acute when it happens, is low frequency.
 - **The Geotechnical Engineering Firm's "Field-to-Lab" Data Integrity System** — Killed: Solves a real data-integrity and liability problem, but the workflow is highly specialized, making the product difficult to build and the market small.

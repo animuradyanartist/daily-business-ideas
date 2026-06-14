@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-14
+- The most potent B2B SaaS opportunities often lie in unbundling a single, high-pain administrative function from a complex, expensive enterprise suite.
+- A catastrophic cost of failure (e.g., losing a clinical trial patient for ~$19.5k) is the most powerful anchor for justifying a software subscription's value, dwarfing arguments based on time savings alone.
+- Regulatory requirements, even if they seem like a burden, can create a durable moat. Building a product that makes compliance simple and auditable is a powerful value proposition in specialized verticals.
+- The "worse substitute" is not always a competing product; often, it's the high, hidden cost of skilled manual labor (like a CRC's time). Quantifying this cost is key to framing the software's ROI.
+
 ## 2026-06-13 (trends)
 -   AI is moving from automating known workflows to generating novel starting points. Whether it's a scientific hypothesis or a political campaign angle, the highest-value AI is now being used to tackle the "blank page" problem at the beginning of a complex process.
 -   The "scaffolding kit" opportunity is robust. For every new, powerful AI platform that automates a professional workflow (scientific research, mental health support, UX synthesis), a secondary market emerges for digital products that teach non-experts how to use and govern these systems effectively.
