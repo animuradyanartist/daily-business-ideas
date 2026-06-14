@@ -141,6 +141,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Scientific Hypothesis Generation** · Using AI to synthesize data and autonomously generate novel, testable research hypotheses. · flagged 2026-06-13 · last checked 2026-06-13 · [origin memo](trends/2026-06-13.md)
 - **AI-Powered Corporate Mental Wellness Platforms** · Using AI chatbots and analytics to provide scalable, 24/7 mental health support for employees. · flagged 2026-06-13 · last checked 2026-06-13 · [origin memo](trends/2026-06-13.md)
 - **AI-Powered Political Campaign Content Generation** · Using generative AI to create and distribute targeted political content like ads, memes, and chatbots. · flagged 2026-06-13 · last checked 2026-06-13 · [origin memo](trends/2026-06-13.md)
+- **AI-Powered Warehouse Management for E-commerce** · Using AI to automate inventory forecasting, optimization, and fulfillment for online stores. · flagged 2026-06-14 · last checked 2026-06-14 · [origin memo](trends/2026-06-14.md)
+- **AI for Addiction Recovery & Aftercare** · Using AI-powered digital tools to provide continuous, personalized support and relapse prevention for individuals post-treatment. · flagged 2026-06-14 · last checked 2026-06-14 · [origin memo](trends/2026-06-14.md)
+- **AI-Powered Internal Career Pathing** · Using AI platforms to map employee skills to internal opportunities and generate personalized development plans. · flagged 2026-06-14 · last checked 2026-06-14 · [origin memo](trends/2026-06-14.md)
 
 
 ## ➡️ Active — plateauing
@@ -242,3 +245,5 @@ _(empty)_
 <!-- 2026-06-12 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-06-13 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-06-14 status-update directive: 🚀 | AI-Structured Portfolio Generation -->

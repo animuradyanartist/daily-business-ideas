@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-14 (trends)
+- The most potent B2B SaaS opportunities often lie in unbundling a single, high-pain administrative function from a complex, expensive enterprise suite and making it accessible to SMBs.
+- For every professional workflow being automated by AI (hiring, inventory management), a secondary market is emerging for "scaffolding kits"—digital products that teach non-technical managers how to use these new systems effectively.
+- AI is enabling a shift from reactive, point-in-time support (a therapy session, a portfolio update) to continuous, proactive systems (24/7 recovery monitoring, a self-updating portfolio).
+
+---
+
 ## 2026-06-14
 - The most potent B2B SaaS opportunities often lie in unbundling a single, high-pain administrative function from a complex, expensive enterprise suite.
 - A catastrophic cost of failure (e.g., losing a clinical trial patient for ~$19.5k) is the most powerful anchor for justifying a software subscription's value, dwarfing arguments based on time savings alone.
