@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-15 (trends)
+- The most powerful value propositions are anchored to a specific, catastrophic dollar amount (a "$53,000+ per-violation fine") rather than abstract benefits like "saving time."
+- A compliance "wedge" is a powerful go-to-market strategy: start with a single, non-optional workflow mandated by an external authority, and then expand.
+- For every professional or semi-professional workflow being automated by AI (property management, college applications), a secondary market is emerging for "scaffolding kits"—digital products that teach non-experts how to use these new systems ethically and effectively.
+
+---
+
 ## 2026-06-15
 - The most powerful value propositions are anchored to a specific, catastrophic dollar amount (a "$15,691 fine per violation") rather than abstract benefits like "saving time."
 - A validated market with existing competitors (even a venture-backed one) is often a much better signal than a completely "blue ocean" with no signs of spending.

@@ -144,6 +144,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Warehouse Management for E-commerce** · Using AI to automate inventory forecasting, optimization, and fulfillment for online stores. · flagged 2026-06-14 · last checked 2026-06-14 · [origin memo](trends/2026-06-14.md)
 - **AI for Addiction Recovery & Aftercare** · Using AI-powered digital tools to provide continuous, personalized support and relapse prevention for individuals post-treatment. · flagged 2026-06-14 · last checked 2026-06-14 · [origin memo](trends/2026-06-14.md)
 - **AI-Powered Internal Career Pathing** · Using AI platforms to map employee skills to internal opportunities and generate personalized development plans. · flagged 2026-06-14 · last checked 2026-06-14 · [origin memo](trends/2026-06-14.md)
+- **AI-Automated Operations for Small Landlords** · Using affordable AI platforms to automate the entire rental lifecycle, from tenant communication to maintenance. · flagged 2026-06-15 · last checked 2026-06-15 · [origin memo](trends/2026-06-15.md)
+- **AI as a College Admissions Co-Pilot** · Using specialized AI tools to assist with essay analysis, application strategy, and school selection. · flagged 2026-06-15 · last checked 2026-06-15 · [origin memo](trends/2026-06-15.md)
+- **AI-Automated Compliance for Creator Marketing** · Using AI to automatically monitor influencer and affiliate content for FTC disclosures and policy adherence. · flagged 2026-06-15 · last checked 2026-06-15 · [origin memo](trends/2026-06-15.md)
 
 
 ## ➡️ Active — plateauing
@@ -247,3 +250,5 @@ _(empty)_
 <!-- 2026-06-13 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-06-14 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
+
+<!-- 2026-06-15 status-update directive: 🚀 | Adaptive AI Fitness Coaching -->
