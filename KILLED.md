@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-15
+- **The Vocational School's "Accreditation & Placement" Hub** — A very strong candidate, but the vet clinic pain is more immediate and the cost of failure is more easily quantified as a direct fine, making the value prop slightly sharper.
+- **The Solar Installer's "Permit-to-PTO" Project Hub** — An efficiency tool, not a catastrophic risk-mitigation tool. The pain is a revenue bottleneck, which is less severe than the business-ending threat of losing a DEA license.
+- **The Small Museum's "Accession & Deaccession" Compliance Log** — Niche market with buyers who are traditionally slow to adopt technology and have constrained budgets.
+- **The Independent Pharmacy's "Compounding Compliance" Hub** — Highly regulated and complex space, making the product difficult and risky to build correctly for a new entrant.
+
 ## 2026-06-14
 - **The "Proof-of-Clean" Hub for STR Cleaning Businesses** — Killed: Highly competitive market with many existing players (Turno, Breezeway, etc.). The wedge is less clear, and the value proposition is weaker than the clinical trial idea, which is tied to a high-stakes compliance and financial risk workflow.
 - **The Sales Commission Accuracy & Transparency Portal** — Killed: Extremely crowded market with well-funded, sophisticated incumbents (Xactly, CaptivateIQ, Qobra). Entering this market would require significant capital and a 10x better product to unseat established players. The clinical trial space is a much bluer ocean.

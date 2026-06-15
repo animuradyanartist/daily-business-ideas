@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-15
+- The most powerful value propositions are anchored to a specific, catastrophic dollar amount (a "$15,691 fine per violation") rather than abstract benefits like "saving time."
+- A validated market with existing competitors (even a venture-backed one) is often a much better signal than a completely "blue ocean" with no signs of spending.
+- A compliance "wedge" is a powerful go-to-market strategy: start with a single, non-optional workflow mandated by an external authority, and then expand.
+- The "good enough" substitute (a PIMS module, a paper log) is often the main competitor, and the sales process must be built around demonstrating its hidden but catastrophic risks.
+
 ## 2026-06-14 (trends)
 - The most potent B2B SaaS opportunities often lie in unbundling a single, high-pain administrative function from a complex, expensive enterprise suite and making it accessible to SMBs.
 - For every professional workflow being automated by AI (hiring, inventory management), a secondary market is emerging for "scaffolding kits"—digital products that teach non-technical managers how to use these new systems effectively.
