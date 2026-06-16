@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-16
+- **The Small Town Clerk's "Public Records Request" Tracker** — Killed: Strong idea, but government sales cycles can be notoriously long and complex, making initial traction difficult for a solo founder.
+- **The Commercial Property Manager's "CAM Reconciliation" Calculator** — Killed: This is a financial optimization and accuracy tool. The pain of an error is high, but it's not the same level of catastrophic, externally-mandated risk as failing an AS9100 audit.
+- **The Small Farm's "GAP Audit-Ready" Food Safety Log** — Killed: A very close second. The job shop idea was chosen because the value of the at-risk contracts (aerospace) is likely higher, providing a stronger anchor for the software's price.
+- **The B2C Online Tutoring Marketplace for Niche Skills** — Killed: Hyper-competitive two-sided marketplace model. Extremely difficult to bootstrap without significant capital.
+
 ## 2026-06-15
 - **The Vocational School's "Accreditation & Placement" Hub** — A very strong candidate, but the vet clinic pain is more immediate and the cost of failure is more easily quantified as a direct fine, making the value prop slightly sharper.
 - **The Solar Installer's "Permit-to-PTO" Project Hub** — An efficiency tool, not a catastrophic risk-mitigation tool. The pain is a revenue bottleneck, which is less severe than the business-ending threat of losing a DEA license.
