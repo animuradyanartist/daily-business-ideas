@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-16 (trends)
+-   A powerful go-to-market wedge is to find a compliance requirement that large enterprise customers (e.g., prime aerospace contractors) "flow down" to their fragmented SMB supplier base. This creates a mandatory, non-discretionary buying need.
+-   The "worse substitute" for a compliance product is often not another piece of software, but a high-risk manual process (binders, spreadsheets). The sales process must focus on the catastrophic failure cost of that manual system, not feature comparison.
+-   Unbundling a single, high-stakes feature from a complex, expensive vertical ERP is a repeatable and robust strategy for entering established B2B markets.
+
+---
+
 ## 2026-06-16
 - A powerful go-to-market wedge is to find a compliance requirement that large enterprise customers (e.g., prime aerospace contractors) "flow down" to their fragmented SMB supplier base. This creates a mandatory, non-discretionary buying need.
 - The "worse substitute" for a compliance product is often not another piece of software, but a high-risk manual process (binders, spreadsheets). The sales process must focus on the catastrophic failure cost of that manual system, not feature comparison.

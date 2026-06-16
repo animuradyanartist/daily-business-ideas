@@ -147,6 +147,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Small Landlords** · Using affordable AI platforms to automate the entire rental lifecycle, from tenant communication to maintenance. · flagged 2026-06-15 · last checked 2026-06-15 · [origin memo](trends/2026-06-15.md)
 - **AI as a College Admissions Co-Pilot** · Using specialized AI tools to assist with essay analysis, application strategy, and school selection. · flagged 2026-06-15 · last checked 2026-06-15 · [origin memo](trends/2026-06-15.md)
 - **AI-Automated Compliance for Creator Marketing** · Using AI to automatically monitor influencer and affiliate content for FTC disclosures and policy adherence. · flagged 2026-06-15 · last checked 2026-06-15 · [origin memo](trends/2026-06-15.md)
+- **AI-Automated Compliance for Aerospace & Defense SMBs** · Using AI to automate quality and cybersecurity compliance (AS9100, CMMC) for suppliers. · flagged 2026-06-16 · last checked 2026-06-16 · [origin memo](trends/2026-06-16.md)
+- **AI-Powered Operations for Home Health Agencies** · Using AI platforms to automate patient intake, scheduling, documentation, and billing for home care. · flagged 2026-06-16 · last checked 2026-06-16 · [origin memo](trends/2026-06-16.md)
+- **AI-Augmented Financial Auditing for SMBs** · Using AI to automate evidence collection, internal controls testing, and audit documentation. · flagged 2026-06-16 · last checked 2026-06-16 · [origin memo](trends/2026-06-16.md)
 
 
 ## ➡️ Active — plateauing
@@ -252,3 +255,5 @@ _(empty)_
 <!-- 2026-06-14 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
 
 <!-- 2026-06-15 status-update directive: 🚀 | Adaptive AI Fitness Coaching -->
+
+<!-- 2026-06-16 status-update directive: 🚀 | No-Code AI Agent Builders -->
