@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-17
+- **The Franchisee's Operations & Brand Compliance Hub** — Killed: Strong idea, but the sales motion is likely top-down to the franchisor, which is a longer, more complex sale for a solo founder than a bottom-up SMB play.
+- **The Small Commercial Fishing Vessel's USCG Compliance Log** — Killed: Valid pain, but the market is likely smaller and harder to reach through digital channels compared to electrical contractors.
+- **The Food Truck Health Dept. Compliance Hub** — Killed: A very close second. The electrician idea was chosen due to the longer-term (4-5 year) lock-in per apprentice, leading to better LTV.
+- **The Daycare Licensing Compliance Hub** — Killed: High-stakes compliance, but the potential liability of dealing with child safety regulations makes this a riskier space to enter.
+
 ## 2026-06-16
 - **The Small Town Clerk's "Public Records Request" Tracker** — Killed: Strong idea, but government sales cycles can be notoriously long and complex, making initial traction difficult for a solo founder.
 - **The Commercial Property Manager's "CAM Reconciliation" Calculator** — Killed: This is a financial optimization and accuracy tool. The pain of an error is high, but it's not the same level of catastrophic, externally-mandated risk as failing an AS9100 audit.
