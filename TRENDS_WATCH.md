@@ -150,6 +150,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Compliance for Aerospace & Defense SMBs** · Using AI to automate quality and cybersecurity compliance (AS9100, CMMC) for suppliers. · flagged 2026-06-16 · last checked 2026-06-16 · [origin memo](trends/2026-06-16.md)
 - **AI-Powered Operations for Home Health Agencies** · Using AI platforms to automate patient intake, scheduling, documentation, and billing for home care. · flagged 2026-06-16 · last checked 2026-06-16 · [origin memo](trends/2026-06-16.md)
 - **AI-Augmented Financial Auditing for SMBs** · Using AI to automate evidence collection, internal controls testing, and audit documentation. · flagged 2026-06-16 · last checked 2026-06-16 · [origin memo](trends/2026-06-16.md)
+- **AI-Powered Dental Practice Operations** · Using AI platforms to automate insurance verification, scheduling, and clinical documentation for dental offices. · flagged 2026-06-17 · last checked 2026-06-17 · [origin memo](trends/2026-06-17.md)
+- **AI-Automated Construction Bidding & Estimation** · Using computer vision to analyze blueprints and automate quantity takeoffs and cost estimates for contractors. · flagged 2026-06-17 · last checked 2026-06-17 · [origin memo](trends/2026-06-17.md)
+- **AI-Powered Physical Therapy & Rehabilitation** · Using AI for remote patient monitoring, automated documentation, and personalized home exercise programs. · flagged 2026-06-17 · last checked 2026-06-17 · [origin memo](trends/2026-06-17.md)
 
 
 ## ➡️ Active — plateauing
@@ -257,3 +260,5 @@ _(empty)_
 <!-- 2026-06-15 status-update directive: 🚀 | Adaptive AI Fitness Coaching -->
 
 <!-- 2026-06-16 status-update directive: 🚀 | No-Code AI Agent Builders -->
+
+<!-- 2026-06-17 status-update directive: 🚀 | Spec-Driven AI Development -->
