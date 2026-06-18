@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Small Law Firm Compliance Software (US) | small-law-firm-compliance-software | 2026-06-18 | 96 | The Small Law Firm's "IOLTA Compliance" Hub |
 | Electrical Contractor Compliance Software (US) | electrical-contractor-compliance-software | 2026-06-17 | 93 | The Electrical Contractor's Apprentice Compliance Log |
 | Custom Machine Shop Compliance Software (US) | custom-machine-shop-compliance-software | 2026-06-16 | 92 | The Custom Job Shop's "Audit-Proof" Material Traceability Log |
 | Veterinary Practice Compliance Software (US) | veterinary-practice-compliance-software | 2026-06-15 | 94 | The Veterinary Clinic's "Audit-Proof" DEA Compliance Log |

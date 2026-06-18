@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-18 — The Small Law Firm's "IOLTA Compliance" Hub — 96/100 high
 - 2026-06-17 — trend forecast — AI-Powered Dental Practice Operations +2 more
 - 2026-06-17 — The Electrical Contractor's Apprentice Compliance Log — 93/100 high
 - 2026-06-16 — trend forecast — AI-Automated Compliance for Aerospace & Defense SMBs +2 more

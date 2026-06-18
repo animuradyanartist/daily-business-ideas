@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-18
+- **The Independent Brewery's "TTB COLA Label Approval" Assistant** — Killed: Strong idea, but the pain is a revenue delay, which is less severe than the existential career risk of disbarment for a lawyer.
+- **The Independent Landlord's "Emotional Support Animal" Vetting & Compliance Kit** — Killed: High-stakes pain, but the legal landscape is constantly shifting and can be highly localized, making the product difficult to maintain. The IOLTA rules are more standardized.
+- **The Small E-commerce Seller's "Sales Tax Nexus" Monitor** — Killed: A very close second. This is a severe financial pain, but the market is crowded with well-funded incumbents like Avalara and TaxJar. The IOLTA space has fewer direct, modern competitors.
+- **The General Contractor's "Subcontractor Insurance & Lien Waiver" Tracker** — Killed: Valid pain, but the workflow is more about project management and document collection than a single, high-stakes financial compliance task.
+
 ## 2026-06-17
 - **The Franchisee's Operations & Brand Compliance Hub** — Killed: Strong idea, but the sales motion is likely top-down to the franchisor, which is a longer, more complex sale for a solo founder than a bottom-up SMB play.
 - **The Small Commercial Fishing Vessel's USCG Compliance Log** — Killed: Valid pain, but the market is likely smaller and harder to reach through digital channels compared to electrical contractors.

@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-18
+- The most powerful B2B SaaS value propositions for solo founders are not about efficiency, but about providing "insurance" against a catastrophic failure event that the buyer is personally liable for.
+- "Unbundling" a single, high-stakes, and poorly-served feature from a complex, all-in-one enterprise suite is a repeatable and robust strategy.
+- For products requiring high user trust (e.g., access to financial data), the initial marketing and sales effort must be overwhelmingly focused on demonstrating security and transparency to overcome the trust barrier.
+
 ## 2026-06-17 (trends)
 -   AI is systematically productizing the "back office" for licensed, local SMBs (dentists, contractors, therapists). The pattern of automating high-friction, non-billable administrative work is robust and expanding across fragmented professional service industries.
 -   The value proposition of AI is increasingly about creating an audit trail. Whether it's a compliance document for a construction bid, a verified insurance record for a dental claim, or an objective movement analysis for physical therapy, AI is being used to generate auditable, data-driven proof of work.
