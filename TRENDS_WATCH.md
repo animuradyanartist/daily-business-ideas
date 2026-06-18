@@ -153,6 +153,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Dental Practice Operations** · Using AI platforms to automate insurance verification, scheduling, and clinical documentation for dental offices. · flagged 2026-06-17 · last checked 2026-06-17 · [origin memo](trends/2026-06-17.md)
 - **AI-Automated Construction Bidding & Estimation** · Using computer vision to analyze blueprints and automate quantity takeoffs and cost estimates for contractors. · flagged 2026-06-17 · last checked 2026-06-17 · [origin memo](trends/2026-06-17.md)
 - **AI-Powered Physical Therapy & Rehabilitation** · Using AI for remote patient monitoring, automated documentation, and personalized home exercise programs. · flagged 2026-06-17 · last checked 2026-06-17 · [origin memo](trends/2026-06-17.md)
+- **AI Co-pilots for Executive Assistants** · Using AI platforms to automate core administrative workflows like scheduling, meeting prep, and email triage. · flagged 2026-06-18 · last checked 2026-06-18 · [origin memo](trends/2026-06-18.md)
+- **AI-Automated Client Communications for Financial Advisors** · Using AI to draft personalized client updates and marketing materials while ensuring regulatory compliance. · flagged 2026-06-18 · last checked 2026-06-18 · [origin memo](trends/2026-06-18.md)
+- **AI-Automated IT Service Management (ITSM)** · Using AI-native platforms to autonomously resolve internal IT support tickets from intake to resolution. · flagged 2026-06-18 · last checked 2026-06-18 · [origin memo](trends/2026-06-18.md)
 
 
 ## ➡️ Active — plateauing
@@ -262,3 +265,5 @@ _(empty)_
 <!-- 2026-06-16 status-update directive: 🚀 | No-Code AI Agent Builders -->
 
 <!-- 2026-06-17 status-update directive: 🚀 | Spec-Driven AI Development -->
+
+<!-- 2026-06-18 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->

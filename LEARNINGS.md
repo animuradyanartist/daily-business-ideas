@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-18 (trends)
+- The most valuable B2B AI tools automate an entire, high-friction professional workflow (executive support, client communication, IT helpdesk), not just a single, isolated task.
+- For every professional workflow being automated, a secondary market is emerging for "governance toolkits"—digital products that teach non-technical owners how to implement, manage, and oversee these new semi-autonomous AI systems.
+- A compliance mandate (from the SEC, FINRA, etc.) is a powerful catalyst for AI adoption, creating a clear, non-discretionary business case for tools that can ensure auditable adherence to rules.
+
+---
+
 ## 2026-06-18
 - The most powerful B2B SaaS value propositions for solo founders are not about efficiency, but about providing "insurance" against a catastrophic failure event that the buyer is personally liable for.
 - "Unbundling" a single, high-stakes, and poorly-served feature from a complex, all-in-one enterprise suite is a repeatable and robust strategy.
