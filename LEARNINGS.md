@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-19 (trends)
+- The most powerful B2B SaaS value propositions for SMBs are often found in workflows where they are structurally disadvantaged against large enterprise partners (e.g., recovering revenue, managing complex leases).
+- A "revenue recovery" product has a clearer, more immediate ROI than a "cost savings" or "risk mitigation" product, making the sales process easier.
+- The "worse substitute" for many modern B2B SaaS tools is not a direct competitor, but a complex, manual spreadsheet-and-email process run by an over-burdened employee. The product's primary job is to defeat that manual process.
+
+---
+
 ## 2026-06-19
 - The most powerful B2B SaaS value propositions for SMBs are often found in workflows where they are structurally disadvantaged against large enterprise partners.
 - A "revenue recovery" product has a clearer, more immediate ROI than a "cost savings" or "risk mitigation" product, making the sales process easier.

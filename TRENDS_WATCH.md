@@ -156,6 +156,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI Co-pilots for Executive Assistants** · Using AI platforms to automate core administrative workflows like scheduling, meeting prep, and email triage. · flagged 2026-06-18 · last checked 2026-06-18 · [origin memo](trends/2026-06-18.md)
 - **AI-Automated Client Communications for Financial Advisors** · Using AI to draft personalized client updates and marketing materials while ensuring regulatory compliance. · flagged 2026-06-18 · last checked 2026-06-18 · [origin memo](trends/2026-06-18.md)
 - **AI-Automated IT Service Management (ITSM)** · Using AI-native platforms to autonomously resolve internal IT support tickets from intake to resolution. · flagged 2026-06-18 · last checked 2026-06-18 · [origin memo](trends/2026-06-18.md)
+- **AI-Powered Revenue Recovery for B2B** · Using AI platforms to automate the identification and recovery of lost revenue from invalid deductions and underpaid claims. · flagged 2026-06-19 · last checked 2026-06-19 · [origin memo](trends/2026-06-19.md)
+- **AI-Automated Commercial Real Estate (CRE) Operations** · Using AI to automate high-friction workflows like lease abstraction, data management, and operational reporting. · flagged 2026-06-19 · last checked 2026-06-19 · [origin memo](trends/2026-06-19.md)
+- **AI-Automated Food & Beverage Supply Chain Compliance** · Using AI to automate the documentation and management of regulatory compliance for HACCP, supplier certification, and traceability. · flagged 2026-06-19 · last checked 2026-06-19 · [origin memo](trends/2026-06-19.md)
 
 
 ## ➡️ Active — plateauing
@@ -267,3 +270,5 @@ _(empty)_
 <!-- 2026-06-17 status-update directive: 🚀 | Spec-Driven AI Development -->
 
 <!-- 2026-06-18 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
+
+<!-- 2026-06-19 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
