@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-19
+- **The Small Importer's Demurrage & Drayage Fee Tracker** — Killed: While the pain is high, the frequency is unpredictable, making a recurring subscription a harder sell than the chronic, predictable pain of CPG deductions.
+- **The Small Organic Farm's "Audit-Ready" Certification Log** — Killed: This is a compliance/risk mitigation play. The CPG idea is a direct revenue recovery play, which is a more powerful and easily quantifiable value proposition.
+- **The Independent Publisher's Royalty & Rights Tracker** — Killed: Niche market with complex, bespoke contracts, making a standardized software solution difficult to build and scale.
+- **The Local Government's Public Records Request (FOIA) Hub** — Killed: Government sales cycles are notoriously long and complex, a poor fit for a solo founder seeking rapid initial traction.
+
 ## 2026-06-18
 - **The Independent Brewery's "TTB COLA Label Approval" Assistant** — Killed: Strong idea, but the pain is a revenue delay, which is less severe than the existential career risk of disbarment for a lawyer.
 - **The Independent Landlord's "Emotional Support Animal" Vetting & Compliance Kit** — Killed: High-stakes pain, but the legal landscape is constantly shifting and can be highly localized, making the product difficult to maintain. The IOLTA rules are more standardized.

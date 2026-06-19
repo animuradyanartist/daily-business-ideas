@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| CPG Deduction Management Software (US) | cpg-deduction-management-software | 2026-06-19 | 97 | The CPG Brand's "Chargeback Defender" Kit |
 | Small Law Firm Compliance Software (US) | small-law-firm-compliance-software | 2026-06-18 | 96 | The Small Law Firm's "IOLTA Compliance" Hub |
 | Electrical Contractor Compliance Software (US) | electrical-contractor-compliance-software | 2026-06-17 | 93 | The Electrical Contractor's Apprentice Compliance Log |
 | Custom Machine Shop Compliance Software (US) | custom-machine-shop-compliance-software | 2026-06-16 | 92 | The Custom Job Shop's "Audit-Proof" Material Traceability Log |
