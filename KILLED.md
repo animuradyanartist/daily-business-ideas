@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-20
+- **The Independent Insurance Agency's "E&O Defender" Toolkit** — Killed: A strong idea, but the pain of an E&O claim is a probabilistic threat, whereas a 3PL's need for FSMA compliance is a daily, operational certainty.
+- **The Private Company's "ASC 842 Compliance" Hub** — Killed: This is often a one-time, complex implementation project handled by accountants, making a recurring SaaS sale more difficult than a tool for ongoing operational compliance.
+- **The Small Manufacturer's OSHA Compliance Hub** — Killed: A valid pain, but less acute than FSMA for food-related businesses, where a compliance failure can lead to immediate product recalls and facility shutdowns.
+
 ## 2026-06-19
 - **The Small Importer's Demurrage & Drayage Fee Tracker** — Killed: While the pain is high, the frequency is unpredictable, making a recurring subscription a harder sell than the chronic, predictable pain of CPG deductions.
 - **The Small Organic Farm's "Audit-Ready" Certification Log** — Killed: This is a compliance/risk mitigation play. The CPG idea is a direct revenue recovery play, which is a more powerful and easily quantifiable value proposition.

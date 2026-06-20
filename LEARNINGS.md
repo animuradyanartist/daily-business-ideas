@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-20
+- The most powerful driver for SMB compliance is often not the regulator itself, but the SMB's largest customers demanding it to de-risk their own operations.
+- A "boring," vertical-specific compliance tool can have superior unit economics to a "hot," horizontal product due to lower churn and highly-targeted, lower-cost marketing channels.
+- The best wedge into a market is often not a better version of an existing product, but a much simpler, faster version of the "manual process" that the majority of the market still uses.
+
 ## 2026-06-19 (trends)
 - The most powerful B2B SaaS value propositions for SMBs are often found in workflows where they are structurally disadvantaged against large enterprise partners (e.g., recovering revenue, managing complex leases).
 - A "revenue recovery" product has a clearer, more immediate ROI than a "cost savings" or "risk mitigation" product, making the sales process easier.
