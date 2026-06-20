@@ -159,6 +159,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Revenue Recovery for B2B** · Using AI platforms to automate the identification and recovery of lost revenue from invalid deductions and underpaid claims. · flagged 2026-06-19 · last checked 2026-06-19 · [origin memo](trends/2026-06-19.md)
 - **AI-Automated Commercial Real Estate (CRE) Operations** · Using AI to automate high-friction workflows like lease abstraction, data management, and operational reporting. · flagged 2026-06-19 · last checked 2026-06-19 · [origin memo](trends/2026-06-19.md)
 - **AI-Automated Food & Beverage Supply Chain Compliance** · Using AI to automate the documentation and management of regulatory compliance for HACCP, supplier certification, and traceability. · flagged 2026-06-19 · last checked 2026-06-19 · [origin memo](trends/2026-06-19.md)
+- **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-06-20 · last checked 2026-06-20 · [origin memo](trends/2026-06-20.md)
+- **AI-Automated M&A Due Diligence** · Using AI platforms to automate the analysis of contracts and financial documents in virtual data rooms. · flagged 2026-06-20 · last checked 2026-06-20 · [origin memo](trends/2026-06-20.md)
+- **AI-Generated Architectural Visualization** · Using AI to rapidly generate conceptual architectural designs and high-quality renderings from simple inputs. · flagged 2026-06-20 · last checked 2026-06-20 · [origin memo](trends/2026-06-20.md)
 
 
 ## ➡️ Active — plateauing
@@ -272,3 +275,5 @@ _(empty)_
 <!-- 2026-06-18 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
 
 <!-- 2026-06-19 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
+
+<!-- 2026-06-20 status-update directive: 🚀 | AI-Generated Technical Documentation -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-20 (trends)
+-   AI is systematically automating high-stakes, information-intensive "gate" decisions in business, such as predicting employee churn, assessing M&A risk, and validating architectural feasibility.
+-   The value proposition for B2B AI is shifting from "faster" to "more comprehensive." The ability to analyze an entire dataset (every contract, every employee record) without sampling is creating a new standard of diligence and foresight.
+-   For every professional workflow being automated, a secondary market is emerging for "governance toolkits"—digital products that teach non-technical managers how to implement, oversee, and interpret the outputs of these new AI systems.
+
+---
+
 ## 2026-06-20
 - The most powerful driver for SMB compliance is often not the regulator itself, but the SMB's largest customers demanding it to de-risk their own operations.
 - A "boring," vertical-specific compliance tool can have superior unit economics to a "hot," horizontal product due to lower churn and highly-targeted, lower-cost marketing channels.
