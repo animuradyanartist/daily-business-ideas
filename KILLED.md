@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-21
+- **The "Audit-Proof" Dental Service Organization (DSO) Procurement Hub** — Killed: A strong idea, but the pain is cost control and efficiency. The Home Health idea is tied to direct, immediate revenue loss, which is a more powerful motivator.
+- **The "No Surprises" HOA Architectural Review Workflow Tool** — Killed: The buyer is often a volunteer board, making willingness-to-pay less certain than a for-profit business facing claim denials.
+- **The "Audit-Ready" Food Co-Packer Traceability Log** — Killed: A solid compliance play, but very similar to previously explored ideas. The Home Health market is larger and the pain is more frequent (daily visits vs. periodic audits).
+- **The "Client-Ready" Toolkit for Freelance Translators** — Killed: This is a vitamin (efficiency/professionalism), not a painkiller (preventing revenue loss).
+
 ## 2026-06-20
 - **The Independent Insurance Agency's "E&O Defender" Toolkit** — Killed: A strong idea, but the pain of an E&O claim is a probabilistic threat, whereas a 3PL's need for FSMA compliance is a daily, operational certainty.
 - **The Private Company's "ASC 842 Compliance" Hub** — Killed: This is often a one-time, complex implementation project handled by accountants, making a recurring SaaS sale more difficult than a tool for ongoing operational compliance.

@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Home Health Agency Compliance & Operations Software (US) | home-health-agency-compliance-software-us | 2026-06-21 | 96 | The Home Healthcare Agency's "Audit-Proof" EVV & Scheduling Hub |
 | 3PL Food Safety Compliance Software (US) | 3pl-food-safety-compliance-software-us | 2026-06-20 | 96 | The 3PL's "Audit-Proof" Food Safety Compliance Hub |
 | CPG Deduction Management Software (US) | cpg-deduction-management-software | 2026-06-19 | 97 | The CPG Brand's "Chargeback Defender" Kit |
 | Small Law Firm Compliance Software (US) | small-law-firm-compliance-software | 2026-06-18 | 96 | The Small Law Firm's "IOLTA Compliance" Hub |
