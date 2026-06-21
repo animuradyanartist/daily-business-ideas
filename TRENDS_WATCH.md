@@ -162,6 +162,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-06-20 · last checked 2026-06-20 · [origin memo](trends/2026-06-20.md)
 - **AI-Automated M&A Due Diligence** · Using AI platforms to automate the analysis of contracts and financial documents in virtual data rooms. · flagged 2026-06-20 · last checked 2026-06-20 · [origin memo](trends/2026-06-20.md)
 - **AI-Generated Architectural Visualization** · Using AI to rapidly generate conceptual architectural designs and high-quality renderings from simple inputs. · flagged 2026-06-20 · last checked 2026-06-20 · [origin memo](trends/2026-06-20.md)
+- **AI-Automated Electronic Visit Verification (EVV) Compliance** · Using AI to automate the matching of verified home health visits to billing claims to ensure payment. · flagged 2026-06-21 · last checked 2026-06-21 · [origin memo](trends/2026-06-21.md)
+- **AI-Powered EV Charging Network Operations** · Using AI to automate predictive maintenance, dynamic pricing, and energy management for EV charging stations. · flagged 2026-06-21 · last checked 2026-06-21 · [origin memo](trends/2026-06-21.md)
+- **AI-Automated Grant Compliance & Post-Award Reporting** · Using AI platforms to automate the tracking and reporting required after a non-profit receives grant funding. · flagged 2026-06-21 · last checked 2026-06-21 · [origin memo](trends/2026-06-21.md)
 
 
 ## ➡️ Active — plateauing
@@ -277,3 +280,5 @@ _(empty)_
 <!-- 2026-06-19 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-06-20 status-update directive: 🚀 | AI-Generated Technical Documentation -->
+
+<!-- 2026-06-21 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->

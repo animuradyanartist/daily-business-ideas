@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-21 (trends)
+-   The most powerful business case for a vertical SaaS tool is when it directly gates revenue based on a non-discretionary, technical compliance requirement.
+-   As government mandates (like EVV) move from initial rollout to strict, automated enforcement, the nature of the market's pain shifts from "annoying paperwork" to "critical cash flow threat," creating new opportunities for focused software.
+-   The "worse substitute" for compliance software is often not a direct competitor, but a human administrator. However, when the compliance failure becomes programmatic (i.e., an automatic claim denial), the human substitute becomes ineffective, creating a powerful wedge for a software solution.
+
+---
+
 ## 2026-06-21
 - The most powerful business case for a vertical SaaS tool is when it directly gates revenue based on a non-discretionary, technical compliance requirement.
 - As government mandates (like EVV) move from initial rollout to strict, automated enforcement, the nature of the market's pain shifts from "annoying paperwork" to "critical cash flow threat," creating new opportunities for focused software.
