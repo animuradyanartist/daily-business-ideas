@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-22 (trends)
+-   AI is systematically productizing the "back office" for fragmented, location-based SMBs (daycares, franchise units, rental properties). The pattern of automating compliance, communication, and financial reporting is robust.
+-   The "worse substitute" for these new AI platforms is often not a direct competitor, but a combination of spreadsheets, email, and manual labor by an over-burdened manager. The product's primary job is to defeat that manual chaos.
+-   For every operational workflow being automated by AI, a secondary market is emerging for "governance toolkits"—digital products that teach non-technical owners how to implement, manage, and oversee these new semi-autonomous systems.
+
+---
+
 ## 2026-06-22
 *   The most potent business ideas often live at the intersection of regulatory mandate and operational chaos. The regulation creates a non-discretionary need, and the operational chaos creates the opening for a simple software solution.
 *   For fragmented SMB markets, the true competitor is often not another software company, but a manual process (spreadsheet, whiteboard, paper). The product's job is to defeat the manual process first and competitors second.

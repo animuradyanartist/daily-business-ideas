@@ -165,6 +165,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Electronic Visit Verification (EVV) Compliance** · Using AI to automate the matching of verified home health visits to billing claims to ensure payment. · flagged 2026-06-21 · last checked 2026-06-21 · [origin memo](trends/2026-06-21.md)
 - **AI-Powered EV Charging Network Operations** · Using AI to automate predictive maintenance, dynamic pricing, and energy management for EV charging stations. · flagged 2026-06-21 · last checked 2026-06-21 · [origin memo](trends/2026-06-21.md)
 - **AI-Automated Grant Compliance & Post-Award Reporting** · Using AI platforms to automate the tracking and reporting required after a non-profit receives grant funding. · flagged 2026-06-21 · last checked 2026-06-21 · [origin memo](trends/2026-06-21.md)
+- **AI-Automated Childcare Center Operations** · Using AI platforms to automate parent communication, enrollment forecasting, and administrative tasks for daycares. · flagged 2026-06-22 · last checked 2026-06-22 · [origin memo](trends/2026-06-22.md)
+- **AI-Automated Franchise Operations Management** · Using AI platforms to automate compliance, reporting, and training across multi-location franchise networks. · flagged 2026-06-22 · last checked 2026-06-22 · [origin memo](trends/2026-06-22.md)
+- **AI-Automated Property Management Workflows** · Using AI to automate leasing, tenant communication, maintenance, and reporting for residential properties. · flagged 2026-06-22 · last checked 2026-06-22 · [origin memo](trends/2026-06-22.md)
 
 
 ## ➡️ Active — plateauing
@@ -282,3 +285,5 @@ _(empty)_
 <!-- 2026-06-20 status-update directive: 🚀 | AI-Generated Technical Documentation -->
 
 <!-- 2026-06-21 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-06-22 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
