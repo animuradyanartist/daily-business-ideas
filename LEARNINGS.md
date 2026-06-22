@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-22
+*   The most potent business ideas often live at the intersection of regulatory mandate and operational chaos. The regulation creates a non-discretionary need, and the operational chaos creates the opening for a simple software solution.
+*   For fragmented SMB markets, the true competitor is often not another software company, but a manual process (spreadsheet, whiteboard, paper). The product's job is to defeat the manual process first and competitors second.
+*   Opaque, quote-based pricing from incumbents is a strong signal of a market gap. It indicates a product that is likely complex, expensive, and sold top-down, creating an opportunity for a transparently-priced, self-serve alternative.
+
 ## 2026-06-21 (trends)
 -   The most powerful business case for a vertical SaaS tool is when it directly gates revenue based on a non-discretionary, technical compliance requirement.
 -   As government mandates (like EVV) move from initial rollout to strict, automated enforcement, the nature of the market's pain shifts from "annoying paperwork" to "critical cash flow threat," creating new opportunities for focused software.

@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-22
+*   **The Commercial Cleaning Co's "Bid-to-Win" Quoting & Proposal Kit** — Killed: This is a vitamin (improves win rate). The childcare idea is a painkiller (prevents license loss).
+*   **The Non-Emergency Medical Transportation (NEMT) Provider's "Audit-Proof" Trip & Billing Log** — Killed: A very strong compliance idea, but the user (driver) and buyer (owner) are different, adding complexity. The childcare idea has the director as both user and buyer, simplifying the product and sales.
+*   **The Small Landlord's "Fair Housing" Ad & Application Compliance Checker** — Killed: High-stakes pain, but the legal landscape is complex and varies by city/state, making the product difficult to build and maintain accurately. Childcare ratios are more standardized.
+*   **The Independent Financial Advisor's (IFA) "SEC Marketing Rule" Compliance Hub** — Killed: Excellent compliance pain, but the market is smaller and more sophisticated, likely with existing, more expensive solutions in place. The childcare market is larger and less tech-saturated.
+
 ## 2026-06-21
 - **The "Audit-Proof" Dental Service Organization (DSO) Procurement Hub** — Killed: A strong idea, but the pain is cost control and efficiency. The Home Health idea is tied to direct, immediate revenue loss, which is a more powerful motivator.
 - **The "No Surprises" HOA Architectural Review Workflow Tool** — Killed: The buyer is often a volunteer board, making willingness-to-pay less certain than a for-profit business facing claim denials.
