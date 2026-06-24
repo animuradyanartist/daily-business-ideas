@@ -168,6 +168,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Childcare Center Operations** · Using AI platforms to automate parent communication, enrollment forecasting, and administrative tasks for daycares. · flagged 2026-06-22 · last checked 2026-06-22 · [origin memo](trends/2026-06-22.md)
 - **AI-Automated Franchise Operations Management** · Using AI platforms to automate compliance, reporting, and training across multi-location franchise networks. · flagged 2026-06-22 · last checked 2026-06-22 · [origin memo](trends/2026-06-22.md)
 - **AI-Automated Property Management Workflows** · Using AI to automate leasing, tenant communication, maintenance, and reporting for residential properties. · flagged 2026-06-22 · last checked 2026-06-22 · [origin memo](trends/2026-06-22.md)
+- **AI-Automated Immigration Law Workflows** · Using end-to-end AI platforms to automate client intake, document collection, legal drafting, and case assembly. · flagged 2026-06-24 · last checked 2026-06-24 · [origin memo](trends/2026-06-24.md)
+- **AI-Automated Construction Safety Compliance** · Using AI platforms to generate OSHA-compliant safety documents, monitor job sites, and automate incident reporting. · flagged 2026-06-24 · last checked 2026-06-24 · [origin memo](trends/2026-06-24.md)
+- **AI-Powered Operations for Independent Insurance Agencies** · Using specialized AI tools integrated with Agency Management Systems to automate client service, marketing, and compliance. · flagged 2026-06-24 · last checked 2026-06-24 · [origin memo](trends/2026-06-24.md)
 
 
 ## ➡️ Active — plateauing
@@ -287,3 +290,5 @@ _(empty)_
 <!-- 2026-06-21 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-06-22 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
+
+<!-- 2026-06-24 status-update directive: 🚀 | AI-Powered UX Writing & UI Copy Generation -->

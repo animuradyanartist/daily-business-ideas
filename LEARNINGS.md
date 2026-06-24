@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-24 (trends)
+-   AI is systematically productizing the "back office" for fragmented, regulated SMBs (immigration law, construction, insurance). The pattern of automating compliance, documentation, and client communication is robust.
+-   The most powerful business case for AI is often found where a regulatory mandate (OSHA, USCIS, State Departments of Insurance) creates a non-discretionary, high-stakes administrative burden.
+-   The "worse substitute" for these new AI platforms is not a direct competitor, but a manual process run by an over-burdened professional (a paralegal, a site foreman, an agency account manager). The product's job is to defeat that manual chaos.
+
+---
+
 ## 2026-06-24
 - The most powerful compliance pains are not just about avoiding fines, but about protecting revenue that has already been booked. The threat of a retroactive clawback is a more potent motivator than the threat of a future penalty.
 - For fragmented, non-technical SMB markets, the "system of record" for a single, critical workflow can be a powerful moat, even if the feature set is simple. The value is in the data's integrity and longevity.
