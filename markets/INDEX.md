@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| DME Supplier Operations & Compliance Software (US) | dme-supplier-compliance-software-us | 2026-06-24 | 97 | The Durable Medical Equipment (DME) Supplier's "Audit-Proof" Delivery Log |
 | Childcare Center Compliance & Operations Software (US) | childcare-center-compliance-software-us | 2026-06-22 | 96 | The Childcare Center's "Stay-in-Ratio" Staffing & Compliance Dashboard |
 | Home Health Agency Compliance & Operations Software (US) | home-health-agency-compliance-software-us | 2026-06-21 | 96 | The Home Healthcare Agency's "Audit-Proof" EVV & Scheduling Hub |
 | 3PL Food Safety Compliance Software (US) | 3pl-food-safety-compliance-software-us | 2026-06-20 | 96 | The 3PL's "Audit-Proof" Food Safety Compliance Hub |

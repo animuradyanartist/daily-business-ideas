@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-24
+- The most powerful compliance pains are not just about avoiding fines, but about protecting revenue that has already been booked. The threat of a retroactive clawback is a more potent motivator than the threat of a future penalty.
+- For fragmented, non-technical SMB markets, the "system of record" for a single, critical workflow can be a powerful moat, even if the feature set is simple. The value is in the data's integrity and longevity.
+- Market consolidation isn't always a negative signal. A shrinking market can mean the remaining players are the most professional and the most willing to pay for tools that enhance that professionalism.
+
 ## 2026-06-22 (trends)
 -   AI is systematically productizing the "back office" for fragmented, location-based SMBs (daycares, franchise units, rental properties). The pattern of automating compliance, communication, and financial reporting is robust.
 -   The "worse substitute" for these new AI platforms is often not a direct competitor, but a combination of spreadsheets, email, and manual labor by an over-burdened manager. The product's primary job is to defeat that manual chaos.

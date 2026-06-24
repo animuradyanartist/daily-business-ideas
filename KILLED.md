@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-24
+- **The HVAC Contractor's "Permit-Ready" Load Calculation & Report Generator** — Killed: The pain of a failed inspection (rework) is less severe than a massive, retroactive revenue clawback.
+- **The Small Medical Biller's "Denial Management" Hub** — Killed: The market for revenue cycle management (RCM) tools is crowded, and the buyer is more sophisticated, making the wedge for a simple tool harder to establish.
+- **The Commercial Landscaper's "Audit-Proof" Pesticide Application Log** — Killed: A valid compliance pain, but the fines are likely less frequent and existentially threatening than a Medicare payment suspension.
+
 ## 2026-06-22
 *   **The Commercial Cleaning Co's "Bid-to-Win" Quoting & Proposal Kit** — Killed: This is a vitamin (improves win rate). The childcare idea is a painkiller (prevents license loss).
 *   **The Non-Emergency Medical Transportation (NEMT) Provider's "Audit-Proof" Trip & Billing Log** — Killed: A very strong compliance idea, but the user (driver) and buyer (owner) are different, adding complexity. The childcare idea has the director as both user and buyer, simplifying the product and sales.
