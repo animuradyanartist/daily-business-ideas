@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-25 (trends)
+-   A high-stakes professional service with a reputation-based business model is a powerful substitute for a direct regulatory compliance driver. The "cost of failure" is just as high, even if it's a lawsuit or refund demand instead of a government fine.
+-   In mature vertical SaaS markets, the opportunity often shifts from "building the first tool for X" to "building the best-designed, most-focused tool for X's most critical workflow."
+-   The "worse substitute" for a solo professional is often a sprawling, complex spreadsheet. The product's primary job is to defeat the spreadsheet by being simpler, safer, and more automated.
+-   A growing number of practitioners in a fragmented field is a strong positive signal, as it creates a continuous stream of new buyers who have not yet committed to an incumbent platform.
+
+---
+
 ## 2026-06-25
 - A high-stakes professional service with a reputation-based business model is a powerful substitute for a direct regulatory compliance driver. The "cost of failure" is just as high, even if it's a lawsuit or refund demand instead of a government fine.
 - In mature vertical SaaS markets, the opportunity often shifts from "building the first tool for X" to "building the best-designed, most-focused tool for X's most critical workflow."
