@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-25
+- **The Short-Term Rental Cleaning Company's "Turnover" Scheduler** — Killed: A strong operational pain, but the market already has dominant, well-funded players like Turno and Breezeway. The wedge is less clear.
+- **The Specialty Coffee Roaster's "Roast & Inventory" Hub** — Killed: This is a valid need, but the market is smaller and the pain of a stockout is less existentially threatening than a reputation-killing professional error.
+- **The Small Law Firm's "Client Intake & Conflict Check" Tool** — Killed: Excellent pain point, but very similar to the "IOLTA Compliance" idea from 2026-06-18. This is a less novel application of the same core pattern.
+
 ## 2026-06-24
 - **The HVAC Contractor's "Permit-Ready" Load Calculation & Report Generator** — Killed: The pain of a failed inspection (rework) is less severe than a massive, retroactive revenue clawback.
 - **The Small Medical Biller's "Denial Management" Hub** — Killed: The market for revenue cycle management (RCM) tools is crowded, and the buyer is more sophisticated, making the wedge for a simple tool harder to establish.

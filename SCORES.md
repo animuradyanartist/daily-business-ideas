@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-06-25 | The Independent College Admissions Consultant's "Application Tracker" |
 | 97 | high | 2026-06-24 | The Durable Medical Equipment (DME) Supplier's "Audit-Proof" Delivery Log |
 | 97 | high | 2026-06-19 | The CPG Brand's "Chargeback Defender" Kit |
 | 96 | high | 2026-06-22 | The Childcare Center's "Stay-in-Ratio" Staffing & Compliance Dashboard |
