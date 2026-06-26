@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-26
+*   **The "Health-Inspection-Ready" Log for Independent Restaurants** — Killed: Strong pain, but the market has many existing players in restaurant tech (7shifts, Toast, etc.) who could easily add this feature.
+*   **The "Pre-Need Sales & Contract" Hub for Independent Funeral Homes** — Killed: Interesting niche, but the sales cycle is long and the market size is significantly smaller than construction.
+*   **The "Audit-Proof" Toolkit for Government Grant Recipients** — Killed: Excellent compliance pain, but the buyer (non-profit, university) can have a very slow and complex procurement process.
+*   **The "Client-Ready" Onboarding Kit for Independent Financial Advisors** — Killed: This is a vitamin (efficiency) more than a painkiller (preventing revenue loss or business failure).
+
 ## 2026-06-25
 - **The Short-Term Rental Cleaning Company's "Turnover" Scheduler** — Killed: A strong operational pain, but the market already has dominant, well-funded players like Turno and Breezeway. The wedge is less clear.
 - **The Specialty Coffee Roaster's "Roast & Inventory" Hub** — Killed: This is a valid need, but the market is smaller and the pain of a stockout is less existentially threatening than a reputation-killing professional error.

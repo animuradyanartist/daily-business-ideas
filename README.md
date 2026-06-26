@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-26 — The construction subcontractor's "get paid on time" hub — 97/100 high
 - 2026-06-25 — trend forecast — AI-Automated Operations for Private Therapy Practices +2 more
 - 2026-06-25 — The Independent College Admissions Consultant's "Application Tracker" — 98/100 high
 - 2026-06-24 — trend forecast — AI-Automated Immigration Law Workflows +2 more

@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Construction Subcontractor Operations Software (US) | construction-subcontractor-ops-software-us | 2026-06-26 | 97 | The construction subcontractor's "get paid on time" hub |
 | Independent Educational Consultant (IEC) Operations Software (US) | iec-operations-software-us | 2026-06-25 | 98 | The Independent College Admissions Consultant's "Application Tracker" |
 | DME Supplier Operations & Compliance Software (US) | dme-supplier-compliance-software-us | 2026-06-24 | 97 | The Durable Medical Equipment (DME) Supplier's "Audit-Proof" Delivery Log |
 | Childcare Center Compliance & Operations Software (US) | childcare-center-compliance-software-us | 2026-06-22 | 96 | The Childcare Center's "Stay-in-Ratio" Staffing & Compliance Dashboard |

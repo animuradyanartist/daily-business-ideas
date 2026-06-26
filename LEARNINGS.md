@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-26
+*   In markets with structural inefficiencies (like construction payment cycles), the opportunity is often not to invent a new process, but to build a tool that perfects the execution of the existing, broken one.
+*   The best wedge against large, horizontal incumbents (like QuickBooks) or misaligned vertical players (like Procore) is to build a product for the *other side* of the transaction (the subcontractor, not the GC).
+*   A powerful expansion path for vertical SaaS is to first become the system of record for a critical workflow, and then use the data from that workflow to offer embedded financial services.
+*   The "cost of adaptation" is a key area to probe. When a market has "adapted" to a chronic pain, they are often using expensive, inefficient substitutes (debt, factoring, manual labor), which is proof of a strong willingness to pay for a better solution.
+
 ## 2026-06-25 (trends)
 -   A high-stakes professional service with a reputation-based business model is a powerful substitute for a direct regulatory compliance driver. The "cost of failure" is just as high, even if it's a lawsuit or refund demand instead of a government fine.
 -   In mature vertical SaaS markets, the opportunity often shifts from "building the first tool for X" to "building the best-designed, most-focused tool for X's most critical workflow."
