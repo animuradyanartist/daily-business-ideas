@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-26 (trends)
+-   The most valuable B2B AI tools are trained on specific, high-value, proprietary datasets (construction payment rules, a firm's past winning proposals, a team's internal meeting history). The moat is the data and the workflow, not the base model.
+-   AI is creating a new "intelligence layer" for business operations. It's moving beyond task automation (writing a sentence) to workflow automation (generating a proposal) and finally to system-level intelligence (predicting cash flow needs, surfacing team knowledge asynchronously).
+-   For every complex, manual administrative workflow that acts as a bottleneck (construction pay apps, RFP responses, meeting notes), a dedicated AI-powered solution is emerging to unblock it and turn a cost center into a data-driven process.
+
+---
+
 ## 2026-06-26
 *   In markets with structural inefficiencies (like construction payment cycles), the opportunity is often not to invent a new process, but to build a tool that perfects the execution of the existing, broken one.
 *   The best wedge against large, horizontal incumbents (like QuickBooks) or misaligned vertical players (like Procore) is to build a product for the *other side* of the transaction (the subcontractor, not the GC).

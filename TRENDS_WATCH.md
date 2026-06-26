@@ -174,6 +174,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Private Therapy Practices** · Using specialized AI platforms to automate clinical documentation, client intake, and scheduling for therapists. · flagged 2026-06-25 · last checked 2026-06-25 · [origin memo](trends/2026-06-25.md)
 - **AI-Powered Medical Record Analysis for Personal Injury Law** · Using purpose-built AI to automate the review and summarization of medical records for case preparation. · flagged 2026-06-25 · last checked 2026-06-25 · [origin memo](trends/2026-06-25.md)
 - **AI-Automated Post-Production for Event Photographers** · Using all-in-one AI platforms to automate culling, editing, and gallery delivery for photographers. · flagged 2026-06-25 · last checked 2026-06-25 · [origin memo](trends/2026-06-25.md)
+- **AI-Automated Construction Payment Workflows** · Using AI-powered fintech to automate payment applications, compliance, and cash flow for subcontractors. · flagged 2026-06-26 · last checked 2026-06-26 · [origin memo](trends/2026-06-26.md)
+- **AI-Powered Asynchronous Team Alignment** · Using a stack of AI tools to create a searchable, summary-driven intelligence layer that supports remote team collaboration. · flagged 2026-06-26 · last checked 2026-06-26 · [origin memo](trends/2026-06-26.md)
+- **AI-Automated Business Proposal Generation** · Using AI trained on internal data to automatically generate first drafts of RFPs and sales proposals. · flagged 2026-06-26 · last checked 2026-06-26 · [origin memo](trends/2026-06-26.md)
 
 
 ## ➡️ Active — plateauing
@@ -297,3 +300,5 @@ _(empty)_
 <!-- 2026-06-24 status-update directive: 🚀 | AI-Powered UX Writing & UI Copy Generation -->
 
 <!-- 2026-06-25 status-update directive: 🚀 | Generative AI for Educational Assessments -->
+
+<!-- 2026-06-26 status-update directive: 🚀 | Signal-Based AI Sales Personalization -->
