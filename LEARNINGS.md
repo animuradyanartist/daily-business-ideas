@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-27
+- The most attractive markets for vertical SaaS are often the largest, most fragmented, and least glamorous. Trucking fits this perfectly.
+- A flat-rate pricing model can be a powerful strategic wedge in markets dominated by per-seat or per-unit pricing, especially when targeting the smallest customers who value predictability.
+- A mandatory, scheduled event (like the New Entrant Safety Audit) is a much stronger pain catalyst than a random, probabilistic threat (like a random audit).
+- The distinction between "in-cab/driver-facing" compliance and "back-office/entity-level" compliance is a critical fault line for finding opportunity in the fleet management market.
+
 ## 2026-06-26 (trends)
 -   The most valuable B2B AI tools are trained on specific, high-value, proprietary datasets (construction payment rules, a firm's past winning proposals, a team's internal meeting history). The moat is the data and the workflow, not the base model.
 -   AI is creating a new "intelligence layer" for business operations. It's moving beyond task automation (writing a sentence) to workflow automation (generating a proposal) and finally to system-level intelligence (predicting cash flow needs, surfacing team knowledge asynchronously).

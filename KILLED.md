@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-27
+- **The Small Brewery's "TTB & Production" Compliance Log** — Killed: Market is significantly smaller and less fragmented than trucking. The pain of a tax reporting error is high, but not as existential as losing operating authority.
+- **The Youth Sports League "Volunteer & Safety" Coordinator** — Killed: The buyer is often a volunteer board with inconsistent budgets and high turnover. Willingness-to-pay is less certain than a for-profit business facing federal audits.
+- **The Event Security Co's "Guard Certification & Compliance" Tracker** — Killed: A valid pain, but the market is smaller. The trucking opportunity has a clearer path to a multi-million dollar ARR business due to the sheer number of potential customers.
+- **The Cannabis Dispensary's "Seed-to-Sale" Compliance Log** — Killed: Highly regulated space, but the regulations are a complex patchwork of state laws, making a single, scalable software product very difficult to build and maintain.
+
 ## 2026-06-26
 *   **The "Health-Inspection-Ready" Log for Independent Restaurants** — Killed: Strong pain, but the market has many existing players in restaurant tech (7shifts, Toast, etc.) who could easily add this feature.
 *   **The "Pre-Need Sales & Contract" Hub for Independent Funeral Homes** — Killed: Interesting niche, but the sales cycle is long and the market size is significantly smaller than construction.
