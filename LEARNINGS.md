@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-27 (trends)
+-   The most attractive markets for vertical SaaS are often the largest, most fragmented, and least glamorous. Trucking fits this perfectly.
+-   A flat-rate pricing model can be a powerful strategic wedge in markets dominated by per-seat or per-unit pricing, especially when targeting the smallest customers who value predictability.
+-   A mandatory, scheduled event (like the New Entrant Safety Audit) is a much stronger pain catalyst than a random, probabilistic threat (like a random audit).
+-   The distinction between "in-cab/driver-facing" compliance and "back-office/entity-level" compliance is a critical fault line for finding opportunity in the fleet management market.
+
+---
+
 ## 2026-06-27
 - The most attractive markets for vertical SaaS are often the largest, most fragmented, and least glamorous. Trucking fits this perfectly.
 - A flat-rate pricing model can be a powerful strategic wedge in markets dominated by per-seat or per-unit pricing, especially when targeting the smallest customers who value predictability.

@@ -177,6 +177,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Construction Payment Workflows** · Using AI-powered fintech to automate payment applications, compliance, and cash flow for subcontractors. · flagged 2026-06-26 · last checked 2026-06-26 · [origin memo](trends/2026-06-26.md)
 - **AI-Powered Asynchronous Team Alignment** · Using a stack of AI tools to create a searchable, summary-driven intelligence layer that supports remote team collaboration. · flagged 2026-06-26 · last checked 2026-06-26 · [origin memo](trends/2026-06-26.md)
 - **AI-Automated Business Proposal Generation** · Using AI trained on internal data to automatically generate first drafts of RFPs and sales proposals. · flagged 2026-06-26 · last checked 2026-06-26 · [origin memo](trends/2026-06-26.md)
+- **AI-Powered Back Office for Small Trucking Fleets** · Using AI-powered TMS to automate dispatch, invoicing, and compliance for owner-operators. · flagged 2026-06-27 · last checked 2026-06-27 · [origin memo](trends/2026-06-27.md)
+- **AI-Automated Freight Audit & Payment** · Using AI to validate shipping documents, prevent fraud, and accelerate payment cycles in logistics. · flagged 2026-06-27 · last checked 2026-06-27 · [origin memo](trends/2026-06-27.md)
+- **AI-Powered Driver Safety & Compliance Monitoring** · Using AI to analyze telematics data for automated driver coaching and DOT compliance. · flagged 2026-06-27 · last checked 2026-06-27 · [origin memo](trends/2026-06-27.md)
 
 
 ## ➡️ Active — plateauing
@@ -302,3 +305,5 @@ _(empty)_
 <!-- 2026-06-25 status-update directive: 🚀 | Generative AI for Educational Assessments -->
 
 <!-- 2026-06-26 status-update directive: 🚀 | Signal-Based AI Sales Personalization -->
+
+<!-- 2026-06-27 status-update directive: 🚀 | AI-Powered Communication Coaching -->
