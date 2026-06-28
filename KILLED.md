@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-28
+- **The Small Pest Control Operator's "Chemical Compliance" Log** — Killed: A strong compliance pain, but the market size and fragmentation are less attractive than the professional Amazon seller market. The FBA opportunity has a clearer path to a multi-million dollar ARR business.
+- **The Parent's "IEP & Special Needs" Documentation Hub** — Killed: A real and emotional pain, but this is a B2C sale to a non-professional buyer. Willingness-to-pay is harder to prove and likely lower than a B2B tool that directly recovers lost revenue.
+- **The Local Politician's "Campaign Contribution" Compliance Hub** — Killed: High-stakes compliance pain, but the market is niche, cyclical, and involves complex, state-by-state regulations, making a scalable product difficult.
+
 ## 2026-06-27
 - **The Small Brewery's "TTB & Production" Compliance Log** — Killed: Market is significantly smaller and less fragmented than trucking. The pain of a tax reporting error is high, but not as existential as losing operating authority.
 - **The Youth Sports League "Volunteer & Safety" Coordinator** — Killed: The buyer is often a volunteer board with inconsistent budgets and high turnover. Willingness-to-pay is less certain than a for-profit business facing federal audits.

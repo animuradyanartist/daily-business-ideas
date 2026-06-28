@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-28
+- A dominant, commission-based service model in a market is a strong signal for a SaaS opportunity. The wedge is a predictable, flat-rate price that offers a clear ROI.
+- Platform-dependent businesses carry immense risk, but also offer immense opportunity due to the standardized nature of the customer's problems and a single point of integration (the API).
+- Market maturity isn't always a negative signal. A consolidating market with a growing number of professional, high-revenue operators can be a better target than a fragmented market of new, low-revenue entrants.
+- A change in platform policy (like Amazon's shift to cost-based reimbursements) can be a catalyst that creates an opportunity for new tools that help customers adapt.
+
 ## 2026-06-27 (trends)
 -   The most attractive markets for vertical SaaS are often the largest, most fragmented, and least glamorous. Trucking fits this perfectly.
 -   A flat-rate pricing model can be a powerful strategic wedge in markets dominated by per-seat or per-unit pricing, especially when targeting the smallest customers who value predictability.

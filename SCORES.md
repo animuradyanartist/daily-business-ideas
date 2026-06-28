@@ -14,6 +14,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 96 | high | 2026-06-21 | The Home Healthcare Agency's "Audit-Proof" EVV & Scheduling Hub |
 | 96 | high | 2026-06-20 | The 3PL's "Audit-Proof" Food Safety Compliance Hub |
 | 96 | high | 2026-06-18 | The Small Law Firm's "IOLTA Compliance" Hub |
+| 95 | high | 2026-06-28 | The FBA Seller's "Inventory Reconciliation & Reimbursement" Hub |
 | 95 | high | 2026-06-13 | The Small Non-Profit's Grant Compliance & Reporting Hub |
 | 94 | high | 2026-06-15 | The Veterinary Clinic's "Audit-Proof" DEA Compliance Log |
 | 93 | high | 2026-06-17 | The Electrical Contractor's Apprentice Compliance Log |
