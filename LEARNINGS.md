@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-28 (trends)
+- A dominant, commission-based service model in a market (like FBA reimbursement agencies) is a strong signal for a SaaS opportunity. The wedge is a predictable, flat-rate price that offers a clear ROI.
+- Platform-dependent businesses (Amazon sellers, creators on Instagram) carry immense risk, but also offer immense opportunity due to the standardized nature of the customer's problems and a single point of integration (the API).
+- The value proposition of consumer AI is shifting from novelty identification ("what is this?") to ongoing, personalized management ("how do I care for this?").
+- The most valuable B2B AI tools are moving from passive analysis (summarizing a meeting) to active execution (creating a task in Jira from the meeting).
+
+---
+
 ## 2026-06-28
 - A dominant, commission-based service model in a market is a strong signal for a SaaS opportunity. The wedge is a predictable, flat-rate price that offers a clear ROI.
 - Platform-dependent businesses carry immense risk, but also offer immense opportunity due to the standardized nature of the customer's problems and a single point of integration (the API).

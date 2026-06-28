@@ -180,6 +180,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Back Office for Small Trucking Fleets** · Using AI-powered TMS to automate dispatch, invoicing, and compliance for owner-operators. · flagged 2026-06-27 · last checked 2026-06-27 · [origin memo](trends/2026-06-27.md)
 - **AI-Automated Freight Audit & Payment** · Using AI to validate shipping documents, prevent fraud, and accelerate payment cycles in logistics. · flagged 2026-06-27 · last checked 2026-06-27 · [origin memo](trends/2026-06-27.md)
 - **AI-Powered Driver Safety & Compliance Monitoring** · Using AI to analyze telematics data for automated driver coaching and DOT compliance. · flagged 2026-06-27 · last checked 2026-06-27 · [origin memo](trends/2026-06-27.md)
+- **AI-Automated Amazon FBA Reimbursement** · Using AI-powered tools to audit reports and automate the recovery of funds for lost or damaged FBA inventory. · flagged 2026-06-28 · last checked 2026-06-28 · [origin memo](trends/2026-06-28.md)
+- **AI-Powered Plant Care & Disease Diagnosis** · Using computer vision in mobile apps for instant plant identification, disease diagnosis, and personalized care schedules. · flagged 2026-06-28 · last checked 2026-06-28 · [origin memo](trends/2026-06-28.md)
+- **AI-Automated Influencer & Creator Deal Management** · Using AI platforms to automate the full workflow of creator discovery, outreach, contract negotiation, and campaign management. · flagged 2026-06-28 · last checked 2026-06-28 · [origin memo](trends/2026-06-28.md)
 
 
 ## ➡️ Active — plateauing
@@ -307,3 +310,5 @@ _(empty)_
 <!-- 2026-06-26 status-update directive: 🚀 | Signal-Based AI Sales Personalization -->
 
 <!-- 2026-06-27 status-update directive: 🚀 | AI-Powered Communication Coaching -->
+
+<!-- 2026-06-28 status-update directive: 🚀 | AI-Automated Meeting Workflows -->

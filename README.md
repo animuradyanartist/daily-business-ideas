@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-06-28 — trend forecast — AI-Automated Amazon FBA Reimbursement +2 more
 - 2026-06-28 — The FBA Seller's "Inventory Reconciliation & Reimbursement" Hub — 95/100 high
 - 2026-06-27 — trend forecast — AI-Powered Back Office for Small Trucking Fleets +2 more
 - 2026-06-27 — The Small Trucking Fleet's "DOT-Audit-Ready" Compliance Hub — 97/100 high
