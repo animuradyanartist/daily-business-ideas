@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-29
+- The most powerful value proposition for a solo professional is direct leverage on their time that increases their earning potential.
+- A niche market of high-earning, independent professionals can be more attractive than a larger market of lower-value customers.
+- The "Concierge MVP" is the ideal validation method for any idea centered on AI-driven workflow automation, as it tests the quality of the core output before a single line of code is written.
+
 ## 2026-06-28 (trends)
 - A dominant, commission-based service model in a market (like FBA reimbursement agencies) is a strong signal for a SaaS opportunity. The wedge is a predictable, flat-rate price that offers a clear ROI.
 - Platform-dependent businesses (Amazon sellers, creators on Instagram) carry immense risk, but also offer immense opportunity due to the standardized nature of the customer's problems and a single point of integration (the API).

@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-29
+- **The Commercial Property Manager's "Vendor COI" Compliance Hub** — Killed: A valid pain, but the buyer's motivation (risk reduction) is less acute than the adjuster's motivation (direct income generation). The sales cycle would likely be longer.
+- **The Small Craft Brewery's "TTB Audit-Ready" Reporting Hub** — Killed: The market size (9,000+ breweries) is smaller and the pain of a TTB audit, while significant, is a probabilistic threat, not a daily operational bottleneck limiting revenue.
+- **The Independent Record Label's "Royalty & Rights" Hub** — Killed: A complex problem space with byzantine rules. The buyer is often cash-strapped, making a B2B sale difficult. The pain is less universal than the adjuster's documentation burden.
+
 ## 2026-06-28
 - **The Small Pest Control Operator's "Chemical Compliance" Log** — Killed: A strong compliance pain, but the market size and fragmentation are less attractive than the professional Amazon seller market. The FBA opportunity has a clearer path to a multi-million dollar ARR business.
 - **The Parent's "IEP & Special Needs" Documentation Hub** — Killed: A real and emotional pain, but this is a B2C sale to a non-professional buyer. Willingness-to-pay is harder to prove and likely lower than a B2B tool that directly recovers lost revenue.

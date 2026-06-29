@@ -10,6 +10,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 97 | high | 2026-06-26 | The construction subcontractor's "get paid on time" hub |
 | 97 | high | 2026-06-24 | The Durable Medical Equipment (DME) Supplier's "Audit-Proof" Delivery Log |
 | 97 | high | 2026-06-19 | The CPG Brand's "Chargeback Defender" Kit |
+| 96 | high | 2026-06-29 | The Independent Catastrophe Insurance Adjuster's "Claim File" Builder |
 | 96 | high | 2026-06-22 | The Childcare Center's "Stay-in-Ratio" Staffing & Compliance Dashboard |
 | 96 | high | 2026-06-21 | The Home Healthcare Agency's "Audit-Proof" EVV & Scheduling Hub |
 | 96 | high | 2026-06-20 | The 3PL's "Audit-Proof" Food Safety Compliance Hub |

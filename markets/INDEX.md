@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Independent Catastrophe Adjuster Software (US) | independent-cat-adjuster-software-us | 2026-06-29 | 96 | The Independent Catastrophe Insurance Adjuster's "Claim File" Builder |
 | Amazon FBA Seller Operations Software (US) | amazon-fba-seller-ops-software-us | 2026-06-28 | 95 | The FBA Seller's "Inventory Reconciliation & Reimbursement" Hub |
 | Small Trucking Fleet Compliance Software (US) | small-trucking-fleet-compliance-software-us | 2026-06-27 | 97 | The Small Trucking Fleet's "DOT-Audit-Ready" Compliance Hub |
 | Construction Subcontractor Operations Software (US) | construction-subcontractor-ops-software-us | 2026-06-26 | 97 | The construction subcontractor's "get paid on time" hub |
