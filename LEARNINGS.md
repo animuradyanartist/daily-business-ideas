@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-29 (trends)
+-   The most powerful value proposition for a solo professional is direct leverage on their time that increases their earning potential.
+-   A niche market of high-earning, independent professionals can be more attractive than a larger market of lower-value customers.
+-   The "Concierge MVP" is the ideal validation method for any idea centered on AI-driven workflow automation, as it tests the quality of the core output before a single line of code is written.
+
+---
+
 ## 2026-06-29
 - The most powerful value proposition for a solo professional is direct leverage on their time that increases their earning potential.
 - A niche market of high-earning, independent professionals can be more attractive than a larger market of lower-value customers.

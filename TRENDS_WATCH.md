@@ -183,6 +183,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Amazon FBA Reimbursement** · Using AI-powered tools to audit reports and automate the recovery of funds for lost or damaged FBA inventory. · flagged 2026-06-28 · last checked 2026-06-28 · [origin memo](trends/2026-06-28.md)
 - **AI-Powered Plant Care & Disease Diagnosis** · Using computer vision in mobile apps for instant plant identification, disease diagnosis, and personalized care schedules. · flagged 2026-06-28 · last checked 2026-06-28 · [origin memo](trends/2026-06-28.md)
 - **AI-Automated Influencer & Creator Deal Management** · Using AI platforms to automate the full workflow of creator discovery, outreach, contract negotiation, and campaign management. · flagged 2026-06-28 · last checked 2026-06-28 · [origin memo](trends/2026-06-28.md)
+- **AI-Powered Practice Management for Solo & Small Law Firms** · Using AI platforms to automate client intake, billing, and case management for solo legal practitioners. · flagged 2026-06-29 · last checked 2026-06-29 · [origin memo](trends/2026-06-29.md)
+- **AI-Automated Financial Planning & Analysis (FP&A) for SMBs** · Using AI tools to automate financial modeling, cash flow forecasting, and strategic analysis for small businesses. · flagged 2026-06-29 · last checked 2026-06-29 · [origin memo](trends/2026-06-29.md)
+- **AI-Powered Personalized Employee Training** · Using AI platforms to generate adaptive learning paths and role-specific training content from internal documentation. · flagged 2026-06-29 · last checked 2026-06-29 · [origin memo](trends/2026-06-29.md)
 
 
 ## ➡️ Active — plateauing
@@ -312,3 +315,5 @@ _(empty)_
 <!-- 2026-06-27 status-update directive: 🚀 | AI-Powered Communication Coaching -->
 
 <!-- 2026-06-28 status-update directive: 🚀 | AI-Automated Meeting Workflows -->
+
+<!-- 2026-06-29 status-update directive: 🚀 | Integrated AI Research Environments -->
