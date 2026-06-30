@@ -186,6 +186,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Practice Management for Solo & Small Law Firms** · Using AI platforms to automate client intake, billing, and case management for solo legal practitioners. · flagged 2026-06-29 · last checked 2026-06-29 · [origin memo](trends/2026-06-29.md)
 - **AI-Automated Financial Planning & Analysis (FP&A) for SMBs** · Using AI tools to automate financial modeling, cash flow forecasting, and strategic analysis for small businesses. · flagged 2026-06-29 · last checked 2026-06-29 · [origin memo](trends/2026-06-29.md)
 - **AI-Powered Personalized Employee Training** · Using AI platforms to generate adaptive learning paths and role-specific training content from internal documentation. · flagged 2026-06-29 · last checked 2026-06-29 · [origin memo](trends/2026-06-29.md)
+- **AI-Automated Commercial Insurance Underwriting** · Using AI platforms to automate submission intake, data extraction, and risk assessment for commercial insurance. · flagged 2026-06-30 · last checked 2026-06-30 · [origin memo](trends/2026-06-30.md)
+- **AI-Powered Corporate Travel Management** · Using AI platforms to automate travel booking, policy compliance, and expense reconciliation for businesses. · flagged 2026-06-30 · last checked 2026-06-30 · [origin memo](trends/2026-06-30.md)
+- **AI-Powered Parenting Co-Pilots** · Using AI mobile apps to provide personalized guidance, activity planning, and developmental tracking for parents. · flagged 2026-06-30 · last checked 2026-06-30 · [origin memo](trends/2026-06-30.md)
 
 
 ## ➡️ Active — plateauing
@@ -317,3 +320,5 @@ _(empty)_
 <!-- 2026-06-28 status-update directive: 🚀 | AI-Automated Meeting Workflows -->
 
 <!-- 2026-06-29 status-update directive: 🚀 | Integrated AI Research Environments -->
+
+<!-- 2026-06-30 status-update directive: 🚀 | AI-Powered Design Critique & Validation -->

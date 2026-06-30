@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-30 (trends)
+-   AI is systematically productizing the "back office" for high-stakes professional services (insurance underwriting, corporate travel management), moving from simple task automation to agentic, end-to-end workflow management.
+-   The value proposition for consumer AI is shifting from providing information to reducing cognitive load. The winning products are those that offer concrete, personalized recommendations to solve high-anxiety problems like parenting.
+-   A market's perceived "slowness" or lack of technical sophistication (like commercial insurance) can be a feature, not a bug. It often signals a lack of competition and an opportunity for a simple, focused solution to win against decades of inertia.
+
+---
+
 ## 2026-06-30
 *   A market's perceived "slowness" or lack of technical sophistication can be a feature, not a bug. It often signals a lack of competition and an opportunity for a simple, focused solution to win against decades of inertia.
 *   For products built around risk mitigation, the "cost of failure" is the most important number to anchor the value proposition against. A $1M lawsuit makes a $1k/year subscription seem trivial.
