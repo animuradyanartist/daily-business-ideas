@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-06-30
+*   A market's perceived "slowness" or lack of technical sophistication can be a feature, not a bug. It often signals a lack of competition and an opportunity for a simple, focused solution to win against decades of inertia.
+*   For products built around risk mitigation, the "cost of failure" is the most important number to anchor the value proposition against. A $1M lawsuit makes a $1k/year subscription seem trivial.
+*   The highest switching costs are not built with complex features, but by becoming the system of record for a customer's most critical, irreplaceable data.
+*   In a fragmented market of non-technical users, offering a "white glove" onboarding or data migration service is a powerful way to de-risk the purchase and can be a significant secondary revenue stream.
+
 ## 2026-06-29 (trends)
 -   The most powerful value proposition for a solo professional is direct leverage on their time that increases their earning potential.
 -   A niche market of high-earning, independent professionals can be more attractive than a larger market of lower-value customers.

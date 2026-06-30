@@ -17,6 +17,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 96 | high | 2026-06-18 | The Small Law Firm's "IOLTA Compliance" Hub |
 | 95 | high | 2026-06-28 | The FBA Seller's "Inventory Reconciliation & Reimbursement" Hub |
 | 95 | high | 2026-06-13 | The Small Non-Profit's Grant Compliance & Reporting Hub |
+| 94 | high | 2026-06-30 | The Small Cemetery's "Plot & Records" Management Hub |
 | 94 | high | 2026-06-15 | The Veterinary Clinic's "Audit-Proof" DEA Compliance Log |
 | 93 | high | 2026-06-17 | The Electrical Contractor's Apprentice Compliance Log |
 | 93 | high | 2026-06-14 | The Clinical Trial Site's "Patient Stipend & Compliance" Hub |

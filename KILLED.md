@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-06-30
+*   **The Medical Waste Generator's "Cradle-to-Grave" Manifest Tracker** — Killed: A very strong idea, but the waste haulers themselves are a potential competitor who could offer a similar tracking tool for free to their clients, creating a distribution challenge.
+*   **The Independent Event Venue's "Vendor COI" Compliance Tracker** — Killed: A valid pain, but the liability feels less catastrophic and permanent than cemetery record loss. Risk is high, but not "irreversible historical record" high.
+*   **The Small Food Manufacturer's "Mock Recall" & Traceability Hub** — Killed: Excellent compliance pain, but the market of small food manufacturers is likely smaller and more diverse in their specific needs than the highly standardized needs of cemeteries.
+*   **The Private School's "Student Medication" Administration Log** — Killed: Extremely high-stakes pain, but the sales cycle into private schools can be long and involve multiple stakeholders (nurse, administrator, board), making it a harder initial sale for a solo founder.
+
 ## 2026-06-29
 - **The Commercial Property Manager's "Vendor COI" Compliance Hub** — Killed: A valid pain, but the buyer's motivation (risk reduction) is less acute than the adjuster's motivation (direct income generation). The sales cycle would likely be longer.
 - **The Small Craft Brewery's "TTB Audit-Ready" Reporting Hub** — Killed: The market size (9,000+ breweries) is smaller and the pain of a TTB audit, while significant, is a probabilistic threat, not a daily operational bottleneck limiting revenue.
