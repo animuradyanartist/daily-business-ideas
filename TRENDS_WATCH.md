@@ -189,6 +189,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Commercial Insurance Underwriting** · Using AI platforms to automate submission intake, data extraction, and risk assessment for commercial insurance. · flagged 2026-06-30 · last checked 2026-06-30 · [origin memo](trends/2026-06-30.md)
 - **AI-Powered Corporate Travel Management** · Using AI platforms to automate travel booking, policy compliance, and expense reconciliation for businesses. · flagged 2026-06-30 · last checked 2026-06-30 · [origin memo](trends/2026-06-30.md)
 - **AI-Powered Parenting Co-Pilots** · Using AI mobile apps to provide personalized guidance, activity planning, and developmental tracking for parents. · flagged 2026-06-30 · last checked 2026-06-30 · [origin memo](trends/2026-06-30.md)
+- **AI-Automated Post-Award Grant Management** · Using AI to automate compliance monitoring and reporting for non-profit grants. · flagged 2026-07-01 · last checked 2026-07-01 · [origin memo](trends/2026-07-01.md)
+- **AI-Automated Quality Management System (QMS) Documentation** · Using AI to automate the creation and maintenance of compliance documents for standards like ISO 9001. · flagged 2026-07-01 · last checked 2026-07-01 · [origin memo](trends/2026-07-01.md)
+- **AI-Powered Compliance Supervision for Financial Communications** · Using AI to automate the monitoring of employee and marketing communications for regulatory compliance. · flagged 2026-07-01 · last checked 2026-07-01 · [origin memo](trends/2026-07-01.md)
 
 
 ## ➡️ Active — plateauing
@@ -322,3 +325,5 @@ _(empty)_
 <!-- 2026-06-29 status-update directive: 🚀 | Integrated AI Research Environments -->
 
 <!-- 2026-06-30 status-update directive: 🚀 | AI-Powered Design Critique & Validation -->
+
+<!-- 2026-07-01 status-update directive: 🚀 | AI-Generated UX Artifacts (Personas & Journey Maps) -->

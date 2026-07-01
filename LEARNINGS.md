@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-01 (trends)
+-   A mandatory, deadline-driven regulatory event is one of the most powerful forcing functions for B2B software adoption.
+-   For complex compliance problems, the pain is often not just the technical implementation, but the "clarity problem": knowing what to do, how to prove it, and how to organize the proof.
+-   A viable strategy against complex, all-in-one platforms is to build a simple, elegant tool that does just one critical job perfectly and at a fraction of the cost.
+
+---
+
 ## 2026-07-01
 - A mandatory, deadline-driven regulatory event is one of the most powerful forcing functions for B2B software adoption.
 - For complex compliance problems, the pain is often not just the technical implementation, but the "clarity problem": knowing what to do, how to prove it, and how to organize the proof.
