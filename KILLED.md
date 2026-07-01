@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-01
+- **The independent insurance agency's "E&O claim defender" file builder** — Killed: A strong pain, but less acute and non-discretionary compared to the CMMC mandate. E&O claims are a probabilistic risk, while a CMMC audit is a certainty for survival.
+- **The small flight school's "FAA audit-ready" records hub** — Killed: A valid compliance pain, but the market is smaller and the existing flight school management software already addresses this as a core feature. The gap for a standalone tool is less clear.
+- **The financial advisor's "SEC audit-proof" communications archive** — Killed: High-stakes compliance, but the market is dominated by large, well-funded incumbents like Smarsh and Proofpoint. The barrier to entry is higher.
+
 ## 2026-06-30
 *   **The Medical Waste Generator's "Cradle-to-Grave" Manifest Tracker** — Killed: A very strong idea, but the waste haulers themselves are a potential competitor who could offer a similar tracking tool for free to their clients, creating a distribution challenge.
 *   **The Independent Event Venue's "Vendor COI" Compliance Tracker** — Killed: A valid pain, but the liability feels less catastrophic and permanent than cemetery record loss. Risk is high, but not "irreversible historical record" high.
