@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-10
+- A retailer-enforced deadline can be a more powerful forcing function for technology adoption than a government-enforced one, because the consequence (loss of revenue) is more immediate and certain than a potential fine.
+- For a fragmented market of non-technical users, the value of a compliance product is not in its features, but in its ability to provide certainty and reduce cognitive load. The promise is "do this, and you will be safe."
+- USDA Economic Research Service reports provide exceptionally detailed data on the operational costs and financial structures of different farm sizes, making market sizing and value proposition calculations highly credible.
+
 ## 2026-07-01 (trends)
 -   A mandatory, deadline-driven regulatory event is one of the most powerful forcing functions for B2B software adoption.
 -   For complex compliance problems, the pain is often not just the technical implementation, but the "clarity problem": knowing what to do, how to prove it, and how to organize the proof.

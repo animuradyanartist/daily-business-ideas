@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Small US Produce Farm FSMA Compliance Software | small-produce-farm-fsma-compliance-software-us | 2026-07-10 | 93 | The Small Farm's "FSMA Audit-Ready" Compliance Locker |
 | Small DoD Contractor CMMC Compliance Software (US) | small-dod-contractor-cmmc-compliance-software-us | 2026-07-01 | 98 | The small government contractor's "CMMC audit-ready" evidence locker |
 | Small Cemetery Operations Software (US) | small-cemetery-operations-software-us | 2026-06-30 | 94 | The Small Cemetery's "Plot & Records" Management Hub |
 | Independent Catastrophe Adjuster Software (US) | independent-cat-adjuster-software-us | 2026-06-29 | 96 | The Independent Catastrophe Insurance Adjuster's "Claim File" Builder |

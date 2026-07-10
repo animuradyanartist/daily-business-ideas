@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-10
+- **The Small Commercial Property Manager's "CAM Reconciliation" Hub** — Killed: A strong pain, but less acute and non-discretionary compared to the FSMA mandate. A CAM dispute is a financial pain; FSMA non-compliance is an existential threat to market access.
+- **The Independent Funeral Home's "Pre-Need Contract" Guardian** — Killed: High-stakes compliance pain, but the market is smaller and the sales cycle is likely slower and more relationship-based.
+- **The Small Importer's "FSVP Compliance" Hub** — Killed: A very similar compliance pain (Foreign Supplier Verification Program is part of FSMA), but the buyer is more varied and harder to target than a domestic produce farmer.
+
 ## 2026-07-01
 - **The independent insurance agency's "E&O claim defender" file builder** — Killed: A strong pain, but less acute and non-discretionary compared to the CMMC mandate. E&O claims are a probabilistic risk, while a CMMC audit is a certainty for survival.
 - **The small flight school's "FAA audit-ready" records hub** — Killed: A valid compliance pain, but the market is smaller and the existing flight school management software already addresses this as a core feature. The gap for a standalone tool is less clear.
