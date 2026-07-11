@@ -195,6 +195,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Agricultural Supply Chain Compliance** · Using AI to automate the collection and reporting of sustainability data to meet retailer and regulatory demands. · flagged 2026-07-10 · last checked 2026-07-10 · [origin memo](trends/2026-07-10.md)
 - **AI-Automated Food Safety (HACCP) Documentation** · Using AI to automate the creation and management of food safety plans and documentation for audit-readiness. · flagged 2026-07-10 · last checked 2026-07-10 · [origin memo](trends/2026-07-10.md)
 - **AI-Automated Retail Planogram Compliance** · Using AI image recognition to automatically verify that products are correctly placed on store shelves. · flagged 2026-07-10 · last checked 2026-07-10 · [origin memo](trends/2026-07-10.md)
+- **AI-Automated Operations for Shopify B2B** · Using AI tools to automate wholesale pricing, customer management, and order processing on the Shopify platform. · flagged 2026-07-11 · last checked 2026-07-11 · [origin memo](trends/2026-07-11.md)
+- **AI-Automated Local SEO Management** · Using AI platforms to automate Google Business Profile optimization, review responses, and citation management for local businesses. · flagged 2026-07-11 · last checked 2026-07-11 · [origin memo](trends/2026-07-11.md)
+- **AI-Powered "Team Brain" Across Multiple Apps** · Using AI to create a single, searchable knowledge layer across a team's fragmented apps like Slack, Notion, and Google Drive. · flagged 2026-07-11 · last checked 2026-07-11 · [origin memo](trends/2026-07-11.md)
 
 
 ## ➡️ Active — plateauing
@@ -332,3 +335,5 @@ _(empty)_
 <!-- 2026-07-01 status-update directive: 🚀 | AI-Generated UX Artifacts (Personas & Journey Maps) -->
 
 <!-- 2026-07-10 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
+
+<!-- 2026-07-11 status-update directive: 🚀 | AI-Generated Business Presentations -->

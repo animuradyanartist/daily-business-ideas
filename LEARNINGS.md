@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-11 (trends)
+- A platform's expansion of native features (like Shopify adding B2B to all plans) can be a massive opportunity, not a threat. It educates the market, expands the TAM, and creates demand for more powerful, third-party "pro" versions.
+- For platform-based businesses, distribution is a solved problem. The challenge shifts entirely to product quality and user experience. The winner is the one who can out-execute on product, not the one who can out-market.
+- A "revenue-enabling" tool will almost always have a higher willingness-to-pay and lower churn than a "cost-saving" or "efficiency" tool.
+
+---
+
 ## 2026-07-11
 - A platform's expansion of native features (like Shopify adding B2B to all plans) can be a massive opportunity, not a threat. It educates the market, expands the TAM, and creates demand for more powerful, third-party "pro" versions.
 - For platform-based businesses, distribution is a solved problem. The challenge shifts entirely to product quality and user experience. The winner is the one who can out-execute on product, not the one who can out-market.
