@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-11
+- **The independent book publisher's "royalty calculation" hub** — Killed: The market size is too small ($5M SAM) and the buyer is too price-sensitive to support a high-growth business.
+- **The high-end bicycle shop's "service department" workflow hub** — Killed: The pain is real, but it's an efficiency play, not a revenue-enabler. The market is also smaller and harder to reach than the Shopify ecosystem.
+- **The small law firm's "client intake" automation tool** — Killed: A valid pain, but the legal tech space has a long sales cycle and high barriers to entry due to compliance and integration needs.
+
 ## 2026-07-10
 - **The Small Commercial Property Manager's "CAM Reconciliation" Hub** — Killed: A strong pain, but less acute and non-discretionary compared to the FSMA mandate. A CAM dispute is a financial pain; FSMA non-compliance is an existential threat to market access.
 - **The Independent Funeral Home's "Pre-Need Contract" Guardian** — Killed: High-stakes compliance pain, but the market is smaller and the sales cycle is likely slower and more relationship-based.

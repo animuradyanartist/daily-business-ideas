@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-07-11 | The high-growth Shopify brand's "wholesale order" portal |
 | 98 | high | 2026-07-01 | The small government contractor's "CMMC audit-ready" evidence locker |
 | 98 | high | 2026-06-25 | The Independent College Admissions Consultant's "Application Tracker" |
 | 97 | high | 2026-06-27 | The Small Trucking Fleet's "DOT-Audit-Ready" Compliance Hub |
