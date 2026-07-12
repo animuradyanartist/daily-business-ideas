@@ -198,6 +198,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Shopify B2B** · Using AI tools to automate wholesale pricing, customer management, and order processing on the Shopify platform. · flagged 2026-07-11 · last checked 2026-07-11 · [origin memo](trends/2026-07-11.md)
 - **AI-Automated Local SEO Management** · Using AI platforms to automate Google Business Profile optimization, review responses, and citation management for local businesses. · flagged 2026-07-11 · last checked 2026-07-11 · [origin memo](trends/2026-07-11.md)
 - **AI-Powered "Team Brain" Across Multiple Apps** · Using AI to create a single, searchable knowledge layer across a team's fragmented apps like Slack, Notion, and Google Drive. · flagged 2026-07-11 · last checked 2026-07-11 · [origin memo](trends/2026-07-11.md)
+- **AI-Automated Architectural & Construction Plan Review** · Using AI to automatically check building plans for code compliance and design errors. · flagged 2026-07-12 · last checked 2026-07-12 · [origin memo](trends/2026-07-12.md)
+- **AI-Powered Employee Relations & HR Investigations** · Using specialized AI platforms to manage case documentation and analysis for workplace investigations. · flagged 2026-07-12 · last checked 2026-07-12 · [origin memo](trends/2026-07-12.md)
+- **AI-Powered Litigation Support for Small Law Firms** · Using AI to automate eDiscovery, deposition analysis, and document review for solo and small practices. · flagged 2026-07-12 · last checked 2026-07-12 · [origin memo](trends/2026-07-12.md)
 
 
 ## ➡️ Active — plateauing
@@ -337,3 +340,5 @@ _(empty)_
 <!-- 2026-07-10 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
 
 <!-- 2026-07-11 status-update directive: 🚀 | AI-Generated Business Presentations -->
+
+<!-- 2026-07-12 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->

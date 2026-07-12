@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-12 (trends)
+- For licensed professionals, the most compelling value proposition is not just saving time, but mitigating the specific risks that could jeopardize their license and livelihood.
+- A market dominated by a complex, expensive, all-in-one incumbent (like Autodesk) is often a prime environment for a simple, elegant tool that does one critical job perfectly.
+- The price of a B2B SaaS tool can be effectively anchored against the cost of the "insurance" the buyer already pays for the same risk (e.g., professional liability premiums).
+
+---
+
 ## 2026-07-12
 - For licensed professionals, the most compelling value proposition is not just saving time, but mitigating the specific risks that could jeopardize their license and livelihood.
 - A market dominated by a complex, expensive, all-in-one incumbent (like Autodesk) is often a prime environment for a simple, elegant tool that does one critical job perfectly.
