@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| Independent Land Surveyor Software (US) | independent-land-surveyor-software-us | 2026-07-12 | 96 | The independent land surveyor's "deed plot" & QA hub |
 | Shopify B2B/Wholesale App Market (US) | shopify-b2b-wholesale-app-market-us | 2026-07-11 | 98 | The high-growth Shopify brand's "wholesale order" portal |
 | Small US Produce Farm FSMA Compliance Software | small-produce-farm-fsma-compliance-software-us | 2026-07-10 | 93 | The Small Farm's "FSMA Audit-Ready" Compliance Locker |
 | Small DoD Contractor CMMC Compliance Software (US) | small-dod-contractor-cmmc-compliance-software-us | 2026-07-01 | 98 | The small government contractor's "CMMC audit-ready" evidence locker |

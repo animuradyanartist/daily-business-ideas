@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-12
+- For licensed professionals, the most compelling value proposition is not just saving time, but mitigating the specific risks that could jeopardize their license and livelihood.
+- A market dominated by a complex, expensive, all-in-one incumbent (like Autodesk) is often a prime environment for a simple, elegant tool that does one critical job perfectly.
+- The price of a B2B SaaS tool can be effectively anchored against the cost of the "insurance" the buyer already pays for the same risk (e.g., professional liability premiums).
+
 ## 2026-07-11 (trends)
 - A platform's expansion of native features (like Shopify adding B2B to all plans) can be a massive opportunity, not a threat. It educates the market, expands the TAM, and creates demand for more powerful, third-party "pro" versions.
 - For platform-based businesses, distribution is a solved problem. The challenge shifts entirely to product quality and user experience. The winner is the one who can out-execute on product, not the one who can out-market.

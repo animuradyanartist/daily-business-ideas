@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-12
+- **The youth travel sports team "manager's" coordination & compliance kit** — Killed: The buyer is often a volunteer spending other people's money, which creates a difficult sales dynamic compared to a professional buying a tool for their own business.
+- **The craft brewery's "keg & tap" management hub** — Killed: A strong ROI-based idea, but the pain of financial loss from missing assets feels less acute and existential than the professional liability risk faced by a licensed surveyor.
+- **The small event venue's "liquor liability" compliance checklist** — Killed: A valid compliance pain, but the market is smaller and the risk, while high, is often managed through insurance rather than specialized software.
+
 ## 2026-07-11
 - **The independent book publisher's "royalty calculation" hub** — Killed: The market size is too small ($5M SAM) and the buyer is too price-sensitive to support a high-growth business.
 - **The high-end bicycle shop's "service department" workflow hub** — Killed: The pain is real, but it's an efficiency play, not a revenue-enabler. The market is also smaller and harder to reach than the Shopify ecosystem.
