@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| K-12 Special Education Compliance Software (US) | k-12-special-education-compliance-software-us | 2026-07-13 | 98 | The special education teacher's "IEP compliance" dashboard |
 | Independent Land Surveyor Software (US) | independent-land-surveyor-software-us | 2026-07-12 | 96 | The independent land surveyor's "deed plot" & QA hub |
 | Shopify B2B/Wholesale App Market (US) | shopify-b2b-wholesale-app-market-us | 2026-07-11 | 98 | The high-growth Shopify brand's "wholesale order" portal |
 | Small US Produce Farm FSMA Compliance Software | small-produce-farm-fsma-compliance-software-us | 2026-07-10 | 93 | The Small Farm's "FSMA Audit-Ready" Compliance Locker |

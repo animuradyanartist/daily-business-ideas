@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-13
+- In highly regulated markets, superior user experience is not just a feature; it's a core component of risk mitigation. A clunky tool that invites human error is a compliance liability.
+- The most durable B2B software opportunities are often found where a legally mandated administrative task is managed by an overwhelmed, non-expert end-user.
+- A long and difficult sales cycle can be a feature, not a bug. If you can build the machine to survive it, it creates an enormous moat of high switching costs and extremely low churn on the other side.
+
 ## 2026-07-12 (trends)
 - For licensed professionals, the most compelling value proposition is not just saving time, but mitigating the specific risks that could jeopardize their license and livelihood.
 - A market dominated by a complex, expensive, all-in-one incumbent (like Autodesk) is often a prime environment for a simple, elegant tool that does one critical job perfectly.

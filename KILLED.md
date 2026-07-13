@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-13
+- **The mobile pet groomer's "route & revenue" optimizer** — Killed: An efficiency play, not a catastrophic-risk mitigator. The pain is about margin, not survival, making it a "nice to have."
+- **The agritourism farm's "booking & waiver" manager** — Killed: A valid liability pain, but the risk is probabilistic (an accident might happen) rather than a certainty (IEP paperwork is a daily, mandated requirement). The buyer is also smaller and less institutionalized.
+- **The DTC brand's "returns reduction" analyst** — Killed: Strong ROI-based idea, but the pain of returns, while costly, is less acute and existential than the threat of a federal lawsuit faced by a school district.
+
 ## 2026-07-12
 - **The youth travel sports team "manager's" coordination & compliance kit** — Killed: The buyer is often a volunteer spending other people's money, which creates a difficult sales dynamic compared to a professional buying a tool for their own business.
 - **The craft brewery's "keg & tap" management hub** — Killed: A strong ROI-based idea, but the pain of financial loss from missing assets feels less acute and existential than the professional liability risk faced by a licensed surveyor.
