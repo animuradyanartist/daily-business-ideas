@@ -201,6 +201,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Architectural & Construction Plan Review** · Using AI to automatically check building plans for code compliance and design errors. · flagged 2026-07-12 · last checked 2026-07-12 · [origin memo](trends/2026-07-12.md)
 - **AI-Powered Employee Relations & HR Investigations** · Using specialized AI platforms to manage case documentation and analysis for workplace investigations. · flagged 2026-07-12 · last checked 2026-07-12 · [origin memo](trends/2026-07-12.md)
 - **AI-Powered Litigation Support for Small Law Firms** · Using AI to automate eDiscovery, deposition analysis, and document review for solo and small practices. · flagged 2026-07-12 · last checked 2026-07-12 · [origin memo](trends/2026-07-12.md)
+- **AI-Powered Operations for Auto Repair Shops** · Using AI platforms to automate customer intake, scheduling, communication, and diagnostics for independent auto shops. · flagged 2026-07-13 · last checked 2026-07-13 · [origin memo](trends/2026-07-13.md)
+- **AI-Powered Operations for Private Tutors** · Using AI tools to automate the administrative back-office for tutors, including scheduling, lesson planning, and parent communication. · flagged 2026-07-13 · last checked 2026-07-13 · [origin memo](trends/2026-07-13.md)
+- **AI-Generated Game Assets for Indie Developers** · Using generative AI tools to create 2D and 3D assets like characters, objects, and textures for video games. · flagged 2026-07-13 · last checked 2026-07-13 · [origin memo](trends/2026-07-13.md)
 
 
 ## ➡️ Active — plateauing
@@ -342,3 +345,5 @@ _(empty)_
 <!-- 2026-07-11 status-update directive: 🚀 | AI-Generated Business Presentations -->
 
 <!-- 2026-07-12 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
+
+<!-- 2026-07-13 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->

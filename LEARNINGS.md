@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-13 (trends)
+-   AI is systematically productizing the "back office" for fragmented, non-technical SMBs (auto repair shops, private tutors). The pattern of automating high-friction administrative work is robust and expanding into new verticals.
+-   For creative solopreneurs (like indie game developers), the most valuable AI tools are those that directly automate the primary bottleneck in production—in this case, asset creation—leveling the playing field with larger, better-funded teams.
+-   A mature AI software category doesn't mean the opportunity is gone. It often signals a market segmentation, creating new openings for tools that serve a specific niche or a different stage of the workflow (e.g., proposal writing vs. full sales cycle automation).
+
+---
+
 ## 2026-07-13
 - In highly regulated markets, superior user experience is not just a feature; it's a core component of risk mitigation. A clunky tool that invites human error is a compliance liability.
 - The most durable B2B software opportunities are often found where a legally mandated administrative task is managed by an overwhelmed, non-expert end-user.
