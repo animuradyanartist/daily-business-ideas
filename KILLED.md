@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-14
+- **The CPG food & beverage brand's "recall-ready" lot tracking hub** — A very strong idea, but the AS9100 market is more concentrated and the buyer list is a matter of public record, making sales more efficient.
+- **The non-profit's "audit-proof" in-kind donation tracker** — Killed: The cost of failure (a finding on a financial statement) is less immediate and existential than losing the ability to sell into the entire aerospace industry.
+- **The commercial drone operator's "FAA Part 107 compliance" hub** — Killed: The buyer is smaller, less capitalized, and the risk of an FAA audit feels more probabilistic than the certainty of an annual AS9100 audit.
+
 ## 2026-07-13
 - **The mobile pet groomer's "route & revenue" optimizer** — Killed: An efficiency play, not a catastrophic-risk mitigator. The pain is about margin, not survival, making it a "nice to have."
 - **The agritourism farm's "booking & waiver" manager** — Killed: A valid liability pain, but the risk is probabilistic (an accident might happen) rather than a certainty (IEP paperwork is a daily, mandated requirement). The buyer is also smaller and less institutionalized.

@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-07-14 | The aerospace machine shop's "AS9100 traceability" evidence locker |
 | 98 | high | 2026-07-13 | The special education teacher's "IEP compliance" dashboard |
 | 98 | high | 2026-07-11 | The high-growth Shopify brand's "wholesale order" portal |
 | 98 | high | 2026-07-01 | The small government contractor's "CMMC audit-ready" evidence locker |
