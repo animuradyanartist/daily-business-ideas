@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-14 (trends)
+- A list of certified companies (like the AS9100 database) is a powerful strategic asset that dramatically de-risks customer acquisition for a niche B2B tool.
+- The gap between a legacy system of record (ERP) and the "last mile" of compliance execution (the audit itself) is a recurring and valuable opportunity.
+- The pain of "looking bad" or "out of control" in front of a high-stakes external party (an auditor, a prime contractor) is a powerful, emotional driver of B2B purchases, often more so than pure efficiency.
+
+---
+
 ## 2026-07-14
 - A list of certified companies (like the AS9100 database) is a powerful strategic asset that dramatically de-risks customer acquisition for a niche B2B tool.
 - The gap between a legacy system of record (ERP) and the "last mile" of compliance execution (the audit itself) is a recurring and valuable opportunity.

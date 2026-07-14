@@ -204,6 +204,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Operations for Auto Repair Shops** · Using AI platforms to automate customer intake, scheduling, communication, and diagnostics for independent auto shops. · flagged 2026-07-13 · last checked 2026-07-13 · [origin memo](trends/2026-07-13.md)
 - **AI-Powered Operations for Private Tutors** · Using AI tools to automate the administrative back-office for tutors, including scheduling, lesson planning, and parent communication. · flagged 2026-07-13 · last checked 2026-07-13 · [origin memo](trends/2026-07-13.md)
 - **AI-Generated Game Assets for Indie Developers** · Using generative AI tools to create 2D and 3D assets like characters, objects, and textures for video games. · flagged 2026-07-13 · last checked 2026-07-13 · [origin memo](trends/2026-07-13.md)
+- **AI-Automated Compliance for Aerospace & Defense SMBs** · Using AI to automate quality and cybersecurity compliance (AS9100, CMMC) for suppliers. · flagged 2026-07-14 · last checked 2026-07-14 · [origin memo](trends/2026-07-14.md)
+- **AI-Automated Internal Audits & Evidence Collection** · Using AI to automate evidence collection and control testing for compliance frameworks like SOC 2. · flagged 2026-07-14 · last checked 2026-07-14 · [origin memo](trends/2026-07-14.md)
+- **AI Co-pilots for Independent Insurance Agents** · Using AI integrated with Agency Management Systems to automate administrative and client communication workflows. · flagged 2026-07-14 · last checked 2026-07-14 · [origin memo](trends/2026-07-14.md)
 
 
 ## ➡️ Active — plateauing
@@ -347,3 +350,5 @@ _(empty)_
 <!-- 2026-07-12 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-07-13 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
+
+<!-- 2026-07-14 status-update directive: 🚀 | AI-Powered Upselling for Freelancers -->
