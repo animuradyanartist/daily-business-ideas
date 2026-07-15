@@ -207,6 +207,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Compliance for Aerospace & Defense SMBs** · Using AI to automate quality and cybersecurity compliance (AS9100, CMMC) for suppliers. · flagged 2026-07-14 · last checked 2026-07-14 · [origin memo](trends/2026-07-14.md)
 - **AI-Automated Internal Audits & Evidence Collection** · Using AI to automate evidence collection and control testing for compliance frameworks like SOC 2. · flagged 2026-07-14 · last checked 2026-07-14 · [origin memo](trends/2026-07-14.md)
 - **AI Co-pilots for Independent Insurance Agents** · Using AI integrated with Agency Management Systems to automate administrative and client communication workflows. · flagged 2026-07-14 · last checked 2026-07-14 · [origin memo](trends/2026-07-14.md)
+- **AI-Powered Public Benefits Integrity** · Using AI to proactively verify identities and assess fraud risk before government benefits are paid. · flagged 2026-07-15 · last checked 2026-07-15 · [origin memo](trends/2026-07-15.md)
+- **AI-Automated Medical Coding & Billing** · Using AI to automate the entire healthcare revenue cycle, from clinical documentation to claim submission and denial management. · flagged 2026-07-15 · last checked 2026-07-15 · [origin memo](trends/2026-07-15.md)
+- **AI-Automated Creator Deal Management** · Using AI platforms to automate the full workflow of influencer discovery, outreach, contract negotiation, and campaign management. · flagged 2026-07-15 · last checked 2026-07-15 · [origin memo](trends/2026-07-15.md)
 
 
 ## ➡️ Active — plateauing
@@ -352,3 +355,5 @@ _(empty)_
 <!-- 2026-07-13 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
 
 <!-- 2026-07-14 status-update directive: 🚀 | AI-Powered Upselling for Freelancers -->
+
+<!-- 2026-07-15 status-update directive: 🚀 | AI-Generated Portfolio Case Studies -->

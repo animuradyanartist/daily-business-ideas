@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-15 (trends)
+- A Supreme Court ruling can be the ultimate "Why Now," fundamentally and permanently altering the risk calculus for an entire industry overnight.
+- The most valuable B2B tools don't just provide data; they provide a defensible, audit-proof *process* that can be used as evidence.
+- The gap between legacy "data monitoring" tools and modern "workflow automation and fraud detection" tools is a recurring and valuable opportunity, especially when the nature of the underlying risk has evolved.
+
+---
+
 ## 2026-07-15
 - A Supreme Court ruling can be the ultimate "Why Now," fundamentally and permanently altering the risk calculus for an entire industry overnight.
 - The most valuable B2B tools don't just provide data; they provide a defensible, audit-proof *process* that can be used as evidence.
