@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Freight Brokerage Compliance Software | us-freight-brokerage-compliance-software | 2026-07-15 | 98 | The freight broker's "carrier compliance" evidence locker |
 | AS9100 Compliance Software for US Aerospace Machine Shops | aerospace-machine-shop-as9100-compliance-software-us | 2026-07-14 | 98 | The aerospace machine shop's "AS9100 traceability" evidence locker |
 | K-12 Special Education Compliance Software (US) | k-12-special-education-compliance-software-us | 2026-07-13 | 98 | The special education teacher's "IEP compliance" dashboard |
 | Independent Land Surveyor Software (US) | independent-land-surveyor-software-us | 2026-07-12 | 96 | The independent land surveyor's "deed plot" & QA hub |

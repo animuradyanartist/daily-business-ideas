@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-15
+- **The restaurant manager's "fair tip distribution" calculator & compliance log.** — Killed: A real pain, but the cost of failure (wage/hour fine) is less immediate and existential than a multi-million dollar negligent entrustment lawsuit.
+- **The DTC brand's "influencer sample & seeding" ROI tracker.** — Killed: An efficiency play, not a catastrophic-risk mitigator. This is a vitamin for optimizing marketing spend, not a painkiller for avoiding bankruptcy.
+- **The small landlord's "emotional support animal" verification & compliance hub.** — Killed: A valid compliance pain, but the buyer is smaller, less capitalized, and the market is more fragmented and harder to reach than freight brokerages.
+
 ## 2026-07-14
 - **The CPG food & beverage brand's "recall-ready" lot tracking hub** — A very strong idea, but the AS9100 market is more concentrated and the buyer list is a matter of public record, making sales more efficient.
 - **The non-profit's "audit-proof" in-kind donation tracker** — Killed: The cost of failure (a finding on a financial statement) is less immediate and existential than losing the ability to sell into the entire aerospace industry.
