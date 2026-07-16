@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-16
+*   The most painful problem isn't just a cost; it's *unrecoverable revenue* for work already completed. This is a more powerful motivator for a small business owner than almost any other issue.
+*   Fragmented markets of small operators serving a concentrated, powerful customer base (an oligopsony) are ripe for tools that help the small players meet the strict compliance demands of the large ones.
+*   A successful "wedge" product doesn't have to do everything. It has to do the single most painful thing perfectly, creating an opportunity to attack incumbents by being simpler and more focused.
+
 ## 2026-07-15 (trends)
 - A Supreme Court ruling can be the ultimate "Why Now," fundamentally and permanently altering the risk calculus for an entire industry overnight.
 - The most valuable B2B tools don't just provide data; they provide a defensible, audit-proof *process* that can be used as evidence.

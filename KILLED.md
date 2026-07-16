@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-16
+*   **The Self-Storage Operator's "Lien & Auction" Compliance Hub** — Killed: A strong contender, but the pain of a potential future lawsuit feels less immediate than the pain of daily, present-tense revenue loss from denied claims.
+*   **The Craft Brewery's "TTB Compliance" Reporting Engine** — Killed: A valid compliance pain, but the risk of a TTB audit feels more probabilistic and less frequent than the certainty of claim denials on every billing cycle.
+*   **The Independent Used Car Dealer's "Title & Floor Plan" Hub** — Killed: This is primarily an operational efficiency and financing management tool. The pain is not as acute or existential as the risk of revenue loss in NEMT.
+
 ## 2026-07-15
 - **The restaurant manager's "fair tip distribution" calculator & compliance log.** — Killed: A real pain, but the cost of failure (wage/hour fine) is less immediate and existential than a multi-million dollar negligent entrustment lawsuit.
 - **The DTC brand's "influencer sample & seeding" ROI tracker.** — Killed: An efficiency play, not a catastrophic-risk mitigator. This is a vitamin for optimizing marketing spend, not a painkiller for avoiding bankruptcy.

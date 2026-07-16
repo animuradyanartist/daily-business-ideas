@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-16 — The NEMT provider's "audit-proof trip log" to get paid by Medicaid — 98/100 high
 - 2026-07-15 — trend forecast — AI-Powered Public Benefits Integrity +2 more
 - 2026-07-15 — The freight broker's "carrier compliance" evidence locker — 98/100 high
 - 2026-07-14 — trend forecast — AI-Automated Compliance for Aerospace & Defense SMBs +2 more
