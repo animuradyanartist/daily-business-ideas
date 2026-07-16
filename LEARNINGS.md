@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-16 (trends)
+-   AI is productizing the high-friction, document-intensive "paperwork" that underpins entire industries like global trade, non-profit grant management, and insurance. The value is in creating a structured, auditable digital record from unstructured inputs.
+-   The most powerful catalyst for AI adoption in a sector is often not a new technology, but a structural shift that makes the old way of working financially or legally untenable (e.g., compressed broker margins, slow insurance payouts in a volatile climate).
+-   The definition of "proactive" is evolving. It no longer means simply sending a message before a customer does; it means an autonomous agent identifying and resolving a problem before it impacts the customer's experience.
+
+---
+
 ## 2026-07-16
 *   The most painful problem isn't just a cost; it's *unrecoverable revenue* for work already completed. This is a more powerful motivator for a small business owner than almost any other issue.
 *   Fragmented markets of small operators serving a concentrated, powerful customer base (an oligopsony) are ripe for tools that help the small players meet the strict compliance demands of the large ones.

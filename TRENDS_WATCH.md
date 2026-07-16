@@ -210,6 +210,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Public Benefits Integrity** · Using AI to proactively verify identities and assess fraud risk before government benefits are paid. · flagged 2026-07-15 · last checked 2026-07-15 · [origin memo](trends/2026-07-15.md)
 - **AI-Automated Medical Coding & Billing** · Using AI to automate the entire healthcare revenue cycle, from clinical documentation to claim submission and denial management. · flagged 2026-07-15 · last checked 2026-07-15 · [origin memo](trends/2026-07-15.md)
 - **AI-Automated Creator Deal Management** · Using AI platforms to automate the full workflow of influencer discovery, outreach, contract negotiation, and campaign management. · flagged 2026-07-15 · last checked 2026-07-15 · [origin memo](trends/2026-07-15.md)
+- **AI-Automated Customs Brokerage & Trade Compliance** · Using AI platforms to automate document processing and compliance checks for customs entries. · flagged 2026-07-16 · last checked 2026-07-16 · [origin memo](trends/2026-07-16.md)
+- **AI-Powered Non-Profit Impact Reporting** · Using AI to automate the analysis of program data and generation of funder-ready impact reports. · flagged 2026-07-16 · last checked 2026-07-16 · [origin memo](trends/2026-07-16.md)
+- **AI-Automated Parametric Insurance & Claims** · Using AI and real-time data to trigger automatic insurance payouts based on predefined event parameters. · flagged 2026-07-16 · last checked 2026-07-16 · [origin memo](trends/2026-07-16.md)
 
 
 ## ➡️ Active — plateauing
@@ -357,3 +360,5 @@ _(empty)_
 <!-- 2026-07-14 status-update directive: 🚀 | AI-Powered Upselling for Freelancers -->
 
 <!-- 2026-07-15 status-update directive: 🚀 | AI-Generated Portfolio Case Studies -->
+
+<!-- 2026-07-16 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
