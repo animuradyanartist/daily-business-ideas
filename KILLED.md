@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-17
+- **The Independent Insurance Agent's "Renewal & Upsell" Pipeline:** A very strong contender, but the pain of a loan repurchase feels more like a direct, immediate cash-out-the-door loss than the more probabilistic risk of an E&O claim.
+- **The Property Manager's "Move-Out Inspection" Kit:** Killed. The pain of losing a $1,500 security deposit is an order of magnitude smaller than a $32,000 loan buyback.
+- **The Restaurant Owner's "Menu Engineering" Dashboard:** Killed. This is an efficiency/profitability tool (a vitamin), not a catastrophic risk-mitigation tool (a painkiller).
+
 ## 2026-07-16
 *   **The Self-Storage Operator's "Lien & Auction" Compliance Hub** — Killed: A strong contender, but the pain of a potential future lawsuit feels less immediate than the pain of daily, present-tense revenue loss from denied claims.
 *   **The Craft Brewery's "TTB Compliance" Reporting Engine** — Killed: A valid compliance pain, but the risk of a TTB audit feels more probabilistic and less frequent than the certainty of claim denials on every billing cycle.

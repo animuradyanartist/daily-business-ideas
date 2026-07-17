@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-17
+- The most potent B2B software ideas often live at the intersection of a fragmented SMB market and a concentrated, powerful buyer/regulator (e.g., small lenders vs. Fannie Mae).
+- The "cost of failure" is a more powerful sales driver than the "promise of efficiency." Framing the product as insurance against a catastrophic loss is more effective than framing it as a productivity gain.
+- A mandatory, non-optional business process dictated by an external authority (like GSE-mandated QC) is a perfect place to build workflow software, as the budget and need are pre-validated.
+
 ## 2026-07-16 (trends)
 -   AI is productizing the high-friction, document-intensive "paperwork" that underpins entire industries like global trade, non-profit grant management, and insurance. The value is in creating a structured, auditable digital record from unstructured inputs.
 -   The most powerful catalyst for AI adoption in a sector is often not a new technology, but a structural shift that makes the old way of working financially or legally untenable (e.g., compressed broker margins, slow insurance payouts in a volatile climate).
