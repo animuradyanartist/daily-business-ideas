@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-17 (trends)
+- The most potent B2B software ideas often live at the intersection of a fragmented SMB market and a concentrated, powerful buyer/regulator (e.g., small lenders vs. Fannie Mae).
+- The "cost of failure" is a more powerful sales driver than the "promise of efficiency." Framing the product as insurance against a catastrophic loss is more effective than framing it as a productivity gain.
+- A mandatory, non-optional business process dictated by an external authority (like GSE-mandated QC) is a perfect place to build workflow software, as the budget and need are pre-validated.
+
+---
+
 ## 2026-07-17
 - The most potent B2B software ideas often live at the intersection of a fragmented SMB market and a concentrated, powerful buyer/regulator (e.g., small lenders vs. Fannie Mae).
 - The "cost of failure" is a more powerful sales driver than the "promise of efficiency." Framing the product as insurance against a catastrophic loss is more effective than framing it as a productivity gain.

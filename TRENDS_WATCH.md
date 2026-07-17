@@ -213,6 +213,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Customs Brokerage & Trade Compliance** · Using AI platforms to automate document processing and compliance checks for customs entries. · flagged 2026-07-16 · last checked 2026-07-16 · [origin memo](trends/2026-07-16.md)
 - **AI-Powered Non-Profit Impact Reporting** · Using AI to automate the analysis of program data and generation of funder-ready impact reports. · flagged 2026-07-16 · last checked 2026-07-16 · [origin memo](trends/2026-07-16.md)
 - **AI-Automated Parametric Insurance & Claims** · Using AI and real-time data to trigger automatic insurance payouts based on predefined event parameters. · flagged 2026-07-16 · last checked 2026-07-16 · [origin memo](trends/2026-07-16.md)
+- **AI-Automated Quality Control for Mortgage Lenders** · Using AI to automate the review and compliance checking of mortgage loan files against GSE guidelines. · flagged 2026-07-17 · last checked 2026-07-17 · [origin memo](trends/2026-07-17.md)
+- **AI-Powered Talent Mobility & Internal Recruiting** · Using AI platforms to proactively match employees with internal jobs, projects, and career paths to improve retention. · flagged 2026-07-17 · last checked 2026-07-17 · [origin memo](trends/2026-07-17.md)
+- **AI-Powered Operations for Craft Breweries & Wineries** · Using vertical-specific AI platforms to automate production, compliance, and marketing for independent beverage makers. · flagged 2026-07-17 · last checked 2026-07-17 · [origin memo](trends/2026-07-17.md)
 
 
 ## ➡️ Active — plateauing
@@ -362,3 +365,5 @@ _(empty)_
 <!-- 2026-07-15 status-update directive: 🚀 | AI-Generated Portfolio Case Studies -->
 
 <!-- 2026-07-16 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
+
+<!-- 2026-07-17 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
