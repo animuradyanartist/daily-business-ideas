@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US SMB CRO & Biotech eTMF Software | us-smb-cro-biotech-etmf-software | 2026-07-18 | 98 | The small CRO's "FDA audit-ready" eTMF |
 | US Independent Mortgage Lender Compliance Software | us-independent-mortgage-lender-compliance-software | 2026-07-17 | 95 | The independent mortgage lender's "loan repurchase" defender hub |
 | US NEMT Provider Compliance Software | us-nemt-provider-compliance-software | 2026-07-16 | 98 | The NEMT provider's "audit-proof trip log" to get paid by Medicaid |
 | US Freight Brokerage Compliance Software | us-freight-brokerage-compliance-software | 2026-07-15 | 98 | The freight broker's "carrier compliance" evidence locker |

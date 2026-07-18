@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-18
+- **The Dietary Supplement Manufacturer's "cGMP Compliance" Hub** — Killed. The cost of failure (FDA warning letter) is high, but not as catastrophically high as an invalidated clinical trial. The total number of buyers is also smaller.
+- **The Real Estate Appraiser's "Defensible Workfile" Builder** — Killed. A valid pain, but the underlying market of appraisers is shrinking, which is a significant headwind. The dollar value at risk per failure is also lower.
+- **The Medical Device Manufacturer's "510(k) Submission" Builder** — Killed. A strong contender, but the pain is episodic (during submission) rather than continuous (the daily need for an inspection-ready TMF).
+
 ## 2026-07-17
 - **The Independent Insurance Agent's "Renewal & Upsell" Pipeline:** A very strong contender, but the pain of a loan repurchase feels more like a direct, immediate cash-out-the-door loss than the more probabilistic risk of an E&O claim.
 - **The Property Manager's "Move-Out Inspection" Kit:** Killed. The pain of losing a $1,500 security deposit is an order of magnitude smaller than a $32,000 loan buyback.

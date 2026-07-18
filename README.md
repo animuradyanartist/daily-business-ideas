@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-18 — The small CRO's "FDA audit-ready" eTMF — 98/100 high
 - 2026-07-17 — trend forecast — AI-Automated Quality Control for Mortgage Lenders +2 more
 - 2026-07-17 — The independent mortgage lender's "loan repurchase" defender hub — 95/100 high
 - 2026-07-16 — trend forecast — AI-Automated Customs Brokerage & Trade Compliance +2 more
