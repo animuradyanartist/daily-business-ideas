@@ -216,6 +216,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Quality Control for Mortgage Lenders** · Using AI to automate the review and compliance checking of mortgage loan files against GSE guidelines. · flagged 2026-07-17 · last checked 2026-07-17 · [origin memo](trends/2026-07-17.md)
 - **AI-Powered Talent Mobility & Internal Recruiting** · Using AI platforms to proactively match employees with internal jobs, projects, and career paths to improve retention. · flagged 2026-07-17 · last checked 2026-07-17 · [origin memo](trends/2026-07-17.md)
 - **AI-Powered Operations for Craft Breweries & Wineries** · Using vertical-specific AI platforms to automate production, compliance, and marketing for independent beverage makers. · flagged 2026-07-17 · last checked 2026-07-17 · [origin memo](trends/2026-07-17.md)
+- **AI-Powered Clinical Trial Patient Recruitment** · Using AI to automate patient identification and matching for clinical research. · flagged 2026-07-18 · last checked 2026-07-18 · [origin memo](trends/2026-07-18.md)
+- **AI-Powered Warehouse Management for E-commerce** · Using AI to automate inventory forecasting, optimization, and fulfillment for online stores. · flagged 2026-07-18 · last checked 2026-07-18 · [origin memo](trends/2026-07-18.md)
+- **AI for Addiction Recovery & Aftercare** · Using AI-powered digital tools to provide continuous, personalized support and relapse prevention for individuals post-treatment. · flagged 2026-07-18 · last checked 2026-07-18 · [origin memo](trends/2026-07-18.md)
 
 
 ## ➡️ Active — plateauing
@@ -367,3 +370,5 @@ _(empty)_
 <!-- 2026-07-16 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
 
 <!-- 2026-07-17 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-07-18 status-update directive: 🚀 | AI as a Thought Partner -->

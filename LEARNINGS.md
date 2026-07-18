@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-18 (trends)
+-   The most valuable B2B SaaS opportunities often exist in markets where the cost of failure is not just financial loss, but complete invalidation of years of work and hundreds of millions of dollars in investment.
+-   A dominant, expensive, and complex incumbent is often the best demand signal for a new venture. Their success proves the market's willingness to pay, and their weaknesses define the challenger's wedge.
+-   For mission-critical compliance software, the product itself is only half the battle. The other half is selling trust, which requires transparency, third-party validation, and deep founder credibility.
+-   The "compliance evidence locker" pattern is portable across industries, but its economic potential scales directly with the regulated industry's cost of failure.
+
+---
+
 ## 2026-07-18
 - The most valuable B2B SaaS opportunities often exist in markets where the cost of failure is not just financial loss, but complete invalidation of years of work and hundreds of millions of dollars in investment.
 - A dominant, expensive, and complex incumbent is often the best demand signal for a new venture. Their success proves the market's willingness to pay, and their weaknesses define the challenger's wedge.
