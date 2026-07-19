@@ -219,6 +219,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Clinical Trial Patient Recruitment** · Using AI to automate patient identification and matching for clinical research. · flagged 2026-07-18 · last checked 2026-07-18 · [origin memo](trends/2026-07-18.md)
 - **AI-Powered Warehouse Management for E-commerce** · Using AI to automate inventory forecasting, optimization, and fulfillment for online stores. · flagged 2026-07-18 · last checked 2026-07-18 · [origin memo](trends/2026-07-18.md)
 - **AI for Addiction Recovery & Aftercare** · Using AI-powered digital tools to provide continuous, personalized support and relapse prevention for individuals post-treatment. · flagged 2026-07-18 · last checked 2026-07-18 · [origin memo](trends/2026-07-18.md)
+- **AI-Automated Food Safety (HACCP) Documentation** · Using AI to automate the creation and management of food safety plans and documentation for audit-readiness. · flagged 2026-07-19 · last checked 2026-07-19 · [origin memo](trends/2026-07-19.md)
+- **AI-Generated Video Testimonials** · Using AI to turn written customer reviews into shareable, talking-head style videos for marketing. · flagged 2026-07-19 · last checked 2026-07-19 · [origin memo](trends/2026-07-19.md)
+- **AI-Powered Retail Loss Prevention** · Using AI video analytics with existing cameras to proactively detect and deter theft in real-time. · flagged 2026-07-19 · last checked 2026-07-19 · [origin memo](trends/2026-07-19.md)
 
 
 ## ➡️ Active — plateauing
@@ -372,3 +375,5 @@ _(empty)_
 <!-- 2026-07-17 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-07-18 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-07-19 status-update directive: 🚀 | The AI-Augmented Second Brain -->

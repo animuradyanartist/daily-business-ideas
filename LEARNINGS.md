@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-19 (trends)
+- The most powerful business ideas often involve helping SMBs navigate mandatory, high-stakes interactions with government agencies (like HACCP compliance with the FDA).
+- A bureaucratic, complex certification process can be a significant competitive moat if you have the persistence to navigate it.
+- When a customer is legally liable regardless of whether they use an intermediary, there is a strong opportunity to sell them a tool that gives them direct control over the compliance process.
+- Surges in trade volume, even if temporary or driven by external factors like tariffs, can create acute, near-term demand for tools that increase efficiency and reduce cost.
+
+---
+
 ## 2026-07-19
 - The most powerful business ideas often involve helping SMBs navigate mandatory, high-stakes interactions with government agencies.
 - A bureaucratic, complex certification process can be a significant competitive moat if you have the persistence to navigate it.
