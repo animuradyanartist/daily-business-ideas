@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-07-19 | The US importer's "ISF (10+2) filing" assistant |
 | 98 | high | 2026-07-18 | The small CRO's "FDA audit-ready" eTMF |
 | 98 | high | 2026-07-16 | The NEMT provider's "audit-proof trip log" to get paid by Medicaid |
 | 98 | high | 2026-07-15 | The freight broker's "carrier compliance" evidence locker |

@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-19
+- **The Government Grant Recipient's "Time & Effort" Reporting Tool** — A very strong contender, but the ISF filing pain feels more frequent and the penalty is a more direct, immediate cash loss.
+- **The Commercial Property Manager's "CAM Reconciliation" Evidence Locker** — Killed. The pain is primarily about operational efficiency and dispute mitigation, not a catastrophic, government-levied penalty.
+- **The Small Brewery's "TTB Brewer's Report of Operations" Assistant** — Killed. The market size is significantly smaller than US importers, and the cost of failure is lower.
+
 ## 2026-07-18
 - **The Dietary Supplement Manufacturer's "cGMP Compliance" Hub** — Killed. The cost of failure (FDA warning letter) is high, but not as catastrophically high as an invalidated clinical trial. The total number of buyers is also smaller.
 - **The Real Estate Appraiser's "Defensible Workfile" Builder** — Killed. A valid pain, but the underlying market of appraisers is shrinking, which is a significant headwind. The dollar value at risk per failure is also lower.
