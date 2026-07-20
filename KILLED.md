@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-20
+- **The Independent Auto Repair Shop's "Multi-Supplier Parts Ordering" Dashboard** — Killed. This is an efficiency play (a vitamin). The pain of toggling websites is an annoyance, not a catastrophic business risk like a mechanic's lien.
+- **The Wedding Photographer's "Post-Production" Workflow Hub** — Killed. The buyer is a solo creator with lower, more discretionary spending. The pain is burnout and time, not a direct, high-stakes financial loss.
+- **The Small Landlord's "Emotional Support Animal" Verification Hub** — Killed. A valid compliance pain, but the market is more fragmented and the buyer is less capitalized than a General Contractor.
+
 ## 2026-07-19
 - **The Government Grant Recipient's "Time & Effort" Reporting Tool** — A very strong contender, but the ISF filing pain feels more frequent and the penalty is a more direct, immediate cash loss.
 - **The Commercial Property Manager's "CAM Reconciliation" Evidence Locker** — Killed. The pain is primarily about operational efficiency and dispute mitigation, not a catastrophic, government-levied penalty.

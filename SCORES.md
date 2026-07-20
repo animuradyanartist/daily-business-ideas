@@ -14,6 +14,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 98 | high | 2026-07-11 | The high-growth Shopify brand's "wholesale order" portal |
 | 98 | high | 2026-07-01 | The small government contractor's "CMMC audit-ready" evidence locker |
 | 98 | high | 2026-06-25 | The Independent College Admissions Consultant's "Application Tracker" |
+| 97 | high | 2026-07-20 | The General Contractor's "lien waiver" collection & tracking hub |
 | 97 | high | 2026-06-27 | The Small Trucking Fleet's "DOT-Audit-Ready" Compliance Hub |
 | 97 | high | 2026-06-26 | The construction subcontractor's "get paid on time" hub |
 | 97 | high | 2026-06-24 | The Durable Medical Equipment (DME) Supplier's "Audit-Proof" Delivery Log |
