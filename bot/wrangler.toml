@@ -10,7 +10,8 @@ id = "d1edb794ea3442a790d4e9e69127a5ca"
 GITHUB_REPO = "animuradyanartist/daily-business-ideas"
 ALLOWED_CHAT_ID = "1010175368"
 # Secrets (set with `wrangler secret put <NAME>`, never committed):
-#   BOT_TOKEN      — Telegram bot token
+#   TG_BOT_TOKEN   — Telegram bot token (preferred; BOT_TOKEN still works as a
+#                    legacy fallback)
 #   WEBHOOK_SECRET — shared secret in the webhook URL ?secret=
 #   GITHUB_TOKEN   — fine-grained PAT with Contents:read+write on this repo,
 #                    used by "📊 Log outcome" to write outcomes/<date>.md

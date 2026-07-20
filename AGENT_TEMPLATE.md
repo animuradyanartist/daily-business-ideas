@@ -35,7 +35,7 @@ The architecture I want you to clone (don't reinvent it):
 1. The existing repo `animuradyanartist/daily-business-ideas` already has:
    - GEMINI_API_KEY, TG_BOT_TOKEN, TG_CHAT_ID as repo secrets
    - A working Scout agent at .github/workflows/daily-research.yml + scripts/daily-research.mjs
-   - Telegram bot: token ***REMOVED-REVOKED-TELEGRAM-TOKEN***, chat ID 1010175368
+   - Telegram bot: token set via TG_BOT_TOKEN secret, chat ID 1010175368
 
 2. For the new agent, do exactly this:
    a. Read scripts/daily-research.mjs and .github/workflows/daily-research.yml from the repo to understand the pattern.

@@ -97,6 +97,13 @@ jobs:
 
           Memo: ${MEMO_URL}"
 
-          curl -sS -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+          # Fail loudly on a missing secret: without this, curl posts to an invalid
+          # URL, gets a 404, and still exits 0 — a green step that sent nothing.
+          if [ -z "${TG_BOT_TOKEN}" ]; then
+            echo "::error::TG_BOT_TOKEN is not set — refusing to send." >&2
+            exit 1
+          fi
+
+          curl -sS --fail-with-body -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
             -d "chat_id=${TG_CHAT_ID}" \
             --data-urlencode "text=${MSG}"

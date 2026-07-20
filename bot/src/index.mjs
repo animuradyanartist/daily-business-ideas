@@ -4,6 +4,14 @@
 import { handleStart, handleMenuTap, handleCallback, handleText } from './handlers.mjs';
 import { sendMessage } from './telegram.mjs';
 
+// Resolve the bot token from the Worker's secret bindings. TG_BOT_TOKEN is the
+// preferred name (it matches the GitHub Actions secret); BOT_TOKEN is the
+// legacy binding kept so the deployed Worker keeps running until the secret is
+// renamed. Note: Workers have no `process.env` — secrets arrive via `env`.
+function resolveBotToken(env) {
+  return env.TG_BOT_TOKEN || env.BOT_TOKEN || null;
+}
+
 export default {
   async fetch(request, env, ctx) {
     if (request.method !== 'POST') {
@@ -14,6 +22,16 @@ export default {
     if (url.searchParams.get('secret') !== env.WEBHOOK_SECRET) {
       return new Response('Unauthorized', { status: 401 });
     }
+
+    // Fail loudly on missing config rather than silently posting to an invalid
+    // Telegram URL. Checked after the secret so probes learn nothing.
+    const botToken = resolveBotToken(env);
+    if (!botToken) {
+      console.error('No bot token configured (TG_BOT_TOKEN or BOT_TOKEN) — refusing to handle update.');
+      return new Response('Server misconfigured', { status: 500 });
+    }
+    // Downstream handlers read env.BOT_TOKEN; hand them the resolved value.
+    env = { ...env, BOT_TOKEN: botToken };
 
     let update;
     try {

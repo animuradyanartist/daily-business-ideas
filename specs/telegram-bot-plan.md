@@ -788,7 +788,7 @@ Save the printed value somewhere (1Password, notes app). Used in Task 9.
 
 ```bash
 cd bot
-echo "***REMOVED-REVOKED-TELEGRAM-TOKEN***" | wrangler secret put BOT_TOKEN
+echo "$TG_BOT_TOKEN" | wrangler secret put BOT_TOKEN
 ```
 
 Wrangler prompts to confirm; it stores the value encrypted.
@@ -835,7 +835,7 @@ Copy the URL.
 Replace `<WORKER_URL>` and `<WEBHOOK_SECRET>` with the values from step 1 here and step 1 of Task 8.
 
 ```bash
-curl -sS -X POST "https://api.telegram.org/bot***REMOVED-REVOKED-TELEGRAM-TOKEN***/setWebhook" \
+curl -sS -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/setWebhook" \
   -d "url=<WORKER_URL>/?secret=<WEBHOOK_SECRET>"
 ```
 
@@ -844,7 +844,7 @@ Expected response: `{"ok":true,"result":true,"description":"Webhook was set"}`.
 - [ ] **Step 3: Verify the webhook is active**
 
 ```bash
-curl -sS "https://api.telegram.org/bot***REMOVED-REVOKED-TELEGRAM-TOKEN***/getWebhookInfo"
+curl -sS "https://api.telegram.org/bot${TG_BOT_TOKEN}/getWebhookInfo"
 ```
 
 Expected: `"url"` contains the Worker URL with the `?secret=...` parameter.

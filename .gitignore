@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+*.log
+
+# Secrets — never commit real values. Copy .env.example to .env and fill it in.
+.env
+.env.*
+!.env.example
+.dev.vars
