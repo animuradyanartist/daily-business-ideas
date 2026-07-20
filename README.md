@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-20 — trend forecast — AI-Automated Evidence Collection for Compliance Audits +2 more
 - 2026-07-20 — The General Contractor's "lien waiver" collection & tracking hub — 97/100 high
 - 2026-07-19 — trend forecast — AI-Automated Food Safety (HACCP) Documentation +2 more
 - 2026-07-19 — The US importer's "ISF (10+2) filing" assistant — 98/100 high

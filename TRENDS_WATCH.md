@@ -222,6 +222,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Food Safety (HACCP) Documentation** · Using AI to automate the creation and management of food safety plans and documentation for audit-readiness. · flagged 2026-07-19 · last checked 2026-07-19 · [origin memo](trends/2026-07-19.md)
 - **AI-Generated Video Testimonials** · Using AI to turn written customer reviews into shareable, talking-head style videos for marketing. · flagged 2026-07-19 · last checked 2026-07-19 · [origin memo](trends/2026-07-19.md)
 - **AI-Powered Retail Loss Prevention** · Using AI video analytics with existing cameras to proactively detect and deter theft in real-time. · flagged 2026-07-19 · last checked 2026-07-19 · [origin memo](trends/2026-07-19.md)
+- **AI-Automated Evidence Collection for Compliance Audits** · Using AI to automate the collection, mapping, and testing of evidence for frameworks like SOC 2. · flagged 2026-07-20 · last checked 2026-07-20 · [origin memo](trends/2026-07-20.md)
+- **AI-Automated Commercial Insurance Underwriting** · Using AI to automate the intake and data extraction from unstructured commercial insurance submissions. · flagged 2026-07-20 · last checked 2026-07-20 · [origin memo](trends/2026-07-20.md)
+- **AI Co-pilots for Financial Advisor Operations** · Using AI to automate the administrative back-office for financial advisors, including meeting prep and task management. · flagged 2026-07-20 · last checked 2026-07-20 · [origin memo](trends/2026-07-20.md)
 
 
 ## ➡️ Active — plateauing
@@ -377,3 +380,5 @@ _(empty)_
 <!-- 2026-07-18 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-07-19 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-07-20 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->

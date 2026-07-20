@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-20 (trends)
+- The most compelling B2B SaaS ideas for non-technical SMBs frame the purchase as low-cost insurance against a specific, catastrophic financial risk they already understand and fear.
+- A fragmented market of hundreds of thousands of small businesses is a double-edged sword: no single buyer has pricing power, but customer acquisition is the primary challenge and risk.
+- The existence of both expensive enterprise incumbents and cheap SMB-focused upstarts is a powerful signal of a healthy, stratified market with a clear opportunity in the middle or low end.
+
+---
+
 ## 2026-07-20
 - The most compelling B2B SaaS ideas for non-technical SMBs frame the purchase as low-cost insurance against a specific, catastrophic financial risk they already understand and fear.
 - A fragmented market of hundreds of thousands of small businesses is a double-edged sword: no single buyer has pricing power, but customer acquisition is the primary challenge and risk.
