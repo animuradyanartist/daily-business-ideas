@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-21 (trends)
+-   The most potent B2B SaaS ideas target a legally-mandated role (like a Director of Operations) whose entire job is to prevent a specific, catastrophic failure.
+-   A public, government-maintained list of all potential customers (like the FAA's Part 135 operator list) is a massive GTM advantage that dramatically de-risks customer acquisition.
+-   In high-trust industries, a "Concierge MVP" is not just a validation step but a critical part of the sales process to build the initial relationships required to land the first customers.
+-   The existence of a direct, focused competitor who has already validated the pain and price point is a powerful buy signal, not a deterrent.
+
+---
+
 ## 2026-07-21
 - The most potent B2B SaaS ideas target a legally-mandated role (like a Director of Operations) whose entire job is to prevent a specific, catastrophic failure.
 - A public, government-maintained list of all potential customers (like the FAA's Part 135 operator list) is a massive GTM advantage that dramatically de-risks customer acquisition.

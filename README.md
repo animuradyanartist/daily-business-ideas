@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-21 — trend forecast — AI-Automated Aviation Safety Management Systems (SMS) +2 more
 - 2026-07-21 — The Part 135 Air Charter Operator's "FAA Ramp Check-Ready" Digital Binder — 98/100 high
 - 2026-07-20 — trend forecast — AI-Automated Evidence Collection for Compliance Audits +2 more
 - 2026-07-20 — The General Contractor's "lien waiver" collection & tracking hub — 97/100 high

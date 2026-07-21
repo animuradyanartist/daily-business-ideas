@@ -225,6 +225,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Evidence Collection for Compliance Audits** · Using AI to automate the collection, mapping, and testing of evidence for frameworks like SOC 2. · flagged 2026-07-20 · last checked 2026-07-20 · [origin memo](trends/2026-07-20.md)
 - **AI-Automated Commercial Insurance Underwriting** · Using AI to automate the intake and data extraction from unstructured commercial insurance submissions. · flagged 2026-07-20 · last checked 2026-07-20 · [origin memo](trends/2026-07-20.md)
 - **AI Co-pilots for Financial Advisor Operations** · Using AI to automate the administrative back-office for financial advisors, including meeting prep and task management. · flagged 2026-07-20 · last checked 2026-07-20 · [origin memo](trends/2026-07-20.md)
+- **AI-Automated Aviation Safety Management Systems (SMS)** · Using AI to automate the workflows and documentation required by FAA Safety Management System regulations for smaller operators. · flagged 2026-07-21 · last checked 2026-07-21 · [origin memo](trends/2026-07-21.md)
+- **AI-Powered Predictive Maintenance for Small Trucking Fleets** · Using AI to analyze telematics data to forecast mechanical failures and automate maintenance workflows for owner-operators. · flagged 2026-07-21 · last checked 2026-07-21 · [origin memo](trends/2026-07-21.md)
+- **AI-Automated Quality System Documentation for Medical Devices** · Using AI to automate the creation and management of Quality Management System (QMS) documents required for FDA approval. · flagged 2026-07-21 · last checked 2026-07-21 · [origin memo](trends/2026-07-21.md)
 
 
 ## ➡️ Active — plateauing
@@ -382,3 +385,5 @@ _(empty)_
 <!-- 2026-07-19 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-07-20 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-07-21 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
