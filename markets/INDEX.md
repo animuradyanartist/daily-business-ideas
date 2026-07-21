@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Part 135 Air Charter Operator Compliance Software | us-part-135-air-charter-compliance-software | 2026-07-21 | 98 | The Part 135 Air Charter Operator's "FAA Ramp Check-Ready" Digital Binder |
 | US SMB General Contractor Compliance Software | us-smb-general-contractor-compliance-software | 2026-07-20 | 97 | The General Contractor's "lien waiver" collection & tracking hub |
 | US SMB Importer ISF Compliance Software | us-smb-importer-isf-compliance-software | 2026-07-19 | 98 | The US importer's "ISF (10+2) filing" assistant |
 | US SMB CRO & Biotech eTMF Software | us-smb-cro-biotech-etmf-software | 2026-07-18 | 98 | The small CRO's "FDA audit-ready" eTMF |

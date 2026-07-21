@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-21
+- **The Restaurant's "Health Inspection-Ready" Compliance Log** — Killed. The cost of failure (fine, temporary shutdown) is high, but less existentially catastrophic than an FAA certificate revocation. The buyer is also less capitalized.
+- **The Amazon FBA Seller's "Safety & Compliance Document" Vault** — Killed. A very strong contender, but the platform risk is immense. Amazon controls the entire ecosystem and can change requirements or build its own solution at any time.
+- **The Independent Pharmacy's "DEA Compliance" Log** — Killed. A strong compliance pain, but the market is subject to heavy regulation beyond simple document tracking, and the risk of dispensing incorrect legal/medical advice is too high.
+
 ## 2026-07-20
 - **The Independent Auto Repair Shop's "Multi-Supplier Parts Ordering" Dashboard** — Killed. This is an efficiency play (a vitamin). The pain of toggling websites is an annoyance, not a catastrophic business risk like a mechanic's lien.
 - **The Wedding Photographer's "Post-Production" Workflow Hub** — Killed. The buyer is a solo creator with lower, more discretionary spending. The pain is burnout and time, not a direct, high-stakes financial loss.
