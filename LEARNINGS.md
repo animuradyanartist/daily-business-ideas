@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-22
+-   A hard regulatory deadline that expands the scope of a rule to a new class of businesses is one of the most powerful "Why Now" signals for a B2B software idea.
+-   For SMBs with thin margins, the most compelling value proposition is not "make more money" but "prevent a catastrophic loss you didn't even know you were at risk for."
+-   The existence of both expensive enterprise incumbents and cheap, focused upstarts is a strong signal of a healthy market with a clear gap for a well-designed product in the middle.
+-   In a technician-constrained industry, any tool that saves field time has a dual value proposition: compliance *and* productivity.
+
 ## 2026-07-21 (trends)
 -   The most potent B2B SaaS ideas target a legally-mandated role (like a Director of Operations) whose entire job is to prevent a specific, catastrophic failure.
 -   A public, government-maintained list of all potential customers (like the FAA's Part 135 operator list) is a massive GTM advantage that dramatically de-risks customer acquisition.

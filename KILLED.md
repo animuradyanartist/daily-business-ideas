@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-22
+-   **The Restaurant's "Grease Trap Compliance" Logbook:** Killed. The fines ($500-$10,000) are an order of magnitude smaller than the EPA fines, making the pain less existential.
+-   **The Small Manufacturer's "OSHA Lockout/Tagout" Procedure Hub:** Killed. A strong contender, but the pain feels more complex to onboard (documenting every machine) versus the more transactional nature of logging refrigerant use. The HVAC idea has a clearer, more urgent "why now" catalyst.
+-   **The Data Center's "UPS Maintenance" Log:** Killed. The buyer is more sophisticated and the market is more concentrated than the highly fragmented HVAC market.
+-   **The Commercial Property Manager's "Fire Extinguisher Inspection" Tracker:** Killed. While a compliance task, the cost of failure is less direct and immediate than a specific EPA fine tied to revenue-generating activity.
+
 ## 2026-07-21
 - **The Restaurant's "Health Inspection-Ready" Compliance Log** — Killed. The cost of failure (fine, temporary shutdown) is high, but less existentially catastrophic than an FAA certificate revocation. The buyer is also less capitalized.
 - **The Amazon FBA Seller's "Safety & Compliance Document" Vault** — Killed. A very strong contender, but the platform risk is immense. Amazon controls the entire ecosystem and can change requirements or build its own solution at any time.
