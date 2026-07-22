@@ -228,6 +228,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Aviation Safety Management Systems (SMS)** · Using AI to automate the workflows and documentation required by FAA Safety Management System regulations for smaller operators. · flagged 2026-07-21 · last checked 2026-07-21 · [origin memo](trends/2026-07-21.md)
 - **AI-Powered Predictive Maintenance for Small Trucking Fleets** · Using AI to analyze telematics data to forecast mechanical failures and automate maintenance workflows for owner-operators. · flagged 2026-07-21 · last checked 2026-07-21 · [origin memo](trends/2026-07-21.md)
 - **AI-Automated Quality System Documentation for Medical Devices** · Using AI to automate the creation and management of Quality Management System (QMS) documents required for FDA approval. · flagged 2026-07-21 · last checked 2026-07-21 · [origin memo](trends/2026-07-21.md)
+- **AI-Automated Operations for Independent Auto Repair Shops** · Using AI platforms to automate customer intake, scheduling, communication, and diagnostics for independent auto shops. · flagged 2026-07-22 · last checked 2026-07-22 · [origin memo](trends/2026-07-22.md)
+- **AI-Automated Building Code & Permit Compliance** · Using AI to automatically check building plans for code compliance and design errors. · flagged 2026-07-22 · last checked 2026-07-22 · [origin memo](trends/2026-07-22.md)
+- **AI-Automated Grant Compliance & Post-Award Reporting** · Using AI platforms to automate the tracking and reporting required after a non-profit receives grant funding. · flagged 2026-07-22 · last checked 2026-07-22 · [origin memo](trends/2026-07-22.md)
 
 
 ## ➡️ Active — plateauing
@@ -387,3 +390,5 @@ _(empty)_
 <!-- 2026-07-20 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-07-21 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
+
+<!-- 2026-07-22 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
