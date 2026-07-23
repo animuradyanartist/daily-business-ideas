@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-23 (trends)
+- A single, dominant channel partner (like Walmart) can create a more powerful and urgent forcing function than a government regulator by tying compliance directly to revenue.
+- When a federal compliance deadline is extended, the immediate reaction might be to de-prioritize the opportunity. The correct move is to check if key commercial players in the ecosystem are enforcing their own, earlier deadlines.
+- The best wedge into a market with complex ERPs is often a simple, single-purpose tool that solves an acute, externally-imposed compliance problem that the ERPs are too slow to address.
+- The "real" deadline isn't when the government says you'll be fined, it's when your biggest customer says they'll stop paying you.
+
+---
+
 ## 2026-07-23
 *   A single, dominant channel partner (like Walmart) can create a more powerful and urgent forcing function than a government regulator by tying compliance directly to revenue.
 *   When a federal compliance deadline is extended, the immediate reaction might be to de-prioritize the opportunity. The correct move is to check if key commercial players in the ecosystem are enforcing their own, earlier deadlines.

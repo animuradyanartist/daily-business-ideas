@@ -231,6 +231,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Independent Auto Repair Shops** · Using AI platforms to automate customer intake, scheduling, communication, and diagnostics for independent auto shops. · flagged 2026-07-22 · last checked 2026-07-22 · [origin memo](trends/2026-07-22.md)
 - **AI-Automated Building Code & Permit Compliance** · Using AI to automatically check building plans for code compliance and design errors. · flagged 2026-07-22 · last checked 2026-07-22 · [origin memo](trends/2026-07-22.md)
 - **AI-Automated Grant Compliance & Post-Award Reporting** · Using AI platforms to automate the tracking and reporting required after a non-profit receives grant funding. · flagged 2026-07-22 · last checked 2026-07-22 · [origin memo](trends/2026-07-22.md)
+- **AI-Automated Food Traceability for Retailer Mandates** · Using AI platforms to meet retailer-enforced supply chain traceability rules that precede government deadlines. · flagged 2026-07-23 · last checked 2026-07-23 · [origin memo](trends/2026-07-23.md)
+- **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-07-23 · last checked 2026-07-23 · [origin memo](trends/2026-07-23.md)
+- **AI-Automated Medical Device Post-Market Surveillance** · Using AI to automate the analysis of real-world data for monitoring the safety and performance of medical devices. · flagged 2026-07-23 · last checked 2026-07-23 · [origin memo](trends/2026-07-23.md)
 
 
 ## ➡️ Active — plateauing
@@ -392,3 +395,5 @@ _(empty)_
 <!-- 2026-07-21 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
 
 <!-- 2026-07-22 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
+
+<!-- 2026-07-23 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
