@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-07-23 | The small-batch food producer's "lot code & recall readiness" system |
 | 98 | high | 2026-07-22 | The HVAC contractor's "EPA AIM Act-Ready" compliance log |
 | 98 | high | 2026-07-21 | The Part 135 Air Charter Operator's "FAA Ramp Check-Ready" Digital Binder |
 | 98 | high | 2026-07-19 | The US importer's "ISF (10+2) filing" assistant |

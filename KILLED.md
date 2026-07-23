@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-23
+*   **The process server's "affidavit of service" generator:** Killed. A valid pain, but the financial cost of failure is less direct and catastrophic than losing a multi-million dollar retail contract.
+*   **The medical courier's "chain of custody" log:** Killed. Strong contender, but the market feels more concentrated and the compliance requirements are contractual, not industry-wide mandates from a dominant player like Walmart.
+*   **The tech employee's equity compensation planner:** Killed. This is a "nice to have" optimization tool for individuals, not a "must-have" compliance tool for a business facing an existential threat.
+*   **The commercial drone operator's "FAA compliance & flight log" hub:** Killed. Similar compliance pattern, but the market is smaller and less mature than food production.
+
 ## 2026-07-22
 -   **The Restaurant's "Grease Trap Compliance" Logbook:** Killed. The fines ($500-$10,000) are an order of magnitude smaller than the EPA fines, making the pain less existential.
 -   **The Small Manufacturer's "OSHA Lockout/Tagout" Procedure Hub:** Killed. A strong contender, but the pain feels more complex to onboard (documenting every machine) versus the more transactional nature of logging refrigerant use. The HVAC idea has a clearer, more urgent "why now" catalyst.
