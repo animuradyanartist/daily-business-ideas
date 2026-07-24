@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Boutique Architecture Firm Construction Administration Software | us-boutique-architecture-firm-construction-admin-software | 2026-07-24 | 96 | The boutique architecture firm's "submittal & RFI" tracker |
 | US SMB Food Producer FSMA Compliance Software | us-smb-food-producer-fsma-compliance-software | 2026-07-23 | 98 | The small-batch food producer's "lot code & recall readiness" system |
 | US HVAC Contractor EPA Compliance Software | us-hvac-contractor-epa-compliance-software | 2026-07-22 | 98 | The HVAC contractor's "EPA AIM Act-Ready" compliance log |
 | US Part 135 Air Charter Operator Compliance Software | us-part-135-air-charter-compliance-software | 2026-07-21 | 98 | The Part 135 Air Charter Operator's "FAA Ramp Check-Ready" Digital Binder |

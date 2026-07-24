@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-24
+*   **The Independent Vineyard's Pesticide Spray Log & Reporting Tool:** Killed. A strong compliance pain, but the market size (number of vineyards) is significantly smaller than the number of boutique architecture firms.
+*   **The Event Venue's "Approved Vendor" & Insurance Certificate (COI) Tracking Hub:** Killed. The pain is liability management, which is strong, but the cost of failure is less direct and frequent than construction project delays.
+*   **The Mobile Auto Detailer's Recurring Client & Route Optimization Tool:** Killed. This is an efficiency play (a vitamin), not a tool to mitigate a high-stakes financial or legal risk (a painkiller).
+*   **The Podcast Production Agency's Client Asset & Approval Portal:** Killed. The buyer is less capitalized and the pain is operational annoyance, not a catastrophic business risk.
+
 ## 2026-07-23
 *   **The process server's "affidavit of service" generator:** Killed. A valid pain, but the financial cost of failure is less direct and catastrophic than losing a multi-million dollar retail contract.
 *   **The medical courier's "chain of custody" log:** Killed. Strong contender, but the market feels more concentrated and the compliance requirements are contractual, not industry-wide mandates from a dominant player like Walmart.

@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-24
+*   The most attractive market structures often feature a dominant, expensive incumbent that structurally cannot serve the long tail of the market, creating a permanent gap for a focused competitor.
+*   For professional services firms, the most potent value proposition is often not "make more money" but "prevent a catastrophic liability that could bankrupt you."
+*   A fragmented market of many small buyers is a feature, not a bug, if the product can be sold through a low-touch, marketing-driven acquisition model.
+*   The "real" competitor is often not another piece of software, but a "good enough" manual process like a spreadsheet. The product must be 10x better not just in features, but in reducing risk or saving time.
+
 ## 2026-07-23 (trends)
 - A single, dominant channel partner (like Walmart) can create a more powerful and urgent forcing function than a government regulator by tying compliance directly to revenue.
 - When a federal compliance deadline is extended, the immediate reaction might be to de-prioritize the opportunity. The correct move is to check if key commercial players in the ecosystem are enforcing their own, earlier deadlines.
