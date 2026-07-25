@@ -237,6 +237,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Financial Spreading** · Using AI to automate the extraction of data from financial statements for commercial credit analysis. · flagged 2026-07-24 · last checked 2026-07-24 · [origin memo](trends/2026-07-24.md)
 - **AI-Automated Clinical Trial Documentation** · Using AI to automate the management and quality control of electronic Trial Master File (eTMF) documents. · flagged 2026-07-24 · last checked 2026-07-24 · [origin memo](trends/2026-07-24.md)
 - **AI-Automated Government Proposal Automation** · Using purpose-built AI platforms to automate the creation of proposals for government contracts. · flagged 2026-07-24 · last checked 2026-07-24 · [origin memo](trends/2026-07-24.md)
+- **AI-Powered Compliance Monitoring for Insurance Agents** · Using AI to automatically monitor agent-client communications for regulatory and E&O compliance. · flagged 2026-07-25 · last checked 2026-07-25 · [origin memo](trends/2026-07-25.md)
+- **AI-Automated Revenue Cycle Management for Private Practices** · Using AI to automate the full insurance billing and collections workflow for small healthcare practices. · flagged 2026-07-25 · last checked 2026-07-25 · [origin memo](trends/2026-07-25.md)
+- **AI Co-pilots for Family Caregivers** · Using AI-powered apps to help family members coordinate and manage elder care. · flagged 2026-07-25 · last checked 2026-07-25 · [origin memo](trends/2026-07-25.md)
 
 
 ## ➡️ Active — plateauing
@@ -402,3 +405,5 @@ _(empty)_
 <!-- 2026-07-23 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-07-24 status-update directive: 🚀 | AI-Generated Business Presentations -->
+
+<!-- 2026-07-25 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
