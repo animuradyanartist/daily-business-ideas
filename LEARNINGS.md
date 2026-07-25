@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-25
+*   The most powerful forcing function for B2B software adoption is often not a government regulator, but a private insurance underwriter who controls the target customer's ability to operate.
+*   A market's "slowness" to adopt technology can be a feature, not a bug, if it means the market is underserved by modern, user-friendly tools and incumbents are complacent.
+*   The value of a compliance tool can be effectively anchored against the cost of the insurance premium designed to protect against that same risk. A price of 5-10% of the premium feels like an inexpensive way to make the insurance more effective.
+
 ## 2026-07-24 (trends)
 -   The most attractive market structures often feature a dominant, expensive incumbent that structurally cannot serve the long tail of the market, creating a permanent gap for a focused competitor.
 -   For professional services firms, the most potent value proposition is often not "make more money" but "prevent a catastrophic liability that could bankrupt you."

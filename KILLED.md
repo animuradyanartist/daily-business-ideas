@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-25
+*   **The US exporter's "AES filing" assistant** — Killed. This is a strong idea, but it is a direct mirror of the "ISF filing" idea from 07-19. It lacks novelty and doesn't deepen the system's knowledge base in a new market vertical.
+*   **The Managed Service Provider's (MSP) "client offboarding" security checklist** — Killed. A strong liability pain, but the market feels smaller and the catastrophic event (a breach post-termination) feels less frequent and directly attributable than an E&O claim against an insurance agent.
+*   **The commercial real estate broker's "commission agreement" tracker** — Killed. The pain is getting paid, which is strong, but it's a cash flow issue, not an existential liability threat on the same level as an E&O lawsuit.
+
 ## 2026-07-24
 *   **The Independent Vineyard's Pesticide Spray Log & Reporting Tool:** Killed. A strong compliance pain, but the market size (number of vineyards) is significantly smaller than the number of boutique architecture firms.
 *   **The Event Venue's "Approved Vendor" & Insurance Certificate (COI) Tracking Hub:** Killed. The pain is liability management, which is strong, but the cost of failure is less direct and frequent than construction project delays.
