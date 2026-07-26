@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-26 (trends)
+- A mature market with established enterprise players can be a strong positive signal; their existence validates the pain and willingness-to-pay, while their high-touch sales models often create a structural opening to serve the long tail with a self-service product.
+- The most potent "Why Now?" drivers are often shifts in the customer's own business environment (like rising operational costs) that force them to seek new efficiencies, creating demand for automation.
+- The "jack-of-all-trades" feature set of large, all-in-one platforms can be a weakness; a focused, standalone tool can win by solving one critical problem with a 10x better user experience and workflow.
+
+---
+
 ## 2026-07-26
 - A mature market with established enterprise players can be a strong positive signal; their existence validates the pain and willingness-to-pay, while their high-touch sales models often create a structural opening to serve the long tail with a self-service product.
 - The most potent "Why Now?" drivers are often shifts in the customer's own business environment (like rising operational costs) that force them to seek new efficiencies, creating demand for automation.

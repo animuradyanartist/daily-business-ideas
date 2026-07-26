@@ -240,6 +240,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Compliance Monitoring for Insurance Agents** · Using AI to automatically monitor agent-client communications for regulatory and E&O compliance. · flagged 2026-07-25 · last checked 2026-07-25 · [origin memo](trends/2026-07-25.md)
 - **AI-Automated Revenue Cycle Management for Private Practices** · Using AI to automate the full insurance billing and collections workflow for small healthcare practices. · flagged 2026-07-25 · last checked 2026-07-25 · [origin memo](trends/2026-07-25.md)
 - **AI Co-pilots for Family Caregivers** · Using AI-powered apps to help family members coordinate and manage elder care. · flagged 2026-07-25 · last checked 2026-07-25 · [origin memo](trends/2026-07-25.md)
+- **AI-Automated Prime Cost Control for Restaurants** · Using AI to automate the management of food and labor costs by connecting POS and supplier data. · flagged 2026-07-26 · last checked 2026-07-26 · [origin memo](trends/2026-07-26.md)
+- **AI-Powered "Voice of the Customer" Synthesis for Product Teams** · Using AI to automate the analysis of customer feedback from disparate sources like support tickets, reviews, and sales calls. · flagged 2026-07-26 · last checked 2026-07-26 · [origin memo](trends/2026-07-26.md)
+- **AI-Automated Cybersecurity Compliance for SMBs** · Using AI platforms to automate achieving and maintaining compliance with standards like CMMC, SOC 2, and HIPAA. · flagged 2026-07-26 · last checked 2026-07-26 · [origin memo](trends/2026-07-26.md)
 
 
 ## ➡️ Active — plateauing
@@ -407,3 +410,5 @@ _(empty)_
 <!-- 2026-07-24 status-update directive: 🚀 | AI-Generated Business Presentations -->
 
 <!-- 2026-07-25 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
+
+<!-- 2026-07-26 status-update directive: 🚀 | AI-Powered Upselling for Freelancers -->
