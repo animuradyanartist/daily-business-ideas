@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Commercial Property Management COI Compliance Software | us-commercial-property-management-coi-compliance-software | 2026-07-26 | 93 | The commercial property manager's "tenant COI" tracker |
 | US Independent Insurance Agency E&O Compliance Software | us-independent-insurance-agency-eo-compliance-software | 2026-07-25 | 98 | The independent insurance agency's "E&O audit-ready" file |
 | US Boutique Architecture Firm Construction Administration Software | us-boutique-architecture-firm-construction-admin-software | 2026-07-24 | 96 | The boutique architecture firm's "submittal & RFI" tracker |
 | US SMB Food Producer FSMA Compliance Software | us-smb-food-producer-fsma-compliance-software | 2026-07-23 | 98 | The small-batch food producer's "lot code & recall readiness" system |

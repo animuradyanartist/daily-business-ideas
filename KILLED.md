@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-26
+- **The Pest Control Operator's "Defensible Quoting" Tool** — Killed. Solves a revenue/dispute problem, which is strong, but less of an existential liability risk than the COI tracker. The pain is less severe.
+- **The Small Non-Profit's "Grant Reporting" Assistant** — Killed. Addresses a critical funding risk, but the buyer is less capitalized and the market is smaller than commercial property management.
+- **The Landscaper's "Route & Subscription" Optimizer** — Killed. This is an efficiency play (a vitamin), not a tool to mitigate a high-stakes financial or legal risk (a painkiller).
+
 ## 2026-07-25
 *   **The US exporter's "AES filing" assistant** — Killed. This is a strong idea, but it is a direct mirror of the "ISF filing" idea from 07-19. It lacks novelty and doesn't deepen the system's knowledge base in a new market vertical.
 *   **The Managed Service Provider's (MSP) "client offboarding" security checklist** — Killed. A strong liability pain, but the market feels smaller and the catastrophic event (a breach post-termination) feels less frequent and directly attributable than an E&O claim against an insurance agent.

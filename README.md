@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-26 — The commercial property manager's "tenant COI" tracker — 93/100 high
 - 2026-07-25 — trend forecast — AI-Powered Compliance Monitoring for Insurance Agents +2 more
 - 2026-07-25 — The independent insurance agency's "E&O audit-ready" file — 98/100 high
 - 2026-07-24 — trend forecast — AI-Automated Financial Spreading for Commercial Lending +2 more
