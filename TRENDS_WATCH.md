@@ -243,6 +243,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Prime Cost Control for Restaurants** · Using AI to automate the management of food and labor costs by connecting POS and supplier data. · flagged 2026-07-26 · last checked 2026-07-26 · [origin memo](trends/2026-07-26.md)
 - **AI-Powered "Voice of the Customer" Synthesis for Product Teams** · Using AI to automate the analysis of customer feedback from disparate sources like support tickets, reviews, and sales calls. · flagged 2026-07-26 · last checked 2026-07-26 · [origin memo](trends/2026-07-26.md)
 - **AI-Automated Cybersecurity Compliance for SMBs** · Using AI platforms to automate achieving and maintaining compliance with standards like CMMC, SOC 2, and HIPAA. · flagged 2026-07-26 · last checked 2026-07-26 · [origin memo](trends/2026-07-26.md)
+- **AI-Automated Controlled Substance Compliance for Veterinarians** · Using specialized software to automate the logging and reconciliation of controlled substances for DEA and state-level compliance. · flagged 2026-07-27 · last checked 2026-07-27 · [origin memo](trends/2026-07-27.md)
+- **AI-Powered Music Rights & Royalty Administration** · Using AI platforms to manage copyright, analyze royalty statements, and track ownership of AI-influenced music. · flagged 2026-07-27 · last checked 2026-07-27 · [origin memo](trends/2026-07-27.md)
+- **AI-Powered "Digital Twin" for Personal Finance** · Using AI to create dynamic, virtual simulations of a person's financial life to model the long-term impact of decisions. · flagged 2026-07-27 · last checked 2026-07-27 · [origin memo](trends/2026-07-27.md)
 
 
 ## ➡️ Active — plateauing
@@ -412,3 +415,5 @@ _(empty)_
 <!-- 2026-07-25 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
 
 <!-- 2026-07-26 status-update directive: 🚀 | AI-Powered Upselling for Freelancers -->
+
+<!-- 2026-07-27 status-update directive: 🚀 | AI-Generated Portfolio Case Studies -->
