@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-27
+- **The Automotive Repair Shop's "EPA 609" Refrigerant Log** — Killed. A strong pattern match, but the existential threat (loss of license, criminal charges) for vets is more acute than the financial fines for auto shops.
+- **The Small Construction Subcontractor's "OSHA Toolbox Talk" Documentation System** — Killed. A huge market, but the pain feels less concentrated. An OSHA fine or lawsuit is a risk, but it's one of many. The DEA risk for a vet is a singular, terrifying threat.
+- **The Small Food Importer's "FSVP Compliance" Portal** — Killed. Strong pain around detained shipments, but the workflow feels more like complex project management than a simple, repeatable daily log.
+- **The Independent Pharmacy's "Compounding Log" for FDA/BoP Compliance** — Killed. Very similar pain, but the market is dominated by a few powerful software incumbents, making the wedge for a new entrant much smaller.
+
 ## 2026-07-26
 - **The Pest Control Operator's "Defensible Quoting" Tool** — Killed. Solves a revenue/dispute problem, which is strong, but less of an existential liability risk than the COI tracker. The pain is less severe.
 - **The Small Non-Profit's "Grant Reporting" Assistant** — Killed. Addresses a critical funding risk, but the buyer is less capitalized and the market is smaller than commercial property management.

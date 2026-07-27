@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Veterinary Clinic DEA Compliance Software | us-veterinary-clinic-dea-compliance-software | 2026-07-27 | 98 | The veterinary clinic's "DEA audit-ready" controlled substance log |
 | US Commercial Property Management COI Compliance Software | us-commercial-property-management-coi-compliance-software | 2026-07-26 | 93 | The commercial property manager's "tenant COI" tracker |
 | US Independent Insurance Agency E&O Compliance Software | us-independent-insurance-agency-eo-compliance-software | 2026-07-25 | 98 | The independent insurance agency's "E&O audit-ready" file |
 | US Boutique Architecture Firm Construction Administration Software | us-boutique-architecture-firm-construction-admin-software | 2026-07-24 | 96 | The boutique architecture firm's "submittal & RFI" tracker |

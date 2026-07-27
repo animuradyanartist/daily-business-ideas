@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-27
+- The most powerful B2B pains often involve a combination of financial risk, professional licensing risk, and potential criminal charges. The "loss of license" threat is a more potent motivator than a simple fine.
+- A market with existing high-end hardware solutions (like $20k+ dispensing cabinets) is a strong signal that a lower-cost, pure software solution can capture the long tail of the market.
+- The "good enough" feature within a large, incumbent platform is often the ideal competitor. It validates the need but is rarely good enough to stop a focused, superior point solution from winning.
+- The perceived severity of a risk is often more important than its statistical frequency. While DEA audits may not happen to every clinic every year, the fear of a catastrophic outcome drives purchasing decisions.
+
 ## 2026-07-26 (trends)
 - A mature market with established enterprise players can be a strong positive signal; their existence validates the pain and willingness-to-pay, while their high-touch sales models often create a structural opening to serve the long tail with a self-service product.
 - The most potent "Why Now?" drivers are often shifts in the customer's own business environment (like rising operational costs) that force them to seek new efficiencies, creating demand for automation.
