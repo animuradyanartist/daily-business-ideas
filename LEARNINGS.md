@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-28 (trends)
+- The most powerful forcing function for a B2B tool is often not a regulator, but a powerful private entity (like an insurance carrier or a general contractor) that controls the buyer's revenue or job site access.
+- In fragmented service markets with a powerful payer, the key value proposition is not just efficiency, but revenue defense. Software that helps the small business get paid what they are owed for work already completed is a top-tier painkiller.
+- A "good enough" manual process (like a spreadsheet or paper log) is the primary competitor for many vertical SaaS tools. The product must win by providing a 10x improvement in accuracy, auditability, and speed to defeat the inertia of the existing workflow.
+
+---
+
 ## 2026-07-28
 - The most powerful forcing function for a B2B tool is often not a regulator, but a powerful private entity (like an insurance carrier or a major retailer) that controls the buyer's revenue.
 - In fragmented service markets with a powerful payer, the key value proposition is not efficiency, but revenue defense. Software that helps the small business get paid what they are owed is a top-tier painkiller.

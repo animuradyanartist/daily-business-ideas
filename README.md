@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-28 — trend forecast — AI-Automated Insurance Claims Documentation for Contractors +2 more
 - 2026-07-28 — The water damage restoration contractor's "get paid by insurance" evidence locker — 98/100 high
 - 2026-07-27 — trend forecast — AI-Automated Controlled Substance Compliance for Veterinarians +2 more
 - 2026-07-27 — The veterinary clinic's "DEA audit-ready" controlled substance log — 98/100 high

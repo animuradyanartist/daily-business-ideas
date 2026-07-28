@@ -246,6 +246,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Controlled Substance Compliance for Veterinarians** · Using specialized software to automate the logging and reconciliation of controlled substances for DEA and state-level compliance. · flagged 2026-07-27 · last checked 2026-07-27 · [origin memo](trends/2026-07-27.md)
 - **AI-Powered Music Rights & Royalty Administration** · Using AI platforms to manage copyright, analyze royalty statements, and track ownership of AI-influenced music. · flagged 2026-07-27 · last checked 2026-07-27 · [origin memo](trends/2026-07-27.md)
 - **AI-Powered "Digital Twin" for Personal Finance** · Using AI to create dynamic, virtual simulations of a person's financial life to model the long-term impact of decisions. · flagged 2026-07-27 · last checked 2026-07-27 · [origin memo](trends/2026-07-27.md)
+- **AI-Automated Insurance Claims Documentation for Contractors** · Using AI to analyze photos and generate detailed reports to get paid by insurance carriers. · flagged 2026-07-28 · last checked 2026-07-28 · [origin memo](trends/2026-07-28.md)
+- **AI-Powered Subcontractor Management for General Contractors** · Using AI platforms to automate compliance tracking, communication, and risk management for subcontractors. · flagged 2026-07-28 · last checked 2026-07-28 · [origin memo](trends/2026-07-28.md)
+- **AI-Automated Collision Repair Estimating** · Using AI to analyze photos of vehicle damage and generate accurate repair estimates. · flagged 2026-07-28 · last checked 2026-07-28 · [origin memo](trends/2026-07-28.md)
 
 
 ## ➡️ Active — plateauing
@@ -417,3 +420,5 @@ _(empty)_
 <!-- 2026-07-26 status-update directive: 🚀 | AI-Powered Upselling for Freelancers -->
 
 <!-- 2026-07-27 status-update directive: 🚀 | AI-Generated Portfolio Case Studies -->
+
+<!-- 2026-07-28 status-update directive: 🚀 | Conversational AI Language Tutors -->
