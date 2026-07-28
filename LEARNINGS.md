@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-28
+- The most powerful forcing function for a B2B tool is often not a regulator, but a powerful private entity (like an insurance carrier or a major retailer) that controls the buyer's revenue.
+- In fragmented service markets with a powerful payer, the key value proposition is not efficiency, but revenue defense. Software that helps the small business get paid what they are owed is a top-tier painkiller.
+- A "good enough" horizontal tool (like CompanyCam) can validate a market's willingness to pay for a specific function (photo logging) while simultaneously creating the opportunity for a vertical-specific tool that does the complete job 10x better.
+
 ## 2026-07-27 (trends)
 - The most powerful B2B pains often involve a combination of financial risk, professional licensing risk, and potential criminal charges. The "loss of license" threat is a more potent motivator than a simple fine.
 - A market with existing high-end hardware solutions (like $20k+ dispensing cabinets) is a strong signal that a lower-cost, pure software solution can capture the long tail of the market.

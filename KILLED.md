@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-28
+- **The small law firm's "second request" eDiscovery appliance** — Killed. While the pain is real, the sales cycle into law firms is notoriously long and relationship-driven, making it difficult for a new entrant to gain traction quickly.
+- **The academic conference organizer's "call for papers & peer review" hub** — Killed. The buyer is often a temporary volunteer (the program chair) with limited budget authority, making for a difficult, recurring sales process for each event.
+- **The brewery's "TTB compliance" reporting tool** — Killed. A strong compliance pain, but the market size (number of breweries) is significantly smaller than the market for restoration contractors.
+
 ## 2026-07-27
 - **The Automotive Repair Shop's "EPA 609" Refrigerant Log** — Killed. A strong pattern match, but the existential threat (loss of license, criminal charges) for vets is more acute than the financial fines for auto shops.
 - **The Small Construction Subcontractor's "OSHA Toolbox Talk" Documentation System** — Killed. A huge market, but the pain feels less concentrated. An OSHA fine or lawsuit is a risk, but it's one of many. The DEA risk for a vet is a singular, terrifying threat.

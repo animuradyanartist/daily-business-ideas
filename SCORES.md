@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-07-28 | The water damage restoration contractor's "get paid by insurance" evidence locker |
 | 98 | high | 2026-07-27 | The veterinary clinic's "DEA audit-ready" controlled substance log |
 | 98 | high | 2026-07-25 | The independent insurance agency's "E&O audit-ready" file |
 | 98 | high | 2026-07-23 | The small-batch food producer's "lot code & recall readiness" system |
