@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Amazon FBA Seller Reimbursement Software | us-amazon-fba-seller-reimbursement-software | 2026-07-29 | 95 | The FBA seller's "get paid by Amazon" reimbursement claim preparer |
 | US Water Damage Restoration Contractor Software | us-water-damage-restoration-contractor-software | 2026-07-28 | 98 | The water damage restoration contractor's "get paid by insurance" evidence locker |
 | US Veterinary Clinic DEA Compliance Software | us-veterinary-clinic-dea-compliance-software | 2026-07-27 | 98 | The veterinary clinic's "DEA audit-ready" controlled substance log |
 | US Commercial Property Management COI Compliance Software | us-commercial-property-management-coi-compliance-software | 2026-07-26 | 93 | The commercial property manager's "tenant COI" tracker |

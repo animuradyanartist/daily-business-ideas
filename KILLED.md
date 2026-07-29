@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-29
+- **The small CNC machine shop's "scrap rate reduction" diagnostic tool** — Killed. An efficiency play (vitamin), not a tool to mitigate a high-stakes financial or payment risk (painkiller). The sale is about proving an ROI, not stopping a direct loss.
+- **The small importer's "demurrage & detention" avoidance dashboard** — Killed. A strong cost-avoidance pain, but the market is likely less digitally mature and harder to reach with a low-touch SaaS model than the hyper-concentrated Amazon seller ecosystem.
+- **The independent hotel's "OTA commission reconciliation" tool** — Killed. Similar pain structure (getting paid correctly by a powerful platform), but the market is smaller and dominated by large property management systems, making the wedge for a point solution harder to find.
+
 ## 2026-07-28
 - **The small law firm's "second request" eDiscovery appliance** — Killed. While the pain is real, the sales cycle into law firms is notoriously long and relationship-driven, making it difficult for a new entrant to gain traction quickly.
 - **The academic conference organizer's "call for papers & peer review" hub** — Killed. The buyer is often a temporary volunteer (the program chair) with limited budget authority, making for a difficult, recurring sales process for each event.

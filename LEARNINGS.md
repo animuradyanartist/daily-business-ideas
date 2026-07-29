@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-29
+-   Recent platform policy changes, even those that seem negative (like reduced reimbursement values), can be powerful "Why Now?" drivers if they increase complexity and the need for constant monitoring.
+-   A market leader's pricing model (e.g., GETIDA's 25% commission) can be the single most important anchor for a disruptor's value proposition. A flat-fee SaaS is a direct and easily understood counter-position.
+-   In a marketplace ecosystem, the most professional and successful segment of sellers often emerges as the best target customer, even if they are a numerical minority. They are more likely to invest in tools to protect their now-significant margins.
+
 ## 2026-07-28 (trends)
 - The most powerful forcing function for a B2B tool is often not a regulator, but a powerful private entity (like an insurance carrier or a general contractor) that controls the buyer's revenue or job site access.
 - In fragmented service markets with a powerful payer, the key value proposition is not just efficiency, but revenue defense. Software that helps the small business get paid what they are owed for work already completed is a top-tier painkiller.
