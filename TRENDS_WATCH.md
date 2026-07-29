@@ -249,6 +249,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Insurance Claims Documentation for Contractors** · Using AI to analyze photos and generate detailed reports to get paid by insurance carriers. · flagged 2026-07-28 · last checked 2026-07-28 · [origin memo](trends/2026-07-28.md)
 - **AI-Powered Subcontractor Management for General Contractors** · Using AI platforms to automate compliance tracking, communication, and risk management for subcontractors. · flagged 2026-07-28 · last checked 2026-07-28 · [origin memo](trends/2026-07-28.md)
 - **AI-Automated Collision Repair Estimating** · Using AI to analyze photos of vehicle damage and generate accurate repair estimates. · flagged 2026-07-28 · last checked 2026-07-28 · [origin memo](trends/2026-07-28.md)
+- **AI-Automated Amazon FBA Reimbursement Audits** · Using AI to automate the detection and filing of claims for lost and damaged FBA inventory. · flagged 2026-07-29 · last checked 2026-07-29 · [origin memo](trends/2026-07-29.md)
+- **AI-Powered "Pocket CFO" for SMBs** · Using AI platforms to automate cash flow forecasting and financial analysis for small businesses. · flagged 2026-07-29 · last checked 2026-07-29 · [origin memo](trends/2026-07-29.md)
+- **AI-Powered "Voice of the Customer" Synthesis** · Using AI to automate the analysis of customer feedback from disparate sources like support tickets, reviews, and sales calls. · flagged 2026-07-29 · last checked 2026-07-29 · [origin memo](trends/2026-07-29.md)
 
 
 ## ➡️ Active — plateauing
@@ -422,3 +425,5 @@ _(empty)_
 <!-- 2026-07-27 status-update directive: 🚀 | AI-Generated Portfolio Case Studies -->
 
 <!-- 2026-07-28 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-07-29 status-update directive: 🚀 | Conversational AI Language Tutors -->
