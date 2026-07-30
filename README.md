@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-07-30 — The Etsy seller's "true profit" dashboard — 79/100 medium
 - 2026-07-29 — trend forecast — AI-Automated Amazon FBA Reimbursement Audits +2 more
 - 2026-07-29 — The FBA seller's "get paid by Amazon" reimbursement claim preparer — 95/100 high
 - 2026-07-28 — trend forecast — AI-Automated Insurance Claims Documentation for Contractors +2 more

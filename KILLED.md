@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-30
+*   **The commercial cleaning operator's "profit-driven bidding" tool** — Killed. Strong B2B pain, but the sales cycle is likely longer and requires more direct outreach than the low-touch model possible with Etsy sellers.
+*   **The small job shop's "10-minute quote" generator** — Killed. Highest potential economic impact, but the technical complexity of building a reliable quoting engine for custom manufacturing is significantly higher than an API-based analytics tool.
+*   **The dental lab's "case tracker & dentist portal"** — Killed. A good B2B niche, but the market size is smaller and the distribution channels are less concentrated than the Etsy ecosystem.
+
 ## 2026-07-29
 - **The small CNC machine shop's "scrap rate reduction" diagnostic tool** — Killed. An efficiency play (vitamin), not a tool to mitigate a high-stakes financial or payment risk (painkiller). The sale is about proving an ROI, not stopping a direct loss.
 - **The small importer's "demurrage & detention" avoidance dashboard** — Killed. A strong cost-avoidance pain, but the market is likely less digitally mature and harder to reach with a low-touch SaaS model than the hyper-concentrated Amazon seller ecosystem.

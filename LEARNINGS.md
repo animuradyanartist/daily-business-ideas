@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-30
+*   A platform's own confusing pricing/fee structure can be the source of the core pain for its users, creating an opportunity for a third-party "truth layer."
+*   In prosumer markets, the biggest competitor is often a "good enough" manual process (like a spreadsheet). The product must win on speed, accuracy, and workflow integration, not just features.
+*   The line between a "vitamin" and a "painkiller" depends entirely on the user segment. For a hobbyist, profit tracking is a vitamin; for a business owner, it's a painkiller. The marketing and product must aggressively target the latter.
+
 ## 2026-07-29 (trends)
 -   Recent platform policy changes, even those that seem negative (like reduced reimbursement values), can be powerful "Why Now?" drivers if they increase complexity and the need for constant monitoring.
 -   A market leader's pricing model (e.g., GETIDA's 25% commission) can be the single most important anchor for a disruptor's value proposition. A flat-fee SaaS is a direct and easily understood counter-position.
