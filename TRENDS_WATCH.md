@@ -252,6 +252,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Amazon FBA Reimbursement Audits** · Using AI to automate the detection and filing of claims for lost and damaged FBA inventory. · flagged 2026-07-29 · last checked 2026-07-29 · [origin memo](trends/2026-07-29.md)
 - **AI-Powered "Pocket CFO" for SMBs** · Using AI platforms to automate cash flow forecasting and financial analysis for small businesses. · flagged 2026-07-29 · last checked 2026-07-29 · [origin memo](trends/2026-07-29.md)
 - **AI-Powered "Voice of the Customer" Synthesis** · Using AI to automate the analysis of customer feedback from disparate sources like support tickets, reviews, and sales calls. · flagged 2026-07-29 · last checked 2026-07-29 · [origin memo](trends/2026-07-29.md)
+- **AI-Powered Academic Integrity Monitoring** · Using AI to analyze writing styles and document histories to uphold academic integrity. · flagged 2026-07-30 · last checked 2026-07-30 · [origin memo](trends/2026-07-30.md)
+- **AI-Generated Personalized Learning for Children** · Using AI to create custom curricula and adaptive assessments for K-12 students. · flagged 2026-07-30 · last checked 2026-07-30 · [origin memo](trends/2026-07-30.md)
+- **AI-Assisted DIY Estate Planning** · Using AI-powered platforms for consumers to generate basic estate planning documents. · flagged 2026-07-30 · last checked 2026-07-30 · [origin memo](trends/2026-07-30.md)
 
 
 ## ➡️ Active — plateauing
@@ -427,3 +430,5 @@ _(empty)_
 <!-- 2026-07-28 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-07-29 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-07-30 status-update directive: 🚀 | AI-Structured Portfolio Generation -->

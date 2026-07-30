@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-30 (trends)
+-   For every process being automated by AI (writing papers, creating lesson plans), a counter-market is emerging for AI tools that ensure governance, integrity, and ethical use.
+-   The value proposition for consumer AI is shifting from solving discrete tasks to managing complex, high-anxiety life domains like parenting, education, and end-of-life planning.
+-   The "scaffolding kit" opportunity is robust. For every new AI platform, there is a secondary market for digital products that teach non-experts how to prepare their data and structure their inputs to get the best results from the tool.
+
+---
+
 ## 2026-07-30
 *   A platform's own confusing pricing/fee structure can be the source of the core pain for its users, creating an opportunity for a third-party "truth layer."
 *   In prosumer markets, the biggest competitor is often a "good enough" manual process (like a spreadsheet). The product must win on speed, accuracy, and workflow integration, not just features.
