@@ -255,6 +255,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Academic Integrity Monitoring** · Using AI to analyze writing styles and document histories to uphold academic integrity. · flagged 2026-07-30 · last checked 2026-07-30 · [origin memo](trends/2026-07-30.md)
 - **AI-Generated Personalized Learning for Children** · Using AI to create custom curricula and adaptive assessments for K-12 students. · flagged 2026-07-30 · last checked 2026-07-30 · [origin memo](trends/2026-07-30.md)
 - **AI-Assisted DIY Estate Planning** · Using AI-powered platforms for consumers to generate basic estate planning documents. · flagged 2026-07-30 · last checked 2026-07-30 · [origin memo](trends/2026-07-30.md)
+- **AI-Automated Customs Brokerage Workflows** · Using AI to automate data extraction and compliance checks for customs declarations. · flagged 2026-07-31 · last checked 2026-07-31 · [origin memo](trends/2026-07-31.md)
+- **AI-Powered Donor Intelligence for Non-Profits** · Using AI to analyze donor data, predict giving patterns, and automate personalized outreach. · flagged 2026-07-31 · last checked 2026-07-31 · [origin memo](trends/2026-07-31.md)
+- **AI-Powered Compliance Supervision for Financial Advisors** · Using AI to automatically monitor marketing and communications for regulatory compliance. · flagged 2026-07-31 · last checked 2026-07-31 · [origin memo](trends/2026-07-31.md)
 
 
 ## ➡️ Active — plateauing
@@ -432,3 +435,5 @@ _(empty)_
 <!-- 2026-07-29 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-07-30 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
+
+<!-- 2026-07-31 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
