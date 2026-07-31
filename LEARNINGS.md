@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-07-31
+*   The most powerful forcing function for a small B2B service provider is often the compliance demands of their large, enterprise-level customers. The small business buys software not because they want it, but because their client requires it.
+*   A viable strategy in a market with established, complex, all-in-one platforms is to unbundle a single, high-stakes, legally-mandated feature and sell it as a simple, affordable utility to the long tail.
+*   The "evidence locker" or "audit-ready log" is a repeatable pattern that applies to any industry where a small, fragmented provider must prove something to a large, powerful payer or regulator.
+
 ## 2026-07-30 (trends)
 -   For every process being automated by AI (writing papers, creating lesson plans), a counter-market is emerging for AI tools that ensure governance, integrity, and ethical use.
 -   The value proposition for consumer AI is shifting from solving discrete tasks to managing complex, high-anxiety life domains like parenting, education, and end-of-life planning.

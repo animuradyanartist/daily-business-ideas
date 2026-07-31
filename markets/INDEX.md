@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Independent Medical Courier Compliance Software | us-independent-medical-courier-compliance-software | 2026-07-31 | 98 | The independent medical courier's "chain of custody" evidence locker |
 | US Etsy Seller Profitability Software | us-etsy-seller-profitability-software | 2026-07-30 | 79 | The Etsy seller's "true profit" dashboard |
 | US Amazon FBA Seller Reimbursement Software | us-amazon-fba-seller-reimbursement-software | 2026-07-29 | 95 | The FBA seller's "get paid by Amazon" reimbursement claim preparer |
 | US Water Damage Restoration Contractor Software | us-water-damage-restoration-contractor-software | 2026-07-28 | 98 | The water damage restoration contractor's "get paid by insurance" evidence locker |

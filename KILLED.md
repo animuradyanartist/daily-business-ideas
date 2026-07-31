@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-07-31
+*   **The film/TV production accountant's "cost report" generator** — Killed. A strong B2B pain, but the market is likely more relationship-driven and harder to penetrate with a low-touch SaaS model compared to the fragmented courier market.
+*   **The geotechnical engineer's "defensible report" builder** — Killed. Excellent liability-driven pain, but the market size (number of small geo-tech firms) feels smaller and the software requirements (handling complex soil data, generating specific ASTM-compliant charts) seem more technically complex for an MVP.
+*   **The small event rental company's "inventory & booking" manager** — Killed. This is an efficiency play (vitamin), not a tool to mitigate a high-stakes legal or contractual risk (painkiller).
+
 ## 2026-07-30
 *   **The commercial cleaning operator's "profit-driven bidding" tool** — Killed. Strong B2B pain, but the sales cycle is likely longer and requires more direct outreach than the low-touch model possible with Etsy sellers.
 *   **The small job shop's "10-minute quote" generator** — Killed. Highest potential economic impact, but the technical complexity of building a reliable quoting engine for custom manufacturing is significantly higher than an API-based analytics tool.
