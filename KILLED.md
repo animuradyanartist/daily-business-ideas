@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-01
+- **The short-term rental cleaner's "proof of work & damage" portal** — Killed. A good pain, but the buyer (the cleaner) has less purchasing power than a property manager. The value is protecting reputation, which is less tangible than avoiding a direct, multi-thousand-dollar lawsuit.
+- **The freelance grant writer's "deadline & deliverable" tracker** — Killed. The market size is significantly smaller (~10.5k grant writers, with only 10-20% being freelancers). While the pain is real, the addressable market is too niche compared to property management.
+- **The independent auto repair shop's "live parts margin" calculator** — Killed. This is an efficiency/profit-optimization tool (a vitamin), not a tool to mitigate a high-stakes legal or financial risk (a painkiller). The sale is harder as it requires proving ROI rather than preventing a clear loss.
+
 ## 2026-07-31
 *   **The film/TV production accountant's "cost report" generator** — Killed. A strong B2B pain, but the market is likely more relationship-driven and harder to penetrate with a low-touch SaaS model compared to the fragmented courier market.
 *   **The geotechnical engineer's "defensible report" builder** — Killed. Excellent liability-driven pain, but the market size (number of small geo-tech firms) feels smaller and the software requirements (handling complex soil data, generating specific ASTM-compliant charts) seem more technically complex for an MVP.

@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-01
+- A viable wedge against large, all-in-one platforms is to unbundle a single, legally-consequential workflow and build a purpose-built tool that does that one job better than the generic incumbent feature.
+- The most compelling value proposition is often "low-cost insurance" against a low-frequency, high-consequence event.
+- A fragmented market of small business owners (like property managers) is structurally attractive because they are accessible via digital channels and lack individual buying power.
+- The "evidence locker" pattern is robust and can be applied not just to regulatory compliance (DEA, FAA) but also to civil disputes (landlord-tenant).
+
 ## 2026-07-31 (trends)
 - The most powerful forcing function for a small B2B service provider is often the compliance demands of their large, enterprise-level customers. The small business buys software not because they want it, but because their client requires it.
 - A viable strategy in a market with established, complex, all-in-one platforms is to unbundle a single, high-stakes, legally-mandated feature and sell it as a simple, affordable utility to the long tail.
