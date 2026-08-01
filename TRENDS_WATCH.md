@@ -258,6 +258,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Customs Brokerage Workflows** · Using AI to automate data extraction and compliance checks for customs declarations. · flagged 2026-07-31 · last checked 2026-07-31 · [origin memo](trends/2026-07-31.md)
 - **AI-Powered Donor Intelligence for Non-Profits** · Using AI to analyze donor data, predict giving patterns, and automate personalized outreach. · flagged 2026-07-31 · last checked 2026-07-31 · [origin memo](trends/2026-07-31.md)
 - **AI-Powered Compliance Supervision for Financial Advisors** · Using AI to automatically monitor marketing and communications for regulatory compliance. · flagged 2026-07-31 · last checked 2026-07-31 · [origin memo](trends/2026-07-31.md)
+- **AI-Automated Operations for Small Landlords** · Using affordable AI platforms to automate the full rental lifecycle, from leasing to maintenance and collections. · flagged 2026-08-01 · last checked 2026-08-01 · [origin memo](trends/2026-08-01.md)
+- **AI-Automated Lease Abstraction for Real Estate** · Using AI to automatically extract key financial and legal clauses from complex lease documents. · flagged 2026-08-01 · last checked 2026-08-01 · [origin memo](trends/2026-08-01.md)
+- **AI-Powered Tenant Communication Automation** · Using AI virtual assistants to handle routine tenant inquiries and maintenance requests 24/7. · flagged 2026-08-01 · last checked 2026-08-01 · [origin memo](trends/2026-08-01.md)
 
 
 ## ➡️ Active — plateauing
@@ -437,3 +440,5 @@ _(empty)_
 <!-- 2026-07-30 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
 
 <!-- 2026-07-31 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-08-01 status-update directive: 🚀 | AI as a Thought Partner -->
