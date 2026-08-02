@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-02 (trends)
+- The true cost of a business risk is often not the direct fine, but the second-order effects: lost revenue from closure and long-term reputation damage. The most effective value propositions quantify this total impact.
+- A shrinking or consolidating market can be an opportunity. The remaining players are forced to professionalize and adopt tools that increase efficiency and reduce risk to survive.
+- For compliance-driven software, the ultimate moat is not just user lock-in, but becoming the trusted standard for the auditor/inspector themselves.
+- The "evidence locker" pattern is highly versatile and applies to any business that must prove compliance or defend its work to a powerful external party (regulator, insurance company, client, etc.).
+
+---
+
 ## 2026-08-02
 - The true cost of a business risk is often not the direct fine, but the second-order effects: lost revenue from closure and long-term reputation damage. The most effective value propositions quantify this total impact.
 - A shrinking or consolidating market can be an opportunity. The remaining players are forced to professionalize and adopt tools that increase efficiency and reduce risk to survive.

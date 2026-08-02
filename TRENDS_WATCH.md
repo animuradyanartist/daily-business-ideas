@@ -261,6 +261,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Small Landlords** · Using affordable AI platforms to automate the full rental lifecycle, from leasing to maintenance and collections. · flagged 2026-08-01 · last checked 2026-08-01 · [origin memo](trends/2026-08-01.md)
 - **AI-Automated Lease Abstraction for Real Estate** · Using AI to automatically extract key financial and legal clauses from complex lease documents. · flagged 2026-08-01 · last checked 2026-08-01 · [origin memo](trends/2026-08-01.md)
 - **AI-Powered Tenant Communication Automation** · Using AI virtual assistants to handle routine tenant inquiries and maintenance requests 24/7. · flagged 2026-08-01 · last checked 2026-08-01 · [origin memo](trends/2026-08-01.md)
+- **AI-Automated Controlled Substance Compliance for Veterinarians** · Using specialized software to automate the logging and reconciliation of controlled substances for DEA and state-level compliance. · flagged 2026-08-02 · last checked 2026-08-02 · [origin memo](trends/2026-08-02.md)
+- **AI-Powered Music Rights & Royalty Administration** · Using AI platforms to manage copyright, analyze royalty statements, and track ownership of AI-influenced music. · flagged 2026-08-02 · last checked 2026-08-02 · [origin memo](trends/2026-08-02.md)
+- **AI-Powered "Digital Twin" for Personal Finance** · Using AI to create dynamic, virtual simulations of a person's financial life to model the long-term impact of decisions. · flagged 2026-08-02 · last checked 2026-08-02 · [origin memo](trends/2026-08-02.md)
 
 
 ## ➡️ Active — plateauing
@@ -442,3 +445,5 @@ _(empty)_
 <!-- 2026-07-31 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-08-01 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-08-02 status-update directive: 🚀 | The AI-Augmented Second Brain -->
