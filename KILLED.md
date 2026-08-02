@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-02
+- **The small general contractor's "OSHA-ready" safety meeting log** — Killed. A strong pain with high fines, but the restaurant market is larger, more fragmented, and arguably more accessible through digital channels.
+- **The esthetician's "liability-proof" client intake & consent form system** — Killed. A real liability risk, but the market size and purchasing power feel smaller than the restaurant vertical.
+- **The small landlord's "move-out inspection" evidence locker** — Killed. This is a subset of the property manager idea from 2026-08-01. Focusing on independent landlords is less attractive as they are harder to reach and less professionalized than property managers.
+
 ## 2026-08-01
 - **The short-term rental cleaner's "proof of work & damage" portal** — Killed. A good pain, but the buyer (the cleaner) has less purchasing power than a property manager. The value is protecting reputation, which is less tangible than avoiding a direct, multi-thousand-dollar lawsuit.
 - **The freelance grant writer's "deadline & deliverable" tracker** — Killed. The market size is significantly smaller (~10.5k grant writers, with only 10-20% being freelancers). While the pain is real, the addressable market is too niche compared to property management.

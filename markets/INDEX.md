@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Independent Restaurant Compliance Software | us-independent-restaurant-compliance-software | 2026-08-02 | 98 | The restaurant manager's "health-inspection-ready" food safety log |
 | US Residential Property Manager Dispute Software | us-residential-property-manager-dispute-software | 2026-08-01 | 98 | The property manager's "security deposit dispute" evidence locker |
 | US Independent Medical Courier Compliance Software | us-independent-medical-courier-compliance-software | 2026-07-31 | 98 | The independent medical courier's "chain of custody" evidence locker |
 | US Etsy Seller Profitability Software | us-etsy-seller-profitability-software | 2026-07-30 | 79 | The Etsy seller's "true profit" dashboard |
