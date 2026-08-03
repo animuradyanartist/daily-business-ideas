@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-03
+- A new, sweeping, national-level regulation is one of the most powerful forcing functions for creating a B2B SaaS market overnight.
+- The most valuable compliance software is not just a records database, but a system that actively prevents deadline-driven, high-consequence failures (e.g., a 15-day reporting window).
+- The exemption criteria for a regulation are often where the true market opportunity lies; the businesses that fall just outside the exemption are the most motivated buyers.
+- A viable wedge against expensive "done-for-you" service firms is a "do-it-yourself-with-guardrails" software product that is 10x cheaper and 10x faster.
+
 ## 2026-08-02 (trends)
 - The true cost of a business risk is often not the direct fine, but the second-order effects: lost revenue from closure and long-term reputation damage. The most effective value propositions quantify this total impact.
 - A shrinking or consolidating market can be an opportunity. The remaining players are forced to professionalize and adopt tools that increase efficiency and reduce risk to survive.

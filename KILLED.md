@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-03
+- **The Small Food Truck Operator's "Health Department-Ready" Commissary Log** — Killed. Strong pain, but the cosmetics market is more digitally native, has higher gross margins, and the forcing function is a new, national federal law, which is stronger than varied local health codes.
+- **The Independent Landscaper's "Pesticide Application" Compliance Log** — Killed. A very large market, but the buyer is less digitally concentrated and likely has lower software spend per-customer than a growing e-commerce cosmetics brand.
+- **The Short-Term Rental (STR) Owner's "Local Ordinance" Compliance Dashboard** — Killed. The hyper-local and constantly changing nature of STR regulations makes building and maintaining the software core significantly more complex and costly than a single, national standard like MoCRA.
+
 ## 2026-08-02
 - **The small general contractor's "OSHA-ready" safety meeting log** — Killed. A strong pain with high fines, but the restaurant market is larger, more fragmented, and arguably more accessible through digital channels.
 - **The esthetician's "liability-proof" client intake & consent form system** — Killed. A real liability risk, but the market size and purchasing power feel smaller than the restaurant vertical.
