@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-03 (trends)
+- The "scaffolding kit" opportunity remains robust, particularly for new AI-powered workflows. As AI tools automate complex tasks, a secondary market emerges for digital products that teach non-experts how to structure their inputs, manage the outputs, and integrate these tools into their existing personal or business processes.
+- The value proposition of AI is consistently shifting from mere "content generation" to "strategic management" and "agentic execution." The most compelling tools are those that don't just create artifacts but autonomously manage entire workflows or provide actionable, predictive insights.
+- Consumer-facing AI is increasingly focused on reducing cognitive load and decision fatigue in high-frequency, personal life domains (e.g., daily outfit choices, personalized learning plans). The value is in providing immediate, tailored solutions that simplify complex choices.
+
+---
+
 ## 2026-08-03
 - A new, sweeping, national-level regulation is one of the most powerful forcing functions for creating a B2B SaaS market overnight.
 - The most valuable compliance software is not just a records database, but a system that actively prevents deadline-driven, high-consequence failures (e.g., a 15-day reporting window).
