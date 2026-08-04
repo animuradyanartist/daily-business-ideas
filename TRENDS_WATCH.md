@@ -267,6 +267,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Micro-Influencer Management for SMBs** · Using AI to automate the discovery, vetting, outreach, and campaign management for micro-influencers. · flagged 2026-08-03 · last checked 2026-08-03 · [origin memo](trends/2026-08-03.md)
 - **AI-Generated Interactive Learning Content** · Using AI to rapidly generate personalized quizzes, adaptive assessments, and interactive learning pathways. · flagged 2026-08-03 · last checked 2026-08-03 · [origin memo](trends/2026-08-03.md)
 - **AI-Powered Personal Style & Wardrobe Curation** · Using AI apps to generate personalized outfit recommendations, optimize wardrobes, and assist with smart shopping. · flagged 2026-08-03 · last checked 2026-08-03 · [origin memo](trends/2026-08-03.md)
+- **AI-Guided DIY Auto Repair** · Using AI-powered apps to diagnose vehicle issues and provide step-by-step repair instructions for consumers. · flagged 2026-08-04 · last checked 2026-08-04 · [origin memo](trends/2026-08-04.md)
+- **AI-Powered Proactive Personal Safety** · Using AI to learn user routines and automatically detect distress signals to provide a preventative safety net. · flagged 2026-08-04 · last checked 2026-08-04 · [origin memo](trends/2026-08-04.md)
+- **AI-Powered Garden & Homestead Planning** · Using AI to generate optimized garden layouts, planting calendars, and management plans for specific climates. · flagged 2026-08-04 · last checked 2026-08-04 · [origin memo](trends/2026-08-04.md)
 
 
 ## ➡️ Active — plateauing
@@ -452,3 +455,5 @@ _(empty)_
 <!-- 2026-08-02 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-08-03 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
+
+<!-- 2026-08-04 status-update directive: 🚀 | AI-Powered Communication Coaching -->

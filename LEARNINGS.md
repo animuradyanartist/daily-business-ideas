@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-04 (trends)
+- AI is moving from being a reactive diagnostic tool to a proactive planning agent in many consumer domains (auto repair, personal safety, gardening). The value is shifting from "what is wrong?" to "what should I do next?".
+- The "scaffolding kit" opportunity is robust. For every new category of consumer-facing AI tools, a secondary market emerges for digital products that teach non-experts how to structure their inputs and manage the AI's outputs effectively.
+- The most compelling AI applications for consumers reduce cognitive load and provide confidence in high-stakes, high-anxiety situations where the user lacks domain-specific expertise.
+
+---
+
 ## 2026-08-04
 - The most powerful "evidence locker" opportunities exist where there is a structurally permanent, adversarial relationship between a fragmented group of SMBs and a concentrated group of powerful payors (e.g., body shops vs. insurers, contractors vs. insurance, doctors vs. Medicare).
 - A product's ROI is easiest to sell when it directly recovers or defends top-line revenue, rather than promising second-order efficiency gains or cost savings.
