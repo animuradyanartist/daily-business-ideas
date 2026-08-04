@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Independent Auto Body Shop Software | us-independent-auto-body-shop-software | 2026-08-04 | 98 | The independent auto body shop's "get paid by insurance" supplement evidence locker |
 | US Small-Scale Cosmetics MoCRA Compliance Software | us-small-cosmetics-mocra-compliance-software | 2026-08-03 | 98 | The small-scale cosmetics maker's "MoCRA-ready" compliance system |
 | US Independent Restaurant Compliance Software | us-independent-restaurant-compliance-software | 2026-08-02 | 98 | The restaurant manager's "health-inspection-ready" food safety log |
 | US Residential Property Manager Dispute Software | us-residential-property-manager-dispute-software | 2026-08-01 | 98 | The property manager's "security deposit dispute" evidence locker |

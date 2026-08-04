@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-04
+- The most powerful "evidence locker" opportunities exist where there is a structurally permanent, adversarial relationship between a fragmented group of SMBs and a concentrated group of powerful payors (e.g., body shops vs. insurers, contractors vs. insurance, doctors vs. Medicare).
+- A product's ROI is easiest to sell when it directly recovers or defends top-line revenue, rather than promising second-order efficiency gains or cost savings.
+- A valid wedge against a feature-rich, all-in-one incumbent is to build a purpose-built tool that perfectly executes a single, high-stakes, adversarial workflow that the incumbent only addresses with a general-purpose feature.
+- Price anchoring is powerful. The fact that shops already pay $199/mo for management software makes it dramatically easier to sell another tool at the same price point, provided the value is clear.
+
 ## 2026-08-03 (trends)
 - The "scaffolding kit" opportunity remains robust, particularly for new AI-powered workflows. As AI tools automate complex tasks, a secondary market emerges for digital products that teach non-experts how to structure their inputs, manage the outputs, and integrate these tools into their existing personal or business processes.
 - The value proposition of AI is consistently shifting from mere "content generation" to "strategic management" and "agentic execution." The most compelling tools are those that don't just create artifacts but autonomously manage entire workflows or provide actionable, predictive insights.

@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-04
+- **The DTC brand's "freight rebill" dispute automation kit.** — Killed. While the pain is real, the buyer is a more sophisticated logistics manager, likely requiring more complex integrations and a longer, enterprise-style sales cycle compared to the body shop owner.
+- **The small organic farm's "audit-ready" compliance record system.** — Killed. Similar "audit-ready" pattern, but farmers are historically a less tech-forward and harder-to-reach market. The financial consequence (losing certification) is high but the frequency is lower (annual audit) than the body shop's daily revenue pain.
+- **The commercial landlord's "CAM reconciliation" evidence portal.** — Killed. A strong financial pain point, but the workflow and calculations are highly variable from lease to lease, making a standardized software solution much more complex to build than a photo documentation tool.
+- **The home health agency's "visit verification" evidence locker.** — Killed. This is a strong compliance pain to get paid by Medicare/Medicaid, but it is heavily regulated (EVV requirements) and crowded with established, government-approved vendors, making it difficult to enter.
+
 ## 2026-08-03
 - **The Small Food Truck Operator's "Health Department-Ready" Commissary Log** — Killed. Strong pain, but the cosmetics market is more digitally native, has higher gross margins, and the forcing function is a new, national federal law, which is stronger than varied local health codes.
 - **The Independent Landscaper's "Pesticide Application" Compliance Log** — Killed. A very large market, but the buyer is less digitally concentrated and likely has lower software spend per-customer than a growing e-commerce cosmetics brand.
