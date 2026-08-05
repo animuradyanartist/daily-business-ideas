@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Food Importer FSVP Compliance Software | us-small-food-importer-fsvp-compliance-software | 2026-08-05 | 98 | The small food importer's "FSVP-ready" compliance binder |
 | US Independent Auto Body Shop Software | us-independent-auto-body-shop-software | 2026-08-04 | 98 | The independent auto body shop's "get paid by insurance" supplement evidence locker |
 | US Small-Scale Cosmetics MoCRA Compliance Software | us-small-cosmetics-mocra-compliance-software | 2026-08-03 | 98 | The small-scale cosmetics maker's "MoCRA-ready" compliance system |
 | US Independent Restaurant Compliance Software | us-independent-restaurant-compliance-software | 2026-08-02 | 98 | The restaurant manager's "health-inspection-ready" food safety log |

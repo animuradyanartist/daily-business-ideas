@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-05
+- **The Part 145 Repair Station's "OJT-Ready" Training Log:** — Killed. A strong B2B compliance need, but the market feels smaller and more relationship-driven than food importing.
+- **The Craft Brewery's "TTB-Ready" Operations Report Filer:** — Killed. The pain is annoying paperwork, but it's not as acute as having tens of thousands of dollars of product seized at the border.
+- **The Owner-Operator Trucker's "IFTA-Ready" Fuel Tax Log:** — Killed. A proven, painful problem, but the market is extremely crowded with mature, well-known software solutions. The gap for a new entrant is not obvious.
+- **The Small Toy Maker's "CPSC-Ready" Compliance Binder:** — Killed. A very strong analogue, but the food import market appears larger and the "shipment detained" pain trigger feels more frequent and immediate.
+
 ## 2026-08-04
 - **The DTC brand's "freight rebill" dispute automation kit.** — Killed. While the pain is real, the buyer is a more sophisticated logistics manager, likely requiring more complex integrations and a longer, enterprise-style sales cycle compared to the body shop owner.
 - **The small organic farm's "audit-ready" compliance record system.** — Killed. Similar "audit-ready" pattern, but farmers are historically a less tech-forward and harder-to-reach market. The financial consequence (losing certification) is high but the frequency is lower (annual audit) than the body shop's daily revenue pain.

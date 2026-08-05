@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-05
+- The most powerful forcing function for B2B software is the risk of immediate, catastrophic revenue loss (e.g., shipment destruction), not the risk of a potential future fine.
+- A market with extremely high non-compliance (like the 99% non-compliance rate for FSVP) is a massive signal that existing solutions (consultants, manual processes) are fundamentally broken for the target customer.
+- The price anchor set by expensive manual service providers (consultants, agencies) is one of the strongest indicators of a market's willingness to pay and creates a huge opportunity for a 10x cheaper software alternative.
+
 ## 2026-08-04 (trends)
 - AI is moving from being a reactive diagnostic tool to a proactive planning agent in many consumer domains (auto repair, personal safety, gardening). The value is shifting from "what is wrong?" to "what should I do next?".
 - The "scaffolding kit" opportunity is robust. For every new category of consumer-facing AI tools, a secondary market emerges for digital products that teach non-experts how to structure their inputs and manage the AI's outputs effectively.
