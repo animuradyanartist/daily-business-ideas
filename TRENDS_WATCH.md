@@ -270,6 +270,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Guided DIY Auto Repair** · Using AI-powered apps to diagnose vehicle issues and provide step-by-step repair instructions for consumers. · flagged 2026-08-04 · last checked 2026-08-04 · [origin memo](trends/2026-08-04.md)
 - **AI-Powered Proactive Personal Safety** · Using AI to learn user routines and automatically detect distress signals to provide a preventative safety net. · flagged 2026-08-04 · last checked 2026-08-04 · [origin memo](trends/2026-08-04.md)
 - **AI-Powered Garden & Homestead Planning** · Using AI to generate optimized garden layouts, planting calendars, and management plans for specific climates. · flagged 2026-08-04 · last checked 2026-08-04 · [origin memo](trends/2026-08-04.md)
+- **AI-Automated Food Safety Compliance for Importers** · Using AI to automate the generation and management of FDA-mandated food safety documentation. · flagged 2026-08-05 · last checked 2026-08-05 · [origin memo](trends/2026-08-05.md)
+- **AI-Automated Investor Relations for Founders** · Using AI platforms to automate the drafting of investor updates and management of fundraising pipelines. · flagged 2026-08-05 · last checked 2026-08-05 · [origin memo](trends/2026-08-05.md)
+- **AI-Automated Insurance Claim Documentation for Contractors** · Using AI to analyze photos of property damage and generate structured reports for insurance carriers. · flagged 2026-08-05 · last checked 2026-08-05 · [origin memo](trends/2026-08-05.md)
 
 
 ## ➡️ Active — plateauing
@@ -457,3 +460,5 @@ _(empty)_
 <!-- 2026-08-03 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-08-04 status-update directive: 🚀 | AI-Powered Communication Coaching -->
+
+<!-- 2026-08-05 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->

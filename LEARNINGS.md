@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-05 (trends)
+- The most powerful forcing function for B2B software is the risk of immediate, catastrophic revenue loss (e.g., shipment destruction), not the risk of a potential future fine.
+- A market with extremely high non-compliance (like the 99% non-compliance rate for FSVP) is a massive signal that existing solutions (consultants, manual processes) are fundamentally broken for the target customer.
+- The price anchor set by expensive manual service providers (consultants, agencies) is one of the strongest indicators of a market's willingness to pay and creates a huge opportunity for a 10x cheaper software alternative.
+
+---
+
 ## 2026-08-05
 - The most powerful forcing function for B2B software is the risk of immediate, catastrophic revenue loss (e.g., shipment destruction), not the risk of a potential future fine.
 - A market with extremely high non-compliance (like the 99% non-compliance rate for FSVP) is a massive signal that existing solutions (consultants, manual processes) are fundamentally broken for the target customer.
