@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-06 (trends)
+- The most powerful B2B value proposition is directly accelerating the customer's cash conversion cycle. "Get your money back faster" is a top-tier painkiller.
+- A market with expensive, complex, enterprise-focused incumbents often leaves a massive opportunity at the low end for a simple, affordable, mobile-first solution.
+- The cost of "worse substitutes" isn't always another piece of software; for many SMB owners, the substitute is their own time spent manually checking on processes, which has a very high implicit cost.
+- Vertical-specific jargon ("recon," "holding costs," "frontline-ready") is a powerful signal of an underserved niche. Building a tool that speaks the user's language is a competitive advantage.
+
+---
+
 ## 2026-08-06
 - The most powerful B2B value proposition is directly accelerating the customer's cash conversion cycle. "Get your money back faster" is a top-tier painkiller.
 - A market with expensive, complex, enterprise-focused incumbents often leaves a massive opportunity at the low end for a simple, affordable, mobile-first solution.

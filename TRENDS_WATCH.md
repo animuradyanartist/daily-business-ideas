@@ -273,6 +273,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Food Safety Compliance for Importers** · Using AI to automate the generation and management of FDA-mandated food safety documentation. · flagged 2026-08-05 · last checked 2026-08-05 · [origin memo](trends/2026-08-05.md)
 - **AI-Automated Investor Relations for Founders** · Using AI platforms to automate the drafting of investor updates and management of fundraising pipelines. · flagged 2026-08-05 · last checked 2026-08-05 · [origin memo](trends/2026-08-05.md)
 - **AI-Automated Insurance Claim Documentation for Contractors** · Using AI to analyze photos of property damage and generate structured reports for insurance carriers. · flagged 2026-08-05 · last checked 2026-08-05 · [origin memo](trends/2026-08-05.md)
+- **AI-Powered Operations for Used Car Dealerships** · Using AI to automate vehicle appraisal, reconditioning workflow, and inventory management. · flagged 2026-08-06 · last checked 2026-08-06 · [origin memo](trends/2026-08-06.md)
+- **AI-Powered Operations for Landscaping & Lawn Care Businesses** · Using all-in-one AI platforms to automate quoting, routing, and client management. · flagged 2026-08-06 · last checked 2026-08-06 · [origin memo](trends/2026-08-06.md)
+- **AI-Automated Marketing for Independent Musicians** · Using AI to analyze songs and automate the creation of release plans and promotional assets. · flagged 2026-08-06 · last checked 2026-08-06 · [origin memo](trends/2026-08-06.md)
 
 
 ## ➡️ Active — plateauing
@@ -462,3 +465,5 @@ _(empty)_
 <!-- 2026-08-04 status-update directive: 🚀 | AI-Powered Communication Coaching -->
 
 <!-- 2026-08-05 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-08-06 status-update directive: 🚀 | AI-Generated Business Presentations -->
