@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-06
+- **The Dental Lab's "Remake-Proof" Case Uploader.** — Killed. A strong B2B pain, but the market size (~4,500 labs) feels significantly smaller and more concentrated than independent auto dealers (~53,000).
+- **The Small IT MSP's "New Client Onboarding" Runbook.** — Killed. The pain is real but less tangible and harder to quantify in a sales pitch than the direct, daily cash burn of holding costs in the auto dealer space.
+- **The Commercial Cleaning Company's "Walkthrough-to-Proposal" Engine.** — Killed. This is a sales efficiency tool. The pain of losing cash every day on existing assets (cars in recon) feels more acute than the pain of generating new sales proposals more slowly.
+
 ## 2026-08-05
 - **The Part 145 Repair Station's "OJT-Ready" Training Log:** — Killed. A strong B2B compliance need, but the market feels smaller and more relationship-driven than food importing.
 - **The Craft Brewery's "TTB-Ready" Operations Report Filer:** — Killed. The pain is annoying paperwork, but it's not as acute as having tens of thousands of dollars of product seized at the border.
