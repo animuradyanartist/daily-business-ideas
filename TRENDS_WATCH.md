@@ -276,6 +276,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Operations for Used Car Dealerships** · Using AI to automate vehicle appraisal, reconditioning workflow, and inventory management. · flagged 2026-08-06 · last checked 2026-08-06 · [origin memo](trends/2026-08-06.md)
 - **AI-Powered Operations for Landscaping & Lawn Care Businesses** · Using all-in-one AI platforms to automate quoting, routing, and client management. · flagged 2026-08-06 · last checked 2026-08-06 · [origin memo](trends/2026-08-06.md)
 - **AI-Automated Marketing for Independent Musicians** · Using AI to analyze songs and automate the creation of release plans and promotional assets. · flagged 2026-08-06 · last checked 2026-08-06 · [origin memo](trends/2026-08-06.md)
+- **AI-Powered Accessibility Auditing for Digital Products** · Leveraging AI to automatically check UI/UX designs for accessibility compliance. · flagged 2026-08-07 · last checked 2026-08-07 · [origin memo](trends/2026-08-07.md)
+- **AI-Generated Interactive Storytelling for Education/Marketing** · Using AI to create dynamic, branching narratives and interactive experiences for learning and engagement. · flagged 2026-08-07 · last checked 2026-08-07 · [origin memo](trends/2026-08-07.md)
+- **AI-Powered Cross-Platform Content Adaptation for Creators** · Using AI to strategically adapt core content for optimal engagement across various social media platforms. · flagged 2026-08-07 · last checked 2026-08-07 · [origin memo](trends/2026-08-07.md)
 
 
 ## ➡️ Active — plateauing
@@ -467,3 +470,5 @@ _(empty)_
 <!-- 2026-08-05 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-08-06 status-update directive: 🚀 | AI-Generated Business Presentations -->
+
+<!-- 2026-08-07 status-update directive: 🚀 | AI-Powered Job Application Automation -->
