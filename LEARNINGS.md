@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-08 (trends)
+- The most powerful value proposition for a low-margin SMB is not just "save money" but "accelerate your cash." Preventing a revenue denial is psychologically and financially more potent than optimizing an internal cost.
+- A market's fragmentation can be an advantage for a solo founder. While it deters enterprise players looking for large contracts, it creates an opening for a product with a low-touch, digital-first acquisition model.
+- The "compliance-as-a-service" model is robust. Any time a small business faces complex, ever-changing, jurisdiction-specific rules with high financial penalties for failure, there is an opportunity for a specialized SaaS tool.
+
+---
+
 ## 2026-08-08
 - The most powerful value proposition for a low-margin SMB is not just "save money" but "accelerate your cash." Preventing a revenue denial is psychologically and financially more potent than optimizing an internal cost.
 - A market's fragmentation can be an advantage for a solo founder. While it deters enterprise players looking for large contracts, it creates an opening for a product with a low-touch, digital-first acquisition model.

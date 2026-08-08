@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-08-08 — trend forecast — AI-Powered Back Office for Financial Advisors +2 more
 - 2026-08-08 — The NEMT provider's "get paid by Medicaid" claim preparer — 98/100 high
 - 2026-08-07 — trend forecast — AI-Powered Accessibility Auditing for Digital Products +2 more
 - 2026-08-06 — trend forecast — AI-Powered Operations for Used Car Dealerships +2 more
