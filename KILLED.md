@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-08
+- **The clinical research site's "audit-ready" electronic investigator site file (eISF)** — Killed. A strong B2B pain, but the buyer is more sophisticated and the sales cycle is likely longer and more complex than selling to an NEMT owner.
+- **The small trucking fleet's "DOT audit-ready" compliance hub** — Killed. A proven, painful problem, but the market is crowded with mature, well-funded software solutions (e.g., KeepTruckin/Motive, Samsara). The wedge for a new entrant is not obvious.
+- **The independent college consultant's "student progress" portal** — Killed. This is a "nice to have" vitamin. The pain of parents not having a real-time dashboard is much lower than the pain of an NEMT owner not getting paid.
+- **The small law firm's "get paid by L&I" evidence locker** — Killed. Similar "get paid" pattern, but the legal tech market is notoriously difficult to sell into, and the workflows are highly variable.
+
 ## 2026-08-06
 - **The Dental Lab's "Remake-Proof" Case Uploader.** — Killed. A strong B2B pain, but the market size (~4,500 labs) feels significantly smaller and more concentrated than independent auto dealers (~53,000).
 - **The Small IT MSP's "New Client Onboarding" Runbook.** — Killed. The pain is real but less tangible and harder to quantify in a sales pitch than the direct, daily cash burn of holding costs in the auto dealer space.

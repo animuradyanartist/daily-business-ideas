@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US NEMT Provider Claim & Billing Software | us-nemt-provider-claim-software | 2026-08-08 | 98 | The NEMT provider's "get paid by Medicaid" claim preparer |
 | US Independent Used Car Dealer Reconditioning Software | us-independent-used-car-dealer-recon-software | 2026-08-06 | 98 | The independent used car dealer's "recon-to-retail" tracker |
 | US Small Food Importer FSVP Compliance Software | us-small-food-importer-fsvp-compliance-software | 2026-08-05 | 98 | The small food importer's "FSVP-ready" compliance binder |
 | US Independent Auto Body Shop Software | us-independent-auto-body-shop-software | 2026-08-04 | 98 | The independent auto body shop's "get paid by insurance" supplement evidence locker |
