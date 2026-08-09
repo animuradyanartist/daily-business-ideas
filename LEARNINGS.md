@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-09 (trends)
+- The most valuable AI tools are those that don't just generate content but impose structure on complex, unstructured information, whether it's a historical record, a hotel's pricing strategy, or a bill of lading.
+- For every professional or consumer activity with high cognitive load and complexity (genealogy, hotel management, global trade), a vertical AI solution is emerging to productize the domain expertise.
+- A key feature separating mature AI applications from novelties is "persistent memory" or "agentic workflow," where the system learns from past interactions and takes autonomous action, moving beyond single, reactive tasks.
+
+---
+
 ## 2026-08-09
 - A government agency publishing a report that quantifies a market's "improper payment rate" is one of the strongest possible signals for problem proof. It is an unimpeachable, third-party validation of the customer's pain.
 - A market that is consolidating or shrinking isn't an automatic "no go." If the consolidation is driven by the exact pain your product solves (e.g., margin compression), it can create intense demand from the survivors who need tools to compete.
