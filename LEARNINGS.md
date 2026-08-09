@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-09
+- A government agency publishing a report that quantifies a market's "improper payment rate" is one of the strongest possible signals for problem proof. It is an unimpeachable, third-party validation of the customer's pain.
+- A market that is consolidating or shrinking isn't an automatic "no go." If the consolidation is driven by the exact pain your product solves (e.g., margin compression), it can create intense demand from the survivors who need tools to compete.
+- For hard-to-reach SMBs, the go-to-market strategy must often be indirect. The most effective channel may be partnering with the consultants and service providers (like billing companies) who already have the trust of the end customer.
+- A regulatory moratorium on new entrants can be a positive signal for a tool serving existing businesses, as it increases the compliance burden and scrutiny on the established players.
+
 ## 2026-08-08 (trends)
 - The most powerful value proposition for a low-margin SMB is not just "save money" but "accelerate your cash." Preventing a revenue denial is psychologically and financially more potent than optimizing an internal cost.
 - A market's fragmentation can be an advantage for a solo founder. While it deters enterprise players looking for large contracts, it creates an opening for a product with a low-touch, digital-first acquisition model.

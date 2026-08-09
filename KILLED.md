@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-09
+- **The independent daycare center's "licensing-ready" compliance binder.** — Killed. While the pain of licensing is real, it is less frequent and the financial impact is less direct than the daily pain of revenue denials in the DME space.
+- **The mortgage field services vendor's "get paid by the bank" evidence uploader.** — Killed. A very strong pattern, but the DME market is larger and the regulatory forcing function from CMS feels more potent and systemic than individual bank requirements.
+- **The small law firm's "get paid by L&I" evidence locker.** — Killed. Similar "get paid" pattern, but the legal tech market is notoriously difficult to sell into, and the workflows are highly variable by jurisdiction and case type.
+
 ## 2026-08-08
 - **The clinical research site's "audit-ready" electronic investigator site file (eISF)** — Killed. A strong B2B pain, but the buyer is more sophisticated and the sales cycle is likely longer and more complex than selling to an NEMT owner.
 - **The small trucking fleet's "DOT audit-ready" compliance hub** — Killed. A proven, painful problem, but the market is crowded with mature, well-funded software solutions (e.g., KeepTruckin/Motive, Samsara). The wedge for a new entrant is not obvious.
