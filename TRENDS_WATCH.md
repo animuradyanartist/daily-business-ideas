@@ -285,6 +285,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Operations for Independent Hotels** · Using AI platforms to automate revenue management and dynamic pricing for boutique and independent hotels. · flagged 2026-08-09 · last checked 2026-08-09 · [origin memo](trends/2026-08-09.md)
 - **AI-Assisted Genealogical Storytelling** · Using generative AI to transcribe historical records and synthesize facts into compelling family history narratives. · flagged 2026-08-09 · last checked 2026-08-09 · [origin memo](trends/2026-08-09.md)
 - **AI-Automated Trade Finance Documentation** · Using AI to automate the processing, validation, and compliance checking of complex trade documents like letters of credit. · flagged 2026-08-09 · last checked 2026-08-09 · [origin memo](trends/2026-08-09.md)
+- **AI-Powered "Family OS"** · Using AI to automate the coordination and cognitive load of running a household. · flagged 2026-08-10 · last checked 2026-08-10 · [origin memo](trends/2026-08-10.md)
+- **AI Co-Pilots for Subcontractors** · Using AI to automate payment applications, compliance, and bidding for construction subcontractors. · flagged 2026-08-10 · last checked 2026-08-10 · [origin memo](trends/2026-08-10.md)
+- **AI-Automated Compliance for Small Trucking Fleets** · Using AI platforms to automate DOT compliance for owner-operators and small trucking companies. · flagged 2026-08-10 · last checked 2026-08-10 · [origin memo](trends/2026-08-10.md)
 
 
 ## ➡️ Active — plateauing
@@ -482,3 +485,5 @@ _(empty)_
 <!-- 2026-08-08 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
 
 <!-- 2026-08-09 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
+
+<!-- 2026-08-10 status-update directive: 🚀 | AI-Powered Community Management -->

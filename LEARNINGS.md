@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-10 (trends)
+- The most powerful B2B SaaS ideas often live in the structural imbalances between fragmented SMBs and concentrated enterprise buyers (subs vs. GCs).
+- A product built for the "little guy" in an adversarial B2B relationship has a powerful, built-in marketing narrative and a natural wedge against incumbents who serve the "big guy."
+- For workflow tools, the true competition is often not another software company, but "a spreadsheet and an hour of an admin's time." The value proposition must be framed against the cost and risk of that manual process.
+
+---
+
 ## 2026-08-10
 - The most powerful B2B SaaS ideas often live in the structural imbalances between fragmented SMBs and concentrated enterprise buyers (subs vs. GCs).
 - A product built for the "little guy" in an adversarial B2B relationship has a powerful, built-in marketing narrative and a natural wedge against incumbents who serve the "big guy."
