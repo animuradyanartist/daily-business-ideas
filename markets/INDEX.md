@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Specialty Trade Subcontractor Payment Software | us-specialty-trade-subcontractor-payment-software | 2026-08-10 | 98 | The subcontractor's "rejection-proof" pay application generator |
 | US DME Supplier Medicare Compliance Software | us-dme-supplier-medicare-compliance-software | 2026-08-09 | 98 | The DME supplier's "get paid by Medicare" evidence locker |
 | US NEMT Provider Claim & Billing Software | us-nemt-provider-claim-software | 2026-08-08 | 98 | The NEMT provider's "get paid by Medicaid" claim preparer |
 | US Independent Used Car Dealer Reconditioning Software | us-independent-used-car-dealer-recon-software | 2026-08-06 | 98 | The independent used car dealer's "recon-to-retail" tracker |

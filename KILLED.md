@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-10
+- **The small business owner's "OSHA-ready" compliance locker.** — Killed. A strong "avoid a fine" value prop, but the "get paid faster" pain is more frequent and directly tied to daily cash flow, making it a more urgent purchase.
+- **The nonprofit grant manager's "funder-ready" report builder.** — Killed. The buyer is harder to reach, has a lower willingness to pay, and the pain, while real, is less acute than a for-profit business failing to make payroll.
+- **The subcontractor's "get paid" lien waiver tracker.** — Killed. This is a strong idea, but it's a subset of the larger pay application problem. A missing lien waiver is one *reason* a pay app gets rejected. Solving the entire pay app submission is a more complete and valuable solution.
+
 ## 2026-08-09
 - **The independent daycare center's "licensing-ready" compliance binder.** — Killed. While the pain of licensing is real, it is less frequent and the financial impact is less direct than the daily pain of revenue denials in the DME space.
 - **The mortgage field services vendor's "get paid by the bank" evidence uploader.** — Killed. A very strong pattern, but the DME market is larger and the regulatory forcing function from CMS feels more potent and systemic than individual bank requirements.
