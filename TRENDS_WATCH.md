@@ -288,6 +288,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered "Family OS"** · Using AI to automate the coordination and cognitive load of running a household. · flagged 2026-08-10 · last checked 2026-08-10 · [origin memo](trends/2026-08-10.md)
 - **AI Co-Pilots for Subcontractors** · Using AI to automate payment applications, compliance, and bidding for construction subcontractors. · flagged 2026-08-10 · last checked 2026-08-10 · [origin memo](trends/2026-08-10.md)
 - **AI-Automated Compliance for Small Trucking Fleets** · Using AI platforms to automate DOT compliance for owner-operators and small trucking companies. · flagged 2026-08-10 · last checked 2026-08-10 · [origin memo](trends/2026-08-10.md)
+- **AI-Powered Quoting for Home Service Businesses** · Using AI to analyze photos and job descriptions to automate the generation of accurate, market-calibrated quotes. · flagged 2026-08-11 · last checked 2026-08-11 · [origin memo](trends/2026-08-11.md)
+- **AI-Powered Knowledge Capture from Retiring Experts** · Using AI to interview retiring employees and transform their unstructured expertise into searchable training materials. · flagged 2026-08-11 · last checked 2026-08-11 · [origin memo](trends/2026-08-11.md)
+- **AI-Powered "Digital Twin" for SMB Operations** · Using AI to create real-time virtual models of a business's operations to run simulations and forecast the impact of decisions. · flagged 2026-08-11 · last checked 2026-08-11 · [origin memo](trends/2026-08-11.md)
 
 
 ## ➡️ Active — plateauing
@@ -487,3 +490,5 @@ _(empty)_
 <!-- 2026-08-09 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
 
 <!-- 2026-08-10 status-update directive: 🚀 | AI-Powered Community Management -->
+
+<!-- 2026-08-11 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
