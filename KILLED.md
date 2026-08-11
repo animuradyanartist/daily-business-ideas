@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-11
+- **The small private security firm's "guard-proof" incident & patrol reporter.** — Killed. While the pain is real, it's more about liability and professionalism than the direct, daily profit-or-loss calculation of the job shop quote. The value is harder to quantify.
+- **The small craft brewery's "TTB audit-ready" compliance binder.** — Killed. This follows the strong compliance pattern, but the market is smaller and the pain (TTB reporting) is often bundled into larger brewery management software suites, making the wedge for a standalone tool less clear.
+- **The commercial cleaning company's proposal generator.** — Killed. This is a sales efficiency tool. The pain of losing cash every day on bad quotes (job shop) feels more acute than the pain of generating new sales proposals more slowly.
+
 ## 2026-08-10
 - **The small business owner's "OSHA-ready" compliance locker.** — Killed. A strong "avoid a fine" value prop, but the "get paid faster" pain is more frequent and directly tied to daily cash flow, making it a more urgent purchase.
 - **The nonprofit grant manager's "funder-ready" report builder.** — Killed. The buyer is harder to reach, has a lower willingness to pay, and the pain, while real, is less acute than a for-profit business failing to make payroll.

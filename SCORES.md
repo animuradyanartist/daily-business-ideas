@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 98 | high | 2026-08-11 | The small job shop's "no-regret" quote generator |
 | 98 | high | 2026-08-10 | The subcontractor's "rejection-proof" pay application generator |
 | 98 | high | 2026-08-09 | The DME supplier's "get paid by Medicare" evidence locker |
 | 98 | high | 2026-08-08 | The NEMT provider's "get paid by Medicaid" claim preparer |

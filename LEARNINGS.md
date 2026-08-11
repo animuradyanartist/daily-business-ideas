@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-11
+- A business's core risk-management process (like quoting) is a more potent source of pain than a general operational process. The closer the activity is to profit and loss, the higher the willingness to pay.
+- For fragmented SMB markets, the true competition is often inertia and a "good enough" manual process. The product's value must be framed not against other software, but against the catastrophic failure mode of the manual process.
+- The retirement of a generation of business owners is a powerful "why now" trend, as it forces the systematic capture of "tribal knowledge" that was previously held in people's heads.
+- Price anchoring is critical. A $249/mo tool seems expensive in a vacuum, but cheap when compared to a $5,000 loss on a single misquoted job or a $15,000/year ERP system.
+
 ## 2026-08-10 (trends)
 - The most powerful B2B SaaS ideas often live in the structural imbalances between fragmented SMBs and concentrated enterprise buyers (subs vs. GCs).
 - A product built for the "little guy" in an adversarial B2B relationship has a powerful, built-in marketing narrative and a natural wedge against incumbents who serve the "big guy."
