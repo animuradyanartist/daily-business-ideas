@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-12
+- **The small produce farm's "FSMA-ready" compliance binder.** — Killed. While a strong compliance-driven pain, the purchase trigger is less acute than the immediate, career-gating crisis of failing the NCLEX. A farmer may delay compliance; a nursing grad cannot delay their career.
+- **The architect's "get paid by the GC" pay application generator.** — Killed. A direct analog to a previous high-scoring idea, but the pain of delayed cash flow for an established business feels less intense than the pain of zero cash flow for an individual trying to start their career.
+- **The commercial drone pilot's "Part 107 compliance" logbook.** — Killed. A valid compliance need, but the market size and the financial cost of non-compliance are significantly smaller than the other opportunities considered.
+
 ## 2026-08-11
 - **The small private security firm's "guard-proof" incident & patrol reporter.** — Killed. While the pain is real, it's more about liability and professionalism than the direct, daily profit-or-loss calculation of the job shop quote. The value is harder to quantify.
 - **The small craft brewery's "TTB audit-ready" compliance binder.** — Killed. This follows the strong compliance pattern, but the market is smaller and the pain (TTB reporting) is often bundled into larger brewery management software suites, making the wedge for a standalone tool less clear.
