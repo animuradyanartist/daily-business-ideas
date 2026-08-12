@@ -291,6 +291,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Quoting for Home Service Businesses** · Using AI to analyze photos and job descriptions to automate the generation of accurate, market-calibrated quotes. · flagged 2026-08-11 · last checked 2026-08-11 · [origin memo](trends/2026-08-11.md)
 - **AI-Powered Knowledge Capture from Retiring Experts** · Using AI to interview retiring employees and transform their unstructured expertise into searchable training materials. · flagged 2026-08-11 · last checked 2026-08-11 · [origin memo](trends/2026-08-11.md)
 - **AI-Powered "Digital Twin" for SMB Operations** · Using AI to create real-time virtual models of a business's operations to run simulations and forecast the impact of decisions. · flagged 2026-08-11 · last checked 2026-08-11 · [origin memo](trends/2026-08-11.md)
+- **AI-Powered Diagnostic Triage for High-Stakes Exams** · Using AI to analyze a student's own course materials to generate personalized study plans and practice questions. · flagged 2026-08-12 · last checked 2026-08-12 · [origin memo](trends/2026-08-12.md)
+- **AI-Powered "Triage" for DIY Home Repair** · Using AI to diagnose home repair issues from photos/videos and provide either DIY guides or a professional referral. · flagged 2026-08-12 · last checked 2026-08-12 · [origin memo](trends/2026-08-12.md)
+- **AI-Automated Bureaucracy Navigation** · Using AI to automate filling out government forms, applying for grants, and screening for benefits. · flagged 2026-08-12 · last checked 2026-08-12 · [origin memo](trends/2026-08-12.md)
 
 
 ## ➡️ Active — plateauing
@@ -492,3 +495,5 @@ _(empty)_
 <!-- 2026-08-10 status-update directive: 🚀 | AI-Powered Community Management -->
 
 <!-- 2026-08-11 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-08-12 status-update directive: 🚀 | AI as a Thought Partner -->

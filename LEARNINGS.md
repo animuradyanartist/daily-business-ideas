@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-12 (trends)
+- A market of individuals in a state of high-stakes failure (like failing a licensure exam) is one of the most potent sources of B2C demand. The buyer is desperate, self-identifying, and actively seeking a new solution.
+- The "cost of failure" is a more powerful driver than the "cost of the problem." For the NCLEX repeater, the problem is needing to study; the cost of failure is another $12,000+ in lost wages.
+- Standardized, official "failure reports" (like the NCLEX CPR) are an ideal, underutilized data source for building a diagnostic-led product with a strong competitive wedge.
+
+---
+
 ## 2026-08-12
 - A market of individuals in a state of high-stakes failure (like failing a licensure exam) is one of the most potent sources of B2C demand. The buyer is desperate, self-identifying, and actively seeking a new solution.
 - The "cost of failure" is a more powerful driver than the "cost of the problem." For the NCLEX repeater, the problem is needing to study; the cost of failure is another $12,000+ in lost wages.

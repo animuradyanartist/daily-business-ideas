@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-08-12 — trend forecast — AI-Powered Diagnostic Triage for High-Stakes Exams +2 more
 - 2026-08-12 — The NCLEX repeat-taker's "pass-the-second-time" study system — 98/100 high
 - 2026-08-11 — trend forecast — AI-Powered Quoting for Home Service Businesses +2 more
 - 2026-08-11 — The small job shop's "no-regret" quote generator — 98/100 high
