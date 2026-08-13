@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-13 (trends)
+- The most potent business ideas often target a "moment of high anxiety" in a transaction rather than a chronic, low-grade operational pain.
+- A market where a professional service provider is legally required (like a Qualified Intermediary) creates an exceptionally powerful and concentrated distribution channel.
+- The value of a product can be anchored against the "cost of catastrophic failure" rather than the cost of a direct competitor, allowing for much higher pricing power.
+
+---
+
 ## 2026-08-13
 - The most potent business ideas often target a "moment of high anxiety" in a transaction rather than a chronic, low-grade operational pain.
 - A market where a professional service provider is legally required (like a Qualified Intermediary) creates an exceptionally powerful and concentrated distribution channel.
