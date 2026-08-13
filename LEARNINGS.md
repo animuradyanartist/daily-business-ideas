@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-13
+- The most potent business ideas often target a "moment of high anxiety" in a transaction rather than a chronic, low-grade operational pain.
+- A market where a professional service provider is legally required (like a Qualified Intermediary) creates an exceptionally powerful and concentrated distribution channel.
+- The value of a product can be anchored against the "cost of catastrophic failure" rather than the cost of a direct competitor, allowing for much higher pricing power.
+
 ## 2026-08-12 (trends)
 - A market of individuals in a state of high-stakes failure (like failing a licensure exam) is one of the most potent sources of B2C demand. The buyer is desperate, self-identifying, and actively seeking a new solution.
 - The "cost of failure" is a more powerful driver than the "cost of the problem." For the NCLEX repeater, the problem is needing to study; the cost of failure is another $12,000+ in lost wages.

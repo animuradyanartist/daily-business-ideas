@@ -2,6 +2,10 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-13
+- **The Co-Parent's "Dispute-Proof" Shared Expense Ledger** — Killed. While the pain is real, the market is crowded with all-in-one co-parenting apps (OurFamilyWizard, TalkingParents) where expense tracking is a feature. A standalone tool would struggle to compete against the bundle.
+- **The University Department Head's Adjunct Faculty Manager** — Killed. This is a B2B sale into academia, which has a notoriously long and difficult sales cycle. The buyer (department head) may not have budget authority, and the pain, while real, is less acute than the catastrophic failure mode of the 1031 exchange.
+
 ## 2026-08-12
 - **The small produce farm's "FSMA-ready" compliance binder.** — Killed. While a strong compliance-driven pain, the purchase trigger is less acute than the immediate, career-gating crisis of failing the NCLEX. A farmer may delay compliance; a nursing grad cannot delay their career.
 - **The architect's "get paid by the GC" pay application generator.** — Killed. A direct analog to a previous high-scoring idea, but the pain of delayed cash flow for an established business feels less intense than the pain of zero cash flow for an individual trying to start their career.

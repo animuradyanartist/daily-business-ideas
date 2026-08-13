@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Real Estate Investor 1031 Exchange Software | us-real-estate-investor-1031-exchange-software | 2026-08-13 | 98 | The Real Estate Investor's "1031 Exchange" Deadline Tracker |
 | U.S. NCLEX Repeat-Taker Test Prep Software | us-nclex-repeat-taker-test-prep | 2026-08-12 | 98 | The NCLEX repeat-taker's "pass-the-second-time" study system |
 | US Small Job Shop Quoting Software | us-small-job-shop-quoting-software | 2026-08-11 | 98 | The small job shop's "no-regret" quote generator |
 | US Specialty Trade Subcontractor Payment Software | us-specialty-trade-subcontractor-payment-software | 2026-08-10 | 98 | The subcontractor's "rejection-proof" pay application generator |
