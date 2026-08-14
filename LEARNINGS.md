@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-14
+- A large, fragmented market of decentralized buyers inside a slow-moving host institution (like a university) is a prime environment for a bottom-up, product-led SaaS tool.
+- The "cost of wasted time" for highly-paid, specialized labor (like a research PI) is a more powerful economic driver than the direct cost of a fine.
+- A competitor's successful but unpopular pricing change (like Quartzy's move to paid) can create the ideal market opening for a new entrant.
+- University EHS departments publish their audit checklists online, providing a perfect, public blueprint for an "audit-ready" product's feature set.
+
 ## 2026-08-13 (trends)
 - The most potent business ideas often target a "moment of high anxiety" in a transaction rather than a chronic, low-grade operational pain.
 - A market where a professional service provider is legally required (like a Qualified Intermediary) creates an exceptionally powerful and concentrated distribution channel.

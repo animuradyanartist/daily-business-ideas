@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-14
+- **The Commercial Real Estate Broker's "Commission-Dispute-Proof" Deal Ledger** — Killed. The pain is high but infrequent. The legal complexity makes product development risky for a solo founder.
+- **The Shopify Merchant's "No-Surprises" Pre-Order Manager** — Killed. The Shopify App Store is a red ocean. This is an operational efficiency tool, not a solution to a high-stakes, compliance-driven pain.
+- **The CNC Machine Shop's "Scrap-to-Profit" Remnant Tracker** — Killed. This is a cost-saving tool. The "avoid a fine/shutdown" value proposition of the lab inventory tool is stronger and easier to quantify.
+
 ## 2026-08-13
 - **The Co-Parent's "Dispute-Proof" Shared Expense Ledger** — Killed. While the pain is real, the market is crowded with all-in-one co-parenting apps (OurFamilyWizard, TalkingParents) where expense tracking is a feature. A standalone tool would struggle to compete against the bundle.
 - **The University Department Head's Adjunct Faculty Manager** — Killed. This is a B2B sale into academia, which has a notoriously long and difficult sales cycle. The buyer (department head) may not have budget authority, and the pain, while real, is less acute than the catastrophic failure mode of the 1031 exchange.
