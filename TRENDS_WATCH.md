@@ -297,6 +297,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Pet Symptom Checkers** · Using AI-powered mobile apps to provide 24/7 triage advice for pet health issues. · flagged 2026-08-13 · last checked 2026-08-13 · [origin memo](trends/2026-08-13.md)
 - **AI-Automated Post-Award Grant Management** · Using AI to automate compliance tracking, budgeting, and progress reporting for awarded grants. · flagged 2026-08-13 · last checked 2026-08-13 · [origin memo](trends/2026-08-13.md)
 - **AI-Powered Hyper-Personalized Itinerary Planning** · Using AI that integrates with a user's personal context to create deeply customized travel plans. · flagged 2026-08-13 · last checked 2026-08-13 · [origin memo](trends/2026-08-13.md)
+- **AI-Powered Lab Management for University Research** · Using AI platforms to automate safety, compliance, and inventory management for academic research labs. · flagged 2026-08-14 · last checked 2026-08-14 · [origin memo](trends/2026-08-14.md)
+- **AI-Assisted 1031 Exchange Navigation** · Using AI-powered platforms to help real estate investors identify properties and manage deadlines for 1031 exchanges. · flagged 2026-08-14 · last checked 2026-08-14 · [origin memo](trends/2026-08-14.md)
+- **AI-Generated "Synthetic Friends" for Language Learning** · Using AI applications that create persistent, conversational personas for immersive language practice. · flagged 2026-08-14 · last checked 2026-08-14 · [origin memo](trends/2026-08-14.md)
 
 
 ## ➡️ Active — plateauing
@@ -502,3 +505,5 @@ _(empty)_
 <!-- 2026-08-12 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-08-13 status-update directive: 🚀 | Generative Music for Creator Content -->
+
+<!-- 2026-08-14 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
