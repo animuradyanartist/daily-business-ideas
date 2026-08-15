@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Home Health Agency Compliance Software | us-home-health-agency-compliance-software | 2026-08-15 | 98 | The Home Health Agency's "Get Paid by Medicaid" Evidence Locker |
 | US Academic Research Lab Compliance Software | us-academic-lab-compliance-software | 2026-08-14 | 98 | The University Lab Manager's "Audit-Ready" Chemical Inventory System |
 | US Real Estate Investor 1031 Exchange Software | us-real-estate-investor-1031-exchange-software | 2026-08-13 | 98 | The Real Estate Investor's "1031 Exchange" Deadline Tracker |
 | U.S. NCLEX Repeat-Taker Test Prep Software | us-nclex-repeat-taker-test-prep | 2026-08-12 | 98 | The NCLEX repeat-taker's "pass-the-second-time" study system |

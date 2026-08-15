@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-15
+- **The "Audit-Ready" Recertification Binder for Solar Installers** — Killed. The pain is high-stakes but too infrequent (every 3 years) compared to the monthly, cash-flow-critical pain of Medicaid billing.
+- **The "Dispute-Proof" Damage Documentation System for Short-Term Rental Hosts** — Killed. A valid pain, but less acute and less systemic than the federally mandated, revenue-gating problem faced by home health agencies. The buyer is also less professionalized.
+- **The "Get Paid by Insurance" Pre-Authorization Assistant for Dental Offices** — Killed. Strong "get paid" pain, but the regulatory complexity and direct financial risk of Medicaid/EVV clawbacks in the home health space feels more severe and creates a stronger, more urgent purchase driver.
+
 ## 2026-08-14
 - **The Commercial Real Estate Broker's "Commission-Dispute-Proof" Deal Ledger** — Killed. The pain is high but infrequent. The legal complexity makes product development risky for a solo founder.
 - **The Shopify Merchant's "No-Surprises" Pre-Order Manager** — Killed. The Shopify App Store is a red ocean. This is an operational efficiency tool, not a solution to a high-stakes, compliance-driven pain.
