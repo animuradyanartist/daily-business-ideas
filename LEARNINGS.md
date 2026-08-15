@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-15 (trends)
+- Federally mandated compliance workflows (like EVV) create the most durable and non-negotiable pain points for SMBs. The government forcing a change is a powerful market-creation event.
+- In a market with established all-in-one incumbents, the most effective wedge is not to build a better all-in-one, but to build a best-in-class point solution for the single most expensive failure point in the incumbent's workflow.
+- A government audit that quantifies the dollar amount of non-compliance (e.g., the NY Comptroller's $97.6M report) is the most powerful piece of marketing collateral possible for a compliance-driven product.
+- Reimbursement pressure from a central payer (like CMS) can increase, not decrease, the demand for tools that prevent revenue leakage, as businesses can no longer afford operational sloppiness.
+
+---
+
 ## 2026-08-15
 - Federally mandated compliance workflows (like EVV) create the most durable and non-negotiable pain points for SMBs. The government forcing a change is a powerful market-creation event.
 - In a market with established all-in-one incumbents, the most effective wedge is not to build a better all-in-one, but to build a best-in-class point solution for the single most expensive failure point in the incumbent's workflow.

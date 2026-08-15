@@ -300,6 +300,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Lab Management for University Research** · Using AI platforms to automate safety, compliance, and inventory management for academic research labs. · flagged 2026-08-14 · last checked 2026-08-14 · [origin memo](trends/2026-08-14.md)
 - **AI-Assisted 1031 Exchange Navigation** · Using AI-powered platforms to help real estate investors identify properties and manage deadlines for 1031 exchanges. · flagged 2026-08-14 · last checked 2026-08-14 · [origin memo](trends/2026-08-14.md)
 - **AI-Generated "Synthetic Friends" for Language Learning** · Using AI applications that create persistent, conversational personas for immersive language practice. · flagged 2026-08-14 · last checked 2026-08-14 · [origin memo](trends/2026-08-14.md)
+- **AI-Automated Home Health Compliance (EVV)** · Using AI to automate Electronic Visit Verification, prevent claim denials, and ensure audit-readiness for home health agencies. · flagged 2026-08-15 · last checked 2026-08-15 · [origin memo](trends/2026-08-15.md)
+- **AI-Automated M&A Due Diligence** · Using AI to automate document review, risk identification, and analysis within virtual data rooms for M&A transactions. · flagged 2026-08-15 · last checked 2026-08-15 · [origin memo](trends/2026-08-15.md)
+- **AI as a College Admissions Co-Pilot** · Using specialized AI tools to assist with essay analysis, application strategy, and school selection. · flagged 2026-08-15 · last checked 2026-08-15 · [origin memo](trends/2026-08-15.md)
 
 
 ## ➡️ Active — plateauing
@@ -507,3 +510,5 @@ _(empty)_
 <!-- 2026-08-13 status-update directive: 🚀 | Generative Music for Creator Content -->
 
 <!-- 2026-08-14 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
+
+<!-- 2026-08-15 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
