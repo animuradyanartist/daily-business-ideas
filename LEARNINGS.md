@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-16 (trends)
+- The most powerful wedge into a market dominated by clunky enterprise software is to build a product for the frustrated end-user, even if they aren't the traditional budget holder.
+- A market where the "cost of failure" involves legal liability for children's rights (IDEA) creates an incredibly strong, non-negotiable, and durable purchasing driver.
+- The existence of a thriving marketplace for low-cost, user-created digital goods (like Teachers Pay Teachers) is a powerful signal of a user base's willingness to pay out-of-pocket to solve their own problems.
+
+---
+
 ## 2026-08-16
 - The most powerful wedge into a market dominated by clunky enterprise software is to build a product for the frustrated end-user, even if they aren't the traditional budget holder.
 - A market where the "cost of failure" involves legal liability for children's rights (IDEA) creates an incredibly strong, non-negotiable, and durable purchasing driver.

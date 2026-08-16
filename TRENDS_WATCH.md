@@ -303,6 +303,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Home Health Compliance (EVV)** · Using AI to automate Electronic Visit Verification, prevent claim denials, and ensure audit-readiness for home health agencies. · flagged 2026-08-15 · last checked 2026-08-15 · [origin memo](trends/2026-08-15.md)
 - **AI-Automated M&A Due Diligence** · Using AI to automate document review, risk identification, and analysis within virtual data rooms for M&A transactions. · flagged 2026-08-15 · last checked 2026-08-15 · [origin memo](trends/2026-08-15.md)
 - **AI as a College Admissions Co-Pilot** · Using specialized AI tools to assist with essay analysis, application strategy, and school selection. · flagged 2026-08-15 · last checked 2026-08-15 · [origin memo](trends/2026-08-15.md)
+- **AI-Powered "Advocate-in-a-Box" for Special Education** · Using AI to help parents and teachers manage the administrative burden of Individualized Education Programs (IEPs). · flagged 2026-08-16 · last checked 2026-08-16 · [origin memo](trends/2026-08-16.md)
+- **AI-Powered "Team Brain" Across Multiple Apps** · Using AI to create a single, searchable knowledge layer across a team's fragmented apps like Slack, Notion, and Google Drive. · flagged 2026-08-16 · last checked 2026-08-16 · [origin memo](trends/2026-08-16.md)
+- **AI-Automated Local SEO Management** · Using AI platforms to automate Google Business Profile optimization, review responses, and citation management for local businesses. · flagged 2026-08-16 · last checked 2026-08-16 · [origin memo](trends/2026-08-16.md)
 
 
 ## ➡️ Active — plateauing
@@ -512,3 +515,5 @@ _(empty)_
 <!-- 2026-08-14 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-08-15 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
+
+<!-- 2026-08-16 status-update directive: 🚀 | Adaptive AI Fitness Coaching -->
