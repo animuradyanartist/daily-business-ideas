@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-16
+- **The small trucking fleet's "DOT audit-proof" digital file cabinet** — Killed. A very strong idea that fits a proven pattern, but the SPED opportunity targets a larger user base and has a more interesting, scalable GTM motion (PLG-to-enterprise).
+- **The pest control operator's "EPA-ready" chemical usage log** — Killed. A valid compliance pain, but the stakes (fines) feel lower and less existential than a failed DOT audit or an IEP lawsuit. Market size is likely smaller.
+- **The freelance creative's "IP rights" clause library** — Killed. The pain is real but infrequent and the buyer is too fragmented and has a low willingness to pay for preventative legal tools.
+
 ## 2026-08-15
 - **The "Audit-Ready" Recertification Binder for Solar Installers** — Killed. The pain is high-stakes but too infrequent (every 3 years) compared to the monthly, cash-flow-critical pain of Medicaid billing.
 - **The "Dispute-Proof" Damage Documentation System for Short-Term Rental Hosts** — Killed. A valid pain, but less acute and less systemic than the federally mandated, revenue-gating problem faced by home health agencies. The buyer is also less professionalized.
