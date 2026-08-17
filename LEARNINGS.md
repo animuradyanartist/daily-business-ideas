@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-17
+*   A mandatory, government-created compliance deadline is one of the most powerful market-creation events possible.
+*   The threat of personal or corporate liability under statutes like the False Claims Act is a much stronger driver of purchasing behavior than the threat of merely losing a contract.
+*   When a market is dominated by high-priced human services (consultants), a software product priced at 10-20% of the service cost can be a highly effective wedge, even if it requires the user to do more work themselves.
+*   A temporary government pause or review of a program can create an opportunity for a tool that addresses the *underlying, unchanged legal requirement* while competitors focus on the paused portion.
+
 ## 2026-08-16 (trends)
 - The most powerful wedge into a market dominated by clunky enterprise software is to build a product for the frustrated end-user, even if they aren't the traditional budget holder.
 - A market where the "cost of failure" involves legal liability for children's rights (IDEA) creates an incredibly strong, non-negotiable, and durable purchasing driver.

@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-17
+*   **The Independent Insurance Adjuster's "Rejection-Proof" Xactimate Estimate Scrubber** — Killed. Strong pain, but it's about payment *delay*, not total revenue loss. The CMMC pain is more existential.
+*   **The Small Law Firm's "Conflict-Check-Ready" Client Intake System** — Killed. This is a critical ethical requirement, but the failure mode is a rare "black swan" event (a malpractice suit). The CMMC failure is a guaranteed, immediate loss of business.
+*   **The E-commerce Merchant's "Chargeback-Proof" Evidence Collector** — Killed. A valid financial pain, but the buyer is highly fragmented and the market is crowded with Shopify apps. The CMMC buyer is a more concentrated and professional B2B segment.
+
 ## 2026-08-16
 - **The small trucking fleet's "DOT audit-proof" digital file cabinet** — Killed. A very strong idea that fits a proven pattern, but the SPED opportunity targets a larger user base and has a more interesting, scalable GTM motion (PLG-to-enterprise).
 - **The pest control operator's "EPA-ready" chemical usage log** — Killed. A valid compliance pain, but the stakes (fines) feel lower and less existential than a failed DOT audit or an IEP lawsuit. Market size is likely smaller.

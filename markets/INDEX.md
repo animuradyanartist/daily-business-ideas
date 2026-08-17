@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US DoD Contractor CMMC Compliance Software | us-dod-contractor-cmmc-compliance-software | 2026-08-17 | 98 | The Government Contractor's "CMMC Level 1" Compliance Evidence Locker |
 | US K-12 Special Education Compliance Software | us-k12-special-education-compliance-software | 2026-08-16 | 98 | The special education teacher's "audit-ready" IEP compliance system |
 | US Home Health Agency Compliance Software | us-home-health-agency-compliance-software | 2026-08-15 | 98 | The Home Health Agency's "Get Paid by Medicaid" Evidence Locker |
 | US Academic Research Lab Compliance Software | us-academic-lab-compliance-software | 2026-08-14 | 98 | The University Lab Manager's "Audit-Ready" Chemical Inventory System |
