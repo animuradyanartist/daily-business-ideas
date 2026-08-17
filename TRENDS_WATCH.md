@@ -306,6 +306,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered "Advocate-in-a-Box" for Special Education** · Using AI to help parents and teachers manage the administrative burden of Individualized Education Programs (IEPs). · flagged 2026-08-16 · last checked 2026-08-16 · [origin memo](trends/2026-08-16.md)
 - **AI-Powered "Team Brain" Across Multiple Apps** · Using AI to create a single, searchable knowledge layer across a team's fragmented apps like Slack, Notion, and Google Drive. · flagged 2026-08-16 · last checked 2026-08-16 · [origin memo](trends/2026-08-16.md)
 - **AI-Automated Local SEO Management** · Using AI platforms to automate Google Business Profile optimization, review responses, and citation management for local businesses. · flagged 2026-08-16 · last checked 2026-08-16 · [origin memo](trends/2026-08-16.md)
+- **AI-Automated Government Contracting Compliance** · Using AI platforms to automate compliance and proposal workflows for federal contracts. · flagged 2026-08-17 · last checked 2026-08-17 · [origin memo](trends/2026-08-17.md)
+- **AI-Powered Compliance for Financial Advisor Marketing** · Using AI to automate the creation and regulatory pre-screening of marketing materials for financial advisors. · flagged 2026-08-17 · last checked 2026-08-17 · [origin memo](trends/2026-08-17.md)
+- **AI-Powered "Digital Twin" for SMB Operations** · Using AI to create real-time virtual models of a business's operations to run simulations and forecast the impact of decisions. · flagged 2026-08-17 · last checked 2026-08-17 · [origin memo](trends/2026-08-17.md)
 
 
 ## ➡️ Active — plateauing
@@ -517,3 +520,5 @@ _(empty)_
 <!-- 2026-08-15 status-update directive: 🚀 | AI-Structured Portfolio Generation -->
 
 <!-- 2026-08-16 status-update directive: 🚀 | Adaptive AI Fitness Coaching -->
+
+<!-- 2026-08-17 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->

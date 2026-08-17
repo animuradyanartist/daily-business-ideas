@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-17 (trends)
+- A mandatory, government-created compliance deadline is one of the most powerful market-creation events possible.
+- The threat of personal or corporate liability under statutes from bodies like the SEC or FINRA is a much stronger driver of purchasing behavior than the threat of merely losing a contract.
+- When a market is dominated by high-priced human services (consultants, lawyers), a software product priced at 10-20% of the service cost can be a highly effective wedge, even if it requires the user to do more work themselves.
+
+---
+
 ## 2026-08-17
 *   A mandatory, government-created compliance deadline is one of the most powerful market-creation events possible.
 *   The threat of personal or corporate liability under statutes like the False Claims Act is a much stronger driver of purchasing behavior than the threat of merely losing a contract.
