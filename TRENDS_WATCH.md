@@ -309,6 +309,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Government Contracting Compliance** · Using AI platforms to automate compliance and proposal workflows for federal contracts. · flagged 2026-08-17 · last checked 2026-08-17 · [origin memo](trends/2026-08-17.md)
 - **AI-Powered Compliance for Financial Advisor Marketing** · Using AI to automate the creation and regulatory pre-screening of marketing materials for financial advisors. · flagged 2026-08-17 · last checked 2026-08-17 · [origin memo](trends/2026-08-17.md)
 - **AI-Powered "Digital Twin" for SMB Operations** · Using AI to create real-time virtual models of a business's operations to run simulations and forecast the impact of decisions. · flagged 2026-08-17 · last checked 2026-08-17 · [origin memo](trends/2026-08-17.md)
+- **AI-Powered Operations for Marine Businesses** · Using AI platforms to automate procurement, fleet management, and customer lead qualification for marine operators. · flagged 2026-08-18 · last checked 2026-08-18 · [origin memo](trends/2026-08-18.md)
+- **AI-Automated IT Offboarding & Deprovisioning** · Using AI to automate the revocation of employee access to SaaS applications to reduce security and compliance risk. · flagged 2026-08-18 · last checked 2026-08-18 · [origin memo](trends/2026-08-18.md)
+- **AI-Powered Clinical Trial Site Selection** · Using AI to analyze data and predict which research sites will perform best for clinical trials. · flagged 2026-08-18 · last checked 2026-08-18 · [origin memo](trends/2026-08-18.md)
 
 
 ## ➡️ Active — plateauing
@@ -522,3 +525,5 @@ _(empty)_
 <!-- 2026-08-16 status-update directive: 🚀 | Adaptive AI Fitness Coaching -->
 
 <!-- 2026-08-17 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
+
+<!-- 2026-08-18 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
