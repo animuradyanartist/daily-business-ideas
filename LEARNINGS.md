@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-18
+- A change in a regulation's *enforcement* (e.g., removing a grace period) can be a more powerful market-creation event than the regulation itself.
+- The best wedge against a bundled feature in a large platform (like an HRIS) is to be the best-in-class, most up-to-date solution for the single highest-risk component of that bundle.
+- A product's value can be directly anchored to the specific dollar amount of the fine it helps customers avoid.
+
 ## 2026-08-17 (trends)
 - A mandatory, government-created compliance deadline is one of the most powerful market-creation events possible.
 - The threat of personal or corporate liability under statutes from bodies like the SEC or FINRA is a much stronger driver of purchasing behavior than the threat of merely losing a contract.

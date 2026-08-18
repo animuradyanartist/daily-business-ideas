@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-18
+- **The Non-Profit's "Single Audit" Readiness System** — Killed. While a strong compliance idea, the market is smaller and the sales cycle into non-profits is likely longer and more difficult than for-profit SMBs.
+- **The Commercial Roofing Contractor's "Warranty-Compliant" Photo Documentation System** — Killed. The pain is driven by private manufacturer contracts, not federal law, making it less universal and urgent than I-9 compliance.
+- **The Small Law Firm's "Conflict-Check-Ready" Client Intake System** — Killed. The failure mode is a rare "black swan" event (a malpractice suit). The I-9 failure is a guaranteed, immediate fine upon audit.
+
 ## 2026-08-17
 *   **The Independent Insurance Adjuster's "Rejection-Proof" Xactimate Estimate Scrubber** — Killed. Strong pain, but it's about payment *delay*, not total revenue loss. The CMMC pain is more existential.
 *   **The Small Law Firm's "Conflict-Check-Ready" Client Intake System** — Killed. This is a critical ethical requirement, but the failure mode is a rare "black swan" event (a malpractice suit). The CMMC failure is a guaranteed, immediate loss of business.
