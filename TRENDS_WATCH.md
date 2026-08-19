@@ -312,6 +312,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Operations for Marine Businesses** · Using AI platforms to automate procurement, fleet management, and customer lead qualification for marine operators. · flagged 2026-08-18 · last checked 2026-08-18 · [origin memo](trends/2026-08-18.md)
 - **AI-Automated IT Offboarding & Deprovisioning** · Using AI to automate the revocation of employee access to SaaS applications to reduce security and compliance risk. · flagged 2026-08-18 · last checked 2026-08-18 · [origin memo](trends/2026-08-18.md)
 - **AI-Powered Clinical Trial Site Selection** · Using AI to analyze data and predict which research sites will perform best for clinical trials. · flagged 2026-08-18 · last checked 2026-08-18 · [origin memo](trends/2026-08-18.md)
+- **AI-Automated Food Supply Chain Traceability** · Using AI platforms to automate compliance with retailer-mandated food traceability rules. · flagged 2026-08-19 · last checked 2026-08-19 · [origin memo](trends/2026-08-19.md)
+- **AI-Automated Retail Planogram Compliance** · Using computer vision to automatically verify in-store shelf layouts against planograms. · flagged 2026-08-19 · last checked 2026-08-19 · [origin memo](trends/2026-08-19.md)
+- **AI-Driven IT Asset Disposition (ITAD)** · Using AI to manage the secure disposal and value recovery of retired IT hardware, driven by accelerated AI infrastructure refresh cycles. · flagged 2026-08-19 · last checked 2026-08-19 · [origin memo](trends/2026-08-19.md)
 
 
 ## ➡️ Active — plateauing
@@ -527,3 +530,5 @@ _(empty)_
 <!-- 2026-08-17 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
 
 <!-- 2026-08-18 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
+
+<!-- 2026-08-19 status-update directive: 🚀 | AI-Generated Business Presentations -->
