@@ -1,6 +1,30 @@
 # Market: US SMB Food Producer FSMA Compliance Software
 slug: us-smb-food-producer-fsma-compliance-software
 
+## 2026-08-19 revision — idea: The Small Food Producer's "FSMA 204-Ready" Traceability Ledger (score: 100)
+- TAM/SAM/SOM: TAM: ~$28B (Global Food Traceability Market 2026). SAM: ~8,400 US food producers subject to the rule × # Market: US SMB Food Producer FSMA Compliance Software
+slug: us-smb-food-producer-fsma-compliance-software
+,500/year = ~# Market: US SMB Food Producer FSMA Compliance Software
+slug: us-smb-food-producer-fsma-compliance-software
+2.6M ARR. SOM (Y2): 100 producers × # Market: US SMB Food Producer FSMA Compliance Software
+slug: us-smb-food-producer-fsma-compliance-software
+,500/year = # Market: US SMB Food Producer FSMA Compliance Software
+slug: us-smb-food-producer-fsma-compliance-software
+50k ARR.
+- Growth: High growth (8-11% CAGR) driven by a non-negotiable federal regulation (FSMA 204) and, more immediately, by strict enforcement from major retailers like Walmart.
+- Fragmentation: The buyer base (21,000+ US food manufacturers) is highly fragmented, with the majority being small businesses. The customer base (retailers) is highly consolidated.
+- Margin pool: Sits with software providers who can offer a low-cost, scalable solution to de-risk a producer's relationship with their largest customers. The cost of failure (losing a major contract) is massive compared to the cost of software.
+- Distribution control: Retailers like Walmart control access by mandating specific data standards (EDI, ASNs) for their suppliers, effectively creating the market for compliance software.
+- Incumbents and inertia: Incumbents (SafetyChain, FoodLogiQ) are complex, expensive, and built for large enterprises. They leave a wide-open gap for a simple, affordable tool for the thousands of small producers who can't afford enterprise-level suites.
+- Regulatory / platform risk: The primary risk was the FDA delaying the compliance deadline, which happened (pushed to 2028). This is mitigated by retailers enforcing their own, earlier deadlines, creating a durable, market-driven need.
+- Key sources:
+    - [https://corporate.walmart.com/newsroom/sustainability/food-safety-and-traceability](https://corporate.walmart.com/newsroom/sustainability/food-safety-and-traceability)
+    - [https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods](https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods)
+    - [https://boldvan.com/blog/the-real-cost-of-fsma-non-compliance-what-food-suppliers-stand-to-lose/](https://boldvan.com/blog/the-real-cost-of-fsma-non-compliance-what-food-suppliers-stand-to-lose/)
+
+---
+
+
 ## 2026-07-23 revision — idea: The small-batch food producer's "lot code & recall readiness" system (score: 98)
 - TAM/SAM/SOM: TAM: ~$12.3B (Global Food Traceability Software 2024). SAM: 8,400 US producers x $3,600 ACV = $30.2M. SOM (Y2): 84 customers x $3,600 = ~$300k ARR.
 - Growth: 7-9% CAGR, but accelerated by immediate retailer mandates from Walmart and Kroger.

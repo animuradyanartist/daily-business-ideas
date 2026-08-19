@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-19
+- A retailer's compliance deadline can be a more powerful and immediate market-creation event than the underlying government regulation's deadline.
+- The most effective wedge against customer inertia (e.g., "we'll just use a spreadsheet") is to anchor the product's value to the risk of losing their single largest customer.
+- In a fragmented SMB market, the most urgent pain is often dictated by the demands of their largest, most consolidated customers, not directly by a regulator.
+
 ## 2026-08-18 (trends)
 - A change in a regulation's *enforcement* (e.g., removing a grace period) can be a more powerful market-creation event than the regulation itself.
 - The best wedge against a bundled feature in a large platform (like an HRIS) is to be the best-in-class, most up-to-date solution for the single highest-risk component of that bundle.

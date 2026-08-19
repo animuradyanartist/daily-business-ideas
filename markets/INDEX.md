@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Food Producer FSMA 204 Compliance Software | us-smb-food-producer-fsma-compliance-software | 2026-08-19 | 100 | The Small Food Producer's "FSMA 204-Ready" Traceability Ledger |
 | US SMB I-9 Compliance Software | us-smb-i9-compliance-software | 2026-08-18 | 98 | The HR Manager's "I-9 Audit-Ready" Document Collector |
 | US DoD Contractor CMMC Compliance Software | us-dod-contractor-cmmc-compliance-software | 2026-08-17 | 98 | The Government Contractor's "CMMC Level 1" Compliance Evidence Locker |
 | US K-12 Special Education Compliance Software | us-k12-special-education-compliance-software | 2026-08-16 | 98 | The special education teacher's "audit-ready" IEP compliance system |
@@ -29,7 +30,6 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 | US Commercial Property Management COI Compliance Software | us-commercial-property-management-coi-compliance-software | 2026-07-26 | 93 | The commercial property manager's "tenant COI" tracker |
 | US Independent Insurance Agency E&O Compliance Software | us-independent-insurance-agency-eo-compliance-software | 2026-07-25 | 98 | The independent insurance agency's "E&O audit-ready" file |
 | US Boutique Architecture Firm Construction Administration Software | us-boutique-architecture-firm-construction-admin-software | 2026-07-24 | 96 | The boutique architecture firm's "submittal & RFI" tracker |
-| US SMB Food Producer FSMA Compliance Software | us-smb-food-producer-fsma-compliance-software | 2026-07-23 | 98 | The small-batch food producer's "lot code & recall readiness" system |
 | US HVAC Contractor EPA Compliance Software | us-hvac-contractor-epa-compliance-software | 2026-07-22 | 98 | The HVAC contractor's "EPA AIM Act-Ready" compliance log |
 | US Part 135 Air Charter Operator Compliance Software | us-part-135-air-charter-compliance-software | 2026-07-21 | 98 | The Part 135 Air Charter Operator's "FAA Ramp Check-Ready" Digital Binder |
 | US SMB General Contractor Compliance Software | us-smb-general-contractor-compliance-software | 2026-07-20 | 97 | The General Contractor's "lien waiver" collection & tracking hub |

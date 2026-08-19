@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-19
+- **The Daycare Director's "Licensing-Ready" Staff & Safety Binder** — Killed. Strong pain, but the FSMA opportunity has a more powerful, market-wide forcing function created by retailers.
+- **The Local Government Contractor's "Prevailing Wage" Certified Payroll Generator** — Killed. Another strong compliance idea, but the FSMA market feels larger and the "lose your Walmart contract" pain is more acute than payroll errors.
+- **The Cannabis Dispensary's "Seed-to-Sale" Compliance Ledger** — Killed. While a strong regulatory niche, the patchwork of state-by-state regulations makes it difficult for a solo founder to build a scalable, national product.
+- **The Independent Landlord's "Lead-Safe" Certification Tracker** — Killed. The pain is high (fines, lawsuits) but less frequent and the buyer is more fragmented and less professionalized than food producers.
+
 ## 2026-08-18
 - **The Non-Profit's "Single Audit" Readiness System** — Killed. While a strong compliance idea, the market is smaller and the sales cycle into non-profits is likely longer and more difficult than for-profit SMBs.
 - **The Commercial Roofing Contractor's "Warranty-Compliant" Photo Documentation System** — Killed. The pain is driven by private manufacturer contracts, not federal law, making it less universal and urgent than I-9 compliance.
