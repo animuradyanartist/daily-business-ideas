@@ -315,6 +315,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Food Supply Chain Traceability** · Using AI platforms to automate compliance with retailer-mandated food traceability rules. · flagged 2026-08-19 · last checked 2026-08-19 · [origin memo](trends/2026-08-19.md)
 - **AI-Automated Retail Planogram Compliance** · Using computer vision to automatically verify in-store shelf layouts against planograms. · flagged 2026-08-19 · last checked 2026-08-19 · [origin memo](trends/2026-08-19.md)
 - **AI-Driven IT Asset Disposition (ITAD)** · Using AI to manage the secure disposal and value recovery of retired IT hardware, driven by accelerated AI infrastructure refresh cycles. · flagged 2026-08-19 · last checked 2026-08-19 · [origin memo](trends/2026-08-19.md)
+- **AI-Powered Cargo Theft Prevention** · Using AI to proactively detect and prevent cargo theft by analyzing real-time telematics data and automating incident response. · flagged 2026-08-20 · last checked 2026-08-20 · [origin memo](trends/2026-08-20.md)
+- **AI-Automated Performance Marketing Creative** · Using AI platforms to automate the entire ad creative lifecycle, from generation and variation to performance analysis and optimization. · flagged 2026-08-20 · last checked 2026-08-20 · [origin memo](trends/2026-08-20.md)
+- **AI-Powered Relationship Coaching** · Using AI-powered mobile apps for on-demand relationship coaching, communication practice, and conflict de-escalation. · flagged 2026-08-20 · last checked 2026-08-20 · [origin memo](trends/2026-08-20.md)
 
 
 ## ➡️ Active — plateauing
@@ -532,3 +535,5 @@ _(empty)_
 <!-- 2026-08-18 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
 
 <!-- 2026-08-19 status-update directive: 🚀 | AI-Generated Business Presentations -->
+
+<!-- 2026-08-20 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->

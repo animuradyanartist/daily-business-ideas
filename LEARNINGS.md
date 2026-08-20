@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-20 (trends)
+- The pain of direct, criminal fraud loss can be a more powerful purchase driver than regulatory compliance risk.
+- A shift in the legal landscape (like a Supreme Court ruling) can instantly transform a "best practice" (vitamin) into a "legal necessity" (painkiller), creating a powerful "why now" moment.
+- In a market with large, all-in-one incumbents (like TMS platforms), the best wedge is often a specialized, best-in-class tool that solves the single most expensive or dangerous problem better than anyone else.
+- A product's value can be anchored directly to the average cost of a catastrophic failure event (e.g., the average value of a stolen cargo load).
+
+---
+
 ## 2026-08-20
 - The pain of direct, criminal fraud loss can be a more powerful purchase driver than regulatory compliance risk.
 - A shift in the legal landscape (like a Supreme Court ruling) can instantly transform a "best practice" (vitamin) into a "legal necessity" (painkiller), creating a powerful "why now" moment.
