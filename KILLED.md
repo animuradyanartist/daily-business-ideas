@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-20
+- **The Small Manufacturing Plant's "OSHA-Ready" Machine Guarding Assessor** — Killed. While a valid pain, the risk of direct, immediate, and catastrophic financial loss from fraud in the freight market feels more acute than the probabilistic risk of an OSHA fine.
+- **The Hotel Manager's "ADA Lawsuit-Ready" Website & Booking Engine Audit** — Killed. The threat of civil litigation is strong, but the buyer is highly fragmented and the market is crowded with "accessibility widget" solutions. The freight opportunity targets a more concentrated and professional B2B buyer.
+- **The CPA Firm's "PCAOB Inspection-Ready" Quality Control System** — Killed. This is a high-stakes compliance problem, but the sales cycle into CPA firms is notoriously long and requires deep domain expertise. The freight broker market is more accessible for a solo founder.
+
 ## 2026-08-19
 - **The Daycare Director's "Licensing-Ready" Staff & Safety Binder** — Killed. Strong pain, but the FSMA opportunity has a more powerful, market-wide forcing function created by retailers.
 - **The Local Government Contractor's "Prevailing Wage" Certified Payroll Generator** — Killed. Another strong compliance idea, but the FSMA market feels larger and the "lose your Walmart contract" pain is more acute than payroll errors.
