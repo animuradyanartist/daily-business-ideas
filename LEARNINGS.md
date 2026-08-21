@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-21
+- A contracting or maturing market can be an opportunity, as it forces operators to focus on efficiency and cost-control, increasing the value of ROI-positive tools.
+- Direct, preventable capital loss (losing a physical $150 asset) is a more straightforward and visceral pain to sell against than probabilistic risk (like a potential compliance fine).
+- A product's moat can be created by the customer's own labor (e.g., the act of tagging their entire asset fleet), which creates powerful switching costs.
+- The most common competitor is often not another company, but a manual process like a spreadsheet; the sales job is to quantify the hidden costs of that "free" solution.
+
 ## 2026-08-20 (trends)
 - The pain of direct, criminal fraud loss can be a more powerful purchase driver than regulatory compliance risk.
 - A shift in the legal landscape (like a Supreme Court ruling) can instantly transform a "best practice" (vitamin) into a "legal necessity" (painkiller), creating a powerful "why now" moment.

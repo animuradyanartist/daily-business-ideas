@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Craft Brewery Asset Tracking Software | us-craft-brewery-asset-tracking-software | 2026-08-21 | 95 | The small brewery's "find my kegs" tracker |
 | US Freight Brokerage Fraud Prevention Software | us-freight-brokerage-fraud-prevention-software | 2026-08-20 | 99 | The Freight Broker's "Anti-Double-Brokering" Carrier Verification System |
 | US Small Food Producer FSMA 204 Compliance Software | us-smb-food-producer-fsma-compliance-software | 2026-08-19 | 100 | The Small Food Producer's "FSMA 204-Ready" Traceability Ledger |
 | US SMB I-9 Compliance Software | us-smb-i9-compliance-software | 2026-08-18 | 98 | The HR Manager's "I-9 Audit-Ready" Document Collector |

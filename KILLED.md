@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-21
+- **The non-profit's "post-award" grant management system** — Killed. The pain is real, but the buyer is notoriously slow to adopt and has fragmented, unpredictable budgets, making sales cycles difficult.
+- **The independent tour operator's "no more double-booking" channel manager** — Killed. The market is extremely crowded with booking software and channel managers; finding a truly defensible wedge as a solo founder is difficult.
+- **The SMB's "don't get sued" website accessibility (ADA) scanner** — Killed. This is a strong compliance-driven idea, but the market is saturated with "accessibility widget" overlays and the sales process involves educating a low-intent buyer.
+- **The local service business's "where's my tech?" fleet tracker** — Killed. This is a solved problem with dozens of well-funded incumbents like Samsara and Verizon Connect.
+
 ## 2026-08-20
 - **The Small Manufacturing Plant's "OSHA-Ready" Machine Guarding Assessor** — Killed. While a valid pain, the risk of direct, immediate, and catastrophic financial loss from fraud in the freight market feels more acute than the probabilistic risk of an OSHA fine.
 - **The Hotel Manager's "ADA Lawsuit-Ready" Website & Booking Engine Audit** — Killed. The threat of civil litigation is strong, but the buyer is highly fragmented and the market is crowded with "accessibility widget" solutions. The freight opportunity targets a more concentrated and professional B2B buyer.

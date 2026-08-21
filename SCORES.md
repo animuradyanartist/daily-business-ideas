@@ -52,6 +52,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 96 | high | 2026-06-21 | The Home Healthcare Agency's "Audit-Proof" EVV & Scheduling Hub |
 | 96 | high | 2026-06-20 | The 3PL's "Audit-Proof" Food Safety Compliance Hub |
 | 96 | high | 2026-06-18 | The Small Law Firm's "IOLTA Compliance" Hub |
+| 95 | high | 2026-08-21 | The small brewery's "find my kegs" tracker |
 | 95 | high | 2026-07-29 | The FBA seller's "get paid by Amazon" reimbursement claim preparer |
 | 95 | high | 2026-07-17 | The independent mortgage lender's "loan repurchase" defender hub |
 | 95 | high | 2026-06-28 | The FBA Seller's "Inventory Reconciliation & Reimbursement" Hub |
