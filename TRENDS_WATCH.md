@@ -318,6 +318,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Cargo Theft Prevention** · Using AI to proactively detect and prevent cargo theft by analyzing real-time telematics data and automating incident response. · flagged 2026-08-20 · last checked 2026-08-20 · [origin memo](trends/2026-08-20.md)
 - **AI-Automated Performance Marketing Creative** · Using AI platforms to automate the entire ad creative lifecycle, from generation and variation to performance analysis and optimization. · flagged 2026-08-20 · last checked 2026-08-20 · [origin memo](trends/2026-08-20.md)
 - **AI-Powered Relationship Coaching** · Using AI-powered mobile apps for on-demand relationship coaching, communication practice, and conflict de-escalation. · flagged 2026-08-20 · last checked 2026-08-20 · [origin memo](trends/2026-08-20.md)
+- **AI-Automated Equipment Tagging & Tracking for Construction** · Using computer vision to automatically identify, tag, and track tools and equipment on job sites. · flagged 2026-08-21 · last checked 2026-08-21 · [origin memo](trends/2026-08-21.md)
+- **AI-Powered Predictive Maintenance for Trucking Fleets** · Using AI to analyze telematics data to predict mechanical failures and automate maintenance workflows. · flagged 2026-08-21 · last checked 2026-08-21 · [origin memo](trends/2026-08-21.md)
+- **AI-Automated Regulatory Comment Drafting for Policy Professionals** · Using AI to analyze proposed regulations and automate the drafting of public comments. · flagged 2026-08-21 · last checked 2026-08-21 · [origin memo](trends/2026-08-21.md)
 
 
 ## ➡️ Active — plateauing
@@ -537,3 +540,5 @@ _(empty)_
 <!-- 2026-08-19 status-update directive: 🚀 | AI-Generated Business Presentations -->
 
 <!-- 2026-08-20 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
+
+<!-- 2026-08-21 status-update directive: 🚀 | AI-Powered UX Writing & UI Copy Generation -->
