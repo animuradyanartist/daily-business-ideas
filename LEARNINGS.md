@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-22
+- A user's personal, career-gating financial milestone can be as powerful a motivator as a B2B compliance fine.
+- The best moats are often built from the customer's own tedious work, which they then become unwilling to repeat in a competitor's product.
+- A transient customer base isn't necessarily a bad business if the inflow of new customers is large, predictable, and constant. The business becomes about optimizing acquisition for that flow.
+
 ## 2026-08-21 (trends)
 - A contracting or maturing market can be an opportunity, as it forces operators to focus on efficiency and cost-control, increasing the value of ROI-positive tools.
 - Direct, preventable capital loss (losing a physical $150 asset) is a more straightforward and visceral pain to sell against than probabilistic risk (like a potential compliance fine).

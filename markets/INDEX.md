@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Skilled Trades Apprentice Licensing Software | us-skilled-trades-apprentice-licensing-software | 2026-08-22 | 92 | The Apprentice Electrician's "Get-My-License" Hour & Category Tracker |
 | US Craft Brewery Asset Tracking Software | us-craft-brewery-asset-tracking-software | 2026-08-21 | 95 | The small brewery's "find my kegs" tracker |
 | US Freight Brokerage Fraud Prevention Software | us-freight-brokerage-fraud-prevention-software | 2026-08-20 | 99 | The Freight Broker's "Anti-Double-Brokering" Carrier Verification System |
 | US Small Food Producer FSMA 204 Compliance Software | us-smb-food-producer-fsma-compliance-software | 2026-08-19 | 100 | The Small Food Producer's "FSMA 204-Ready" Traceability Ledger |

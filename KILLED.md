@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-22
+- **The Commercial Drone Pilot's "FAA-Ready" Flight & Maintenance Log** — Killed. The pain is a probabilistic risk of an FAA fine, which is less acute than the certain pain of a delayed electrician's license.
+- **The Independent Insurance Adjuster's "Field-to-First-Draft" Generator** — Killed. This solves a burnout and efficiency problem, which is a "nice to have." The apprentice tracker solves a mandatory, career-gating compliance problem.
+- **The Pre-Licensed Therapist's "Get-My-License" Supervision Hour Ledger** — Killed (for today). This is an extremely strong idea, virtually identical in shape to the electrician concept. I chose the electrician because the market size feels slightly larger and less fragmented by licensure type (LPC, MFT, LCSW). Both are A-grade opportunities.
+
 ## 2026-08-21
 - **The non-profit's "post-award" grant management system** — Killed. The pain is real, but the buyer is notoriously slow to adopt and has fragmented, unpredictable budgets, making sales cycles difficult.
 - **The independent tour operator's "no more double-booking" channel manager** — Killed. The market is extremely crowded with booking software and channel managers; finding a truly defensible wedge as a solo founder is difficult.
