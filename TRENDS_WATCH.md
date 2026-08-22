@@ -321,6 +321,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Equipment Tagging & Tracking for Construction** · Using computer vision to automatically identify, tag, and track tools and equipment on job sites. · flagged 2026-08-21 · last checked 2026-08-21 · [origin memo](trends/2026-08-21.md)
 - **AI-Powered Predictive Maintenance for Trucking Fleets** · Using AI to analyze telematics data to predict mechanical failures and automate maintenance workflows. · flagged 2026-08-21 · last checked 2026-08-21 · [origin memo](trends/2026-08-21.md)
 - **AI-Automated Regulatory Comment Drafting for Policy Professionals** · Using AI to analyze proposed regulations and automate the drafting of public comments. · flagged 2026-08-21 · last checked 2026-08-21 · [origin memo](trends/2026-08-21.md)
+- **AI Tutors for High-Stakes Professional Exams** · Using conversational AI to provide deep, interactive explanations for licensure exam practice questions. · flagged 2026-08-22 · last checked 2026-08-22 · [origin memo](trends/2026-08-22.md)
+- **AI-Automated Post-Production for Event Photographers** · Using all-in-one AI platforms to automate culling, editing, and gallery delivery for high-volume photographers. · flagged 2026-08-22 · last checked 2026-08-22 · [origin memo](trends/2026-08-22.md)
+- **AI Co-Pilots for New Parents** · Using AI to analyze tracked data and provide personalized, proactive guidance on baby sleep and feeding schedules. · flagged 2026-08-22 · last checked 2026-08-22 · [origin memo](trends/2026-08-22.md)
 
 
 ## ➡️ Active — plateauing
@@ -542,3 +545,5 @@ _(empty)_
 <!-- 2026-08-20 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
 
 <!-- 2026-08-21 status-update directive: 🚀 | AI-Powered UX Writing & UI Copy Generation -->
+
+<!-- 2026-08-22 status-update directive: 🚀 | Generative AI for Educational Assessments -->
