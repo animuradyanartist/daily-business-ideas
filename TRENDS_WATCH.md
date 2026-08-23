@@ -324,6 +324,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI Tutors for High-Stakes Professional Exams** · Using conversational AI to provide deep, interactive explanations for licensure exam practice questions. · flagged 2026-08-22 · last checked 2026-08-22 · [origin memo](trends/2026-08-22.md)
 - **AI-Automated Post-Production for Event Photographers** · Using all-in-one AI platforms to automate culling, editing, and gallery delivery for high-volume photographers. · flagged 2026-08-22 · last checked 2026-08-22 · [origin memo](trends/2026-08-22.md)
 - **AI Co-Pilots for New Parents** · Using AI to analyze tracked data and provide personalized, proactive guidance on baby sleep and feeding schedules. · flagged 2026-08-22 · last checked 2026-08-22 · [origin memo](trends/2026-08-22.md)
+- **AI-Powered Financial Modeling for E-commerce SMBs** · Using AI "pocket CFO" tools to automate financial modeling and cash flow forecasting for online stores. · flagged 2026-08-23 · last checked 2026-08-23 · [origin memo](trends/2026-08-23.md)
+- **AI Co-Pilots for College Financial Aid** · Using AI-powered platforms to automate scholarship matching, FAFSA completion, and aid offer analysis for families. · flagged 2026-08-23 · last checked 2026-08-23 · [origin memo](trends/2026-08-23.md)
+- **AI-Powered Sermon Preparation for Clergy** · Using specialized AI platforms to assist pastors with sermon research, outlining, and illustration finding. · flagged 2026-08-23 · last checked 2026-08-23 · [origin memo](trends/2026-08-23.md)
 
 
 ## ➡️ Active — plateauing
@@ -547,3 +550,5 @@ _(empty)_
 <!-- 2026-08-21 status-update directive: 🚀 | AI-Powered UX Writing & UI Copy Generation -->
 
 <!-- 2026-08-22 status-update directive: 🚀 | Generative AI for Educational Assessments -->
+
+<!-- 2026-08-23 status-update directive: 🚀 | Signal-Based AI Sales Personalization -->

@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-23 (trends)
+- A pain doesn't have to be driven by an external regulator (like the FAA or FDA) to be acute. The internal pressure to remain profitable can be an equally powerful, if not stronger, purchase driver.
+- The biggest competitor to a simple SaaS tool is often not another piece of software, but a manual, "good enough" process. The sales job is to quantify the hidden cost of that manual process.
+- In a market dominated by complex, expensive incumbents, the most powerful wedge is not more features, but radical simplicity and a focus on solving the single most expensive problem.
+- A product's moat can be built from the customer's own operational data, which they create through the act of using the product, leading to powerful switching costs.
+
+---
+
 ## 2026-08-23
 - A pain doesn't have to be driven by an external regulator (like the FAA or FDA) to be acute. The internal pressure to remain profitable can be an equally powerful, if not stronger, purchase driver.
 - The biggest competitor to a simple SaaS tool is often not another piece of software, but a manual, "good enough" process. The sales job is to quantify the hidden cost of that manual process.
