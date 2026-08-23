@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-23
+- **The Commercial Cleaning Company's "Proof-of-Service" Reporting Tool** — Strong, but the "evidence locker" pattern is well-established in my priors. The machine shop idea explores a new pain category: operational profitability.
+- **The Independent Financial Advisor's (IFA) "Client deliverable" tracker** — Very strong compliance pain. Killed for today because it is too similar in structure to the I-9, CMMC, and IEP ideas.
+- **The Independent Trucker's "IFTA-Ready" Fuel & Mileage Log** — A massive and painful problem, but the market is crowded with ELD (Electronic Logging Device) hardware and fleet management incumbents.
+- **The Small Law Firm's "Trust Account" Compliance Ledger** — Extremely high-stakes pain (disbarment risk), but the legal tech market has high barriers to entry regarding trust and sales cycles.
+
 ## 2026-08-22
 - **The Commercial Drone Pilot's "FAA-Ready" Flight & Maintenance Log** — Killed. The pain is a probabilistic risk of an FAA fine, which is less acute than the certain pain of a delayed electrician's license.
 - **The Independent Insurance Adjuster's "Field-to-First-Draft" Generator** — Killed. This solves a burnout and efficiency problem, which is a "nice to have." The apprentice tracker solves a mandatory, career-gating compliance problem.
