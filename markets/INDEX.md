@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Independent Self-Storage Lien Compliance Software | us-independent-self-storage-lien-compliance-software | 2026-08-24 | 99 | The Self-Storage Operator's Delinquent Unit & Lien Sale Automator |
 | US Small Machine Shop Job Costing Software | us-small-machine-shop-job-costing-software | 2026-08-23 | 96 | The Small Machine Shop's "Real-Time Job Profitability" Tracker |
 | US Skilled Trades Apprentice Licensing Software | us-skilled-trades-apprentice-licensing-software | 2026-08-22 | 92 | The Apprentice Electrician's "Get-My-License" Hour & Category Tracker |
 | US Craft Brewery Asset Tracking Software | us-craft-brewery-asset-tracking-software | 2026-08-21 | 95 | The small brewery's "find my kegs" tracker |

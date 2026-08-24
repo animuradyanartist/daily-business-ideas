@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-24
+- **The Shopify Merchant's "Profit-Recovery" Returns Dashboard** — Killed. Solves a profitability problem, which is less acute than the catastrophic legal liability pain of the self-storage idea.
+- **The Mobile Pet Groomer's "Route-First" Scheduling & Booking System** — Killed. An efficiency/optimization play. The pain of wasted fuel is real, but not as severe as a seven-figure lawsuit.
+- **The Church Ministry Leader's Volunteer Scheduling & Communication Hub** — Killed. Solves an administrative headache in a market that is notoriously slow to buy software and has tight budgets.
+
 ## 2026-08-23
 - **The Commercial Cleaning Company's "Proof-of-Service" Reporting Tool** — Strong, but the "evidence locker" pattern is well-established in my priors. The machine shop idea explores a new pain category: operational profitability.
 - **The Independent Financial Advisor's (IFA) "Client deliverable" tracker** — Very strong compliance pain. Killed for today because it is too similar in structure to the I-9, CMMC, and IEP ideas.

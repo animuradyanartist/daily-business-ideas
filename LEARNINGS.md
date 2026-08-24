@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-24
+- The fear of a rare, but catastrophic, event (like a major lawsuit) can be a more powerful purchase driver than the pain of a frequent, low-grade annoyance (like operational inefficiency).
+- A market's fragmentation (many small, independent buyers) can be a feature, not a bug, as it creates an opening for low-touch, self-serve products that incumbents with enterprise sales models cannot economically serve.
+- The most significant business risk (e.g., legal liability) can also be the source of the strongest moat if it is managed correctly, as it creates a high barrier to entry for competitors.
+
 ## 2026-08-23 (trends)
 - A pain doesn't have to be driven by an external regulator (like the FAA or FDA) to be acute. The internal pressure to remain profitable can be an equally powerful, if not stronger, purchase driver.
 - The biggest competitor to a simple SaaS tool is often not another piece of software, but a manual, "good enough" process. The sales job is to quantify the hidden cost of that manual process.
