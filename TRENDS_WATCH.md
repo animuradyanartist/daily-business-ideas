@@ -327,6 +327,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Financial Modeling for E-commerce SMBs** · Using AI "pocket CFO" tools to automate financial modeling and cash flow forecasting for online stores. · flagged 2026-08-23 · last checked 2026-08-23 · [origin memo](trends/2026-08-23.md)
 - **AI Co-Pilots for College Financial Aid** · Using AI-powered platforms to automate scholarship matching, FAFSA completion, and aid offer analysis for families. · flagged 2026-08-23 · last checked 2026-08-23 · [origin memo](trends/2026-08-23.md)
 - **AI-Powered Sermon Preparation for Clergy** · Using specialized AI platforms to assist pastors with sermon research, outlining, and illustration finding. · flagged 2026-08-23 · last checked 2026-08-23 · [origin memo](trends/2026-08-23.md)
+- **AI-Automated Insurance Applications for SMBs** · Using AI to automate the high-friction workflow of applying for and renewing commercial insurance. · flagged 2026-08-24 · last checked 2026-08-24 · [origin memo](trends/2026-08-24.md)
+- **AI-Powered Marketing Compliance for Financial Advisors** · Using AI to pre-screen marketing materials for compliance with SEC and FINRA regulations. · flagged 2026-08-24 · last checked 2026-08-24 · [origin memo](trends/2026-08-24.md)
+- **AI-Automated HIPAA Compliance for Private Practices** · Using AI platforms to automate the documentation and risk assessment required for HIPAA compliance. · flagged 2026-08-24 · last checked 2026-08-24 · [origin memo](trends/2026-08-24.md)
 
 
 ## ➡️ Active — plateauing
@@ -552,3 +555,5 @@ _(empty)_
 <!-- 2026-08-22 status-update directive: 🚀 | Generative AI for Educational Assessments -->
 
 <!-- 2026-08-23 status-update directive: 🚀 | Signal-Based AI Sales Personalization -->
+
+<!-- 2026-08-24 status-update directive: 🚀 | AI-Powered Communication Coaching -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-24 (trends)
+- The fear of a rare, but catastrophic, event (like a major lawsuit or compliance fine) can be a more powerful purchase driver than the pain of a frequent, low-grade annoyance.
+- A market's fragmentation (many small, independent buyers like brokers or therapists) can be a feature, not a bug, as it creates an opening for low-touch, self-serve products that incumbents with enterprise sales models cannot economically serve.
+- The most significant business risk (e.g., legal liability) can also be the source of the strongest moat if it is managed correctly, as it creates a high barrier to entry for competitors.
+
+---
+
 ## 2026-08-24
 - The fear of a rare, but catastrophic, event (like a major lawsuit) can be a more powerful purchase driver than the pain of a frequent, low-grade annoyance (like operational inefficiency).
 - A market's fragmentation (many small, independent buyers) can be a feature, not a bug, as it creates an opening for low-touch, self-serve products that incumbents with enterprise sales models cannot economically serve.
