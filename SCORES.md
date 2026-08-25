@@ -8,6 +8,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 100 | high | 2026-08-19 | The Small Food Producer's "FSMA 204-Ready" Traceability Ledger |
 | 99 | high | 2026-08-24 | The Self-Storage Operator's Delinquent Unit & Lien Sale Automator |
 | 99 | high | 2026-08-20 | The Freight Broker's "Anti-Double-Brokering" Carrier Verification System |
+| 98 | high | 2026-08-25 | The Small SaaS Company's "SOC 2-Ready" Evidence Collector |
 | 98 | high | 2026-08-18 | The HR Manager's "I-9 Audit-Ready" Document Collector |
 | 98 | high | 2026-08-17 | The Government Contractor's "CMMC Level 1" Compliance Evidence Locker |
 | 98 | high | 2026-08-16 | The special education teacher's "audit-ready" IEP compliance system |
