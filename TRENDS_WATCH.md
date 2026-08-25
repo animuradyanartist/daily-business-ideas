@@ -330,6 +330,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Insurance Applications for SMBs** · Using AI to automate the high-friction workflow of applying for and renewing commercial insurance. · flagged 2026-08-24 · last checked 2026-08-24 · [origin memo](trends/2026-08-24.md)
 - **AI-Powered Marketing Compliance for Financial Advisors** · Using AI to pre-screen marketing materials for compliance with SEC and FINRA regulations. · flagged 2026-08-24 · last checked 2026-08-24 · [origin memo](trends/2026-08-24.md)
 - **AI-Automated HIPAA Compliance for Private Practices** · Using AI platforms to automate the documentation and risk assessment required for HIPAA compliance. · flagged 2026-08-24 · last checked 2026-08-24 · [origin memo](trends/2026-08-24.md)
+- **AI-Automated SOC 2 Compliance** · Using AI platforms to automate evidence collection and continuous monitoring for SOC 2. · flagged 2026-08-25 · last checked 2026-08-25 · [origin memo](trends/2026-08-25.md)
+- **AI-Automated IT Offboarding & Deprovisioning** · Using AI to automate the revocation of employee access to SaaS applications to reduce security and compliance risk. · flagged 2026-08-25 · last checked 2026-08-25 · [origin memo](trends/2026-08-25.md)
+- **AI-Powered Clinical Trial Site Selection** · Using AI to analyze data and predict which research sites will perform best for clinical trials. · flagged 2026-08-25 · last checked 2026-08-25 · [origin memo](trends/2026-08-25.md)
 
 
 ## ➡️ Active — plateauing
@@ -557,3 +560,5 @@ _(empty)_
 <!-- 2026-08-23 status-update directive: 🚀 | Signal-Based AI Sales Personalization -->
 
 <!-- 2026-08-24 status-update directive: 🚀 | AI-Powered Communication Coaching -->
+
+<!-- 2026-08-25 status-update directive: 🚀 | AI-Automated Meeting Workflows -->
