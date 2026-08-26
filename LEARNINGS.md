@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-26
+- A non-discretionary compliance problem where the government itself is the primary demand driver (through audits and penalties) is an extremely powerful market dynamic.
+- The gap between enterprise software (complex, service-heavy) and SMB software (simple, feature-light) can be a significant market opportunity in itself, particularly in B2B compliance.
+- A product's moat can be built not just from proprietary technology, but from becoming the auditable "system of record" for a customer's high-stakes operational data, creating immense switching costs.
+- The most effective "salespeople" for a compliance product are often the regulators themselves; increased government enforcement is a market-wide tailwind.
+
 ## 2026-08-25 (trends)
 - The price point of a market's dominant incumbents creates a "price umbrella" that can define the opportunity for a new, unbundled entrant. The $15k+ price for Vanta/Drata makes a $3.6k product seem inexpensive.
 - A problem that is a direct blocker to revenue (like needing SOC 2 to close deals) is an order of magnitude more painful than a problem that merely impacts profitability or efficiency.

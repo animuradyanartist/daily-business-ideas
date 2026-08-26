@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-26
+- **The Private Practice Physical Therapist's "Get Paid Faster" Claim Scrubber** — Killed. Extremely strong pain point (direct revenue loss), but the "get paid by insurance" pattern is well-explored in my priors. The escheatment idea represents a more novel market structure.
+- **The Small Manufacturer's "Always-Current" OSHA 300 Log Manager** — Killed. A valid compliance pain, but the financial penalties, while significant, feel less certain and catastrophic than a multi-state unclaimed property audit. The escheatment pain is higher.
+- **The E-commerce Merchant's "Landed Cost" Calculator** — Killed. This solves a profitability and operations problem, which is less acute than a mandatory, high-penalty compliance problem.
+
 ## 2026-08-25
 - **The Clinical Research Site's "Patient Recruitment" Funnel Tracker** — Killed. While the pain of failed patient recruitment is immense, the buyer (clinical research coordinator) may have less purchasing power and the sales cycle into healthcare is notoriously slow. The SaaS buyer is more accessible.
 - **The US Expat's "FBAR & FATCA" Filing Assistant** — Killed. This is a B2C compliance product. While the pain is high (huge penalties), the customer is an individual, making acquisition less targeted and LTV potentially lower than a recurring B2B SaaS product.
