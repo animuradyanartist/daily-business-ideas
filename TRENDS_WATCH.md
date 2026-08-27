@@ -336,6 +336,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Food Safety & Traceability Compliance** · Using AI platforms to automate the documentation and record-keeping required for food safety regulations. · flagged 2026-08-26 · last checked 2026-08-26 · [origin memo](trends/2026-08-26.md)
 - **AI-Powered Proactive Retail Loss Prevention** · Using AI video analytics with existing cameras to proactively detect and deter theft in real-time. · flagged 2026-08-26 · last checked 2026-08-26 · [origin memo](trends/2026-08-26.md)
 - **AI-Powered "Business-in-a-Box" for Home Service Trades** · Using all-in-one AI platforms to automate the entire back-office workflow for trades like plumbing and HVAC. · flagged 2026-08-26 · last checked 2026-08-26 · [origin memo](trends/2026-08-26.md)
+- **AI-Powered DOT New Entrant Audit Preparation** · Using AI to automate the document collection required for the mandatory initial safety audit for new trucking companies. · flagged 2026-08-27 · last checked 2026-08-27 · [origin memo](trends/2026-08-27.md)
+- **AI-Automated Government Opportunity Matching** · Using AI platforms to automate the discovery and qualification of government contract opportunities. · flagged 2026-08-27 · last checked 2026-08-27 · [origin memo](trends/2026-08-27.md)
+- **AI-Automated CMMC Compliance for Defense SMBs** · Using purpose-built AI platforms to automate the documentation and evidence collection required for Cybersecurity Maturity Model Certification. · flagged 2026-08-27 · last checked 2026-08-27 · [origin memo](trends/2026-08-27.md)
 
 
 ## ➡️ Active — plateauing
@@ -567,3 +570,5 @@ _(empty)_
 <!-- 2026-08-25 status-update directive: 🚀 | AI-Automated Meeting Workflows -->
 
 <!-- 2026-08-26 status-update directive: 🚀 | AI-Generated UX Artifacts (Personas & Journey Maps) -->
+
+<!-- 2026-08-27 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->

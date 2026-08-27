@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-27 (trends)
+- A mandatory, government-enforced event (like the DOT New Entrant Audit) is an incredibly powerful and perpetual customer acquisition trigger.
+- The most valuable moat in a compliance business isn't the software features, but becoming the trusted, time-stamped "system of record" for a customer's historical data.
+- Extreme market fragmentation isn't always a weakness; for a self-serve SaaS product, it can be a strength that protects against incumbents who rely on high-cost enterprise sales models.
+
+---
+
 ## 2026-08-27
 - A mandatory, government-enforced event (like the DOT New Entrant Audit) is an incredibly powerful and perpetual customer acquisition trigger.
 - The most valuable moat in a compliance business isn't the software features, but becoming the trusted, time-stamped "system of record" for a customer's historical data.
