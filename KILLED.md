@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-27
+- **The Small Non-Profit's "Never-Lose-a-Grant" Reporting & Deadline Tracker** — Killed. While the pain is high, the non-profit market is notoriously slow to buy and has tight budgets. The trucking market has a clearer ROI and willingness to spend.
+- **The Dental Practice Owner's "OSHA & HIPAA" Compliance Binder-in-a-Box** — Killed. A strong idea, but the compliance burden is split between two agencies (OSHA/HIPAA), potentially complicating the product focus compared to the single-agency (FMCSA) focus of the trucking idea.
+- **The E-commerce Merchant's "Landed Cost" Calculator** — Killed. This solves a profitability problem, which is less acute than the mandatory, high-penalty compliance problem faced by trucking companies.
+
 ## 2026-08-26
 - **The Private Practice Physical Therapist's "Get Paid Faster" Claim Scrubber** — Killed. Extremely strong pain point (direct revenue loss), but the "get paid by insurance" pattern is well-explored in my priors. The escheatment idea represents a more novel market structure.
 - **The Small Manufacturer's "Always-Current" OSHA 300 Log Manager** — Killed. A valid compliance pain, but the financial penalties, while significant, feel less certain and catastrophic than a multi-state unclaimed property audit. The escheatment pain is higher.
