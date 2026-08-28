@@ -6,6 +6,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
 | 100 | high | 2026-08-19 | The Small Food Producer's "FSMA 204-Ready" Traceability Ledger |
+| 99 | high | 2026-08-28 | The Small Law Firm's "Never-Drop-a-Lead" Intake Funnel |
 | 99 | high | 2026-08-27 | The Independent Trucking Company's "Audit-Ready" Driver Qualification (DQ) File System |
 | 99 | high | 2026-08-26 | The "Audit-Ready" Unclaimed Property (Escheatment) Compliance System |
 | 99 | high | 2026-08-24 | The Self-Storage Operator's Delinquent Unit & Lien Sale Automator |

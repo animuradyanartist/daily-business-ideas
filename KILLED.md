@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-28
+*   **The Clinical Trial Site's "Patient Stipend & Reimbursement" Manager** — Killed. While the pain is high (patient dropout kills trials), the sales cycle into healthcare-adjacent entities is notoriously slow and complex compared to selling to law firms.
+*   **The HVAC Contractor's "Recurring Service Agreement" Manager** — Killed. This solves a profitability and efficiency problem (managing recurring revenue). The law firm idea solves a direct, top-line revenue leakage problem, which is a more acute pain.
+*   **The Small Non-Profit's Grant Compliance Tracker** — Killed. Similar to past compliance ideas, but the non-profit market has a lower willingness and ability to pay compared to for-profit law firms.
+
 ## 2026-08-27
 - **The Small Non-Profit's "Never-Lose-a-Grant" Reporting & Deadline Tracker** — Killed. While the pain is high, the non-profit market is notoriously slow to buy and has tight budgets. The trucking market has a clearer ROI and willingness to spend.
 - **The Dental Practice Owner's "OSHA & HIPAA" Compliance Binder-in-a-Box** — Killed. A strong idea, but the compliance burden is split between two agencies (OSHA/HIPAA), potentially complicating the product focus compared to the single-agency (FMCSA) focus of the trucking idea.

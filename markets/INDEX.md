@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Law Firm Client Intake Software | us-small-law-firm-intake-software | 2026-08-28 | 99 | The Small Law Firm's "Never-Drop-a-Lead" Intake Funnel |
 | US Small Fleet DOT Compliance Software | us-small-fleet-dot-compliance-software | 2026-08-27 | 99 | The Independent Trucking Company's "Audit-Ready" Driver Qualification (DQ) File System |
 | US Mid-Market Unclaimed Property (Escheatment) Compliance Software | us-mid-market-escheatment-compliance-software | 2026-08-26 | 99 | The "Audit-Ready" Unclaimed Property (Escheatment) Compliance System |
 | US B2B SaaS SOC 2 Compliance Software | us-b2b-saas-soc2-compliance-software | 2026-08-25 | 98 | The Small SaaS Company's "SOC 2-Ready" Evidence Collector |
