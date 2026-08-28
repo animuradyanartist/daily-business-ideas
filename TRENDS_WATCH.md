@@ -339,6 +339,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered DOT New Entrant Audit Preparation** · Using AI to automate the document collection required for the mandatory initial safety audit for new trucking companies. · flagged 2026-08-27 · last checked 2026-08-27 · [origin memo](trends/2026-08-27.md)
 - **AI-Automated Government Opportunity Matching** · Using AI platforms to automate the discovery and qualification of government contract opportunities. · flagged 2026-08-27 · last checked 2026-08-27 · [origin memo](trends/2026-08-27.md)
 - **AI-Automated CMMC Compliance for Defense SMBs** · Using purpose-built AI platforms to automate the documentation and evidence collection required for Cybersecurity Maturity Model Certification. · flagged 2026-08-27 · last checked 2026-08-27 · [origin memo](trends/2026-08-27.md)
+- **AI-Automated Lead Response for High-Friction SMBs** · Using AI agents to provide immediate, 24/7 initial responses to inbound sales and service inquiries. · flagged 2026-08-28 · last checked 2026-08-28 · [origin memo](trends/2026-08-28.md)
+- **AI-Automated Candidate Sourcing & Outreach** · Using AI platforms to automate the top-of-funnel recruiting workflow of identifying and contacting qualified candidates. · flagged 2026-08-28 · last checked 2026-08-28 · [origin memo](trends/2026-08-28.md)
+- **AI-Generated Synthetic Users for Product Research** · Using AI to generate simulated user personas to test product concepts and research questions before human-subject research. · flagged 2026-08-28 · last checked 2026-08-28 · [origin memo](trends/2026-08-28.md)
 
 
 ## ➡️ Active — plateauing
@@ -572,3 +575,5 @@ _(empty)_
 <!-- 2026-08-26 status-update directive: 🚀 | AI-Generated UX Artifacts (Personas & Journey Maps) -->
 
 <!-- 2026-08-27 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
+
+<!-- 2026-08-28 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-28 (trends)
+- A massive, industry-wide failure rate on a core business function (like responding to leads) is a powerful signal of a market gap, even when "solutions" technically exist.
+- The gap between a complex, all-in-one enterprise tool and a simple, focused SMB tool can be a multi-hundred-million-dollar opportunity in itself.
+- The cost of customer/lead acquisition is a powerful anchor for the value of a tool that prevents those leads from being wasted. When leads are expensive, software to protect them is an easy ROI calculation.
+
+---
+
 ## 2026-08-28
 *   A massive, industry-wide failure rate on a core business function (like responding to leads) is a powerful signal of a market gap, even when "solutions" technically exist.
 *   The gap between a complex, all-in-one enterprise tool and a simple, focused SMB tool can be a multi-hundred-million-dollar opportunity in itself.
