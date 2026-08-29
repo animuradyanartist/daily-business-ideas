@@ -342,6 +342,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Lead Response for High-Friction SMBs** · Using AI agents to provide immediate, 24/7 initial responses to inbound sales and service inquiries. · flagged 2026-08-28 · last checked 2026-08-28 · [origin memo](trends/2026-08-28.md)
 - **AI-Automated Candidate Sourcing & Outreach** · Using AI platforms to automate the top-of-funnel recruiting workflow of identifying and contacting qualified candidates. · flagged 2026-08-28 · last checked 2026-08-28 · [origin memo](trends/2026-08-28.md)
 - **AI-Generated Synthetic Users for Product Research** · Using AI to generate simulated user personas to test product concepts and research questions before human-subject research. · flagged 2026-08-28 · last checked 2026-08-28 · [origin memo](trends/2026-08-28.md)
+- **AI-Automated Operations for Commercial Cleaning** · Using AI platforms to automate bidding, quality control, and team management for janitorial services. · flagged 2026-08-29 · last checked 2026-08-29 · [origin memo](trends/2026-08-29.md)
+- **AI-Powered "Agentic" Client Retention** · Using autonomous AI systems to monitor client signals and proactively reduce churn for service businesses. · flagged 2026-08-29 · last checked 2026-08-29 · [origin memo](trends/2026-08-29.md)
+- **AI-Automated Due Diligence for Digital Asset Sales** · Using AI to automate the analysis of business data for the micro-acquisition of online businesses. · flagged 2026-08-29 · last checked 2026-08-29 · [origin memo](trends/2026-08-29.md)
 
 
 ## ➡️ Active — plateauing
@@ -577,3 +580,5 @@ _(empty)_
 <!-- 2026-08-27 status-update directive: 🚀 | AI Contract Generation for Freelancers & Solo Businesses -->
 
 <!-- 2026-08-28 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
+
+<!-- 2026-08-29 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
