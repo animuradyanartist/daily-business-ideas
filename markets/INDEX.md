@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Construction Subcontractor Prequalification Software | us-construction-subcontractor-prequalification-software | 2026-08-29 | 99 | The Construction Subcontractor's "Bid-Ready" Prequalification Packet Generator |
 | US Small Law Firm Client Intake Software | us-small-law-firm-intake-software | 2026-08-28 | 99 | The Small Law Firm's "Never-Drop-a-Lead" Intake Funnel |
 | US Small Fleet DOT Compliance Software | us-small-fleet-dot-compliance-software | 2026-08-27 | 99 | The Independent Trucking Company's "Audit-Ready" Driver Qualification (DQ) File System |
 | US Mid-Market Unclaimed Property (Escheatment) Compliance Software | us-mid-market-escheatment-compliance-software | 2026-08-26 | 99 | The "Audit-Ready" Unclaimed Property (Escheatment) Compliance System |

@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-29
+*   A powerful go-to-market wedge exists by building a tool for the "data provider" in a two-sided network where incumbents have only ever served the "data receiver."
+*   The most compelling ROI is not just saving time, but unblocking a direct path to new revenue.
+*   A "boring" administrative workflow in a massive, non-tech industry can represent a nine-figure market opportunity.
+*   The true competitor is often not another software product, but a salaried employee performing a manual workflow. The software's price must be anchored against this salary cost.
+
 ## 2026-08-28 (trends)
 - A massive, industry-wide failure rate on a core business function (like responding to leads) is a powerful signal of a market gap, even when "solutions" technically exist.
 - The gap between a complex, all-in-one enterprise tool and a simple, focused SMB tool can be a multi-hundred-million-dollar opportunity in itself.

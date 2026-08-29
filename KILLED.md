@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-29
+*   **The Shopify Merchant's "Never Oversell" Bundle & Kit Inventory Syncer** — Killed. The Shopify App Store is a hyper-competitive red ocean. While the pain is real, there are dozens of existing apps, making differentiation and customer acquisition difficult.
+*   **The University Lab's "Always-Calibrated" Equipment Log & Scheduler** — Killed. The academic sales cycle is notoriously slow, and purchasing power often lies with grant committees or university procurement, not the end-user lab manager.
+*   **The Landlord's "Move-Out Inspection" Evidence Locker** — Killed. This is a strong idea but is too similar in pattern to the "Security Deposit Dispute" idea from 2026-08-01. The construction idea explores a more novel market.
+*   **The Independent Insurance Agent's "Renewal Review" Automation Tool** — Killed. This is a good efficiency play, but the subcontractor idea solves a top-line revenue problem, which is a more acute pain than an operational efficiency one.
+
 ## 2026-08-28
 *   **The Clinical Trial Site's "Patient Stipend & Reimbursement" Manager** — Killed. While the pain is high (patient dropout kills trials), the sales cycle into healthcare-adjacent entities is notoriously slow and complex compared to selling to law firms.
 *   **The HVAC Contractor's "Recurring Service Agreement" Manager** — Killed. This solves a profitability and efficiency problem (managing recurring revenue). The law firm idea solves a direct, top-line revenue leakage problem, which is a more acute pain.

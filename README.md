@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-08-29 — The Construction Subcontractor's "Bid-Ready" Prequalification Packet Generator — 99/100 high
 - 2026-08-28 — trend forecast — AI-Automated Lead Response for High-Friction SMBs +2 more
 - 2026-08-28 — The Small Law Firm's "Never-Drop-a-Lead" Intake Funnel — 99/100 high
 - 2026-08-27 — trend forecast — AI-Powered DOT New Entrant Audit Preparation +2 more
