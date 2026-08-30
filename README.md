@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-08-30 — trend forecast — AI-Automated ISO 27001 Compliance +2 more
 - 2026-08-30 — The Small Organic Farm's "Audit-Ready" Compliance Ledger — 99/100 high
 - 2026-08-29 — trend forecast — AI-Automated Operations for Commercial Cleaning +2 more
 - 2026-08-29 — The Construction Subcontractor's "Bid-Ready" Prequalification Packet Generator — 99/100 high

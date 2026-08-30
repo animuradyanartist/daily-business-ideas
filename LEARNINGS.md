@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-30 (trends)
+- The most powerful "Why Now?" moments are created by non-discretionary, deadline-driven government mandates that force an entire industry to adopt new technology.
+- For every complex, manual, and high-stakes professional workflow (compliance audits, investment analysis, quality management), a vertical AI platform is emerging to automate the work of a junior analyst.
+- The value proposition of B2B AI is evolving from "faster" (doing a task) to "agentic" (owning a multi-step workflow).
+
+---
+
 ## 2026-08-30
 - The existence of a single, focused, venture-backed competitor in a niche is one of the strongest possible signals of validated demand.
 - A powerful business model is to sell a tool that de-risks a customer's recent, large, and recurring purchase (in this case, the annual certification fee).

@@ -345,6 +345,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Commercial Cleaning** · Using AI platforms to automate bidding, quality control, and team management for janitorial services. · flagged 2026-08-29 · last checked 2026-08-29 · [origin memo](trends/2026-08-29.md)
 - **AI-Powered "Agentic" Client Retention** · Using autonomous AI systems to monitor client signals and proactively reduce churn for service businesses. · flagged 2026-08-29 · last checked 2026-08-29 · [origin memo](trends/2026-08-29.md)
 - **AI-Automated Due Diligence for Digital Asset Sales** · Using AI to automate the analysis of business data for the micro-acquisition of online businesses. · flagged 2026-08-29 · last checked 2026-08-29 · [origin memo](trends/2026-08-29.md)
+- **AI-Automated ISO 27001 Compliance** · Using AI platforms to automate evidence collection and continuous monitoring for ISO 27001 certification. · flagged 2026-08-30 · last checked 2026-08-30 · [origin memo](trends/2026-08-30.md)
+- **AI-Automated Commercial Real Estate (CRE) Underwriting** · Using AI to automate the analysis of deal documents and financial data for CRE investments. · flagged 2026-08-30 · last checked 2026-08-30 · [origin memo](trends/2026-08-30.md)
+- **AI-Automated Medical Device Quality Management Systems (QMS)** · Using AI to automate the creation and maintenance of QMS documentation required for FDA and ISO 13485 compliance. · flagged 2026-08-30 · last checked 2026-08-30 · [origin memo](trends/2026-08-30.md)
 
 
 ## ➡️ Active — plateauing
@@ -582,3 +585,5 @@ _(empty)_
 <!-- 2026-08-28 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
 
 <!-- 2026-08-29 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
+
+<!-- 2026-08-30 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
