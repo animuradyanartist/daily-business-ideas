@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-30
+- **The Commercial Real Estate Broker's "Deal-to-Payout" Commission Tracker** — Killed. Strong pain, but the "audit-ready" compliance pattern in the organic farm idea represents a more acute, external-facing threat (loss of certification) versus an internal operational headache.
+- **The Amazon Seller's "Win-the-Dispute" Chargeback Evidence Collector** — Killed. High pain, but the business is subject to significant platform risk from Amazon's policies. The organic farm market is more stable and decentralized.
+- **The Small Manufacturer's "OSHA 300 Log" Automation Tool** — Killed. A valid compliance idea, but the organic farm idea has a stronger link between compliance and top-line revenue (protecting the price premium).
+
 ## 2026-08-29
 *   **The Shopify Merchant's "Never Oversell" Bundle & Kit Inventory Syncer** — Killed. The Shopify App Store is a hyper-competitive red ocean. While the pain is real, there are dozens of existing apps, making differentiation and customer acquisition difficult.
 *   **The University Lab's "Always-Calibrated" Equipment Log & Scheduler** — Killed. The academic sales cycle is notoriously slow, and purchasing power often lies with grant committees or university procurement, not the end-user lab manager.

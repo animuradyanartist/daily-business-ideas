@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-30
+- The existence of a single, focused, venture-backed competitor in a niche is one of the strongest possible signals of validated demand.
+- A powerful business model is to sell a tool that de-risks a customer's recent, large, and recurring purchase (in this case, the annual certification fee).
+- Distribution in fragmented, low-trust industries is often controlled by a handful of gatekeepers (like auditors or certifiers); winning them over is the critical path to scale.
+
 ## 2026-08-29 (trends)
 - A powerful go-to-market wedge exists by building a tool for the "data provider" in a two-sided network where incumbents have only ever served the "data receiver."
 - The most compelling ROI is not just saving time, but unblocking a direct path to new revenue.
