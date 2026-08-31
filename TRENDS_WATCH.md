@@ -348,6 +348,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated ISO 27001 Compliance** · Using AI platforms to automate evidence collection and continuous monitoring for ISO 27001 certification. · flagged 2026-08-30 · last checked 2026-08-30 · [origin memo](trends/2026-08-30.md)
 - **AI-Automated Commercial Real Estate (CRE) Underwriting** · Using AI to automate the analysis of deal documents and financial data for CRE investments. · flagged 2026-08-30 · last checked 2026-08-30 · [origin memo](trends/2026-08-30.md)
 - **AI-Automated Medical Device Quality Management Systems (QMS)** · Using AI to automate the creation and maintenance of QMS documentation required for FDA and ISO 13485 compliance. · flagged 2026-08-30 · last checked 2026-08-30 · [origin memo](trends/2026-08-30.md)
+- **AI-Automated Pest Control Compliance Documentation** · Using AI platforms to create auditable digital logbooks for pest management to meet food safety and regulatory standards. · flagged 2026-08-31 · last checked 2026-08-31 · [origin memo](trends/2026-08-31.md)
+- **AI-Powered Employee Benefits Navigation** · Using AI assistants to provide personalized guidance and decision support for employees during open enrollment and for life events. · flagged 2026-08-31 · last checked 2026-08-31 · [origin memo](trends/2026-08-31.md)
+- **AI-Powered "Digital Sommelier" for Consumers & Restaurants** · Using AI to scan wine lists and provide personalized pairing recommendations based on taste profiles, meals, and inventory. · flagged 2026-08-31 · last checked 2026-08-31 · [origin memo](trends/2026-08-31.md)
 
 
 ## ➡️ Active — plateauing
@@ -587,3 +590,5 @@ _(empty)_
 <!-- 2026-08-29 status-update directive: 🚀 | AI-Powered Go-to-Market Strategy Generation -->
 
 <!-- 2026-08-30 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
+
+<!-- 2026-08-31 status-update directive: 🚀 | AI-Powered Community Management -->

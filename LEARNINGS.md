@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-31 (trends)
+- The most compelling compliance products are tied to protecting an individual's professional license or preventing a catastrophic business failure (like a food recall), not just avoiding a corporate fine.
+- A clear indicator of a strong B2B SaaS opportunity is when incumbents bundle a high-stakes, mandatory feature inside a much larger, more expensive suite. Unbundling that single feature at a fraction of the price is a powerful wedge.
+- The existence of a direct, focused competitor is a massive validation signal. It proves someone is already willing to pay for the focused solution, de-risking the core "feature vs. product" question.
+
+---
+
 ## 2026-08-31
 - The most compelling compliance products are tied to protecting an individual's professional license, not just a corporate entity's bottom line.
 - A clear indicator of a strong B2B SaaS opportunity is when incumbents bundle a high-stakes, mandatory feature inside a much larger, more expensive suite. Unbundling that single feature at a fraction of the price is a powerful wedge.
