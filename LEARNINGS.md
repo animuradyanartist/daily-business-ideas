@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-08-31
+- The most compelling compliance products are tied to protecting an individual's professional license, not just a corporate entity's bottom line.
+- A clear indicator of a strong B2B SaaS opportunity is when incumbents bundle a high-stakes, mandatory feature inside a much larger, more expensive suite. Unbundling that single feature at a fraction of the price is a powerful wedge.
+- The existence of a direct, focused competitor (like PestLog) is a massive validation signal. It proves someone is already willing to pay for the focused solution, de-risking the core "feature vs. product" question.
+
 ## 2026-08-30 (trends)
 - The most powerful "Why Now?" moments are created by non-discretionary, deadline-driven government mandates that force an entire industry to adopt new technology.
 - For every complex, manual, and high-stakes professional workflow (compliance audits, investment analysis, quality management), a vertical AI platform is emerging to automate the work of a junior analyst.

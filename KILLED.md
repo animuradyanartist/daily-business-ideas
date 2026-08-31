@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-08-31
+- **The "Get Reimbursed" Superbill Generator for Therapists** — Killed. A good administrative pain, but less acute than the existential, license-threatening compliance pain of the pesticide idea.
+- **The "Always Current" Part 107 Drone Pilot Log & Recency Tracker** — Killed. The penalty for non-compliance (retaking a free online course) is far less severe than the financial penalties and license loss in the pesticide market.
+- **The Small Landlord's "Lead-Safe" Certification Tracker** — Killed. A valid compliance niche, but the applicability varies significantly by state and city, making a national go-to-market strategy more complex than the federally-mandated pesticide records.
+
 ## 2026-08-30
 - **The Commercial Real Estate Broker's "Deal-to-Payout" Commission Tracker** — Killed. Strong pain, but the "audit-ready" compliance pattern in the organic farm idea represents a more acute, external-facing threat (loss of certification) versus an internal operational headache.
 - **The Amazon Seller's "Win-the-Dispute" Chargeback Evidence Collector** — Killed. High pain, but the business is subject to significant platform risk from Amazon's policies. The organic farm market is more stable and decentralized.
