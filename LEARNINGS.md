@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-01
+- The existence of a formal government "voluntary compliance program" with its own fee structure (like the DFVCP) is one of the strongest possible signals of a widespread, painful, and expensive problem.
+- The most attractive software opportunities often lie in unbundling a single, high-stakes compliance feature from an expensive, service-heavvy professional offering (like a TPA).
+- A market's growth rate (new small businesses offering plans) can be a more powerful driver than its static size, as new entrants are less attached to incumbent solutions.
+
 ## 2026-08-31 (trends)
 - The most compelling compliance products are tied to protecting an individual's professional license or preventing a catastrophic business failure (like a food recall), not just avoiding a corporate fine.
 - A clear indicator of a strong B2B SaaS opportunity is when incumbents bundle a high-stakes, mandatory feature inside a much larger, more expensive suite. Unbundling that single feature at a fraction of the price is a powerful wedge.

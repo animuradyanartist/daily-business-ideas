@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-01
+- **The "Permit-Ready" Cottage Food Operator's Compliance Packet** — Killed. A good niche, but the state-by-state variation in laws makes it less scalable than the federally mandated Form 5500.
+- **The Expat Short-Term Rental Host's "Police-Ready" Guest Ledger (Spain)** — Killed. Excellent pain point, but geographically constrained to a single country, limiting the total market size compared to the US-wide 5500 opportunity.
+- **The Food Truck Owner's "Always-On" Commissary Agreement & Log** — Killed. A strong "gate-to-revenue" problem, but the solution likely involves a marketplace/network component (connecting trucks to commissaries), which is harder to bootstrap than a pure SaaS tool.
+
 ## 2026-08-31
 - **The "Get Reimbursed" Superbill Generator for Therapists** — Killed. A good administrative pain, but less acute than the existential, license-threatening compliance pain of the pesticide idea.
 - **The "Always Current" Part 107 Drone Pilot Log & Recency Tracker** — Killed. The penalty for non-compliance (retaking a free online course) is far less severe than the financial penalties and license loss in the pesticide market.
