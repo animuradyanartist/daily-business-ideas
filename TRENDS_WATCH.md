@@ -351,6 +351,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Pest Control Compliance Documentation** · Using AI platforms to create auditable digital logbooks for pest management to meet food safety and regulatory standards. · flagged 2026-08-31 · last checked 2026-08-31 · [origin memo](trends/2026-08-31.md)
 - **AI-Powered Employee Benefits Navigation** · Using AI assistants to provide personalized guidance and decision support for employees during open enrollment and for life events. · flagged 2026-08-31 · last checked 2026-08-31 · [origin memo](trends/2026-08-31.md)
 - **AI-Powered "Digital Sommelier" for Consumers & Restaurants** · Using AI to scan wine lists and provide personalized pairing recommendations based on taste profiles, meals, and inventory. · flagged 2026-08-31 · last checked 2026-08-31 · [origin memo](trends/2026-08-31.md)
+- **AI-Automated 401(k) Compliance for SMBs** · Using AI to automate ERISA compliance workflows like document review and Form 5500 readiness for small businesses. · flagged 2026-09-01 · last checked 2026-09-01 · [origin memo](trends/2026-09-01.md)
+- **AI-Powered "Gifting-as-a-Service" Platforms** · Using AI platforms to automate personalized, ROI-tracked corporate gifting for B2B marketing and HR. · flagged 2026-09-01 · last checked 2026-09-01 · [origin memo](trends/2026-09-01.md)
+- **AI-Powered Litigation Intelligence & Case Sourcing** · Using AI platforms to analyze public data and proactively identify high-value litigation opportunities for plaintiff law firms. · flagged 2026-09-01 · last checked 2026-09-01 · [origin memo](trends/2026-09-01.md)
 
 
 ## ➡️ Active — plateauing
@@ -592,3 +595,5 @@ _(empty)_
 <!-- 2026-08-30 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
 
 <!-- 2026-08-31 status-update directive: 🚀 | AI-Powered Community Management -->
+
+<!-- 2026-09-01 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
