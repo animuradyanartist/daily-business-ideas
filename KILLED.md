@@ -2,6 +2,10 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-02
+*   **The Self-Managed HOA's "Enforcement-in-a-Box" System** — Killed. The buyer is a volunteer board, which implies a lower willingness to pay, higher churn, and a more difficult sales process compared to a for-profit business with clear financial pain.
+*   **The University Lab's "Never-Double-Booked" Equipment Scheduler** — Killed. This was previously killed on 2026-08-29. The reasoning remains sound: the academic sales cycle is notoriously slow, and purchasing power is diffuse, making it a difficult market for a bootstrapped product.
+
 ## 2026-09-01
 - **The "Permit-Ready" Cottage Food Operator's Compliance Packet** — Killed. A good niche, but the state-by-state variation in laws makes it less scalable than the federally mandated Form 5500.
 - **The Expat Short-Term Rental Host's "Police-Ready" Guest Ledger (Spain)** — Killed. Excellent pain point, but geographically constrained to a single country, limiting the total market size compared to the US-wide 5500 opportunity.

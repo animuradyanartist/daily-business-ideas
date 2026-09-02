@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Freight Forwarder & Customs Broker Compliance Software | us-freight-forwarder-compliance-software | 2026-09-02 | 100 | The "Audit-Ready" Freight Forwarder's Document Hub |
 | US Small Business ERISA (Form 5500) Compliance Software | us-small-business-erisa-compliance-software | 2026-09-01 | 99 | The Small Business's "Penalty-Proof" Form 5500 Filer |
 | US Pesticide Applicator Compliance Software | us-pesticide-applicator-compliance-software | 2026-08-31 | 100 | The "Audit-Ready" Pesticide Applicator's Log |
 | US Small Organic Farm Compliance Software | us-small-organic-farm-compliance-software | 2026-08-30 | 99 | The Small Organic Farm's "Audit-Ready" Compliance Ledger |

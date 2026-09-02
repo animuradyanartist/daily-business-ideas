@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-02
+*   A dominant incumbent's mandatory, unpopular pricing change is one of the most powerful "Why Now?" catalysts for an unbundling strategy.
+*   The pain of a "rare but catastrophic" event can be a more powerful motivator for purchase than a frequent, low-grade annoyance.
+*   The true competitor is often not another software tool, but a chaotic, manual process (like chasing documents via email). The product's job is to be 10x better than that chaos.
+
 ## 2026-09-01 (trends)
 - The existence of a formal government "voluntary compliance program" with its own fee structure (like the DFVCP) is one of the strongest possible signals of a widespread, painful, and expensive problem.
 - The most attractive software opportunities often lie in unbundling a single, high-stakes compliance feature from an expensive, service-heavy professional offering (like a TPA).
