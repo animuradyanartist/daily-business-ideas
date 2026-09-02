@@ -2,6 +2,9 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-02 (trends)
+- (no patterns extracted)
+
 ## 2026-09-02
 *   A dominant incumbent's mandatory, unpopular pricing change is one of the most powerful "Why Now?" catalysts for an unbundling strategy.
 *   The pain of a "rare but catastrophic" event can be a more powerful motivator for purchase than a frequent, low-grade annoyance.
