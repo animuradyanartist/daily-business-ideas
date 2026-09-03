@@ -354,6 +354,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated 401(k) Compliance for SMBs** · Using AI to automate ERISA compliance workflows like document review and Form 5500 readiness for small businesses. · flagged 2026-09-01 · last checked 2026-09-01 · [origin memo](trends/2026-09-01.md)
 - **AI-Powered "Gifting-as-a-Service" Platforms** · Using AI platforms to automate personalized, ROI-tracked corporate gifting for B2B marketing and HR. · flagged 2026-09-01 · last checked 2026-09-01 · [origin memo](trends/2026-09-01.md)
 - **AI-Powered Litigation Intelligence & Case Sourcing** · Using AI platforms to analyze public data and proactively identify high-value litigation opportunities for plaintiff law firms. · flagged 2026-09-01 · last checked 2026-09-01 · [origin memo](trends/2026-09-01.md)
+- **AI-Powered "Business-in-a-Box" for Home Service Trades** · Using all-in-one AI platforms to automate quoting, scheduling, and invoicing for contractors. · flagged 2026-09-03 · last checked 2026-09-03 · [origin memo](trends/2026-09-03.md)
+- **AI-Automated Tax Compliance for Professionals** · Using AI co-pilots to automate document intake, data extraction, and transaction categorization for CPAs. · flagged 2026-09-03 · last checked 2026-09-03 · [origin memo](trends/2026-09-03.md)
+- **AI-Powered "Family OS"** · Using AI to automatically organize family schedules, documents, and tasks from emails and messages to reduce household mental load. · flagged 2026-09-03 · last checked 2026-09-03 · [origin memo](trends/2026-09-03.md)
 
 
 ## ➡️ Active — plateauing
@@ -597,3 +600,5 @@ _(empty)_
 <!-- 2026-08-31 status-update directive: 🚀 | AI-Powered Community Management -->
 
 <!-- 2026-09-01 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
+
+<!-- 2026-09-03 status-update directive: 🚀 | AI-Generated Business Presentations -->

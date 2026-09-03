@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-03 (trends)
+- A problem that directly gates six-figures of top-line revenue is one of the most powerful motivators for a small business to buy software.
+- The best wedge into a fragmented SMB market is often unbundling a single, high-stakes workflow from an expensive, slow, manual service.
+- A hybrid pricing model (one-time fee for the acute pain, subscription for the ongoing management) can be an effective way to address both the customer's immediate need and the business's need for recurring revenue.
+- The most defensible moat is not the software itself, but the validated, structured, and historically significant data that the software accumulates for the customer.
+
+---
+
 ## 2026-09-03
 - A problem that directly gates six-figures of top-line revenue is one of the most powerful motivators for a small business to buy software.
 - The best wedge into a fragmented SMB market is often unbundling a single, high-stakes workflow from an expensive, slow, manual service.
