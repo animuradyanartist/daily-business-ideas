@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-03
+- **The Independent Restaurant's "Always Audit-Ready" Food Safety Ledger** — Killed. While a real pain, it's a risk-avoidance product. The dental idea is a revenue-generation product, which is an easier sell.
+- **The Commercial Property Manager's "Never Miss a Critical Date" Lease Hub** — Killed. A strong pain, but the market is already served by more mature property management software suites. The wedge is less clear than in the dental space.
+- **The Clinical Trial Site's "Accelerated Activation" Checklist & Document Vault** — Killed. An extremely high-value problem, but the sales cycle into clinical research organizations is long, complex, and not suitable for a bootstrapped, product-led approach.
+
 ## 2026-09-02
 *   **The Self-Managed HOA's "Enforcement-in-a-Box" System** — Killed. The buyer is a volunteer board, which implies a lower willingness to pay, higher churn, and a more difficult sales process compared to a for-profit business with clear financial pain.
 *   **The University Lab's "Never-Double-Booked" Equipment Scheduler** — Killed. This was previously killed on 2026-08-29. The reasoning remains sound: the academic sales cycle is notoriously slow, and purchasing power is diffuse, making it a difficult market for a bootstrapped product.

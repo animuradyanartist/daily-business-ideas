@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Private Dental Practice Credentialing Software | us-private-dental-credentialing-software | 2026-09-03 | 100 | The Dental Practice's "Get Paid on Day One" Credentialing Hub |
 | US Freight Forwarder & Customs Broker Compliance Software | us-freight-forwarder-compliance-software | 2026-09-02 | 100 | The "Audit-Ready" Freight Forwarder's Document Hub |
 | US Small Business ERISA (Form 5500) Compliance Software | us-small-business-erisa-compliance-software | 2026-09-01 | 99 | The Small Business's "Penalty-Proof" Form 5500 Filer |
 | US Pesticide Applicator Compliance Software | us-pesticide-applicator-compliance-software | 2026-08-31 | 100 | The "Audit-Ready" Pesticide Applicator's Log |
