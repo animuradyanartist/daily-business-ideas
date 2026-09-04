@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-04
+- A geographically-constrained market (e.g., one city) can be far more attractive than a national one if the regulation is specific, the penalties are severe, and the buyer density is high.
+- A future, date-certain regulatory cliff (like the LL97 2030 deadline) is a powerful catalyst for creating a market for planning and forecasting tools *today*.
+- Always verify the current status of the regulation underpinning a compliance-based business idea. A single rule change can invalidate an entire market overnight, as seen with the BOI Filer idea.
+
 ## 2026-09-03 (trends)
 - A problem that directly gates six-figures of top-line revenue is one of the most powerful motivators for a small business to buy software.
 - The best wedge into a fragmented SMB market is often unbundling a single, high-stakes workflow from an expensive, slow, manual service.

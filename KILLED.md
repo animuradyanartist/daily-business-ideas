@@ -2,6 +2,10 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-04
+- **The Small Business's "Penalty-Proof" Beneficial Ownership (BOI) Filer** — Killed. The core driver of demand, the Corporate Transparency Act's reporting requirement for U.S. companies, was permanently removed by a FinCEN final rule effective August 14, 2026. The market no longer exists.
+- **The "Always Booked" RV Park & Campground Yield Manager** — Killed. A good revenue-optimization problem, but the pain is less acute and harder to quantify than the mandatory, high-penalty, legally-defined pain of the Local Law 97 idea. The LL97 opportunity is a clearer painkiller.
+
 ## 2026-09-03
 - **The Independent Restaurant's "Always Audit-Ready" Food Safety Ledger** — Killed. While a real pain, it's a risk-avoidance product. The dental idea is a revenue-generation product, which is an easier sell.
 - **The Commercial Property Manager's "Never Miss a Critical Date" Lease Hub** — Killed. A strong pain, but the market is already served by more mature property management software suites. The wedge is less clear than in the dental space.
