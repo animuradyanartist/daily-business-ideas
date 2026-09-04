@@ -357,6 +357,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered "Business-in-a-Box" for Home Service Trades** · Using all-in-one AI platforms to automate quoting, scheduling, and invoicing for contractors. · flagged 2026-09-03 · last checked 2026-09-03 · [origin memo](trends/2026-09-03.md)
 - **AI-Automated Tax Compliance for Professionals** · Using AI co-pilots to automate document intake, data extraction, and transaction categorization for CPAs. · flagged 2026-09-03 · last checked 2026-09-03 · [origin memo](trends/2026-09-03.md)
 - **AI-Powered "Family OS"** · Using AI to automatically organize family schedules, documents, and tasks from emails and messages to reduce household mental load. · flagged 2026-09-03 · last checked 2026-09-03 · [origin memo](trends/2026-09-03.md)
+- **AI-Powered NYC Local Law 97 Compliance** · Using AI platforms to automate emissions tracking and decarbonization planning for NYC building owners. · flagged 2026-09-04 · last checked 2026-09-04 · [origin memo](trends/2026-09-04.md)
+- **Generative AI for Synthetic Datasets** · Using generative AI to create high-fidelity, privacy-preserving artificial data for training ML models and testing software. · flagged 2026-09-04 · last checked 2026-09-04 · [origin memo](trends/2026-09-04.md)
+- **AI-Augmented Platform Engineering** · Using AI to automate the creation and management of Internal Developer Platforms (IDPs) to increase developer productivity. · flagged 2026-09-04 · last checked 2026-09-04 · [origin memo](trends/2026-09-04.md)
 
 
 ## ➡️ Active — plateauing
@@ -602,3 +605,5 @@ _(empty)_
 <!-- 2026-09-01 status-update directive: 🚀 | AI-Powered Language Dubbing for Creators -->
 
 <!-- 2026-09-03 status-update directive: 🚀 | AI-Generated Business Presentations -->
+
+<!-- 2026-09-04 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-04 (trends)
+- A geographically-constrained market (e.g., one city) can be far more attractive than a national one if the regulation is specific, the penalties are severe, and the buyer density is high.
+- A future, date-certain regulatory cliff (like the LL97 2030 deadline) is a powerful catalyst for creating a market for planning and forecasting tools *today*.
+- The most valuable B2B AI tools provide a "governance layer" on top of a complex process, whether it's software development, data access, or regulatory compliance.
+
+---
+
 ## 2026-09-04
 - A geographically-constrained market (e.g., one city) can be far more attractive than a national one if the regulation is specific, the penalties are severe, and the buyer density is high.
 - A future, date-certain regulatory cliff (like the LL97 2030 deadline) is a powerful catalyst for creating a market for planning and forecasting tools *today*.
