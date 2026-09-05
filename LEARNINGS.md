@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-05
+- A non-discretionary compliance task tied to every single core transaction (like an ocean shipment) is a powerful driver for a B2B tool.
+- The true pain is often not just the government penalty, but the secondary operational costs (delays, inspections, legal fees) that accompany a compliance failure.
+- A valuable wedge can be to create a tool that helps a customer be a better client to their existing service provider (importer → customs broker), rather than trying to replace the provider directly.
+- Enforcement trends are a critical "Why Now?" catalyst. A regulation that has existed for years can become a source of acute pain overnight when a government agency decides to increase enforcement.
+
 ## 2026-09-04 (trends)
 - A geographically-constrained market (e.g., one city) can be far more attractive than a national one if the regulation is specific, the penalties are severe, and the buyer density is high.
 - A future, date-certain regulatory cliff (like the LL97 2030 deadline) is a powerful catalyst for creating a market for planning and forecasting tools *today*.

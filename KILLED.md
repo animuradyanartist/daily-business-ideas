@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-05
+- **The Independent Used Car Dealer's "FTC Safeguards" Compliance Dashboard** — Killed. While the penalties are high, the compliance requirements are broader and less tied to a specific, recurring transaction than the ISF filing, making the pain less frequent and acute.
+- **The Traveling Nurse's "Multi-State License & CE" Tracker** — Killed. A good consumer-professional problem, but the B2B pain of the ISF opportunity is more severe, with a higher willingness to pay anchored by the direct financial penalty.
+- **The E-commerce Seller's "State Sales Tax Nexus" Monitor** — Killed. A strong pain point, but the market is already well-served by mature players like Avalara and TaxJar. The wedge is less clear.
+
 ## 2026-09-04
 - **The Small Business's "Penalty-Proof" Beneficial Ownership (BOI) Filer** — Killed. The core driver of demand, the Corporate Transparency Act's reporting requirement for U.S. companies, was permanently removed by a FinCEN final rule effective August 14, 2026. The market no longer exists.
 - **The "Always Booked" RV Park & Campground Yield Manager** — Killed. A good revenue-optimization problem, but the pain is less acute and harder to quantify than the mandatory, high-penalty, legally-defined pain of the Local Law 97 idea. The LL97 opportunity is a clearer painkiller.

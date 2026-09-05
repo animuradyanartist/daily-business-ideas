@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 100 | high | 2026-09-05 | The US Importer's "ISF 10+2" Filing Preparation Hub |
 | 100 | high | 2026-09-03 | The Dental Practice's "Get Paid on Day One" Credentialing Hub |
 | 100 | high | 2026-09-02 | The "Audit-Ready" Freight Forwarder's Document Hub |
 | 100 | high | 2026-08-31 | The "Audit-Ready" Pesticide Applicator's Log |
