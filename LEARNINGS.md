@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-05 (trends)
+- A non-discretionary compliance task tied to every single core transaction (like an ocean shipment) is a powerful driver for a B2B tool.
+- The true pain is often not just the government penalty, but the secondary operational costs (delays, inspections, legal fees) that accompany a compliance failure.
+- A valuable wedge can be to create a tool that helps a customer be a better client to their existing service provider (importer → customs broker), rather than trying to replace the provider directly.
+- The "other side of the marketplace" is a recurring source of opportunity. For every tool that helps a grant *seeker*, there is a corresponding opportunity to build a tool for the grant *funder*.
+
+---
+
 ## 2026-09-05
 - A non-discretionary compliance task tied to every single core transaction (like an ocean shipment) is a powerful driver for a B2B tool.
 - The true pain is often not just the government penalty, but the secondary operational costs (delays, inspections, legal fees) that accompany a compliance failure.

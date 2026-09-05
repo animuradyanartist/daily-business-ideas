@@ -23,6 +23,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-09-05 — trend forecast — AI-Automated Customs Compliance +2 more
 - 2026-09-05 — The US Importer's "ISF 10+2" Filing Preparation Hub — 100/100 high
 - 2026-09-04 — trend forecast — AI-Powered NYC Local Law 97 Compliance +2 more
 - 2026-09-04 — The NYC Building Owner's "Local Law 97" Compliance Forecaster — 99/100 high

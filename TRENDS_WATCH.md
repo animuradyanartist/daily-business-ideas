@@ -360,6 +360,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered NYC Local Law 97 Compliance** · Using AI platforms to automate emissions tracking and decarbonization planning for NYC building owners. · flagged 2026-09-04 · last checked 2026-09-04 · [origin memo](trends/2026-09-04.md)
 - **Generative AI for Synthetic Datasets** · Using generative AI to create high-fidelity, privacy-preserving artificial data for training ML models and testing software. · flagged 2026-09-04 · last checked 2026-09-04 · [origin memo](trends/2026-09-04.md)
 - **AI-Augmented Platform Engineering** · Using AI to automate the creation and management of Internal Developer Platforms (IDPs) to increase developer productivity. · flagged 2026-09-04 · last checked 2026-09-04 · [origin memo](trends/2026-09-04.md)
+- **AI-Automated Customs Compliance** · Using AI platforms to automate the assignment of Harmonized System (HS) codes to reduce trade compliance risk. · flagged 2026-09-05 · last checked 2026-09-05 · [origin memo](trends/2026-09-05.md)
+- **AI-Powered Grant Lifecycle Management for Funders** · Using AI-native platforms to automate application screening, compliance, and impact reporting for grant-making organizations. · flagged 2026-09-05 · last checked 2026-09-05 · [origin memo](trends/2026-09-05.md)
+- **AI-Automated University Enrollment Management** · Using AI to automate the student recruitment funnel, from inquiry handling to predicting enrollment yield. · flagged 2026-09-05 · last checked 2026-09-05 · [origin memo](trends/2026-09-05.md)
 
 
 ## ➡️ Active — plateauing
@@ -607,3 +610,5 @@ _(empty)_
 <!-- 2026-09-03 status-update directive: 🚀 | AI-Generated Business Presentations -->
 
 <!-- 2026-09-04 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
+
+<!-- 2026-09-05 status-update directive: 🚀 | AI-Powered Curriculum Design & Course Building -->
