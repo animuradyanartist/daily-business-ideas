@@ -363,6 +363,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Customs Compliance** · Using AI platforms to automate the assignment of Harmonized System (HS) codes to reduce trade compliance risk. · flagged 2026-09-05 · last checked 2026-09-05 · [origin memo](trends/2026-09-05.md)
 - **AI-Powered Grant Lifecycle Management for Funders** · Using AI-native platforms to automate application screening, compliance, and impact reporting for grant-making organizations. · flagged 2026-09-05 · last checked 2026-09-05 · [origin memo](trends/2026-09-05.md)
 - **AI-Automated University Enrollment Management** · Using AI to automate the student recruitment funnel, from inquiry handling to predicting enrollment yield. · flagged 2026-09-05 · last checked 2026-09-05 · [origin memo](trends/2026-09-05.md)
+- **AI-Powered Mobile Co-pilots for Field Technicians** · Using generative AI on mobile devices to provide instant, on-site access to technical knowledge for service technicians. · flagged 2026-09-06 · last checked 2026-09-06 · [origin memo](trends/2026-09-06.md)
+- **AI-Automated Home Inspection Reporting** · Using AI to analyze photos and voice notes to automate the generation of detailed home inspection reports. · flagged 2026-09-06 · last checked 2026-09-06 · [origin memo](trends/2026-09-06.md)
+- **AI-Automated Fire & Life Safety Compliance** · Using AI platforms to automate the documentation, inspection, and reporting for fire and life safety regulations. · flagged 2026-09-06 · last checked 2026-09-06 · [origin memo](trends/2026-09-06.md)
 
 
 ## ➡️ Active — plateauing
@@ -612,3 +615,5 @@ _(empty)_
 <!-- 2026-09-04 status-update directive: 🚀 | AI-Generated Business Proposals & RFP Responses -->
 
 <!-- 2026-09-05 status-update directive: 🚀 | AI-Powered Curriculum Design & Course Building -->
+
+<!-- 2026-09-06 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->

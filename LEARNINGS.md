@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-06 (trends)
+- A small, professional niche (~10,000 customers) can be more attractive than a large, amorphous one if the workflow is critical, the pain of failure is high, and a clear price point is already established by incumbents.
+- The "system of record" is the most durable moat for vertical SaaS. The product that holds the customer's historical, legally-significant data is the hardest to replace.
+- For field service professionals, the quality of the mobile user experience is not just a feature—it *is* the product. A superior mobile workflow can be a sufficient wedge to challenge established but desktop-first incumbents.
+
+---
+
 ## 2026-09-06
 - A small, professional niche (~10,000 customers) can be more attractive than a large, amorphous one if the workflow is critical, the pain of failure is high, and a clear price point is already established by incumbents.
 - The "system of record" is the most durable moat for vertical SaaS. The product that holds the customer's historical, legally-significant data is the hardest to replace.
