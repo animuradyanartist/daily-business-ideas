@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-06
+- **The Small Non-Profit's "Funder-Ready" Grant Reporting Dashboard** — Killed. The buyer has a very low ability to pay, and the problem can be "solved" with spreadsheets, making churn a significant risk. The process server has a clearer professional need and budget.
+- **The Conference Organizer's "Call-for-Papers-to-Agenda" Hub** — Killed. This is a project-based need, not a daily workflow, making a recurring subscription a harder sell. The pain is less frequent than the process server's.
+- **The Freelance Video Editor's "Never-Lose-a-File" Asset Manager** — Killed. A crowded market with large incumbents (e.g., Dropbox, Google Drive) and specialized tools. The wedge is unclear.
+
 ## 2026-09-05
 - **The Independent Used Car Dealer's "FTC Safeguards" Compliance Dashboard** — Killed. While the penalties are high, the compliance requirements are broader and less tied to a specific, recurring transaction than the ISF filing, making the pain less frequent and acute.
 - **The Traveling Nurse's "Multi-State License & CE" Tracker** — Killed. A good consumer-professional problem, but the B2B pain of the ISF opportunity is more severe, with a higher willingness to pay anchored by the direct financial penalty.

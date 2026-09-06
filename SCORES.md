@@ -19,6 +19,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 99 | high | 2026-08-26 | The "Audit-Ready" Unclaimed Property (Escheatment) Compliance System |
 | 99 | high | 2026-08-24 | The Self-Storage Operator's Delinquent Unit & Lien Sale Automator |
 | 99 | high | 2026-08-20 | The Freight Broker's "Anti-Double-Brokering" Carrier Verification System |
+| 98 | high | 2026-09-06 | The Independent Process Server's "Serve-to-Affidavit" Mobile Workflow App |
 | 98 | high | 2026-08-25 | The Small SaaS Company's "SOC 2-Ready" Evidence Collector |
 | 98 | high | 2026-08-18 | The HR Manager's "I-9 Audit-Ready" Document Collector |
 | 98 | high | 2026-08-17 | The Government Contractor's "CMMC Level 1" Compliance Evidence Locker |

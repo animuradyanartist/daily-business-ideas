@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Independent Process Server Software | us-independent-process-server-software | 2026-09-06 | 98 | The Independent Process Server's "Serve-to-Affidavit" Mobile Workflow App |
 | US Importer ISF Compliance Software | us-importer-isf-compliance-software | 2026-09-05 | 100 | The US Importer's "ISF 10+2" Filing Preparation Hub |
 | NYC Building Local Law 97 Compliance Software | nyc-building-ll97-compliance-software | 2026-09-04 | 99 | The NYC Building Owner's "Local Law 97" Compliance Forecaster |
 | US Private Dental Practice Credentialing Software | us-private-dental-credentialing-software | 2026-09-03 | 100 | The Dental Practice's "Get Paid on Day One" Credentialing Hub |
