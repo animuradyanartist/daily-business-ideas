@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-07
+*   **The "No-Regret" HVAC Field Quoting Tool** — A strong opportunity, but the therapist pain has a higher emotional and financial-risk component (catastrophic clawback vs. lost job profit), making it a more potent driver.
+*   **The E-commerce "Returns Dashboard" for Shopify Sellers** — This is a margin-optimization tool (a vitamin). The therapist tool is a risk-mitigation and time-saving tool (a painkiller).
+*   **The Independent Event Planner's "Dynamic" Floor Plan & Seating Tool** — The need is project-based, not a daily, recurring workflow, making a subscription harder to justify.
+
 ## 2026-09-06
 - **The Small Non-Profit's "Funder-Ready" Grant Reporting Dashboard** — Killed. The buyer has a very low ability to pay, and the problem can be "solved" with spreadsheets, making churn a significant risk. The process server has a clearer professional need and budget.
 - **The Conference Organizer's "Call-for-Papers-to-Agenda" Hub** — Killed. This is a project-based need, not a daily workflow, making a recurring subscription a harder sell. The pain is less frequent than the process server's.

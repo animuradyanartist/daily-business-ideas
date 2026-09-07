@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-07
+*   A powerful B2B pain is the combination of a high-frequency, annoying task (daily notes) and a low-probability, catastrophic-risk event (an audit). The solution sells on both efficiency and as a form of professional liability insurance.
+*   An incumbent's expensive, bolted-on feature (like an AI add-on) can create a significant price umbrella for a focused, "unbundled" startup to build a better, more affordable solution.
+*   Even in a market where a segment of buyers is leaving (therapists dropping insurance), the pain for the remaining segment can intensify so much that it creates a more concentrated and motivated customer base.
+
 ## 2026-09-06 (trends)
 - A small, professional niche (~10,000 customers) can be more attractive than a large, amorphous one if the workflow is critical, the pain of failure is high, and a clear price point is already established by incumbents.
 - The "system of record" is the most durable moat for vertical SaaS. The product that holds the customer's historical, legally-significant data is the hardest to replace.
