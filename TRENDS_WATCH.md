@@ -366,6 +366,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Mobile Co-pilots for Field Technicians** · Using generative AI on mobile devices to provide instant, on-site access to technical knowledge for service technicians. · flagged 2026-09-06 · last checked 2026-09-06 · [origin memo](trends/2026-09-06.md)
 - **AI-Automated Home Inspection Reporting** · Using AI to analyze photos and voice notes to automate the generation of detailed home inspection reports. · flagged 2026-09-06 · last checked 2026-09-06 · [origin memo](trends/2026-09-06.md)
 - **AI-Automated Fire & Life Safety Compliance** · Using AI platforms to automate the documentation, inspection, and reporting for fire and life safety regulations. · flagged 2026-09-06 · last checked 2026-09-06 · [origin memo](trends/2026-09-06.md)
+- **AI-Automated Operations for Private Therapy Practices** · Using specialized AI platforms to automate clinical documentation, client intake, and scheduling for therapists. · flagged 2026-09-07 · last checked 2026-09-07 · [origin memo](trends/2026-09-07.md)
+- **AI-Powered Insurance Defense Document Analysis** · Using AI platforms to automate the review of medical records and legal documents for claims litigation. · flagged 2026-09-07 · last checked 2026-09-07 · [origin memo](trends/2026-09-07.md)
+- **AI-Generated Performance Reviews for Managers** · Using AI to automate the drafting of structured, data-driven employee evaluations. · flagged 2026-09-07 · last checked 2026-09-07 · [origin memo](trends/2026-09-07.md)
 
 
 ## ➡️ Active — plateauing
@@ -617,3 +620,5 @@ _(empty)_
 <!-- 2026-09-05 status-update directive: 🚀 | AI-Powered Curriculum Design & Course Building -->
 
 <!-- 2026-09-06 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
+
+<!-- 2026-09-07 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
