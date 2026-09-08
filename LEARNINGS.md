@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-08 (trends)
+- A powerful wedge into a market dominated by complex, expensive incumbents is to unbundle their stickiest compliance feature and offer it as a simple, affordable point solution.
+- The fragmentation of an industry (many small players) is a feature, not a bug, for a product-led growth model, as it creates a long tail that high-touch enterprise sales models cannot efficiently serve.
+- The true cost of a compliance failure is often not the direct penalty but the second-order effects: lost contracts, reputational damage, and immense staff time spent on remediation. Selling to this fear is a powerful motivator.
+
+---
+
 ## 2026-09-08
 - A powerful wedge into a market dominated by complex, expensive incumbents is to unbundle their stickiest compliance feature and offer it as a simple, affordable point solution.
 - The fragmentation of an industry (many small players) is a feature, not a bug, for a product-led growth model, as it creates a long tail that high-touch enterprise sales models cannot efficiently serve.

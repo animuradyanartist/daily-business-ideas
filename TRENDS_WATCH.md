@@ -369,6 +369,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Private Therapy Practices** · Using specialized AI platforms to automate clinical documentation, client intake, and scheduling for therapists. · flagged 2026-09-07 · last checked 2026-09-07 · [origin memo](trends/2026-09-07.md)
 - **AI-Powered Insurance Defense Document Analysis** · Using AI platforms to automate the review of medical records and legal documents for claims litigation. · flagged 2026-09-07 · last checked 2026-09-07 · [origin memo](trends/2026-09-07.md)
 - **AI-Generated Performance Reviews for Managers** · Using AI to automate the drafting of structured, data-driven employee evaluations. · flagged 2026-09-07 · last checked 2026-09-07 · [origin memo](trends/2026-09-07.md)
+- **AI-Automated Food Safety & Traceability Compliance** · Using AI platforms to automate the documentation and record-keeping required for food safety regulations. · flagged 2026-09-08 · last checked 2026-09-08 · [origin memo](trends/2026-09-08.md)
+- **AI-Powered Trademark & Brand Monitoring** · Using AI to automate the detection and enforcement of brand infringement across online marketplaces and social media. · flagged 2026-09-08 · last checked 2026-09-08 · [origin memo](trends/2026-09-08.md)
+- **AI-Automated Physical Security Operations** · Using AI to analyze video feeds to automate threat detection and incident response for physical locations. · flagged 2026-09-08 · last checked 2026-09-08 · [origin memo](trends/2026-09-08.md)
 
 
 ## ➡️ Active — plateauing
@@ -622,3 +625,5 @@ _(empty)_
 <!-- 2026-09-06 status-update directive: 🚀 | AI-Powered Sales Call Analysis -->
 
 <!-- 2026-09-07 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
+
+<!-- 2026-09-08 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
