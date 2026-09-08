@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-08
+- **The Small Food Importer's FSVP Vault** — A strong compliance idea, but the machine shop pain is tied more directly to specific, high-value contracts, making the ROI clearer.
+- **The Commercial Drone Pilot's FAA Part 107 Compliance Locker** — A growing market, but the buyer is often a solo operator with a lower ability to pay compared to a B2B machine shop with multiple employees and large contracts.
+- **The Clinical Research Site's Participant Stipend Automator** — High-value problem, but the sales cycle into clinical research sites is complex and not ideal for a fast, product-led approach.
+
 ## 2026-09-07
 *   **The "No-Regret" HVAC Field Quoting Tool** — A strong opportunity, but the therapist pain has a higher emotional and financial-risk component (catastrophic clawback vs. lost job profit), making it a more potent driver.
 *   **The E-commerce "Returns Dashboard" for Shopify Sellers** — This is a margin-optimization tool (a vitamin). The therapist tool is a risk-mitigation and time-saving tool (a painkiller).

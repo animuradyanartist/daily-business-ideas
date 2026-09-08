@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Machine Shop Compliance Software | us-small-machine-shop-compliance-software | 2026-09-08 | 100 | The Small Machine Shop's "Audit-Ready" Material Traceability Log |
 | US Private Practice Therapist Software | us-private-practice-therapist-software | 2026-09-07 | 99 | The Private Practice Therapist's "Audit-Proof" Note Generator |
 | US Independent Process Server Software | us-independent-process-server-software | 2026-09-06 | 98 | The Independent Process Server's "Serve-to-Affidavit" Mobile Workflow App |
 | US Importer ISF Compliance Software | us-importer-isf-compliance-software | 2026-09-05 | 100 | The US Importer's "ISF 10+2" Filing Preparation Hub |
