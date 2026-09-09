@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-09
+- **The Personal Injury Law Firm's "Settlement-Ready" Medical Records Hub** — A time-saving tool, but the pain is less acute than the catastrophic legal/financial risk of a DEA violation.
+- **The Commercial Cleaning Company's "Proof-of-Service" Reporting System** — A contract-retention tool (vitamin), not a mandatory compliance tool (painkiller). Buyer has lower ability to pay.
+- **The Independent Insurance Adjuster's "Claim-to-Close" Workflow App** — A good niche, but the workflow is less standardized and the regulatory penalty for failure is less clear-cut than DEA requirements.
+
 ## 2026-09-08
 - **The Small Food Importer's FSVP Vault** — A strong compliance idea, but the machine shop pain is tied more directly to specific, high-value contracts, making the ROI clearer.
 - **The Commercial Drone Pilot's FAA Part 107 Compliance Locker** — A growing market, but the buyer is often a solo operator with a lower ability to pay compared to a B2B machine shop with multiple employees and large contracts.

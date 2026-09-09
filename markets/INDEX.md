@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Veterinary Clinic DEA Compliance Software | us-veterinary-clinic-dea-compliance-software | 2026-09-09 | 100 | The Veterinary Clinic's "Audit-Ready" DEA Controlled Substance Log |
 | US Small Machine Shop Compliance Software | us-small-machine-shop-compliance-software | 2026-09-08 | 100 | The Small Machine Shop's "Audit-Ready" Material Traceability Log |
 | US Private Practice Therapist Software | us-private-practice-therapist-software | 2026-09-07 | 99 | The Private Practice Therapist's "Audit-Proof" Note Generator |
 | US Independent Process Server Software | us-independent-process-server-software | 2026-09-06 | 98 | The Independent Process Server's "Serve-to-Affidavit" Mobile Workflow App |
@@ -46,7 +47,6 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 | US Etsy Seller Profitability Software | us-etsy-seller-profitability-software | 2026-07-30 | 79 | The Etsy seller's "true profit" dashboard |
 | US Amazon FBA Seller Reimbursement Software | us-amazon-fba-seller-reimbursement-software | 2026-07-29 | 95 | The FBA seller's "get paid by Amazon" reimbursement claim preparer |
 | US Water Damage Restoration Contractor Software | us-water-damage-restoration-contractor-software | 2026-07-28 | 98 | The water damage restoration contractor's "get paid by insurance" evidence locker |
-| US Veterinary Clinic DEA Compliance Software | us-veterinary-clinic-dea-compliance-software | 2026-07-27 | 98 | The veterinary clinic's "DEA audit-ready" controlled substance log |
 | US Commercial Property Management COI Compliance Software | us-commercial-property-management-coi-compliance-software | 2026-07-26 | 93 | The commercial property manager's "tenant COI" tracker |
 | US Independent Insurance Agency E&O Compliance Software | us-independent-insurance-agency-eo-compliance-software | 2026-07-25 | 98 | The independent insurance agency's "E&O audit-ready" file |
 | US Boutique Architecture Firm Construction Administration Software | us-boutique-architecture-firm-construction-admin-software | 2026-07-24 | 96 | The boutique architecture firm's "submittal & RFI" tracker |

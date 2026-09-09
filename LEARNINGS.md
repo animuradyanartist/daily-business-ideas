@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-09
+- The most powerful B2B SaaS ideas often live at the intersection of a high-frequency, annoying task and a low-probability, catastrophic-risk event. The solution sells on both daily efficiency and as a form of business-ending-risk insurance.
+- A fragmented market of small, independent professionals (like vets) is a feature for a product-led SaaS, as they are underserved by enterprise sales models and more likely to adopt a self-serve tool that solves a key pain point.
+- The price of a "worse substitute" (like a $10,000 consultant or a $45 paper logbook) provides a powerful anchor for SaaS pricing. A product that is 10x better and 1/10th the price of the service alternative is an easy value proposition.
+
 ## 2026-09-08 (trends)
 - A powerful wedge into a market dominated by complex, expensive incumbents is to unbundle their stickiest compliance feature and offer it as a simple, affordable point solution.
 - The fragmentation of an industry (many small players) is a feature, not a bug, for a product-led growth model, as it creates a long tail that high-touch enterprise sales models cannot efficiently serve.
