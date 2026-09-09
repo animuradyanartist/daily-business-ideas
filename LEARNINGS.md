@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-09 (trends)
+- The most powerful B2B SaaS ideas often live at the intersection of a high-frequency, annoying task and a low-probability, catastrophic-risk event. The solution sells on both daily efficiency and as a form of business-ending-risk insurance.
+- A fragmented market of small, independent professionals (like vets) is a feature for a product-led SaaS, as they are underserved by enterprise sales models and more likely to adopt a self-serve tool that solves a key pain point.
+- The price of a "worse substitute" (like a $50,000 manual audit or hours of unpaid documentation time) provides a powerful anchor for SaaS pricing. A product that is 10x better and 1/10th the price of the alternative is an easy value proposition.
+
+---
+
 ## 2026-09-09
 - The most powerful B2B SaaS ideas often live at the intersection of a high-frequency, annoying task and a low-probability, catastrophic-risk event. The solution sells on both daily efficiency and as a form of business-ending-risk insurance.
 - A fragmented market of small, independent professionals (like vets) is a feature for a product-led SaaS, as they are underserved by enterprise sales models and more likely to adopt a self-serve tool that solves a key pain point.

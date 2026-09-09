@@ -372,6 +372,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Food Safety & Traceability Compliance** · Using AI platforms to automate the documentation and record-keeping required for food safety regulations. · flagged 2026-09-08 · last checked 2026-09-08 · [origin memo](trends/2026-09-08.md)
 - **AI-Powered Trademark & Brand Monitoring** · Using AI to automate the detection and enforcement of brand infringement across online marketplaces and social media. · flagged 2026-09-08 · last checked 2026-09-08 · [origin memo](trends/2026-09-08.md)
 - **AI-Automated Physical Security Operations** · Using AI to analyze video feeds to automate threat detection and incident response for physical locations. · flagged 2026-09-08 · last checked 2026-09-08 · [origin memo](trends/2026-09-08.md)
+- **AI-Powered Veterinary Practice Operations** · Using AI to automate clinical documentation, diagnostics, and administrative tasks for veterinary clinics. · flagged 2026-09-09 · last checked 2026-09-09 · [origin memo](trends/2026-09-09.md)
+- **AI-Powered "Team Brain" Across Multiple Apps** · Using AI to create a single, searchable knowledge layer across a team's fragmented apps like Slack, Notion, and Google Drive. · flagged 2026-09-09 · last checked 2026-09-09 · [origin memo](trends/2026-09-09.md)
+- **AI-Automated SOC 2 Compliance** · Using AI platforms to automate evidence collection and continuous monitoring for SOC 2. · flagged 2026-09-09 · last checked 2026-09-09 · [origin memo](trends/2026-09-09.md)
 
 
 ## ➡️ Active — plateauing
@@ -627,3 +630,5 @@ _(empty)_
 <!-- 2026-09-07 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
 
 <!-- 2026-09-08 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-09-09 status-update directive: 🚀 | AI as a Thought Partner -->
