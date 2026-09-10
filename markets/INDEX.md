@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Fleet DOT Compliance Software | us-small-fleet-dot-compliance-software | 2026-09-10 | 100 | The Small Fleet's "Always Compliant" DOT Drug & Alcohol Clearinghouse Hub |
 | US Veterinary Clinic DEA Compliance Software | us-veterinary-clinic-dea-compliance-software | 2026-09-09 | 100 | The Veterinary Clinic's "Audit-Ready" DEA Controlled Substance Log |
 | US Small Machine Shop Compliance Software | us-small-machine-shop-compliance-software | 2026-09-08 | 100 | The Small Machine Shop's "Audit-Ready" Material Traceability Log |
 | US Private Practice Therapist Software | us-private-practice-therapist-software | 2026-09-07 | 99 | The Private Practice Therapist's "Audit-Proof" Note Generator |
@@ -17,7 +18,6 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 | US Small Organic Farm Compliance Software | us-small-organic-farm-compliance-software | 2026-08-30 | 99 | The Small Organic Farm's "Audit-Ready" Compliance Ledger |
 | US Construction Subcontractor Prequalification Software | us-construction-subcontractor-prequalification-software | 2026-08-29 | 99 | The Construction Subcontractor's "Bid-Ready" Prequalification Packet Generator |
 | US Small Law Firm Client Intake Software | us-small-law-firm-intake-software | 2026-08-28 | 99 | The Small Law Firm's "Never-Drop-a-Lead" Intake Funnel |
-| US Small Fleet DOT Compliance Software | us-small-fleet-dot-compliance-software | 2026-08-27 | 99 | The Independent Trucking Company's "Audit-Ready" Driver Qualification (DQ) File System |
 | US Mid-Market Unclaimed Property (Escheatment) Compliance Software | us-mid-market-escheatment-compliance-software | 2026-08-26 | 99 | The "Audit-Ready" Unclaimed Property (Escheatment) Compliance System |
 | US B2B SaaS SOC 2 Compliance Software | us-b2b-saas-soc2-compliance-software | 2026-08-25 | 98 | The Small SaaS Company's "SOC 2-Ready" Evidence Collector |
 | US Independent Self-Storage Lien Compliance Software | us-independent-self-storage-lien-compliance-software | 2026-08-24 | 99 | The Self-Storage Operator's Delinquent Unit & Lien Sale Automator |

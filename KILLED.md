@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-10
+*   **The Government Subcontractor's Prevailing Wage Payroll Report Generator** — A strong idea, but the compliance rules can vary by state and trade, adding complexity. The trucking opportunity is a single, federal rule set.
+*   **The Small Manufacturer's Hazardous Materials Paperwork Generator** — The pain is acute but likely less frequent for the average SMB than the annual/per-hire pain of the Clearinghouse.
+*   **The Independent Landlord's "Eviction-Ready" Tenant Communication Log** — Killed due to extreme variance in state/local laws, making a scalable, standardized product very difficult.
+
 ## 2026-09-09
 - **The Personal Injury Law Firm's "Settlement-Ready" Medical Records Hub** — A time-saving tool, but the pain is less acute than the catastrophic legal/financial risk of a DEA violation.
 - **The Commercial Cleaning Company's "Proof-of-Service" Reporting System** — A contract-retention tool (vitamin), not a mandatory compliance tool (painkiller). Buyer has lower ability to pay.

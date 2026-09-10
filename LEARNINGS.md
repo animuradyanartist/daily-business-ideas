@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-10
+*   A change in a regulation's *enforcement mechanism* (e.g., from a fine to a license revocation) can be the catalyst that turns a low-value "vitamin" into a high-value "painkiller," creating an immediate market opportunity.
+*   The most valuable compliance products don't just solve for the financial penalty; they solve for the second-order operational catastrophe (e.g., business shutdown) that the penalty triggers.
+*   In fragmented, low-tech markets, the primary competitor is often not another software product but a manual, service-based "good enough" solution. The wedge must be built on superior reliability and risk reduction, not just features.
+
 ## 2026-09-09 (trends)
 - The most powerful B2B SaaS ideas often live at the intersection of a high-frequency, annoying task and a low-probability, catastrophic-risk event. The solution sells on both daily efficiency and as a form of business-ending-risk insurance.
 - A fragmented market of small, independent professionals (like vets) is a feature for a product-led SaaS, as they are underserved by enterprise sales models and more likely to adopt a self-serve tool that solves a key pain point.
