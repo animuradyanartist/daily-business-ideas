@@ -375,6 +375,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Veterinary Practice Operations** · Using AI to automate clinical documentation, diagnostics, and administrative tasks for veterinary clinics. · flagged 2026-09-09 · last checked 2026-09-09 · [origin memo](trends/2026-09-09.md)
 - **AI-Powered "Team Brain" Across Multiple Apps** · Using AI to create a single, searchable knowledge layer across a team's fragmented apps like Slack, Notion, and Google Drive. · flagged 2026-09-09 · last checked 2026-09-09 · [origin memo](trends/2026-09-09.md)
 - **AI-Automated SOC 2 Compliance** · Using AI platforms to automate evidence collection and continuous monitoring for SOC 2. · flagged 2026-09-09 · last checked 2026-09-09 · [origin memo](trends/2026-09-09.md)
+- **AI-Automated Restaurant Procurement & Inventory** · Using AI to automate back-of-house workflows from demand forecasting to purchase order generation. · flagged 2026-09-10 · last checked 2026-09-10 · [origin memo](trends/2026-09-10.md)
+- **AI-Automated Corporate Legal Spend Management** · Using AI to automate the review and analysis of invoices from outside law firms to control costs. · flagged 2026-09-10 · last checked 2026-09-10 · [origin memo](trends/2026-09-10.md)
+- **AI-Automated IFTA Fuel Tax Reporting** · Using AI to automate the generation of quarterly fuel tax reports for interstate trucking fleets. · flagged 2026-09-10 · last checked 2026-09-10 · [origin memo](trends/2026-09-10.md)
 
 
 ## ➡️ Active — plateauing
@@ -632,3 +635,5 @@ _(empty)_
 <!-- 2026-09-08 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-09-09 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-09-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->

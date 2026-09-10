@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-10 (trends)
+- A change in a regulation's *enforcement mechanism* (e.g., from a fine to a license revocation) can be the catalyst that turns a low-value "vitamin" into a high-value "painkiller," creating an immediate market opportunity.
+- The most valuable compliance products don't just solve for the financial penalty; they solve for the second-order operational catastrophe (e.g., business shutdown) that the penalty triggers.
+- In fragmented, low-tech markets, the primary competitor is often not another software product but a manual, service-based "good enough" solution. The wedge must be built on superior reliability and risk reduction, not just features.
+
+---
+
 ## 2026-09-10
 *   A change in a regulation's *enforcement mechanism* (e.g., from a fine to a license revocation) can be the catalyst that turns a low-value "vitamin" into a high-value "painkiller," creating an immediate market opportunity.
 *   The most valuable compliance products don't just solve for the financial penalty; they solve for the second-order operational catastrophe (e.g., business shutdown) that the penalty triggers.
