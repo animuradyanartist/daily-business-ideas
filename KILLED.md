@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-11
+- **The Short-Term Rental Cleaner's "Turnover Task" Hub** — Killed. An operational efficiency tool (vitamin), not a direct financial painkiller. The buyer has a lower ability to pay than an insurance agency.
+- **The Wedding Photographer's "Second Shooter" Coordination & Delivery Hub** — Killed. The catastrophic pain (lost SD card) is real but infrequent. The business model is likely per-event, making a recurring subscription and predictable revenue harder to build.
+- **The E-commerce Seller's "Lost Inventory" Reconciler** — Killed. A strong financial pain, but the reconciliation happens across multiple platforms (Amazon FBA, 3PLs), making the technical challenge immense and the market crowded with sophisticated players.
+
 ## 2026-09-10
 *   **The Government Subcontractor's Prevailing Wage Payroll Report Generator** — A strong idea, but the compliance rules can vary by state and trade, adding complexity. The trucking opportunity is a single, federal rule set.
 *   **The Small Manufacturer's Hazardous Materials Paperwork Generator** — The pain is acute but likely less frequent for the average SMB than the annual/per-hire pain of the Clearinghouse.
