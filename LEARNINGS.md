@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-11 (trends)
+- A direct, quantifiable revenue leak is as powerful a motivator as a catastrophic compliance failure.
+- The maturation of a specific technology (like AI document parsing) can unlock opportunities in established markets that were previously technically infeasible for new entrants.
+- The "unbundling" of a single, high-value feature from a legacy enterprise suite is a proven strategy for a focused new venture, especially if the new tool can be platform-agnostic.
+- A strong indicator of a high-value problem is when large, slow-moving incumbents start investing heavily and marketing a solution for it.
+
+---
+
 ## 2026-09-11
 - A direct, quantifiable revenue leak is as powerful a motivator as a catastrophic compliance failure.
 - The maturation of a specific technology (like AI document parsing) can unlock opportunities in established markets that were previously technically infeasible for new entrants.

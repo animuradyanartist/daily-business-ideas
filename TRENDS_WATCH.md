@@ -378,6 +378,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Restaurant Procurement & Inventory** · Using AI to automate back-of-house workflows from demand forecasting to purchase order generation. · flagged 2026-09-10 · last checked 2026-09-10 · [origin memo](trends/2026-09-10.md)
 - **AI-Automated Corporate Legal Spend Management** · Using AI to automate the review and analysis of invoices from outside law firms to control costs. · flagged 2026-09-10 · last checked 2026-09-10 · [origin memo](trends/2026-09-10.md)
 - **AI-Automated IFTA Fuel Tax Reporting** · Using AI to automate the generation of quarterly fuel tax reports for interstate trucking fleets. · flagged 2026-09-10 · last checked 2026-09-10 · [origin memo](trends/2026-09-10.md)
+- **AI-Automated Revenue Recovery for B2B Businesses** · Using AI to analyze contracts and invoices to automatically recover revenue from underpayments and invalid deductions. · flagged 2026-09-11 · last checked 2026-09-11 · [origin memo](trends/2026-09-11.md)
+- **AI-Powered "Digital Twin" for Personal Finance** · Using AI to create dynamic, virtual simulations of a person's financial life to model the long-term impact of decisions. · flagged 2026-09-11 · last checked 2026-09-11 · [origin memo](trends/2026-09-11.md)
+- **AI-Powered "Family OS"** · Using AI to automatically organize family schedules, documents, and tasks from emails and messages to reduce household mental load. · flagged 2026-09-11 · last checked 2026-09-11 · [origin memo](trends/2026-09-11.md)
 
 
 ## ➡️ Active — plateauing
@@ -637,3 +640,5 @@ _(empty)_
 <!-- 2026-09-09 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-09-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-09-11 status-update directive: 🚀 | Conversational AI Language Tutors -->
