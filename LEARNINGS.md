@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-12
+- A recent, well-publicized shift in regulatory *enforcement* is a more powerful "why now" than the original passing of the rule itself. The market's trigger is the fear created by seeing peers get fined.
+- For compliance products, the value is not in the core technical action (e.g., taking a screenshot) but in the creation of a trusted, immutable, third-party audit trail.
+- A viable strategy is to unbundle a single, high-stakes compliance feature from a bloated, expensive enterprise suite and offer it as a standalone, best-in-class solution to the underserved SMB segment of the market.
+- When two compliance ideas are equally strong, the one with the more recent and active enforcement cycle likely has a more motivated buyer.
+
 ## 2026-09-11 (trends)
 - A direct, quantifiable revenue leak is as powerful a motivator as a catastrophic compliance failure.
 - The maturation of a specific technology (like AI document parsing) can unlock opportunities in established markets that were previously technically infeasible for new entrants.

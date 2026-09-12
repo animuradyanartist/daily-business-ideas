@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-12
+- **The General Contractor's Lien Waiver & Pay App Hub** — Killed. While a strong pain, the workflow is complex and varies by state. The IOLTA and RIA opportunities have a more uniform, national regulatory driver.
+- **The Small Law Firm's "Audit-Proof" IOLTA Trust Account Ledger** — A very strong candidate, nearly chosen. The RIA opportunity was selected as slightly stronger due to the more recent and aggressive shift in SEC enforcement creating a clearer "why now" trigger.
+- **The Independent Restaurant's "Stop-the-Bleed" Food Cost & Waste Tracker** — Killed. The buyer has a lower ability to pay, the market has a high churn/failure rate, and the solution relies on adoption by low-wage, high-turnover staff, making it a difficult business to build.
+
 ## 2026-09-11
 - **The Short-Term Rental Cleaner's "Turnover Task" Hub** — Killed. An operational efficiency tool (vitamin), not a direct financial painkiller. The buyer has a lower ability to pay than an insurance agency.
 - **The Wedding Photographer's "Second Shooter" Coordination & Delivery Hub** — Killed. The catastrophic pain (lost SD card) is real but infrequent. The business model is likely per-event, making a recurring subscription and predictable revenue harder to build.

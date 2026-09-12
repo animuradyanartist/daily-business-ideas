@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Registered Investment Advisor (RIA) Compliance Software | us-ria-compliance-software | 2026-09-12 | 100 | The Registered Investment Advisor's "Audit-Ready" SEC Marketing Rule Archive |
 | US Independent Insurance Agency Financial Software | us-independent-insurance-agency-financial-software | 2026-09-11 | 100 | The Independent Insurance Agent's "Leakproof" Commission Reconciler |
 | US Small Fleet DOT Compliance Software | us-small-fleet-dot-compliance-software | 2026-09-10 | 100 | The Small Fleet's "Always Compliant" DOT Drug & Alcohol Clearinghouse Hub |
 | US Veterinary Clinic DEA Compliance Software | us-veterinary-clinic-dea-compliance-software | 2026-09-09 | 100 | The Veterinary Clinic's "Audit-Ready" DEA Controlled Substance Log |
