@@ -381,6 +381,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Revenue Recovery for B2B Businesses** · Using AI to analyze contracts and invoices to automatically recover revenue from underpayments and invalid deductions. · flagged 2026-09-11 · last checked 2026-09-11 · [origin memo](trends/2026-09-11.md)
 - **AI-Powered "Digital Twin" for Personal Finance** · Using AI to create dynamic, virtual simulations of a person's financial life to model the long-term impact of decisions. · flagged 2026-09-11 · last checked 2026-09-11 · [origin memo](trends/2026-09-11.md)
 - **AI-Powered "Family OS"** · Using AI to automatically organize family schedules, documents, and tasks from emails and messages to reduce household mental load. · flagged 2026-09-11 · last checked 2026-09-11 · [origin memo](trends/2026-09-11.md)
+- **AI-Automated SEC Compliance Reporting** · Using AI platforms to automate the drafting, tagging, and filing of public company financial disclosures. · flagged 2026-09-12 · last checked 2026-09-12 · [origin memo](trends/2026-09-12.md)
+- **AI-Powered Compliance for Registered Investment Advisors (RIAs)** · Using AI to automate the review of marketing materials and communications for SEC and FINRA compliance. · flagged 2026-09-12 · last checked 2026-09-12 · [origin memo](trends/2026-09-12.md)
+- **AI-Automated Medical Device Quality Management Systems (QMS)** · Using AI to automate the creation and management of documentation for FDA and ISO 13485 compliance. · flagged 2026-09-12 · last checked 2026-09-12 · [origin memo](trends/2026-09-12.md)
 
 
 ## ➡️ Active — plateauing
@@ -642,3 +645,5 @@ _(empty)_
 <!-- 2026-09-10 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-09-11 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-09-12 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
