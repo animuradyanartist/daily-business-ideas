@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-13 (trends)
+- A public, regularly updated list of entities that have just received a large sum of money and a new, painful administrative burden is the most efficient B2B customer acquisition channel imaginable.
+- The most valuable compliance products are not full-blown systems of record, but rather "compliance sub-ledgers" that augment existing, non-compliant systems like QuickBooks.
+- For a technical founder, the "cost" of a solution is not just money, but also cognitive overhead. A tool that is simple and "just works" for one specific, high-stakes problem has an advantage over a complex, all-in-one system, even if the latter is more powerful.
+
+---
+
 ## 2026-09-13
 - A public, regularly updated list of entities that have just received a large sum of money and a new, painful administrative burden is the most efficient B2B customer acquisition channel imaginable.
 - The most valuable compliance products are not full-blown systems of record, but rather "compliance sub-ledgers" that augment existing, non-compliant systems like QuickBooks.

@@ -384,6 +384,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated SEC Compliance Reporting** · Using AI platforms to automate the drafting, tagging, and filing of public company financial disclosures. · flagged 2026-09-12 · last checked 2026-09-12 · [origin memo](trends/2026-09-12.md)
 - **AI-Powered Compliance for Registered Investment Advisors (RIAs)** · Using AI to automate the review of marketing materials and communications for SEC and FINRA compliance. · flagged 2026-09-12 · last checked 2026-09-12 · [origin memo](trends/2026-09-12.md)
 - **AI-Automated Medical Device Quality Management Systems (QMS)** · Using AI to automate the creation and management of documentation for FDA and ISO 13485 compliance. · flagged 2026-09-12 · last checked 2026-09-12 · [origin memo](trends/2026-09-12.md)
+- **AI-Automated Post-Award Grant Management** · Using AI to automate compliance tracking, budgeting, and progress reporting for awarded grants. · flagged 2026-09-13 · last checked 2026-09-13 · [origin memo](trends/2026-09-13.md)
+- **AI-Powered "Business-in-a-Box" for Solopreneurs** · Using all-in-one AI platforms to automate the entire back-office workflow for solo service providers. · flagged 2026-09-13 · last checked 2026-09-13 · [origin memo](trends/2026-09-13.md)
+- **"Agentic" AI for Job Application Workflows** · Using autonomous AI agents to manage the entire job application process, from discovery to submission. · flagged 2026-09-13 · last checked 2026-09-13 · [origin memo](trends/2026-09-13.md)
 
 
 ## ➡️ Active — plateauing
@@ -647,3 +650,5 @@ _(empty)_
 <!-- 2026-09-11 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-09-12 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-09-13 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
