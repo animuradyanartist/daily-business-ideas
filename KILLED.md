@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-13
+- **The Non-Emergency Medical Transportation (NEMT) "Leakproof" Medicaid Billing Hub** — Killed. While the pain is severe, Medicaid billing rules vary significantly by state, making a nationally scalable, self-serve product much more complex.
+- **The Small General Contractor's Certificate of Insurance (COI) Compliance Hub** — Killed. This is a strong risk-mitigation pain, but less acute than the SBIR grant clawback risk. The "why now" is less potent.
+- **The Independent Cemetery's "Never-Lose-A-Record" Digital Plot Management System** — Killed. The buyer (small municipalities, non-profits) has a very low ability and willingness to pay, and the sales cycle is likely long and difficult.
+
 ## 2026-09-12
 - **The General Contractor's Lien Waiver & Pay App Hub** — Killed. While a strong pain, the workflow is complex and varies by state. The IOLTA and RIA opportunities have a more uniform, national regulatory driver.
 - **The Small Law Firm's "Audit-Proof" IOLTA Trust Account Ledger** — A very strong candidate, nearly chosen. The RIA opportunity was selected as slightly stronger due to the more recent and aggressive shift in SEC enforcement creating a clearer "why now" trigger.
