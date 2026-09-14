@@ -73,8 +73,9 @@ function relevanceFrom(prompt) {
   return {
     ideas: ideas.map((i) => ({
       id: i.id,
+      qualifiers: ['small operator'],
       keywords: i.keywords.map((k) => ({ id: k.id, searcher: 'includes', topic: /pricing/.test(k.keyword) ? 'category' : /software/.test(k.keyword) ? 'same' : 'wider', reason: 'fake judgement' })),
-      items: i.items.map((it) => ({ id: it.id, customer: /reddit/.test(it.domain) ? 'same' : 'broader', problem: 'same', offering: /reddit/.test(it.domain) ? 'no' : 'yes', reason: 'fake judgement' })),
+      items: i.items.map((it) => ({ id: it.id, customer: /reddit/.test(it.domain) ? 'same' : 'broader', customerMatches: /reddit/.test(it.domain) ? ['small operator'] : [], problem: 'same', offering: /reddit/.test(it.domain) ? 'no' : 'yes', reason: 'fake judgement' })),
     })),
   };
 }

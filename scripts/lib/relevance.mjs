@@ -32,6 +32,21 @@ export function keywordClass(j) {
   return topic === 'same' ? 'direct' : 'category';
 }
 
+const norm = (t) => String(t ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
+
+/**
+ * "Same customer" must cover EVERY defining trait of the target customer (e.g. non-native English
+ * speaker AND designer). An item about only some of the traits — all designers, or all non-native
+ * speakers — is "broader". Enforced over the judge's own answers: without the trait list, or when a
+ * trait is not matched, "same" becomes "broader". Pure.
+ */
+export function effectiveCustomer(j, qualifiers) {
+  if (j?.customer !== 'same') return j?.customer ?? null;
+  const q = (Array.isArray(qualifiers) ? qualifiers : []).map(norm).filter(Boolean);
+  const matched = new Set((Array.isArray(j.customerMatches) ? j.customerMatches : []).map(norm));
+  return q.length && q.every((x) => matched.has(x)) ? 'same' : 'broader';
+}
+
 /** Problem-evidence class of a search result or page from its judgement. Pure. */
 export function itemClass(j) {
   const customer = pick(j?.customer, ['same', 'broader', 'different', 'unclear']);
@@ -67,14 +82,16 @@ KEYWORDS — {"id": "K1", "searcher": "...", "topic": "...", "reason": "..."}
 - topic: "same" = the idea's own job, problem or product (e.g. for a bookkeeping template pack for freelance photographers: "photography business bookkeeping"); "category" = the product category the idea is sold into, not its specific angle ("bookkeeping spreadsheet template"); "wider" = a wider market than the idea sells into ("excel templates", "accounting software", "business course"); "unclear" if you cannot tell.
 - A short generic term is almost never "same". Search volume is irrelevant to this judgement — judge the words, not the numbers.
 
-ITEMS (search results S… and pages P…) — {"id": "S1.3", "customer": "...", "problem": "...", "offering": "...", "reason": "..."}
-- customer: who the item is about or for. "same" = the idea's target customer; "broader" = a wider group that includes them (all small-business owners, all office workers); "different" = someone else; "unclear".
+ITEMS (search results S… and pages P…) — {"id": "S1.3", "customer": "...", "customerMatches": ["..."], "problem": "...", "offering": "...", "reason": "..."}
+- First, per idea, list "qualifiers": the 1–4 defining traits of the target customer, copied from its description (e.g. for "night-shift nurses in rural hospitals": ["night-shift nurse", "rural hospital"]).
+- customer: who the item is about or for. "same" ONLY if it concerns people with ALL the qualifiers; "broader" = a wider group that includes them, or people with only SOME of the qualifiers (all nurses; all rural health workers); "different" = someone else; "unclear".
+- customerMatches: the qualifiers (copied exactly from your list) that the item's people clearly have. Leave out any you are not sure of.
 - problem: "same" = the idea's specific problem; "broader" = a wider or adjacent problem; "different" = another problem; "unclear".
 - Watch for look-alikes that share words but not the person: for an idea helping landlords screen tenants, "how tenants can screen a landlord" is customer "different". Generic scheduling pain for all office workers is customer "broader", not "same", for an idea aimed at night-shift nurses.
 - offering: "yes" if it is a product, service, template, course or tool someone could use or buy instead; "no" for articles, threads, papers and news that only discuss the topic; "unclear".
 - reason: one short sentence naming who the item or keyword is about and what problem, compared with the idea's customer and problem.
 
-Return JSON only: {"ideas":[{"id":"","keywords":[...],"items":[...]}]}
+Return JSON only: {"ideas":[{"id":"","qualifiers":["..."],"keywords":[...],"items":[...]}]}
 
 === IDEAS ===
 ${JSON.stringify(bundle)}`;
@@ -108,12 +125,13 @@ export function normalizeRelevance(raw, idea, { at, models } = {}) {
   }
   for (const j of Array.isArray(raw?.items) ? raw.items : []) {
     const id = String(j?.id ?? '');
-    if (itemIds.has(id) && !items[id]) items[id] = { customer: j.customer ?? null, problem: j.problem ?? null, offering: j.offering ?? null, reason: reasonOf(j) };
+    if (itemIds.has(id) && !items[id]) items[id] = { customer: j.customer ?? null, customerMatches: Array.isArray(j.customerMatches) ? j.customerMatches.map((x) => String(x).slice(0, 80)).slice(0, 6) : [], problem: j.problem ?? null, offering: j.offering ?? null, reason: reasonOf(j) };
   }
   return {
     at: at ?? null,
     models: models ?? null,
     evidenceUpdatedAt: idea.evidenceUpdatedAt ?? null,
+    qualifiers: (Array.isArray(raw?.qualifiers) ? raw.qualifiers : []).map((x) => String(x).slice(0, 80)).filter(Boolean).slice(0, 4),
     keywords,
     items,
     missing: [...[...kwIds].filter((id) => !keywords[id]), ...[...itemIds].filter((id) => !items[id])],
@@ -123,11 +141,17 @@ export function normalizeRelevance(raw, idea, { at, models } = {}) {
 /** Class lookups for one idea; an idea without a stored judgement is entirely uncertain. */
 export function relevanceOf(idea) {
   const rel = idea?.relevance ?? null;
+  const eff = (id) => {
+    const j = rel?.items?.[id];
+    return j ? { ...j, customer: effectiveCustomer(j, rel.qualifiers) } : undefined;
+  };
   return {
     classified: Boolean(rel),
     keyword: (id) => keywordClass(rel?.keywords?.[id]),
-    item: (id) => itemClass(rel?.items?.[id]),
-    competitor: (id) => competitorType(rel?.items?.[id]),
+    item: (id) => itemClass(eff(id)),
+    competitor: (id) => competitorType(eff(id)),
+    /** true when the judge said "same customer" but did not match every qualifier */
+    narrowed: (id) => rel?.items?.[id]?.customer === 'same' && eff(id)?.customer !== 'same',
     reason: (id) => rel?.keywords?.[id]?.reason ?? rel?.items?.[id]?.reason ?? '',
   };
 }

@@ -6,7 +6,7 @@
 // The judgements here are fixtures, not model output: they test the rules, not the model.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { keywordClass, itemClass, competitorType, relevanceDemand, normalizeRelevance } from '../lib/relevance.mjs';
+import { keywordClass, itemClass, competitorType, relevanceDemand, normalizeRelevance, effectiveCustomer, relevanceOf } from '../lib/relevance.mjs';
 import { constrainAssessment, relevanceReadings } from '../lib/enrich.mjs';
 import { scrubDemandClaims } from '../lib/grounding.mjs';
 
@@ -188,4 +188,42 @@ test('judgements for unknown ids are ignored and missing ids are listed; reading
   assert.equal(readings.demand.level, 'low');
   assert.equal(readings.demand.broader.level, 'unknown'); // K4 unjudged → uncertain, not broader
   assert.equal(readings.demand.uncertainCount, 1);
+});
+
+// ---------- 3. "Same customer" must match every defining trait (live run 34835604116 misjudgements) ----------
+
+test('2026-05-01: items about all non-native business communicators are not the freelance-designer customer', () => {
+  // The judge said customer "same" for both, which lifted problem evidence to "strong". Its own trait list shows why that is wrong.
+  const qualifiers = ['non-native English speaker', 'freelance designer'];
+  const researchgate = { customer: 'same', customerMatches: ['non-native English speaker'], problem: 'same', offering: 'no', reason: 'cognitive load of non-native speakers in business communication' };
+  const coursera = { customer: 'same', customerMatches: ['non-native English speaker'], problem: 'same', offering: 'yes', reason: 'business English course for non-native speakers' };
+  assert.equal(effectiveCustomer(researchgate, qualifiers), 'broader');
+  const idea = {
+    id: '2026-05-01',
+    keywords: [],
+    serps: [{ id: 'S2', items: [
+      { id: 'S2.3', domain: 'www.researchgate.net', url: 'https://www.researchgate.net/x', title: '(PDF) Effect on Non-Native English Speakers of Utilizing ...', description: 'Non-native English speakers who use English for business communication may have a higher cognitive load' },
+      { id: 'S2.5', domain: 'www.coursera.org', url: 'https://www.coursera.org/specializations/business-english', title: 'Business English for Non-Native Speakers Specialization', description: 'This Specialization will introduce non-native speakers of English to methods for developing English language and communication skills.' },
+    ] }],
+    pages: [],
+    readings: { demand: { level: 'unknown' }, competitors: {} },
+    relevance: { qualifiers, keywords: {}, items: { 'S2.3': researchgate, 'S2.5': coursera } },
+  };
+  const out = constrainAssessment(
+    { problemEvidence: { level: 'strong', basis: [{ id: 'S2.3', quote: 'higher cognitive load' }, { id: 'S2.5', quote: 'Business English for Non-Native Speakers' }], observed: 'x' } },
+    idea,
+    { original: '' },
+  );
+  assert.equal(out.problemEvidence.level, 'weak'); // broader audience only
+  assert.equal(relevanceOf(idea).narrowed('S2.3'), true);
+  assert.equal(relevanceOf(idea).competitor('S2.5'), 'direct'); // still a competitor for the same problem, to a broader group
+});
+
+test('2026-04-30: presentation anxiety of all designers is not the non-native designer customer; a full match stays "same"', () => {
+  const qualifiers = ['non-native English speaker', 'UX/product designer'];
+  const reddit = { customer: 'same', customerMatches: ['UX/product designer'], problem: 'same', offering: 'no', reason: 'designers afraid of presenting' };
+  assert.equal(itemClass({ ...reddit, customer: effectiveCustomer(reddit, qualifiers) }), 'category');
+  assert.equal(effectiveCustomer({ ...reddit, customerMatches: ['UX/product designer', 'Non-native English speaker '] }, qualifiers), 'same'); // case/space-insensitive
+  assert.equal(effectiveCustomer(reddit, []), 'broader'); // no trait list → cannot verify → not "same"
+  assert.equal(effectiveCustomer({ customer: 'different' }, qualifiers), 'different');
 });

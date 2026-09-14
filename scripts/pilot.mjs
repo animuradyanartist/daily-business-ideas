@@ -441,6 +441,13 @@ function relevanceViolations(idea) {
 }
 
 const before = (idea) => idea.history?.[0] ?? null;
+const PE_ORDER = ['unknown', 'weak', 'moderate', 'strong'];
+/** Problem evidence that rose above the kept earlier version: relevance checks should only cut, so a rise needs a person. */
+const raisedProblem = (idea) => {
+  const b = before(idea)?.assessment?.problemEvidence?.level;
+  const a = idea.assessment?.problemEvidence?.level;
+  return b && a && PE_ORDER.indexOf(a) > PE_ORDER.indexOf(b) ? `${b} → ${a}` : null;
+};
 const demandCell = (d) => (d ? `${d.level}${d.upTo ? ` (≤${d.upTo}?)` : ''}` : 'n/a');
 const compCell = (a) => (a ? `${a.competition.level}${a.competition.alternatives ? ` · ${a.competition.alternatives.filter((x) => x.type === 'direct').length}d/${a.competition.alternatives.filter((x) => x.type === 'indirect').length}i` : ''}` : 'n/a');
 
@@ -587,7 +594,10 @@ if (cmd === 'check') {
     record('No stored reading or citation relies on evidence judged unrelated, broader or unjudged; alternatives are typed from the evidence', violations.length === 0, violations.length ? violations.join('; ') : `${eligible.length} idea(s) checked`);
     const irrelevant = assessed.reduce((n, i) => n + (i.assessment.validation?.irrelevantCitations?.length ?? 0), 0);
     const flags = eligible.flatMap((i) => relevanceFlags(i).map((f) => `${i.id}: ${f}`));
-    record('Relevance checks intervened / ambiguous cases flagged for a person (informational)', true, `${irrelevant} quoted citation(s) removed as not about the customer and problem · ${flags.length} flag(s)`);
+    const narrowed = eligible.reduce((n, i) => { const rel = relevanceOf(i); return n + Object.keys(i.relevance?.items ?? {}).filter((id) => rel.narrowed(id)).length; }, 0);
+    const raised = eligible.filter(raisedProblem).map((i) => `${i.id} ${raisedProblem(i)}`);
+    for (const r of raised) flags.push(`${r.split(' ')[0]}: problem evidence rose (${r.split(' ').slice(1).join(' ')}) after the relevance checks — a new assessment, not new evidence; check the direct items`);
+    record('Relevance checks intervened / ambiguous cases flagged for a person (informational)', true, `${irrelevant} quoted citation(s) removed as not about the customer and problem · ${narrowed} "same customer" judgement(s) narrowed to broader (not every defining trait matched) · ${flags.length} flag(s)`);
     if (flags.length) lines.push('Relevance cases for a person (not counted as idea evidence):', ...flags.map((f) => `- ${esc(f)}`), '');
     record('Earlier results preserved (run.json keeps the version before relevance checks)', eligible.every((i) => i.history?.length), `${eligible.filter((i) => i.history?.length).length}/${eligible.length} idea(s) keep: ${[...new Set(eligible.flatMap((i) => (i.history ?? []).map((h) => h.label)))].join('; ') || 'none'}`);
     record('Forced model failure preserved evidence and allowed resumption', Boolean(fc?.ok) && assessed.length === eligible.length, fc ? `failure step: newly assessed ${fc.newlyAssessed}, newly judged ${fc.newlyJudged ?? 'n/a'}, evidence changed ${fc.evidenceChanged}, error "${String(fc.assessmentError).slice(0, 120)}"; resumed: ${assessed.length}/${eligible.length} assessed` : 'failure-check.json missing');
@@ -595,7 +605,8 @@ if (cmd === 'check') {
 
   lines.push('| Check | Result | Detail |', '|---|---|---|', ...results.map((r) => `| ${esc(r.name)} | ${r.pass ? 'pass' : '**FAIL**'} | ${esc(r.detail)} |`));
   const review = readJson(P.review, null);
-  if (review?.liveRun) lines.push('', ...reviewLines(review, { full: true }));
+  if (review?.liveRun && review.liveRun === run?.assessmentRunner?.runId) lines.push('', ...reviewLines(review, { full: true }));
+  else if (review?.liveRun) lines.push('', `_The human review in review.json covers assessment run ${review.liveRun}, kept in run.json history; this run (${run?.assessmentRunner?.runId ?? 'n/a'}) has not been reviewed that way._`);
   writeFileSync(P.check, lines.join('\n') + '\n');
   for (const r of results) console.log(`${r.pass ? '✓' : '✗'} ${r.name} — ${r.detail}`);
   process.exit(results.every((r) => r.pass) ? 0 : 1);
@@ -638,7 +649,8 @@ if (cmd === 'compare') {
       headMeasured: head.filter((k) => k.status === 'measured').length,
       byIdea: Object.fromEntries(r.ideas.map((i) => {
         const m = i.keywords.filter((k) => k.status === 'measured').sort((a, b) => b.searchVolume - a.searchVolume);
-        return [i.id, { measured: m.length, of: i.keywords.length, top: m[0] ? `${m[0].keyword} (${m[0].searchVolume}/mo)` : 'none', demand: i.readings?.demand?.level ?? 'unknown', list: i.keywords }];
+        const rt = i.relevance ? i.keywords.find((k) => k.id === i.readings?.demand?.top?.id) ?? null : undefined;
+        return [i.id, { measured: m.length, of: i.keywords.length, top: m[0] ? `${m[0].keyword} (${m[0].searchVolume}/mo)` : 'none', demand: i.readings?.demand?.level ?? 'unknown', list: i.keywords, readingTop: rt }];
       })),
     };
   };
@@ -748,7 +760,8 @@ if (cmd === 'compare') {
         const measured = m.byIdea[id].list.filter((k) => k.status === 'measured');
         for (const k of measured) t[judge(id, k)]++;
         if (measured.some((k) => ['on-idea', 'category'].includes(judge(id, k)))) t.ideasRelevant++;
-        const top = [...measured].sort((a, b) => b.searchVolume - a.searchVolume)[0];
+        const judgedTop = m.byIdea[id].readingTop;
+        const top = judgedTop !== undefined ? judgedTop : [...measured].sort((a, b) => b.searchVolume - a.searchVolume)[0];
         if (top && judge(id, top) === 'broader') t.levelFromBroader++;
       }
       return t;
@@ -764,19 +777,22 @@ if (cmd === 'compare') {
       '|---|---|---|---|',
       ...rows.map(([label, t]) => `| ${esc(label)} | ${t['on-idea']} / ${t.category} / ${t.broader}${t['not judged'] ? ` (+${t['not judged']} not judged)` : ''} | ${t.ideasRelevant}/${ids.length} | ${t.levelFromBroader}/${ids.length} |`),
       '',
-      '| Idea | v3 demand level as computed | v3 level from on-idea + category keywords only |',
+      '_"Demand level set by a broader keyword" uses the relevance-checked reading when the evidence has been judged; before judging, the largest keyword set it._',
+      '',
+      '| Idea | v3 demand level as computed | v3 level from on-idea + category keywords only (person\'s labels) |',
       '|---|---|---|',
       ...ids.map((id) => {
         const list = v3?.byIdea[id]?.list ?? [];
         const narrow = demandReading(list.filter((k) => k.status !== 'measured' || judge(id, k) !== 'broader'));
         const top = narrow.top ? ` (${esc(narrow.top.keyword ?? '')}${narrow.top.searchVolume != null ? `, ${narrow.top.searchVolume}/mo` : ''})` : '';
-        return `| \`${id}\` | ${v3?.byIdea[id]?.demand ?? 'n/a'} · ${esc(v3?.byIdea[id]?.top ?? '')} | ${narrow.level}${top} |`;
+        const rt = v3?.byIdea[id]?.readingTop;
+        return `| \`${id}\` | ${v3?.byIdea[id]?.demand ?? 'n/a'}${rt !== undefined ? ` · set by ${rt ? `"${esc(rt.keyword)}"` : 'no confirmed direct keyword'}` : ` · ${esc(v3?.byIdea[id]?.top ?? '')}`} | ${narrow.level}${top} |`;
       }),
       '',
-      '**Findings**',
+      '**Findings of that review, written before the relevance checks (kept as written)**',
       ...review.findings.map((f) => `- ${esc(f)}`),
       '',
-      `**Recommendation:** ${esc(review.recommendation)}`,
+      `**Recommendation of that review (then):** ${esc(review.recommendation)} _Implemented since as the relevance checks: idea-level demand from directly relevant keywords only._`,
     );
   }
   writeFileSync(join(pilotDir, 'PLANNER-COMPARISON.md'), out.join('\n') + '\n');
@@ -831,7 +847,7 @@ if (cmd === 'report') {
       ...run.ideas.map((i) => {
         const h = before(i);
         const d = i.readings?.demand;
-        return `| \`${i.id}\` | ${i.market?.locationName ?? ''}/${i.market?.languageCode ?? ''} | ${h?.readings?.demand?.level ?? 'n/a'} | ${demandCell(d)} | ${d?.category?.level ?? 'n/a'} · ${d?.broader?.level ?? 'n/a'} | ${h?.assessment?.problemEvidence?.level ?? 'n/a'} → ${i.assessment?.problemEvidence?.level ?? 'n/a'} | ${h?.assessment?.competition?.level ?? 'n/a'} → ${compCell(i.assessment)} | ${relevanceFlags(i).length} |`;
+        return `| \`${i.id}\` | ${i.market?.locationName ?? ''}/${i.market?.languageCode ?? ''} | ${h?.readings?.demand?.level ?? 'n/a'} | ${demandCell(d)} | ${d?.category?.level ?? 'n/a'} · ${d?.broader?.level ?? 'n/a'} | ${h?.assessment?.problemEvidence?.level ?? 'n/a'} → ${i.assessment?.problemEvidence?.level ?? 'n/a'}${raisedProblem(i) ? ' ⚠ rose' : ''} | ${h?.assessment?.competition?.level ?? 'n/a'} → ${compCell(i.assessment)} | ${relevanceFlags(i).length + (raisedProblem(i) ? 1 : 0)} |`;
       }),
       '',
     );
