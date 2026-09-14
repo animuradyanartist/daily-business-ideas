@@ -10,8 +10,10 @@ import {
   competitorCandidates,
   stripUnverifiedUrls,
   constrainReading,
+  planShapeIssues,
   LEVELS,
 } from '../lib/evidence.mjs';
+import { planIdeas, readEnrichConfig } from '../lib/enrich.mjs';
 import { extractPageSignals, robotsAllows } from '../lib/pages.mjs';
 
 test('normalizePlan bounds, de-duplicates and keeps SERP queries inside the keyword set', () => {
@@ -199,4 +201,74 @@ test('page fetcher refuses private and metadata addresses without a network call
     assert.equal(r.error, 'not a public web URL', url);
   }
   assert.equal(calls, 0);
+});
+
+// ---------- Planner keyword shape (fake Gemini; no network) ----------
+
+const draft = (buying) => ({
+  ideas: [
+    {
+      title: 'UX Research Kit',
+      slug: 'ux-research-kit',
+      problem: 'moderating interviews in a second language',
+      market: { location: 'United States', language: 'en', reason: 'buyers search in English' },
+      keywords: { problem: ['user interview tips'], solution: ['ux research templates'], buying },
+      serpQueries: ['ux research templates', 'user interview tips'],
+    },
+  ],
+});
+const fakeGemini = (...replies) => {
+  const prompts = [];
+  return {
+    prompts,
+    async generateJson(label, prompt) {
+      prompts.push({ label, prompt });
+      const r = replies.shift();
+      if (r instanceof Error) throw r;
+      return r;
+    },
+  };
+};
+const planConfig = readEnrichConfig({ SCOUT_MARKETS: 'United States:en' });
+
+test('planShapeIssues: category groups need a ≤3-word head term; long keywords are flagged per group', () => {
+  const p = { keywords: { problem: ['how do i run a user interview in english'], solution: ['ux research templates'], buying: ['ux research kit pricing', 'buy ux research tools'] } };
+  assert.deepEqual(planShapeIssues(p), [
+    { group: 'buying', issue: 'no_head_term' },
+    { group: 'problem', issue: 'too_long', keyword: 'how do i run a user interview in english', max: 6 },
+  ]);
+  assert.deepEqual(planShapeIssues({ keywords: { problem: ['user interview tips'], solution: ['ux research templates'], buying: ['ux research tools'] } }), []);
+});
+
+test('planner: a draft without a head term gets ONE repair request; only keywords change, and the draft is kept for audit', async () => {
+  const gemini = fakeGemini(draft(['ux research kit pricing', 'buy ux research tools']), {
+    ideas: [{ slug: 'ux-research-kit', keywords: { problem: ['user interview tips'], solution: ['ux research templates'], buying: ['ux research tools', 'hire ux researcher'] }, serpQueries: ['ux research tools', 'user interview tips'], market: { location: 'India', language: 'en' } }],
+  });
+  const [p] = await planIdeas({ gemini, sourceText: 'memo', sourceKind: 'memo', config: planConfig });
+  assert.deepEqual(gemini.prompts.map((x) => x.label), ['enrich-plan', 'enrich-plan-repair']);
+  assert.match(gemini.prompts[1].prompt, /buying group has no keyword of 3 words or fewer/);
+  assert.deepEqual(p.keywords.buying, ['ux research tools', 'hire ux researcher']);
+  assert.equal(p.market.location, 'United States'); // the repair cannot move the market
+  assert.equal(p.planning.repaired, true);
+  assert.deepEqual(p.planning.draftIssues, [{ group: 'buying', issue: 'no_head_term' }]);
+  assert.deepEqual(p.planning.draftKeywords.buying, ['ux research kit pricing', 'buy ux research tools']);
+  assert.deepEqual(p.planning.finalIssues, []);
+});
+
+test('planner: a good draft makes no repair request; a worse or failed repair keeps the draft and says why', async () => {
+  const ok = fakeGemini(draft(['ux research tools']));
+  const [good] = await planIdeas({ gemini: ok, sourceText: 'memo', sourceKind: 'memo', config: planConfig });
+  assert.equal(ok.prompts.length, 1);
+  assert.equal(good.planning.repairRequested, false);
+
+  const worse = fakeGemini(draft(['ux research kit pricing']), { ideas: [{ slug: 'ux-research-kit', keywords: { problem: ['user interview tips'], solution: ['the best ux research template library'], buying: ['ux research kit pricing'] } }] });
+  const [kept] = await planIdeas({ gemini: worse, sourceText: 'memo', sourceKind: 'memo', config: planConfig });
+  assert.deepEqual(kept.keywords.buying, ['ux research kit pricing']);
+  assert.equal(kept.planning.repaired, false);
+  assert.match(kept.planning.repairOutcome, /not better/);
+
+  const failed = fakeGemini(draft(['ux research kit pricing']), new Error('quota'));
+  const [draftOnly] = await planIdeas({ gemini: failed, sourceText: 'memo', sourceKind: 'memo', config: planConfig });
+  assert.match(draftOnly.planning.repairOutcome, /repair request failed: quota/);
+  assert.deepEqual(draftOnly.planning.finalIssues, [{ group: 'buying', issue: 'no_head_term' }]);
 });

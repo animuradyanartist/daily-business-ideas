@@ -31,6 +31,11 @@ import {
   COMPETITION_LEVELS,
   FEASIBILITY_LEVELS,
   normalizePlan,
+  planShapeIssues,
+  describeShapeIssues,
+  HEAD_TERM_MAX_WORDS,
+  MAX_PROBLEM_WORDS,
+  MAX_CATEGORY_WORDS,
   summarizeTrend,
   demandReading,
   commercialReading,
@@ -211,10 +216,11 @@ For each idea return:
 - whyPayerPays: one sentence — the payer's reason to spend money.
 - market: {"location": "", "language": "", "reason": ""} — the ONE country and language where the paying buyer most plausibly searches for this, chosen ONLY from: ${allowed}. If none clearly fits, use the first. Say why in one sentence.
 - keywords: phrases a real person in that market would type into Google in that language. Lowercase, no quotes.
-  Write them the way people actually search, NOT the way the idea is pitched: prefer short, common phrasing (2–4 words), and make at least one keyword in every group a 2–3 word head term. Never put the idea's product name, format words from its pitch ("swipe file", "kit", "starter pack") or stacked qualifiers ("… for non-native tech designers pricing") into a keyword unless people really search that way.
-  - problem: ${config.keywordsPerGroup} searches describing the pain or job ("how to …", "… requirements", "… penalty").
-  - solution: ${config.keywordsPerGroup} searches for the category of solution ("… template", "… software", "… course", "… service").
-  - buying: ${config.keywordsPerGroup} searches with buying intent ("… pricing", "best … for …", "… cost", "hire …").
+  Write them the way people actually search, NOT the way the idea is pitched: prefer short, common phrasing (2–4 words). Keyword databases only contain phrasings many people type, so a list of long, idea-specific phrases measures nothing. Never put the idea's product name, format words from its pitch ("swipe file", "kit", "starter pack", "script", "toolkit") or stacked qualifiers ("… for non-native tech designers pricing") into a keyword unless people really search that way. Name the broad category the buyer already searches (e.g. "ux case study", "design handoff", "microcopy"), not the idea's niche angle — the niche angle belongs in the problem group at most.
+  Word counts include every word, modifiers too ("best", "buy", "hire", "pricing", "cost", "template", "for").
+  - problem: ${config.keywordsPerGroup} searches describing the pain or job ("how to …", "… requirements", "… penalty"), at most ${MAX_PROBLEM_WORDS} words each.
+  - solution: ${config.keywordsPerGroup} searches for the category of solution ("… template", "… software", "… course", "… service"), at most ${MAX_CATEGORY_WORDS} words each; the FIRST one at most ${HEAD_TERM_MAX_WORDS} words.
+  - buying: ${config.keywordsPerGroup} searches with buying intent ("… pricing", "best … tools", "… cost", "hire …"), at most ${MAX_CATEGORY_WORDS} words each; the FIRST one at most ${HEAD_TERM_MAX_WORDS} words (e.g. "hire ux writer", "presentation template", "proposal software pricing" — not "buy design presentation script").
 - serpQueries: ${config.serpsPerIdea} queries copied exactly from the keywords above — first the category query most likely to show EXISTING PAID alternatives (a solution or buying head term), then the problem query most likely to show people describing the problem in their own words.
 
 Do not bias toward software, AI, art or digital products; use whatever the idea actually is (service, physical product, marketplace, B2B, local…).
@@ -225,14 +231,80 @@ Return JSON only: {"ideas":[{"title":"","slug":"","problem":"","targetCustomer":
 ${sourceText}`;
 }
 
+export function planRepairPrompt({ plans, issuesBySlug, config }) {
+  const listed = plans
+    .filter((p) => issuesBySlug.get(p.slug)?.length)
+    .map((p) => ({ slug: p.slug, title: p.title, problem: p.problem, market: p.market, keywords: p.keywords, serpQueries: p.serpQueries }));
+  return `You fix keyword lists in search-research plans. An automatic check found these problems:
+${listed.map((p) => `- ${p.slug}: ${describeShapeIssues(issuesBySlug.get(p.slug)).join('; ')}`).join('\n')}
+
+Rewrite ONLY the keywords and serpQueries of the plans below. Keep each plan's idea, market and language.
+- Keywords are phrases a real person types into Google, lowercase. Keyword databases only contain phrasings many people type.
+- Word counts include every word, modifiers too ("best", "buy", "hire", "pricing", "cost", "template", "for").
+- problem: ${config.keywordsPerGroup} keywords, at most ${MAX_PROBLEM_WORDS} words each.
+- solution: ${config.keywordsPerGroup} keywords, at most ${MAX_CATEGORY_WORDS} words each; the FIRST at most ${HEAD_TERM_MAX_WORDS} words — the broad category the buyer already searches.
+- buying: ${config.keywordsPerGroup} keywords, at most ${MAX_CATEGORY_WORDS} words each; the FIRST at most ${HEAD_TERM_MAX_WORDS} words (e.g. "hire ux writer", "presentation template", "proposal software pricing").
+- No product names or format words from the pitch ("kit", "swipe file", "script", "toolkit") unless people really search that way.
+- serpQueries: ${config.serpsPerIdea} queries copied exactly from the new keywords — first a solution or buying head term, then a problem query.
+Keep keywords that already satisfy these rules.
+
+Return JSON only: {"ideas":[{"slug":"","keywords":{"problem":[],"solution":[],"buying":[]},"serpQueries":[]}]}
+
+=== PLANS ===
+${JSON.stringify(listed)}`;
+}
+
+/**
+ * Keyword plans for a memo or a scan shortlist. A plan whose keyword shape fails the head-term
+ * rule gets ONE repair request (keywords only); the repaired keywords are kept only when they
+ * have fewer shape issues. Each plan records its draft issues so the effect stays auditable.
+ */
 export async function planIdeas({ gemini, sourceText, sourceKind, config }) {
   const count = sourceKind === 'memo' ? 1 : config.maxIdeas;
-  const raw = await gemini.generateJson(
-    'enrich-plan',
-    planPrompt({ sourceText: sourceText.slice(0, 14000), sourceKind, count, config }),
-    { temperature: 0.2, maxTokens: 8192, models: config.models.length ? config.models : ['gemini-2.5-flash', 'gemini-2.5-pro'] },
-  );
-  return normalizePlan(raw, { maxIdeas: count, keywordsPerGroup: config.keywordsPerGroup, serpsPerIdea: config.serpsPerIdea });
+  const models = config.models.length ? config.models : ['gemini-2.5-flash', 'gemini-2.5-pro'];
+  const bounds = { maxIdeas: count, keywordsPerGroup: config.keywordsPerGroup, serpsPerIdea: config.serpsPerIdea };
+  const raw = await gemini.generateJson('enrich-plan', planPrompt({ sourceText: sourceText.slice(0, 14000), sourceKind, count, config }), {
+    temperature: 0.2,
+    maxTokens: 8192,
+    models,
+  });
+  const plans = normalizePlan(raw, bounds);
+  const draftIssues = new Map(plans.map((p) => [p.slug, planShapeIssues(p)]));
+  const needsRepair = plans.filter((p) => draftIssues.get(p.slug).length);
+  let repairError = null;
+  const repaired = new Map();
+  if (needsRepair.length) {
+    try {
+      const fix = await gemini.generateJson('enrich-plan-repair', planRepairPrompt({ plans, issuesBySlug: draftIssues, config }), { temperature: 0.2, maxTokens: 8192, models });
+      for (const it of Array.isArray(fix?.ideas) ? fix.ideas : []) {
+        const orig = needsRepair.find((p) => p.slug === it?.slug);
+        if (!orig) continue;
+        // Re-normalize with everything but the keywords taken from the original plan.
+        const [candidate] = normalizePlan({ ideas: [{ ...orig, keywords: it.keywords, serpQueries: it.serpQueries }] }, { ...bounds, maxIdeas: 1 });
+        if (candidate) repaired.set(orig.slug, candidate);
+      }
+    } catch (err) {
+      repairError = err.message; // the drafts stand; the check reports their issues
+    }
+  }
+  return plans.map((p) => {
+    const before = draftIssues.get(p.slug);
+    const fix = repaired.get(p.slug);
+    const after = fix ? planShapeIssues(fix) : null;
+    const useFix = Boolean(fix) && after.length < before.length;
+    const final = useFix ? { ...p, keywords: fix.keywords, serpQueries: fix.serpQueries } : p;
+    return {
+      ...final,
+      planning: {
+        draftIssues: before,
+        repairRequested: before.length > 0,
+        repaired: useFix,
+        ...(before.length && !useFix ? { repairOutcome: repairError ? `repair request failed: ${repairError}` : fix ? `repair not better (${after.length} issue(s) vs ${before.length})` : 'repair returned no plan for this idea' } : {}),
+        ...(useFix ? { draftKeywords: p.keywords } : {}),
+        finalIssues: planShapeIssues(final),
+      },
+    };
+  });
 }
 
 export function newRun({ date, source, config, plans, now = new Date() }) {

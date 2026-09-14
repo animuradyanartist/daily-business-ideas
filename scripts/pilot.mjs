@@ -1,12 +1,14 @@
 // Evidence-enrichment pilot on existing Scout ideas.
 //
 //   node scripts/pilot.mjs select  --pilot <dir> [--count 10]   choose ideas (explicit queue, else source order)
+//   node scripts/pilot.mjs select  --pilot <dir> --from <dir> [--measure keywords-only]   same ideas as another pilot (planner comparison)
 //   node scripts/pilot.mjs plan    --pilot <dir>                keyword plans via Scout's Gemini config (GEMINI_API_KEY)
 //   node scripts/pilot.mjs preview --pilot <dir>                dry run: requests, cache reuse, geography, estimated cost
 //   node scripts/pilot.mjs gather  --pilot <dir> --live         paid DataForSEO requests, behind the budget gate
 //   node scripts/pilot.mjs assess  --pilot <dir> [--expect-failure]
 //   node scripts/pilot.mjs check   --pilot <dir>                verification report (plans, grounding, unknowns, memos untouched)
 //   node scripts/pilot.mjs report  --pilot <dir>                readable per-idea comparison
+//   node scripts/pilot.mjs compare --pilot <dir>                planner comparison against the pilot's baseline (keywords-only pilots)
 //
 // Never writes to ideas/ or outcomes/, and never touches the bot's favorites (manual selection).
 // Every step writes only inside the pilot directory (plus the shared evidence cache on gather).
@@ -30,7 +32,7 @@ import {
   constrainAssessment,
 } from './lib/enrich.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims, figureAfterKeyword, normText } from './lib/grounding.mjs';
-import { planShapeIssues } from './lib/evidence.mjs';
+import { planShapeIssues, HEAD_TERM_MAX_WORDS } from './lib/evidence.mjs';
 
 const [cmd, ...args] = process.argv.slice(2);
 const flag = (n) => args.includes(n);
@@ -82,7 +84,21 @@ if (cmd === 'select') {
   const outcomeFiles = existsSync('outcomes') ? readdirSync('outcomes').filter((f) => f.endsWith('.md') && f.toLowerCase() !== 'readme.md') : [];
   let files;
   let rule;
-  if (queue) {
+  const from = value('--from');
+  if (from) {
+    if (!/^evidence\/pilots\/[a-z0-9-]+$/.test(from) || from === pilotDir) {
+      console.error('--from must be another evidence/pilots/<name>');
+      process.exit(1);
+    }
+    const src = need(join(from, 'pilot.json'), `node scripts/pilot.mjs select --pilot ${from}`);
+    const changed = src.ideas.filter((i) => sha(readText(i.memo)) !== i.memoSha256).map((i) => i.id);
+    if (changed.length) {
+      console.error(`Memos changed since ${from} selected them: ${changed.join(', ')}`);
+      process.exit(1);
+    }
+    files = src.ideas.map((i) => i.memo.replace(/^ideas\//, ''));
+    rule = `The same ${files.length} ideas as ${from} (memo SHA-256s re-verified), so plans can be compared on identical inputs — not a new selection. That pilot's rule: ${src.selectionRule}`;
+  } else if (queue) {
     console.error(`An explicit pilot queue exists at ${queue}; implement reading it before selecting.`);
     process.exit(1);
   } else {
@@ -104,6 +120,8 @@ if (cmd === 'select') {
       `outcomes/: ${outcomeFiles.length} outcome file(s) (not a queue)`,
       'Telegram bot favorites (manual selection, Cloudflare KV): not read and not changed',
     ],
+    measure: value('--measure') === 'keywords-only' ? 'keywords-only' : 'full',
+    baseline: from ?? null,
     previousPilot: {
       dir: 'evidence/pilots/pilot-3-manual-plans',
       ids: previous,
@@ -132,7 +150,10 @@ function buildRun(plans) {
   const planned = pilot.ideas.filter((i) => plans.plans[i.id]);
   // Resolve markets against the allowlist the plans were made with, not whatever this shell has.
   const planConfig = { ...config, markets: plans.config?.markets?.length ? plans.config.markets : config.markets };
-  const run = newRun({ date: pilot.id, source: { kind: 'pilot', planner: plans.planner }, config: planConfig, plans: planned.map((i) => plans.plans[i.id]) });
+  // A keywords-only pilot measures search demand for its plans and buys no search result pages.
+  const keywordsOnly = pilot.measure === 'keywords-only';
+  const run = newRun({ date: pilot.id, source: { kind: 'pilot', planner: plans.planner }, config: planConfig, plans: planned.map((i) => (keywordsOnly ? { ...plans.plans[i.id], serpQueries: [] } : plans.plans[i.id])) });
+  run.measure = keywordsOnly ? 'keywords-only' : 'full';
   run.ideas.forEach((idea, k) => {
     const src = planned[k];
     idea.id = src.id; // Scout's stable idea id
@@ -248,6 +269,10 @@ if (cmd === 'pages') {
 
 // ---------- assess ----------
 if (cmd === 'assess') {
+  if (pilot.measure === 'keywords-only') {
+    console.error('This pilot measures keywords only (no search results or pages), so there is nothing to assess.');
+    process.exit(1);
+  }
   const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
   if (!process.env.GEMINI_API_KEY) {
     console.error('GEMINI_API_KEY is not set — assessment needs Scout\'s Gemini configuration.');
@@ -328,6 +353,15 @@ function reviewLines(review, { full = false } = {}) {
   return out;
 }
 
+const VOCAB_STOP = new Set(['the', 'for', 'and', 'kit', 'non', 'native', 'with', 'your', 'how', 'best', 'free', 'template', 'templates', 'guide', 'examples', 'pricing', 'cost', 'buy']);
+/** Lexical proxy for relevance: share of a plan's keywords that use a content word from the idea's memo. */
+function memoVocabulary(id, plan) {
+  const memo = readText(pilot.ideas.find((i) => i.id === id).memo).toLowerCase();
+  const kws = Object.values(plan.keywords).flat();
+  const grounded = kws.filter((k) => k.split(' ').some((w) => w.length >= 4 && !VOCAB_STOP.has(w) && memo.includes(w)));
+  return { share: grounded.length / kws.length, off: kws.filter((k) => !grounded.includes(k)) };
+}
+
 // ---------- check ----------
 if (cmd === 'check') {
   const plans = readJson(P.plans, null);
@@ -349,13 +383,7 @@ if (cmd === 'check') {
     record('Planner named a country + language from the allowed list', offList.length === 0, offList.length ? `off-list: ${offList.map(([id, p]) => `${id} → ${p.market?.location}/${p.market?.language}`).join('; ')}` : planned.map(([id, p]) => `${id}: ${p.market.location}/${p.market.language}`).join('; '));
     const groupsOk = planned.filter(([, p]) => ['problem', 'solution', 'buying'].every((g) => p.keywords[g].length > 0));
     record('Each plan has problem, solution and buying keywords', groupsOk.length === planned.length, `${groupsOk.length}/${planned.length}`);
-    const STOP = new Set(['the', 'for', 'and', 'kit', 'non', 'native', 'with', 'your', 'how', 'best', 'free', 'template', 'templates', 'guide', 'examples', 'pricing', 'cost', 'buy']);
-    const relevance = planned.map(([id, p]) => {
-      const memo = readText(pilot.ideas.find((i) => i.id === id).memo).toLowerCase();
-      const kws = Object.values(p.keywords).flat();
-      const grounded = kws.filter((k) => k.split(' ').some((w) => w.length >= 4 && !STOP.has(w) && memo.includes(w)));
-      return { id, share: grounded.length / kws.length, off: kws.filter((k) => !grounded.includes(k)) };
-    });
+    const relevance = planned.map(([id, p]) => ({ id, ...memoVocabulary(id, p) }));
     const weak = relevance.filter((r) => r.share < 0.6);
     record('Keywords use the memo\'s own vocabulary (≥60% of keywords share a content word with the memo)', weak.length === 0, relevance.map((r) => `${r.id} ${Math.round(r.share * 100)}%${r.off.length ? ` (not in memo: ${r.off.slice(0, 3).join('; ')})` : ''}`).join(' · '));
     // Problem searches are naturally questions ("how to write a design case study"), so head terms
@@ -386,7 +414,12 @@ if (cmd === 'check') {
     record('Plans exist', false, 'plans.json missing');
   }
 
-  if (run) {
+  if (run && pilot.measure === 'keywords-only') {
+    const unknownKeywords = run.ideas.flatMap((i) => i.keywords.filter((k) => k.status !== 'measured'));
+    record('Every planned keyword was collected (measured or no data)', run.ideas.every((i) => i.keywords.length && i.keywords.every((k) => k.status !== 'not_collected')), run.ideas.map((i) => `${i.id} ${i.status}`).join(' · '));
+    record('Missing keyword data is stored as unknown (null), never as 0', unknownKeywords.every((k) => k.searchVolume === null), `${unknownKeywords.length} keyword(s) without data`);
+    record('No search result pages were bought (keywords-only pilot)', run.ideas.every((i) => !i.serps.length) && !run.spend.some((l) => l.endpoint.startsWith('serp/')), `${run.spend.filter((l) => l.endpoint.startsWith('serp/')).length} SERP request(s)`);
+  } else if (run) {
     const eligible = run.ideas.filter((i) => ['enriched', 'partial'].includes(i.status));
     const assessed = eligible.filter((i) => i.assessment);
     record('Every idea with evidence has an assessment', assessed.length === eligible.length && eligible.length > 0, `${assessed.length}/${eligible.length}${run.assessmentError ? ` · ${run.assessmentError}` : ''}`);
@@ -473,6 +506,99 @@ if (cmd === 'check') {
   process.exit(results.every((r) => r.pass) ? 0 : 1);
 }
 
+// ---------- compare (planner) ----------
+if (cmd === 'compare') {
+  if (!pilot.baseline) {
+    console.error('This pilot has no baseline; create it with `select --from <pilot>`.');
+    process.exit(1);
+  }
+  const plans = need(P.plans, `node scripts/pilot.mjs plan --pilot ${pilotDir}`);
+  const run = readJson(P.run, null);
+  const base = { plans: need(join(pilot.baseline, 'plans.json'), 'baseline plans'), run: readJson(join(pilot.baseline, 'run.json'), null), v1: readJson(join(pilot.baseline, 'plans-v1.json'), null) };
+  const ids = pilot.ideas.map((i) => i.id);
+  const words = (k) => k.split(' ').length;
+  const shape = (planOf) => {
+    const rows = ids.map((id) => [id, planOf(id)]).filter(([, p]) => p);
+    const issues = rows.map(([id, p]) => [id, planShapeIssues(p)]);
+    const vocab = rows.map(([id, p]) => memoVocabulary(id, p).share);
+    return {
+      plans: rows.length,
+      noHead: issues.filter(([, xs]) => xs.some((x) => x.issue === 'no_head_term')).map(([id]) => id),
+      tooLong: issues.reduce((n, [, xs]) => n + xs.filter((x) => x.issue === 'too_long').length, 0),
+      headTerms: rows.reduce((n, [, p]) => n + [...p.keywords.solution, ...p.keywords.buying].filter((k) => words(k) <= HEAD_TERM_MAX_WORDS).length, 0),
+      vocabMin: vocab.length ? Math.min(...vocab) : null,
+    };
+  };
+  const measure = (r) => {
+    if (!r) return null;
+    const kws = r.ideas.flatMap((i) => i.keywords.map((k) => ({ ...k, idea: i.id })));
+    const measured = kws.filter((k) => k.status === 'measured');
+    const head = kws.filter((k) => ['solution', 'buying'].includes(k.group) && words(k.keyword) <= HEAD_TERM_MAX_WORDS);
+    return {
+      keywords: kws.length,
+      measured: measured.length,
+      ideasWithData: r.ideas.filter((i) => i.keywords.some((k) => k.status === 'measured')).length,
+      ideasWithCategoryData: r.ideas.filter((i) => i.keywords.some((k) => k.status === 'measured' && k.group !== 'problem')).length,
+      headTerms: head.length,
+      headMeasured: head.filter((k) => k.status === 'measured').length,
+      byIdea: Object.fromEntries(r.ideas.map((i) => {
+        const m = i.keywords.filter((k) => k.status === 'measured').sort((a, b) => b.searchVolume - a.searchVolume);
+        return [i.id, { measured: m.length, of: i.keywords.length, top: m[0] ? `${m[0].keyword} (${m[0].searchVolume}/mo)` : 'none', demand: i.readings?.demand?.level ?? 'unknown', list: i.keywords }];
+      })),
+    };
+  };
+  const draftOf = (id) => {
+    const p = plans.plans[id];
+    return p ? { ...p, keywords: p.planning?.draftKeywords ?? p.keywords } : null;
+  };
+  const versions = [
+    ...(base.v1 ? [{ label: 'v1 — first live plans (not gathered)', s: shape((id) => base.v1.plans[id]), m: null }] : []),
+    { label: `v2 — baseline plans (${base.plans.runner?.runId ? `run ${base.plans.runner.runId}` : 'baseline'}), gathered live`, s: shape((id) => base.plans.plans[id]), m: measure(base.run) },
+    { label: `v3 drafts — new prompt, before the repair request (${plans.runner?.runId ? `run ${plans.runner.runId}` : plans.runner?.kind})`, s: shape(draftOf), m: null },
+    { label: 'v3 final — after at most one repair request', s: shape((id) => plans.plans[id]), m: measure(run) },
+  ];
+  const pct = (a, b) => (b ? `${a}/${b} (${Math.round((100 * a) / b)}%)` : 'n/a');
+  const v2 = versions.find((v) => v.label.startsWith('v2')).m;
+  const v3 = versions.at(-1).m;
+  const shared = run && base.run ? run.ideas.reduce((n, i) => n + i.keywords.filter((k) => base.run.ideas.find((b) => b.id === i.id)?.keywords.some((bk) => bk.keyword === k.keyword)).length, 0) : null;
+  const kwList = (list) => ['problem', 'solution', 'buying'].map((g) => `${g}: ${list.filter((k) => k.group === g).map((k) => `${esc(k.keyword)} [${k.status === 'measured' ? k.searchVolume : '–'}]`).join(', ')}`).join('<br>');
+  const spent = run ? run.spend.filter((l) => l.status === 'charged').reduce((s, l) => s + l.costUsd, 0) : null;
+  const preview = readJson(P.preview, null);
+  const out = [
+    `# Planner comparison — ${pilot.id}`,
+    '',
+    `_Generated ${new Date().toISOString()} by \`node scripts/pilot.mjs compare\`. Same ${ids.length} ideas as \`${pilot.baseline}\`; limits unchanged (3 keywords per group, one Labs task per market, SERPs not bought in this comparison)._`,
+    '',
+    '## Keyword shape (no data needed)',
+    '| Version | Plans | Missing a head term | Over-long keywords | ≤3-word solution/buying terms | Lowest memo-vocabulary share |',
+    '|---|---|---|---|---|---|',
+    ...versions.map((v) => `| ${esc(v.label)} | ${v.s.plans} | ${v.s.noHead.length}${v.s.noHead.length ? ` (${v.s.noHead.join(', ')})` : ''} | ${v.s.tooLong} | ${v.s.headTerms} | ${v.s.vocabMin === null ? 'n/a' : `${Math.round(v.s.vocabMin * 100)}%`} |`),
+    '',
+    '## Search data coverage (DataForSEO Labs · keyword_overview, same markets)',
+    '| Version | Keywords with data | Ideas with any data | Ideas with solution/buying data | Head terms with data |',
+    '|---|---|---|---|---|',
+    ...versions.filter((v) => v.m).map((v) => `| ${esc(v.label)} | ${pct(v.m.measured, v.m.keywords)} | ${v.m.ideasWithData}/${ids.length} | ${v.m.ideasWithCategoryData}/${ids.length} | ${pct(v.m.headMeasured, v.m.headTerms)} |`),
+    ...(v3 ? [] : ['', '_v3 has not been gathered yet: run `preview`, then `gather --live`._']),
+    '',
+    `Cost of this comparison: estimated ${preview ? money(preview.projection.totalUsd) : 'n/a'} before buying; actual provider-reported ${spent === null ? 'n/a (not gathered)' : money(spent)}${shared !== null ? `; ${shared} of the v3 keywords were already measured for v2 (reused from cache, not re-bought)` : ''}.`,
+    '',
+    '## Per idea',
+    '| Idea | v2: with data · largest · demand | v3: with data · largest · demand | v3 keywords [monthly searches, – = no data] |',
+    '|---|---|---|---|',
+    ...ids.map((id) => {
+      const a = v2?.byIdea[id];
+      const b = v3?.byIdea[id];
+      const cell = (x) => (x ? `${x.measured}/${x.of} · ${esc(x.top)} · ${x.demand}` : 'n/a');
+      return `| \`${id}\` | ${cell(a)} | ${cell(b)} | ${b ? kwList(b.list) : kwList(Object.entries(plans.plans[id]?.keywords ?? {}).flatMap(([g, ks]) => ks.map((k) => ({ keyword: k, group: g, status: 'not_collected' }))))} |`;
+    }),
+    '',
+    'Reading this honestly: more keywords with data is only better if the keywords still describe the idea. Broad head terms ("ux research templates") measure the category the idea sells into, not its niche angle (non-native speakers); the per-idea keyword lists are here for that judgement.',
+  ];
+  writeFileSync(join(pilotDir, 'PLANNER-COMPARISON.md'), out.join('\n') + '\n');
+  console.log(`✓ ${join(pilotDir, 'PLANNER-COMPARISON.md')}`);
+  process.exit(0);
+}
+
 // ---------- report ----------
 if (cmd === 'report') {
   const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
@@ -549,5 +675,5 @@ if (cmd === 'report') {
   process.exit(0);
 }
 
-console.error('Usage: node scripts/pilot.mjs <select|plan|preview|gather|assess|check|report> --pilot evidence/pilots/<name>');
+console.error('Usage: node scripts/pilot.mjs <select|plan|preview|gather|pages|assess|revalidate|check|report|compare> --pilot evidence/pilots/<name>');
 process.exit(1);
