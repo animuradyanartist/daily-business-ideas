@@ -28,8 +28,11 @@ const sha = (t) => createHash('sha256').update(t).digest('hex');
 
 function psql(sql, { db = 'budget_test' } = {}) {
   return new Promise((resolve, reject) => {
-    const [cmd, ...args] = PSQL;
-    const p = spawn(cmd, [...args, '-d', db, '-X', '-q', '-t', '-A', '-v', 'ON_ERROR_STOP=1'], { stdio: ['pipe', 'pipe', 'pipe'] });
+    const [cmd, ...rest] = PSQL;
+    // A connection URI carries the database in its path (psql's -d would replace the whole URI).
+    const hasUri = rest.some((a) => /^postgres(ql)?:\/\//.test(a));
+    const args = hasUri ? rest.map((a) => (/^postgres(ql)?:\/\//.test(a) ? a.replace(/\/[^/?]*(\?|$)/, `/${db}$1`) : a)) : [...rest, '-d', db];
+    const p = spawn(cmd, [...args, '-X', '-q', '-t', '-A', '-v', 'ON_ERROR_STOP=1'], { stdio: ['pipe', 'pipe', 'pipe'] });
     let out = '';
     let err = '';
     p.stdout.on('data', (d) => (out += d));
