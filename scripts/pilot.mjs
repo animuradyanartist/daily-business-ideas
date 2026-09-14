@@ -278,6 +278,9 @@ if (cmd === 'check') {
     });
     const weak = relevance.filter((r) => r.share < 0.6);
     record('Keywords use the memo\'s own vocabulary (≥60% of keywords share a content word with the memo)', weak.length === 0, relevance.map((r) => `${r.id} ${Math.round(r.share * 100)}%${r.off.length ? ` (not in memo: ${r.off.slice(0, 3).join('; ')})` : ''}`).join(' · '));
+    const longTail = planned.flatMap(([id, p]) => Object.values(p.keywords).flat().filter((k) => k.split(' ').length > 5).map((k) => `${id}: ${k}`));
+    const noHead = planned.filter(([, p]) => ['problem', 'solution', 'buying'].some((g) => !p.keywords[g].some((k) => k.split(' ').length <= 3)));
+    record('Plans include searchable head terms (≤3 words in every group; nothing over 5 words)', longTail.length === 0 && noHead.length === 0, `${noHead.length} plan(s) missing a head term in some group${noHead.length ? ` (${noHead.map(([id]) => id).join(', ')})` : ''}; ${longTail.length} keyword(s) over 5 words${longTail.length ? `: ${longTail.slice(0, 4).join('; ')}` : ''}`);
     lines.push('Keyword relevance is a lexical proxy only — the plans are listed in PREVIEW.md for human review.', '');
   } else {
     record('Plans exist', false, 'plans.json missing');

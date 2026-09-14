@@ -205,11 +205,12 @@ For each idea return:
 - payer: who would pay (may differ from the person with the problem).
 - whyPayerPays: one sentence — the payer's reason to spend money.
 - market: {"location": "", "language": "", "reason": ""} — the ONE country and language where the paying buyer most plausibly searches for this, chosen ONLY from: ${allowed}. If none clearly fits, use the first. Say why in one sentence.
-- keywords: phrases a real person in that market would type into Google in that language. Lowercase, 2–6 words, no invented product or brand names, no quotes.
+- keywords: phrases a real person in that market would type into Google in that language. Lowercase, no quotes.
+  Write them the way people actually search, NOT the way the idea is pitched: prefer short, common phrasing (2–4 words), and make at least one keyword in every group a 2–3 word head term. Never put the idea's product name, format words from its pitch ("swipe file", "kit", "starter pack") or stacked qualifiers ("… for non-native tech designers pricing") into a keyword unless people really search that way.
   - problem: ${config.keywordsPerGroup} searches describing the pain or job ("how to …", "… requirements", "… penalty").
-  - solution: ${config.keywordsPerGroup} searches for the category of solution ("… software", "… template", "… service").
+  - solution: ${config.keywordsPerGroup} searches for the category of solution ("… template", "… software", "… course", "… service").
   - buying: ${config.keywordsPerGroup} searches with buying intent ("… pricing", "best … for …", "… cost", "hire …").
-- serpQueries: ${config.serpsPerIdea} queries copied exactly from the keywords above — first the clearest solution or buying query, then the clearest problem query.
+- serpQueries: ${config.serpsPerIdea} queries copied exactly from the keywords above — first the category query most likely to show EXISTING PAID alternatives (a solution or buying head term), then the problem query most likely to show people describing the problem in their own words.
 
 Do not bias toward software, AI, art or digital products; use whatever the idea actually is (service, physical product, marketplace, B2B, local…).
 
