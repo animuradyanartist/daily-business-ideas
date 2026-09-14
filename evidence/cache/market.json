@@ -6,6 +6,12 @@
       "supported": true,
       "locationCode": 2840,
       "keywordsInDatabase": 1258076535
+    },
+    "india|en": {
+      "fetchedAt": "2026-09-14T07:30:12.131Z",
+      "supported": true,
+      "locationCode": 2356,
+      "keywordsInDatabase": 310338711
     }
   }
 }

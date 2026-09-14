@@ -278,9 +278,24 @@ if (cmd === 'check') {
     });
     const weak = relevance.filter((r) => r.share < 0.6);
     record('Keywords use the memo\'s own vocabulary (≥60% of keywords share a content word with the memo)', weak.length === 0, relevance.map((r) => `${r.id} ${Math.round(r.share * 100)}%${r.off.length ? ` (not in memo: ${r.off.slice(0, 3).join('; ')})` : ''}`).join(' · '));
-    const longTail = planned.flatMap(([id, p]) => Object.values(p.keywords).flat().filter((k) => k.split(' ').length > 5).map((k) => `${id}: ${k}`));
-    const noHead = planned.filter(([, p]) => ['problem', 'solution', 'buying'].some((g) => !p.keywords[g].some((k) => k.split(' ').length <= 3)));
-    record('Plans include searchable head terms (≤3 words in every group; nothing over 5 words)', longTail.length === 0 && noHead.length === 0, `${noHead.length} plan(s) missing a head term in some group${noHead.length ? ` (${noHead.map(([id]) => id).join(', ')})` : ''}; ${longTail.length} keyword(s) over 5 words${longTail.length ? `: ${longTail.slice(0, 4).join('; ')}` : ''}`);
+    // Problem searches are naturally questions ("how to write a design case study"), so head terms
+    // are required only where people search by category (solution, buying).
+    const headTermCheck = (list) => {
+      const tooLong = list.flatMap(([id, p]) => [
+        ...p.keywords.problem.filter((k) => k.split(' ').length > 6),
+        ...[...p.keywords.solution, ...p.keywords.buying].filter((k) => k.split(' ').length > 5),
+      ].map((k) => `${id}: ${k}`));
+      const noHead = list.filter(([, p]) => ['solution', 'buying'].some((g) => !p.keywords[g].some((k) => k.split(' ').length <= 3)));
+      return { tooLong, noHead };
+    };
+    const hc = headTermCheck(planned);
+    const v1 = readJson(join(pilotDir, 'plans-v1.json'), null);
+    const hc1 = v1 ? headTermCheck(Object.entries(v1.plans)) : null;
+    record(
+      'Plans include searchable head terms (≤3-word term in solution and buying groups; problem ≤6 words, others ≤5)',
+      hc.tooLong.length === 0 && hc.noHead.length === 0,
+      `${hc.noHead.length} plan(s) missing a head term${hc.noHead.length ? ` (${hc.noHead.map(([id]) => id).join(', ')})` : ''}; ${hc.tooLong.length} over-long keyword(s)${hc.tooLong.length ? `: ${hc.tooLong.join('; ')}` : ''}${hc1 ? ` · first live plans (plans-v1.json, same rule): ${hc1.noHead.length} missing a head term, ${hc1.tooLong.length} over-long` : ''}`,
+    );
     lines.push('Keyword relevance is a lexical proxy only — the plans are listed in PREVIEW.md for human review.', '');
   } else {
     record('Plans exist', false, 'plans.json missing');
