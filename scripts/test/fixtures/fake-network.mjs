@@ -76,8 +76,9 @@ function assessFrom(prompt) {
         id: i.id,
         opportunity: `Opportunity for ${i.title}. Source: https://invented.example/report`,
         whoPays: 'Owners (inference).',
-        problemEvidence: { level: 'moderate', basis: s ? [s.id] : [], observed: 'A ranking thread describes the pain.', inference: 'Likely recurring.' },
-        competition: { level: 'some', basis: p ? [p.id] : [], alternatives: p ? [{ name: 'Vendor', what: 'Tracking tool', basis: [p.id] }] : [], strengths: [], gaps: [{ text: 'No mobile app', basis: [], kind: 'observed' }] },
+        // One grounded citation and one bare id — the pipeline must keep the first and reject the second.
+        problemEvidence: { level: 'moderate', basis: s ? [{ id: s.id, quote: s.url }, s.id] : [], observed: 'A ranking thread describes the pain.', inference: 'Likely recurring.' },
+        competition: { level: 'some', basis: p ? [{ id: p.id, quote: 'Vendor pricing' }] : [], alternatives: p ? [{ name: 'Vendor', what: 'Tracking tool', basis: [{ id: p.id, quote: 'Vendor pricing' }] }] : [], strengths: [], gaps: [{ text: 'No mobile app', basis: [], kind: 'observed' }] },
         feasibility: { level: 'easy', note: 'Landing page + 20 calls.' },
         unproven: ['Willingness to pay'],
         nextExperiment: { what: 'Call 20 owners', cost: '$0 + 10h', duration: '1 week' },

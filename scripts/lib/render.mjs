@@ -10,7 +10,7 @@ const day = (iso) => (iso ? String(iso).slice(0, 10) : 'n/a');
 const money = (n) => (typeof n === 'number' ? `$${n.toFixed(n < 1 ? 4 : 2)}` : 'n/a');
 // Google reports very small volumes as 0; show it as the provider's figure, not a fact of zero demand.
 const vol = (n) => (typeof n === 'number' ? (n === 0 ? '0 (as reported)' : n.toLocaleString('en-US')) : 'unknown');
-const cites = (ids) => (ids?.length ? ` (${ids.join(', ')})` : '');
+const cites = (basis) => (basis?.length ? ` (${basis.map((b) => (typeof b === 'string' ? b : b.id)).join(', ')})` : '');
 
 const STATUS_TEXT = {
   enriched: 'enriched',
@@ -39,17 +39,22 @@ function dimensionRows(idea) {
   return rows.map(([d, l, b]) => `| ${d} | ${l} | ${esc(b)} |`).join('\n');
 }
 
-function renderIdea(idea, n, run) {
+function renderIdea(idea, n, run, rootRel) {
   const out = [];
   const a = idea.assessment;
   out.push(`## ${n}. ${idea.title}`);
-  const pick =
-    idea.matchesOriginalPick === true
+  const orig = idea.original ?? null;
+  const pick = orig
+    ? `Scout's memo [${esc(orig.memo)}](${rootRel}/${orig.memo}): conviction ${orig.conviction ?? 'n/a'}${orig.score != null ? `, score ${orig.score}/100` : ', not scored'} (unchanged)`
+    : idea.matchesOriginalPick === true
       ? `Scout's original pick${run.original?.score != null ? ` (original score ${run.original.score}/100, unchanged)` : ''}`
       : idea.matchesOriginalPick === false
         ? 'shortlisted, not Scout\'s final pick'
         : null;
   out.push(`_id \`${idea.id}\` · ${STATUS_TEXT[idea.status] ?? idea.status}${pick ? ` · ${pick}` : ''}_`);
+  const im = idea.market ?? run.market;
+  const sup = run.marketSupport?.[`${im.locationName.toLowerCase()}|${im.languageCode.toLowerCase()}`] ?? (im === run.market ? run.market.support : null);
+  out.push(`\nMarket: **${esc(im.locationName)} · \`${esc(im.languageCode)}\`**${im.source === 'planner' ? ` — chosen by the planner${im.reason ? `: ${esc(im.reason)}` : ''}` : im.source === 'default' ? ` — default market (${esc(im.reason)})` : ''}. DataForSEO Labs support: ${sup?.supported === true ? 'yes' : sup?.supported === false ? `no — ${esc(sup.reason)}` : 'not checked'}.`);
   if (idea.reason) out.push(`\n> ${esc(idea.reason)}`);
 
   out.push('\n### What is the opportunity?');
@@ -69,7 +74,7 @@ function renderIdea(idea, n, run) {
   const kws = idea.keywords ?? [];
   if (kws.some((k) => k.status !== 'not_collected')) {
     const k0 = kws.find((k) => k.retrievedAt);
-    out.push(`\n**Search observations** — DataForSEO, ${esc(run.market.locationName)} · ${esc(run.market.languageCode)}, retrieved ${day(k0?.retrievedAt)}. Each row is a separate keyword; rows overlap and are not added up.`);
+    out.push(`\n**Search observations** — DataForSEO, ${esc(k0?.location ?? im.locationName)} · ${esc(k0?.language ?? im.languageCode)}, retrieved ${day(k0?.retrievedAt)}. Each row is a separate keyword; rows overlap and are not added up.`);
     out.push('| ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |\n|---|---|---|---|---|---|---|---|');
     for (const k of kws) {
       if (k.status === 'not_collected') {
@@ -118,6 +123,11 @@ function renderIdea(idea, n, run) {
   if (failedPages.length) out.push(`\nNot read: ${failedPages.map((p) => `${p.url} (${p.error})`).join('; ')}.`);
   if (!a?.competition && !idea.serps?.length) out.push('Unknown — no search results collected yet.');
 
+  if (a?.changes?.length) {
+    out.push('\n### What changed versus Scout\'s original memo?');
+    for (const c of a.changes) out.push(`- **${c.effect}** — original: "${esc(c.original)}" → ${esc(c.finding)}${cites(c.basis)}`);
+  }
+
   out.push('\n### What remains unproven?');
   const unproven = [...(a?.unproven ?? [])];
   if (idea.readings?.demand?.level === 'unknown') unproven.push('Search demand: not measured.');
@@ -134,11 +144,22 @@ function renderIdea(idea, n, run) {
   out.push('\n### What result would justify continuing or stopping?');
   out.push(`- Continue if: ${a?.continueIf || 'not assessed yet'}`);
   out.push(`- Stop if: ${a?.stopIf || 'not assessed yet'}`);
-  if (a?.removedLinks) out.push(`\n_${a.removedLinks} link(s) not present in the evidence were removed from the assessment._`);
+  const v = a?.validation;
+  if (v) {
+    const notes = [];
+    if (v.rejectedCitations?.length) notes.push(`${v.rejectedCitations.length} citation(s) rejected (no verbatim quote from the cited item)`);
+    if (v.downgraded?.length) notes.push(`downgraded: ${v.downgraded.map(esc).join('; ')}`);
+    if (v.dropped?.length) notes.push(`dropped: ${v.dropped.map(esc).join('; ')}`);
+    if (v.scrubbedSentences) notes.push(`${v.scrubbedSentences} sentence(s) about unmeasured search demand removed`);
+    if (v.removedLinks) notes.push(`${v.removedLinks} link(s) not in the evidence removed`);
+    if (notes.length) out.push(`\n_Evidence checks on the assessment: ${notes.join(' · ')}._`);
+  } else if (a?.removedLinks) {
+    out.push(`\n_${a.removedLinks} link(s) not present in the evidence were removed from the assessment._`);
+  }
   return out.join('\n');
 }
 
-export function renderEvidenceMarkdown(run) {
+export function renderEvidenceMarkdown(run, { rootRel = '..' } = {}) {
   const out = [];
   out.push(`# Evidence enrichment — ${run.date}`);
   out.push('');
@@ -147,10 +168,10 @@ export function renderEvidenceMarkdown(run) {
   );
   out.push('');
   const support = run.market?.support;
-  out.push(`- Market: ${run.market.locationName} · language \`${run.market.languageCode}\` — DataForSEO Labs support: ${support?.supported === true ? `yes (checked ${day(support.checkedAt)})` : support?.supported === false ? `no — ${support.reason}` : 'not checked'}`);
+  out.push(`- Default market: ${run.market.locationName} · language \`${run.market.languageCode}\` — DataForSEO Labs support: ${support?.supported === true ? `yes (checked ${day(support.checkedAt)})` : support?.supported === false ? `no — ${support.reason}` : 'not checked'}${run.projection?.markets?.length > 1 ? ` · markets used: ${run.projection.markets.map((m) => `${m.location}/${m.language} (${m.ideas})`).join(', ')}` : ''}`);
   out.push(`- Provider status: ${run.provider?.status ?? 'not run'}${run.provider?.reason ? ` — ${run.provider.reason}` : ''}`);
   if (run.source?.planner === 'manual') out.push('- Keyword plan: written by hand for this run (not generated by Scout\'s planner)');
-  if (run.original) out.push(`- Scout's original memo: [${esc(run.original.title)}](../${run.original.memo}) — ${run.original.score ?? 'n/a'}/100 ${run.original.conviction ?? ''} (unchanged)`);
+  if (run.original) out.push(`- Scout's original memo: [${esc(run.original.title)}](${rootRel}/${run.original.memo}) — ${run.original.score ?? 'n/a'}/100 ${run.original.conviction ?? ''} (unchanged)`);
   const b = run.budget ?? {};
   if (b.capUsd !== undefined) {
     const lines = run.spend ?? [];
@@ -170,7 +191,7 @@ export function renderEvidenceMarkdown(run) {
 
   run.ideas.forEach((idea, i) => {
     out.push('\n---\n');
-    out.push(renderIdea(idea, i + 1, run));
+    out.push(renderIdea(idea, i + 1, run, rootRel));
   });
   return out.join('\n') + '\n';
 }

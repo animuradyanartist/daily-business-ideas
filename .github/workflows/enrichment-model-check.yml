@@ -1,0 +1,87 @@
+name: Enrichment model check (manual)
+
+# Runs Scout's evidence-enrichment MODEL steps with Scout's own Gemini configuration.
+# Manually triggered only; no schedule. It reads evidence already committed on the branch,
+# makes no DataForSEO request (no DataForSEO or budget secrets are passed), commits nothing,
+# sends no notification, and uploads its outputs as a workflow artifact for review.
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'plan = keyword plans for the pilot; assess = forced-failure check, then assessment + checks'
+        required: true
+        type: choice
+        options: [plan, assess]
+      pilot:
+        description: 'Pilot directory'
+        required: true
+        default: evidence/pilots/pilot-10-source-order
+
+permissions:
+  contents: read
+
+concurrency:
+  group: enrichment-model-check
+  cancel-in-progress: false
+
+jobs:
+  model-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PILOT: ${{ inputs.pilot }}
+      SCOUT_DFS_MODE: dry-run
+      SCOUT_MARKETS: 'United States:en; India:en; Germany:de'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate pilot path
+        run: |
+          case "$PILOT" in
+            evidence/pilots/*) ;;
+            *) echo "::error::pilot must be under evidence/pilots/"; exit 1 ;;
+          esac
+
+      - name: Plan keywords (Scout's Gemini configuration)
+        if: inputs.task == 'plan'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/pilot.mjs plan --pilot "$PILOT"
+
+      - name: Assess — forced model failure first (evidence must survive, nothing assessed)
+        if: inputs.task == 'assess'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SCOUT_ENRICH_MODELS: gemini-model-that-does-not-exist
+        run: node scripts/pilot.mjs assess --pilot "$PILOT" --expect-failure
+
+      - name: Assess — Scout's real models, resuming from the saved evidence
+        if: inputs.task == 'assess'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/pilot.mjs assess --pilot "$PILOT"
+
+      - name: Checks and report
+        if: inputs.task == 'assess'
+        run: |
+          node scripts/pilot.mjs report --pilot "$PILOT"
+          node scripts/pilot.mjs check --pilot "$PILOT"
+
+      - name: Upload outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-check-${{ inputs.task }}-${{ github.run_id }}
+          path: |
+            ${{ inputs.pilot }}/plans.json
+            ${{ inputs.pilot }}/run.json
+            ${{ inputs.pilot }}/evidence.md
+            ${{ inputs.pilot }}/failure-check.json
+            ${{ inputs.pilot }}/MODEL-CHECK.md
+            ${{ inputs.pilot }}/REPORT.md
+          if-no-files-found: warn
+          retention-days: 14

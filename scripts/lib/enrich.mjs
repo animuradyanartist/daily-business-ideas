@@ -38,9 +38,9 @@ import {
   competitorCandidates,
   classifyDomain,
   stripUnverifiedUrls,
-  constrainReading,
 } from './evidence.mjs';
 import { renderEvidenceMarkdown } from './render.mjs';
+import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMatchesEvidence, scrubDemandClaims, normText, ABSENCE } from './grounding.mjs';
 
 export const EVIDENCE_DIR = 'evidence';
 export const SCHEMA_VERSION = 1;
@@ -51,16 +51,50 @@ const clampInt = (v, d, min, max) => {
   return Number.isFinite(n) ? Math.min(max, Math.max(min, n)) : d;
 };
 
+/** "United States:en; India:en" → [{ locationName, languageCode }]. */
+export function parseMarkets(raw, fallback) {
+  const list = String(raw ?? '')
+    .split(';')
+    .map((m) => m.trim())
+    .filter(Boolean)
+    .map((m) => {
+      const i = m.lastIndexOf(':');
+      return i > 0 ? { locationName: m.slice(0, i).trim(), languageCode: m.slice(i + 1).trim().toLowerCase() } : null;
+    })
+    .filter((m) => m && m.locationName && /^[a-z]{2}(-[a-z]{2})?$/.test(m.languageCode));
+  return list.length ? list : [fallback];
+}
+
+const sameMarket = (a, b) => a && b && a.locationName.toLowerCase() === b.locationName.toLowerCase() && a.languageCode.toLowerCase() === b.languageCode.toLowerCase();
+
+/** The planner proposes where the buyer searches; only markets on the configured allowlist are used. */
+export function resolveIdeaMarket(proposed, config) {
+  const allowed = config.markets ?? [config.market];
+  const p = proposed && typeof proposed === 'object'
+    ? { locationName: String(proposed.locationName ?? proposed.location ?? '').trim(), languageCode: String(proposed.languageCode ?? proposed.language ?? '').trim().toLowerCase() }
+    : null;
+  const match = p && allowed.find((m) => sameMarket(m, p));
+  if (match) return { ...match, source: 'planner', reason: typeof proposed.reason === 'string' ? proposed.reason.slice(0, 300) : null };
+  return {
+    ...allowed[0],
+    source: 'default',
+    reason: p?.locationName ? `planner proposed ${p.locationName}/${p.languageCode || '?'}, which is not on the allowed market list` : 'planner did not name a market',
+  };
+}
+
 export function readEnrichConfig(env = process.env) {
   const rawMode = (env.SCOUT_DFS_MODE ?? '').trim();
+  const defaultMarket = {
+    locationName: (env.SCOUT_MARKET_LOCATION ?? '').trim() || 'United States',
+    languageCode: (env.SCOUT_MARKET_LANGUAGE ?? '').trim() || 'en',
+  };
   return {
     // Paid requests happen ONLY when this is explicitly "live".
     mode: rawMode === 'live' ? 'live' : 'dry-run',
     modeWarning: rawMode && rawMode !== 'live' && rawMode !== 'dry-run' ? `Unknown SCOUT_DFS_MODE "${rawMode}" — treated as dry-run.` : null,
-    market: {
-      locationName: (env.SCOUT_MARKET_LOCATION ?? '').trim() || 'United States',
-      languageCode: (env.SCOUT_MARKET_LANGUAGE ?? '').trim() || 'en',
-    },
+    market: defaultMarket,
+    // Markets a plan may target (first = default). Each distinct market costs its own Labs task.
+    markets: parseMarkets(env.SCOUT_MARKETS, defaultMarket),
     maxIdeas: clampInt(env.SCOUT_ENRICH_MAX_IDEAS, 3, 0, 5),
     keywordsPerGroup: clampInt(env.SCOUT_ENRICH_KEYWORDS_PER_GROUP, 3, 1, 5),
     serpsPerIdea: clampInt(env.SCOUT_ENRICH_SERPS_PER_IDEA, 2, 0, 3),
@@ -141,16 +175,20 @@ export function recomputeReadings(run) {
 }
 
 export function saveRun(run, root = '.') {
+  saveRunAt(run, evidencePaths(run.date, root));
+}
+
+/** Save to explicit paths (pilots); `rootRel` is the relative path from the markdown file to the repo root. */
+export function saveRunAt(run, { json, md, rootRel = '..' }) {
   recomputeReadings(run);
-  const p = evidencePaths(run.date, root);
-  writeJsonAtomic(p.json, run);
-  writeFileSync(p.md, renderEvidenceMarkdown(run));
+  writeJsonAtomic(json, run);
+  writeFileSync(md, renderEvidenceMarkdown(run, { rootRel }));
 }
 
 // ---------- Plan ----------
 
 export function planPrompt({ sourceText, sourceKind, count, config }) {
-  const { locationName, languageCode } = config.market;
+  const allowed = (config.markets ?? [config.market]).map((m) => `${m.locationName} (language "${m.languageCode}")`).join('; ');
   const what =
     sourceKind === 'memo'
       ? 'The text below is ONE finished Scout idea memo. Produce exactly 1 idea: the memo\'s idea.'
@@ -166,7 +204,8 @@ For each idea return:
 - targetCustomer: who has the problem, concretely.
 - payer: who would pay (may differ from the person with the problem).
 - whyPayerPays: one sentence — the payer's reason to spend money.
-- keywords: phrases a real person in ${locationName} would type into Google in language "${languageCode}". Lowercase, 2–6 words, no invented product or brand names, no quotes.
+- market: {"location": "", "language": "", "reason": ""} — the ONE country and language where the paying buyer most plausibly searches for this, chosen ONLY from: ${allowed}. If none clearly fits, use the first. Say why in one sentence.
+- keywords: phrases a real person in that market would type into Google in that language. Lowercase, 2–6 words, no invented product or brand names, no quotes.
   - problem: ${config.keywordsPerGroup} searches describing the pain or job ("how to …", "… requirements", "… penalty").
   - solution: ${config.keywordsPerGroup} searches for the category of solution ("… software", "… template", "… service").
   - buying: ${config.keywordsPerGroup} searches with buying intent ("… pricing", "best … for …", "… cost", "hire …").
@@ -174,7 +213,7 @@ For each idea return:
 
 Do not bias toward software, AI, art or digital products; use whatever the idea actually is (service, physical product, marketplace, B2B, local…).
 
-Return JSON only: {"ideas":[{"title":"","slug":"","problem":"","targetCustomer":"","payer":"","whyPayerPays":"","keywords":{"problem":[],"solution":[],"buying":[]},"serpQueries":[]}]}
+Return JSON only: {"ideas":[{"title":"","slug":"","problem":"","targetCustomer":"","payer":"","whyPayerPays":"","market":{"location":"","language":"","reason":""},"keywords":{"problem":[],"solution":[],"buying":[]},"serpQueries":[]}]}
 
 === SOURCE ===
 ${sourceText}`;
@@ -205,6 +244,7 @@ export function newRun({ date, source, config, plans, now = new Date() }) {
       id: `${date}:${p.slug}`,
       slug: p.slug,
       title: p.title,
+      market: resolveIdeaMarket(p.market, config),
       plan: p,
       status: 'planned',
       attempts: 0,
@@ -318,23 +358,30 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     }
   }
 
-  // Free support check (also runs in dry-run when credentials exist).
-  const marketKey = cacheKeys.market(market);
-  let support = deps.cache.get('market', marketKey);
-  if (!support && deps.dfs.configured) {
-    try {
-      const s = await deps.dfs.labsMarketSupport(market);
-      deps.cache.set('market', marketKey, s);
-      support = deps.cache.get('market', marketKey);
-    } catch (err) {
-      if (err instanceof ProviderError && err.fatalForRun) handleErr(err, 'market support check');
-      else warnings.push(`market support check: ${err?.message ?? 'failed'}`);
+  // Free support check per distinct market (also runs in dry-run when credentials exist).
+  const marketOf = (idea) => (idea.market?.locationName ? idea.market : market);
+  const supportFor = new Map();
+  for (const m of [market, ...todo.map(marketOf)]) {
+    const key = cacheKeys.market(m);
+    if (supportFor.has(key)) continue;
+    let support = deps.cache.get('market', key);
+    if (!support && deps.dfs.configured) {
+      try {
+        const s = await deps.dfs.labsMarketSupport(m);
+        deps.cache.set('market', key, s);
+        support = deps.cache.get('market', key);
+      } catch (err) {
+        if (err instanceof ProviderError && err.fatalForRun) handleErr(err, 'market support check');
+        else warnings.push(`market support check (${m.locationName}): ${err?.message ?? 'failed'}`);
+      }
     }
+    supportFor.set(key, support
+      ? { supported: support.supported, reason: support.reason ?? null, locationCode: support.locationCode ?? null, checkedAt: support.fetchedAt }
+      : { supported: null, reason: 'not checked', checkedAt: null });
   }
-  run.market.support = support
-    ? { supported: support.supported, reason: support.reason ?? null, locationCode: support.locationCode ?? null, checkedAt: support.fetchedAt }
-    : { supported: null, reason: 'not checked', checkedAt: null };
-  if (support && support.supported === false) setBlock('unavailable', `Market not supported by DataForSEO Labs: ${support.reason}.`);
+  run.market.support = supportFor.get(cacheKeys.market(market));
+  run.marketSupport = Object.fromEntries(supportFor);
+  const unsupported = (idea) => supportFor.get(cacheKeys.market(marketOf(idea)))?.supported === false;
 
   const skips = new Map(); // idea id → reasons
 
@@ -355,7 +402,7 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     }
   }
 
-  async function paid({ endpoint, cacheKey, projected, requested, exec }) {
+  async function paid({ endpoint, cacheKey, projected, requested, exec, market: mkt = market }) {
     if (block) return { skipped: block.reason };
     const requestKey = createHash('sha256').update(cacheKey).digest('hex').slice(0, 24);
     const doubt = deps.cache.get('uncertain', requestKey);
@@ -396,8 +443,8 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     const settlePayload = (extra) => ({
       endpoint,
       requested,
-      location: market.locationName,
-      language: market.languageCode,
+      location: mkt.locationName,
+      language: mkt.languageCode,
       source: 'scout',
       runId: attemptId,
       ...extra,
@@ -440,62 +487,84 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     return { res };
   }
 
-  // 1) Keywords — one Labs task for every uncached keyword across the shortlist.
-  const kwKey = (k) => cacheKeys.keyword(market, k);
+  // 1) Keywords — one Labs task per market for every uncached keyword across the shortlist.
+  const kwKey = (m, k) => cacheKeys.keyword(m, k);
+  const adsKey = (m, k) => cacheKeys.ads(m, k);
   const planned = (idea) => KEYWORD_GROUPS.flatMap((g) => idea.plan.keywords[g].map((keyword) => ({ keyword, group: g })));
-  const needed = [...new Set(todo.flatMap((i) => planned(i).map((r) => r.keyword)).filter((k) => !deps.cache.get('keywords', kwKey(k))))];
-  const serpNeeded = todo.flatMap((i) => i.plan.serpQueries).filter((q) => !deps.cache.get('serp', cacheKeys.serp(market, q, config.serpDepth)));
+  const buyable = todo.filter((i) => {
+    if (!unsupported(i)) return true;
+    skips.set(i.id, [...(skips.get(i.id) ?? []), `market ${marketOf(i).locationName}/${marketOf(i).languageCode} is not supported by DataForSEO Labs`]);
+    return false;
+  });
+  const groups = new Map(); // market key → { market, ideas, needed }
+  for (const idea of buyable) {
+    const m = marketOf(idea);
+    const g = groups.get(cacheKeys.market(m)) ?? { market: m, ideas: [], needed: [] };
+    g.ideas.push(idea);
+    for (const r of planned(idea)) if (!deps.cache.get('keywords', kwKey(m, r.keyword)) && !g.needed.includes(r.keyword)) g.needed.push(r.keyword);
+    groups.set(cacheKeys.market(m), g);
+  }
+  const serpNeeded = buyable.flatMap((i) => i.plan.serpQueries.map((q) => [marketOf(i), q])).filter(([m, q]) => !deps.cache.get('serp', cacheKeys.serp(m, q, config.serpDepth)));
+  const labsNeeded = [...groups.values()].filter((g) => g.needed.length);
+  const plannedKeywordCount = buyable.reduce((n, i) => n + planned(i).length, 0);
   run.projection = {
-    labsKeywords: needed.length,
-    labsUsd: projectLabsCost(needed.length),
+    labsTasks: labsNeeded.length,
+    labsKeywords: labsNeeded.reduce((n, g) => n + g.needed.length, 0),
+    keywordsFromCache: plannedKeywordCount - labsNeeded.reduce((n, g) => n + g.needed.length, 0),
+    labsUsd: round4(labsNeeded.reduce((n, g) => n + projectLabsCost(g.needed.length), 0)),
     serpQueries: serpNeeded.length,
+    serpsFromCache: buyable.reduce((n, i) => n + i.plan.serpQueries.length, 0) - serpNeeded.length,
     serpUsd: round4(serpNeeded.length * projectSerpCost(config.serpDepth)),
+    markets: [...groups.values()].map((g) => ({ location: g.market.locationName, language: g.market.languageCode, ideas: g.ideas.length, keywordsToBuy: g.needed.length })),
   };
   run.projection.totalUsd = round4(run.projection.labsUsd + run.projection.serpUsd);
+  run.projection.reservedUsd = round4(run.projection.totalUsd * RESERVE_MARGIN);
 
-  if (needed.length) {
-    const endpoint = 'dataforseo_labs/google/keyword_overview/live';
+  for (const g of labsNeeded) {
     const out = await paid({
-      endpoint,
-      cacheKey: `labs|${needed.join(',')}`,
-      projected: projectLabsCost(needed.length),
-      requested: needed.length,
+      endpoint: 'dataforseo_labs/google/keyword_overview/live',
+      cacheKey: `labs|${cacheKeys.market(g.market)}|${g.needed.join(',')}`,
+      projected: projectLabsCost(g.needed.length),
+      requested: g.needed.length,
+      market: g.market,
       exec: async () => {
-        const r = await deps.dfs.keywordOverview(needed, market);
+        const r = await deps.dfs.keywordOverview(g.needed, g.market);
         return { ...r, measured: r.items.filter((i) => i.searchVolume !== null).length };
       },
     });
     if (out.res) {
       const byKw = new Map(out.res.items.map((i) => [i.keyword, i]));
-      for (const k of needed) {
+      for (const k of g.needed) {
         const it = byKw.get(k);
-        deps.cache.set('keywords', kwKey(k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
+        deps.cache.set('keywords', kwKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
       }
       deps.cache.save(); // paid data is persisted before anything else can fail
     } else {
-      for (const i of todo) skips.set(i.id, [...(skips.get(i.id) ?? []), `keywords not collected — ${out.skipped ?? out.error}`]);
+      for (const i of g.ideas) skips.set(i.id, [...(skips.get(i.id) ?? []), `keywords not collected — ${out.skipped ?? out.error}`]);
     }
   }
 
-  // 1b) Optional Google Ads fallback — ONE task for every keyword Labs had no figure for.
-  const adsKey = (k) => cacheKeys.ads(market, k);
-  const labsMissed = (k) => {
-    const c = deps.cache.get('keywords', kwKey(k));
+  // 1b) Optional Google Ads fallback — ONE task per market for every keyword Labs had no figure for.
+  const labsMissed = (m, k) => {
+    const c = deps.cache.get('keywords', kwKey(m, k));
     return c && (!c.returned || c.data?.searchVolume === null);
   };
   if (config.adsFallback) {
-    const adsNeeded = [...new Set(todo.flatMap((i) => planned(i).map((r) => r.keyword)))].filter((k) => labsMissed(k) && !deps.cache.get('ads', adsKey(k)));
-    run.projection.adsKeywords = adsNeeded.length;
-    run.projection.adsUsd = projectAdsCost(adsNeeded.length);
-    run.projection.totalUsd = round4(run.projection.totalUsd + run.projection.adsUsd);
-    if (adsNeeded.length) {
+    let adsKeywords = 0;
+    let adsUsd = 0;
+    for (const g of groups.values()) {
+      const adsNeeded = [...new Set(g.ideas.flatMap((i) => planned(i).map((r) => r.keyword)))].filter((k) => labsMissed(g.market, k) && !deps.cache.get('ads', adsKey(g.market, k)));
+      adsKeywords += adsNeeded.length;
+      adsUsd += projectAdsCost(adsNeeded.length);
+      if (!adsNeeded.length) continue;
       const out = await paid({
         endpoint: 'keywords_data/google_ads/search_volume/live',
-        cacheKey: `ads|${adsNeeded.join(',')}`,
+        cacheKey: `ads|${cacheKeys.market(g.market)}|${adsNeeded.join(',')}`,
         projected: projectAdsCost(adsNeeded.length),
         requested: adsNeeded.length,
+        market: g.market,
         exec: async () => {
-          const r = await deps.dfs.adsSearchVolume(adsNeeded, market);
+          const r = await deps.dfs.adsSearchVolume(adsNeeded, g.market);
           return { ...r, measured: r.items.filter((i) => i.searchVolume !== null).length };
         },
       });
@@ -503,29 +572,33 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
         const byKw = new Map(out.res.items.map((i) => [i.keyword, i]));
         for (const k of adsNeeded) {
           const it = byKw.get(k);
-          deps.cache.set('ads', adsKey(k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
+          deps.cache.set('ads', adsKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
         }
         deps.cache.save();
       } else {
-        for (const i of todo) skips.set(i.id, [...(skips.get(i.id) ?? []), `Google Ads fallback not collected — ${out.skipped ?? out.error}`]);
+        for (const i of g.ideas) skips.set(i.id, [...(skips.get(i.id) ?? []), `Google Ads fallback not collected — ${out.skipped ?? out.error}`]);
       }
     }
+    run.projection.adsKeywords = adsKeywords;
+    run.projection.adsUsd = round4(adsUsd);
+    run.projection.totalUsd = round4(run.projection.totalUsd + run.projection.adsUsd);
   }
 
   for (const idea of todo) {
+    const m = marketOf(idea);
     idea.keywords = planned(idea).map((r, idx) => {
       const id = `K${idx + 1}`;
       const base = { id, keyword: r.keyword, group: r.group };
-      const labs = deps.cache.get('keywords', kwKey(r.keyword));
-      const ads = deps.cache.get('ads', adsKey(r.keyword));
+      const labs = deps.cache.get('keywords', kwKey(m, r.keyword));
+      const ads = deps.cache.get('ads', adsKey(m, r.keyword));
       const labsHasFigure = labs?.returned && labs.data.searchVolume !== null;
       const adsHasFigure = ads?.returned && ads.data.searchVolume !== null;
       const c = labsHasFigure ? labs : adsHasFigure ? ads : labs;
       if (!c) return { ...base, status: 'not_collected', searchVolume: null };
       const provenance = {
         provider: c === ads ? 'DataForSEO Google Ads · search_volume' : 'DataForSEO Labs · keyword_overview',
-        location: market.locationName,
-        language: market.languageCode,
+        location: m.locationName,
+        language: m.languageCode,
         retrievedAt: c.fetchedAt,
         adsChecked: Boolean(ads),
       };
@@ -550,17 +623,19 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   // 2) SERPs — who actually shows up for the idea's queries.
   for (const idea of todo) {
     const serps = [];
+    const m = marketOf(idea);
     for (const [qi, query] of idea.plan.serpQueries.entries()) {
-      const key = cacheKeys.serp(market, query, config.serpDepth);
+      const key = cacheKeys.serp(m, query, config.serpDepth);
       let c = deps.cache.get('serp', key);
-      if (!c) {
+      if (!c && !unsupported(idea)) {
         const out = await paid({
           endpoint: 'serp/google/organic/live/regular',
           cacheKey: key,
           projected: projectSerpCost(config.serpDepth),
           requested: 1,
+          market: m,
           exec: async () => {
-            const r = await deps.dfs.serpOrganic(query, { ...market, depth: config.serpDepth });
+            const r = await deps.dfs.serpOrganic(query, { ...m, depth: config.serpDepth });
             return { ...r, measured: r.items.length };
           },
         });
@@ -578,8 +653,8 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
           id: sid,
           query,
           provider: 'DataForSEO SERP · google organic live',
-          location: market.locationName,
-          language: market.languageCode,
+          location: m.locationName,
+          language: m.languageCode,
           retrievedAt: c.fetchedAt,
           checkUrl: c.data.checkUrl,
           items: c.data.items.map((it) => ({ ...it, id: `${sid}.${it.rank}`, class: classifyDomain(it.domain) })),
@@ -663,24 +738,27 @@ export function assessPrompt(bundle) {
   return `You write evidence-bound assessments of business opportunities for a solo founder. You are NOT deciding what to build; you describe what the evidence shows and what the cheapest next test is.
 
 Hard rules:
-- Use ONLY the evidence in the JSON below. Each evidence item has an id (K = keyword measurement, S = search result, P = fetched page). Cite ids in "basis" arrays.
-- Separate observation from inference. "observed" = directly stated by a cited item. Anything else is "inference".
-- Search volume is searches, not customers. CPC is an advertiser bid, not willingness to pay. Google Ads competition is not SEO difficulty. Never add keyword volumes together into a market size. Missing data is unknown, not zero.
+- Use ONLY the evidence in the JSON below. Evidence ids: K = keyword measurement, S = search result, P = fetched page.
+- EVERY citation is an object {"id": "S1.3", "quote": "..."} where quote is words copied EXACTLY (verbatim, 3+ words) from that item's title, snippet, description or price text. A citation whose quote is not found in the cited item is discarded, and a level resting only on discarded citations becomes "unknown". A valid id without a matching quote proves nothing.
+- Problem evidence must come from search results or pages where people or publishers describe the problem — a keyword row (K) is search demand, not problem evidence.
+- Separate observation from inference. "observed" = directly shown by a quoted item. A claim that something is ABSENT (a competitor lacks X, nobody offers Y) is always "inference".
+- Search volume is searches, not customers. CPC is an advertiser bid, not willingness to pay. Google Ads competition is not SEO difficulty. Never add keyword volumes together. A keyword with searchVolume null has NO data: do not give it a figure and do not call it zero or low demand.
 - Low search volume alone is not a reason to stop: B2B, regulated and emerging problems often have little search.
 - No numeric confidence scores or probabilities. Use only the allowed level words.
 - Do not include any URL that is not in the evidence.
-- "scoutContext" and "plan" are Scout's own earlier reasoning — unverified. You may use them to describe the idea, never as evidence.
+- "original" is Scout's own earlier memo for the idea — unverified reasoning. Use it to describe the idea and to state what changed; never as evidence.
 
 For each idea return:
 {
  "id": "<idea id>",
  "opportunity": "2 sentences: what the opportunity is.",
  "whoPays": "who pays and why, 1-2 sentences, marked as inference unless an item shows it",
- "problemEvidence": {"level": "unknown|weak|moderate|strong", "basis": ["S1.3"], "observed": "what cited items show about people having this problem", "inference": "what you infer, clearly"},
- "competition": {"level": "unknown|sparse|some|crowded", "basis": ["S1.1","P2"],
-   "alternatives": [{"name": "", "what": "what they offer, from the page", "basis": ["P1"]}],
-   "strengths": [{"text": "", "basis": ["P1"], "kind": "observed|inference"}],
+ "problemEvidence": {"level": "unknown|weak|moderate|strong", "basis": [{"id": "S1.3", "quote": "exact words"}], "observed": "what the quoted items show", "inference": "what you infer, clearly"},
+ "competition": {"level": "unknown|sparse|some|crowded", "basis": [{"id": "P1", "quote": "exact words"}],
+   "alternatives": [{"name": "", "what": "what they offer, from the page", "basis": [{"id": "P1", "quote": "exact words"}]}],
+   "strengths": [{"text": "", "basis": [{"id": "P1", "quote": "exact words"}], "kind": "observed|inference"}],
    "gaps": [{"text": "", "basis": [], "kind": "observed|inference"}]},
+ "changes": [{"original": "a short phrase copied EXACTLY from the original memo", "finding": "what the new evidence shows about it", "basis": [{"id": "K2", "quote": "exact words"}], "effect": "supports|weakens|contradicts|untested"}],
  "feasibility": {"level": "unknown|hard|moderate|easy", "note": "how feasible a SMALL first experiment is (not the full product)"},
  "unproven": ["the most important things the evidence does NOT establish"],
  "nextExperiment": {"what": "the cheapest useful test, concrete", "cost": "rough cash + time", "duration": ""},
@@ -694,12 +772,13 @@ Return JSON only: {"ideas":[ ... ]}
 ${JSON.stringify(bundle)}`;
 }
 
-function evidenceBundle(idea, scoutContext) {
+function evidenceBundle(idea, original) {
   return {
     id: idea.id,
     title: idea.title,
+    market: idea.market ? { location: idea.market.locationName, language: idea.market.languageCode } : undefined,
     plan: { problem: idea.plan.problem, targetCustomer: idea.plan.targetCustomer, payer: idea.plan.payer, whyPayerPays: idea.plan.whyPayerPays },
-    scoutContext,
+    original,
     readings: idea.readings,
     keywords: idea.keywords
       .filter((k) => k.status !== 'not_collected')
@@ -715,10 +794,7 @@ function evidenceBundle(idea, scoutContext) {
 }
 
 export function ideaEvidenceIds(idea) {
-  const ids = new Set(idea.keywords.filter((k) => k.status !== 'not_collected').map((k) => k.id));
-  for (const s of idea.serps) for (const i of s.items) ids.add(i.id);
-  for (const p of idea.pages) if (!p.error) ids.add(p.id);
-  return ids;
+  return new Set(evidenceIndex(idea).keys());
 }
 
 export function ideaEvidenceUrls(idea) {
@@ -734,78 +810,138 @@ export function ideaEvidenceUrls(idea) {
   return urls;
 }
 
-/** Validate one model assessment against the idea's evidence. Pure. */
-export function constrainAssessment(a, idea) {
-  const validIds = ideaEvidenceIds(idea);
+/**
+ * Validate one model assessment against the idea's evidence. Pure.
+ * Everything that is not supported by a verbatim quote from the cited item is downgraded,
+ * relabelled as inference, or removed — and each such decision is recorded in `validation`.
+ */
+export function constrainAssessment(a, idea, { original = '' } = {}) {
+  const index = evidenceIndex(idea);
   const urls = ideaEvidenceUrls(idea);
-  let removedLinks = 0;
+  const originalNorm = normText(original);
+  const validation = { removedLinks: 0, scrubbedSentences: 0, rejectedCitations: [], downgraded: [], dropped: [] };
+
   const clean = (t, max = 1200) => {
     const r = stripUnverifiedUrls(String(t ?? '').slice(0, max), urls);
-    removedLinks += r.removed;
-    return r.text.trim();
+    validation.removedLinks += r.removed;
+    const d = scrubDemandClaims(r.text, idea);
+    validation.scrubbedSentences += d.removed;
+    return d.text.trim();
   };
-  const ids = (arr) => [...new Set((Array.isArray(arr) ? arr : []).map(String).filter((x) => validIds.has(x)))];
-  const downgraded = [];
+  const cited = (basis, what) => {
+    const r = checkBasis(basis, index);
+    for (const x of r.rejected) validation.rejectedCitations.push({ claim: what, ...x });
+    return r.supported;
+  };
+  const claimed = (x, levels) => (levels.includes(x) ? x : 'unknown');
 
-  const pe = constrainReading(a?.problemEvidence, { levels: LEVELS, validIds });
-  if (pe.downgraded) downgraded.push('problem evidence');
-  const comp = constrainReading(a?.competition, { levels: COMPETITION_LEVELS, validIds });
-  if (comp.downgraded) downgraded.push('competition');
+  const peBasis = cited(a?.problemEvidence?.basis, 'problem evidence');
+  const peClaimed = claimed(a?.problemEvidence?.level, LEVELS);
+  const pe = capProblemLevel(peClaimed, peBasis);
+  if (pe.level !== peClaimed) validation.downgraded.push(`problem evidence ${peClaimed} → ${pe.level}: ${pe.why}`);
+  const peSources = peBasis.filter((b) => b.kind !== 'K');
 
-  const claims = (arr) =>
+  const compBasis = cited(a?.competition?.basis, 'competition');
+  const compClaimed = claimed(a?.competition?.level, COMPETITION_LEVELS);
+  const comp = capCompetitionLevel(compClaimed, compBasis, idea.readings?.competitors);
+  if (comp.level !== compClaimed) validation.downgraded.push(`competition ${compClaimed} → ${comp.level}: ${comp.why}`);
+
+  const claims = (arr, what) =>
     (Array.isArray(arr) ? arr : []).slice(0, 5).map((c) => {
-      const basis = ids(c?.basis);
-      return { text: clean(c?.text, 400), basis, kind: c?.kind === 'observed' && basis.length ? 'observed' : 'inference' };
+      const text = clean(c?.text, 400);
+      const basis = cited(c?.basis, what);
+      const observed = c?.kind === 'observed' && basis.length > 0 && !ABSENCE.test(text);
+      if (c?.kind === 'observed' && !observed) validation.downgraded.push(`${what} "${text.slice(0, 60)}" observed → inference`);
+      return { text, basis, kind: observed ? 'observed' : 'inference' };
     }).filter((c) => c.text);
+
+  const alternatives = [];
+  for (const x of (Array.isArray(a?.competition?.alternatives) ? a.competition.alternatives : []).slice(0, 6)) {
+    const name = clean(x?.name, 120);
+    const basis = cited(x?.basis, `alternative ${name}`);
+    if (name && basis.length && nameMatchesEvidence(name, basis, index)) alternatives.push({ name, what: clean(x?.what, 300), basis });
+    else if (name) validation.dropped.push(`alternative "${name}": no quoted evidence naming it`);
+  }
+
+  const changes = [];
+  for (const c of (Array.isArray(a?.changes) ? a.changes : []).slice(0, 6)) {
+    const quoteOriginal = normText(c?.original);
+    if (!quoteOriginal || quoteOriginal.length < 12 || !originalNorm.includes(quoteOriginal)) {
+      validation.dropped.push(`change: original text "${String(c?.original ?? '').slice(0, 60)}" is not in Scout's memo`);
+      continue;
+    }
+    const basis = cited(c?.basis, 'change');
+    const effectClaimed = ['supports', 'weakens', 'contradicts', 'untested'].includes(c?.effect) ? c.effect : 'untested';
+    const effect = effectClaimed !== 'untested' && !basis.length ? 'untested' : effectClaimed;
+    if (effect !== effectClaimed) validation.downgraded.push(`change "${quoteOriginal.slice(0, 50)}" ${effectClaimed} → untested: no quoted evidence`);
+    changes.push({ original: String(c.original).trim(), finding: clean(c?.finding, 500), basis, effect });
+  }
 
   return {
     opportunity: clean(a?.opportunity, 600),
     whoPays: clean(a?.whoPays, 600),
-    problemEvidence: { level: pe.level, basis: pe.basis, observed: pe.basis.length ? clean(a?.problemEvidence?.observed) : '', inference: clean(a?.problemEvidence?.inference) },
+    problemEvidence: {
+      level: pe.level,
+      basis: peBasis,
+      observed: peSources.length ? clean(a?.problemEvidence?.observed) : '',
+      inference: clean(a?.problemEvidence?.inference),
+    },
     competition: {
       level: comp.level,
-      basis: comp.basis,
-      alternatives: (Array.isArray(a?.competition?.alternatives) ? a.competition.alternatives : [])
-        .slice(0, 6)
-        .map((x) => ({ name: clean(x?.name, 120), what: clean(x?.what, 300), basis: ids(x?.basis) }))
-        .filter((x) => x.name && x.basis.length),
-      strengths: claims(a?.competition?.strengths),
-      gaps: claims(a?.competition?.gaps),
+      basis: compBasis,
+      alternatives,
+      strengths: claims(a?.competition?.strengths, 'strength'),
+      gaps: claims(a?.competition?.gaps, 'gap'),
     },
+    changes,
     feasibility: { level: FEASIBILITY_LEVELS.includes(a?.feasibility?.level) ? a.feasibility.level : 'unknown', note: clean(a?.feasibility?.note, 500) },
     unproven: (Array.isArray(a?.unproven) ? a.unproven : []).slice(0, 6).map((x) => clean(x, 300)).filter(Boolean),
     nextExperiment: { what: clean(a?.nextExperiment?.what, 600), cost: clean(a?.nextExperiment?.cost, 200), duration: clean(a?.nextExperiment?.duration, 120) },
     continueIf: clean(a?.continueIf, 400),
     stopIf: clean(a?.stopIf, 400),
-    removedLinks,
-    downgraded,
+    removedLinks: validation.removedLinks,
+    downgraded: validation.downgraded,
+    validation,
   };
 }
 
-export async function assessEvidence({ run, gemini, scoutContext = '', models = [], now = () => new Date() }) {
+/**
+ * Assess ideas whose evidence is new or changed, a few per model call. Each batch is applied
+ * as soon as it returns, so a failed or truncated call loses only that batch — the evidence is
+ * untouched and the next run retries exactly the unassessed ideas.
+ */
+export async function assessEvidence({ run, gemini, scoutContext = '', originalFor = null, models = [], batchSize = 3, now = () => new Date() }) {
   const targets = run.ideas.filter(
     (i) => (i.status === 'enriched' || i.status === 'partial') && (!i.assessment || i.assessment.evidenceUpdatedAt !== i.evidenceUpdatedAt),
   );
   if (!targets.length) return run;
-  const bundle = { ideas: targets.map((i) => evidenceBundle(i, scoutContext.slice(0, 3000))) };
-  let raw;
-  try {
-    raw = await gemini.generateJson('enrich-assess', assessPrompt(bundle), {
-      temperature: 0.2,
-      maxTokens: 16384,
-      ...(models.length ? { models } : {}),
-    });
-  } catch (err) {
-    run.assessmentError = `assessment not written: ${err.message}`;
-    return run;
+  const originalOf = (idea) => String(originalFor ? originalFor(idea) : scoutContext).slice(0, 6000);
+  const errors = [];
+  for (let at = 0; at < targets.length; at += batchSize) {
+    const batch = targets.slice(at, at + batchSize);
+    let raw;
+    try {
+      raw = await gemini.generateJson('enrich-assess', assessPrompt({ ideas: batch.map((i) => evidenceBundle(i, originalOf(i))) }), {
+        temperature: 0.2,
+        maxTokens: 32768,
+        ...(models.length ? { models } : {}),
+      });
+    } catch (err) {
+      errors.push(`${batch.map((i) => i.id).join(', ')}: ${err.message}`);
+      continue;
+    }
+    const byId = new Map((Array.isArray(raw?.ideas) ? raw.ideas : []).map((a) => [String(a?.id), a]));
+    for (const idea of batch) {
+      const a = byId.get(idea.id);
+      if (!a) {
+        errors.push(`${idea.id}: the model returned no assessment for it`);
+        continue;
+      }
+      idea.assessment = { ...constrainAssessment(a, idea, { original: originalOf(idea) }), assessedAt: now().toISOString(), evidenceUpdatedAt: idea.evidenceUpdatedAt };
+    }
   }
-  const byId = new Map((Array.isArray(raw?.ideas) ? raw.ideas : []).map((a) => [String(a?.id), a]));
-  for (const idea of targets) {
-    const a = byId.get(idea.id);
-    if (!a) continue;
-    idea.assessment = { ...constrainAssessment(a, idea), assessedAt: now().toISOString(), evidenceUpdatedAt: idea.evidenceUpdatedAt };
-  }
-  delete run.assessmentError;
+  if (errors.length) run.assessmentError = `assessment not written for some ideas (they will be retried): ${errors.join(' | ')}`.slice(0, 1500);
+  else delete run.assessmentError;
   return run;
 }
 
@@ -821,7 +957,7 @@ export function memoContext(md) {
   const title = (md.match(/^#\s+(.+)$/m)?.[1] ?? '').trim();
   const score = md.match(/score:\s*(\d{1,3})\s*\/\s*100/i)?.[1];
   const conviction = md.match(/conviction:\s*(high|medium|low)/i)?.[1]?.toLowerCase() ?? null;
-  const parts = ['The idea', 'Who pays and why', 'Competitive landscape', 'Validation plan']
+  const parts = ['The idea', 'Who pays and why', 'Why now', 'Size of opportunity', 'Competitive landscape', 'Validation plan']
     .map((h) => [h, memoSection(md, h)])
     .filter(([, body]) => body)
     .map(([h, body]) => `## ${h}\n${body.slice(0, 3000)}`);

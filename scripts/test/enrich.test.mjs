@@ -280,30 +280,6 @@ test('refusals from the shared budget: per-request limit and bad token make enri
   assert.match(run.provider.reason, /request_limit/);
 });
 
-test('constrainAssessment strips invented links and unsupported levels', () => {
-  const idea = {
-    keywords: [{ id: 'K1', status: 'measured' }],
-    serps: [{ id: 'S1', checkUrl: null, items: [{ id: 'S1.1', url: 'https://vendor.com/' }] }],
-    pages: [{ id: 'P1', url: 'https://vendor.com/pricing', error: null }],
-  };
-  const out = constrainAssessment(
-    {
-      opportunity: 'See https://invented.example/report and https://vendor.com/pricing',
-      problemEvidence: { level: 'strong', basis: ['S7.7'], observed: 'lots', inference: 'maybe' },
-      competition: { level: 'crowded', basis: ['S1.1'], alternatives: [{ name: 'Vendor', what: 'x', basis: ['P1'] }, { name: 'Ghost', what: 'y', basis: [] }], gaps: [{ text: 'no mobile app', basis: [], kind: 'observed' }] },
-      feasibility: { level: 'certain' },
-    },
-    idea,
-  );
-  assert.equal(out.removedLinks, 1);
-  assert.equal(out.problemEvidence.level, 'unknown');
-  assert.equal(out.problemEvidence.observed, '');
-  assert.equal(out.competition.level, 'crowded');
-  assert.deepEqual(out.competition.alternatives.map((a) => a.name), ['Vendor']);
-  assert.equal(out.competition.gaps[0].kind, 'inference');
-  assert.equal(out.feasibility.level, 'unknown');
-});
-
 test('saved evidence renders separately and records the untouched original score', async () => {
   const { run, config, deps, dir } = setup({ ideas: ['a'] });
   await gatherEvidence({ run, config, deps, log: quiet });
@@ -347,4 +323,38 @@ test('Google Ads fallback is opt-in, batches only the keywords Labs missed, and 
   await gatherEvidence({ run: capped.run, config: capped.config, deps: capped.deps, log: quiet });
   assert.equal(capped.dfs.calls.ads, 0);
   assert.match(capped.run.ideas[0].reason, /Google Ads fallback not collected — budget/);
+});
+
+test('markets: the planner picks from an allowlist; one Labs task per market; unsupported markets are never bought', async () => {
+  const { parseMarkets, resolveIdeaMarket } = await import('../lib/enrich.mjs');
+  const cfg = readEnrichConfig({ SCOUT_MARKETS: 'United States:en; India:en; Germany:de', DATAFORSEO_MONTHLY_USD_CAP: '2', SCOUT_DFS_MODE: 'live' });
+  assert.deepEqual(parseMarkets('bad; India:EN', cfg.market), [{ locationName: 'India', languageCode: 'en' }]);
+  assert.equal(resolveIdeaMarket({ location: 'india', language: 'EN', reason: 'buyers are there' }, cfg).source, 'planner');
+  const off = resolveIdeaMarket({ location: 'Brazil', language: 'pt' }, cfg);
+  assert.deepEqual([off.locationName, off.source], ['United States', 'default']);
+  assert.match(off.reason, /not on the allowed market list/);
+
+  const dfs = fakeDfs();
+  const byMarket = [];
+  dfs.keywordOverview = async (keywords, m) => {
+    dfs.calls.labs++;
+    byMarket.push(m.locationName);
+    return { cost: 0.0124, requested: keywords.length, measuredAt: new Date().toISOString(), items: [] };
+  };
+  dfs.labsMarketSupport = async (m) => (m.locationName === 'Germany' ? { supported: false, reason: 'test: not supported' } : { supported: true });
+  const plans = [
+    { ...plan('a'), market: { location: 'United States', language: 'en' } },
+    { ...plan('b'), market: { location: 'India', language: 'en' } },
+    { ...plan('c'), market: { location: 'India', language: 'en' } },
+    { ...plan('d'), market: { location: 'Germany', language: 'de' } },
+  ];
+  const { deps } = setup({ dfs });
+  const run = newRun({ date: '2026-09-14', source: { kind: 'scan' }, config: cfg, plans });
+  await gatherEvidence({ run, config: cfg, deps, log: quiet });
+  assert.deepEqual(byMarket.sort(), ['India', 'United States']); // b + c share one task; Germany never bought
+  const d = run.ideas.find((i) => i.slug === 'd');
+  assert.equal(d.status === 'enriched', false);
+  assert.match(d.reason, /not supported by DataForSEO Labs/);
+  assert.equal(run.ideas.find((i) => i.slug === 'b').keywords[0].location, 'India');
+  assert.equal(run.projection.labsTasks, 2);
 });

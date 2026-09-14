@@ -62,6 +62,10 @@ test('live mode: enrichment runs after the scan, stays separate, and a re-run pa
   const a = run.ideas[0].assessment;
   assert.match(a.opportunity, /\[unverified link removed\]/);
   assert.equal(a.competition.gaps[0].kind, 'inference'); // "observed" without evidence is relabelled
+  assert.equal(a.problemEvidence.level, 'moderate'); // grounded by a verbatim quote
+  assert.deepEqual(a.problemEvidence.basis.map((b) => b.id), ['S1.1']);
+  assert.ok(a.validation.rejectedCitations.some((r) => r.reason === 'no quote'));
+  assert.equal(a.competition.alternatives[0].name, 'Vendor');
   assert.ok(!('confidence' in a));
 
   const paid = paidCalls(first.calls);

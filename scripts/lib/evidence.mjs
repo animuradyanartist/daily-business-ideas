@@ -89,6 +89,11 @@ export function normalizePlan(raw, { maxIdeas = 3, keywordsPerGroup = 3, serpsPe
       targetCustomer: str(it?.targetCustomer, 400),
       payer: str(it?.payer, 400),
       whyPayerPays: str(it?.whyPayerPays, 600),
+      // Proposed only; resolved against the configured market allowlist by the orchestrator.
+      market:
+        it?.market && typeof it.market === 'object'
+          ? { location: str(it.market.location ?? it.market.locationName, 80), language: str(it.market.language ?? it.market.languageCode, 10).toLowerCase(), reason: str(it.market.reason, 300) }
+          : null,
       keywords,
       serpQueries,
     });

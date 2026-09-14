@@ -1,0 +1,411 @@
+// Evidence-enrichment pilot on existing Scout ideas.
+//
+//   node scripts/pilot.mjs select  --pilot <dir> [--count 10]   choose ideas (explicit queue, else source order)
+//   node scripts/pilot.mjs plan    --pilot <dir>                keyword plans via Scout's Gemini config (GEMINI_API_KEY)
+//   node scripts/pilot.mjs preview --pilot <dir>                dry run: requests, cache reuse, geography, estimated cost
+//   node scripts/pilot.mjs gather  --pilot <dir> --live         paid DataForSEO requests, behind the budget gate
+//   node scripts/pilot.mjs assess  --pilot <dir> [--expect-failure]
+//   node scripts/pilot.mjs check   --pilot <dir>                verification report (plans, grounding, unknowns, memos untouched)
+//   node scripts/pilot.mjs report  --pilot <dir>                readable per-idea comparison
+//
+// Never writes to ideas/ or outcomes/, and never touches the bot's favorites (manual selection).
+// Every step writes only inside the pilot directory (plus the shared evidence cache on gather).
+
+import { createHash } from 'node:crypto';
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { join, relative } from 'node:path';
+import { createGemini } from './lib/gemini.mjs';
+import { readJson, writeJsonAtomic } from './lib/cache.mjs';
+import {
+  readEnrichConfig,
+  buildDeps,
+  planIdeas,
+  newRun,
+  gatherEvidence,
+  assessEvidence,
+  memoContext,
+  saveRunAt,
+  evidenceFingerprint,
+} from './lib/enrich.mjs';
+import { checkBasis, evidenceIndex, scrubDemandClaims } from './lib/grounding.mjs';
+
+const [cmd, ...args] = process.argv.slice(2);
+const flag = (n) => args.includes(n);
+const value = (n) => {
+  const i = args.indexOf(n);
+  return i >= 0 ? args[i + 1] : undefined;
+};
+
+const pilotDir = value('--pilot') ?? 'evidence/pilots/pilot-10-source-order';
+if (!/^evidence\/pilots\/[a-z0-9-]+$/.test(pilotDir)) {
+  console.error('--pilot must look like evidence/pilots/<name>');
+  process.exit(1);
+}
+const P = {
+  pilot: join(pilotDir, 'pilot.json'),
+  plans: join(pilotDir, 'plans.json'),
+  preview: join(pilotDir, 'preview.json'),
+  previewMd: join(pilotDir, 'PREVIEW.md'),
+  run: join(pilotDir, 'run.json'),
+  runMd: join(pilotDir, 'evidence.md'),
+  check: join(pilotDir, 'MODEL-CHECK.md'),
+  report: join(pilotDir, 'REPORT.md'),
+};
+const rootRel = relative(pilotDir, '.') || '.';
+const sha = (s) => createHash('sha256').update(s).digest('hex');
+const readText = (p) => readFileSync(p, 'utf8');
+const money = (n) => (typeof n === 'number' ? `$${n.toFixed(4)}` : 'n/a');
+const esc = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n+/g, ' ').trim();
+
+function need(path, hint) {
+  if (!existsSync(path)) {
+    console.error(`Missing ${path} — run \`${hint}\` first.`);
+    process.exit(1);
+  }
+  return readJson(path, null);
+}
+
+function section(md, heading) {
+  const m = md.match(new RegExp(`##\\s+${heading}[^\\n]*\\n([\\s\\S]*?)(?=\\n##\\s|$)`, 'i'));
+  return m ? m[1].trim() : '';
+}
+
+// ---------- select ----------
+if (cmd === 'select') {
+  const count = Number(value('--count') ?? 10);
+  const queueCandidates = ['pilot/queue.json', 'PILOT_QUEUE.md', 'evidence/pilots/queue.json', 'outcomes/pilot-queue.md'];
+  const queue = queueCandidates.find((p) => existsSync(p));
+  const outcomeFiles = existsSync('outcomes') ? readdirSync('outcomes').filter((f) => f.endsWith('.md') && f.toLowerCase() !== 'readme.md') : [];
+  let files;
+  let rule;
+  if (queue) {
+    console.error(`An explicit pilot queue exists at ${queue}; implement reading it before selecting.`);
+    process.exit(1);
+  } else {
+    files = readdirSync('ideas').filter((f) => /^\d{4}-\d{2}-\d{2}\.md$/.test(f)).sort().slice(0, count);
+    rule = `No explicit pilot queue exists, so the first ${count} memos in Scout's original source order were selected: ideas/YYYY-MM-DD.md sorted by file name (the date Scout produced them), oldest first. Non-daily memos (e.g. ideas/2026-06-03-pattern-break.md) are not part of the daily source order.`;
+  }
+  const ideas = files.map((f) => {
+    const md = readText(join('ideas', f));
+    const ctx = memoContext(md);
+    return { id: f.replace(/\.md$/, ''), memo: `ideas/${f}`, title: ctx.title, originalConviction: ctx.conviction, originalScore: ctx.score, memoSha256: sha(md) };
+  });
+  const previous = ['2026-09-13', '2026-09-11', '2026-08-21'];
+  const pilot = {
+    id: pilotDir.split('/').pop(),
+    createdAt: new Date().toISOString(),
+    selectionRule: rule,
+    queueChecked: [
+      ...queueCandidates.map((p) => `${p}: not present`),
+      `outcomes/: ${outcomeFiles.length} outcome file(s) (not a queue)`,
+      'Telegram bot favorites (manual selection, Cloudflare KV): not read and not changed',
+    ],
+    previousPilot: {
+      dir: 'evidence/pilots/pilot-3-manual-plans',
+      ids: previous,
+      overlapWithThisPilot: previous.filter((id) => ideas.some((i) => i.id === id)),
+      note: 'Hand-written keyword plans, live data gathered 2026-09-14 ($0.1392 recorded in the shared ledger). Kept separately and unchanged.',
+    },
+    ideas,
+  };
+  mkdirSync(pilotDir, { recursive: true });
+  writeJsonAtomic(P.pilot, pilot);
+  console.log(`✓ ${P.pilot}: ${ideas.map((i) => i.id).join(', ')}`);
+  process.exit(0);
+}
+
+const pilot = need(P.pilot, `node scripts/pilot.mjs select --pilot ${pilotDir}`);
+const config = readEnrichConfig();
+const models = config.models.length ? config.models : undefined;
+
+function runner() {
+  return process.env.GITHUB_RUN_ID
+    ? { kind: 'github-actions', runId: process.env.GITHUB_RUN_ID, sha: process.env.GITHUB_SHA, ref: process.env.GITHUB_REF_NAME, workflow: process.env.GITHUB_WORKFLOW }
+    : { kind: 'local' };
+}
+
+function buildRun(plans) {
+  const planned = pilot.ideas.filter((i) => plans.plans[i.id]);
+  // Resolve markets against the allowlist the plans were made with, not whatever this shell has.
+  const planConfig = { ...config, markets: plans.config?.markets?.length ? plans.config.markets : config.markets };
+  const run = newRun({ date: pilot.id, source: { kind: 'pilot', planner: plans.planner }, config: planConfig, plans: planned.map((i) => plans.plans[i.id]) });
+  run.ideas.forEach((idea, k) => {
+    const src = planned[k];
+    idea.id = src.id; // Scout's stable idea id
+    idea.original = { memo: src.memo, title: src.title, conviction: src.originalConviction, score: src.originalScore };
+  });
+  return run;
+}
+
+// ---------- plan ----------
+if (cmd === 'plan') {
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('GEMINI_API_KEY is not set — planning needs Scout\'s Gemini configuration.');
+    process.exit(1);
+  }
+  const gemini = createGemini(process.env.GEMINI_API_KEY);
+  const out = { generatedAt: new Date().toISOString(), runner: runner(), planner: { kind: 'gemini', models: models ?? ['gemini-2.5-flash', 'gemini-2.5-pro'] }, config: { markets: config.markets, keywordsPerGroup: config.keywordsPerGroup, serpsPerIdea: config.serpsPerIdea }, plans: {}, failures: {} };
+  for (const i of pilot.ideas) {
+    try {
+      const [plan] = await planIdeas({ gemini, sourceText: memoContext(readText(i.memo)).excerpt, sourceKind: 'memo', config });
+      if (plan) out.plans[i.id] = plan;
+      else out.failures[i.id] = 'planner returned no usable plan';
+    } catch (err) {
+      out.failures[i.id] = err.message;
+    }
+    console.log(`[plan] ${i.id}: ${out.plans[i.id] ? `${Object.values(out.plans[i.id].keywords).flat().length} keywords, market ${out.plans[i.id].market?.location}/${out.plans[i.id].market?.language}` : `FAILED — ${out.failures[i.id]}`}`);
+  }
+  writeJsonAtomic(P.plans, out);
+  console.log(`✓ ${P.plans}: ${Object.keys(out.plans).length} planned, ${Object.keys(out.failures).length} failed`);
+  process.exit(Object.keys(out.plans).length ? 0 : 1);
+}
+
+// ---------- preview ----------
+if (cmd === 'preview') {
+  const plans = need(P.plans, `node scripts/pilot.mjs plan --pilot ${pilotDir}`);
+  const previewConfig = { ...config, mode: 'dry-run' };
+  const run = buildRun(plans);
+  const deps = buildDeps({ ...process.env, SCOUT_DFS_MODE: 'dry-run' });
+  await gatherEvidence({ run, config: previewConfig, deps });
+  writeJsonAtomic(P.preview, run);
+  const pr = run.projection;
+  const lines = [
+    `# Pilot preview — ${pilot.id} (dry run, no paid requests)`,
+    '',
+    `_Generated ${run.updatedAt}. Nothing was bought. Estimates use the published prices; the gate reserves each request at ×1.1 and records the provider-reported cost._`,
+    '',
+    `- Selection: ${pilot.selectionRule}`,
+    `- Budget backend: ${deps.budget.backend}${deps.budget.atomic ? '' : ' (not atomic across apps — supervised use only)'}; shared cap ${money(config.capUsd)}, Scout reserve ${money(config.reserveUsd)}, per-run limit ${money(config.maxRunUsd)}`,
+    `- Shared DataForSEO spend this month before the run: ${run.budget.sharedBefore ? `${money(run.budget.sharedBefore.chargedUsd)} charged + ${money(run.budget.sharedBefore.heldUsd)} held` : 'not read (budget not configured for this preview)'}`,
+    `- Paid requests planned: ${pr.labsTasks} Labs keyword task(s) for ${pr.labsKeywords} keyword(s) + ${pr.serpQueries} live search result page(s)`,
+    `- Reused from cache: ${pr.keywordsFromCache} keyword measurement(s), ${pr.serpsFromCache} search result page(s)`,
+    `- Estimated additional cost: ${money(pr.totalUsd)} (${money(pr.labsUsd)} keywords + ${money(pr.serpUsd)} search results); reserved at ${money(pr.reservedUsd)}${pr.reservedUsd > config.maxRunUsd ? ` — EXCEEDS the ${money(config.maxRunUsd)} per-run limit: the last requests would be refused, not split into another run` : ` — within the ${money(config.maxRunUsd)} per-run limit`}`,
+    `- Google Ads fallback: ${config.adsFallback ? 'ON' : 'off (default)'}`,
+    '',
+    '## Geography',
+    '| Market | Ideas | Keywords to buy | Labs support |',
+    '|---|---|---|---|',
+    ...pr.markets.map((m) => `| ${m.location} · ${m.language} | ${m.ideas} | ${m.keywordsToBuy} | ${run.marketSupport?.[`${m.location.toLowerCase()}|${m.language.toLowerCase()}`]?.supported ?? 'not checked'} |`),
+    '',
+    '## Per idea',
+    '| Idea id | Title | Market (source) | Keywords (problem / solution / buying) | SERP queries |',
+    '|---|---|---|---|---|',
+    ...run.ideas.map((i) => `| \`${i.id}\` | ${esc(i.title)} | ${i.market.locationName} · ${i.market.languageCode} (${i.market.source}${i.market.reason ? `: ${esc(i.market.reason)}` : ''}) | ${['problem', 'solution', 'buying'].map((g) => i.plan.keywords[g].map(esc).join(', ')).join(' / ')} | ${i.plan.serpQueries.map(esc).join('; ')} |`),
+    '',
+    Object.keys(plans.failures ?? {}).length ? `Not planned: ${Object.entries(plans.failures).map(([k, v]) => `${k} (${v})`).join('; ')}` : 'All selected ideas were planned.',
+  ];
+  writeFileSync(P.previewMd, lines.join('\n') + '\n');
+  console.log(`✓ ${P.previewMd}: ${pr.labsTasks} Labs task(s), ${pr.labsKeywords} keywords, ${pr.serpQueries} SERPs, est ${money(pr.totalUsd)} (reserved ${money(pr.reservedUsd)})`);
+  process.exit(0);
+}
+
+// ---------- gather ----------
+if (cmd === 'gather') {
+  if (!flag('--live')) {
+    console.error('gather buys data; pass --live (use `preview` for a dry run).');
+    process.exit(1);
+  }
+  const plans = need(P.plans, `node scripts/pilot.mjs plan --pilot ${pilotDir}`);
+  const run = readJson(P.run, null) ?? buildRun(plans);
+  const liveConfig = { ...config, mode: 'live' };
+  const deps = buildDeps({ ...process.env, SCOUT_DFS_MODE: 'live' });
+  if (!deps.budget.atomic) console.warn('⚠ legacy-ledger budget backend: spend is recorded, reservations are not atomic across apps.');
+  await gatherEvidence({ run, config: liveConfig, deps });
+  saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
+  const charged = run.spend.filter((l) => l.status === 'charged').reduce((s, l) => s + l.costUsd, 0);
+  console.log(`✓ ${P.run}: provider ${run.provider.status}${run.provider.reason ? ` — ${run.provider.reason}` : ''}`);
+  console.log(`  spent now ${money(run.lastGather.spentUsd)} · charged in this pilot so far ${money(charged)} · statuses: ${run.ideas.map((i) => `${i.id}=${i.status}`).join(', ')}`);
+  process.exit(0);
+}
+
+// ---------- assess ----------
+if (cmd === 'assess') {
+  const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('GEMINI_API_KEY is not set — assessment needs Scout\'s Gemini configuration.');
+    process.exit(1);
+  }
+  const before = Object.fromEntries(run.ideas.map((i) => [i.id, { fp: evidenceFingerprint(i), assessed: Boolean(i.assessment) }]));
+  const gemini = createGemini(process.env.GEMINI_API_KEY);
+  const memoOf = new Map(pilot.ideas.map((i) => [i.id, memoContext(readText(i.memo)).excerpt]));
+  await assessEvidence({ run, gemini, originalFor: (idea) => memoOf.get(idea.id) ?? '', models: config.models });
+  run.assessmentRunner = runner();
+  run.assessmentModels = config.models.length ? config.models : ['gemini-2.5-pro', 'gemini-2.5-flash'];
+  saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
+
+  if (flag('--expect-failure')) {
+    // The forced-failure check: nothing new assessed, evidence identical, error recorded, file saved.
+    const newlyAssessed = run.ideas.filter((i) => !before[i.id].assessed && i.assessment).length;
+    const changed = run.ideas.filter((i) => evidenceFingerprint(i) !== before[i.id].fp).length;
+    const saved = readJson(P.run, null);
+    const ok = newlyAssessed === 0 && changed === 0 && Boolean(run.assessmentError) && saved?.ideas?.length === run.ideas.length;
+    console.log(`[expect-failure] newly assessed ${newlyAssessed} (want 0) · evidence changed ${changed} (want 0) · error recorded ${Boolean(run.assessmentError)} · saved ${saved?.ideas?.length}/${run.ideas.length}`);
+    writeJsonAtomic(join(pilotDir, 'failure-check.json'), { at: new Date().toISOString(), runner: runner(), newlyAssessed, evidenceChanged: changed, assessmentError: run.assessmentError ?? null, ok });
+    process.exit(ok ? 0 : 1);
+  }
+  const assessed = run.ideas.filter((i) => i.assessment).length;
+  console.log(`✓ assessed ${assessed}/${run.ideas.filter((i) => ['enriched', 'partial'].includes(i.status)).length}${run.assessmentError ? ` · ${run.assessmentError}` : ''}`);
+  process.exit(0);
+}
+
+// ---------- check ----------
+if (cmd === 'check') {
+  const plans = readJson(P.plans, null);
+  const run = readJson(P.run, null);
+  const lines = [`# Model check — ${pilot.id}`, '', `_Generated ${new Date().toISOString()} by \`node scripts/pilot.mjs check\`. Automated checks; read the evidence file for the full assessments._`, ''];
+  const results = [];
+  const record = (name, pass, detail) => results.push({ name, pass, detail });
+
+  // Original memos untouched.
+  const changedMemos = pilot.ideas.filter((i) => sha(readText(i.memo)) !== i.memoSha256).map((i) => i.id);
+  record('Original memos unchanged (sha256 at selection time)', changedMemos.length === 0, changedMemos.length ? `changed: ${changedMemos.join(', ')}` : `${pilot.ideas.length} memo(s) identical`);
+
+  if (plans) {
+    lines.push(`Planner: ${plans.planner?.kind} ${plans.planner?.models?.join(' → ') ?? ''} · runner: ${plans.runner?.kind}${plans.runner?.runId ? ` run ${plans.runner.runId} (${plans.runner.ref} @ ${String(plans.runner.sha).slice(0, 7)})` : ''}`, '');
+    const planned = Object.entries(plans.plans);
+    record('Every selected idea has a plan', planned.length === pilot.ideas.length, `${planned.length}/${pilot.ideas.length}; failures: ${JSON.stringify(plans.failures ?? {})}`);
+    const allowed = (plans.config?.markets ?? []).map((m) => `${m.locationName}|${m.languageCode}`.toLowerCase());
+    const offList = planned.filter(([, p]) => !allowed.includes(`${p.market?.location}|${p.market?.language}`.toLowerCase()));
+    record('Planner named a country + language from the allowed list', offList.length === 0, offList.length ? `off-list: ${offList.map(([id, p]) => `${id} → ${p.market?.location}/${p.market?.language}`).join('; ')}` : planned.map(([id, p]) => `${id}: ${p.market.location}/${p.market.language}`).join('; '));
+    const groupsOk = planned.filter(([, p]) => ['problem', 'solution', 'buying'].every((g) => p.keywords[g].length > 0));
+    record('Each plan has problem, solution and buying keywords', groupsOk.length === planned.length, `${groupsOk.length}/${planned.length}`);
+    const STOP = new Set(['the', 'for', 'and', 'kit', 'non', 'native', 'with', 'your', 'how', 'best', 'free', 'template', 'templates', 'guide', 'examples', 'pricing', 'cost', 'buy']);
+    const relevance = planned.map(([id, p]) => {
+      const memo = readText(pilot.ideas.find((i) => i.id === id).memo).toLowerCase();
+      const kws = Object.values(p.keywords).flat();
+      const grounded = kws.filter((k) => k.split(' ').some((w) => w.length >= 4 && !STOP.has(w) && memo.includes(w)));
+      return { id, share: grounded.length / kws.length, off: kws.filter((k) => !grounded.includes(k)) };
+    });
+    const weak = relevance.filter((r) => r.share < 0.6);
+    record('Keywords use the memo\'s own vocabulary (≥60% of keywords share a content word with the memo)', weak.length === 0, relevance.map((r) => `${r.id} ${Math.round(r.share * 100)}%${r.off.length ? ` (not in memo: ${r.off.slice(0, 3).join('; ')})` : ''}`).join(' · '));
+    lines.push('Keyword relevance is a lexical proxy only — the plans are listed in PREVIEW.md for human review.', '');
+  } else {
+    record('Plans exist', false, 'plans.json missing');
+  }
+
+  if (run) {
+    const eligible = run.ideas.filter((i) => ['enriched', 'partial'].includes(i.status));
+    const assessed = eligible.filter((i) => i.assessment);
+    record('Every idea with evidence has an assessment', assessed.length === eligible.length && eligible.length > 0, `${assessed.length}/${eligible.length}${run.assessmentError ? ` · ${run.assessmentError}` : ''}`);
+    if (run.assessmentRunner) lines.push(`Assessor: ${run.assessmentModels?.join(' → ')} · runner: ${run.assessmentRunner.kind}${run.assessmentRunner.runId ? ` run ${run.assessmentRunner.runId}` : ''}`, '');
+
+    let ungrounded = 0;
+    let unknownViolations = 0;
+    let rejected = 0;
+    let downgraded = 0;
+    let dropped = 0;
+    let scrubbed = 0;
+    let figuresChecked = 0;
+    let figureMismatches = 0;
+    for (const idea of assessed) {
+      const a = idea.assessment;
+      const index = evidenceIndex(idea);
+      const bases = [a.problemEvidence.basis, a.competition.basis, ...a.competition.alternatives.map((x) => x.basis), ...a.competition.strengths.map((x) => x.basis), ...a.competition.gaps.map((x) => x.basis), ...(a.changes ?? []).map((c) => c.basis)];
+      for (const b of bases) ungrounded += checkBasis(b, index).rejected.length; // re-check stored citations
+      if (a.problemEvidence.level !== 'unknown' && !a.problemEvidence.basis.some((b) => b.kind !== 'K')) ungrounded += 1;
+      if (a.competition.level !== 'unknown' && a.competition.level !== 'sparse' && !a.competition.basis.length) ungrounded += 1;
+      const texts = [a.opportunity, a.whoPays, a.problemEvidence.observed, a.problemEvidence.inference, a.feasibility.note, a.nextExperiment.what, a.continueIf, a.stopIf, ...a.unproven, ...(a.changes ?? []).map((c) => c.finding), ...a.competition.strengths.map((s) => s.text), ...a.competition.gaps.map((s) => s.text)];
+      for (const t of texts) unknownViolations += scrubDemandClaims(t, idea).removed;
+      for (const t of texts) {
+        for (const k of idea.keywords.filter((x) => x.status === 'measured')) {
+          if (String(t).toLowerCase().includes(k.keyword)) {
+            const m = String(t).match(/(\d[\d,]*)\s*(monthly searches|searches|\/\s?month|per month)/i);
+            if (m) {
+              figuresChecked++;
+              if (Number(m[1].replace(/,/g, '')) !== k.searchVolume) figureMismatches++;
+            }
+          }
+        }
+      }
+      rejected += a.validation?.rejectedCitations?.length ?? 0;
+      downgraded += a.validation?.downgraded?.length ?? 0;
+      dropped += a.validation?.dropped?.length ?? 0;
+      scrubbed += a.validation?.scrubbedSentences ?? 0;
+    }
+    record('Stored citations all carry a verbatim quote found in the cited item; non-unknown levels have grounded citations', ungrounded === 0, `${ungrounded} ungrounded`);
+    record('No stored text states search demand the evidence did not measure', unknownViolations === 0, `${unknownViolations} violation(s)`);
+    record('Volume figures quoted for measured keywords match the measurement', figureMismatches === 0, `${figuresChecked} figure(s) checked, ${figureMismatches} mismatch(es)`);
+    record('Validation actually intervened where the model over-claimed (informational)', true, `${rejected} citation(s) rejected · ${downgraded} level/kind downgrade(s) · ${dropped} claim(s) dropped · ${scrubbed} sentence(s) removed`);
+    const unknownKeywords = run.ideas.flatMap((i) => i.keywords.filter((k) => k.status !== 'measured'));
+    record('Missing keyword data is stored as unknown (null), never as 0', unknownKeywords.every((k) => k.searchVolume === null), `${unknownKeywords.length} keyword(s) without data`);
+    const fc = readJson(join(pilotDir, 'failure-check.json'), null);
+    record('Forced model failure preserved evidence and allowed resumption', Boolean(fc?.ok) && assessed.length === eligible.length, fc ? `failure step: newly assessed ${fc.newlyAssessed}, evidence changed ${fc.evidenceChanged}, error "${String(fc.assessmentError).slice(0, 120)}"; resumed: ${assessed.length}/${eligible.length} assessed` : 'failure-check.json missing');
+  }
+
+  lines.push('| Check | Result | Detail |', '|---|---|---|', ...results.map((r) => `| ${esc(r.name)} | ${r.pass ? 'pass' : '**FAIL**'} | ${esc(r.detail)} |`));
+  writeFileSync(P.check, lines.join('\n') + '\n');
+  for (const r of results) console.log(`${r.pass ? '✓' : '✗'} ${r.name} — ${r.detail}`);
+  process.exit(results.every((r) => r.pass) ? 0 : 1);
+}
+
+// ---------- report ----------
+if (cmd === 'report') {
+  const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
+  const preview = readJson(P.preview, null);
+  const previous = readJson('evidence/pilots/pilot-3-manual-plans/spend.json', null);
+  const charged = run.spend.filter((l) => l.status === 'charged');
+  const uncertain = run.spend.filter((l) => l.status === 'uncertain');
+  const out = [
+    `# Evidence pilot — ${run.ideas.length} existing Scout ideas`,
+    '',
+    '_Research comparison only. Scout\'s original memos and scores are unchanged, nothing here selects an idea for building, and the bot\'s manual favorites were not touched._',
+    '',
+    '## Selection',
+    `- Rule: ${pilot.selectionRule}`,
+    `- Checked for an explicit queue: ${pilot.queueChecked.join('; ')}`,
+    `- Stable ids: ${pilot.ideas.map((i) => `\`${i.id}\``).join(', ')}`,
+    `- Earlier 3-idea pilot (${pilot.previousPilot.ids.join(', ')}): overlap with this pilot — ${pilot.previousPilot.overlapWithThisPilot.length ? pilot.previousPilot.overlapWithThisPilot.join(', ') : 'none'}; kept separately in \`${pilot.previousPilot.dir}\`.`,
+    '',
+    '## Spend (kept separate)',
+    '| | USD | Source |',
+    '|---|---|---|',
+    `| Previous pilot (3 ideas, 2026-09-14) | ${previous ? money(previous.chargedUsd) : '$0.1392'} | shared ledger rows produced by scout before this pilot |`,
+    `| This pilot — estimated before buying | ${preview ? money(preview.projection.totalUsd) : 'n/a'} | dry-run preview (published prices, before cache) |`,
+    `| This pilot — actual, provider-reported | ${money(charged.reduce((s, l) => s + l.costUsd, 0))} | ${charged.length} charged request(s) |`,
+    `| This pilot — outcome unknown (held at estimate) | ${money(uncertain.reduce((s, l) => s + l.estimateUsd, 0))} | ${uncertain.length} request(s) |`,
+    '',
+    `Budget backend for this pilot: ${run.budget?.backend ?? 'n/a'}${run.budget?.atomic === false ? ' (not atomic: the reservation functions are awaiting review, so spend was recorded in the existing ledger)' : ''}. Shared cap ${money(run.budget?.capUsd)}, Scout reserve ${money(run.budget?.reserveUsd)}, per-run limit ${money(run.budget?.maxRunUsd)}. Google Ads fallback: off.`,
+    '',
+  ];
+  run.ideas.forEach((idea, n) => {
+    const src = pilot.ideas.find((i) => i.id === idea.id);
+    const memo = readText(src.memo);
+    const a = idea.assessment;
+    const r = idea.readings ?? {};
+    const measured = idea.keywords.filter((k) => k.status === 'measured');
+    const clip = (s, max = 420) => (s.length > max ? `${s.slice(0, max).replace(/\s+\S*$/, '')}…` : s);
+    out.push(`---`, '', `## ${n + 1}. ${idea.title}`, `\`${idea.id}\` · [${src.memo}](${rootRel}/${src.memo}) · status: ${idea.status}${idea.reason ? ` — ${esc(idea.reason)}` : ''}`, '');
+    out.push('**Original assessment (Scout, unchanged)**', '');
+    out.push(`- Conviction: ${src.originalConviction ?? 'n/a'}${src.originalScore != null ? ` · score ${src.originalScore}/100` : ' · no numeric score in this memo format'}`);
+    const who = section(memo, 'Who pays and why');
+    const size = section(memo, 'Size of opportunity');
+    if (who) out.push(`- Who pays (Scout): ${esc(clip(who))}`);
+    if (size) out.push(`- Size claim (Scout): ${esc(clip(size))}`);
+    out.push('', `**New search and competitor evidence** — ${idea.market?.locationName ?? run.market.locationName} · ${idea.market?.languageCode ?? run.market.languageCode}${idea.market?.source === 'planner' && idea.market.reason ? ` (planner: ${esc(idea.market.reason)})` : ''}`, '');
+    out.push(`- Search demand: **${r.demand?.level ?? 'unknown'}** — ${esc(r.demand?.note ?? 'not measured')}`);
+    if (measured.length) out.push(`- Measured keywords: ${measured.map((k) => `"${esc(k.keyword)}" ${k.searchVolume}/mo${typeof k.cpcUsd === 'number' ? `, CPC $${k.cpcUsd.toFixed(2)}` : ''}`).join('; ')}; no data for ${idea.keywords.length - measured.length} of ${idea.keywords.length}`);
+    out.push(`- Commercial intent and payment: **${r.commercial?.level ?? 'unknown'}** — ${esc(r.commercial?.note ?? '')}`);
+    out.push(`- Competitors: ${esc(r.competitors?.note ?? 'not collected')}`);
+    if (a) {
+      out.push(`- Problem evidence (assessed, quote-checked): **${a.problemEvidence.level}**${a.problemEvidence.observed ? ` — ${esc(a.problemEvidence.observed)}` : ''}${a.problemEvidence.basis.length ? ` (${a.problemEvidence.basis.map((b) => b.id).join(', ')})` : ''}`);
+      if (a.competition.alternatives.length) out.push(`- Alternatives: ${a.competition.alternatives.map((x) => `${esc(x.name)} — ${esc(x.what)} (${x.basis.map((b) => b.id).join(', ')})`).join('; ')}`);
+    }
+    out.push('', '**What changed and why**', '');
+    if (a?.changes?.length) for (const c of a.changes) out.push(`- ${c.effect}: Scout said "${esc(c.original)}" → ${esc(c.finding)}${c.basis.length ? ` (${c.basis.map((b) => b.id).join(', ')})` : ''}`);
+    else out.push('- No change statement survived validation (each must quote the memo and, to claim an effect, cite quoted evidence).');
+    out.push('', '**Remaining uncertainty**', '');
+    const unknowns = idea.keywords.length - measured.length;
+    for (const u of a?.unproven ?? []) out.push(`- ${esc(u)}`);
+    if (unknowns) out.push(`- ${unknowns} of ${idea.keywords.length} planned keywords returned no search data (unknown, not zero).`);
+    if (a?.validation && (a.validation.rejectedCitations.length || a.validation.downgraded.length || a.validation.dropped.length)) out.push(`- The assessment's own over-claims were cut: ${a.validation.rejectedCitations.length} citation(s) without a matching quote, ${a.validation.downgraded.length} downgrade(s), ${a.validation.dropped.length} dropped claim(s).`);
+    if (!a) out.push('- Not assessed yet.');
+    out.push('', `**Cheapest useful validation experiment:** ${a?.nextExperiment?.what ? `${esc(a.nextExperiment.what)}${a.nextExperiment.cost ? ` _(cost: ${esc(a.nextExperiment.cost)}${a.nextExperiment.duration ? `, ${esc(a.nextExperiment.duration)}` : ''})_` : ''}` : 'not assessed yet'}`, '');
+    out.push(`**Continue if:** ${esc(a?.continueIf || 'not assessed yet')}`, '', `**Stop if:** ${esc(a?.stopIf || 'not assessed yet')}`, '');
+  });
+  writeFileSync(P.report, out.join('\n') + '\n');
+  console.log(`✓ ${P.report}`);
+  process.exit(0);
+}
+
+console.error('Usage: node scripts/pilot.mjs <select|plan|preview|gather|assess|check|report> --pilot evidence/pilots/<name>');
+process.exit(1);
