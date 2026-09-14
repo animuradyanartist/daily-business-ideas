@@ -14,6 +14,12 @@
 // Writes ideas/YYYY-MM-DD.md, a markets/ atlas, plus updates to
 // LEARNINGS.md, KILLED.md, MARKET_MAP.md, README.md, SCORES.md.
 // The workflow does the git commit + push.
+//
+// Evidence enrichment (scripts/lib/enrich.mjs) runs right after the scan shortlists
+// candidates: DataForSEO search demand + competitor evidence, written separately to
+// evidence/YYYY-MM-DD.{md,json}. It never feeds the stages below, so the original
+// assessment and score stay exactly as the pipeline produced them, and it can never
+// fail the run — an unavailable provider just leaves enrichment pending.
 
 import {
   writeFileSync,
@@ -23,6 +29,19 @@ import {
   mkdirSync,
 } from 'node:fs';
 import { join } from 'node:path';
+import { createGemini } from './lib/gemini.mjs';
+import {
+  readEnrichConfig,
+  buildDeps,
+  planIdeas,
+  newRun,
+  gatherEvidence,
+  assessEvidence,
+  attachOriginal,
+  loadRun,
+  saveRun,
+  statusSummary,
+} from './lib/enrich.mjs';
 
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
@@ -34,9 +53,33 @@ const TODAY = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
 
 const readSafe = (p) => (existsSync(p) ? readFileSync(p, 'utf8') : '');
 
-// Idempotency: if today's memo is already committed, do nothing.
+const { generate, generateJson } = createGemini(API_KEY);
+const gemini = { generate, generateJson };
+const enrichConfig = readEnrichConfig();
+const enrichDeps = buildDeps();
+
+// Idempotency: if today's memo is already committed, never research again. The backup
+// cron may still retry today's PENDING or PARTIAL evidence (live mode only, attempts
+// bounded). "unavailable" (credentials, balance, unsupported market) is not retried the
+// same day — nothing about it changes within the hour.
 if (existsSync(`ideas/${TODAY}.md`)) {
-  console.log(`ideas/${TODAY}.md already exists — skipping run.`);
+  console.log(`ideas/${TODAY}.md already exists — skipping research.`);
+  const run = loadRun(TODAY);
+  const needsWork = run?.ideas.some(
+    (i) =>
+      ((i.status === 'pending' || i.status === 'partial') && (i.attempts ?? 0) < enrichConfig.maxAttempts) ||
+      ((i.status === 'enriched' || i.status === 'partial') && !i.assessment),
+  );
+  if (run && enrichConfig.mode === 'live' && enrichConfig.maxIdeas > 0 && needsWork) {
+    try {
+      await gatherEvidence({ run, config: enrichConfig, deps: enrichDeps });
+      await assessEvidence({ run, gemini, models: enrichConfig.models });
+      saveRun(run);
+      console.log(`✓ Resumed evidence/${TODAY} — ${statusSummary(run)}`);
+    } catch (err) {
+      console.error(`[enrich] resume failed: ${err.message}`);
+    }
+  }
   process.exit(0);
 }
 
@@ -110,55 +153,7 @@ ${cap(killed, 4000) || '(empty)'}
 === Recent idea memos (last 5 — today must be clearly different) ===
 ${cap(recentIdeas, 8000) || '(no prior memos)'}`;
 
-// ---------- Gemini call with retry + Pro→Flash fallback ----------
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-async function rawCall(model, prompt, { temperature, maxTokens }, attempt = 1) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${API_KEY}`;
-  const body = {
-    contents: [{ parts: [{ text: prompt }] }],
-    tools: [{ google_search: {} }],
-    generationConfig: { temperature, maxOutputTokens: maxTokens },
-  };
-
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-
-  if (res.ok) return res.json();
-
-  const status = res.status;
-  const errBody = await res.text();
-  console.error(`${model} returned ${status}: ${errBody.slice(0, 250)}`);
-
-  if ((status === 429 || status >= 500) && attempt < 3) {
-    const wait = 2 ** attempt * 1000;
-    console.log(`Retrying ${model} in ${wait}ms…`);
-    await sleep(wait);
-    return rawCall(model, prompt, { temperature, maxTokens }, attempt + 1);
-  }
-  throw new Error(`${model} failed after ${attempt} attempts: ${status}`);
-}
-
-async function generate(label, prompt, { temperature = 0.5, maxTokens = 8192 } = {}) {
-  console.log(`[${label}] prompt ${prompt.length} chars — calling gemini-2.5-pro…`);
-  let data;
-  try {
-    data = await rawCall('gemini-2.5-pro', prompt, { temperature, maxTokens });
-  } catch (err) {
-    console.error(`[${label}] Pro exhausted retries — falling back to Flash.`);
-    data = await rawCall('gemini-2.5-flash', prompt, { temperature, maxTokens });
-  }
-  const text =
-    data.candidates?.[0]?.content?.parts?.map((p) => p.text || '').join('') || '';
-  if (!text || text.length < 80) {
-    throw new Error(`[${label}] empty / too-short output (${text.length} chars)`);
-  }
-  console.log(`[${label}] got ${text.length} chars`);
-  return text;
-}
 
 // ---------- The pipeline ----------
 const scan = await generate(
@@ -176,6 +171,25 @@ End with a section "## Shortlist" naming the 3 strongest candidates to investiga
   { temperature: 0.85, maxTokens: 5000 }
 );
 await sleep(1500);
+
+// ---------- Evidence enrichment for the shortlist (separate from the assessment) ----------
+let evidenceRun = null;
+if (enrichConfig.maxIdeas > 0) {
+  try {
+    const plans = await planIdeas({ gemini, sourceText: scan, sourceKind: 'scan', config: enrichConfig });
+    if (plans.length) {
+      evidenceRun = newRun({ date: TODAY, source: { kind: 'scan', memo: `ideas/${TODAY}.md` }, config: enrichConfig, plans });
+      // A failed earlier attempt today may have recorded spend; keep that audit trail.
+      const earlier = loadRun(TODAY);
+      if (earlier?.spend?.length) evidenceRun.spend = [...earlier.spend];
+      await gatherEvidence({ run: evidenceRun, config: enrichConfig, deps: enrichDeps });
+      saveRun(evidenceRun); // persist paid evidence before the remaining stages can fail
+      console.log(`[enrich] ${statusSummary(evidenceRun)} · provider ${evidenceRun.provider.status}`);
+    }
+  } catch (err) {
+    console.error(`[enrich] skipped — research continues: ${err.message}`);
+  }
+}
 
 const market = await generate(
   'market',
@@ -462,6 +476,11 @@ const marketMapUpdate = extractSection(memo, 'Market map update');
 const atlasEntry = extractSection(memo, 'Market atlas entry');
 
 // ---------- Write today's memo ----------
+if (evidenceRun) {
+  memo =
+    memo.trimEnd() +
+    `\n\n## Evidence enrichment\nSeparate from the score above, which is unchanged. Search-demand and competitor evidence for today's ${evidenceRun.ideas.length} shortlisted candidate(s) (${statusSummary(evidenceRun)}): [evidence/${TODAY}.md](../evidence/${TODAY}.md). Research only — not a build decision.\n`;
+}
 mkdirSync('ideas', { recursive: true });
 writeFileSync(`ideas/${TODAY}.md`, memo.endsWith('\n') ? memo : memo + '\n');
 
@@ -644,6 +663,18 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
     .map((r) => `| ${r.score} | ${r.band} | ${r.date} | ${r.idea} |`)
     .join('\n');
   writeFileSync('SCORES.md', `${header}\n${body}\n`);
+}
+
+// ---------- Enriched assessment (after the original memo is final) ----------
+if (evidenceRun) {
+  try {
+    attachOriginal(evidenceRun, { memoPath: `ideas/${TODAY}.md`, title: titleClean, score, conviction });
+    await assessEvidence({ run: evidenceRun, gemini, scoutContext: cap(scan, 3000), models: enrichConfig.models });
+  } catch (err) {
+    console.error(`[enrich] assessment skipped: ${err.message}`);
+  }
+  saveRun(evidenceRun);
+  console.log(`✓ Wrote evidence/${TODAY}.md — ${statusSummary(evidenceRun)}`);
 }
 
 console.log(`✓ Wrote ideas/${TODAY}.md (${memo.length} chars)`);

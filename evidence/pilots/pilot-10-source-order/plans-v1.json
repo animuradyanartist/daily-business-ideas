@@ -1,0 +1,378 @@
+{
+  "generatedAt": "2026-09-14T07:23:10.477Z",
+  "runner": {
+    "kind": "github-actions",
+    "runId": "34817600406",
+    "sha": "bc76d53710bba08d1f99d5089fbf5d021ad7b404",
+    "ref": "1/merge",
+    "workflow": "Enrichment model check (manual)"
+  },
+  "planner": {
+    "kind": "gemini",
+    "models": [
+      "gemini-2.5-flash",
+      "gemini-2.5-pro"
+    ]
+  },
+  "config": {
+    "markets": [
+      {
+        "locationName": "United States",
+        "languageCode": "en"
+      },
+      {
+        "locationName": "India",
+        "languageCode": "en"
+      },
+      {
+        "locationName": "Germany",
+        "languageCode": "de"
+      }
+    ],
+    "keywordsPerGroup": 3,
+    "serpsPerIdea": 2
+  },
+  "plans": {
+    "2026-04-27": {
+      "slug": "async-english-swipe-file-non-native-tech",
+      "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+      "problem": "Non-native English-speaking software professionals struggle to write native-sounding, appropriately toned async communications like Slack messages and PR comments, leading to misunderstandings or being overlooked.",
+      "targetCustomer": "Non-native English-speaking software professionals (engineers, PMs, designers) working on English-speaking remote or hybrid teams.",
+      "payer": "A non-native English-speaking software professional.",
+      "whyPayerPays": "They pay to gain confidence and improve the clarity and tone of their written English communication in professional tech settings, avoiding misinterpretations and advancing their careers.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The memo highlights H1B sponsorship jobs in the US and mentions US/UK/pan-EU companies, making the US a primary market for these professionals seeking to improve their English for work."
+      },
+      "keywords": {
+        "problem": [
+          "how to sound native english slack",
+          "non native english communication challenges",
+          "improve professional english writing tech"
+        ],
+        "solution": [
+          "business english phrases for developers",
+          "professional english communication templates",
+          "async english swipe file for tech"
+        ],
+        "buying": [
+          "best english phrases for software engineers",
+          "business english templates for tech pricing",
+          "buy professional english communication guide"
+        ]
+      },
+      "serpQueries": [
+        "business english templates for tech pricing",
+        "how to sound native english slack"
+      ]
+    },
+    "2026-04-28": {
+      "slug": "linkedin-native-carousel-caption-pack",
+      "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+      "problem": "Non-native English-speaking solo designers struggle to write engaging, native-sounding LinkedIn captions for their visually appealing carousels, leading to low post engagement or reluctance to post.",
+      "targetCustomer": "Non-native English-speaking solo designers, illustrators, or freelance creatives (graphic, UX, product, brand) building inbound on LinkedIn.",
+      "payer": "A non-native English-speaking solo designer, illustrator, or freelance creative.",
+      "whyPayerPays": "The payer wants to win remote clients or build a personal brand on LinkedIn but is hindered by language barriers in their content creation.",
+      "market": {
+        "location": "India",
+        "language": "en",
+        "reason": "India has a large population of English-speaking creative professionals who are often non-native speakers, making it a strong market for this specific language-focused problem."
+      },
+      "keywords": {
+        "problem": [
+          "linkedin post engagement low",
+          "struggle writing english captions",
+          "non native english linkedin help"
+        ],
+        "solution": [
+          "linkedin carousel templates captions",
+          "native english caption swipes",
+          "linkedin content starter kit"
+        ],
+        "buying": [
+          "linkedin content templates pricing",
+          "best linkedin content kit",
+          "linkedin content package cost"
+        ]
+      },
+      "serpQueries": [
+        "linkedin content templates pricing",
+        "struggle writing english captions"
+      ]
+    },
+    "2026-04-29": {
+      "slug": "ux-research-kit-non-native-designers",
+      "title": "The UX Research Kit for Non-Native UX Designers",
+      "problem": "Non-native English-speaking UX designers lack confidence in their linguistic ability to conduct nuanced user interviews and present findings persuasively.",
+      "targetCustomer": "A non-native English-speaking UX designer or researcher working for a US/UK company or serving English-speaking clients.",
+      "payer": "A non-native English-speaking UX designer or researcher.",
+      "whyPayerPays": "The payer needs to overcome a lack of confidence in their English linguistic ability for user interviews and presentations to advance their career.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The target customers work for US/UK companies or serve English-speaking clients, making the United States the most relevant market for English-language search."
+      },
+      "keywords": {
+        "problem": [
+          "non native ux interview challenges",
+          "language barrier user research",
+          "struggle with ux interviews english"
+        ],
+        "solution": [
+          "ux research templates non native",
+          "user interview script english",
+          "ux presentation phrases english"
+        ],
+        "buying": [
+          "ux research kit pricing",
+          "best user interview templates",
+          "buy ux research communication guide"
+        ]
+      },
+      "serpQueries": [
+        "ux research templates non native",
+        "language barrier user research"
+      ]
+    },
+    "2026-04-30": {
+      "slug": "design-presentation-kit-non-native-designers",
+      "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+      "problem": "Non-native English-speaking UX/product designers lack the linguistic tools and confidence to effectively present their work and defend design decisions in English-speaking professional settings.",
+      "targetCustomer": "Non-native English-speaking UX, UI, or product designers working in remote or international teams where English is the primary language.",
+      "payer": "Non-native English-speaking UX, UI, or product designers.",
+      "whyPayerPays": "They pay to overcome anxiety and improve their ability to articulate design decisions persuasively and confidently to native-speaking stakeholders.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The target customers are non-native English speakers working in English-speaking professional roles, and the US has a large tech industry with a diverse workforce where this problem is prevalent."
+      },
+      "keywords": {
+        "problem": [
+          "how to present design decisions",
+          "non native english speaker presentation anxiety",
+          "ux designer communication challenges"
+        ],
+        "solution": [
+          "design presentation templates figma",
+          "ux presentation script builder",
+          "design critique presentation kit"
+        ],
+        "buying": [
+          "design presentation kit pricing",
+          "best ux presentation templates",
+          "buy design presentation script"
+        ]
+      },
+      "serpQueries": [
+        "best ux presentation templates",
+        "non native english speaker presentation anxiety"
+      ]
+    },
+    "2026-05-01": {
+      "slug": "client-communication-kit-freelance-designers",
+      "title": "The Client Communication Kit for Non-Native Freelance Designers",
+      "problem": "Non-native English-speaking freelance designers struggle with confidence and professionalism in client communication, leading to misunderstandings, wasted time, and lost income.",
+      "targetCustomer": "A non-native English-speaking freelance designer (UX, UI, brand, graphic) who has secured an English-speaking client.",
+      "payer": "A non-native English-speaking freelance designer.",
+      "whyPayerPays": "They pay to overcome communication anxiety, prevent misunderstandings, and confidently manage client relationships, which directly impacts their professional reputation and income.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The product targets non-native English speakers communicating with English-speaking clients, and the US represents a large, established English-speaking freelance market."
+      },
+      "keywords": {
+        "problem": [
+          "freelance designer communication issues",
+          "non native english client communication",
+          "how to handle scope creep client"
+        ],
+        "solution": [
+          "freelance client communication templates",
+          "designer client email scripts",
+          "freelance proposal welcome kit"
+        ],
+        "buying": [
+          "freelance communication kit pricing",
+          "best client communication templates",
+          "freelance client communication tools"
+        ]
+      },
+      "serpQueries": [
+        "best client communication templates",
+        "non native english client communication"
+      ]
+    },
+    "2026-05-02": {
+      "slug": "portfolio-case-study-kit-non-native-designers",
+      "title": "The Portfolio Case Study Kit for Non-Native Designers",
+      "problem": "Non-native English-speaking designers struggle to write compelling, grammatically correct, and persuasive portfolio case studies that effectively showcase their work and land jobs.",
+      "targetCustomer": "Non-native English-speaking UX, UI, or product designers who are visually proficient but find it difficult to articulate their design process and results in written English.",
+      "payer": "Non-native English-speaking UX, UI, or product designers.",
+      "whyPayerPays": "A strong portfolio with a compelling narrative is critical for securing job opportunities or freelance clients, and a weak story costs them these opportunities.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The product addresses a problem for non-native English speakers globally, and the United States is a primary market for design jobs and English-language search."
+      },
+      "keywords": {
+        "problem": [
+          "how to write ux case study english",
+          "non native english designer portfolio help",
+          "struggle writing design case study"
+        ],
+        "solution": [
+          "ux case study writing template",
+          "design portfolio storytelling kit",
+          "case study copy paste phrases"
+        ],
+        "buying": [
+          "ux case study template pricing",
+          "best portfolio case study kit",
+          "hire ux portfolio writer cost"
+        ]
+      },
+      "serpQueries": [
+        "best portfolio case study kit",
+        "how to write ux case study english"
+      ]
+    },
+    "2026-05-03": {
+      "slug": "figma-handoff-kit-non-native-designers",
+      "title": "The Figma Handoff Kit for Non-Native Designers",
+      "problem": "Miscommunication between non-native English-speaking designers and developers leads to delays, rework, and damages the designer's credibility.",
+      "targetCustomer": "Non-native English-speaking product, UX, or UI designers working on a software team.",
+      "payer": "Non-native English-speaking product, UX, or UI designers working on a software team.",
+      "whyPayerPays": "The payer buys the kit to reduce miscommunication, improve efficiency, and enhance their professional credibility by providing clear design specifications.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The core problem is about clear English communication in design handoffs, and the United States has a large market of designers and developers, many of whom are non-native English speakers working in English-first environments."
+      },
+      "keywords": {
+        "problem": [
+          "design handoff communication problems",
+          "unclear design specifications developer",
+          "how to improve developer handoff"
+        ],
+        "solution": [
+          "developer handoff documentation template",
+          "figma design handoff kit",
+          "design specification writing guide"
+        ],
+        "buying": [
+          "figma handoff kit pricing",
+          "best design handoff tool",
+          "buy developer dictionary for designers"
+        ]
+      },
+      "serpQueries": [
+        "figma handoff kit pricing",
+        "design handoff communication problems"
+      ]
+    },
+    "2026-05-04": {
+      "slug": "ai-prompt-kit-non-native-designers",
+      "title": "The AI Prompt Kit for Non-Native Designers",
+      "problem": "Non-native English-speaking designers struggle to write effective AI prompts, leading to generic, low-quality outputs and wasted time.",
+      "targetCustomer": "non-native English-speaking UX, UI, or product designer",
+      "payer": "non-native English-speaking UX, UI, or product designer",
+      "whyPayerPays": "They know AI is a critical skill for their career, but struggle to get useful outputs from generative tools, and this kit helps them get higher-quality, less generic results, faster.",
+      "market": {
+        "location": "India",
+        "language": "en",
+        "reason": "India has a large population of non-native English-speaking designers and tech professionals who would benefit from improved AI prompting skills."
+      },
+      "keywords": {
+        "problem": [
+          "ai prompts generic results",
+          "struggle with ai prompts",
+          "how to write effective ai prompts"
+        ],
+        "solution": [
+          "design ai prompt templates",
+          "chatgpt prompts for designers",
+          "midjourney prompts for ui"
+        ],
+        "buying": [
+          "best ai prompt kit for designers",
+          "buy ai prompt templates",
+          "design ai prompt kit cost"
+        ]
+      },
+      "serpQueries": [
+        "best ai prompt kit for designers",
+        "how to write effective ai prompts"
+      ]
+    },
+    "2026-05-05": {
+      "slug": "ux-writing-kit-non-native-designers",
+      "title": "The UX Writing Kit for Non-Native Designers",
+      "problem": "Non-native English-speaking designers struggle to write clear, effective, and on-brand user interface copy for their designs, leading to anxiety and inefficiency.",
+      "targetCustomer": "Non-native English-speaking UX, UI, or product designers who are expected to write copy for their own designs.",
+      "payer": "A non-native English-speaking UX, UI, or product designer.",
+      "whyPayerPays": "The payer buys the kit to overcome anxiety, improve efficiency, and ensure their UI copy is clear, effective, and on-brand, avoiding time-consuming revisions.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The target audience uses English-speaking platforms like Reddit and the UX Writing Hub, which are globally accessible but often centered around US-based trends and content."
+      },
+      "keywords": {
+        "problem": [
+          "how to write ui copy non native",
+          "ux writing challenges non english speaker",
+          "struggle with microcopy as designer"
+        ],
+        "solution": [
+          "ux writing toolkit for designers",
+          "microcopy guide for product designers",
+          "ui copy templates figma"
+        ],
+        "buying": [
+          "best ux writing kit",
+          "buy microcopy toolkit",
+          "ux writing resources for non native"
+        ]
+      },
+      "serpQueries": [
+        "best ux writing kit",
+        "how to write ui copy non native"
+      ]
+    },
+    "2026-05-06": {
+      "slug": "design-critique-kit-non-native",
+      "title": "The Design Critique Kit for Non-Native Designers",
+      "problem": "Non-native English-speaking designers struggle to confidently participate in and lead design critiques, fearing miscommunication or sounding unprofessional.",
+      "targetCustomer": "Non-native English-speaking product, UX, or UI designers working in collaborative teams.",
+      "payer": "Non-native English-speaking product, UX, or UI designers.",
+      "whyPayerPays": "The payer spends money to overcome anxiety, improve professional communication, and advance their career by confidently engaging in design critiques.",
+      "market": {
+        "location": "United States",
+        "language": "en",
+        "reason": "The product addresses a specific English communication challenge for designers, and the US has a large market of professionals, including non-native English speakers, in design roles."
+      },
+      "keywords": {
+        "problem": [
+          "how to give design feedback",
+          "non native english speaker design critique",
+          "struggle with design critique"
+        ],
+        "solution": [
+          "design critique templates",
+          "professional english phrases for designers",
+          "design communication toolkit"
+        ],
+        "buying": [
+          "design critique kit pricing",
+          "best design critique tools",
+          "buy design communication guide"
+        ]
+      },
+      "serpQueries": [
+        "best design critique tools",
+        "non native english speaker design critique"
+      ]
+    }
+  },
+  "failures": {}
+}

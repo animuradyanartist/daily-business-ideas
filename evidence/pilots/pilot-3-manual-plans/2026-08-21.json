@@ -1,0 +1,814 @@
+{
+  "schema": 1,
+  "date": "2026-08-21",
+  "source": {
+    "kind": "memo",
+    "memo": "ideas/2026-08-21.md",
+    "planner": "manual"
+  },
+  "createdAt": "2026-09-14T06:05:12.853Z",
+  "updatedAt": "2026-09-14T06:14:06.553Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-08-21.md",
+    "title": "The small brewery's \"find my kegs\" tracker",
+    "score": 95,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-08-21:brewery-keg-tracker",
+      "slug": "brewery-keg-tracker",
+      "title": "The small brewery's \"find my kegs\" tracker",
+      "plan": {
+        "slug": "brewery-keg-tracker",
+        "title": "The small brewery's \"find my kegs\" tracker",
+        "problem": "Craft breweries lose kegs in distribution and cannot tell which accounts hold them.",
+        "targetCustomer": "Owners and operations managers of US craft breweries that distribute kegs",
+        "payer": "The brewery",
+        "whyPayerPays": "Each lost keg costs over a hundred dollars to replace.",
+        "keywords": {
+          "problem": [
+            "lost kegs brewery",
+            "how to track kegs",
+            "keg deposit tracking"
+          ],
+          "solution": [
+            "keg tracking software",
+            "keg tracking app",
+            "keg tracking qr code"
+          ],
+          "buying": [
+            "keg tracking software pricing",
+            "best keg tracking system",
+            "keg management software cost"
+          ]
+        },
+        "serpQueries": [
+          "keg tracking software",
+          "lost kegs brewery"
+        ]
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "lost kegs brewery",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K2",
+          "keyword": "how to track kegs",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K3",
+          "keyword": "keg deposit tracking",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K4",
+          "keyword": "keg tracking software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.43,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-13 12:26:09 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 40
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (13 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K5",
+          "keyword": "keg tracking app",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": -100,
+          "providerUpdatedAt": "2026-08-29 14:28:12 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (17 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K6",
+          "keyword": "keg tracking qr code",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K7",
+          "keyword": "keg tracking software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K8",
+          "keyword": "best keg tracking system",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        },
+        {
+          "id": "K9",
+          "keyword": "keg management software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:14.493Z"
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "keg tracking software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:15.148Z",
+          "checkUrl": "https://www.google.com/search?q=keg%20tracking%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "kegshoe.ca",
+              "url": "https://kegshoe.ca/",
+              "title": "Kegshoe | Keg Management Software and Sales CRM for ...",
+              "description": "Modern Keg Management and Sales CRM software. Kegshoe helps power efficient keg distribution, build stronger customer relationships, and increase draught sales. Read more",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 2,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/TheBrewery/comments/s0tuau/keg_tracking_what_works_and_what_doesnt/",
+              "title": "Keg tracking, What works and what doesn't? : r/TheBrewery",
+              "description": "Kegshoe is a great app for tracking. Slap a barcode on every keg and you could scan it into the system. Every time that keg moves it gets ... Read more",
+              "id": "S1.2",
+              "class": "discussion"
+            },
+            {
+              "rank": 3,
+              "domain": "kegchek.com",
+              "url": "https://kegchek.com/",
+              "title": "KegChek ▷ Beer Keg Tracking App | GPS Keg Tracking ...",
+              "description": "KegChek is a beer keg tracking app for breweries in the USA & Canada. Powerful keg tracking software with dynamic reporting tools. Affordable & easy to use.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.massbrewersguild.org",
+              "url": "https://www.massbrewersguild.org/news/2022/10/6/operations-the-5-essential-brewery-management-software-types",
+              "title": "Operations: The 5 essential brewery management software ...",
+              "description": "Oct 6, 2022 — Keg tracking helps you grab hold of potential keg loss costs. There are a few different ways to track kegs; keg use tracking software may use ... Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.waspbarcode.com",
+              "url": "https://www.waspbarcode.com/asset-tracking/keg-tracking",
+              "title": "Keg Tracking Software - Asset Management Solutions",
+              "description": "Wasp Asset keg tracking software gives you centralized visibility into your entire keg fleet. Track kegs from production to delivery and every stage in between. Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.goekos.com",
+              "url": "https://www.goekos.com/feature/keg-tracking_/",
+              "title": "Keg Tracking | Ekos Features",
+              "description": "Keg tracking in Ekos allows your team to manage kegs from production to taproom and customer locations, all within our software.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.slg.com",
+              "url": "https://www.slg.com/kegid/",
+              "title": "KegID Keg Tracking Services",
+              "description": "BevPros kegID keg tracking and management system reduces lost kegs and optimizes keg return cycles to maximize profitability.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "xerafy.com",
+              "url": "https://xerafy.com/post/kegs-rentals-efficiency-sustainability/",
+              "title": "RFID Keg Tracking for Brewery Logistics",
+              "description": "Learn how RFID helps breweries identify reusable kegs across filling, delivery, return, cleaning, maintenance, and ERP/logistics workflows.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/us/app/kegshoe-keg-tracking/id1069680850",
+              "title": "Kegshoe - Keg Tracking - App Store - Apple",
+              "description": "Jun 15, 2020 — Kegshoe is a keg tracking and asset tracking solution for breweries, cideries, wineries, and more. Scan your Kegshoe kegs directly from your ... Read more",
+              "id": "S1.10",
+              "class": "marketplace"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "lost kegs brewery",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:19.004Z",
+          "checkUrl": "https://www.google.com/search?q=lost%20kegs%20brewery&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "lostcoast.com",
+              "url": "https://lostcoast.com/",
+              "title": "Lost Coast Brewery |",
+              "description": "Call 707-267-9651. LOST COAST BREWERY is an award-winning brewery located in Eureka, California. (707) 267-9651 1600 Sunset Dr. Eureka, California 95503",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.brewersassociation.org",
+              "url": "https://www.brewersassociation.org/brewing-industry-updates/keg-etiquette/",
+              "title": "Keg Etiquette",
+              "description": "Feb 1, 2026 — The Cost of Lost Kegs Keg loss costs the U.S. brewing industry between 46 cents and $1.37 per barrel, acting as an enormous additional and ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.slg.com",
+              "url": "https://www.slg.com/blog/lost-kegs-why-it-pays-to-track/",
+              "title": "The Lost Kegs: Why It Pays to Track",
+              "description": "Nov 14, 2017 — Every brewery loses kegs. Kegs are expensive, and a brewery can only sell draft beer if there are kegs to fill. craft brewers lose (on average) ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "lostcabin.beer",
+              "url": "https://lostcabin.beer/",
+              "title": "Lost Cabin Beer Co.",
+              "description": "Every Thursday, the Hill City Beer Garden hosts a Happy Hour for our first responders, 4 to 7pm, and it's buy-one-get-one all happy hour long. Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/BarOwners/comments/1t8be7l/my_beer_vendors_are_regularly_missing_kegs_on_my/",
+              "title": "My beer vendors are regularly missing kegs on my deliveries.",
+              "description": "One or two missed kegs occasionally is understandable, but repeated “not loaded on truck” incidents usually mean their loading verification ... Read more",
+              "id": "S2.7",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "www.stonesphilly.com",
+              "url": "https://www.stonesphilly.com/product/lost-time-brewing-triskele-keg/9512",
+              "title": "LOST TIME BREWING TRISKELE KEG",
+              "description": "$180.00 - $215.99 ; Style: Stout - Irish Dry ; ABV: 4.5% ; IBU: N/A ; Availability: Limited ; Location: Philadelphia, Pennsylvania. Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.denverpost.com",
+              "url": "https://www.denverpost.com/2007/07/02/beer-kegs-missing-scrapped/",
+              "title": "Beer kegs missing, scrapped",
+              "description": "Jul 2, 2007 — brewers reporting missing kegs, resulting in an industrywide loss of up to $50 million a year, The Denver-based brewer saw its keg losses ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.lost40brewing.com",
+              "url": "https://www.lost40brewing.com/",
+              "title": "Lost Forty Brewing",
+              "description": "Our taproom and brewhouse is located in historic downtown Little Rock. We're open 7 days a week! Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.paulmueller.com",
+              "url": "https://www.paulmueller.com/academy/ways-kegs-are-losing-you-money?scLang=en",
+              "title": "4 Ways Kegs Are Losing You Money",
+              "description": "A 7.5 percent loss equals nine pints of beer you could have served to a paying customer. Over a year, losing nine pints per keg, those losses really add up. Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "slg.com",
+          "url": "https://www.slg.com/kegid/",
+          "finalUrl": "https://www.slg.com/kegid/",
+          "retrievedAt": "2026-09-14T06:05:23.728Z",
+          "status": 200,
+          "error": null,
+          "title": "KegID Keg Tracking Services | BevPros",
+          "description": "BevPros kegID keg tracking and management system reduces lost kegs and optimizes keg return cycles to maximize profitability.",
+          "priceMentions": [
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "D cost to implement? Your cost to start can be as little as $0, depending on your scanning needs. Implementation costs are"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "slg.com",
+          "url": "https://www.slg.com/pricing",
+          "finalUrl": "https://www.slg.com/pricing",
+          "retrievedAt": "2026-09-14T06:05:23.730Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "kegshoe.ca",
+          "url": "https://kegshoe.ca/",
+          "finalUrl": "https://kegshoe.ca/",
+          "retrievedAt": "2026-09-14T06:05:23.731Z",
+          "status": 200,
+          "error": null,
+          "title": "Kegshoe | Keg Management Software and Sales CRM for Breweries",
+          "description": "Keg management, sales monitoring, and brewery sales CRM platform. Powerful, affordable, and easy-to-use.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "kegshoe.ca",
+          "url": "https://kegshoe.ca/pricing",
+          "finalUrl": "https://kegshoe.ca/pricing",
+          "retrievedAt": "2026-09-14T06:05:23.732Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "lostcoast.com",
+          "url": "https://lostcoast.com/",
+          "finalUrl": "https://www.lostcoast.com/",
+          "retrievedAt": "2026-09-14T06:05:23.732Z",
+          "status": 200,
+          "error": null,
+          "title": "Lost Coast Brewery |",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "lostcoast.com",
+          "url": "https://lostcoast.com/pricing",
+          "finalUrl": "https://www.lostcoast.com/pricing",
+          "retrievedAt": "2026-09-14T06:05:23.732Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "matchesOriginalPick": true,
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "measuredCount": 2,
+          "totalCount": 9,
+          "top": {
+            "keyword": "keg tracking software",
+            "searchVolume": 10,
+            "id": "K4"
+          },
+          "byGroup": {
+            "solution": {
+              "keyword": "keg tracking software",
+              "searchVolume": 10,
+              "id": "K4"
+            }
+          },
+          "trends": {
+            "unknown": 2
+          },
+          "note": "Largest single keyword: \"keg tracking software\" at 10/month. 7 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "slg.com",
+            "kegshoe.ca",
+            "lostcoast.com",
+            "kegchek.com",
+            "brewersassociation.org",
+            "massbrewersguild.org",
+            "lostcabin.beer",
+            "waspbarcode.com",
+            "goekos.com",
+            "stonesphilly.com",
+            "xerafy.com",
+            "denverpost.com",
+            "lost40brewing.com",
+            "paulmueller.com"
+          ],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers)."
+        }
+      },
+      "evidenceFingerprint": "07d34b6d6d52ceaa",
+      "evidenceUpdatedAt": "2026-09-14T06:05:26.896Z"
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-14T06:05:14.493Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "costUsd": 0.0122,
+      "estimated": false,
+      "requested": 9,
+      "ledgerId": "f4ffb79a-f661-5a62-a60c-3d5ef780bd26",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:05:15.148Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "costUsd": 0.002,
+      "estimated": false,
+      "requested": 1,
+      "ledgerId": "f2007ed0-9d94-5e46-b41e-99dbdc732b43",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:05:19.004Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "costUsd": 0.002,
+      "estimated": false,
+      "requested": 1,
+      "ledgerId": "16e1bb60-e94e-5202-ab98-8f96407f805f",
+      "ledger": "recorded"
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "capUsd": 2,
+    "reserveUsd": 1,
+    "maxRunUsd": 0.1,
+    "monthToDateUsdBefore": 0.033,
+    "spentThisRunUsd": 0.0162,
+    "remainingForScoutUsd": 0.0838
+  },
+  "projection": {
+    "labsKeywords": 9,
+    "labsUsd": 0.0131,
+    "serpQueries": 2,
+    "serpUsd": 0.004,
+    "totalUsd": 0.0171
+  },
+  "assessmentError": "assessment not written: GEMINI_API_KEY is not set",
+  "lastGather": {
+    "at": "2026-09-14T06:14:06.553Z",
+    "mode": "live",
+    "pendingIdeas": 0,
+    "spentUsd": 0,
+    "note": "nothing pending — no requests made"
+  }
+}

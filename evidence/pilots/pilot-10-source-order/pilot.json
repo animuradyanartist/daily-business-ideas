@@ -1,0 +1,105 @@
+{
+  "id": "pilot-10-source-order",
+  "createdAt": "2026-09-14T07:21:30.068Z",
+  "selectionRule": "No explicit pilot queue exists, so the first 10 memos in Scout's original source order were selected: ideas/YYYY-MM-DD.md sorted by file name (the date Scout produced them), oldest first. Non-daily memos (e.g. ideas/2026-06-03-pattern-break.md) are not part of the daily source order.",
+  "queueChecked": [
+    "pilot/queue.json: not present",
+    "PILOT_QUEUE.md: not present",
+    "evidence/pilots/queue.json: not present",
+    "outcomes/pilot-queue.md: not present",
+    "outcomes/: 0 outcome file(s) (not a queue)",
+    "Telegram bot favorites (manual selection, Cloudflare KV): not read and not changed"
+  ],
+  "previousPilot": {
+    "dir": "evidence/pilots/pilot-3-manual-plans",
+    "ids": [
+      "2026-09-13",
+      "2026-09-11",
+      "2026-08-21"
+    ],
+    "overlapWithThisPilot": [],
+    "note": "Hand-written keyword plans, live data gathered 2026-09-14 ($0.1392 recorded in the shared ledger). Kept separately and unchanged."
+  },
+  "ideas": [
+    {
+      "id": "2026-04-27",
+      "memo": "ideas/2026-04-27.md",
+      "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "5b64c6428116886bf6e3e5c0a3ad9b1a932c29040704f0ef907ea2fd52ed3518"
+    },
+    {
+      "id": "2026-04-28",
+      "memo": "ideas/2026-04-28.md",
+      "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "d757c86cf6ab886faa765dc1f62261e4ecc0b8da94785c88e3665bb88f700223"
+    },
+    {
+      "id": "2026-04-29",
+      "memo": "ideas/2026-04-29.md",
+      "title": "The UX Research Kit for Non-Native UX Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "a5df7c237da0524ab15dfe13ca5053d2e9cd17ce7b00b48cafa99aa1d69335d3"
+    },
+    {
+      "id": "2026-04-30",
+      "memo": "ideas/2026-04-30.md",
+      "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "03c93e20230026a43d963503da309f2f147f16f84b0b9c8ce6dc091c03e88140"
+    },
+    {
+      "id": "2026-05-01",
+      "memo": "ideas/2026-05-01.md",
+      "title": "The Client Communication Kit for Non-Native Freelance Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "c5e2caefe87cf8bb8c720b6c134d6d27ccebd08aaaa5b87ba6341091ec217e07"
+    },
+    {
+      "id": "2026-05-02",
+      "memo": "ideas/2026-05-02.md",
+      "title": "The Portfolio Case Study Kit for Non-Native Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "849cf7483d90ca0306da8f984e3875372ddbc88574e97e03015c11583893e8a8"
+    },
+    {
+      "id": "2026-05-03",
+      "memo": "ideas/2026-05-03.md",
+      "title": "The Figma Handoff Kit for Non-Native Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "fdb4959db410fefce7780071c07df9684bd3ffebd9119171c7662e3648cbb270"
+    },
+    {
+      "id": "2026-05-04",
+      "memo": "ideas/2026-05-04.md",
+      "title": "The AI Prompt Kit for Non-Native Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "0dbedf6f0cf3c89d07c713e6ce97321d89c6608e799381414ae0cb987b614dc4"
+    },
+    {
+      "id": "2026-05-05",
+      "memo": "ideas/2026-05-05.md",
+      "title": "The UX Writing Kit for Non-Native Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "aab28f13e587fcebc8a977c0e28bb8161f3fff1cbd4b07ee7832ff3f1711db1d"
+    },
+    {
+      "id": "2026-05-06",
+      "memo": "ideas/2026-05-06.md",
+      "title": "The Design Critique Kit for Non-Native Designers",
+      "originalConviction": "high",
+      "originalScore": null,
+      "memoSha256": "d429ba78f797dc0d83ca92ae743efe83a6c968397f6f17a2e5069b2b7d1f0ecf"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "entries": {
+    "ads|united states|en|insurance commission reconciliation": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "insurance commission reconciliation",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|how to reconcile commission statements": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to reconcile commission statements",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|carrier commission errors": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "carrier commission errors",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|commission tracking software for insurance agents": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "commission tracking software for insurance agents",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|insurance commission reconciliation software": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "insurance commission reconciliation software",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|agency commission management": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "agency commission management",
+        "searchVolume": 0,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|commission tracker for insurance agency pricing": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "commission tracker for insurance agency pricing",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|best insurance agency commission software": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "best insurance agency commission software",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    },
+    "ads|united states|en|insurance commission software cost": {
+      "fetchedAt": "2026-09-14T06:09:36.861Z",
+      "returned": true,
+      "data": {
+        "keyword": "insurance commission software cost",
+        "searchVolume": null,
+        "monthlySearches": [],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": null,
+        "mainIntent": null,
+        "providerUpdatedAt": null
+      }
+    }
+  }
+}

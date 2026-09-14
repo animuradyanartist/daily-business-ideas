@@ -1,0 +1,74 @@
+{
+  "reviewedAt": "2026-09-14",
+  "method": "Every keyword that returned search data, in v2 and v3, was judged against the idea's memo. on-idea = the idea's own job or product; category = the product category the idea sells into (a fair signal for the category, not for the niche angle); broader = a wider market than the idea sells into (it should not decide the idea's demand level). Human judgement, not a validator.",
+  "scale": { "on-idea": "the idea's own job or product", "category": "the category the idea sells into", "broader": "a wider market than the idea" },
+  "judgements": {
+    "2026-04-27": {
+      "how to write professional english": "broader",
+      "business english phrases": "category",
+      "english for software engineers": "on-idea",
+      "business communication phrases": "category",
+      "professional english course": "broader"
+    },
+    "2026-04-28": {
+      "how to write linkedin posts": "category",
+      "linkedin carousel templates": "on-idea",
+      "linkedin content templates": "category",
+      "linkedin caption generator": "category",
+      "how to write linkedin captions": "on-idea",
+      "linkedin templates": "category",
+      "linkedin content ideas": "broader"
+    },
+    "2026-04-29": {
+      "ux research templates": "category",
+      "ux research kit": "on-idea",
+      "best ux research tools": "broader"
+    },
+    "2026-04-30": {
+      "design presentation templates": "on-idea",
+      "design communication course": "category",
+      "how to present design": "on-idea",
+      "design presentation tips": "on-idea",
+      "design template": "broader",
+      "best presentation tools": "broader"
+    },
+    "2026-05-01": {
+      "how to handle scope creep": "category",
+      "client communication templates": "on-idea",
+      "client proposal template": "category"
+    },
+    "2026-05-02": {
+      "how to write ux case study": "on-idea",
+      "case study template": "broader"
+    },
+    "2026-05-03": {
+      "best design handoff tools": "category",
+      "developer documentation template": "broader",
+      "design handoff tools": "category"
+    },
+    "2026-05-04": {
+      "how to write ai prompts": "broader",
+      "ai prompts": "broader",
+      "prompt engineering course cost": "broader"
+    },
+    "2026-05-05": {
+      "ux writing template": "category",
+      "microcopy examples": "category",
+      "ux writing guide": "category",
+      "ui writing examples": "category",
+      "ux writing tools": "category"
+    },
+    "2026-05-06": {
+      "how to give design feedback": "on-idea",
+      "design communication course": "category",
+      "design feedback software": "category"
+    }
+  },
+  "findings": [
+    "The head-term failures were fixed by the prompt alone: all 10 v3 drafts passed, so the repair request never fired in this run (it stays as a bounded safety net and is unit-tested only).",
+    "The prompt pushes toward broad category terms, and the demand level is the single largest measured keyword, so broader terms now decide the demand reading for 4 of 10 ideas (v2: 0). Coverage rose; so did the risk of over-reading demand.",
+    "Two ideas changed market between v2 and v3 (2026-05-01 India → United States, 2026-05-05 United States → India), so their coverage change is not purely a planning effect. 2026-05-05's v2 figures (\"microcopy examples\" 110/mo) were United States data.",
+    "\"kit\" still appears in v3 keywords (\"ux research kit\", \"freelance client kit\", \"case study kit\", \"ai prompt kit\") despite the prompt; one of them (\"ux research kit\", 10/mo) returned data."
+  ],
+  "recommendation": "Keep the v3 prompt for keyword shape and coverage, but do not let a broad head term set the demand level: have the planner tag each keyword as idea-scope or category-scope and compute the demand level from idea-scope keywords, showing category volume separately. Until then, read v3 demand levels together with the second table above. The daily pipeline stays in dry run, so this affects no live reading yet; it is a blocker before live mode."
+}

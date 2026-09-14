@@ -1,0 +1,1560 @@
+{
+  "schema": 1,
+  "date": "pilot-10-source-order",
+  "source": {
+    "kind": "pilot",
+    "planner": {
+      "kind": "gemini",
+      "models": [
+        "gemini-2.5-flash",
+        "gemini-2.5-pro"
+      ]
+    }
+  },
+  "createdAt": "2026-09-14T07:30:10.014Z",
+  "updatedAt": "2026-09-14T07:30:10.016Z",
+  "attempts": 1,
+  "mode": "dry-run",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": null,
+  "ideas": [
+    {
+      "id": "2026-04-27",
+      "slug": "async-english-tech-communication-phrases",
+      "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customers often work for US-based companies or in US-centric tech environments, and the problem is about professional English communication in that context."
+      },
+      "plan": {
+        "slug": "async-english-tech-communication-phrases",
+        "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+        "problem": "Non-native English-speaking software professionals struggle to communicate effectively and confidently in written async English within remote tech teams, often sounding rude or over-hedging.",
+        "targetCustomer": "Non-native English-speaking software professionals (engineers, PMs, designers) working remotely or hybrid for US, UK, or pan-EU companies.",
+        "payer": "A non-native English-speaking software professional (engineer, PM, designer).",
+        "whyPayerPays": "They pay to gain confidence and communicate more effectively and professionally in their English-speaking tech workplace, avoiding misinterpretations and career setbacks.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customers often work for US-based companies or in US-centric tech environments, and the problem is about professional English communication in that context."
+        },
+        "keywords": {
+          "problem": [
+            "how to write professional english",
+            "non native english communication issues",
+            "improve english for tech jobs"
+          ],
+          "solution": [
+            "business english phrases",
+            "professional communication templates",
+            "english for software engineers"
+          ],
+          "buying": [
+            "buy english communication guide",
+            "best english phrases for work",
+            "english for tech professionals course"
+          ]
+        },
+        "serpQueries": [
+          "business english phrases",
+          "non native english communication issues"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "how to write professional english",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "non native english communication issues",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "improve english for tech jobs",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "business english phrases",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "professional communication templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "english for software engineers",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "buy english communication guide",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best english phrases for work",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "english for tech professionals course",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-27.md",
+        "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-04-28",
+      "slug": "linkedin-content-for-non-native-designers",
+      "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The product is sold on Gumroad, targets remote clients, and the US is a large market for digital products and freelance services, making it a primary search location for such solutions."
+      },
+      "plan": {
+        "slug": "linkedin-content-for-non-native-designers",
+        "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+        "problem": "Non-native English-speaking solo designers struggle to create professional, native-sounding LinkedIn content that attracts clients.",
+        "targetCustomer": "Non-native English-speaking solo designers, illustrators, or freelance creatives (graphic, UX, product, brand) who want to win remote clients or build a personal brand on LinkedIn.",
+        "payer": "A non-native English-speaking solo designer, illustrator, or freelance creative.",
+        "whyPayerPays": "They pay to overcome language barriers and create effective LinkedIn content that helps them attract remote clients and build their personal brand.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The product is sold on Gumroad, targets remote clients, and the US is a large market for digital products and freelance services, making it a primary search location for such solutions."
+        },
+        "keywords": {
+          "problem": [
+            "linkedin content for non native",
+            "english writing for designers",
+            "how to write linkedin posts"
+          ],
+          "solution": [
+            "linkedin carousel templates",
+            "linkedin content templates",
+            "linkedin caption generator"
+          ],
+          "buying": [
+            "linkedin content pricing",
+            "best linkedin content tools",
+            "hire linkedin content writer"
+          ]
+        },
+        "serpQueries": [
+          "linkedin carousel templates",
+          "linkedin content for non native"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "linkedin content for non native",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "english writing for designers",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to write linkedin posts",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "linkedin carousel templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "linkedin content templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "linkedin caption generator",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "linkedin content pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best linkedin content tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "hire linkedin content writer",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-28.md",
+        "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-04-29",
+      "slug": "ux-research-kit-non-native-designers",
+      "title": "The UX Research Kit for Non-Native UX Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customers often work for US/UK companies or serve English-speaking clients, and the problem examples are from English-speaking forums, making the US market the most direct fit for search intent."
+      },
+      "plan": {
+        "slug": "ux-research-kit-non-native-designers",
+        "title": "The UX Research Kit for Non-Native UX Designers",
+        "problem": "Non-native English-speaking UX designers lack confidence and specific linguistic tools to conduct nuanced user interviews and present findings persuasively to native-speaking stakeholders.",
+        "targetCustomer": "Non-native English-speaking UX designers or researchers, likely from Europe, Asia, or Latin America, working for US/UK companies or serving English-speaking clients.",
+        "payer": "Non-native English-speaking UX designers or researchers.",
+        "whyPayerPays": "They pay to overcome language barriers, gain confidence, and improve their communication skills in high-stakes UX research and presentation scenarios, ultimately advancing their careers.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customers often work for US/UK companies or serve English-speaking clients, and the problem examples are from English-speaking forums, making the US market the most direct fit for search intent."
+        },
+        "keywords": {
+          "problem": [
+            "user interview language barrier",
+            "ux research communication issues",
+            "non native ux designer challenges"
+          ],
+          "solution": [
+            "ux research templates",
+            "user interview script english",
+            "ux communication guide"
+          ],
+          "buying": [
+            "ux research kit pricing",
+            "best ux interview templates",
+            "buy ux research tools"
+          ]
+        },
+        "serpQueries": [
+          "ux research templates",
+          "user interview language barrier"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "user interview language barrier",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "ux research communication issues",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "non native ux designer challenges",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "ux research templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "user interview script english",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ux communication guide",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "ux research kit pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best ux interview templates",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "buy ux research tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-29.md",
+        "title": "The UX Research Kit for Non-Native UX Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-04-30",
+      "slug": "design-presentation-kit-non-native-designers",
+      "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customer is a non-native English speaker working in an English-speaking professional environment, and the US is a major hub for tech and design jobs where English proficiency in presentations is critical."
+      },
+      "plan": {
+        "slug": "design-presentation-kit-non-native-designers",
+        "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+        "problem": "Non-native English-speaking designers experience high anxiety and difficulty presenting their work, defending decisions, and handling critical feedback from native-speaking stakeholders.",
+        "targetCustomer": "Non-native English-speaking UX, UI, or product designers working in remote or international teams where English is the primary language.",
+        "payer": "Non-native English-speaking UX, UI, or product designers.",
+        "whyPayerPays": "They pay to overcome language barriers and confidently articulate their design decisions, which is crucial for career advancement and job performance.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customer is a non-native English speaker working in an English-speaking professional environment, and the US is a major hub for tech and design jobs where English proficiency in presentations is critical."
+        },
+        "keywords": {
+          "problem": [
+            "design presentation anxiety",
+            "present ux design tips",
+            "non native english presentation"
+          ],
+          "solution": [
+            "design presentation templates",
+            "ux presentation script",
+            "design communication course"
+          ],
+          "buying": [
+            "design presentation kit pricing",
+            "best ux presentation templates",
+            "buy design presentation script"
+          ]
+        },
+        "serpQueries": [
+          "design presentation templates",
+          "design presentation anxiety"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "design presentation anxiety",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "present ux design tips",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "non native english presentation",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "design presentation templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "ux presentation script",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "design communication course",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "design presentation kit pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best ux presentation templates",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "buy design presentation script",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-30.md",
+        "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-05-01",
+      "slug": "client-communication-kit-freelance-designers",
+      "title": "The Client Communication Kit for Non-Native Freelance Designers",
+      "market": {
+        "locationName": "India",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "India has a large population of non-native English-speaking freelancers who serve global clients and would search for solutions in English."
+      },
+      "plan": {
+        "slug": "client-communication-kit-freelance-designers",
+        "title": "The Client Communication Kit for Non-Native Freelance Designers",
+        "problem": "Non-native English-speaking freelance designers struggle with confidence and effectiveness in written client communication, leading to wasted time, misunderstandings, and lost income.",
+        "targetCustomer": "A non-native English-speaking freelance designer (UX, UI, brand, graphic) who has secured an English-speaking client but lacks confidence in day-to-day communication.",
+        "payer": "A non-native English-speaking freelance designer.",
+        "whyPayerPays": "The payer would pay to overcome communication anxiety, prevent misunderstandings, and confidently manage client interactions to protect their income and professional reputation.",
+        "market": {
+          "location": "India",
+          "language": "en",
+          "reason": "India has a large population of non-native English-speaking freelancers who serve global clients and would search for solutions in English."
+        },
+        "keywords": {
+          "problem": [
+            "freelance communication problems",
+            "non native english speaker client communication",
+            "how to handle scope creep freelance"
+          ],
+          "solution": [
+            "client communication templates",
+            "freelance email scripts",
+            "business communication toolkit"
+          ],
+          "buying": [
+            "freelance client communication kit",
+            "best client onboarding templates",
+            "freelance proposal template cost"
+          ]
+        },
+        "serpQueries": [
+          "client communication templates",
+          "non native english speaker client communication"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "freelance communication problems",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "non native english speaker client communication",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to handle scope creep freelance",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "client communication templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "freelance email scripts",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "business communication toolkit",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "freelance client communication kit",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best client onboarding templates",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "freelance proposal template cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-01.md",
+        "title": "The Client Communication Kit for Non-Native Freelance Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-05-02",
+      "slug": "portfolio-case-study-kit-non-native",
+      "title": "The Portfolio Case Study Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target audience is non-native English speakers globally, and the US market represents a large segment of the design industry where English proficiency in portfolios is critical."
+      },
+      "plan": {
+        "slug": "portfolio-case-study-kit-non-native",
+        "title": "The Portfolio Case Study Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to write compelling, clear, and persuasive narratives for their portfolio case studies, costing them job opportunities.",
+        "targetCustomer": "Non-native English-speaking UX, UI, or product designers who are visually proficient but struggle to articulate their design process and results in natural, persuasive English.",
+        "payer": "A non-native English-speaking UX, UI, or product designer.",
+        "whyPayerPays": "They pay to overcome the high-stakes problem of a weak portfolio narrative that fails to convince hiring managers and costs them job opportunities.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target audience is non-native English speakers globally, and the US market represents a large segment of the design industry where English proficiency in portfolios is critical."
+        },
+        "keywords": {
+          "problem": [
+            "how to write design case study",
+            "non native english portfolio help",
+            "struggle writing ux case study"
+          ],
+          "solution": [
+            "design case study templates",
+            "portfolio storytelling script",
+            "ux case study writing guide"
+          ],
+          "buying": [
+            "design portfolio template pricing",
+            "best ux case study kit",
+            "hire portfolio case study writer"
+          ]
+        },
+        "serpQueries": [
+          "design case study templates",
+          "how to write design case study"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "how to write design case study",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "non native english portfolio help",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "struggle writing ux case study",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "design case study templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "portfolio storytelling script",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ux case study writing guide",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "design portfolio template pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best ux case study kit",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "hire portfolio case study writer",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-02.md",
+        "title": "The Portfolio Case Study Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-05-03",
+      "slug": "figma-handoff-kit-non-native-designers",
+      "title": "The Figma Handoff Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The United States has a large tech industry with many non-native English-speaking designers who need to communicate effectively with developers."
+      },
+      "plan": {
+        "slug": "figma-handoff-kit-non-native-designers",
+        "title": "The Figma Handoff Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to create clear, unambiguous handoff documentation for developers, leading to miscommunication, project delays, and rework.",
+        "targetCustomer": "A non-native English-speaking product, UX, or UI designer working on a software team.",
+        "payer": "A non-native English-speaking product, UX, or UI designer working on a software team.",
+        "whyPayerPays": "The payer buys the kit to avoid miscommunication with developers, which causes project delays, rework, and damages their professional credibility.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The United States has a large tech industry with many non-native English-speaking designers who need to communicate effectively with developers."
+        },
+        "keywords": {
+          "problem": [
+            "design handoff problems",
+            "developer communication issues",
+            "how to write design specs"
+          ],
+          "solution": [
+            "design handoff template",
+            "figma documentation kit",
+            "ux specification tool"
+          ],
+          "buying": [
+            "best design handoff tools",
+            "design documentation template cost",
+            "buy design spec template"
+          ]
+        },
+        "serpQueries": [
+          "best design handoff tools",
+          "design handoff problems"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "design handoff problems",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "developer communication issues",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to write design specs",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "design handoff template",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "figma documentation kit",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ux specification tool",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "best design handoff tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "design documentation template cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "buy design spec template",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-03.md",
+        "title": "The Figma Handoff Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-05-04",
+      "slug": "ai-prompt-kit-designers",
+      "title": "The AI Prompt Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The product targets a global audience of non-native English speakers, and the United States is a primary market for digital products and tech-related services in English."
+      },
+      "plan": {
+        "slug": "ai-prompt-kit-designers",
+        "title": "The AI Prompt Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to get useful, high-quality outputs from generative AI tools due to simple prompts and language barriers.",
+        "targetCustomer": "Non-native English-speaking UX, UI, or product designers.",
+        "payer": "Non-native English-speaking UX, UI, or product designers.",
+        "whyPayerPays": "They need to master AI for their career and are willing to pay for structured prompts and guidance to overcome generic results and language difficulties.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The product targets a global audience of non-native English speakers, and the United States is a primary market for digital products and tech-related services in English."
+        },
+        "keywords": {
+          "problem": [
+            "ai design generic results",
+            "non native english ai prompts",
+            "improve ai design output"
+          ],
+          "solution": [
+            "ai prompts for designers",
+            "design ai prompt templates",
+            "ux ui ai workflow"
+          ],
+          "buying": [
+            "best ai prompts design",
+            "ai design prompt pricing",
+            "buy design ai prompts"
+          ]
+        },
+        "serpQueries": [
+          "ai prompts for designers",
+          "improve ai design output"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ai design generic results",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "non native english ai prompts",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "improve ai design output",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "ai prompts for designers",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "design ai prompt templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ux ui ai workflow",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "best ai prompts design",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "ai design prompt pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "buy design ai prompts",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-04.md",
+        "title": "The AI Prompt Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-05-05",
+      "slug": "ux-writing-kit-non-native-designers",
+      "title": "The UX Writing Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem is specifically about writing English UI copy, and the target customer engages in English-speaking online communities like Reddit's r/uxwriting and r/UXDesign."
+      },
+      "plan": {
+        "slug": "ux-writing-kit-non-native-designers",
+        "title": "The UX Writing Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to write clear, effective, and on-brand user interface copy, leading to anxiety and inefficiency.",
+        "targetCustomer": "A non-native English-speaking UX, UI, or product designer who is expected to write UI copy for their designs.",
+        "payer": "A non-native English-speaking UX, UI, or product designer.",
+        "whyPayerPays": "They pay to reduce anxiety, improve efficiency, and ensure their UI copy is clear, effective, and on-brand, avoiding time-consuming revisions.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem is specifically about writing English UI copy, and the target customer engages in English-speaking online communities like Reddit's r/uxwriting and r/UXDesign."
+        },
+        "keywords": {
+          "problem": [
+            "ux writing non native",
+            "struggle writing ui copy",
+            "how to write microcopy"
+          ],
+          "solution": [
+            "ux writing template",
+            "microcopy examples",
+            "ui copy guide"
+          ],
+          "buying": [
+            "ux writing toolkit",
+            "best ux writing tools",
+            "microcopy guide price"
+          ]
+        },
+        "serpQueries": [
+          "ux writing toolkit",
+          "struggle writing ui copy"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ux writing non native",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "struggle writing ui copy",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to write microcopy",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "ux writing template",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "microcopy examples",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ui copy guide",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "ux writing toolkit",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best ux writing tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "microcopy guide price",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-05.md",
+        "title": "The UX Writing Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    },
+    {
+      "id": "2026-05-06",
+      "slug": "design-critique-kit-non-native",
+      "title": "The Design Critique Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customers are non-native English speakers working in collaborative teams, and the US has a large tech industry with many such roles, making it a plausible primary market for English-language resources."
+      },
+      "plan": {
+        "slug": "design-critique-kit-non-native",
+        "title": "The Design Critique Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to confidently participate in and lead design critiques, fearing miscommunication or sounding unprofessional.",
+        "targetCustomer": "A non-native English-speaking product, UX, or UI designer working in a collaborative team.",
+        "payer": "A non-native English-speaking product, UX, or UI designer working in a collaborative team.",
+        "whyPayerPays": "They pay to overcome anxiety in design critiques, improve communication skills, and avoid career stagnation or costly rework due to misaligned feedback.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customers are non-native English speakers working in collaborative teams, and the US has a large tech industry with many such roles, making it a plausible primary market for English-language resources."
+        },
+        "keywords": {
+          "problem": [
+            "non native english design critique",
+            "how to give design feedback",
+            "design critique anxiety"
+          ],
+          "solution": [
+            "design critique templates",
+            "design feedback scripts",
+            "design communication guide"
+          ],
+          "buying": [
+            "design critique kit pricing",
+            "best design critique tools",
+            "buy design feedback templates"
+          ]
+        },
+        "serpQueries": [
+          "design critique templates",
+          "non native english design critique"
+        ]
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "non native english design critique",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "how to give design feedback",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "design critique anxiety",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "design critique templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "design feedback scripts",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "design communication guide",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "design critique kit pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best design critique tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "buy design feedback templates",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-06.md",
+        "title": "The Design Critique Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T07:30:12.135Z"
+    }
+  ],
+  "spend": [],
+  "provider": {
+    "status": "dry-run",
+    "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+    "warnings": [
+      "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\")."
+    ]
+  },
+  "budget": {
+    "backend": "legacy-ledger",
+    "atomic": false,
+    "capUsd": 2,
+    "reserveUsd": 1,
+    "maxRunUsd": 0.1,
+    "sharedBefore": {
+      "capUsd": 2,
+      "chargedUsd": 0.1392,
+      "heldUsd": 0,
+      "uncertainHolds": null
+    },
+    "monthToDateUsdBefore": 0.1392,
+    "spentThisRunUsd": 0
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    },
+    "india|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2356,
+      "checkedAt": "2026-09-14T07:30:12.131Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 2,
+    "labsKeywords": 90,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.0348,
+    "serpQueries": 20,
+    "serpsFromCache": 0,
+    "serpUsd": 0.04,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 9,
+        "keywordsToBuy": 81
+      },
+      {
+        "location": "India",
+        "language": "en",
+        "ideas": 1,
+        "keywordsToBuy": 9
+      }
+    ],
+    "totalUsd": 0.0748,
+    "reservedUsd": 0.0823
+  },
+  "lastGather": {
+    "at": "2026-09-14T07:30:12.135Z",
+    "mode": "dry-run",
+    "pendingIdeas": 10,
+    "spentUsd": 0,
+    "note": null
+  }
+}

@@ -8,11 +8,16 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch: # manual run button
 
+# Never let the primary and backup runs overlap (evidence cache + spend ledger).
+concurrency:
+  group: daily-research
+  cancel-in-progress: false
+
 jobs:
   research:
     runs-on: ubuntu-latest
-    # 6-stage Gemini pipeline; bound the run so a hung call can't burn minutes.
-    timeout-minutes: 20
+    # 6-stage Gemini pipeline + bounded evidence enrichment; a hung call can't burn minutes.
+    timeout-minutes: 25
     permissions:
       contents: write
     steps:
@@ -27,10 +32,29 @@ jobs:
       - name: Run daily research
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Evidence enrichment (DataForSEO). Paid requests happen ONLY when the repo
+          # variable SCOUT_DFS_MODE is "live" AND credentials, the shared cap and the
+          # shared budget functions are all configured. Otherwise it is a dry run / pending.
+          # Budget access is the project's anon key + Scout's own client token — never a
+          # service-role key.
+          SCOUT_DFS_MODE: ${{ vars.SCOUT_DFS_MODE || 'dry-run' }}
+          SCOUT_MARKETS: ${{ vars.SCOUT_MARKETS }}
+          SCOUT_ENRICH_MAX_IDEAS: ${{ vars.SCOUT_ENRICH_MAX_IDEAS }}
+          SCOUT_DFS_MAX_RUN_USD: ${{ vars.SCOUT_DFS_MAX_RUN_USD }}
+          SCOUT_DFS_RESERVE_USD: ${{ vars.SCOUT_DFS_RESERVE_USD }}
+          DATAFORSEO_MONTHLY_USD_CAP: ${{ vars.DATAFORSEO_MONTHLY_USD_CAP }}
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+          DATAFORSEO_BUDGET_URL: ${{ vars.DATAFORSEO_BUDGET_URL }}
+          DATAFORSEO_BUDGET_ANON_KEY: ${{ secrets.DATAFORSEO_BUDGET_ANON_KEY }}
+          DATAFORSEO_BUDGET_TOKEN: ${{ secrets.DATAFORSEO_BUDGET_TOKEN }}
         run: node scripts/daily-research.mjs
 
       - name: Commit and push
         id: commit
+        # Runs even when research failed, so provider data that was already PAID for
+        # (evidence cache + unrecorded-charge outbox) is never thrown away.
+        if: always()
         run: |
           set -e
           DATE=$(date -u +%Y-%m-%d)
@@ -43,17 +67,39 @@ jobs:
             exit 0
           fi
 
-          # Pull the title from today's memo for the commit message
-          TITLE=$(head -1 "ideas/${DATE}.md" | sed 's/^#[[:space:]]*//' | tr -d '\r')
-          if [ -z "${TITLE}" ]; then
-            TITLE="daily idea"
+          if git diff --cached --name-only --diff-filter=A | grep -qx "ideas/${DATE}.md"; then
+            # Pull the title from today's memo for the commit message
+            TITLE=$(head -1 "ideas/${DATE}.md" | sed 's/^#[[:space:]]*//' | tr -d '\r')
+            if [ -z "${TITLE}" ]; then
+              TITLE="daily idea"
+            fi
+
+            # Pull conviction + score
+            CONVICTION=$(grep -oE 'conviction:\s*(high|medium|low)' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "medium")
+            SCORE=$(grep -oE 'score:\s*[0-9]{1,3}/100' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "")
+
+            git commit -m "idea(${DATE}): ${TITLE}"
+            NEW_MEMO=true
+          else
+            # No new memo: commit ONLY evidence — a resumed enrichment, or the paid cache
+            # from a run that failed before writing its memo. Knowledge files stay untouched.
+            git reset -q
+            if [ -f "ideas/${DATE}.md" ]; then
+              git add -A -- evidence
+              MSG="evidence(${DATE}): enrichment update"
+            else
+              git add -A -- evidence/cache
+              [ -f evidence/ledger-outbox.json ] && git add -- evidence/ledger-outbox.json
+              MSG="evidence(${DATE}): keep paid provider data after a failed run"
+            fi
+            if git diff --cached --quiet; then
+              echo "Nothing to commit"
+              echo "committed=false" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            git commit -m "${MSG}"
+            NEW_MEMO=false
           fi
-
-          # Pull conviction + score
-          CONVICTION=$(grep -oE 'conviction:\s*(high|medium|low)' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "medium")
-          SCORE=$(grep -oE 'score:\s*[0-9]{1,3}/100' "ideas/${DATE}.md" | head -1 | sed 's/.*:\s*//' || echo "")
-
-          git commit -m "idea(${DATE}): ${TITLE}"
 
           # Push resiliently: another scheduled workflow may have pushed to main
           # between checkout and now. Rebase onto latest and retry.
@@ -68,7 +114,7 @@ jobs:
             fi
           done
 
-          echo "committed=true" >> $GITHUB_OUTPUT
+          echo "committed=${NEW_MEMO}" >> $GITHUB_OUTPUT
           echo "title=${TITLE}" >> $GITHUB_OUTPUT
           echo "conviction=${CONVICTION}" >> $GITHUB_OUTPUT
           echo "score=${SCORE}" >> $GITHUB_OUTPUT
