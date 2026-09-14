@@ -51,12 +51,20 @@ export function effectiveCustomer(j, qualifiers, itemText = null) {
   return 'same';
 }
 
-const TRAIT_STOP = new Set(['non', 'and', 'or', 'the', 'a', 'an', 'of', 'in', 'on', 'for', 'to', 'with', 'who', 'their', 'at', 'as', 'by', 'from', 'work', 'works', 'working']);
+const TRAIT_STOP = new Set(['non', 'and', 'or', 'the', 'a', 'an', 'of', 'in', 'on', 'for', 'to', 'with', 'who', 'their', 'at', 'as', 'by', 'from']);
+// Words that appear in a trait but do not identify it on their own ("English-SPEAKING", "WORKING on a team"):
+// matching only these would let "when you don't speak the same language" count as "non-native English-speaking".
+const TRAIT_WEAK = new Set(['speak', 'speaks', 'speaking', 'speaker', 'speakers', 'spoken', 'work', 'works', 'working', 'based', 'people', 'person', 'professional', 'professionals', 'user', 'users']);
 const words = (t) => norm(t).replace(/[^\p{L}\p{N}]+/gu, ' ').split(' ').filter(Boolean);
-/** Lenient: any content word of the trait (5-letter stem, or whole word if shorter) appears in the text. Pure. */
+/**
+ * Lenient: any identifying word of the trait (5-letter stem, or whole word if shorter) appears in the
+ * text. Weak words count only for a trait made of nothing else. Pure.
+ */
 export function traitInText(trait, text) {
   const hay = words(text);
-  const tokens = words(trait).filter((w) => !TRAIT_STOP.has(w));
+  const content = words(trait).filter((w) => !TRAIT_STOP.has(w));
+  const identifying = content.filter((w) => !TRAIT_WEAK.has(w));
+  const tokens = identifying.length ? identifying : content;
   return tokens.some((tok) => (tok.length >= 5 ? hay.some((h) => h.startsWith(tok.slice(0, 5))) : hay.includes(tok)));
 }
 

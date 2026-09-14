@@ -255,6 +255,11 @@ test('not over-strict: an item that states every trait stays direct, with the us
   assert.ok(traitInText('Non-native English-speaking', 'Tips for non-native speakers of English'));
   assert.ok(traitInText('freelance designer', 'How freelancers handle clients'));
   assert.ok(!traitInText('Non-native English-speaking', 'User Research Study: Breaking Language Barriers'));
+  // Live run 34838611190: S2.6 was accepted as "non-native English-speaking" only through "speak".
+  const s26 = "UX research and language barriers - the best tips May 17, 2021 — Ux research and language barriers discusses how you run your research projects when you don't speak the same language as your target group.";
+  assert.ok(!traitInText('Non-native English-speaking', s26));
+  assert.equal(effectiveCustomer({ customer: 'same', customerMatches: ['Non-native English-speaking', 'UX designer'] }, ['Non-native English-speaking', 'UX designer'], s26), 'unclear');
+  assert.ok(traitInText('works on a software team', 'Software teams and handoff')); // weak words dropped, "software"/"team" identify
   // Stated limit: a synonym with no shared word ("ESL") is not recognised — the item is flagged "unverified", not silently dropped.
   assert.equal(effectiveCustomer({ customer: 'same', customerMatches: qualifiers }, qualifiers, 'ESL product designers share their presentation fears'), 'unclear');
 });

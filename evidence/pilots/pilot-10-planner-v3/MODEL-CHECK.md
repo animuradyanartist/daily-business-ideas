@@ -1,6 +1,6 @@
 # Model check — pilot-10-planner-v3
 
-_Generated 2026-09-14T11:29:20.380Z by `node scripts/pilot.mjs check`. Automated checks; read the evidence file for the full assessments._
+_Generated 2026-09-14T11:46:25.009Z by `node scripts/pilot.mjs check`. Automated checks; read the evidence file for the full assessments._
 
 Planner: gemini gemini-2.5-flash → gemini-2.5-pro · runner: github-actions run 34832567254 (1/merge @ 94f542c)
 

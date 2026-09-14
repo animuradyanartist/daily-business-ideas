@@ -29,7 +29,7 @@ Non-native English-speaking software professionals struggle to communicate effec
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. No keyword was judged directly relevant to the idea, so idea-level demand is unknown. Category-level: low ("business communication phrases" 10/mo); broader market: some ("professional english course" 110/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 5 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low ("business communication phrases" 10/mo); broader market: some ("professional english course" 110/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Category-level search demand (context, not idea demand) | low | Largest: "business communication phrases" 10/mo |
 | Broader-market search demand (context, not idea demand) | some | Largest: "professional english course" 110/mo |
 | Commercial intent and payment | moderate | Advertisers bid on 1 commercial keyword(s) (highest CPC $5.54 on "business communication phrases"). CPC is an advertiser bid, not a customer's willingness to pay. |
@@ -39,15 +39,15 @@ Non-native English-speaking software professionals struggle to communicate effec
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | non native english communication | problem | category — This is a general search for any non-native English speaker about communication, not specifically for software professionals in async settings. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | professional english writing help | problem | category — This is a broad search for any professional needing help with English writing, not just non-native software professionals. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | sound native english work | problem | category — This search is for any non-native professional wanting to sound more native at work, not specifically for software professionals' written communication. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | english phrase templates | solution | broader — This is a very broad search for English phrase templates for any purpose, not specifically for professional async communication in software. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K5 | professional english templates | solution | category — This search is for any professional looking for English templates, not specifically for the async software communication context. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | business communication phrases | solution | category — This is a general search for business communication phrases, applicable to many roles beyond software professionals. | 10 | unknown | 5.54 | LOW | Labs |
-| K7 | buy english templates | buying | broader — This is a very broad search for any kind of English templates, not specifically for professional software communication. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K8 | professional english course | buying | broader — This search is for a broader solution (a course) for any professional, not a specific swipe file for software professionals. | 110 | flat (+17%) | 18.42 | LOW | Labs |
-| K9 | business english learning tools | buying | category — This search is for general tools for learning business English, not a specific swipe file for software professionals' async communication. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | non native english communication | problem | direct — The searcher is a non-native English speaker concerned with communication, which matches the customer and problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | professional english writing help | problem | direct — The search is for help with professional English writing, which is the core problem the idea addresses for a group that includes the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | sound native english work | problem | direct — The searcher wants to sound like a native English speaker at work, which is the core motivation behind the problem the idea solves. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | english phrase templates | solution | direct — The search is for English phrase templates, which is a specific form of the proposed solution. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K5 | professional english templates | solution | direct — The search is for templates for professional English, which is exactly what the solution provides. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | business communication phrases | solution | category — The search is for general business communication phrases, a broader category than the idea's specific focus on async software communication. | 10 | unknown | 5.54 | LOW | Labs |
+| K7 | buy english templates | buying | category — The search is for any kind of English templates to buy, a broader category than the specific swipe files offered. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K8 | professional english course | buying | broader — The search is for a course, which is a different type of solution (education) than the idea's swipe file (tool). | 110 | flat (+17%) | 18.42 | LOW | Labs |
+| K9 | business english learning tools | buying | category — The search is for the general category of tools for learning business English, of which the idea is one specific instance. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
@@ -81,9 +81,9 @@ Non-native English-speaking solo designers struggle to write native-sounding Lin
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 1 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some ("linkedin templates" 390/mo); broader market: low ("linkedin content ideas" 50/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Search demand for this idea (directly relevant keywords only) | low (up to some — flagged) | Idea-level demand (directly relevant keywords only): low (up to "some" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: "how to write linkedin captions" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some ("linkedin templates" 390/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Category-level search demand (context, not idea demand) | some | Largest: "linkedin templates" 390/mo |
-| Broader-market search demand (context, not idea demand) | low | Largest: "linkedin content ideas" 50/mo |
+| Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
 | Commercial intent and payment | moderate | Advertisers bid on 2 commercial keyword(s) (highest CPC $10.63 on "linkedin templates"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. |
 | Competitors | unknown | Not assessed yet. No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative. |
 | Feasibility of a small first experiment | unknown | Not assessed yet. |
@@ -91,21 +91,26 @@ Non-native English-speaking solo designers struggle to write native-sounding Lin
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | linkedin writing help non native | problem | direct — This search directly addresses the core problem of writing on LinkedIn for non-native speakers, which is the idea's focus. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | how to write linkedin captions | problem | category — This is a general search for anyone wanting to write LinkedIn captions, not specifically for non-native designers. | 10 | unknown | unknown | LOW | Labs |
-| K3 | linkedin post english mistakes | problem | category — This search is for anyone concerned about making English mistakes on LinkedIn, not just non-native designers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | linkedin templates | solution | category — This is a broad search for any kind of LinkedIn template, not specifically carousel and caption templates for non-native designers. | 390 | declining (-28%) | 10.63 | LOW | Labs |
-| K5 | linkedin carousel templates | solution | category — This search is for the visual carousel templates for any LinkedIn user, missing the non-native English writing problem. | 110 | declining (-44%) | 1.80 | HIGH | Labs |
-| K6 | linkedin content ideas | solution | broader — This search is for anyone looking for content ideas for LinkedIn, not specifically for writing help for non-native designers. | 50 | unknown | 6.33 | LOW | Labs |
-| K7 | buy linkedin templates | buying | category — This is a broad search to purchase any type of LinkedIn template, not specifically for non-native designers' content needs. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K8 | linkedin content pricing | buying | uncertain — This search is likely from someone selling LinkedIn content services, not a designer looking to buy templates to create their own content. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | best linkedin content tools | buying | category — This is a general search for tools to create LinkedIn content, not specifically for a solution addressing non-native English writing challenges. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | linkedin writing help non native | problem | direct — The search is for help with LinkedIn writing for non-native speakers, which is the core problem for the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | how to write linkedin captions | problem | direct — The search is for help writing LinkedIn captions, which is a core part of the problem the idea solves. | 10 | unknown | unknown | LOW | Labs |
+| K3 | linkedin post english mistakes | problem | direct — The searcher is worried about making English mistakes on LinkedIn, which is the specific problem the idea addresses for non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | linkedin templates | solution | category — The search is for general LinkedIn templates, a broader category than the idea's specific carousel and caption templates for designers. | 390 | declining (-28%) | 10.63 | LOW | Labs |
+| K5 | linkedin carousel templates | solution | direct — The search is for LinkedIn carousel templates, which is a core component of the idea's offering. | 110 | declining (-44%) | 1.80 | HIGH | Labs |
+| K6 | linkedin content ideas | solution | uncertain — The search is for content ideas, which is an adjacent problem to creating the content itself, which the idea's templates solve. | 50 | unknown | 6.33 | LOW | Labs |
+| K7 | buy linkedin templates | buying | category — The search shows intent to buy LinkedIn templates, a general category that includes the idea's specific offering for designers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K8 | linkedin content pricing | buying | uncertain — The searcher is likely a service provider pricing their work, not a solo designer looking for tools to create their own content. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | best linkedin content tools | buying | category — The search is for the broad category of LinkedIn content tools, of which the idea is one specific type. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
+### Relevance judgements that need a person
+_Relevance is judged automatically and can be wrong. These cases were not counted as idea evidence:_
+- "linkedin carousel templates" (110/mo) alone would put idea-level demand at "some"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea.
+- Keywords with data but unclear relevance (not counted): "linkedin content ideas" 50/mo.
+
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -133,31 +138,31 @@ Non-native English-speaking UX designers lack confidence and specific linguistic
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 3 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low ("ux research templates" 50/mo); broader market: low ("best ux research tools" 20/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
-| Category-level search demand (context, not idea demand) | low | Largest: "ux research templates" 50/mo |
-| Broader-market search demand (context, not idea demand) | low | Largest: "best ux research tools" 20/mo |
-| Commercial intent and payment | weak | No advertiser CPC was returned for the commercial keywords. |
+| Search demand for this idea (directly relevant keywords only) | low | Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: "ux research templates" at 50/month; next "ux research kit" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low ("best ux research tools" 20/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Category-level search demand (context, not idea demand) | low | Largest: "best ux research tools" 20/mo |
+| Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
+| Commercial intent and payment | moderate | Advertisers bid on 1 commercial keyword(s) (highest CPC $10.52 on "best ux research tools"). CPC is an advertiser bid, not a customer's willingness to pay. |
 | Competitors | unknown | Not assessed yet. No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative. |
 | Feasibility of a small first experiment | unknown | Not assessed yet. |
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | non native ux interview tips | problem | direct — This search directly addresses the problem of conducting UX interviews as a non-native speaker, which is a core part of the idea. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | ux research language barrier | problem | direct — This search explicitly names the core problem the idea aims to solve for UX researchers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | present ux findings english | problem | direct — This search addresses the specific problem of presenting UX findings in English, a key pain point for the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | ux research templates | solution | category — This is a general search for UX research templates, which doesn't address the specific linguistic needs of non-native speakers. | 50 | declining (-53%) | unknown | LOW | Labs |
-| K5 | user interview script english | solution | category — This search is for a generic user interview script in English, not one specifically designed to help non-native speakers with nuance and confidence. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | ux research presentation kit | solution | category — This search is for a general UX research presentation kit, missing the specific focus on overcoming language barriers for non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | ux research kit | buying | category — This is a search for the general product category, not specifically one tailored for non-native English speakers. | 10 | unknown | unknown | LOW | Labs |
-| K8 | best ux research tools | buying | broader — This is a broad search for any type of UX research tool, not a linguistic kit for non-native speakers. | 20 | unknown | 10.52 | LOW | Labs |
-| K9 | user interview template cost | buying | category — This search is about the price of a generic user interview template, not a specialized kit for non-native UX researchers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | non native ux interview tips | problem | uncertain — The searcher is a non-native speaker looking for UX interview tips, which perfectly matches the target customer and their problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | ux research language barrier | problem | uncertain — The search directly names the core problem (language barrier) in the specific context (UX research), matching the idea perfectly. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | present ux findings english | problem | direct — The search is about presenting UX findings in English, which is a core part of the problem the idea solves for its target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | ux research templates | solution | direct — The search is for UX research templates, which is a core component of the proposed solution (the kit). | 50 | declining (-53%) | unknown | LOW | Labs |
+| K5 | user interview script english | solution | direct — The search is for an English user interview script, a specific tool that would be part of the idea's kit. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | ux research presentation kit | solution | direct — The search is for a presentation kit for UX research, which is a key part of the idea's value proposition. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | ux research kit | buying | direct — The search uses the exact name of the solution category, "UX research kit," which the idea belongs to. | 10 | unknown | unknown | LOW | Labs |
+| K8 | best ux research tools | buying | category — The search is for the broad category of UX research tools, which includes the idea's kit but also many other types of software and services. | 20 | unknown | 10.52 | LOW | Labs |
+| K9 | user interview template cost | buying | category — The search shows buying intent for a component (user interview template) that is part of the idea's larger kit. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -185,8 +190,8 @@ Non-native English-speaking designers experience high anxiety when presenting th
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 1 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low ("design presentation tips" 40/mo); broader market: substantial ("design template" 1900/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
-| Category-level search demand (context, not idea demand) | low | Largest: "design presentation tips" 40/mo |
+| Search demand for this idea (directly relevant keywords only) | low | Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: "design presentation tips" at 40/month; next "how to present design" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: substantial ("design template" 1900/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Category-level search demand (context, not idea demand) | unknown | No category-level keyword with data. |
 | Broader-market search demand (context, not idea demand) | substantial | Largest: "design template" 1900/mo |
 | Commercial intent and payment | weak | No advertiser CPC was returned for the commercial keywords. |
 | Competitors | unknown | Not assessed yet. No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative. |
@@ -195,21 +200,21 @@ Non-native English-speaking designers experience high anxiety when presenting th
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | how to present design | problem | category — This is a general query for any designer wanting to improve presentations, not specifically for non-native English speakers. | 10 | unknown | unknown | LOW | Labs |
-| K2 | design presentation tips | problem | category — This query is for any designer seeking general advice on presentations, lacking the non-native English speaker context. | 40 | unknown | unknown | LOW | Labs |
-| K3 | defend design decisions | problem | category — This is a general problem for all designers, not specific to the communication challenges faced by non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | design template | solution | broader — This is a very broad search for any kind of design template, not specifically for a presentation kit aimed at non-native speakers. | 1,900 | rising (+40%) | 4.19 | LOW | Labs |
-| K5 | ux presentation script | solution | direct — This query is for a specific tool (a script) that directly addresses the problem of what to say in a UX presentation, which is a core part of the idea's solution. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | design communication guide | solution | category — This query is for general design communication help, which is broader than the specific problem of presenting work as a non-native speaker. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | design template pricing | buying | broader — This is a broad commercial query for any type of design template, not specific to the idea's presentation kit. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K8 | best presentation tools | buying | broader — This search is for software tools to create presentations, not for content or scripts to help with the delivery, especially for non-native speakers. | 720 | declining (-42%) | 11.90 | MEDIUM | Labs |
-| K9 | ux presentation cost | buying | category — This is a commercial query for a UX presentation product, which is the correct category but doesn't specify the non-native speaker aspect. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | how to present design | problem | direct — The searcher is any designer needing to present work, which includes the target customer, and the topic is the core problem. | 10 | unknown | unknown | LOW | Labs |
+| K2 | design presentation tips | problem | direct — The searcher is any designer looking for presentation advice, which includes the target customer, and the topic is the core problem. | 40 | unknown | unknown | LOW | Labs |
+| K3 | defend design decisions | problem | direct — The searcher is any designer needing to justify their work, which includes the target customer, and the topic is a key part of the problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | design template | solution | broader — The searcher is any designer, but the topic is very broad and not specific to design presentations. | 1,900 | rising (+40%) | 4.19 | LOW | Labs |
+| K5 | ux presentation script | solution | direct — The searcher is a UX designer, part of the target customer group, and the topic is a specific solution to the problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | design communication guide | solution | category — The searcher is any designer, and the topic is about the broader category of communication, not just presentations. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | design template pricing | buying | broader — The searcher is a designer, but the topic is about the pricing of any kind of design template, which is a much wider market. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K8 | best presentation tools | buying | broader — The searcher is anyone giving a presentation, and the topic is about general software tools, a wider market than the idea's specific solution. | 720 | declining (-42%) | 11.90 | MEDIUM | Labs |
+| K9 | ux presentation cost | buying | category — The searcher is likely a UX designer, and the topic is about the cost of a UX presentation, which is in the same category as the proposed solution. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -237,7 +242,7 @@ Non-native English-speaking freelance designers struggle with confidence and eff
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 1 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low ("client proposal template" 90/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Search demand for this idea (directly relevant keywords only) | low (up to some — flagged) | Idea-level demand (directly relevant keywords only): low (up to "some" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: "client communication templates" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low ("client proposal template" 90/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Category-level search demand (context, not idea demand) | low | Largest: "client proposal template" 90/mo |
 | Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
 | Commercial intent and payment | moderate | Advertisers bid on 2 commercial keyword(s) (highest CPC $8.72 on "client proposal template"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. |
@@ -247,25 +252,25 @@ Non-native English-speaking freelance designers struggle with confidence and eff
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | freelance designer communication problems | problem | category — This query is about the general problem of client communication for any freelance designer, not specifically the challenges faced by non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | non native english client communication | problem | direct — This query perfectly matches the core problem and the key qualifier of being a non-native English speaker dealing with clients. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | how to handle scope creep | problem | uncertain — This is a common problem for all freelancers, not specifically related to the language barrier of non-native speakers. | 140 | declining (-46%) | 0.16 | LOW | Labs |
-| K4 | client communication templates | solution | category — This is a search for a general solution that any freelancer might use, lacking the specific context of a non-native English speaker. | 10 | unknown | 2.57 | LOW | Labs |
-| K5 | freelance client kit | solution | category — This query is for a solution in the correct category, but it's a general term not specific to the needs of non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | designer communication tools | solution | broader — This search is likely for software tools for communication, not for content templates addressing language-specific confidence issues. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | client proposal template | buying | category — This is a search for a specific type of document needed by all freelance designers, not just non-native speakers. | 90 | declining (-44%) | 8.72 | HIGH | Labs |
-| K8 | best freelance communication tools | buying | broader — This query is for software recommendations for any freelancer, not for content-based solutions for non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | designer welcome packet cost | buying | category — This is a commercial query for a product in the same category as the idea, but it's for any designer, not specifically non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | freelance designer communication problems | problem | direct — The searcher is a freelance designer, which includes the target customer, and the topic is the exact problem the idea addresses. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | non native english client communication | problem | direct — The searcher is a non-native English speaker dealing with clients, which is the target customer, and the topic is their specific problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | how to handle scope creep | problem | direct — The searcher is a freelancer, which includes the target customer, and the topic is a specific, common client communication problem. | 140 | declining (-46%) | 0.16 | LOW | Labs |
+| K4 | client communication templates | solution | direct — The searcher is any freelancer, which includes the target customer, and the topic is a direct search for the solution. | 10 | unknown | 2.57 | LOW | Labs |
+| K5 | freelance client kit | solution | category — The searcher is a freelancer, and the topic is a broader category of solution that could include the idea's offering. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | designer communication tools | solution | broader — The searcher is a designer, but the topic is about software tools for communication, a wider market than communication templates. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | client proposal template | buying | category — The searcher is a freelancer, and the topic is a specific type of communication template that is adjacent to the core problem. | 90 | declining (-44%) | 8.72 | HIGH | Labs |
+| K8 | best freelance communication tools | buying | broader — The searcher is a freelancer, but the topic is about software tools, a wider market than the idea's solution. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | designer welcome packet cost | buying | category — The searcher is a designer with buying intent for a product in the same category as the proposed solution. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### Relevance judgements that need a person
 _Relevance is judged automatically and can be wrong. These cases were not counted as idea evidence:_
-- Keywords with data but unclear relevance (not counted): "how to handle scope creep" 140/mo.
+- "how to handle scope creep" (140/mo) alone would put idea-level demand at "some"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -293,7 +298,7 @@ Non-native English-speaking designers struggle to write compelling portfolio cas
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 1 directly relevant keyword(s) returned data (unknown, not zero). Category-level: substantial ("case study template" 1600/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Search demand for this idea (directly relevant keywords only) | low | Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: "how to write ux case study" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: substantial ("case study template" 1600/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Category-level search demand (context, not idea demand) | substantial | Largest: "case study template" 1600/mo |
 | Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
 | Commercial intent and payment | moderate | Advertisers bid on 1 commercial keyword(s) (highest CPC $3.11 on "case study template"). CPC is an advertiser bid, not a customer's willingness to pay. |
@@ -303,21 +308,21 @@ Non-native English-speaking designers struggle to write compelling portfolio cas
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | how to write ux case study | problem | category — This is a general query for any UX designer needing to write a case study, not specific to the writing challenges of a non-native speaker. | 10 | unknown | unknown | LOW | Labs |
-| K2 | design portfolio writing help | problem | category — This query is for general writing assistance for a design portfolio, a problem faced by many designers, not just non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | struggle writing case study | problem | category — This describes the general problem of writing a case study, which is not exclusive to non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | case study template | solution | category — This is a search for a generic solution that any designer might use, not one tailored to the linguistic needs of a non-native speaker. | 1,600 | declining (-46%) | 3.11 | LOW | Labs |
-| K5 | design portfolio kit | solution | category — This query is for a solution in the correct category, but it's a general term not specific to the writing challenges of non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | ux case study script | solution | direct — This query is for a specific tool (a script) that directly addresses the problem of how to write a case study, which is the core of the idea's solution. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | case study kit | buying | category — This is a commercial query for a product in the same category, but it's not specific to designers or non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K8 | portfolio template cost | buying | broader — This query is typically for visual website templates, which is a different, though related, category to a case study writing kit. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | best ux writing tools | buying | broader — This search is for software tools that assist with writing (e.g., grammar checkers), not a content kit specifically for case studies for non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | how to write ux case study | problem | direct — The searcher is a UX designer, part of the target customer group, and the topic is the exact problem the idea solves. | 10 | unknown | unknown | LOW | Labs |
+| K2 | design portfolio writing help | problem | direct — The searcher is a designer, which includes the target customer, and the topic is the exact problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | struggle writing case study | problem | direct — The searcher is someone struggling with case studies, which includes the target customer, and the topic is the exact problem. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | case study template | solution | category — The searcher is anyone needing a case study template, and the topic is a broader category of solution. | 1,600 | declining (-46%) | 3.11 | LOW | Labs |
+| K5 | design portfolio kit | solution | category — The searcher is a designer, and the topic is a broader category of solution that could include the idea's offering. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | ux case study script | solution | direct — The searcher is a UX designer, part of the target customer group, and the topic is a direct search for a solution. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | case study kit | buying | category — The searcher is anyone needing to create a case study, and the topic is a broader category of solution. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K8 | portfolio template cost | buying | broader — The searcher is anyone building a portfolio, and the topic is about website templates, a wider market than a case study writing kit. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | best ux writing tools | buying | broader — The searcher is a UX professional, but the topic is about general software tools for writing, a wider market than the idea's specific solution. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -345,8 +350,8 @@ Non-native English-speaking designers struggle to create clear, unambiguous hand
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. No keyword was judged directly relevant to the idea, so idea-level demand is unknown. Category-level: low ("design handoff tools" 20/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
-| Category-level search demand (context, not idea demand) | low | Largest: "design handoff tools" 20/mo |
+| Search demand for this idea (directly relevant keywords only) | low | Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: "design handoff tools" at 20/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low ("developer documentation template" 10/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Category-level search demand (context, not idea demand) | low | Largest: "developer documentation template" 10/mo |
 | Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
 | Commercial intent and payment | weak | No advertiser CPC was returned for the commercial keywords. |
 | Competitors | unknown | Not assessed yet. No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative. |
@@ -355,21 +360,21 @@ Non-native English-speaking designers struggle to create clear, unambiguous hand
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | design handoff problems | problem | uncertain — This search is about the general problem of design handoff, not specific to the challenges faced by non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | developer communication issues | problem | broader — This is a very broad software development problem, not specific to design handoff or non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | unclear design specifications | problem | uncertain — This search is about a core part of the problem, unclear specifications, but lacks the non-native English speaker context. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | design handoff template | solution | category — This is a search for a solution in the same category as the idea, but it's generic and not tailored to non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K5 | developer documentation template | solution | category — This search is for a general developer documentation template, not specifically a design handoff kit for non-native designers. | 10 | unknown | unknown | LOW | Labs |
-| K6 | ux design spec template | solution | category — This is a search for a generic UX design spec template, not one specifically designed to solve communication issues for non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | design handoff tools | buying | category — The searcher is looking for tools to help with design handoff in general, not specifically a kit for non-native speakers. | 20 | unknown | unknown | LOW | Labs |
-| K8 | design spec software pricing | buying | category — The searcher is researching the cost of design specification software, a broader category than the proposed kit. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | best ux documentation tools | buying | category — The searcher is looking for general UX documentation tools, not a solution specifically for non-native English-speaking designers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | design handoff problems | problem | direct — This describes the general problem of design handoff, which any designer, including the target customer, might face. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | developer communication issues | problem | direct — This describes a core part of the design handoff problem, relevant to any designer or developer, including the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | unclear design specifications | problem | direct — This describes a key aspect of the design handoff problem, relevant to any designer, including the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | design handoff template | solution | direct — This is a search for a direct solution to the design handoff problem, relevant to any designer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K5 | developer documentation template | solution | category — This is for general developer documentation, which is broader than just the design handoff specifications the idea focuses on. | 10 | unknown | unknown | LOW | Labs |
+| K6 | ux design spec template | solution | direct — This is a search for a specific type of design handoff documentation template, relevant to UX designers in the target group. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | design handoff tools | buying | direct — This is a search for tools that solve the design handoff problem, relevant to any designer. | 20 | unknown | unknown | LOW | Labs |
+| K8 | design spec software pricing | buying | category — This is about a category of software for creating design specs, which is a broader category than the idea's kit. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | best ux documentation tools | buying | category — This is about tools for all UX documentation, which is broader than the specific problem of developer handoff. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -397,32 +402,32 @@ Non-native English-speaking designers struggle to get useful, high-quality outpu
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. No keyword was judged directly relevant to the idea, so idea-level demand is unknown. Category-level: unknown; broader market: substantial ("ai prompts" 12100/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Search demand for this idea (directly relevant keywords only) | unknown (up to some — flagged) | Idea-level demand (directly relevant keywords only): unknown (up to "some" if a flagged keyword is confirmed). The only directly relevant keyword with data is unconfirmed (see flags). Category-level: unknown; broader market: substantial ("ai prompts" 12100/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Category-level search demand (context, not idea demand) | unknown | No category-level keyword with data. |
 | Broader-market search demand (context, not idea demand) | substantial | Largest: "ai prompts" 12100/mo |
-| Commercial intent and payment | unknown | No advertiser CPC was returned for the commercial keywords. No commercial data was collected. |
+| Commercial intent and payment | weak | No advertiser CPC was returned for the commercial keywords. |
 | Competitors | unknown | Not assessed yet. No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative. |
 | Feasibility of a small first experiment | unknown | Not assessed yet. |
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | how to write ai prompts | problem | uncertain — This is a general query about writing AI prompts, not specific to the challenges faced by non-native English-speaking designers. | 320 | declining (-24%) | 10.58 | MEDIUM | Labs |
-| K2 | ai design generic results | problem | uncertain — The searcher is a designer getting generic results from AI, but the query doesn't mention the non-native English speaker aspect. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | non native english design challenges | problem | uncertain — This search is about the general challenges non-native English-speaking designers face, which is broader than the specific problem of writing AI prompts. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | ai prompts | solution | broader — This is a very general search for AI prompts, not specific to design or the challenges of non-native speakers. | 12,100 | flat (0%) | 5.34 | LOW | Labs |
-| K5 | design ai prompt templates | solution | category — This search is for AI prompt templates for design, which is the product category, but not specifically for non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | ux writing ai prompts | solution | category — This is a search for AI prompts for a specific design task (UX writing), but doesn't address the non-native speaker's problem. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | ai prompt kit | buying | category — The searcher is looking for an 'AI prompt kit,' the general product category, not one specifically for non-native designers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K8 | best ai prompts design | buying | category — The searcher is a designer looking for the best AI prompts, but not specifically for overcoming language barriers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | prompt engineering course cost | buying | broader — This search is about the cost of a formal course in prompt engineering, a much broader topic than a prompt kit for non-native designers. | 10 | unknown | unknown | HIGH | Labs |
+| K1 | how to write ai prompts | problem | direct — This is a general search for how to use AI prompts, relevant to any AI user, including the target customer. | 320 | declining (-24%) | 10.58 | MEDIUM | Labs |
+| K2 | ai design generic results | problem | direct — This describes the problem of getting poor results from AI for design, which any designer using AI might face. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | non native english design challenges | problem | uncertain — This is about general design challenges for non-native English speakers, not specifically about AI prompts. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | ai prompts | solution | broader — This is a very generic search for AI prompts, not specific to design or the target customer's problem. | 12,100 | flat (0%) | 5.34 | LOW | Labs |
+| K5 | design ai prompt templates | solution | direct — This is a search for a direct solution for designers using AI, which is the core of the idea. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | ux writing ai prompts | solution | direct — This is a search for AI prompts for a specific design task (UX writing), relevant to the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | ai prompt kit | buying | category — This describes the general product category, but is not specific to designers or non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K8 | best ai prompts design | buying | direct — This is a search for high-quality AI prompts specifically for design, which is the core of the idea. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | prompt engineering course cost | buying | broader — This is a search for a formal course on a broad skill, which is a much wider solution than the proposed kit. | 10 | unknown | unknown | HIGH | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### Relevance judgements that need a person
 _Relevance is judged automatically and can be wrong. These cases were not counted as idea evidence:_
-- Keywords with data but unclear relevance (not counted): "how to write ai prompts" 320/mo.
+- "how to write ai prompts" (320/mo) alone would put idea-level demand at "some"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea.
 
 ### What remains unproven?
 - Search demand: not measured.
@@ -453,8 +458,8 @@ Non-native English-speaking designers struggle with high anxiety and inefficienc
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 1 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low ("ux writing guide" 10/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
-| Category-level search demand (context, not idea demand) | low | Largest: "ux writing guide" 10/mo |
+| Search demand for this idea (directly relevant keywords only) | low | Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: "ux writing guide" at 10/month; next "ui writing examples" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low ("ux writing tools" 10/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Category-level search demand (context, not idea demand) | low | Largest: "ux writing tools" 10/mo |
 | Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
 | Commercial intent and payment | weak | No advertiser CPC was returned for the commercial keywords. |
 | Competitors | unknown | Not assessed yet. No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative. |
@@ -463,21 +468,21 @@ Non-native English-speaking designers struggle with high anxiety and inefficienc
 **Search observations** — DataForSEO, India · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | struggle writing ui copy | problem | uncertain — The searcher is struggling with writing UI copy, but the query doesn't specify that they are a non-native English speaker. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | non native ux writing | problem | direct — This search is from the exact target customer (non-native) about their specific problem area (UX writing). | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | how to write microcopy | problem | uncertain — This is a general query about learning to write microcopy, not specific to the challenges faced by non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K4 | ux writing guide | solution | category — The searcher is looking for a general guide on UX writing, not one specifically tailored for non-native English speakers. | 10 | unknown | unknown | LOW | Labs |
-| K5 | microcopy templates | solution | category — This is a search for general microcopy templates, not a kit designed to help non-native speakers with the nuances of UX writing. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K6 | ui writing examples | solution | category — The searcher is looking for general examples of UI writing, not a solution specifically for non-native speakers. | 10 | unknown | unknown | unknown | Labs |
-| K7 | ux writing tools | buying | category — The searcher is looking for general tools to assist with UX writing, not a kit specifically for non-native speakers. | 10 | unknown | unknown | LOW | Labs |
-| K8 | best microcopy resources | buying | category — The searcher is looking for general resources for writing microcopy, not a solution tailored to non-native English speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | ux writing course price | buying | broader — This search is about the price of a formal UX writing course, a broader and different solution than the proposed kit. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K1 | struggle writing ui copy | problem | direct — This describes the core problem of finding UI copywriting difficult, which any designer, including the target customer, might search for. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | non native ux writing | problem | uncertain — This search is highly specific to the target customer (non-native) and their problem area (UX writing). | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | how to write microcopy | problem | direct — This is a search for how to do a core part of UI writing, relevant to anyone in that role, including the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K4 | ux writing guide | solution | direct — This is a search for a solution to the UX writing problem, relevant to any designer. | 10 | unknown | unknown | LOW | Labs |
+| K5 | microcopy templates | solution | direct — This is a search for a specific type of solution (templates) for a core part of the problem (microcopy). | no data (unknown) | unknown | unknown | unknown | Labs |
+| K6 | ui writing examples | solution | direct — This is a search for resources to help solve the UI writing problem, relevant to any designer. | 10 | unknown | unknown | unknown | Labs |
+| K7 | ux writing tools | buying | category — This is a search for the broader category of tools for UX writing. | 10 | unknown | unknown | LOW | Labs |
+| K8 | best microcopy resources | buying | direct — This is a search for solutions to the problem of writing microcopy. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | ux writing course price | buying | broader — This is a search for a formal course, which is a wider and more comprehensive solution than the proposed kit. | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
@@ -505,7 +510,7 @@ A non-native English-speaking designer struggles to confidently participate in a
 | Dimension | Reading | Basis |
 |---|---|---|
 | Customer problem | unknown | Not assessed yet. |
-| Search demand for this idea (directly relevant keywords only) | unknown | Idea-level demand (directly relevant keywords only): unknown. None of the 2 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low ("design communication course" 20/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
+| Search demand for this idea (directly relevant keywords only) | low | Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: "how to give design feedback" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low ("design communication course" 20/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Category-level search demand (context, not idea demand) | low | Largest: "design communication course" 20/mo |
 | Broader-market search demand (context, not idea demand) | unknown | No broader keyword with data. |
 | Commercial intent and payment | moderate | Advertisers bid on 1 commercial keyword(s) (highest CPC $12.03 on "design communication course"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. |
@@ -515,21 +520,21 @@ A non-native English-speaking designer struggles to confidently participate in a
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
 |---|---|---|---|---|---|---|---|---|
-| K1 | design critique anxiety | problem | direct — This keyword describes the core emotional problem of the target customer, although it doesn't specify the 'non-native' aspect. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K2 | non-native english communication | problem | broader — This keyword targets the 'non-native' aspect but is about general communication, a broader problem than the specific context of design critiques. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K3 | how to give design feedback | problem | category — This is a general query from any designer wanting to improve their feedback skills, a broader group that includes the target customer. | 10 | declining (-84%) | unknown | LOW | Labs |
-| K4 | design critique templates | solution | category — This keyword is for a type of solution (templates) for the general problem of design critiques, a category the idea's kit falls into. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K5 | design communication course | solution | category — This is for any designer seeking a course to improve communication, a broader solution category than the specific kit for non-native speakers. | 20 | unknown | 12.03 | MEDIUM | Labs |
-| K6 | professional english for designers | solution | direct — This keyword precisely targets non-native English-speaking designers seeking to improve their professional language skills, which is the core of the idea's customer and problem. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K7 | design critique tools | buying | category — This is a search for any tool that helps with design critiques, a category that could include the proposed kit. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K8 | best design communication | buying | broader — This is a very broad query about improving design communication in general, relevant to a much wider audience than just non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
-| K9 | design feedback software | buying | category — This keyword is for anyone looking for software to manage design feedback, a solution category related to the idea's problem space. | 10 | unknown | unknown | LOW | Labs |
+| K1 | design critique anxiety | problem | direct — This keyword describes the specific emotional problem the idea addresses, which would be searched by the target customer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K2 | non-native english communication | problem | uncertain — This keyword is for any non-native English speaker needing communication help, not specifically designers struggling with critiques. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K3 | how to give design feedback | problem | direct — This keyword describes the core activity the idea helps with, which any designer might search for. | 10 | declining (-84%) | unknown | LOW | Labs |
+| K4 | design critique templates | solution | direct — This keyword is a direct search for a solution like the one proposed, which would be searched by any designer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K5 | design communication course | solution | category — This keyword is for a course, a different type of solution in the same category as the proposed kit, for any designer. | 20 | unknown | 12.03 | MEDIUM | Labs |
+| K6 | professional english for designers | solution | uncertain — This keyword specifically targets designers who are non-native English speakers, but addresses the broader problem of professional English, not just critiques. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K7 | design critique tools | buying | category — This keyword is for tools that help with design critiques, a category of solutions that includes the proposed kit, for any designer. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K8 | best design communication | buying | uncertain — This keyword is about the general skill of design communication, a broader topic than the specific problem of critique anxiety for non-native speakers. | no data (unknown) | unknown | unknown | unknown | Labs |
+| K9 | design feedback software | buying | category — This keyword is for software to manage design feedback, a different type of solution in the same category as the proposed kit. | 10 | unknown | unknown | LOW | Labs |
 
 ### What alternatives already exist?
 Unknown — no search results collected yet.
 
 ### What remains unproven?
-- Search demand: not measured.
+- Not assessed yet.
 
 ### Cheapest useful next experiment
 Not assessed yet.
