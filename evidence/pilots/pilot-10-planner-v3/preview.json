@@ -1,0 +1,2412 @@
+{
+  "schema": 1,
+  "date": "pilot-10-planner-v3",
+  "source": {
+    "kind": "pilot",
+    "planner": {
+      "kind": "gemini",
+      "models": [
+        "gemini-2.5-flash",
+        "gemini-2.5-pro"
+      ]
+    }
+  },
+  "createdAt": "2026-09-14T10:21:38.833Z",
+  "updatedAt": "2026-09-14T10:21:38.835Z",
+  "attempts": 1,
+  "mode": "dry-run",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": null,
+  "ideas": [
+    {
+      "id": "2026-04-27",
+      "slug": "async-english-communication-templates",
+      "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The memo highlights a large number of H1B visa holders in the US tech industry who are non-native English speakers, indicating a strong demand for professional English communication skills in this market."
+      },
+      "plan": {
+        "slug": "async-english-communication-templates",
+        "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+        "problem": "Non-native English-speaking software professionals struggle to communicate effectively and confidently in async written English, often sounding unnatural, rude, or over-hedging in professional settings.",
+        "targetCustomer": "A non-native English-speaking software professional (engineer, PM, designer) working remotely or hybrid for a US, UK, or pan-EU company.",
+        "payer": "The non-native English-speaking software professional themselves.",
+        "whyPayerPays": "They pay to gain confidence, avoid miscommunication, and improve their professional standing in English-speaking tech teams.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The memo highlights a large number of H1B visa holders in the US tech industry who are non-native English speakers, indicating a strong demand for professional English communication skills in this market."
+        },
+        "keywords": {
+          "problem": [
+            "non native english communication",
+            "professional english writing help",
+            "sound native english work"
+          ],
+          "solution": [
+            "english phrase templates",
+            "professional english templates",
+            "business communication phrases"
+          ],
+          "buying": [
+            "buy english templates",
+            "professional english course",
+            "business english learning tools"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "non native english communication",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "professional english writing help",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "sound native english work",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "english phrase templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "professional english templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "business communication phrases",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "buy english templates",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "professional english course",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "business english learning tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-27.md",
+        "title": "Async English — Slack and PR-comment swipe file for non-native software professionals",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-04-28",
+      "slug": "linkedin-native-carousel-captions",
+      "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The United States is a primary market for digital products and the creator economy, and many non-native English speakers target US clients or seek to improve their English for professional contexts."
+      },
+      "plan": {
+        "slug": "linkedin-native-carousel-captions",
+        "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+        "problem": "Non-native English-speaking solo designers struggle to write native-sounding LinkedIn captions for their visually appealing carousels, hindering their personal brand and client acquisition.",
+        "targetCustomer": "A non-native English-speaking solo designer, illustrator, or freelance creative (graphic / UX / product / brand) based in EU, LatAm, India, MENA, SEA, who wants to win remote clients or build personal brand on LinkedIn.",
+        "payer": "A non-native English-speaking solo designer, illustrator, or freelance creative (graphic / UX / product / brand).",
+        "whyPayerPays": "The payer wants to overcome language barriers to effectively promote their work and attract remote clients on LinkedIn, avoiding stilted or generic-sounding posts.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The United States is a primary market for digital products and the creator economy, and many non-native English speakers target US clients or seek to improve their English for professional contexts."
+        },
+        "keywords": {
+          "problem": [
+            "linkedin writing help non native",
+            "how to write linkedin captions",
+            "linkedin post english mistakes"
+          ],
+          "solution": [
+            "linkedin templates",
+            "linkedin carousel templates",
+            "linkedin content ideas"
+          ],
+          "buying": [
+            "buy linkedin templates",
+            "linkedin content pricing",
+            "best linkedin content tools"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "linkedin writing help non native",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "how to write linkedin captions",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "linkedin post english mistakes",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "linkedin templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "linkedin carousel templates",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": 1.8,
+          "adCompetition": 0.99,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -36,
+          "providerUpdatedAt": "2026-09-13 06:45:17 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -44,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "linkedin content ideas",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "buy linkedin templates",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "linkedin content pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "best linkedin content tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-28.md",
+        "title": "LinkedIn-Native — Canva carousel pack plus native-sounding caption swipes for non-native solo designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "some",
+          "measuredCount": 1,
+          "totalCount": 3,
+          "top": {
+            "keyword": "linkedin carousel templates",
+            "searchVolume": 110,
+            "id": "K5"
+          },
+          "byGroup": {
+            "solution": {
+              "keyword": "linkedin carousel templates",
+              "searchVolume": 110,
+              "id": "K5"
+            }
+          },
+          "trends": {
+            "declining": 1
+          },
+          "note": "Largest single keyword: \"linkedin carousel templates\" at 110/month. 2 keyword(s) returned no data (unknown, not zero). Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $1.80 on \"linkedin carousel templates\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "1ae57f9d8dff98d6",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-04-29",
+      "slug": "ux-research-kit-non-native-designers",
+      "title": "The UX Research Kit for Non-Native UX Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customers often work for US/UK companies or serve English-speaking clients, and the problem is specifically about English communication in a professional context."
+      },
+      "plan": {
+        "slug": "ux-research-kit-non-native-designers",
+        "title": "The UX Research Kit for Non-Native UX Designers",
+        "problem": "Non-native English-speaking UX designers lack confidence and specific linguistic tools to conduct nuanced user interviews and present findings persuasively to native-speaking stakeholders.",
+        "targetCustomer": "A non-native English-speaking UX designer or researcher, likely from Europe, Asia, or Latin America, working for a US/UK company or serving English-speaking clients.",
+        "payer": "A non-native English-speaking UX designer or researcher.",
+        "whyPayerPays": "They pay to gain confidence and improve their linguistic ability to perform high-stakes UX research tasks effectively in English.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customers often work for US/UK companies or serve English-speaking clients, and the problem is specifically about English communication in a professional context."
+        },
+        "keywords": {
+          "problem": [
+            "non native ux interview tips",
+            "ux research language barrier",
+            "present ux findings english"
+          ],
+          "solution": [
+            "ux research templates",
+            "user interview script english",
+            "ux research presentation kit"
+          ],
+          "buying": [
+            "ux research kit",
+            "best ux research tools",
+            "user interview template cost"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "non native ux interview tips",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "ux research language barrier",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "present ux findings english",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "ux research templates",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": null,
+          "adCompetition": 0.05,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -86,
+          "providerUpdatedAt": "2026-08-23 08:58:28 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -53,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "user interview script english",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "ux research presentation kit",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "ux research kit",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best ux research tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "user interview template cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-29.md",
+        "title": "The UX Research Kit for Non-Native UX Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "low",
+          "measuredCount": 1,
+          "totalCount": 2,
+          "top": {
+            "keyword": "ux research templates",
+            "searchVolume": 50,
+            "id": "K4"
+          },
+          "byGroup": {
+            "solution": {
+              "keyword": "ux research templates",
+              "searchVolume": 50,
+              "id": "K4"
+            }
+          },
+          "trends": {
+            "declining": 1
+          },
+          "note": "Largest single keyword: \"ux research templates\" at 50/month. 1 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "9f44082c0e1cfece",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-04-30",
+      "slug": "design-presentation-kit-non-native-designers",
+      "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customer is a non-native English speaker working in an English-speaking professional environment, and the US has a large tech industry with many such roles."
+      },
+      "plan": {
+        "slug": "design-presentation-kit-non-native-designers",
+        "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+        "problem": "Non-native English-speaking designers experience high anxiety when presenting their work and defending decisions in English-speaking professional environments.",
+        "targetCustomer": "A non-native English-speaking UX, UI, or product designer working in a remote or international team where English is the primary language.",
+        "payer": "A non-native English-speaking UX, UI, or product designer.",
+        "whyPayerPays": "The payer wants to overcome language barriers and present their design work persuasively and confidently to stakeholders.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customer is a non-native English speaker working in an English-speaking professional environment, and the US has a large tech industry with many such roles."
+        },
+        "keywords": {
+          "problem": [
+            "how to present design",
+            "design presentation tips",
+            "defend design decisions"
+          ],
+          "solution": [
+            "design template",
+            "ux presentation script",
+            "design communication guide"
+          ],
+          "buying": [
+            "design template pricing",
+            "best presentation tools",
+            "ux presentation cost"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "how to present design",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "design presentation tips",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "defend design decisions",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "design template",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "ux presentation script",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-18 15:07:56 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "design communication guide",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "design template pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best presentation tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "ux presentation cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-04-30.md",
+        "title": "The Design Presentation Kit for Non-Native UX/Product Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 2,
+          "top": null,
+          "trends": {},
+          "note": "No search volume was returned for 2 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "71c15f80d85bab99",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-05-01",
+      "slug": "client-communication-kit-designers",
+      "title": "The Client Communication Kit for Non-Native Freelance Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The product targets non-native English speakers working with English-speaking clients, and the US is a large market for freelance design services and digital products."
+      },
+      "plan": {
+        "slug": "client-communication-kit-designers",
+        "title": "The Client Communication Kit for Non-Native Freelance Designers",
+        "problem": "Non-native English-speaking freelance designers struggle with confidence and effectiveness in written client communication, leading to misunderstandings, wasted time, and lost income.",
+        "targetCustomer": "Non-native English-speaking freelance designers (UX, UI, brand, graphic) who have secured English-speaking clients but lack confidence in day-to-day written communication.",
+        "payer": "Non-native English-speaking freelance designers.",
+        "whyPayerPays": "They pay to overcome communication anxiety, avoid misunderstandings, and confidently manage client relationships, which directly impacts their professional reputation and income.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The product targets non-native English speakers working with English-speaking clients, and the US is a large market for freelance design services and digital products."
+        },
+        "keywords": {
+          "problem": [
+            "freelance designer communication problems",
+            "non native english client communication",
+            "how to handle scope creep"
+          ],
+          "solution": [
+            "client communication templates",
+            "freelance client kit",
+            "designer communication tools"
+          ],
+          "buying": [
+            "client proposal template",
+            "best freelance communication tools",
+            "designer welcome packet cost"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "freelance designer communication problems",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "non native english client communication",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to handle scope creep",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "client communication templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "freelance client kit",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "designer communication tools",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "client proposal template",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best freelance communication tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "designer welcome packet cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-01.md",
+        "title": "The Client Communication Kit for Non-Native Freelance Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-05-02",
+      "slug": "portfolio-case-study-kit-designers",
+      "title": "The Portfolio Case Study Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The product specifically addresses writing in 'natural, persuasive English' for a global audience, and the US market is a large hub for design jobs where English proficiency in portfolios is critical."
+      },
+      "plan": {
+        "slug": "portfolio-case-study-kit-designers",
+        "title": "The Portfolio Case Study Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to write compelling portfolio case studies that effectively narrate their process and showcase results in natural, persuasive English.",
+        "targetCustomer": "Non-native English-speaking UX, UI, or product designers seeking employment or freelance clients.",
+        "payer": "Non-native English-speaking UX, UI, or product designers.",
+        "whyPayerPays": "They pay to overcome the high-stakes problem of a weak portfolio narrative costing them job or client opportunities.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The product specifically addresses writing in 'natural, persuasive English' for a global audience, and the US market is a large hub for design jobs where English proficiency in portfolios is critical."
+        },
+        "keywords": {
+          "problem": [
+            "how to write ux case study",
+            "design portfolio writing help",
+            "struggle writing case study"
+          ],
+          "solution": [
+            "case study template",
+            "design portfolio kit",
+            "ux case study script"
+          ],
+          "buying": [
+            "case study kit",
+            "portfolio template cost",
+            "best ux writing tools"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "how to write ux case study",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "design portfolio writing help",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "struggle writing case study",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "case study template",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "design portfolio kit",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ux case study script",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "case study kit",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "portfolio template cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "best ux writing tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-02.md",
+        "title": "The Portfolio Case Study Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 1,
+          "top": null,
+          "trends": {},
+          "note": "No search volume was returned for 1 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "35db747154d66eed",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-05-03",
+      "slug": "figma-handoff-kit-non-native-designers",
+      "title": "The Figma Handoff Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The target customer is a non-native English speaker, and the United States is a large market for tech roles where English is the primary language of business communication."
+      },
+      "plan": {
+        "slug": "figma-handoff-kit-non-native-designers",
+        "title": "The Figma Handoff Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to create clear, unambiguous handoff documentation for developers, leading to miscommunication and project delays.",
+        "targetCustomer": "A non-native English-speaking product, UX, or UI designer working on a software team.",
+        "payer": "A non-native English-speaking product, UX, or UI designer working on a software team.",
+        "whyPayerPays": "The designer pays to reduce miscommunication, avoid rework, and improve their credibility by providing clear specifications to developers.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The target customer is a non-native English speaker, and the United States is a large market for tech roles where English is the primary language of business communication."
+        },
+        "keywords": {
+          "problem": [
+            "design handoff problems",
+            "developer communication issues",
+            "unclear design specifications"
+          ],
+          "solution": [
+            "design handoff template",
+            "developer documentation template",
+            "ux design spec template"
+          ],
+          "buying": [
+            "design handoff tools",
+            "design spec software pricing",
+            "best ux documentation tools"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "design handoff problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "developer communication issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "unclear design specifications",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "design handoff template",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "developer documentation template",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ux design spec template",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "design handoff tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "design spec software pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "best ux documentation tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-03.md",
+        "title": "The Figma Handoff Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 3,
+          "top": null,
+          "trends": {},
+          "note": "No search volume was returned for 3 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "7267438938ce6687",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-05-04",
+      "slug": "ai-prompt-kit-non-native-designers",
+      "title": "The AI Prompt Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The product is a digital kit sold on Gumroad, targeting English-speaking designers, and the US is a large market for such digital products and design professionals."
+      },
+      "plan": {
+        "slug": "ai-prompt-kit-non-native-designers",
+        "title": "The AI Prompt Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle to get useful, high-quality outputs from generative AI tools due to simple prompts and language barriers.",
+        "targetCustomer": "Non-native English-speaking UX, UI, or product designers who use AI tools.",
+        "payer": "Non-native English-speaking UX, UI, or product designers.",
+        "whyPayerPays": "The payer wants to improve their AI prompting skills to produce professional-grade design work faster and gain a career advantage.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The product is a digital kit sold on Gumroad, targeting English-speaking designers, and the US is a large market for such digital products and design professionals."
+        },
+        "keywords": {
+          "problem": [
+            "how to write ai prompts",
+            "ai design generic results",
+            "non native english design challenges"
+          ],
+          "solution": [
+            "ai prompts",
+            "design ai prompt templates",
+            "ux writing ai prompts"
+          ],
+          "buying": [
+            "ai prompt kit",
+            "best ai prompts design",
+            "prompt engineering course cost"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "how to write ai prompts",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "ai design generic results",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "non native english design challenges",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "ai prompts",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "design ai prompt templates",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "ux writing ai prompts",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "ai prompt kit",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best ai prompts design",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "prompt engineering course cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-04.md",
+        "title": "The AI Prompt Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 3,
+          "top": null,
+          "trends": {},
+          "note": "No search volume was returned for 3 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "32b5a86a6d1c519c",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-05-05",
+      "slug": "ux-writing-kit-non-native-designers",
+      "title": "The UX Writing Kit for Non-Native Designers",
+      "market": {
+        "locationName": "India",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "India has a large population of non-native English-speaking tech professionals who are likely to be product designers needing to write English UI copy."
+      },
+      "plan": {
+        "slug": "ux-writing-kit-non-native-designers",
+        "title": "The UX Writing Kit for Non-Native Designers",
+        "problem": "Non-native English-speaking designers struggle with high anxiety and inefficiency when writing clear, effective, and on-brand user interface copy for their designs.",
+        "targetCustomer": "A non-native English-speaking UX, UI, or product designer who is now expected to write the copy for their own designs.",
+        "payer": "A non-native English-speaking UX, UI, or product designer.",
+        "whyPayerPays": "The payer would pay to reduce anxiety, improve efficiency, and ensure their designs have clear, effective, and on-brand user interface copy, avoiding time-consuming revisions.",
+        "market": {
+          "location": "India",
+          "language": "en",
+          "reason": "India has a large population of non-native English-speaking tech professionals who are likely to be product designers needing to write English UI copy."
+        },
+        "keywords": {
+          "problem": [
+            "struggle writing ui copy",
+            "non native ux writing",
+            "how to write microcopy"
+          ],
+          "solution": [
+            "ux writing guide",
+            "microcopy templates",
+            "ui writing examples"
+          ],
+          "buying": [
+            "ux writing tools",
+            "best microcopy resources",
+            "ux writing course price"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "struggle writing ui copy",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "non native ux writing",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to write microcopy",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "ux writing guide",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "microcopy templates",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "ui writing examples",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "ux writing tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best microcopy resources",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "ux writing course price",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-05.md",
+        "title": "The UX Writing Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "trends": {},
+          "note": "No keywords were measured."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    },
+    {
+      "id": "2026-05-06",
+      "slug": "design-critique-kit-non-native-designers",
+      "title": "The Design Critique Kit for Non-Native Designers",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The product addresses a specific professional communication challenge in English, and the US market has a large tech industry with many non-native English-speaking designers and a proven market for professional development tools."
+      },
+      "plan": {
+        "slug": "design-critique-kit-non-native-designers",
+        "title": "The Design Critique Kit for Non-Native Designers",
+        "problem": "A non-native English-speaking designer struggles to confidently participate in and lead design critiques due to anxiety about language and communication.",
+        "targetCustomer": "Non-native English-speaking product, UX, or UI designers working in collaborative teams.",
+        "payer": "Non-native English-speaking product, UX, or UI designers.",
+        "whyPayerPays": "They pay to overcome anxiety, improve communication skills, avoid career stagnation, and prevent costly design revisions caused by miscommunication.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The product addresses a specific professional communication challenge in English, and the US market has a large tech industry with many non-native English-speaking designers and a proven market for professional development tools."
+        },
+        "keywords": {
+          "problem": [
+            "design critique anxiety",
+            "non-native english communication",
+            "how to give design feedback"
+          ],
+          "solution": [
+            "design critique templates",
+            "design communication course",
+            "professional english for designers"
+          ],
+          "buying": [
+            "design critique tools",
+            "best design communication",
+            "design feedback software"
+          ]
+        },
+        "serpQueries": [],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "design critique anxiety",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "non-native english communication",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "how to give design feedback",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -67,
+          "providerUpdatedAt": "2026-08-22 00:15:29 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 40
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -84,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "design critique templates",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "design communication course",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 12.03,
+          "adCompetition": 0.49,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-08-23 22:10:12 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (43 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T07:30:32.683Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "professional english for designers",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "design critique tools",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best design communication",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "design feedback software",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "original": {
+        "memo": "ideas/2026-05-06.md",
+        "title": "The Design Critique Kit for Non-Native Designers",
+        "conviction": "high",
+        "score": null
+      },
+      "reason": "keywords not collected — Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "low",
+          "measuredCount": 2,
+          "totalCount": 4,
+          "top": {
+            "keyword": "design communication course",
+            "searchVolume": 20,
+            "id": "K5"
+          },
+          "byGroup": {
+            "problem": {
+              "keyword": "how to give design feedback",
+              "searchVolume": 10,
+              "id": "K3"
+            },
+            "solution": {
+              "keyword": "design communication course",
+              "searchVolume": 20,
+              "id": "K5"
+            }
+          },
+          "trends": {
+            "declining": 1,
+            "unknown": 1
+          },
+          "note": "Largest single keyword: \"design communication course\" at 20/month. 2 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $12.03 on \"design communication course\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "09f8f9bed02a312f",
+      "evidenceUpdatedAt": "2026-09-14T10:21:38.839Z"
+    }
+  ],
+  "spend": [],
+  "provider": {
+    "status": "dry-run",
+    "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+    "warnings": [
+      "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "DataForSEO credentials are not configured.",
+      "The shared DataForSEO budget is not configured, so spend could not be reserved against the shared allowance."
+    ]
+  },
+  "budget": {
+    "backend": "legacy-ledger",
+    "atomic": false,
+    "capUsd": 2,
+    "reserveUsd": 1,
+    "maxRunUsd": 0.1,
+    "sharedBefore": null,
+    "monthToDateUsdBefore": null,
+    "spentThisRunUsd": 0
+  },
+  "measure": "keywords-only",
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    },
+    "india|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2356,
+      "checkedAt": "2026-09-14T07:30:12.131Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 2,
+    "labsKeywords": 72,
+    "keywordsFromCache": 18,
+    "labsUsd": 0.03264,
+    "serpQueries": 0,
+    "serpsFromCache": 0,
+    "serpUsd": 0,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 9,
+        "keywordsToBuy": 63
+      },
+      {
+        "location": "India",
+        "language": "en",
+        "ideas": 1,
+        "keywordsToBuy": 9
+      }
+    ],
+    "totalUsd": 0.03264,
+    "reservedUsd": 0.035904
+  },
+  "lastGather": {
+    "at": "2026-09-14T10:21:38.839Z",
+    "mode": "dry-run",
+    "pendingIdeas": 10,
+    "spentUsd": 0,
+    "note": null
+  }
+}

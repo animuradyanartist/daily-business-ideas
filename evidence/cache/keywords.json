@@ -4122,6 +4122,3606 @@
       "fetchedAt": "2026-09-14T07:30:35.713Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|non native english communication": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|professional english writing help": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|sound native english work": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|english phrase templates": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|professional english templates": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|business communication phrases": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "business communication phrases",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 5.54,
+        "adCompetition": 0.29,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": null,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 16:17:09 +00:00"
+      }
+    },
+    "labs|united states|en|buy english templates": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|professional english course": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "professional english course",
+        "searchVolume": 110,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 18.42,
+        "adCompetition": 0.31,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 01:19:57 +00:00"
+      }
+    },
+    "labs|united states|en|business english learning tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|linkedin writing help non native": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to write linkedin captions": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to write linkedin captions",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 18:08:42 +00:00"
+      }
+    },
+    "labs|united states|en|linkedin post english mistakes": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|linkedin templates": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "linkedin templates",
+        "searchVolume": 390,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 10.63,
+        "adCompetition": 0.29,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 08:49:45 +00:00"
+      }
+    },
+    "labs|united states|en|linkedin content ideas": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "linkedin content ideas",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 6.33,
+        "adCompetition": 0.11,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 25,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-29 15:16:12 +00:00"
+      }
+    },
+    "labs|united states|en|buy linkedin templates": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|non native ux interview tips": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ux research language barrier": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|present ux findings english": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ux research presentation kit": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ux research kit": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "ux research kit",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.14,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": null,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-29 10:41:13 +00:00"
+      }
+    },
+    "labs|united states|en|best ux research tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "best ux research tools",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 10.52,
+        "adCompetition": 0.05,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 200,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-08-23 19:57:30 +00:00"
+      }
+    },
+    "labs|united states|en|user interview template cost": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to present design": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to present design",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 09:06:25 +00:00"
+      }
+    },
+    "labs|united states|en|design presentation tips": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "design presentation tips",
+        "searchVolume": 40,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-22 13:04:52 +00:00"
+      }
+    },
+    "labs|united states|en|defend design decisions": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|design template": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "design template",
+        "searchVolume": 1900,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 1300
+          }
+        ],
+        "cpcUsd": 4.19,
+        "adCompetition": 0.26,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 60,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 17:14:24 +00:00"
+      }
+    },
+    "labs|united states|en|design template pricing": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best presentation tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "best presentation tools",
+        "searchVolume": 720,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": 11.9,
+        "adCompetition": 0.41,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-12 18:07:27 +00:00"
+      }
+    },
+    "labs|united states|en|ux presentation cost": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|freelance designer communication problems": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|non native english client communication": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to handle scope creep": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to handle scope creep",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 0.16,
+        "adCompetition": 0.04,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -36,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-14 05:23:03 +00:00"
+      }
+    },
+    "labs|united states|en|client communication templates": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "client communication templates",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 2.57,
+        "adCompetition": 0.3,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 200,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 00:40:56 +00:00"
+      }
+    },
+    "labs|united states|en|freelance client kit": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|designer communication tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|client proposal template": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "client proposal template",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": 8.72,
+        "adCompetition": 0.92,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -44,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-24 18:35:35 +00:00"
+      }
+    },
+    "labs|united states|en|best freelance communication tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|designer welcome packet cost": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to write ux case study": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to write ux case study",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.14,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-24 01:50:45 +00:00"
+      }
+    },
+    "labs|united states|en|design portfolio writing help": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|struggle writing case study": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|case study template": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "case study template",
+        "searchVolume": 1600,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 2400
+          }
+        ],
+        "cpcUsd": 3.11,
+        "adCompetition": 0.29,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -45,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-29 07:10:07 +00:00"
+      }
+    },
+    "labs|united states|en|design portfolio kit": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ux case study script": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|case study kit": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|portfolio template cost": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|unclear design specifications": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|developer documentation template": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "developer documentation template",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.07,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 10:54:18 +00:00"
+      }
+    },
+    "labs|united states|en|ux design spec template": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|design handoff tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "design handoff tools",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -67,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-14 09:19:40 +00:00"
+      }
+    },
+    "labs|united states|en|design spec software pricing": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best ux documentation tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to write ai prompts": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to write ai prompts",
+        "searchVolume": 320,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 10.58,
+        "adCompetition": 0.47,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-23 22:59:20 +00:00"
+      }
+    },
+    "labs|united states|en|non native english design challenges": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ai prompts": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "ai prompts",
+        "searchVolume": 12100,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 14800
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 18100
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 8100
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 8100
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 8100
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 6600
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 8100
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 6600
+          }
+        ],
+        "cpcUsd": 5.34,
+        "adCompetition": 0.22,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 22,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 01:34:36 +00:00"
+      }
+    },
+    "labs|united states|en|ux writing ai prompts": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ai prompt kit": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|prompt engineering course cost": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "prompt engineering course cost",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.86,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-08-29 15:34:33 +00:00"
+      }
+    },
+    "labs|united states|en|non-native english communication": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|professional english for designers": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|design critique tools": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best design communication": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|design feedback software": {
+      "fetchedAt": "2026-09-14T10:22:32.850Z",
+      "returned": true,
+      "data": {
+        "keyword": "design feedback software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-24 02:20:27 +00:00"
+      }
+    },
+    "labs|india|en|struggle writing ui copy": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|india|en|non native ux writing": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|india|en|how to write microcopy": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|india|en|ux writing guide": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": true,
+      "data": {
+        "keyword": "ux writing guide",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-08-29 16:22:19 +00:00"
+      }
+    },
+    "labs|india|en|microcopy templates": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|india|en|ui writing examples": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": true,
+      "data": {
+        "keyword": "ui writing examples",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 00:22:08 +00:00"
+      }
+    },
+    "labs|india|en|ux writing tools": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": true,
+      "data": {
+        "keyword": "ux writing tools",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 100,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 06:03:50 +00:00"
+      }
+    },
+    "labs|india|en|best microcopy resources": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|india|en|ux writing course price": {
+      "fetchedAt": "2026-09-14T10:22:34.845Z",
+      "returned": false,
+      "data": null
     }
   }
 }

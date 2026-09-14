@@ -32,7 +32,7 @@ import {
   constrainAssessment,
 } from './lib/enrich.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims, figureAfterKeyword, normText } from './lib/grounding.mjs';
-import { planShapeIssues, HEAD_TERM_MAX_WORDS } from './lib/evidence.mjs';
+import { planShapeIssues, HEAD_TERM_MAX_WORDS, demandReading } from './lib/evidence.mjs';
 
 const [cmd, ...args] = process.argv.slice(2);
 const flag = (n) => args.includes(n);
@@ -500,7 +500,7 @@ if (cmd === 'check') {
 
   lines.push('| Check | Result | Detail |', '|---|---|---|', ...results.map((r) => `| ${esc(r.name)} | ${r.pass ? 'pass' : '**FAIL**'} | ${esc(r.detail)} |`));
   const review = readJson(P.review, null);
-  if (review) lines.push('', ...reviewLines(review, { full: true }));
+  if (review?.liveRun) lines.push('', ...reviewLines(review, { full: true }));
   writeFileSync(P.check, lines.join('\n') + '\n');
   for (const r of results) console.log(`${r.pass ? '✓' : '✗'} ${r.name} — ${r.detail}`);
   process.exit(results.every((r) => r.pass) ? 0 : 1);
@@ -592,8 +592,49 @@ if (cmd === 'compare') {
       return `| \`${id}\` | ${cell(a)} | ${cell(b)} | ${b ? kwList(b.list) : kwList(Object.entries(plans.plans[id]?.keywords ?? {}).flatMap(([g, ks]) => ks.map((k) => ({ keyword: k, group: g, status: 'not_collected' }))))} |`;
     }),
     '',
-    'Reading this honestly: more keywords with data is only better if the keywords still describe the idea. Broad head terms ("ux research templates") measure the category the idea sells into, not its niche angle (non-native speakers); the per-idea keyword lists are here for that judgement.',
+    'Reading this honestly: more keywords with data is only better if the keywords still describe the idea. Broad head terms measure the category the idea sells into, or a wider market, not its niche angle (non-native speakers).',
   ];
+  const review = readJson(P.review, null);
+  if (review?.judgements) {
+    const judge = (id, k) => review.judgements?.[id]?.[k.keyword] ?? 'not judged';
+    const tally = (m) => {
+      if (!m) return null;
+      const t = { 'on-idea': 0, category: 0, broader: 0, 'not judged': 0, ideasRelevant: 0, levelFromBroader: 0 };
+      for (const id of ids) {
+        const measured = m.byIdea[id].list.filter((k) => k.status === 'measured');
+        for (const k of measured) t[judge(id, k)]++;
+        if (measured.some((k) => ['on-idea', 'category'].includes(judge(id, k)))) t.ideasRelevant++;
+        const top = [...measured].sort((a, b) => b.searchVolume - a.searchVolume)[0];
+        if (top && judge(id, top) === 'broader') t.levelFromBroader++;
+      }
+      return t;
+    };
+    const rows = versions.filter((v) => v.m).map((v) => [v.label, tally(v.m), v.m]);
+    out.push(
+      '',
+      `## Human review of the measured keywords (${review.reviewedAt})`,
+      '',
+      `_${esc(review.method)}_`,
+      '',
+      '| Version | Measured: on-idea / category / broader | Ideas with on-idea or category data | Ideas whose demand level is set by a broader keyword |',
+      '|---|---|---|---|',
+      ...rows.map(([label, t]) => `| ${esc(label)} | ${t['on-idea']} / ${t.category} / ${t.broader}${t['not judged'] ? ` (+${t['not judged']} not judged)` : ''} | ${t.ideasRelevant}/${ids.length} | ${t.levelFromBroader}/${ids.length} |`),
+      '',
+      '| Idea | v3 demand level as computed | v3 level from on-idea + category keywords only |',
+      '|---|---|---|',
+      ...ids.map((id) => {
+        const list = v3?.byIdea[id]?.list ?? [];
+        const narrow = demandReading(list.filter((k) => k.status !== 'measured' || judge(id, k) !== 'broader'));
+        const top = narrow.top ? ` (${esc(narrow.top.keyword ?? '')}${narrow.top.searchVolume != null ? `, ${narrow.top.searchVolume}/mo` : ''})` : '';
+        return `| \`${id}\` | ${v3?.byIdea[id]?.demand ?? 'n/a'} · ${esc(v3?.byIdea[id]?.top ?? '')} | ${narrow.level}${top} |`;
+      }),
+      '',
+      '**Findings**',
+      ...review.findings.map((f) => `- ${esc(f)}`),
+      '',
+      `**Recommendation:** ${esc(review.recommendation)}`,
+    );
+  }
   writeFileSync(join(pilotDir, 'PLANNER-COMPARISON.md'), out.join('\n') + '\n');
   console.log(`✓ ${join(pilotDir, 'PLANNER-COMPARISON.md')}`);
   process.exit(0);
