@@ -119,12 +119,17 @@ export function nameMatchesEvidence(name, supported, index) {
  * Remove sentences that claim more about search demand than was measured:
  *   - a figure or "no/zero searches" for a keyword with no data
  *   - a figure for a measured keyword that differs from the measurement
- *   - "low / no demand" when demand was not measured; "no demand" when it was merely low
+ *   - about SEARCH: "low / no demand" when demand was not measured; "no demand" when it was merely low;
+ *     "strong / clear / high … demand" when the measured reading is below "substantial"
+ * Rules about levels apply only to sentences that talk about search (search, keyword, Google,
+ * SEO, volume), so experiment criteria like "…indicating limited interest" are left alone.
+ * Every removed sentence is returned for audit.
  */
 export function scrubDemandClaims(text, idea) {
   const keywords = (idea.keywords ?? []).map((k) => ({ ...k, n: normText(k.keyword) }));
   const level = idea.readings?.demand?.level ?? 'unknown';
   let removed = 0;
+  const removedSentences = [];
   const volumeFigure = /(\d[\d,.]*)\s*(k\b)?\s*(monthly searches|searches|search volume|\/\s?mo\b|per month|a month|\/month)/i;
   const out = String(text ?? '')
     .split(SENTENCE_SPLIT)
@@ -141,12 +146,17 @@ export function scrubDemandClaims(text, idea) {
           if (Number.isFinite(said) && said !== k.searchVolume) bad = true;
         }
       }
-      if (level === 'unknown' && /\b(low|little|weak|no|zero|minimal|limited|negligible)\s+(search\s+)?(demand|search volume|interest)\b/i.test(n)) bad = true;
-      if (level !== 'unknown' && /\b(no|zero)\s+(search\s+)?demand\b|nobody searches|no one searches/i.test(n)) bad = true;
+      const aboutSearch = /\b(search|searches|searching|keywords?|google|seo|search volume)\b/i.test(n) || mentioned.length > 0;
+      if (aboutSearch) {
+        if (level === 'unknown' && /\b(low|little|weak|no|zero|minimal|limited|negligible)\s+(search\s+)?(demand|volume|interest)\b/i.test(n)) bad = true;
+        if (level !== 'unknown' && /\b(no|zero)\s+(search\s+)?demand\b|nobody searches|no one searches/i.test(n)) bad = true;
+        if (level !== 'substantial' && /\b(strong|clear|high|large|significant|substantial|huge|massive|big|proven)\s+(search\s+)?(demand|interest|volume)\b/i.test(n)) bad = true;
+      }
       if (!bad) return sentence;
       removed += 1;
+      removedSentences.push(sentence.trim());
       return '[removed: a statement about search demand that the collected evidence does not show]';
     })
     .join(' ');
-  return { text: out, removed };
+  return { text: out, removed, removedSentences };
 }

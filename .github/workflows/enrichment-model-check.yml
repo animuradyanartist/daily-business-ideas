@@ -68,7 +68,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SCOUT_ENRICH_MODELS: gemini-model-that-does-not-exist
-        run: node scripts/pilot.mjs assess --pilot "$PILOT" --expect-failure
+        run: node scripts/pilot.mjs assess --pilot "$PILOT" --reassess --expect-failure
 
       - name: Assess — Scout's real models, resuming from the saved evidence
         if: env.TASK == 'assess'

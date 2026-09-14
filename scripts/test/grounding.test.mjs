@@ -92,8 +92,16 @@ test('missing data stays unknown: invented or misquoted volumes are removed', ()
   assert.match(r.text, /170 searches per month/);
 
   const unmeasured = { ...idea, readings: { ...idea.readings, demand: { level: 'unknown' } } };
-  assert.equal(scrubDemandClaims('There is low demand for this.', unmeasured).removed, 1);
+  assert.equal(scrubDemandClaims('Google shows low search demand for this.', unmeasured).removed, 1);
   assert.equal(scrubDemandClaims('Measured demand was modest.', idea).removed, 0);
+  // Experiment criteria about sign-ups are not claims about search demand (live false positive).
+  assert.equal(scrubDemandClaims('Stop if fewer than 20 downloads arrive, indicating limited interest.', unmeasured).removed, 0);
+  // Magnitude overstatements at a "some" reading (live misses: "clear search demand", "strong interest … search volume").
+  const r2 = scrubDemandClaims('There is clear search demand for templates. The page validates the strong interest indicated by the search volume for "design critique template".', idea);
+  assert.equal(r2.removed, 2);
+  assert.equal(r2.removedSentences.length, 2);
+  const big = { ...idea, readings: { ...idea.readings, demand: { level: 'substantial' } } };
+  assert.equal(scrubDemandClaims('There is clear search demand for templates.', big).removed, 0);
 });
 
 test('"what changed" must quote Scout\'s memo, and needs quoted evidence to claim an effect', () => {

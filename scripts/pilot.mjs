@@ -250,6 +250,12 @@ if (cmd === 'assess') {
     console.error('GEMINI_API_KEY is not set — assessment needs Scout\'s Gemini configuration.');
     process.exit(1);
   }
+  if (flag('--reassess')) {
+    // Start from unassessed evidence (e.g. after validator changes). Evidence itself is untouched.
+    for (const i of run.ideas) delete i.assessment;
+    delete run.assessmentError;
+    saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
+  }
   const before = Object.fromEntries(run.ideas.map((i) => [i.id, { fp: evidenceFingerprint(i), assessed: Boolean(i.assessment) }]));
   const gemini = createGemini(process.env.GEMINI_API_KEY);
   const memoOf = new Map(pilot.ideas.map((i) => [i.id, memoContext(readText(i.memo)).excerpt]));
@@ -368,7 +374,35 @@ if (cmd === 'check') {
     record('Stored citations all carry a verbatim quote found in the cited item; non-unknown levels have grounded citations', ungrounded === 0, `${ungrounded} ungrounded`);
     record('No stored text states search demand the evidence did not measure', unknownViolations === 0, `${unknownViolations} violation(s)`);
     record('Volume figures quoted for measured keywords match the measurement', figureMismatches === 0, `${figuresChecked} figure(s) checked, ${figureMismatches} mismatch(es)`);
+    // Dollar figures: a CPC must equal a measured CPC; any other $ amount must appear in a fetched page or Scout's memo.
+    let dollarsChecked = 0;
+    const dollarMisses = [];
+    for (const idea of assessed) {
+      const a = idea.assessment;
+      const memo = readText(pilot.ideas.find((x) => x.id === idea.id).memo);
+      const cpcs = new Set(idea.keywords.filter((k) => typeof k.cpcUsd === 'number').map((k) => k.cpcUsd.toFixed(2)));
+      const pageText = idea.pages.filter((p) => !p.error).map((p) => `${p.title ?? ''} ${p.description ?? ''} ${(p.priceMentions ?? []).map((m) => m.context).join(' ')}`).join(' ');
+      const texts = [a.opportunity, a.whoPays, a.problemEvidence.observed, a.problemEvidence.inference, a.feasibility.note, a.nextExperiment.what, a.continueIf, a.stopIf, ...a.unproven, ...(a.changes ?? []).map((c) => c.finding), ...a.competition.strengths.map((s) => s.text), ...a.competition.alternatives.map((x) => x.what)];
+      for (const t of texts) {
+        for (const m of String(t).matchAll(/\$\s?(\d[\d,]*(?:\.\d+)?)/g)) {
+          const context = String(t).slice(Math.max(0, m.index - 40), m.index + m[0].length + 40);
+          const value = Number(m[1].replace(/,/g, ''));
+          const near = String(t).slice(m.index + m[0].length, m.index + m[0].length + 12);
+          if (/\bcpc\b/i.test(context)) {
+            dollarsChecked++;
+            if (!cpcs.has(value.toFixed(2))) dollarMisses.push(`${idea.id}: ${m[0]} CPC not measured`);
+          } else if (!/budget|spend|cost:|cash|ads?\b/i.test(context) && !/^\s*(-|to|–)/.test(near)) {
+            dollarsChecked++;
+            const plain = String(value);
+            if (!pageText.includes(plain) && !memo.includes(`$${m[1]}`) && !memo.includes(`$${plain}`)) dollarMisses.push(`${idea.id}: ${m[0]} not in pages or memo`);
+          }
+        }
+      }
+    }
+    record('Dollar figures in assessments match measured CPCs, fetched prices or Scout\'s memo (experiment budgets excluded)', dollarMisses.length === 0, `${dollarsChecked} figure(s) checked${dollarMisses.length ? `; unmatched: ${dollarMisses.join('; ')}` : ''}`);
     record('Validation actually intervened where the model over-claimed (informational)', true, `${rejected} citation(s) rejected · ${downgraded} level/kind downgrade(s) · ${dropped} claim(s) dropped · ${scrubbed} sentence(s) removed`);
+    const removedAudit = assessed.flatMap((i) => (i.assessment.validation?.removedSentences ?? []).map((s) => `${i.id}: "${s}"`));
+    if (removedAudit.length) lines.push('Removed sentences (for review):', ...removedAudit.map((s) => `- ${esc(s)}`), '');
     const unknownKeywords = run.ideas.flatMap((i) => i.keywords.filter((k) => k.status !== 'measured'));
     record('Missing keyword data is stored as unknown (null), never as 0', unknownKeywords.every((k) => k.searchVolume === null), `${unknownKeywords.length} keyword(s) without data`);
     const fc = readJson(join(pilotDir, 'failure-check.json'), null);

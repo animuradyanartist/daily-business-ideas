@@ -828,13 +828,14 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
   const index = evidenceIndex(idea);
   const urls = ideaEvidenceUrls(idea);
   const originalNorm = normText(original);
-  const validation = { removedLinks: 0, scrubbedSentences: 0, rejectedCitations: [], downgraded: [], dropped: [] };
+  const validation = { removedLinks: 0, scrubbedSentences: 0, removedSentences: [], rejectedCitations: [], downgraded: [], dropped: [] };
 
   const clean = (t, max = 1200) => {
     const r = stripUnverifiedUrls(String(t ?? '').slice(0, max), urls);
     validation.removedLinks += r.removed;
     const d = scrubDemandClaims(r.text, idea);
     validation.scrubbedSentences += d.removed;
+    validation.removedSentences.push(...d.removedSentences);
     return d.text.trim();
   };
   const cited = (basis, what) => {
