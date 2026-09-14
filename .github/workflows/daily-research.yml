@@ -119,37 +119,3 @@ jobs:
           echo "conviction=${CONVICTION}" >> $GITHUB_OUTPUT
           echo "score=${SCORE}" >> $GITHUB_OUTPUT
           echo "date=${DATE}" >> $GITHUB_OUTPUT
-
-      - name: Notify Telegram
-        if: steps.commit.outputs.committed == 'true'
-        env:
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-        run: |
-          DATE="${{ steps.commit.outputs.date }}"
-          TITLE="${{ steps.commit.outputs.title }}"
-          CONVICTION="${{ steps.commit.outputs.conviction }}"
-          SCORE="${{ steps.commit.outputs.score }}"
-          MEMO_URL="https://github.com/${GITHUB_REPOSITORY}/blob/main/ideas/${DATE}.md"
-
-          if [ -n "${SCORE}" ]; then
-            HEAD_LINE="${DATE} — ${CONVICTION} conviction (${SCORE})"
-          else
-            HEAD_LINE="${DATE} — ${CONVICTION} conviction"
-          fi
-
-          MSG="💡 ${HEAD_LINE}
-          ${TITLE}
-
-          Memo: ${MEMO_URL}"
-
-          # Fail loudly on a missing secret: without this, curl posts to an invalid
-          # URL, gets a 404, and still exits 0 — a green step that sent nothing.
-          if [ -z "${TG_BOT_TOKEN}" ]; then
-            echo "::error::TG_BOT_TOKEN is not set — refusing to send." >&2
-            exit 1
-          fi
-
-          curl -sS --fail-with-body -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
-            -d "chat_id=${TG_CHAT_ID}" \
-            --data-urlencode "text=${MSG}"
