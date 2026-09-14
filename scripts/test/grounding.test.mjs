@@ -39,6 +39,19 @@ test('elided quotes ("...") pass only when every fragment appears in order', () 
   assert.equal(quoteFound(hay, 'but freeze when typing… they are visually fluent').found, false); // wrong order
   assert.equal(quoteFound(hay, 'They are visually fluent… hate LinkedIn').found, false); // invented fragment
   assert.equal(quoteFound(hay, 'they... but...').found, false); // fragments too short to mean anything
+  // Markdown emphasis and quote-mark style in a memo are not part of the quote (live false negatives).
+  const memo = '2.  **The "Prompt Pack" Market is Proven and Profitable.** Selling structured prompts works.';
+  assert.equal(quoteFound(memo, "The 'Prompt Pack' Market is Proven and Profitable.").found, true);
+  assert.equal(quoteFound(memo, 'The Prompt Pack market is saturated').found, false);
+});
+
+test('short verbatim prices count as quotes; honest "no data" wording is kept', () => {
+  const idx = evidenceIndex(idea);
+  assert.deepEqual(checkBasis([{ id: 'P1', quote: 'Team $12/mo per editor' }], idx).supported.map((s) => s.id), ['P1']);
+  const unmeasured = { ...idea, readings: { ...idea.readings, demand: { level: 'unknown' } } };
+  assert.equal(scrubDemandClaims('Unproven: demand for this solution, as no search volume was found for relevant keywords.', unmeasured).removed, 0);
+  assert.equal(scrubDemandClaims('"how to give design feedback" has no measurable search volume.', idea).removed, 0);
+  assert.equal(scrubDemandClaims('Nobody searches for "how to give design feedback".', idea).removed, 1);
 });
 
 test('levels are capped by what the quotes can carry', () => {
@@ -96,6 +109,10 @@ test('missing data stays unknown: invented or misquoted volumes are removed', ()
     idea,
   );
   assert.equal(r.removed, 3);
+  // Each figure belongs to the keyword it follows (live false positive: two keywords, two correct figures).
+  const two = { ...idea, keywords: [...idea.keywords, { id: 'K3', keyword: 'critique checklist', group: 'solution', status: 'measured', searchVolume: 10 }] };
+  assert.equal(scrubDemandClaims('Keyword data shows demand for "design critique template" (170 searches/month) and "critique checklist" (10 searches/month).', two).removed, 0);
+  assert.equal(scrubDemandClaims('Keyword data shows demand for "design critique template" (170 searches/month) and "critique checklist" (900 searches/month).', two).removed, 1);
   assert.match(r.text, /Demand is real\./);
   assert.match(r.text, /170 searches per month/);
 
@@ -125,6 +142,45 @@ test('"what changed" must quote Scout\'s memo, and needs quoted evidence to clai
     { original },
   );
   assert.deepEqual(out.changes.map((c) => c.effect), ['contradicts', 'untested']);
+
+  // Missing keyword data is not evidence against (live case: "weakens" because 9 keywords had no data).
+  const absent = constrainAssessment(
+    { changes: [{ original: 'Buyers are non-native designers', finding: 'No keyword returned search data.', basis: [{ id: 'K2', quote: 'how to give design feedback' }], effect: 'weakens' }] },
+    idea,
+    { original },
+  );
+  assert.equal(absent.changes[0].effect, 'untested');
+
+  // Headings and labels are verbatim but are not claims (live cases).
+  const memoExcerpt = '## Competitive landscape\nThree tools exist.\n\n## Who pays and why\nReal pain in their words: - a forum post about critique.';
+  const labelled = constrainAssessment(
+    {
+      changes: [
+        { original: 'Competitive landscape', finding: 'Crowded.', basis: [], effect: 'untested' },
+        { original: 'Real pain in their words', finding: 'Unclear.', basis: [], effect: 'untested' },
+        { original: 'Three tools exist.', finding: 'More than three rank.', basis: [{ id: 'S1.2', quote: 'structured design feedback templates' }], effect: 'weakens' },
+      ],
+    },
+    idea,
+    { original: memoExcerpt },
+  );
+  assert.deepEqual(labelled.changes.map((c) => c.original), ['Three tools exist.']);
+
+  // Live cases: search volume "supporting" a validated market; absence of prices "contradicting" profitability.
+  const memo2 = 'The template market is validated and profitable. Designers pay for critique templates.';
+  const reasoning = constrainAssessment(
+    {
+      changes: [
+        { original: 'The template market is validated and profitable.', finding: 'Keyword data shows 170 searches a month.', basis: [{ id: 'K1', quote: 'design critique template' }], effect: 'supports' },
+        { original: 'Designers pay for critique templates.', finding: 'The ranking tools appear to be free, not paid products.', basis: [{ id: 'S1.2', quote: 'structured design feedback templates' }], effect: 'contradicts' },
+      ],
+    },
+    idea,
+    { original: memo2 },
+  );
+  assert.deepEqual(reasoning.changes.map((c) => c.effect), ['untested', 'weakens']);
+  assert.equal(labelled.validation.dropped.filter((d) => /heading or label/.test(d)).length, 2);
+  assert.ok(absent.validation.downgraded.some((d) => /no data/.test(d)));
   assert.ok(out.validation.dropped.some((d) => /not in Scout's memo/.test(d)));
 });
 

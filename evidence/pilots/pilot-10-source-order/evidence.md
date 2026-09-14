@@ -18,21 +18,23 @@ _id `2026-04-27` · enriched · Scout's memo [ideas/2026-04-27.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The target customers often work for US-based companies or in US-centric tech environments, and the problem is about professional English communication in that context.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking software professionals struggle to communicate effectively and confidently in written async English within remote tech teams, often sounding rude or over-hedging. _(Scout planner description — not yet assessed against evidence.)_
+A swipe file of native-sounding English phrases for non-native software professionals to use in async communication like Slack and pull requests. The product aims to help them communicate more effectively and confidently in remote tech teams.
 
 ### Who pays and why?
 - Has the problem: Non-native English-speaking software professionals (engineers, PMs, designers) working remotely or hybrid for US, UK, or pan-EU companies. _(inference)_
 - Pays: A non-native English-speaking software professional (engineer, PM, designer). _(inference)_
-- Why: They pay to gain confidence and communicate more effectively and professionally in their English-speaking tech workplace, avoiding misinterpretations and career setbacks. _(inference)_
+- Assessment: A non-native English-speaking software professional pays to gain confidence, communicate more professionally, and avoid misunderstandings that could hinder their career. This is an inference as no direct evidence of payment for this specific solution was found.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | strong | Multiple sources, including academic papers and discussion forums, show that non-native English speakers face significant challenges in professional communication. These challenges include papers being rejected for writing quality, a lack of confidence, panicking during meetings, and higher cognitive load. (S2.2, S2.4, S2.6, S2.9, S2.11) |
 | Search demand and trend | low | Largest single keyword: "business english phrases" at 30/month. 6 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Published offer prices seen on 1 ranking site(s): oxfordlanguageclub.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor. |
-| Competitors | unknown | Not assessed yet. 12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on oxfordlanguageclub.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 2 alternative(s) identified from fetched pages (S1.2, S1.3, S1.4, P2). 12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on oxfordlanguageclub.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating a small PDF or Notion page with 20-30 phrases for a single scenario (e.g., code reviews) is a low-effort way to create a minimum viable product to test demand. |
+
+Inference on the problem: These general professional communication challenges likely extend to the specific async, written environments of software development (like Slack and PR reviews), causing similar stress and career risk.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -48,6 +50,14 @@ Non-native English-speaking software professionals struggle to communicate effec
 | K9 | english for tech professionals course | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Oxford Language Club** — Offers online English courses with certificates, with monthly and yearly subscription plans. (P2)
+- **Free Content (Berlitz, Simon & Simon, etc.)** — Numerous websites provide free blog posts and articles listing dozens or hundreds of common business English phrases. (S1.3, S1.4)
+
+Strengths:
+- Observed: Many competitors are established brands in language learning and offer a large volume of free content, which attracts a wide audience. (S1.4, S1.2)
+
+Gaps:
+- Inference: Existing solutions are either generic, free lists of phrases or comprehensive, expensive courses. None appear to be a focused, one-time purchase product specifically for the async written communication challenges of software engineers (e.g., PR reviews, technical Slack messages).
 
 Top results for "business english phrases" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.2 · #2 oxfordlanguageclub.com _(site)_ — [100 Business English Phrases for Speaking Professionally ...](https://oxfordlanguageclub.com/page/blog/100-business-english-phrases-for-speaking-professionally-and-advancing-your-career)
@@ -78,15 +88,25 @@ Fetched competitor pages:
 
 Not read: https://www.simonandsimon.co.uk/pricing (HTTP 404); https://www.berlitz.com/pricing (HTTP 404).
 
+### What changed versus Scout's original memo?
+- **untested** — original: "AI rewriters (Grammarly, Professionally) created the category" → The search results for the tested keywords did not include AI rewriters like Grammarly or Professionally.
+- **untested** — original: "Notion templates for language learning are a proven Gumroad/Notion-marketplace category" → The evidence does not contain information about Notion templates for language learning or their performance on marketplaces.
+
 ### What remains unproven?
-- Not assessed yet.
+- Whether software professionals will pay for a curated swipe file instead of using free online resources or general-purpose AI writing tools.
+- Whether the specific pain of async communication in tech is acute enough to motivate a purchase.
+- Whether a Notion database or PDF is the preferred format for this audience.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create a landing page for 'The Non-Native Engineer's PR Review Phrasebook.' Offer a free PDF with 10 phrases for an email signup, and include a pre-order button for the full $29 product to test purchase intent.
+
+Rough cost: $50 for landing page tool + 15 hours · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The landing page achieves 50+ email signups and at least 5 pre-orders.
+- Stop if: The landing page generates fewer than 10 email signups and zero pre-orders after promotion in relevant communities.
+
+_Evidence checks on the assessment: dropped: change: original text "Non-native English-speaking software professionals struggle " is not in Scout's memo._
 
 ---
 
@@ -96,21 +116,23 @@ _id `2026-04-28` · enriched · Scout's memo [ideas/2026-04-28.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The product is sold on Gumroad, targets remote clients, and the US is a large market for digital products and freelance services, making it a primary search location for such solutions.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking solo designers struggle to create professional, native-sounding LinkedIn content that attracts clients. _(Scout planner description — not yet assessed against evidence.)_
+A kit for non-native English-speaking designers containing Canva carousel templates and a swipe file of native-sounding captions. The product aims to help them create professional LinkedIn content to attract clients and build their personal brand.
 
 ### Who pays and why?
 - Has the problem: Non-native English-speaking solo designers, illustrators, or freelance creatives (graphic, UX, product, brand) who want to win remote clients or build a personal brand on LinkedIn. _(inference)_
 - Pays: A non-native English-speaking solo designer, illustrator, or freelance creative. _(inference)_
-- Why: They pay to overcome language barriers and create effective LinkedIn content that helps them attract remote clients and build their personal brand. _(inference)_
+- Assessment: Non-native English-speaking solo designers or freelance creatives pay to overcome language barriers and create effective LinkedIn content more easily. This is an inference as no direct evidence of payment for this specific solution was found.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | weak | LinkedIn posts show that non-native speakers consider which language to use for their content and that complex language can be a barrier. Some non-native speakers are actively publishing content despite having an accent. (S2.2, S2.7, S2.8) |
 | Search demand and trend | some | Largest single keyword: "how to write linkedin posts" at 320/month. 5 keyword(s) returned no data (unknown, not zero). Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | Advertisers bid on 1 commercial keyword(s) (highest CPC $1.80 on "linkedin carousel templates"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Broad platforms with their own pricing also rank (figma.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 5 vendor-like or publisher domain(s) and 4 broad platform(s) (linkedin.com, canva.com, adobe.com, figma.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on figma.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 3 alternative(s) identified from fetched pages (S1.1, S1.2, S1.3, S1.9). 5 vendor-like or publisher domain(s) and 4 broad platform(s) (linkedin.com, canva.com, adobe.com, figma.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on figma.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating a small bundle of 5 Canva templates and a one-page PDF of 15 caption ideas is a fast and low-cost way to produce a testable lead magnet. |
+
+Inference on the problem: While language is a consideration for non-native creators on LinkedIn, the evidence does not strongly indicate that writing captions is a significant pain point they would pay to solve. The problem may be more about strategy (which language to use) than execution (what words to write).
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -126,6 +148,16 @@ Non-native English-speaking solo designers struggle to create professional, nati
 | K9 | hire linkedin content writer | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Canva** — A collection of over 1,200 free and paid LinkedIn carousel templates that are fully customizable. (S1.1)
+- **Adobe Express** — Offers editable and free LinkedIn carousel post templates. (S1.2)
+- **Contentdrips** — Provides over 500 free LinkedIn carousel templates and uses AI to populate the slides from a topic or blog post. (S1.9)
+
+Strengths:
+- Observed: Competitors include major design platforms with massive, often free, template libraries integrated into users' existing workflows. (S1.1, S1.2)
+- Observed: Some competitors offer AI features to automatically generate content for the templates. (S1.9)
+
+Gaps:
+- Inference: The existing template providers focus on the visual design and do not specifically address the linguistic challenges of non-native English speakers, such as writing captions.
 
 Top results for "linkedin carousel templates" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.1 · #1 www.canva.com _(site)_ — [Customize 1239+ LinkedIn Carousel Templates Online](https://www.canva.com/linkedin-carousel/templates/)
@@ -154,15 +186,24 @@ Fetched competitor pages:
 
 Not read: https://www.canva.com/linkedin-carousel/templates/ (HTTP 403); https://www.canva.com/pricing (HTTP 403); https://www.adobe.com/pricing (HTTP 404); https://www.figma.com/community/file/1204442937541895453/linkedin-carousel-templates (HTTP 403).
 
+### What changed versus Scout's original memo?
+- **weakens** — original: "non-native English-speaking solo designers... freeze when typing English captions" → The evidence shows non-native speakers think about which language to use on LinkedIn, but it does not confirm they 'freeze' or find caption writing to be a primary obstacle. (S2.7)
+- **supports** — original: "Editable templates are eating static PDFs in 2026" → The top search results for 'linkedin carousel templates' are dominated by platforms offering editable templates, such as Canva, Adobe, and Figma. (S1.1, S1.2)
+- **untested** — original: "Authenticity premium punishes generic AI captions" → No evidence was found in the search results regarding a preference for human-written over AI-generated captions on LinkedIn.
+
 ### What remains unproven?
-- Not assessed yet.
+- Whether the caption-writing component is a strong enough differentiator to compete with thousands of free visual templates.
+- Whether designers perceive a need for 'native-sounding' captions and would pay for them over using free AI tools.
+- Whether the target audience is willing to pay for this type of content kit at all.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create and promote a free lead magnet: '5 LinkedIn Carousel Templates + 10 Native-English Hooks for Non-Native Designers.' Track downloads and survey recipients to identify their single biggest challenge with creating LinkedIn content.
+
+Rough cost: 10 hours of work · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: There are 100+ downloads and at least 30% of survey respondents list 'writing captions in English' as a top challenge.
+- Stop if: There are fewer than 20 downloads, or if survey data indicates the primary challenges are design inspiration or posting consistency, not language.
 
 ---
 
@@ -172,21 +213,23 @@ _id `2026-04-29` · enriched · Scout's memo [ideas/2026-04-29.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The target customers often work for US/UK companies or serve English-speaking clients, and the problem examples are from English-speaking forums, making the US market the most direct fit for search intent.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking UX designers lack confidence and specific linguistic tools to conduct nuanced user interviews and present findings persuasively to native-speaking stakeholders. _(Scout planner description — not yet assessed against evidence.)_
+A toolkit for non-native English-speaking UX designers with templates and phrase swipe files for user research. It aims to help them conduct user interviews and present findings more confidently and persuasively.
 
 ### Who pays and why?
 - Has the problem: Non-native English-speaking UX designers or researchers, likely from Europe, Asia, or Latin America, working for US/UK companies or serving English-speaking clients. _(inference)_
 - Pays: Non-native English-speaking UX designers or researchers. _(inference)_
-- Why: They pay to overcome language barriers, gain confidence, and improve their communication skills in high-stakes UX research and presentation scenarios, ultimately advancing their careers. _(inference)_
+- Assessment: Non-native English-speaking UX designers or researchers pay to gain confidence and improve their communication skills in high-stakes professional scenarios. This is an inference as no direct evidence of payment for this specific solution was found.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | strong | Multiple sources, including professional blogs, discussion forums, and academic studies, directly address the problem of conducting user interviews and research across a language barrier. This is presented as a known challenge with established strategies for mitigation. (S2.2, S2.6, S2.7, S2.9, S2.11) |
 | Search demand and trend | low | Largest single keyword: "ux research templates" at 50/month. 8 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Broad platforms with their own pricing also rank (notion.com, figma.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 6 vendor-like or publisher domain(s) and 3 broad platform(s) (notion.com, figma.com, airtable.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on notion.com, figma.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 3 alternative(s) identified from fetched pages (S1.3, S1.4, S1.5, S1.6, S1.8). 6 vendor-like or publisher domain(s) and 3 broad platform(s) (notion.com, figma.com, airtable.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on notion.com, figma.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating a one-page PDF 'cheat sheet' with 20 native-sounding phrases for moderating a user interview is a very low-effort experiment to test interest. |
+
+Inference on the problem: For a non-native UX researcher working in an English-speaking environment, this language barrier is a recurring and stressful part of their job, particularly in the critical, unscripted moments of a user interview.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -202,6 +245,15 @@ Non-native English-speaking UX designers lack confidence and specific linguistic
 | K9 | buy ux research tools | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **NN/g (Nielsen Norman Group)** — Provides a curated set of free, authoritative templates and guides for UX activities. (S1.3)
+- **Notion Marketplace** — A platform offering various free and paid templates to manage user research findings, interviews, and tests. (S1.4)
+- **Figma Community** — Offers free, community-created templates for UX research that can be used directly within the Figma design tool. (S1.5)
+
+Strengths:
+- Observed: Competitors are highly authoritative (NN/g) or deeply integrated into the UX designer's workflow (Notion, Figma), and many of their offerings are free. (S1.3, S1.4, S1.5)
+
+Gaps:
+- Inference: The existing templates provide the structure for research (e.g., plans, reports) but do not offer the specific linguistic tools (e.g., nuanced questions, probing phrases) needed by non-native English speakers to conduct the human-facing parts of the research.
 
 Top results for "ux research templates" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.1 · #1 odettejansen.medium.com _(reference_media)_ — [Sharing my UX Research Templates - Odette Jansen - Medium](https://odettejansen.medium.com/sharing-my-ux-research-templates-626176f866ac)
@@ -232,15 +284,25 @@ Fetched competitor pages:
 
 Not read: https://www.nngroup.com/pricing (HTTP 404); https://www.figma.com/community/file/1064978915298678680/ux-research-template (HTTP 403).
 
+### What changed versus Scout's original memo?
+- **supports** — original: "The market for productized UX templates is validated." → Search results show that major industry platforms like Notion, Figma, and Airtable, along with thought leaders like NN/g, all offer UX research templates, confirming a market for these artifacts. (S1.3, S1.4)
+- **untested** — original: "AI tools are augmenting, not replacing, the researcher." → The provided evidence does not contain information about AI research tools.
+
 ### What remains unproven?
-- Not assessed yet.
+- Whether UX researchers are willing to pay for a language-focused kit rather than relying on free templates and improving their skills through practice.
+- If the pain of conducting interviews in English is acute enough to motivate a purchase, or if it's seen as a manageable part of the job.
+- Whether a swipe file is the correct format, as opposed to a video course or live coaching.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Write and publish a detailed blog post on Medium titled 'How I Overcame My Fear of Moderating User Interviews in English'. Offer a free downloadable 'User Interview Phrasebook' with 10 phrases in exchange for an email, and link to a waitlist for the full kit.
+
+Rough cost: 10-15 hours of writing and design · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The blog post receives over 500 views and generates at least 50 email signups for the phrasebook and waitlist.
+- Stop if: The post gets minimal traction (<100 views) and fewer than 10 email signups.
+
+_Evidence checks on the assessment: dropped: change: original text "Non-native English-speaking UX designers lack confidence and" is not in Scout's memo._
 
 ---
 
@@ -250,21 +312,23 @@ _id `2026-04-30` · enriched · Scout's memo [ideas/2026-04-30.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The target customer is a non-native English speaker working in an English-speaking professional environment, and the US is a major hub for tech and design jobs where English proficiency in presentations is critical.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking designers experience high anxiety and difficulty presenting their work, defending decisions, and handling critical feedback from native-speaking stakeholders. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is to sell a toolkit combining presentation templates with linguistic scripts. It aims to help non-native English-speaking designers present their work confidently to stakeholders.
 
 ### Who pays and why?
 - Has the problem: Non-native English-speaking UX, UI, or product designers working in remote or international teams where English is the primary language. _(inference)_
 - Pays: Non-native English-speaking UX, UI, or product designers. _(inference)_
-- Why: They pay to overcome language barriers and confidently articulate their design decisions, which is crucial for career advancement and job performance. _(inference)_
+- Assessment: The target customer is a non-native English-speaking UX/UI or product designer who pays to reduce anxiety and improve their communication effectiveness, which they believe is critical for their career.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | moderate | The evidence shows discussion and articles about designers' fear and anxiety related to presenting their work. This is described as a "specific dread" and a problem people seek solutions for. (S2.2, S2.5, S2.9) |
 | Search demand and trend | some | Largest single keyword: "design presentation templates" at 320/month. 7 keyword(s) returned no data (unknown, not zero). Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | Advertisers bid on 2 commercial keyword(s) (highest CPC $12.03 on "design communication course"). CPC is an advertiser bid, not a customer's willingness to pay. 2 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages. |
-| Competitors | unknown | Not assessed yet. 8 vendor-like or publisher domain(s) and 3 broad platform(s) (adobe.com, canva.com, figma.com) rank across 2 queries (not all are competitors — some are consultants or publishers). |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 3 alternative(s) identified from fetched pages (S1.1, S1.2, S1.4, S1.6). 8 vendor-like or publisher domain(s) and 3 broad platform(s) (adobe.com, canva.com, figma.com) rank across 2 queries (not all are competitors — some are consultants or publishers). |
+| Feasibility of a small first experiment | easy | Inference: Creating a small, free lead magnet as described in the plan ('The 5-Slide Template & Script') is a simple task requiring only design and writing skills, with no capital investment. |
+
+Inference on the problem: While the general problem of presentation anxiety for designers is validated, the evidence does not specifically mention the unique challenges faced by non-native English speakers. It is an inference that this specific subgroup experiences this pain more acutely and would seek a tailored solution.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -280,6 +344,15 @@ Non-native English-speaking designers experience high anxiety and difficulty pre
 | K9 | buy design presentation script | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Adobe Express** — Offers hundreds of free, customizable presentation templates that can be downloaded as PowerPoint or PDF files. (P1)
+- **SlidesCarnival** — Provides a collection of professionally-designed, free PowerPoint and Google Slides templates. (P3)
+- **Figma Community** — Offers over 3,400 free, fully customizable presentation templates and slides. (S1.6)
+
+Strengths:
+- Observed: Many established platforms like Adobe, Figma, and Canva offer a vast number of high-quality, visually appealing presentation templates for free. (S1.1, S1.6)
+
+Gaps:
+- Inference: Existing competitors focus on the visual design of the slides (the 'what') but do not appear to offer linguistic support, scripts, or frameworks for what to say (the 'how'), particularly for non-native speakers.
 
 Top results for "design presentation templates" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.1 · #1 www.adobe.com _(site)_ — [Customize & Download Free Presentation Templates](https://www.adobe.com/express/templates/presentation)
@@ -307,15 +380,26 @@ Fetched competitor pages:
 
 Not read: https://www.adobe.com/pricing (HTTP 404); https://www.canva.com/presentations/templates/ (HTTP 403); https://www.canva.com/pricing (HTTP 403).
 
+### What changed versus Scout's original memo?
+- **supports** — original: "The template market is mature, but lacks linguistic support." → Search results for "design presentation templates" show a crowded market of free visual templates from major players like Adobe, Figma, and Canva. These results do not mention scripts or linguistic support. (S1.1, S1.6)
+- **untested** — original: "A productized toolkit for non-native English-speaking designers" → Keywords targeting the specific niche, such as "non native english presentation" and "design presentation anxiety," have no measurable search volume. (K1, K3)
+
 ### What remains unproven?
-- Not assessed yet.
+- Whether non-native English-speaking designers perceive their problem as distinct from general presentation anxiety.
+- Whether this target audience is willing to pay for a solution rather than using free templates and general advice.
+- Whether a script-and-template toolkit is the desired solution format.
+- Claims without cited evidence were downgraded to unknown: change "a productized toolkit for non-native english-speak" weakens → untested: cites only keywords with no data (unknown, not evidence).
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create the free lead magnet: "The 5-Slide Template & Script to Justify One Design Decision." Promote it on platforms like Reddit (r/UXDesign) and LinkedIn, and measure downloads and collect email addresses.
+
+Rough cost: $0, 10-15 hours of design and writing time. · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The lead magnet gets over 100 downloads and at least 5 people reply to a follow-up email confirming the specific pain point for non-native speakers.
+- Stop if: Fewer than 25 downloads, or feedback indicates that existing free templates and general public speaking advice are sufficient.
+
+_Evidence checks on the assessment: downgraded: change "a productized toolkit for non-native english-speak" weakens → untested: cites only keywords with no data (unknown, not evidence) · dropped: change: original text "designers experience high anxiety when they need to present " is not in Scout's memo._
 
 ---
 
@@ -325,21 +409,23 @@ _id `2026-05-01` · enriched · Scout's memo [ideas/2026-05-01.md](../../../idea
 Market: **India · `en`** — chosen by the planner: India has a large population of non-native English-speaking freelancers who serve global clients and would search for solutions in English.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking freelance designers struggle with confidence and effectiveness in written client communication, leading to wasted time, misunderstandings, and lost income. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is to sell a toolkit of templates and scripts for non-native English-speaking freelance designers. It aims to help them manage written client communication with more confidence and professionalism.
 
 ### Who pays and why?
 - Has the problem: A non-native English-speaking freelance designer (UX, UI, brand, graphic) who has secured an English-speaking client but lacks confidence in day-to-day communication. _(inference)_
 - Pays: A non-native English-speaking freelance designer. _(inference)_
-- Why: The payer would pay to overcome communication anxiety, prevent misunderstandings, and confidently manage client interactions to protect their income and professional reputation. _(inference)_
+- Assessment: The payer is a non-native English-speaking freelance designer who wants to prevent misunderstandings, save time writing emails, and manage client relationships more effectively to protect their income.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | moderate | The evidence shows academic and professional recognition of the challenges non-native English speakers face in business communication. This includes "higher cognitive load" and "extra layers of fear and self-doubt." (S2.3, S2.4, S2.8) |
 | Search demand and trend | unknown | No search volume was returned for 9 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Published offer prices seen on 1 ranking site(s): agencyhandy.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor. |
-| Competitors | unknown | Not assessed yet. 10 vendor-like or publisher domain(s) and 4 broad platform(s) (coursera.org, notion.com, linkedin.com, udemy.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on agencyhandy.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | some | 3 alternative(s) identified from fetched pages (S1.2, S1.4, S1.9). 10 vendor-like or publisher domain(s) and 4 broad platform(s) (coursera.org, notion.com, linkedin.com, udemy.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on agencyhandy.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating a small set of email scripts or a single template (e.g., for a project proposal) as a lead magnet is a low-effort first step that requires only writing and basic design skills. |
+
+Inference on the problem: While the general problem is validated for non-native speakers in business, it is an inference that freelance designers specifically feel this pain and would pay for a toolkit of templates and scripts to solve it.
 
 **Search observations** — DataForSEO, India · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -355,6 +441,16 @@ Non-native English-speaking freelance designers struggle with confidence and eff
 | K9 | freelance proposal template cost | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Agency Handy** — Offers client communication templates as part of a larger agency management platform with monthly and lifetime pricing. (P1, P2)
+- **Tique** — Sells plug-and-play client communication templates specifically for travel agents. (S1.4)
+- **InvoiceMonk** — Provides an article with client communication templates for freelancers, suggesting they save time and ensure consistency. (S1.9)
+
+Strengths:
+- Observed: There are existing products offering client communication templates, validating the general need for such tools among freelancers and agencies. (S1.2, S1.9)
+- Observed: Some competitors, like Agency Handy, offer these templates as part of a comprehensive, priced software suite. (P2)
+
+Gaps:
+- Inference: Existing solutions appear to be generic or targeted at other industries (like travel agents). None seem to specifically address the linguistic and cultural nuances faced by non-native English-speaking designers.
 
 Top results for "client communication templates" (DataForSEO SERP, India, retrieved 2026-09-14):
 - S1.2 · #2 www.agencyhandy.com _(site)_ — [Top 10 Client Communication Templates for Better ...](https://www.agencyhandy.com/client-portal/client-communication/template/)
@@ -383,15 +479,25 @@ Fetched competitor pages:
 
 Not read: https://www.researchgate.net/publication/373341359_Effect_on_Non-Native_English_Speakers_of_Utilizing_English_for_Business (HTTP 403); https://www.researchgate.net/pricing (HTTP 403); https://www.tiquehq.com/pricing (HTTP 404).
 
+### What changed versus Scout's original memo?
+- **supports** — original: "The "Productized Template" Market is Validated." → Search results show multiple vendors offering "client communication templates," including some with explicit pricing, which supports the idea that there is a market for such products. (S1.2, S1.4)
+
 ### What remains unproven?
+- Whether non-native freelance designers are actively searching for a solution to this problem.
+- If they would pay for a dedicated kit of scripts and templates rather than using free online examples or AI writing tools.
+- Whether the problem is significant enough to warrant a purchase, or if it's just a minor inconvenience.
 - Search demand: not measured.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Write a blog post or a detailed Reddit comment titled '5 English Email Scripts Every Non-Native Freelance Designer Needs.' Include a link to download a PDF version in exchange for an email address.
+
+Rough cost: $0, 8-10 hours of writing and promotion. · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The post receives significant engagement (upvotes, positive comments) and generates over 75 email sign-ups, with some users confirming the pain point.
+- Stop if: The post receives little engagement and fewer than 20 email sign-ups, indicating a lack of interest in the specific problem or solution.
+
+_Evidence checks on the assessment: dropped: change: original text "non-native English-speaking freelance designers struggle wit" is not in Scout's memo; change: "Real pain in their words" is a heading or label in Scout's memo, not a claim._
 
 ---
 
@@ -401,21 +507,23 @@ _id `2026-05-02` · enriched · Scout's memo [ideas/2026-05-02.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The target audience is non-native English speakers globally, and the US market represents a large segment of the design industry where English proficiency in portfolios is critical.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking designers struggle to write compelling, clear, and persuasive narratives for their portfolio case studies, costing them job opportunities. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is to sell a toolkit of visual templates and writing scripts to non-native English-speaking designers. This aims to help them create more compelling portfolio case studies to secure job opportunities.
 
 ### Who pays and why?
 - Has the problem: Non-native English-speaking UX, UI, or product designers who are visually proficient but struggle to articulate their design process and results in natural, persuasive English. _(inference)_
 - Pays: A non-native English-speaking UX, UI, or product designer. _(inference)_
-- Why: They pay to overcome the high-stakes problem of a weak portfolio narrative that fails to convince hiring managers and costs them job opportunities. _(inference)_
+- Assessment: A non-native English-speaking designer who is actively job-seeking pays to improve their portfolio's narrative quality, believing it's a key factor in convincing hiring managers.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | weak | The evidence shows that writing portfolio case studies is a generally difficult or "dreaded" task for designers, who seek strategies to improve their process. (S2.6, S2.3) |
 | Search demand and trend | unknown | No search volume was returned for 9 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Broad platforms with their own pricing also rank (figma.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 7 vendor-like or publisher domain(s) and 4 broad platform(s) (figma.com, adobe.com, canva.com, linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on figma.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 3 alternative(s) identified from fetched pages (S1.1, S1.3, S1.7). 7 vendor-like or publisher domain(s) and 4 broad platform(s) (figma.com, adobe.com, canva.com, linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on figma.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating the proposed lead magnet ('The 1-Page Case Study Outline & 10 Essential English Phrases') is a simple content creation task that requires no financial investment and minimal time. |
+
+Inference on the problem: The evidence confirms a general problem for all designers, but it does not specifically mention non-native English speakers. It is an inference that this group feels the pain more acutely and requires a specialized solution beyond the many generic templates available.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -431,6 +539,15 @@ Non-native English-speaking designers struggle to write compelling, clear, and p
 | K9 | hire portfolio case study writer | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Figma** — Offers free case study templates to help users display projects and research in an organized format. (P5)
+- **UXfol.io** — Provides a blog with a detailed UX case study template and structure guide, explaining what to include and how to format the story. (P1)
+- **Adobe Express** — Provides editable and free case study templates to help users create their own design online. (S1.3)
+
+Strengths:
+- Observed: Major platforms like Figma, Adobe, and Canva offer a wide variety of free, high-quality visual templates for case studies. (S1.1, S1.3)
+
+Gaps:
+- Inference: Competitors provide the visual structure (templates) and high-level guidance (what sections to include), but they do not appear to offer specific, copy-pasteable scripts and phrases to help non-native speakers write the narrative persuasively.
 
 Top results for "design case study templates" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.1 · #1 www.figma.com _(site)_ — [15+ Case Study Templates \| Free Resources](https://www.figma.com/templates/case-study/)
@@ -460,15 +577,27 @@ Fetched competitor pages:
 
 Not read: https://blog.uxfol.io/pricing (HTTP 404); https://www.behance.net/pricing (HTTP 404).
 
+### What changed versus Scout's original memo?
+- **supports** — original: "The "Artifact" Market is Validated but Incomplete." → Search results for "design case study templates" are dominated by free offerings from major platforms like Figma, Adobe, and Canva, confirming a mature market for the visual artifact. These results do not mention linguistic support. (S1.1, S1.3)
+- **untested** — original: "A productized toolkit for non-native English-speaking designers" → None of the nine keywords searched, including problem-focused ones like "struggle writing ux case study" and solution-focused ones like "design case study templates," had any measurable search volume. (K3, K4)
+
 ### What remains unproven?
+- Whether non-native designers see their writing challenge as a distinct problem requiring a specialized tool, rather than a general writing skill issue.
+- If this audience would pay for a template/script kit when so many visual templates are free and AI writing assistants are widely available.
+- The demand for this specific solution, as no search volume was found for relevant keywords.
 - Search demand: not measured.
+- Claims without cited evidence were downgraded to unknown: change "a productized toolkit for non-native english-speak" weakens → untested: cites only keywords with no data (unknown, not evidence).
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create the free lead magnet: "The 1-Page Case Study Outline & 10 Essential English Phrases for Non-Native Designers." Promote it in relevant online communities and measure downloads via an email gate.
+
+Rough cost: $0, 10-15 hours of writing and design. · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The lead magnet is downloaded over 100 times and a follow-up survey gets at least 10 responses confirming that writing in English is their primary barrier.
+- Stop if: Fewer than 25 downloads, or feedback suggests the problem is not specific to non-native speakers or that free templates and AI tools are a sufficient solution.
+
+_Evidence checks on the assessment: downgraded: change "a productized toolkit for non-native english-speak" weakens → untested: cites only keywords with no data (unknown, not evidence) · dropped: change: original text "designers struggle to write compelling, clear, and persuasiv" is not in Scout's memo._
 
 ---
 
@@ -478,21 +607,23 @@ _id `2026-05-03` · enriched · Scout's memo [ideas/2026-05-03.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The United States has a large tech industry with many non-native English-speaking designers who need to communicate effectively with developers.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking designers struggle to create clear, unambiguous handoff documentation for developers, leading to miscommunication, project delays, and rework. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is a productized toolkit for non-native English-speaking designers to create clear developer handoff documentation. It combines a Figma template for visual annotations with a Notion database of pre-written, developer-friendly text snippets.
 
 ### Who pays and why?
 - Has the problem: A non-native English-speaking product, UX, or UI designer working on a software team. _(inference)_
 - Pays: A non-native English-speaking product, UX, or UI designer working on a software team. _(inference)_
-- Why: The payer buys the kit to avoid miscommunication with developers, which causes project delays, rework, and damages their professional credibility. _(inference)_
+- Assessment: A non-native English-speaking designer pays to avoid miscommunication with developers, which can cause project delays and damage their professional credibility. This is an inference as no evidence shows this specific group paying for this solution.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | moderate | Multiple articles and discussions confirm that poor design handoffs are a common problem in software development. The issues cited include miscommunication, errors, delays, misaligned expectations, and a failure to document logic and behavior beyond visual pixels. (S2.7, S2.4, S2.6, S2.8, S2.2) |
 | Search demand and trend | low | Largest single keyword: "best design handoff tools" at 10/month. 8 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Broad platforms with their own pricing also rank (uxpin.com, miro.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 5 vendor-like or publisher domain(s) and 3 broad platform(s) (uxpin.com, miro.com, figma.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on uxpin.com, miro.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | some | 4 alternative(s) identified from fetched pages (S1.3, S1.6). 5 vendor-like or publisher domain(s) and 3 broad platform(s) (uxpin.com, miro.com, figma.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on uxpin.com, miro.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating a Figma template and a Notion database is straightforward and requires no custom software development. |
+
+Inference on the problem: The general problem of poor design handoffs is well-evidenced. However, no evidence was found to suggest that this problem is experienced more acutely by non-native English speakers or that a language barrier is a primary cause.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -508,6 +639,16 @@ Non-native English-speaking designers struggle to create clear, unambiguous hand
 | K9 | buy design spec template | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Figma** — Offers a "Free Design Handoff Tool for Designers & Developers" that "enables a design handoff experience that keeps designers and developers on the same page." (S1.2)
+- **UXPin** — A design and prototyping tool listed among the "Top 10 Design Handoff Tools". It offers paid plans starting at $49/month/seat. (S1.3, P2)
+- **Miro** — A collaborative platform positioned for design handoffs to "document behavior, edge cases, and logic". It offers paid plans starting at $8/month/member. (S2.6, P4)
+- **Zeplin** — Described as a "popular design handoff tool making it easy for designers, engineers, and other team members to communicate and collaborate effectively." (S1.3)
+
+Strengths:
+- Observed: The market includes multiple established, feature-rich software platforms designed for team collaboration. (S1.3)
+
+Gaps:
+- Inference: Existing tools may focus more on inspecting visual properties and less on providing structured templates for the written communication of logic and intent, particularly for those with a language barrier.
 
 Top results for "best design handoff tools" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.2 · #2 www.figma.com _(site)_ — [Free Design Handoff Tool for Designers & Developers](https://www.figma.com/design-handoff/)
@@ -537,14 +678,21 @@ Fetched competitor pages:
 - P6 · [Qt Pricing & Plans for Each Stage of Software Development](https://www.qt.io/pricing) — retrieved 2026-09-14; offer prices: none found
 
 ### What remains unproven?
-- Not assessed yet.
+- That non-native English speakers perceive their language skills as the primary barrier in design handoffs, as opposed to universal issues like lack of process.
+- Willingness to pay for a template-and-snippet-based solution to this problem.
+- That this specific niche (non-native English-speaking designers) is large enough and reachable.
+- Claims without cited evidence were downgraded to unknown: competition crowded → some: crowded needs three distinct vendor-like domains.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create a simple landing page describing 'The Figma Handoff Kit for Non-Native Designers'. Include mockups, a clear description of the value proposition, and a pre-order button for $39. Drive targeted traffic from design communities like Reddit.
+
+Rough cost: ~$50 for landing page tool + 10-15 hours of effort. · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The experiment generates 10 or more pre-orders, validating that a segment of the target audience is willing to pay to solve this specific problem.
+- Stop if: The experiment generates fewer than 3 pre-orders, suggesting a lack of willingness to pay or a failure to resonate with the target audience.
+
+_Evidence checks on the assessment: downgraded: competition crowded → some: crowded needs three distinct vendor-like domains · dropped: change: "Real pain in their words" is a heading or label in Scout's memo, not a claim; change: "Competitive landscape" is a heading or label in Scout's memo, not a claim._
 
 ---
 
@@ -554,21 +702,23 @@ _id `2026-05-04` · enriched · Scout's memo [ideas/2026-05-04.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The product targets a global audience of non-native English speakers, and the United States is a primary market for digital products and tech-related services in English.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking designers struggle to get useful, high-quality outputs from generative AI tools due to simple prompts and language barriers. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is a productized toolkit for non-native English-speaking designers to get better results from generative AI. It's a Notion database of 150+ structured, copy-pasteable prompts for tools like ChatGPT and Midjourney, covering the design workflow.
 
 ### Who pays and why?
 - Has the problem: Non-native English-speaking UX, UI, or product designers. _(inference)_
 - Pays: Non-native English-speaking UX, UI, or product designers. _(inference)_
-- Why: They need to master AI for their career and are willing to pay for structured prompts and guidance to overcome generic results and language difficulties. _(inference)_
+- Assessment: Non-native English-speaking designers pay to improve their AI skills, which they see as critical for their career, and to overcome language barriers that lead to generic results. This is an inference as no evidence shows willingness to pay.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | weak | The evidence shows that designers are actively seeking ways to get better outputs from AI tools. This involves learning to write more detailed, specific, and constrained prompts. (S2.2, S2.4, S2.11) |
 | Search demand and trend | unknown | No search volume was returned for 9 keyword(s). Unknown is not zero demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Broad platforms with their own pricing also rank (figma.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 9 vendor-like or publisher domain(s) and 2 broad platform(s) (figma.com, adobe.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on figma.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 4 alternative(s) identified from fetched pages (S1.3, S1.4, S1.8). 9 vendor-like or publisher domain(s) and 2 broad platform(s) (figma.com, adobe.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on figma.com. |
+| Feasibility of a small first experiment | easy | Inference: Compiling a list of prompts in a Notion database is a low-effort task requiring no custom code. |
+
+Inference on the problem: The problem of needing to write better prompts appears to be universal for all designers using AI. No evidence was found that non-native English speakers face a unique or more severe version of this problem.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -584,6 +734,16 @@ Non-native English-speaking designers struggle to get useful, high-quality outpu
 | K9 | buy design ai prompts | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **AI UX Playground** — Offers "ready-made instructions for product design" and has a library of over 210 design prompts. The site appears to be free. (S1.3, P3)
+- **Design Prompts** — An "AI-Powered Design Style Explorer" that provides "AI-ready prompts to recreate any aesthetic in your own projects." The site appears to be free. (S1.4)
+- **Adobe Firefly** — Provides guidance and examples of "AI prompts for graphic designers" to help users "quickly generate ideas." (S1.5)
+- **Figma** — Publishes resources on "How to Get Better Output" from AI design prompts. (S2.2)
+
+Strengths:
+- Observed: There are multiple, easily discoverable, and free resources offering extensive libraries of AI prompts specifically for designers. (S1.3, S1.4)
+
+Gaps:
+- Inference: Existing free resources may not be structured around a specific workflow or tailored to the potential linguistic challenges of a non-native English speaker.
 
 Top results for "ai prompts for designers" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.2 · #2 www.reddit.com _(discussion)_ — [What prompts are you giving your AI to make the design ...](https://www.reddit.com/r/vibecoding/comments/1rjc3ku/what_prompts_are_you_giving_your_ai_to_make_the/)
@@ -612,15 +772,26 @@ Fetched competitor pages:
 - P5 · [Design Prompts - AI-Powered Design Style Explorer](https://www.designprompts.dev/) — retrieved 2026-09-14; offer prices: none found
 - P6 · [Design Prompts - AI-Powered Design Style Explorer](https://www.designprompts.dev/pricing) — retrieved 2026-09-14; offer prices: none found
 
+### What changed versus Scout's original memo?
+- **weakens** — original: "The 'Prompt Pack' Market is Proven and Profitable." → The evidence shows a market for prompt packs, but the most direct competitors for designers (e.g., AI UX Playground, Design Prompts) appear to be free resources, not paid products. (S1.3, S1.4)
+
 ### What remains unproven?
+- That designers are willing to pay for a prompt kit when many comprehensive, free alternatives exist.
+- That non-native English speakers struggle with prompt writing significantly more than native speakers.
+- That a static list of prompts is the desired solution, rather than learning the underlying skill of prompt engineering from free guides.
 - Search demand: not measured.
+- Claims without cited evidence were downgraded to unknown: change "the 'prompt pack' market is proven and profitable." contradicts → weakens: the finding relies on something not being seen, which cannot contradict a claim.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create a free lead magnet: 'The 10-Prompt Starter Kit for Non-Native Designers to Generate Better UI Concepts'. Promote it in relevant online communities to see if the 'non-native' angle generates any interest or email sign-ups.
+
+Rough cost: ~$20 for landing page tool + 8 hours of effort. · duration: 1 week
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The lead magnet gets over 100 email sign-ups, indicating the positioning resonates with a specific audience.
+- Stop if: The lead magnet gets fewer than 20 sign-ups, suggesting the 'non-native' angle does not provide a strong enough hook to stand out from free alternatives.
+
+_Evidence checks on the assessment: downgraded: change "the 'prompt pack' market is proven and profitable." contradicts → weakens: the finding relies on something not being seen, which cannot contradict a claim · dropped: change: "Competitive landscape" is a heading or label in Scout's memo, not a claim._
 
 ---
 
@@ -630,21 +801,23 @@ _id `2026-05-05` · enriched · Scout's memo [ideas/2026-05-05.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The problem is specifically about writing English UI copy, and the target customer engages in English-speaking online communities like Reddit's r/uxwriting and r/UXDesign.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking designers struggle to write clear, effective, and on-brand user interface copy, leading to anxiety and inefficiency. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is a toolkit for non-native English-speaking designers to write user interface copy. It includes a Figma/Canva file with UI components and a Notion database with over 150 copy-pasteable phrases and formulas.
 
 ### Who pays and why?
 - Has the problem: A non-native English-speaking UX, UI, or product designer who is expected to write UI copy for their designs. _(inference)_
 - Pays: A non-native English-speaking UX, UI, or product designer. _(inference)_
-- Why: They pay to reduce anxiety, improve efficiency, and ensure their UI copy is clear, effective, and on-brand, avoiding time-consuming revisions. _(inference)_
+- Assessment: Non-native English-speaking designers who are responsible for writing UI copy pay to reduce anxiety, improve efficiency, and ensure their copy is clear and effective. This is an inference as no evidence shows this specific group paying for a solution.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | weak | Evidence from a Reddit discussion and an article suggests that writing good copy is a recognized challenge for designers and product managers. (S2.2, S2.8) |
 | Search demand and trend | some | Largest single keyword: "microcopy examples" at 110/month. 7 keyword(s) returned no data (unknown, not zero). Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): localazy.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor. Broad platforms with their own pricing also rank (grafana.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 11 vendor-like or publisher domain(s) and 2 broad platform(s) (grafana.com, linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on grafana.com, localazy.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | some | 3 alternative(s) identified from fetched pages (S1.5, S1.10). 11 vendor-like or publisher domain(s) and 2 broad platform(s) (grafana.com, linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on grafana.com, localazy.com. |
+| Feasibility of a small first experiment | easy | Inference: Creating a Figma/Canva file and a Notion database is a low-complexity task with no software development required. |
+
+Inference on the problem: The evidence points to a general difficulty with UX writing as a skill. No evidence was found that specifically validates this is a more acute problem for non-native English speakers.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -660,6 +833,15 @@ Non-native English-speaking designers struggle to write clear, effective, and on
 | K9 | microcopy guide price | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Frontitude** — Offers an "AI writing assistant for design teams" as a Figma plugin that "delivers copy suggestions based on your design elements." (S1.10)
+- **Localazy** — A localization platform that also publishes content on tools for UX writers. It offers paid plans for its core service. (S1.5, P6)
+- **Grafana** — Provides a public "Writers' Toolkit" documentation with guidelines on "creating text, style, and tone in the different components that make up the UI." (S1.2)
+
+Strengths:
+- Observed: AI-powered tools that integrate directly into Figma already exist to help with copy generation. (S1.10)
+
+Gaps:
+- Inference: Existing solutions like AI assistants or high-level guides may not provide the structured, template-based scaffolding that a non-native speaker might need to build confidence and learn.
 
 Top results for "ux writing toolkit" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.2 · #2 grafana.com _(site)_ — [UX writing \| Writers' Toolkit documentation](https://grafana.com/docs/writers-toolkit/write/style-guide/ux-writing/)
@@ -691,15 +873,25 @@ Fetched competitor pages:
 
 Not read: https://uxcontent.com/pricing (HTTP 404).
 
+### What changed versus Scout's original memo?
+- **untested** — original: "The Market for Design 'Process' Kits is Validated." → Keyword data shows search demand for solution-oriented terms like "microcopy examples" (110 searches/month) and "ux writing template" (10 searches/month), supporting the idea that people are looking for artifacts to help them. (K5, K4)
+
 ### What remains unproven?
-- Not assessed yet.
+- That the primary problem for non-native designers is a lack of templates, rather than fundamental language or writing skills.
+- Willingness to pay for a kit of templates and phrases instead of using free guides or AI-powered tools.
+- The core assumption that non-native English speakers are a distinct and reachable market segment for this specific problem.
+- Claims without cited evidence were downgraded to unknown: change "the market for design 'process' kits is validated." supports → untested: a claim about payment or a validated market cannot rest on search volume.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create a simple landing page for 'The UX Writing Kit for Non-Native Designers'. Detail the contents (Figma components, Notion swipe file), show mockups, and include a pre-order button for $39. Promote the page in UX writing and design communities.
+
+Rough cost: ~$50 for landing page tool + 10-15 hours of effort. · duration: 2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The experiment achieves 10 or more pre-orders, indicating that the specific solution and positioning resonate enough for people to pay.
+- Stop if: The experiment results in fewer than 3 pre-orders, suggesting a weak product-market fit or low willingness to pay.
+
+_Evidence checks on the assessment: downgraded: change "the market for design 'process' kits is validated." supports → untested: a claim about payment or a validated market cannot rest on search volume · dropped: alternative "General AI Writers (e.g. ChatGPT)": no quoted evidence naming it; change: "Real pain in their words" is a heading or label in Scout's memo, not a claim._
 
 ---
 
@@ -709,21 +901,23 @@ _id `2026-05-06` · enriched · Scout's memo [ideas/2026-05-06.md](../../../idea
 Market: **United States · `en`** — chosen by the planner: The target customers are non-native English speakers working in collaborative teams, and the US has a large tech industry with many such roles, making it a plausible primary market for English-language resources.. DataForSEO Labs support: yes.
 
 ### What is the opportunity?
-Non-native English-speaking designers struggle to confidently participate in and lead design critiques, fearing miscommunication or sounding unprofessional. _(Scout planner description — not yet assessed against evidence.)_
+The opportunity is to sell a toolkit of templates and phrase banks to non-native English-speaking designers. The goal is to help them participate more confidently and effectively in design critiques.
 
 ### Who pays and why?
 - Has the problem: A non-native English-speaking product, UX, or UI designer working in a collaborative team. _(inference)_
 - Pays: A non-native English-speaking product, UX, or UI designer working in a collaborative team. _(inference)_
-- Why: They pay to overcome anxiety in design critiques, improve communication skills, and avoid career stagnation or costly rework due to misaligned feedback. _(inference)_
+- Assessment: The non-native English-speaking designer pays to reduce anxiety, improve their communication skills in critiques, and advance their career. This is an inference as no direct evidence of payment for this specific solution was found.
 
 ### What evidence supports it?
 | Dimension | Reading | Basis |
 |---|---|---|
-| Customer problem | unknown | Not assessed yet. |
+| Customer problem | weak | The evidence shows a general need for design critiques to be safe, structured, and inclusive. There are also discussions about using more specific, constructive language during critiques. (S1.1, S1.2, S2.5) |
 | Search demand and trend | low | Largest single keyword: "how to give design feedback" at 10/month. 8 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers. |
 | Commercial intent and payment | moderate | No advertiser CPC was returned for the commercial keywords. Broad platforms with their own pricing also rank (miro.com, figma.com); that is not evidence buyers pay for this idea. |
-| Competitors | unknown | Not assessed yet. 11 vendor-like or publisher domain(s) and 3 broad platform(s) (miro.com, figma.com, notion.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on miro.com, figma.com. |
-| Feasibility of a small first experiment | unknown | Not assessed yet. |
+| Competitors | crowded | 4 alternative(s) identified from fetched pages (S1.1, S1.2, S1.6, S1.7). 11 vendor-like or publisher domain(s) and 3 broad platform(s) (miro.com, figma.com, notion.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on miro.com, figma.com. |
+| Feasibility of a small first experiment | easy | Inference: The proposed first experiment is a one-page checklist or guide, which can be created with standard office software (e.g., Notion, Google Docs) and requires no custom code. |
+
+Inference on the problem: The anxiety and communication challenges described in the original memo are general to design critiques. The evidence does not specifically show that this problem is more acute for non-native English speakers, as none of the search results for that specific query describe this problem from the designer's perspective.
 
 **Search observations** — DataForSEO, United States · en, retrieved 2026-09-14. Each row is a separate keyword; rows overlap and are not added up.
 | ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |
@@ -739,6 +933,17 @@ Non-native English-speaking designers struggle to confidently participate in and
 | K9 | buy design feedback templates | buying | no data (unknown) | unknown | unknown | unknown | Labs |
 
 ### What alternatives already exist?
+- **Miro** — Offers design critique templates to provide a structured environment for feedback. (S1.1)
+- **Figma** — Provides community-created design critique templates, including asynchronous formats. (S1.2)
+- **Nielsen Norman Group** — Publishes articles and likely offers training on how to conduct effective design critiques. (P1)
+- **Notion** — Hosts collections of design critique templates. (S1.6)
+
+Strengths:
+- Observed: Many free templates are available on major platforms that designers already use, such as Miro and Figma. (S1.1, S1.2)
+- Observed: Expert guidance and frameworks are available from trusted industry sources like Nielsen Norman Group. (S1.7)
+
+Gaps:
+- Inference: None of the observed templates or guides appear to be specifically tailored to the linguistic challenges of non-native English speakers.
 
 Top results for "design critique templates" (DataForSEO SERP, United States, retrieved 2026-09-14):
 - S1.1 · #1 miro.com _(site)_ — [Design Critique Templates & Examples \| Miroverse](https://miro.com/templates/design-critique/)
@@ -769,12 +974,22 @@ Fetched competitor pages:
 
 Not read: https://www.nngroup.com/pricing (HTTP 404); https://www.figma.com/community/file/1015720672211061785/design-critique-template (HTTP 403).
 
+### What changed versus Scout's original memo?
+- **supports** — original: "The "Productized Process" Market is Proven." → Search results for "design critique templates" show numerous offerings from major platforms like Miro, Figma, and Notion, confirming demand for such tools. (S1.1, S1.2, S1.6)
+- **supports** — original: "The wedge is the combination of a structured critique process... + a deep linguistic scaffold" → The market is crowded with solutions for the 'structured process' part, but none of the observed competitors focus on providing a 'linguistic scaffold' for non-native speakers. (S1.1, S2.2)
+
 ### What remains unproven?
-- Not assessed yet.
+- That non-native English-speaking designers perceive their language skills as a primary blocker in design critiques.
+- That this audience is actively looking for a solution to this specific problem.
+- That they are willing to pay for a toolkit of templates and phrase banks.
 
 ### Cheapest useful next experiment
-Not assessed yet.
+Create a one-page lead magnet titled '10 Phrases to Use in Design Critiques to Sound More Confident (for Non-Native English Speakers)'. Distribute it via a simple landing page in online communities where UX designers gather (e.g., subreddits, LinkedIn groups) and measure downloads and qualitative feedback.
+
+Rough cost: $0 + 4-6 hours · duration: 1-2 weeks
 
 ### What result would justify continuing or stopping?
-- Continue if: not assessed yet
-- Stop if: not assessed yet
+- Continue if: The lead magnet receives 100+ downloads and at least 5 unsolicited, positive comments from people identifying as non-native English-speaking designers.
+- Stop if: The lead magnet receives fewer than 20 downloads and no qualitative feedback, or feedback indicates this is not a significant problem for the target audience.
+
+_Evidence checks on the assessment: dropped: change: "Real pain in their words" is a heading or label in Scout's memo, not a claim._

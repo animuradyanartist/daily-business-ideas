@@ -873,6 +873,11 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
     else if (name) validation.dropped.push(`alternative "${name}": no quoted evidence naming it`);
   }
 
+  // Headings ("## Competitive landscape") and labels ("Real pain in their words:") are verbatim
+  // but are not claims, so a change "against" them says nothing.
+  const bare = (t) => normText(t).replace(/[*_`"'‘’“”:.]/g, '').replace(/\s+/g, ' ').trim();
+  const headings = new Set(String(original).split('\n').filter((l) => /^\s*#{1,6}\s/.test(l)).map((l) => bare(l.replace(/^\s*#{1,6}\s+/, ''))));
+  const labels = new Set([...String(original).matchAll(/(?:^|\n|\*\*)\s*([^\n:*]{3,60}):/g)].map((m) => bare(m[1])));
   const changes = [];
   for (const c of (Array.isArray(a?.changes) ? a.changes : []).slice(0, 6)) {
     const quoteOriginal = normText(c?.original);
@@ -880,11 +885,30 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
       validation.dropped.push(`change: original text "${String(c?.original ?? '').slice(0, 60)}" is not in Scout's memo`);
       continue;
     }
+    if (headings.has(bare(quoteOriginal)) || labels.has(bare(quoteOriginal))) {
+      validation.dropped.push(`change: "${String(c.original).slice(0, 60)}" is a heading or label in Scout's memo, not a claim`);
+      continue;
+    }
     const basis = cited(c?.basis, 'change');
     const effectClaimed = ['supports', 'weakens', 'contradicts', 'untested'].includes(c?.effect) ? c.effect : 'untested';
-    const effect = effectClaimed !== 'untested' && !basis.length ? 'untested' : effectClaimed;
-    if (effect !== effectClaimed) validation.downgraded.push(`change "${quoteOriginal.slice(0, 50)}" ${effectClaimed} → untested: no quoted evidence`);
-    changes.push({ original: String(c.original).trim(), finding: clean(c?.finding, 500), basis, effect });
+    // A keyword the provider returned NO figure for is unknown: it cannot support or weaken anything.
+    const measuredIds = new Set(idea.keywords.filter((k) => k.status === 'measured').map((k) => k.id));
+    const informative = basis.filter((b) => b.kind !== 'K' || measuredIds.has(b.id));
+    const finding = clean(c?.finding, 500);
+    let effect = effectClaimed;
+    let why = null;
+    if (effect !== 'untested' && !informative.length) {
+      effect = 'untested';
+      why = basis.length ? 'cites only keywords with no data (unknown, not evidence)' : 'no quoted evidence';
+    } else if (effect !== 'untested' && /\b(market|validated|proven|profitable|pay|paid|revenue|sales|willing)\b/i.test(quoteOriginal) && informative.every((b) => b.kind === 'K')) {
+      effect = 'untested';
+      why = 'a claim about payment or a validated market cannot rest on search volume';
+    } else if (effect === 'contradicts' && ABSENCE.test(finding)) {
+      effect = 'weakens';
+      why = 'the finding relies on something not being seen, which cannot contradict a claim';
+    }
+    if (effect !== effectClaimed) validation.downgraded.push(`change "${quoteOriginal.slice(0, 50)}" ${effectClaimed} → ${effect}: ${why}`);
+    changes.push({ original: String(c.original).trim(), finding, basis, effect });
   }
 
   return {

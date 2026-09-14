@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-14T07:55:37.336Z",
+  "runner": {
+    "kind": "github-actions",
+    "runId": "34820117889",
+    "sha": "604651f09d3b690742619c3e3e5be0f821d782bf",
+    "ref": "1/merge",
+    "workflow": "Enrichment model check (manual)"
+  },
+  "newlyAssessed": 0,
+  "evidenceChanged": 0,
+  "assessmentError": "assessment not written for some ideas (they will be retried): 2026-04-27, 2026-04-28, 2026-04-29: gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-04-30, 2026-05-01, 2026-05-02: gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-05-03, 2026-05-04, 2026-05-05: gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-05-06: gemini-model-that-does-not-exist failed after 1 attempts: 404",
+  "ok": true
+}

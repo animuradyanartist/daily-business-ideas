@@ -29,7 +29,7 @@ import {
   collectPages,
   constrainAssessment,
 } from './lib/enrich.mjs';
-import { checkBasis, evidenceIndex, scrubDemandClaims } from './lib/grounding.mjs';
+import { checkBasis, evidenceIndex, scrubDemandClaims, figureAfterKeyword, normText } from './lib/grounding.mjs';
 
 const [cmd, ...args] = process.argv.slice(2);
 const flag = (n) => args.includes(n);
@@ -355,6 +355,8 @@ if (cmd === 'check') {
     const assessed = eligible.filter((i) => i.assessment);
     record('Every idea with evidence has an assessment', assessed.length === eligible.length && eligible.length > 0, `${assessed.length}/${eligible.length}${run.assessmentError ? ` · ${run.assessmentError}` : ''}`);
     if (run.assessmentRunner) lines.push(`Assessor: ${run.assessmentModels?.join(' → ')} · runner: ${run.assessmentRunner.kind}${run.assessmentRunner.runId ? ` run ${run.assessmentRunner.runId}` : ''}`, '');
+    const revalidated = run.ideas.map((i) => i.assessment?.revalidatedAt).filter(Boolean);
+    if (revalidated.length) lines.push(`Validators re-applied offline to the stored raw model output of that run at ${revalidated.sort().at(-1)} (no new model call).`, '');
 
     let ungrounded = 0;
     let unknownViolations = 0;
@@ -374,13 +376,12 @@ if (cmd === 'check') {
       const texts = [a.opportunity, a.whoPays, a.problemEvidence.observed, a.problemEvidence.inference, a.feasibility.note, a.nextExperiment.what, a.continueIf, a.stopIf, ...a.unproven, ...(a.changes ?? []).map((c) => c.finding), ...a.competition.strengths.map((s) => s.text), ...a.competition.gaps.map((s) => s.text)];
       for (const t of texts) unknownViolations += scrubDemandClaims(t, idea).removed;
       for (const t of texts) {
+        const n = normText(t);
         for (const k of idea.keywords.filter((x) => x.status === 'measured')) {
-          if (String(t).toLowerCase().includes(k.keyword)) {
-            const m = String(t).match(/(\d[\d,]*)\s*(monthly searches|searches|\/\s?month|per month)/i);
-            if (m) {
-              figuresChecked++;
-              if (Number(m[1].replace(/,/g, '')) !== k.searchVolume) figureMismatches++;
-            }
+          const said = figureAfterKeyword(n, normText(k.keyword));
+          if (said !== null) {
+            figuresChecked++;
+            if (said !== k.searchVolume) figureMismatches++;
           }
         }
       }

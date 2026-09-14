@@ -29,15 +29,20 @@ export function normText(s) {
  * appear, in order. At least `minChars` letters/digits must be quoted in total, and each
  * fragment must be long enough (8+) to be meaningful.
  */
+// For matching only: markdown emphasis and quote-mark style are not part of what was said
+// ('Prompt Pack' vs **The "Prompt Pack" Market** in a memo is the same quote).
+const matchText = (s) => normText(s).replace(/[*_`"'‘’“”]/g, '').replace(/\s+/g, ' ').trim();
+
 export function quoteFound(hay, quote, { minChars = 12 } = {}) {
-  const q = normText(quote).replace(/^["'“”]+|["'“”]+$/g, '');
-  const fragments = q.split(/\.{3}|…/).map((f) => f.trim()).filter(Boolean);
+  const h = matchText(hay);
+  const q = normText(quote).replace(/…/g, '...');
+  const fragments = q.split(/\.{3}/).map((f) => matchText(f)).filter(Boolean);
   const letters = (f) => f.replace(/[^\p{L}\p{N}]/gu, '').length;
   if (!fragments.length || fragments.reduce((n, f) => n + letters(f), 0) < minChars) return { found: false, reason: 'quote too short to check' };
   if (fragments.length > 1 && fragments.some((f) => letters(f) < 8)) return { found: false, reason: 'quote too short to check' };
   let at = 0;
   for (const f of fragments) {
-    const i = hay.indexOf(f, at);
+    const i = h.indexOf(f, at);
     if (i < 0) return { found: false, reason: 'quote not found in the cited item' };
     at = i + f.length;
   }
@@ -79,7 +84,7 @@ export function evidenceIndex(idea) {
  * Split citations into supported ones (known id + verbatim quote found in that item) and
  * rejected ones with the reason.
  */
-export function checkBasis(basis, index, { minQuoteChars = 12 } = {}) {
+export function checkBasis(basis, index, { minQuoteChars = 8 } = {}) {
   const supported = [];
   const rejected = [];
   for (const b of Array.isArray(basis) ? basis : []) {
@@ -137,6 +142,17 @@ export function nameMatchesEvidence(name, supported, index) {
   });
 }
 
+const VOLUME_FIGURE = /(\d[\d,.]*)\s*(k\b)?\s*(monthly searches|searches|search volume|\/\s?mo\b|per month|a month|\/month)/i;
+
+/** The monthly-search figure stated right after a keyword in a sentence, or null. Both inputs normalized. */
+export function figureAfterKeyword(sentenceNorm, keywordNorm) {
+  const at = sentenceNorm.indexOf(keywordNorm);
+  if (at < 0) return null;
+  const after = sentenceNorm.slice(at + keywordNorm.length, at + keywordNorm.length + 45);
+  const m = after.match(new RegExp(`^[^a-z0-9]{0,6}(?:\\(|at|with|gets|has|had|of|:|—|-)?\\s*${VOLUME_FIGURE.source}`, 'i'));
+  return m ? Number(m[1].replace(/,/g, '')) * (m[2] ? 1000 : 1) : null;
+}
+
 /**
  * Remove sentences that claim more about search demand than was measured:
  *   - a figure or "no/zero searches" for a keyword with no data
@@ -152,26 +168,27 @@ export function scrubDemandClaims(text, idea) {
   const level = idea.readings?.demand?.level ?? 'unknown';
   let removed = 0;
   const removedSentences = [];
-  const volumeFigure = /(\d[\d,.]*)\s*(k\b)?\s*(monthly searches|searches|search volume|\/\s?mo\b|per month|a month|\/month)/i;
   const out = String(text ?? '')
     .split(SENTENCE_SPLIT)
     .map((sentence) => {
       const n = normText(sentence);
       const mentioned = keywords.filter((k) => k.n && n.includes(k.n));
       let bad = false;
+      // Wording that describes the MEASUREMENT ("no data", "was not found") is honest, not a zero claim.
+      const measurementAbsence = /\b(no data|not measured|unmeasured|no measurable|no figure|not returned|returned no|(was|were) (not )?found|unknown)\b/i.test(n);
       for (const k of mentioned) {
-        const fig = n.match(volumeFigure);
+        // The figure that belongs to THIS keyword: the one stated right after its mention.
+        const said = figureAfterKeyword(n, k.n);
         if (k.status !== 'measured') {
-          if (fig || /\b(zero|no|nobody|no one)\b.{0,20}\bsearch/i.test(n)) bad = true;
-        } else if (fig) {
-          const said = Number(fig[1].replace(/[,]/g, '')) * (fig[2] ? 1000 : 1);
-          if (Number.isFinite(said) && said !== k.searchVolume) bad = true;
+          if (said !== null || (!measurementAbsence && /\b(zero|no|nobody|no one)\b.{0,20}\bsearch/i.test(n))) bad = true;
+        } else if (said !== null && said !== k.searchVolume) {
+          bad = true;
         }
       }
       const aboutSearch = /\b(search|searches|searching|keywords?|google|seo|search volume)\b/i.test(n) || mentioned.length > 0;
       if (aboutSearch) {
-        if (level === 'unknown' && /\b(low|little|weak|no|zero|minimal|limited|negligible)\s+(search\s+)?(demand|volume|interest)\b/i.test(n)) bad = true;
-        if (level !== 'unknown' && /\b(no|zero)\s+(search\s+)?demand\b|nobody searches|no one searches/i.test(n)) bad = true;
+        if (!measurementAbsence && level === 'unknown' && /\b(low|little|weak|no|zero|minimal|limited|negligible)\s+(search\s+)?(demand|volume|interest)\b/i.test(n)) bad = true;
+        if (!measurementAbsence && level !== 'unknown' && /\b(no|zero)\s+(search\s+)?demand\b|nobody searches|no one searches/i.test(n)) bad = true;
         if (level !== 'substantial' && /\b(strong|clear|high|large|significant|substantial|huge|massive|big|proven)\s+(search\s+)?(demand|interest|volume)\b/i.test(n)) bad = true;
       }
       if (!bad) return sentence;

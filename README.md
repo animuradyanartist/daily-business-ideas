@@ -23,23 +23,34 @@ Right after stage 1 shortlists candidates, Scout gathers outside evidence for ea
 
 Per shortlisted idea:
 
-1. **Plan** — problem, target customer and payer, plus a small keyword set in three intent groups (problem / solution / buying) and 1–2 search queries. The target market (country + language) is explicit and checked against DataForSEO Labs' supported markets.
-2. **Gather** — one batched DataForSEO Labs `keyword_overview` task for every keyword (volume, 24 months of history, CPC, Google Ads competition), live Google organic results for the queries, and free fetches of vendor-like ranking sites (homepage + `/pricing`, robots.txt respected). Every observation keeps its URL, retrieval date, market and provider.
-3. **Read** — code, not a model, computes the demand and commercial readings. Volumes are never added together, missing data stays "unknown" (never zero), CPC is reported as an advertiser bid (not willingness to pay), ad competition is not treated as SEO difficulty, and low volume never rejects an idea on its own.
-4. **Assess** — a model writes the enriched memo from that evidence only: what the opportunity is, who pays and why, what supports it, what alternatives exist, what is unproven, the cheapest next experiment, and continue/stop criteria. A level it claims without a valid evidence ID is downgraded to "unknown"; any URL that is not in the evidence is removed. There is no numeric confidence score.
+1. **Plan** — problem, target customer and payer, the ONE country + language where the payer searches (chosen from an allowlist, `SCOUT_MARKETS`, and checked against DataForSEO Labs' supported markets), and a small keyword set in three intent groups (problem / solution / buying) written the way people search, plus 1–2 search queries.
+2. **Gather** — one DataForSEO Labs `keyword_overview` task per market (volume, 24 months of history, CPC, Google Ads competition), live Google organic results for the queries, and free fetches of ranking sites (homepage + `/pricing`, robots.txt respected with Google's rules). Every observation keeps its URL, retrieval date, market and provider.
+3. **Read** — code, not a model, computes the demand and commercial readings. Volumes are never added together, missing data stays "unknown" (never zero), CPC is reported as an advertiser bid (not willingness to pay), ad competition is not treated as SEO difficulty, broad platforms' own pricing (Figma, Miro, Notion…) never counts as proof buyers pay for the idea, and low volume never rejects an idea on its own.
+4. **Assess** — a model writes the enriched memo from that evidence only. Code then checks it (`scripts/lib/grounding.mjs`): every citation must carry a verbatim quote found in the cited item — a valid evidence id alone proves nothing; problem evidence cannot rest on keyword rows; "strong" needs two independent domains and "crowded" three vendor-like ones; absence claims are inference; statements about unmeasured or misquoted search demand are removed (and kept for audit); a "what changed" entry must quote Scout's memo (not a heading), cannot be supported or weakened by keywords with no data, cannot validate a paying market from search volume, and cannot "contradict" from something not being seen. The raw model output is stored so the checks can be re-applied offline. There is no numeric confidence score.
 
-### Cost controls
+### Cost controls — one shared, atomic budget
 
-- **One shared allowance.** DataForSEO spend is counted in the same ledger Career OS uses (Supabase `runtime_events`, type `dataforseo.spend`, Scout rows tagged `produced_by: scout`) against the same `DATAFORSEO_MONTHLY_USD_CAP`. Scout keeps `SCOUT_DFS_RESERVE_USD` (default $1) of that cap untouched for Career OS, and never spends more than `SCOUT_DFS_MAX_RUN_USD` (default $0.10) in one run. A typical run costs about $0.02 per shortlisted idea.
-- **Fails closed.** No cap, no ledger, an unreadable ledger, missing credentials or a low provider balance → no paid requests; research continues and enrichment is marked `pending` or `unavailable`.
-- **Never pays twice.** Keyword data is cached 30 days and search results 14 days in `evidence/cache/` (committed by the workflow, including after a failed run). Enriched ideas are never redone; retries are bounded (`SCOUT_ENRICH_MAX_ATTEMPTS`), and only failures that cannot have been billed are retried.
+- **Reserve → call → settle.** Every paid request first reserves its estimated cost (published price × 1.1) in the shared DataForSEO budget — Postgres functions in `db/dataforseo_budget.sql`, proposed to Career OS as migration 0024 — which, under a row lock, counts every recorded charge plus every open or uncertain reservation from **every app** against the monthly cap ($2, stored in the database). The provider-reported cost is then settled, which writes the same `dataforseo.spend` row Career OS already reads. Concurrent callers cannot overspend (tested with a 40-session race against real Postgres; a naive read-then-insert version overspends to $3.60 under the same race).
+- **Possibly-charged failures stay counted.** A timeout, dropped connection, HTTP 5xx without a DataForSEO status, or unreadable reply marks the reservation `uncertain`: it keeps counting at its estimate, the identical request is not re-sent automatically (`--retry-uncertain` after checking the DataForSEO dashboard), and only an owner-side resolver can release it. A crashed run's reservation expires into `uncertain` too. Only provably unbilled failures (a DataForSEO error status, a request never sent) release the reservation.
+- **Failed budget writes are never lost.** They go to `evidence/ledger-outbox.json`, stop further purchases, and are replayed before anything new is bought.
+- **No service key.** Scout calls the budget functions with the project's public anon key plus its own client token (only the token's SHA-256 is stored).
+- **Scout's share is smaller, never extra.** Scout also keeps `SCOUT_DFS_RESERVE_USD` (default $1) of the cap free for the other apps and never commits more than `SCOUT_DFS_MAX_RUN_USD` (default $0.10) in one run.
+- **Fails closed.** No cap, an unconfigured or unreachable budget, missing credentials, a refused reservation, an unsupported market or a low provider balance → no paid requests; research continues and enrichment is marked `pending` or `unavailable`.
+- **Never pays twice.** Keyword data is cached 30 days and search results 14 days in `evidence/cache/` (committed by the workflow, including after a failed run). Enriched ideas are never redone; retries are bounded (`SCOUT_ENRICH_MAX_ATTEMPTS`).
 - **Dry run by default.** Nothing is bought unless the repo variable `SCOUT_DFS_MODE` is `live`. A dry run still plans the keywords and shows the projected cost.
+- **Legacy backend (supervised only).** `SCOUT_BUDGET_BACKEND=legacy-ledger` records spend in the existing ledger without atomic reservations, for single-operator runs before the budget functions exist. Never used by the workflows.
 
 ### Configuration
 
-Repository **secrets**: `DATAFORSEO_LOGIN`, `DATAFORSEO_PASSWORD` (the API password from the DataForSEO dashboard), `LEDGER_SUPABASE_URL`, `LEDGER_SUPABASE_SERVICE_KEY`.
-Repository **variables**: `SCOUT_DFS_MODE` (`dry-run` | `live`), `DATAFORSEO_MONTHLY_USD_CAP` (must equal Career OS's value), `LEDGER_PROJECT_ID` (the Career OS project holding the ledger), and optionally `SCOUT_MARKET_LOCATION` (default `United States`), `SCOUT_MARKET_LANGUAGE` (default `en`), `SCOUT_ENRICH_MAX_IDEAS` (default 3, `0` disables), `SCOUT_DFS_MAX_RUN_USD`, `SCOUT_DFS_RESERVE_USD`.
-Local-only options: `SCOUT_DFS_ADS_FALLBACK=live` prices keywords Labs has no record of with the Google Ads endpoint ($0.09 per task — off by default; in the pilot it returned no figures for niche B2B keywords), and `SCOUT_ENRICH_MODELS` overrides the Gemini models used for planning and assessment.
+Repository **secrets**: `DATAFORSEO_LOGIN`, `DATAFORSEO_PASSWORD` (the API password from the DataForSEO dashboard), `DATAFORSEO_BUDGET_ANON_KEY` (Career OS Supabase anon key), `DATAFORSEO_BUDGET_TOKEN` (Scout's client token).
+Repository **variables**: `SCOUT_DFS_MODE` (`dry-run` | `live`), `DATAFORSEO_MONTHLY_USD_CAP` (must equal the database cap; it can only lower it), `DATAFORSEO_BUDGET_URL` (Career OS Supabase URL), and optionally `SCOUT_MARKETS` (e.g. `United States:en; India:en; Germany:de`, first = default), `SCOUT_ENRICH_MAX_IDEAS` (default 3, `0` disables), `SCOUT_DFS_MAX_RUN_USD`, `SCOUT_DFS_RESERVE_USD`.
+Local-only options: `SCOUT_DFS_ADS_FALLBACK=live` prices keywords Labs has no record of with the Google Ads endpoint ($0.09 per task — off by default; in the first pilot it returned no figures for niche B2B keywords), `SCOUT_ENRICH_MODELS` overrides the Gemini models used for planning and assessment, and `SCOUT_BUDGET_BACKEND=legacy-ledger` (see above).
+
+### Pilots and model checks
+
+`scripts/pilot.mjs` runs enrichment on existing ideas without touching `ideas/`, `outcomes/` or the bot's favorites: `select` (explicit queue, else source order) → `plan` → `preview` (dry run) → `gather --live` → `assess` → `revalidate` (offline) → `check` → `report`. Results live in `evidence/pilots/<name>/`.
+
+The model steps run with Scout's own Gemini configuration in `.github/workflows/enrichment-model-check.yml`: manually triggered only (a `model-check:plan` / `model-check:assess` label on a same-repository pull request, or `workflow_dispatch` once the file is on the default branch), `contents: read`, only the Gemini secret, no DataForSEO/budget/Telegram secrets, outputs uploaded as artifacts. `assess` first forces a model failure to prove evidence survives and the next run resumes.
 
 ### Commands
 
@@ -48,6 +59,9 @@ node scripts/enrich.mjs --date 2026-09-13 --dry-run            # plan + projecte
 node scripts/enrich.mjs --date 2026-09-13 --live               # enrich an existing memo (never edits ideas/)
 node scripts/enrich.mjs --date 2026-09-13 --plan keywords.json # use a hand-written keyword plan
 node --test scripts/test/*.test.mjs                            # unit + offline pipeline tests (no network)
+BUDGET_TEST_PSQL="psql postgresql://postgres:postgres@localhost:5432/postgres" \
+  node --test scripts/test/budget-sql.test.mjs                 # budget functions against real Postgres
+node scripts/pilot.mjs check --pilot evidence/pilots/pilot-10-source-order
 ```
 
 ## Bot

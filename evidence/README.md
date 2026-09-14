@@ -9,7 +9,8 @@ This folder is **separate from Scout's assessment**. `ideas/<date>.md` keeps its
 - `<date>.md` — the enriched assessment for that day's shortlist, one section per idea.
 - `<date>.json` — the same run as data: the keyword plan, every observation with provider, market and retrieval time, the code-computed readings, the constrained assessment, and each paid request with its ledger ID.
 - `cache/` — provider answers reused while fresh, so the same fact is never bought twice. Committed on purpose.
-- `ledger-outbox.json` — only exists if a paid request could not be written to the shared spend ledger; it is flushed before the next purchase.
+- `ledger-outbox.json` — only exists if a budget update (settle / uncertain / release) could not be written; it is replayed before the next purchase.
+- `pilots/<name>/` — enrichment pilots on existing ideas (`scripts/pilot.mjs`): selection, keyword plans, dry-run preview, evidence, model checks and a readable comparison (`REPORT.md`). Pilots never modify `ideas/`.
 
 Idea IDs are `<date>:<slug>` and never change once written.
 

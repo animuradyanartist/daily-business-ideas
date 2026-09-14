@@ -38,8 +38,7 @@ jobs:
           # Budget access is the project's anon key + Scout's own client token — never a
           # service-role key.
           SCOUT_DFS_MODE: ${{ vars.SCOUT_DFS_MODE || 'dry-run' }}
-          SCOUT_MARKET_LOCATION: ${{ vars.SCOUT_MARKET_LOCATION }}
-          SCOUT_MARKET_LANGUAGE: ${{ vars.SCOUT_MARKET_LANGUAGE }}
+          SCOUT_MARKETS: ${{ vars.SCOUT_MARKETS }}
           SCOUT_ENRICH_MAX_IDEAS: ${{ vars.SCOUT_ENRICH_MAX_IDEAS }}
           SCOUT_DFS_MAX_RUN_USD: ${{ vars.SCOUT_DFS_MAX_RUN_USD }}
           SCOUT_DFS_RESERVE_USD: ${{ vars.SCOUT_DFS_RESERVE_USD }}

@@ -935,7 +935,346 @@
         }
       },
       "evidenceFingerprint": "3072126cae905a38",
-      "evidenceUpdatedAt": "2026-09-14T07:38:45.620Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:45.620Z",
+      "assessmentRaw": {
+        "id": "2026-04-27",
+        "opportunity": "A swipe file of native-sounding English phrases for non-native software professionals to use in async communication like Slack and pull requests. The product aims to help them communicate more effectively and confidently in remote tech teams.",
+        "whoPays": "A non-native English-speaking software professional pays to gain confidence, communicate more professionally, and avoid misunderstandings that could hinder their career. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "NNES researchers face rejection of submitted papers for the quality of the writing"
+            },
+            {
+              "id": "S2.4",
+              "quote": "Common challenges faced by non native English speakers"
+            },
+            {
+              "id": "S2.6",
+              "quote": "still struggle to speak English fluently, panicking during meetings and stumbling words"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Non-native English speakers who use English for business communication may have a higher cognitive load"
+            },
+            {
+              "id": "S2.11",
+              "quote": "communicate in a language other than our native tongue can be quite a challenge"
+            }
+          ],
+          "observed": "Multiple sources, including academic papers and discussion forums, show that non-native English speakers face significant challenges in professional communication. These challenges include papers being rejected for writing quality, a lack of confidence, panicking during meetings, and higher cognitive load.",
+          "inference": "These general professional communication challenges likely extend to the specific async, written environments of software development (like Slack and PR reviews), causing similar stress and career risk."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "100 Business English Phrases for Speaking Professionally"
+            },
+            {
+              "id": "S1.3",
+              "quote": "30 Business English Phrases You Need To Learn"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Business English vocabulary: 127 top phrases"
+            },
+            {
+              "id": "P2",
+              "quote": "Buy Oxford Online English Courses and earn a certificate"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Oxford Language Club",
+              "what": "Offers online English courses with certificates, with monthly and yearly subscription plans.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "Buy Oxford Online English Courses and earn a certificate"
+                },
+                {
+                  "id": "P2",
+                  "quote": "Language App Monthly Plan $ 17 /mo"
+                }
+              ]
+            },
+            {
+              "name": "Free Content (Berlitz, Simon & Simon, etc.)",
+              "what": "Numerous websites provide free blog posts and articles listing dozens or hundreds of common business English phrases.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "30 Common Business English Expressions You Need To Learn"
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "Business English vocabulary: 127 top phrases"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors are established brands in language learning and offer a large volume of free content, which attracts a wide audience.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "www.berlitz.com"
+                },
+                {
+                  "id": "S1.2",
+                  "quote": "oxfordlanguageclub.com"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions are either generic, free lists of phrases or comprehensive, expensive courses. None appear to be a focused, one-time purchase product specifically for the async written communication challenges of software engineers (e.g., PR reviews, technical Slack messages).",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Non-native English-speaking software professionals struggle to communicate effectively",
+            "finding": "Search results confirm that non-native English speakers face significant, documented challenges in professional communication, including lack of confidence and higher cognitive load.",
+            "basis": [
+              {
+                "id": "S2.4",
+                "quote": "Common challenges faced by non native English speakers"
+              },
+              {
+                "id": "S2.9",
+                "quote": "may have a higher cognitive load"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "AI rewriters (Grammarly, Professionally) created the category",
+            "finding": "The search results for the tested keywords did not include AI rewriters like Grammarly or Professionally.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Notion templates for language learning are a proven Gumroad/Notion-marketplace category",
+            "finding": "The evidence does not contain information about Notion templates for language learning or their performance on marketplaces.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small PDF or Notion page with 20-30 phrases for a single scenario (e.g., code reviews) is a low-effort way to create a minimum viable product to test demand."
+        },
+        "unproven": [
+          "Whether software professionals will pay for a curated swipe file instead of using free online resources or general-purpose AI writing tools.",
+          "Whether the specific pain of async communication in tech is acute enough to motivate a purchase.",
+          "Whether a Notion database or PDF is the preferred format for this audience."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for 'The Non-Native Engineer's PR Review Phrasebook.' Offer a free PDF with 10 phrases for an email signup, and include a pre-order button for the full $29 product to test purchase intent.",
+          "cost": "$50 for landing page tool + 15 hours",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves 50+ email signups and at least 5 pre-orders.",
+        "stopIf": "The landing page generates fewer than 10 email signups and zero pre-orders after promotion in relevant communities."
+      },
+      "assessment": {
+        "opportunity": "A swipe file of native-sounding English phrases for non-native software professionals to use in async communication like Slack and pull requests. The product aims to help them communicate more effectively and confidently in remote tech teams.",
+        "whoPays": "A non-native English-speaking software professional pays to gain confidence, communicate more professionally, and avoid misunderstandings that could hinder their career. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "NNES researchers face rejection of submitted papers for the quality of the writing",
+              "domain": "fnl.mit.edu",
+              "kind": "S",
+              "cls": "reference_media"
+            },
+            {
+              "id": "S2.4",
+              "quote": "Common challenges faced by non native English speakers",
+              "domain": "tesolcourse.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.6",
+              "quote": "still struggle to speak English fluently, panicking during meetings and stumbling words",
+              "domain": "facebook.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Non-native English speakers who use English for business communication may have a higher cognitive load",
+              "domain": "researchgate.net",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.11",
+              "quote": "communicate in a language other than our native tongue can be quite a challenge",
+              "domain": "gsb.stanford.edu",
+              "kind": "S",
+              "cls": "reference_media"
+            }
+          ],
+          "observed": "Multiple sources, including academic papers and discussion forums, show that non-native English speakers face significant challenges in professional communication. These challenges include papers being rejected for writing quality, a lack of confidence, panicking during meetings, and higher cognitive load.",
+          "inference": "These general professional communication challenges likely extend to the specific async, written environments of software development (like Slack and PR reviews), causing similar stress and career risk."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "100 Business English Phrases for Speaking Professionally",
+              "domain": "oxfordlanguageclub.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.3",
+              "quote": "30 Business English Phrases You Need To Learn",
+              "domain": "simonandsimon.co.uk",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Business English vocabulary: 127 top phrases",
+              "domain": "berlitz.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "P2",
+              "quote": "Buy Oxford Online English Courses and earn a certificate",
+              "domain": "oxfordlanguageclub.com",
+              "kind": "P",
+              "cls": "page"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Oxford Language Club",
+              "what": "Offers online English courses with certificates, with monthly and yearly subscription plans.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "Buy Oxford Online English Courses and earn a certificate",
+                  "domain": "oxfordlanguageclub.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Free Content (Berlitz, Simon & Simon, etc.)",
+              "what": "Numerous websites provide free blog posts and articles listing dozens or hundreds of common business English phrases.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "30 Common Business English Expressions You Need To Learn",
+                  "domain": "simonandsimon.co.uk",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "Business English vocabulary: 127 top phrases",
+                  "domain": "berlitz.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors are established brands in language learning and offer a large volume of free content, which attracts a wide audience.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "www.berlitz.com",
+                  "domain": "berlitz.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.2",
+                  "quote": "oxfordlanguageclub.com",
+                  "domain": "oxfordlanguageclub.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions are either generic, free lists of phrases or comprehensive, expensive courses. None appear to be a focused, one-time purchase product specifically for the async written communication challenges of software engineers (e.g., PR reviews, technical Slack messages).",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "AI rewriters (Grammarly, Professionally) created the category",
+            "finding": "The search results for the tested keywords did not include AI rewriters like Grammarly or Professionally.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Notion templates for language learning are a proven Gumroad/Notion-marketplace category",
+            "finding": "The evidence does not contain information about Notion templates for language learning or their performance on marketplaces.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small PDF or Notion page with 20-30 phrases for a single scenario (e.g., code reviews) is a low-effort way to create a minimum viable product to test demand."
+        },
+        "unproven": [
+          "Whether software professionals will pay for a curated swipe file instead of using free online resources or general-purpose AI writing tools.",
+          "Whether the specific pain of async communication in tech is acute enough to motivate a purchase.",
+          "Whether a Notion database or PDF is the preferred format for this audience."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for 'The Non-Native Engineer's PR Review Phrasebook.' Offer a free PDF with 10 phrases for an email signup, and include a pre-order button for the full $29 product to test purchase intent.",
+          "cost": "$50 for landing page tool + 15 hours",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves 50+ email signups and at least 5 pre-orders.",
+        "stopIf": "The landing page generates fewer than 10 email signups and zero pre-orders after promotion in relevant communities.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [],
+          "dropped": [
+            "change: original text \"Non-native English-speaking software professionals struggle \" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:56:49.056Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:45.620Z",
+        "revalidatedAt": "2026-09-14T08:07:38.113Z"
+      }
     },
     {
       "id": "2026-04-28",
@@ -1983,7 +2322,387 @@
         }
       },
       "evidenceFingerprint": "ff3d5769882fdad0",
-      "evidenceUpdatedAt": "2026-09-14T07:38:47.228Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:47.228Z",
+      "assessmentRaw": {
+        "id": "2026-04-28",
+        "opportunity": "A kit for non-native English-speaking designers containing Canva carousel templates and a swipe file of native-sounding captions. The product aims to help them create professional LinkedIn content to attract clients and build their personal brand.",
+        "whoPays": "Non-native English-speaking solo designers or freelance creatives pay to overcome language barriers and create effective LinkedIn content more easily. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Complex language can create barriers for people with different reading abilities, non-native English speakers"
+            },
+            {
+              "id": "S2.7",
+              "quote": "In which language should I post my LinkedIn content"
+            },
+            {
+              "id": "S2.8",
+              "quote": "I publish English videos with a non-native accent every single week"
+            }
+          ],
+          "observed": "LinkedIn posts show that non-native speakers consider which language to use for their content and that complex language can be a barrier. Some non-native speakers are actively publishing content despite having an accent.",
+          "inference": "While language is a consideration for non-native creators on LinkedIn, the evidence does not strongly indicate that writing captions is a significant pain point they would pay to solve. The problem may be more about strategy (which language to use) than execution (what words to write)."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "Customize 1239+ LinkedIn Carousel Templates Online"
+            },
+            {
+              "id": "S1.2",
+              "quote": "Free LinkedIn Carousel Post Templates | Adobe Express"
+            },
+            {
+              "id": "S1.3",
+              "quote": "LinkedIn Carousel templates"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Browse 500+ free LinkedIn carousel templates. Pick a design, let AI fill the slides"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Canva",
+              "what": "A collection of over 1,200 free and paid LinkedIn carousel templates that are fully customizable.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Browse our collection of LinkedIn Carousel templates and create a stunning design"
+                }
+              ]
+            },
+            {
+              "name": "Adobe Express",
+              "what": "Offers editable and free LinkedIn carousel post templates.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Editable free LinkedIn carousel post templates."
+                }
+              ]
+            },
+            {
+              "name": "Contentdrips",
+              "what": "Provides over 500 free LinkedIn carousel templates and uses AI to populate the slides from a topic or blog post.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "let AI fill the slides from your topic or blog"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors include major design platforms with massive, often free, template libraries integrated into users' existing workflows.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "www.canva.com"
+                },
+                {
+                  "id": "S1.2",
+                  "quote": "www.adobe.com"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some competitors offer AI features to automatically generate content for the templates.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "let AI fill the slides"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing template providers focus on the visual design and do not specifically address the linguistic challenges of non-native English speakers, such as writing captions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "non-native English-speaking solo designers... freeze when typing English captions",
+            "finding": "The evidence shows non-native speakers think about which language to use on LinkedIn, but it does not confirm they 'freeze' or find caption writing to be a primary obstacle.",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "In which language should I post my LinkedIn content"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "Editable templates are eating static PDFs in 2026",
+            "finding": "The top search results for 'linkedin carousel templates' are dominated by platforms offering editable templates, such as Canva, Adobe, and Figma.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Customize 1239+ LinkedIn Carousel Templates"
+              },
+              {
+                "id": "S1.2",
+                "quote": "Editable free LinkedIn carousel post templates"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Authenticity premium punishes generic AI captions",
+            "finding": "No evidence was found in the search results regarding a preference for human-written over AI-generated captions on LinkedIn.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small bundle of 5 Canva templates and a one-page PDF of 15 caption ideas is a fast and low-cost way to produce a testable lead magnet."
+        },
+        "unproven": [
+          "Whether the caption-writing component is a strong enough differentiator to compete with thousands of free visual templates.",
+          "Whether designers perceive a need for 'native-sounding' captions and would pay for them over using free AI tools.",
+          "Whether the target audience is willing to pay for this type of content kit at all."
+        ],
+        "nextExperiment": {
+          "what": "Create and promote a free lead magnet: '5 LinkedIn Carousel Templates + 10 Native-English Hooks for Non-Native Designers.' Track downloads and survey recipients to identify their single biggest challenge with creating LinkedIn content.",
+          "cost": "10 hours of work",
+          "duration": "2 weeks"
+        },
+        "continueIf": "There are 100+ downloads and at least 30% of survey respondents list 'writing captions in English' as a top challenge.",
+        "stopIf": "There are fewer than 20 downloads, or if survey data indicates the primary challenges are design inspiration or posting consistency, not language."
+      },
+      "assessment": {
+        "opportunity": "A kit for non-native English-speaking designers containing Canva carousel templates and a swipe file of native-sounding captions. The product aims to help them create professional LinkedIn content to attract clients and build their personal brand.",
+        "whoPays": "Non-native English-speaking solo designers or freelance creatives pay to overcome language barriers and create effective LinkedIn content more easily. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Complex language can create barriers for people with different reading abilities, non-native English speakers",
+              "domain": "linkedin.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.7",
+              "quote": "In which language should I post my LinkedIn content",
+              "domain": "linkedin.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.8",
+              "quote": "I publish English videos with a non-native accent every single week",
+              "domain": "linkedin.com",
+              "kind": "S",
+              "cls": "discussion"
+            }
+          ],
+          "observed": "LinkedIn posts show that non-native speakers consider which language to use for their content and that complex language can be a barrier. Some non-native speakers are actively publishing content despite having an accent.",
+          "inference": "While language is a consideration for non-native creators on LinkedIn, the evidence does not strongly indicate that writing captions is a significant pain point they would pay to solve. The problem may be more about strategy (which language to use) than execution (what words to write)."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "Customize 1239+ LinkedIn Carousel Templates Online",
+              "domain": "canva.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.2",
+              "quote": "Free LinkedIn Carousel Post Templates | Adobe Express",
+              "domain": "adobe.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.3",
+              "quote": "LinkedIn Carousel templates",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Browse 500+ free LinkedIn carousel templates. Pick a design, let AI fill the slides",
+              "domain": "contentdrips.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Canva",
+              "what": "A collection of over 1,200 free and paid LinkedIn carousel templates that are fully customizable.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Browse our collection of LinkedIn Carousel templates and create a stunning design",
+                  "domain": "canva.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Adobe Express",
+              "what": "Offers editable and free LinkedIn carousel post templates.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Editable free LinkedIn carousel post templates.",
+                  "domain": "adobe.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Contentdrips",
+              "what": "Provides over 500 free LinkedIn carousel templates and uses AI to populate the slides from a topic or blog post.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "let AI fill the slides from your topic or blog",
+                  "domain": "contentdrips.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors include major design platforms with massive, often free, template libraries integrated into users' existing workflows.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "www.canva.com",
+                  "domain": "canva.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.2",
+                  "quote": "www.adobe.com",
+                  "domain": "adobe.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some competitors offer AI features to automatically generate content for the templates.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "let AI fill the slides",
+                  "domain": "contentdrips.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing template providers focus on the visual design and do not specifically address the linguistic challenges of non-native English speakers, such as writing captions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "non-native English-speaking solo designers... freeze when typing English captions",
+            "finding": "The evidence shows non-native speakers think about which language to use on LinkedIn, but it does not confirm they 'freeze' or find caption writing to be a primary obstacle.",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "In which language should I post my LinkedIn content",
+                "domain": "linkedin.com",
+                "kind": "S",
+                "cls": "discussion"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "Editable templates are eating static PDFs in 2026",
+            "finding": "The top search results for 'linkedin carousel templates' are dominated by platforms offering editable templates, such as Canva, Adobe, and Figma.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Customize 1239+ LinkedIn Carousel Templates",
+                "domain": "canva.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.2",
+                "quote": "Editable free LinkedIn carousel post templates",
+                "domain": "adobe.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Authenticity premium punishes generic AI captions",
+            "finding": "No evidence was found in the search results regarding a preference for human-written over AI-generated captions on LinkedIn.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small bundle of 5 Canva templates and a one-page PDF of 15 caption ideas is a fast and low-cost way to produce a testable lead magnet."
+        },
+        "unproven": [
+          "Whether the caption-writing component is a strong enough differentiator to compete with thousands of free visual templates.",
+          "Whether designers perceive a need for 'native-sounding' captions and would pay for them over using free AI tools.",
+          "Whether the target audience is willing to pay for this type of content kit at all."
+        ],
+        "nextExperiment": {
+          "what": "Create and promote a free lead magnet: '5 LinkedIn Carousel Templates + 10 Native-English Hooks for Non-Native Designers.' Track downloads and survey recipients to identify their single biggest challenge with creating LinkedIn content.",
+          "cost": "10 hours of work",
+          "duration": "2 weeks"
+        },
+        "continueIf": "There are 100+ downloads and at least 30% of survey respondents list 'writing captions in English' as a top challenge.",
+        "stopIf": "There are fewer than 20 downloads, or if survey data indicates the primary challenges are design inspiration or posting consistency, not language.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-14T07:56:49.061Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:47.228Z",
+        "revalidatedAt": "2026-09-14T08:07:38.117Z"
+      }
     },
     {
       "id": "2026-04-29",
@@ -2681,7 +3400,400 @@
         }
       },
       "evidenceFingerprint": "893b0cf293a0c4db",
-      "evidenceUpdatedAt": "2026-09-14T07:38:49.041Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:49.041Z",
+      "assessmentRaw": {
+        "id": "2026-04-29",
+        "opportunity": "A toolkit for non-native English-speaking UX designers with templates and phrase swipe files for user research. It aims to help them conduct user interviews and present findings more confidently and persuasively.",
+        "whoPays": "Non-native English-speaking UX designers or researchers pay to gain confidence and improve their communication skills in high-stakes professional scenarios. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Help! Interviewing someone with a language barrier"
+            },
+            {
+              "id": "S2.6",
+              "quote": "UX research and language barriers - the best tips"
+            },
+            {
+              "id": "S2.7",
+              "quote": "overcoming language barriers in research"
+            },
+            {
+              "id": "S2.9",
+              "quote": "User Research Study: Breaking Language Barriers"
+            },
+            {
+              "id": "S2.11",
+              "quote": "This study explores the issue of language barriers using semi-structured interviews"
+            }
+          ],
+          "observed": "Multiple sources, including professional blogs, discussion forums, and academic studies, directly address the problem of conducting user interviews and research across a language barrier. This is presented as a known challenge with established strategies for mitigation.",
+          "inference": "For a non-native UX researcher working in an English-speaking environment, this language barrier is a recurring and stressful part of their job, particularly in the critical, unscripted moments of a user interview."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "NN/g's Free UX Templates and Guides"
+            },
+            {
+              "id": "S1.4",
+              "quote": "User Research templates - Notion Marketplace"
+            },
+            {
+              "id": "S1.5",
+              "quote": "UX Research Template"
+            },
+            {
+              "id": "S1.6",
+              "quote": "UX Research Presentations and Reports: Templates"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Free UX Research Plan Template"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "NN/g (Nielsen Norman Group)",
+              "what": "Provides a curated set of free, authoritative templates and guides for UX activities.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Use this curated set of free NN/g templates and guides"
+                }
+              ]
+            },
+            {
+              "name": "Notion Marketplace",
+              "what": "A platform offering various free and paid templates to manage user research findings, interviews, and tests.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Advance your product development with Notion's User Research templates."
+                }
+              ]
+            },
+            {
+              "name": "Figma Community",
+              "what": "Offers free, community-created templates for UX research that can be used directly within the Figma design tool.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Use this file as a base for your research."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors are highly authoritative (NN/g) or deeply integrated into the UX designer's workflow (Notion, Figma), and many of their offerings are free.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "www.nngroup.com"
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "www.notion.com"
+                },
+                {
+                  "id": "S1.5",
+                  "quote": "www.figma.com"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing templates provide the structure for research (e.g., plans, reports) but do not offer the specific linguistic tools (e.g., nuanced questions, probing phrases) needed by non-native English speakers to conduct the human-facing parts of the research.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Non-native English-speaking UX designers lack confidence and specific linguistic tools",
+            "finding": "Multiple articles and forum posts directly discuss the challenges of conducting interviews and research across language barriers, which supports the premise that this is a recognized problem.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "Interviewing someone with a language barrier"
+              },
+              {
+                "id": "S2.6",
+                "quote": "UX research and language barriers"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The market for productized UX templates is validated.",
+            "finding": "Search results show that major industry platforms like Notion, Figma, and Airtable, along with thought leaders like NN/g, all offer UX research templates, confirming a market for these artifacts.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "NN/g's Free UX Templates and Guides"
+              },
+              {
+                "id": "S1.4",
+                "quote": "User Research templates - Notion Marketplace"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "AI tools are augmenting, not replacing, the researcher.",
+            "finding": "The provided evidence does not contain information about AI research tools.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a one-page PDF 'cheat sheet' with 20 native-sounding phrases for moderating a user interview is a very low-effort experiment to test interest."
+        },
+        "unproven": [
+          "Whether UX researchers are willing to pay for a language-focused kit rather than relying on free templates and improving their skills through practice.",
+          "If the pain of conducting interviews in English is acute enough to motivate a purchase, or if it's seen as a manageable part of the job.",
+          "Whether a swipe file is the correct format, as opposed to a video course or live coaching."
+        ],
+        "nextExperiment": {
+          "what": "Write and publish a detailed blog post on Medium titled 'How I Overcame My Fear of Moderating User Interviews in English'. Offer a free downloadable 'User Interview Phrasebook' with 10 phrases in exchange for an email, and link to a waitlist for the full kit.",
+          "cost": "10-15 hours of writing and design",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The blog post receives over 500 views and generates at least 50 email signups for the phrasebook and waitlist.",
+        "stopIf": "The post gets minimal traction (<100 views) and fewer than 10 email signups."
+      },
+      "assessment": {
+        "opportunity": "A toolkit for non-native English-speaking UX designers with templates and phrase swipe files for user research. It aims to help them conduct user interviews and present findings more confidently and persuasively.",
+        "whoPays": "Non-native English-speaking UX designers or researchers pay to gain confidence and improve their communication skills in high-stakes professional scenarios. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Help! Interviewing someone with a language barrier",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.6",
+              "quote": "UX research and language barriers - the best tips",
+              "domain": "objectiveexperience.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.7",
+              "quote": "overcoming language barriers in research",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "kind": "S",
+              "cls": "government"
+            },
+            {
+              "id": "S2.9",
+              "quote": "User Research Study: Breaking Language Barriers",
+              "domain": "medium.com",
+              "kind": "S",
+              "cls": "reference_media"
+            },
+            {
+              "id": "S2.11",
+              "quote": "This study explores the issue of language barriers using semi-structured interviews",
+              "domain": "sciencedirect.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "observed": "Multiple sources, including professional blogs, discussion forums, and academic studies, directly address the problem of conducting user interviews and research across a language barrier. This is presented as a known challenge with established strategies for mitigation.",
+          "inference": "For a non-native UX researcher working in an English-speaking environment, this language barrier is a recurring and stressful part of their job, particularly in the critical, unscripted moments of a user interview."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "NN/g's Free UX Templates and Guides",
+              "domain": "nngroup.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.4",
+              "quote": "User Research templates - Notion Marketplace",
+              "domain": "notion.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.5",
+              "quote": "UX Research Template",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.6",
+              "quote": "UX Research Presentations and Reports: Templates",
+              "domain": "userinterviews.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Free UX Research Plan Template",
+              "domain": "airtable.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "NN/g (Nielsen Norman Group)",
+              "what": "Provides a curated set of free, authoritative templates and guides for UX activities.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Use this curated set of free NN/g templates and guides",
+                  "domain": "nngroup.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Notion Marketplace",
+              "what": "A platform offering various free and paid templates to manage user research findings, interviews, and tests.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Advance your product development with Notion's User Research templates.",
+                  "domain": "notion.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Figma Community",
+              "what": "Offers free, community-created templates for UX research that can be used directly within the Figma design tool.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Use this file as a base for your research.",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors are highly authoritative (NN/g) or deeply integrated into the UX designer's workflow (Notion, Figma), and many of their offerings are free.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "www.nngroup.com",
+                  "domain": "nngroup.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "www.notion.com",
+                  "domain": "notion.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.5",
+                  "quote": "www.figma.com",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing templates provide the structure for research (e.g., plans, reports) but do not offer the specific linguistic tools (e.g., nuanced questions, probing phrases) needed by non-native English speakers to conduct the human-facing parts of the research.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The market for productized UX templates is validated.",
+            "finding": "Search results show that major industry platforms like Notion, Figma, and Airtable, along with thought leaders like NN/g, all offer UX research templates, confirming a market for these artifacts.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "NN/g's Free UX Templates and Guides",
+                "domain": "nngroup.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.4",
+                "quote": "User Research templates - Notion Marketplace",
+                "domain": "notion.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "AI tools are augmenting, not replacing, the researcher.",
+            "finding": "The provided evidence does not contain information about AI research tools.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a one-page PDF 'cheat sheet' with 20 native-sounding phrases for moderating a user interview is a very low-effort experiment to test interest."
+        },
+        "unproven": [
+          "Whether UX researchers are willing to pay for a language-focused kit rather than relying on free templates and improving their skills through practice.",
+          "If the pain of conducting interviews in English is acute enough to motivate a purchase, or if it's seen as a manageable part of the job.",
+          "Whether a swipe file is the correct format, as opposed to a video course or live coaching."
+        ],
+        "nextExperiment": {
+          "what": "Write and publish a detailed blog post on Medium titled 'How I Overcame My Fear of Moderating User Interviews in English'. Offer a free downloadable 'User Interview Phrasebook' with 10 phrases in exchange for an email, and link to a waitlist for the full kit.",
+          "cost": "10-15 hours of writing and design",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The blog post receives over 500 views and generates at least 50 email signups for the phrasebook and waitlist.",
+        "stopIf": "The post gets minimal traction (<100 views) and fewer than 10 email signups.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [],
+          "dropped": [
+            "change: original text \"Non-native English-speaking UX designers lack confidence and\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:56:49.066Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:49.041Z",
+        "revalidatedAt": "2026-09-14T08:07:38.119Z"
+      }
     },
     {
       "id": "2026-04-30",
@@ -3536,7 +4648,384 @@
         }
       },
       "evidenceFingerprint": "4414943dfe7ffee5",
-      "evidenceUpdatedAt": "2026-09-14T07:38:49.691Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:49.691Z",
+      "assessmentRaw": {
+        "id": "2026-04-30",
+        "opportunity": "The opportunity is to sell a toolkit combining presentation templates with linguistic scripts. It aims to help non-native English-speaking designers present their work confidently to stakeholders.",
+        "whoPays": "The target customer is a non-native English-speaking UX/UI or product designer who pays to reduce anxiety and improve their communication effectiveness, which they believe is critical for their career.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "How to get over fear of presenting designs/speaking"
+            },
+            {
+              "id": "S2.5",
+              "quote": "An anxious designer's guide to presentation and facilitation"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Presentation anxiety is the specific dread that surrounds delivering prepared remarks"
+            }
+          ],
+          "observed": "The evidence shows discussion and articles about designers' fear and anxiety related to presenting their work. This is described as a \"specific dread\" and a problem people seek solutions for.",
+          "inference": "While the general problem of presentation anxiety for designers is validated, the evidence does not specifically mention the unique challenges faced by non-native English speakers. It is an inference that this specific subgroup experiences this pain more acutely and would seek a tailored solution."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "Browse hundreds of free presentation templates on Adobe Express"
+            },
+            {
+              "id": "S1.2",
+              "quote": "SlidesCarnival: Free PowerPoint & Google Slides Templates"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Free and engaging presentation templates"
+            },
+            {
+              "id": "S1.6",
+              "quote": "3400+ Free Presentation Templates for Impactful Slides"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Adobe Express",
+              "what": "Offers hundreds of free, customizable presentation templates that can be downloaded as PowerPoint or PDF files.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Browse hundreds of free presentation templates on Adobe Express"
+                }
+              ]
+            },
+            {
+              "name": "SlidesCarnival",
+              "what": "Provides a collection of professionally-designed, free PowerPoint and Google Slides templates.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "collection of professionally-designed PowerPoint and Google Slides templates"
+                }
+              ]
+            },
+            {
+              "name": "Figma Community",
+              "what": "Offers over 3,400 free, fully customizable presentation templates and slides.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Fully customizable presentation templates and slides, free to download"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many established platforms like Adobe, Figma, and Canva offer a vast number of high-quality, visually appealing presentation templates for free.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "hundreds of free presentation templates"
+                },
+                {
+                  "id": "S1.6",
+                  "quote": "3400+ Free Presentation Templates"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing competitors focus on the visual design of the slides (the 'what') but do not appear to offer linguistic support, scripts, or frameworks for what to say (the 'how'), particularly for non-native speakers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "designers experience high anxiety when they need to present their work",
+            "finding": "Search results confirm that \"presentation anxiety\" is a known problem for designers, with articles and discussions on how to overcome the \"fear of presenting designs.\"",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "How to get over fear of presenting designs"
+              },
+              {
+                "id": "S2.5",
+                "quote": "An anxious designer's guide to presentation"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The template market is mature, but lacks linguistic support.",
+            "finding": "Search results for \"design presentation templates\" show a crowded market of free visual templates from major players like Adobe, Figma, and Canva. These results do not mention scripts or linguistic support.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Download Free Presentation Templates"
+              },
+              {
+                "id": "S1.6",
+                "quote": "Free Presentation Templates for Impactful Slides"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A productized toolkit for non-native English-speaking designers",
+            "finding": "Keywords targeting the specific niche, such as \"non native english presentation\" and \"design presentation anxiety,\" have no measurable search volume.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "design presentation anxiety"
+              },
+              {
+                "id": "K3",
+                "quote": "non native english presentation"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small, free lead magnet as described in the plan ('The 5-Slide Template & Script') is a simple task requiring only design and writing skills, with no capital investment."
+        },
+        "unproven": [
+          "Whether non-native English-speaking designers perceive their problem as distinct from general presentation anxiety.",
+          "Whether this target audience is willing to pay for a solution rather than using free templates and general advice.",
+          "Whether a script-and-template toolkit is the desired solution format."
+        ],
+        "nextExperiment": {
+          "what": "Create the free lead magnet: \"The 5-Slide Template & Script to Justify One Design Decision.\" Promote it on platforms like Reddit (r/UXDesign) and LinkedIn, and measure downloads and collect email addresses.",
+          "cost": "$0, 10-15 hours of design and writing time.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The lead magnet gets over 100 downloads and at least 5 people reply to a follow-up email confirming the specific pain point for non-native speakers.",
+        "stopIf": "Fewer than 25 downloads, or feedback indicates that existing free templates and general public speaking advice are sufficient."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to sell a toolkit combining presentation templates with linguistic scripts. It aims to help non-native English-speaking designers present their work confidently to stakeholders.",
+        "whoPays": "The target customer is a non-native English-speaking UX/UI or product designer who pays to reduce anxiety and improve their communication effectiveness, which they believe is critical for their career.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "How to get over fear of presenting designs/speaking",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.5",
+              "quote": "An anxious designer's guide to presentation and facilitation",
+              "domain": "medium.com",
+              "kind": "S",
+              "cls": "reference_media"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Presentation anxiety is the specific dread that surrounds delivering prepared remarks",
+              "domain": "dralanjacobson.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "observed": "The evidence shows discussion and articles about designers' fear and anxiety related to presenting their work. This is described as a \"specific dread\" and a problem people seek solutions for.",
+          "inference": "While the general problem of presentation anxiety for designers is validated, the evidence does not specifically mention the unique challenges faced by non-native English speakers. It is an inference that this specific subgroup experiences this pain more acutely and would seek a tailored solution."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "Browse hundreds of free presentation templates on Adobe Express",
+              "domain": "adobe.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.2",
+              "quote": "SlidesCarnival: Free PowerPoint & Google Slides Templates",
+              "domain": "slidescarnival.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Free and engaging presentation templates",
+              "domain": "canva.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.6",
+              "quote": "3400+ Free Presentation Templates for Impactful Slides",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Adobe Express",
+              "what": "Offers hundreds of free, customizable presentation templates that can be downloaded as PowerPoint or PDF files.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Browse hundreds of free presentation templates on Adobe Express",
+                  "domain": "adobe.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "SlidesCarnival",
+              "what": "Provides a collection of professionally-designed, free PowerPoint and Google Slides templates.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "collection of professionally-designed PowerPoint and Google Slides templates",
+                  "domain": "slidescarnival.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Figma Community",
+              "what": "Offers over 3,400 free, fully customizable presentation templates and slides.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Fully customizable presentation templates and slides, free to download",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many established platforms like Adobe, Figma, and Canva offer a vast number of high-quality, visually appealing presentation templates for free.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "hundreds of free presentation templates",
+                  "domain": "adobe.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.6",
+                  "quote": "3400+ Free Presentation Templates",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing competitors focus on the visual design of the slides (the 'what') but do not appear to offer linguistic support, scripts, or frameworks for what to say (the 'how'), particularly for non-native speakers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The template market is mature, but lacks linguistic support.",
+            "finding": "Search results for \"design presentation templates\" show a crowded market of free visual templates from major players like Adobe, Figma, and Canva. These results do not mention scripts or linguistic support.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Download Free Presentation Templates",
+                "domain": "adobe.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.6",
+                "quote": "Free Presentation Templates for Impactful Slides",
+                "domain": "figma.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A productized toolkit for non-native English-speaking designers",
+            "finding": "Keywords targeting the specific niche, such as \"non native english presentation\" and \"design presentation anxiety,\" have no measurable search volume.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "design presentation anxiety",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword"
+              },
+              {
+                "id": "K3",
+                "quote": "non native english presentation",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small, free lead magnet as described in the plan ('The 5-Slide Template & Script') is a simple task requiring only design and writing skills, with no capital investment."
+        },
+        "unproven": [
+          "Whether non-native English-speaking designers perceive their problem as distinct from general presentation anxiety.",
+          "Whether this target audience is willing to pay for a solution rather than using free templates and general advice.",
+          "Whether a script-and-template toolkit is the desired solution format."
+        ],
+        "nextExperiment": {
+          "what": "Create the free lead magnet: \"The 5-Slide Template & Script to Justify One Design Decision.\" Promote it on platforms like Reddit (r/UXDesign) and LinkedIn, and measure downloads and collect email addresses.",
+          "cost": "$0, 10-15 hours of design and writing time.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The lead magnet gets over 100 downloads and at least 5 people reply to a follow-up email confirming the specific pain point for non-native speakers.",
+        "stopIf": "Fewer than 25 downloads, or feedback indicates that existing free templates and general public speaking advice are sufficient.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"a productized toolkit for non-native english-speak\" weakens → untested: cites only keywords with no data (unknown, not evidence)"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [
+            "change \"a productized toolkit for non-native english-speak\" weakens → untested: cites only keywords with no data (unknown, not evidence)"
+          ],
+          "dropped": [
+            "change: original text \"designers experience high anxiety when they need to present \" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:57:41.044Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:49.691Z",
+        "revalidatedAt": "2026-09-14T08:07:38.121Z"
+      }
     },
     {
       "id": "2026-05-01",
@@ -4038,7 +5527,383 @@
         }
       },
       "evidenceFingerprint": "ad180607b9a216cc",
-      "evidenceUpdatedAt": "2026-09-14T07:38:55.960Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:55.960Z",
+      "assessmentRaw": {
+        "id": "2026-05-01",
+        "opportunity": "The opportunity is to sell a toolkit of templates and scripts for non-native English-speaking freelance designers. It aims to help them manage written client communication with more confidence and professionalism.",
+        "whoPays": "The payer is a non-native English-speaking freelance designer who wants to prevent misunderstandings, save time writing emails, and manage client relationships more effectively to protect their income.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.3",
+              "quote": "Non-native English speakers who use English for business communication may have a higher cognitive load"
+            },
+            {
+              "id": "S2.4",
+              "quote": "public speaking for non-native English speakers comes with extra layers of fear and self-doubt"
+            },
+            {
+              "id": "S2.8",
+              "quote": "non-native English speakers can use to handle"
+            }
+          ],
+          "observed": "The evidence shows academic and professional recognition of the challenges non-native English speakers face in business communication. This includes \"higher cognitive load\" and \"extra layers of fear and self-doubt.\"",
+          "inference": "While the general problem is validated for non-native speakers in business, it is an inference that freelance designers specifically feel this pain and would pay for a toolkit of templates and scripts to solve it."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Top 10 Client Communication Templates"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Standard FIT Client Communication Templates"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Client Communication Templates for Freelancers"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Agency Handy",
+              "what": "Offers client communication templates as part of a larger agency management platform with monthly and lifetime pricing.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "10 essential client communication templates"
+                },
+                {
+                  "id": "P2",
+                  "quote": "Tier 3 $409 / Lifetime"
+                }
+              ]
+            },
+            {
+              "name": "Tique",
+              "what": "Sells plug-and-play client communication templates specifically for travel agents.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "client communication templates for travel agents"
+                }
+              ]
+            },
+            {
+              "name": "InvoiceMonk",
+              "what": "Provides an article with client communication templates for freelancers, suggesting they save time and ensure consistency.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Client Communication Templates for Freelancers"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "There are existing products offering client communication templates, validating the general need for such tools among freelancers and agencies.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Client Communication Templates for Better"
+                },
+                {
+                  "id": "S1.9",
+                  "quote": "Client Communication Templates for Freelancers"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some competitors, like Agency Handy, offer these templates as part of a comprehensive, priced software suite.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "For 3 Users $29/ mont"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions appear to be generic or targeted at other industries (like travel agents). None seem to specifically address the linguistic and cultural nuances faced by non-native English-speaking designers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "non-native English-speaking freelance designers struggle with confidence and effectiveness",
+            "finding": "Search results confirm that non-native English speakers can experience a \"higher cognitive load\" and \"extra layers of fear and self-doubt\" in business communication.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "may have a higher cognitive load"
+              },
+              {
+                "id": "S2.4",
+                "quote": "extra layers of fear and self-doubt"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The \"Productized Template\" Market is Validated.",
+            "finding": "Search results show multiple vendors offering \"client communication templates,\" including some with explicit pricing, which supports the idea that there is a market for such products.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "Top 10 Client Communication Templates"
+              },
+              {
+                "id": "S1.4",
+                "quote": "Standard FIT Client Communication Templates"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Real pain in their words",
+            "finding": "None of the nine keywords searched, including problem-focused ones like \"freelance communication problems\" and solution-focused ones like \"client communication templates,\" returned any search volume data.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "freelance communication problems"
+              },
+              {
+                "id": "K4",
+                "quote": "client communication templates"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small set of email scripts or a single template (e.g., for a project proposal) as a lead magnet is a low-effort first step that requires only writing and basic design skills."
+        },
+        "unproven": [
+          "Whether non-native freelance designers are actively searching for a solution to this problem.",
+          "If they would pay for a dedicated kit of scripts and templates rather than using free online examples or AI writing tools.",
+          "Whether the problem is significant enough to warrant a purchase, or if it's just a minor inconvenience."
+        ],
+        "nextExperiment": {
+          "what": "Write a blog post or a detailed Reddit comment titled '5 English Email Scripts Every Non-Native Freelance Designer Needs.' Include a link to download a PDF version in exchange for an email address.",
+          "cost": "$0, 8-10 hours of writing and promotion.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The post receives significant engagement (upvotes, positive comments) and generates over 75 email sign-ups, with some users confirming the pain point.",
+        "stopIf": "The post receives little engagement and fewer than 20 email sign-ups, indicating a lack of interest in the specific problem or solution."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to sell a toolkit of templates and scripts for non-native English-speaking freelance designers. It aims to help them manage written client communication with more confidence and professionalism.",
+        "whoPays": "The payer is a non-native English-speaking freelance designer who wants to prevent misunderstandings, save time writing emails, and manage client relationships more effectively to protect their income.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.3",
+              "quote": "Non-native English speakers who use English for business communication may have a higher cognitive load",
+              "domain": "researchgate.net",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.4",
+              "quote": "public speaking for non-native English speakers comes with extra layers of fear and self-doubt",
+              "domain": "byvictorial.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.8",
+              "quote": "non-native English speakers can use to handle",
+              "domain": "gsb.stanford.edu",
+              "kind": "S",
+              "cls": "reference_media"
+            }
+          ],
+          "observed": "The evidence shows academic and professional recognition of the challenges non-native English speakers face in business communication. This includes \"higher cognitive load\" and \"extra layers of fear and self-doubt.\"",
+          "inference": "While the general problem is validated for non-native speakers in business, it is an inference that freelance designers specifically feel this pain and would pay for a toolkit of templates and scripts to solve it."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Top 10 Client Communication Templates",
+              "domain": "agencyhandy.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Standard FIT Client Communication Templates",
+              "domain": "tiquehq.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Client Communication Templates for Freelancers",
+              "domain": "invoicemonk.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Agency Handy",
+              "what": "Offers client communication templates as part of a larger agency management platform with monthly and lifetime pricing.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "10 essential client communication templates",
+                  "domain": "agencyhandy.com",
+                  "kind": "P",
+                  "cls": "page"
+                },
+                {
+                  "id": "P2",
+                  "quote": "Tier 3 $409 / Lifetime",
+                  "domain": "agencyhandy.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Tique",
+              "what": "Sells plug-and-play client communication templates specifically for travel agents.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "client communication templates for travel agents",
+                  "domain": "tiquehq.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "InvoiceMonk",
+              "what": "Provides an article with client communication templates for freelancers, suggesting they save time and ensure consistency.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Client Communication Templates for Freelancers",
+                  "domain": "invoicemonk.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "There are existing products offering client communication templates, validating the general need for such tools among freelancers and agencies.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Client Communication Templates for Better",
+                  "domain": "agencyhandy.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.9",
+                  "quote": "Client Communication Templates for Freelancers",
+                  "domain": "invoicemonk.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some competitors, like Agency Handy, offer these templates as part of a comprehensive, priced software suite.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "For 3 Users $29/ mont",
+                  "domain": "agencyhandy.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions appear to be generic or targeted at other industries (like travel agents). None seem to specifically address the linguistic and cultural nuances faced by non-native English-speaking designers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The \"Productized Template\" Market is Validated.",
+            "finding": "Search results show multiple vendors offering \"client communication templates,\" including some with explicit pricing, which supports the idea that there is a market for such products.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "Top 10 Client Communication Templates",
+                "domain": "agencyhandy.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.4",
+                "quote": "Standard FIT Client Communication Templates",
+                "domain": "tiquehq.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a small set of email scripts or a single template (e.g., for a project proposal) as a lead magnet is a low-effort first step that requires only writing and basic design skills."
+        },
+        "unproven": [
+          "Whether non-native freelance designers are actively searching for a solution to this problem.",
+          "If they would pay for a dedicated kit of scripts and templates rather than using free online examples or AI writing tools.",
+          "Whether the problem is significant enough to warrant a purchase, or if it's just a minor inconvenience."
+        ],
+        "nextExperiment": {
+          "what": "Write a blog post or a detailed Reddit comment titled '5 English Email Scripts Every Non-Native Freelance Designer Needs.' Include a link to download a PDF version in exchange for an email address.",
+          "cost": "$0, 8-10 hours of writing and promotion.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The post receives significant engagement (upvotes, positive comments) and generates over 75 email sign-ups, with some users confirming the pain point.",
+        "stopIf": "The post receives little engagement and fewer than 20 email sign-ups, indicating a lack of interest in the specific problem or solution.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [],
+          "dropped": [
+            "change: original text \"non-native English-speaking freelance designers struggle wit\" is not in Scout's memo",
+            "change: \"Real pain in their words\" is a heading or label in Scout's memo, not a claim"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:57:41.048Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:55.960Z",
+        "revalidatedAt": "2026-09-14T08:07:38.123Z"
+      }
     },
     {
       "id": "2026-05-02",
@@ -4539,7 +6404,362 @@
         }
       },
       "evidenceFingerprint": "80bf7164a28eb0c4",
-      "evidenceUpdatedAt": "2026-09-14T07:38:57.447Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:57.447Z",
+      "assessmentRaw": {
+        "id": "2026-05-02",
+        "opportunity": "The opportunity is to sell a toolkit of visual templates and writing scripts to non-native English-speaking designers. This aims to help them create more compelling portfolio case studies to secure job opportunities.",
+        "whoPays": "A non-native English-speaking designer who is actively job-seeking pays to improve their portfolio's narrative quality, believing it's a key factor in convincing hiring managers.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "Writing case studies might be the most dreaded part of building a design portfolio"
+            },
+            {
+              "id": "S2.3",
+              "quote": "What's your strategy for making the process of writing case"
+            }
+          ],
+          "observed": "The evidence shows that writing portfolio case studies is a generally difficult or \"dreaded\" task for designers, who seek strategies to improve their process.",
+          "inference": "The evidence confirms a general problem for all designers, but it does not specifically mention non-native English speakers. It is an inference that this group feels the pain more acutely and requires a specialized solution beyond the many generic templates available."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "15+ Case Study Templates | Free Resources"
+            },
+            {
+              "id": "S1.3",
+              "quote": "Free Case Study Templates | Adobe Express"
+            },
+            {
+              "id": "S1.7",
+              "quote": "Free and customizable case study templates"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Figma",
+              "what": "Offers free case study templates to help users display projects and research in an organized format.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "Display your projects and research in an organized and presentable format with free templates"
+                }
+              ]
+            },
+            {
+              "name": "UXfol.io",
+              "what": "Provides a blog with a detailed UX case study template and structure guide, explaining what to include and how to format the story.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Master UX case studies with our complete template and expert guidance"
+                }
+              ]
+            },
+            {
+              "name": "Adobe Express",
+              "what": "Provides editable and free case study templates to help users create their own design online.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Editable free case study templates"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Major platforms like Figma, Adobe, and Canva offer a wide variety of free, high-quality visual templates for case studies.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Case Study Templates | Free Resources"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "Free Case Study Templates"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Competitors provide the visual structure (templates) and high-level guidance (what sections to include), but they do not appear to offer specific, copy-pasteable scripts and phrases to help non-native speakers write the narrative persuasively.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "designers struggle to write compelling, clear, and persuasive narratives",
+            "finding": "Evidence shows that writing case studies is a \"dreaded part\" of building a portfolio, and designers actively seek strategies for the writing process. This supports the general problem.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "Writing case studies might be the most dreaded part"
+              },
+              {
+                "id": "S2.3",
+                "quote": "strategy for making the process of writing case"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The \"Artifact\" Market is Validated but Incomplete.",
+            "finding": "Search results for \"design case study templates\" are dominated by free offerings from major platforms like Figma, Adobe, and Canva, confirming a mature market for the visual artifact. These results do not mention linguistic support.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "15+ Case Study Templates | Free Resources"
+              },
+              {
+                "id": "S1.3",
+                "quote": "Free Case Study Templates | Adobe Express"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A productized toolkit for non-native English-speaking designers",
+            "finding": "None of the nine keywords searched, including problem-focused ones like \"struggle writing ux case study\" and solution-focused ones like \"design case study templates,\" had any measurable search volume.",
+            "basis": [
+              {
+                "id": "K3",
+                "quote": "struggle writing ux case study"
+              },
+              {
+                "id": "K4",
+                "quote": "design case study templates"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating the proposed lead magnet ('The 1-Page Case Study Outline & 10 Essential English Phrases') is a simple content creation task that requires no financial investment and minimal time."
+        },
+        "unproven": [
+          "Whether non-native designers see their writing challenge as a distinct problem requiring a specialized tool, rather than a general writing skill issue.",
+          "If this audience would pay for a template/script kit when so many visual templates are free and AI writing assistants are widely available.",
+          "The demand for this specific solution, as no search volume was found for relevant keywords."
+        ],
+        "nextExperiment": {
+          "what": "Create the free lead magnet: \"The 1-Page Case Study Outline & 10 Essential English Phrases for Non-Native Designers.\" Promote it in relevant online communities and measure downloads via an email gate.",
+          "cost": "$0, 10-15 hours of writing and design.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The lead magnet is downloaded over 100 times and a follow-up survey gets at least 10 responses confirming that writing in English is their primary barrier.",
+        "stopIf": "Fewer than 25 downloads, or feedback suggests the problem is not specific to non-native speakers or that free templates and AI tools are a sufficient solution."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to sell a toolkit of visual templates and writing scripts to non-native English-speaking designers. This aims to help them create more compelling portfolio case studies to secure job opportunities.",
+        "whoPays": "A non-native English-speaking designer who is actively job-seeking pays to improve their portfolio's narrative quality, believing it's a key factor in convincing hiring managers.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "Writing case studies might be the most dreaded part of building a design portfolio",
+              "domain": "vanschneider.medium.com",
+              "kind": "S",
+              "cls": "reference_media"
+            },
+            {
+              "id": "S2.3",
+              "quote": "What's your strategy for making the process of writing case",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion"
+            }
+          ],
+          "observed": "The evidence shows that writing portfolio case studies is a generally difficult or \"dreaded\" task for designers, who seek strategies to improve their process.",
+          "inference": "The evidence confirms a general problem for all designers, but it does not specifically mention non-native English speakers. It is an inference that this group feels the pain more acutely and requires a specialized solution beyond the many generic templates available."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "15+ Case Study Templates | Free Resources",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.3",
+              "quote": "Free Case Study Templates | Adobe Express",
+              "domain": "adobe.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.7",
+              "quote": "Free and customizable case study templates",
+              "domain": "canva.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Figma",
+              "what": "Offers free case study templates to help users display projects and research in an organized format.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "Display your projects and research in an organized and presentable format with free templates",
+                  "domain": "figma.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "UXfol.io",
+              "what": "Provides a blog with a detailed UX case study template and structure guide, explaining what to include and how to format the story.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Master UX case studies with our complete template and expert guidance",
+                  "domain": "blog.uxfol.io",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Adobe Express",
+              "what": "Provides editable and free case study templates to help users create their own design online.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Editable free case study templates",
+                  "domain": "adobe.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Major platforms like Figma, Adobe, and Canva offer a wide variety of free, high-quality visual templates for case studies.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Case Study Templates | Free Resources",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "Free Case Study Templates",
+                  "domain": "adobe.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Competitors provide the visual structure (templates) and high-level guidance (what sections to include), but they do not appear to offer specific, copy-pasteable scripts and phrases to help non-native speakers write the narrative persuasively.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The \"Artifact\" Market is Validated but Incomplete.",
+            "finding": "Search results for \"design case study templates\" are dominated by free offerings from major platforms like Figma, Adobe, and Canva, confirming a mature market for the visual artifact. These results do not mention linguistic support.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "15+ Case Study Templates | Free Resources",
+                "domain": "figma.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.3",
+                "quote": "Free Case Study Templates | Adobe Express",
+                "domain": "adobe.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A productized toolkit for non-native English-speaking designers",
+            "finding": "None of the nine keywords searched, including problem-focused ones like \"struggle writing ux case study\" and solution-focused ones like \"design case study templates,\" had any measurable search volume.",
+            "basis": [
+              {
+                "id": "K3",
+                "quote": "struggle writing ux case study",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword"
+              },
+              {
+                "id": "K4",
+                "quote": "design case study templates",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating the proposed lead magnet ('The 1-Page Case Study Outline & 10 Essential English Phrases') is a simple content creation task that requires no financial investment and minimal time."
+        },
+        "unproven": [
+          "Whether non-native designers see their writing challenge as a distinct problem requiring a specialized tool, rather than a general writing skill issue.",
+          "If this audience would pay for a template/script kit when so many visual templates are free and AI writing assistants are widely available.",
+          "The demand for this specific solution, as no search volume was found for relevant keywords."
+        ],
+        "nextExperiment": {
+          "what": "Create the free lead magnet: \"The 1-Page Case Study Outline & 10 Essential English Phrases for Non-Native Designers.\" Promote it in relevant online communities and measure downloads via an email gate.",
+          "cost": "$0, 10-15 hours of writing and design.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The lead magnet is downloaded over 100 times and a follow-up survey gets at least 10 responses confirming that writing in English is their primary barrier.",
+        "stopIf": "Fewer than 25 downloads, or feedback suggests the problem is not specific to non-native speakers or that free templates and AI tools are a sufficient solution.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"a productized toolkit for non-native english-speak\" weakens → untested: cites only keywords with no data (unknown, not evidence)"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [
+            "change \"a productized toolkit for non-native english-speak\" weakens → untested: cites only keywords with no data (unknown, not evidence)"
+          ],
+          "dropped": [
+            "change: original text \"designers struggle to write compelling, clear, and persuasiv\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:57:41.051Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:57.447Z",
+        "revalidatedAt": "2026-09-14T08:07:38.125Z"
+      }
     },
     {
       "id": "2026-05-03",
@@ -5359,7 +7579,357 @@
         }
       },
       "evidenceFingerprint": "203c3dd92495e429",
-      "evidenceUpdatedAt": "2026-09-14T07:38:59.623Z"
+      "evidenceUpdatedAt": "2026-09-14T07:38:59.623Z",
+      "assessmentRaw": {
+        "id": "2026-05-03",
+        "opportunity": "The opportunity is a productized toolkit for non-native English-speaking designers to create clear developer handoff documentation. It combines a Figma template for visual annotations with a Notion database of pre-written, developer-friendly text snippets.",
+        "whoPays": "A non-native English-speaking designer pays to avoid miscommunication with developers, which can cause project delays and damage their professional credibility. This is an inference as no evidence shows this specific group paying for this solution.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "it often leads to errors, delays, and miscommunication"
+            },
+            {
+              "id": "S2.4",
+              "quote": "it leads to misaligned expectations, inconsistent UI implementation, frustrated teams"
+            },
+            {
+              "id": "S2.6",
+              "quote": "Design handoff fails when you only share pixels"
+            },
+            {
+              "id": "S2.8",
+              "quote": "The biggest challenges of design handoff · Clarity"
+            },
+            {
+              "id": "S2.2",
+              "quote": "Lack of process and accountability"
+            }
+          ],
+          "observed": "Multiple articles and discussions confirm that poor design handoffs are a common problem in software development. The issues cited include miscommunication, errors, delays, misaligned expectations, and a failure to document logic and behavior beyond visual pixels.",
+          "inference": "The general problem of poor design handoffs is well-evidenced. However, no evidence was found to suggest that this problem is experienced more acutely by non-native English speakers or that a language barrier is a primary cause."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Top 10 Design Handoff Tools to Try in 2024"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Top 10 Design Handoff Tools for Designers and Developers"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Figma",
+              "what": "Offers a \"Free Design Handoff Tool for Designers & Developers\" that \"enables a design handoff experience that keeps designers and developers on the same page.\"",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Free Design Handoff Tool for Designers & Developers"
+                }
+              ]
+            },
+            {
+              "name": "UXPin",
+              "what": "A design and prototyping tool listed among the \"Top 10 Design Handoff Tools\". It offers paid plans starting at $49/month/seat.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Top 10 Design Handoff Tools to Try in 2024"
+                },
+                {
+                  "id": "P2",
+                  "quote": "$49 / month / seat"
+                }
+              ]
+            },
+            {
+              "name": "Miro",
+              "what": "A collaborative platform positioned for design handoffs to \"document behavior, edge cases, and logic\". It offers paid plans starting at $8/month/member.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "document behavior, edge cases, and logic in Miro"
+                },
+                {
+                  "id": "P4",
+                  "quote": "$ 8 /month per member, billed yearly"
+                }
+              ]
+            },
+            {
+              "name": "Zeplin",
+              "what": "Described as a \"popular design handoff tool making it easy for designers, engineers, and other team members to communicate and collaborate effectively.\"",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Zeplin is a popular design handoff tool"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market includes multiple established, feature-rich software platforms designed for team collaboration.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "communicate and collaborate effectively"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing tools may focus more on inspecting visual properties and less on providing structured templates for the written communication of logic and intent, particularly for those with a language barrier.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Real pain in their words",
+            "finding": "The evidence strongly supports that design handoff is a general pain point, with sources citing \"errors, delays, and miscommunication\" as common outcomes.",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "it often leads to errors, delays, and miscommunication"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Competitive landscape",
+            "finding": "The competitive landscape is more crowded with established software tools like Zeplin, UXPin, and Miro than the original memo suggested. These are more direct competitors than generic UI kits.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "Top 10 Design Handoff Tools to Try in 2024"
+              },
+              {
+                "id": "S1.6",
+                "quote": "Top 10 Design Handoff Tools for Designers and Developers"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a Figma template and a Notion database is straightforward and requires no custom software development."
+        },
+        "unproven": [
+          "That non-native English speakers perceive their language skills as the primary barrier in design handoffs, as opposed to universal issues like lack of process.",
+          "Willingness to pay for a template-and-snippet-based solution to this problem.",
+          "That this specific niche (non-native English-speaking designers) is large enough and reachable."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page describing 'The Figma Handoff Kit for Non-Native Designers'. Include mockups, a clear description of the value proposition, and a pre-order button for $39. Drive targeted traffic from design communities like Reddit.",
+          "cost": "~$50 for landing page tool + 10-15 hours of effort.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The experiment generates 10 or more pre-orders, validating that a segment of the target audience is willing to pay to solve this specific problem.",
+        "stopIf": "The experiment generates fewer than 3 pre-orders, suggesting a lack of willingness to pay or a failure to resonate with the target audience."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is a productized toolkit for non-native English-speaking designers to create clear developer handoff documentation. It combines a Figma template for visual annotations with a Notion database of pre-written, developer-friendly text snippets.",
+        "whoPays": "A non-native English-speaking designer pays to avoid miscommunication with developers, which can cause project delays and damage their professional credibility. This is an inference as no evidence shows this specific group paying for this solution.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "it often leads to errors, delays, and miscommunication",
+              "domain": "uxpin.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.4",
+              "quote": "it leads to misaligned expectations, inconsistent UI implementation, frustrated teams",
+              "domain": "qt.io",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.6",
+              "quote": "Design handoff fails when you only share pixels",
+              "domain": "miro.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.8",
+              "quote": "The biggest challenges of design handoff · Clarity",
+              "domain": "blog.zeplin.io",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.2",
+              "quote": "Lack of process and accountability",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion"
+            }
+          ],
+          "observed": "Multiple articles and discussions confirm that poor design handoffs are a common problem in software development. The issues cited include miscommunication, errors, delays, misaligned expectations, and a failure to document logic and behavior beyond visual pixels.",
+          "inference": "The general problem of poor design handoffs is well-evidenced. However, no evidence was found to suggest that this problem is experienced more acutely by non-native English speakers or that a language barrier is a primary cause."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Top 10 Design Handoff Tools to Try in 2024",
+              "domain": "uxpin.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Top 10 Design Handoff Tools for Designers and Developers",
+              "domain": "brandyhq.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Figma",
+              "what": "Offers a \"Free Design Handoff Tool for Designers & Developers\" that \"enables a design handoff experience that keeps designers and developers on the same page.\"",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Free Design Handoff Tool for Designers & Developers",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "UXPin",
+              "what": "A design and prototyping tool listed among the \"Top 10 Design Handoff Tools\". It offers paid plans starting at $49/month/seat.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Top 10 Design Handoff Tools to Try in 2024",
+                  "domain": "uxpin.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "P2",
+                  "quote": "$49 / month / seat",
+                  "domain": "uxpin.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Miro",
+              "what": "A collaborative platform positioned for design handoffs to \"document behavior, edge cases, and logic\". It offers paid plans starting at $8/month/member.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "document behavior, edge cases, and logic in Miro",
+                  "domain": "miro.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "P4",
+                  "quote": "$ 8 /month per member, billed yearly",
+                  "domain": "miro.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Zeplin",
+              "what": "Described as a \"popular design handoff tool making it easy for designers, engineers, and other team members to communicate and collaborate effectively.\"",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Zeplin is a popular design handoff tool",
+                  "domain": "uxpin.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market includes multiple established, feature-rich software platforms designed for team collaboration.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "communicate and collaborate effectively",
+                  "domain": "uxpin.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing tools may focus more on inspecting visual properties and less on providing structured templates for the written communication of logic and intent, particularly for those with a language barrier.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a Figma template and a Notion database is straightforward and requires no custom software development."
+        },
+        "unproven": [
+          "That non-native English speakers perceive their language skills as the primary barrier in design handoffs, as opposed to universal issues like lack of process.",
+          "Willingness to pay for a template-and-snippet-based solution to this problem.",
+          "That this specific niche (non-native English-speaking designers) is large enough and reachable."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page describing 'The Figma Handoff Kit for Non-Native Designers'. Include mockups, a clear description of the value proposition, and a pre-order button for $39. Drive targeted traffic from design communities like Reddit.",
+          "cost": "~$50 for landing page tool + 10-15 hours of effort.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The experiment generates 10 or more pre-orders, validating that a segment of the target audience is willing to pay to solve this specific problem.",
+        "stopIf": "The experiment generates fewer than 3 pre-orders, suggesting a lack of willingness to pay or a failure to resonate with the target audience.",
+        "removedLinks": 0,
+        "downgraded": [
+          "competition crowded → some: crowded needs three distinct vendor-like domains"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [
+            "competition crowded → some: crowded needs three distinct vendor-like domains"
+          ],
+          "dropped": [
+            "change: \"Real pain in their words\" is a heading or label in Scout's memo, not a claim",
+            "change: \"Competitive landscape\" is a heading or label in Scout's memo, not a claim"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:58:46.754Z",
+        "evidenceUpdatedAt": "2026-09-14T07:38:59.623Z",
+        "revalidatedAt": "2026-09-14T08:07:38.126Z"
+      }
     },
     {
       "id": "2026-05-04",
@@ -5863,7 +8433,371 @@
         }
       },
       "evidenceFingerprint": "0d5d03e99109ab58",
-      "evidenceUpdatedAt": "2026-09-14T07:39:00.008Z"
+      "evidenceUpdatedAt": "2026-09-14T07:39:00.008Z",
+      "assessmentRaw": {
+        "id": "2026-05-04",
+        "opportunity": "The opportunity is a productized toolkit for non-native English-speaking designers to get better results from generative AI. It's a Notion database of 150+ structured, copy-pasteable prompts for tools like ChatGPT and Midjourney, covering the design workflow.",
+        "whoPays": "Non-native English-speaking designers pay to improve their AI skills, which they see as critical for their career, and to overcome language barriers that lead to generic results. This is an inference as no evidence shows willingness to pay.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Get better output from your AI design prompts"
+            },
+            {
+              "id": "S2.4",
+              "quote": "it gets better when I spend time defining the brand direction, collecting reference sites, and writing a detailed brief first"
+            },
+            {
+              "id": "S2.11",
+              "quote": "Create better AI-prototyping designs by using precise visual keywords"
+            }
+          ],
+          "observed": "The evidence shows that designers are actively seeking ways to get better outputs from AI tools. This involves learning to write more detailed, specific, and constrained prompts.",
+          "inference": "The problem of needing to write better prompts appears to be universal for all designers using AI. No evidence was found that non-native English speakers face a unique or more severe version of this problem."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Design Prompts for Designers, PMs & AI Product Teams"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Design Prompts - AI-Powered Design Style Explorer"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Design Prompts for AI Agents"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "AI UX Playground",
+              "what": "Offers \"ready-made instructions for product design\" and has a library of over 210 design prompts. The site appears to be free.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "AI design prompts are ready-made instructions for product design"
+                },
+                {
+                  "id": "P3",
+                  "quote": "210+ design prompts"
+                }
+              ]
+            },
+            {
+              "name": "Design Prompts",
+              "what": "An \"AI-Powered Design Style Explorer\" that provides \"AI-ready prompts to recreate any aesthetic in your own projects.\" The site appears to be free.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Get AI-ready prompts to recreate any aesthetic"
+                }
+              ]
+            },
+            {
+              "name": "Adobe Firefly",
+              "what": "Provides guidance and examples of \"AI prompts for graphic designers\" to help users \"quickly generate ideas.\"",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "AI prompts for graphic designers"
+                }
+              ]
+            },
+            {
+              "name": "Figma",
+              "what": "Publishes resources on \"How to Get Better Output\" from AI design prompts.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "AI Design Prompts: How to Get Better Output"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "There are multiple, easily discoverable, and free resources offering extensive libraries of AI prompts specifically for designers.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Design Prompts for Designers"
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "Design Prompts - AI-Powered Design Style Explorer"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing free resources may not be structured around a specific workflow or tailored to the potential linguistic challenges of a non-native English speaker.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The 'Prompt Pack' Market is Proven and Profitable.",
+            "finding": "The evidence shows a market for prompt packs, but the most direct competitors for designers (e.g., AI UX Playground, Design Prompts) appear to be free resources, not paid products.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "Design Prompts for Designers, PMs & AI Product Teams"
+              },
+              {
+                "id": "S1.4",
+                "quote": "Design Prompts - AI-Powered Design Style Explorer"
+              }
+            ],
+            "effect": "contradicts"
+          },
+          {
+            "original": "Competitive landscape",
+            "finding": "The competitive landscape includes several free, high-quality, and niche-specific prompt libraries for designers, which are more direct and threatening competitors than the generic lists mentioned in the original memo.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "AI design prompts are ready-made instructions"
+              },
+              {
+                "id": "S1.8",
+                "quote": "Design Prompts for AI Agents"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Compiling a list of prompts in a Notion database is a low-effort task requiring no custom code."
+        },
+        "unproven": [
+          "That designers are willing to pay for a prompt kit when many comprehensive, free alternatives exist.",
+          "That non-native English speakers struggle with prompt writing significantly more than native speakers.",
+          "That a static list of prompts is the desired solution, rather than learning the underlying skill of prompt engineering from free guides."
+        ],
+        "nextExperiment": {
+          "what": "Create a free lead magnet: 'The 10-Prompt Starter Kit for Non-Native Designers to Generate Better UI Concepts'. Promote it in relevant online communities to see if the 'non-native' angle generates any interest or email sign-ups.",
+          "cost": "~$20 for landing page tool + 8 hours of effort.",
+          "duration": "1 week"
+        },
+        "continueIf": "The lead magnet gets over 100 email sign-ups, indicating the positioning resonates with a specific audience.",
+        "stopIf": "The lead magnet gets fewer than 20 sign-ups, suggesting the 'non-native' angle does not provide a strong enough hook to stand out from free alternatives."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is a productized toolkit for non-native English-speaking designers to get better results from generative AI. It's a Notion database of 150+ structured, copy-pasteable prompts for tools like ChatGPT and Midjourney, covering the design workflow.",
+        "whoPays": "Non-native English-speaking designers pay to improve their AI skills, which they see as critical for their career, and to overcome language barriers that lead to generic results. This is an inference as no evidence shows willingness to pay.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Get better output from your AI design prompts",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.4",
+              "quote": "it gets better when I spend time defining the brand direction, collecting reference sites, and writing a detailed brief first",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.11",
+              "quote": "Create better AI-prototyping designs by using precise visual keywords",
+              "domain": "nngroup.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "observed": "The evidence shows that designers are actively seeking ways to get better outputs from AI tools. This involves learning to write more detailed, specific, and constrained prompts.",
+          "inference": "The problem of needing to write better prompts appears to be universal for all designers using AI. No evidence was found that non-native English speakers face a unique or more severe version of this problem."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Design Prompts for Designers, PMs & AI Product Teams",
+              "domain": "aiuxplayground.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Design Prompts - AI-Powered Design Style Explorer",
+              "domain": "designprompts.dev",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Design Prompts for AI Agents",
+              "domain": "styles.refero.design",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "AI UX Playground",
+              "what": "Offers \"ready-made instructions for product design\" and has a library of over 210 design prompts. The site appears to be free.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "AI design prompts are ready-made instructions for product design",
+                  "domain": "aiuxplayground.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "P3",
+                  "quote": "210+ design prompts",
+                  "domain": "aiuxplayground.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Design Prompts",
+              "what": "An \"AI-Powered Design Style Explorer\" that provides \"AI-ready prompts to recreate any aesthetic in your own projects.\" The site appears to be free.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Get AI-ready prompts to recreate any aesthetic",
+                  "domain": "designprompts.dev",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Adobe Firefly",
+              "what": "Provides guidance and examples of \"AI prompts for graphic designers\" to help users \"quickly generate ideas.\"",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "AI prompts for graphic designers",
+                  "domain": "adobe.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Figma",
+              "what": "Publishes resources on \"How to Get Better Output\" from AI design prompts.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "AI Design Prompts: How to Get Better Output",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "There are multiple, easily discoverable, and free resources offering extensive libraries of AI prompts specifically for designers.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Design Prompts for Designers",
+                  "domain": "aiuxplayground.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "Design Prompts - AI-Powered Design Style Explorer",
+                  "domain": "designprompts.dev",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing free resources may not be structured around a specific workflow or tailored to the potential linguistic challenges of a non-native English speaker.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The 'Prompt Pack' Market is Proven and Profitable.",
+            "finding": "The evidence shows a market for prompt packs, but the most direct competitors for designers (e.g., AI UX Playground, Design Prompts) appear to be free resources, not paid products.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "Design Prompts for Designers, PMs & AI Product Teams",
+                "domain": "aiuxplayground.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.4",
+                "quote": "Design Prompts - AI-Powered Design Style Explorer",
+                "domain": "designprompts.dev",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Compiling a list of prompts in a Notion database is a low-effort task requiring no custom code."
+        },
+        "unproven": [
+          "That designers are willing to pay for a prompt kit when many comprehensive, free alternatives exist.",
+          "That non-native English speakers struggle with prompt writing significantly more than native speakers.",
+          "That a static list of prompts is the desired solution, rather than learning the underlying skill of prompt engineering from free guides."
+        ],
+        "nextExperiment": {
+          "what": "Create a free lead magnet: 'The 10-Prompt Starter Kit for Non-Native Designers to Generate Better UI Concepts'. Promote it in relevant online communities to see if the 'non-native' angle generates any interest or email sign-ups.",
+          "cost": "~$20 for landing page tool + 8 hours of effort.",
+          "duration": "1 week"
+        },
+        "continueIf": "The lead magnet gets over 100 email sign-ups, indicating the positioning resonates with a specific audience.",
+        "stopIf": "The lead magnet gets fewer than 20 sign-ups, suggesting the 'non-native' angle does not provide a strong enough hook to stand out from free alternatives.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"the 'prompt pack' market is proven and profitable.\" contradicts → weakens: the finding relies on something not being seen, which cannot contradict a claim"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [
+            "change \"the 'prompt pack' market is proven and profitable.\" contradicts → weakens: the finding relies on something not being seen, which cannot contradict a claim"
+          ],
+          "dropped": [
+            "change: \"Competitive landscape\" is a heading or label in Scout's memo, not a claim"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:58:46.757Z",
+        "evidenceUpdatedAt": "2026-09-14T07:39:00.008Z",
+        "revalidatedAt": "2026-09-14T08:07:38.127Z"
+      }
     },
     {
       "id": "2026-05-05",
@@ -6819,7 +9753,318 @@
         }
       },
       "evidenceFingerprint": "bb75234b43758749",
-      "evidenceUpdatedAt": "2026-09-14T07:39:03.406Z"
+      "evidenceUpdatedAt": "2026-09-14T07:39:03.406Z",
+      "assessmentRaw": {
+        "id": "2026-05-05",
+        "opportunity": "The opportunity is a toolkit for non-native English-speaking designers to write user interface copy. It includes a Figma/Canva file with UI components and a Notion database with over 150 copy-pasteable phrases and formulas.",
+        "whoPays": "Non-native English-speaking designers who are responsible for writing UI copy pay to reduce anxiety, improve efficiency, and ensure their copy is clear and effective. This is an inference as no evidence shows this specific group paying for a solution.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Folks, how do you write a good copy?"
+            },
+            {
+              "id": "S2.8",
+              "quote": "Writing copy is the toughest job a Product Manager (PM) can have"
+            }
+          ],
+          "observed": "Evidence from a Reddit discussion and an article suggests that writing good copy is a recognized challenge for designers and product managers.",
+          "inference": "The evidence points to a general difficulty with UX writing as a skill. No evidence was found that specifically validates this is a more acute problem for non-native English speakers."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.5",
+              "quote": "Top 22 essential tools & platforms for UX writers"
+            },
+            {
+              "id": "S1.10",
+              "quote": "The AI writing assistant for design teams"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Frontitude",
+              "what": "Offers an \"AI writing assistant for design teams\" as a Figma plugin that \"delivers copy suggestions based on your design elements.\"",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "The AI writing assistant for design teams | UX Writing Assistant"
+                }
+              ]
+            },
+            {
+              "name": "Localazy",
+              "what": "A localization platform that also publishes content on tools for UX writers. It offers paid plans for its core service.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Top 22 essential tools & platforms for UX writers"
+                },
+                {
+                  "id": "P6",
+                  "quote": "upgrade from monthly Autopilot ($89/mo) to Business ($199/mo)"
+                }
+              ]
+            },
+            {
+              "name": "Grafana",
+              "what": "Provides a public \"Writers' Toolkit\" documentation with guidelines on \"creating text, style, and tone in the different components that make up the UI.\"",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "UX writing | Writers' Toolkit documentation"
+                }
+              ]
+            },
+            {
+              "name": "General AI Writers (e.g. ChatGPT)",
+              "what": "These tools can instantly generate copy, though the original memo infers they produce generic and off-brand results.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "strengths": [
+            {
+              "text": "AI-powered tools that integrate directly into Figma already exist to help with copy generation.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "The AI Writing Assistant is a Figma plugin"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions like AI assistants or high-level guides may not provide the structured, template-based scaffolding that a non-native speaker might need to build confidence and learn.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Real pain in their words",
+            "finding": "The search for \"struggle writing ui copy\" returned a general Reddit thread titled \"how do you write a good copy?\", which is much less specific and indicates a lower intensity of pain than the anecdotes in the original memo.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "Folks, how do you write a good copy?"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "The Market for Design 'Process' Kits is Validated.",
+            "finding": "Keyword data shows search demand for solution-oriented terms like \"microcopy examples\" (110 searches/month) and \"ux writing template\" (10 searches/month), supporting the idea that people are looking for artifacts to help them.",
+            "basis": [
+              {
+                "id": "K5",
+                "quote": "microcopy examples"
+              },
+              {
+                "id": "K4",
+                "quote": "ux writing template"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a Figma/Canva file and a Notion database is a low-complexity task with no software development required."
+        },
+        "unproven": [
+          "That the primary problem for non-native designers is a lack of templates, rather than fundamental language or writing skills.",
+          "Willingness to pay for a kit of templates and phrases instead of using free guides or AI-powered tools.",
+          "The core assumption that non-native English speakers are a distinct and reachable market segment for this specific problem."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page for 'The UX Writing Kit for Non-Native Designers'. Detail the contents (Figma components, Notion swipe file), show mockups, and include a pre-order button for $39. Promote the page in UX writing and design communities.",
+          "cost": "~$50 for landing page tool + 10-15 hours of effort.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The experiment achieves 10 or more pre-orders, indicating that the specific solution and positioning resonate enough for people to pay.",
+        "stopIf": "The experiment results in fewer than 3 pre-orders, suggesting a weak product-market fit or low willingness to pay."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is a toolkit for non-native English-speaking designers to write user interface copy. It includes a Figma/Canva file with UI components and a Notion database with over 150 copy-pasteable phrases and formulas.",
+        "whoPays": "Non-native English-speaking designers who are responsible for writing UI copy pay to reduce anxiety, improve efficiency, and ensure their copy is clear and effective. This is an inference as no evidence shows this specific group paying for a solution.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Folks, how do you write a good copy?",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion"
+            },
+            {
+              "id": "S2.8",
+              "quote": "Writing copy is the toughest job a Product Manager (PM) can have",
+              "domain": "uxdesign.cc",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "observed": "Evidence from a Reddit discussion and an article suggests that writing good copy is a recognized challenge for designers and product managers.",
+          "inference": "The evidence points to a general difficulty with UX writing as a skill. No evidence was found that specifically validates this is a more acute problem for non-native English speakers."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.5",
+              "quote": "Top 22 essential tools & platforms for UX writers",
+              "domain": "localazy.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.10",
+              "quote": "The AI writing assistant for design teams",
+              "domain": "write.frontitude.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Frontitude",
+              "what": "Offers an \"AI writing assistant for design teams\" as a Figma plugin that \"delivers copy suggestions based on your design elements.\"",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "The AI writing assistant for design teams | UX Writing Assistant",
+                  "domain": "write.frontitude.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Localazy",
+              "what": "A localization platform that also publishes content on tools for UX writers. It offers paid plans for its core service.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Top 22 essential tools & platforms for UX writers",
+                  "domain": "localazy.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "P6",
+                  "quote": "upgrade from monthly Autopilot ($89/mo) to Business ($199/mo)",
+                  "domain": "localazy.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Grafana",
+              "what": "Provides a public \"Writers' Toolkit\" documentation with guidelines on \"creating text, style, and tone in the different components that make up the UI.\"",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "UX writing | Writers' Toolkit documentation",
+                  "domain": "grafana.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "AI-powered tools that integrate directly into Figma already exist to help with copy generation.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "The AI Writing Assistant is a Figma plugin",
+                  "domain": "write.frontitude.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions like AI assistants or high-level guides may not provide the structured, template-based scaffolding that a non-native speaker might need to build confidence and learn.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The Market for Design 'Process' Kits is Validated.",
+            "finding": "Keyword data shows search demand for solution-oriented terms like \"microcopy examples\" (110 searches/month) and \"ux writing template\" (10 searches/month), supporting the idea that people are looking for artifacts to help them.",
+            "basis": [
+              {
+                "id": "K5",
+                "quote": "microcopy examples",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword"
+              },
+              {
+                "id": "K4",
+                "quote": "ux writing template",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "Creating a Figma/Canva file and a Notion database is a low-complexity task with no software development required."
+        },
+        "unproven": [
+          "That the primary problem for non-native designers is a lack of templates, rather than fundamental language or writing skills.",
+          "Willingness to pay for a kit of templates and phrases instead of using free guides or AI-powered tools.",
+          "The core assumption that non-native English speakers are a distinct and reachable market segment for this specific problem."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page for 'The UX Writing Kit for Non-Native Designers'. Detail the contents (Figma components, Notion swipe file), show mockups, and include a pre-order button for $39. Promote the page in UX writing and design communities.",
+          "cost": "~$50 for landing page tool + 10-15 hours of effort.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The experiment achieves 10 or more pre-orders, indicating that the specific solution and positioning resonate enough for people to pay.",
+        "stopIf": "The experiment results in fewer than 3 pre-orders, suggesting a weak product-market fit or low willingness to pay.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"the market for design 'process' kits is validated.\" supports → untested: a claim about payment or a validated market cannot rest on search volume"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [
+            "change \"the market for design 'process' kits is validated.\" supports → untested: a claim about payment or a validated market cannot rest on search volume"
+          ],
+          "dropped": [
+            "alternative \"General AI Writers (e.g. ChatGPT)\": no quoted evidence naming it",
+            "change: \"Real pain in their words\" is a heading or label in Scout's memo, not a claim"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:58:46.760Z",
+        "evidenceUpdatedAt": "2026-09-14T07:39:03.406Z",
+        "revalidatedAt": "2026-09-14T08:07:38.129Z"
+      }
     },
     {
       "id": "2026-05-06",
@@ -7507,7 +10752,437 @@
         }
       },
       "evidenceFingerprint": "bb33e24629af6878",
-      "evidenceUpdatedAt": "2026-09-14T07:39:04.010Z"
+      "evidenceUpdatedAt": "2026-09-14T07:39:04.010Z",
+      "assessmentRaw": {
+        "id": "2026-05-06",
+        "opportunity": "The opportunity is to sell a toolkit of templates and phrase banks to non-native English-speaking designers. The goal is to help them participate more confidently and effectively in design critiques.",
+        "whoPays": "The non-native English-speaking designer pays to reduce anxiety, improve their communication skills in critiques, and advance their career. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "creates a safe, structured environment to analyze work, remove ego from the process"
+            },
+            {
+              "id": "S1.2",
+              "quote": "creates a more inclusive critique as everyone has the same time and medium to provide feedback"
+            },
+            {
+              "id": "S2.5",
+              "quote": "What if instead of using words like these, when critiquing or complementing a design"
+            }
+          ],
+          "observed": "The evidence shows a general need for design critiques to be safe, structured, and inclusive. There are also discussions about using more specific, constructive language during critiques.",
+          "inference": "The anxiety and communication challenges described in the original memo are general to design critiques. The evidence does not specifically show that this problem is more acute for non-native English speakers, as none of the search results for that specific query describe this problem from the designer's perspective."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "Design Critique Templates & Examples | Miroverse"
+            },
+            {
+              "id": "S1.2",
+              "quote": "Design critique template"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Top 9 Design Critique Templates"
+            },
+            {
+              "id": "S1.7",
+              "quote": "Design Critiques: Encourage a Positive Culture to Improve"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Miro",
+              "what": "Offers design critique templates to provide a structured environment for feedback.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "The Design Critique template creates a safe, structured environment to analyze work"
+                }
+              ]
+            },
+            {
+              "name": "Figma",
+              "what": "Provides community-created design critique templates, including asynchronous formats.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Async format to present in-progress design work—creates a more inclusive critique"
+                }
+              ]
+            },
+            {
+              "name": "Nielsen Norman Group",
+              "what": "Publishes articles and likely offers training on how to conduct effective design critiques.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Design Critiques: Encourage a Positive Culture to Improve Products"
+                }
+              ]
+            },
+            {
+              "name": "Notion",
+              "what": "Hosts collections of design critique templates.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Explore the best design critique templates on Notion to elevate your projects."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many free templates are available on major platforms that designers already use, such as Miro and Figma.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Design Critique Templates & Examples | Miroverse"
+                },
+                {
+                  "id": "S1.2",
+                  "quote": "Design critique template"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Expert guidance and frameworks are available from trusted industry sources like Nielsen Norman Group.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Design Critiques: Encourage a Positive Culture to Improve"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "None of the observed templates or guides appear to be specifically tailored to the linguistic challenges of non-native English speakers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Real pain in their words",
+            "finding": "Evidence shows a general need for structure and better language in critiques, but no specific evidence was found of non-native designers articulating this as a unique pain point.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "creates a safe, structured environment"
+              },
+              {
+                "id": "S2.5",
+                "quote": "Design Critique Language: Using Specific Terms Instead of"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "The \"Productized Process\" Market is Proven.",
+            "finding": "Search results for \"design critique templates\" show numerous offerings from major platforms like Miro, Figma, and Notion, confirming demand for such tools.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Design Critique Templates & Examples | Miroverse"
+              },
+              {
+                "id": "S1.2",
+                "quote": "Design critique template"
+              },
+              {
+                "id": "S1.6",
+                "quote": "Top 9 Design Critique Templates"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The wedge is the combination of a structured critique process... + a deep linguistic scaffold",
+            "finding": "The market is crowded with solutions for the 'structured process' part, but none of the observed competitors focus on providing a 'linguistic scaffold' for non-native speakers.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Design Critique Templates & Examples | Miroverse"
+              },
+              {
+                "id": "S2.2",
+                "quote": "make English content clear and inclusive for non-native users"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "The proposed first experiment is a one-page checklist or guide, which can be created with standard office software (e.g., Notion, Google Docs) and requires no custom code."
+        },
+        "unproven": [
+          "That non-native English-speaking designers perceive their language skills as a primary blocker in design critiques.",
+          "That this audience is actively looking for a solution to this specific problem.",
+          "That they are willing to pay for a toolkit of templates and phrase banks."
+        ],
+        "nextExperiment": {
+          "what": "Create a one-page lead magnet titled '10 Phrases to Use in Design Critiques to Sound More Confident (for Non-Native English Speakers)'. Distribute it via a simple landing page in online communities where UX designers gather (e.g., subreddits, LinkedIn groups) and measure downloads and qualitative feedback.",
+          "cost": "$0 + 4-6 hours",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "The lead magnet receives 100+ downloads and at least 5 unsolicited, positive comments from people identifying as non-native English-speaking designers.",
+        "stopIf": "The lead magnet receives fewer than 20 downloads and no qualitative feedback, or feedback indicates this is not a significant problem for the target audience."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to sell a toolkit of templates and phrase banks to non-native English-speaking designers. The goal is to help them participate more confidently and effectively in design critiques.",
+        "whoPays": "The non-native English-speaking designer pays to reduce anxiety, improve their communication skills in critiques, and advance their career. This is an inference as no direct evidence of payment for this specific solution was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "creates a safe, structured environment to analyze work, remove ego from the process",
+              "domain": "miro.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.2",
+              "quote": "creates a more inclusive critique as everyone has the same time and medium to provide feedback",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S2.5",
+              "quote": "What if instead of using words like these, when critiquing or complementing a design",
+              "domain": "facebook.com",
+              "kind": "S",
+              "cls": "discussion"
+            }
+          ],
+          "observed": "The evidence shows a general need for design critiques to be safe, structured, and inclusive. There are also discussions about using more specific, constructive language during critiques.",
+          "inference": "The anxiety and communication challenges described in the original memo are general to design critiques. The evidence does not specifically show that this problem is more acute for non-native English speakers, as none of the search results for that specific query describe this problem from the designer's perspective."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "Design Critique Templates & Examples | Miroverse",
+              "domain": "miro.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.2",
+              "quote": "Design critique template",
+              "domain": "figma.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Top 9 Design Critique Templates",
+              "domain": "notion.com",
+              "kind": "S",
+              "cls": "site"
+            },
+            {
+              "id": "S1.7",
+              "quote": "Design Critiques: Encourage a Positive Culture to Improve",
+              "domain": "nngroup.com",
+              "kind": "S",
+              "cls": "site"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Miro",
+              "what": "Offers design critique templates to provide a structured environment for feedback.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "The Design Critique template creates a safe, structured environment to analyze work",
+                  "domain": "miro.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Figma",
+              "what": "Provides community-created design critique templates, including asynchronous formats.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Async format to present in-progress design work—creates a more inclusive critique",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            },
+            {
+              "name": "Nielsen Norman Group",
+              "what": "Publishes articles and likely offers training on how to conduct effective design critiques.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Design Critiques: Encourage a Positive Culture to Improve Products",
+                  "domain": "nngroup.com",
+                  "kind": "P",
+                  "cls": "page"
+                }
+              ]
+            },
+            {
+              "name": "Notion",
+              "what": "Hosts collections of design critique templates.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Explore the best design critique templates on Notion to elevate your projects.",
+                  "domain": "notion.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many free templates are available on major platforms that designers already use, such as Miro and Figma.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Design Critique Templates & Examples | Miroverse",
+                  "domain": "miro.com",
+                  "kind": "S",
+                  "cls": "site"
+                },
+                {
+                  "id": "S1.2",
+                  "quote": "Design critique template",
+                  "domain": "figma.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Expert guidance and frameworks are available from trusted industry sources like Nielsen Norman Group.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Design Critiques: Encourage a Positive Culture to Improve",
+                  "domain": "nngroup.com",
+                  "kind": "S",
+                  "cls": "site"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "None of the observed templates or guides appear to be specifically tailored to the linguistic challenges of non-native English speakers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The \"Productized Process\" Market is Proven.",
+            "finding": "Search results for \"design critique templates\" show numerous offerings from major platforms like Miro, Figma, and Notion, confirming demand for such tools.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Design Critique Templates & Examples | Miroverse",
+                "domain": "miro.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.2",
+                "quote": "Design critique template",
+                "domain": "figma.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S1.6",
+                "quote": "Top 9 Design Critique Templates",
+                "domain": "notion.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The wedge is the combination of a structured critique process... + a deep linguistic scaffold",
+            "finding": "The market is crowded with solutions for the 'structured process' part, but none of the observed competitors focus on providing a 'linguistic scaffold' for non-native speakers.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "Design Critique Templates & Examples | Miroverse",
+                "domain": "miro.com",
+                "kind": "S",
+                "cls": "site"
+              },
+              {
+                "id": "S2.2",
+                "quote": "make English content clear and inclusive for non-native users",
+                "domain": "smashingmagazine.com",
+                "kind": "S",
+                "cls": "site"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "The proposed first experiment is a one-page checklist or guide, which can be created with standard office software (e.g., Notion, Google Docs) and requires no custom code."
+        },
+        "unproven": [
+          "That non-native English-speaking designers perceive their language skills as a primary blocker in design critiques.",
+          "That this audience is actively looking for a solution to this specific problem.",
+          "That they are willing to pay for a toolkit of templates and phrase banks."
+        ],
+        "nextExperiment": {
+          "what": "Create a one-page lead magnet titled '10 Phrases to Use in Design Critiques to Sound More Confident (for Non-Native English Speakers)'. Distribute it via a simple landing page in online communities where UX designers gather (e.g., subreddits, LinkedIn groups) and measure downloads and qualitative feedback.",
+          "cost": "$0 + 4-6 hours",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "The lead magnet receives 100+ downloads and at least 5 unsolicited, positive comments from people identifying as non-native English-speaking designers.",
+        "stopIf": "The lead magnet receives fewer than 20 downloads and no qualitative feedback, or feedback indicates this is not a significant problem for the target audience.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "downgraded": [],
+          "dropped": [
+            "change: \"Real pain in their words\" is a heading or label in Scout's memo, not a claim"
+          ]
+        },
+        "assessedAt": "2026-09-14T07:59:23.341Z",
+        "evidenceUpdatedAt": "2026-09-14T07:39:04.010Z",
+        "revalidatedAt": "2026-09-14T08:07:38.130Z"
+      }
     }
   ],
   "spend": [
@@ -7824,5 +11499,16 @@
     "spentUsd": 0.06604,
     "note": null
   },
-  "pagesRefreshedAt": "2026-09-14T07:39:04.010Z"
+  "pagesRefreshedAt": "2026-09-14T07:39:04.010Z",
+  "assessmentRunner": {
+    "kind": "github-actions",
+    "runId": "34820117889",
+    "sha": "604651f09d3b690742619c3e3e5be0f821d782bf",
+    "ref": "1/merge",
+    "workflow": "Enrichment model check (manual)"
+  },
+  "assessmentModels": [
+    "gemini-2.5-pro",
+    "gemini-2.5-flash"
+  ]
 }
