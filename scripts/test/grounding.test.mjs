@@ -17,7 +17,7 @@ const idea = {
         { id: 'S1.1', rank: 1, domain: 'www.reddit.com', class: 'discussion', url: 'https://www.reddit.com/r/UXDesign/x', title: 'I freeze when giving design feedback in English', description: 'Non-native speaker here, every critique session I struggle to phrase criticism politely.' },
         { id: 'S1.2', rank: 2, domain: 'critiquekit.io', class: 'site', url: 'https://critiquekit.io/', title: 'CritiqueKit — structured design feedback templates', description: 'Templates for async design reviews.' },
         { id: 'S1.3', rank: 3, domain: 'uxwriting.guide', class: 'site', url: 'https://uxwriting.guide/feedback', title: 'Feedback phrases for designers', description: 'A phrasebook for critique.' },
-        { id: 'S1.4', rank: 4, domain: 'forum.designers.test', class: 'discussion', url: 'https://forum.designers.test/t/1', title: 'Giving critique as an ESL designer', description: 'My manager says my feedback sounds rude.' },
+        { id: 'S1.4', rank: 4, domain: 'forum.designers.test', class: 'discussion', url: 'https://forum.designers.test/t/1', title: 'Giving critique as a non-native English speaker and designer', description: 'My manager says my feedback sounds rude.' },
       ],
     },
   ],

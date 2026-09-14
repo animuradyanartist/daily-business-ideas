@@ -1,14 +1,16 @@
 {
-  "at": "2026-09-14T08:27:27.722Z",
+  "at": "2026-09-14T11:13:03.782Z",
   "runner": {
     "kind": "github-actions",
-    "runId": "34822795160",
-    "sha": "9f8a53adbedd03a162d0f8034f2fd3670913a4d6",
+    "runId": "34837061249",
+    "sha": "803f617a411c6fce83c286cdaf332941c4457baa",
     "ref": "1/merge",
     "workflow": "Enrichment model check (manual)"
   },
   "newlyAssessed": 0,
+  "newlyJudged": 0,
   "evidenceChanged": 0,
-  "assessmentError": "assessment not written for some ideas (they will be retried): 2026-04-27, 2026-04-28, 2026-04-29: gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-04-30, 2026-05-01, 2026-05-02: gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-05-03, 2026-05-04, 2026-05-05: gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-05-06: gemini-model-that-does-not-exist failed after 1 attempts: 404",
+  "earlierVersionsKept": 10,
+  "assessmentError": "assessment not written for some ideas (they will be retried): 2026-04-27, 2026-04-28, 2026-04-29: relevance — gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-04-30, 2026-05-01, 2026-05-02: relevance — gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-05-03, 2026-05-04, 2026-05-05: relevance — gemini-model-that-does-not-exist failed after 1 attempts: 404 | 2026-05-06: relevance — gemini-model-that-does-not-exist failed after 1 attempts: 404",
   "ok": true
 }

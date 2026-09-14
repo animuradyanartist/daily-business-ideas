@@ -34,7 +34,7 @@ import {
   constrainAssessment,
   recomputeReadings,
 } from './lib/enrich.mjs';
-import { classifyRelevance, relevanceOf, keywordClass } from './lib/relevance.mjs';
+import { classifyRelevance, relevanceOf, keywordClass, relevanceDemand } from './lib/relevance.mjs';
 import { relevanceFlags } from './lib/render.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims, figureAfterKeyword, normText } from './lib/grounding.mjs';
 import { planShapeIssues, HEAD_TERM_MAX_WORDS, demandReading } from './lib/evidence.mjs';
@@ -779,14 +779,21 @@ if (cmd === 'compare') {
       '',
       '_"Demand level set by a broader keyword" uses the relevance-checked reading when the evidence has been judged; before judging, the largest keyword set it._',
       '',
-      '| Idea | v3 demand level as computed | v3 level from on-idea + category keywords only (person\'s labels) |',
-      '|---|---|---|',
+      '| Idea | v3 demand level as computed | v3 level from on-idea + category keywords only (person\'s labels) | Idea-level with the person\'s labels instead of the model\'s (same rules and guard): v2 · v3 |',
+      '|---|---|---|---|',
       ...ids.map((id) => {
         const list = v3?.byIdea[id]?.list ?? [];
         const narrow = demandReading(list.filter((k) => k.status !== 'measured' || judge(id, k) !== 'broader'));
         const top = narrow.top ? ` (${esc(narrow.top.keyword ?? '')}${narrow.top.searchVolume != null ? `, ${narrow.top.searchVolume}/mo` : ''})` : '';
         const rt = v3?.byIdea[id]?.readingTop;
-        return `| \`${id}\` | ${v3?.byIdea[id]?.demand ?? 'n/a'}${rt !== undefined ? ` · set by ${rt ? `"${esc(rt.keyword)}"` : 'no confirmed direct keyword'}` : ` · ${esc(v3?.byIdea[id]?.top ?? '')}`} | ${narrow.level}${top} |`;
+        const personLevel = (m) => {
+          if (!m) return 'n/a';
+          const list = m.byIdea[id].list;
+          const topics = { 'on-idea': 'same', category: 'category', broader: 'wider' };
+          const rel = { keywords: Object.fromEntries(list.filter((k) => review.judgements?.[id]?.[k.keyword]).map((k) => [k.id, { searcher: 'includes', topic: topics[review.judgements[id][k.keyword]], reason: 'person' }])), items: {} };
+          return demandCell(relevanceDemand(list, { keywords: list, relevance: rel }));
+        };
+        return `| \`${id}\` | ${v3?.byIdea[id]?.demand ?? 'n/a'}${rt !== undefined ? ` · set by ${rt ? `"${esc(rt.keyword)}"` : 'no confirmed direct keyword'}` : ` · ${esc(v3?.byIdea[id]?.top ?? '')}`} | ${narrow.level}${top} | ${personLevel(v2)} · ${personLevel(v3)} |`;
       }),
       '',
       '**Findings of that review, written before the relevance checks (kept as written)**',

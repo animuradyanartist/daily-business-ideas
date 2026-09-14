@@ -1,6 +1,6 @@
 # Model check — pilot-10-planner-v3
 
-_Generated 2026-09-14T10:25:09.757Z by `node scripts/pilot.mjs check`. Automated checks; read the evidence file for the full assessments._
+_Generated 2026-09-14T11:29:20.380Z by `node scripts/pilot.mjs check`. Automated checks; read the evidence file for the full assessments._
 
 Planner: gemini gemini-2.5-flash → gemini-2.5-pro · runner: github-actions run 34832567254 (1/merge @ 94f542c)
 
@@ -19,3 +19,5 @@ Keyword relevance is a lexical proxy only — the plans are listed in PREVIEW.md
 | Every planned keyword was collected (measured or no data) | pass | 2026-04-27 enriched · 2026-04-28 enriched · 2026-04-29 enriched · 2026-04-30 enriched · 2026-05-01 enriched · 2026-05-02 enriched · 2026-05-03 enriched · 2026-05-04 enriched · 2026-05-05 enriched · 2026-05-06 enriched |
 | Missing keyword data is stored as unknown (null), never as 0 | pass | 61 keyword(s) without data |
 | No search result pages were bought (keywords-only pilot) | pass | 0 SERP request(s) |
+| Every idea's keywords have relevance judgements (missing ones count as uncertain) | pass | 10/10 judged; 0 keyword(s) left without a judgement |
+| Idea-level demand is set only by directly relevant keywords | pass | 10 idea(s) checked |

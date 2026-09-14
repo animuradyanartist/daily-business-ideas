@@ -6,7 +6,7 @@
 // The judgements here are fixtures, not model output: they test the rules, not the model.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { keywordClass, itemClass, competitorType, relevanceDemand, normalizeRelevance, effectiveCustomer, relevanceOf } from '../lib/relevance.mjs';
+import { keywordClass, itemClass, competitorType, relevanceDemand, normalizeRelevance, effectiveCustomer, relevanceOf, traitInText } from '../lib/relevance.mjs';
 import { constrainAssessment, relevanceReadings } from '../lib/enrich.mjs';
 import { scrubDemandClaims } from '../lib/grounding.mjs';
 
@@ -226,4 +226,35 @@ test('2026-04-30: presentation anxiety of all designers is not the non-native de
   assert.equal(effectiveCustomer({ ...reddit, customerMatches: ['UX/product designer', 'Non-native English speaker '] }, qualifiers), 'same'); // case/space-insensitive
   assert.equal(effectiveCustomer(reddit, []), 'broader'); // no trait list → cannot verify → not "same"
   assert.equal(effectiveCustomer({ customer: 'different' }, qualifiers), 'different');
+});
+
+test('2026-04-29 (live run 34837061249): a claimed trait match the item text does not show is unverified, not "same"', () => {
+  // The judge matched both traits for S2.9, which alone kept problem evidence at "moderate"; the text never mentions non-native researchers.
+  const qualifiers = ['Non-native English-speaking', 'UX designer or researcher'];
+  const idea = { ...langIdea(), relevance: { qualifiers, keywords: {}, items: {
+    'S2.9': { customer: 'same', customerMatches: qualifiers, problem: 'same', offering: 'no', reason: 'case study about language barriers in user research' },
+    'S2.6': { customer: 'broader', customerMatches: ['UX designer or researcher'], problem: 'same', offering: 'no', reason: 'tips for any UX researcher facing a language barrier' },
+    'S2.10': { customer: 'broader', customerMatches: [], problem: 'same', offering: 'no', reason: 'language barriers in government user research' },
+  } } };
+  const rel = relevanceOf(idea);
+  assert.equal(rel.item('S2.9'), 'uncertain');
+  assert.equal(rel.unverified('S2.9'), true);
+  const out = constrainAssessment(
+    { problemEvidence: { level: 'moderate', basis: [{ id: 'S2.9', quote: 'User Research Study: Breaking Language Barriers' }, { id: 'S2.6', quote: 'UX research and language barriers' }, { id: 'S2.10', quote: 'Tips for communicating across a language barrier' }], observed: 'x' } },
+    idea,
+    { original: '' },
+  );
+  assert.equal(out.problemEvidence.level, 'weak'); // only broader-audience items remain
+  assert.ok(out.validation.irrelevantCitations.some((x) => x.id === 'S2.9'));
+});
+
+test('not over-strict: an item that states every trait stays direct, with the usual wording variations', () => {
+  const qualifiers = ['non-native English speaker', 'UX designer'];
+  const text = 'As a non native English speaker working as a UX designer, I freeze when presenting to stakeholders';
+  assert.equal(effectiveCustomer({ customer: 'same', customerMatches: qualifiers }, qualifiers, text), 'same');
+  assert.ok(traitInText('Non-native English-speaking', 'Tips for non-native speakers of English'));
+  assert.ok(traitInText('freelance designer', 'How freelancers handle clients'));
+  assert.ok(!traitInText('Non-native English-speaking', 'User Research Study: Breaking Language Barriers'));
+  // Stated limit: a synonym with no shared word ("ESL") is not recognised — the item is flagged "unverified", not silently dropped.
+  assert.equal(effectiveCustomer({ customer: 'same', customerMatches: qualifiers }, qualifiers, 'ESL product designers share their presentation fears'), 'unclear');
 });

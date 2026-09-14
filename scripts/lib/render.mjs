@@ -41,7 +41,9 @@ export function relevanceFlags(idea) {
   const uncertainKw = (idea.keywords ?? []).filter((k) => k.status === 'measured' && rel.keyword(k.id) === 'uncertain');
   if (uncertainKw.length) out.push(`Keywords with data but unclear relevance (not counted): ${uncertainKw.map((k) => `"${k.keyword}" ${k.searchVolume}/mo`).join(', ')}.`);
   const items = [...(idea.serps ?? []).flatMap((s) => s.items ?? []), ...(idea.pages ?? []).filter((p) => !p.error)];
-  const uncertainItems = items.filter((i) => rel.item(i.id) === 'uncertain');
+  const unverified = items.filter((i) => rel.unverified(i.id));
+  if (unverified.length) out.push(`The judge said these items concern the exact target customer, but their text does not mention every defining trait (${(idea.relevance.qualifiers ?? []).join(' + ')}), so they are not counted: ${unverified.map((i) => `${i.id} "${i.title ?? ''}"`).join('; ')}.`);
+  const uncertainItems = items.filter((i) => rel.item(i.id) === 'uncertain' && !rel.unverified(i.id));
   if (uncertainItems.length) out.push(`Items with unclear relevance (not counted): ${uncertainItems.map((i) => i.id).join(', ')}.`);
   return out;
 }

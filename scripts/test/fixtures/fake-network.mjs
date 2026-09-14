@@ -133,7 +133,7 @@ globalThis.fetch = async (input, init = {}) => {
     if (path.includes('/serp/')) {
       const slug = body[0].keyword.split(' ')[0];
       return json({ status_code: 20000, cost: 0.002, tasks: [{ status_code: 20000, result: [{ check_url: 'https://www.google.com/search?q=x', items: [
-        { type: 'organic', rank_absolute: 1, domain: 'www.reddit.com', url: `https://www.reddit.com/r/x/${slug}`, title: 'Thread' },
+        { type: 'organic', rank_absolute: 1, domain: 'www.reddit.com', url: `https://www.reddit.com/r/x/${slug}`, title: 'Thread from a small operator' },
         { type: 'organic', rank_absolute: 2, domain: `${slug}-vendor.test`, url: `https://${slug}-vendor.test/`, title: 'Vendor' },
       ] }] }] });
     }

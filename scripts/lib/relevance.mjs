@@ -40,11 +40,24 @@ const norm = (t) => String(t ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
  * speakers — is "broader". Enforced over the judge's own answers: without the trait list, or when a
  * trait is not matched, "same" becomes "broader". Pure.
  */
-export function effectiveCustomer(j, qualifiers) {
+export function effectiveCustomer(j, qualifiers, itemText = null) {
   if (j?.customer !== 'same') return j?.customer ?? null;
   const q = (Array.isArray(qualifiers) ? qualifiers : []).map(norm).filter(Boolean);
   const matched = new Set((Array.isArray(j.customerMatches) ? j.customerMatches : []).map(norm));
-  return q.length && q.every((x) => matched.has(x)) ? 'same' : 'broader';
+  if (!(q.length && q.every((x) => matched.has(x)))) return 'broader';
+  // A claimed trait must be visible in what the judge saw (title + snippet); otherwise the match is
+  // unverified and the item is "unclear" (flagged, not counted) rather than "same".
+  if (itemText !== null && q.some((x) => !traitInText(x, itemText))) return 'unclear';
+  return 'same';
+}
+
+const TRAIT_STOP = new Set(['non', 'and', 'or', 'the', 'a', 'an', 'of', 'in', 'on', 'for', 'to', 'with', 'who', 'their', 'at', 'as', 'by', 'from', 'work', 'works', 'working']);
+const words = (t) => norm(t).replace(/[^\p{L}\p{N}]+/gu, ' ').split(' ').filter(Boolean);
+/** Lenient: any content word of the trait (5-letter stem, or whole word if shorter) appears in the text. Pure. */
+export function traitInText(trait, text) {
+  const hay = words(text);
+  const tokens = words(trait).filter((w) => !TRAIT_STOP.has(w));
+  return tokens.some((tok) => (tok.length >= 5 ? hay.some((h) => h.startsWith(tok.slice(0, 5))) : hay.includes(tok)));
 }
 
 /** Problem-evidence class of a search result or page from its judgement. Pure. */
@@ -141,9 +154,10 @@ export function normalizeRelevance(raw, idea, { at, models } = {}) {
 /** Class lookups for one idea; an idea without a stored judgement is entirely uncertain. */
 export function relevanceOf(idea) {
   const rel = idea?.relevance ?? null;
+  const textOf = new Map([...(idea?.serps ?? []).flatMap((s) => s.items ?? []), ...(idea?.pages ?? [])].map((i) => [i.id, `${i.title ?? ''} ${i.description ?? i.snippet ?? ''}`]));
   const eff = (id) => {
     const j = rel?.items?.[id];
-    return j ? { ...j, customer: effectiveCustomer(j, rel.qualifiers) } : undefined;
+    return j ? { ...j, customer: effectiveCustomer(j, rel.qualifiers, textOf.has(id) ? textOf.get(id) : null) } : undefined;
   };
   return {
     classified: Boolean(rel),
@@ -151,7 +165,9 @@ export function relevanceOf(idea) {
     item: (id) => itemClass(eff(id)),
     competitor: (id) => competitorType(eff(id)),
     /** true when the judge said "same customer" but did not match every qualifier */
-    narrowed: (id) => rel?.items?.[id]?.customer === 'same' && eff(id)?.customer !== 'same',
+    narrowed: (id) => rel?.items?.[id]?.customer === 'same' && eff(id)?.customer === 'broader',
+    /** true when the judge matched every trait but the item's own text does not mention one of them */
+    unverified: (id) => rel?.items?.[id]?.customer === 'same' && eff(id)?.customer === 'unclear',
     reason: (id) => rel?.keywords?.[id]?.reason ?? rel?.items?.[id]?.reason ?? '',
   };
 }
