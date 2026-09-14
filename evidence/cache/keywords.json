@@ -1,0 +1,1450 @@
+{
+  "version": 1,
+  "entries": {
+    "labs|united states|en|sbir accounting requirements": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "sbir accounting requirements",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-06-13 15:22:40 +00:00"
+      }
+    },
+    "labs|united states|en|dcaa compliant accounting system": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "dcaa compliant accounting system",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": 38.13,
+        "adCompetition": 0.4,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -18,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 22:07:21 +00:00"
+      }
+    },
+    "labs|united states|en|sbir indirect rate": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "sbir indirect rate",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-08-22 12:44:54 +00:00"
+      }
+    },
+    "labs|united states|en|sbir accounting software": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "sbir accounting software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-08-29 01:07:50 +00:00"
+      }
+    },
+    "labs|united states|en|dcaa compliant timekeeping software": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "dcaa compliant timekeeping software",
+        "searchVolume": 170,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 154.51,
+        "adCompetition": 0.15,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 06:27:35 +00:00"
+      }
+    },
+    "labs|united states|en|government contract accounting software": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "government contract accounting software",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 105.11,
+        "adCompetition": 0.34,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -80,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-08-29 01:25:42 +00:00"
+      }
+    },
+    "labs|united states|en|dcaa compliant accounting software pricing": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|sbir accounting services": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "sbir accounting services",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 5.64,
+        "adCompetition": 0.55,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-12 07:48:21 +00:00"
+      }
+    },
+    "labs|united states|en|best accounting software for government contractors": {
+      "fetchedAt": "2026-09-14T06:02:09.146Z",
+      "returned": true,
+      "data": {
+        "keyword": "best accounting software for government contractors",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.17,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -67,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-08-29 11:18:43 +00:00"
+      }
+    },
+    "labs|united states|en|insurance commission reconciliation": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to reconcile commission statements": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|carrier commission errors": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|commission tracking software for insurance agents": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance commission reconciliation software": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|agency commission management": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|commission tracker for insurance agency pricing": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best insurance agency commission software": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance commission software cost": {
+      "fetchedAt": "2026-09-14T06:05:04.172Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|lost kegs brewery": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to track kegs": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|keg deposit tracking": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|keg tracking software": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": true,
+      "data": {
+        "keyword": "keg tracking software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 40
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.43,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 12:26:09 +00:00"
+      }
+    },
+    "labs|united states|en|keg tracking app": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": true,
+      "data": {
+        "keyword": "keg tracking app",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-08-29 14:28:12 +00:00"
+      }
+    },
+    "labs|united states|en|keg tracking qr code": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|keg tracking software pricing": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best keg tracking system": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|keg management software cost": {
+      "fetchedAt": "2026-09-14T06:05:14.493Z",
+      "returned": false,
+      "data": null
+    }
+  }
+}

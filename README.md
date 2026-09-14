@@ -15,7 +15,40 @@ Scout doesn't reason in one pass. Each daily run is a 6-stage senior-analyst pip
 5. **Red-team** — a skeptical investor attacks the survivor; every attack is rebutted or conceded.
 6. **Synthesis** — the final decision memo with a calibrated 0–100 conviction score that must reconcile with the red-team verdict.
 
-Artifacts it maintains: `ideas/` (daily memos), `markets/` (structural market teardowns + `INDEX.md`), `SCORES.md` (ideas ranked by conviction), plus `LEARNINGS.md` / `MARKET_MAP.md` / `KILLED.md`.
+Artifacts it maintains: `ideas/` (daily memos), `markets/` (structural market teardowns + `INDEX.md`), `SCORES.md` (ideas ranked by conviction), `evidence/` (search-demand and competitor evidence for each day's shortlist), plus `LEARNINGS.md` / `MARKET_MAP.md` / `KILLED.md`.
+
+## Evidence enrichment (DataForSEO)
+
+Right after stage 1 shortlists candidates, Scout gathers outside evidence for each of them and writes it to `evidence/<date>.md` (readable) and `evidence/<date>.json` (data + provenance). It never feeds the six stages, so the original memo, score and pick stay exactly as the pipeline produced them. The memo only gains a short "Evidence enrichment" pointer at the end. Enrichment is research, not a build decision: choosing an idea stays manual (⭐ favorites in the bot, results in `outcomes/`).
+
+Per shortlisted idea:
+
+1. **Plan** — problem, target customer and payer, plus a small keyword set in three intent groups (problem / solution / buying) and 1–2 search queries. The target market (country + language) is explicit and checked against DataForSEO Labs' supported markets.
+2. **Gather** — one batched DataForSEO Labs `keyword_overview` task for every keyword (volume, 24 months of history, CPC, Google Ads competition), live Google organic results for the queries, and free fetches of vendor-like ranking sites (homepage + `/pricing`, robots.txt respected). Every observation keeps its URL, retrieval date, market and provider.
+3. **Read** — code, not a model, computes the demand and commercial readings. Volumes are never added together, missing data stays "unknown" (never zero), CPC is reported as an advertiser bid (not willingness to pay), ad competition is not treated as SEO difficulty, and low volume never rejects an idea on its own.
+4. **Assess** — a model writes the enriched memo from that evidence only: what the opportunity is, who pays and why, what supports it, what alternatives exist, what is unproven, the cheapest next experiment, and continue/stop criteria. A level it claims without a valid evidence ID is downgraded to "unknown"; any URL that is not in the evidence is removed. There is no numeric confidence score.
+
+### Cost controls
+
+- **One shared allowance.** DataForSEO spend is counted in the same ledger Career OS uses (Supabase `runtime_events`, type `dataforseo.spend`, Scout rows tagged `produced_by: scout`) against the same `DATAFORSEO_MONTHLY_USD_CAP`. Scout keeps `SCOUT_DFS_RESERVE_USD` (default $1) of that cap untouched for Career OS, and never spends more than `SCOUT_DFS_MAX_RUN_USD` (default $0.10) in one run. A typical run costs about $0.02 per shortlisted idea.
+- **Fails closed.** No cap, no ledger, an unreadable ledger, missing credentials or a low provider balance → no paid requests; research continues and enrichment is marked `pending` or `unavailable`.
+- **Never pays twice.** Keyword data is cached 30 days and search results 14 days in `evidence/cache/` (committed by the workflow, including after a failed run). Enriched ideas are never redone; retries are bounded (`SCOUT_ENRICH_MAX_ATTEMPTS`), and only failures that cannot have been billed are retried.
+- **Dry run by default.** Nothing is bought unless the repo variable `SCOUT_DFS_MODE` is `live`. A dry run still plans the keywords and shows the projected cost.
+
+### Configuration
+
+Repository **secrets**: `DATAFORSEO_LOGIN`, `DATAFORSEO_PASSWORD` (the API password from the DataForSEO dashboard), `LEDGER_SUPABASE_URL`, `LEDGER_SUPABASE_SERVICE_KEY`.
+Repository **variables**: `SCOUT_DFS_MODE` (`dry-run` | `live`), `DATAFORSEO_MONTHLY_USD_CAP` (must equal Career OS's value), `LEDGER_PROJECT_ID` (the Career OS project holding the ledger), and optionally `SCOUT_MARKET_LOCATION` (default `United States`), `SCOUT_MARKET_LANGUAGE` (default `en`), `SCOUT_ENRICH_MAX_IDEAS` (default 3, `0` disables), `SCOUT_DFS_MAX_RUN_USD`, `SCOUT_DFS_RESERVE_USD`.
+Local-only options: `SCOUT_DFS_ADS_FALLBACK=live` prices keywords Labs has no record of with the Google Ads endpoint ($0.09 per task — off by default; in the pilot it returned no figures for niche B2B keywords), and `SCOUT_ENRICH_MODELS` overrides the Gemini models used for planning and assessment.
+
+### Commands
+
+```bash
+node scripts/enrich.mjs --date 2026-09-13 --dry-run            # plan + projected cost, no paid requests
+node scripts/enrich.mjs --date 2026-09-13 --live               # enrich an existing memo (never edits ideas/)
+node scripts/enrich.mjs --date 2026-09-13 --plan keywords.json # use a hand-written keyword plan
+node --test scripts/test/*.test.mjs                            # unit + offline pipeline tests (no network)
+```
 
 ## Bot
 

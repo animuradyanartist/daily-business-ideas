@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "entries": {
+    "page|https://www.jamesoncpa.com/learning-center/4-steps-to-make-quickbooks-an-sbir-compliant-accounting-system": {
+      "fetchedAt": "2026-09-14T06:02:26.959Z",
+      "data": {
+        "url": "https://www.jamesoncpa.com/learning-center/4-steps-to-make-quickbooks-an-sbir-compliant-accounting-system",
+        "finalUrl": "https://www.jamesoncpa.com/learning-center/4-steps-to-make-quickbooks-an-sbir-compliant-accounting-system",
+        "retrievedAt": "2026-09-14T06:02:26.959Z",
+        "status": 200,
+        "error": null,
+        "title": "QuickBooks for SBIR and DCAA Compliant Accounting - Jameson & Company",
+        "description": "On its own, Quickbooks is NOT an SBIR-Compliant Accounting System. However, we have 4 tweaks to make it one!",
+        "priceMentions": [
+          {
+            "text": "$80,000",
+            "context": "tribution of labor costs. As an example, an employee making $80,000 would distribute $40/hour to a project/job as a direct labo"
+          },
+          {
+            "text": "$40",
+            "context": "As an example, an employee making $80,000 would distribute $40/hour to a project/job as a direct labor charge assuming 2,0"
+          },
+          {
+            "text": "$10",
+            "context": "g solution for awardees with an annual revenue of less than $10 million per year: QuickBooks Online (QBO) Jameson & Company"
+          },
+          {
+            "text": "$6",
+            "context": "ness since 1978, have clients from coast-to-coast, and over $6 billion in awards managed. We know the agencies and regulat"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx": {
+      "fetchedAt": "2026-09-14T06:02:26.958Z",
+      "data": {
+        "url": "https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx",
+        "finalUrl": "https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx",
+        "retrievedAt": "2026-09-14T06:02:26.958Z",
+        "status": 200,
+        "error": null,
+        "title": "Preparing your Accounting System for SBIR Awards",
+        "description": "Applying for an SBIR Program? Prepare your accounting system for DCAA compliance and follow-on awards.",
+        "priceMentions": [
+          {
+            "text": "$1.9",
+            "context": "ogram is under the Department of Defense, currently funding $1.9 billion in small business contracts annually. Phase II awar"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.icatsystems.com/pricing": {
+      "fetchedAt": "2026-09-14T06:02:26.959Z",
+      "data": {
+        "url": "https://www.icatsystems.com/pricing",
+        "finalUrl": "https://www.icatsystems.com/Pricing.aspx",
+        "retrievedAt": "2026-09-14T06:02:26.959Z",
+        "status": 200,
+        "error": null,
+        "title": "Compare ICAT Pricing and Features by Edition",
+        "description": "Compare ICAT Subscription Costs and Features by Edition",
+        "priceMentions": [
+          {
+            "text": "$1,200 /year",
+            "context": "tarting out, or working on Fixed Price Contracts & Projects $1,200 /year Unlimited Users New Customers Save 50% off 1 st year* Subsc"
+          },
+          {
+            "text": "$2,400 /year",
+            "context": "and confidently manage T&M, Labor, and Cost‑Type Contracts $2,400 /year Unlimited Users Standard ICAT Support Subscribe All Basic F"
+          },
+          {
+            "text": "$3,600 /year",
+            "context": ", plus greater insights for pricing, management, and growth $3,600 /year Unlimited Users Standard ICAT Support Subscribe All Standar"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://team-80.com/pricing": {
+      "fetchedAt": "2026-09-14T06:02:26.960Z",
+      "data": {
+        "url": "https://team-80.com/pricing",
+        "finalUrl": "https://team-80.com/pricing",
+        "retrievedAt": "2026-09-14T06:02:26.960Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.jamesoncpa.com/pricing": {
+      "fetchedAt": "2026-09-14T06:02:26.960Z",
+      "data": {
+        "url": "https://www.jamesoncpa.com/pricing",
+        "finalUrl": "https://www.jamesoncpa.com/pricing",
+        "retrievedAt": "2026-09-14T06:02:26.960Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://team-80.com/blog/sbir-accounting-basics/": {
+      "fetchedAt": "2026-09-14T06:02:26.960Z",
+      "data": {
+        "url": "https://team-80.com/blog/sbir-accounting-basics/",
+        "finalUrl": "https://team-80.com/blog/sbir-accounting-basics/",
+        "retrievedAt": "2026-09-14T06:02:26.960Z",
+        "status": 200,
+        "error": null,
+        "title": "SBIR Accounting Basics: MUST Have Requirements | Team 80",
+        "description": "Secure your government funding for SBIR programs by having your accounting in order. Learn the SBIR accounting basics to keep your small business out of trouble.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://catalyit.com/pricing": {
+      "fetchedAt": "2026-09-14T06:05:11.564Z",
+      "data": {
+        "url": "https://catalyit.com/pricing",
+        "retrievedAt": "2026-09-14T06:05:11.564Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://catalyit.com/techtips/unlocking-efficiency-how-commission-reconciliation-ai-tools-are-changing-the-game-for-insurance-agents": {
+      "fetchedAt": "2026-09-14T06:05:11.563Z",
+      "data": {
+        "url": "https://catalyit.com/techtips/unlocking-efficiency-how-commission-reconciliation-ai-tools-are-changing-the-game-for-insurance-agents",
+        "retrievedAt": "2026-09-14T06:05:11.563Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://enrollhere.com/blogs/insurance-commission-reconciliation-guide": {
+      "fetchedAt": "2026-09-14T06:05:11.556Z",
+      "data": {
+        "url": "https://enrollhere.com/blogs/insurance-commission-reconciliation-guide",
+        "finalUrl": "https://enrollhere.com/blogs/insurance-commission-reconciliation-guide",
+        "retrievedAt": "2026-09-14T06:05:11.556Z",
+        "status": 200,
+        "error": null,
+        "title": "Insurance Commission Reconciliation: A Practical Guide",
+        "description": "Schedule a free consultation today to master the insurance commission reconciliation process, eliminate leakage, and scale your B2B insurance agency.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://enrollhere.com/pricing": {
+      "fetchedAt": "2026-09-14T06:05:11.559Z",
+      "data": {
+        "url": "https://enrollhere.com/pricing",
+        "finalUrl": "https://enrollhere.com/pricing",
+        "retrievedAt": "2026-09-14T06:05:11.559Z",
+        "status": 200,
+        "error": null,
+        "title": "EnrollHere Pricing: Compare Plans and Find Your Fit",
+        "description": "Compare EnrollHere pricing for complete and individual suites, explore scaling tiers, and find the right fit for your agency’s growth and complexity today.",
+        "priceMentions": [
+          {
+            "text": "$7,500 /month",
+            "billingUnit": true,
+            "context": "ents. Startup 25 Best for early-stage structured agencies ‍ $7,500 /month Deploy Complete Connect Suite Policy & Financial Suite Comp"
+          },
+          {
+            "text": "$5,000",
+            "billingUnit": false,
+            "context": "Compliance Suite Or purchase suites individually Connect : $5,000 Policy & Financial : $6,000 Compliance : $4,500 Know More →"
+          },
+          {
+            "text": "$6,000",
+            "billingUnit": false,
+            "context": "e suites individually Connect : $5,000 Policy & Financial : $6,000 Compliance : $4,500 Know More → 48% Savings with Complete S"
+          },
+          {
+            "text": "$4,500",
+            "billingUnit": false,
+            "context": "y Connect : $5,000 Policy & Financial : $6,000 Compliance : $4,500 Know More → 48% Savings with Complete Startup 50 Built for"
+          },
+          {
+            "text": "$10,000 /month",
+            "billingUnit": true,
+            "context": "owing teams increasing production and hierarchy complexity. $10,000 /month Deploy Complete Connect Suite Policy & Financial Suite Comp"
+          },
+          {
+            "text": "$7,500",
+            "billingUnit": false,
+            "context": "Compliance Suite Or purchase suites individually Connect : $7,500 Policy & Financial : $9,000 Compliance : $6,500 Know More →"
+          },
+          {
+            "text": "$9,000",
+            "billingUnit": false,
+            "context": "e suites individually Connect : $7,500 Policy & Financial : $9,000 Compliance : $6,500 Know More → 43% Savings with Complete S"
+          },
+          {
+            "text": "$6,500",
+            "billingUnit": false,
+            "context": "y Connect : $7,500 Policy & Financial : $9,000 Compliance : $6,500 Know More → 43% Savings with Complete Startup 75 For scalin"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www1.appliedsystems.com/en-us/blog/posts/how-to-fix-reconciliation-applied-recon/": {
+      "fetchedAt": "2026-09-14T06:05:11.561Z",
+      "data": {
+        "url": "https://www1.appliedsystems.com/en-us/blog/posts/how-to-fix-reconciliation-applied-recon/",
+        "retrievedAt": "2026-09-14T06:05:11.561Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://www1.appliedsystems.com/pricing": {
+      "fetchedAt": "2026-09-14T06:05:11.562Z",
+      "data": {
+        "url": "https://www1.appliedsystems.com/pricing",
+        "retrievedAt": "2026-09-14T06:05:11.562Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://kegshoe.ca/pricing": {
+      "fetchedAt": "2026-09-14T06:05:23.732Z",
+      "data": {
+        "url": "https://kegshoe.ca/pricing",
+        "finalUrl": "https://kegshoe.ca/pricing",
+        "retrievedAt": "2026-09-14T06:05:23.732Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://kegshoe.ca/": {
+      "fetchedAt": "2026-09-14T06:05:23.731Z",
+      "data": {
+        "url": "https://kegshoe.ca/",
+        "finalUrl": "https://kegshoe.ca/",
+        "retrievedAt": "2026-09-14T06:05:23.731Z",
+        "status": 200,
+        "error": null,
+        "title": "Kegshoe | Keg Management Software and Sales CRM for Breweries",
+        "description": "Keg management, sales monitoring, and brewery sales CRM platform. Powerful, affordable, and easy-to-use.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://lostcoast.com/pricing": {
+      "fetchedAt": "2026-09-14T06:05:23.732Z",
+      "data": {
+        "url": "https://lostcoast.com/pricing",
+        "finalUrl": "https://www.lostcoast.com/pricing",
+        "retrievedAt": "2026-09-14T06:05:23.732Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://lostcoast.com/": {
+      "fetchedAt": "2026-09-14T06:05:23.732Z",
+      "data": {
+        "url": "https://lostcoast.com/",
+        "finalUrl": "https://www.lostcoast.com/",
+        "retrievedAt": "2026-09-14T06:05:23.732Z",
+        "status": 200,
+        "error": null,
+        "title": "Lost Coast Brewery |",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.slg.com/kegid/": {
+      "fetchedAt": "2026-09-14T06:05:23.728Z",
+      "data": {
+        "url": "https://www.slg.com/kegid/",
+        "finalUrl": "https://www.slg.com/kegid/",
+        "retrievedAt": "2026-09-14T06:05:23.728Z",
+        "status": 200,
+        "error": null,
+        "title": "KegID Keg Tracking Services | BevPros",
+        "description": "BevPros kegID keg tracking and management system reduces lost kegs and optimizes keg return cycles to maximize profitability.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "D cost to implement? Your cost to start can be as little as $0, depending on your scanning needs. Implementation costs are"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.slg.com/pricing": {
+      "fetchedAt": "2026-09-14T06:05:23.730Z",
+      "data": {
+        "url": "https://www.slg.com/pricing",
+        "finalUrl": "https://www.slg.com/pricing",
+        "retrievedAt": "2026-09-14T06:05:23.730Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    }
+  }
+}

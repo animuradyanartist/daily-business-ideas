@@ -1,0 +1,1664 @@
+{
+  "schema": 1,
+  "date": "2026-09-13",
+  "source": {
+    "kind": "memo",
+    "memo": "ideas/2026-09-13.md",
+    "planner": "manual"
+  },
+  "createdAt": "2026-09-14T06:01:46.228Z",
+  "updatedAt": "2026-09-14T06:14:06.324Z",
+  "attempts": 2,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-13.md",
+    "title": "The Small R&D Firm's \"Audit-Ready\" SBIR/STTR Grant Compliance Ledger",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-13:sbir-grant-compliance-ledger",
+      "slug": "sbir-grant-compliance-ledger",
+      "title": "The Small R&D Firm's \"Audit-Ready\" SBIR/STTR Grant Compliance Ledger",
+      "plan": {
+        "slug": "sbir-grant-compliance-ledger",
+        "title": "The Small R&D Firm's \"Audit-Ready\" SBIR/STTR Grant Compliance Ledger",
+        "problem": "Small SBIR/STTR award winners must meet federal cost-accounting and timekeeping rules they do not know, risking audit findings and clawbacks.",
+        "targetCustomer": "Founders and operations managers of US small businesses with a new SBIR/STTR award",
+        "payer": "The awardee company (founder / CFO)",
+        "whyPayerPays": "Avoid failed accounting-system reviews, delayed reimbursement and clawed-back grant funds.",
+        "keywords": {
+          "problem": [
+            "sbir accounting requirements",
+            "dcaa compliant accounting system",
+            "sbir indirect rate"
+          ],
+          "solution": [
+            "sbir accounting software",
+            "dcaa compliant timekeeping software",
+            "government contract accounting software"
+          ],
+          "buying": [
+            "dcaa compliant accounting software pricing",
+            "sbir accounting services",
+            "best accounting software for government contractors"
+          ]
+        },
+        "serpQueries": [
+          "sbir accounting software",
+          "sbir accounting requirements"
+        ]
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "sbir accounting requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-13 15:22:40 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K2",
+          "keyword": "dcaa compliant accounting system",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": 38.13,
+          "adCompetition": 0.4,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -18,
+          "providerUpdatedAt": "2026-09-13 22:07:21 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 0,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K3",
+          "keyword": "sbir indirect rate",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-08-22 12:44:54 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (7 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K4",
+          "keyword": "sbir accounting software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-08-29 01:07:50 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K5",
+          "keyword": "dcaa compliant timekeeping software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 170,
+          "cpcUsd": 154.51,
+          "adCompetition": 0.15,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-13 06:27:35 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -19,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K6",
+          "keyword": "government contract accounting software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 70,
+          "cpcUsd": 105.11,
+          "adCompetition": 0.34,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -80,
+          "providerUpdatedAt": "2026-08-29 01:25:42 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 260
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -54,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K7",
+          "keyword": "dcaa compliant accounting software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K8",
+          "keyword": "sbir accounting services",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 5.64,
+          "adCompetition": 0.55,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-12 07:48:21 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        },
+        {
+          "id": "K9",
+          "keyword": "best accounting software for government contractors",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.17,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -67,
+          "providerUpdatedAt": "2026-08-29 11:18:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (20 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.146Z"
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "sbir accounting software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:09.941Z",
+          "checkUrl": "https://www.google.com/search?q=sbir%20accounting%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.sbir.gov",
+              "url": "https://www.sbir.gov/tutorials/accounting-finance/tutorial-2",
+              "title": "What are the requirements of an approved accounting ...",
+              "description": "With Phase I SBIR or STTR awards, the Federal government usually expects the small business to have a basic system, as the Phase I awards are relatively small. Read more",
+              "id": "S1.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.gov-con.com",
+              "url": "https://www.gov-con.com/sbir-accounting-services/",
+              "title": "SBIR Accounting Services",
+              "description": "Jan 15, 2024 — As a QuickBooks Solutions Provider, we offer unbeatable accounting software packages specifically designed for government contract bookkeeping ...",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.cbh.com",
+              "url": "https://www.cbh.com/industries/government-contracting-consulting-services/agencies/sbir-sttr-accounting-firm--consulting-services/",
+              "title": "SBIR/STTR Accounting Firm & Consulting Services",
+              "description": "Our SBIR/STTR consultants help awardees maintain compliant accounting systems, cost tracking and documentation to support growth and cost recovery.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.sbir.gov",
+              "url": "https://www.sbir.gov/tutorials/accounting-finance",
+              "title": "Accounting and Finance",
+              "description": "Accounting System Requirements – the objectives of this course are to educate the firm on the requirements that must be met in order to have an accounting ... Read more",
+              "id": "S1.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.jamesoncpa.com",
+              "url": "https://www.jamesoncpa.com/learning-center/4-steps-to-make-quickbooks-an-sbir-compliant-accounting-system",
+              "title": "QuickBooks for SBIR and DCAA Compliant Accounting",
+              "description": "Quickbooks is NOT an SBIR-Compliant Accounting System. The short answer is – no, not out of the box. QuickBooks Online become Federal Acquisition Regulation ( ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.icatsystems.com",
+              "url": "https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx",
+              "title": "Preparing your Accounting System for SBIR Awards",
+              "description": "Applying for an SBIR Program? Prepare your accounting system for DCAA compliance and follow-on awards.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "team-80.com",
+              "url": "https://team-80.com/blog/sbir-accounting-basics/",
+              "title": "SBIR Accounting Basics: MUST Have Requirements",
+              "description": "Small Business Innovation Research (SBIR) funding requires a solid compliant accounting system, no matter which federal agency awards grants or contracts.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "ctinnovations.com",
+              "url": "https://ctinnovations.com/item/how-to-establish-an-sbir-accounting-system-that-can-withstand-a-government-audit/",
+              "title": "How to Establish an SBIR Accounting System that Can ...",
+              "description": "Ed Jameson of Jameson & Co. CPAs explains why it's extremely important to have a proper accounting system in place when dealing with SBIR/STTR awards.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/posts/peter-witts-cpa-pc_how-to-choose-accounting-software-for-sbir-activity-7496206079941492736-XnOv",
+              "title": "SBIR/STTR Accounting Software Requirements for Federal ...",
+              "description": "Choosing accounting software for an SBIR/STTR company isn't just about finding a platform that can send invoices and produce financial ...",
+              "id": "S1.11",
+              "class": "discussion"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "sbir accounting requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:02:22.931Z",
+          "checkUrl": "https://www.google.com/search?q=sbir%20accounting%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.sbir.gov",
+              "url": "https://www.sbir.gov/tutorials/accounting-finance/tutorial-2",
+              "title": "What are the requirements of an approved accounting ...",
+              "description": "With Phase I SBIR or STTR awards, the Federal government usually expects the small business to have a basic system, as the Phase I awards are relatively small. Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "seedfund.nsf.gov",
+              "url": "https://seedfund.nsf.gov/resources/awardees/phase-1/accounting/",
+              "title": "Accounting | NSF SBIR - America's Seed Fund",
+              "description": "The terms and conditions of your Phase I award require that you use best accounting practices to track how you spend your Phase I award funds.",
+              "id": "S2.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.icatsystems.com",
+              "url": "https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx",
+              "title": "Preparing your Accounting System for SBIR Awards",
+              "description": "To qualify for SBIR Phase II and other cost-reimbursement type contracts, you will need to pass a pre-award accounting system audit.",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.sbir.gov",
+              "url": "https://www.sbir.gov/tutorials/accounting-finance",
+              "title": "Accounting and Finance",
+              "description": "Accounting System Requirements – the objectives of this course are to educate the firm on the requirements that must be met in order to have an accounting ... Read more",
+              "id": "S2.5",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.sciencedocs.com",
+              "url": "https://www.sciencedocs.com/dod-sbir-accounting/",
+              "title": "DoD SBIR Accounting System Requirements",
+              "description": "DoD have an adequate accounting system per General Accepted Accounting Principles (GAAP), Generally Accepted Government Auditing Standards (GAGAS), Federal ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.hourtimesheet.com",
+              "url": "https://www.hourtimesheet.com/2025/11/14/sbir-sttr-phase-ii-accounting-requirements/",
+              "title": "SBIR/STTR Phase II Accounting Requirements",
+              "description": "Nov 14, 2025 — Five Essential Compliance Steps for Phase II Accounting · Step 1: Implement Activity-Based Cost Classification Systems · Step 2: Establish ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "team-80.com",
+              "url": "https://team-80.com/blog/sbir-accounting-basics/",
+              "title": "SBIR Accounting Basics: MUST Have Requirements",
+              "description": "What is Federal Acquisition Regulation (FAR) Part 31 in SBIR Accounting? · Costs must be reasonable. · Funds must be appropriately allocated. · Costs must be ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.reliascent.com",
+              "url": "https://www.reliascent.com/sbir-accounting-services",
+              "title": "SBIR Accounting Services",
+              "description": "SBIR/STTR accounting requirements vary dramatically between Phase I & II and the awarding agency. ReliAscent ensures compliant accounting for all awardees.",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.jamesoncpa.com",
+              "url": "https://www.jamesoncpa.com/learning-center/sbir-102-3-what-your-cpa-should-be-doing-for-sbir-accounting",
+              "title": "SBIR Accounting - What Your CPA Should Be Doing",
+              "description": "At a minimum, this person will need at least a bachelor's degree in accountancy from an accredited school. Cost accounting experience or coursework is extremely ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "icatsystems.com",
+          "url": "https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx",
+          "finalUrl": "https://www.icatsystems.com/Articles/SBIR_STTR_Award_Accounting_System.aspx",
+          "retrievedAt": "2026-09-14T06:02:26.958Z",
+          "status": 200,
+          "error": null,
+          "title": "Preparing your Accounting System for SBIR Awards",
+          "description": "Applying for an SBIR Program? Prepare your accounting system for DCAA compliance and follow-on awards.",
+          "priceMentions": [
+            {
+              "text": "$1.9",
+              "context": "ogram is under the Department of Defense, currently funding $1.9 billion in small business contracts annually. Phase II awar"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "icatsystems.com",
+          "url": "https://www.icatsystems.com/pricing",
+          "finalUrl": "https://www.icatsystems.com/Pricing.aspx",
+          "retrievedAt": "2026-09-14T06:02:26.959Z",
+          "status": 200,
+          "error": null,
+          "title": "Compare ICAT Pricing and Features by Edition",
+          "description": "Compare ICAT Subscription Costs and Features by Edition",
+          "priceMentions": [
+            {
+              "text": "$1,200 /year",
+              "context": "tarting out, or working on Fixed Price Contracts & Projects $1,200 /year Unlimited Users New Customers Save 50% off 1 st year* Subsc"
+            },
+            {
+              "text": "$2,400 /year",
+              "context": "and confidently manage T&M, Labor, and Cost‑Type Contracts $2,400 /year Unlimited Users Standard ICAT Support Subscribe All Basic F"
+            },
+            {
+              "text": "$3,600 /year",
+              "context": ", plus greater insights for pricing, management, and growth $3,600 /year Unlimited Users Standard ICAT Support Subscribe All Standar"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "jamesoncpa.com",
+          "url": "https://www.jamesoncpa.com/learning-center/4-steps-to-make-quickbooks-an-sbir-compliant-accounting-system",
+          "finalUrl": "https://www.jamesoncpa.com/learning-center/4-steps-to-make-quickbooks-an-sbir-compliant-accounting-system",
+          "retrievedAt": "2026-09-14T06:02:26.959Z",
+          "status": 200,
+          "error": null,
+          "title": "QuickBooks for SBIR and DCAA Compliant Accounting - Jameson & Company",
+          "description": "On its own, Quickbooks is NOT an SBIR-Compliant Accounting System. However, we have 4 tweaks to make it one!",
+          "priceMentions": [
+            {
+              "text": "$80,000",
+              "context": "tribution of labor costs. As an example, an employee making $80,000 would distribute $40/hour to a project/job as a direct labo"
+            },
+            {
+              "text": "$40",
+              "context": "As an example, an employee making $80,000 would distribute $40/hour to a project/job as a direct labor charge assuming 2,0"
+            },
+            {
+              "text": "$10",
+              "context": "g solution for awardees with an annual revenue of less than $10 million per year: QuickBooks Online (QBO) Jameson & Company"
+            },
+            {
+              "text": "$6",
+              "context": "ness since 1978, have clients from coast-to-coast, and over $6 billion in awards managed. We know the agencies and regulat"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "jamesoncpa.com",
+          "url": "https://www.jamesoncpa.com/pricing",
+          "finalUrl": "https://www.jamesoncpa.com/pricing",
+          "retrievedAt": "2026-09-14T06:02:26.960Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "team-80.com",
+          "url": "https://team-80.com/blog/sbir-accounting-basics/",
+          "finalUrl": "https://team-80.com/blog/sbir-accounting-basics/",
+          "retrievedAt": "2026-09-14T06:02:26.960Z",
+          "status": 200,
+          "error": null,
+          "title": "SBIR Accounting Basics: MUST Have Requirements | Team 80",
+          "description": "Secure your government funding for SBIR programs by having your accounting in order. Learn the SBIR accounting basics to keep your small business out of trouble.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "team-80.com",
+          "url": "https://team-80.com/pricing",
+          "finalUrl": "https://team-80.com/pricing",
+          "retrievedAt": "2026-09-14T06:02:26.960Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "matchesOriginalPick": true,
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "some",
+          "measuredCount": 7,
+          "totalCount": 9,
+          "top": {
+            "keyword": "dcaa compliant timekeeping software",
+            "searchVolume": 170,
+            "id": "K5"
+          },
+          "byGroup": {
+            "problem": {
+              "keyword": "dcaa compliant accounting system",
+              "searchVolume": 90,
+              "id": "K2"
+            },
+            "solution": {
+              "keyword": "dcaa compliant timekeeping software",
+              "searchVolume": 170,
+              "id": "K5"
+            },
+            "buying": {
+              "keyword": "sbir accounting services",
+              "searchVolume": 10,
+              "id": "K8"
+            }
+          },
+          "trends": {
+            "flat": 2,
+            "unknown": 4,
+            "declining": 1
+          },
+          "note": "Largest single keyword: \"dcaa compliant timekeeping software\" at 170/month. 2 keyword(s) returned no data (unknown, not zero). Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5",
+            "K6",
+            "K8"
+          ],
+          "pricedPageIds": [
+            "P2"
+          ],
+          "pricedDomains": [
+            "icatsystems.com"
+          ],
+          "note": "Advertisers bid on 3 commercial keyword(s) (highest CPC $154.51 on \"dcaa compliant timekeeping software\"). CPC is an advertiser bid, not a customer's willingness to pay. 2 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking domain(s): icatsystems.com. Prices show what sellers ask, not verified sales."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "icatsystems.com",
+            "jamesoncpa.com",
+            "team-80.com",
+            "gov-con.com",
+            "cbh.com",
+            "sciencedocs.com",
+            "hourtimesheet.com",
+            "ctinnovations.com",
+            "reliascent.com"
+          ],
+          "discussionResults": [
+            "linkedin.com"
+          ],
+          "pricedDomains": [
+            "icatsystems.com"
+          ],
+          "note": "9 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on icatsystems.com."
+        }
+      },
+      "evidenceFingerprint": "cde16725120385b1",
+      "evidenceUpdatedAt": "2026-09-14T06:02:29.675Z"
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-14T06:02:09.146Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "costUsd": 0.013,
+      "estimated": false,
+      "requested": 9,
+      "ledgerId": "103db61e-ce09-5fef-9694-ad59500e2b3e",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:02:09.941Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "costUsd": 0.002,
+      "estimated": false,
+      "requested": 1,
+      "ledgerId": "4aa4c1d8-efb3-53cf-9fef-61462acb7f34",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:02:22.931Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "costUsd": 0.002,
+      "estimated": false,
+      "requested": 1,
+      "ledgerId": "18de1dc0-7812-5151-873f-133e89366dc0",
+      "ledger": "recorded"
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "capUsd": 2,
+    "reserveUsd": 1,
+    "maxRunUsd": 0.1,
+    "monthToDateUsdBefore": 0,
+    "spentThisRunUsd": 0.017,
+    "remainingForScoutUsd": 0.083
+  },
+  "projection": {
+    "labsKeywords": 9,
+    "labsUsd": 0.0131,
+    "serpQueries": 2,
+    "serpUsd": 0.004,
+    "totalUsd": 0.0171
+  },
+  "assessmentError": "assessment not written: GEMINI_API_KEY is not set",
+  "lastGather": {
+    "at": "2026-09-14T06:14:06.324Z",
+    "mode": "live",
+    "pendingIdeas": 0,
+    "spentUsd": 0,
+    "note": "nothing pending — no requests made"
+  }
+}

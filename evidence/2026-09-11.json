@@ -1,0 +1,670 @@
+{
+  "schema": 1,
+  "date": "2026-09-11",
+  "source": {
+    "kind": "memo",
+    "memo": "ideas/2026-09-11.md",
+    "planner": "manual"
+  },
+  "createdAt": "2026-09-14T06:05:00.766Z",
+  "updatedAt": "2026-09-14T06:14:06.439Z",
+  "attempts": 2,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-11.md",
+    "title": "The Independent Insurance Agent's \"Leakproof\" Commission Reconciler",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-11:insurance-commission-reconciler",
+      "slug": "insurance-commission-reconciler",
+      "title": "The Independent Insurance Agent's \"Leakproof\" Commission Reconciler",
+      "plan": {
+        "slug": "insurance-commission-reconciler",
+        "title": "The Independent Insurance Agent's \"Leakproof\" Commission Reconciler",
+        "problem": "Independent P&C agencies lose revenue to carrier commission statement errors that are slow to reconcile by hand.",
+        "targetCustomer": "Owners and office managers of small US independent insurance agencies",
+        "payer": "The agency owner",
+        "whyPayerPays": "Recover missed commissions and cut reconciliation hours.",
+        "keywords": {
+          "problem": [
+            "insurance commission reconciliation",
+            "how to reconcile commission statements",
+            "carrier commission errors"
+          ],
+          "solution": [
+            "commission tracking software for insurance agents",
+            "insurance commission reconciliation software",
+            "agency commission management"
+          ],
+          "buying": [
+            "commission tracker for insurance agency pricing",
+            "best insurance agency commission software",
+            "insurance commission software cost"
+          ]
+        },
+        "serpQueries": [
+          "insurance commission reconciliation software",
+          "insurance commission reconciliation"
+        ]
+      },
+      "status": "enriched",
+      "attempts": 2,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "insurance commission reconciliation",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K2",
+          "keyword": "how to reconcile commission statements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K3",
+          "keyword": "carrier commission errors",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K4",
+          "keyword": "commission tracking software for insurance agents",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K5",
+          "keyword": "insurance commission reconciliation software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K6",
+          "keyword": "agency commission management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 0,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": null,
+          "providerTrendYearlyPct": null,
+          "providerUpdatedAt": null,
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Google Ads · search_volume",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:09:36.861Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K7",
+          "keyword": "commission tracker for insurance agency pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K8",
+          "keyword": "best insurance agency commission software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        },
+        {
+          "id": "K9",
+          "keyword": "insurance commission software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:04.172Z",
+          "adsChecked": true
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "insurance commission reconciliation software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:05.185Z",
+          "checkUrl": "https://www.google.com/search?q=insurance%20commission%20reconciliation%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "corecommissions.com",
+              "url": "https://corecommissions.com/insurance-commission-tracking-software-2/",
+              "title": "Insurance Commission Tracking Software",
+              "description": "Core's easy-to-use, all-inclusive, AI-powered commission automation platform helps manage any book of business. Schedule a Demo. Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.vertafore.com",
+              "url": "https://www.vertafore.com/products/insurance-commission-tracking-software/sircon-compensation",
+              "title": "Sircon Compensation Insurance Commission Tracking ...",
+              "description": "Insurance commission tracking software centralizes and automates the management of agent compensation across all distribution channels.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "ritterim.com",
+              "url": "https://ritterim.com/blog/the-best-insurance-commission-tracking-software-for-agents-and-agencies/",
+              "title": "The Best Insurance Commission Tracking Software for ...",
+              "description": "The Best Insurance Commission Tracking Software for Agents & Agencies · 1. The Ritter Platform · 2. Your Carriers' Agent Portals · 3. A Good Old Microsoft Excel ... Read more",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.fintary.com",
+              "url": "https://www.fintary.com/",
+              "title": "Fintary: Insurance Commission Software for 10% Monthly ...",
+              "description": "Automate commissions, pay agents weekly, and triple your agency's revenue growth. Join 50+ agencies scaling 10% monthly with Fintary.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "enrollhere.com",
+              "url": "https://enrollhere.com/blogs/insurance-commission-reconciliation-guide",
+              "title": "Insurance Commission Reconciliation: A Practical Guide",
+              "description": "Jul 2, 2026 — Yes, automated commission reconciliation software instantly ingests carrier files and matches them against sales records, reducing manual ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "catalyit.com",
+              "url": "https://catalyit.com/techtips/unlocking-efficiency-how-commission-reconciliation-ai-tools-are-changing-the-game-for-insurance-agents",
+              "title": "Unlocking Efficiency: How Commission Reconciliation AI ...",
+              "description": "AI-powered commission reconciliation tools streamline processes, reduce errors, and provide real-time insights, enhancing efficiency for insurance agents.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.getapp.com",
+              "url": "https://www.getapp.com/industries-software/insurance/f/commission-calculations/",
+              "title": "Top Rated Insurance Software with Commission calculations",
+              "description": "Commission Tracker is a sales commission software used by insurance companies to manage and track sales commission paid to agents",
+              "id": "S1.9",
+              "class": "review_directory"
+            },
+            {
+              "rank": 10,
+              "domain": "www.agencybloc.com",
+              "url": "https://www.agencybloc.com/commissions-software/",
+              "title": "Optimize Your Commissions Management Process",
+              "description": "Commission reconciliation software can reduce manual data entry by helping your team import carrier commission statements instead of entering payment details ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www1.appliedsystems.com",
+              "url": "https://www1.appliedsystems.com/en-us/blog/posts/how-to-fix-reconciliation-applied-recon/",
+              "title": "Why Commission Reconciliation Is Breaking Insurance ...",
+              "description": "Apr 13, 2026 — Applied Recon™ transforms how insurance agencies approach commission reconciliation by shifting from manual effort to intelligent automation ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "insurance commission reconciliation",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-14T06:05:08.122Z",
+          "checkUrl": "https://www.google.com/search?q=insurance%20commission%20reconciliation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "enrollhere.com",
+              "url": "https://enrollhere.com/blogs/insurance-commission-reconciliation-guide",
+              "title": "Insurance Commission Reconciliation: A Practical Guide",
+              "description": "Jul 2, 2026 — Insurance commission reconciliation is the vital task of checking that the payments you get from carriers match what your records say you should ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www1.appliedsystems.com",
+              "url": "https://www1.appliedsystems.com/en-us/blog/posts/how-to-fix-reconciliation-applied-recon/",
+              "title": "Why Commission Reconciliation Is Breaking Insurance ...",
+              "description": "Apr 13, 2026 — Commission reconciliation breaks when every carrier sends statements in a different format, forcing manual matching in spreadsheets. Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/InsuranceAgent/comments/1te25ya/how_do_you_handle_commission_reconciliation_when/",
+              "title": "How do you handle commission reconciliation when ...",
+              "description": "Commissions hit the bank but the carrier statement comes days or weeks later. Some are reconciling manually on spreadsheets, others have partial ... Read more",
+              "id": "S2.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "catalyit.com",
+              "url": "https://catalyit.com/techtips/unlocking-efficiency-how-commission-reconciliation-ai-tools-are-changing-the-game-for-insurance-agents",
+              "title": "Unlocking Efficiency: How Commission Reconciliation AI ...",
+              "description": "AI-powered commission reconciliation tools streamline processes, reduce errors, and provide real-time insights, enhancing efficiency for insurance agents.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.onarchipelago.com",
+              "url": "https://www.onarchipelago.com/blog/insurance-reconciliation",
+              "title": "Insurance Reconciliation: Why Your Numbers Never Quite ...",
+              "description": "Jul 27, 2026 — Insurance reconciliation involves matching broker records against carrier statements, client documents, and policy data to identify premium ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.selectsys.com",
+              "url": "https://www.selectsys.com/blog/direct-bill-commission-reconciliation-pc-insurance",
+              "title": "Direct Bill Commission Reconciliation in P&C Insurance",
+              "description": "Jan 11, 2026 — What is direct bill commission reconciliation? It is the process of matching earned commission based on policy activity to commission payments ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "killingcommercial.com",
+              "url": "https://killingcommercial.com/blog/mastering-commission-reconciliation-and-financial-transparency-how-insurance-agencies-can-optimize-their-bookkeeping-a-conversation-with-crystal-temple-frawley/",
+              "title": "How Insurance Agencies Can Optimize Their Bookkeeping ...",
+              "description": "Feb 27, 2025 — Mastering commission reconciliation and financial transparency is essential for any insurance agency that wants to grow and remain competitive. Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.agencybloc.com",
+              "url": "https://www.agencybloc.com/commissions-software/identify-missed-commissions/",
+              "title": "Identify Missing Commissions Automatically | Commissions+",
+              "description": "Agencies can reconcile inaccurate or unpaid commission payments by using commission tracking software to identify the policies where payments were incorrect, ...",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rr5e1Bn141M",
+              "title": "Automated Reconciliation of Insurance Carrier Commission ...",
+              "description": "Automated Reconciliation of Insurance Carrier Commission Statements vs. Agency Management System · Comments.",
+              "id": "S2.11",
+              "class": "reference_media"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "enrollhere.com",
+          "url": "https://enrollhere.com/blogs/insurance-commission-reconciliation-guide",
+          "finalUrl": "https://enrollhere.com/blogs/insurance-commission-reconciliation-guide",
+          "retrievedAt": "2026-09-14T06:05:11.556Z",
+          "status": 200,
+          "error": null,
+          "title": "Insurance Commission Reconciliation: A Practical Guide",
+          "description": "Schedule a free consultation today to master the insurance commission reconciliation process, eliminate leakage, and scale your B2B insurance agency.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "enrollhere.com",
+          "url": "https://enrollhere.com/pricing",
+          "finalUrl": "https://enrollhere.com/pricing",
+          "retrievedAt": "2026-09-14T06:05:11.559Z",
+          "status": 200,
+          "error": null,
+          "title": "EnrollHere Pricing: Compare Plans and Find Your Fit",
+          "description": "Compare EnrollHere pricing for complete and individual suites, explore scaling tiers, and find the right fit for your agency’s growth and complexity today.",
+          "priceMentions": [
+            {
+              "text": "$7,500 /month",
+              "billingUnit": true,
+              "context": "ents. Startup 25 Best for early-stage structured agencies ‍ $7,500 /month Deploy Complete Connect Suite Policy & Financial Suite Comp"
+            },
+            {
+              "text": "$5,000",
+              "billingUnit": false,
+              "context": "Compliance Suite Or purchase suites individually Connect : $5,000 Policy & Financial : $6,000 Compliance : $4,500 Know More →"
+            },
+            {
+              "text": "$6,000",
+              "billingUnit": false,
+              "context": "e suites individually Connect : $5,000 Policy & Financial : $6,000 Compliance : $4,500 Know More → 48% Savings with Complete S"
+            },
+            {
+              "text": "$4,500",
+              "billingUnit": false,
+              "context": "y Connect : $5,000 Policy & Financial : $6,000 Compliance : $4,500 Know More → 48% Savings with Complete Startup 50 Built for"
+            },
+            {
+              "text": "$10,000 /month",
+              "billingUnit": true,
+              "context": "owing teams increasing production and hierarchy complexity. $10,000 /month Deploy Complete Connect Suite Policy & Financial Suite Comp"
+            },
+            {
+              "text": "$7,500",
+              "billingUnit": false,
+              "context": "Compliance Suite Or purchase suites individually Connect : $7,500 Policy & Financial : $9,000 Compliance : $6,500 Know More →"
+            },
+            {
+              "text": "$9,000",
+              "billingUnit": false,
+              "context": "e suites individually Connect : $7,500 Policy & Financial : $9,000 Compliance : $6,500 Know More → 43% Savings with Complete S"
+            },
+            {
+              "text": "$6,500",
+              "billingUnit": false,
+              "context": "y Connect : $7,500 Policy & Financial : $9,000 Compliance : $6,500 Know More → 43% Savings with Complete Startup 75 For scalin"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "www1.appliedsystems.com",
+          "url": "https://www1.appliedsystems.com/en-us/blog/posts/how-to-fix-reconciliation-applied-recon/",
+          "retrievedAt": "2026-09-14T06:05:11.561Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P4",
+          "domain": "www1.appliedsystems.com",
+          "url": "https://www1.appliedsystems.com/pricing",
+          "retrievedAt": "2026-09-14T06:05:11.562Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P5",
+          "domain": "catalyit.com",
+          "url": "https://catalyit.com/techtips/unlocking-efficiency-how-commission-reconciliation-ai-tools-are-changing-the-game-for-insurance-agents",
+          "retrievedAt": "2026-09-14T06:05:11.563Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P6",
+          "domain": "catalyit.com",
+          "url": "https://catalyit.com/pricing",
+          "retrievedAt": "2026-09-14T06:05:11.564Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        }
+      ],
+      "matchesOriginalPick": true,
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "measuredCount": 1,
+          "totalCount": 9,
+          "top": {
+            "keyword": "agency commission management",
+            "searchVolume": 0,
+            "id": "K6"
+          },
+          "byGroup": {
+            "solution": {
+              "keyword": "agency commission management",
+              "searchVolume": 0,
+              "id": "K6"
+            }
+          },
+          "trends": {
+            "unknown": 1
+          },
+          "note": "Largest single keyword: \"agency commission management\" at 0/month. 8 keyword(s) returned no data (unknown, not zero). Low measured volume is not evidence of low demand for B2B, regulated or emerging problems, where buyers often do not search. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [
+            "P2"
+          ],
+          "pricedDomains": [
+            "enrollhere.com"
+          ],
+          "note": "No advertiser CPC was returned for the commercial keywords. Published offer prices seen on 1 ranking domain(s): enrollhere.com. Prices show what sellers ask, not verified sales."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "enrollhere.com",
+            "www1.appliedsystems.com",
+            "catalyit.com",
+            "agencybloc.com",
+            "corecommissions.com",
+            "vertafore.com",
+            "ritterim.com",
+            "fintary.com",
+            "onarchipelago.com",
+            "selectsys.com",
+            "killingcommercial.com"
+          ],
+          "discussionResults": [
+            "reddit.com",
+            "getapp.com"
+          ],
+          "pricedDomains": [
+            "enrollhere.com"
+          ],
+          "note": "11 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on enrollhere.com."
+        }
+      },
+      "evidenceFingerprint": "78ed98e500a1009b",
+      "evidenceUpdatedAt": "2026-09-14T06:09:41.667Z"
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-14T06:05:04.172Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "costUsd": 0.012,
+      "estimated": false,
+      "requested": 9,
+      "ledgerId": "4ccc1c1e-f4ea-5adb-869e-40d9f5a2bc71",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:05:05.185Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "costUsd": 0.002,
+      "estimated": false,
+      "requested": 1,
+      "ledgerId": "380dc5c6-eb6d-5376-9ef2-023cf2239f91",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:05:08.122Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "costUsd": 0.002,
+      "estimated": false,
+      "requested": 1,
+      "ledgerId": "a60ce176-c03f-5932-ba64-de11cb3b3f81",
+      "ledger": "recorded"
+    },
+    {
+      "at": "2026-09-14T06:09:36.861Z",
+      "endpoint": "keywords_data/google_ads/search_volume/live",
+      "costUsd": 0.09,
+      "estimated": false,
+      "requested": 9,
+      "ledgerId": "b8901137-aa17-55f2-8d0d-289bb300712a",
+      "ledger": "recorded"
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "capUsd": 2,
+    "reserveUsd": 1,
+    "maxRunUsd": 0.1,
+    "monthToDateUsdBefore": 0.0492,
+    "spentThisRunUsd": 0.09,
+    "remainingForScoutUsd": 0.01
+  },
+  "projection": {
+    "labsKeywords": 0,
+    "labsUsd": 0,
+    "serpQueries": 0,
+    "serpUsd": 0,
+    "totalUsd": 0.09,
+    "adsKeywords": 9,
+    "adsUsd": 0.09
+  },
+  "assessmentError": "assessment not written: GEMINI_API_KEY is not set",
+  "lastGather": {
+    "at": "2026-09-14T06:14:06.440Z",
+    "mode": "live",
+    "pendingIdeas": 0,
+    "spentUsd": 0,
+    "note": "nothing pending — no requests made"
+  }
+}
