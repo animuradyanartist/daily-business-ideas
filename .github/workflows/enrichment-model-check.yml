@@ -1,10 +1,14 @@
 name: Enrichment model check (manual)
 
 # Runs Scout's evidence-enrichment MODEL steps with Scout's own Gemini configuration.
-# Manually triggered only; no schedule. It reads evidence already committed on the branch,
+# Manually triggered only: by `workflow_dispatch` once this file is on the default branch, or —
+# before that, while under review — by a person adding the label `model-check:plan` or
+# `model-check:assess` to a same-repository pull request. No schedule. It reads evidence already committed on the branch,
 # makes no DataForSEO request (no DataForSEO or budget secrets are passed), commits nothing,
 # sends no notification, and uploads its outputs as a workflow artifact for review.
 on:
+  pull_request:
+    types: [labeled]
   workflow_dispatch:
     inputs:
       task:
@@ -26,10 +30,12 @@ concurrency:
 
 jobs:
   model-check:
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.event.label.name, 'model-check:'))
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      PILOT: ${{ inputs.pilot }}
+      PILOT: ${{ inputs.pilot || 'evidence/pilots/pilot-10-source-order' }}
+      TASK: ${{ inputs.task || github.event.label.name }}
       SCOUT_DFS_MODE: dry-run
       SCOUT_MARKETS: 'United States:en; India:en; Germany:de'
     steps:
@@ -39,34 +45,39 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Validate pilot path
+      - name: Validate inputs
         run: |
           case "$PILOT" in
             evidence/pilots/*) ;;
             *) echo "::error::pilot must be under evidence/pilots/"; exit 1 ;;
           esac
+          case "$TASK" in
+            plan|model-check:plan) echo "TASK=plan" >> "$GITHUB_ENV" ;;
+            assess|model-check:assess) echo "TASK=assess" >> "$GITHUB_ENV" ;;
+            *) echo "::error::unknown task $TASK"; exit 1 ;;
+          esac
 
       - name: Plan keywords (Scout's Gemini configuration)
-        if: inputs.task == 'plan'
+        if: env.TASK == 'plan'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/pilot.mjs plan --pilot "$PILOT"
 
       - name: Assess — forced model failure first (evidence must survive, nothing assessed)
-        if: inputs.task == 'assess'
+        if: env.TASK == 'assess'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SCOUT_ENRICH_MODELS: gemini-model-that-does-not-exist
         run: node scripts/pilot.mjs assess --pilot "$PILOT" --expect-failure
 
       - name: Assess — Scout's real models, resuming from the saved evidence
-        if: inputs.task == 'assess'
+        if: env.TASK == 'assess'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/pilot.mjs assess --pilot "$PILOT"
 
       - name: Checks and report
-        if: inputs.task == 'assess'
+        if: env.TASK == 'assess'
         run: |
           node scripts/pilot.mjs report --pilot "$PILOT"
           node scripts/pilot.mjs check --pilot "$PILOT"
@@ -75,13 +86,13 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: model-check-${{ inputs.task }}-${{ github.run_id }}
+          name: model-check-${{ env.TASK }}-${{ github.run_id }}
           path: |
-            ${{ inputs.pilot }}/plans.json
-            ${{ inputs.pilot }}/run.json
-            ${{ inputs.pilot }}/evidence.md
-            ${{ inputs.pilot }}/failure-check.json
-            ${{ inputs.pilot }}/MODEL-CHECK.md
-            ${{ inputs.pilot }}/REPORT.md
+            ${{ env.PILOT }}/plans.json
+            ${{ env.PILOT }}/run.json
+            ${{ env.PILOT }}/evidence.md
+            ${{ env.PILOT }}/failure-check.json
+            ${{ env.PILOT }}/MODEL-CHECK.md
+            ${{ env.PILOT }}/REPORT.md
           if-no-files-found: warn
           retention-days: 14
