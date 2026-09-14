@@ -3,6 +3,11 @@
 Do not re-pitch these without a fundamentally new signal.
 
 ## 2026-09-14
+- **The Small Construction Site's "Audit-Ready" SWPPP Compliance Binder** — A strong compliance idea, but the gINT opportunity has a more powerful, discrete "why now" event (incumbent deprecation) that creates a more motivated buyer pool.
+- **The Independent Compounding Pharmacy's "USP 797-Ready" Cleanroom Log** — Another excellent compliance-driven opportunity. Chosen against because the gINT market structure, with a single disliked incumbent forcing a migration, is a rarer and more exploitable setup.
+- **The Small E-commerce Brand's "Landed Cost" Calculator** — Killed. While a real pain, the market is flooded with free tools and "good enough" spreadsheets. The willingness to pay for a dedicated, standalone calculator is likely low compared to the geotechnical opportunity.
+
+## 2026-09-14
 *   **The Small E-commerce Brand's "Landed Cost" Calculator** — Killed. While a real pain, the market is flooded with free tools and "good enough" spreadsheets. The willingness to pay for a dedicated, standalone calculator is likely low compared to the geotechnical opportunity.
 *   **The Trade Show Exhibitor's Lead Capture & ROI Calculator** — Killed. Attributing sales ROI to a specific trade show lead is notoriously difficult, making the core value proposition hard to prove definitively. This leads to a "vitamin" perception.
 *   **The Brewery's TTB Compliance Reporting Hub** — A very strong candidate that fits the compliance pattern. However, the geotechnical market has a more powerful, time-bound "why now" trigger due to the incumbent's actions, making it the superior choice for today.

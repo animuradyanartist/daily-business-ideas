@@ -1,0 +1,580 @@
+{
+  "schema": 1,
+  "date": "2026-09-14",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-14.md"
+  },
+  "createdAt": "2026-09-14T12:07:02.731Z",
+  "updatedAt": "2026-09-14T12:07:02.732Z",
+  "attempts": 1,
+  "mode": "dry-run",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-14.md",
+    "title": "The Independent Geotechnical Engineer's \"gINT-Replacement\" Boring Log Hub",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-14:geotechnical-boring-log-hub",
+      "slug": "geotechnical-boring-log-hub",
+      "title": "The Independent Geotechnical Engineer's \"gINT-Replacement\" Boring Log Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem description mentions \"ASTM and DOT standards,\" which are US-centric, and the \"Why Now\" section implies a US market context."
+      },
+      "plan": {
+        "slug": "geotechnical-boring-log-hub",
+        "title": "The Independent Geotechnical Engineer's \"gINT-Replacement\" Boring Log Hub",
+        "problem": "Engineers need to create and manage soil boring logs to comply with ASTM and DOT standards, but the long-standing industry standard software, Bentley gINT, is being phased out, pushing users to a new, complex platform.",
+        "targetCustomer": "Principal or senior engineer at a small to mid-sized geotechnical engineering or construction materials testing firm.",
+        "payer": "Principal or senior engineer at a small to mid-sized geotechnical engineering or construction materials testing firm.",
+        "whyPayerPays": "Small and mid-sized engineering firms will pay a monthly subscription for a cloud-based, mobile-friendly tool that is simpler than gINT, imports historical data, and generates compliant reports without a steep learning curve, because Bentley's transition of gINT is forcing them to find a modern replacement now.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem description mentions \"ASTM and DOT standards,\" which are US-centric, and the \"Why Now\" section implies a US market context."
+        },
+        "keywords": {
+          "problem": [
+            "gint replacement software",
+            "soil boring log software",
+            "geotechnical reporting software"
+          ],
+          "solution": [
+            "boring log software",
+            "geotechnical software solutions",
+            "soil logging app"
+          ],
+          "buying": [
+            "gint alternative",
+            "boring log software pricing",
+            "best geotechnical software"
+          ]
+        },
+        "serpQueries": [
+          "boring log software",
+          "gint replacement software"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "gint replacement software",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "soil boring log software",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "geotechnical reporting software",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "boring log software",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "geotechnical software solutions",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "soil logging app",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "gint alternative",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "boring log software pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "best geotechnical software",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": false,
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T12:07:02.737Z",
+      "matchesOriginalPick": true
+    },
+    {
+      "id": "2026-09-14:swppp-compliance-binder",
+      "slug": "swppp-compliance-binder",
+      "title": "The Small Construction Site's \"Audit-Ready\" SWPPP Compliance Binder",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem explicitly mentions \"EPA's Clean Water Act\" and \"federal enforcement campaign,\" which are US-specific regulations."
+      },
+      "plan": {
+        "slug": "swppp-compliance-binder",
+        "title": "The Small Construction Site's \"Audit-Ready\" SWPPP Compliance Binder",
+        "problem": "Construction and land development companies face significant fines for failing to maintain rigorous, ongoing inspections and documentation required by the EPA's Clean Water Act for Stormwater Pollution Prevention Plans (SWPPP).",
+        "targetCustomer": "The owner, project manager, or superintendent of a small to mid-sized construction or land development company.",
+        "payer": "The owner, project manager, or superintendent of a small to mid-sized construction or land development company.",
+        "whyPayerPays": "Contractors will pay a per-site, per-month fee to automate the administrative burden of SWPPP compliance, tracking rainfall, scheduling inspections, logging actions, and generating audit-ready PDFs, because failure to maintain the SWPPP binder results in fines that can reach over $68,000 per day.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem explicitly mentions \"EPA's Clean Water Act\" and \"federal enforcement campaign,\" which are US-specific regulations."
+        },
+        "keywords": {
+          "problem": [
+            "swppp compliance requirements",
+            "swppp audit fines",
+            "epa stormwater regulations"
+          ],
+          "solution": [
+            "swppp software",
+            "stormwater compliance tools",
+            "swppp inspection app"
+          ],
+          "buying": [
+            "swppp software pricing",
+            "best swppp solutions",
+            "swppp compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "swppp software",
+          "swppp audit fines"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "swppp compliance requirements",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "swppp audit fines",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "epa stormwater regulations",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "swppp software",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "stormwater compliance tools",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "swppp inspection app",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "swppp software pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best swppp solutions",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "swppp compliance cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": false,
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T12:07:02.737Z",
+      "matchesOriginalPick": false
+    },
+    {
+      "id": "2026-09-14:pharmacy-cleanroom-log",
+      "slug": "pharmacy-cleanroom-log",
+      "title": "The Independent Compounding Pharmacy's \"USP 797-Ready\" Cleanroom Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem explicitly mentions \"United States Pharmacopeia (USP) chapters\" and \"state board of pharmacy sanctions,\" indicating a US-centric regulatory environment."
+      },
+      "plan": {
+        "slug": "pharmacy-cleanroom-log",
+        "title": "The Independent Compounding Pharmacy's \"USP 797-Ready\" Cleanroom Log",
+        "problem": "Independent compounding pharmacies must maintain strict, auditable logs for staff training, environmental monitoring, cleaning schedules, and batch compounding records to comply with USP chapters <795>, <797>, and <800>, risking state board sanctions and license loss if they fail.",
+        "targetCustomer": "The Pharmacist-in-Charge (PIC) or owner of an independent compounding pharmacy.",
+        "payer": "The Pharmacist-in-Charge (PIC) or owner of an independent compounding pharmacy.",
+        "whyPayerPays": "Pharmacy owners will pay a significant monthly subscription for a specialized digital system that replaces paper and spreadsheet logs, ensuring audit-readiness and reducing the risk of catastrophic errors, because failure to comply with USP chapters risks state board sanctions, loss of license, and patient safety events.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem explicitly mentions \"United States Pharmacopeia (USP) chapters\" and \"state board of pharmacy sanctions,\" indicating a US-centric regulatory environment."
+        },
+        "keywords": {
+          "problem": [
+            "usp 797 compliance requirements",
+            "pharmacy cleanroom log",
+            "compounding pharmacy audit"
+          ],
+          "solution": [
+            "usp 797 software",
+            "pharmacy compliance system",
+            "cleanroom monitoring software"
+          ],
+          "buying": [
+            "usp 797 software pricing",
+            "best pharmacy compliance software",
+            "cleanroom log cost"
+          ]
+        },
+        "serpQueries": [
+          "usp 797 software",
+          "usp 797 compliance requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "dry-run",
+      "attempts": 0,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "usp 797 compliance requirements",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K2",
+          "keyword": "pharmacy cleanroom log",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K3",
+          "keyword": "compounding pharmacy audit",
+          "group": "problem",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K4",
+          "keyword": "usp 797 software",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K5",
+          "keyword": "pharmacy compliance system",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K6",
+          "keyword": "cleanroom monitoring software",
+          "group": "solution",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K7",
+          "keyword": "usp 797 software pricing",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K8",
+          "keyword": "best pharmacy compliance software",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        },
+        {
+          "id": "K9",
+          "keyword": "cleanroom log cost",
+          "group": "buying",
+          "status": "not_collected",
+          "searchVolume": null
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": false,
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected."
+        }
+      },
+      "evidenceFingerprint": "3902f13dc6164861",
+      "evidenceUpdatedAt": "2026-09-14T12:07:02.737Z",
+      "matchesOriginalPick": false
+    }
+  ],
+  "spend": [],
+  "provider": {
+    "status": "dry-run",
+    "reason": "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+    "warnings": [
+      "Dry run: no paid requests were made (SCOUT_DFS_MODE is not \"live\").",
+      "DataForSEO credentials are not configured.",
+      "DATAFORSEO_MONTHLY_USD_CAP is not set, so there is no spending allowance.",
+      "The shared DataForSEO budget is not configured, so spend could not be reserved against the shared allowance."
+    ]
+  },
+  "budget": {
+    "backend": "rpc",
+    "atomic": true,
+    "capUsd": null,
+    "reserveUsd": 1,
+    "maxRunUsd": 0.1,
+    "sharedBefore": null,
+    "monthToDateUsdBefore": null,
+    "spentThisRunUsd": 0
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-14T12:07:02.737Z",
+    "mode": "dry-run",
+    "pendingIdeas": 3,
+    "spentUsd": 0,
+    "note": null
+  }
+}
