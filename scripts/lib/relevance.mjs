@@ -92,11 +92,11 @@ For each idea you get its target customer, problem and payer, the keywords that 
 
 KEYWORDS — {"id": "K1", "searcher": "...", "topic": "...", "reason": "..."}
 - searcher: "includes" if people typing it plausibly include the target customer; "excludes" if they are mostly someone else; "unclear".
-- topic: "same" = the idea's own job, problem or product (e.g. for a bookkeeping template pack for freelance photographers: "photography business bookkeeping"); "category" = the product category the idea is sold into, not its specific angle ("bookkeeping spreadsheet template"); "wider" = a wider market than the idea sells into ("excel templates", "accounting software", "business course"); "unclear" if you cannot tell.
-- A short generic term is almost never "same". Search volume is irrelevant to this judgement — judge the words, not the numbers.
+- topic: "same" = the search describes the idea's own job, problem or product, EVEN IF it does not name the idea's audience — who searches is judged by "searcher", not by "topic" (e.g. for a bookkeeping template pack for freelance photographers: "how to categorize business expenses" and "bookkeeping template for freelancers" are "same"); "category" = the wider product category the idea is one kind of ("small business accounting templates"); "wider" = a wider market than the idea sells into ("excel templates", "accounting software", "business course"); "unclear" if you cannot tell.
+- A one- or two-word generic term ("templates", "accounting") is almost never "same". Search volume is irrelevant to this judgement — judge the words, not the numbers.
 
 ITEMS (search results S… and pages P…) — {"id": "S1.3", "customer": "...", "customerMatches": ["..."], "problem": "...", "offering": "...", "reason": "..."}
-- First, per idea, list "qualifiers": the 1–4 defining traits of the target customer, copied from its description (e.g. for "night-shift nurses in rural hospitals": ["night-shift nurse", "rural hospital"]).
+- First, per idea, list "qualifiers": the 1–3 traits that say WHO the target customer is (role, identity, kind of business), copied from its description — not their situation, goal or problem, which "problem" covers (e.g. for "night-shift nurses in rural hospitals who struggle to plan childcare": ["night-shift nurse", "rural hospital"], not "struggles to plan childcare").
 - customer: who the item is about or for. "same" ONLY if it concerns people with ALL the qualifiers; "broader" = a wider group that includes them, or people with only SOME of the qualifiers (all nurses; all rural health workers); "different" = someone else; "unclear".
 - customerMatches: the qualifiers (copied exactly from your list) that the item's people clearly have. Leave out any you are not sure of.
 - problem: "same" = the idea's specific problem; "broader" = a wider or adjacent problem; "different" = another problem; "unclear".
@@ -144,7 +144,7 @@ export function normalizeRelevance(raw, idea, { at, models } = {}) {
     at: at ?? null,
     models: models ?? null,
     evidenceUpdatedAt: idea.evidenceUpdatedAt ?? null,
-    qualifiers: (Array.isArray(raw?.qualifiers) ? raw.qualifiers : []).map((x) => String(x).slice(0, 80)).filter(Boolean).slice(0, 4),
+    qualifiers: (Array.isArray(raw?.qualifiers) ? raw.qualifiers : []).map((x) => String(x).slice(0, 80)).filter(Boolean).slice(0, 3),
     keywords,
     items,
     missing: [...[...kwIds].filter((id) => !keywords[id]), ...[...itemIds].filter((id) => !items[id])],
