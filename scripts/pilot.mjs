@@ -26,6 +26,7 @@ import {
   memoContext,
   saveRunAt,
   evidenceFingerprint,
+  collectPages,
 } from './lib/enrich.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims } from './lib/grounding.mjs';
 
@@ -54,7 +55,7 @@ const P = {
 const rootRel = relative(pilotDir, '.') || '.';
 const sha = (s) => createHash('sha256').update(s).digest('hex');
 const readText = (p) => readFileSync(p, 'utf8');
-const money = (n) => (typeof n === 'number' ? `$${n.toFixed(4)}` : 'n/a');
+const money = (n) => (typeof n === 'number' ? `$${n.toFixed(5)}` : 'n/a');
 const esc = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n+/g, ' ').trim();
 
 function need(path, hint) {
@@ -215,6 +216,30 @@ if (cmd === 'gather') {
   const charged = run.spend.filter((l) => l.status === 'charged').reduce((s, l) => s + l.costUsd, 0);
   console.log(`✓ ${P.run}: provider ${run.provider.status}${run.provider.reason ? ` — ${run.provider.reason}` : ''}`);
   console.log(`  spent now ${money(run.lastGather.spentUsd)} · charged in this pilot so far ${money(charged)} · statuses: ${run.ideas.map((i) => `${i.id}=${i.status}`).join(', ')}`);
+  process.exit(0);
+}
+
+// ---------- pages (free) ----------
+// Re-fetch competitor pages that were refused or failed, e.g. after a robots.txt parser fix.
+// No DataForSEO request; successful page answers stay cached.
+if (cmd === 'pages') {
+  const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
+  const deps = buildDeps({ ...process.env, SCOUT_DFS_MODE: 'dry-run' });
+  let before = 0;
+  let after = 0;
+  for (const idea of run.ideas) {
+    before += idea.pages.filter((p) => !p.error).length;
+    idea.pages = await collectPages(idea, config, deps, { refresh: true });
+    after += idea.pages.filter((p) => !p.error).length;
+    const fp = evidenceFingerprint(idea);
+    if (fp !== idea.evidenceFingerprint) {
+      idea.evidenceFingerprint = fp;
+      idea.evidenceUpdatedAt = new Date().toISOString();
+    }
+  }
+  run.pagesRefreshedAt = new Date().toISOString();
+  saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
+  console.log(`✓ pages readable: ${before} → ${after}`);
   process.exit(0);
 }
 

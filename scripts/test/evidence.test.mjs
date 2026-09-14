@@ -99,6 +99,16 @@ test('commercialReading separates advertiser bids from published prices', () => 
   assert.equal(commercialReading(rows, pages).level, 'strong');
   assert.equal(commercialReading([], []).level, 'unknown');
 
+  // Priced broad platforms (Figma, Miro…) rank for anything: they never make evidence "strong".
+  const platforms = [
+    { id: 'P1', domain: 'www.figma.com', url: 'https://www.figma.com/pricing', status: 200, error: null, priceMentions: [{ text: '$15', billingUnit: false }] },
+    { id: 'P2', domain: 'miro.com', url: 'https://miro.com/pricing', status: 200, error: null, priceMentions: [{ text: '$8', billingUnit: false }] },
+  ];
+  const plat = commercialReading([], platforms);
+  assert.equal(plat.level, 'moderate');
+  assert.deepEqual(plat.pricedPlatforms, ['figma.com', 'miro.com']);
+  assert.match(plat.note, /not evidence buyers pay for this idea/);
+
   // Numbers quoted in an article are not offer prices (the pilot's "$80,000" CPA blog post).
   const article = [{ id: 'P1', domain: 'cpa.com', url: 'https://cpa.com/learning-center/sbir-102', title: 'SBIR accounting basics', status: 200, error: null, priceMentions: [{ text: '$80,000', billingUnit: false }] }];
   assert.equal(commercialReading([], article).level, 'weak');
@@ -112,6 +122,7 @@ test('classifyDomain and competitorCandidates keep discussion and directories ou
   assert.equal(classifyDomain('osha.gov'), 'government');
   assert.equal(classifyDomain('contractorforum.example'), 'discussion');
   assert.equal(classifyDomain('levelset.com'), 'site');
+  assert.equal(classifyDomain('www.figma.com'), 'platform');
 
   const serps = [
     { query: 'q1', items: [{ id: 'S1.1', rank: 1, domain: 'reddit.com', url: 'https://reddit.com/r/x' }, { id: 'S1.2', rank: 2, domain: 'vendor-a.com', url: 'https://vendor-a.com/' }] },
@@ -145,6 +156,30 @@ test('extractPageSignals reads title, prices and sales-model wording', () => {
   assert.deepEqual(prose.priceMentions.map((m) => [m.text, m.billingUnit]), [['$295,000', false]]);
   assert.equal(s.mentionsFreeTrial, true);
   assert.equal(s.mentionsContactSales, true);
+});
+
+test('robotsAllows follows Google semantics: wildcards, $ anchors, queries, multi-agent groups (cases from real files)', () => {
+  // Canva: `Disallow: *v=` must not block everything (the old prefix parser did).
+  const canva = 'User-agent: *\nDisallow: \nDisallow: /media/*\nDisallow: /template/*\nDisallow: *v=\nDisallow: *utm_source=\n';
+  assert.equal(robotsAllows(canva, '/pricing'), true);
+  assert.equal(robotsAllows(canva, '/template/abc'), false);
+  assert.equal(robotsAllows(canva, '/x?v=1'), false);
+  // Berlitz: `*.pdf$` and `*/lp*`.
+  const berlitz = 'User-agent: *\nDisallow: *.pdf$\nDisallow: */lp*\n';
+  assert.equal(robotsAllows(berlitz, '/blog/phrases'), true);
+  assert.equal(robotsAllows(berlitz, '/guide.pdf'), false);
+  assert.equal(robotsAllows(berlitz, '/guide.pdf?x=1'), true); // $ anchors the end
+  assert.equal(robotsAllows(berlitz, '/en-us/lp1'), false);
+  // Allow: / vs Disallow: /*? — the longer rule wins for query URLs.
+  const wp = 'User-agent: *\nAllow: /\nDisallow: /*?\n';
+  assert.equal(robotsAllows(wp, '/blog/x'), true);
+  assert.equal(robotsAllows(wp, '/x?y=1'), false);
+  // A group naming several agents applies to each of them.
+  const multi = 'User-agent: GPTBot\nUser-agent: *\nDisallow: /private\n\nUser-agent: Googlebot\nDisallow: /\n';
+  assert.equal(robotsAllows(multi, '/private/x'), false);
+  assert.equal(robotsAllows(multi, '/public'), true);
+  // A group for this bot overrides `*`.
+  assert.equal(robotsAllows('User-agent: *\nDisallow: /\n\nUser-agent: ScoutResearchBot\nAllow: /\n', '/pricing'), true);
 });
 
 test('robotsAllows honours the * group with longest-match allow', () => {

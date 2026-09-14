@@ -89,7 +89,7 @@ export function capProblemLevel(level, supported) {
 
 /** Competition: vendor-like results/pages count; "sparse" must not contradict what was collected. */
 export function capCompetitionLevel(level, supported, competitors) {
-  const vendorish = supported.filter((s) => s.kind === 'P' || ['site', 'review_directory', 'marketplace'].includes(s.cls));
+  const vendorish = supported.filter((s) => s.kind === 'P' || ['site', 'platform', 'review_directory', 'marketplace'].includes(s.cls));
   const domains = distinctDomains(vendorish);
   const seenVendors = competitors?.vendorLikeDomains?.length ?? 0;
   if (level === 'sparse') {

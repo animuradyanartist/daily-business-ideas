@@ -114,7 +114,7 @@ export function createLegacyLedgerBudget({ ledger, capUsd, now = () => new Date(
     },
     async settle({ holdId, actualUsd, payload }) {
       const at = now().toISOString();
-      await ledger.record({ id: holdId, occurredAt: at, payload: { ...(payload ?? {}), cost: Number(Number(actualUsd).toFixed(4)), holdId } });
+      await ledger.record({ id: holdId, occurredAt: at, payload: { ...(payload ?? {}), cost: Number(Number(actualUsd).toFixed(6)), holdId } });
       holds.delete(holdId);
       return { ok: true };
     },

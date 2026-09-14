@@ -312,6 +312,1033 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.simonandsimon.co.uk/pricing": {
+      "fetchedAt": "2026-09-14T07:38:43.506Z",
+      "data": {
+        "url": "https://www.simonandsimon.co.uk/pricing",
+        "finalUrl": "https://www.simonandsimon.co.uk/pricing",
+        "retrievedAt": "2026-09-14T07:38:43.506Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.simonandsimon.co.uk/blog/business-english-phrases/": {
+      "fetchedAt": "2026-09-14T07:38:43.474Z",
+      "data": {
+        "url": "https://www.simonandsimon.co.uk/blog/business-english-phrases/",
+        "finalUrl": "https://www.simonandsimon.co.uk/blog/business-english-phrases/",
+        "retrievedAt": "2026-09-14T07:38:43.474Z",
+        "status": 200,
+        "error": null,
+        "title": "30 Business English Phrases You Need To Learn | SImon & Simon",
+        "description": "Master 30 essential business English expressions to boost your English vocabulary and succeed with common terms for the workplace.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://oxfordlanguageclub.com/pricing": {
+      "fetchedAt": "2026-09-14T07:33:19.288Z",
+      "data": {
+        "url": "https://oxfordlanguageclub.com/pricing",
+        "finalUrl": "https://oxfordlanguageclub.com/pricing",
+        "retrievedAt": "2026-09-14T07:33:19.288Z",
+        "status": 200,
+        "error": null,
+        "title": "Oxford Language Club",
+        "description": "Buy Oxford Online English Courses and earn a certificate. Join 130,000+ students mastering grammar, speaking, writing & more—start today!",
+        "priceMentions": [
+          {
+            "text": "$ 17 /mo",
+            "billingUnit": true,
+            "context": "ub – Earn Your Certificate Today! Language App Monthly Plan $ 17 /mo Full Course Access Cancel Anytime Flexible & Popular Full C"
+          },
+          {
+            "text": "$ 45",
+            "billingUnit": false,
+            "context": "fied-0cbd25e2c018aed8e895f706-=\"\"> Get Started 3 Month Plan $ 45 /x3 mo Full Course Access Cancel Anytime Budget Plan Test F"
+          },
+          {
+            "text": "$ 78",
+            "billingUnit": false,
+            "context": "fied-0cbd25e2c018aed8e895f706-=\"\"> Get Started 6 Month Plan $ 78 /x6 mo Full Course Access Amazing Value Completion Certific"
+          },
+          {
+            "text": "$ 120",
+            "billingUnit": false,
+            "context": "ified-0cbd25e2c018aed8e895f706-=\"\"> Get Started Yearly Plan $ 120 /x12 mo Full Course Access Amazing Value Completion Certifi"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://oxfordlanguageclub.com/page/blog/100-business-english-phrases-for-speaking-professionally-and-advancing-your-career": {
+      "fetchedAt": "2026-09-14T07:33:19.286Z",
+      "data": {
+        "url": "https://oxfordlanguageclub.com/page/blog/100-business-english-phrases-for-speaking-professionally-and-advancing-your-career",
+        "finalUrl": "https://oxfordlanguageclub.com/page/blog/100-business-english-phrases-for-speaking-professionally-and-advancing-your-career",
+        "retrievedAt": "2026-09-14T07:33:19.286Z",
+        "status": 200,
+        "error": null,
+        "title": "Oxford Language Club",
+        "description": "Fast, Effective and innovative method of Learning English",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.berlitz.com/blog/business-english-vocabulary-phrases": {
+      "fetchedAt": "2026-09-14T07:38:43.507Z",
+      "data": {
+        "url": "https://www.berlitz.com/blog/business-english-vocabulary-phrases",
+        "finalUrl": "https://www.berlitz.com/blog/business-english-vocabulary-phrases",
+        "retrievedAt": "2026-09-14T07:38:43.507Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.berlitz.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:43.507Z",
+      "data": {
+        "url": "https://www.berlitz.com/pricing",
+        "finalUrl": "https://www.berlitz.com/404",
+        "retrievedAt": "2026-09-14T07:38:43.507Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.canva.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:49.042Z",
+      "data": {
+        "url": "https://www.canva.com/pricing",
+        "finalUrl": "https://www.canva.com/pricing",
+        "retrievedAt": "2026-09-14T07:38:49.042Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.canva.com/linkedin-carousel/templates/": {
+      "fetchedAt": "2026-09-14T07:38:45.621Z",
+      "data": {
+        "url": "https://www.canva.com/linkedin-carousel/templates/",
+        "finalUrl": "https://www.canva.com/linkedin-carousel/templates/",
+        "retrievedAt": "2026-09-14T07:38:45.621Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.adobe.com/express/templates/post/linkedin-carousel": {
+      "fetchedAt": "2026-09-14T07:38:45.623Z",
+      "data": {
+        "url": "https://www.adobe.com/express/templates/post/linkedin-carousel",
+        "finalUrl": "https://www.adobe.com/express/templates/post/linkedin-carousel",
+        "retrievedAt": "2026-09-14T07:38:45.623Z",
+        "status": 200,
+        "error": null,
+        "title": "Free LinkedIn Carousel Post Templates | Adobe Express",
+        "description": "Choose from dozens of online LinkedIn carousel post ideas from Adobe Express to help you easily create your own free LinkedIn carousel post. All creative skill levels are welcome.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.adobe.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:49.041Z",
+      "data": {
+        "url": "https://www.adobe.com/pricing",
+        "finalUrl": "https://www.adobe.com/pricing",
+        "retrievedAt": "2026-09-14T07:38:49.041Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.figma.com/community/file/1204442937541895453/linkedin-carousel-templates": {
+      "fetchedAt": "2026-09-14T07:38:45.625Z",
+      "data": {
+        "url": "https://www.figma.com/community/file/1204442937541895453/linkedin-carousel-templates",
+        "finalUrl": "https://www.figma.com/community/file/1204442937541895453/linkedin-carousel-templates",
+        "retrievedAt": "2026-09-14T07:38:45.625Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.figma.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:45.625Z",
+      "data": {
+        "url": "https://www.figma.com/pricing",
+        "finalUrl": "https://www.figma.com/pricing/",
+        "retrievedAt": "2026-09-14T07:38:45.625Z",
+        "status": 200,
+        "error": null,
+        "title": "Plans & Pricing | Figma",
+        "description": "Learn about Figma pricing plans. Explore Figma products, compare key features, and read through FAQs to choose the right plan and seats for your team.",
+        "priceMentions": [
+          {
+            "text": "$16 /mo",
+            "billingUnit": true,
+            "context": "to 500 AI credits/mo Professional Monthly Annual Full seat $16 /mo + 3,000 AI credits/mo Dev seat $12 /mo + 500 AI credits/mo"
+          },
+          {
+            "text": "$12 /mo",
+            "billingUnit": true,
+            "context": "hly Annual Full seat $16 /mo + 3,000 AI credits/mo Dev seat $12 /mo + 500 AI credits/mo Collab seat $3 /mo + 500 AI credits/mo"
+          },
+          {
+            "text": "$3 /mo",
+            "billingUnit": true,
+            "context": "credits/mo Dev seat $12 /mo + 500 AI credits/mo Collab seat $3 /mo + 500 AI credits/mo Select plan Why choose Professional? Wh"
+          },
+          {
+            "text": "$55 /mo",
+            "billingUnit": true,
+            "context": "ction and MCP Server Organization Billed annually Full seat $55 /mo + 3,500 AI credits/mo Dev seat $25 /mo + 500 AI credits/mo"
+          },
+          {
+            "text": "$25 /mo",
+            "billingUnit": true,
+            "context": "d annually Full seat $55 /mo + 3,500 AI credits/mo Dev seat $25 /mo + 500 AI credits/mo Collab seat $5 /mo + 500 AI credits/mo"
+          },
+          {
+            "text": "$5 /mo",
+            "billingUnit": true,
+            "context": "credits/mo Dev seat $25 /mo + 500 AI credits/mo Collab seat $5 /mo + 500 AI credits/mo Select plan Why choose Organization? Wh"
+          },
+          {
+            "text": "$90 /mo",
+            "billingUnit": true,
+            "context": "rmation? Contact sales Enterprise Billed annually Full seat $90 /mo + 4,250 AI credits/mo Dev seat $35 /mo + 500 AI credits/mo"
+          },
+          {
+            "text": "$35 /mo",
+            "billingUnit": true,
+            "context": "d annually Full seat $90 /mo + 4,250 AI credits/mo Dev seat $35 /mo + 500 AI credits/mo Collab seat $5 /mo + 500 AI credits/mo"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.figma.com/community/file/1064978915298678680/ux-research-template": {
+      "fetchedAt": "2026-09-14T07:38:47.230Z",
+      "data": {
+        "url": "https://www.figma.com/community/file/1064978915298678680/ux-research-template",
+        "finalUrl": "https://www.figma.com/community/file/1064978915298678680/ux-research-template",
+        "retrievedAt": "2026-09-14T07:38:47.230Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.notion.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:47.230Z",
+      "data": {
+        "url": "https://www.notion.com/pricing",
+        "finalUrl": "https://www.notion.com/pricing",
+        "retrievedAt": "2026-09-14T07:38:47.230Z",
+        "status": 200,
+        "error": null,
+        "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+        "description": "Learn more about our different pricing plans. We support everyone, from free personal accounts to enterprise businesses.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "yearly Price in USD Essentials for staying organized. Free $0 per member / month For individuals to organize personal pro"
+          },
+          {
+            "text": "$10",
+            "billingUnit": false,
+            "context": "ing subtasks, dependencies, custom properties and more Plus $10 per member / month For small teams and professionals to wor"
+          },
+          {
+            "text": "$20",
+            "billingUnit": false,
+            "context": "he AI workspace for work that matters. Business Recommended $20 per member / month For growing businesses to streamline tea"
+          },
+          {
+            "text": "$0 per seat",
+            "billingUnit": true,
+            "context": "denberger GTM, OpenAI Watch video → Plans and features Free $0 per seat/month Sign up Plus $10 per seat/month Get started Business"
+          },
+          {
+            "text": "$10 per seat",
+            "billingUnit": true,
+            "context": "eo → Plans and features Free $0 per seat/month Sign up Plus $10 per seat/month Get started Business $20 per seat/month Get started E"
+          },
+          {
+            "text": "$20 per seat",
+            "billingUnit": true,
+            "context": "/month Sign up Plus $10 per seat/month Get started Business $20 per seat/month Get started Enterprise Contact us → Content Blocks ar"
+          },
+          {
+            "text": "$8/month",
+            "billingUnit": true,
+            "context": "a custom domain to your Site and remove Notion branding for $8/month/domain paid annually, or $10/month per domain paid monthly."
+          },
+          {
+            "text": "$10/month",
+            "billingUnit": true,
+            "context": "emove Notion branding for $8/month/domain paid annually, or $10/month per domain paid monthly. Custom domains and branding Pay pe"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.notion.com/templates/category/user-research?srsltid=AfmBOoqKpYvu2NAhJj4uGIPt3UgLzH9fqinO79lw-mTan5tNW1phUwzP": {
+      "fetchedAt": "2026-09-14T07:38:47.229Z",
+      "data": {
+        "url": "https://www.notion.com/templates/category/user-research?srsltid=AfmBOoqKpYvu2NAhJj4uGIPt3UgLzH9fqinO79lw-mTan5tNW1phUwzP",
+        "finalUrl": "https://www.notion.com/templates/category/user-research?srsltid=AfmBOoqKpYvu2NAhJj4uGIPt3UgLzH9fqinO79lw-mTan5tNW1phUwzP",
+        "retrievedAt": "2026-09-14T07:38:47.229Z",
+        "status": 200,
+        "error": null,
+        "title": "User Research Templates from Notion | Notion Marketplace",
+        "description": "Advance your product development with Notion&#x27;s User Research templates. Compile research findings, user interviews, and usability tests. Crucial for UI/UX designers, product managers, and researchers striving for insightful, user-centered design solutions.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.nngroup.com/pricing": {
+      "fetchedAt": "2026-09-14T07:39:03.406Z",
+      "data": {
+        "url": "https://www.nngroup.com/pricing",
+        "finalUrl": "https://www.nngroup.com/pricing/",
+        "retrievedAt": "2026-09-14T07:39:03.406Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.nngroup.com/articles/free-ux-templates/": {
+      "fetchedAt": "2026-09-14T07:33:22.316Z",
+      "data": {
+        "url": "https://www.nngroup.com/articles/free-ux-templates/",
+        "finalUrl": "https://www.nngroup.com/articles/free-ux-templates/",
+        "retrievedAt": "2026-09-14T07:33:22.316Z",
+        "status": 200,
+        "error": null,
+        "title": "NN/g’s Free UX Templates and Guides - NN/G",
+        "description": "Use this curated set of free NN/g templates and guides for inspiration and to accelerate your product development activities and UX career.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.adobe.com/express/templates/presentation": {
+      "fetchedAt": "2026-09-14T07:38:49.041Z",
+      "data": {
+        "url": "https://www.adobe.com/express/templates/presentation",
+        "finalUrl": "https://www.adobe.com/express/templates/presentation",
+        "retrievedAt": "2026-09-14T07:38:49.041Z",
+        "status": 200,
+        "error": null,
+        "title": "Customize &#x26; Download Free Presentation Templates | Adobe Express",
+        "description": "Browse hundreds of free presentation templates on Adobe Express. Customize layouts, colors, and fonts, then download as a Microsoft PowerPoint (.pptx) or PDF. No design experience needed.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.canva.com/presentations/templates/": {
+      "fetchedAt": "2026-09-14T07:38:49.042Z",
+      "data": {
+        "url": "https://www.canva.com/presentations/templates/",
+        "finalUrl": "https://www.canva.com/presentations/templates/",
+        "retrievedAt": "2026-09-14T07:38:49.042Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.slidescarnival.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:49.042Z",
+      "data": {
+        "url": "https://www.slidescarnival.com/pricing",
+        "finalUrl": "https://www.slidescarnival.com/template/competitor-pricing-analysis-slides/211482",
+        "retrievedAt": "2026-09-14T07:38:49.042Z",
+        "status": 200,
+        "error": null,
+        "title": "Competitor Pricing Analysis. Free Slides Template — SlidesCarnival",
+        "description": "Discover powerful Competitor Pricing Analysis Slides in blue and yellow. Fully customizable and completely free to use. Get started now!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.slidescarnival.com/": {
+      "fetchedAt": "2026-09-14T07:38:49.041Z",
+      "data": {
+        "url": "https://www.slidescarnival.com/",
+        "finalUrl": "https://www.slidescarnival.com/",
+        "retrievedAt": "2026-09-14T07:38:49.041Z",
+        "status": 200,
+        "error": null,
+        "title": "SlidesCarnival: Free PowerPoint & Google Slides Templates That Stand Out",
+        "description": "Captivate your audience with our collection of professionally-designed PowerPoint and Google Slides templates. Boost your presentations and make a lasting impression!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.researchgate.net/pricing": {
+      "fetchedAt": "2026-09-14T07:38:49.692Z",
+      "data": {
+        "url": "https://www.researchgate.net/pricing",
+        "finalUrl": "https://www.researchgate.net/pricing",
+        "retrievedAt": "2026-09-14T07:38:49.692Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.researchgate.net/publication/373341359_Effect_on_Non-Native_English_Speakers_of_Utilizing_English_for_Business": {
+      "fetchedAt": "2026-09-14T07:38:49.692Z",
+      "data": {
+        "url": "https://www.researchgate.net/publication/373341359_Effect_on_Non-Native_English_Speakers_of_Utilizing_English_for_Business",
+        "finalUrl": "https://www.researchgate.net/publication/373341359_Effect_on_Non-Native_English_Speakers_of_Utilizing_English_for_Business",
+        "retrievedAt": "2026-09-14T07:38:49.692Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.agencyhandy.com/client-portal/client-communication/template/": {
+      "fetchedAt": "2026-09-14T07:38:49.691Z",
+      "data": {
+        "url": "https://www.agencyhandy.com/client-portal/client-communication/template/",
+        "finalUrl": "https://www.agencyhandy.com/client-portal/client-communication/template/",
+        "retrievedAt": "2026-09-14T07:38:49.691Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 10 Client Communication Templates for Better Client Interactions",
+        "description": "Explore 10 essential client communication templates for success! Learn how to simplify your workflow and how Agency Handy makes managing templates easier.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.agencyhandy.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:49.691Z",
+      "data": {
+        "url": "https://www.agencyhandy.com/pricing",
+        "finalUrl": "https://www.agencyhandy.com/pricing-ltd/",
+        "retrievedAt": "2026-09-14T07:38:49.691Z",
+        "status": 200,
+        "error": null,
+        "title": "Lifetime Deal | Agency Handy",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$409",
+            "billingUnit": false,
+            "context": "the most affordable package that makes sense to you Tier 3 $409 / Lifetime Buy Now What you will get Up to 10 Users Up to 5"
+          },
+          {
+            "text": "$799",
+            "billingUnit": false,
+            "context": "eam Conversations Client Feedback and Approval Notes Tier 4 $799 / Lifetime Buy Now What you will get Up to 30 Users Up to 1"
+          },
+          {
+            "text": "$105",
+            "billingUnit": false,
+            "context": "eam Conversations Client Feedback and Approval Notes Tier 5 $1059 / Lifetime Buy Now What you will get Up to 50 Users Up to"
+          },
+          {
+            "text": "$29/ mo",
+            "billingUnit": true,
+            "context": "m Forms Task Management File Feedback Proposals For 3 Users $29/ mont $10 / mont $12 / mont $29 / mont $129 / mont $12 / month"
+          },
+          {
+            "text": "$10 / mo",
+            "billingUnit": true,
+            "context": "sk Management File Feedback Proposals For 3 Users $29/ mont $10 / mont $12 / mont $29 / mont $129 / mont $12 / month Total month"
+          },
+          {
+            "text": "$12 / mo",
+            "billingUnit": true,
+            "context": "nt File Feedback Proposals For 3 Users $29/ mont $10 / mont $12 / mont $29 / mont $129 / mont $12 / month Total monthly costs to"
+          },
+          {
+            "text": "$29 / mo",
+            "billingUnit": true,
+            "context": "dback Proposals For 3 Users $29/ mont $10 / mont $12 / mont $29 / mont $129 / mont $12 / month Total monthly costs to use $221 /"
+          },
+          {
+            "text": "$129 / mo",
+            "billingUnit": true,
+            "context": "sals For 3 Users $29/ mont $10 / mont $12 / mont $29 / mont $129 / mont $12 / month Total monthly costs to use $221 / month $19 /"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.tiquehq.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:49.692Z",
+      "data": {
+        "url": "https://www.tiquehq.com/pricing",
+        "finalUrl": "https://www.tiquehq.com/pricing",
+        "retrievedAt": "2026-09-14T07:38:49.692Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.tiquehq.com/shop/standard-fit-client-communication-templates/": {
+      "fetchedAt": "2026-09-14T07:38:49.692Z",
+      "data": {
+        "url": "https://www.tiquehq.com/shop/standard-fit-client-communication-templates/",
+        "finalUrl": "https://www.tiquehq.com/shop/standard-fit-client-communication-templates/",
+        "retrievedAt": "2026-09-14T07:38:49.692Z",
+        "status": 200,
+        "error": null,
+        "title": "Standard FIT Client Communication Templates for Travel Agents | TIQUE",
+        "description": "Plug-and-play client communication templates for travel agents. Systemize your workflow, set boundaries, and elevate the client experience.",
+        "priceMentions": [
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "needs change. We’re happy to provide a platform swap for a $100 fee. This allows us to handle the necessary adjustments on"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.figma.com/templates/case-study/": {
+      "fetchedAt": "2026-09-14T07:38:55.962Z",
+      "data": {
+        "url": "https://www.figma.com/templates/case-study/",
+        "finalUrl": "https://www.figma.com/templates/case-study/",
+        "retrievedAt": "2026-09-14T07:38:55.962Z",
+        "status": 200,
+        "error": null,
+        "title": "15+ Case Study Templates | Free Resources | Figma",
+        "description": "Display your projects and research in an organized and presentable format with free templates to get you started.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.behance.net/pricing": {
+      "fetchedAt": "2026-09-14T07:38:55.961Z",
+      "data": {
+        "url": "https://www.behance.net/pricing",
+        "finalUrl": "https://www.behance.net/pricing",
+        "retrievedAt": "2026-09-14T07:38:55.961Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.behance.net/search/projects/case%20study%20template?locale=en_US": {
+      "fetchedAt": "2026-09-14T07:38:55.961Z",
+      "data": {
+        "url": "https://www.behance.net/search/projects/case%20study%20template?locale=en_US",
+        "finalUrl": "https://www.behance.net/search/projects/case%20study%20template?locale=en_US",
+        "retrievedAt": "2026-09-14T07:38:55.961Z",
+        "status": 200,
+        "error": null,
+        "title": "Case Study Template Projects :: Photos, videos, logos, illustrations and branding :: Behance",
+        "description": "Behance is the world",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://blog.uxfol.io/pricing": {
+      "fetchedAt": "2026-09-14T07:38:55.960Z",
+      "data": {
+        "url": "https://blog.uxfol.io/pricing",
+        "finalUrl": "https://blog.uxfol.io/pricing",
+        "retrievedAt": "2026-09-14T07:38:55.960Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://blog.uxfol.io/ux-case-study-template/": {
+      "fetchedAt": "2026-09-14T07:33:26.207Z",
+      "data": {
+        "url": "https://blog.uxfol.io/ux-case-study-template/",
+        "finalUrl": "https://blog.uxfol.io/ux-case-study-template/",
+        "retrievedAt": "2026-09-14T07:33:26.207Z",
+        "status": 200,
+        "error": null,
+        "title": "The Ultimate UX Case Study Template & Structure (2026 Guide)",
+        "description": "Master UX case studies with our complete template and expert guidance. Understand what to include, how to format your story, and how to highlight design impact the right way.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://miro.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:57.449Z",
+      "data": {
+        "url": "https://miro.com/pricing",
+        "finalUrl": "https://miro.com/pricing/",
+        "retrievedAt": "2026-09-14T07:38:57.449Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing",
+        "description": "Multiple pricing options: Free, Starter (choose team size), Company (enterprise). Choose the one that works for you.",
+        "priceMentions": [
+          {
+            "text": "$ 0",
+            "billingUnit": false,
+            "context": "y (save 20%) Free For small teams getting started with Miro $ 0 Start for free Key features: 3 editable boards Create and s"
+          },
+          {
+            "text": "$ 8 /month",
+            "billingUnit": true,
+            "context": "r small teams collaborating regularly with unlimited boards $ 8 /month per member, billed yearly Buy this plan Everything in Free,"
+          },
+          {
+            "text": "$ 20 /month",
+            "billingUnit": true,
+            "context": "ganizations and consultants to streamline workflows with AI $ 20 /month per member, billed yearly Try for free or buy now Everythin"
+          },
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "eligible startups can receive Miro credits to get started: $1,000 if you're connected to one of our global startup partners ("
+          },
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "artners (accelerators, incubators, or venture capitals), or $500 if you apply as an independent startup. Requirements includ"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://miro.com/prototyping/design-hand-off/": {
+      "fetchedAt": "2026-09-14T07:38:57.448Z",
+      "data": {
+        "url": "https://miro.com/prototyping/design-hand-off/",
+        "finalUrl": "https://miro.com/prototyping/design-hand-off/",
+        "retrievedAt": "2026-09-14T07:38:57.448Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Handoff Best Practices: Beyond Static Mockups | Miro",
+        "description": "Design handoff fails when you only share pixels. Learn to document behavior, edge cases, and logic in Miro so developers implement exactly what you meant.",
+        "priceMentions": [
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "eligible startups can receive Miro credits to get started: $1,000 if you're connected to one of our global startup partners ("
+          },
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "artners (accelerators, incubators, or venture capitals), or $500 if you apply as an independent startup. Requirements includ"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.uxpin.com/studio/blog/design-handoff-tools/": {
+      "fetchedAt": "2026-09-14T07:38:57.447Z",
+      "data": {
+        "url": "https://www.uxpin.com/studio/blog/design-handoff-tools/",
+        "finalUrl": "https://www.uxpin.com/studio/blog/design-handoff-tools/",
+        "retrievedAt": "2026-09-14T07:38:57.447Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 10 Design Handoff Tools to Try in 2024 - by UXPin",
+        "description": "Discover best design handoff tools you need to try this year. Find out how they can streamline collaboration and product releases.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.uxpin.com/pricing": {
+      "fetchedAt": "2026-09-14T07:38:57.448Z",
+      "data": {
+        "url": "https://www.uxpin.com/pricing",
+        "finalUrl": "https://www.uxpin.com/pricing",
+        "retrievedAt": "2026-09-14T07:38:57.448Z",
+        "status": 200,
+        "error": null,
+        "title": "UXPin Pricing | Plans for AI-powered Prototyping",
+        "description": "Prototype smarter with AI that works with your real components and patterns. Choose the plan that fits your team and build consistent, design-system-aligned UI faster",
+        "priceMentions": [
+          {
+            "text": "$49 / month",
+            "billingUnit": true,
+            "context": "h AI as a creative partner in real, code-based prototyping. $49 / month / seat Save $240 when billed yearly Start free trial UXPin"
+          },
+          {
+            "text": "$240",
+            "billingUnit": false,
+            "context": "er in real, code-based prototyping. $49 / month / seat Save $240 when billed yearly Start free trial UXPin AI Features: Basi"
+          },
+          {
+            "text": "$13/month",
+            "billingUnit": true,
+            "context": "n history Add more AI credits No extra credits 200 &middot; $13/month 500 &middot; $31/month 750 &middot; $46/month 1000 &middot;"
+          },
+          {
+            "text": "$31/month",
+            "billingUnit": true,
+            "context": "redits No extra credits 200 &middot; $13/month 500 &middot; $31/month 750 &middot; $46/month 1000 &middot; $61/month 1500 &middot"
+          },
+          {
+            "text": "$46/month",
+            "billingUnit": true,
+            "context": "200 &middot; $13/month 500 &middot; $31/month 750 &middot; $46/month 1000 &middot; $61/month 1500 &middot; $88/month 2000 &middo"
+          },
+          {
+            "text": "$61/month",
+            "billingUnit": true,
+            "context": "500 &middot; $31/month 750 &middot; $46/month 1000 &middot; $61/month 1500 &middot; $88/month 2000 &middot; $115/month Most Popul"
+          },
+          {
+            "text": "$88/month",
+            "billingUnit": true,
+            "context": "50 &middot; $46/month 1000 &middot; $61/month 1500 &middot; $88/month 2000 &middot; $115/month Most Popular Growth For growing pr"
+          },
+          {
+            "text": "$115/month",
+            "billingUnit": true,
+            "context": "00 &middot; $61/month 1500 &middot; $88/month 2000 &middot; $115/month Most Popular Growth For growing product teams looking to wo"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.qt.io/pricing": {
+      "fetchedAt": "2026-09-14T07:38:57.449Z",
+      "data": {
+        "url": "https://www.qt.io/pricing",
+        "finalUrl": "https://www.qt.io/pricing",
+        "retrievedAt": "2026-09-14T07:38:57.449Z",
+        "status": 200,
+        "error": null,
+        "title": "Qt Pricing & Plans for Each Stage of Software Development",
+        "description": "Get all the tools you need for creating software apps or embedded devices from planning and user interface design to development and testing your products.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.qt.io/software-insights/design-handoff-to-developers-how-to-stay-true-to-your-original-vision": {
+      "fetchedAt": "2026-09-14T07:38:57.449Z",
+      "data": {
+        "url": "https://www.qt.io/software-insights/design-handoff-to-developers-how-to-stay-true-to-your-original-vision",
+        "finalUrl": "https://www.qt.io/software-insights/design-handoff-to-developers-how-to-stay-true-to-your-original-vision",
+        "retrievedAt": "2026-09-14T07:38:57.449Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Handoff to Developers: How to Stay True to Your Original Vision",
+        "description": "Learn how to hand off design to developers effectively. A comprehensive design handoff guide covering best practices and designer-developer collaboration.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.figma.com/resource-library/ai-design-prompts/": {
+      "fetchedAt": "2026-09-14T07:38:59.624Z",
+      "data": {
+        "url": "https://www.figma.com/resource-library/ai-design-prompts/",
+        "finalUrl": "https://www.figma.com/resource-library/ai-design-prompts/",
+        "retrievedAt": "2026-09-14T07:38:59.624Z",
+        "status": 200,
+        "error": null,
+        "title": "AI Design Prompts: How to Get Better Output | Figma",
+        "description": "Get better output from your AI design prompts. Learn practical tips, examples, and mistakes to avoid, plus how Figma helps keep results consistent.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://aiuxplayground.com/pricing": {
+      "fetchedAt": "2026-09-14T07:33:30.007Z",
+      "data": {
+        "url": "https://aiuxplayground.com/pricing",
+        "finalUrl": "https://aiuxplayground.com/pricing",
+        "retrievedAt": "2026-09-14T07:33:30.007Z",
+        "status": 200,
+        "error": null,
+        "title": "AI UX & AI Design Reference: Patterns, Frameworks & Examples",
+        "description": "Free AI UX and AI design reference for designers and PMs: patterns with demos, agentic frameworks, teardowns, glossary, prompts, skills, and step-by-step guides.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://aiuxplayground.com/prompts": {
+      "fetchedAt": "2026-09-14T07:33:30.006Z",
+      "data": {
+        "url": "https://aiuxplayground.com/prompts",
+        "finalUrl": "https://aiuxplayground.com/prompts/",
+        "retrievedAt": "2026-09-14T07:33:30.006Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Prompts for Designers, PMs & AI Product Teams | AI UX Playground",
+        "description": "210+ design prompts for Cursor, Claude Code, Codex, ChatGPT, and Claude: UX, UI polish, Apple-style motion, PRDs, research, branding, and more. Browse by role or copy a prompt in one click.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://designprompts.dev/": {
+      "fetchedAt": "2026-09-14T07:33:30.008Z",
+      "data": {
+        "url": "https://designprompts.dev/",
+        "finalUrl": "https://www.designprompts.dev/",
+        "retrievedAt": "2026-09-14T07:33:30.008Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Prompts - AI-Powered Design Style Explorer",
+        "description": "Explore 31+ stunning design styles rendered from the same data. Get AI-ready prompts to recreate any aesthetic in your own projects.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://designprompts.dev/pricing": {
+      "fetchedAt": "2026-09-14T07:33:30.008Z",
+      "data": {
+        "url": "https://designprompts.dev/pricing",
+        "finalUrl": "https://www.designprompts.dev/pricing",
+        "retrievedAt": "2026-09-14T07:33:30.008Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Prompts - AI-Powered Design Style Explorer",
+        "description": "Explore 31+ stunning design styles rendered from the same data. Get AI-ready prompts to recreate any aesthetic in your own projects.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://grafana.com/docs/writers-toolkit/write/style-guide/ux-writing/": {
+      "fetchedAt": "2026-09-14T07:33:31.874Z",
+      "data": {
+        "url": "https://grafana.com/docs/writers-toolkit/write/style-guide/ux-writing/",
+        "finalUrl": "https://grafana.com/docs/writers-toolkit/write/style-guide/ux-writing/",
+        "retrievedAt": "2026-09-14T07:33:31.874Z",
+        "status": 200,
+        "error": null,
+        "title": "UX writing | Writers' Toolkit documentation",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://uxcontent.com/ux-writing-and-content-design-tools/": {
+      "fetchedAt": "2026-09-14T07:39:00.008Z",
+      "data": {
+        "url": "https://uxcontent.com/ux-writing-and-content-design-tools/",
+        "finalUrl": "https://uxcontent.com/ux-writing-and-content-design-tools/",
+        "retrievedAt": "2026-09-14T07:39:00.008Z",
+        "status": 200,
+        "error": null,
+        "title": "UX Writing and Content Design Tools &bull; UX Content Collective",
+        "description": "Skills will always come before tools. Read on to see how content design teams are utilizing AI to scale their work.",
+        "priceMentions": [
+          {
+            "text": "$ 0.00",
+            "billingUnit": false,
+            "context": "ources Account Log in My account Log out Browse all courses $ 0.00 0 Cart Log In Course Dashboard Log In Course Dashboard UX C"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://grafana.com/pricing": {
+      "fetchedAt": "2026-09-14T07:33:31.875Z",
+      "data": {
+        "url": "https://grafana.com/pricing",
+        "finalUrl": "https://grafana.com/pricing/",
+        "retrievedAt": "2026-09-14T07:33:31.875Z",
+        "status": 200,
+        "error": null,
+        "title": "Grafana Pricing | Free, Pro, Enterprise",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "convenient time to speak to Grafana Free Always free Always $0 Perfect for personal projects, exploring new ideas, and ear"
+          },
+          {
+            "text": "$19 / month",
+            "billingUnit": true,
+            "context": "races, profiles, & k6 performance tests Pro Self-serve From $19 / month + usage with volume discounts Ready for scaling with more r"
+          },
+          {
+            "text": "$25,000 / year",
+            "billingUnit": true,
+            "context": "s, & k6 performance tests Enterprise Full service Starts at $25,000 / year spend commit A full-service offering for companies with sec"
+          },
+          {
+            "text": "$6.50",
+            "billingUnit": false,
+            "context": "4 days retention Community support Pro Self-serve Starts at $6.50 / 1k series Rate / 1k series Series $6.50 10k – 100k $5.90"
+          },
+          {
+            "text": "$5.90",
+            "billingUnit": false,
+            "context": "$6.50 / 1k series Rate / 1k series Series $6.50 10k – 100k $5.90 100k – 200k $5.50 200k+ Automatic volume discounts. Pricing"
+          },
+          {
+            "text": "$5.50",
+            "billingUnit": false,
+            "context": "Rate / 1k series Series $6.50 10k – 100k $5.90 100k – 200k $5.50 200k+ Automatic volume discounts. Pricing at scale. View ca"
+          },
+          {
+            "text": "$19 per month",
+            "billingUnit": true,
+            "context": "label=product-details-pricing-plan-content> Platform fee of $19 per month includes: 10k active series per month then pay as you go 13"
+          },
+          {
+            "text": "$3",
+            "billingUnit": false,
+            "context": "email support Enterprise Full service Prices are As low as $3 / 1k series Scalable unit price based on annual commit and"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://uxcontent.com/pricing": {
+      "fetchedAt": "2026-09-14T07:39:00.009Z",
+      "data": {
+        "url": "https://uxcontent.com/pricing",
+        "finalUrl": "https://uxcontent.com/pricing",
+        "retrievedAt": "2026-09-14T07:39:00.009Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://localazy.com/blog/top-22-tools-platforms-for-ux-writers?srsltid=AfmBOooIP69aZiRMnwYuaHpA0EQLDnd998lATpyOhoKBcSZjs7ZRR5N7": {
+      "fetchedAt": "2026-09-14T07:33:31.877Z",
+      "data": {
+        "url": "https://localazy.com/blog/top-22-tools-platforms-for-ux-writers?srsltid=AfmBOooIP69aZiRMnwYuaHpA0EQLDnd998lATpyOhoKBcSZjs7ZRR5N7",
+        "finalUrl": "https://localazy.com/blog/top-22-tools-platforms-for-ux-writers?srsltid=AfmBOooIP69aZiRMnwYuaHpA0EQLDnd998lATpyOhoKBcSZjs7ZRR5N7",
+        "retrievedAt": "2026-09-14T07:33:31.877Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 22 essential tools & platforms for UX writers",
+        "description": "Crafting UX microcopy is hard. Don",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://localazy.com/pricing": {
+      "fetchedAt": "2026-09-14T07:33:31.878Z",
+      "data": {
+        "url": "https://localazy.com/pricing",
+        "finalUrl": "https://localazy.com/pricing",
+        "retrievedAt": "2026-09-14T07:33:31.878Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing plans that scale with your localization needs | Localazy",
+        "description": "Straightforward pricing for localization automation. Built-in AI translation and professional human review available. Unlimited users, projects & languages!",
+        "priceMentions": [
+          {
+            "text": "$89/mo",
+            "billingUnit": true,
+            "context": "our current plan. I.e., you upgrade from monthly Autopilot ($89/mo) to Business ($199/mo) in the middle of the billing period."
+          },
+          {
+            "text": "$199/mo",
+            "billingUnit": true,
+            "context": "., you upgrade from monthly Autopilot ($89/mo) to Business ($199/mo) in the middle of the billing period. Your plan is immediat"
+          },
+          {
+            "text": "$45",
+            "billingUnit": false,
+            "context": "illing period. Your plan is immediately upgraded, and about $45 is deducted from the initial upgrade purchase. Last updated"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://miro.com/templates/design-critique/": {
+      "fetchedAt": "2026-09-14T07:39:03.406Z",
+      "data": {
+        "url": "https://miro.com/templates/design-critique/",
+        "finalUrl": "https://miro.com/templates/design-critique/",
+        "retrievedAt": "2026-09-14T07:39:03.406Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Critique Templates & Examples | Miroverse",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.figma.com/community/file/1015720672211061785/design-critique-template": {
+      "fetchedAt": "2026-09-14T07:39:03.406Z",
+      "data": {
+        "url": "https://www.figma.com/community/file/1015720672211061785/design-critique-template",
+        "finalUrl": "https://www.figma.com/community/file/1015720672211061785/design-critique-template",
+        "retrievedAt": "2026-09-14T07:39:03.406Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.nngroup.com/articles/design-critiques/": {
+      "fetchedAt": "2026-09-14T07:33:33.254Z",
+      "data": {
+        "url": "https://www.nngroup.com/articles/design-critiques/",
+        "finalUrl": "https://www.nngroup.com/articles/design-critiques/",
+        "retrievedAt": "2026-09-14T07:33:33.254Z",
+        "status": 200,
+        "error": null,
+        "title": "Design Critiques: Encourage a Positive Culture to Improve Products - NN/G",
+        "description": "Open feedback is essential for a collaborative UX process.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }

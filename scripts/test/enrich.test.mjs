@@ -155,7 +155,7 @@ test('dry run makes zero paid requests and no reservations', async () => {
   assert.equal(run.provider.status, 'dry-run');
   assert.ok(run.ideas.every((i) => i.status === 'dry-run'));
   assert.equal(run.projection.labsKeywords, 6);
-  assert.equal(run.projection.totalUsd, 0.0167);
+  assert.equal(run.projection.totalUsd, 0.01672);
 });
 
 test('missing cap or unconfigured budget means no spending at all', async () => {

@@ -2,7 +2,8 @@
 --
 -- Canonical copy for review. The same file is proposed to Career OS as
 -- supabase/migrations/0024_dataforseo_budget.sql (the ledger lives in Career OS's Supabase).
--- Additive and idempotent. NOT applied to production by this change.
+-- Additive and idempotent. NOT applied to production by this change. Amounts are numeric(12,6):
+-- Labs bills $0.00012 per returned item, and 4 decimals under-recorded a real $0.01404 charge as $0.0140.
 --
 -- WHY. The previous guard was read-then-spend: each caller summed `dataforseo.spend` rows in
 -- runtime_events, called DataForSEO, then appended its charge. Two callers (or two runs of one)
@@ -30,7 +31,7 @@
 
 create table if not exists dataforseo_budget_settings (
   project_id uuid primary key references projects(id) on delete cascade,
-  monthly_cap_usd numeric(10,4) not null check (monthly_cap_usd >= 0),
+  monthly_cap_usd numeric(12,6) not null check (monthly_cap_usd >= 0),
   updated_at timestamptz not null default now()
 );
 
@@ -38,7 +39,7 @@ create table if not exists dataforseo_budget_clients (
   client_id text primary key check (client_id ~ '^[a-z0-9-]{2,40}$'),
   project_id uuid not null references dataforseo_budget_settings(project_id) on delete cascade,
   token_sha256 text not null unique check (token_sha256 ~ '^[0-9a-f]{64}$'),
-  max_request_usd numeric(10,4) not null default 0.10 check (max_request_usd > 0),
+  max_request_usd numeric(12,6) not null default 0.10 check (max_request_usd > 0),
   enabled boolean not null default true,
   created_at timestamptz not null default now()
 );
@@ -49,8 +50,8 @@ create table if not exists dataforseo_budget_holds (
   client_id text not null references dataforseo_budget_clients(client_id),
   budget_month date not null,
   status text not null check (status in ('reserved', 'charged', 'released', 'uncertain')),
-  estimated_usd numeric(10,4) not null check (estimated_usd > 0),
-  actual_usd numeric(10,4) check (actual_usd >= 0),
+  estimated_usd numeric(12,6) not null check (estimated_usd > 0),
+  actual_usd numeric(12,6) check (actual_usd >= 0),
   endpoint text not null,
   request_key text,
   note text,

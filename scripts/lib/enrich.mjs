@@ -45,7 +45,8 @@ import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMa
 export const EVIDENCE_DIR = 'evidence';
 export const SCHEMA_VERSION = 1;
 
-const round4 = (n) => Number(Number(n).toFixed(4));
+// Money is kept to 6 decimals: Labs bills $0.00012 per returned item, so 4 decimals would under-record.
+const roundUsd = (n) => Number(Number(n).toFixed(6));
 const clampInt = (v, d, min, max) => {
   const n = parseInt(v, 10);
   return Number.isFinite(n) ? Math.min(max, Math.max(min, n)) : d;
@@ -386,7 +387,7 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
   const skips = new Map(); // idea id → reasons
 
-  const scoutCeiling = config.capUsd === null ? null : round4(config.capUsd - config.reserveUsd);
+  const scoutCeiling = config.capUsd === null ? null : roundUsd(config.capUsd - config.reserveUsd);
 
   // A failed budget write never loses a charge: the hold stays counted on the server and the
   // update is replayed from the outbox before the next purchase.
@@ -412,7 +413,7 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
         skipped: `an identical earlier request (${String(doubt.fetchedAt).slice(0, 10)}) may have been charged without an answer; it is not re-sent automatically (check the DataForSEO dashboard, then run with SCOUT_RETRY_UNCERTAIN=1)`,
       };
     }
-    const estimate = round4(projected * RESERVE_MARGIN);
+    const estimate = roundUsd(projected * RESERVE_MARGIN);
     if (budget.committedThisRunUsd + estimate > config.maxRunUsd + 1e-9) {
       return { skipped: `budget: this request (~$${estimate.toFixed(4)} reserved) would exceed Scout's per-run limit of $${config.maxRunUsd}` };
     }
@@ -438,7 +439,7 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
       return { skipped: `budget: reservation refused (${r.reason})` };
     }
 
-    budget.committedThisRunUsd = round4(budget.committedThisRunUsd + estimate);
+    budget.committedThisRunUsd = roundUsd(budget.committedThisRunUsd + estimate);
     const line = { at: now().toISOString(), endpoint, requested, holdId, estimateUsd: estimate, costUsd: null, status: 'reserved', budget: 'pending' };
     run.spend.push(line);
     const settlePayload = (extra) => ({
@@ -458,20 +459,20 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
       const reported = typeof err?.cost === 'number' && err.cost > 0 ? err.cost : 0;
       if (reported) {
         line.status = 'charged';
-        line.costUsd = round4(reported);
-        budget.committedThisRunUsd = round4(budget.committedThisRunUsd - estimate + reported);
-        budget.spentThisRunUsd = round4(budget.spentThisRunUsd + reported);
+        line.costUsd = roundUsd(reported);
+        budget.committedThisRunUsd = roundUsd(budget.committedThisRunUsd - estimate + reported);
+        budget.spentThisRunUsd = roundUsd(budget.spentThisRunUsd + reported);
         await budgetOp('settle', { holdId, actualUsd: reported, payload: settlePayload({ measured: 0, error: err.message }) }, line);
       } else if (err?.chargeUnknown) {
         // May have been charged: stays counted at its estimate, is never retried automatically.
         line.status = 'uncertain';
-        budget.spentThisRunUsd = round4(budget.spentThisRunUsd + estimate);
+        budget.spentThisRunUsd = roundUsd(budget.spentThisRunUsd + estimate);
         deps.cache.set('uncertain', requestKey, { data: { holdId, endpoint, reason: err.message } });
         deps.cache.save();
         await budgetOp('uncertain', { holdId, note: err.message }, line);
       } else {
         line.status = 'released';
-        budget.committedThisRunUsd = round4(budget.committedThisRunUsd - estimate);
+        budget.committedThisRunUsd = roundUsd(budget.committedThisRunUsd - estimate);
         await budgetOp('release', { holdId, note: err.message }, line);
       }
       handleErr(err, endpoint);
@@ -480,10 +481,10 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
     const actual = res.cost ?? estimate;
     line.status = 'charged';
-    line.costUsd = round4(actual);
+    line.costUsd = roundUsd(actual);
     line.costEstimated = res.cost === null;
-    budget.committedThisRunUsd = round4(budget.committedThisRunUsd - estimate + actual);
-    budget.spentThisRunUsd = round4(budget.spentThisRunUsd + actual);
+    budget.committedThisRunUsd = roundUsd(budget.committedThisRunUsd - estimate + actual);
+    budget.spentThisRunUsd = roundUsd(budget.spentThisRunUsd + actual);
     await budgetOp('settle', { holdId, actualUsd: actual, payload: settlePayload({ measured: res.measured, measuredAt: res.measuredAt, estimated: res.cost === null }) }, line);
     return { res };
   }
@@ -512,14 +513,14 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     labsTasks: labsNeeded.length,
     labsKeywords: labsNeeded.reduce((n, g) => n + g.needed.length, 0),
     keywordsFromCache: plannedKeywordCount - labsNeeded.reduce((n, g) => n + g.needed.length, 0),
-    labsUsd: round4(labsNeeded.reduce((n, g) => n + projectLabsCost(g.needed.length), 0)),
+    labsUsd: roundUsd(labsNeeded.reduce((n, g) => n + projectLabsCost(g.needed.length), 0)),
     serpQueries: serpNeeded.length,
     serpsFromCache: buyable.reduce((n, i) => n + i.plan.serpQueries.length, 0) - serpNeeded.length,
-    serpUsd: round4(serpNeeded.length * projectSerpCost(config.serpDepth)),
+    serpUsd: roundUsd(serpNeeded.length * projectSerpCost(config.serpDepth)),
     markets: [...groups.values()].map((g) => ({ location: g.market.locationName, language: g.market.languageCode, ideas: g.ideas.length, keywordsToBuy: g.needed.length })),
   };
-  run.projection.totalUsd = round4(run.projection.labsUsd + run.projection.serpUsd);
-  run.projection.reservedUsd = round4(run.projection.totalUsd * RESERVE_MARGIN);
+  run.projection.totalUsd = roundUsd(run.projection.labsUsd + run.projection.serpUsd);
+  run.projection.reservedUsd = roundUsd(run.projection.totalUsd * RESERVE_MARGIN);
 
   for (const g of labsNeeded) {
     const out = await paid({
@@ -581,8 +582,8 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
       }
     }
     run.projection.adsKeywords = adsKeywords;
-    run.projection.adsUsd = round4(adsUsd);
-    run.projection.totalUsd = round4(run.projection.totalUsd + run.projection.adsUsd);
+    run.projection.adsUsd = roundUsd(adsUsd);
+    run.projection.totalUsd = roundUsd(run.projection.totalUsd + run.projection.adsUsd);
   }
 
   for (const idea of todo) {
@@ -666,31 +667,7 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   }
 
   // 3) Competitor pages — free fetches of vendor-like ranking sites (homepage + /pricing).
-  for (const idea of todo) {
-    const candidates = competitorCandidates(idea.serps, config.pagesPerIdea);
-    const urls = [];
-    for (const cand of candidates) {
-      urls.push({ domain: cand.domain, url: cand.url });
-      try {
-        const pricing = new URL('/pricing', cand.url).href;
-        if (pricing !== cand.url) urls.push({ domain: cand.domain, url: pricing });
-      } catch {
-        /* skip malformed */
-      }
-    }
-    const pages = await Promise.all(
-      urls.map(async ({ domain, url }) => {
-        const key = cacheKeys.page(url);
-        const cached = deps.cache.get('pages', key);
-        if (cached) return { domain, ...cached.data, retrievedAt: cached.fetchedAt };
-        const p = await deps.fetchPage(url);
-        // Cache real answers (including robots refusals); retry transient failures next run.
-        if (p.status || p.error === 'robots.txt disallows this path') deps.cache.set('pages', key, { data: p }, p.retrievedAt);
-        return { domain, ...p };
-      }),
-    );
-    idea.pages = pages.map((p, i) => ({ id: `P${i + 1}`, ...p }));
-  }
+  for (const idea of todo) idea.pages = await collectPages(idea, config, deps);
 
   // 4) Status + code-computed readings.
   for (const idea of todo) {
@@ -726,11 +703,42 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     reserveUsd: budget.reserveUsd,
     maxRunUsd: budget.maxRunUsd,
     sharedBefore: budget.sharedBefore,
-    monthToDateUsdBefore: budget.sharedBefore ? round4(budget.sharedBefore.chargedUsd + budget.sharedBefore.heldUsd) : null,
+    monthToDateUsdBefore: budget.sharedBefore ? roundUsd(budget.sharedBefore.chargedUsd + budget.sharedBefore.heldUsd) : null,
     spentThisRunUsd: budget.spentThisRunUsd,
   };
   deps.cache.save();
   return run;
+}
+
+/**
+ * Free page observations for an idea's vendor-like ranking sites. `refresh` re-fetches pages
+ * that were previously refused or failed (successful answers stay cached).
+ */
+export async function collectPages(idea, config, deps, { refresh = false } = {}) {
+  const candidates = competitorCandidates(idea.serps, config.pagesPerIdea);
+  const urls = [];
+  for (const cand of candidates) {
+    urls.push({ domain: cand.domain, url: cand.url });
+    try {
+      const pricing = new URL('/pricing', cand.url).href;
+      if (pricing !== cand.url) urls.push({ domain: cand.domain, url: pricing });
+    } catch {
+      /* skip malformed */
+    }
+  }
+  const pages = await Promise.all(
+    urls.map(async ({ domain, url }) => {
+      const key = cacheKeys.page(url);
+      const cached = deps.cache.get('pages', key);
+      if (cached && !(refresh && cached.data?.error)) return { domain, ...cached.data, retrievedAt: cached.fetchedAt };
+      const p = await deps.fetchPage(url);
+      // Cache real answers (including robots refusals); retry transient failures next run.
+      if (p.status || p.error === 'robots.txt disallows this path') deps.cache.set('pages', key, { data: p }, p.retrievedAt);
+      return { domain, ...p };
+    }),
+  );
+  deps.cache.save();
+  return pages.map((p, i) => ({ id: `P${i + 1}`, ...p }));
 }
 
 // ---------- Assess ----------

@@ -7,7 +7,7 @@ import { offerPrices } from './evidence.mjs';
 
 const esc = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n+/g, ' ').trim();
 const day = (iso) => (iso ? String(iso).slice(0, 10) : 'n/a');
-const money = (n) => (typeof n === 'number' ? `$${n.toFixed(n < 1 ? 4 : 2)}` : 'n/a');
+const money = (n) => (typeof n === 'number' ? `$${n.toFixed(n < 1 ? 5 : 2)}` : 'n/a');
 // Google reports very small volumes as 0; show it as the provider's figure, not a fact of zero demand.
 const vol = (n) => (typeof n === 'number' ? (n === 0 ? '0 (as reported)' : n.toLocaleString('en-US')) : 'unknown');
 const cites = (basis) => (basis?.length ? ` (${basis.map((b) => (typeof b === 'string' ? b : b.id)).join(', ')})` : '');

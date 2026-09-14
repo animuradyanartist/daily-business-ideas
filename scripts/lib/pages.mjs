@@ -69,26 +69,53 @@ export function extractPageSignals(html) {
   };
 }
 
-/** Pure: is `path` allowed for any user-agent by this robots.txt? Conservative, `*` group only. */
-export function robotsAllows(robotsTxt, path) {
+const BOT_TOKEN = 'scoutresearchbot';
+
+function ruleRegex(rule) {
+  const anchored = rule.endsWith('$');
+  const body = (anchored ? rule.slice(0, -1) : rule).replace(/[.+?^{}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*');
+  return new RegExp(`^${body.startsWith('/') || body.startsWith('.*') ? '' : '/'}${body}${anchored ? '$' : ''}`);
+}
+
+/**
+ * Pure: may this bot fetch `pathWithQuery`? Google's robots.txt semantics: groups of consecutive
+ * user-agent lines; the group naming this bot applies, else the `*` group; `*` wildcards and `$`
+ * end anchors; the most specific (longest) matching rule wins, and a tie goes to allow.
+ */
+export function robotsAllows(robotsTxt, pathWithQuery) {
   if (!robotsTxt) return true;
-  const lines = String(robotsTxt).split(/\r?\n/);
-  let inStar = false;
-  const disallow = [];
-  const allow = [];
-  for (const line of lines) {
-    const l = line.replace(/#.*/, '').trim();
-    if (!l) continue;
-    const [field, ...rest] = l.split(':');
-    const value = rest.join(':').trim();
-    const f = field.trim().toLowerCase();
-    if (f === 'user-agent') inStar = value === '*';
-    else if (inStar && f === 'disallow' && value) disallow.push(value);
-    else if (inStar && f === 'allow' && value) allow.push(value);
+  const groups = [];
+  let current = null;
+  let lastWasAgent = false;
+  for (const raw of String(robotsTxt).split(/\r?\n/)) {
+    const line = raw.replace(/#.*/, '').trim();
+    if (!line) continue;
+    const colon = line.indexOf(':');
+    if (colon < 0) continue;
+    const field = line.slice(0, colon).trim().toLowerCase();
+    const value = line.slice(colon + 1).trim();
+    if (field === 'user-agent') {
+      if (!current || !lastWasAgent) {
+        current = { agents: [], rules: [] };
+        groups.push(current);
+      }
+      current.agents.push(value.toLowerCase());
+      lastWasAgent = true;
+    } else if (field === 'allow' || field === 'disallow') {
+      lastWasAgent = false;
+      if (current && value) current.rules.push({ allow: field === 'allow', length: value.length, re: ruleRegex(value) });
+    } else {
+      lastWasAgent = false;
+    }
   }
-  const longest = (rules) => rules.filter((r) => path.startsWith(r.replace(/\*.*$/, ''))).reduce((a, r) => Math.max(a, r.length), -1);
-  const d = longest(disallow);
-  return d < 0 || longest(allow) >= d;
+  const own = groups.filter((g) => g.agents.some((a) => a !== '*' && BOT_TOKEN.includes(a)));
+  const applicable = own.length ? own : groups.filter((g) => g.agents.includes('*'));
+  let best = null;
+  for (const rule of applicable.flatMap((g) => g.rules)) {
+    if (!rule.re.test(pathWithQuery)) continue;
+    if (!best || rule.length > best.length || (rule.length === best.length && rule.allow)) best = rule;
+  }
+  return !best || best.allow;
 }
 
 async function readCapped(res) {
@@ -133,7 +160,7 @@ export function createPageFetcher({ fetchImpl = fetch, timeoutMs = 8000 } = {}) 
     if (!/^https?:$/.test(u.protocol) || PRIVATE_HOST.test(u.hostname)) {
       return { url, retrievedAt, status: null, error: 'not a public web URL' };
     }
-    if (!robotsAllows(await robotsFor(u.origin), u.pathname || '/')) {
+    if (!robotsAllows(await robotsFor(u.origin), `${u.pathname || '/'}${u.search}`)) {
       return { url, retrievedAt, status: null, error: 'robots.txt disallows this path' };
     }
     try {

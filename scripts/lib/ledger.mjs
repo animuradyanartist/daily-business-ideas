@@ -24,7 +24,7 @@ export const SPEND_EVENT = 'dataforseo.spend';
 export const DEFAULT_RESERVE_USD = 1.0;
 export const DEFAULT_MAX_RUN_USD = 0.1;
 
-const round4 = (n) => Number(Number(n).toFixed(4));
+const roundUsd = (n) => Number(Number(n).toFixed(6)); // 6 decimals: per-item Labs prices have 5
 
 function parseMoney(raw) {
   if (raw === undefined || raw === null || String(raw).trim() === '') return null;
@@ -58,7 +58,7 @@ export function remainingAllowance({ capUsd, reserveUsd, maxRunUsd, monthToDateU
   if (capUsd === null || capUsd === undefined || monthToDateUsd === null || monthToDateUsd === undefined) return 0;
   const monthly = capUsd - reserveUsd - monthToDateUsd - spentThisRunUsd;
   const perRun = maxRunUsd - spentThisRunUsd;
-  return Math.max(0, round4(Math.min(monthly, perRun)));
+  return Math.max(0, roundUsd(Math.min(monthly, perRun)));
 }
 
 export function canAfford(projectedUsd, budget) {
@@ -111,7 +111,7 @@ export function createLedger({ url, key, projectId, fetchImpl = fetch, timeoutMs
         const c = r?.payload?.cost;
         if (typeof c === 'number' && Number.isFinite(c)) total += c;
       }
-      return round4(total);
+      return roundUsd(total);
     },
 
     /** Append one charge. Idempotent on `entry.id`: a duplicate insert counts as recorded. */
@@ -147,7 +147,7 @@ export function spendEntry({ runId, cacheKey, endpoint, costUsd, estimated, requ
     id: stableUuid(`scout|${runId}|${cacheKey}`),
     occurredAt: measuredAt,
     payload: {
-      cost: round4(costUsd),
+      cost: roundUsd(costUsd),
       requested,
       measured,
       endpoint,

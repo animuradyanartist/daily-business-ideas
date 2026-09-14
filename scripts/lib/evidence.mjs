@@ -202,11 +202,13 @@ export function commercialReading(rows, pages) {
   const contested = commercial.filter((r) => r.adCompetitionLevel === 'MEDIUM' || r.adCompetitionLevel === 'HIGH');
   const fetched = pages.filter((p) => p.status && p.status < 400 && !p.error);
   const priced = fetched.filter((p) => offerPrices(p).length);
-  const pricedDomains = [...new Set(priced.map((p) => p.domain))];
+  const pricedAll = [...new Set(priced.map((p) => String(p.domain).replace(/^www\./, '')))];
+  const pricedPlatforms = pricedAll.filter((d) => classifyDomain(d) === 'platform');
+  const pricedDomains = pricedAll.filter((d) => classifyDomain(d) !== 'platform');
   const hasData = rows.some((r) => typeof r.searchVolume === 'number' || typeof r.cpcUsd === 'number') || fetched.length > 0;
 
   const level =
-    pricedDomains.length >= 2 ? 'strong' : pricedDomains.length === 1 || bidding.length ? 'moderate' : hasData ? 'weak' : 'unknown';
+    pricedDomains.length >= 2 ? 'strong' : pricedDomains.length === 1 || bidding.length || pricedPlatforms.length ? 'moderate' : hasData ? 'weak' : 'unknown';
 
   const parts = [];
   if (bidding.length) {
@@ -216,8 +218,9 @@ export function commercialReading(rows, pages) {
     parts.push('No advertiser CPC was returned for the commercial keywords.');
   }
   if (contested.length) parts.push(`${contested.length} keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty.`);
-  if (pricedDomains.length) parts.push(`Published offer prices seen on ${pricedDomains.length} ranking domain(s): ${pricedDomains.join(', ')}. Prices show what sellers ask, not verified sales.`);
-  else if (fetched.length) parts.push('No published offer prices were found on the fetched competitor pages.');
+  if (pricedDomains.length) parts.push(`Published offer prices seen on ${pricedDomains.length} ranking site(s): ${pricedDomains.join(', ')}. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor.`);
+  if (pricedPlatforms.length) parts.push(`Broad platforms with their own pricing also rank (${pricedPlatforms.join(', ')}); that is not evidence buyers pay for this idea.`);
+  if (!pricedAll.length && fetched.length) parts.push('No published offer prices were found on the fetched competitor pages.');
   if (!hasData) parts.push('No commercial data was collected.');
 
   return {
@@ -225,6 +228,7 @@ export function commercialReading(rows, pages) {
     biddingKeywordIds: bidding.map((r) => r.id),
     pricedPageIds: priced.map((p) => p.id),
     pricedDomains,
+    pricedPlatforms,
     note: parts.join(' '),
   };
 }
@@ -232,7 +236,11 @@ export function commercialReading(rows, pages) {
 // ---------- Competitors ----------
 
 const DOMAIN_CLASSES = [
-  ['discussion', ['reddit.com', 'quora.com', 'stackexchange.com', 'stackoverflow.com', 'news.ycombinator.com', 'facebook.com', 'linkedin.com', 'x.com', 'twitter.com', 'indiehackers.com', 'biggerpockets.com', 'contractortalk.com']],
+  // Broad horizontal platforms: they rank for almost any template/tool query and publish their
+  // own pricing, which says nothing about whether buyers pay for THIS idea. Kept visible as
+  // alternatives, but their prices cannot make commercial evidence "strong".
+  ['platform', ['figma.com', 'canva.com', 'notion.com', 'notion.so', 'miro.com', 'adobe.com', 'google.com', 'microsoft.com', 'atlassian.com', 'hubspot.com', 'salesforce.com', 'shopify.com', 'wix.com', 'squarespace.com', 'wordpress.com', 'linkedin.com', 'coursera.org', 'udemy.com', 'grammarly.com', 'openai.com', 'chatgpt.com', 'slack.com', 'zoom.us', 'airtable.com', 'monday.com', 'clickup.com', 'asana.com', 'trello.com', 'framer.com', 'webflow.com', 'uxpin.com', 'grafana.com']],
+  ['discussion', ['reddit.com', 'quora.com', 'stackexchange.com', 'stackoverflow.com', 'news.ycombinator.com', 'facebook.com', 'x.com', 'twitter.com', 'indiehackers.com', 'biggerpockets.com', 'contractortalk.com']],
   ['review_directory', ['g2.com', 'capterra.com', 'getapp.com', 'softwareadvice.com', 'trustradius.com', 'trustpilot.com', 'sourceforge.net', 'producthunt.com', 'alternativeto.net', 'yelp.com', 'clutch.co', 'gartner.com', 'saasworthy.com', 'crozdesk.com', 'selecthub.com']],
   ['marketplace', ['amazon.com', 'etsy.com', 'ebay.com', 'apps.apple.com', 'play.google.com', 'apps.shopify.com', 'upwork.com', 'fiverr.com', 'gumroad.com', 'appsumo.com']],
   ['reference_media', ['wikipedia.org', 'youtube.com', 'investopedia.com', 'forbes.com', 'nerdwallet.com', 'indeed.com', 'glassdoor.com', 'pinterest.com', 'tiktok.com', 'instagram.com', 'medium.com', 'hubspot.com', 'nytimes.com', 'wsj.com']],
@@ -272,13 +280,15 @@ export function aggregateDomains(serps) {
 export function competitorSummary(serps, pages) {
   const domains = aggregateDomains(serps);
   const vendorLike = domains.filter((d) => d.class === 'site');
+  const platforms = domains.filter((d) => d.class === 'platform');
   const priced = [...new Set(pages.filter((p) => !p.error && offerPrices(p).length).map((p) => p.domain))];
   return {
     vendorLikeDomains: vendorLike.map((d) => d.domain),
+    platformDomains: platforms.map((d) => d.domain),
     discussionResults: domains.filter((d) => d.class === 'discussion' || d.class === 'review_directory').map((d) => d.domain),
     pricedDomains: priced,
     note: serps.length
-      ? `${vendorLike.length} vendor-like or publisher domain(s) rank across ${serps.length} quer${serps.length === 1 ? 'y' : 'ies'} (not all are competitors — some are consultants or publishers)${priced.length ? `; published offer prices on ${priced.join(', ')}` : ''}.`
+      ? `${vendorLike.length} vendor-like or publisher domain(s)${platforms.length ? ` and ${platforms.length} broad platform(s) (${platforms.map((d) => d.domain).join(', ')})` : ''} rank across ${serps.length} quer${serps.length === 1 ? 'y' : 'ies'} (not all are competitors — some are consultants or publishers)${priced.length ? `; published offer prices on ${priced.join(', ')}` : ''}.`
       : 'No search results collected.',
   };
 }
@@ -286,7 +296,7 @@ export function competitorSummary(serps, pages) {
 /** Which ranking sites to fetch as possible competitors (vendor-like domains only). */
 export function competitorCandidates(serps, limit = 3) {
   return aggregateDomains(serps)
-    .filter((d) => d.class === 'site')
+    .filter((d) => d.class === 'site' || d.class === 'platform')
     .slice(0, limit)
     .map((d) => ({ domain: d.domain, url: d.results[0].url, appearances: d.appearances, bestRank: d.bestRank }));
 }

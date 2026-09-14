@@ -35,7 +35,7 @@ export const MAX_LABS_KEYWORDS = 700; // keyword_overview hard limit per task
 
 export function projectLabsCost(keywordCount) {
   if (!keywordCount) return 0;
-  return round4(PRICES_USD.labsTask + PRICES_USD.labsItem * keywordCount);
+  return roundUsd(PRICES_USD.labsTask + PRICES_USD.labsItem * keywordCount);
 }
 
 export function projectAdsCost(keywordCount) {
@@ -43,7 +43,7 @@ export function projectAdsCost(keywordCount) {
 }
 
 export function projectSerpCost(depth = 10) {
-  return round4(PRICES_USD.serpLivePer10 * Math.max(1, Math.ceil(depth / 10)));
+  return roundUsd(PRICES_USD.serpLivePer10 * Math.max(1, Math.ceil(depth / 10)));
 }
 
 export class ProviderError extends Error {
@@ -65,7 +65,7 @@ export class ProviderError extends Error {
   }
 }
 
-const round4 = (n) => Number(Number(n).toFixed(4));
+const roundUsd = (n) => Number(Number(n).toFixed(6)); // 6 decimals: per-item Labs prices have 5
 const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : null);
 
 // Connection errors raised before the request was sent — these cannot have been billed.
