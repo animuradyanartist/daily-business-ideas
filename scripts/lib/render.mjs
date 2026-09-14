@@ -153,9 +153,11 @@ export function renderEvidenceMarkdown(run) {
   if (run.original) out.push(`- Scout's original memo: [${esc(run.original.title)}](../${run.original.memo}) — ${run.original.score ?? 'n/a'}/100 ${run.original.conviction ?? ''} (unchanged)`);
   const b = run.budget ?? {};
   if (b.capUsd !== undefined) {
-    const total = (run.spend ?? []).reduce((s, x) => s + x.costUsd, 0);
+    const lines = run.spend ?? [];
+    const charged = lines.filter((x) => (x.status ?? 'charged') === 'charged').reduce((s, x) => s + (x.costUsd ?? 0), 0);
+    const uncertain = lines.filter((x) => x.status === 'uncertain');
     out.push(
-      `- Spend: ${money(b.spentThisRunUsd)} at the last paid attempt · ${money(total)} across ${run.spend?.length ?? 0} charge(s) for this file · shared DataForSEO ledger before that attempt: ${money(b.monthToDateUsdBefore)} this month of a ${money(b.capUsd)} cap (Scout reserve ${money(b.reserveUsd)}, per-run limit ${money(b.maxRunUsd)})`,
+      `- Spend: ${money(b.spentThisRunUsd)} at the last paid attempt · ${money(charged)} charged across ${lines.filter((x) => (x.status ?? 'charged') === 'charged').length} request(s) for this file${uncertain.length ? ` · ${uncertain.length} request(s) with unknown outcome held at ${money(uncertain.reduce((s, x) => s + x.estimateUsd, 0))}` : ''} · shared DataForSEO budget before that attempt: ${money(b.monthToDateUsdBefore)} this month of a ${money(b.capUsd)} cap (Scout reserve ${money(b.reserveUsd)}, per-run limit ${money(b.maxRunUsd)}${b.backend ? `, backend ${b.backend}${b.atomic === false ? ' — not atomic' : ''}` : ''})`,
     );
   }
   if (run.lastGather?.note) out.push(`- Last check ${day(run.lastGather.at)}: ${run.lastGather.note}`);

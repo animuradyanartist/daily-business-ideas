@@ -12,9 +12,11 @@
 // before it is made, so the budget gate can refuse it up front.
 //
 // RETRIES ARE BOUNDED AND CHARGE-AWARE. Only failures that cannot have been billed are
-// retried (rate limit, provider 5xx, DNS/connection refused). A timeout or a dropped
-// connection may already have been charged, so it is never retried and is surfaced with
-// `chargeUnknown` so the caller records the projected cost conservatively.
+// retried: a DataForSEO error status in the body (rate limit 40202, internal 5xxxx — the
+// provider does not bill failed tasks) or a connection refused before sending. A timeout,
+// a dropped connection, an HTTP 5xx without a status body, or an unreadable response may
+// already have been charged: never retried, surfaced with `chargeUnknown`, and the caller
+// keeps the budget hold counted as uncertain.
 //
 // SECRETS. Credentials only ever become the Basic-auth header. They are never logged,
 // never put in an error message, and never written to evidence files.
@@ -109,12 +111,13 @@ export function createDataForSeo({
     if (res.status === 401) throw new ProviderError('auth', 40100, 'authentication failed — check the API login and password');
     if (res.status === 402) throw new ProviderError('payment', 40200, 'account balance is insufficient');
     if (res.status === 429) throw new ProviderError('rate_limit', 429, 'rate limit reached');
-    if (res.status >= 500) throw new ProviderError('server', res.status, 'provider returned a server error');
+    // No DataForSEO status body means we cannot tell whether a paid task ran: never retried.
+    if (res.status >= 500) throw new ProviderError('server', res.status, 'provider returned a server error', { chargeUnknown: body !== null });
     let json;
     try {
       json = await res.json();
     } catch {
-      throw new ProviderError('server', res.status, 'response was not JSON');
+      throw new ProviderError('server', res.status, 'response was not JSON', { chargeUnknown: body !== null });
     }
     if (json?.status_code !== 20000) throw classifyApiStatus(json?.status_code, json?.status_message);
     const task = json.tasks?.[0];

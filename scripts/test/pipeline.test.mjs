@@ -32,9 +32,9 @@ function runDaily(dir, env) {
       DATAFORSEO_LOGIN: 'fake',
       DATAFORSEO_PASSWORD: 'fake',
       DATAFORSEO_MONTHLY_USD_CAP: '2',
-      LEDGER_SUPABASE_URL: 'https://ledger.fake',
-      LEDGER_SUPABASE_SERVICE_KEY: 'fake',
-      LEDGER_PROJECT_ID: 'p1',
+      DATAFORSEO_BUDGET_URL: 'https://budget.fake',
+      DATAFORSEO_BUDGET_ANON_KEY: 'fake-anon',
+      DATAFORSEO_BUDGET_TOKEN: 'fake-client-token-0123456789abcdef',
       FAKE_NET_LOG: netLog,
       ...env,
     },
@@ -67,9 +67,16 @@ test('live mode: enrichment runs after the scan, stays separate, and a re-run pa
   const paid = paidCalls(first.calls);
   assert.equal(paid.filter((c) => c.url.includes('keyword_overview')).length, 1); // one batch for the whole shortlist
   assert.equal(paid.filter((c) => c.url.includes('/serp/')).length, 6);
-  const ledgerWrites = first.calls.filter((c) => c.url.includes('ledger.fake') && c.method === 'POST');
-  assert.equal(ledgerWrites.length, 7);
-  assert.ok(ledgerWrites.every((c) => c.body.produced_by === 'scout' && c.body.type === 'dataforseo.spend'));
+  const rpcCalls = first.calls.filter((c) => c.url.includes('budget.fake'));
+  const reserves = rpcCalls.filter((c) => c.url.endsWith('dataforseo_budget_reserve'));
+  const settles = rpcCalls.filter((c) => c.url.endsWith('dataforseo_budget_settle'));
+  assert.equal(reserves.length, 7);
+  assert.equal(settles.length, 7);
+  assert.ok(settles.every((c) => reserves.some((r) => r.body.p_hold_id === c.body.p_hold_id) && c.body.p_payload.source === 'scout'));
+  // every paid request was preceded by its reservation
+  for (const [i, c] of first.calls.entries()) {
+    if (c.method === 'POST' && c.url.includes('api.dataforseo.com')) assert.ok(first.calls.slice(0, i).some((x) => x.url.endsWith('dataforseo_budget_reserve')));
+  }
   const scanIdx = first.calls.findIndex((c) => c.url.includes('generativelanguage'));
   const firstPaid = first.calls.findIndex((c) => c.method === 'POST' && c.url.includes('dataforseo'));
   assert.ok(firstPaid > scanIdx);
@@ -89,7 +96,7 @@ test('dry-run mode (the default): full daily run with zero paid requests', { tim
   const r = runDaily(dir, { SCOUT_DFS_MODE: '' });
   assert.equal(r.status, 0, r.stderr);
   assert.equal(paidCalls(r.calls).length, 0);
-  assert.equal(r.calls.filter((c) => c.url.includes('ledger.fake') && c.method === 'POST').length, 0);
+  assert.equal(r.calls.filter((c) => c.url.endsWith('dataforseo_budget_reserve')).length, 0);
   const run = JSON.parse(readFileSync(join(dir, 'evidence', `${TODAY}.json`), 'utf8'));
   assert.ok(run.ideas.every((i) => i.status === 'dry-run'));
   assert.ok(run.projection.totalUsd > 0);

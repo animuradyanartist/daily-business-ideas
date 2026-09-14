@@ -34,7 +34,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Evidence enrichment (DataForSEO). Paid requests happen ONLY when the repo
           # variable SCOUT_DFS_MODE is "live" AND credentials, the shared cap and the
-          # shared ledger are all configured. Otherwise it is a dry run / pending.
+          # shared budget functions are all configured. Otherwise it is a dry run / pending.
+          # Budget access is the project's anon key + Scout's own client token — never a
+          # service-role key.
           SCOUT_DFS_MODE: ${{ vars.SCOUT_DFS_MODE || 'dry-run' }}
           SCOUT_MARKET_LOCATION: ${{ vars.SCOUT_MARKET_LOCATION }}
           SCOUT_MARKET_LANGUAGE: ${{ vars.SCOUT_MARKET_LANGUAGE }}
@@ -44,9 +46,9 @@ jobs:
           DATAFORSEO_MONTHLY_USD_CAP: ${{ vars.DATAFORSEO_MONTHLY_USD_CAP }}
           DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
           DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
-          LEDGER_SUPABASE_URL: ${{ secrets.LEDGER_SUPABASE_URL }}
-          LEDGER_SUPABASE_SERVICE_KEY: ${{ secrets.LEDGER_SUPABASE_SERVICE_KEY }}
-          LEDGER_PROJECT_ID: ${{ vars.LEDGER_PROJECT_ID }}
+          DATAFORSEO_BUDGET_URL: ${{ vars.DATAFORSEO_BUDGET_URL }}
+          DATAFORSEO_BUDGET_ANON_KEY: ${{ secrets.DATAFORSEO_BUDGET_ANON_KEY }}
+          DATAFORSEO_BUDGET_TOKEN: ${{ secrets.DATAFORSEO_BUDGET_TOKEN }}
         run: node scripts/daily-research.mjs
 
       - name: Commit and push

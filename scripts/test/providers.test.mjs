@@ -140,3 +140,55 @@ test('an unreadable ledger throws instead of reporting zero spend', async () => 
   const ledger = createLedger({ url: 'https://x', key: 'k', projectId: 'p', fetchImpl: async () => new Response('', { status: 500 }) });
   await assert.rejects(() => ledger.monthToDateUsd());
 });
+
+test('HTTP 5xx or an unreadable body on a paid request is chargeUnknown and never retried', async () => {
+  for (const make of [() => new Response('bad gateway', { status: 502 }), () => new Response('{truncated', { status: 200 })]) {
+    let calls = 0;
+    const dfs = createDataForSeo({ login: 'a', password: 'b', sleep: noSleep, fetchImpl: async () => (calls++, make()) });
+    const err = await dfs.serpOrganic('q', { locationName: 'United States', languageCode: 'en' }).catch((e) => e);
+    assert.equal(err.chargeUnknown, true);
+    assert.equal(calls, 1);
+  }
+  // A DataForSEO error status in the body is not billed and may be retried (bounded).
+  let calls = 0;
+  const dfs = createDataForSeo({ login: 'a', password: 'b', sleep: noSleep, fetchImpl: async () => (calls++, json({ status_code: 50000, status_message: 'Internal Error' })) });
+  const err = await dfs.serpOrganic('q', { locationName: 'United States', languageCode: 'en' }).catch((e) => e);
+  assert.equal(err.chargeUnknown, false);
+  assert.equal(calls, 3);
+});
+
+test('budget RPC client: anon key + client token only, refusals surface, missing functions fail closed', async () => {
+  const { createBudgetRpc, BudgetUnavailable } = await import('../lib/budget.mjs');
+  const seen = [];
+  const rpc = createBudgetRpc({
+    url: 'https://x.supabase.co/',
+    anonKey: 'anon-key',
+    token: 't'.repeat(40),
+    fetchImpl: async (url, init) => {
+      seen.push({ url: String(url), headers: init.headers, body: JSON.parse(init.body) });
+      if (String(url).endsWith('dataforseo_budget_reserve')) return json({ ok: false, reason: 'cap', cap_usd: 2, ceiling_usd: 1, charged_usd: 0.98, held_usd: 0.03 });
+      if (String(url).endsWith('dataforseo_budget_settle')) return json({ ok: false, reason: 'hold_released' });
+      return new Response('', { status: 404 });
+    },
+  });
+  const r = await rpc.reserve({ holdId: 'h1', estimatedUsd: 0.02, endpoint: 'e', requestKey: 'k', maxTotalUsd: 1 });
+  assert.deepEqual([r.ok, r.reason, r.ceilingUsd, r.heldUsd], [false, 'cap', 1, 0.03]);
+  assert.equal(seen[0].url, 'https://x.supabase.co/rest/v1/rpc/dataforseo_budget_reserve');
+  assert.equal(seen[0].headers.apikey, 'anon-key');
+  assert.equal(seen[0].body.p_max_total_usd, 1);
+  await assert.rejects(() => rpc.settle({ holdId: 'h1', actualUsd: 0.01 }), (e) => e instanceof BudgetUnavailable && /hold_released/.test(e.message));
+  await assert.rejects(() => rpc.status(), /not installed/);
+  assert.equal(createBudgetRpc({ url: 'https://x', anonKey: 'a' }).configured, false);
+});
+
+test('legacy ledger adapter is explicit about being non-atomic and records uncertain requests at their estimate', async () => {
+  const { createLegacyLedgerBudget } = await import('../lib/budget.mjs');
+  const rows = [];
+  const ledger = { configured: true, monthToDateUsd: async () => 0.9 + rows.reduce((s, r) => s + r.payload.cost, 0), record: async (e) => rows.push(e) };
+  const b = createLegacyLedgerBudget({ ledger, capUsd: 2 });
+  assert.equal(b.atomic, false);
+  assert.equal((await b.reserve({ holdId: 'h1', estimatedUsd: 0.05, endpoint: 'e', maxTotalUsd: 1 })).ok, true);
+  assert.equal((await b.reserve({ holdId: 'h2', estimatedUsd: 0.06, endpoint: 'e', maxTotalUsd: 1 })).reason, 'cap'); // 0.9 + 0.05 held + 0.06 > 1
+  await b.markUncertain({ holdId: 'h1', note: 'timeout' });
+  assert.deepEqual([rows[0].id, rows[0].payload.cost, rows[0].payload.uncertain], ['h1', 0.05, true]);
+});

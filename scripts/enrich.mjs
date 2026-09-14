@@ -4,6 +4,9 @@
 //   node scripts/enrich.mjs --date 2026-09-13 --dry-run  # never makes a paid request
 //   node scripts/enrich.mjs --date 2026-09-13 --live     # paid requests, behind the shared budget gate
 //   node scripts/enrich.mjs --date 2026-09-13 --plan my-keywords.json   # hand-written keyword plan
+//   node scripts/enrich.mjs --date 2026-09-13 --live --retry-uncertain  # re-send requests whose earlier
+//                                                                        # outcome was unknown (check the
+//                                                                        # DataForSEO dashboard first)
 //
 // If evidence/<date>.json exists it is resumed (enriched ideas are never redone).
 // Otherwise the plan is built from ideas/<date>.md — the memo's own idea — and the memo
@@ -42,6 +45,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
 const env = { ...process.env };
 if (flag('--dry-run')) env.SCOUT_DFS_MODE = 'dry-run';
 else if (flag('--live')) env.SCOUT_DFS_MODE = 'live';
+if (flag('--retry-uncertain')) env.SCOUT_RETRY_UNCERTAIN = '1';
 
 const config = readEnrichConfig(env);
 if (config.maxIdeas === 0) {
@@ -86,6 +90,9 @@ if (!run) {
 }
 
 const deps = buildDeps(env);
+if (config.mode === 'live' && !deps.budget.atomic) {
+  console.warn('⚠ SCOUT_BUDGET_BACKEND=legacy-ledger: spend is recorded, but reservations are NOT atomic across apps. Supervised use only.');
+}
 await gatherEvidence({ run, config, deps });
 if (gemini) await assessEvidence({ run, gemini, scoutContext: memo ? memoContext(memo).excerpt : '', models: config.models });
 else run.assessmentError = 'assessment not written: GEMINI_API_KEY is not set';

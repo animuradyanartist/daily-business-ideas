@@ -19,6 +19,7 @@ export const TTL_DAYS = {
   serp: 14, // live organic results
   pages: 14, // competitor pages
   market: 30, // Labs locations_and_languages support check
+  uncertain: 30, // requests that may have been charged without an answer — not re-sent while listed
 };
 
 const DAY_MS = 24 * 60 * 60 * 1000;

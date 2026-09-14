@@ -1,0 +1,45 @@
+name: Tests
+
+# Unit, offline-pipeline and real-Postgres budget tests on the Actions runtime (Node 20).
+# No secrets are used; nothing is committed, deployed or sent.
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Runtime versions
+        run: node --version && psql --version
+
+      - name: Scout tests (unit + offline pipeline + real-Postgres budget)
+        env:
+          BUDGET_TEST_PSQL: psql postgresql://postgres:postgres@localhost:5432/postgres
+        run: node --test --test-reporter=spec scripts/test/*.test.mjs
+
+      - name: Bot tests
+        working-directory: bot
+        run: node --test test/parse.test.mjs

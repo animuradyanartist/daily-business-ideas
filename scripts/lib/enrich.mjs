@@ -21,7 +21,8 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createDataForSeo, ProviderError, projectLabsCost, projectSerpCost, projectAdsCost } from './dataforseo.mjs';
-import { createLedger, readBudgetConfig, canAfford, remainingAllowance, spendEntry } from './ledger.mjs';
+import { createLedger, readBudgetConfig, stableUuid } from './ledger.mjs';
+import { createBudgetRpc, createLegacyLedgerBudget, RESERVE_MARGIN } from './budget.mjs';
 import { createFileCache, createOutbox, cacheKeys, readJson, writeJsonAtomic } from './cache.mjs';
 import { createPageFetcher } from './pages.mjs';
 import {
@@ -68,6 +69,11 @@ export function readEnrichConfig(env = process.env) {
     // Opt-in: price keywords Labs has no record of with the Google Ads endpoint ($0.09/task).
     adsFallback: (env.SCOUT_DFS_ADS_FALLBACK ?? '').trim() === 'live',
     maxAttempts: clampInt(env.SCOUT_ENRICH_MAX_ATTEMPTS, 3, 1, 5),
+    // `rpc` (default): the shared atomic budget functions. `legacy-ledger`: pre-migration,
+    // non-atomic, explicit opt-in for supervised runs only.
+    budgetBackend: (env.SCOUT_BUDGET_BACKEND ?? '').trim() === 'legacy-ledger' ? 'legacy-ledger' : 'rpc',
+    // A request that may have been charged without an answer is never re-sent automatically.
+    retryUncertain: (env.SCOUT_RETRY_UNCERTAIN ?? '').trim() === '1',
     // Optional override for the enrichment planner/assessor models (comma-separated, first
     // tried first). Unset = the same Gemini models as the rest of Scout.
     models: (env.SCOUT_ENRICH_MODELS ?? '').split(',').map((m) => m.trim()).filter(Boolean),
@@ -76,13 +82,25 @@ export function readEnrichConfig(env = process.env) {
 }
 
 export function buildDeps(env = process.env, root = '.') {
+  const config = readEnrichConfig(env);
+  const budget =
+    config.budgetBackend === 'legacy-ledger'
+      ? createLegacyLedgerBudget({
+          ledger: createLedger({
+            url: env.LEDGER_SUPABASE_URL?.trim(),
+            key: env.LEDGER_SUPABASE_SERVICE_KEY?.trim(),
+            projectId: env.LEDGER_PROJECT_ID?.trim(),
+          }),
+          capUsd: config.capUsd,
+        })
+      : createBudgetRpc({
+          url: env.DATAFORSEO_BUDGET_URL?.trim(),
+          anonKey: env.DATAFORSEO_BUDGET_ANON_KEY?.trim(),
+          token: env.DATAFORSEO_BUDGET_TOKEN?.trim(),
+        });
   return {
     dfs: createDataForSeo({ login: env.DATAFORSEO_LOGIN?.trim(), password: env.DATAFORSEO_PASSWORD?.trim() }),
-    ledger: createLedger({
-      url: env.LEDGER_SUPABASE_URL?.trim(),
-      key: env.LEDGER_SUPABASE_SERVICE_KEY?.trim(),
-      projectId: env.LEDGER_PROJECT_ID?.trim(),
-    }),
+    budget,
     cache: createFileCache(join(root, EVIDENCE_DIR, 'cache')),
     outbox: createOutbox(join(root, EVIDENCE_DIR, 'ledger-outbox.json')),
     fetchPage: createPageFetcher(),
@@ -231,11 +249,14 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   const warnings = [];
   if (config.modeWarning) warnings.push(config.modeWarning);
   const budget = {
+    backend: deps.budget.backend,
+    atomic: deps.budget.atomic,
     capUsd: config.capUsd,
     reserveUsd: config.reserveUsd,
     maxRunUsd: config.maxRunUsd,
-    monthToDateUsd: null,
-    spentThisRunUsd: 0,
+    sharedBefore: null, // { chargedUsd, heldUsd } across every app, before this attempt
+    committedThisRunUsd: 0, // open holds + charges of this attempt (per-run limit)
+    spentThisRunUsd: 0, // provider-reported charges + uncertain holds at their estimate
   };
   let block = null; // once set, no paid request is made for the rest of this run
 
@@ -255,29 +276,36 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   if (config.mode !== 'live') setBlock('dry-run', 'Dry run: no paid requests were made (SCOUT_DFS_MODE is not "live").');
   if (!deps.dfs.configured) setBlock('unavailable', 'DataForSEO credentials are not configured.');
   if (config.capUsd === null) setBlock('unavailable', `${config.capError}, so there is no spending allowance.`);
-  if (!deps.ledger.configured) setBlock('unavailable', 'The shared spend ledger is not configured, so spend could not be counted against the shared allowance.');
+  if (!deps.budget.configured) setBlock('unavailable', 'The shared DataForSEO budget is not configured, so spend could not be reserved against the shared allowance.');
+  if (config.mode === 'live' && !deps.budget.atomic) {
+    warnings.push('Budget backend is legacy-ledger: reservations are not atomic across apps (pre-migration, supervised use only).');
+  }
 
-  if (config.mode === 'live' && deps.ledger.configured) {
+  // Budget updates that failed last time are replayed before anything new is bought.
+  if (config.mode === 'live' && deps.budget.configured) {
     const pending = deps.outbox.list();
     if (pending.length) {
       const left = [];
       for (const e of pending) {
         try {
-          await deps.ledger.record(e);
+          if (e.op === 'settle') await deps.budget.settle(e);
+          else if (e.op === 'uncertain') await deps.budget.markUncertain(e);
+          else if (e.op === 'release') await deps.budget.release(e);
+          else throw new Error('unknown outbox entry');
         } catch {
           left.push(e);
         }
       }
       deps.outbox.replace(left);
-      if (left.length) setBlock('pending', `${left.length} earlier charge(s) are still missing from the shared ledger; no purchases until they are recorded.`);
+      if (left.length) setBlock('pending', `${left.length} earlier budget update(s) are still unrecorded; no purchases until they are written.`);
     }
   }
 
-  if (deps.ledger.configured) {
+  if (deps.budget.configured) {
     try {
-      budget.monthToDateUsd = await deps.ledger.monthToDateUsd(now());
-    } catch {
-      setBlock('pending', 'The shared spend ledger could not be read, so nothing was bought.');
+      budget.sharedBefore = await deps.budget.status();
+    } catch (err) {
+      setBlock('pending', `The shared budget could not be read (${err.message}), so nothing was bought.`);
     }
   }
 
@@ -310,67 +338,105 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
   const skips = new Map(); // idea id → reasons
 
-  async function recordCharge({ endpoint, cacheKey, costUsd, estimated, requested, measured, measuredAt }) {
-    budget.spentThisRunUsd = round4(budget.spentThisRunUsd + costUsd);
-    const entry = spendEntry({
-      runId: attemptId,
-      cacheKey: createHash('sha256').update(cacheKey).digest('hex').slice(0, 24),
-      endpoint,
-      costUsd,
-      estimated,
-      requested,
-      measured,
-      market,
-      measuredAt,
-      capUsd: config.capUsd,
-    });
-    const line = { at: measuredAt, endpoint, costUsd: round4(costUsd), estimated: Boolean(estimated), requested, ledgerId: entry.id, ledger: 'recorded' };
+  const scoutCeiling = config.capUsd === null ? null : round4(config.capUsd - config.reserveUsd);
+
+  // A failed budget write never loses a charge: the hold stays counted on the server and the
+  // update is replayed from the outbox before the next purchase.
+  async function budgetOp(op, args, line) {
     try {
-      await deps.ledger.record(entry);
-    } catch {
-      deps.outbox.add(entry);
-      line.ledger = 'outbox';
-      setBlock('pending', 'A charge could not be written to the shared ledger; it was saved to evidence/ledger-outbox.json and further purchases stopped.');
+      if (op === 'settle') await deps.budget.settle(args);
+      else if (op === 'uncertain') await deps.budget.markUncertain(args);
+      else await deps.budget.release(args);
+      line.budget = 'recorded';
+    } catch (err) {
+      deps.outbox.add({ op, ...args, at: now().toISOString() });
+      line.budget = 'outbox';
+      setBlock('pending', `A budget update (${op}) could not be written (${err.message}); it was saved to evidence/ledger-outbox.json and further purchases stopped.`);
     }
-    run.spend.push(line);
   }
 
   async function paid({ endpoint, cacheKey, projected, requested, exec }) {
     if (block) return { skipped: block.reason };
-    const gate = canAfford(projected, budget);
-    if (!gate.ok) {
+    const requestKey = createHash('sha256').update(cacheKey).digest('hex').slice(0, 24);
+    const doubt = deps.cache.get('uncertain', requestKey);
+    if (doubt && !config.retryUncertain) {
       return {
-        skipped: `budget: this request (~$${projected.toFixed(4)}) exceeds Scout's remaining allowance ($${gate.remainingUsd.toFixed(4)}; shared cap $${budget.capUsd}, reserve $${budget.reserveUsd}, month-to-date $${budget.monthToDateUsd}, per-run limit $${budget.maxRunUsd})`,
+        skipped: `an identical earlier request (${String(doubt.fetchedAt).slice(0, 10)}) may have been charged without an answer; it is not re-sent automatically (check the DataForSEO dashboard, then run with SCOUT_RETRY_UNCERTAIN=1)`,
       };
     }
+    const estimate = round4(projected * RESERVE_MARGIN);
+    if (budget.committedThisRunUsd + estimate > config.maxRunUsd + 1e-9) {
+      return { skipped: `budget: this request (~$${estimate.toFixed(4)} reserved) would exceed Scout's per-run limit of $${config.maxRunUsd}` };
+    }
+
+    const holdId = stableUuid(`scout|${attemptId}|${requestKey}`);
+    let r;
+    try {
+      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling });
+    } catch (err) {
+      setBlock('pending', `The shared budget could not be reached (${err.message}), so nothing was bought.`);
+      return { skipped: block.reason };
+    }
+    if (!r.ok) {
+      if (r.reason === 'unauthorized' || r.reason === 'not_configured' || r.reason === 'request_limit') {
+        setBlock('unavailable', `The shared budget refused the reservation (${r.reason}).`);
+        return { skipped: block.reason };
+      }
+      if (r.reason === 'cap') {
+        return {
+          skipped: `budget: a ~$${estimate.toFixed(4)} reservation was refused — shared cap $${r.capUsd}, Scout's ceiling $${r.ceilingUsd} (cap − $${config.reserveUsd} reserve), already charged $${r.chargedUsd}, held by in-flight or uncertain requests $${r.heldUsd}`,
+        };
+      }
+      return { skipped: `budget: reservation refused (${r.reason})` };
+    }
+
+    budget.committedThisRunUsd = round4(budget.committedThisRunUsd + estimate);
+    const line = { at: now().toISOString(), endpoint, requested, holdId, estimateUsd: estimate, costUsd: null, status: 'reserved', budget: 'pending' };
+    run.spend.push(line);
+    const settlePayload = (extra) => ({
+      endpoint,
+      requested,
+      location: market.locationName,
+      language: market.languageCode,
+      source: 'scout',
+      runId: attemptId,
+      ...extra,
+    });
+
     let res;
     try {
       res = await exec();
     } catch (err) {
       const reported = typeof err?.cost === 'number' && err.cost > 0 ? err.cost : 0;
-      if (err?.chargeUnknown || reported) {
-        await recordCharge({
-          endpoint,
-          cacheKey,
-          costUsd: reported || projected,
-          estimated: !reported,
-          requested,
-          measured: 0,
-          measuredAt: now().toISOString(),
-        });
+      if (reported) {
+        line.status = 'charged';
+        line.costUsd = round4(reported);
+        budget.committedThisRunUsd = round4(budget.committedThisRunUsd - estimate + reported);
+        budget.spentThisRunUsd = round4(budget.spentThisRunUsd + reported);
+        await budgetOp('settle', { holdId, actualUsd: reported, payload: settlePayload({ measured: 0, error: err.message }) }, line);
+      } else if (err?.chargeUnknown) {
+        // May have been charged: stays counted at its estimate, is never retried automatically.
+        line.status = 'uncertain';
+        budget.spentThisRunUsd = round4(budget.spentThisRunUsd + estimate);
+        deps.cache.set('uncertain', requestKey, { data: { holdId, endpoint, reason: err.message } });
+        deps.cache.save();
+        await budgetOp('uncertain', { holdId, note: err.message }, line);
+      } else {
+        line.status = 'released';
+        budget.committedThisRunUsd = round4(budget.committedThisRunUsd - estimate);
+        await budgetOp('release', { holdId, note: err.message }, line);
       }
       handleErr(err, endpoint);
       return { error: err?.message ?? 'failed' };
     }
-    await recordCharge({
-      endpoint,
-      cacheKey,
-      costUsd: res.cost ?? projected,
-      estimated: res.cost === null,
-      requested,
-      measured: res.measured,
-      measuredAt: res.measuredAt,
-    });
+
+    const actual = res.cost ?? estimate;
+    line.status = 'charged';
+    line.costUsd = round4(actual);
+    line.costEstimated = res.cost === null;
+    budget.committedThisRunUsd = round4(budget.committedThisRunUsd - estimate + actual);
+    budget.spentThisRunUsd = round4(budget.spentThisRunUsd + actual);
+    await budgetOp('settle', { holdId, actualUsd: actual, payload: settlePayload({ measured: res.measured, measuredAt: res.measuredAt, estimated: res.cost === null }) }, line);
     return { res };
   }
 
@@ -578,12 +644,14 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   run.provider = { status: block ? block.status : 'live', reason: block?.reason ?? null, warnings };
   run.lastGather = { at: now().toISOString(), mode: config.mode, pendingIdeas: todo.length, spentUsd: budget.spentThisRunUsd, note: null };
   run.budget = {
+    backend: budget.backend,
+    atomic: budget.atomic,
     capUsd: budget.capUsd,
     reserveUsd: budget.reserveUsd,
     maxRunUsd: budget.maxRunUsd,
-    monthToDateUsdBefore: budget.monthToDateUsd,
+    sharedBefore: budget.sharedBefore,
+    monthToDateUsdBefore: budget.sharedBefore ? round4(budget.sharedBefore.chargedUsd + budget.sharedBefore.heldUsd) : null,
     spentThisRunUsd: budget.spentThisRunUsd,
-    remainingForScoutUsd: remainingAllowance(budget),
   };
   deps.cache.save();
   return run;
