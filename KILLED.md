@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-14
+*   **The Small E-commerce Brand's "Landed Cost" Calculator** — Killed. While a real pain, the market is flooded with free tools and "good enough" spreadsheets. The willingness to pay for a dedicated, standalone calculator is likely low compared to the geotechnical opportunity.
+*   **The Trade Show Exhibitor's Lead Capture & ROI Calculator** — Killed. Attributing sales ROI to a specific trade show lead is notoriously difficult, making the core value proposition hard to prove definitively. This leads to a "vitamin" perception.
+*   **The Brewery's TTB Compliance Reporting Hub** — A very strong candidate that fits the compliance pattern. However, the geotechnical market has a more powerful, time-bound "why now" trigger due to the incumbent's actions, making it the superior choice for today.
+
 ## 2026-09-13
 - **The Non-Emergency Medical Transportation (NEMT) "Leakproof" Medicaid Billing Hub** — Killed. While the pain is severe, Medicaid billing rules vary significantly by state, making a nationally scalable, self-serve product much more complex.
 - **The Small General Contractor's Certificate of Insurance (COI) Compliance Hub** — Killed. This is a strong risk-mitigation pain, but less acute than the SBIR grant clawback risk. The "why now" is less potent.
