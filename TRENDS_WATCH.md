@@ -387,6 +387,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Post-Award Grant Management** · Using AI to automate compliance tracking, budgeting, and progress reporting for awarded grants. · flagged 2026-09-13 · last checked 2026-09-13 · [origin memo](trends/2026-09-13.md)
 - **AI-Powered "Business-in-a-Box" for Solopreneurs** · Using all-in-one AI platforms to automate the entire back-office workflow for solo service providers. · flagged 2026-09-13 · last checked 2026-09-13 · [origin memo](trends/2026-09-13.md)
 - **"Agentic" AI for Job Application Workflows** · Using autonomous AI agents to manage the entire job application process, from discovery to submission. · flagged 2026-09-13 · last checked 2026-09-13 · [origin memo](trends/2026-09-13.md)
+- **AI Co-pilots for Solo & Small Law Firms** · Using all-in-one AI platforms to automate the administrative back-office for solo legal practitioners. · flagged 2026-09-14 · last checked 2026-09-14 · [origin memo](trends/2026-09-14.md)
+- **AI-Powered College Transfer Navigation** · Using AI to automate the evaluation of academic transcripts and streamline the college credit transfer process. · flagged 2026-09-14 · last checked 2026-09-14 · [origin memo](trends/2026-09-14.md)
+- **AI Professional Certifications** · A new market for certifications focused on practical AI implementation for non-technical business roles. · flagged 2026-09-14 · last checked 2026-09-14 · [origin memo](trends/2026-09-14.md)
 
 
 ## ➡️ Active — plateauing
@@ -652,3 +655,5 @@ _(empty)_
 <!-- 2026-09-12 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-09-13 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
+
+<!-- 2026-09-14 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->

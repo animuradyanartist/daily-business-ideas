@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-14 (trends)
+- An incumbent vendor forcing its entire user base off a legacy product and onto an unpopular new one is one of the most powerful "why now" triggers for a new venture.
+- For professional services firms, the most potent value proposition is not just saving money, but eliminating the non-billable, administrative work that high-value employees hate doing.
+- A market that appears small and niche can be highly valuable if its participants have a high ability to pay and are locked into a painful workflow with a disliked incumbent.
+- The existence of multiple, recent, venture-backed entrants is a strong validation signal that a market pain is real and the opportunity is considered large enough to generate venture returns.
+
+---
+
 ## 2026-09-14
 *   An incumbent vendor forcing its entire user base off a legacy product and onto an unpopular new one is one of the most powerful "why now" triggers for a new venture.
 *   For professional services firms, the most potent value proposition is not just saving money, but eliminating the non-billable, administrative work that high-value employees hate doing.
