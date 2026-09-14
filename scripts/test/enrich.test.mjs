@@ -5,7 +5,8 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, existsSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { newRun, gatherEvidence, readEnrichConfig, constrainAssessment, saveRun, loadRun, attachOriginal, memoContext } from '../lib/enrich.mjs';
+import { newRun, gatherEvidence, readEnrichConfig, constrainAssessment, saveRun, loadRun, attachOriginal, memoContext, recomputeReadings } from '../lib/enrich.mjs';
+import { normalizeRelevance } from '../lib/relevance.mjs';
 import { createFileCache, createOutbox } from '../lib/cache.mjs';
 import { ProviderError } from '../lib/dataforseo.mjs';
 
@@ -142,7 +143,20 @@ test('live run: one batched Labs task, SERPs, every charge reserved then settled
   const a = run.ideas[0];
   assert.equal(a.status, 'enriched');
   assert.equal(a.keywords.find((k) => k.group === 'problem').status, 'no_data'); // absent stays unknown
-  assert.equal(a.readings.demand.level, 'some');
+  // Before the evidence is judged for relevance, idea-level readings are unknown — never assumed relevant.
+  assert.equal(a.readings.demand.level, 'unknown');
+  assert.equal(a.readings.commercial.level, 'unknown');
+  a.relevance = normalizeRelevance(
+    {
+      keywords: a.keywords.map((k) => ({ id: k.id, searcher: 'includes', topic: k.group === 'buying' ? 'category' : 'same', reason: 'test judgement' })),
+      items: [...a.serps.flatMap((x) => x.items), ...a.pages].map((i) => ({ id: i.id, customer: 'broader', problem: 'same', offering: i.domain === 'reddit.com' ? 'no' : 'yes', reason: 'test judgement' })),
+    },
+    a,
+  );
+  recomputeReadings(run);
+  assert.equal(a.readings.demand.level, 'unknown'); // the only measured direct keyword (120/mo) is uncorroborated → not counted, flagged
+  assert.equal(a.readings.demand.upTo, 'some');
+  assert.equal(a.readings.demand.category.level, 'some'); // the buying keyword, shown separately
   assert.equal(a.readings.commercial.level, 'moderate'); // one priced domain + bids
   assert.deepEqual(a.pages.map((p) => p.id), ['P1', 'P2']); // vendor homepage + /pricing, reddit excluded
 });

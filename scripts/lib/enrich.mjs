@@ -45,6 +45,7 @@ import {
   stripUnverifiedUrls,
 } from './evidence.mjs';
 import { renderEvidenceMarkdown } from './render.mjs';
+import { relevanceOf, relevanceDemand, classifyRelevance } from './relevance.mjs';
 import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMatchesEvidence, scrubDemandClaims, normText, quoteFound, ABSENCE, ABSENT_CLAIM } from './grounding.mjs';
 
 // "Validated", "proven", "profitable", "people pay" — claims about buyers paying, not about offerings existing.
@@ -175,13 +176,34 @@ export function recomputeReadings(run) {
         k.trend = summarizeTrend(k.monthlySearches);
       }
     }
-    idea.readings = {
-      demand: demandReading(collected),
-      commercial: commercialReading(collected, idea.pages ?? []),
-      competitors: competitorSummary(idea.serps ?? [], idea.pages ?? []),
-    };
+    idea.readings = relevanceReadings(idea, collected);
   }
   return run;
+}
+
+/**
+ * Code-computed readings, relevance-aware. Idea-level demand counts directly relevant keywords
+ * only (category and broader demand shown separately); commercial signals count keywords that are
+ * direct or category-level and pages of direct competitors or indirect alternatives. Before the
+ * evidence is judged for relevance, idea-level readings are unknown.
+ */
+export function relevanceReadings(idea, collected = (idea.keywords ?? []).filter((k) => k.status !== 'not_collected')) {
+  const rel = relevanceOf(idea);
+  const pages = idea.pages ?? [];
+  const commercial = rel.classified
+    ? commercialReading(
+        collected.filter((k) => ['direct', 'category'].includes(rel.keyword(k.id))),
+        pages.filter((p) => ['direct', 'indirect'].includes(rel.competitor(p.id))),
+      )
+    : { level: 'unknown', biddingKeywordIds: [], pricedPageIds: [], pricedDomains: [], pricedPlatforms: [], note: 'The evidence has not been judged for relevance yet, so commercial signals are not counted.' };
+  const competitors = competitorSummary(idea.serps ?? [], pages);
+  if (rel.classified) {
+    const domains = (type) => [...new Set([...(idea.serps ?? []).flatMap((x) => x.items ?? []), ...pages.filter((p) => !p.error)].filter((i) => rel.competitor(i.id) === type).map((i) => String(i.domain ?? '').replace(/^www\./, '')).filter(Boolean))];
+    competitors.directCompetitorDomains = domains('direct');
+    competitors.indirectAlternativeDomains = domains('indirect');
+    competitors.note += ` Judged for relevance: ${competitors.directCompetitorDomains.length} domain(s) with a direct competitor (same problem)${competitors.directCompetitorDomains.length ? ` (${competitors.directCompetitorDomains.join(', ')})` : ''}, ${competitors.indirectAlternativeDomains.length} with an indirect alternative.`;
+  }
+  return { demand: relevanceDemand(collected, idea), commercial, competitors };
 }
 
 export function saveRun(run, root = '.') {
@@ -758,11 +780,7 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     if (config.mode === 'live' && !(block && ['dry-run', 'unavailable'].includes(block.status) && !anyData)) {
       idea.attempts = (idea.attempts ?? 0) + 1;
     }
-    idea.readings = {
-      demand: demandReading(collectedKw),
-      commercial: commercialReading(collectedKw, idea.pages),
-      competitors: competitorSummary(idea.serps, idea.pages),
-    };
+    idea.readings = relevanceReadings(idea, collectedKw);
     const fp = evidenceFingerprint(idea);
     if (fp !== idea.evidenceFingerprint || prevStatus !== idea.status) {
       idea.evidenceFingerprint = fp;
@@ -826,6 +844,8 @@ Hard rules:
 - Use ONLY the evidence in the JSON below. Evidence ids: K = keyword measurement, S = search result, P = fetched page.
 - EVERY citation is an object {"id": "S1.3", "quote": "..."} where quote is words copied EXACTLY (verbatim, 3+ words) from that item's title, snippet, description or price text. A citation whose quote is not found in the cited item is discarded, and a level resting only on discarded citations becomes "unknown". A valid id without a matching quote proves nothing.
 - Problem evidence must come from search results or pages where people or publishers describe the problem — a keyword row (K) is search demand, not problem evidence.
+- Every keyword and item carries a relevance judgement for THIS idea's customer and problem. A matching quote is not enough. Problem evidence may cite only items with relevance "direct" (same customer, same problem) or "category" (a broader audience or adjacent problem — at most "weak"). Competition may cite only items whose competitor is "direct" (same problem) or "indirect" (an alternative the customer could use instead). Never use "unrelated", "broader" or "uncertain" items or keywords to strengthen anything; citations of them are discarded.
+- Idea-level search demand is readings.demand (directly relevant keywords only). Category and broader-market volumes are context, not demand for this idea.
 - Separate observation from inference. "observed" = directly shown by a quoted item. A claim that something is ABSENT (a competitor lacks X, nobody offers Y) is always "inference".
 - Search volume is searches, not customers. CPC is an advertiser bid, not willingness to pay. Google Ads competition is not SEO difficulty. Never add keyword volumes together. A keyword with searchVolume null has NO data: do not give it a figure and do not call it zero or low demand.
 - Low search volume alone is not a reason to stop: B2B, regulated and emerging problems often have little search.
@@ -840,7 +860,7 @@ For each idea return:
  "whoPays": "who pays and why, 1-2 sentences, marked as inference unless an item shows it",
  "problemEvidence": {"level": "unknown|weak|moderate|strong", "basis": [{"id": "S1.3", "quote": "exact words"}], "observed": "what the quoted items show", "inference": "what you infer, clearly"},
  "competition": {"level": "unknown|sparse|some|crowded", "basis": [{"id": "P1", "quote": "exact words"}],
-   "alternatives": [{"name": "", "what": "what they offer, from the page", "basis": [{"id": "P1", "quote": "exact words"}]}],
+   "alternatives": [{"name": "", "type": "direct|indirect", "what": "what they offer, from the page", "basis": [{"id": "P1", "quote": "exact words"}]}],
    "strengths": [{"text": "", "basis": [{"id": "P1", "quote": "exact words"}], "kind": "observed|inference"}],
    "gaps": [{"text": "", "basis": [], "kind": "observed|inference"}]},
  "changes": [{"original": "a short phrase copied EXACTLY from the original memo", "finding": "what the new evidence shows about it", "basis": [{"id": "K2", "quote": "exact words"}], "effect": "supports|weakens|contradicts|untested"}],
@@ -858,6 +878,7 @@ ${JSON.stringify(bundle)}`;
 }
 
 function evidenceBundle(idea, original) {
+  const rel = relevanceOf(idea);
   return {
     id: idea.id,
     title: idea.title,
@@ -867,14 +888,14 @@ function evidenceBundle(idea, original) {
     readings: idea.readings,
     keywords: idea.keywords
       .filter((k) => k.status !== 'not_collected')
-      .map((k) => ({ id: k.id, keyword: k.keyword, group: k.group, searchVolume: k.searchVolume, trend: k.trend?.direction ?? 'unknown', cpcUsd: k.cpcUsd ?? null, adCompetitionLevel: k.adCompetitionLevel ?? null })),
+      .map((k) => ({ id: k.id, keyword: k.keyword, group: k.group, relevance: rel.keyword(k.id), relevanceReason: rel.reason(k.id), searchVolume: k.searchVolume, trend: k.trend?.direction ?? 'unknown', cpcUsd: k.cpcUsd ?? null, adCompetitionLevel: k.adCompetitionLevel ?? null })),
     searchResults: idea.serps.map((s) => ({
       query: s.query,
-      items: s.items.map((i) => ({ id: i.id, rank: i.rank, domain: i.domain, siteType: i.class, title: i.title, snippet: i.description, url: i.url })),
+      items: s.items.map((i) => ({ id: i.id, rank: i.rank, domain: i.domain, siteType: i.class, relevance: rel.item(i.id), competitor: rel.competitor(i.id), relevanceReason: rel.reason(i.id), title: i.title, snippet: i.description, url: i.url })),
     })),
     pages: idea.pages
       .filter((p) => !p.error)
-      .map((p) => ({ id: p.id, domain: p.domain, url: p.finalUrl ?? p.url, title: p.title, description: p.description, prices: (p.priceMentions ?? []).map((m) => m.context), freeTrial: p.mentionsFreeTrial, contactSales: p.mentionsContactSales })),
+      .map((p) => ({ id: p.id, domain: p.domain, url: p.finalUrl ?? p.url, relevance: rel.item(p.id), competitor: rel.competitor(p.id), relevanceReason: rel.reason(p.id), title: p.title, description: p.description, prices: (p.priceMentions ?? []).map((m) => m.context), freeTrial: p.mentionsFreeTrial, contactSales: p.mentionsContactSales })),
   };
 }
 
@@ -904,7 +925,8 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
   const index = evidenceIndex(idea);
   const urls = ideaEvidenceUrls(idea);
   const originalNorm = normText(original);
-  const validation = { removedLinks: 0, scrubbedSentences: 0, removedSentences: [], rejectedCitations: [], downgraded: [], dropped: [] };
+  const validation = { removedLinks: 0, scrubbedSentences: 0, removedSentences: [], rejectedCitations: [], irrelevantCitations: [], downgraded: [], dropped: [] };
+  const rel = relevanceOf(idea);
 
   const clean = (t, max = 1200) => {
     const r = stripUnverifiedUrls(String(t ?? '').slice(0, max), urls);
@@ -914,20 +936,38 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
     validation.removedSentences.push(...d.removedSentences);
     return d.text.trim();
   };
-  const cited = (basis, what) => {
+  // A verbatim quote is necessary, not sufficient: the cited item must also be about this idea's
+  // customer and problem. Irrelevant, broader or unjudged citations are removed and recorded.
+  //   problem:     search results / pages judged direct or category (keyword rows never count)
+  //   competition: items judged a direct competitor or an indirect alternative
+  //   claim:       keywords judged direct or category; items judged direct/category or an offering
+  const cited = (basis, what, purpose = 'claim') => {
     const r = checkBasis(basis, index);
     for (const x of r.rejected) validation.rejectedCitations.push({ claim: what, ...x });
-    return r.supported;
+    const kept = [];
+    for (const b of r.supported) {
+      const cls = b.kind === 'K' ? rel.keyword(b.id) : rel.item(b.id);
+      const comp = b.kind === 'K' ? null : rel.competitor(b.id);
+      const ok =
+        purpose === 'problem' ? b.kind !== 'K' && ['direct', 'category'].includes(cls)
+          : purpose === 'competition' ? ['direct', 'indirect'].includes(comp)
+            : b.kind === 'K' ? ['direct', 'category'].includes(cls) : ['direct', 'category'].includes(cls) || ['direct', 'indirect'].includes(comp);
+      const relevance = purpose === 'competition' ? `${comp} ${comp === 'direct' || comp === 'indirect' ? (comp === 'direct' ? 'competitor' : 'alternative') : ''}`.trim() : cls;
+      if (ok) kept.push({ ...b, relevance, relevanceReason: rel.reason(b.id) });
+      else if (!(purpose === 'problem' && b.kind === 'K')) validation.irrelevantCitations.push({ claim: what, id: b.id, relevance, reason: rel.reason(b.id) || 'not judged for relevance' });
+      else kept.push({ ...b, relevance: cls, relevanceReason: rel.reason(b.id) }); // keyword rows are handled by the problem-level rule
+    }
+    return kept;
   };
   const claimed = (x, levels) => (levels.includes(x) ? x : 'unknown');
 
-  const peBasis = cited(a?.problemEvidence?.basis, 'problem evidence');
+  const peBasis = cited(a?.problemEvidence?.basis, 'problem evidence', 'problem');
   const peClaimed = claimed(a?.problemEvidence?.level, LEVELS);
   const pe = capProblemLevel(peClaimed, peBasis);
   if (pe.level !== peClaimed) validation.downgraded.push(`problem evidence ${peClaimed} → ${pe.level}: ${pe.why}`);
   const peSources = peBasis.filter((b) => b.kind !== 'K');
 
-  const compBasis = cited(a?.competition?.basis, 'competition');
+  const compBasis = cited(a?.competition?.basis, 'competition', 'competition');
   const compClaimed = claimed(a?.competition?.level, COMPETITION_LEVELS);
   const comp = capCompetitionLevel(compClaimed, compBasis, idea.readings?.competitors);
   if (comp.level !== compClaimed) validation.downgraded.push(`competition ${compClaimed} → ${comp.level}: ${comp.why}`);
@@ -944,9 +984,12 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
   const alternatives = [];
   for (const x of (Array.isArray(a?.competition?.alternatives) ? a.competition.alternatives : []).slice(0, 6)) {
     const name = clean(x?.name, 120);
-    const basis = cited(x?.basis, `alternative ${name}`);
-    if (name && basis.length && nameMatchesEvidence(name, basis, index)) alternatives.push({ name, what: clean(x?.what, 300), basis });
-    else if (name) validation.dropped.push(`alternative "${name}": no quoted evidence naming it`);
+    const basis = cited(x?.basis, `alternative ${name}`, 'competition');
+    if (name && basis.length && nameMatchesEvidence(name, basis, index)) {
+      const type = basis.some((b) => b.relevance === 'direct competitor') ? 'direct' : 'indirect';
+      if (x?.type === 'direct' && type === 'indirect') validation.downgraded.push(`alternative "${name}" direct → indirect: the cited items do not solve the same problem`);
+      alternatives.push({ name, type, what: clean(x?.what, 300), basis });
+    } else if (name) validation.dropped.push(`alternative "${name}": no quoted, relevant evidence that it is an offering for this customer's problem`);
   }
 
   // Headings ("## Competitive landscape") and labels ("Real pain in their words:") are verbatim
@@ -965,7 +1008,9 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
       validation.dropped.push(`change: "${String(c.original).slice(0, 60)}" is a heading or label in Scout's memo, not a claim`);
       continue;
     }
+    const irrelevantBefore = validation.irrelevantCitations.length;
     const basis = cited(c?.basis, 'change');
+    const citedIrrelevant = validation.irrelevantCitations.length > irrelevantBefore;
     const effectClaimed = ['supports', 'weakens', 'contradicts', 'untested'].includes(c?.effect) ? c.effect : 'untested';
     // A keyword the provider returned NO figure for is unknown: it cannot support or weaken anything.
     const measuredIds = new Set(idea.keywords.filter((k) => k.status === 'measured').map((k) => k.id));
@@ -977,7 +1022,7 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
     let why = null;
     if (effect !== 'untested' && !informative.length) {
       effect = 'untested';
-      why = basis.length ? 'cites only keywords with no data (unknown, not evidence)' : 'no quoted evidence';
+      why = basis.length ? 'cites only keywords with no data (unknown, not evidence)' : citedIrrelevant ? 'cites only evidence judged to be about a different customer or problem, or not judged' : 'no quoted evidence';
     } else if (effect !== 'untested' && /\b(market|validated|proven|profitable|pay|paid|revenue|sales|willing)\b/i.test(quoteOriginal) && informative.every((b) => b.kind === 'K')) {
       effect = 'untested';
       why = 'a claim about payment or a validated market cannot rest on search volume';
@@ -1007,6 +1052,8 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
     competition: {
       level: comp.level,
       basis: compBasis,
+      directCompetitors: [...new Set([...compBasis, ...alternatives.flatMap((x) => x.basis)].filter((b) => b.relevance === 'direct competitor').map((b) => b.domain).filter(Boolean))],
+      indirectAlternatives: [...new Set([...compBasis, ...alternatives.flatMap((x) => x.basis)].filter((b) => b.relevance === 'indirect alternative').map((b) => b.domain).filter(Boolean))],
       alternatives,
       strengths: claims(a?.competition?.strengths, 'strength'),
       gaps: claims(a?.competition?.gaps, 'gap'),
@@ -1034,9 +1081,12 @@ export async function assessEvidence({ run, gemini, scoutContext = '', originalF
   );
   if (!targets.length) return run;
   const originalOf = (idea) => String(originalFor ? originalFor(idea) : scoutContext).slice(0, 6000);
-  const errors = [];
-  for (let at = 0; at < targets.length; at += batchSize) {
-    const batch = targets.slice(at, at + batchSize);
+  // Relevance first: an idea is assessed only once its evidence has a current relevance judgement.
+  const errors = await classifyRelevance({ run, gemini, models, batchSize, now, ideas: targets });
+  recomputeReadings(run);
+  const judged = targets.filter((i) => i.relevance && i.relevance.evidenceUpdatedAt === i.evidenceUpdatedAt);
+  for (let at = 0; at < judged.length; at += batchSize) {
+    const batch = judged.slice(at, at + batchSize);
     let raw;
     try {
       raw = await gemini.generateJson('enrich-assess', assessPrompt({ ideas: batch.map((i) => evidenceBundle(i, originalOf(i))) }), {

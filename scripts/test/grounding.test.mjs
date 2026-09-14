@@ -23,6 +23,20 @@ const idea = {
   ],
   pages: [{ id: 'P1', domain: 'critiquekit.io', url: 'https://critiquekit.io/pricing', title: 'Pricing — CritiqueKit', description: 'Team plan for design reviews', priceMentions: [{ text: '$12/mo', context: 'Team $12/mo per editor' }], error: null }],
   readings: { demand: { level: 'some' }, competitors: { vendorLikeDomains: ['critiquekit.io', 'uxwriting.guide', 'figma.com'] } },
+  // Relevance judgements for the target customer (non-native designers) and problem (phrasing critique in English).
+  relevance: {
+    keywords: {
+      K1: { searcher: 'includes', topic: 'category', reason: 'template category the kit is sold into' },
+      K2: { searcher: 'includes', topic: 'same', reason: 'the job the kit helps with' },
+    },
+    items: {
+      'S1.1': { customer: 'same', problem: 'same', offering: 'no', reason: 'a non-native designer describing the problem' },
+      'S1.2': { customer: 'broader', problem: 'same', offering: 'yes', reason: 'feedback templates for all designers' },
+      'S1.3': { customer: 'broader', problem: 'same', offering: 'yes', reason: 'a critique phrasebook for all designers' },
+      'S1.4': { customer: 'same', problem: 'same', offering: 'no', reason: 'an ESL designer describing the problem' },
+      P1: { customer: 'broader', problem: 'same', offering: 'yes', reason: 'pricing of feedback templates for all designers' },
+    },
+  },
 };
 const original = 'The Design Critique Kit for Non-Native Designers. Buyers are non-native designers who dread critique sessions. There is no dedicated product for this today.';
 

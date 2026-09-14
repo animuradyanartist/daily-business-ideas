@@ -104,32 +104,44 @@ export function checkBasis(basis, index, { minQuoteChars = 8 } = {}) {
 
 const distinctDomains = (items) => new Set(items.map((s) => s.domain).filter(Boolean)).size;
 
-/** Problem evidence: people describing the problem — search results or pages, never keyword rows. */
+/**
+ * Problem evidence: people describing the problem — search results or pages, never keyword rows —
+ * and only items judged to be about the idea's customer and problem count. "direct" items (same
+ * customer, same problem) can carry moderate/strong; "category" items (a broader audience or an
+ * adjacent problem) carry at most weak. Citations without a relevance judgement do not count.
+ */
 export function capProblemLevel(level, supported) {
   const sources = supported.filter((s) => s.kind !== 'K');
-  const domains = distinctDomains(sources);
+  const direct = sources.filter((s) => s.relevance === 'direct');
+  const category = sources.filter((s) => s.relevance === 'category');
+  const directDomains = distinctDomains(direct);
   if (!['weak', 'moderate', 'strong'].includes(level)) return { level: 'unknown', why: null };
   if (!sources.length) return { level: 'unknown', why: supported.length ? 'only keyword rows were cited' : 'no citation was supported by a verbatim quote' };
-  if (level === 'strong' && domains < 2) return { level: 'moderate', why: 'strong needs two independent domains' };
+  if (!direct.length && !category.length) return { level: 'unknown', why: 'no cited item was judged to be about this customer and problem' };
+  if (!direct.length) return level === 'weak' ? { level, why: null } : { level: 'weak', why: 'the cited items concern a broader audience or an adjacent problem, not this customer and problem' };
+  if (level === 'strong' && directDomains < 2) return { level: 'moderate', why: 'strong needs two independent domains directly about this customer and problem' };
   return { level, why: null };
 }
 
-/** Competition: vendor-like results/pages count; "sparse" must not contradict what was collected. */
+/**
+ * Competition: only items judged a direct competitor or an indirect alternative count;
+ * "sparse" must not contradict what was collected.
+ */
 export function capCompetitionLevel(level, supported, competitors) {
-  const vendorish = supported.filter((s) => s.kind === 'P' || ['site', 'platform', 'review_directory', 'marketplace'].includes(s.cls));
-  const domains = distinctDomains(vendorish);
-  const seenVendors = competitors?.vendorLikeDomains?.length ?? 0;
+  const offers = supported.filter((s) => s.relevance === 'direct competitor' || s.relevance === 'indirect alternative');
+  const domains = distinctDomains(offers);
+  const judged = Array.isArray(competitors?.directCompetitorDomains);
+  const seenVendors = judged ? competitors.directCompetitorDomains.length + (competitors.indirectAlternativeDomains?.length ?? 0) : competitors?.vendorLikeDomains?.length ?? 0;
   if (level === 'sparse') {
-    if (seenVendors > 2) return { level: 'unknown', why: `"sparse" contradicts ${seenVendors} vendor-like domains in the collected results`, contradiction: true };
+    if (seenVendors > 2) return { level: 'unknown', why: `"sparse" contradicts ${seenVendors} ${judged ? 'relevant competitor or alternative' : 'vendor-like'} domains in the collected results`, contradiction: true };
     return { level: 'sparse', why: null };
   }
   if (!['some', 'crowded'].includes(level)) return { level: 'unknown', why: null };
-  if (!domains) return { level: 'unknown', why: 'no competitor citation was supported by a verbatim quote' };
-  if (level === 'crowded' && domains < 3) return { level: 'some', why: 'crowded needs three distinct vendor-like domains' };
+  if (!domains) return { level: 'unknown', why: 'no cited item was both quote-checked and judged a competitor or alternative for this problem' };
+  if (level === 'crowded' && domains < 3) return { level: 'some', why: 'crowded needs three distinct domains judged competitors or alternatives' };
   return { level, why: null };
 }
 
-// "not only … but also" adds to a claim; it does not say something is absent.
 export const ABSENCE = /\b(no|not(?! only\b)|lacks?|lacking|missing|without|absent|doesn'?t|don'?t|none|never|fails? to|unable)\b/i;
 
 // Narrower than ABSENCE, for Scout's own claims: something is missing from what exists

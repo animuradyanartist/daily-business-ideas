@@ -59,6 +59,13 @@ test('live mode: enrichment runs after the scan, stays separate, and a re-run pa
   assert.equal(run.ideas.length, 3);
   assert.ok(run.ideas.every((i) => i.status === 'enriched' && i.assessment));
   assert.equal(run.ideas.filter((i) => i.matchesOriginalPick).length, 1);
+  // Relevance is judged in the daily run before assessing; idea-level demand counts direct keywords only.
+  const i0 = run.ideas[0];
+  assert.ok(i0.relevance && i0.relevance.evidenceUpdatedAt === i0.evidenceUpdatedAt);
+  assert.equal(i0.readings.demand.scope, 'direct keywords only');
+  assert.equal(i0.readings.demand.category.level, 'some'); // "… pricing" judged category, 140/mo
+  assert.equal(i0.readings.demand.level, 'unknown'); // the one direct keyword with data is uncorroborated → flagged, not counted
+  assert.equal(i0.readings.demand.upTo, 'some');
   const a = run.ideas[0].assessment;
   assert.match(a.opportunity, /\[unverified link removed\]/);
   assert.equal(a.competition.gaps[0].kind, 'inference'); // "observed" without evidence is relabelled
@@ -87,6 +94,9 @@ test('live mode: enrichment runs after the scan, stays separate, and a re-run pa
 
   const evidenceMd = readFileSync(join(dir, 'evidence', `${TODAY}.md`), 'utf8');
   assert.match(evidenceMd, /71\/100 medium \(unchanged\)/);
+  assert.match(evidenceMd, /Search demand for this idea \(directly relevant keywords only\)/);
+  assert.match(evidenceMd, /\| Relevance to this idea \|/);
+  assert.match(evidenceMd, /direct competitor — same problem/);
 
   // Re-run the same day: memo exists → no research, nothing pending → no provider calls.
   const second = runDaily(dir, { SCOUT_DFS_MODE: 'live' });

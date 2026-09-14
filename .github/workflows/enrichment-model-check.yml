@@ -4,7 +4,8 @@ name: Enrichment model check (manual)
 # Manually triggered only: by `workflow_dispatch` once this file is on the default branch, or —
 # before that, while under review — by a person adding the label `model-check:plan` or
 # `model-check:assess` to a same-repository pull request. No schedule. It reads evidence already committed on the branch,
-# makes no DataForSEO request (no DataForSEO or budget secrets are passed), commits nothing,
+# makes no DataForSEO request (no DataForSEO or budget secrets are passed; relevance and assessment
+# work only from evidence already committed), commits nothing,
 # sends no notification, and uploads its outputs as a workflow artifact for review.
 on:
   pull_request:
@@ -76,11 +77,23 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/pilot.mjs assess --pilot "$PILOT"
 
+      - name: Relevance judgements for the keywords-only planner pilot (same Gemini configuration)
+        if: env.TASK == 'assess' && env.PILOT == 'evidence/pilots/pilot-10-source-order'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/pilot.mjs relevance --pilot evidence/pilots/pilot-10-planner-v3 --rejudge
+
       - name: Checks and report
-        if: env.TASK == 'assess'
+        if: always() && env.TASK == 'assess'
         run: |
-          node scripts/pilot.mjs report --pilot "$PILOT"
-          node scripts/pilot.mjs check --pilot "$PILOT"
+          status=0
+          node scripts/pilot.mjs report --pilot "$PILOT" || status=1
+          if [ "$PILOT" = evidence/pilots/pilot-10-source-order ]; then
+            node scripts/pilot.mjs compare --pilot evidence/pilots/pilot-10-planner-v3 || status=1
+            node scripts/pilot.mjs check --pilot evidence/pilots/pilot-10-planner-v3 || status=1
+          fi
+          node scripts/pilot.mjs check --pilot "$PILOT" || status=1
+          exit $status
 
       - name: Upload outputs
         if: always()
@@ -94,5 +107,9 @@ jobs:
             ${{ env.PILOT }}/failure-check.json
             ${{ env.PILOT }}/MODEL-CHECK.md
             ${{ env.PILOT }}/REPORT.md
+            evidence/pilots/pilot-10-planner-v3/run.json
+            evidence/pilots/pilot-10-planner-v3/evidence.md
+            evidence/pilots/pilot-10-planner-v3/MODEL-CHECK.md
+            evidence/pilots/pilot-10-planner-v3/PLANNER-COMPARISON.md
           if-no-files-found: warn
           retention-days: 14

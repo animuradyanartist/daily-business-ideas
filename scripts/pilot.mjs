@@ -9,6 +9,8 @@
 //   node scripts/pilot.mjs check   --pilot <dir>                verification report (plans, grounding, unknowns, memos untouched)
 //   node scripts/pilot.mjs report  --pilot <dir>                readable per-idea comparison
 //   node scripts/pilot.mjs compare --pilot <dir>                planner comparison against the pilot's baseline (keywords-only pilots)
+//   node scripts/pilot.mjs snapshot --pilot <dir> --label <text> keep the current readings + assessments as a named earlier version (offline)
+//   node scripts/pilot.mjs relevance --pilot <dir>              relevance judgements only (keywords-only pilots), Scout's Gemini config
 //
 // Never writes to ideas/ or outcomes/, and never touches the bot's favorites (manual selection).
 // Every step writes only inside the pilot directory (plus the shared evidence cache on gather).
@@ -30,7 +32,10 @@ import {
   evidenceFingerprint,
   collectPages,
   constrainAssessment,
+  recomputeReadings,
 } from './lib/enrich.mjs';
+import { classifyRelevance, relevanceOf, keywordClass } from './lib/relevance.mjs';
+import { relevanceFlags } from './lib/render.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims, figureAfterKeyword, normText } from './lib/grounding.mjs';
 import { planShapeIssues, HEAD_TERM_MAX_WORDS, demandReading } from './lib/evidence.mjs';
 
@@ -267,6 +272,49 @@ if (cmd === 'pages') {
   process.exit(0);
 }
 
+// ---------- snapshot (offline) ----------
+// Keep the current readings and assessment of every idea as a named earlier version inside run.json,
+// so a later recalculation never overwrites what was reported before. Written as-is (no recompute).
+if (cmd === 'snapshot') {
+  const label = value('--label');
+  if (!label) {
+    console.error('snapshot needs --label "<what this version is>"');
+    process.exit(1);
+  }
+  const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
+  for (const idea of run.ideas) {
+    idea.history = idea.history ?? [];
+    if (idea.history.some((h) => h.label === label)) continue;
+    idea.history.push({
+      label,
+      savedAt: new Date().toISOString(),
+      market: idea.market ? { locationName: idea.market.locationName, languageCode: idea.market.languageCode } : null,
+      readings: idea.readings ?? null,
+      assessment: idea.assessment ?? null,
+      assessmentRunner: run.assessmentRunner ?? null,
+    });
+  }
+  writeJsonAtomic(P.run, run);
+  console.log(`✓ ${P.run}: kept "${label}" for ${run.ideas.length} idea(s)`);
+  process.exit(0);
+}
+
+// ---------- relevance (keywords-only pilots) ----------
+if (cmd === 'relevance') {
+  const run = need(P.run, `node scripts/pilot.mjs gather --pilot ${pilotDir} --live`);
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('GEMINI_API_KEY is not set — relevance judgements need Scout\'s Gemini configuration.');
+    process.exit(1);
+  }
+  if (flag('--rejudge')) for (const i of run.ideas) delete i.relevance;
+  const errors = await classifyRelevance({ run, gemini: createGemini(process.env.GEMINI_API_KEY), models: config.models });
+  run.relevanceRunner = runner();
+  run.relevanceError = errors.length ? errors.join(' | ').slice(0, 1500) : undefined;
+  saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
+  console.log(`✓ judged ${run.ideas.filter((i) => i.relevance).length}/${run.ideas.length}${errors.length ? ` · ${errors.join(' | ')}` : ''}`);
+  process.exit(errors.length ? 1 : 0);
+}
+
 // ---------- assess ----------
 if (cmd === 'assess') {
   if (pilot.measure === 'keywords-only') {
@@ -280,15 +328,19 @@ if (cmd === 'assess') {
   }
   if (flag('--reassess')) {
     // Start from unassessed evidence (e.g. after validator changes). Evidence itself is untouched.
-    for (const i of run.ideas) delete i.assessment;
+    for (const i of run.ideas) {
+      delete i.assessment;
+      delete i.relevance;
+    }
     delete run.assessmentError;
     saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
   }
-  const before = Object.fromEntries(run.ideas.map((i) => [i.id, { fp: evidenceFingerprint(i), assessed: Boolean(i.assessment) }]));
+  const before = Object.fromEntries(run.ideas.map((i) => [i.id, { fp: evidenceFingerprint(i), assessed: Boolean(i.assessment), judged: Boolean(i.relevance) }]));
   const gemini = createGemini(process.env.GEMINI_API_KEY);
   const memoOf = new Map(pilot.ideas.map((i) => [i.id, memoContext(readText(i.memo)).excerpt]));
   await assessEvidence({ run, gemini, originalFor: (idea) => memoOf.get(idea.id) ?? '', models: config.models });
   run.assessmentRunner = runner();
+  run.relevanceRunner = runner();
   run.assessmentModels = config.models.length ? config.models : ['gemini-2.5-pro', 'gemini-2.5-flash'];
   saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
 
@@ -296,10 +348,12 @@ if (cmd === 'assess') {
     // The forced-failure check: nothing new assessed, evidence identical, error recorded, file saved.
     const newlyAssessed = run.ideas.filter((i) => !before[i.id].assessed && i.assessment).length;
     const changed = run.ideas.filter((i) => evidenceFingerprint(i) !== before[i.id].fp).length;
+    const newlyJudged = run.ideas.filter((i) => !before[i.id].judged && i.relevance).length;
+    const kept = run.ideas.filter((i) => i.history?.length).length;
     const saved = readJson(P.run, null);
-    const ok = newlyAssessed === 0 && changed === 0 && Boolean(run.assessmentError) && saved?.ideas?.length === run.ideas.length;
-    console.log(`[expect-failure] newly assessed ${newlyAssessed} (want 0) · evidence changed ${changed} (want 0) · error recorded ${Boolean(run.assessmentError)} · saved ${saved?.ideas?.length}/${run.ideas.length}`);
-    writeJsonAtomic(join(pilotDir, 'failure-check.json'), { at: new Date().toISOString(), runner: runner(), newlyAssessed, evidenceChanged: changed, assessmentError: run.assessmentError ?? null, ok });
+    const ok = newlyAssessed === 0 && newlyJudged === 0 && changed === 0 && Boolean(run.assessmentError) && saved?.ideas?.length === run.ideas.length;
+    console.log(`[expect-failure] newly assessed ${newlyAssessed} (want 0) · newly judged ${newlyJudged} (want 0) · evidence changed ${changed} (want 0) · earlier versions kept ${kept} · error recorded ${Boolean(run.assessmentError)} · saved ${saved?.ideas?.length}/${run.ideas.length}`);
+    writeJsonAtomic(join(pilotDir, 'failure-check.json'), { at: new Date().toISOString(), runner: runner(), newlyAssessed, newlyJudged, evidenceChanged: changed, earlierVersionsKept: kept, assessmentError: run.assessmentError ?? null, ok });
     process.exit(ok ? 0 : 1);
   }
   const assessed = run.ideas.filter((i) => i.assessment).length;
@@ -362,6 +416,34 @@ function memoVocabulary(id, plan) {
   return { share: grounded.length / kws.length, off: kws.filter((k) => !grounded.includes(k)) };
 }
 
+/** Every relevance-rule violation in one idea's stored assessment and readings (should be none). */
+function relevanceViolations(idea) {
+  const rel = relevanceOf(idea);
+  const out = [];
+  const a = idea.assessment;
+  const itemOk = (b) => ['direct', 'category'].includes(rel.item(b.id)) || ['direct', 'indirect'].includes(rel.competitor(b.id));
+  if (a) {
+    for (const b of a.problemEvidence.basis.filter((x) => x.kind !== 'K')) if (!['direct', 'category'].includes(rel.item(b.id))) out.push(`problem evidence cites ${b.id} (${rel.item(b.id)})`);
+    for (const b of a.competition.basis) if (!['direct', 'indirect'].includes(rel.competitor(b.id))) out.push(`competition cites ${b.id} (${rel.competitor(b.id)})`);
+    for (const x of a.competition.alternatives) {
+      if (!x.type || !x.basis.some((b) => ['direct', 'indirect'].includes(rel.competitor(b.id)))) out.push(`alternative ${x.name} has no competitor evidence`);
+      if (x.type === 'direct' && !x.basis.some((b) => rel.competitor(b.id) === 'direct')) out.push(`alternative ${x.name} typed direct without a direct-competitor item`);
+    }
+    for (const c of [...a.changes, ...a.competition.strengths, ...a.competition.gaps]) {
+      for (const b of c.basis) if (b.kind === 'K' ? !['direct', 'category'].includes(rel.keyword(b.id)) : !itemOk(b)) out.push(`claim cites ${b.id} (${b.kind === 'K' ? rel.keyword(b.id) : rel.item(b.id)})`);
+    }
+    if (a.problemEvidence.level !== 'unknown' && !a.problemEvidence.basis.some((b) => b.kind !== 'K' && ['direct', 'category'].includes(rel.item(b.id)))) out.push('problem evidence level without relevant items');
+    if (['moderate', 'strong'].includes(a.problemEvidence.level) && !a.problemEvidence.basis.some((b) => rel.item(b.id) === 'direct')) out.push(`problem evidence ${a.problemEvidence.level} without a direct item`);
+  }
+  const top = idea.readings?.demand?.top;
+  if (top?.id && rel.keyword(top.id) !== 'direct') out.push(`idea-level demand set by ${top.id} (${rel.keyword(top.id)})`);
+  return out;
+}
+
+const before = (idea) => idea.history?.[0] ?? null;
+const demandCell = (d) => (d ? `${d.level}${d.upTo ? ` (≤${d.upTo}?)` : ''}` : 'n/a');
+const compCell = (a) => (a ? `${a.competition.level}${a.competition.alternatives ? ` · ${a.competition.alternatives.filter((x) => x.type === 'direct').length}d/${a.competition.alternatives.filter((x) => x.type === 'indirect').length}i` : ''}` : 'n/a');
+
 // ---------- check ----------
 if (cmd === 'check') {
   const plans = readJson(P.plans, null);
@@ -419,6 +501,10 @@ if (cmd === 'check') {
     record('Every planned keyword was collected (measured or no data)', run.ideas.every((i) => i.keywords.length && i.keywords.every((k) => k.status !== 'not_collected')), run.ideas.map((i) => `${i.id} ${i.status}`).join(' · '));
     record('Missing keyword data is stored as unknown (null), never as 0', unknownKeywords.every((k) => k.searchVolume === null), `${unknownKeywords.length} keyword(s) without data`);
     record('No search result pages were bought (keywords-only pilot)', run.ideas.every((i) => !i.serps.length) && !run.spend.some((l) => l.endpoint.startsWith('serp/')), `${run.spend.filter((l) => l.endpoint.startsWith('serp/')).length} SERP request(s)`);
+    const unjudged = run.ideas.filter((i) => !i.relevance).map((i) => i.id);
+    record('Every idea\'s keywords have relevance judgements (missing ones count as uncertain)', unjudged.length === 0, `${run.ideas.length - unjudged.length}/${run.ideas.length} judged${unjudged.length ? `; not judged: ${unjudged.join(', ')}` : ''}; ${run.ideas.reduce((n, i) => n + (i.relevance?.missing?.length ?? 0), 0)} keyword(s) left without a judgement`);
+    const v = run.ideas.flatMap((i) => relevanceViolations(i).map((x) => `${i.id}: ${x}`));
+    record('Idea-level demand is set only by directly relevant keywords', v.length === 0, v.length ? v.join('; ') : `${run.ideas.length} idea(s) checked`);
   } else if (run) {
     const eligible = run.ideas.filter((i) => ['enriched', 'partial'].includes(i.status));
     const assessed = eligible.filter((i) => i.assessment);
@@ -495,7 +581,16 @@ if (cmd === 'check') {
     const unknownKeywords = run.ideas.flatMap((i) => i.keywords.filter((k) => k.status !== 'measured'));
     record('Missing keyword data is stored as unknown (null), never as 0', unknownKeywords.every((k) => k.searchVolume === null), `${unknownKeywords.length} keyword(s) without data`);
     const fc = readJson(join(pilotDir, 'failure-check.json'), null);
-    record('Forced model failure preserved evidence and allowed resumption', Boolean(fc?.ok) && assessed.length === eligible.length, fc ? `failure step: newly assessed ${fc.newlyAssessed}, evidence changed ${fc.evidenceChanged}, error "${String(fc.assessmentError).slice(0, 120)}"; resumed: ${assessed.length}/${eligible.length} assessed` : 'failure-check.json missing');
+    const unjudged = eligible.filter((i) => !i.relevance || i.relevance.evidenceUpdatedAt !== i.evidenceUpdatedAt).map((i) => i.id);
+    record('Every idea\'s keywords, search results and pages have current relevance judgements (missing ones count as uncertain)', unjudged.length === 0, `${eligible.length - unjudged.length}/${eligible.length} judged${unjudged.length ? `; not judged: ${unjudged.join(', ')}` : ''}; ${eligible.reduce((n, i) => n + (i.relevance?.missing?.length ?? 0), 0)} item(s) left without a judgement`);
+    const violations = eligible.flatMap((i) => relevanceViolations(i).map((x) => `${i.id}: ${x}`));
+    record('No stored reading or citation relies on evidence judged unrelated, broader or unjudged; alternatives are typed from the evidence', violations.length === 0, violations.length ? violations.join('; ') : `${eligible.length} idea(s) checked`);
+    const irrelevant = assessed.reduce((n, i) => n + (i.assessment.validation?.irrelevantCitations?.length ?? 0), 0);
+    const flags = eligible.flatMap((i) => relevanceFlags(i).map((f) => `${i.id}: ${f}`));
+    record('Relevance checks intervened / ambiguous cases flagged for a person (informational)', true, `${irrelevant} quoted citation(s) removed as not about the customer and problem · ${flags.length} flag(s)`);
+    if (flags.length) lines.push('Relevance cases for a person (not counted as idea evidence):', ...flags.map((f) => `- ${esc(f)}`), '');
+    record('Earlier results preserved (run.json keeps the version before relevance checks)', eligible.every((i) => i.history?.length), `${eligible.filter((i) => i.history?.length).length}/${eligible.length} idea(s) keep: ${[...new Set(eligible.flatMap((i) => (i.history ?? []).map((h) => h.label)))].join('; ') || 'none'}`);
+    record('Forced model failure preserved evidence and allowed resumption', Boolean(fc?.ok) && assessed.length === eligible.length, fc ? `failure step: newly assessed ${fc.newlyAssessed}, newly judged ${fc.newlyJudged ?? 'n/a'}, evidence changed ${fc.evidenceChanged}, error "${String(fc.assessmentError).slice(0, 120)}"; resumed: ${assessed.length}/${eligible.length} assessed` : 'failure-check.json missing');
   }
 
   lines.push('| Check | Result | Detail |', '|---|---|---|', ...results.map((r) => `| ${esc(r.name)} | ${r.pass ? 'pass' : '**FAIL**'} | ${esc(r.detail)} |`));
@@ -594,6 +689,55 @@ if (cmd === 'compare') {
     '',
     'Reading this honestly: more keywords with data is only better if the keywords still describe the idea. Broad head terms measure the category the idea sells into, or a wider market, not its niche angle (non-native speakers).',
   ];
+  if (run?.ideas?.some((i) => i.relevance) || base.run?.ideas?.some((i) => i.relevance)) {
+    const sameMarket = (a, b) => a && b && a.locationName === b.locationName && a.languageCode === b.languageCode;
+    out.push(
+      '',
+      '## Idea-level demand after relevance checks (directly relevant keywords only)',
+      '',
+      `_Same collected data, no new DataForSEO request. Keywords judged automatically${run?.relevanceRunner?.runId ? ` (v3: GitHub Actions run ${run.relevanceRunner.runId})` : ''}${base.run?.relevanceRunner?.runId ? `; v2: run ${base.run.relevanceRunner.runId}` : ''}. v2 and v3 are compared only when the idea used the same country and language; otherwise the row is marked non-comparable. "≤X?" = would reach X if a flagged keyword is confirmed._`,
+      '',
+      '| Idea | v2 market | v3 market | v2 idea-level (category · broader) | v3 idea-level (category · broader) | Comparison |',
+      '|---|---|---|---|---|---|',
+      ...ids.map((id) => {
+        const a = base.run?.ideas.find((i) => i.id === id);
+        const b = run?.ideas.find((i) => i.id === id);
+        const cell = (i) => (i?.relevance ? `${demandCell(i.readings?.demand)} (${i.readings?.demand?.category?.level} · ${i.readings?.demand?.broader?.level})` : 'not judged');
+        const mk = (i) => (i?.market ? `${i.market.locationName}/${i.market.languageCode}` : 'n/a');
+        const comparable = sameMarket(a?.market, b?.market);
+        const verdict = !comparable ? '**non-comparable** (different market)' : !(a?.relevance && b?.relevance) ? 'pending judgement' : a.readings.demand.level === b.readings.demand.level ? `same (${b.readings.demand.level})` : `${a.readings.demand.level} → ${b.readings.demand.level}`;
+        return `| \`${id}\` | ${mk(a)} | ${mk(b)} | ${cell(a)} | ${cell(b)} | ${verdict} |`;
+      }),
+    );
+    const human = readJson(P.review, null)?.judgements;
+    if (human) {
+      const map = { 'on-idea': 'direct', category: 'category', broader: 'broader' };
+      const pairs = [];
+      for (const r of [base.run, run].filter(Boolean)) {
+        for (const i of r.ideas) {
+          if (!i.relevance) continue;
+          const rel = relevanceOf(i);
+          for (const k of i.keywords.filter((x) => x.status === 'measured')) {
+            const h = human[i.id]?.[k.keyword];
+            if (h) pairs.push({ id: i.id, keyword: k.keyword, volume: k.searchVolume, human: map[h], model: rel.keyword(k.id) });
+          }
+        }
+      }
+      const uniq = pairs.filter((x, n) => pairs.findIndex((y) => y.id === x.id && y.keyword === x.keyword) === n);
+      const agree = uniq.filter((x) => x.human === x.model);
+      const risky = uniq.filter((x) => x.model === 'direct' && x.human !== 'direct');
+      out.push(
+        '',
+        '### Automated judgements vs the earlier human review',
+        '',
+        `Of ${uniq.length} measured keywords a person had labelled, the automated judgement matched ${agree.length} (${uniq.length ? Math.round((100 * agree.length) / uniq.length) : 0}%). ${risky.length} were judged directly relevant by the model but not by the person — the risky direction, since only direct keywords count${risky.length ? `: ${risky.map((x) => `"${x.keyword}" ${x.volume}/mo (${x.id}, person: ${x.human})`).join('; ')}` : ''}. The corroboration guard is what limits the damage of such errors.`,
+        '',
+        '| Idea | Keyword | Monthly searches | Person | Model |',
+        '|---|---|---|---|---|',
+        ...uniq.filter((x) => x.human !== x.model).map((x) => `| \`${x.id}\` | ${esc(x.keyword)} | ${x.volume} | ${x.human} | ${x.model} |`),
+      );
+    }
+  }
   const review = readJson(P.review, null);
   if (review?.judgements) {
     const judge = (id, k) => review.judgements?.[id]?.[k.keyword] ?? 'not judged';
@@ -675,6 +819,23 @@ if (cmd === 'report') {
   ];
   const review = readJson(P.review, null);
   if (review && review.liveRun === run.assessmentRunner?.runId) out.push(...reviewLines(review));
+  const earlier = run.ideas.map(before).find(Boolean);
+  if (earlier) {
+    out.push(
+      '## Relevance checks — before → after',
+      '',
+      `_Before: "${esc(earlier.label)}" (kept unchanged in run.json under \`history\`). After: the same collected evidence (no new DataForSEO request), every keyword and item judged for this idea's customer and problem${run.relevanceRunner?.runId ? ` (GitHub Actions run ${run.relevanceRunner.runId})` : ''}, then re-assessed. Demand "after" counts directly relevant keywords only; "≤X?" = would reach X if a flagged keyword is confirmed. Competition "Nd/Mi" = direct competitors / indirect alternatives named._`,
+      '',
+      '| Idea | Market | Demand before | Idea-level demand after | Category · broader demand | Problem evidence before → after | Competition before → after | Flags |',
+      '|---|---|---|---|---|---|---|---|',
+      ...run.ideas.map((i) => {
+        const h = before(i);
+        const d = i.readings?.demand;
+        return `| \`${i.id}\` | ${i.market?.locationName ?? ''}/${i.market?.languageCode ?? ''} | ${h?.readings?.demand?.level ?? 'n/a'} | ${demandCell(d)} | ${d?.category?.level ?? 'n/a'} · ${d?.broader?.level ?? 'n/a'} | ${h?.assessment?.problemEvidence?.level ?? 'n/a'} → ${i.assessment?.problemEvidence?.level ?? 'n/a'} | ${h?.assessment?.competition?.level ?? 'n/a'} → ${compCell(i.assessment)} | ${relevanceFlags(i).length} |`;
+      }),
+      '',
+    );
+  }
   run.ideas.forEach((idea, n) => {
     const src = pilot.ideas.find((i) => i.id === idea.id);
     const memo = readText(src.memo);
@@ -696,7 +857,27 @@ if (cmd === 'report') {
     out.push(`- Competitors: ${esc(r.competitors?.note ?? 'not collected')}`);
     if (a) {
       out.push(`- Problem evidence (assessed, quote-checked): **${a.problemEvidence.level}**${a.problemEvidence.observed ? ` — ${esc(a.problemEvidence.observed)}` : ''}${a.problemEvidence.basis.length ? ` (${a.problemEvidence.basis.map((b) => b.id).join(', ')})` : ''}`);
-      if (a.competition.alternatives.length) out.push(`- Alternatives: ${a.competition.alternatives.map((x) => `${esc(x.name)} — ${esc(x.what)} (${x.basis.map((b) => b.id).join(', ')})`).join('; ')}`);
+      if (a.competition.alternatives.length) out.push(`- Alternatives: ${a.competition.alternatives.map((x) => `${esc(x.name)} _(${x.type === 'direct' ? 'direct competitor' : 'indirect alternative'})_ — ${esc(x.what)} (${x.basis.map((b) => b.id).join(', ')})`).join('; ')}`);
+    }
+    const rel = relevanceOf(idea);
+    const h = before(idea);
+    if (idea.relevance) {
+      out.push('', `**Relevance of the evidence to this idea** — customer: ${esc(idea.plan?.targetCustomer)} · problem: ${esc(idea.plan?.problem)}`, '');
+      out.push('| Keyword | Monthly searches | Relevance | Reason |', '|---|---|---|---|');
+      for (const k of idea.keywords) out.push(`| ${esc(k.keyword)} | ${k.status === 'measured' ? k.searchVolume : 'no data'} | ${rel.keyword(k.id)} | ${esc(rel.reason(k.id) || 'not judged')} |`);
+      const citedIds = [...new Set([...(a?.problemEvidence?.basis ?? []), ...(a?.competition?.basis ?? []), ...(a?.competition?.alternatives ?? []).flatMap((x) => x.basis)].map((b) => b.id))];
+      const removed = a?.validation?.irrelevantCitations ?? [];
+      if (citedIds.length || removed.length) {
+        const title = (id) => [...idea.serps.flatMap((x) => x.items), ...idea.pages].find((i) => i.id === id);
+        out.push('', '| Cited item | Problem relevance | Competitor | Counted? | Reason |', '|---|---|---|---|---|');
+        for (const id of citedIds) out.push(`| ${id} ${esc(title(id)?.domain ?? '')} — ${esc(title(id)?.title ?? '')} | ${rel.item(id)} | ${rel.competitor(id)} | yes | ${esc(rel.reason(id))} |`);
+        for (const x of removed.filter((r, k, arr) => arr.findIndex((y) => y.id === r.id) === k)) if (!citedIds.includes(x.id)) out.push(`| ${x.id} ${esc(title(x.id)?.domain ?? '')} — ${esc(title(x.id)?.title ?? '')} | ${rel.item(x.id)} | ${rel.competitor(x.id)} | **no — removed** | ${esc(x.reason)} |`);
+      }
+      const flags = relevanceFlags(idea);
+      if (flags.length) out.push('', '_Flagged for a person (not counted):_', ...flags.map((f) => `- ${esc(f)}`));
+    }
+    if (h) {
+      out.push('', `**Before relevance checks** (_${esc(h.label)}_): search demand ${h.readings?.demand?.level ?? 'n/a'}${h.readings?.demand?.top ? ` ("${esc(h.readings.demand.top.keyword)}" ${h.readings.demand.top.searchVolume}/mo)` : ''} · problem evidence ${h.assessment?.problemEvidence?.level ?? 'n/a'} · competition ${h.assessment?.competition?.level ?? 'n/a'} · changes ${(h.assessment?.changes ?? []).map((c) => c.effect).join('/') || 'none'}. **After:** idea-level demand ${demandCell(idea.readings?.demand)} · problem evidence ${a?.problemEvidence?.level ?? 'n/a'} · competition ${compCell(a)} · changes ${(a?.changes ?? []).map((c) => c.effect).join('/') || 'none'}.`);
     }
     out.push('', '**What changed and why**', '');
     if (a?.changes?.length) for (const c of a.changes) out.push(`- ${c.effect}: Scout said "${esc(c.original)}" → ${esc(c.finding)}${c.basis.length ? ` (${c.basis.map((b) => b.id).join(', ')})` : ''}`);

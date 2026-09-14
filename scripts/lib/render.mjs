@@ -4,6 +4,7 @@
 // evidence file does not contain.
 
 import { offerPrices } from './evidence.mjs';
+import { relevanceOf } from './relevance.mjs';
 
 const esc = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n+/g, ' ').trim();
 const day = (iso) => (iso ? String(iso).slice(0, 10) : 'n/a');
@@ -26,14 +27,35 @@ function trendText(t) {
   return `${t.direction} (${t.changePct > 0 ? '+' : ''}${t.changePct}%)`;
 }
 
+const relText = (rel, id, cls) => (rel.classified ? `${cls}${rel.reason(id) ? ` — ${esc(rel.reason(id))}` : ''}` : 'not judged yet');
+const itemText = (rel, id) => {
+  const c = rel.competitor(id);
+  return `${rel.item(id)}${c === 'direct' ? ' · direct competitor' : c === 'indirect' ? ' · indirect alternative' : ''}`;
+};
+
+/** Ambiguous or unjudged relevance cases, for a person to check. */
+export function relevanceFlags(idea) {
+  if (!idea.relevance) return (idea.keywords ?? []).some((k) => k.status !== 'not_collected') ? ['Evidence has not been judged for relevance yet — no idea-level reading is counted.'] : [];
+  const rel = relevanceOf(idea);
+  const out = (idea.readings?.demand?.flags ?? []).filter((f) => f.kind === 'uncorroborated').map((f) => f.text);
+  const uncertainKw = (idea.keywords ?? []).filter((k) => k.status === 'measured' && rel.keyword(k.id) === 'uncertain');
+  if (uncertainKw.length) out.push(`Keywords with data but unclear relevance (not counted): ${uncertainKw.map((k) => `"${k.keyword}" ${k.searchVolume}/mo`).join(', ')}.`);
+  const items = [...(idea.serps ?? []).flatMap((s) => s.items ?? []), ...(idea.pages ?? []).filter((p) => !p.error)];
+  const uncertainItems = items.filter((i) => rel.item(i.id) === 'uncertain');
+  if (uncertainItems.length) out.push(`Items with unclear relevance (not counted): ${uncertainItems.map((i) => i.id).join(', ')}.`);
+  return out;
+}
+
 function dimensionRows(idea) {
   const a = idea.assessment;
   const r = idea.readings ?? {};
   const rows = [
     ['Customer problem', a?.problemEvidence?.level ?? 'unknown', a ? `${a.problemEvidence.observed || 'No cited observation.'}${cites(a.problemEvidence.basis)}` : 'Not assessed yet.'],
-    ['Search demand and trend', r.demand?.level ?? 'unknown', r.demand?.note ?? 'Not measured.'],
+    ['Search demand for this idea (directly relevant keywords only)', `${r.demand?.level ?? 'unknown'}${r.demand?.upTo ? ` (up to ${r.demand.upTo} — flagged)` : ''}`, r.demand?.note ?? 'Not measured.'],
+    ['Category-level search demand (context, not idea demand)', r.demand?.category?.level ?? 'unknown', r.demand?.category?.top ? `Largest: "${r.demand.category.top.keyword}" ${r.demand.category.top.searchVolume}/mo` : 'No category-level keyword with data.'],
+    ['Broader-market search demand (context, not idea demand)', r.demand?.broader?.level ?? 'unknown', r.demand?.broader?.top ? `Largest: "${r.demand.broader.top.keyword}" ${r.demand.broader.top.searchVolume}/mo` : 'No broader keyword with data.'],
     ['Commercial intent and payment', r.commercial?.level ?? 'unknown', r.commercial?.note ?? 'Not measured.'],
-    ['Competitors', a?.competition?.level ?? 'unknown', `${a ? `${a.competition.alternatives.length} alternative(s) identified from fetched pages${cites(a.competition.basis)}. ` : 'Not assessed yet. '}${r.competitors?.note ?? ''}`],
+    ['Competitors', a?.competition?.level ?? 'unknown', `${a ? `${a.competition.alternatives.filter((x) => x.type === 'direct').length} direct competitor(s), ${a.competition.alternatives.filter((x) => x.type !== 'direct').length} indirect alternative(s)${cites(a.competition.basis)}. ` : 'Not assessed yet. '}${r.competitors?.note ?? ''}`],
     ['Feasibility of a small first experiment', a?.feasibility?.level ?? 'unknown', a?.feasibility?.note ? `Inference: ${a.feasibility.note}` : 'Not assessed yet.'],
   ];
   return rows.map(([d, l, b]) => `| ${d} | ${l} | ${esc(b)} |`).join('\n');
@@ -72,18 +94,19 @@ function renderIdea(idea, n, run, rootRel) {
   if (a?.problemEvidence?.inference) out.push(`\nInference on the problem: ${a.problemEvidence.inference}`);
 
   const kws = idea.keywords ?? [];
+  const rel = relevanceOf(idea);
   if (kws.some((k) => k.status !== 'not_collected')) {
     const k0 = kws.find((k) => k.retrievedAt);
     out.push(`\n**Search observations** — DataForSEO, ${esc(k0?.location ?? im.locationName)} · ${esc(k0?.language ?? im.languageCode)}, retrieved ${day(k0?.retrievedAt)}. Each row is a separate keyword; rows overlap and are not added up.`);
-    out.push('| ID | Keyword | Intent group | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |\n|---|---|---|---|---|---|---|---|');
+    out.push('| ID | Keyword | Intent group | Relevance to this idea | Avg monthly searches | Trend | CPC (USD) | Google Ads competition | Source |\n|---|---|---|---|---|---|---|---|---|');
     for (const k of kws) {
       if (k.status === 'not_collected') {
-        out.push(`| ${k.id} | ${esc(k.keyword)} | ${k.group} | not collected | — | — | — | — |`);
+        out.push(`| ${k.id} | ${esc(k.keyword)} | ${k.group} | — | not collected | — | — | — | — |`);
         continue;
       }
       const source = String(k.provider ?? '').includes('Google Ads') ? 'Google Ads' : k.adsChecked ? 'Labs (Ads checked)' : 'Labs';
       out.push(
-        `| ${k.id} | ${esc(k.keyword)} | ${k.group} | ${k.status === 'no_data' ? 'no data (unknown)' : vol(k.searchVolume)} | ${trendText(k.trend)} | ${typeof k.cpcUsd === 'number' ? k.cpcUsd.toFixed(2) : 'unknown'} | ${k.adCompetitionLevel ?? 'unknown'} | ${source} |`,
+        `| ${k.id} | ${esc(k.keyword)} | ${k.group} | ${relText(rel, k.id, rel.keyword(k.id))} | ${k.status === 'no_data' ? 'no data (unknown)' : vol(k.searchVolume)} | ${trendText(k.trend)} | ${typeof k.cpcUsd === 'number' ? k.cpcUsd.toFixed(2) : 'unknown'} | ${k.adCompetitionLevel ?? 'unknown'} | ${source} |`,
       );
     }
   } else if (kws.length) {
@@ -95,7 +118,7 @@ function renderIdea(idea, n, run, rootRel) {
 
   out.push('\n### What alternatives already exist?');
   if (a?.competition?.alternatives?.length) {
-    for (const alt of a.competition.alternatives) out.push(`- **${esc(alt.name)}** — ${esc(alt.what)}${cites(alt.basis)}`);
+    for (const alt of a.competition.alternatives) out.push(`- **${esc(alt.name)}** _(${alt.type === 'direct' ? 'direct competitor — same problem' : 'indirect alternative'})_ — ${esc(alt.what)}${cites(alt.basis)}`);
   }
   if (a?.competition?.strengths?.length) {
     out.push('\nStrengths:');
@@ -108,7 +131,7 @@ function renderIdea(idea, n, run, rootRel) {
   if (idea.serps?.length) {
     for (const s of idea.serps) {
       out.push(`\nTop results for "${esc(s.query)}" (DataForSEO SERP, ${esc(s.location)}, retrieved ${day(s.retrievedAt)}):`);
-      for (const i of s.items.slice(0, 10)) out.push(`- ${i.id} · #${i.rank} ${esc(i.domain)} _(${i.class})_ — [${esc(i.title) || i.url}](${i.url})`);
+      for (const i of s.items.slice(0, 10)) out.push(`- ${i.id} · #${i.rank} ${esc(i.domain)} _(${i.class})_ — [${esc(i.title) || i.url}](${i.url}) — relevance: ${relText(rel, i.id, itemText(rel, i.id))}`);
     }
   }
   const okPages = (idea.pages ?? []).filter((p) => !p.error);
@@ -116,7 +139,7 @@ function renderIdea(idea, n, run, rootRel) {
     out.push('\nFetched competitor pages:');
     for (const p of okPages) {
       const offers = offerPrices(p).map((m) => m.text).slice(0, 4).join(', ');
-      out.push(`- ${p.id} · [${esc(p.title) || p.url}](${p.finalUrl ?? p.url}) — retrieved ${day(p.retrievedAt)}; offer prices: ${offers || 'none found'}${p.mentionsFreeTrial ? '; mentions a free trial' : ''}${p.mentionsContactSales ? '; contact-sales / demo' : ''}`);
+      out.push(`- ${p.id} · [${esc(p.title) || p.url}](${p.finalUrl ?? p.url}) — relevance: ${relText(rel, p.id, itemText(rel, p.id))} — retrieved ${day(p.retrievedAt)}; offer prices: ${offers || 'none found'}${p.mentionsFreeTrial ? '; mentions a free trial' : ''}${p.mentionsContactSales ? '; contact-sales / demo' : ''}`);
     }
   }
   const failedPages = (idea.pages ?? []).filter((p) => p.error);
@@ -126,6 +149,13 @@ function renderIdea(idea, n, run, rootRel) {
   if (a?.changes?.length) {
     out.push('\n### What changed versus Scout\'s original memo?');
     for (const c of a.changes) out.push(`- **${c.effect}** — original: "${esc(c.original)}" → ${esc(c.finding)}${cites(c.basis)}`);
+  }
+
+  const flags = relevanceFlags(idea);
+  if (flags.length) {
+    out.push('\n### Relevance judgements that need a person');
+    out.push('_Relevance is judged automatically and can be wrong. These cases were not counted as idea evidence:_');
+    for (const f of flags) out.push(`- ${esc(f)}`);
   }
 
   out.push('\n### What remains unproven?');
@@ -148,6 +178,7 @@ function renderIdea(idea, n, run, rootRel) {
   if (v) {
     const notes = [];
     if (v.rejectedCitations?.length) notes.push(`${v.rejectedCitations.length} citation(s) rejected (no verbatim quote from the cited item)`);
+    if (v.irrelevantCitations?.length) notes.push(`${v.irrelevantCitations.length} quoted citation(s) removed as not about this customer and problem: ${v.irrelevantCitations.map((x) => `${x.id} (${x.relevance}: ${esc(x.reason)})`).join('; ')}`);
     if (v.downgraded?.length) notes.push(`downgraded: ${v.downgraded.map(esc).join('; ')}`);
     if (v.dropped?.length) notes.push(`dropped: ${v.dropped.map(esc).join('; ')}`);
     if (v.scrubbedSentences) notes.push(`${v.scrubbedSentences} sentence(s) about unmeasured search demand removed`);

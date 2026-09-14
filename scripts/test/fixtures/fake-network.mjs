@@ -66,6 +66,19 @@ market: Lien waiver software
 - TAM/SAM/SOM: fake
 `;
 
+// Fake relevance judge: "… pricing" keywords are the category, "… software" the idea's own job, others
+// wider; reddit threads are the same customer and problem, vendor pages direct competitors.
+function relevanceFrom(prompt) {
+  const { ideas } = JSON.parse(prompt.slice(prompt.indexOf('=== IDEAS ===') + 13));
+  return {
+    ideas: ideas.map((i) => ({
+      id: i.id,
+      keywords: i.keywords.map((k) => ({ id: k.id, searcher: 'includes', topic: /pricing/.test(k.keyword) ? 'category' : /software/.test(k.keyword) ? 'same' : 'wider', reason: 'fake judgement' })),
+      items: i.items.map((it) => ({ id: it.id, customer: /reddit/.test(it.domain) ? 'same' : 'broader', problem: 'same', offering: /reddit/.test(it.domain) ? 'no' : 'yes', reason: 'fake judgement' })),
+    })),
+  };
+}
+
 function assessFrom(prompt) {
   const evidence = JSON.parse(prompt.slice(prompt.indexOf('=== EVIDENCE ===') + 16));
   return {
@@ -100,6 +113,7 @@ globalThis.fetch = async (input, init = {}) => {
     const prompt = body.contents[0].parts[0].text;
     if (prompt.includes('STAGE 1 of 6')) return gem(SCAN);
     if (prompt.includes('You prepare search-evidence research plans')) return gem(JSON.stringify(PLAN));
+    if (prompt.includes('You judge whether search evidence is about ONE business idea')) return gem(JSON.stringify(relevanceFrom(prompt)));
     if (prompt.includes('You write evidence-bound assessments')) return gem(JSON.stringify(assessFrom(prompt)));
     if (prompt.includes('Synthesise the FINAL decision memo')) return gem(MEMO);
     return gem('Fake stage output for the offline pipeline test. '.repeat(4));
