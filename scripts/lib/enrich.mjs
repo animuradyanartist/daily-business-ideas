@@ -40,7 +40,7 @@ import {
   stripUnverifiedUrls,
 } from './evidence.mjs';
 import { renderEvidenceMarkdown } from './render.mjs';
-import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMatchesEvidence, scrubDemandClaims, normText, ABSENCE } from './grounding.mjs';
+import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMatchesEvidence, scrubDemandClaims, normText, quoteFound, ABSENCE } from './grounding.mjs';
 
 export const EVIDENCE_DIR = 'evidence';
 export const SCHEMA_VERSION = 1;
@@ -876,7 +876,7 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
   const changes = [];
   for (const c of (Array.isArray(a?.changes) ? a.changes : []).slice(0, 6)) {
     const quoteOriginal = normText(c?.original);
-    if (!quoteOriginal || quoteOriginal.length < 12 || !originalNorm.includes(quoteOriginal)) {
+    if (!quoteOriginal || !quoteFound(originalNorm, quoteOriginal).found) {
       validation.dropped.push(`change: original text "${String(c?.original ?? '').slice(0, 60)}" is not in Scout's memo`);
       continue;
     }
@@ -947,6 +947,8 @@ export async function assessEvidence({ run, gemini, scoutContext = '', originalF
         errors.push(`${idea.id}: the model returned no assessment for it`);
         continue;
       }
+      // The raw model output is kept so validators can be re-applied offline and audited.
+      idea.assessmentRaw = a;
       idea.assessment = { ...constrainAssessment(a, idea, { original: originalOf(idea) }), assessedAt: now().toISOString(), evidenceUpdatedAt: idea.evidenceUpdatedAt };
     }
   }

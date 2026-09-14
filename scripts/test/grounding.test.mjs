@@ -3,7 +3,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { constrainAssessment } from '../lib/enrich.mjs';
-import { checkBasis, evidenceIndex, scrubDemandClaims } from '../lib/grounding.mjs';
+import { checkBasis, evidenceIndex, scrubDemandClaims, quoteFound } from '../lib/grounding.mjs';
 
 const idea = {
   keywords: [
@@ -31,6 +31,14 @@ test('a valid id without a verbatim quote supports nothing', () => {
   const r = checkBasis(['S1.1', { id: 'S1.1', quote: 'people hate critique' }, { id: 'S1.1', quote: 'freeze' }, { id: 'S9.9', quote: 'anything at all here' }, { id: 'S1.1', quote: 'I freeze when giving design feedback' }], idx);
   assert.deepEqual(r.supported.map((s) => s.id), ['S1.1']);
   assert.deepEqual(r.rejected.map((x) => x.reason), ['no quote', 'quote not found in the cited item', 'quote too short to check', 'unknown evidence id']);
+});
+
+test('elided quotes ("...") pass only when every fragment appears in order', () => {
+  const hay = 'they are visually fluent in figma, but freeze when typing english captions for linkedin.';
+  assert.equal(quoteFound(hay, 'They are visually fluent... but freeze when typing English captions').found, true);
+  assert.equal(quoteFound(hay, 'but freeze when typing… they are visually fluent').found, false); // wrong order
+  assert.equal(quoteFound(hay, 'They are visually fluent… hate LinkedIn').found, false); // invented fragment
+  assert.equal(quoteFound(hay, 'they... but...').found, false); // fragments too short to mean anything
 });
 
 test('levels are capped by what the quotes can carry', () => {

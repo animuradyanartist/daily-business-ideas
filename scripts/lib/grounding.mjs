@@ -24,6 +24,26 @@ export function normText(s) {
     .trim();
 }
 
+/**
+ * Is `quote` verbatim in `hay`? Quotes may elide with "..." / "…": then every fragment must
+ * appear, in order. At least `minChars` letters/digits must be quoted in total, and each
+ * fragment must be long enough (8+) to be meaningful.
+ */
+export function quoteFound(hay, quote, { minChars = 12 } = {}) {
+  const q = normText(quote).replace(/^["'“”]+|["'“”]+$/g, '');
+  const fragments = q.split(/\.{3}|…/).map((f) => f.trim()).filter(Boolean);
+  const letters = (f) => f.replace(/[^\p{L}\p{N}]/gu, '').length;
+  if (!fragments.length || fragments.reduce((n, f) => n + letters(f), 0) < minChars) return { found: false, reason: 'quote too short to check' };
+  if (fragments.length > 1 && fragments.some((f) => letters(f) < 8)) return { found: false, reason: 'quote too short to check' };
+  let at = 0;
+  for (const f of fragments) {
+    const i = hay.indexOf(f, at);
+    if (i < 0) return { found: false, reason: 'quote not found in the cited item' };
+    at = i + f.length;
+  }
+  return { found: true, reason: null };
+}
+
 /** id → { id, kind: 'K'|'S'|'P', domain, cls, text } for everything the model may cite. */
 export function evidenceIndex(idea) {
   const index = new Map();
@@ -68,9 +88,11 @@ export function checkBasis(basis, index, { minQuoteChars = 12 } = {}) {
     const item = index.get(id);
     if (!item) rejected.push({ id, reason: 'unknown evidence id' });
     else if (!quote) rejected.push({ id, reason: 'no quote' });
-    else if (quote.replace(/[^\p{L}\p{N}]/gu, '').length < minQuoteChars) rejected.push({ id, reason: 'quote too short to check' });
-    else if (!item.text.includes(quote)) rejected.push({ id, reason: 'quote not found in the cited item' });
-    else if (!supported.some((s) => s.id === id)) supported.push({ id, quote: b.quote, domain: item.domain, kind: item.kind, cls: item.cls });
+    else {
+      const q = quoteFound(item.text, quote, { minChars: minQuoteChars });
+      if (!q.found) rejected.push({ id, reason: q.reason });
+      else if (!supported.some((s) => s.id === id)) supported.push({ id, quote: b.quote, domain: item.domain, kind: item.kind, cls: item.cls });
+    }
   }
   return { supported, rejected };
 }

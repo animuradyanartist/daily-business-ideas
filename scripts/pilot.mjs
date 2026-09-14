@@ -27,6 +27,7 @@ import {
   saveRunAt,
   evidenceFingerprint,
   collectPages,
+  constrainAssessment,
 } from './lib/enrich.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims } from './lib/grounding.mjs';
 
@@ -279,6 +280,23 @@ if (cmd === 'assess') {
   process.exit(0);
 }
 
+// ---------- revalidate (offline) ----------
+// Re-apply the current validators to the stored raw model output — no model call.
+if (cmd === 'revalidate') {
+  const run = need(P.run, `node scripts/pilot.mjs assess --pilot ${pilotDir}`);
+  const memoOf = new Map(pilot.ideas.map((i) => [i.id, memoContext(readText(i.memo)).excerpt]));
+  let n = 0;
+  for (const idea of run.ideas) {
+    if (!idea.assessmentRaw || !idea.assessment) continue;
+    const { assessedAt, evidenceUpdatedAt } = idea.assessment;
+    idea.assessment = { ...constrainAssessment(idea.assessmentRaw, idea, { original: memoOf.get(idea.id) ?? '' }), assessedAt, evidenceUpdatedAt, revalidatedAt: new Date().toISOString() };
+    n++;
+  }
+  saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
+  console.log(`✓ revalidated ${n} assessment(s) from stored model output`);
+  process.exit(0);
+}
+
 // ---------- check ----------
 if (cmd === 'check') {
   const plans = readJson(P.plans, null);
@@ -382,7 +400,8 @@ if (cmd === 'check') {
       const memo = readText(pilot.ideas.find((x) => x.id === idea.id).memo);
       const cpcs = new Set(idea.keywords.filter((k) => typeof k.cpcUsd === 'number').map((k) => k.cpcUsd.toFixed(2)));
       const pageText = idea.pages.filter((p) => !p.error).map((p) => `${p.title ?? ''} ${p.description ?? ''} ${(p.priceMentions ?? []).map((m) => m.context).join(' ')}`).join(' ');
-      const texts = [a.opportunity, a.whoPays, a.problemEvidence.observed, a.problemEvidence.inference, a.feasibility.note, a.nextExperiment.what, a.continueIf, a.stopIf, ...a.unproven, ...(a.changes ?? []).map((c) => c.finding), ...a.competition.strengths.map((s) => s.text), ...a.competition.alternatives.map((x) => x.what)];
+      // Factual fields only: a proposed experiment may name its own price or budget.
+      const texts = [a.opportunity, a.whoPays, a.problemEvidence.observed, a.problemEvidence.inference, ...a.unproven, ...(a.changes ?? []).map((c) => c.finding), ...a.competition.strengths.map((s) => s.text), ...a.competition.alternatives.map((x) => x.what)];
       for (const t of texts) {
         for (const m of String(t).matchAll(/\$\s?(\d[\d,]*(?:\.\d+)?)/g)) {
           const context = String(t).slice(Math.max(0, m.index - 40), m.index + m[0].length + 40);
@@ -399,7 +418,7 @@ if (cmd === 'check') {
         }
       }
     }
-    record('Dollar figures in assessments match measured CPCs, fetched prices or Scout\'s memo (experiment budgets excluded)', dollarMisses.length === 0, `${dollarsChecked} figure(s) checked${dollarMisses.length ? `; unmatched: ${dollarMisses.join('; ')}` : ''}`);
+    record('Dollar figures in factual assessment fields match measured CPCs, fetched prices or Scout\'s memo (proposed experiments excluded)', dollarMisses.length === 0, `${dollarsChecked} figure(s) checked${dollarMisses.length ? `; unmatched: ${dollarMisses.join('; ')}` : ''}`);
     record('Validation actually intervened where the model over-claimed (informational)', true, `${rejected} citation(s) rejected · ${downgraded} level/kind downgrade(s) · ${dropped} claim(s) dropped · ${scrubbed} sentence(s) removed`);
     const removedAudit = assessed.flatMap((i) => (i.assessment.validation?.removedSentences ?? []).map((s) => `${i.id}: "${s}"`));
     if (removedAudit.length) lines.push('Removed sentences (for review):', ...removedAudit.map((s) => `- ${esc(s)}`), '');
