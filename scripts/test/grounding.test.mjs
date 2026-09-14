@@ -52,6 +52,12 @@ test('short verbatim prices count as quotes; honest "no data" wording is kept', 
   assert.equal(scrubDemandClaims('Unproven: demand for this solution, as no search volume was found for relevant keywords.', unmeasured).removed, 0);
   assert.equal(scrubDemandClaims('"how to give design feedback" has no measurable search volume.', idea).removed, 0);
   assert.equal(scrubDemandClaims('Nobody searches for "how to give design feedback".', idea).removed, 1);
+  // Live run 34822795160 removed both of these honest sentences (validator false positives).
+  assert.equal(scrubDemandClaims('The keyword "how to give design feedback" has no search volume data.', unmeasured).removed, 0);
+  assert.equal(scrubDemandClaims('While the keyword "how to give design feedback" has no search volume data, search results confirm that critique is hard.', idea).removed, 0);
+  // …but calling an unmeasured keyword zero is still removed.
+  assert.equal(scrubDemandClaims('The keyword "how to give design feedback" has no search volume.', idea).removed, 1);
+  assert.equal(scrubDemandClaims('"how to give design feedback" gets no searches at all.', idea).removed, 1);
 });
 
 test('levels are capped by what the quotes can carry', () => {
@@ -101,6 +107,23 @@ test('absence claims are inference; alternatives must be named in their quoted e
   assert.equal(out.competition.gaps[0].kind, 'inference');
   assert.equal(out.competition.strengths[0].kind, 'observed');
   assert.ok(out.validation.dropped.some((d) => /FeedbackPro/.test(d)));
+
+  // "not only … but also" is not an absence claim (live run 34822795160 downgraded one); "not" alone still is.
+  const notOnly = constrainAssessment(
+    {
+      competition: {
+        level: 'some',
+        basis: [{ id: 'S1.2', quote: 'structured design feedback templates' }],
+        strengths: [
+          { text: 'CritiqueKit not only sells templates but also covers async reviews', basis: [{ id: 'S1.2', quote: 'Templates for async design reviews' }], kind: 'observed' },
+          { text: 'CritiqueKit does not cover live critique', basis: [{ id: 'S1.2', quote: 'Templates for async design reviews' }], kind: 'observed' },
+        ],
+      },
+    },
+    idea,
+    { original },
+  );
+  assert.deepEqual(notOnly.competition.strengths.map((s) => s.kind), ['observed', 'inference']);
 });
 
 test('missing data stays unknown: invented or misquoted volumes are removed', () => {
@@ -179,6 +202,27 @@ test('"what changed" must quote Scout\'s memo, and needs quoted evidence to clai
     { original: memo2 },
   );
   assert.deepEqual(reasoning.changes.map((c) => c.effect), ['untested', 'weakens']);
+
+  // Live run 34822795160: offerings existing "validate" a paying market; absence claims "supported" by what a page doesn't say.
+  const memo3 = 'The template market is validated. Designers pay for critique templates. The template market is mature. Existing tools lack linguistic support. Reviewers say the feedback is not clear.';
+  const supply = constrainAssessment(
+    {
+      changes: [
+        { original: 'The template market is validated.', finding: 'Several sites offer templates.', basis: [{ id: 'S1.2', quote: 'structured design feedback templates' }], effect: 'supports' },
+        { original: 'Designers pay for critique templates.', finding: 'CritiqueKit charges per editor.', basis: [{ id: 'P1', quote: 'Team $12/mo per editor' }], effect: 'supports' },
+        { original: 'The template market is mature.', finding: 'Several template vendors rank.', basis: [{ id: 'S1.2', quote: 'structured design feedback templates' }, { id: 'S1.3', quote: 'A phrasebook for critique' }], effect: 'supports' },
+        { original: 'Existing tools lack linguistic support.', finding: 'The descriptions mention only templates.', basis: [{ id: 'S1.2', quote: 'Templates for async design reviews' }], effect: 'supports' },
+        { original: 'Reviewers say the feedback is not clear.', finding: 'A designer is told the feedback sounds rude.', basis: [{ id: 'S1.4', quote: 'My manager says my feedback sounds rude' }], effect: 'supports' },
+      ],
+    },
+    idea,
+    { original: memo3 },
+  );
+  // No price → untested; a cited price may support; a supply claim ("mature") is not a payment claim; absence → untested;
+  // a problem described with "not" is not an absence claim (live false positive of a first, broader rule).
+  assert.deepEqual(supply.changes.map((c) => c.effect), ['untested', 'supports', 'supports', 'untested', 'supports']);
+  assert.ok(supply.validation.downgraded.some((d) => /published price/.test(d)));
+  assert.ok(supply.validation.downgraded.some((d) => /something is absent/.test(d)));
   assert.equal(labelled.validation.dropped.filter((d) => /heading or label/.test(d)).length, 2);
   assert.ok(absent.validation.downgraded.some((d) => /no data/.test(d)));
   assert.ok(out.validation.dropped.some((d) => /not in Scout's memo/.test(d)));

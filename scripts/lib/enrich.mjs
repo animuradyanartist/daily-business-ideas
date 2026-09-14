@@ -40,7 +40,11 @@ import {
   stripUnverifiedUrls,
 } from './evidence.mjs';
 import { renderEvidenceMarkdown } from './render.mjs';
-import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMatchesEvidence, scrubDemandClaims, normText, quoteFound, ABSENCE } from './grounding.mjs';
+import { evidenceIndex, checkBasis, capProblemLevel, capCompetitionLevel, nameMatchesEvidence, scrubDemandClaims, normText, quoteFound, ABSENCE, ABSENT_CLAIM } from './grounding.mjs';
+
+// "Validated", "proven", "profitable", "people pay" — claims about buyers paying, not about offerings existing.
+const PAYMENT_CLAIM = /\b(validated|proven|profitable|pays?|paid|paying|revenue|sales|sells?|sold|willing)\b/i;
+const PRICE = /([$€£]\s?\d|\d\s?(usd|eur|gbp)\b)/i;
 
 export const EVIDENCE_DIR = 'evidence';
 export const SCHEMA_VERSION = 1;
@@ -895,6 +899,8 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
     const measuredIds = new Set(idea.keywords.filter((k) => k.status === 'measured').map((k) => k.id));
     const informative = basis.filter((b) => b.kind !== 'K' || measuredIds.has(b.id));
     const finding = clean(c?.finding, 500);
+    // A published price is the least a "validated / paying market" claim needs (and prices are not sales).
+    const citesPrice = informative.some((b) => PRICE.test(b.quote) || (b.kind === 'P' && (idea.pages.find((p) => p.id === b.id)?.priceMentions?.length ?? 0) > 0));
     let effect = effectClaimed;
     let why = null;
     if (effect !== 'untested' && !informative.length) {
@@ -903,6 +909,12 @@ export function constrainAssessment(a, idea, { original = '' } = {}) {
     } else if (effect !== 'untested' && /\b(market|validated|proven|profitable|pay|paid|revenue|sales|willing)\b/i.test(quoteOriginal) && informative.every((b) => b.kind === 'K')) {
       effect = 'untested';
       why = 'a claim about payment or a validated market cannot rest on search volume';
+    } else if (effect === 'supports' && PAYMENT_CLAIM.test(quoteOriginal) && !citesPrice) {
+      effect = 'untested';
+      why = 'offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price';
+    } else if (effect === 'supports' && ABSENT_CLAIM.test(quoteOriginal)) {
+      effect = 'untested';
+      why = 'Scout\'s claim is that something is absent, which quoted items cannot show — at most an inference';
     } else if (effect === 'contradicts' && ABSENCE.test(finding)) {
       effect = 'weakens';
       why = 'the finding relies on something not being seen, which cannot contradict a claim';

@@ -30,6 +30,7 @@ import {
   constrainAssessment,
 } from './lib/enrich.mjs';
 import { checkBasis, evidenceIndex, scrubDemandClaims, figureAfterKeyword, normText } from './lib/grounding.mjs';
+import { planShapeIssues } from './lib/evidence.mjs';
 
 const [cmd, ...args] = process.argv.slice(2);
 const flag = (n) => args.includes(n);
@@ -52,6 +53,7 @@ const P = {
   runMd: join(pilotDir, 'evidence.md'),
   check: join(pilotDir, 'MODEL-CHECK.md'),
   report: join(pilotDir, 'REPORT.md'),
+  review: join(pilotDir, 'review.json'),
 };
 const rootRel = relative(pilotDir, '.') || '.';
 const sha = (s) => createHash('sha256').update(s).digest('hex');
@@ -297,6 +299,35 @@ if (cmd === 'revalidate') {
   process.exit(0);
 }
 
+/** The human review of a live assessment run (review.json), rendered into MODEL-CHECK.md and REPORT.md. */
+function reviewLines(review, { full = false } = {}) {
+  const out = [
+    `## Human review of live assessment run ${review.liveRun}`,
+    '',
+    `_Reviewed ${review.reviewedAt}. ${review.method} The live run used the validators at \`${review.liveRunValidators}\`; the fixes below were re-applied offline to that run's stored raw model output (no new model call)._`,
+    '',
+    `**Validator false positives in the live run (fixed):** ${review.liveRunFalsePositives.length}`,
+    ...review.liveRunFalsePositives.map((x) => `- \`${x.idea}\` ${esc(x.item)} → ${esc(x.fix)}`),
+    '',
+    `**Over-claims the live run's validators missed (rules added):** ${review.liveRunMisses.length} pattern(s)`,
+    ...review.liveRunMisses.map((x) => `- ${esc(x.pattern)} (${x.ideas.map((i) => `\`${i}\``).join(', ')}) → ${esc(x.fix)}`),
+    '',
+  ];
+  if (full) {
+    const counts = review.interventionsReviewed.reduce((m, x) => ({ ...m, [x.verdict]: (m[x.verdict] ?? 0) + 1 }), {});
+    out.push(
+      `**Every intervention after the fixes, checked against the evidence:** ${Object.entries(counts).map(([k, v]) => `${v} ${k}`).join(', ')}`,
+      '',
+      '| Idea | Intervention | Verdict | Why |',
+      '|---|---|---|---|',
+      ...review.interventionsReviewed.map((x) => `| \`${x.idea}\` | ${esc(x.item)} | ${x.verdict} | ${esc(x.note)} |`),
+      '',
+    );
+  }
+  out.push('**Not caught by any validator (read these assessments as noted):**', ...review.residual.map((x) => `- ${x.idea === 'all' ? 'All ideas' : `\`${x.idea}\``}: ${esc(x.note)}`), '');
+  return out;
+}
+
 // ---------- check ----------
 if (cmd === 'check') {
   const plans = readJson(P.plans, null);
@@ -329,12 +360,11 @@ if (cmd === 'check') {
     record('Keywords use the memo\'s own vocabulary (≥60% of keywords share a content word with the memo)', weak.length === 0, relevance.map((r) => `${r.id} ${Math.round(r.share * 100)}%${r.off.length ? ` (not in memo: ${r.off.slice(0, 3).join('; ')})` : ''}`).join(' · '));
     // Problem searches are naturally questions ("how to write a design case study"), so head terms
     // are required only where people search by category (solution, buying).
+    // The same rule the planner enforces (scripts/lib/evidence.mjs planShapeIssues), checked independently here.
     const headTermCheck = (list) => {
-      const tooLong = list.flatMap(([id, p]) => [
-        ...p.keywords.problem.filter((k) => k.split(' ').length > 6),
-        ...[...p.keywords.solution, ...p.keywords.buying].filter((k) => k.split(' ').length > 5),
-      ].map((k) => `${id}: ${k}`));
-      const noHead = list.filter(([, p]) => ['solution', 'buying'].some((g) => !p.keywords[g].some((k) => k.split(' ').length <= 3)));
+      const issues = list.map(([id, p]) => [id, planShapeIssues(p)]);
+      const tooLong = issues.flatMap(([id, xs]) => xs.filter((x) => x.issue === 'too_long').map((x) => `${id}: ${x.keyword}`));
+      const noHead = issues.filter(([, xs]) => xs.some((x) => x.issue === 'no_head_term'));
       return { tooLong, noHead };
     };
     const hc = headTermCheck(planned);
@@ -345,6 +375,12 @@ if (cmd === 'check') {
       hc.tooLong.length === 0 && hc.noHead.length === 0,
       `${hc.noHead.length} plan(s) missing a head term${hc.noHead.length ? ` (${hc.noHead.map(([id]) => id).join(', ')})` : ''}; ${hc.tooLong.length} over-long keyword(s)${hc.tooLong.length ? `: ${hc.tooLong.join('; ')}` : ''}${hc1 ? ` · first live plans (plans-v1.json, same rule): ${hc1.noHead.length} missing a head term, ${hc1.tooLong.length} over-long` : ''}`,
     );
+    const planned0 = planned.filter(([, p]) => p.planning);
+    if (planned0.length) {
+      const drafts = planned0.filter(([, p]) => p.planning.draftIssues.some((x) => x.issue === 'no_head_term'));
+      const repaired = planned0.filter(([, p]) => p.planning.repaired);
+      lines.push(`Planner drafts (before the one repair request): ${drafts.length} of ${planned0.length} missing a head term; repaired ${repaired.length}${planned0.some(([, p]) => p.planning.repairOutcome) ? ` · not repaired: ${planned0.filter(([, p]) => p.planning.repairOutcome).map(([id, p]) => `${id} (${p.planning.repairOutcome})`).join('; ')}` : ''}.`, '');
+    }
     lines.push('Keyword relevance is a lexical proxy only — the plans are listed in PREVIEW.md for human review.', '');
   } else {
     record('Plans exist', false, 'plans.json missing');
@@ -430,6 +466,8 @@ if (cmd === 'check') {
   }
 
   lines.push('| Check | Result | Detail |', '|---|---|---|', ...results.map((r) => `| ${esc(r.name)} | ${r.pass ? 'pass' : '**FAIL**'} | ${esc(r.detail)} |`));
+  const review = readJson(P.review, null);
+  if (review) lines.push('', ...reviewLines(review, { full: true }));
   writeFileSync(P.check, lines.join('\n') + '\n');
   for (const r of results) console.log(`${r.pass ? '✓' : '✗'} ${r.name} — ${r.detail}`);
   process.exit(results.every((r) => r.pass) ? 0 : 1);
@@ -463,7 +501,13 @@ if (cmd === 'report') {
     '',
     `Budget backend for this pilot: ${run.budget?.backend ?? 'n/a'}${run.budget?.atomic === false ? ' (not atomic: the reservation functions are awaiting review, so spend was recorded in the existing ledger)' : ''}. Shared cap ${money(run.budget?.capUsd)}, Scout reserve ${money(run.budget?.reserveUsd)}, per-run limit ${money(run.budget?.maxRunUsd)}. Google Ads fallback: off.`,
     '',
+    '## Assessments — provenance',
+    `- Written by ${run.assessmentModels?.join(' → ') ?? 'n/a'} in ${run.assessmentRunner?.runId ? `GitHub Actions run ${run.assessmentRunner.runId}` : run.assessmentRunner?.kind ?? 'n/a'}${(() => { const r = run.ideas.map((i) => i.assessment?.revalidatedAt).filter(Boolean).sort().at(-1); return r ? `; validators re-applied offline to that run's stored model output at ${r}` : ''; })()}.`,
+    '- Every citation below carries a verbatim quote found in the cited item; that proves a claim is grounded, not that it is on-topic.',
+    '',
   ];
+  const review = readJson(P.review, null);
+  if (review && review.liveRun === run.assessmentRunner?.runId) out.push(...reviewLines(review));
   run.ideas.forEach((idea, n) => {
     const src = pilot.ideas.find((i) => i.id === idea.id);
     const memo = readText(src.memo);
@@ -496,6 +540,7 @@ if (cmd === 'report') {
     if (unknowns) out.push(`- ${unknowns} of ${idea.keywords.length} planned keywords returned no search data (unknown, not zero).`);
     if (a?.validation && (a.validation.rejectedCitations.length || a.validation.downgraded.length || a.validation.dropped.length)) out.push(`- The assessment's own over-claims were cut: ${a.validation.rejectedCitations.length} citation(s) without a matching quote, ${a.validation.downgraded.length} downgrade(s), ${a.validation.dropped.length} dropped claim(s).`);
     if (!a) out.push('- Not assessed yet.');
+    for (const x of (review && review.liveRun === run.assessmentRunner?.runId ? review.residual : []).filter((x) => x.idea === idea.id)) out.push(`- Reviewer note: ${esc(x.note)}`);
     out.push('', `**Cheapest useful validation experiment:** ${a?.nextExperiment?.what ? `${esc(a.nextExperiment.what)}${a.nextExperiment.cost ? ` _(cost: ${esc(a.nextExperiment.cost)}${a.nextExperiment.duration ? `, ${esc(a.nextExperiment.duration)}` : ''})_` : ''}` : 'not assessed yet'}`, '');
     out.push(`**Continue if:** ${esc(a?.continueIf || 'not assessed yet')}`, '', `**Stop if:** ${esc(a?.stopIf || 'not assessed yet')}`, '');
   });

@@ -129,7 +129,17 @@ export function capCompetitionLevel(level, supported, competitors) {
   return { level, why: null };
 }
 
-export const ABSENCE = /\b(no|not|lacks?|lacking|missing|without|absent|doesn'?t|don'?t|none|never|fails? to|unable)\b/i;
+// "not only … but also" adds to a claim; it does not say something is absent.
+export const ABSENCE = /\b(no|not(?! only\b)|lacks?|lacking|missing|without|absent|doesn'?t|don'?t|none|never|fails? to|unable)\b/i;
+
+// Narrower than ABSENCE, for Scout's own claims: something is missing from what exists
+// ("lacks linguistic support", "does not communicate logic", "the container but not the words").
+// "the design is not clear" describes a problem, not an absence.
+const OFFER_VERBS = '(offer|include|provide|have|support|communicate|cover|exist|solve|address|help|explain|teach)';
+export const ABSENT_CLAIM = new RegExp(
+  `\\b(lacks?|lacking|missing|absent|nobody|no one|none of|there (is|are) no|fails? to|but not|(does|do|did|can) ?n[o']?t ${OFFER_VERBS}|(doesn|don|didn|can)'?t ${OFFER_VERBS})\\b`,
+  'i',
+);
 
 const STOP = new Set(['the', 'and', 'for', 'app', 'software', 'tool', 'tools', 'inc', 'llc', 'ltd', 'com', 'www', 'online', 'platform']);
 /** An alternative's name must appear in what it cites (quote, domain or item text). */
@@ -175,7 +185,8 @@ export function scrubDemandClaims(text, idea) {
       const mentioned = keywords.filter((k) => k.n && n.includes(k.n));
       let bad = false;
       // Wording that describes the MEASUREMENT ("no data", "was not found") is honest, not a zero claim.
-      const measurementAbsence = /\b(no data|not measured|unmeasured|no measurable|no figure|not returned|returned no|(was|were) (not )?found|unknown)\b/i.test(n);
+      // "has no search volume data" describes the measurement; "has no search volume" is a zero claim.
+      const measurementAbsence = /\b(no (search volume |search |volume )?(data|figures?)|not measured|unmeasured|no measurable|not returned|returned no|(was|were) (not )?found|unknown)\b/i.test(n);
       for (const k of mentioned) {
         // The figure that belongs to THIS keyword: the one stated right after its mention.
         const said = figureAfterKeyword(n, k.n);

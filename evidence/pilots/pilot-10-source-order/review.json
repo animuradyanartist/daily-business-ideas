@@ -1,0 +1,41 @@
+{
+  "liveRun": "34822795160",
+  "liveRunValidators": "d8745ee",
+  "reviewedAt": "2026-09-14",
+  "reviewer": "Claude Code session, supervised by the repository owner's instructions",
+  "method": "Every rejected, downgraded, dropped and removed item of the live run was compared with the cited evidence items and with Scout's memo; every surviving change statement, level and gap was then read for over-claims the validators do not catch.",
+  "liveRunFalsePositives": [
+    { "idea": "2026-04-28", "item": "removed sentence: \"While the keyword \\\"linkedin content for non native\\\" has no search volume data, search results confirm …\"", "fix": "\"no search volume data\" now counts as describing the measurement (\"has no search volume\" is still a zero claim and still removed)" },
+    { "idea": "2026-04-29", "item": "removed sentence: \"The keyword \\\"user interview language barrier\\\" has no search volume data.\"", "fix": "same as above" },
+    { "idea": "2026-04-28", "item": "strength \"Specialized tools exist that not only provide templates but also use AI …\" downgraded observed → inference", "fix": "\"not only … but also\" is no longer read as an absence claim" }
+  ],
+  "liveRunMisses": [
+    { "pattern": "a change marked \"supports\" for a validated / proven / profitable market, resting only on offerings existing (mostly free)", "ideas": ["2026-04-29", "2026-05-01", "2026-05-02", "2026-05-04", "2026-05-06"], "fix": "supporting a payment or validated-market claim now needs at least one cited published price; otherwise the effect becomes untested" },
+    { "pattern": "a change marked \"supports\" where Scout's claim is that something is absent (\"lacks linguistic support\", \"but not the persuasive words\", \"does not communicate logic\")", "ideas": ["2026-04-30", "2026-05-02", "2026-05-03"], "fix": "such a claim cannot be supported by quoted items; the effect becomes untested. A first, broader version of this rule also caught \"the design is not clear\" (a problem description) — narrowed before committing, and pinned by a test" }
+  ],
+  "interventionsReviewed": [
+    { "idea": "2026-04-27", "item": "alternative \"Free Content Blogs\" dropped", "verdict": "correct", "note": "a category, not a named alternative; the quotes (S1.3, S1.4, S1.6) name Simon & Simon / Berlitz / Preply articles, not the name given" },
+    { "idea": "2026-04-27", "item": "change \"Real pain in their words\" dropped", "verdict": "correct", "note": "a label in the memo, not a claim" },
+    { "idea": "2026-04-29", "item": "change \"The market for productized UX templates is validated.\" supports → untested", "verdict": "correct", "note": "cites a 50/mo keyword and free NN/g / Notion template listings; no price" },
+    { "idea": "2026-04-30", "item": "change \"lacks linguistic support\" supports → untested", "verdict": "correct", "note": "rests on one page description (P1) not mentioning scripts" },
+    { "idea": "2026-05-01", "item": "change \"The \\\"Productized Template\\\" Market is Validated\" supports → untested", "verdict": "correct", "note": "cites template listicles and a Notion bundle; no price" },
+    { "idea": "2026-05-01", "item": "change \"non-native English-speaking freelance designers struggle with confidence\" dropped", "verdict": "correct", "note": "the memo says \"… to manage the entire client lifecycle with confidence\"; \"struggle\" was inserted" },
+    { "idea": "2026-05-01", "item": "change \"lacks the crucial linguistic scaffolding\" dropped", "verdict": "correct", "note": "the memo says \"adds the crucial linguistic scaffolding\" — the misquote inverts the meaning" },
+    { "idea": "2026-05-02", "item": "change \"The \\\"Artifact\\\" Market is Validated\" supports → untested", "verdict": "correct", "note": "cites free Figma / Adobe / Canva templates; no price" },
+    { "idea": "2026-05-02", "item": "change \"they provide the visual container but not the persuasive words\" supports → untested", "verdict": "correct", "note": "rests on descriptions not mentioning scripts" },
+    { "idea": "2026-05-02", "item": "change \"designers struggle to write compelling, clear, and persuasive narratives\" dropped", "verdict": "correct", "note": "not in the memo" },
+    { "idea": "2026-05-03", "item": "competition crowded → some", "verdict": "correct", "note": "the cited items cover two vendor domains (uxpin.com, brandyhq.com); the collected results show five, but the level must rest on what is cited" },
+    { "idea": "2026-05-03", "item": "change \"Figma's Dev Mode... does not communicate logic, intent, or behavior.\" supports → untested", "verdict": "correct", "note": "S2.6 says handoff needs behaviour documented; it says nothing about Dev Mode" },
+    { "idea": "2026-05-04", "item": "change \"The \\\"Prompt Pack\\\" Market is Proven and Profitable.\" supports → untested", "verdict": "correct", "note": "cites free prompt sites; the model itself wrote \"Profitability is not directly evidenced\"" },
+    { "idea": "2026-05-05", "item": "change \"The market for design \\\"process\\\" kits is validated.\" supports → untested", "verdict": "correct", "note": "cites keyword rows only" },
+    { "idea": "2026-05-06", "item": "change \"The \\\"Productized Process\\\" Market is Proven.\" supports → untested", "verdict": "correct", "note": "cites free Miro / Figma / Notion templates; no price" },
+    { "idea": "2026-05-06", "item": "change \"Non-native English-speaking designers struggle to confidently participate …\" dropped", "verdict": "correct", "note": "the memo says \"… to confidently participate in and lead design critiques\"; \"struggle\" was inserted" }
+  ],
+  "residual": [
+    { "idea": "2026-04-29", "note": "Problem evidence \"strong\" is grounded but likely off-topic: the cited items (\"Interviewing someone with a language barrier\", \"Tips for communicating across a language barrier\") are about researchers interviewing participants who speak another language, not about non-native researchers moderating in English. The change statement repeats this (\"strongly validating its existence\")." },
+    { "idea": "2026-05-03", "note": "Problem evidence \"strong\" is general design-handoff pain; nothing cited is about the idea's non-native-speaker angle." },
+    { "idea": "2026-04-27", "note": "Change \"a swipe file is a learning artifact you keep\" → supports: the finding (competitors are free blog posts or subscriptions) does not bear on that claim; the \"gap for a one-time purchase\" is inference. Problem evidence also cites an academic-publishing item (S2.2) that is not about async workplace communication." },
+    { "idea": "2026-05-06", "note": "Change about the wedge → supports rests on no search result showing a linguistic scaffold (absence in the finding); read it as inference." },
+    { "idea": "all", "note": "Gaps are correctly labelled inference, but most say competitors \"do not appear to\" offer the non-native angle — a statement about what was not seen in 2 queries, not market research." }
+  ]
+}

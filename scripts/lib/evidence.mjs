@@ -101,6 +101,37 @@ export function normalizePlan(raw, { maxIdeas = 3, keywordsPerGroup = 3, serpsPe
   return ideas;
 }
 
+// Keyword databases only hold phrasings people really type, so a plan made only of long,
+// idea-specific phrases measures nothing. Category searches (solution, buying) need at least
+// one short head term; problem searches are naturally questions, so only their length is bounded.
+export const HEAD_TERM_MAX_WORDS = 3;
+export const MAX_PROBLEM_WORDS = 6;
+export const MAX_CATEGORY_WORDS = 5;
+const wordCount = (k) => String(k).split(' ').filter(Boolean).length;
+
+/** Shape problems of one normalized plan: [{ group, issue: 'no_head_term' | 'too_long', keyword?, max? }]. Pure. */
+export function planShapeIssues(plan) {
+  const issues = [];
+  for (const g of ['solution', 'buying']) {
+    const list = plan?.keywords?.[g] ?? [];
+    if (!list.some((k) => wordCount(k) <= HEAD_TERM_MAX_WORDS)) issues.push({ group: g, issue: 'no_head_term' });
+  }
+  for (const g of KEYWORD_GROUPS) {
+    const max = g === 'problem' ? MAX_PROBLEM_WORDS : MAX_CATEGORY_WORDS;
+    for (const k of plan?.keywords?.[g] ?? []) if (wordCount(k) > max) issues.push({ group: g, issue: 'too_long', keyword: k, max });
+  }
+  return issues;
+}
+
+/** Plain-language description of shape issues, for the planner's one repair request. */
+export function describeShapeIssues(issues) {
+  return issues.map((x) =>
+    x.issue === 'no_head_term'
+      ? `the ${x.group} group has no keyword of ${HEAD_TERM_MAX_WORDS} words or fewer`
+      : `"${x.keyword}" (${x.group}) has more than ${x.max} words`,
+  );
+}
+
 // ---------- Demand ----------
 
 const monthIndex = (m) => m.year * 12 + (m.month - 1);
