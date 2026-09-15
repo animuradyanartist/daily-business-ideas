@@ -100,5 +100,5 @@ console.log(`✓ Wrote ${p.md} and ${p.json}`);
 console.log(`  mode: ${config.mode} · provider: ${run.provider.status}${run.provider.reason ? ` — ${run.provider.reason}` : ''}`);
 console.log(`  market: ${run.market.locationName}/${run.market.languageCode} · supported: ${run.market.support?.supported}`);
 if (run.lastGather?.pendingIdeas === 0) console.log(`  ${run.lastGather.note}`);
-else console.log(`  projected: $${run.projection?.totalUsd ?? 0} · spent now: $${run.lastGather?.spentUsd ?? 0} · Scout month-to-date before: $${run.budget.monthToDateUsdBefore} of $${run.budget.capUsd}`);
+else console.log(`  projected: $${run.projection?.totalUsd ?? 0} · spent now: $${run.lastGather?.spentUsd ?? 0} · Scout month-to-date before: ${run.budget.monthToDateUsdBefore === null ? 'not read' : `$${run.budget.monthToDateUsdBefore}`} · allowance: ${run.budget.capUsd === null ? 'not set' : `$${run.budget.capUsd}`}`);
 for (const i of run.ideas) console.log(`  - ${i.id}: ${i.status}${i.assessment ? ' · assessed' : ''}${i.reason ? ` (${i.reason})` : ''}`);
