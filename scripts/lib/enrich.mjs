@@ -7,8 +7,8 @@
 //
 // Flow per run:
 //   plan     — a small keyword set per idea (problem / solution / buying intent) + SERP queries
-//   gather   — DataForSEO Labs (one batched task) + live SERPs, every paid call behind the
-//              shared-ledger budget gate and the cache; free competitor page fetches
+//   gather   — DataForSEO Labs (one batched task) + live SERPs, every paid call behind Scout's
+//              own spend ledger (scripts/lib/spend-ledger.mjs) and the cache; free page fetches
 //   read     — code-computed demand / commercial readings (no LLM touches the numbers)
 //   assess   — an LLM writes the memo from the evidence only; any level it claims without a
 //              valid evidence ID is downgraded to "unknown", any URL not in the evidence is removed
@@ -21,8 +21,7 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createDataForSeo, ProviderError, projectLabsCost, projectSerpCost, projectAdsCost } from './dataforseo.mjs';
-import { createLedger, readBudgetConfig, stableUuid } from './ledger.mjs';
-import { createBudgetRpc, createLegacyLedgerBudget, RESERVE_MARGIN } from './budget.mjs';
+import { createRepoLedger, createLedgerSync, readBudgetConfig, stableUuid, RESERVE_MARGIN, LEDGER_DIR } from './spend-ledger.mjs';
 import { createFileCache, createOutbox, cacheKeys, readJson, writeJsonAtomic } from './cache.mjs';
 import { createPageFetcher } from './pages.mjs';
 import {
@@ -114,9 +113,6 @@ export function readEnrichConfig(env = process.env) {
     // Opt-in: price keywords Labs has no record of with the Google Ads endpoint ($0.09/task).
     adsFallback: (env.SCOUT_DFS_ADS_FALLBACK ?? '').trim() === 'live',
     maxAttempts: clampInt(env.SCOUT_ENRICH_MAX_ATTEMPTS, 3, 1, 5),
-    // `rpc` (default): the shared atomic budget functions. `legacy-ledger`: pre-migration,
-    // non-atomic, explicit opt-in for supervised runs only.
-    budgetBackend: (env.SCOUT_BUDGET_BACKEND ?? '').trim() === 'legacy-ledger' ? 'legacy-ledger' : 'rpc',
     // A request that may have been charged without an answer is never re-sent automatically.
     retryUncertain: (env.SCOUT_RETRY_UNCERTAIN ?? '').trim() === '1',
     // Optional override for the enrichment planner/assessor models (comma-separated, first
@@ -128,24 +124,12 @@ export function readEnrichConfig(env = process.env) {
 
 export function buildDeps(env = process.env, root = '.') {
   const config = readEnrichConfig(env);
-  const budget =
-    config.budgetBackend === 'legacy-ledger'
-      ? createLegacyLedgerBudget({
-          ledger: createLedger({
-            url: env.LEDGER_SUPABASE_URL?.trim(),
-            key: env.LEDGER_SUPABASE_SERVICE_KEY?.trim(),
-            projectId: env.LEDGER_PROJECT_ID?.trim(),
-          }),
-          capUsd: config.capUsd,
-        })
-      : createBudgetRpc({
-          url: env.DATAFORSEO_BUDGET_URL?.trim(),
-          anonKey: env.DATAFORSEO_BUDGET_ANON_KEY?.trim(),
-          token: env.DATAFORSEO_BUDGET_TOKEN?.trim(),
-        });
+  // Scout's own spend ledger: files under evidence/budget/, committed by the workflow.
+  const budget = createRepoLedger({ dir: join(root, LEDGER_DIR), capUsd: config.capUsd, maxRequestUsd: config.maxRequestUsd });
   return {
     dfs: createDataForSeo({ login: env.DATAFORSEO_LOGIN?.trim(), password: env.DATAFORSEO_PASSWORD?.trim() }),
     budget,
+    ledgerSync: createLedgerSync({ cwd: root, env }),
     cache: createFileCache(join(root, EVIDENCE_DIR, 'cache')),
     outbox: createOutbox(join(root, EVIDENCE_DIR, 'ledger-outbox.json')),
     fetchPage: createPageFetcher(),
@@ -390,11 +374,10 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   if (config.modeWarning) warnings.push(config.modeWarning);
   const budget = {
     backend: deps.budget.backend,
-    atomic: deps.budget.atomic,
     capUsd: config.capUsd,
-    reserveUsd: config.reserveUsd,
     maxRunUsd: config.maxRunUsd,
-    sharedBefore: null, // { chargedUsd, heldUsd } across every app, before this attempt
+    maxRequestUsd: config.maxRequestUsd,
+    ledgerBefore: null, // Scout's own ledger this month, before this attempt: { chargedUsd, heldUsd }
     committedThisRunUsd: 0, // open holds + charges of this attempt (per-run limit)
     spentThisRunUsd: 0, // provider-reported charges + uncertain holds at their estimate
   };
@@ -415,14 +398,21 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   // Configuration gates, most fundamental first.
   if (config.mode !== 'live') setBlock('dry-run', 'Dry run: no paid requests were made (SCOUT_DFS_MODE is not "live").');
   if (!deps.dfs.configured) setBlock('unavailable', 'DataForSEO credentials are not configured.');
-  if (config.capUsd === null) setBlock('unavailable', `${config.capError}, so there is no spending allowance.`);
-  if (!deps.budget.configured) setBlock('unavailable', 'The shared DataForSEO budget is not configured, so spend could not be reserved against the shared allowance.');
-  if (config.mode === 'live' && !deps.budget.atomic) {
-    warnings.push('Budget backend is legacy-ledger: reservations are not atomic across apps (pre-migration, supervised use only).');
+  if (config.capUsd === null) setBlock('unavailable', `${config.capError}, so Scout has no DataForSEO spending allowance.`);
+  if (!deps.budget.configured) setBlock('unavailable', 'Scout\'s spend ledger is not configured, so spend could not be reserved.');
+
+  // A live run only decides from ledger history that matches the remote branch.
+  if (config.mode === 'live' && !block && deps.ledgerSync) {
+    try {
+      const sync = await deps.ledgerSync.check();
+      if (!sync.ok) setBlock('pending', `Spend ledger not confirmed current: ${sync.reason}. Nothing was bought.`);
+    } catch (err) {
+      setBlock('pending', `Spend ledger not confirmed current (${err.message}). Nothing was bought.`);
+    }
   }
 
   // Budget updates that failed last time are replayed before anything new is bought.
-  if (config.mode === 'live' && deps.budget.configured) {
+  if (config.mode === 'live' && deps.budget.configured && block?.status !== 'pending') {
     const pending = deps.outbox.list();
     if (pending.length) {
       const left = [];
@@ -443,9 +433,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
   if (deps.budget.configured) {
     try {
-      budget.sharedBefore = await deps.budget.status();
+      budget.ledgerBefore = await deps.budget.status();
     } catch (err) {
-      setBlock('pending', `The shared budget could not be read (${err.message}), so nothing was bought.`);
+      setBlock('pending', `Scout's spend ledger could not be read (${err.message}), so nothing was bought.`);
     }
   }
 
@@ -485,9 +475,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
   const skips = new Map(); // idea id → reasons
 
-  const scoutCeiling = config.capUsd === null ? null : roundUsd(config.capUsd - config.reserveUsd);
+  const scoutCeiling = config.capUsd;
 
-  // A failed budget write never loses a charge: the hold stays counted on the server and the
+  // A failed budget write never loses a charge: the reservation file stays counted and the
   // update is replayed from the outbox before the next purchase.
   async function budgetOp(op, args, line) {
     try {
@@ -519,19 +509,19 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     const holdId = stableUuid(`scout|${attemptId}|${requestKey}`);
     let r;
     try {
-      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling });
+      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling, runId: attemptId });
     } catch (err) {
-      setBlock('pending', `The shared budget could not be reached (${err.message}), so nothing was bought.`);
+      setBlock('pending', `Scout's spend ledger could not reserve (${err.message}), so nothing was bought.`);
       return { skipped: block.reason };
     }
     if (!r.ok) {
       if (r.reason === 'unauthorized' || r.reason === 'not_configured' || r.reason === 'request_limit') {
-        setBlock('unavailable', `The shared budget refused the reservation (${r.reason}).`);
+        setBlock('unavailable', `Scout's spend ledger refused the reservation (${r.reason}${r.reason === 'request_limit' ? `: over the $${config.maxRequestUsd} per-request limit` : ''}).`);
         return { skipped: block.reason };
       }
       if (r.reason === 'cap') {
         return {
-          skipped: `budget: a ~$${estimate.toFixed(4)} reservation was refused — shared cap $${r.capUsd}, Scout's ceiling $${r.ceilingUsd} (cap − $${config.reserveUsd} reserve), already charged $${r.chargedUsd}, held by in-flight or uncertain requests $${r.heldUsd}`,
+          skipped: `budget: a ~$${estimate.toFixed(4)} reservation was refused — Scout's monthly allowance $${r.capUsd}, already charged $${r.chargedUsd}, held by in-flight or uncertain requests $${r.heldUsd}`,
         };
       }
       return { skipped: `budget: reservation refused (${r.reason})` };
@@ -792,12 +782,12 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   run.lastGather = { at: now().toISOString(), mode: config.mode, pendingIdeas: todo.length, spentUsd: budget.spentThisRunUsd, note: null };
   run.budget = {
     backend: budget.backend,
-    atomic: budget.atomic,
+    scope: 'scout-only',
     capUsd: budget.capUsd,
-    reserveUsd: budget.reserveUsd,
     maxRunUsd: budget.maxRunUsd,
-    sharedBefore: budget.sharedBefore,
-    monthToDateUsdBefore: budget.sharedBefore ? roundUsd(budget.sharedBefore.chargedUsd + budget.sharedBefore.heldUsd) : null,
+    maxRequestUsd: budget.maxRequestUsd,
+    ledgerBefore: budget.ledgerBefore,
+    monthToDateUsdBefore: budget.ledgerBefore ? roundUsd(budget.ledgerBefore.chargedUsd + budget.ledgerBefore.heldUsd) : null,
     spentThisRunUsd: budget.spentThisRunUsd,
   };
   deps.cache.save();

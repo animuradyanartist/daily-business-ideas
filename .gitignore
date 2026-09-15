@@ -7,3 +7,6 @@ node_modules/
 .env.*
 !.env.example
 .dev.vars
+
+# Scout spend-ledger lock (held for milliseconds during a reservation)
+evidence/budget/.lock

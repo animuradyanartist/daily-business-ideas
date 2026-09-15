@@ -1,0 +1,32 @@
+{
+  "id": "71909cfe-5df8-5b9a-908c-9e610ddd0a3e",
+  "month": "2026-09",
+  "client": "scout",
+  "status": "charged",
+  "estimatedUsd": 0.00004,
+  "actualUsd": 0.00004,
+  "endpoint": "correction: 4-decimal rounding of earlier Labs charges",
+  "requestKey": null,
+  "runId": null,
+  "createdAt": "2026-09-14T07:38:27.576Z",
+  "expiresAt": "2026-09-14T07:38:27.576Z",
+  "settledAt": "2026-09-14T07:38:27.576Z",
+  "note": null,
+  "payload": {
+    "cost": 0.00004,
+    "reason": "4-decimal rounding of Labs per-item charges: 103db61e recorded 0.0130 for 0.01296 (-0.00004), f4ffb79a recorded 0.0122 for 0.01224 (+0.00004), 728bc674 recorded 0.0140 for 0.01404 (+0.00004); net +0.00004",
+    "source": "scout",
+    "corrects": [
+      "103db61e-ce09-5fef-9694-ad59500e2b3e",
+      "f4ffb79a-f661-5a62-a60c-3d5ef780bd26",
+      "728bc674-4452-5dae-a911-e6b009bc820d"
+    ],
+    "correction": true
+  },
+  "imported": {
+    "from": "Career OS Supabase runtime_events (type dataforseo.spend, produced_by scout) — the shared ledger Scout used until 2026-09-15",
+    "exportedAt": "2026-09-15",
+    "eventId": "71909cfe-5df8-5b9a-908c-9e610ddd0a3e",
+    "note": "estimatedUsd is the recorded cost; the original reservation estimate was not part of the event"
+  }
+}

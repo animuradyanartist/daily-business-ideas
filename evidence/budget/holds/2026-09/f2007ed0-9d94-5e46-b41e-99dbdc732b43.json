@@ -1,0 +1,34 @@
+{
+  "id": "f2007ed0-9d94-5e46-b41e-99dbdc732b43",
+  "month": "2026-09",
+  "client": "scout",
+  "status": "charged",
+  "estimatedUsd": 0.002,
+  "actualUsd": 0.002,
+  "endpoint": "serp/google/organic/live/regular",
+  "requestKey": null,
+  "runId": "2026-08-21-a1-1789365912854",
+  "createdAt": "2026-09-14T06:05:15.148Z",
+  "expiresAt": "2026-09-14T06:05:15.148Z",
+  "settledAt": "2026-09-14T06:05:15.148Z",
+  "note": null,
+  "payload": {
+    "cost": 0.002,
+    "runId": "2026-08-21-a1-1789365912854",
+    "capUsd": 2,
+    "source": "scout",
+    "endpoint": "serp/google/organic/live/regular",
+    "language": "en",
+    "location": "United States",
+    "measured": 9,
+    "estimated": false,
+    "requested": 1,
+    "measuredAt": "2026-09-14T06:05:15.148Z"
+  },
+  "imported": {
+    "from": "Career OS Supabase runtime_events (type dataforseo.spend, produced_by scout) — the shared ledger Scout used until 2026-09-15",
+    "exportedAt": "2026-09-15",
+    "eventId": "f2007ed0-9d94-5e46-b41e-99dbdc732b43",
+    "note": "estimatedUsd is the recorded cost; the original reservation estimate was not part of the event"
+  }
+}

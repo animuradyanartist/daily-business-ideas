@@ -4,7 +4,7 @@
 // assessment, idempotency and cost gating — NOT a live provider test.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { cpSync, mkdirSync, mkdtempSync, readFileSync, existsSync } from 'node:fs';
+import { cpSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, existsSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
@@ -14,12 +14,34 @@ const here = dirname(fileURLToPath(import.meta.url));
 const scripts = join(here, '..');
 const TODAY = new Date().toISOString().slice(0, 10);
 
+// A git checkout with an `origin` remote, like the workflow's: a live run confirms that its
+// spend ledger (evidence/budget) matches the remote branch before buying anything.
 function sandbox() {
-  const dir = mkdtempSync(join(tmpdir(), 'scout-pipeline-'));
+  const root = mkdtempSync(join(tmpdir(), 'scout-pipeline-'));
+  const dir = join(root, 'repo');
+  const git = (...args) => {
+    const r = spawnSync('git', args, { cwd: dir, encoding: 'utf8' });
+    assert.equal(r.status, 0, `git ${args.join(' ')}: ${r.stderr}`);
+  };
+  mkdirSync(dir);
   cpSync(scripts, join(dir, 'scripts'), { recursive: true, filter: (p) => !p.includes(`${join('scripts', 'test')}`) });
   mkdirSync(join(dir, 'ideas'));
+  spawnSync('git', ['init', '-q', '--bare', '-b', 'main', join(root, 'origin.git')]);
+  git('init', '-q', '-b', 'main');
+  git('config', 'user.email', 't@example.com');
+  git('config', 'user.name', 't');
+  git('remote', 'add', 'origin', join(root, 'origin.git'));
+  git('add', '-A');
+  git('commit', '-qm', 'sandbox');
+  git('push', '-q', 'origin', 'main');
   return dir;
 }
+
+const ledgerHolds = (dir) => {
+  const base = join(dir, 'evidence', 'budget', 'holds');
+  if (!existsSync(base)) return [];
+  return readdirSync(base).flatMap((m) => readdirSync(join(base, m)).map((f) => JSON.parse(readFileSync(join(base, m, f), 'utf8'))));
+};
 
 function runDaily(dir, env) {
   const netLog = join(dir, `net-${process.hrtime.bigint()}.log`);
@@ -31,10 +53,8 @@ function runDaily(dir, env) {
       GEMINI_API_KEY: 'fake',
       DATAFORSEO_LOGIN: 'fake',
       DATAFORSEO_PASSWORD: 'fake',
-      DATAFORSEO_MONTHLY_USD_CAP: '2',
-      DATAFORSEO_BUDGET_URL: 'https://budget.fake',
-      DATAFORSEO_BUDGET_ANON_KEY: 'fake-anon',
-      DATAFORSEO_BUDGET_TOKEN: 'fake-client-token-0123456789abcdef',
+      SCOUT_DFS_MONTHLY_USD_CAP: '2',
+      HOME: process.env.HOME,
       FAKE_NET_LOG: netLog,
       ...env,
     },
@@ -78,16 +98,14 @@ test('live mode: enrichment runs after the scan, stays separate, and a re-run pa
   const paid = paidCalls(first.calls);
   assert.equal(paid.filter((c) => c.url.includes('keyword_overview')).length, 1); // one batch for the whole shortlist
   assert.equal(paid.filter((c) => c.url.includes('/serp/')).length, 6);
-  const rpcCalls = first.calls.filter((c) => c.url.includes('budget.fake'));
-  const reserves = rpcCalls.filter((c) => c.url.endsWith('dataforseo_budget_reserve'));
-  const settles = rpcCalls.filter((c) => c.url.endsWith('dataforseo_budget_settle'));
-  assert.equal(reserves.length, 7);
-  assert.equal(settles.length, 7);
-  assert.ok(settles.every((c) => reserves.some((r) => r.body.p_hold_id === c.body.p_hold_id) && c.body.p_payload.source === 'scout'));
-  // every paid request was preceded by its reservation
-  for (const [i, c] of first.calls.entries()) {
-    if (c.method === 'POST' && c.url.includes('api.dataforseo.com')) assert.ok(first.calls.slice(0, i).some((x) => x.url.endsWith('dataforseo_budget_reserve')));
-  }
+  // Spend is accounted in Scout's own ledger files — no database, no other product's service.
+  assert.ok(first.calls.every((c) => c.url.startsWith('https://api.dataforseo.com') || c.url.includes('generativelanguage') || c.url.includes('-vendor.test') || c.url.includes('reddit.com')), 'no call outside Gemini, DataForSEO and fetched pages');
+  const holds = ledgerHolds(dir);
+  assert.equal(holds.length, 7);
+  assert.ok(holds.every((h) => h.status === 'charged' && h.client === 'scout' && h.payload.source === 'scout'));
+  assert.equal(Number(holds.reduce((s, h) => s + h.actualUsd, 0).toFixed(6)), Number(run.budget.spentThisRunUsd.toFixed(6)));
+  assert.equal(run.budget.scope, 'scout-only');
+  assert.ok(run.spend.every((l) => holds.some((h) => h.id === l.holdId)));
   const scanIdx = first.calls.findIndex((c) => c.url.includes('generativelanguage'));
   const firstPaid = first.calls.findIndex((c) => c.method === 'POST' && c.url.includes('dataforseo'));
   assert.ok(firstPaid > scanIdx);
@@ -110,7 +128,7 @@ test('dry-run mode (the default): full daily run with zero paid requests', { tim
   const r = runDaily(dir, { SCOUT_DFS_MODE: '' });
   assert.equal(r.status, 0, r.stderr);
   assert.equal(paidCalls(r.calls).length, 0);
-  assert.equal(r.calls.filter((c) => c.url.endsWith('dataforseo_budget_reserve')).length, 0);
+  assert.equal(ledgerHolds(dir).length, 0);
   const run = JSON.parse(readFileSync(join(dir, 'evidence', `${TODAY}.json`), 'utf8'));
   assert.ok(run.ideas.every((i) => i.status === 'dry-run'));
   assert.ok(run.projection.totalUsd > 0);

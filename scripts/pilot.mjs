@@ -4,7 +4,7 @@
 //   node scripts/pilot.mjs select  --pilot <dir> --from <dir> [--measure keywords-only]   same ideas as another pilot (planner comparison)
 //   node scripts/pilot.mjs plan    --pilot <dir>                keyword plans via Scout's Gemini config (GEMINI_API_KEY)
 //   node scripts/pilot.mjs preview --pilot <dir>                dry run: requests, cache reuse, geography, estimated cost
-//   node scripts/pilot.mjs gather  --pilot <dir> --live         paid DataForSEO requests, behind the budget gate
+//   node scripts/pilot.mjs gather  --pilot <dir> --live         paid DataForSEO requests, behind Scout's spend ledger
 //   node scripts/pilot.mjs assess  --pilot <dir> [--expect-failure]
 //   node scripts/pilot.mjs check   --pilot <dir>                verification report (plans, grounding, unknowns, memos untouched)
 //   node scripts/pilot.mjs report  --pilot <dir>                readable per-idea comparison
@@ -205,8 +205,8 @@ if (cmd === 'preview') {
     `_Generated ${run.updatedAt}. Nothing was bought. Estimates use the published prices; the gate reserves each request at ×1.1 and records the provider-reported cost._`,
     '',
     `- Selection: ${pilot.selectionRule}`,
-    `- Budget backend: ${deps.budget.backend}${deps.budget.atomic ? '' : ' (not atomic across apps — supervised use only)'}; shared cap ${money(config.capUsd)}, Scout reserve ${money(config.reserveUsd)}, per-run limit ${money(config.maxRunUsd)}`,
-    `- Shared DataForSEO spend this month before the run: ${run.budget.sharedBefore ? `${money(run.budget.sharedBefore.chargedUsd)} charged + ${money(run.budget.sharedBefore.heldUsd)} held` : 'not read (budget not configured for this preview)'}`,
+    `- Budget: Scout's own spend ledger (${deps.budget.backend}); monthly allowance ${money(config.capUsd)}, per-request limit ${money(config.maxRequestUsd)}, per-run limit ${money(config.maxRunUsd)}`,
+    `- Scout's DataForSEO spend this month before the run: ${run.budget.ledgerBefore ? `${money(run.budget.ledgerBefore.chargedUsd)} charged + ${money(run.budget.ledgerBefore.heldUsd)} held` : 'not read (no monthly allowance configured for this preview)'}`,
     `- Paid requests planned: ${pr.labsTasks} Labs keyword task(s) for ${pr.labsKeywords} keyword(s) + ${pr.serpQueries} live search result page(s)`,
     `- Reused from cache: ${pr.keywordsFromCache} keyword measurement(s), ${pr.serpsFromCache} search result page(s)`,
     `- Estimated additional cost: ${money(pr.totalUsd)} (${money(pr.labsUsd)} keywords + ${money(pr.serpUsd)} search results); reserved at ${money(pr.reservedUsd)}${pr.reservedUsd > config.maxRunUsd ? ` — EXCEEDS the ${money(config.maxRunUsd)} per-run limit: the last requests would be refused, not split into another run` : ` — within the ${money(config.maxRunUsd)} per-run limit`}`,
@@ -239,7 +239,6 @@ if (cmd === 'gather') {
   const run = readJson(P.run, null) ?? buildRun(plans);
   const liveConfig = { ...config, mode: 'live' };
   const deps = buildDeps({ ...process.env, SCOUT_DFS_MODE: 'live' });
-  if (!deps.budget.atomic) console.warn('⚠ legacy-ledger budget backend: spend is recorded, reservations are not atomic across apps.');
   await gatherEvidence({ run, config: liveConfig, deps });
   saveRunAt(run, { json: P.run, md: P.runMd, rootRel });
   const charged = run.spend.filter((l) => l.status === 'charged').reduce((s, l) => s + l.costUsd, 0);
@@ -833,7 +832,9 @@ if (cmd === 'report') {
     `| This pilot — actual, provider-reported | ${money(charged.reduce((s, l) => s + l.costUsd, 0))} | ${charged.length} charged request(s) |`,
     `| This pilot — outcome unknown (held at estimate) | ${money(uncertain.reduce((s, l) => s + l.estimateUsd, 0))} | ${uncertain.length} request(s) |`,
     '',
-    `Budget backend for this pilot: ${run.budget?.backend ?? 'n/a'}${run.budget?.atomic === false ? ' (not atomic: the reservation functions are awaiting review, so spend was recorded in the existing ledger)' : ''}. Shared cap ${money(run.budget?.capUsd)}, Scout reserve ${money(run.budget?.reserveUsd)}, per-run limit ${money(run.budget?.maxRunUsd)}. Google Ads fallback: off.`,
+    run.budget?.scope === 'scout-only'
+      ? `Budget for this pilot: Scout's own spend ledger (${run.budget.backend}). Monthly allowance ${money(run.budget.capUsd)}, per-request limit ${money(run.budget.maxRequestUsd)}, per-run limit ${money(run.budget.maxRunUsd)}. Google Ads fallback: off.`
+      : `Budget backend for this pilot: ${run.budget?.backend ?? 'n/a'}${run.budget?.atomic === false ? ' (not atomic: the reservation functions are awaiting review, so spend was recorded in the existing ledger)' : ''}. Shared cap ${money(run.budget?.capUsd)}, Scout reserve ${money(run.budget?.reserveUsd)}, per-run limit ${money(run.budget?.maxRunUsd)} (recorded before Scout's spend moved to its own ledger on 2026-09-15). Google Ads fallback: off.`,
     '',
     '## Assessments — provenance',
     `- Written by ${run.assessmentModels?.join(' → ') ?? 'n/a'} in ${run.assessmentRunner?.runId ? `GitHub Actions run ${run.assessmentRunner.runId}` : run.assessmentRunner?.kind ?? 'n/a'}${(() => { const r = run.ideas.map((i) => i.assessment?.revalidatedAt).filter(Boolean).sort().at(-1); return r ? `; validators re-applied offline to that run's stored model output at ${r}` : ''; })()}.`,
