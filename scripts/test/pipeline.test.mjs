@@ -4,7 +4,7 @@
 // assessment, idempotency and cost gating — NOT a live provider test.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { cpSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, existsSync } from 'node:fs';
+import { cpSync, mkdirSync, mkdtempSync, readFileSync, existsSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
@@ -14,8 +14,8 @@ const here = dirname(fileURLToPath(import.meta.url));
 const scripts = join(here, '..');
 const TODAY = new Date().toISOString().slice(0, 10);
 
-// A git checkout with an `origin` remote, like the workflow's: a live run confirms that its
-// spend ledger (evidence/budget) matches the remote branch before buying anything.
+// A git checkout with an `origin` remote that has Scout's ledger branch, like the workflow's:
+// a live run pushes each reservation to that branch before buying anything.
 function sandbox() {
   const root = mkdtempSync(join(tmpdir(), 'scout-pipeline-'));
   const dir = join(root, 'repo');
@@ -34,13 +34,19 @@ function sandbox() {
   git('add', '-A');
   git('commit', '-qm', 'sandbox');
   git('push', '-q', 'origin', 'main');
+  git('checkout', '-q', '--orphan', 'scout-spend-ledger');
+  git('rm', '-rq', '--cached', '.');
+  spawnSync('git', ['commit', '-q', '--allow-empty', '-m', 'init ledger'], { cwd: dir });
+  git('push', '-q', 'origin', 'scout-spend-ledger');
+  git('checkout', '-q', '-f', 'main');
   return dir;
 }
 
+// The ledger as the remote has it (not the working tree).
 const ledgerHolds = (dir) => {
-  const base = join(dir, 'evidence', 'budget', 'holds');
-  if (!existsSync(base)) return [];
-  return readdirSync(base).flatMap((m) => readdirSync(join(base, m)).map((f) => JSON.parse(readFileSync(join(base, m, f), 'utf8'))));
+  const origin = join(dir, '..', 'origin.git');
+  const ls = spawnSync('git', ['ls-tree', '-r', '--name-only', 'scout-spend-ledger', 'holds'], { cwd: origin, encoding: 'utf8' });
+  return ls.stdout.split('\n').filter(Boolean).map((p) => JSON.parse(spawnSync('git', ['show', `scout-spend-ledger:${p}`], { cwd: origin, encoding: 'utf8' }).stdout));
 };
 
 function runDaily(dir, env) {
@@ -106,6 +112,7 @@ test('live mode: enrichment runs after the scan, stays separate, and a re-run pa
   assert.equal(Number(holds.reduce((s, h) => s + h.actualUsd, 0).toFixed(6)), Number(run.budget.spentThisRunUsd.toFixed(6)));
   assert.equal(run.budget.scope, 'scout-only');
   assert.ok(run.spend.every((l) => holds.some((h) => h.id === l.holdId)));
+  assert.equal(existsSync(join(dir, 'evidence', 'budget')), false); // nothing ledger-related left only on the runner
   const scanIdx = first.calls.findIndex((c) => c.url.includes('generativelanguage'));
   const firstPaid = first.calls.findIndex((c) => c.method === 'POST' && c.url.includes('dataforseo'));
   assert.ok(firstPaid > scanIdx);

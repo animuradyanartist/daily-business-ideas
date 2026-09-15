@@ -21,7 +21,7 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createDataForSeo, ProviderError, projectLabsCost, projectSerpCost, projectAdsCost } from './dataforseo.mjs';
-import { createRepoLedger, createLedgerSync, readBudgetConfig, stableUuid, RESERVE_MARGIN, LEDGER_DIR } from './spend-ledger.mjs';
+import { createGitLedger, readBudgetConfig, stableUuid, RESERVE_MARGIN } from './spend-ledger.mjs';
 import { createFileCache, createOutbox, cacheKeys, readJson, writeJsonAtomic } from './cache.mjs';
 import { createPageFetcher } from './pages.mjs';
 import {
@@ -124,12 +124,11 @@ export function readEnrichConfig(env = process.env) {
 
 export function buildDeps(env = process.env, root = '.') {
   const config = readEnrichConfig(env);
-  // Scout's own spend ledger: files under evidence/budget/, committed by the workflow.
-  const budget = createRepoLedger({ dir: join(root, LEDGER_DIR), capUsd: config.capUsd, maxRequestUsd: config.maxRequestUsd });
+  // Scout's own spend ledger: a branch of this GitHub repo; every reservation is pushed before a paid request.
+  const budget = createGitLedger({ cwd: root, remote: config.ledgerRemote, branch: config.ledgerBranch, capUsd: config.capUsd, maxRequestUsd: config.maxRequestUsd, env });
   return {
     dfs: createDataForSeo({ login: env.DATAFORSEO_LOGIN?.trim(), password: env.DATAFORSEO_PASSWORD?.trim() }),
     budget,
-    ledgerSync: createLedgerSync({ cwd: root, env }),
     cache: createFileCache(join(root, EVIDENCE_DIR, 'cache')),
     outbox: createOutbox(join(root, EVIDENCE_DIR, 'ledger-outbox.json')),
     fetchPage: createPageFetcher(),
@@ -401,18 +400,8 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   if (config.capUsd === null) setBlock('unavailable', `${config.capError}, so Scout has no DataForSEO spending allowance.`);
   if (!deps.budget.configured) setBlock('unavailable', 'Scout\'s spend ledger is not configured, so spend could not be reserved.');
 
-  // A live run only decides from ledger history that matches the remote branch.
-  if (config.mode === 'live' && !block && deps.ledgerSync) {
-    try {
-      const sync = await deps.ledgerSync.check();
-      if (!sync.ok) setBlock('pending', `Spend ledger not confirmed current: ${sync.reason}. Nothing was bought.`);
-    } catch (err) {
-      setBlock('pending', `Spend ledger not confirmed current (${err.message}). Nothing was bought.`);
-    }
-  }
-
   // Budget updates that failed last time are replayed before anything new is bought.
-  if (config.mode === 'live' && deps.budget.configured && block?.status !== 'pending') {
+  if (config.mode === 'live' && deps.budget.configured) {
     const pending = deps.outbox.list();
     if (pending.length) {
       const left = [];

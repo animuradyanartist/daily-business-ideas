@@ -9,7 +9,6 @@ This folder is **separate from Scout's assessment**. `ideas/<date>.md` keeps its
 - `<date>.md` — the enriched assessment for that day's shortlist, one section per idea.
 - `<date>.json` — the same run as data: the keyword plan, every observation with provider, market and retrieval time, the code-computed readings, the constrained assessment, and each paid request with its ledger (hold) ID.
 - `cache/` — provider answers reused while fresh, so the same fact is never bought twice. Committed on purpose.
-- `budget/holds/<YYYY-MM>/<id>.json` — Scout's own DataForSEO spend ledger, one file per paid request (reserved → charged / released / uncertain). Committed on purpose, including after a failed run. `node scripts/budget.mjs status` summarises a month; it covers Scout only, not other users of the DataForSEO account.
 - `ledger-outbox.json` — only exists if a ledger update (settle / uncertain / release) could not be written; it is replayed before the next purchase.
 - `pilots/<name>/` — enrichment pilots on existing ideas (`scripts/pilot.mjs`): selection, keyword plans, dry-run preview, evidence, model checks and a readable comparison (`REPORT.md`). Pilots never modify `ideas/`.
 

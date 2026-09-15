@@ -34,9 +34,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Evidence enrichment (DataForSEO). Paid requests happen ONLY when the repo
           # variable SCOUT_DFS_MODE is "live" AND credentials and Scout's own monthly
-          # allowance (SCOUT_DFS_MONTHLY_USD_CAP) are set. Spend is accounted in Scout's
-          # own ledger, evidence/budget/ in this repo (no database). The ledger must match
-          # origin before anything is bought; the concurrency group above keeps runs serial.
+          # allowance (SCOUT_DFS_MONTHLY_USD_CAP) are set. Spend is accounted on this repo's
+          # `scout-spend-ledger` branch (no database): every reservation is pushed there,
+          # as a fast-forward, BEFORE the paid request — this job needs contents: write.
           SCOUT_DFS_MODE: ${{ vars.SCOUT_DFS_MODE || 'dry-run' }}
           SCOUT_MARKETS: ${{ vars.SCOUT_MARKETS }}
           SCOUT_ENRICH_MAX_IDEAS: ${{ vars.SCOUT_ENRICH_MAX_IDEAS }}
@@ -50,7 +50,8 @@ jobs:
       - name: Commit and push
         id: commit
         # Runs even when research failed, so provider data that was already PAID for
-        # (evidence cache, spend ledger, unrecorded-charge outbox) is never thrown away.
+        # (evidence cache + unrecorded-charge outbox) is never thrown away. The spend ledger
+        # is not committed here: it is pushed to its own branch before each paid request.
         if: always()
         run: |
           set -e
@@ -86,7 +87,6 @@ jobs:
               MSG="evidence(${DATE}): enrichment update"
             else
               git add -A -- evidence/cache
-              [ -d evidence/budget ] && git add -A -- evidence/budget
               [ -f evidence/ledger-outbox.json ] && git add -- evidence/ledger-outbox.json
               MSG="evidence(${DATE}): keep paid provider data after a failed run"
             fi

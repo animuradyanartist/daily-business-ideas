@@ -120,7 +120,6 @@ function setup({ env = {}, dfs = fakeDfs(), budget = fakeBudget(), ideas = ['a',
     budget,
     cache: createFileCache(join(dir, 'cache')),
     outbox: createOutbox(join(dir, 'outbox.json')),
-    ledgerSync: { check: async () => ({ ok: true, reason: null }) },
     fetchPage: async (url) => (pageCalls.push(url), { url, retrievedAt: new Date().toISOString(), status: 200, error: null, title: 'Vendor', priceMentions: [{ text: '$49/mo', billingUnit: true, context: '$49/mo' }] }),
     now: () => new Date(),
   };
@@ -374,53 +373,68 @@ test('markets: the planner picks from an allowlist; one Labs task per market; un
   assert.equal(run.projection.labsTasks, 2);
 });
 
-// --- Scout's real file ledger (evidence/budget) wired into the gather step -------------------
+// --- Scout's real ledger (a branch on the remote) wired into the gather step --------------
 
-test('an unconfirmed ledger (stale or unsynced checkout) blocks live purchases before any reservation', async () => {
-  const { run, config, deps, dfs, budget } = setup();
-  deps.ledgerSync = { check: async () => ({ ok: false, reason: 'evidence/budget differs from origin/main' }) };
-  await gatherEvidence({ run, config, deps, log: quiet });
-  assert.equal(dfs.calls.labs + dfs.calls.serp + dfs.calls.balance, 0);
-  assert.equal(budget.holds.size, 0);
-  assert.equal(run.provider.status, 'pending');
-  assert.match(run.provider.reason, /not confirmed current/);
-});
-
-test('real ledger: charges persist as files, a later process sees them, and the allowance holds across runs', async () => {
-  const { createRepoLedger } = await import('../lib/spend-ledger.mjs');
-  const { readdirSync } = await import('node:fs');
-  const first = setup();
-  const ledgerDir = join(first.dir, 'budget');
-  first.deps.budget = createRepoLedger({ dir: ledgerDir, capUsd: 0.02, maxRequestUsd: 0.1 });
+test('real ledger: every paid request is sent only after its reservation is on the remote', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote } = await import('./fixtures/ledger-remote.mjs');
+  const remote = ledgerRemote();
+  const observer = createGitLedger({ cwd: remote.clone(), capUsd: 0.02 }); // a different checkout reading GitHub
+  const seenAtSend = [];
+  const dfs = fakeDfs();
+  const wrap = (fn) => async (...args) => {
+    const holds = await observer.list();
+    seenAtSend.push(holds.filter((h) => h.effectiveStatus === 'reserved').length);
+    return fn(...args);
+  };
+  dfs.keywordOverview = wrap(dfs.keywordOverview);
+  dfs.serpOrganic = wrap(dfs.serpOrganic);
+  const first = setup({ dfs });
+  first.deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 0.02, maxRequestUsd: 0.1 });
   await gatherEvidence({ run: first.run, config: first.config, deps: first.deps, log: quiet });
-  const month = new Date().toISOString().slice(0, 7);
-  const files = readdirSync(join(ledgerDir, 'holds', month));
+  assert.deepEqual(seenAtSend, [1, 1, 1]); // at each send, exactly that request's reservation was already on the remote
+  const files = Object.values(remote.files());
   assert.equal(files.length, 3);
-  const holds = files.map((f) => JSON.parse(readFileSync(join(ledgerDir, 'holds', month, f), 'utf8')));
-  assert.ok(holds.every((h) => h.status === 'charged' && h.client === 'scout' && h.payload.source === 'scout'));
-  assert.equal(Number(holds.reduce((s, h) => s + h.actualUsd, 0).toFixed(6)), 0.0164);
+  assert.ok(files.every((h) => h.status === 'charged' && h.client === 'scout' && h.payload.source === 'scout'));
+  assert.equal(Number(files.reduce((t, h) => t + h.actualUsd, 0).toFixed(6)), 0.0164);
+  assert.ok(first.run.spend.every((l) => files.some((h) => h.id === l.holdId)));
 
-  // A brand-new process (fresh ledger instance, new cache) sees Scout's spend: $0.0036 left of $0.02.
+  // A second run from a different checkout sees Scout's spend: $0.0036 left of $0.02.
   const second = setup({ ideas: ['c'] });
-  second.deps.budget = createRepoLedger({ dir: ledgerDir, capUsd: 0.02, maxRequestUsd: 0.1 });
+  second.deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 0.02, maxRequestUsd: 0.1 });
   await gatherEvidence({ run: second.run, config: second.config, deps: second.deps, log: quiet });
   assert.equal(second.dfs.calls.labs, 0); // ~$0.0073 keyword reservation refused
   assert.equal(second.dfs.calls.serp, 1); // ~$0.0022 search result page fits
   assert.match(second.run.ideas[0].reason, /monthly allowance \$0\.02/);
-  assert.equal((await second.deps.budget.status()).chargedUsd, 0.0184);
 });
 
-test('real ledger: a crash between reserve and settle stays counted as uncertain in the next run', async () => {
-  const { createRepoLedger } = await import('../lib/spend-ledger.mjs');
-  const dir = mkdtempSync(join(tmpdir(), 'scout-crash-'));
-  let clock = new Date('2026-09-20T10:00:00Z');
-  const ledger = createRepoLedger({ dir, capUsd: 0.05, now: () => clock });
-  assert.equal((await ledger.reserve({ holdId: 'aaaaaaaa-0000-5000-8000-000000000001', estimatedUsd: 0.04, endpoint: 'serp' })).ok, true);
-  // …process dies here: no settle, no release. Twenty minutes later another run starts.
-  clock = new Date('2026-09-20T10:20:00Z');
-  const again = createRepoLedger({ dir, capUsd: 0.05, now: () => clock });
-  const r = await again.reserve({ holdId: 'aaaaaaaa-0000-5000-8000-000000000002', estimatedUsd: 0.02, endpoint: 'serp' });
-  assert.deepEqual([r.ok, r.reason, r.heldUsd], [false, 'cap', 0.04]);
-  assert.equal(again.list('2026-09')[0].status, 'uncertain');
-  await assert.rejects(() => again.release({ holdId: 'aaaaaaaa-0000-5000-8000-000000000001' }), /not_releasable/);
+test('real ledger: if GitHub refuses the reservation push, nothing is bought', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote } = await import('./fixtures/ledger-remote.mjs');
+  const { writeFileSync, chmodSync } = await import('node:fs');
+  const remote = ledgerRemote();
+  const hook = join(remote.origin, 'hooks', 'pre-receive');
+  writeFileSync(hook, '#!/bin/sh\necho "protected branch" >&2\nexit 1\n');
+  chmodSync(hook, 0o755);
+  const { run, config, deps, dfs } = setup();
+  deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 2 });
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
+  assert.equal(run.provider.status, 'pending');
+  assert.match(run.provider.reason, /could not push the spend ledger/);
+  assert.equal(Object.keys(remote.files()).length, 0);
+});
+
+test('real ledger: if the remote cannot be reached, nothing is bought', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote, git } = await import('./fixtures/ledger-remote.mjs');
+  const remote = ledgerRemote();
+  const offline = remote.clone();
+  git(offline, 'remote', 'set-url', 'origin', join(remote.root, 'gone.git'));
+  const { run, config, deps, dfs } = setup();
+  deps.budget = createGitLedger({ cwd: offline, capUsd: 2 });
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
+  assert.equal(run.provider.status, 'pending');
+  assert.equal(Object.keys(remote.files()).length, 0);
 });

@@ -12,9 +12,9 @@ Paid enrichment stays **disabled**: `SCOUT_DFS_MODE` is unset (dry-run) and Scou
 |---|---|---|
 | Research memo | GitHub Actions, Gemini (`GEMINI_API_KEY`), Telegram notify | yes |
 | Evidence data | DataForSEO API (`DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD`) | account is **shared** with other products |
-| Spend accounting | `evidence/budget/` files in this repo (`scripts/lib/spend-ledger.mjs`) | yes |
+| Spend accounting | the `scout-spend-ledger` branch of this repo, pushed before every paid request (`scripts/lib/spend-ledger.mjs`) | yes |
 | Cache, outbox | `evidence/cache/`, `evidence/ledger-outbox.json` in this repo | yes |
-| Ledger freshness | `git fetch origin <branch>` from the workflow checkout | yes |
+| Ledger writes | `git push` to that branch with the workflow's `contents: write` token | yes |
 
 No Supabase URL, anon key, service key or budget token is used anywhere in Scout.
 
@@ -25,17 +25,18 @@ Enforced for **Scout's own requests**:
 - **Monthly allowance** — `SCOUT_DFS_MONTHLY_USD_CAP`. No default; unset = nothing bought. Charged + reserved + uncertain (at estimate) must fit.
 - **Per request** — `SCOUT_DFS_MAX_REQUEST_USD`, default $0.10 (estimate = published price × 1.1).
 - **Per run** — `SCOUT_DFS_MAX_RUN_USD`, default $0.10.
-- **Repeat-run safety** — deterministic hold IDs, 30/14-day cache, bounded attempts, uncertain requests never re-sent automatically, crashed reservations counted as uncertain, a lock file per machine, the `daily-research` concurrency group in Actions, and a pre-purchase check that the checkout's ledger has no uncommitted history and equals `origin`'s.
+- **Durable before spending** — a reservation is pushed to GitHub (the ledger branch) and accepted before the paid request is sent; a runner that dies afterwards cannot lose it, and it counts as uncertain once expired.
+- **No double-spending across runs** — every ledger change is a fast-forward push built on the tip just read; a run that loses the race re-reads, re-checks the allowance with the other run's reservation, then retries. Plus deterministic hold IDs, the 30/14-day cache, bounded attempts, uncertain requests never re-sent automatically, and a lock file per machine.
 
 **Not** enforceable by Scout:
 
 - **Account-wide spend.** Career OS, ArtistPortfolio, the DataForSEO dashboard or any script using the same login spend outside Scout's ledger and are invisible to it. The allowance limits Scout, not the account. The only hard account-wide limit is the prepaid DataForSEO balance.
 - **A shared $2 across products.** No longer claimed. If every product together must stay under $2/month, that needs either one shared service (the design being retired here) or separate DataForSEO accounts/logins with separate balances.
-- **Two different machines spending at the same instant.** The freshness check plus Actions concurrency make this unlikely, not impossible. Local `--live` runs should be rare and pushed immediately.
+- **Someone rewriting the ledger branch.** A force-push or deletion of `scout-spend-ledger` by a person with write access would erase history (a deleted branch fails closed; a rewritten one does not). GitHub's branch rules can forbid that; none are set today.
 
 ## History preserved
 
-Scout's 35 charges recorded in the shared ledger (Career OS `runtime_events`, `type = dataforseo.spend`, `produced_by = scout`, all 2026-09-14, total **$0.23224**) were exported read-only on 2026-09-15 into `evidence/budget/holds/2026-09/<original id>.json` (status `charged`, `imported` block with provenance). They include the +$0.00004 rounding correction. The same 34 purchases also appear in the pilot evidence files under `evidence/pilots/`. Nothing was deleted from the shared database.
+Scout's 35 charges recorded in the shared ledger (Career OS `runtime_events`, `type = dataforseo.spend`, `produced_by = scout`, all 2026-09-14, total **$0.23224**) were exported read-only on 2026-09-15 onto the `scout-spend-ledger` branch as `holds/2026-09/<original id>.json` (status `charged`, `imported` block with provenance). They include the +$0.00004 rounding correction. The same 34 purchases also appear in the pilot evidence files under `evidence/pilots/`. Nothing was deleted from the shared database.
 
 Removed from Scout (kept in git history): `scripts/lib/budget.mjs` (Supabase RPC + legacy ledger client), `scripts/lib/ledger.mjs`, `scripts/test/budget-sql.test.mjs`, and `db/dataforseo_budget.sql` — byte-identical to Career OS `supabase/migrations/0024_dataforseo_budget.sql` (sha256 `8bf97bd0…70e6`), which remains the source of those database objects.
 
