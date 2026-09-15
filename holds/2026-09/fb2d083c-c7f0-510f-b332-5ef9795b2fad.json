@@ -2,15 +2,22 @@
   "id": "fb2d083c-c7f0-510f-b332-5ef9795b2fad",
   "month": "2026-09",
   "client": "scout",
-  "status": "reserved",
+  "status": "charged",
   "estimatedUsd": 0.014256,
-  "actualUsd": null,
+  "actualUsd": 0.01284,
   "endpoint": "dataforseo_labs/google/keyword_overview/live",
   "requestKey": "0d4a61423935bdf5d9d70893",
   "runId": "opportunity-audit-2026-09-15T10:18:59.403Z",
   "createdAt": "2026-09-15T10:19:34.289Z",
   "expiresAt": "2026-09-15T10:34:34.289Z",
-  "settledAt": null,
+  "settledAt": "2026-09-15T10:19:41.174Z",
   "note": null,
-  "payload": null
+  "payload": {
+    "source": "scout-opportunity-audit",
+    "runId": "opportunity-audit-2026-09-15T10:18:59.403Z",
+    "location": "Poland",
+    "language": "pl",
+    "requested": 8,
+    "measured": 7
+  }
 }
