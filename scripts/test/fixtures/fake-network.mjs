@@ -1,5 +1,5 @@
 // Preload for the offline pipeline test: replaces global fetch with canned Gemini,
-// DataForSEO, Supabase-ledger and website responses, and logs every call to FAKE_NET_LOG.
+// DataForSEO and website responses, and logs every call to FAKE_NET_LOG.
 // FAKE DATA ONLY — used to prove the daily pipeline's wiring, never as live evidence.
 import { appendFileSync } from 'node:fs';
 

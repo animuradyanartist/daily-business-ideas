@@ -24,7 +24,7 @@
 // It fails closed: an unreachable GitHub, a missing ledger branch or an unreadable file → nothing bought.
 
 import { createHash, randomBytes } from 'node:crypto';
-import { closeSync, mkdirSync, openSync, rmSync, statSync } from 'node:fs';
+import { readFileSync, rmSync, statSync, utimesSync, writeFileSync } from 'node:fs';
 import { isAbsolute, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { spawnSync } from 'node:child_process';
@@ -76,11 +76,16 @@ const SAFE_ID = /^[0-9a-zA-Z-]{8,64}$/;
 const sleepSync = (ms) => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
 
 export class LedgerError extends Error {
-  constructor(message) {
+  /** `permanent`: the ledger refused the change (it will never succeed as sent) — not a connection problem. */
+  constructor(message, { permanent = false } = {}) {
     super(message);
     this.name = 'LedgerError';
+    this.permanent = permanent;
   }
 }
+const refused = (message) => new LedgerError(message, { permanent: true });
+const NETWORK_TIMEOUT_MS = 60_000;
+const NETWORK_COMMANDS = new Set(['ls-remote', 'fetch', 'push']);
 
 /** A reservation past its expiry was never settled (crashed run): it counts as uncertain. */
 export const effectiveStatus = (hold, at) => (hold.status === 'reserved' && Date.parse(hold.expiresAt) < at.getTime() ? 'uncertain' : hold.status);
@@ -93,14 +98,16 @@ export function createGitLedger({
   maxRequestUsd = DEFAULT_MAX_REQUEST_USD,
   now = () => new Date(),
   maxAttempts = 10,
-  lockWaitMs = 120_000,
-  staleLockMs = 300_000,
+  lockWaitMs = 240_000,
+  staleLockMs = 180_000,
   env = process.env,
 } = {}) {
   const localRef = `refs/scout-ledger/${branch}`;
   const gitEnv = {
     ...env,
     GIT_TERMINAL_PROMPT: '0',
+    GIT_HTTP_LOW_SPEED_LIMIT: '1000', // abort a stalled HTTPS transfer (bytes/s) …
+    GIT_HTTP_LOW_SPEED_TIME: '30', // … after 30 s
     GIT_AUTHOR_NAME: 'Scout spend ledger',
     GIT_AUTHOR_EMAIL: 'actions@users.noreply.github.com',
     GIT_COMMITTER_NAME: 'Scout spend ledger',
@@ -114,7 +121,9 @@ export function createGitLedger({
       env: extraEnv ? { ...gitEnv, ...extraEnv } : gitEnv,
       ...(binary ? {} : { encoding: 'utf8' }),
       maxBuffer: 256 * 1024 * 1024,
+      ...(NETWORK_COMMANDS.has(args[0]) ? { timeout: NETWORK_TIMEOUT_MS, killSignal: 'SIGKILL' } : {}),
     });
+    if (r.error && allowFail && r.error.code === 'ETIMEDOUT') return { ...r, status: -1, stderr: `timed out after ${NETWORK_TIMEOUT_MS / 1000}s` };
     if (r.error) throw new LedgerError(`git ${args[0]} could not run (${r.error.code ?? r.error.message})`);
     if (r.status !== 0 && !allowFail) {
       const last = String(r.stderr ?? '').trim().split('\n').pop();
@@ -128,17 +137,37 @@ export function createGitLedger({
     return join(isAbsolute(d) ? d : join(cwd, d), 'scout-spend-ledger.lock');
   }
 
+  // Serializes processes sharing ONE checkout (the fast-forward push protects everything else).
+  // The lock file holds an owner token: only its owner removes it, and a lock is considered
+  // abandoned once it has not been refreshed for `staleLockMs`.
+  const token = `${process.pid}-${randomBytes(8).toString('hex')}`;
+  let heldLock = null;
+  const touchLock = () => {
+    if (heldLock) {
+      try {
+        const t = new Date();
+        utimesSync(heldLock, t, t);
+      } catch {
+        /* ignore */
+      }
+    }
+  };
+
   async function withLock(fn) {
     const path = lockPath();
     const started = Date.now();
     for (;;) {
       try {
-        closeSync(openSync(path, 'wx'));
+        writeFileSync(path, token, { flag: 'wx' });
         break;
       } catch (err) {
         if (err.code !== 'EEXIST') throw new LedgerError(`ledger lock failed (${err.code})`);
         try {
-          if (Date.now() - statSync(path).mtimeMs > staleLockMs) rmSync(path, { force: true });
+          if (Date.now() - statSync(path).mtimeMs > staleLockMs) {
+            const stale = readFileSync(path, 'utf8');
+            // Re-check just before removing, so a lock another waiter already replaced is left alone.
+            if (readFileSync(path, 'utf8') === stale) rmSync(path, { force: true });
+          }
         } catch {
           /* lock vanished — retry */
         }
@@ -146,19 +175,27 @@ export function createGitLedger({
         await new Promise((r) => setTimeout(r, 25 + Math.random() * 50));
       }
     }
+    heldLock = path;
     try {
       return fn();
     } finally {
-      rmSync(path, { force: true });
+      heldLock = null;
+      try {
+        if (readFileSync(path, 'utf8') === token) rmSync(path, { force: true });
+      } catch {
+        /* already gone */
+      }
     }
   }
 
   /** The ledger branch's current tip on GitHub (fetched now). Missing branch or no connection → throws. */
   function fetchTip() {
+    touchLock();
     const ls = git(['ls-remote', '--heads', remote, `refs/heads/${branch}`], { allowFail: true });
     if (ls.status !== 0) throw new LedgerError(`could not reach ${remote} to read the spend ledger`);
     if (!ls.stdout.trim()) throw new LedgerError(`spend ledger branch "${branch}" was not found on ${remote}`);
-    git(['fetch', '--quiet', '--no-tags', remote, `+refs/heads/${branch}:${localRef}`]);
+    const f = git(['fetch', '--quiet', '--no-tags', remote, `+refs/heads/${branch}:${localRef}`], { allowFail: true });
+    if (f.status !== 0) throw new LedgerError(`could not fetch the spend ledger from ${remote}`);
     return git(['rev-parse', '--verify', `${localRef}^{commit}`]).stdout.trim();
   }
 
@@ -245,6 +282,16 @@ export function createGitLedger({
       // permission — is not a race and fails immediately.
       const refusal = said.split('\n').find((l) => l.startsWith('!')) ?? said;
       if (/non-fast-forward|fetch first|stale info|cannot lock ref|failed to update ref|incorrect old value|reference already exists/i.test(refusal)) return false;
+      if (!said.split('\n').some((l) => l.startsWith('!'))) {
+        // No refusal line: the connection failed or timed out, and GitHub may still have applied
+        // the push. If our commit is on the branch now, it is recorded — treat it as pushed.
+        try {
+          const tip = fetchTip();
+          if (git(['merge-base', '--is-ancestor', commit, tip], { allowFail: true }).status === 0) return true;
+        } catch {
+          /* still unreachable — report the original failure */
+        }
+      }
       throw new LedgerError(`could not push the spend ledger to ${remote} (${said.trim().split('\n').pop()})`);
     } finally {
       rmSync(index, { force: true });
@@ -289,7 +336,7 @@ export function createGitLedger({
     },
 
     /** ok: true only once GitHub holds the reservation. */
-    async reserve({ holdId, estimatedUsd, endpoint, requestKey = null, maxTotalUsd = null, runId = null, ttlSeconds = 900 }) {
+    async reserve({ holdId, estimatedUsd, endpoint, requestKey = null, maxTotalUsd = null, runId = null, ttlSeconds = 900, allowUncertainRepeat = false }) {
       if (capUsd === null || capUsd === undefined) return { ok: false, reason: 'not_configured' };
       if (!SAFE_ID.test(String(holdId)) || !endpoint || !(estimatedUsd > 0)) return { ok: false, reason: 'invalid_request' };
       if (estimatedUsd > maxRequestUsd + 1e-9) return { ok: false, reason: 'request_limit', maxRequestUsd };
@@ -297,7 +344,15 @@ export function createGitLedger({
         const existing = findHold(tip, holdId);
         if (existing) return { result: { ok: effectiveStatus(existing.hold, at) === 'reserved', duplicate: true, status: effectiveStatus(existing.hold, at) } };
         const month = monthOf(at);
-        const t = totals(holdsAt(tip, month), at);
+        const holds = holdsAt(tip, month);
+        // The same request may already have been charged without an answer (including by a run that
+        // crashed after reserving): never re-send it automatically.
+        if (requestKey && !allowUncertainRepeat) {
+          const previous = monthOf(new Date(Date.UTC(at.getUTCFullYear(), at.getUTCMonth() - 1, 1)));
+          const doubt = [...holds, ...holdsAt(tip, previous)].find((h) => h.requestKey === requestKey && effectiveStatus(h, at) === 'uncertain');
+          if (doubt) return { result: { ok: false, reason: 'uncertain_repeat', holdId: doubt.id, since: doubt.createdAt } };
+        }
+        const t = totals(holds, at);
         const ceiling = roundUsd(Math.min(capUsd, maxTotalUsd ?? capUsd));
         const detail = { month, capUsd, ceilingUsd: ceiling, chargedUsd: t.chargedUsd, heldUsd: t.heldUsd };
         if (t.chargedUsd + t.heldUsd + estimatedUsd > ceiling + 1e-9) {
@@ -332,9 +387,9 @@ export function createGitLedger({
       if (!(actualUsd >= 0)) throw new LedgerError('settle: invalid actual cost');
       return mutate((tip, at) => {
         const f = findHold(tip, holdId);
-        if (!f) throw new LedgerError('settle refused (unknown_hold)');
+        if (!f) throw refused('settle refused (unknown_hold)');
         if (f.hold.status === 'charged') return { result: { ok: true, duplicate: true } };
-        if (f.hold.status === 'released') throw new LedgerError('settle refused (hold_released)');
+        if (f.hold.status === 'released') throw refused('settle refused (hold_released)');
         const hold = { ...f.hold, status: 'charged', actualUsd: roundUsd(actualUsd), settledAt: at.toISOString(), payload: payload ?? null };
         return { result: { ok: true, overEstimate: actualUsd > f.hold.estimatedUsd }, write: { path: f.path, hold, message: `charge ${holdId} $${hold.actualUsd}` } };
       });
@@ -343,22 +398,25 @@ export function createGitLedger({
     async markUncertain({ holdId, note: why }) {
       return mutate((tip) => {
         const f = findHold(tip, holdId);
-        if (!f) throw new LedgerError('mark uncertain refused (unknown_hold)');
+        if (!f) throw refused('mark uncertain refused (unknown_hold)');
         if (f.hold.status === 'uncertain' || f.hold.status === 'charged') return { result: { ok: true, duplicate: true, status: f.hold.status } };
-        if (f.hold.status === 'released') throw new LedgerError('mark uncertain refused (hold_released)');
+        if (f.hold.status === 'released') throw refused('mark uncertain refused (hold_released)');
         const hold = { ...f.hold, status: 'uncertain', note: note(f.hold.note, why) };
         return { result: { ok: true }, write: { path: f.path, hold, message: `uncertain ${holdId}` } };
       });
     },
 
-    /** Only for requests that provably were not charged. An uncertain or expired request is not releasable here. */
+    /**
+     * Only for requests that provably were not charged — called by the run that made the reservation
+     * (directly, or replayed from its outbox later, possibly past expiry). An uncertain, charged or
+     * owner-resolved request is not releasable here.
+     */
     async release({ holdId, note: why }) {
       return mutate((tip, at) => {
         const f = findHold(tip, holdId);
-        if (!f) throw new LedgerError('release refused (unknown_hold)');
+        if (!f) throw refused('release refused (unknown_hold)');
         if (f.hold.status === 'released') return { result: { ok: true, duplicate: true } };
-        const s = effectiveStatus(f.hold, at);
-        if (s !== 'reserved') throw new LedgerError(`release refused (not_releasable: ${s})`);
+        if (f.hold.status !== 'reserved') throw refused(`release refused (not_releasable: ${f.hold.status})`);
         const hold = { ...f.hold, status: 'released', settledAt: at.toISOString(), note: note(f.hold.note, why) };
         return { result: { ok: true }, write: { path: f.path, hold, message: `release ${holdId}` } };
       });

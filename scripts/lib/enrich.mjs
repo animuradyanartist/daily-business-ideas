@@ -411,8 +411,11 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
           else if (e.op === 'uncertain') await deps.budget.markUncertain(e);
           else if (e.op === 'release') await deps.budget.release(e);
           else throw new Error('unknown outbox entry');
-        } catch {
-          left.push(e);
+        } catch (err) {
+          // A refusal is final (e.g. the owner already resolved that request): retrying can never
+          // succeed, so it must not block buying forever. The reservation itself stays counted.
+          if (err?.permanent) warnings.push(`An earlier ${e.op} for request ${e.holdId} was refused by the ledger (${err.message}) and dropped; check it with scripts/budget.mjs status / resolve.`);
+          else left.push(e);
         }
       }
       deps.outbox.replace(left);
@@ -481,7 +484,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     }
   }
 
-  async function paid({ endpoint, cacheKey, projected, requested, exec, market: mkt = market }) {
+  // `store(res)` caches the provider's answer; it runs BEFORE the (network) ledger settle, so data
+  // that was paid for is never lost if recording the charge is slow or fails.
+  async function paid({ endpoint, cacheKey, projected, requested, exec, store, market: mkt = market }) {
     if (block) return { skipped: block.reason };
     const requestKey = createHash('sha256').update(cacheKey).digest('hex').slice(0, 24);
     const doubt = deps.cache.get('uncertain', requestKey);
@@ -498,12 +503,19 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     const holdId = stableUuid(`scout|${attemptId}|${requestKey}`);
     let r;
     try {
-      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling, runId: attemptId });
+      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling, runId: attemptId, allowUncertainRepeat: config.retryUncertain });
     } catch (err) {
       setBlock('pending', `Scout's spend ledger could not reserve (${err.message}), so nothing was bought.`);
       return { skipped: block.reason };
     }
     if (!r.ok) {
+      if (r.reason === 'uncertain_repeat') {
+        deps.cache.set('uncertain', requestKey, { data: { holdId: r.holdId, endpoint, reason: 'reservation left uncertain on the spend ledger' } }, r.since);
+        deps.cache.save();
+        return {
+          skipped: `an identical earlier request (${String(r.since).slice(0, 10)}, reservation ${r.holdId}) may have been charged without an answer; it is not re-sent automatically (check the DataForSEO dashboard, then run with SCOUT_RETRY_UNCERTAIN=1)`,
+        };
+      }
       if (r.reason === 'unauthorized' || r.reason === 'not_configured' || r.reason === 'request_limit') {
         setBlock('unavailable', `Scout's spend ledger refused the reservation (${r.reason}${r.reason === 'request_limit' ? `: over the $${config.maxRequestUsd} per-request limit` : ''}).`);
         return { skipped: block.reason };
@@ -556,6 +568,10 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
       return { error: err?.message ?? 'failed' };
     }
 
+    if (store) {
+      store(res);
+      deps.cache.save(); // paid data is on disk before the charge is recorded
+    }
     const actual = res.cost ?? estimate;
     line.status = 'charged';
     line.costUsd = roundUsd(actual);
@@ -610,15 +626,15 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
         const r = await deps.dfs.keywordOverview(g.needed, g.market);
         return { ...r, measured: r.items.filter((i) => i.searchVolume !== null).length };
       },
+      store: (res) => {
+        const byKw = new Map(res.items.map((i) => [i.keyword, i]));
+        for (const k of g.needed) {
+          const it = byKw.get(k);
+          deps.cache.set('keywords', kwKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, res.measuredAt);
+        }
+      },
     });
-    if (out.res) {
-      const byKw = new Map(out.res.items.map((i) => [i.keyword, i]));
-      for (const k of g.needed) {
-        const it = byKw.get(k);
-        deps.cache.set('keywords', kwKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
-      }
-      deps.cache.save(); // paid data is persisted before anything else can fail
-    } else {
+    if (!out.res) {
       for (const i of g.ideas) skips.set(i.id, [...(skips.get(i.id) ?? []), `keywords not collected — ${out.skipped ?? out.error}`]);
     }
   }
@@ -646,15 +662,15 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
           const r = await deps.dfs.adsSearchVolume(adsNeeded, g.market);
           return { ...r, measured: r.items.filter((i) => i.searchVolume !== null).length };
         },
+        store: (res) => {
+          const byKw = new Map(res.items.map((i) => [i.keyword, i]));
+          for (const k of adsNeeded) {
+            const it = byKw.get(k);
+            deps.cache.set('ads', adsKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, res.measuredAt);
+          }
+        },
       });
-      if (out.res) {
-        const byKw = new Map(out.res.items.map((i) => [i.keyword, i]));
-        for (const k of adsNeeded) {
-          const it = byKw.get(k);
-          deps.cache.set('ads', adsKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
-        }
-        deps.cache.save();
-      } else {
+      if (!out.res) {
         for (const i of g.ideas) skips.set(i.id, [...(skips.get(i.id) ?? []), `Google Ads fallback not collected — ${out.skipped ?? out.error}`]);
       }
     }
@@ -717,10 +733,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
             const r = await deps.dfs.serpOrganic(query, { ...m, depth: config.serpDepth });
             return { ...r, measured: r.items.length };
           },
+          store: (res) => deps.cache.set('serp', key, { data: { checkUrl: res.checkUrl, itemTypes: res.itemTypes, items: res.items } }, res.measuredAt),
         });
         if (out.res) {
-          deps.cache.set('serp', key, { data: { checkUrl: out.res.checkUrl, itemTypes: out.res.itemTypes, items: out.res.items } }, out.res.measuredAt);
-          deps.cache.save();
           c = deps.cache.get('serp', key);
         } else {
           skips.set(idea.id, [...(skips.get(idea.id) ?? []), `search results for "${query}" not collected — ${out.skipped ?? out.error}`]);

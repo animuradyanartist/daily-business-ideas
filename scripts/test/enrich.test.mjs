@@ -382,17 +382,17 @@ test('real ledger: every paid request is sent only after its reservation is on t
   const observer = createGitLedger({ cwd: remote.clone(), capUsd: 0.02 }); // a different checkout reading GitHub
   const seenAtSend = [];
   const dfs = fakeDfs();
-  const wrap = (fn) => async (...args) => {
-    const holds = await observer.list();
-    seenAtSend.push(holds.filter((h) => h.effectiveStatus === 'reserved').length);
+  const wrap = (fn, endpointPart) => async (...args) => {
+    const reserved = (await observer.list()).filter((h) => h.effectiveStatus === 'reserved');
+    seenAtSend.push(reserved.length === 1 && reserved[0].endpoint.includes(endpointPart) ? 'reserved-on-remote' : `unexpected: ${JSON.stringify(reserved.map((h) => h.endpoint))}`);
     return fn(...args);
   };
-  dfs.keywordOverview = wrap(dfs.keywordOverview);
-  dfs.serpOrganic = wrap(dfs.serpOrganic);
+  dfs.keywordOverview = wrap(dfs.keywordOverview, 'keyword_overview');
+  dfs.serpOrganic = wrap(dfs.serpOrganic, 'serp/google/organic');
   const first = setup({ dfs });
   first.deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 0.02, maxRequestUsd: 0.1 });
   await gatherEvidence({ run: first.run, config: first.config, deps: first.deps, log: quiet });
-  assert.deepEqual(seenAtSend, [1, 1, 1]); // at each send, exactly that request's reservation was already on the remote
+  assert.deepEqual(seenAtSend, ['reserved-on-remote', 'reserved-on-remote', 'reserved-on-remote']); // at each send, that request's reservation was already on the remote
   const files = Object.values(remote.files());
   assert.equal(files.length, 3);
   assert.ok(files.every((h) => h.status === 'charged' && h.client === 'scout' && h.payload.source === 'scout'));
@@ -437,4 +437,68 @@ test('real ledger: if the remote cannot be reached, nothing is bought', async ()
   assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
   assert.equal(run.provider.status, 'pending');
   assert.equal(Object.keys(remote.files()).length, 0);
+});
+
+test('real ledger: a release that failed to push is replayed after the reservation expired, and buying resumes', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote } = await import('./fixtures/ledger-remote.mjs');
+  const remote = ledgerRemote();
+  let clock = new Date('2026-09-20T10:00:00Z');
+  const ledger = createGitLedger({ cwd: remote.clone(), capUsd: 0.1, now: () => clock });
+  const rejectedTask = new ProviderError('bad_request', 40501, 'invalid field'); // DataForSEO status error: not billed
+  const first = setup({ dfs: fakeDfs({ fail: rejectedTask }), ideas: ['a'] });
+  let failOnce = true;
+  first.deps.budget = { ...ledger, release: async (a) => { if (failOnce) { failOnce = false; throw new Error('push timed out'); } return ledger.release(a); } };
+  await gatherEvidence({ run: first.run, config: first.config, deps: first.deps, log: quiet });
+  assert.deepEqual(first.deps.outbox.list().map((e) => e.op), ['release']);
+  assert.equal(Object.values(remote.files())[0].status, 'reserved');
+
+  clock = new Date('2026-09-21T09:00:00Z'); // a day later: the reservation is long past its expiry
+  const next = { ...first.deps, dfs: fakeDfs() };
+  await gatherEvidence({ run: first.run, config: first.config, deps: next, log: quiet });
+  assert.equal(next.outbox.list().length, 0);
+  assert.notEqual(first.run.provider.status, 'pending');
+  assert.equal(next.dfs.calls.labs, 1); // buying resumed
+  const statuses = Object.values(remote.files()).map((h) => h.status).sort();
+  assert.deepEqual(statuses, ['charged', 'charged', 'released']);
+});
+
+test('outbox: an update the ledger permanently refuses is dropped with a warning instead of blocking every run', async () => {
+  const { LedgerError } = await import('../lib/spend-ledger.mjs');
+  const budget = fakeBudget();
+  const { run, config, deps, dfs } = setup({ budget, ideas: ['a'] });
+  deps.outbox.add({ op: 'settle', holdId: 'owner-resolved-hold', actualUsd: 0.01, at: new Date().toISOString() });
+  const settle = budget.settle.bind(budget);
+  budget.settle = async (args) => {
+    if (args.holdId === 'owner-resolved-hold') throw new LedgerError('settle refused (hold_released)', { permanent: true });
+    return settle(args);
+  };
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(deps.outbox.list().length, 0);
+  assert.ok(run.provider.warnings.some((w) => /refused by the ledger .*hold_released.*resolve/.test(w)));
+  assert.equal(dfs.calls.labs, 1);
+});
+
+test('paid data is cached on disk before the charge is recorded on the ledger', async () => {
+  const { run, config, deps, budget, dir } = setup({ ideas: ['a'] });
+  const onDiskAtSettle = [];
+  const settle = budget.settle.bind(budget);
+  budget.settle = async (args) => {
+    const fresh = createFileCache(join(dir, 'cache')); // what a crashed runner would have left on disk
+    onDiskAtSettle.push(Boolean(fresh.get('keywords', `labs|united states|en|${plan('a').keywords.problem[0]}`) || fresh.get('serp', `serp|united states|en|d10|${plan('a').serpQueries[0]}`)));
+    return settle(args);
+  };
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.ok(onDiskAtSettle.length >= 2);
+  assert.ok(onDiskAtSettle.every(Boolean));
+});
+
+test('a reservation left uncertain on the ledger (crashed run) makes the identical request skipped, not re-sent', async () => {
+  const budget = fakeBudget();
+  const reserve = budget.reserve.bind(budget);
+  budget.reserve = async (args) => (args.endpoint.includes('keyword_overview') && !args.allowUncertainRepeat ? { ok: false, reason: 'uncertain_repeat', holdId: 'h-crashed', since: '2026-09-20T10:00:00Z' } : reserve(args));
+  const { run, config, deps, dfs } = setup({ budget, ideas: ['a'] });
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(dfs.calls.labs, 0);
+  assert.match(run.ideas[0].reason, /h-crashed.*not re-sent automatically/);
 });

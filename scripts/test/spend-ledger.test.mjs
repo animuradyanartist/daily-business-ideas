@@ -99,19 +99,24 @@ test('crashed runner: a reservation pushed before the process dies is kept, coun
   const r = ledgerRemote();
   const crash = worker(`import { createGitLedger } from ${LIB};
     const l = createGitLedger({ cwd: process.argv[2], capUsd: 0.05, now: () => new Date('2026-09-20T10:00:00Z') });
-    const res = await l.reserve({ holdId: process.argv[3], estimatedUsd: 0.04, endpoint: 'serp/google/organic/live/regular' });
+    const res = await l.reserve({ holdId: process.argv[3], estimatedUsd: 0.04, endpoint: 'serp/google/organic/live/regular', requestKey: 'serp-q1' });
     if (res.ok) process.kill(process.pid, 'SIGKILL'); // dies after reserving, before the paid request settles
     console.log('not reserved', JSON.stringify(res));`);
   const died = await runNode(crash, [r.clone(), id(1)]);
   assert.equal(died.signal, 'SIGKILL', died.out + died.err);
   assert.equal(r.files()[`holds/2026-09/${id(1)}.json`].status, 'reserved'); // survived the crash on GitHub
 
-  // Another runner, 20 minutes later: the stale reservation counts as uncertain and blocks the allowance.
+  // Another runner, 20 minutes later: the stale reservation counts as uncertain and blocks the allowance…
   const later = ledgerAt(r.clone(), { capUsd: 0.05, now: at('2026-09-20T10:20:00Z') });
   const refused = await later.reserve({ holdId: id(2), estimatedUsd: 0.02, endpoint: 'serp' });
   assert.deepEqual([refused.ok, refused.reason, refused.heldUsd], [false, 'cap', 0.04]);
   assert.equal((await later.list('2026-09'))[0].effectiveStatus, 'uncertain');
-  await assert.rejects(() => later.release({ holdId: id(1) }), /not_releasable: uncertain/);
+  // …and the identical request is not sent again automatically (it may have been charged).
+  const repeat = await ledgerAt(r.clone(), { capUsd: 1, now: at('2026-09-20T10:20:00Z') }).reserve({ holdId: id(3), estimatedUsd: 0.04, endpoint: 'serp', requestKey: 'serp-q1' });
+  assert.deepEqual([repeat.ok, repeat.reason, repeat.holdId], [false, 'uncertain_repeat', id(1)]);
+  const optIn = await ledgerAt(r.clone(), { capUsd: 1, now: at('2026-09-20T10:20:00Z') }).reserve({ holdId: id(3), estimatedUsd: 0.04, endpoint: 'serp', requestKey: 'serp-q1', allowUncertainRepeat: true });
+  assert.equal(optIn.ok, true);
+  await ledgerAt(r.clone(), { capUsd: 1 }).release({ holdId: id(3), note: 'test cleanup' });
   // Only the owner resolves it.
   assert.equal((await later.resolve({ holdId: id(1), outcome: 'charged', actualUsd: 0.002, note: 'seen in dashboard' })).ok, true);
   assert.equal((await later.reserve({ holdId: id(2), estimatedUsd: 0.02, endpoint: 'serp' })).ok, true);
@@ -169,4 +174,23 @@ test('uncertain requests keep counting; months are separate', async () => {
   const oct = ledgerAt(r.clone(), { capUsd: 0.1, now: at('2026-10-01T00:01:00Z') });
   assert.equal((await oct.reserve({ holdId: id(3), estimatedUsd: 0.02, endpoint: 'serp' })).ok, true);
   assert.deepEqual(Object.keys(r.files()).sort(), [`holds/2026-09/${id(1)}.json`, `holds/2026-10/${id(3)}.json`]);
+});
+
+test('replayed updates: a release after expiry still records the unbilled request; refusals are marked permanent', async () => {
+  const r = ledgerRemote();
+  const t0 = ledgerAt(r.clone(), { capUsd: 0.1, now: at('2026-09-20T10:00:00Z') });
+  await t0.reserve({ holdId: id(1), estimatedUsd: 0.05, endpoint: 'labs' });
+  await t0.reserve({ holdId: id(2), estimatedUsd: 0.05, endpoint: 'serp' });
+  const nextDay = ledgerAt(r.clone(), { capUsd: 0.1, now: at('2026-09-21T09:00:00Z') });
+  assert.equal((await nextDay.release({ holdId: id(1), note: 'replayed from outbox: provider refused before billing' })).ok, true);
+  assert.equal((await nextDay.status()).heldUsd, 0.05);
+  await nextDay.resolve({ holdId: id(2), outcome: 'released', note: 'not in dashboard' });
+  const late = await nextDay.settle({ holdId: id(2), actualUsd: 0.002 }).catch((e) => e);
+  assert.deepEqual([late.permanent, /hold_released/.test(late.message)], [true, true]);
+  const unknown = await nextDay.release({ holdId: id(9) }).catch((e) => e);
+  assert.equal(unknown.permanent, true);
+  const offline = r.clone();
+  git(offline, 'remote', 'set-url', 'origin', join(r.root, 'gone.git'));
+  const transport = await ledgerAt(offline, { capUsd: 0.1 }).release({ holdId: id(1) }).catch((e) => e);
+  assert.equal(transport.permanent, false); // a connection problem stays in the outbox
 });

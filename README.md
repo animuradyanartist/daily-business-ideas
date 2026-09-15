@@ -62,9 +62,7 @@ node scripts/enrich.mjs --date 2026-09-13 --dry-run            # plan + projecte
 node scripts/enrich.mjs --date 2026-09-13 --live               # enrich an existing memo (never edits ideas/)
 node scripts/enrich.mjs --date 2026-09-13 --plan keywords.json # use a hand-written keyword plan
 node scripts/budget.mjs status                                  # Scout's spend this month (Scout only)
-node --test scripts/test/*.test.mjs                            # unit + offline pipeline tests (no network)
-BUDGET_TEST_PSQL="psql postgresql://postgres:postgres@localhost:5432/postgres" \
-  node --test scripts/test/budget-sql.test.mjs                 # budget functions against real Postgres
+node --test scripts/test/*.test.mjs                            # unit + offline pipeline + spend-ledger tests (local git only)
 node scripts/pilot.mjs check --pilot evidence/pilots/pilot-10-source-order
 ```
 
