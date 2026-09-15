@@ -1,0 +1,43 @@
+name: Ledger token check (temporary, not for merge)
+
+# One-off verification: can the GitHub Actions token durably push a reservation to the
+# scout-spend-ledger branch? Reserves a $0.000001 placeholder (no DataForSEO request, no
+# DataForSEO secrets), confirms it on GitHub from a separate fetch, then releases it.
+on:
+  pull_request:
+    paths: ['.github/workflows/ledger-token-check.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Reserve → confirm on GitHub → release
+        env:
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          node --input-type=module -e "
+          import { createGitLedger, stableUuid } from './scripts/lib/spend-ledger.mjs';
+          import { execFileSync } from 'node:child_process';
+          const ledger = createGitLedger({ capUsd: 2 });
+          const holdId = stableUuid('actions-token-check|' + process.env.RUN_ID);
+          const r = await ledger.reserve({ holdId, estimatedUsd: 0.000001, endpoint: 'verification/actions-token-push (no DataForSEO request sent)' });
+          console.log('reserve:', JSON.stringify(r));
+          if (!r.ok) process.exit(1);
+          execFileSync('git', ['fetch', '--quiet', 'origin', '+refs/heads/scout-spend-ledger:refs/verify/ledger']);
+          const tip = execFileSync('git', ['rev-parse', 'refs/verify/ledger']).toString().trim();
+          const log = execFileSync('git', ['log', '-1', '--format=%H %an %s', tip]).toString().trim();
+          const hold = JSON.parse(execFileSync('git', ['show', tip + ':holds/' + r.month + '/' + holdId + '.json']).toString());
+          console.log('on GitHub:', log, '| status', hold.status);
+          if (hold.status !== 'reserved') process.exit(1);
+          const rel = await ledger.release({ holdId, note: 'Actions token verification: no paid request was sent' });
+          console.log('release:', JSON.stringify(rel));
+          console.log('status after:', JSON.stringify(await ledger.status()));
+          "
