@@ -2,7 +2,7 @@
   "id": "e1bafef7-438d-5853-af1e-143737d8cdd5",
   "month": "2026-09",
   "client": "scout",
-  "status": "reserved",
+  "status": "released",
   "estimatedUsd": 0.000001,
   "actualUsd": null,
   "endpoint": "verification/actions-token-push (no DataForSEO request sent)",
@@ -10,7 +10,7 @@
   "runId": null,
   "createdAt": "2026-09-15T09:30:02.222Z",
   "expiresAt": "2026-09-15T09:45:02.222Z",
-  "settledAt": null,
-  "note": null,
+  "settledAt": "2026-09-15T09:30:04.815Z",
+  "note": "Actions token verification: no paid request was sent",
   "payload": null
 }
