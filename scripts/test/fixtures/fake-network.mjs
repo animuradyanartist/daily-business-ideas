@@ -1,5 +1,5 @@
 // Preload for the offline pipeline test: replaces global fetch with canned Gemini,
-// DataForSEO, Supabase-ledger and website responses, and logs every call to FAKE_NET_LOG.
+// DataForSEO and website responses, and logs every call to FAKE_NET_LOG.
 // FAKE DATA ONLY — used to prove the daily pipeline's wiring, never as live evidence.
 import { appendFileSync } from 'node:fs';
 
@@ -108,7 +108,7 @@ globalThis.fetch = async (input, init = {}) => {
   const url = String(input);
   const method = init.method ?? 'GET';
   const body = init.body ? JSON.parse(init.body) : null;
-  log({ url: url.replace(/key=[^&]+/, 'key=REDACTED'), method, body: url.includes('budget.fake') ? body : undefined });
+  log({ url: url.replace(/key=[^&]+/, 'key=REDACTED'), method });
 
   if (url.includes('generativelanguage.googleapis.com')) {
     const prompt = body.contents[0].parts[0].text;
@@ -137,14 +137,6 @@ globalThis.fetch = async (input, init = {}) => {
         { type: 'organic', rank_absolute: 2, domain: `${slug}-vendor.test`, url: `https://${slug}-vendor.test/`, title: 'Vendor' },
       ] }] }] });
     }
-  }
-
-  // Fake shared budget (db/dataforseo_budget.sql over Supabase RPC): everything fits.
-  if (url.startsWith('https://budget.fake/rest/v1/rpc/')) {
-    const fn = url.split('/').pop();
-    if (fn === 'dataforseo_budget_status') return json({ ok: true, cap_usd: 2, charged_usd: 0, held_usd: 0, uncertain_holds: 0 });
-    if (fn === 'dataforseo_budget_reserve') return json({ ok: true, hold_id: body.p_hold_id, cap_usd: 2, ceiling_usd: 1, charged_usd: 0, held_usd: body.p_estimated_usd });
-    return json({ ok: true, hold_id: body.p_hold_id });
   }
 
   if (url.includes('-vendor.test')) {

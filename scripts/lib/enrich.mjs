@@ -7,8 +7,8 @@
 //
 // Flow per run:
 //   plan     — a small keyword set per idea (problem / solution / buying intent) + SERP queries
-//   gather   — DataForSEO Labs (one batched task) + live SERPs, every paid call behind the
-//              shared-ledger budget gate and the cache; free competitor page fetches
+//   gather   — DataForSEO Labs (one batched task) + live SERPs, every paid call behind Scout's
+//              own spend ledger (scripts/lib/spend-ledger.mjs) and the cache; free page fetches
 //   read     — code-computed demand / commercial readings (no LLM touches the numbers)
 //   assess   — an LLM writes the memo from the evidence only; any level it claims without a
 //              valid evidence ID is downgraded to "unknown", any URL not in the evidence is removed
@@ -21,8 +21,7 @@ import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createDataForSeo, ProviderError, projectLabsCost, projectSerpCost, projectAdsCost } from './dataforseo.mjs';
-import { createLedger, readBudgetConfig, stableUuid } from './ledger.mjs';
-import { createBudgetRpc, createLegacyLedgerBudget, RESERVE_MARGIN } from './budget.mjs';
+import { createGitLedger, readBudgetConfig, stableUuid, RESERVE_MARGIN } from './spend-ledger.mjs';
 import { createFileCache, createOutbox, cacheKeys, readJson, writeJsonAtomic } from './cache.mjs';
 import { createPageFetcher } from './pages.mjs';
 import {
@@ -114,9 +113,6 @@ export function readEnrichConfig(env = process.env) {
     // Opt-in: price keywords Labs has no record of with the Google Ads endpoint ($0.09/task).
     adsFallback: (env.SCOUT_DFS_ADS_FALLBACK ?? '').trim() === 'live',
     maxAttempts: clampInt(env.SCOUT_ENRICH_MAX_ATTEMPTS, 3, 1, 5),
-    // `rpc` (default): the shared atomic budget functions. `legacy-ledger`: pre-migration,
-    // non-atomic, explicit opt-in for supervised runs only.
-    budgetBackend: (env.SCOUT_BUDGET_BACKEND ?? '').trim() === 'legacy-ledger' ? 'legacy-ledger' : 'rpc',
     // A request that may have been charged without an answer is never re-sent automatically.
     retryUncertain: (env.SCOUT_RETRY_UNCERTAIN ?? '').trim() === '1',
     // Optional override for the enrichment planner/assessor models (comma-separated, first
@@ -128,21 +124,8 @@ export function readEnrichConfig(env = process.env) {
 
 export function buildDeps(env = process.env, root = '.') {
   const config = readEnrichConfig(env);
-  const budget =
-    config.budgetBackend === 'legacy-ledger'
-      ? createLegacyLedgerBudget({
-          ledger: createLedger({
-            url: env.LEDGER_SUPABASE_URL?.trim(),
-            key: env.LEDGER_SUPABASE_SERVICE_KEY?.trim(),
-            projectId: env.LEDGER_PROJECT_ID?.trim(),
-          }),
-          capUsd: config.capUsd,
-        })
-      : createBudgetRpc({
-          url: env.DATAFORSEO_BUDGET_URL?.trim(),
-          anonKey: env.DATAFORSEO_BUDGET_ANON_KEY?.trim(),
-          token: env.DATAFORSEO_BUDGET_TOKEN?.trim(),
-        });
+  // Scout's own spend ledger: a branch of this GitHub repo; every reservation is pushed before a paid request.
+  const budget = createGitLedger({ cwd: root, remote: config.ledgerRemote, branch: config.ledgerBranch, capUsd: config.capUsd, maxRequestUsd: config.maxRequestUsd, env });
   return {
     dfs: createDataForSeo({ login: env.DATAFORSEO_LOGIN?.trim(), password: env.DATAFORSEO_PASSWORD?.trim() }),
     budget,
@@ -390,11 +373,10 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   if (config.modeWarning) warnings.push(config.modeWarning);
   const budget = {
     backend: deps.budget.backend,
-    atomic: deps.budget.atomic,
     capUsd: config.capUsd,
-    reserveUsd: config.reserveUsd,
     maxRunUsd: config.maxRunUsd,
-    sharedBefore: null, // { chargedUsd, heldUsd } across every app, before this attempt
+    maxRequestUsd: config.maxRequestUsd,
+    ledgerBefore: null, // Scout's own ledger this month, before this attempt: { chargedUsd, heldUsd }
     committedThisRunUsd: 0, // open holds + charges of this attempt (per-run limit)
     spentThisRunUsd: 0, // provider-reported charges + uncertain holds at their estimate
   };
@@ -415,11 +397,8 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   // Configuration gates, most fundamental first.
   if (config.mode !== 'live') setBlock('dry-run', 'Dry run: no paid requests were made (SCOUT_DFS_MODE is not "live").');
   if (!deps.dfs.configured) setBlock('unavailable', 'DataForSEO credentials are not configured.');
-  if (config.capUsd === null) setBlock('unavailable', `${config.capError}, so there is no spending allowance.`);
-  if (!deps.budget.configured) setBlock('unavailable', 'The shared DataForSEO budget is not configured, so spend could not be reserved against the shared allowance.');
-  if (config.mode === 'live' && !deps.budget.atomic) {
-    warnings.push('Budget backend is legacy-ledger: reservations are not atomic across apps (pre-migration, supervised use only).');
-  }
+  if (config.capUsd === null) setBlock('unavailable', `${config.capError}, so Scout has no DataForSEO spending allowance.`);
+  if (!deps.budget.configured) setBlock('unavailable', 'Scout\'s spend ledger is not configured, so spend could not be reserved.');
 
   // Budget updates that failed last time are replayed before anything new is bought.
   if (config.mode === 'live' && deps.budget.configured) {
@@ -432,8 +411,11 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
           else if (e.op === 'uncertain') await deps.budget.markUncertain(e);
           else if (e.op === 'release') await deps.budget.release(e);
           else throw new Error('unknown outbox entry');
-        } catch {
-          left.push(e);
+        } catch (err) {
+          // A refusal is final (e.g. the owner already resolved that request): retrying can never
+          // succeed, so it must not block buying forever. The reservation itself stays counted.
+          if (err?.permanent) warnings.push(`An earlier ${e.op} for request ${e.holdId} was refused by the ledger (${err.message}) and dropped; check it with scripts/budget.mjs status / resolve.`);
+          else left.push(e);
         }
       }
       deps.outbox.replace(left);
@@ -443,9 +425,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
   if (deps.budget.configured) {
     try {
-      budget.sharedBefore = await deps.budget.status();
+      budget.ledgerBefore = await deps.budget.status();
     } catch (err) {
-      setBlock('pending', `The shared budget could not be read (${err.message}), so nothing was bought.`);
+      setBlock('pending', `Scout's spend ledger could not be read (${err.message}), so nothing was bought.`);
     }
   }
 
@@ -485,9 +467,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
 
   const skips = new Map(); // idea id → reasons
 
-  const scoutCeiling = config.capUsd === null ? null : roundUsd(config.capUsd - config.reserveUsd);
+  const scoutCeiling = config.capUsd;
 
-  // A failed budget write never loses a charge: the hold stays counted on the server and the
+  // A failed budget write never loses a charge: the reservation file stays counted and the
   // update is replayed from the outbox before the next purchase.
   async function budgetOp(op, args, line) {
     try {
@@ -502,7 +484,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     }
   }
 
-  async function paid({ endpoint, cacheKey, projected, requested, exec, market: mkt = market }) {
+  // `store(res)` caches the provider's answer; it runs BEFORE the (network) ledger settle, so data
+  // that was paid for is never lost if recording the charge is slow or fails.
+  async function paid({ endpoint, cacheKey, projected, requested, exec, store, market: mkt = market }) {
     if (block) return { skipped: block.reason };
     const requestKey = createHash('sha256').update(cacheKey).digest('hex').slice(0, 24);
     const doubt = deps.cache.get('uncertain', requestKey);
@@ -519,19 +503,26 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
     const holdId = stableUuid(`scout|${attemptId}|${requestKey}`);
     let r;
     try {
-      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling });
+      r = await deps.budget.reserve({ holdId, estimatedUsd: estimate, endpoint, requestKey, maxTotalUsd: scoutCeiling, runId: attemptId, allowUncertainRepeat: config.retryUncertain });
     } catch (err) {
-      setBlock('pending', `The shared budget could not be reached (${err.message}), so nothing was bought.`);
+      setBlock('pending', `Scout's spend ledger could not reserve (${err.message}), so nothing was bought.`);
       return { skipped: block.reason };
     }
     if (!r.ok) {
+      if (r.reason === 'uncertain_repeat') {
+        deps.cache.set('uncertain', requestKey, { data: { holdId: r.holdId, endpoint, reason: 'reservation left uncertain on the spend ledger' } }, r.since);
+        deps.cache.save();
+        return {
+          skipped: `an identical earlier request (${String(r.since).slice(0, 10)}, reservation ${r.holdId}) may have been charged without an answer; it is not re-sent automatically (check the DataForSEO dashboard, then run with SCOUT_RETRY_UNCERTAIN=1)`,
+        };
+      }
       if (r.reason === 'unauthorized' || r.reason === 'not_configured' || r.reason === 'request_limit') {
-        setBlock('unavailable', `The shared budget refused the reservation (${r.reason}).`);
+        setBlock('unavailable', `Scout's spend ledger refused the reservation (${r.reason}${r.reason === 'request_limit' ? `: over the $${config.maxRequestUsd} per-request limit` : ''}).`);
         return { skipped: block.reason };
       }
       if (r.reason === 'cap') {
         return {
-          skipped: `budget: a ~$${estimate.toFixed(4)} reservation was refused — shared cap $${r.capUsd}, Scout's ceiling $${r.ceilingUsd} (cap − $${config.reserveUsd} reserve), already charged $${r.chargedUsd}, held by in-flight or uncertain requests $${r.heldUsd}`,
+          skipped: `budget: a ~$${estimate.toFixed(4)} reservation was refused — Scout's monthly allowance $${r.capUsd}, already charged $${r.chargedUsd}, held by in-flight or uncertain requests $${r.heldUsd}`,
         };
       }
       return { skipped: `budget: reservation refused (${r.reason})` };
@@ -577,6 +568,10 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
       return { error: err?.message ?? 'failed' };
     }
 
+    if (store) {
+      store(res);
+      deps.cache.save(); // paid data is on disk before the charge is recorded
+    }
     const actual = res.cost ?? estimate;
     line.status = 'charged';
     line.costUsd = roundUsd(actual);
@@ -631,15 +626,15 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
         const r = await deps.dfs.keywordOverview(g.needed, g.market);
         return { ...r, measured: r.items.filter((i) => i.searchVolume !== null).length };
       },
+      store: (res) => {
+        const byKw = new Map(res.items.map((i) => [i.keyword, i]));
+        for (const k of g.needed) {
+          const it = byKw.get(k);
+          deps.cache.set('keywords', kwKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, res.measuredAt);
+        }
+      },
     });
-    if (out.res) {
-      const byKw = new Map(out.res.items.map((i) => [i.keyword, i]));
-      for (const k of g.needed) {
-        const it = byKw.get(k);
-        deps.cache.set('keywords', kwKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
-      }
-      deps.cache.save(); // paid data is persisted before anything else can fail
-    } else {
+    if (!out.res) {
       for (const i of g.ideas) skips.set(i.id, [...(skips.get(i.id) ?? []), `keywords not collected — ${out.skipped ?? out.error}`]);
     }
   }
@@ -667,15 +662,15 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
           const r = await deps.dfs.adsSearchVolume(adsNeeded, g.market);
           return { ...r, measured: r.items.filter((i) => i.searchVolume !== null).length };
         },
+        store: (res) => {
+          const byKw = new Map(res.items.map((i) => [i.keyword, i]));
+          for (const k of adsNeeded) {
+            const it = byKw.get(k);
+            deps.cache.set('ads', adsKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, res.measuredAt);
+          }
+        },
       });
-      if (out.res) {
-        const byKw = new Map(out.res.items.map((i) => [i.keyword, i]));
-        for (const k of adsNeeded) {
-          const it = byKw.get(k);
-          deps.cache.set('ads', adsKey(g.market, k), it ? { returned: true, data: it } : { returned: false, data: null }, out.res.measuredAt);
-        }
-        deps.cache.save();
-      } else {
+      if (!out.res) {
         for (const i of g.ideas) skips.set(i.id, [...(skips.get(i.id) ?? []), `Google Ads fallback not collected — ${out.skipped ?? out.error}`]);
       }
     }
@@ -738,10 +733,9 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
             const r = await deps.dfs.serpOrganic(query, { ...m, depth: config.serpDepth });
             return { ...r, measured: r.items.length };
           },
+          store: (res) => deps.cache.set('serp', key, { data: { checkUrl: res.checkUrl, itemTypes: res.itemTypes, items: res.items } }, res.measuredAt),
         });
         if (out.res) {
-          deps.cache.set('serp', key, { data: { checkUrl: out.res.checkUrl, itemTypes: out.res.itemTypes, items: out.res.items } }, out.res.measuredAt);
-          deps.cache.save();
           c = deps.cache.get('serp', key);
         } else {
           skips.set(idea.id, [...(skips.get(idea.id) ?? []), `search results for "${query}" not collected — ${out.skipped ?? out.error}`]);
@@ -792,12 +786,12 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   run.lastGather = { at: now().toISOString(), mode: config.mode, pendingIdeas: todo.length, spentUsd: budget.spentThisRunUsd, note: null };
   run.budget = {
     backend: budget.backend,
-    atomic: budget.atomic,
+    scope: 'scout-only',
     capUsd: budget.capUsd,
-    reserveUsd: budget.reserveUsd,
     maxRunUsd: budget.maxRunUsd,
-    sharedBefore: budget.sharedBefore,
-    monthToDateUsdBefore: budget.sharedBefore ? roundUsd(budget.sharedBefore.chargedUsd + budget.sharedBefore.heldUsd) : null,
+    maxRequestUsd: budget.maxRequestUsd,
+    ledgerBefore: budget.ledgerBefore,
+    monthToDateUsdBefore: budget.ledgerBefore ? roundUsd(budget.ledgerBefore.chargedUsd + budget.ledgerBefore.heldUsd) : null,
     spentThisRunUsd: budget.spentThisRunUsd,
   };
   deps.cache.save();

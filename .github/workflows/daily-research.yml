@@ -33,27 +33,25 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Evidence enrichment (DataForSEO). Paid requests happen ONLY when the repo
-          # variable SCOUT_DFS_MODE is "live" AND credentials, the shared cap and the
-          # shared budget functions are all configured. Otherwise it is a dry run / pending.
-          # Budget access is the project's anon key + Scout's own client token — never a
-          # service-role key.
+          # variable SCOUT_DFS_MODE is "live" AND credentials and Scout's own monthly
+          # allowance (SCOUT_DFS_MONTHLY_USD_CAP) are set. Spend is accounted on this repo's
+          # `scout-spend-ledger` branch (no database): every reservation is pushed there,
+          # as a fast-forward, BEFORE the paid request — this job needs contents: write.
           SCOUT_DFS_MODE: ${{ vars.SCOUT_DFS_MODE || 'dry-run' }}
           SCOUT_MARKETS: ${{ vars.SCOUT_MARKETS }}
           SCOUT_ENRICH_MAX_IDEAS: ${{ vars.SCOUT_ENRICH_MAX_IDEAS }}
+          SCOUT_DFS_MONTHLY_USD_CAP: ${{ vars.SCOUT_DFS_MONTHLY_USD_CAP }}
           SCOUT_DFS_MAX_RUN_USD: ${{ vars.SCOUT_DFS_MAX_RUN_USD }}
-          SCOUT_DFS_RESERVE_USD: ${{ vars.SCOUT_DFS_RESERVE_USD }}
-          DATAFORSEO_MONTHLY_USD_CAP: ${{ vars.DATAFORSEO_MONTHLY_USD_CAP }}
+          SCOUT_DFS_MAX_REQUEST_USD: ${{ vars.SCOUT_DFS_MAX_REQUEST_USD }}
           DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
           DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
-          DATAFORSEO_BUDGET_URL: ${{ vars.DATAFORSEO_BUDGET_URL }}
-          DATAFORSEO_BUDGET_ANON_KEY: ${{ secrets.DATAFORSEO_BUDGET_ANON_KEY }}
-          DATAFORSEO_BUDGET_TOKEN: ${{ secrets.DATAFORSEO_BUDGET_TOKEN }}
         run: node scripts/daily-research.mjs
 
       - name: Commit and push
         id: commit
         # Runs even when research failed, so provider data that was already PAID for
-        # (evidence cache + unrecorded-charge outbox) is never thrown away.
+        # (evidence cache + unrecorded-charge outbox) is never thrown away. The spend ledger
+        # is not committed here: it is pushed to its own branch before each paid request.
         if: always()
         run: |
           set -e

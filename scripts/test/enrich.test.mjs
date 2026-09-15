@@ -61,8 +61,9 @@ function fakeDfs({ fail } = {}) {
   };
 }
 
-// In-memory model of db/dataforseo_budget.sql: charged + held (reserved/uncertain) count
-// against the cap; the same refusal reasons. The real functions are tested in budget-sql.test.mjs.
+// In-memory model of Scout's spend ledger (scripts/lib/spend-ledger.mjs): charged + held
+// (reserved/uncertain) count against the cap; the same refusal reasons. The real file ledger is
+// tested in spend-ledger.test.mjs and, end to end, at the bottom of this file.
 function fakeBudget({ charged = 0, cap = 2, readFails = false, reserveFails = false, writeFails = false, maxRequest = 0.1 } = {}) {
   const holds = new Map();
   const events = [];
@@ -70,8 +71,7 @@ function fakeBudget({ charged = 0, cap = 2, readFails = false, reserveFails = fa
   const held = () => [...holds.values()].filter((h) => h.status === 'reserved' || h.status === 'uncertain').reduce((s, h) => s + h.estimatedUsd, 0);
   const total = () => charged + events.reduce((s, e) => s + e.cost, 0);
   return {
-    backend: 'rpc',
-    atomic: true,
+    backend: 'repo-ledger',
     configured: true,
     holds,
     events,
@@ -113,7 +113,7 @@ function fakeBudget({ charged = 0, cap = 2, readFails = false, reserveFails = fa
 
 function setup({ env = {}, dfs = fakeDfs(), budget = fakeBudget(), ideas = ['a', 'b'] } = {}) {
   const dir = mkdtempSync(join(tmpdir(), 'scout-enrich-'));
-  const config = readEnrichConfig({ SCOUT_DFS_MODE: 'live', DATAFORSEO_MONTHLY_USD_CAP: '2', ...env });
+  const config = readEnrichConfig({ SCOUT_DFS_MODE: 'live', SCOUT_DFS_MONTHLY_USD_CAP: '2', ...env });
   const pageCalls = [];
   const deps = {
     dfs,
@@ -129,7 +129,7 @@ function setup({ env = {}, dfs = fakeDfs(), budget = fakeBudget(), ideas = ['a',
 
 const quiet = { warn() {} };
 
-test('live run: one batched Labs task, SERPs, every charge reserved then settled in the shared budget', async () => {
+test('live run: one batched Labs task, SERPs, every charge reserved then settled in Scout\'s ledger', async () => {
   const { run, config, deps, dfs, budget } = setup();
   await gatherEvidence({ run, config, deps, log: quiet });
   assert.equal(dfs.calls.labs, 1); // all 6 keywords in one task
@@ -174,7 +174,7 @@ test('dry run makes zero paid requests and no reservations', async () => {
 
 test('missing cap or unconfigured budget means no spending at all', async () => {
   const unconfigured = { ...fakeBudget(), configured: false };
-  for (const variant of [{ env: { DATAFORSEO_MONTHLY_USD_CAP: '' } }, { budget: unconfigured }]) {
+  for (const variant of [{ env: { SCOUT_DFS_MONTHLY_USD_CAP: '' } }, { budget: unconfigured }]) {
     const { run, config, deps, dfs } = setup(variant);
     await gatherEvidence({ run, config, deps, log: quiet });
     assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
@@ -192,9 +192,9 @@ test('unreachable budget fails closed and leaves enrichment pending', async () =
   }
 });
 
-test('exhausted shared budget blocks purchases', async () => {
-  // cap 2 − reserve 1 − already charged 1.00 (by any app) = nothing left for Scout
-  const { run, config, deps, dfs } = setup({ budget: fakeBudget({ charged: 1.0 }) });
+test('an exhausted monthly allowance blocks purchases', async () => {
+  // allowance 2 − already charged 2.00 by Scout = nothing left
+  const { run, config, deps, dfs } = setup({ budget: fakeBudget({ charged: 2.0 }) });
   await gatherEvidence({ run, config, deps, log: quiet });
   assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
   assert.match(run.ideas[0].reason, /reservation was refused/);
@@ -202,7 +202,7 @@ test('exhausted shared budget blocks purchases', async () => {
 
 test('each request is reserved on its own estimate', async () => {
   // $0.01 left for Scout: the ~$0.014 keyword reservation is refused, the ~$0.0022 SERPs fit
-  const { run, config, deps, dfs, budget } = setup({ budget: fakeBudget({ charged: 0.99 }) });
+  const { run, config, deps, dfs, budget } = setup({ budget: fakeBudget({ charged: 1.99 }) });
   await gatherEvidence({ run, config, deps, log: quiet });
   assert.equal(dfs.calls.labs, 0);
   assert.equal(dfs.calls.serp, 2);
@@ -258,7 +258,7 @@ test('a possibly-charged timeout stays counted as uncertain and is never re-sent
   assert.match(run.ideas[0].reason, /not re-sent automatically/);
 
   // Only an explicit opt-in re-sends it.
-  const retryConfig = readEnrichConfig({ SCOUT_DFS_MODE: 'live', DATAFORSEO_MONTHLY_USD_CAP: '2', SCOUT_RETRY_UNCERTAIN: '1' });
+  const retryConfig = readEnrichConfig({ SCOUT_DFS_MODE: 'live', SCOUT_DFS_MONTHLY_USD_CAP: '2', SCOUT_RETRY_UNCERTAIN: '1' });
   await gatherEvidence({ run, config: retryConfig, deps: next, log: quiet });
   assert.equal(healthy.calls.labs, 1);
 });
@@ -286,7 +286,7 @@ test('a failed budget write keeps the hold counted, goes to the outbox, stops pu
   assert.ok([...budget.holds.values()].every((h) => h.status === 'charged'));
 });
 
-test('refusals from the shared budget: per-request limit and bad token make enrichment unavailable', async () => {
+test('refusals from the ledger: the per-request limit makes enrichment unavailable', async () => {
   const { run, config, deps, dfs } = setup({ budget: fakeBudget({ maxRequest: 0.001 }) });
   await gatherEvidence({ run, config, deps, log: quiet });
   assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
@@ -341,7 +341,7 @@ test('Google Ads fallback is opt-in, batches only the keywords Labs missed, and 
 
 test('markets: the planner picks from an allowlist; one Labs task per market; unsupported markets are never bought', async () => {
   const { parseMarkets, resolveIdeaMarket } = await import('../lib/enrich.mjs');
-  const cfg = readEnrichConfig({ SCOUT_MARKETS: 'United States:en; India:en; Germany:de', DATAFORSEO_MONTHLY_USD_CAP: '2', SCOUT_DFS_MODE: 'live' });
+  const cfg = readEnrichConfig({ SCOUT_MARKETS: 'United States:en; India:en; Germany:de', SCOUT_DFS_MONTHLY_USD_CAP: '2', SCOUT_DFS_MODE: 'live' });
   assert.deepEqual(parseMarkets('bad; India:EN', cfg.market), [{ locationName: 'India', languageCode: 'en' }]);
   assert.equal(resolveIdeaMarket({ location: 'india', language: 'EN', reason: 'buyers are there' }, cfg).source, 'planner');
   const off = resolveIdeaMarket({ location: 'Brazil', language: 'pt' }, cfg);
@@ -371,4 +371,134 @@ test('markets: the planner picks from an allowlist; one Labs task per market; un
   assert.match(d.reason, /not supported by DataForSEO Labs/);
   assert.equal(run.ideas.find((i) => i.slug === 'b').keywords[0].location, 'India');
   assert.equal(run.projection.labsTasks, 2);
+});
+
+// --- Scout's real ledger (a branch on the remote) wired into the gather step --------------
+
+test('real ledger: every paid request is sent only after its reservation is on the remote', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote } = await import('./fixtures/ledger-remote.mjs');
+  const remote = ledgerRemote();
+  const observer = createGitLedger({ cwd: remote.clone(), capUsd: 0.02 }); // a different checkout reading GitHub
+  const seenAtSend = [];
+  const dfs = fakeDfs();
+  const wrap = (fn, endpointPart) => async (...args) => {
+    const reserved = (await observer.list()).filter((h) => h.effectiveStatus === 'reserved');
+    seenAtSend.push(reserved.length === 1 && reserved[0].endpoint.includes(endpointPart) ? 'reserved-on-remote' : `unexpected: ${JSON.stringify(reserved.map((h) => h.endpoint))}`);
+    return fn(...args);
+  };
+  dfs.keywordOverview = wrap(dfs.keywordOverview, 'keyword_overview');
+  dfs.serpOrganic = wrap(dfs.serpOrganic, 'serp/google/organic');
+  const first = setup({ dfs });
+  first.deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 0.02, maxRequestUsd: 0.1 });
+  await gatherEvidence({ run: first.run, config: first.config, deps: first.deps, log: quiet });
+  assert.deepEqual(seenAtSend, ['reserved-on-remote', 'reserved-on-remote', 'reserved-on-remote']); // at each send, that request's reservation was already on the remote
+  const files = Object.values(remote.files());
+  assert.equal(files.length, 3);
+  assert.ok(files.every((h) => h.status === 'charged' && h.client === 'scout' && h.payload.source === 'scout'));
+  assert.equal(Number(files.reduce((t, h) => t + h.actualUsd, 0).toFixed(6)), 0.0164);
+  assert.ok(first.run.spend.every((l) => files.some((h) => h.id === l.holdId)));
+
+  // A second run from a different checkout sees Scout's spend: $0.0036 left of $0.02.
+  const second = setup({ ideas: ['c'] });
+  second.deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 0.02, maxRequestUsd: 0.1 });
+  await gatherEvidence({ run: second.run, config: second.config, deps: second.deps, log: quiet });
+  assert.equal(second.dfs.calls.labs, 0); // ~$0.0073 keyword reservation refused
+  assert.equal(second.dfs.calls.serp, 1); // ~$0.0022 search result page fits
+  assert.match(second.run.ideas[0].reason, /monthly allowance \$0\.02/);
+});
+
+test('real ledger: if GitHub refuses the reservation push, nothing is bought', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote } = await import('./fixtures/ledger-remote.mjs');
+  const { writeFileSync, chmodSync } = await import('node:fs');
+  const remote = ledgerRemote();
+  const hook = join(remote.origin, 'hooks', 'pre-receive');
+  writeFileSync(hook, '#!/bin/sh\necho "protected branch" >&2\nexit 1\n');
+  chmodSync(hook, 0o755);
+  const { run, config, deps, dfs } = setup();
+  deps.budget = createGitLedger({ cwd: remote.clone(), capUsd: 2 });
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
+  assert.equal(run.provider.status, 'pending');
+  assert.match(run.provider.reason, /could not push the spend ledger/);
+  assert.equal(Object.keys(remote.files()).length, 0);
+});
+
+test('real ledger: if the remote cannot be reached, nothing is bought', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote, git } = await import('./fixtures/ledger-remote.mjs');
+  const remote = ledgerRemote();
+  const offline = remote.clone();
+  git(offline, 'remote', 'set-url', 'origin', join(remote.root, 'gone.git'));
+  const { run, config, deps, dfs } = setup();
+  deps.budget = createGitLedger({ cwd: offline, capUsd: 2 });
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(dfs.calls.labs + dfs.calls.serp, 0);
+  assert.equal(run.provider.status, 'pending');
+  assert.equal(Object.keys(remote.files()).length, 0);
+});
+
+test('real ledger: a release that failed to push is replayed after the reservation expired, and buying resumes', async () => {
+  const { createGitLedger } = await import('../lib/spend-ledger.mjs');
+  const { ledgerRemote } = await import('./fixtures/ledger-remote.mjs');
+  const remote = ledgerRemote();
+  let clock = new Date('2026-09-20T10:00:00Z');
+  const ledger = createGitLedger({ cwd: remote.clone(), capUsd: 0.1, now: () => clock });
+  const rejectedTask = new ProviderError('bad_request', 40501, 'invalid field'); // DataForSEO status error: not billed
+  const first = setup({ dfs: fakeDfs({ fail: rejectedTask }), ideas: ['a'] });
+  let failOnce = true;
+  first.deps.budget = { ...ledger, release: async (a) => { if (failOnce) { failOnce = false; throw new Error('push timed out'); } return ledger.release(a); } };
+  await gatherEvidence({ run: first.run, config: first.config, deps: first.deps, log: quiet });
+  assert.deepEqual(first.deps.outbox.list().map((e) => e.op), ['release']);
+  assert.equal(Object.values(remote.files())[0].status, 'reserved');
+
+  clock = new Date('2026-09-21T09:00:00Z'); // a day later: the reservation is long past its expiry
+  const next = { ...first.deps, dfs: fakeDfs() };
+  await gatherEvidence({ run: first.run, config: first.config, deps: next, log: quiet });
+  assert.equal(next.outbox.list().length, 0);
+  assert.notEqual(first.run.provider.status, 'pending');
+  assert.equal(next.dfs.calls.labs, 1); // buying resumed
+  const statuses = Object.values(remote.files()).map((h) => h.status).sort();
+  assert.deepEqual(statuses, ['charged', 'charged', 'released']);
+});
+
+test('outbox: an update the ledger permanently refuses is dropped with a warning instead of blocking every run', async () => {
+  const { LedgerError } = await import('../lib/spend-ledger.mjs');
+  const budget = fakeBudget();
+  const { run, config, deps, dfs } = setup({ budget, ideas: ['a'] });
+  deps.outbox.add({ op: 'settle', holdId: 'owner-resolved-hold', actualUsd: 0.01, at: new Date().toISOString() });
+  const settle = budget.settle.bind(budget);
+  budget.settle = async (args) => {
+    if (args.holdId === 'owner-resolved-hold') throw new LedgerError('settle refused (hold_released)', { permanent: true });
+    return settle(args);
+  };
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(deps.outbox.list().length, 0);
+  assert.ok(run.provider.warnings.some((w) => /refused by the ledger .*hold_released.*resolve/.test(w)));
+  assert.equal(dfs.calls.labs, 1);
+});
+
+test('paid data is cached on disk before the charge is recorded on the ledger', async () => {
+  const { run, config, deps, budget, dir } = setup({ ideas: ['a'] });
+  const onDiskAtSettle = [];
+  const settle = budget.settle.bind(budget);
+  budget.settle = async (args) => {
+    const fresh = createFileCache(join(dir, 'cache')); // what a crashed runner would have left on disk
+    onDiskAtSettle.push(Boolean(fresh.get('keywords', `labs|united states|en|${plan('a').keywords.problem[0]}`) || fresh.get('serp', `serp|united states|en|d10|${plan('a').serpQueries[0]}`)));
+    return settle(args);
+  };
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.ok(onDiskAtSettle.length >= 2);
+  assert.ok(onDiskAtSettle.every(Boolean));
+});
+
+test('a reservation left uncertain on the ledger (crashed run) makes the identical request skipped, not re-sent', async () => {
+  const budget = fakeBudget();
+  const reserve = budget.reserve.bind(budget);
+  budget.reserve = async (args) => (args.endpoint.includes('keyword_overview') && !args.allowUncertainRepeat ? { ok: false, reason: 'uncertain_repeat', holdId: 'h-crashed', since: '2026-09-20T10:00:00Z' } : reserve(args));
+  const { run, config, deps, dfs } = setup({ budget, ideas: ['a'] });
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(dfs.calls.labs, 0);
+  assert.match(run.ideas[0].reason, /h-crashed.*not re-sent automatically/);
 });

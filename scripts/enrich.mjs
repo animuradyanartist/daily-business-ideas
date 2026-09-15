@@ -2,7 +2,7 @@
 //
 //   node scripts/enrich.mjs --date 2026-09-13            # mode from SCOUT_DFS_MODE (default dry-run)
 //   node scripts/enrich.mjs --date 2026-09-13 --dry-run  # never makes a paid request
-//   node scripts/enrich.mjs --date 2026-09-13 --live     # paid requests, behind the shared budget gate
+//   node scripts/enrich.mjs --date 2026-09-13 --live     # paid requests, behind Scout's own spend ledger
 //   node scripts/enrich.mjs --date 2026-09-13 --plan my-keywords.json   # hand-written keyword plan
 //   node scripts/enrich.mjs --date 2026-09-13 --live --retry-uncertain  # re-send requests whose earlier
 //                                                                        # outcome was unknown (check the
@@ -90,9 +90,6 @@ if (!run) {
 }
 
 const deps = buildDeps(env);
-if (config.mode === 'live' && !deps.budget.atomic) {
-  console.warn('⚠ SCOUT_BUDGET_BACKEND=legacy-ledger: spend is recorded, but reservations are NOT atomic across apps. Supervised use only.');
-}
 await gatherEvidence({ run, config, deps });
 if (gemini) await assessEvidence({ run, gemini, scoutContext: memo ? memoContext(memo).excerpt : '', models: config.models });
 else run.assessmentError = 'assessment not written: GEMINI_API_KEY is not set';
@@ -103,5 +100,5 @@ console.log(`✓ Wrote ${p.md} and ${p.json}`);
 console.log(`  mode: ${config.mode} · provider: ${run.provider.status}${run.provider.reason ? ` — ${run.provider.reason}` : ''}`);
 console.log(`  market: ${run.market.locationName}/${run.market.languageCode} · supported: ${run.market.support?.supported}`);
 if (run.lastGather?.pendingIdeas === 0) console.log(`  ${run.lastGather.note}`);
-else console.log(`  projected: $${run.projection?.totalUsd ?? 0} · spent now: $${run.lastGather?.spentUsd ?? 0} · shared month-to-date before: $${run.budget.monthToDateUsdBefore}`);
+else console.log(`  projected: $${run.projection?.totalUsd ?? 0} · spent now: $${run.lastGather?.spentUsd ?? 0} · Scout month-to-date before: ${run.budget.monthToDateUsdBefore === null ? 'not read' : `$${run.budget.monthToDateUsdBefore}`} · allowance: ${run.budget.capUsd === null ? 'not set' : `$${run.budget.capUsd}`}`);
 for (const i of run.ideas) console.log(`  - ${i.id}: ${i.status}${i.assessment ? ' · assessed' : ''}${i.reason ? ` (${i.reason})` : ''}`);
