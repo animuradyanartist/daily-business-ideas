@@ -1,0 +1,16 @@
+{
+  "id": "f47fa9ca-d56d-5481-aede-e5309e2f2986",
+  "month": "2026-09",
+  "client": "scout",
+  "status": "reserved",
+  "estimatedUsd": 0.01518,
+  "actualUsd": null,
+  "endpoint": "dataforseo_labs/google/keyword_overview/live",
+  "requestKey": "75cc27081f552176d2f1e516",
+  "runId": "opportunity-audit-2026-09-15T10:18:59.403Z",
+  "createdAt": "2026-09-15T10:19:00.936Z",
+  "expiresAt": "2026-09-15T10:34:00.936Z",
+  "settledAt": null,
+  "note": null,
+  "payload": null
+}
