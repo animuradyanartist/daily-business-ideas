@@ -390,6 +390,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI Co-pilots for Solo & Small Law Firms** · Using all-in-one AI platforms to automate the administrative back-office for solo legal practitioners. · flagged 2026-09-14 · last checked 2026-09-14 · [origin memo](trends/2026-09-14.md)
 - **AI-Powered College Transfer Navigation** · Using AI to automate the evaluation of academic transcripts and streamline the college credit transfer process. · flagged 2026-09-14 · last checked 2026-09-14 · [origin memo](trends/2026-09-14.md)
 - **AI Professional Certifications** · A new market for certifications focused on practical AI implementation for non-technical business roles. · flagged 2026-09-14 · last checked 2026-09-14 · [origin memo](trends/2026-09-14.md)
+- **AI-Powered "Deposition Co-pilot" for Litigators** · Using AI platforms to automate the deposition preparation, analysis, and summarization workflow for law firms. · flagged 2026-09-15 · last checked 2026-09-15 · [origin memo](trends/2026-09-15.md)
+- **AI-Assisted Divorce & Co-Parenting** · Using AI tools to automate document drafting, financial organization, and communication for family law cases. · flagged 2026-09-15 · last checked 2026-09-15 · [origin memo](trends/2026-09-15.md)
+- **AI-Automated Environmental Permitting & Compliance** · Using AI to automate the drafting, review, and monitoring of environmental permits for regulators and industry. · flagged 2026-09-15 · last checked 2026-09-15 · [origin memo](trends/2026-09-15.md)
 
 
 ## ➡️ Active — plateauing
@@ -657,3 +660,5 @@ _(empty)_
 <!-- 2026-09-13 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-09-14 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-09-15 status-update directive: 🚀 | Generative Music for Creator Content -->
