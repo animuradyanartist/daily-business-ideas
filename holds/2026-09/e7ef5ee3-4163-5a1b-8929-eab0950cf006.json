@@ -1,0 +1,34 @@
+{
+  "id": "e7ef5ee3-4163-5a1b-8929-eab0950cf006",
+  "month": "2026-09",
+  "client": "scout",
+  "status": "charged",
+  "estimatedUsd": 0.01464,
+  "actualUsd": 0.01464,
+  "endpoint": "dataforseo_labs/google/keyword_overview/live",
+  "requestKey": null,
+  "runId": "pilot-10-planner-v3-a1-1789381351770",
+  "createdAt": "2026-09-14T10:22:33.175Z",
+  "expiresAt": "2026-09-14T10:22:33.175Z",
+  "settledAt": "2026-09-14T10:22:33.175Z",
+  "note": null,
+  "payload": {
+    "cost": 0.01464,
+    "runId": "pilot-10-planner-v3-a1-1789381351770",
+    "holdId": "e7ef5ee3-4163-5a1b-8929-eab0950cf006",
+    "source": "scout",
+    "endpoint": "dataforseo_labs/google/keyword_overview/live",
+    "language": "en",
+    "location": "United States",
+    "measured": 22,
+    "estimated": false,
+    "requested": 63,
+    "measuredAt": "2026-09-14T10:22:32.850Z"
+  },
+  "imported": {
+    "from": "Career OS Supabase runtime_events (type dataforseo.spend, produced_by scout) — the shared ledger Scout used until 2026-09-15",
+    "exportedAt": "2026-09-15",
+    "eventId": "e7ef5ee3-4163-5a1b-8929-eab0950cf006",
+    "note": "estimatedUsd is the recorded cost; the original reservation estimate was not part of the event"
+  }
+}
