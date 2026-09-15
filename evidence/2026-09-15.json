@@ -1,0 +1,3452 @@
+{
+  "schema": 1,
+  "date": "2026-09-15",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-15.md"
+  },
+  "createdAt": "2026-09-15T09:33:22.590Z",
+  "updatedAt": "2026-09-15T09:33:22.591Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-15.md",
+    "title": "The Agricultural Employer's \"Audit-Ready\" H-2A Visa Compliance Hub",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-15:agricultural-h2a-visa-compliance",
+      "slug": "agricultural-h2a-visa-compliance",
+      "title": "The Agricultural Employer's H-2A Visa Compliance Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The H-2A visa program is specific to US agriculture, and the buyers are US-based farms."
+      },
+      "plan": {
+        "slug": "agricultural-h2a-visa-compliance",
+        "title": "The Agricultural Employer's H-2A Visa Compliance Hub",
+        "problem": "Agricultural businesses face complex H-2A visa compliance rules, leading to fines or loss of workforce if not managed correctly.",
+        "targetCustomer": "US-based farms and agricultural businesses that rely on seasonal guest workers through the H-2A visa program.",
+        "payer": "US-based farms and agricultural businesses.",
+        "whyPayerPays": "They will pay to mitigate the existential risk of losing their labor force by automating audit-ready documentation, tracking worker status, and providing deadline alerts.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The H-2A visa program is specific to US agriculture, and the buyers are US-based farms."
+        },
+        "keywords": {
+          "problem": [
+            "h2a visa compliance issues",
+            "h2a visa requirements",
+            "h2a program penalties"
+          ],
+          "solution": [
+            "h2a compliance software",
+            "h2a management system",
+            "h2a visa service"
+          ],
+          "buying": [
+            "h2a software pricing",
+            "best h2a compliance tools",
+            "h2a visa service cost"
+          ]
+        },
+        "serpQueries": [
+          "h2a compliance software",
+          "h2a visa compliance issues"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "h2a visa compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "h2a visa requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 260,
+          "cpcUsd": 0.95,
+          "adCompetition": 0.1,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -56,
+          "providerUpdatedAt": "2026-09-13 14:54:37 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 210
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -62,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "h2a program penalties",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "h2a compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "h2a management system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "h2a visa service",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "h2a software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best h2a compliance tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "h2a visa service cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "h2a compliance software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:33.340Z",
+          "checkUrl": "https://www.google.com/search?q=h2a%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.sesolabor.com",
+              "url": "https://www.sesolabor.com/solutions/h-2a-software",
+              "title": "H-2A Filing and Compliance Software",
+              "description": "Seso harnesses the power of the industry's best H-2A legal resources and Seso's H-2A filing & compliance software to simplify and streamline the H-2A ...",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.dol.gov",
+              "url": "https://www.dol.gov/agencies/whd/h2a-compliance-review",
+              "title": "H-2A Compliance Review",
+              "description": "You must provide the work contract or job order (Form ETA-790) to each H-2A worker no later than when the worker applies for the visa and to each non-h3A worker ... Read more",
+              "id": "S1.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.harrisbeachmurtha.com",
+              "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
+              "title": "H-2A Compliance Strategies for Employers",
+              "description": "Oct 24, 2025 — This article highlights key employer obligations, common pitfalls and best practices for maintaining full compliance with the H-2A program — ... Read more",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "h2acompass.com",
+              "url": "https://h2acompass.com/",
+              "title": "H2A Compass | Self-Service H-2A Compliance Software ...",
+              "description": "H2A Compass is the central resource for the H-2A industry — regulations, wage rates, compliance guidance, worker protections, employer requirements, and ... Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.usafarmlabor.com",
+              "url": "https://www.usafarmlabor.com/blog/maintaining-h2a-compliance-all-season-long",
+              "title": "How Ag Employers Can Maintain H2A Compliance All ...",
+              "description": "May 11, 2026 — This blog is designed to help H2A Program employers clearly understand their ongoing H2A compliance responsibilities once H2A employees have ... Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "farmerenterprises.com",
+              "url": "https://farmerenterprises.com/services/h-2a-workforce-management-software/",
+              "title": "H-2A Workforce Management Software",
+              "description": "Take control of your H-2A program with a single, transparent, and compliance-forward platform that unifies worker management, communication, and operational ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.harvust.com",
+              "url": "https://www.harvust.com/h-2a",
+              "title": "A Comprehensive Guide to H-2A Visas and How ...",
+              "description": "Our all-in-one platform streamlines compliance tasks, offers expert guidance, and empowers you to manage your H-2A workforce with confidence. By navigating ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.agri-trak.com",
+              "url": "https://www.agri-trak.com/",
+              "title": "Agri-Trak | Farm Labor Tracking Software | H-2A Compliance ...",
+              "description": "Optimize your farm's labor management with our all-in-one solution. Track hours, ensure H-2A compliance, and streamline payroll. Save time and money today!",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.dol.gov",
+              "url": "https://www.dol.gov/agencies/whd/agriculture/h2a",
+              "title": "H-2A: Temporary Agricultural Employment of Foreign ...",
+              "description": "Learn more by reading fact sheets that cover a variety of H-2A topics, including recruitment, worker rights, records retention, meal obligations, wage ... Read more",
+              "id": "S1.10",
+              "class": "government"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "h2a visa compliance issues",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:50.185Z",
+          "checkUrl": "https://www.google.com/search?q=h2a%20visa%20compliance%20issues&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.dol.gov",
+              "url": "https://www.dol.gov/agencies/whd/agriculture/h2a",
+              "title": "H-2A: Temporary Agricultural Employment of Foreign ...",
+              "description": "Learn more by reading fact sheets that cover a variety of H-2A topics, including recruitment, worker rights, records retention, meal obligations, wage ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.gislason.com",
+              "url": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
+              "title": "Top 5 Compliance Issues for Employers Using H-2A Visa ...",
+              "description": "Dec 12, 2022 — An employer found to have rejected, laid off, or otherwise displaced a qualified U.S. worker to employ an H-2A worker may be assessed a civil ... Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.epi.org",
+              "url": "https://www.epi.org/policywatch/department-of-labor-halts-enforcement-of-expanded-labor-protections-for-migrant-farmworkers-on-h-2a-temporary-visas/",
+              "title": "Department of Labor halts enforcement of expanded ...",
+              "description": "Jun 24, 2025 — Department of Labor halts enforcement of expanded labor protections for migrant farmworkers on H-2A temporary visas ... The H-2A program is ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.harrisbeachmurtha.com",
+              "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
+              "title": "H-2A Compliance Strategies for Employers",
+              "description": "Oct 24, 2025 — Failure to comply with these provisions can trigger significant penalties, including back-wage liability and debarment from the H-2A program. Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.fb.org",
+              "url": "https://www.fb.org/intel/markets/debunking-h-2a-myths",
+              "title": "Debunking H-2A Myths | Farm Bureau Intel Markets",
+              "description": "Nov 15, 2024 — However, a worker who holds a H-2A visa may take different employment contracts to remain in the U.S. for up to three years, if they utilize one ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.gao.gov",
+              "url": "https://www.gao.gov/products/gao-25-106389",
+              "title": "H-2A Visa Program: Agencies Should Take Additional ...",
+              "description": "Nov 14, 2024 — GAO found that H-2A violations accounted for 54 percent of back wages assessed to all agricultural employers during the 6-year period GAO ... Read more",
+              "id": "S2.7",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "www.uscis.gov",
+              "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2a-temporary-agricultural-workers",
+              "title": "H-2A Temporary Agricultural Workers",
+              "description": "Sep 1, 2026 — You may email USCIS-H2A@uscis.dhs.gov to raise general concerns about H-2A petition processing or to inquire about your specific H-2A petition. Read more",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "federal-lawyer.com",
+              "url": "https://federal-lawyer.com/business-litigation/h2a-visa/",
+              "title": "H-2A Visa Compliance & Investigation Defense",
+              "description": "This includes violations such as failure to withhold Social Security and Medicare taxes when required, failure to maintain W-4 forms (Employee's Withholding ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.propublica.org",
+              "url": "https://www.propublica.org/article/h-2a-farmworker-visa-safety-suggestions-experts",
+              "title": "How to Make H-2A Farmworker Visa Program Safer, ...",
+              "description": "Sep 16, 2025 — The seasonal visa program has failed to protect migrant farmworkers from wage theft, forced labor, violence and death. Experts, lawyers and ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "harrisbeachmurtha.com",
+          "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
+          "finalUrl": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
+          "retrievedAt": "2026-09-15T09:34:16.085Z",
+          "status": 200,
+          "error": null,
+          "title": "H-2A Compliance Strategies for Employers | Harris Beach Murtha",
+          "description": "Learn key H-2A visa compliance tips and best practices for agricultural employers.",
+          "priceMentions": [
+            {
+              "text": "$16.28",
+              "billingUnit": false,
+              "context": "and outbound travel costs, subsistence expenses (currently $16.28/day, or up to $68/day with receipts), and daily transport b"
+            },
+            {
+              "text": "$68",
+              "billingUnit": false,
+              "context": "costs, subsistence expenses (currently $16.28/day, or up to $68/day with receipts), and daily transport between housing and"
+            },
+            {
+              "text": "$2.40",
+              "billingUnit": false,
+              "context": "tate minimum wage. In New York State, this deduction equals $2.40/hour. This adjustment does not apply to domestic workers ev"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "harrisbeachmurtha.com",
+          "url": "https://www.harrisbeachmurtha.com/pricing",
+          "finalUrl": "https://www.harrisbeachmurtha.com/pricing",
+          "retrievedAt": "2026-09-15T09:34:16.086Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "sesolabor.com",
+          "url": "https://www.sesolabor.com/solutions/h-2a-software",
+          "finalUrl": "https://www.sesolabor.com/solutions/h-2a-software",
+          "retrievedAt": "2026-09-15T09:34:16.088Z",
+          "status": 200,
+          "error": null,
+          "title": "H-2A Filing and Compliance Software | Seso, Inc.",
+          "description": "Seso harnesses the power of the industry’s best H-2A legal resources and Seso’s H-2A filing & compliance software to simplify and streamline the H-2A process.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "sesolabor.com",
+          "url": "https://www.sesolabor.com/pricing",
+          "finalUrl": "https://www.sesolabor.com/pricing",
+          "retrievedAt": "2026-09-15T09:34:16.089Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "gislason.com",
+          "url": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
+          "finalUrl": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
+          "retrievedAt": "2026-09-15T09:34:16.089Z",
+          "status": 200,
+          "error": null,
+          "title": "Top 5 Compliance Issues for Employers Using H-2A Visa Workers - Gislason & Hunter",
+          "description": "The H-2A program allows foreign workers to perform agricultural labor or services of a temporary or seasonal nature in the United States. This program,",
+          "priceMentions": [
+            {
+              "text": "$6,386",
+              "billingUnit": false,
+              "context": "be an expensive mistake resulting in civil penalties up to $6,386 per violation (each day is a separate violation). Employers"
+            },
+            {
+              "text": "$14",
+              "billingUnit": false,
+              "context": "he amount allowed by the DOL. The current maximum charge is $14 per day for three meals. 5 Employers cannot charge an H-2A"
+            },
+            {
+              "text": "$63,232",
+              "billingUnit": false,
+              "context": "reover, the DOL can assess additional civil penalties up to $63,232 or $126,463 (repeat or willful violation) per worker for vi"
+            },
+            {
+              "text": "$126,463",
+              "billingUnit": false,
+              "context": "DOL can assess additional civil penalties up to $63,232 or $126,463 (repeat or willful violation) per worker for violations of"
+            },
+            {
+              "text": "$18,970",
+              "billingUnit": false,
+              "context": "employ an H-2A worker may be assessed a civil penalty up to $18,970 per rejected, laid off, or displaced U.S. worker and liable"
+            },
+            {
+              "text": "$10,000",
+              "billingUnit": false,
+              "context": "fraudulent statement or entry, shall be fined not more than $10,000 or imprisoned not more than 5 years, or both.” 29 C.F.R. §"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "gislason.com",
+          "url": "https://www.gislason.com/pricing",
+          "finalUrl": "https://www.gislason.com/pricing",
+          "retrievedAt": "2026-09-15T09:34:16.090Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 9,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncorroborated",
+              "text": "\"h2a visa requirements\" (260/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown (up to \"some\" if a flagged keyword is confirmed). The only directly relevant keyword with data is unconfirmed (see flags). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "harrisbeachmurtha.com",
+            "sesolabor.com",
+            "gislason.com",
+            "epi.org",
+            "h2acompass.com",
+            "usafarmlabor.com",
+            "fb.org",
+            "farmerenterprises.com",
+            "harvust.com",
+            "agri-trak.com",
+            "federal-lawyer.com",
+            "propublica.org"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 6 domain(s) with a direct competitor (same problem) (sesolabor.com, h2acompass.com, farmerenterprises.com, harvust.com, agri-trak.com, federal-lawyer.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "sesolabor.com",
+            "h2acompass.com",
+            "farmerenterprises.com",
+            "harvust.com",
+            "agri-trak.com",
+            "federal-lawyer.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "7723295bf5a21df0",
+      "evidenceUpdatedAt": "2026-09-15T09:34:20.047Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-15T09:40:57.157Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-15T09:34:20.047Z",
+        "qualifiers": [
+          "farm",
+          "agricultural business",
+          "H-2A visa program user"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search for compliance issues is likely from H-2A employers, the target customer, and addresses the core problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "H-2A employers would search for visa requirements to ensure compliance, matching the customer and problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is likely from H-2A employers concerned about the penalties for non-compliance, which is the core problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a solution-focused search most likely from the target customer, H-2A employers."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a solution-focused search most likely from the target customer, H-2A employers."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search for a service to manage the H-2A process is likely from the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This buying-intent search is likely from the target customer evaluating solutions for H-2A compliance."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This buying-intent search for compliance tools is likely from the target customer."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This buying-intent search for the cost of H-2A services is likely from the target customer."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "agricultural business",
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a software offering for H-2A employers to manage compliance, which is the exact customer and problem."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government page explaining H-2A compliance rules for employers, matching the customer and problem."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article provides compliance strategies for H-2A employers, matching the customer and problem."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a self-service compliance software for H-2A employers, matching the customer and problem."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "agricultural business",
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This blog post is for agricultural employers on how to maintain H2A compliance, matching the customer and problem."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a workforce management software for H-2A employers focused on compliance, matching the customer and problem."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a platform to help employers manage their H-2A workforce and compliance, matching the customer and problem."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "farm",
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a farm labor software specifically for H-2A compliance, matching the customer and problem."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general government page about the H-2A program, relevant to a broader audience than just employers, but it covers the problem of compliance."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general government page about the H-2A program, relevant to a broader audience than just employers, but it covers the problem of compliance."
+          },
+          "S2.3": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for H-2A employers about compliance issues, matching the customer and problem."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a news article about H-2A policy, which is a broader topic for a wider audience than just employers managing compliance."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article provides compliance strategies for H-2A employers, matching the customer and problem."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "farm"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is for a broader audience of farmers and discusses general myths, not the specific problem of compliance management."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a government report for policymakers about the H-2A program, not for employers trying to manage compliance."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general government information page about the H-2A program for a broad audience including workers and employers."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a legal service offering for H-2A employers facing compliance issues, matching the customer and problem."
+          },
+          "S2.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is about protecting workers from exploitation, which is a different problem and audience than employers managing compliance."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for H-2A employers and discusses compliance strategies, matching the customer and problem."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "agricultural business",
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a software product for H-2A employers to manage compliance, which is the exact customer and problem."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "H-2A visa program user"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for H-2A employers about compliance issues, matching the customer and problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-15:agricultural-h2a-visa-compliance",
+        "opportunity": "Agricultural employers must comply with complex H-2A visa regulations or risk severe penalties. An opportunity exists to provide a software hub that automates documentation, tracks deadlines, and simplifies compliance management.",
+        "whoPays": "US-based farms and agricultural businesses that use the H-2A visa program will pay to reduce the risk of fines and loss of their workforce.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "Failure to comply with these provisions can trigger significant penalties, including back-wage liability and debarment from the H-2A program"
+            },
+            {
+              "id": "P5",
+              "quote": "be an expensive mistake resulting in civil penalties up to $6,386 per violation"
+            },
+            {
+              "id": "S2.3",
+              "quote": "Top 5 Compliance Issues for Employers Using H-2A Visa"
+            },
+            {
+              "id": "S2.10",
+              "quote": "H-2A Visa Compliance & Investigation Defense"
+            }
+          ],
+          "observed": "Multiple sources, including law firms and government agencies, discuss H-2A compliance for employers. They mention \"key employer obligations, common pitfalls\" (S1.4), \"significant penalties\" (S2.5) like fines up to \"$6,386 per violation\" (P5), and the need for legal defense for compliance investigations (S2.10).",
+          "inference": "The existence of articles detailing compliance issues and law firms offering defense services suggests that H-2A compliance is a significant and costly problem for agricultural employers."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "H-2A Filing and Compliance Software"
+            },
+            {
+              "id": "S1.5",
+              "quote": "Self-Service H-2A Compliance Software"
+            },
+            {
+              "id": "S1.7",
+              "quote": "H-2A Workforce Management Software"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Our all-in-one platform streamlines compliance tasks"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Farm Labor Tracking Software | H-2A Compliance"
+            },
+            {
+              "id": "S2.10",
+              "quote": "H-2A Visa Compliance & Investigation Defense"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Seso Labor",
+              "type": "direct",
+              "what": "Offers H-2A filing and compliance software combined with legal resources to streamline the process.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Seso's H-2A filing & compliance software to simplify and streamline the H-2A"
+                }
+              ]
+            },
+            {
+              "name": "H2A Compass",
+              "type": "direct",
+              "what": "Provides self-service H-2A compliance software and acts as a central resource for regulations and guidance.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "H2A Compass | Self-Service H-2A Compliance Software"
+                }
+              ]
+            },
+            {
+              "name": "Farmer Enterprises",
+              "type": "direct",
+              "what": "A platform for H-2A workforce management focused on compliance, worker management, and communication.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "H-2A Workforce Management Software"
+                }
+              ]
+            },
+            {
+              "name": "Harvust",
+              "type": "direct",
+              "what": "An all-in-one platform to manage the H-2A workforce, streamline compliance tasks, and provide expert guidance.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Our all-in-one platform streamlines compliance tasks"
+                }
+              ]
+            },
+            {
+              "name": "Agri-Trak",
+              "type": "direct",
+              "what": "An all-in-one farm labor management solution that tracks hours, ensures H-2A compliance, and streamlines payroll.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Track hours, ensure H-2A compliance, and streamline payroll"
+                }
+              ]
+            },
+            {
+              "name": "Federal-Lawyer.com",
+              "type": "direct",
+              "what": "A legal service offering defense for H-2A compliance and investigations.",
+              "basis": [
+                {
+                  "id": "S2.10",
+                  "quote": "H-2A Visa Compliance & Investigation Defense"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors offer comprehensive, 'all-in-one' platforms that combine filing, compliance, and workforce management.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Our all-in-one platform streamlines compliance tasks"
+                },
+                {
+                  "id": "S1.9",
+                  "quote": "our all-in-one solution"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Pricing for these software solutions is not publicly available, suggesting a 'contact sales' model which may be a barrier for smaller farms.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "The focus of existing tools appears broad (workforce management, payroll). A tool focused exclusively on simplifying the creation of audit-ready documentation might be a valuable niche.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Existing solutions are fragmented.",
+            "finding": "The evidence shows at least five direct software competitors offering 'all-in-one' platforms for H-2A compliance and workforce management.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "H-2A Filing and Compliance Software"
+              },
+              {
+                "id": "S1.5",
+                "quote": "Self-Service H-2A Compliance Software"
+              },
+              {
+                "id": "S1.8",
+                "quote": "Our all-in-one platform streamlines compliance tasks"
+              }
+            ],
+            "effect": "contradicts"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment could be a simple web app with a checklist of H-2A requirements and email alerts for key deadlines. This avoids complex integrations and focuses on a core value proposition."
+        },
+        "unproven": [
+          "Willingness to pay for a new software solution in a market with established players.",
+          "The specific compliance tasks that cause the most pain and are underserved by existing tools.",
+          "How target customers currently manage compliance (e.g., spreadsheets, lawyers, existing software) and their satisfaction with those methods."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 5-10 interviews with farm managers or owners who use the H-2A program. Ask about their current compliance process, the tools they use, and the biggest challenges they face.",
+          "cost": "Minimal cash, 1-2 weeks of outreach and interviews.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "A majority of interviewees express significant frustration with their current compliance tools and confirm that specific, high-stakes tasks are poorly handled.",
+        "stopIf": "Interviewees are generally satisfied with existing solutions like Seso or H2A Compass, or primarily rely on lawyers and see no need for new software."
+      },
+      "assessment": {
+        "opportunity": "Agricultural employers must comply with complex H-2A visa regulations or risk severe penalties. An opportunity exists to provide a software hub that automates documentation, tracks deadlines, and simplifies compliance management.",
+        "whoPays": "US-based farms and agricultural businesses that use the H-2A visa program will pay to reduce the risk of fines and loss of their workforce.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "Failure to comply with these provisions can trigger significant penalties, including back-wage liability and debarment from the H-2A program",
+              "domain": "harrisbeachmurtha.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article provides compliance strategies for H-2A employers, matching the customer and problem."
+            },
+            {
+              "id": "P5",
+              "quote": "be an expensive mistake resulting in civil penalties up to $6,386 per violation",
+              "domain": "gislason.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "This article is for H-2A employers about compliance issues, matching the customer and problem."
+            },
+            {
+              "id": "S2.3",
+              "quote": "Top 5 Compliance Issues for Employers Using H-2A Visa",
+              "domain": "gislason.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article is for H-2A employers about compliance issues, matching the customer and problem."
+            },
+            {
+              "id": "S2.10",
+              "quote": "H-2A Visa Compliance & Investigation Defense",
+              "domain": "federal-lawyer.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a legal service offering for H-2A employers facing compliance issues, matching the customer and problem."
+            }
+          ],
+          "observed": "Multiple sources, including law firms and government agencies, discuss H-2A compliance for employers. They mention \"key employer obligations, common pitfalls\" (S1.4), \"significant penalties\" (S2.5) like fines up to \"$6,386 per violation\" (P5), and the need for legal defense for compliance investigations (S2.10).",
+          "inference": "The existence of articles detailing compliance issues and law firms offering defense services suggests that H-2A compliance is a significant and costly problem for agricultural employers."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "H-2A Filing and Compliance Software",
+              "domain": "sesolabor.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a software offering for H-2A employers to manage compliance, which is the exact customer and problem."
+            },
+            {
+              "id": "S1.5",
+              "quote": "Self-Service H-2A Compliance Software",
+              "domain": "h2acompass.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a self-service compliance software for H-2A employers, matching the customer and problem."
+            },
+            {
+              "id": "S1.7",
+              "quote": "H-2A Workforce Management Software",
+              "domain": "farmerenterprises.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a workforce management software for H-2A employers focused on compliance, matching the customer and problem."
+            },
+            {
+              "id": "S1.8",
+              "quote": "Our all-in-one platform streamlines compliance tasks",
+              "domain": "harvust.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a platform to help employers manage their H-2A workforce and compliance, matching the customer and problem."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Farm Labor Tracking Software | H-2A Compliance",
+              "domain": "agri-trak.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a farm labor software specifically for H-2A compliance, matching the customer and problem."
+            },
+            {
+              "id": "S2.10",
+              "quote": "H-2A Visa Compliance & Investigation Defense",
+              "domain": "federal-lawyer.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a legal service offering for H-2A employers facing compliance issues, matching the customer and problem."
+            }
+          ],
+          "directCompetitors": [
+            "sesolabor.com",
+            "h2acompass.com",
+            "farmerenterprises.com",
+            "harvust.com",
+            "agri-trak.com",
+            "federal-lawyer.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Seso Labor",
+              "type": "direct",
+              "what": "Offers H-2A filing and compliance software combined with legal resources to streamline the process.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Seso's H-2A filing & compliance software to simplify and streamline the H-2A",
+                  "domain": "sesolabor.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a software offering for H-2A employers to manage compliance, which is the exact customer and problem."
+                }
+              ]
+            },
+            {
+              "name": "H2A Compass",
+              "type": "direct",
+              "what": "Provides self-service H-2A compliance software and acts as a central resource for regulations and guidance.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "H2A Compass | Self-Service H-2A Compliance Software",
+                  "domain": "h2acompass.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a self-service compliance software for H-2A employers, matching the customer and problem."
+                }
+              ]
+            },
+            {
+              "name": "Farmer Enterprises",
+              "type": "direct",
+              "what": "A platform for H-2A workforce management focused on compliance, worker management, and communication.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "H-2A Workforce Management Software",
+                  "domain": "farmerenterprises.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a workforce management software for H-2A employers focused on compliance, matching the customer and problem."
+                }
+              ]
+            },
+            {
+              "name": "Harvust",
+              "type": "direct",
+              "what": "An all-in-one platform to manage the H-2A workforce, streamline compliance tasks, and provide expert guidance.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Our all-in-one platform streamlines compliance tasks",
+                  "domain": "harvust.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a platform to help employers manage their H-2A workforce and compliance, matching the customer and problem."
+                }
+              ]
+            },
+            {
+              "name": "Agri-Trak",
+              "type": "direct",
+              "what": "An all-in-one farm labor management solution that tracks hours, ensures H-2A compliance, and streamlines payroll.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Track hours, ensure H-2A compliance, and streamline payroll",
+                  "domain": "agri-trak.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a farm labor software specifically for H-2A compliance, matching the customer and problem."
+                }
+              ]
+            },
+            {
+              "name": "Federal-Lawyer.com",
+              "type": "direct",
+              "what": "A legal service offering defense for H-2A compliance and investigations.",
+              "basis": [
+                {
+                  "id": "S2.10",
+                  "quote": "H-2A Visa Compliance & Investigation Defense",
+                  "domain": "federal-lawyer.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a legal service offering for H-2A employers facing compliance issues, matching the customer and problem."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors offer comprehensive, 'all-in-one' platforms that combine filing, compliance, and workforce management.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Our all-in-one platform streamlines compliance tasks",
+                  "domain": "harvust.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a platform to help employers manage their H-2A workforce and compliance, matching the customer and problem."
+                },
+                {
+                  "id": "S1.9",
+                  "quote": "our all-in-one solution",
+                  "domain": "agri-trak.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a farm labor software specifically for H-2A compliance, matching the customer and problem."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Pricing for these software solutions is not publicly available, suggesting a 'contact sales' model which may be a barrier for smaller farms.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "The focus of existing tools appears broad (workforce management, payroll). A tool focused exclusively on simplifying the creation of audit-ready documentation might be a valuable niche.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Existing solutions are fragmented.",
+            "finding": "The evidence shows at least five direct software competitors offering 'all-in-one' platforms for H-2A compliance and workforce management.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "H-2A Filing and Compliance Software",
+                "domain": "sesolabor.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a software offering for H-2A employers to manage compliance, which is the exact customer and problem."
+              },
+              {
+                "id": "S1.5",
+                "quote": "Self-Service H-2A Compliance Software",
+                "domain": "h2acompass.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a self-service compliance software for H-2A employers, matching the customer and problem."
+              },
+              {
+                "id": "S1.8",
+                "quote": "Our all-in-one platform streamlines compliance tasks",
+                "domain": "harvust.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a platform to help employers manage their H-2A workforce and compliance, matching the customer and problem."
+              }
+            ],
+            "effect": "contradicts"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment could be a simple web app with a checklist of H-2A requirements and email alerts for key deadlines. This avoids complex integrations and focuses on a core value proposition."
+        },
+        "unproven": [
+          "Willingness to pay for a new software solution in a market with established players.",
+          "The specific compliance tasks that cause the most pain and are underserved by existing tools.",
+          "How target customers currently manage compliance (e.g., spreadsheets, lawyers, existing software) and their satisfaction with those methods."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 5-10 interviews with farm managers or owners who use the H-2A program. Ask about their current compliance process, the tools they use, and the biggest challenges they face.",
+          "cost": "Minimal cash, 1-2 weeks of outreach and interviews.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "A majority of interviewees express significant frustration with their current compliance tools and confirm that specific, high-stakes tasks are poorly handled.",
+        "stopIf": "Interviewees are generally satisfied with existing solutions like Seso or H2A Compass, or primarily rely on lawyers and see no need for new software.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-15T09:41:36.421Z",
+        "evidenceUpdatedAt": "2026-09-15T09:34:20.047Z"
+      }
+    },
+    {
+      "id": "2026-09-15:commercial-kitchen-hood-log",
+      "slug": "commercial-kitchen-hood-log",
+      "title": "The Commercial Kitchen's \"Fire-Marshal-Ready\" Hood Cleaning Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "NFPA 96 is a US standard, and local fire marshals enforce it in the US."
+      },
+      "plan": {
+        "slug": "commercial-kitchen-hood-log",
+        "title": "The Commercial Kitchen's \"Fire-Marshal-Ready\" Hood Cleaning Log",
+        "problem": "Commercial kitchens must regularly clean exhaust systems and document it to comply with NFPA 96, or risk fines, shutdowns, and denied insurance claims.",
+        "targetCustomer": "Restaurant owners, facility managers of hotels, hospitals, and schools.",
+        "payer": "Restaurant owners, facility managers of hotels, hospitals, and schools.",
+        "whyPayerPays": "Buyers will pay for a simple digital ledger to track cleaning, store proof-of-service, and produce audit-ready reports to avoid catastrophic consequences.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "NFPA 96 is a US standard, and local fire marshals enforce it in the US."
+        },
+        "keywords": {
+          "problem": [
+            "nfpa 96 compliance",
+            "commercial kitchen fire inspection",
+            "hood cleaning documentation"
+          ],
+          "solution": [
+            "kitchen hood log",
+            "hood cleaning software",
+            "nfpa 96 checklist"
+          ],
+          "buying": [
+            "hood log app",
+            "kitchen hood cleaning cost",
+            "best nfpa 96 software"
+          ]
+        },
+        "serpQueries": [
+          "kitchen hood log",
+          "nfpa 96 compliance"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "nfpa 96 compliance",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": 5.93,
+          "adCompetition": 0.13,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -71,
+          "providerUpdatedAt": "2026-08-24 11:27:56 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 20
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -47,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "commercial kitchen fire inspection",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-13 20:10:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "hood cleaning documentation",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "kitchen hood log",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "hood cleaning software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 11.43,
+          "adCompetition": 0.56,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 100,
+          "providerUpdatedAt": "2026-08-29 18:19:15 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "nfpa 96 checklist",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "hood log app",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "kitchen hood cleaning cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": 6.67,
+          "adCompetition": 0.42,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -60,
+          "providerUpdatedAt": "2026-09-15 05:16:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -75,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "best nfpa 96 software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "reason": "search results for \"kitchen hood log\" not collected — DataForSEO auth (40101): authentication failed — check the API login and password; search results for \"nfpa 96 compliance\" not collected — serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password",
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 8,
+          "top": {
+            "keyword": "nfpa 96 compliance",
+            "searchVolume": 50,
+            "id": "K1"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"kitchen hood cleaning cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"nfpa 96 compliance\" at 50/month; next \"hood cleaning software\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $11.43 on \"hood cleaning software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "e2674e31262b5563",
+      "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-15T09:40:57.157Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+        "qualifiers": [
+          "Restaurant owner",
+          "facility manager"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search for a specific compliance standard is likely from the target customer who needs to adhere to it."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "Restaurant owners and facility managers search this to prepare for inspections, which is a key part of the problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the core activity the idea addresses, likely performed by the target customer."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a search for a solution to the documentation problem, likely from the target customer."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a search for a software solution to the problem, likely from the target customer."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search for a compliance tool is likely from the target customer trying to solve the problem."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a high-intent search for the specific type of solution offered, likely from the target customer."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "This search is about the cost of the cleaning service itself, not the problem of documenting compliance."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a high-intent search for a software solution to the NFPA 96 compliance problem, likely from the target customer."
+          }
+        },
+        "items": {},
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-15:commercial-kitchen-hood-log",
+        "opportunity": "Commercial kitchens must document regular exhaust system cleaning to comply with fire codes. An opportunity exists for a simple digital log to track cleanings and generate audit-ready reports for inspectors.",
+        "whoPays": "Restaurant owners and facility managers will pay to simplify compliance and avoid fines, shutdowns, or denied insurance claims.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "No evidence was found in search results or fetched pages to describe this problem.",
+          "inference": "The existence of problem-focused keywords like \"nfpa 96 compliance\" (K1) and \"hood cleaning documentation\" (K3) suggests people are searching for information about this problem, but the evidence does not contain any content from people describing the problem itself."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": []
+        },
+        "changes": [
+          {
+            "original": "Failure to maintain and document this cleaning can result in fines, operational shutdowns by a fire marshal, and insurance claims being denied.",
+            "finding": "Keywords like \"nfpa 96 compliance\" (50 searches/month) and \"hood cleaning software\" (10 searches/month) show that people are searching for information and solutions related to this compliance standard.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "nfpa 96 compliance"
+              },
+              {
+                "id": "K5",
+                "quote": "hood cleaning software"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A basic MVP could be a simple web form to log cleaning events with photo uploads and a feature to export a PDF report. This is a straightforward application to build."
+        },
+        "unproven": [
+          "Whether this is a significant, painful problem for restaurant owners and facility managers.",
+          "How compliance documentation is currently managed (e.g., paper binders, spreadsheets) and if there is any desire to change.",
+          "Willingness to pay for a digital solution to this specific problem.",
+          "The existence and nature of any competing solutions, as none were found in the search results."
+        ],
+        "nextExperiment": {
+          "what": "Find 10 restaurant owners or managers (e.g., in local business groups or online forums) and ask them how they prepare for a fire marshal inspection, specifically regarding their kitchen hood cleaning logs.",
+          "cost": "Minimal cash, 1-2 weeks of outreach.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "A majority of interviewees describe their current documentation method as a hassle and express interest in a simple app to manage it.",
+        "stopIf": "Most interviewees state that their cleaning vendor provides sufficient documentation or that their current paper-based system is simple and effective enough."
+      },
+      "assessment": {
+        "opportunity": "Commercial kitchens must document regular exhaust system cleaning to comply with fire codes. An opportunity exists for a simple digital log to track cleanings and generate audit-ready reports for inspectors.",
+        "whoPays": "Restaurant owners and facility managers will pay to simplify compliance and avoid fines, shutdowns, or denied insurance claims.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The existence of problem-focused keywords like \"nfpa 96 compliance\" (K1) and \"hood cleaning documentation\" (K3) suggests people are searching for information about this problem, but the evidence does not contain any content from people describing the problem itself."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": []
+        },
+        "changes": [
+          {
+            "original": "Failure to maintain and document this cleaning can result in fines, operational shutdowns by a fire marshal, and insurance claims being denied.",
+            "finding": "Keywords like \"nfpa 96 compliance\" (50 searches/month) and \"hood cleaning software\" (10 searches/month) show that people are searching for information and solutions related to this compliance standard.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "nfpa 96 compliance",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This search for a specific compliance standard is likely from the target customer who needs to adhere to it."
+              },
+              {
+                "id": "K5",
+                "quote": "hood cleaning software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This is a search for a software solution to the problem, likely from the target customer."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A basic MVP could be a simple web form to log cleaning events with photo uploads and a feature to export a PDF report. This is a straightforward application to build."
+        },
+        "unproven": [
+          "Whether this is a significant, painful problem for restaurant owners and facility managers.",
+          "How compliance documentation is currently managed (e.g., paper binders, spreadsheets) and if there is any desire to change.",
+          "Willingness to pay for a digital solution to this specific problem.",
+          "The existence and nature of any competing solutions, as none were found in the search results."
+        ],
+        "nextExperiment": {
+          "what": "Find 10 restaurant owners or managers (e.g., in local business groups or online forums) and ask them how they prepare for a fire marshal inspection, specifically regarding their kitchen hood cleaning logs.",
+          "cost": "Minimal cash, 1-2 weeks of outreach.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "A majority of interviewees describe their current documentation method as a hassle and express interest in a simple app to manage it.",
+        "stopIf": "Most interviewees state that their cleaning vendor provides sufficient documentation or that their current paper-based system is simple and effective enough.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-15T09:41:36.423Z",
+        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z"
+      }
+    },
+    {
+      "id": "2026-09-15:child-care-subsidy-billing",
+      "slug": "child-care-subsidy-billing",
+      "title": "The Child Care Provider's \"Get Paid Faster\" Subsidy Billing Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "Government subsidy payments for child care are typically managed at state/local levels within a specific country, and the problem description implies a US context with \"state/local child care subsidies\"."
+      },
+      "plan": {
+        "slug": "child-care-subsidy-billing",
+        "title": "The Child Care Provider's \"Get Paid Faster\" Subsidy Billing Hub",
+        "problem": "Managing and billing for state/local child care subsidies is complex, leading to errors and delayed reimbursements, causing cash flow problems.",
+        "targetCustomer": "Independent and small-chain child care centers that accept government subsidy payments from low-income families.",
+        "payer": "Independent and small-chain child care centers.",
+        "whyPayerPays": "Child care providers will pay for a tool that automates subsidy billing to ensure accurate claims and faster, more predictable payments, directly accelerating revenue.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "Government subsidy payments for child care are typically managed at state/local levels within a specific country, and the problem description implies a US context with \"state/local child care subsidies\"."
+        },
+        "keywords": {
+          "problem": [
+            "child care subsidy delays",
+            "child care billing issues",
+            "government child care payments"
+          ],
+          "solution": [
+            "child care billing",
+            "child care management system",
+            "subsidy tracking tool"
+          ],
+          "buying": [
+            "child care software",
+            "best child care billing",
+            "child care subsidy cost"
+          ]
+        },
+        "serpQueries": [
+          "child care billing",
+          "child care subsidy delays"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "child care subsidy delays",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "child care billing issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "government child care payments",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-14 01:26:35 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "child care billing",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-16 21:42:48 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "child care management system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-17 19:12:23 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "subsidy tracking tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "child care software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 590,
+          "cpcUsd": 78.88,
+          "adCompetition": 0.3,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -46,
+          "providerUpdatedAt": "2026-08-29 14:29:37 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 880
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 12100
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 18100
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 3600
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -33,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best child care billing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "child care subsidy cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:33:26.583Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [],
+      "pages": [],
+      "reason": "search results for \"child care billing\" not collected — serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password; search results for \"child care subsidy delays\" not collected — serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 3,
+          "top": null,
+          "category": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "child care software",
+              "searchVolume": 590,
+              "id": "K7"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 4,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"child care billing issues\": relevance unclear — not counted."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"child care billing\": relevance unclear — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best child care billing\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"child care subsidy cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 3 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"child care software\" 590/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K7"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $78.88 on \"child care software\"). CPC is an advertiser bid, not a customer's willingness to pay."
+        },
+        "competitors": {
+          "vendorLikeDomains": [],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "ffd2283d5b1d11a7",
+      "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-15T09:40:57.157Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+        "qualifiers": [
+          "child care center",
+          "accepts government subsidy payments"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is likely from child care providers experiencing the exact problem of delayed subsidy payments."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "This search is about general child care billing, which is broader than the specific problem of complex subsidy billing."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about the specific payment type causing the problem and is likely from the target customer."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "This is a search for general child care billing, not specifically the complex subsidy billing problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the wider software category that would include a solution for the problem, likely searched by the target customer."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a search for a specific tool to solve the problem of managing subsidies, likely from the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the wider software category that a solution would fall into, likely searched by the target customer."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "This search is about general child care billing solutions, which is broader than the specific subsidy problem."
+          },
+          "K9": {
+            "searcher": "unclear",
+            "topic": "unclear",
+            "reason": "It is unclear if this search is from a parent asking about the cost of care or a provider asking about the cost of managing subsidies."
+          }
+        },
+        "items": {},
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-15:child-care-subsidy-billing",
+        "opportunity": "Child care providers face cash flow problems due to complex and error-prone government subsidy billing. An opportunity exists for a specialized tool to automate this process, ensuring accurate claims and faster payments.",
+        "whoPays": "Independent and small-chain child care centers will pay to accelerate revenue and reduce administrative work.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "No evidence was found in search results or fetched pages to describe this problem.",
+          "inference": "The existence of a highly specific keyword like \"child care subsidy delays\" (K1) suggests this is a real problem people search for, but the evidence contains no content from people describing the problem itself."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": []
+        },
+        "changes": [
+          {
+            "original": "This complexity leads to errors and, most importantly, delays in reimbursement, creating significant cash flow problems for the business.",
+            "finding": "The existence of the keyword \"child care subsidy delays\" directly reflects the core pain point described in the original memo, even though its search volume is unknown.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "child care subsidy delays"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A true solution would likely require integrating with various state and local government systems, which is technically and bureaucratically difficult. A simpler first experiment could be a specialized form-filling tool that doesn't integrate directly."
+        },
+        "unproven": [
+          "Whether subsidy billing is a significant enough pain point to warrant a dedicated tool outside of existing child care management systems.",
+          "How providers currently manage this process and what specific parts are most time-consuming or error-prone.",
+          "The features and capabilities of the billing modules within existing \"child care software\" (K7).",
+          "Willingness to pay for a standalone billing tool."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 directors of child care centers that accept government subsidies. Ask them to walk you through their subsidy billing process, the software they use, and where things get stuck.",
+          "cost": "Minimal cash, 2-3 weeks of outreach and interviews.",
+          "duration": "3 weeks"
+        },
+        "continueIf": "A majority of directors describe subsidy billing as a major administrative headache that directly impacts their cash flow and are dissatisfied with their current software's ability to handle it.",
+        "stopIf": "Most directors indicate that their existing child care management software handles subsidy billing adequately or that the process, while annoying, is not a high-priority problem to solve."
+      },
+      "assessment": {
+        "opportunity": "Child care providers face cash flow problems due to complex and error-prone government subsidy billing. An opportunity exists for a specialized tool to automate this process, ensuring accurate claims and faster payments.",
+        "whoPays": "Independent and small-chain child care centers will pay to accelerate revenue and reduce administrative work.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The existence of a highly specific keyword like \"child care subsidy delays\" (K1) suggests this is a real problem people search for, but the evidence contains no content from people describing the problem itself."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": []
+        },
+        "changes": [
+          {
+            "original": "This complexity leads to errors and, most importantly, delays in reimbursement, creating significant cash flow problems for the business.",
+            "finding": "The existence of the keyword \"child care subsidy delays\" directly reflects the core pain point described in the original memo, even though its search volume is unknown.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "child care subsidy delays",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This search is likely from child care providers experiencing the exact problem of delayed subsidy payments."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A true solution would likely require integrating with various state and local government systems, which is technically and bureaucratically difficult. A simpler first experiment could be a specialized form-filling tool that doesn't integrate directly."
+        },
+        "unproven": [
+          "Whether subsidy billing is a significant enough pain point to warrant a dedicated tool outside of existing child care management systems.",
+          "How providers currently manage this process and what specific parts are most time-consuming or error-prone.",
+          "The features and capabilities of the billing modules within existing \"child care software\" (K7).",
+          "Willingness to pay for a standalone billing tool."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 directors of child care centers that accept government subsidies. Ask them to walk you through their subsidy billing process, the software they use, and where things get stuck.",
+          "cost": "Minimal cash, 2-3 weeks of outreach and interviews.",
+          "duration": "3 weeks"
+        },
+        "continueIf": "A majority of directors describe subsidy billing as a major administrative headache that directly impacts their cash flow and are dissatisfied with their current software's ability to handle it.",
+        "stopIf": "Most directors indicate that their existing child care management software handles subsidy billing adequately or that the process, while annoying, is not a high-priority problem to solve.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"this complexity leads to errors and, most importan\" supports → untested: cites only keywords with no data (unknown, not evidence)"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "change \"this complexity leads to errors and, most importan\" supports → untested: cites only keywords with no data (unknown, not evidence)"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-15T09:41:36.425Z",
+        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-15T09:33:26.583Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "827b3a67-d088-5e47-83ca-60252eb82944",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01308,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-15T09:33:33.339Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "55c17d58-c580-580c-9d8b-6168872752b3",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-15T09:33:50.185Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "4c28043d-1449-5349-8cbd-2f443abf2c7a",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-15T09:33:58.031Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "295c5a7c-0eed-5fff-8dec-c4c91ffea434",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
+    }
+  ],
+  "provider": {
+    "status": "unavailable",
+    "reason": "serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password",
+    "warnings": [
+      "serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password"
+    ]
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.23224,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.76776
+    },
+    "monthToDateUsdBefore": 0.23224,
+    "spentThisRunUsd": 0.01908
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-15T09:34:20.048Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.01908,
+    "note": null
+  }
+}

@@ -1339,6 +1339,131 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://www.sesolabor.com/pricing": {
+      "fetchedAt": "2026-09-15T09:34:16.089Z",
+      "data": {
+        "url": "https://www.sesolabor.com/pricing",
+        "finalUrl": "https://www.sesolabor.com/pricing",
+        "retrievedAt": "2026-09-15T09:34:16.089Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.sesolabor.com/solutions/h-2a-software": {
+      "fetchedAt": "2026-09-15T09:34:16.088Z",
+      "data": {
+        "url": "https://www.sesolabor.com/solutions/h-2a-software",
+        "finalUrl": "https://www.sesolabor.com/solutions/h-2a-software",
+        "retrievedAt": "2026-09-15T09:34:16.088Z",
+        "status": 200,
+        "error": null,
+        "title": "H-2A Filing and Compliance Software | Seso, Inc.",
+        "description": "Seso harnesses the power of the industry’s best H-2A legal resources and Seso’s H-2A filing & compliance software to simplify and streamline the H-2A process.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.harrisbeachmurtha.com/pricing": {
+      "fetchedAt": "2026-09-15T09:34:16.086Z",
+      "data": {
+        "url": "https://www.harrisbeachmurtha.com/pricing",
+        "finalUrl": "https://www.harrisbeachmurtha.com/pricing",
+        "retrievedAt": "2026-09-15T09:34:16.086Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/": {
+      "fetchedAt": "2026-09-15T09:34:16.085Z",
+      "data": {
+        "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
+        "finalUrl": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
+        "retrievedAt": "2026-09-15T09:34:16.085Z",
+        "status": 200,
+        "error": null,
+        "title": "H-2A Compliance Strategies for Employers | Harris Beach Murtha",
+        "description": "Learn key H-2A visa compliance tips and best practices for agricultural employers.",
+        "priceMentions": [
+          {
+            "text": "$16.28",
+            "billingUnit": false,
+            "context": "and outbound travel costs, subsistence expenses (currently $16.28/day, or up to $68/day with receipts), and daily transport b"
+          },
+          {
+            "text": "$68",
+            "billingUnit": false,
+            "context": "costs, subsistence expenses (currently $16.28/day, or up to $68/day with receipts), and daily transport between housing and"
+          },
+          {
+            "text": "$2.40",
+            "billingUnit": false,
+            "context": "tate minimum wage. In New York State, this deduction equals $2.40/hour. This adjustment does not apply to domestic workers ev"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.gislason.com/pricing": {
+      "fetchedAt": "2026-09-15T09:34:16.090Z",
+      "data": {
+        "url": "https://www.gislason.com/pricing",
+        "finalUrl": "https://www.gislason.com/pricing",
+        "retrievedAt": "2026-09-15T09:34:16.090Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/": {
+      "fetchedAt": "2026-09-15T09:34:16.089Z",
+      "data": {
+        "url": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
+        "finalUrl": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
+        "retrievedAt": "2026-09-15T09:34:16.089Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 5 Compliance Issues for Employers Using H-2A Visa Workers - Gislason & Hunter",
+        "description": "The H-2A program allows foreign workers to perform agricultural labor or services of a temporary or seasonal nature in the United States. This program,",
+        "priceMentions": [
+          {
+            "text": "$6,386",
+            "billingUnit": false,
+            "context": "be an expensive mistake resulting in civil penalties up to $6,386 per violation (each day is a separate violation). Employers"
+          },
+          {
+            "text": "$14",
+            "billingUnit": false,
+            "context": "he amount allowed by the DOL. The current maximum charge is $14 per day for three meals. 5 Employers cannot charge an H-2A"
+          },
+          {
+            "text": "$63,232",
+            "billingUnit": false,
+            "context": "reover, the DOL can assess additional civil penalties up to $63,232 or $126,463 (repeat or willful violation) per worker for vi"
+          },
+          {
+            "text": "$126,463",
+            "billingUnit": false,
+            "context": "DOL can assess additional civil penalties up to $63,232 or $126,463 (repeat or willful violation) per worker for violations of"
+          },
+          {
+            "text": "$18,970",
+            "billingUnit": false,
+            "context": "employ an H-2A worker may be assessed a civil penalty up to $18,970 per rejected, laid off, or displaced U.S. worker and liable"
+          },
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "fraudulent statement or entry, shall be fined not more than $10,000 or imprisoned not more than 5 years, or both.” 29 C.F.R. §"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
     }
   }
 }

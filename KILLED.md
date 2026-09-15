@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-15
+*   **The Commercial Kitchen's "Fire-Marshal-Ready" Hood Cleaning Log** — Killed. A strong compliance pain, but the economic consequence (a fine or temporary shutdown) is less severe than the H-2A risk (total loss of workforce). The buyer's ability to pay is also likely lower.
+*   **The Child Care Provider's "Get Paid Faster" Subsidy Billing Hub** — Killed. Cash flow is a major pain, but the complexity varies significantly by state and municipality, making a scalable, national product very difficult to build.
+*   **The Small Manufacturer's "ITAR-Ready" Visitor Log** — Killed. The risk is catastrophic (federal prison), but the frequency of the pain (managing foreign national visitors) is likely too low for most small manufacturers to justify a dedicated subscription.
+
 ## 2026-09-14
 *   **The Small E-commerce Brand's "Landed Cost" Calculator** — Killed. While a real pain, the market is flooded with free tools and "good enough" spreadsheets. The willingness to pay for a dedicated, standalone calculator is likely low compared to the geotechnical opportunity.
 *   **The Trade Show Exhibitor's Lead Capture & ROI Calculator** — Killed. Attributing sales ROI to a specific trade show lead is notoriously difficult, making the core value proposition hard to prove definitively. This leads to a "vitamin" perception.

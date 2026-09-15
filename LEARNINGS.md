@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-15
+*   The most potent business risks are those that threaten a company's core operational inputs (e.g., labor, raw materials, operating licenses). A solution that insures that input is a painkiller.
+*   A market's willingness to pay for software can be accurately benchmarked by what they currently pay for manual, service-based alternatives to solve the same problem.
+*   For compliance products, the most valuable initial wedge may not be the most complex part of the process (e.g., filing), but the most chronically painful and high-risk part (e.g., ongoing record-keeping).
+
 ## 2026-09-14 (trends)
 - An incumbent vendor forcing its entire user base off a legacy product and onto an unpopular new one is one of the most powerful "why now" triggers for a new venture.
 - For professional services firms, the most potent value proposition is not just saving money, but eliminating the non-billable, administrative work that high-value employees hate doing.

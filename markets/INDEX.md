@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Agricultural H-2A Visa Compliance Software | us-agricultural-h2a-compliance-software | 2026-09-15 | 100 | The Agricultural Employer's "Audit-Ready" H-2A Visa Compliance Hub |
 | US Geotechnical Engineering Software | us-geotechnical-engineering-software | 2026-09-14 | 100 | The Independent Geotechnical Engineer's "gINT-Replacement" Boring Log Hub |
 | US SBIR/STTR Grant Compliance Software | us-sbir-sttr-grant-compliance-software | 2026-09-13 | 100 | The Small R&D Firm's "Audit-Ready" SBIR/STTR Grant Compliance Ledger |
 | US Registered Investment Advisor (RIA) Compliance Software | us-ria-compliance-software | 2026-09-12 | 100 | The Registered Investment Advisor's "Audit-Ready" SEC Marketing Rule Archive |
