@@ -6,8 +6,8 @@
     "memo": "ideas/2026-09-15.md"
   },
   "createdAt": "2026-09-15T09:33:22.590Z",
-  "updatedAt": "2026-09-15T09:33:22.591Z",
-  "attempts": 1,
+  "updatedAt": "2026-09-15T09:41:51.198Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -1503,8 +1503,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -2147,27 +2147,272 @@
           "adsChecked": false
         }
       ],
-      "serps": [],
-      "pages": [],
-      "reason": "search results for \"kitchen hood log\" not collected — DataForSEO auth (40101): authentication failed — check the API login and password; search results for \"nfpa 96 compliance\" not collected — serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password",
+      "serps": [
+        {
+          "id": "S1",
+          "query": "kitchen hood log",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:41:55.253Z",
+          "checkUrl": "https://www.google.com/search?q=kitchen%20hood%20log&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 4,
+              "domain": "hoodsly.com",
+              "url": "https://hoodsly.com/wood-range-hoods?srsltid=AfmBOor3f8NK-reE2zzVJfIiQzYcQcB82H1MedniFL6g3GpegAHrJp88",
+              "title": "Made To Order Wood Range Hoods Covers - Shop",
+              "description": "Shop an extensive selection of wood range hoods at Hoodsly. We offer unique selection of wood range hood covers, stove vent hood cover. Log ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.hoodmart.com",
+              "url": "https://www.hoodmart.com/?srsltid=AfmBOoq2ig2m9Lc5MbY1ZySmTjyvA4ClEn325e3zZLtpWRlzxlVv7k9J",
+              "title": "HoodMart | Commercial Range Hoods, Exhaust and Vents",
+              "description": "Buy factory-direct commercial exhaust hoods and fans from Hoodmart. Our high-quality selection is all NSF, UL, NFPA and ETL approved. Check us out today!",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.thorkitchen.com",
+              "url": "https://www.thorkitchen.com/collections/range-hood?srsltid=AfmBOor7xhiWaFfn0lDnKHVB0EXQPVF-wzJG_NzPkyf6naewEzzzPSUM",
+              "title": "Range Hoods | Kitchen Exhaust and Vent Hoods",
+              "description": "THOR Kitchen's luxury stove hoods deliver professional ventilation for residential, commercial, and restaurant kitchens. Powerful exhaust fans remove smoke ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "ventahood.com",
+              "url": "https://ventahood.com/",
+              "title": "Vent-A-Hood® Range Hoods | Luxury Kitchen Ventilation ...",
+              "description": "Designed to Keep Life Flowing Beautifully · Vent-A-Hood range hoods combine powerful ventilation, remarkably quiet performance and limitless customization. Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.stollindustries.com",
+              "url": "https://www.stollindustries.com/range-hoods/",
+              "title": "Metal Range Hoods",
+              "description": "Luxurious, hand-crafted designs that bring the beauty of metal into your kitchen. These premium hoods are forged by hand for a one-of-a-kind look. . Choose ...",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.halton.com",
+              "url": "https://www.halton.com/productgroup/commercial-kitchen-exhaust-hoods/",
+              "title": "Commercial Kitchen Exhaust Hoods",
+              "description": "Halton's lineup of commercial kitchen exhaust hoods include a variety of models, each tailored to meet different needs.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Kitchen_hood",
+              "title": "Kitchen hood",
+              "description": "A kitchen hood, exhaust hood, hood fan, extractor hood, or range hood is a device containing a mechanical fan that hangs above the stove or cooktop in the ... Read more",
+              "id": "S1.10",
+              "class": "reference_media"
+            },
+            {
+              "rank": 11,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=DSj_tCbVza0",
+              "title": "How to Make a Gorgeous DIY Range Hood you can be ...",
+              "description": "In this video, I build a custom range hood cover and structure for my recently remodeled kitchen. This hood cover is made from black walnut ...",
+              "id": "S1.11",
+              "class": "reference_media"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "nfpa 96 compliance",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:42:01.653Z",
+          "checkUrl": "https://www.google.com/search?q=nfpa%2096%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.nfpa.org",
+              "url": "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96",
+              "title": "NFPA 96 Standard Development",
+              "description": "Stay informed and participate in the standards development process for NFPA 96.",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "kitchenguard.com",
+              "url": "https://kitchenguard.com/nfpa-96-codes/",
+              "title": "NFPA 96 Standards Explained - Safety Guide",
+              "description": "Plain-English: NFPA 96 addresses minimum fire safety requirements for the design, installation, operation, inspection, and maintenance of commercial cooking ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "usmadesupply.com",
+              "url": "https://usmadesupply.com/resources/building-codes-standards/fire-suppression-standards/nfpa-96",
+              "title": "NFPA 96: Kitchen Hood, Grease Duct & Exhaust Standard",
+              "description": "Jul 21, 2026 — NFPA 96 requires that cleaning and inspection records be maintained and available for review by the authority having jurisdiction. The standard ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "blog.hoodfilters.com",
+              "url": "https://blog.hoodfilters.com/2024/03/19/nfpa-guide-part-1-commercial-kitchen-exhaust-systems-and-grease-removal-essentials/",
+              "title": "Commercial Kitchen Exhaust Systems: NFPA 96 Guide Part 1",
+              "description": "Mar 19, 2024 — NFPA 96 mandates that all seams, joints, and penetrations directing grease-laden vapors must be welded liquid-tight to the hood's lower ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=5-eAbWLt6IY",
+              "title": "Commercial Kitchen Safety: What's New in the NFPA 96 ...",
+              "description": null,
+              "id": "S2.7",
+              "class": "reference_media"
+            },
+            {
+              "rank": 8,
+              "domain": "www.tfp1.com",
+              "url": "https://www.tfp1.com/blog/understanding-nfpa-96-standards-for-ventilation-control-and-fire-protection/",
+              "title": "Understanding NFPA 96: Standards for Ventilation Control ...",
+              "description": "May 8, 2024 — Compliance and Inspection: Adhering to NFPA 96 involves regular inspections and maintenance to ensure all components of the kitchen exhaust ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "mfstradeschool.com",
+              "url": "https://mfstradeschool.com/en-us/blogs/kitchen-exhaust-hood-cleaning/decoding-nfpa-96-the-ultimate-guide-for-kitchen-technicians?srsltid=AfmBOooDwo1eg_dz-2d7EtIkhAuFG4ZXE4n2Us7CuRR4MecG35lx15NC",
+              "title": "NFPA 96: Kitchen Vent & Fire Safety Tips",
+              "description": "Jun 16, 2025 — NFPA 96 is the fire safety standard for commercial kitchen exhaust systems. It establishes requirements for hood cleaning, grease removal, ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.nfpa.org",
+              "url": "https://www.nfpa.org/product/nfpa-96-standard/p0096code",
+              "title": "NFPA 96, Standard for Ventilation Control and Fire ...",
+              "description": "Reduce commercial kitchen fire risk with the NFPA 96 requirements for the design, installation, and inspection of cooking ventilation and exhaust systems.",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.omnicontainment.com",
+              "url": "https://www.omnicontainment.com/the-essential-role-of-nfpa-96-compliance-in-managing-fog-risks-in-restaurants",
+              "title": "The Essential Role of NFPA 96 Compliance in Managing ...",
+              "description": "Compliance with the NFPA 96 Standard is a critical step in managing the risks associated with fats, oils, and grease (FOG) in restaurant operations. Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "nfpa.org",
+          "url": "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96",
+          "finalUrl": "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96",
+          "retrievedAt": "2026-09-15T09:42:23.208Z",
+          "status": 200,
+          "error": null,
+          "title": "NFPA 96 Standard Development",
+          "description": "Stay informed and participate in the standards development process for NFPA 96",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "nfpa.org",
+          "url": "https://www.nfpa.org/pricing",
+          "finalUrl": "https://www.nfpa.org/pricing",
+          "retrievedAt": "2026-09-15T09:42:23.210Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "hoodsly.com",
+          "url": "https://hoodsly.com/wood-range-hoods?srsltid=AfmBOor3f8NK-reE2zzVJfIiQzYcQcB82H1MedniFL6g3GpegAHrJp88",
+          "retrievedAt": "2026-09-15T09:42:23.211Z",
+          "status": null,
+          "error": "fetch failed"
+        },
+        {
+          "id": "P4",
+          "domain": "hoodsly.com",
+          "url": "https://hoodsly.com/pricing",
+          "retrievedAt": "2026-09-15T09:42:23.211Z",
+          "status": null,
+          "error": "fetch failed"
+        },
+        {
+          "id": "P5",
+          "domain": "kitchenguard.com",
+          "url": "https://kitchenguard.com/nfpa-96-codes/",
+          "finalUrl": "https://kitchenguard.com/nfpa-96-codes/",
+          "retrievedAt": "2026-09-15T09:42:23.212Z",
+          "status": 200,
+          "error": null,
+          "title": "NFPA 96 Standards Explained - Safety Guide | Kitchen Guard",
+          "description": "Kitchen Guard follows the highest NFPA standards to protect your kitchen and ensure safety. Trust our certified team for expert cleaning and compliance.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "kitchenguard.com",
+          "url": "https://kitchenguard.com/pricing",
+          "finalUrl": "https://kitchenguard.com/pricing",
+          "retrievedAt": "2026-09-15T09:42:23.213Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
       "readings": {
         "demand": {
           "level": "low",
           "scope": "direct keywords only",
           "upTo": null,
           "classified": true,
-          "measuredCount": 2,
-          "totalCount": 8,
+          "measuredCount": 1,
+          "totalCount": 6,
           "top": {
             "keyword": "nfpa 96 compliance",
             "searchVolume": 50,
             "id": "K1"
           },
           "category": {
-            "level": "unknown",
-            "measuredCount": 0,
-            "totalCount": 0,
-            "top": null
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "hood cleaning software",
+              "searchVolume": 10,
+              "id": "K5"
+            }
           },
           "broader": {
             "level": "unknown",
@@ -2183,7 +2428,7 @@
               "text": "\"kitchen hood cleaning cost\": relevance unclear — not counted."
             }
           ],
-          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"nfpa 96 compliance\" at 50/month; next \"hood cleaning software\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"nfpa 96 compliance\" at 50/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low (\"hood cleaning software\" 10/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
           "level": "moderate",
@@ -2196,190 +2441,368 @@
           "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $11.43 on \"hood cleaning software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
         },
         "competitors": {
-          "vendorLikeDomains": [],
+          "vendorLikeDomains": [
+            "nfpa.org",
+            "hoodsly.com",
+            "kitchenguard.com",
+            "hoodmart.com",
+            "usmadesupply.com",
+            "thorkitchen.com",
+            "blog.hoodfilters.com",
+            "ventahood.com",
+            "stollindustries.com",
+            "tfp1.com",
+            "halton.com",
+            "mfstradeschool.com",
+            "omnicontainment.com"
+          ],
           "platformDomains": [],
           "discussionResults": [],
           "pricedDomains": [],
-          "note": "No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "note": "13 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 1 with an indirect alternative.",
           "directCompetitorDomains": [],
-          "indirectAlternativeDomains": []
+          "indirectAlternativeDomains": [
+            "thorkitchen.com"
+          ]
         }
       },
-      "evidenceFingerprint": "e2674e31262b5563",
-      "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+      "evidenceFingerprint": "f1f820dcb76b4abc",
+      "evidenceUpdatedAt": "2026-09-15T09:42:26.517Z",
       "matchesOriginalPick": false,
       "relevance": {
-        "at": "2026-09-15T09:40:57.157Z",
+        "at": "2026-09-15T09:43:33.400Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+        "evidenceUpdatedAt": "2026-09-15T09:42:26.517Z",
         "qualifiers": [
           "Restaurant owner",
-          "facility manager"
+          "Facility manager"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search for a specific compliance standard is likely from the target customer who needs to adhere to it."
+            "reason": "Restaurant owners and facility managers are responsible for NFPA 96 compliance, which is the core regulation driving the problem."
           },
           "K2": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "Restaurant owners and facility managers search this to prepare for inspections, which is a key part of the problem."
+            "reason": "The target customers are the ones who undergo commercial kitchen fire inspections, which is a key event related to the problem."
           },
           "K3": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search is for the core activity the idea addresses, likely performed by the target customer."
+            "reason": "The target customers are responsible for hood cleaning documentation, which is the specific task the idea addresses."
           },
           "K4": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a search for a solution to the documentation problem, likely from the target customer."
+            "reason": "This is a direct description of the solution that the target customer would be looking for."
           },
           "K5": {
             "searcher": "includes",
-            "topic": "same",
-            "reason": "This is a search for a software solution to the problem, likely from the target customer."
+            "topic": "category",
+            "reason": "The target customer would search for this, but it represents the broader software category that the idea's specific log solution fits into."
           },
           "K6": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search for a compliance tool is likely from the target customer trying to solve the problem."
+            "reason": "The target customer would search for a checklist to help them with NFPA 96 compliance, a core part of the problem."
           },
           "K7": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a high-intent search for the specific type of solution offered, likely from the target customer."
+            "reason": "This is a specific search for a solution like the one proposed, indicating the searcher is the target customer."
           },
           "K8": {
             "searcher": "includes",
             "topic": "broader",
-            "reason": "This search is about the cost of the cleaning service itself, not the problem of documenting compliance."
+            "reason": "The target customer would research this, but it's about the cost of the cleaning service itself, not the documentation problem."
           },
           "K9": {
             "searcher": "includes",
-            "topic": "same",
-            "reason": "This is a high-intent search for a software solution to the NFPA 96 compliance problem, likely from the target customer."
+            "topic": "category",
+            "reason": "The target customer would search for the best software solution, which is the broader category the idea belongs to."
           }
         },
-        "items": {},
+        "items": {
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is about decorative wood range hoods for residential kitchens, not commercial compliance logs."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is for the target customer but about purchasing the physical commercial hood, not logging its cleaning for compliance."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is for a mix of residential and commercial customers buying physical hoods, not a compliance log."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is about luxury range hoods for residential kitchens, not commercial compliance."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is about high-end, decorative metal range hoods for residential kitchens, not commercial compliance."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is for the target customer but about purchasing the physical commercial hood, not logging its cleaning."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a general informational Wikipedia article about kitchen hoods for any audience, not about commercial compliance."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a DIY tutorial for building a residential range hood, not for the target customer or problem."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but about the development of the NFPA 96 standard itself, not the specific problem of logging compliance."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an informational guide for the target customer explaining the exact compliance standard they face."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article for the target customer directly mentions the problem of maintaining cleaning and inspection records for NFPA 96."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide for the target customer about the NFPA 96 standard that creates the need for documentation."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This video is for the target customer about general updates to the NFPA 96 standard, not specifically the documentation problem."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article for the target customer explains the NFPA 96 standard, which is the root of the documentation problem."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article for the target customer explains the NFPA 96 standard and its requirements, which is the problem the idea solves."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is the official page for the NFPA 96 standard, which is the direct source of the compliance problem for the target customer."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for restaurant owners about the problem of complying with NFPA 96."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This page is for the target customer but focuses on the standard's development, not the specific problem of logging compliance."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "Restaurant owner",
+              "Facility manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page explains the compliance problem to the target customer and offers a cleaning service to solve it."
+          }
+        },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-09-15:commercial-kitchen-hood-log",
-        "opportunity": "Commercial kitchens must document regular exhaust system cleaning to comply with fire codes. An opportunity exists for a simple digital log to track cleanings and generate audit-ready reports for inspectors.",
-        "whoPays": "Restaurant owners and facility managers will pay to simplify compliance and avoid fines, shutdowns, or denied insurance claims.",
+        "opportunity": "Commercial kitchens must document exhaust system cleaning to comply with NFPA 96. A specialized digital log could replace manual methods to ensure compliance and simplify reporting for audits.",
+        "whoPays": "This is an inference. Restaurant owners and facility managers would pay to avoid fines, shutdowns, or denied insurance claims by having a simple, audit-ready compliance record.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "No evidence was found in search results or fetched pages to describe this problem.",
-          "inference": "The existence of problem-focused keywords like \"nfpa 96 compliance\" (K1) and \"hood cleaning documentation\" (K3) suggests people are searching for information about this problem, but the evidence does not contain any content from people describing the problem itself."
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "NFPA 96 requires that cleaning and inspection records be maintained and available for review"
+            },
+            {
+              "id": "S2.11",
+              "quote": "Compliance with the NFPA 96 Standard is a critical step in managing the risks"
+            }
+          ],
+          "observed": "Articles aimed at commercial kitchen operators state that NFPA 96 requires that cleaning and inspection records be maintained for review by authorities. Compliance with this standard is described as a critical part of managing fire risk.",
+          "inference": "The evidence shows a compliance requirement exists, but does not show that the process of documenting it is a significant pain point. It is an inference that current methods are inefficient enough for businesses to seek and pay for a dedicated digital tool."
         },
         "competition": {
-          "level": "unknown",
+          "level": "sparse",
           "basis": [],
           "alternatives": [],
           "strengths": [],
-          "gaps": []
+          "gaps": [
+            {
+              "text": "No dedicated digital tools for logging NFPA 96 compliance were found in the search results.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
         },
-        "changes": [
-          {
-            "original": "Failure to maintain and document this cleaning can result in fines, operational shutdowns by a fire marshal, and insurance claims being denied.",
-            "finding": "Keywords like \"nfpa 96 compliance\" (50 searches/month) and \"hood cleaning software\" (10 searches/month) show that people are searching for information and solutions related to this compliance standard.",
-            "basis": [
-              {
-                "id": "K1",
-                "quote": "nfpa 96 compliance"
-              },
-              {
-                "id": "K5",
-                "quote": "hood cleaning software"
-              }
-            ],
-            "effect": "supports"
-          }
-        ],
+        "changes": [],
         "feasibility": {
-          "level": "easy",
-          "note": "A basic MVP could be a simple web form to log cleaning events with photo uploads and a feature to export a PDF report. This is a straightforward application to build."
+          "level": "moderate",
+          "note": "A minimum viable product would be a simple web application where a user can log cleaning events with dates and notes, and generate a printable report. This is a moderate technical challenge for a solo founder."
         },
         "unproven": [
-          "Whether this is a significant, painful problem for restaurant owners and facility managers.",
-          "How compliance documentation is currently managed (e.g., paper binders, spreadsheets) and if there is any desire to change.",
-          "Willingness to pay for a digital solution to this specific problem.",
-          "The existence and nature of any competing solutions, as none were found in the search results."
+          "Whether the pain of documentation is significant enough for businesses to pay for a solution.",
+          "What methods (e.g., paper logs, spreadsheets) businesses currently use and what their specific frustrations are.",
+          "Willingness to pay for a digital solution over free or existing manual methods."
         ],
         "nextExperiment": {
-          "what": "Find 10 restaurant owners or managers (e.g., in local business groups or online forums) and ask them how they prepare for a fire marshal inspection, specifically regarding their kitchen hood cleaning logs.",
-          "cost": "Minimal cash, 1-2 weeks of outreach.",
-          "duration": "2 weeks"
+          "what": "Create a landing page for a \"Fire-Marshal-Ready Digital Hood Cleaning Log\" describing the benefits of simplified compliance and audit-readiness. Run a small Google Ads campaign targeting relevant keywords to collect email sign-ups for a waitlist.",
+          "cost": "~$200 in ad spend + 1-2 days of time.",
+          "duration": "2-4 weeks"
         },
-        "continueIf": "A majority of interviewees describe their current documentation method as a hassle and express interest in a simple app to manage it.",
-        "stopIf": "Most interviewees state that their cleaning vendor provides sufficient documentation or that their current paper-based system is simple and effective enough."
+        "continueIf": "The ad campaign achieves a click-through rate over 2% and the landing page converts visitors to email sign-ups at a rate over 5%.",
+        "stopIf": "The ad campaign click-through rate is below 1% or the landing page conversion rate is below 2% after the budget is spent."
       },
       "assessment": {
-        "opportunity": "Commercial kitchens must document regular exhaust system cleaning to comply with fire codes. An opportunity exists for a simple digital log to track cleanings and generate audit-ready reports for inspectors.",
-        "whoPays": "Restaurant owners and facility managers will pay to simplify compliance and avoid fines, shutdowns, or denied insurance claims.",
+        "opportunity": "Commercial kitchens must document exhaust system cleaning to comply with NFPA 96. A specialized digital log could replace manual methods to ensure compliance and simplify reporting for audits.",
+        "whoPays": "This is an inference. Restaurant owners and facility managers would pay to avoid fines, shutdowns, or denied insurance claims by having a simple, audit-ready compliance record.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "",
-          "inference": "The existence of problem-focused keywords like \"nfpa 96 compliance\" (K1) and \"hood cleaning documentation\" (K3) suggests people are searching for information about this problem, but the evidence does not contain any content from people describing the problem itself."
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.11",
+              "quote": "Compliance with the NFPA 96 Standard is a critical step in managing the risks",
+              "domain": "omnicontainment.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article is for restaurant owners about the problem of complying with NFPA 96."
+            }
+          ],
+          "observed": "Articles aimed at commercial kitchen operators state that NFPA 96 requires that cleaning and inspection records be maintained for review by authorities. Compliance with this standard is described as a critical part of managing fire risk.",
+          "inference": "The evidence shows a compliance requirement exists, but does not show that the process of documenting it is a significant pain point. It is an inference that current methods are inefficient enough for businesses to seek and pay for a dedicated digital tool."
         },
         "competition": {
-          "level": "unknown",
+          "level": "sparse",
           "basis": [],
           "directCompetitors": [],
           "indirectAlternatives": [],
           "alternatives": [],
           "strengths": [],
-          "gaps": []
+          "gaps": [
+            {
+              "text": "No dedicated digital tools for logging NFPA 96 compliance were found in the search results.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
         },
-        "changes": [
-          {
-            "original": "Failure to maintain and document this cleaning can result in fines, operational shutdowns by a fire marshal, and insurance claims being denied.",
-            "finding": "Keywords like \"nfpa 96 compliance\" (50 searches/month) and \"hood cleaning software\" (10 searches/month) show that people are searching for information and solutions related to this compliance standard.",
-            "basis": [
-              {
-                "id": "K1",
-                "quote": "nfpa 96 compliance",
-                "domain": null,
-                "kind": "K",
-                "cls": "keyword",
-                "relevance": "direct",
-                "relevanceReason": "This search for a specific compliance standard is likely from the target customer who needs to adhere to it."
-              },
-              {
-                "id": "K5",
-                "quote": "hood cleaning software",
-                "domain": null,
-                "kind": "K",
-                "cls": "keyword",
-                "relevance": "direct",
-                "relevanceReason": "This is a search for a software solution to the problem, likely from the target customer."
-              }
-            ],
-            "effect": "supports"
-          }
-        ],
+        "changes": [],
         "feasibility": {
-          "level": "easy",
-          "note": "A basic MVP could be a simple web form to log cleaning events with photo uploads and a feature to export a PDF report. This is a straightforward application to build."
+          "level": "moderate",
+          "note": "A minimum viable product would be a simple web application where a user can log cleaning events with dates and notes, and generate a printable report. This is a moderate technical challenge for a solo founder."
         },
         "unproven": [
-          "Whether this is a significant, painful problem for restaurant owners and facility managers.",
-          "How compliance documentation is currently managed (e.g., paper binders, spreadsheets) and if there is any desire to change.",
-          "Willingness to pay for a digital solution to this specific problem.",
-          "The existence and nature of any competing solutions, as none were found in the search results."
+          "Whether the pain of documentation is significant enough for businesses to pay for a solution.",
+          "What methods (e.g., paper logs, spreadsheets) businesses currently use and what their specific frustrations are.",
+          "Willingness to pay for a digital solution over free or existing manual methods."
         ],
         "nextExperiment": {
-          "what": "Find 10 restaurant owners or managers (e.g., in local business groups or online forums) and ask them how they prepare for a fire marshal inspection, specifically regarding their kitchen hood cleaning logs.",
-          "cost": "Minimal cash, 1-2 weeks of outreach.",
-          "duration": "2 weeks"
+          "what": "Create a landing page for a \"Fire-Marshal-Ready Digital Hood Cleaning Log\" describing the benefits of simplified compliance and audit-readiness. Run a small Google Ads campaign targeting relevant keywords to collect email sign-ups for a waitlist.",
+          "cost": "~$200 in ad spend + 1-2 days of time.",
+          "duration": "2-4 weeks"
         },
-        "continueIf": "A majority of interviewees describe their current documentation method as a hassle and express interest in a simple app to manage it.",
-        "stopIf": "Most interviewees state that their cleaning vendor provides sufficient documentation or that their current paper-based system is simple and effective enough.",
+        "continueIf": "The ad campaign achieves a click-through rate over 2% and the landing page converts visitors to email sign-ups at a rate over 5%.",
+        "stopIf": "The ad campaign click-through rate is below 1% or the landing page conversion rate is below 2% after the budget is spent.",
         "removedLinks": 0,
         "downgraded": [],
         "validation": {
@@ -2387,12 +2810,19 @@
           "scrubbedSentences": 0,
           "removedSentences": [],
           "rejectedCitations": [],
-          "irrelevantCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "problem evidence",
+              "id": "S2.5",
+              "relevance": "uncertain",
+              "reason": "This article for the target customer directly mentions the problem of maintaining cleaning and inspection records for NFPA 96."
+            }
+          ],
           "downgraded": [],
           "dropped": []
         },
-        "assessedAt": "2026-09-15T09:41:36.423Z",
-        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z"
+        "assessedAt": "2026-09-15T09:44:13.925Z",
+        "evidenceUpdatedAt": "2026-09-15T09:42:26.517Z"
       }
     },
     {
@@ -2445,8 +2875,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -3089,9 +3519,270 @@
           "adsChecked": false
         }
       ],
-      "serps": [],
-      "pages": [],
-      "reason": "search results for \"child care billing\" not collected — serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password; search results for \"child care subsidy delays\" not collected — serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password",
+      "serps": [
+        {
+          "id": "S1",
+          "query": "child care billing",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:42:08.405Z",
+          "checkUrl": "https://www.google.com/search?q=child%20care%20billing&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "www.michigan.gov",
+              "url": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/cdc/providers/resources/provider-billing-help",
+              "title": "Provider Billing Help",
+              "description": "Call Child Development and Care 866-990-3227 option: 3 for PIN, or billing payment issue. Call MDHHS 844-464-3447 for authorizations (child assignments), number ... Read more",
+              "id": "S1.1",
+              "class": "government"
+            },
+            {
+              "rank": 2,
+              "domain": "www.michigan.gov",
+              "url": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/cdc/providers/resources/provider-billing-guidance",
+              "title": "Provider Billing Guidance",
+              "description": "Call Child Development and Care 866-990-3227 option: 3 for PIN, or billing payment issue. Call MDHHS 844-464-3447 for authorizations (child assignments), number ... Read more",
+              "id": "S1.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "idec.illinois.gov",
+              "url": "https://idec.illinois.gov/forproviders/ccap.html",
+              "title": "Child Care Assistance Program",
+              "description": "CCAP Billing and Payment Information … calling 217-557-0930. Child Care Payment Inquiry - (800) 804-3833 a toll-free number",
+              "id": "S1.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "www.dhs.state.mn.us",
+              "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903",
+              "title": "9.3 Payments to Providers",
+              "description": "Your agency sends the provider the Child Care Assistance Billing Form (DHS-5523 ), and the provider completes the paper bill and resubmits to the agency. Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.tryplayground.com",
+              "url": "https://www.tryplayground.com/solutions/billing",
+              "title": "Child Care Billing & Autopay Software - Playground",
+              "description": "Set mandatory autopay, automate invoicing, and stop chasing late payments. Child care billing software built for centers and home providers.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.dhs.state.il.us",
+              "url": "https://www.dhs.state.il.us/page.aspx?item=34482",
+              "title": "IDHS: Child Care Telephone Billing System - CCR&R Staff",
+              "description": "Providers may track the status of payments through the IDHS Payment Inquiry Line by calling 1 (800) 804-3833. The Payment Inquiry Line is updated every ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "dss.sd.gov",
+              "url": "https://dss.sd.gov/childcare/billing",
+              "title": "Login - Child Care Provider Payment",
+              "description": "PAYMENT LOGIN Enter your provider number, the month and year of the invoice, and your PIN. 57501 605.773.3165",
+              "id": "S1.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "mybrightwheel.com",
+              "url": "https://mybrightwheel.com/blog/child-care-billing",
+              "title": "The 7-Step Guide to Stress-Free Childcare Billing",
+              "description": "Nov 4, 2025 — 7 steps for creating a childcare billing process · Step 1: Review your current billing inefficiencies · Step 2: Choose your billing system. Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.lillio.com",
+              "url": "https://www.lillio.com/blog/childcare-billing-payment-guide",
+              "title": "Complete guide to billing and payments for child care centers",
+              "description": "Sep 26, 2024 — Complete guide to billing and payments for child care centers · Setting Your Rates · Bookkeeping · Invoices & Billing · Accepting Payments. Read more",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "child care subsidy delays",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-15T09:42:18.909Z",
+          "checkUrl": "https://www.google.com/search?q=child%20care%20subsidy%20delays&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "dese.mo.gov",
+              "url": "https://dese.mo.gov/communications/missouri-submits-justification-federal-child-care-payments",
+              "title": "Missouri Submits Justification for Federal Child Care Payments",
+              "description": "Jan 9, 2026 — As of Friday, 1,743 Missouri child care providers, roughly 53%, were impacted by the delay in federal payment. Phone 573-751-3469",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.komu.com",
+              "url": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
+              "title": "Missouri receives delayed federal child care subsidy funds",
+              "description": "Jan 13, 2026 — Providers who submitted invoices between Dec. 30, 2025, and Jan. 12, 2026, can expect payments by Jan. 16. Providers are advised to monitor the ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "missouriindependent.com",
+              "url": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
+              "title": "Missouri waiting on $25.7 million payment from feds to ...",
+              "description": "Jan 9, 2026 — The federal government has yet to release $25.7 million in child care subsidy funds to the state of Missouri, leaving providers without pay.",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/721966061245916/posts/25540183595664152/",
+              "title": "Childcare providers missing subsidy payments in ...",
+              "description": "While DESE claimed in late January that 70% of the backlog had been resolved, the ongoing delays have left many families still waiting—and now, ... Read more",
+              "id": "S2.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 7,
+              "domain": "ncchildcare.ncdhhs.gov",
+              "url": "https://ncchildcare.ncdhhs.gov/Whats-New/payment-delays-possible",
+              "title": "Payment Delays Possible - What's New",
+              "description": "The North Carolina Department of Health and Human Services has experienced delays in the release of federal grant dollars. Child Care Subsidy Subsidy",
+              "id": "S2.7",
+              "class": "government"
+            },
+            {
+              "rank": 8,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=o_gzeL5WJTw",
+              "title": "Delayed federal payment threatens to upend Missouri's ...",
+              "description": "Missouri childcare center closes temporarily amid subsidy delays. Relief Millions Will Lose Medicaid",
+              "id": "S2.8",
+              "class": "reference_media"
+            },
+            {
+              "rank": 9,
+              "domain": "www.childrenofamerica.com",
+              "url": "https://www.childrenofamerica.com/childcare-subsidy-funding-delays-risk-irreparable-harm-to-families-and-the-economy/",
+              "title": "Childcare Subsidy Funding Delays, Risk Irreparable Harm ...",
+              "description": "Applying broad, systemic payment delays or freezes in response to fraud concerns unfairly penalizes responsible providers and the families they serve.",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "ctf4kids.org",
+              "url": "https://ctf4kids.org/2024/10/missouris-child-care-crisis/",
+              "title": "Missouri's Child Care Crisis",
+              "description": "Oct 23, 2024 — child care providers receiving subsidy can expect another five weeks of delays due to “missing data.”",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.the74million.org",
+              "url": "https://www.the74million.org/article/officials-sound-alarm-over-delayed-federal-child-care-payments-to-states/",
+              "title": "Officials Sound Alarm Over Delayed Federal Child Care ...",
+              "description": "May 16, 2025 — It usually takes two weeks for these block grants to flow to states after Congress passes a continuing resolution funding the government, which ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "komu.com",
+          "url": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
+          "finalUrl": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
+          "retrievedAt": "2026-09-15T09:42:25.366Z",
+          "status": 200,
+          "error": null,
+          "title": "Missouri receives delayed federal child care subsidy funds | State News | komu.com",
+          "description": "A federal requirement to justify funding caused delays that affected more than half of Missouri child care providers.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "komu.com",
+          "url": "https://www.komu.com/pricing",
+          "finalUrl": "https://www.komu.com/pricing",
+          "retrievedAt": "2026-09-15T09:42:25.367Z",
+          "status": 429,
+          "error": "HTTP 429"
+        },
+        {
+          "id": "P3",
+          "domain": "dhs.state.mn.us",
+          "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903",
+          "retrievedAt": "2026-09-15T09:42:25.367Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P4",
+          "domain": "dhs.state.mn.us",
+          "url": "https://www.dhs.state.mn.us/pricing",
+          "retrievedAt": "2026-09-15T09:42:25.368Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P5",
+          "domain": "missouriindependent.com",
+          "url": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
+          "finalUrl": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
+          "retrievedAt": "2026-09-15T09:42:25.369Z",
+          "status": 200,
+          "error": null,
+          "title": "Missouri waiting on $25.7 million payment from feds to reimburse child care providers • Missouri Independent",
+          "description": "The federal government has yet to release $25.7 million in child care subsidy funds to the state of Missouri, leaving providers without pay.",
+          "priceMentions": [
+            {
+              "text": "$49,000",
+              "billingUnit": false,
+              "context": "state owes her business, Rising Sun Learning Center, around $49,000 in payments as part of a subsidy program that reimburses ch"
+            },
+            {
+              "text": "$48,225",
+              "billingUnit": false,
+              "context": "erty level to qualify for a full benefit. In 2025, that was $48,225 for a family of four. Families earning up to 215% of the fe"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "missouriindependent.com",
+          "url": "https://missouriindependent.com/pricing",
+          "finalUrl": "https://missouriindependent.com/pricing",
+          "retrievedAt": "2026-09-15T09:42:25.370Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
       "readings": {
         "demand": {
           "level": "unknown",
@@ -3099,7 +3790,7 @@
           "upTo": null,
           "classified": true,
           "measuredCount": 0,
-          "totalCount": 3,
+          "totalCount": 6,
           "top": null,
           "category": {
             "level": "some",
@@ -3117,30 +3808,15 @@
             "totalCount": 0,
             "top": null
           },
-          "uncertainCount": 4,
+          "uncertainCount": 1,
           "flags": [
-            {
-              "id": "K2",
-              "kind": "uncertain",
-              "text": "\"child care billing issues\": relevance unclear — not counted."
-            },
-            {
-              "id": "K4",
-              "kind": "uncertain",
-              "text": "\"child care billing\": relevance unclear — not counted."
-            },
-            {
-              "id": "K8",
-              "kind": "uncertain",
-              "text": "\"best child care billing\": relevance unclear — not counted."
-            },
             {
               "id": "K9",
               "kind": "uncertain",
               "text": "\"child care subsidy cost\": relevance unclear — not counted."
             }
           ],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 3 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"child care software\" 590/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 6 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"child care software\" 590/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
           "level": "moderate",
@@ -3153,194 +3829,496 @@
           "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $78.88 on \"child care software\"). CPC is an advertiser bid, not a customer's willingness to pay."
         },
         "competitors": {
-          "vendorLikeDomains": [],
+          "vendorLikeDomains": [
+            "komu.com",
+            "dhs.state.mn.us",
+            "missouriindependent.com",
+            "tryplayground.com",
+            "dhs.state.il.us",
+            "mybrightwheel.com",
+            "childrenofamerica.com",
+            "lillio.com",
+            "ctf4kids.org",
+            "the74million.org"
+          ],
           "platformDomains": [],
-          "discussionResults": [],
+          "discussionResults": [
+            "facebook.com"
+          ],
           "pricedDomains": [],
-          "note": "No search results collected. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "note": "10 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 1 with an indirect alternative.",
           "directCompetitorDomains": [],
-          "indirectAlternativeDomains": []
+          "indirectAlternativeDomains": [
+            "tryplayground.com"
+          ]
         }
       },
-      "evidenceFingerprint": "ffd2283d5b1d11a7",
-      "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+      "evidenceFingerprint": "534ad260a2fa1f64",
+      "evidenceUpdatedAt": "2026-09-15T09:42:26.517Z",
       "matchesOriginalPick": false,
       "relevance": {
-        "at": "2026-09-15T09:40:57.157Z",
+        "at": "2026-09-15T09:43:33.401Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z",
+        "evidenceUpdatedAt": "2026-09-15T09:42:26.517Z",
         "qualifiers": [
-          "child care center",
-          "accepts government subsidy payments"
+          "Child care center",
+          "Accepts government subsidy payments"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search is likely from child care providers experiencing the exact problem of delayed subsidy payments."
+            "reason": "Child care providers are the primary group affected by and searching for information on child care subsidy delays, which is the core problem."
           },
           "K2": {
             "searcher": "includes",
-            "topic": "broader",
-            "reason": "This search is about general child care billing, which is broader than the specific problem of complex subsidy billing."
+            "topic": "same",
+            "reason": "This is a core operational problem for the target customer."
           },
           "K3": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search is about the specific payment type causing the problem and is likely from the target customer."
+            "reason": "Child care providers are a primary audience searching to understand the government payment system they rely on."
           },
           "K4": {
             "searcher": "includes",
-            "topic": "broader",
-            "reason": "This is a search for general child care billing, not specifically the complex subsidy billing problem."
+            "topic": "same",
+            "reason": "This is a core business function for the target customer, and the idea aims to improve this specific function."
           },
           "K5": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This is the wider software category that would include a solution for the problem, likely searched by the target customer."
+            "reason": "The target customer would search for this, but it's a broader category of software of which the idea is a specialized part."
           },
           "K6": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a search for a specific tool to solve the problem of managing subsidies, likely from the target customer."
+            "reason": "This is a very specific search for a solution that directly describes the idea, indicating a searcher from the target audience."
           },
           "K7": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This is the wider software category that a solution would fall into, likely searched by the target customer."
+            "reason": "The target customer is a primary searcher for this term, which represents the broad software category."
           },
           "K8": {
             "searcher": "includes",
-            "topic": "broader",
-            "reason": "This search is about general child care billing solutions, which is broader than the specific subsidy problem."
+            "topic": "same",
+            "reason": "The target customer would search this to find the best solution for their billing problem."
           },
           "K9": {
             "searcher": "unclear",
-            "topic": "unclear",
-            "reason": "It is unclear if this search is from a parent asking about the cost of care or a provider asking about the cost of managing subsidies."
+            "topic": "broader",
+            "reason": "This search is ambiguous; it could be from parents, providers, or policymakers, and it's about the subsidy amount, not the billing process."
           }
         },
-        "items": {},
+        "items": {
+          "S1.1": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government help page for the target customer in Michigan facing the exact problem of billing issues."
+          },
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government guidance page for the target customer in Michigan about the exact problem of billing."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government information page for the target customer in Illinois about the exact problem of subsidy billing."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government page for the target customer in Minnesota describing the billing process, which is the source of the problem."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Child care center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general child care billing software, not specifically for managing the complexities of government subsidies."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government page for the target customer in Illinois about the state's subsidy billing system."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government payment portal for the target customer in South Dakota, directly related to the problem."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "Child care center"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general guide to child care billing, not focused on the specific problem of government subsidies."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "Child care center"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general guide to billing for all child care centers, not specific to the subsidy problem."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article is about the exact problem of delayed subsidy payments affecting the target customer in Missouri."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article discusses the exact problem of delayed subsidy payments for the target customer in Missouri."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article is about the exact problem of delayed subsidy payments affecting the target customer in Missouri."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item describes the exact problem of delayed subsidy payments for the target customer."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government notice to the target customer in North Carolina about the exact problem of payment delays."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news video highlights the severity of the exact problem for the target customer in Missouri."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the exact problem of subsidy payment delays for the target customer."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the exact problem of subsidy payment delays for the target customer in Missouri."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article is about the exact problem of delayed subsidy payments affecting the target customer."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article describes the exact problem of delayed subsidy payments for the target customer in Missouri."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "Child care center",
+              "Accepts government subsidy payments"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article describes the exact problem of delayed subsidy payments for the target customer in Missouri."
+          }
+        },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-09-15:child-care-subsidy-billing",
-        "opportunity": "Child care providers face cash flow problems due to complex and error-prone government subsidy billing. An opportunity exists for a specialized tool to automate this process, ensuring accurate claims and faster payments.",
-        "whoPays": "Independent and small-chain child care centers will pay to accelerate revenue and reduce administrative work.",
+        "opportunity": "Child care providers face significant, business-threatening delays in receiving government subsidy payments. A specialized tool to manage the complex subsidy billing process could help them get paid faster and more predictably.",
+        "whoPays": "This is an inference. Independent and small-chain child care centers would pay to accelerate revenue and improve cash flow by ensuring subsidy claims are accurate and processed as quickly as possible.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "No evidence was found in search results or fetched pages to describe this problem.",
-          "inference": "The existence of a highly specific keyword like \"child care subsidy delays\" (K1) suggests this is a real problem people search for, but the evidence contains no content from people describing the problem itself."
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "1,743 Missouri child care providers, roughly 53%, were impacted by the delay in federal payment"
+            },
+            {
+              "id": "S2.5",
+              "quote": "leaving providers without pay"
+            },
+            {
+              "id": "S2.7",
+              "quote": "The North Carolina Department of Health and Human Services has experienced delays in the release of federal grant dollars"
+            },
+            {
+              "id": "S1.1",
+              "quote": "Call Child Development and Care 866-990-3227 option: 3 for PIN, or billing payment issue"
+            }
+          ],
+          "observed": "News articles and government websites from multiple states report widespread, significant delays in subsidy payments to child care providers, sometimes affecting over half the providers in a state and leaving them without pay. Government agencies provide dedicated phone help lines for provider billing issues, suggesting the process is complex.",
+          "inference": "These payment delays cause severe cash flow problems for child care centers, making a solution that could ensure accuracy and speed up payments highly valuable. However, the evidence suggests delays are often systemic and on the government side, which software alone may not be able to fix."
         },
         "competition": {
-          "level": "unknown",
-          "basis": [],
-          "alternatives": [],
-          "strengths": [],
-          "gaps": []
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.6",
+              "quote": "Child Care Billing & Autopay Software"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Playground",
+              "type": "indirect",
+              "what": "A general child care billing software that helps automate invoicing and reduce late payments from parents.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Set mandatory autopay, automate invoicing, and stop chasing late payments"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing competitors offer broad, all-in-one child care management platforms that cover billing alongside other features like parent communication and attendance.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The evidence does not show any competitors that specifically address the unique, complex, and state-by-state rules of government subsidy billing.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
         },
-        "changes": [
-          {
-            "original": "This complexity leads to errors and, most importantly, delays in reimbursement, creating significant cash flow problems for the business.",
-            "finding": "The existence of the keyword \"child care subsidy delays\" directly reflects the core pain point described in the original memo, even though its search volume is unknown.",
-            "basis": [
-              {
-                "id": "K1",
-                "quote": "child care subsidy delays"
-              }
-            ],
-            "effect": "supports"
-          }
-        ],
+        "changes": [],
         "feasibility": {
           "level": "hard",
-          "note": "A true solution would likely require integrating with various state and local government systems, which is technically and bureaucratically difficult. A simpler first experiment could be a specialized form-filling tool that doesn't integrate directly."
+          "note": "A software solution would need to handle different, complex rules and submission processes for each state's subsidy program. A first experiment would likely need to be a manual service for one provider in one state to even map out the process, making a scalable product very challenging."
         },
         "unproven": [
-          "Whether subsidy billing is a significant enough pain point to warrant a dedicated tool outside of existing child care management systems.",
-          "How providers currently manage this process and what specific parts are most time-consuming or error-prone.",
-          "The features and capabilities of the billing modules within existing \"child care software\" (K7).",
-          "Willingness to pay for a standalone billing tool."
+          "Whether provider-side billing errors are a significant contributor to payment delays, or if the problem is entirely due to government backlogs.",
+          "If a software tool can demonstrably speed up payments in a system plagued by bureaucratic delays.",
+          "Whether providers are willing to pay for a specialized billing tool, potentially in addition to a general-purpose child care management system."
         ],
         "nextExperiment": {
-          "what": "Interview 5-10 directors of child care centers that accept government subsidies. Ask them to walk you through their subsidy billing process, the software they use, and where things get stuck.",
-          "cost": "Minimal cash, 2-3 weeks of outreach and interviews.",
-          "duration": "3 weeks"
+          "what": "Offer a manual, done-for-you subsidy billing service to 1-3 local child care centers in a single state. The goal is to process their claims by hand to learn the exact workflow, rules, and potential for automation.",
+          "cost": "10-20 hours of time for outreach and manual processing.",
+          "duration": "1-2 months (to cover at least one full billing cycle)."
         },
-        "continueIf": "A majority of directors describe subsidy billing as a major administrative headache that directly impacts their cash flow and are dissatisfied with their current software's ability to handle it.",
-        "stopIf": "Most directors indicate that their existing child care management software handles subsidy billing adequately or that the process, while annoying, is not a high-priority problem to solve."
+        "continueIf": "You can successfully process claims and get a client paid measurably faster than their historical average, and the client validates that this service is highly valuable.",
+        "stopIf": "The payment delays are confirmed to be entirely due to government backlogs that are unaffected by the accuracy of submissions, or the process is so manual and exception-driven that automation appears infeasible."
       },
       "assessment": {
-        "opportunity": "Child care providers face cash flow problems due to complex and error-prone government subsidy billing. An opportunity exists for a specialized tool to automate this process, ensuring accurate claims and faster payments.",
-        "whoPays": "Independent and small-chain child care centers will pay to accelerate revenue and reduce administrative work.",
+        "opportunity": "Child care providers face significant, business-threatening delays in receiving government subsidy payments. A specialized tool to manage the complex subsidy billing process could help them get paid faster and more predictably.",
+        "whoPays": "This is an inference. Independent and small-chain child care centers would pay to accelerate revenue and improve cash flow by ensuring subsidy claims are accurate and processed as quickly as possible.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "",
-          "inference": "The existence of a highly specific keyword like \"child care subsidy delays\" (K1) suggests this is a real problem people search for, but the evidence contains no content from people describing the problem itself."
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "1,743 Missouri child care providers, roughly 53%, were impacted by the delay in federal payment",
+              "domain": "dese.mo.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "direct",
+              "relevanceReason": "This news article is about the exact problem of delayed subsidy payments affecting the target customer in Missouri."
+            },
+            {
+              "id": "S2.5",
+              "quote": "leaving providers without pay",
+              "domain": "missouriindependent.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This news article is about the exact problem of delayed subsidy payments affecting the target customer in Missouri."
+            },
+            {
+              "id": "S2.7",
+              "quote": "The North Carolina Department of Health and Human Services has experienced delays in the release of federal grant dollars",
+              "domain": "ncchildcare.ncdhhs.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "direct",
+              "relevanceReason": "This is a government notice to the target customer in North Carolina about the exact problem of payment delays."
+            },
+            {
+              "id": "S1.1",
+              "quote": "Call Child Development and Care 866-990-3227 option: 3 for PIN, or billing payment issue",
+              "domain": "michigan.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "direct",
+              "relevanceReason": "This is a government help page for the target customer in Michigan facing the exact problem of billing issues."
+            }
+          ],
+          "observed": "News articles and government websites from multiple states report widespread, significant delays in subsidy payments to child care providers, sometimes affecting over half the providers in a state and leaving them without pay. Government agencies provide dedicated phone help lines for provider billing issues, suggesting the process is complex.",
+          "inference": "These payment delays cause severe cash flow problems for child care centers, making a solution that could ensure accuracy and speed up payments highly valuable. However, the evidence suggests delays are often systemic and on the government side, which software alone may not be able to fix."
         },
         "competition": {
-          "level": "unknown",
-          "basis": [],
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.6",
+              "quote": "Child Care Billing & Autopay Software",
+              "domain": "tryplayground.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a general child care billing software, not specifically for managing the complexities of government subsidies."
+            }
+          ],
           "directCompetitors": [],
-          "indirectAlternatives": [],
-          "alternatives": [],
-          "strengths": [],
-          "gaps": []
+          "indirectAlternatives": [
+            "tryplayground.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Playground",
+              "type": "indirect",
+              "what": "A general child care billing software that helps automate invoicing and reduce late payments from parents.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Set mandatory autopay, automate invoicing, and stop chasing late payments",
+                  "domain": "tryplayground.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general child care billing software, not specifically for managing the complexities of government subsidies."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing competitors offer broad, all-in-one child care management platforms that cover billing alongside other features like parent communication and attendance.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The evidence does not show any competitors that specifically address the unique, complex, and state-by-state rules of government subsidy billing.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
         },
-        "changes": [
-          {
-            "original": "This complexity leads to errors and, most importantly, delays in reimbursement, creating significant cash flow problems for the business.",
-            "finding": "The existence of the keyword \"child care subsidy delays\" directly reflects the core pain point described in the original memo, even though its search volume is unknown.",
-            "basis": [
-              {
-                "id": "K1",
-                "quote": "child care subsidy delays",
-                "domain": null,
-                "kind": "K",
-                "cls": "keyword",
-                "relevance": "direct",
-                "relevanceReason": "This search is likely from child care providers experiencing the exact problem of delayed subsidy payments."
-              }
-            ],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
           "level": "hard",
-          "note": "A true solution would likely require integrating with various state and local government systems, which is technically and bureaucratically difficult. A simpler first experiment could be a specialized form-filling tool that doesn't integrate directly."
+          "note": "A software solution would need to handle different, complex rules and submission processes for each state's subsidy program. A first experiment would likely need to be a manual service for one provider in one state to even map out the process, making a scalable product very challenging."
         },
         "unproven": [
-          "Whether subsidy billing is a significant enough pain point to warrant a dedicated tool outside of existing child care management systems.",
-          "How providers currently manage this process and what specific parts are most time-consuming or error-prone.",
-          "The features and capabilities of the billing modules within existing \"child care software\" (K7).",
-          "Willingness to pay for a standalone billing tool."
+          "Whether provider-side billing errors are a significant contributor to payment delays, or if the problem is entirely due to government backlogs.",
+          "If a software tool can demonstrably speed up payments in a system plagued by bureaucratic delays.",
+          "Whether providers are willing to pay for a specialized billing tool, potentially in addition to a general-purpose child care management system."
         ],
         "nextExperiment": {
-          "what": "Interview 5-10 directors of child care centers that accept government subsidies. Ask them to walk you through their subsidy billing process, the software they use, and where things get stuck.",
-          "cost": "Minimal cash, 2-3 weeks of outreach and interviews.",
-          "duration": "3 weeks"
+          "what": "Offer a manual, done-for-you subsidy billing service to 1-3 local child care centers in a single state. The goal is to process their claims by hand to learn the exact workflow, rules, and potential for automation.",
+          "cost": "10-20 hours of time for outreach and manual processing.",
+          "duration": "1-2 months (to cover at least one full billing cycle)."
         },
-        "continueIf": "A majority of directors describe subsidy billing as a major administrative headache that directly impacts their cash flow and are dissatisfied with their current software's ability to handle it.",
-        "stopIf": "Most directors indicate that their existing child care management software handles subsidy billing adequately or that the process, while annoying, is not a high-priority problem to solve.",
+        "continueIf": "You can successfully process claims and get a client paid measurably faster than their historical average, and the client validates that this service is highly valuable.",
+        "stopIf": "The payment delays are confirmed to be entirely due to government backlogs that are unaffected by the accuracy of submissions, or the process is so manual and exception-driven that automation appears infeasible.",
         "removedLinks": 0,
-        "downgraded": [
-          "change \"this complexity leads to errors and, most importan\" supports → untested: cites only keywords with no data (unknown, not evidence)"
-        ],
+        "downgraded": [],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
           "rejectedCitations": [],
           "irrelevantCitations": [],
-          "downgraded": [
-            "change \"this complexity leads to errors and, most importan\" supports → untested: cites only keywords with no data (unknown, not evidence)"
-          ],
+          "downgraded": [],
           "dropped": []
         },
-        "assessedAt": "2026-09-15T09:41:36.425Z",
-        "evidenceUpdatedAt": "2026-09-15T09:34:20.048Z"
+        "assessedAt": "2026-09-15T09:44:13.928Z",
+        "evidenceUpdatedAt": "2026-09-15T09:42:26.517Z"
       }
     }
   ],
@@ -3387,14 +4365,56 @@
       "costUsd": 0.002,
       "status": "charged",
       "budget": "recorded"
+    },
+    {
+      "at": "2026-09-15T09:41:55.253Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "93dafa2b-20c1-5937-bbd6-e33f1d5c19c7",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-15T09:42:01.653Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "4aecb9c0-3fe5-5a0c-adcd-855a1c2d0690",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-15T09:42:08.405Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "86e4dd63-289c-56ef-ad6b-6ee98272169a",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-15T09:42:18.909Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "71b37831-96ca-53ba-a157-f55e833e3536",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
     }
   ],
   "provider": {
-    "status": "unavailable",
-    "reason": "serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password",
-    "warnings": [
-      "serp/google/organic/live/regular: DataForSEO auth (40101): authentication failed — check the API login and password"
-    ]
+    "status": "live",
+    "reason": null,
+    "warnings": []
   },
   "budget": {
     "backend": "git-ledger",
@@ -3406,14 +4426,14 @@
       "month": "2026-09",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.23224,
+      "chargedUsd": 0.25132,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.76776
+      "remainingUsd": 1.74868
     },
-    "monthToDateUsdBefore": 0.23224,
-    "spentThisRunUsd": 0.01908
+    "monthToDateUsdBefore": 0.25132,
+    "spentThisRunUsd": 0.008
   },
   "marketSupport": {
     "united states|en": {
@@ -3424,29 +4444,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 27,
-    "keywordsFromCache": 0,
-    "labsUsd": 0.01524,
-    "serpQueries": 6,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 18,
+    "labsUsd": 0,
+    "serpQueries": 4,
     "serpsFromCache": 0,
-    "serpUsd": 0.012,
+    "serpUsd": 0.008,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 27
+        "ideas": 2,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.02724,
-    "reservedUsd": 0.029964
+    "totalUsd": 0.008,
+    "reservedUsd": 0.0088
   },
   "lastGather": {
-    "at": "2026-09-15T09:34:20.048Z",
+    "at": "2026-09-15T09:42:26.517Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.01908,
+    "pendingIdeas": 2,
+    "spentUsd": 0.008,
     "note": null
   }
 }

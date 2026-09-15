@@ -1464,6 +1464,139 @@
         "mentionsContactSales": false,
         "mentionsPricing": false
       }
+    },
+    "page|https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96": {
+      "fetchedAt": "2026-09-15T09:42:23.208Z",
+      "data": {
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96",
+        "finalUrl": "https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96",
+        "retrievedAt": "2026-09-15T09:42:23.208Z",
+        "status": 200,
+        "error": null,
+        "title": "NFPA 96 Standard Development",
+        "description": "Stay informed and participate in the standards development process for NFPA 96",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://kitchenguard.com/nfpa-96-codes/": {
+      "fetchedAt": "2026-09-15T09:42:23.212Z",
+      "data": {
+        "url": "https://kitchenguard.com/nfpa-96-codes/",
+        "finalUrl": "https://kitchenguard.com/nfpa-96-codes/",
+        "retrievedAt": "2026-09-15T09:42:23.212Z",
+        "status": 200,
+        "error": null,
+        "title": "NFPA 96 Standards Explained - Safety Guide | Kitchen Guard",
+        "description": "Kitchen Guard follows the highest NFPA standards to protect your kitchen and ensure safety. Trust our certified team for expert cleaning and compliance.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.nfpa.org/pricing": {
+      "fetchedAt": "2026-09-15T09:42:23.210Z",
+      "data": {
+        "url": "https://www.nfpa.org/pricing",
+        "finalUrl": "https://www.nfpa.org/pricing",
+        "retrievedAt": "2026-09-15T09:42:23.210Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://kitchenguard.com/pricing": {
+      "fetchedAt": "2026-09-15T09:42:23.213Z",
+      "data": {
+        "url": "https://kitchenguard.com/pricing",
+        "finalUrl": "https://kitchenguard.com/pricing",
+        "retrievedAt": "2026-09-15T09:42:23.213Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.komu.com/pricing": {
+      "fetchedAt": "2026-09-15T09:42:25.367Z",
+      "data": {
+        "url": "https://www.komu.com/pricing",
+        "finalUrl": "https://www.komu.com/pricing",
+        "retrievedAt": "2026-09-15T09:42:25.367Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://www.dhs.state.mn.us/pricing": {
+      "fetchedAt": "2026-09-15T09:42:25.368Z",
+      "data": {
+        "url": "https://www.dhs.state.mn.us/pricing",
+        "retrievedAt": "2026-09-15T09:42:25.368Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903": {
+      "fetchedAt": "2026-09-15T09:42:25.367Z",
+      "data": {
+        "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903",
+        "retrievedAt": "2026-09-15T09:42:25.367Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html": {
+      "fetchedAt": "2026-09-15T09:42:25.366Z",
+      "data": {
+        "url": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
+        "finalUrl": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
+        "retrievedAt": "2026-09-15T09:42:25.366Z",
+        "status": 200,
+        "error": null,
+        "title": "Missouri receives delayed federal child care subsidy funds | State News | komu.com",
+        "description": "A federal requirement to justify funding caused delays that affected more than half of Missouri child care providers.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/": {
+      "fetchedAt": "2026-09-15T09:42:25.369Z",
+      "data": {
+        "url": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
+        "finalUrl": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
+        "retrievedAt": "2026-09-15T09:42:25.369Z",
+        "status": 200,
+        "error": null,
+        "title": "Missouri waiting on $25.7 million payment from feds to reimburse child care providers • Missouri Independent",
+        "description": "The federal government has yet to release $25.7 million in child care subsidy funds to the state of Missouri, leaving providers without pay.",
+        "priceMentions": [
+          {
+            "text": "$49,000",
+            "billingUnit": false,
+            "context": "state owes her business, Rising Sun Learning Center, around $49,000 in payments as part of a subsidy program that reimburses ch"
+          },
+          {
+            "text": "$48,225",
+            "billingUnit": false,
+            "context": "erty level to qualify for a full benefit. In 2025, that was $48,225 for a family of four. Families earning up to 215% of the fe"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://missouriindependent.com/pricing": {
+      "fetchedAt": "2026-09-15T09:42:25.370Z",
+      "data": {
+        "url": "https://missouriindependent.com/pricing",
+        "finalUrl": "https://missouriindependent.com/pricing",
+        "retrievedAt": "2026-09-15T09:42:25.370Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }
