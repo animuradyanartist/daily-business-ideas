@@ -12,11 +12,17 @@
 // before it is made, so the budget gate can refuse it up front.
 //
 // RETRIES ARE BOUNDED AND CHARGE-AWARE. Only failures that cannot have been billed are
-// retried: a DataForSEO error status in the body (rate limit 40202, internal 5xxxx — the
-// provider does not bill failed tasks) or a connection refused before sending. A timeout,
-// a dropped connection, an HTTP 5xx without a status body, or an unreadable response may
-// already have been charged: never retried, surfaced with `chargeUnknown`, and the caller
-// keeps the budget hold counted as uncertain.
+// retried: a DataForSEO error status in the body that reports no cost (rate limit 40202 /
+// 40209, a failed task 40101 / 40103, internal 5xxxx) or a connection refused before
+// sending. A failed task CAN be billed (a 40101 on a live SERP cost $0.002 in production):
+// when the response reports a cost, the error carries it as `cost`, it is never retried,
+// and the caller settles that cost. A timeout, a dropped connection, an HTTP 5xx without a
+// status body, or an unreadable response may already have been charged: never retried,
+// surfaced with `chargeUnknown`, and the caller keeps the budget hold counted as uncertain.
+//
+// STATUS CODES follow docs.dataforseo.com/v3/appendix/errors (checked 2026-09-15). Only
+// credential, account and payment problems stop the run; a task the search engine could not
+// complete fails just that request; 40102 "No Search Results" is a valid empty answer.
 //
 // SECRETS. Credentials only ever become the Basic-auth header. They are never logged,
 // never put in an error message, and never written to evidence files.
@@ -48,8 +54,9 @@ export function projectSerpCost(depth = 10) {
 
 export class ProviderError extends Error {
   /**
-   * kind: not_configured | auth | payment | rate_limit | server | timeout | network | bad_request
+   * kind: not_configured | auth | account | payment | rate_limit | task_failed | server | timeout | network | bad_request
    * chargeUnknown: the request may have been billed even though it failed.
+   * cost (set on DataForSEO status errors): the USD cost the response reported, or null.
    */
   constructor(kind, statusCode, message, { chargeUnknown = false } = {}) {
     super(`DataForSEO ${kind}${statusCode ? ` (${statusCode})` : ''}: ${message}`);
@@ -61,7 +68,12 @@ export class ProviderError extends Error {
 
   /** Errors that make every further call in this run pointless. */
   get fatalForRun() {
-    return this.kind === 'auth' || this.kind === 'payment' || this.kind === 'not_configured';
+    return this.kind === 'auth' || this.kind === 'account' || this.kind === 'payment' || this.kind === 'not_configured';
+  }
+
+  /** The response reported a charge for this failed request. */
+  get billed() {
+    return typeof this.cost === 'number' && this.cost > 0;
   }
 }
 
@@ -71,12 +83,23 @@ const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : null);
 // Connection errors raised before the request was sent — these cannot have been billed.
 const PRE_SEND_CODES = new Set(['ENOTFOUND', 'EAI_AGAIN', 'ECONNREFUSED']);
 
-function classifyApiStatus(code, message) {
-  if (code === 40100 || code === 40101 || code === 40102) return new ProviderError('auth', code, 'authentication failed — check the API login and password');
-  if (code === 40200 || code === 40210) return new ProviderError('payment', code, 'account balance is insufficient');
-  if (code === 40202) return new ProviderError('rate_limit', code, 'rate limit reached');
-  if (code >= 50000) return new ProviderError('server', code, message || 'provider error');
-  return new ProviderError('bad_request', code, message || 'request rejected');
+// 40102 "No Search Results" on a paid query is an answer (nothing ranks / no data), not a failure.
+const NO_RESULTS = 40102;
+
+function classifyApiStatus(code, message, cost) {
+  let err;
+  if (code === 40100) err = new ProviderError('auth', code, 'not authorized — check the API login and password');
+  else if (code === 40104) err = new ProviderError('account', code, 'the DataForSEO account is not verified');
+  else if (code === 40207) err = new ProviderError('account', code, 'this IP address is not whitelisted for the API account');
+  else if (code === 40200 || code === 40210) err = new ProviderError('payment', code, 'account balance is insufficient');
+  else if (code === 40202) err = new ProviderError('rate_limit', code, 'rate limit reached');
+  else if (code === 40209) err = new ProviderError('rate_limit', code, 'too many simultaneous requests');
+  // The search engine could not complete this one task; other requests are unaffected.
+  else if (code === 40101 || code === 40103) err = new ProviderError('task_failed', code, `${message || 'task failed'} — this request only; it can be tried again later`);
+  else if (code >= 50000) err = new ProviderError('server', code, message || 'provider error');
+  else err = new ProviderError('bad_request', code, message || 'request rejected');
+  err.cost = num(cost);
+  return err;
 }
 
 export function createDataForSeo({
@@ -119,14 +142,13 @@ export function createDataForSeo({
     } catch {
       throw new ProviderError('server', res.status, 'response was not JSON', { chargeUnknown: body !== null });
     }
-    if (json?.status_code !== 20000) throw classifyApiStatus(json?.status_code, json?.status_message);
+    // Free lookups (GET) never have an empty answer: a 40102 there stays an error, so it can
+    // never be cached as "this market is not supported".
+    const ok = (code) => code === 20000 || (code === NO_RESULTS && body !== null);
+    if (!ok(json?.status_code)) throw classifyApiStatus(json?.status_code, json?.status_message, json?.cost);
     const task = json.tasks?.[0];
-    if (task && task.status_code !== 20000) {
-      const err = classifyApiStatus(task.status_code, task.status_message);
-      err.cost = num(json.cost);
-      throw err;
-    }
-    return json;
+    if (task && !ok(task.status_code)) throw classifyApiStatus(task.status_code, task.status_message, json.cost);
+    return json; // on 40102 the callers read no result rows: an empty answer at the reported cost
   }
 
   async function call(path, body) {
@@ -134,10 +156,12 @@ export function createDataForSeo({
       try {
         return await once(path, body);
       } catch (err) {
+        // A request that was (or may have been) charged is never re-sent automatically.
         const retryable =
           err instanceof ProviderError &&
           !err.chargeUnknown &&
-          (err.kind === 'rate_limit' || err.kind === 'server' || err.kind === 'network');
+          !err.billed &&
+          (err.kind === 'rate_limit' || err.kind === 'task_failed' || err.kind === 'server' || err.kind === 'network');
         if (!retryable || attempt >= maxAttempts) throw err;
         await sleep(2 ** attempt * 1000);
       }

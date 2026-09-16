@@ -389,7 +389,8 @@ export async function gatherEvidence({ run, config, deps, log = console }) {
   const handleErr = (err, what) => {
     const reason = `${what}: ${err?.message ?? 'failed'}`;
     if (err instanceof ProviderError && err.fatalForRun) setBlock('unavailable', reason);
-    else if (err instanceof ProviderError && err.kind === 'bad_request') warnings.push(reason);
+    // A rejected request or a task the search engine could not complete fails only that request.
+    else if (err instanceof ProviderError && (err.kind === 'bad_request' || err.kind === 'task_failed')) warnings.push(reason);
     else setBlock('pending', reason);
     log.warn?.(`[enrich] ${reason}`);
   };

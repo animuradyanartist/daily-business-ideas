@@ -240,6 +240,56 @@ test('auth failure makes enrichment unavailable and releases the reservation', a
   assert.equal([...budget.holds.values()][0].status, 'released');
 });
 
+test('a billed 40101 on one SERP is settled, fails only that query, and does not block the remaining requests', async () => {
+  // Replays production run 34952940829 through the REAL client with a fake HTTP layer: the
+  // SERP for one query got task-level 40101 "Internal SE Server Error" (billed $0.002), was
+  // logged as an auth failure, and stopped every later paid request in the run.
+  const { createDataForSeo } = await import('../lib/dataforseo.mjs');
+  const sent = [];
+  const fetchImpl = async (url, init) => {
+    const path = new URL(url).pathname;
+    const ok = (cost, result) => new Response(JSON.stringify({ status_code: 20000, cost, tasks: [{ status_code: 20000, result }] }), { status: 200 });
+    if (path.endsWith('/appendix/user_data')) return ok(0, [{ money: { balance: 5 } }]);
+    if (path.endsWith('/locations_and_languages')) return ok(0, [{ location_name: 'United States', location_code: 2840, available_languages: [{ language_code: 'en', available_sources: ['google'], keywords: 1 }] }]);
+    const body = JSON.parse(init.body)[0];
+    sent.push(path.includes('/serp/') ? `serp:${body.keyword}` : 'labs');
+    if (path.includes('keyword_overview')) return ok(0.0124, [{ items: body.keywords.map((k) => ({ keyword: k, keyword_info: { search_volume: 90 } })) }]);
+    if (body.keyword === 'a software') {
+      return new Response(JSON.stringify({ status_code: 20000, cost: 0.002, tasks: [{ status_code: 40101, status_message: 'Internal SE Server Error.', result: null }] }), { status: 200 });
+    }
+    return ok(0.002, [{ check_url: 'https://www.google.com/search?q=x', item_types: ['organic'], items: [{ type: 'organic', rank_absolute: 1, domain: 'vendor.com', url: 'https://vendor.com/', title: 'Vendor' }] }]);
+  };
+  const dfs = createDataForSeo({ login: 'a', password: 'b', fetchImpl, sleep: async () => {} });
+  const { run, config, deps, budget } = setup({ dfs, ideas: ['a', 'b', 'c'] });
+  await gatherEvidence({ run, config, deps, log: quiet });
+
+  // Every planned request was still sent, in order, once each: the failure blocked nothing.
+  assert.deepEqual(sent, ['labs', 'serp:a software', 'serp:b software', 'serp:c software']);
+  assert.equal(run.provider.status, 'live');
+  assert.ok(run.provider.warnings.some((w) => /40101/.test(w) && !/auth|login|password/i.test(w)));
+
+  // The failed request's reported cost is on the ledger — charged, not released or left uncertain.
+  const failed = run.spend.find((l) => l.endpoint.includes('serp') && l.costUsd === 0.002 && budget.events.find((e) => e.holdId === l.holdId)?.payload.error);
+  assert.ok(failed, 'the billed 40101 is settled with its error');
+  assert.equal(failed.status, 'charged');
+  assert.equal(failed.budget, 'recorded');
+  assert.equal(budget.holds.get(failed.holdId).status, 'charged');
+  assert.ok([...budget.holds.values()].every((h) => h.status === 'charged'));
+  assert.equal(budget.events.length, 4);
+  assert.equal(run.budget.spentThisRunUsd, 0.0184); // labs 0.0124 + 3 SERPs × 0.002, the failed one included
+
+  const [a, b, c] = run.ideas;
+  assert.equal(a.status, 'partial');
+  assert.match(a.reason, /"a software" not collected — .*40101/);
+  assert.equal(b.status, 'enriched');
+  assert.equal(c.status, 'enriched');
+
+  // It is a definite failure, not an uncertain charge: the next run asks for that SERP again.
+  await gatherEvidence({ run, config, deps, log: quiet });
+  assert.equal(sent.filter((s) => s === 'serp:a software').length, 2);
+  assert.equal(sent.filter((s) => s === 'serp:b software').length, 1); // cached, not bought twice
+});
+
 test('a possibly-charged timeout stays counted as uncertain and is never re-sent automatically', async () => {
   const timeout = new ProviderError('timeout', null, 'no response within 45s', { chargeUnknown: true });
   const { run, config, deps, dfs, budget } = setup({ dfs: fakeDfs({ fail: timeout }) });
