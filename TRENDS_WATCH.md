@@ -393,6 +393,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered "Deposition Co-pilot" for Litigators** · Using AI platforms to automate the deposition preparation, analysis, and summarization workflow for law firms. · flagged 2026-09-15 · last checked 2026-09-15 · [origin memo](trends/2026-09-15.md)
 - **AI-Assisted Divorce & Co-Parenting** · Using AI tools to automate document drafting, financial organization, and communication for family law cases. · flagged 2026-09-15 · last checked 2026-09-15 · [origin memo](trends/2026-09-15.md)
 - **AI-Automated Environmental Permitting & Compliance** · Using AI to automate the drafting, review, and monitoring of environmental permits for regulators and industry. · flagged 2026-09-15 · last checked 2026-09-15 · [origin memo](trends/2026-09-15.md)
+- **AI-Automated Water Utility Compliance** · Using AI platforms to automate the monitoring and reporting required for environmental and public health compliance. · flagged 2026-09-16 · last checked 2026-09-16 · [origin memo](trends/2026-09-16.md)
+- **AI-Powered Audit Readiness for SMBs** · Using AI tools to automate the preparation for financial audits by continuously monitoring transactions and testing internal controls. · flagged 2026-09-16 · last checked 2026-09-16 · [origin memo](trends/2026-09-16.md)
+- **AI-Automated Creator & Brand Deal Management** · Using AI platforms to automate the full workflow of creator discovery, outreach, contract negotiation, and campaign management. · flagged 2026-09-16 · last checked 2026-09-16 · [origin memo](trends/2026-09-16.md)
 
 
 ## ➡️ Active — plateauing
@@ -662,3 +665,5 @@ _(empty)_
 <!-- 2026-09-14 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-09-15 status-update directive: 🚀 | Generative Music for Creator Content -->
+
+<!-- 2026-09-16 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
