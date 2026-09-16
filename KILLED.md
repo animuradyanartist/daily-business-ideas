@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-16
+- **The Small Non-Profit's Grant Reporting Hub** — Killed. The pain is real, but the buyer's ability and willingness to pay for software is historically very low.
+- **The University Research Lab's Chemical Inventory Manager** — Killed. A strong compliance pain, but the sales process into universities is complex and slow, often requiring vendor approvals at an institutional level.
+- **The Commercial Drone Operator's FAA Flight Log Hub** — Killed. The compliance requirement is less stringent and the cost of failure is lower than for water systems. This feels more like a professional tool (vitamin) than a business-critical painkiller.
+- **The Small Importer's CTPAT Compliance Hub** — Killed. CTPAT is a voluntary program, which immediately disqualifies it as a "must-have" compliance tool.
+
 ## 2026-09-15
 *   **The Commercial Kitchen's "Fire-Marshal-Ready" Hood Cleaning Log** — Killed. A strong compliance pain, but the economic consequence (a fine or temporary shutdown) is less severe than the H-2A risk (total loss of workforce). The buyer's ability to pay is also likely lower.
 *   **The Child Care Provider's "Get Paid Faster" Subsidy Billing Hub** — Killed. Cash flow is a major pain, but the complexity varies significantly by state and municipality, making a scalable, national product very difficult to build.

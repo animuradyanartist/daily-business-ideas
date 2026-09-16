@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-16
+- The most powerful B2B software opportunities often involve de-risking an individual's professional license, not just the company's finances.
+- A market of many small, fragmented, non-technical buyers (like small utilities) is a feature, not a bug. It creates a natural barrier against large enterprise competitors and rewards simple, focused product design.
+- Regulatory complexity that varies state-by-state can be a powerful moat. Building a business that masters this complexity creates a durable competitive advantage.
+
 ## 2026-09-15 (trends)
 - The most potent business risks are those that threaten a company's core operational inputs (e.g., labor, raw materials, operating licenses). A solution that insures that input is a painkiller.
 - A market's willingness to pay for software can be accurately benchmarked by what they currently pay for manual, service-based alternatives to solve the same problem.

@@ -1,0 +1,4540 @@
+{
+  "schema": 1,
+  "date": "2026-09-16",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-16.md"
+  },
+  "createdAt": "2026-09-16T09:37:23.771Z",
+  "updatedAt": "2026-09-16T09:37:23.772Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-16.md",
+    "title": "The Small Water Treatment Plant's \"State-Ready\" Monthly Operating Report (MOR) Generator",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-16:non-profit-grant-reporting-hub",
+      "slug": "non-profit-grant-reporting-hub",
+      "title": "The Small Non-Profit's Grant Reporting & Acquittal Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis explicitly states there are over 1.5 million non-profits in the US, making it the most plausible location."
+      },
+      "plan": {
+        "slug": "non-profit-grant-reporting-hub",
+        "title": "The Small Non-Profit's Grant Reporting & Acquittal Hub",
+        "problem": "Each grant has specific reporting requirements and deadlines for proving how the money was spent, and failure to report correctly jeopardizes future funding.",
+        "targetCustomer": "The Executive Director or program manager at a small non-profit (<$5M annual budget).",
+        "payer": "The Executive Director or program manager at a small non-profit",
+        "whyPayerPays": "The payer would pay to secure their largest revenue source and avoid jeopardizing future funding.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis explicitly states there are over 1.5 million non-profits in the US, making it the most plausible location."
+        },
+        "keywords": {
+          "problem": [
+            "grant reporting requirements",
+            "non profit grant acquittal",
+            "manage grant funding"
+          ],
+          "solution": [
+            "grant software",
+            "nonprofit reporting tool",
+            "grant management system"
+          ],
+          "buying": [
+            "grant software pricing",
+            "best grant management tools",
+            "nonprofit software cost"
+          ]
+        },
+        "serpQueries": [
+          "grant software",
+          "grant reporting requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "grant reporting requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-13 11:54:03 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (33 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "non profit grant acquittal",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "manage grant funding",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 23.12,
+          "adCompetition": 0.71,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-15 14:20:01 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "grant software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 40.58,
+          "adCompetition": 0.56,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -35,
+          "providerUpdatedAt": "2026-08-29 20:17:32 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -40,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "nonprofit reporting tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "grant management system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 590,
+          "cpcUsd": 90.53,
+          "adCompetition": 0.54,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -41,
+          "providerUpdatedAt": "2026-09-15 00:36:36 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 590
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -23,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "grant software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best grant management tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "nonprofit software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "grant software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:33.441Z",
+          "checkUrl": "https://www.google.com/search?q=grant%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.instrumentl.com",
+              "url": "https://www.instrumentl.com/",
+              "title": "Instrumentl - Your intelligent grant operating system",
+              "description": "Instrumentl is grant management software for nonprofits: find, win, and manage every grant in one workspace. Trusted by 5500+ nonprofits.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.trytemelio.com",
+              "url": "https://www.trytemelio.com/blog/grants-management-software",
+              "title": "9 Best Grants Management Software for Smarter ...",
+              "description": "Mar 26, 2026 — Grant Frog is a straightforward, budget-friendly grants management software designed for grantseekers who need a structured way to track their ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "goodgrants.com",
+              "url": "https://goodgrants.com/",
+              "title": "Good Grants - Grants management software - For good ...",
+              "description": "Good Grants helps grantmakers affordably manage the entire grantmaking lifecycle, keep everyone on track and minimise risk.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.techsoup.org",
+              "url": "https://www.techsoup.org/donor-and-grants-management?srsltid=AU7gw4UfW9uBvikWjpHJM0DYDh5eqlBXfw4BYv0qdiJjl1J3loJOMC8m",
+              "title": "Donor and Grants Management Products for Nonprofits",
+              "description": "TechSoup offers donor and grants management tools to create targeted lists, track donations and engagement history, and send messages for future donations. Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "eunasolutions.com",
+              "url": "https://eunasolutions.com/solutions/grants/",
+              "title": "Grants Management Software for Public Sector",
+              "description": "Simplify grant tracking, management, and reporting with Euna Solutions' purpose-built Grant Management System for public sector teams.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.bonterratech.com",
+              "url": "https://www.bonterratech.com/blog/best-grant-management-software",
+              "title": "13 Best Grant Management Tools for Strategic Funding",
+              "description": "May 13, 2025 — 13 top grant management tools · 1. Bonterra CyberGrants · 2. GrantHub · 3. Neon CRM · 4. Blackbaud Grantmaking · 5. Grantseeker · 6. AmpliFund · 7. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/nonprofit/comments/1pkivsg/grants_management_software/",
+              "title": "Grants Management Software? : r/nonprofit",
+              "description": "The nonprofit I work for is searching for a GMS (Grants Management Software). Most of the software we’ve found is geared for grantors, not grant recipients. ...",
+              "id": "S1.9",
+              "class": "discussion"
+            },
+            {
+              "rank": 10,
+              "domain": "www.foundant.com",
+              "url": "https://www.foundant.com/",
+              "title": "Foundant: Software for Foundations & Social Good ...",
+              "description": "Foundant's software for foundations and social good organizations improves grant management, scholarship management, fund accounting and more.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.liveimpact.org",
+              "url": "https://www.liveimpact.org/blog/best-grant-management-software-for-nonprofits",
+              "title": "8 Best Grant Management Software Tools for Nonprofits in ...",
+              "description": "Apr 18, 2026 — The 8 best grant management software options for nonprofits in 2026 · 1. LiveImpact · 2. Instrumentl · 3. Bloomerang · 4. Blackbaud Raiser's ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "grant reporting requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:40.469Z",
+          "checkUrl": "https://www.google.com/search?q=grant%20reporting%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "grants.gov",
+              "url": "https://grants.gov/learn-grants/grant-reporting",
+              "title": "Grant Reporting",
+              "description": "The law requires that information about entities and organizations receiving federal funds be disclosed to the public via a central website, USAspending.gov.",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.hrsa.gov",
+              "url": "https://www.hrsa.gov/grants/manage-your-grant/reporting-requirements",
+              "title": "Reporting Requirements - Grants",
+              "description": "Sep 15, 2025 — FFATA requires recipients of non-Recovery Act funded grants and cooperative agreements to report on sub-awards of $30,000 or more.",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "caseworthy.com",
+              "url": "https://caseworthy.com/articles/what-is-grant-reporting/",
+              "title": "What is Grant Reporting? A Non-Profit Guide",
+              "description": "Quarterly and semi-annual interim reports must be submitted no later than 30 days after the end of each reporting period · Annual reports must be submitted no ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "grants.nih.gov",
+              "url": "https://grants.nih.gov/grants-process/post-award-monitoring-and-reporting/reporting-requirements",
+              "title": "Reporting Requirements | Grants & Funding",
+              "description": "Sep 4, 2025 — Regulations require that recipient organizations report all inventions to the awarding agency, as well as include an acknowledgement of federal ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.anchin.com",
+              "url": "https://www.anchin.com/articles/grant-reporting-challenges-and-best-practices-for-not-for-profit-organizations/",
+              "title": "Grant Reporting for Not for Profit: Best Practices Explained",
+              "description": "May 21, 2026 — Not-for-profit organizations must provide accurate, organized reports detailing how funds were spent, what was achieved, and how grant dollars ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.peakgrantmaking.org",
+              "url": "https://www.peakgrantmaking.org/insights/grant-reporting-the-current-state-of-practice/",
+              "title": "Grant Reporting: The Current State of Practice",
+              "description": "Jan 22, 2018 — Reporting is consistent in its basic format: most grantmakers require narrative, written reports (now usually via online system or sent via ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.foundant.com",
+              "url": "https://www.foundant.com/blog/16-grant-reporting-best-practices-every-foundation-and-nonprofit-should-master/",
+              "title": "Grant Reporting Tips: 16 best practices for nonprofits and ...",
+              "description": "May 19, 2025 — Report language should be clear, concise, and professional. Grant recipients must communicate findings clearly and explain key data ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "apspayroll.com",
+              "url": "https://apspayroll.com/blog/grant-reporting-process-guide/",
+              "title": "The Grant Reporting Process: A Complete Guide",
+              "description": "Aug 28, 2024 — Grant reporting is the process of documenting how your organization used grant funds and submitting that documentation to your funder. Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.cdc.gov",
+              "url": "https://www.cdc.gov/grants/welcome-packet/reporting-audit-requirements.html",
+              "title": "Understanding Your Reporting/Audit Requirements | Grants",
+              "description": "Sep 15, 2025 — Each grant recipient is required to submit an annual progress report (APR), due no later than 120 days prior to the end of the budget periods. Read more",
+              "id": "S2.11",
+              "class": "government"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "foundant.com",
+          "url": "https://www.foundant.com/",
+          "finalUrl": "https://www.foundant.com/",
+          "retrievedAt": "2026-09-16T09:39:04.831Z",
+          "status": 200,
+          "error": null,
+          "title": "Software for Foundations & Social Good Organizations | Foundant",
+          "description": "Foundant's software for foundations and social good organizations improves grant management, scholarship management, fund accounting and more. Request a demo.",
+          "priceMentions": [
+            {
+              "text": "$22",
+              "billingUnit": false,
+              "context": "ight direction LEARN MORE Amplify your impact with Foundant $22B+ 2025 Grant & Scholarship Awards Powered by Foundant, Givi"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "foundant.com",
+          "url": "https://www.foundant.com/pricing",
+          "finalUrl": "https://www.foundant.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:04.833Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "instrumentl.com",
+          "url": "https://www.instrumentl.com/",
+          "finalUrl": "https://www.instrumentl.com/",
+          "retrievedAt": "2026-09-16T09:39:04.834Z",
+          "status": 200,
+          "error": null,
+          "title": "Instrumentl - Your intelligent grant operating system",
+          "description": "Instrumentl is grant management software for nonprofits: find, win, and manage every grant in one workspace. Trusted by 5,500+ nonprofits.",
+          "priceMentions": [
+            {
+              "text": "$1.1",
+              "billingUnit": false,
+              "context": "e to learn from experts and connect with peers Main content $1.1B+ in grants managed Grant work was scattered. Now it&rsquo;"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "instrumentl.com",
+          "url": "https://www.instrumentl.com/pricing",
+          "finalUrl": "https://www.instrumentl.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:04.835Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing Plans | Instrumentl Grant Platform",
+          "description": "Explore Instrumentl's pricing plans for nonprofits, consultants and universities. Instrumentl pricing is based on your organization's grantseeking needs.",
+          "priceMentions": [
+            {
+              "text": "$299 /month",
+              "billingUnit": true,
+              "context": "your grants practice Discover Establish your grants program $299 /month Paid upfront annually (or $349 paid monthly) Try 14 days fr"
+            },
+            {
+              "text": "$349",
+              "billingUnit": false,
+              "context": "h your grants program $299 /month Paid upfront annually (or $349 paid monthly) Try 14 days free Everything you need to find"
+            },
+            {
+              "text": "$499 /month",
+              "billingUnit": true,
+              "context": "organized grants pipeline Pre-Award Grow your grant revenue $499 /month Paid upfront annually (or $579 paid monthly) Try 14 days fr"
+            },
+            {
+              "text": "$579",
+              "billingUnit": false,
+              "context": "ow your grant revenue $499 /month Paid upfront annually (or $579 paid monthly) Try 14 days free Everything in Discover, plus"
+            },
+            {
+              "text": "$999 /month",
+              "billingUnit": true,
+              "context": "ifecycle Manage complex awards with confidence Most Popular $999 /month Paid upfront annually (or $1,159 paid monthly) Try 14 days"
+            },
+            {
+              "text": "$1,159",
+              "billingUnit": false,
+              "context": "nfidence Most Popular $999 /month Paid upfront annually (or $1,159 paid monthly) Try 14 days free The full platform: Everythin"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "trytemelio.com",
+          "url": "https://www.trytemelio.com/blog/grants-management-software",
+          "finalUrl": "https://www.trytemelio.com/blog/grants-management-software",
+          "retrievedAt": "2026-09-16T09:39:04.836Z",
+          "status": 200,
+          "error": null,
+          "title": "9 Best Grants Management Software for Smarter Grantmaking",
+          "description": "Stop drowning in risky spreadsheets. Compare the best grants management software to automate your workflow, save time, and focus on what matters: your impact.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "trytemelio.com",
+          "url": "https://www.trytemelio.com/pricing",
+          "finalUrl": "https://www.trytemelio.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:04.837Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 4,
+          "top": {
+            "keyword": "grant reporting requirements",
+            "searchVolume": 20,
+            "id": "K1"
+          },
+          "category": {
+            "level": "some",
+            "measuredCount": 2,
+            "totalCount": 4,
+            "top": {
+              "keyword": "grant management system",
+              "searchVolume": 590,
+              "id": "K6"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"grant reporting requirements\" at 20/month; next \"manage grant funding\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"grant management system\" 590/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K6"
+          ],
+          "pricedPageIds": [
+            "P4"
+          ],
+          "pricedDomains": [
+            "instrumentl.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $90.53 on \"grant management system\"). CPC is an advertiser bid, not a customer's willingness to pay. 2 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): instrumentl.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "foundant.com",
+            "instrumentl.com",
+            "trytemelio.com",
+            "goodgrants.com",
+            "caseworthy.com",
+            "techsoup.org",
+            "eunasolutions.com",
+            "anchin.com",
+            "bonterratech.com",
+            "peakgrantmaking.org",
+            "apspayroll.com",
+            "liveimpact.org"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "instrumentl.com"
+          ],
+          "note": "12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on instrumentl.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 3 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "instrumentl.com",
+            "techsoup.org",
+            "foundant.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "db98349499b081ea",
+      "evidenceUpdatedAt": "2026-09-16T09:39:08.996Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-16T09:46:29.416Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-16T09:39:08.996Z",
+        "qualifiers": [
+          "Executive Director or program manager",
+          "small non-profit"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a core problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a specific term for the problem, and 'non profit' makes the searcher likely to be the target customer."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes a key job responsibility of the target customer that the idea addresses."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the broad software category; it can be for grant-seekers, grant-makers, or grant-recipients."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct description of the proposed solution for the target customer."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broad software category that includes finding and applying for grants, not just reporting."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broad software category."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broad software category."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "This is a very broad search that could be for fundraising, accounting, or other nonprofit software, not just grant management."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for all nonprofits and covers the entire grant lifecycle (find, win, manage), which is broader than the idea's focus on reporting."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a list of general grant management software for grantseekers, a broader audience and problem than reporting for small nonprofits."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for grantmakers (funders), not grant recipients (nonprofits), which is a different customer."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is for nonprofits but covers donor and grants management, a broader problem than just grant reporting."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for public sector teams (government), not non-profits."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a list of general grant management tools, a broader scope than the idea's focus on reporting for small nonprofits."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion by a nonprofit employee (not specified as small) looking for software for grant recipients, which aligns with the customer type."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software serves both grantmakers (foundations) and recipients (social good orgs) with a broad set of features beyond just reporting."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a list of general grant management software for nonprofits, a broader audience and problem than the idea's focus."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page discusses federal grant reporting requirements for any recipient, a much broader audience than just small non-profits."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page details reporting requirements for a specific type of federal grant (HRSA), which is for a broader audience than just small non-profits."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide on grant reporting for any non-profit, a broader audience than the idea's target of small non-profits."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page details reporting requirements for NIH grants, which is for a broader and often different audience (e.g., research labs) than small non-profits."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article provides grant reporting best practices for all not-for-profits, a broader audience than just small ones."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article discusses grant reporting from the perspective of grantmakers, which is a different customer and problem."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article offers grant reporting tips for all nonprofits, a broader audience than just small ones."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide on grant reporting for any organization, a broader audience than small non-profits."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page details reporting requirements for CDC grants, which is for a broader audience than just small non-profits."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for both grantmakers (foundations) and a broad range of social good organizations, with features beyond just reporting."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for all nonprofits and covers the entire grant lifecycle (find, win, manage), which is broader than the idea's focus."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [
+              "small non-profit"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This pricing page is for a broad audience including all nonprofits, consultants, and universities, not just small non-profits."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is aimed at grantmakers (funders), which is a different customer than the idea's target of grant recipients."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-16:non-profit-grant-reporting-hub",
+        "opportunity": "Small non-profits face complex grant reporting requirements where failure can jeopardize future funding. A dedicated hub could streamline this process, ensuring compliance and securing their primary revenue source.",
+        "whoPays": "The Executive Director or program manager at a small non-profit would pay to protect their grant funding, which is a critical revenue source. This is an inference as no direct evidence of payment was found.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S1.9",
+              "quote": "Most of the software we’ve found is geared for grantors, not grant recipients"
+            },
+            {
+              "id": "S2.7",
+              "quote": "Not-for-profit organizations must provide accurate, organized reports detailing how funds were spent"
+            }
+          ],
+          "observed": "The evidence shows that non-profits are required to produce accurate, organized reports on how grant funds were spent. A user on a discussion forum for non-profits notes a lack of software available for grant recipients compared to grantors.",
+          "inference": "The difficulty in finding appropriate software suggests that grant recipients, including small non-profits, may be underserved by current tools, forcing them into manual or inadequate solutions for a critical compliance task."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Instrumentl is grant management software for nonprofits: find, win, and manage every grant in one workspace"
+            },
+            {
+              "id": "P1",
+              "quote": "Foundant's software for foundations and social good organizations improves grant management, scholarship management, fund accounting and more"
+            },
+            {
+              "id": "S1.6",
+              "quote": "TechSoup offers donor and grants management tools to create targeted lists, track donations and engagement history"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Instrumentl",
+              "type": "indirect",
+              "what": "Offers a grant operating system to find, win, and manage the entire grant lifecycle for nonprofits. Pricing starts at $299/month.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "find, win, and manage every grant in one workspace"
+                },
+                {
+                  "id": "P4",
+                  "quote": "$299 /month Paid upfront annually"
+                }
+              ]
+            },
+            {
+              "name": "Foundant",
+              "type": "indirect",
+              "what": "Provides software for foundations and social good organizations covering grant management, scholarship management, and fund accounting.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "improves grant management, scholarship management, fund accounting and more"
+                }
+              ]
+            },
+            {
+              "name": "TechSoup",
+              "type": "indirect",
+              "what": "Provides donor and grants management tools focused on tracking donations and engagement.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "donor and grants management tools to create targeted lists, track donations and engagement history"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors are established platforms that offer comprehensive, all-in-one solutions for the entire grant lifecycle.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "find, win, and manage every grant in one workspace"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing competitors appear to be broad, all-in-one platforms and do not seem to offer a focused, narrow solution specifically for the post-award reporting and acquittal process for small non-profits.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "managed in a chaotic mess of spreadsheets",
+            "finding": "No evidence was found to confirm or deny that spreadsheets are the primary tool used.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "A dedicated tool priced at $50-150/month",
+            "finding": "An indirect competitor, Instrumentl, has pricing that starts at $299/month.",
+            "basis": [
+              {
+                "id": "P4",
+                "quote": "$299 /month Paid upfront annually"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "secure their largest revenue source would be a high-priority purchase",
+            "finding": "A non-profit employee expressed a need for software for grant recipients, noting that most tools are for grantors.",
+            "basis": [
+              {
+                "id": "S1.9",
+                "quote": "Most of the software we’ve found is geared for grantors, not grant recipients"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A minimal first version could be a web application that acts as a specialized calendar and checklist system for tracking grant deadlines and requirements. This is technically straightforward but requires domain knowledge to be useful."
+        },
+        "unproven": [
+          "Whether small non-profits perceive reporting as a distinct problem separate from general grant management.",
+          "Whether they are willing to pay for a dedicated reporting tool instead of using spreadsheets or features within larger, more expensive suites.",
+          "The specific, most painful parts of the grant reporting workflow that software could solve."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 5-10 customer discovery interviews with Executive Directors or program managers at non-profits with budgets under $5M. Ask them to describe their current grant reporting process, tools used, and biggest frustrations.",
+          "cost": "$0 cash, 15-20 hours of outreach and interview time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees describe their current process as manual, painful, and time-consuming, and express clear interest in a dedicated tool to solve specific reporting challenges they mention.",
+        "stopIf": "Most interviewees are satisfied with their current process (spreadsheets or existing software) or do not consider grant reporting a significant enough problem to warrant paying for a new tool."
+      },
+      "assessment": {
+        "opportunity": "Small non-profits face complex grant reporting requirements where failure can jeopardize future funding. A dedicated hub could streamline this process, ensuring compliance and securing their primary revenue source.",
+        "whoPays": "The Executive Director or program manager at a small non-profit would pay to protect their grant funding, which is a critical revenue source. This is an inference as no direct evidence of payment was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.9",
+              "quote": "Most of the software we’ve found is geared for grantors, not grant recipients",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "This is a discussion by a nonprofit employee (not specified as small) looking for software for grant recipients, which aligns with the customer type."
+            },
+            {
+              "id": "S2.7",
+              "quote": "Not-for-profit organizations must provide accurate, organized reports detailing how funds were spent",
+              "domain": "anchin.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article provides grant reporting best practices for all not-for-profits, a broader audience than just small ones."
+            }
+          ],
+          "observed": "The evidence shows that non-profits are required to produce accurate, organized reports on how grant funds were spent. A user on a discussion forum for non-profits notes a lack of software available for grant recipients compared to grantors.",
+          "inference": "The difficulty in finding appropriate software suggests that grant recipients, including small non-profits, may be underserved by current tools, forcing them into manual or inadequate solutions for a critical compliance task."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Instrumentl is grant management software for nonprofits: find, win, and manage every grant in one workspace",
+              "domain": "instrumentl.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This software is for all nonprofits and covers the entire grant lifecycle (find, win, manage), which is broader than the idea's focus on reporting."
+            },
+            {
+              "id": "P1",
+              "quote": "Foundant's software for foundations and social good organizations improves grant management, scholarship management, fund accounting and more",
+              "domain": "foundant.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This software is for both grantmakers (foundations) and a broad range of social good organizations, with features beyond just reporting."
+            },
+            {
+              "id": "S1.6",
+              "quote": "TechSoup offers donor and grants management tools to create targeted lists, track donations and engagement history",
+              "domain": "techsoup.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is for nonprofits but covers donor and grants management, a broader problem than just grant reporting."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "instrumentl.com",
+            "foundant.com",
+            "techsoup.org"
+          ],
+          "alternatives": [
+            {
+              "name": "Instrumentl",
+              "type": "indirect",
+              "what": "Offers a grant operating system to find, win, and manage the entire grant lifecycle for nonprofits. Pricing starts at $299/month.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "find, win, and manage every grant in one workspace",
+                  "domain": "instrumentl.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This software is for all nonprofits and covers the entire grant lifecycle (find, win, manage), which is broader than the idea's focus on reporting."
+                },
+                {
+                  "id": "P4",
+                  "quote": "$299 /month Paid upfront annually",
+                  "domain": "instrumentl.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This pricing page is for a broad audience including all nonprofits, consultants, and universities, not just small non-profits."
+                }
+              ]
+            },
+            {
+              "name": "Foundant",
+              "type": "indirect",
+              "what": "Provides software for foundations and social good organizations covering grant management, scholarship management, and fund accounting.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "improves grant management, scholarship management, fund accounting and more",
+                  "domain": "foundant.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This software is for both grantmakers (foundations) and a broad range of social good organizations, with features beyond just reporting."
+                }
+              ]
+            },
+            {
+              "name": "TechSoup",
+              "type": "indirect",
+              "what": "Provides donor and grants management tools focused on tracking donations and engagement.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "donor and grants management tools to create targeted lists, track donations and engagement history",
+                  "domain": "techsoup.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is for nonprofits but covers donor and grants management, a broader problem than just grant reporting."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors are established platforms that offer comprehensive, all-in-one solutions for the entire grant lifecycle.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "find, win, and manage every grant in one workspace",
+                  "domain": "instrumentl.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This software is for all nonprofits and covers the entire grant lifecycle (find, win, manage), which is broader than the idea's focus on reporting."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing competitors appear to be broad, all-in-one platforms and do not seem to offer a focused, narrow solution specifically for the post-award reporting and acquittal process for small non-profits.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "managed in a chaotic mess of spreadsheets",
+            "finding": "No evidence was found to confirm or deny that spreadsheets are the primary tool used.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "A dedicated tool priced at $50-150/month",
+            "finding": "An indirect competitor, Instrumentl, has pricing that starts at $299/month.",
+            "basis": [
+              {
+                "id": "P4",
+                "quote": "$299 /month Paid upfront annually",
+                "domain": "instrumentl.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "broader",
+                "relevanceReason": "This pricing page is for a broad audience including all nonprofits, consultants, and universities, not just small non-profits."
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "secure their largest revenue source would be a high-priority purchase",
+            "finding": "A non-profit employee expressed a need for software for grant recipients, noting that most tools are for grantors.",
+            "basis": [
+              {
+                "id": "S1.9",
+                "quote": "Most of the software we’ve found is geared for grantors, not grant recipients",
+                "domain": "reddit.com",
+                "kind": "S",
+                "cls": "discussion",
+                "relevance": "category",
+                "relevanceReason": "This is a discussion by a nonprofit employee (not specified as small) looking for software for grant recipients, which aligns with the customer type."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A minimal first version could be a web application that acts as a specialized calendar and checklist system for tracking grant deadlines and requirements. This is technically straightforward but requires domain knowledge to be useful."
+        },
+        "unproven": [
+          "Whether small non-profits perceive reporting as a distinct problem separate from general grant management.",
+          "Whether they are willing to pay for a dedicated reporting tool instead of using spreadsheets or features within larger, more expensive suites.",
+          "The specific, most painful parts of the grant reporting workflow that software could solve."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 5-10 customer discovery interviews with Executive Directors or program managers at non-profits with budgets under $5M. Ask them to describe their current grant reporting process, tools used, and biggest frustrations.",
+          "cost": "$0 cash, 15-20 hours of outreach and interview time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees describe their current process as manual, painful, and time-consuming, and express clear interest in a dedicated tool to solve specific reporting challenges they mention.",
+        "stopIf": "Most interviewees are satisfied with their current process (spreadsheets or existing software) or do not consider grant reporting a significant enough problem to warrant paying for a new tool.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "change \"secure their largest revenue source would be a hig\" supports → untested: offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "change \"secure their largest revenue source would be a hig\" supports → untested: offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-16T09:47:28.171Z",
+        "evidenceUpdatedAt": "2026-09-16T09:39:08.996Z"
+      }
+    },
+    {
+      "id": "2026-09-16:lab-chemical-inventory-sds-manager",
+      "slug": "lab-chemical-inventory-sds-manager",
+      "title": "The University Research Lab's Chemical Inventory & Safety Data Sheet (SDS) Manager",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis explicitly states there are thousands of research labs in the US, making it the most plausible location."
+      },
+      "plan": {
+        "slug": "lab-chemical-inventory-sds-manager",
+        "title": "The University Research Lab's Chemical Inventory & Safety Data Sheet (SDS) Manager",
+        "problem": "OSHA and university EHS departments require a precise, up-to-date inventory of hazardous chemicals and accessible SDSs, with manual tracking being error-prone and a major audit risk.",
+        "targetCustomer": "The Lab Manager or Principal Investigator (PI) at a university research lab.",
+        "payer": "The Lab Manager or Principal Investigator (PI) at a university research lab",
+        "whyPayerPays": "The payer would pay to reduce administrative work, ensure compliance, and avoid audit risks and safety hazards.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis explicitly states there are thousands of research labs in the US, making it the most plausible location."
+        },
+        "keywords": {
+          "problem": [
+            "chemical inventory requirements",
+            "sds management compliance",
+            "lab safety audit risk"
+          ],
+          "solution": [
+            "sds software",
+            "chemical inventory system",
+            "lab safety management tool"
+          ],
+          "buying": [
+            "sds software pricing",
+            "best chemical inventory tools",
+            "lab safety software cost"
+          ]
+        },
+        "serpQueries": [
+          "sds software",
+          "chemical inventory requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "chemical inventory requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.04,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-08-29 17:15:38 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (17 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "sds management compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "lab safety audit risk",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "sds software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 480,
+          "cpcUsd": 90.76,
+          "adCompetition": 0.26,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -46,
+          "providerUpdatedAt": "2026-08-29 11:01:10 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 3600
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -56,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "chemical inventory system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 45.94,
+          "adCompetition": 0.41,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -67,
+          "providerUpdatedAt": "2026-08-29 21:34:45 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (37 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "lab safety management tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "sds software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best chemical inventory tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "lab safety software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "sds software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:38:07.869Z",
+          "checkUrl": "https://www.google.com/search?q=sds%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "mitti.com",
+              "url": "https://mitti.com/apps/safety-data-sheet-software",
+              "title": "7 Best Safety Data Sheet Software of 2026 - Mitti",
+              "description": "Top 7 Safety Data Sheet Software of 2026 · Mitti (by SafetyCulture) · SDS Manager · SpheraCloud · BackPack by Chemwatch · VelocityEHS · Labelmaster · 3E Protect. Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "sdsmanager.com",
+              "url": "https://sdsmanager.com/us/",
+              "title": "Safety Data Sheet Management System | Online MSDS software",
+              "description": "SDS Manager simplifies safety data sheet compliance with an easy platform for storing, organizing, and accessing Safety Data Sheets.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.ul.com",
+              "url": "https://www.ul.com/software/ultrus/sds-authoring-and-labeling-software",
+              "title": "SDS Authoring Software",
+              "description": "Get the SDS authoring support you need to create, maintain and distribute compliant safety data sheets and labels. UL Solutions is ready to help you ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.traceone.com",
+              "url": "https://www.traceone.com/ehs-software/safety-data-sheets-software",
+              "title": "SDS Authoring Management Software",
+              "description": "Trace One SDS is an integrated SDS authoring software platform for chemical industries who trade in formula-based substances and mixtures. Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "benchmarkgensuite.com",
+              "url": "https://benchmarkgensuite.com/app/sds-software/",
+              "title": "SDS System Software",
+              "description": "Benchmark SDS Software gives you instant access to a centralized repository of 190000 up-to-date SDSs and 13000 Globally Harmonized SDSs.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.3eco.com",
+              "url": "https://www.3eco.com/glossary/what-is-sds-management-and-sds-management-software/",
+              "title": "What is SDS Management and SDS Software?",
+              "description": "May 9, 2025 — SDS management software is a digital platform designed to help organizations effectively organize, access, and maintain their safety data sheets ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.enhesa.com",
+              "url": "https://www.enhesa.com/resources/which-sds-software-is-best",
+              "title": "SDS software: What's right for your company? (authoring vs ...",
+              "description": "SDS software splits into two distinct categories — authoring (creating Safety Data Sheets) and management (organizing and distributing them)",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.sdscribe.com",
+              "url": "https://www.sdscribe.com/",
+              "title": "SDScribe™ — GHS Compliant SDS Authoring Software, with ...",
+              "description": "Create your own OSHA-compliant Safety Data Sheets (SDSs) in GHS format. Press a button and watch the SDS appear as an editable word processing document! Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.lisam.com",
+              "url": "https://www.lisam.com/sds-software/",
+              "title": "ExESS: SDS Software for Chemical Companies - Lisam Systems",
+              "description": "ExESS® is a comprehensive SDS software designed to meet the needs of chemical companies worldwide. Fully compliant with global chemical compliance standards, ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "chemical inventory requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:38:15.346Z",
+          "checkUrl": "https://www.google.com/search?q=chemical%20inventory%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/epcra/hazardous-chemical-inventory-reporting",
+              "title": "Hazardous Chemical Inventory Reporting",
+              "description": "Oct 28, 2025 — Most States require the Tier II form. Tier II forms require basic facility identification information, employee contact information for both ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.osha.gov",
+              "url": "http://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+              "title": "1910.1200 - Hazard Communication. | Occupational Safety ...",
+              "description": "Chemical manufacturers, importers, or distributors shall ensure that each container of hazardous chemicals leaving the workplace is labeled, tagged, or marked ... Read more",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "ehs.virginia.edu",
+              "url": "https://ehs.virginia.edu/Chemical-Safety/Chemical-Inventory",
+              "title": "Chemical Inventory | Environmental Health & Safety (EHS)",
+              "description": "What needs to be included in a chemical inventory? Include all hazardous chemicals (e.g., toxic, flammable, corrosive, reactive, carcinogenic, oxidizing), and ... Read more",
+              "id": "S2.5",
+              "class": "reference_media"
+            },
+            {
+              "rank": 6,
+              "domain": "www.jjkellerdatasense.com",
+              "url": "https://www.jjkellerdatasense.com/employee-insights/chemical-inventory",
+              "title": "Creating a Chemical Inventory",
+              "description": "May 25, 2023 — Start by performing a department-by-department audit and look for any chemicals present. s, fumes, and mists",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "chemicalsafety.com",
+              "url": "https://chemicalsafety.com/a-deeper-dive-into-the-hazcom-standard-osha-hazmat-inventory/",
+              "title": "A Deeper Dive into the HazCom Standard: OSHA HazMat ...",
+              "description": "Aug 18, 2024 — The Hazardous Material Inventory must include all hazardous chemicals at a facility, even those that are stored and not in use.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.environmentalworks.com",
+              "url": "https://www.environmentalworks.com/why-are-chemical-inventories-necessary/",
+              "title": "Why Are Chemical Inventories Necessary? - EWI",
+              "description": "Dec 30, 2022 — Chemical inventories are required by a number of regulatory bodies, including state and local agencies and OSHA's Hazard Communication Standard. Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "ehs.utk.edu",
+              "url": "https://ehs.utk.edu/index.php/table-of-policies-plans-procedures-guides/chemical-inventories/",
+              "title": "Chemical Inventories - Environmental Health & Safety",
+              "description": "Chemical users must update their chemical inventory in the CIMS at least annually, preferably prior to the annual site safety review.",
+              "id": "S2.9",
+              "class": "reference_media"
+            },
+            {
+              "rank": 10,
+              "domain": "codelibrary.amlegal.com",
+              "url": "https://codelibrary.amlegal.com/codes/montroseco/latest/montroseemployee/0-0-0-1385",
+              "title": "2-15-4: THE CHEMICAL INVENTORY",
+              "description": "The chemical inventory should include the manufacturer's product name, location, and telephone number, and the work area where the product is used.",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.uakron.edu",
+              "url": "https://www.uakron.edu/safety/eohs/chemical-inventory-requirements.dot",
+              "title": "Chemical Inventory Requirements",
+              "description": "Substances exceeding the established threshold planning quantities (from 10,000 pounds to 1 pound) must be reported to certain regulatory agencies. To comply ... Read more",
+              "id": "S2.11",
+              "class": "reference_media"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "mitti.com",
+          "url": "https://mitti.com/apps/safety-data-sheet-software",
+          "finalUrl": "https://mitti.com/apps/safety-data-sheet-software",
+          "retrievedAt": "2026-09-16T09:39:05.727Z",
+          "status": 200,
+          "error": null,
+          "title": "7 Best Safety Data Sheet Software of 2026 | Mitti (by SafetyCulture)",
+          "description": "Get to know the leading safety data sheet software and protect your workplace and employees from chemical hazards with your top pick.",
+          "priceMentions": [
+            {
+              "text": "$24/month",
+              "billingUnit": true,
+              "context": "on : Available for teams of up to 10 Pricing : Premium plan $24/month (with a free 30-day trial period) Platforms supported : Ava"
+            },
+            {
+              "text": "$19/month",
+              "billingUnit": true,
+              "context": "bel generation Free Version : Available Pricing : Starts at $19/month, billed annually (with a 30-day free trial) Platforms suppo"
+            },
+            {
+              "text": "$24/user",
+              "billingUnit": true,
+              "context": "e Version Paid Plan Mobile App Mitti (by SafetyCulture) Yes $24/user/month* Yes SDS Manager Yes $19 / month* Yes SpheraCloud No"
+            },
+            {
+              "text": "$19 / month",
+              "billingUnit": true,
+              "context": "(by SafetyCulture) Yes $24/user/month* Yes SDS Manager Yes $19 / month* Yes SpheraCloud No Available upon registration Yes BackPac"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "mitti.com",
+          "url": "https://mitti.com/pricing",
+          "finalUrl": "https://mitti.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:05.728Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing | Mitti (by SafetyCulture)",
+          "description": "Try any plan free for 30 days, no upfront commitment. Used for more than 50+ million inspections in over 80 countries.",
+          "priceMentions": [
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "ams (up to 10) getting started with inspections and reports $0 Start for free (opens in new tab) Includes: Up to 300 AI cr"
+            },
+            {
+              "text": "$24 / seat",
+              "billingUnit": true,
+              "context": "s with advanced tools for growing teams Annually (save 17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / mon"
+            },
+            {
+              "text": "$29 / seat",
+              "billingUnit": true,
+              "context": "17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / month Excl. all applicable taxes Start for free (opens in"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "sdsmanager.com",
+          "url": "https://sdsmanager.com/us/",
+          "finalUrl": "https://sdsmanager.com/us/",
+          "retrievedAt": "2026-09-16T09:39:05.729Z",
+          "status": 200,
+          "error": null,
+          "title": "Safety Data Sheet Management System | Online MSDS software",
+          "description": "Guaranteed lowest price. OSHA Compliant. Always up-to-date SDS Database. Instant Employee access. Fully automated. 30-day free trial.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "sdsmanager.com",
+          "url": "https://sdsmanager.com/pricing",
+          "finalUrl": "https://sdsmanager.com/de/pricing/",
+          "retrievedAt": "2026-09-16T09:39:05.730Z",
+          "status": 200,
+          "error": null,
+          "title": "Bestes kostengünstiges Sicherheitsdatenblatt-Managementsystem – Sehen Sie sich unsere Preispläne an",
+          "description": "Zahlen Sie nur für die Sicherheitsdatenblatt in deiner SDB-Bibliothek: 100 SDB = EUR 420/Jahr, 400 SDB = EUR 960/Jahr, 1.000 SDB = EUR 1872/Jahr. Keine Einrichtungsgebühr.",
+          "priceMentions": [
+            {
+              "text": "€ 8.99",
+              "billingUnit": false,
+              "context": "00 4,000 + Wählen Sie Ihren perfekten Plan für EHS Pauschal € 8.99 pro Mitarbeiter und Monat. Keine Einrichtungsgebühren. 30 T"
+            },
+            {
+              "text": "€ 179",
+              "billingUnit": false,
+              "context": ". 30 Tage kostenlos testen, ohne Kreditkarte. Pay-as-you-go € 179 /Sicherheitsdatenblatt Ideal für die gelegentliche Erstellu"
+            },
+            {
+              "text": "€ 1,349",
+              "billingUnit": false,
+              "context": "rbeitung für Überarbeitungen AM BELIEBTESTEN Basis Standard € 1,349 jährlich Ideal für regelmäßige Anforderungen an die Erstell"
+            },
+            {
+              "text": "€ 359",
+              "billingUnit": false,
+              "context": "Tarif Jahrespreis Basic 1-4 SDS € 179 /Jahr Basic 5-19 SDS € 359 /Jahr Basic 20-99 SDS € 629 /Jahr Basic 100-499 SDS € 1,790"
+            },
+            {
+              "text": "€ 629",
+              "billingUnit": false,
+              "context": "SDS € 179 /Jahr Basic 5-19 SDS € 359 /Jahr Basic 20-99 SDS € 629 /Jahr Basic 100-499 SDS € 1,790 /Jahr Basic 500 + SDS Vertr"
+            },
+            {
+              "text": "€ 1,790",
+              "billingUnit": false,
+              "context": "S € 359 /Jahr Basic 20-99 SDS € 629 /Jahr Basic 100-499 SDS € 1,790 /Jahr Basic 500 + SDS Vertrieb kontaktieren Standard – unse"
+            },
+            {
+              "text": "€ 2,069",
+              "billingUnit": false,
+              "context": "f Jahrespreis Standard 15 SDB € 1,349 /Jahr Standard 30 SDB € 2,069 /Jahr Standard 50 SDB € 2,969 /Jahr Standard 70 SDB € 3,869"
+            },
+            {
+              "text": "€ 2,969",
+              "billingUnit": false,
+              "context": "€ 1,349 /Jahr Standard 30 SDB € 2,069 /Jahr Standard 50 SDB € 2,969 /Jahr Standard 70 SDB € 3,869 /Jahr Standard 100 SDB € 5,12"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "ul.com",
+          "url": "https://www.ul.com/software/ultrus/sds-authoring-and-labeling-software",
+          "finalUrl": "https://www.ul.com/software/ultrus/sds-authoring-and-labeling-software",
+          "retrievedAt": "2026-09-16T09:39:05.730Z",
+          "status": 200,
+          "error": null,
+          "title": "SDS Authoring Software | UL Solutions",
+          "description": "Simplify SDS authoring with ULTRUS™ software for hazard communication.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "ul.com",
+          "url": "https://www.ul.com/pricing",
+          "finalUrl": "https://www.ul.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:05.731Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 5,
+          "top": {
+            "keyword": "chemical inventory requirements",
+            "searchVolume": 10,
+            "id": "K1"
+          },
+          "category": {
+            "level": "some",
+            "measuredCount": 2,
+            "totalCount": 4,
+            "top": {
+              "keyword": "sds software",
+              "searchVolume": 480,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"chemical inventory requirements\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"sds software\" 480/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "strong",
+          "biddingKeywordIds": [
+            "K4",
+            "K5"
+          ],
+          "pricedPageIds": [
+            "P2",
+            "P4"
+          ],
+          "pricedDomains": [
+            "mitti.com",
+            "sdsmanager.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $90.76 on \"sds software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 2 ranking site(s): mitti.com, sdsmanager.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "mitti.com",
+            "sdsmanager.com",
+            "ul.com",
+            "traceone.com",
+            "jjkellerdatasense.com",
+            "benchmarkgensuite.com",
+            "chemicalsafety.com",
+            "3eco.com",
+            "environmentalworks.com",
+            "enhesa.com",
+            "sdscribe.com",
+            "codelibrary.amlegal.com",
+            "lisam.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [
+            "mitti.com",
+            "sdsmanager.com"
+          ],
+          "note": "13 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on mitti.com, sdsmanager.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 3 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "sdsmanager.com",
+            "benchmarkgensuite.com",
+            "mitti.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "a519f8062f39f375",
+      "evidenceUpdatedAt": "2026-09-16T09:39:08.996Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-16T09:46:29.416Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-16T09:39:08.996Z",
+        "qualifiers": [
+          "Lab Manager or Principal Investigator (PI)",
+          "university research lab"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a core compliance requirement for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a core compliance requirement for the target customer."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "'Lab' makes this search highly relevant to the customer's environment and the negative consequence of the problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a general category of software used across many industries, not just university labs."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a general category of software used across many industries, not just university labs."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "'Lab' makes this a very specific search for a solution in the target customer's environment."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broad software category."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broad software category."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "'Lab' makes this a specific, buying-intent search for a solution relevant to the target customer."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general list of SDS software for any industry, a broader audience than university research labs."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general SDS management system for any organization, not specifically for university labs."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for authoring (creating) SDSs, a task for chemical manufacturers, not lab managers."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is SDS authoring software for the chemical industry, a different customer than a university lab manager."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general SDS software for any organization, a broader audience than university labs."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general article explaining SDS management for any organization, a broader audience."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is a general guide to SDS software for any company, a broader audience than university labs."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is SDS authoring software, which is for a different customer (chemical manufacturers) and problem."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for chemical companies (manufacturers/distributors), a different customer than university lab managers."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page describes EPA chemical inventory reporting for a broad range of facilities, not just university labs."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is the OSHA regulation that applies to all workplaces with chemicals, a much broader context than just university labs."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Lab Manager or Principal Investigator (PI)",
+              "university research lab"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page is from a university EHS department, directly addressing the target customer and problem within their specific context."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide on creating a chemical inventory for any workplace, a broader audience than university labs."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains OSHA inventory requirements for any facility, a broader audience than university labs."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about the need for chemical inventories, aimed at a broad audience."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Lab Manager or Principal Investigator (PI)",
+              "university research lab"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page from a university EHS department directly addresses the target customer and their problem."
+          },
+          "S2.10": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal text about chemical inventory requirements, but the specific audience (e.g., a city, a state) is unclear."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Lab Manager or Principal Investigator (PI)",
+              "university research lab"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page from a university directly addresses the target customer and their problem with chemical inventory requirements."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general list of SDS software for any workplace, a broader audience than university labs."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a general safety software, aimed at a broad audience."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general SDS management system for any organization, not specifically for university labs."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a general SDS management system, aimed at a broad audience."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for authoring SDSs, a task for chemical manufacturers, which is a different customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-16:lab-chemical-inventory-sds-manager",
+        "opportunity": "University research labs must comply with strict regulations for chemical inventories and Safety Data Sheets (SDSs), which can be an administrative burden. A simple, lab-focused SaaS could reduce this workload and minimize compliance and audit risks.",
+        "whoPays": "The Lab Manager or Principal Investigator (PI) at a university research lab would pay, likely using grant funds, to ensure compliance and avoid safety hazards and audit failures. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "The Hazardous Material Inventory must include all hazardous chemicals at a facility"
+            },
+            {
+              "id": "S2.8",
+              "quote": "Chemical inventories are required by a number of regulatory bodies, including state and local agencies and OSHA's Hazard Communication Standard"
+            }
+          ],
+          "observed": "Government regulations and industry guides confirm that maintaining a hazardous chemical inventory is a requirement for facilities.",
+          "inference": "While the requirement to maintain an inventory is clear, there is no evidence from the target customer (university lab managers) that this is a significant pain point or that current methods are inadequate."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "SDS Manager simplifies safety data sheet compliance with an easy platform"
+            },
+            {
+              "id": "S1.7",
+              "quote": "Benchmark SDS Software gives you instant access to a centralized repository"
+            },
+            {
+              "id": "S1.2",
+              "quote": "Top 7 Safety Data Sheet Software of 2026"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "SDS Manager",
+              "type": "indirect",
+              "what": "An online platform for storing, organizing, and accessing Safety Data Sheets to simplify compliance for any organization.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "simplifies safety data sheet compliance with an easy platform for storing, organizing, and accessing Safety Data Sheets"
+                }
+              ]
+            },
+            {
+              "name": "Benchmark Gensuite",
+              "type": "indirect",
+              "what": "Provides access to a large, centralized repository of up-to-date SDSs for general compliance purposes.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "instant access to a centralized repository of 190000 up-to-date SDSs"
+                }
+              ]
+            },
+            {
+              "name": "Mitti (by SafetyCulture)",
+              "type": "indirect",
+              "what": "A general safety platform that includes SDS management features, priced on a per-user basis.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Premium plan $24/month"
+                },
+                {
+                  "id": "P2",
+                  "quote": "$24 / seat / month"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing alternatives are established compliance tools with large databases of SDSs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "repository of 190000 up-to-date SDSs"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The available software appears to be general-purpose for any industry and does not seem to be specifically designed for the unique environment, scale, or user workflows of a university research lab.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Manual tracking is error-prone, a major audit risk, and a safety hazard.",
+            "finding": "No evidence was found from lab managers describing their current process or its risks.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Existing tools are often priced for large institutions or are clunky.",
+            "finding": "Existing tools have varied pricing models, including per-seat ($24/month) and volume-based (e.g., €629/year for 20-99 SDSs), which may be accessible to a lab. The 'clunkiness' is untested.",
+            "basis": [
+              {
+                "id": "P2",
+                "quote": "$24 / seat / month"
+              },
+              {
+                "id": "P4",
+                "quote": "Basic 20-99 SDS € 629 /Jahr"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "A simple, lab-level SaaS starting at $49/month would find a ready market.",
+            "finding": "There is no search volume data for lab-specific solution keywords like \"lab safety management tool\". The broader category \"sds software\" has search volume, but this does not confirm demand in the university lab niche.",
+            "basis": [
+              {
+                "id": "K6",
+                "quote": "lab safety management tool"
+              },
+              {
+                "id": "K4",
+                "quote": "sds software"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimal experiment would be a simple web app for uploading and organizing SDS PDFs and tracking chemical quantities and locations. The core technology is straightforward."
+        },
+        "unproven": [
+          "Whether university lab managers and PIs view chemical inventory management as a significant problem worth paying to solve.",
+          "If they have the autonomy and budget (via grants) to purchase a lab-specific tool outside of institutional procurement.",
+          "What specific features would make a dedicated tool significantly better than a shared spreadsheet for their needs."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a \"Chemical Inventory & SDS Manager Designed for University Labs.\" Drive traffic via targeted outreach or ads to Lab Managers and PIs and measure sign-ups for an early access list.",
+          "cost": "$200-300 for ads, 10 hours for page creation and outreach.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves a sign-up conversion rate of over 5%, indicating the value proposition resonates with the target audience.",
+        "stopIf": "The sign-up rate is below 1%, suggesting the problem is not pressing or the proposed solution is not compelling."
+      },
+      "assessment": {
+        "opportunity": "University research labs must comply with strict regulations for chemical inventories and Safety Data Sheets (SDSs), which can be an administrative burden. A simple, lab-focused SaaS could reduce this workload and minimize compliance and audit risks.",
+        "whoPays": "The Lab Manager or Principal Investigator (PI) at a university research lab would pay, likely using grant funds, to ensure compliance and avoid safety hazards and audit failures. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "The Hazardous Material Inventory must include all hazardous chemicals at a facility",
+              "domain": "chemicalsafety.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article explains OSHA inventory requirements for any facility, a broader audience than university labs."
+            },
+            {
+              "id": "S2.8",
+              "quote": "Chemical inventories are required by a number of regulatory bodies, including state and local agencies and OSHA's Hazard Communication Standard",
+              "domain": "environmentalworks.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a general article about the need for chemical inventories, aimed at a broad audience."
+            }
+          ],
+          "observed": "Government regulations and industry guides confirm that maintaining a hazardous chemical inventory is a requirement for facilities.",
+          "inference": "While the requirement to maintain an inventory is clear, there is no evidence from the target customer (university lab managers) that this is a significant pain point or that current methods are inadequate."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "SDS Manager simplifies safety data sheet compliance with an easy platform",
+              "domain": "sdsmanager.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a general SDS management system for any organization, not specifically for university labs."
+            },
+            {
+              "id": "S1.7",
+              "quote": "Benchmark SDS Software gives you instant access to a centralized repository",
+              "domain": "benchmarkgensuite.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a general SDS software for any organization, a broader audience than university labs."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "sdsmanager.com",
+            "benchmarkgensuite.com",
+            "mitti.com"
+          ],
+          "alternatives": [
+            {
+              "name": "SDS Manager",
+              "type": "indirect",
+              "what": "An online platform for storing, organizing, and accessing Safety Data Sheets to simplify compliance for any organization.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "simplifies safety data sheet compliance with an easy platform for storing, organizing, and accessing Safety Data Sheets",
+                  "domain": "sdsmanager.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general SDS management system for any organization, not specifically for university labs."
+                }
+              ]
+            },
+            {
+              "name": "Benchmark Gensuite",
+              "type": "indirect",
+              "what": "Provides access to a large, centralized repository of up-to-date SDSs for general compliance purposes.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "instant access to a centralized repository of 190000 up-to-date SDSs",
+                  "domain": "benchmarkgensuite.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general SDS software for any organization, a broader audience than university labs."
+                }
+              ]
+            },
+            {
+              "name": "Mitti (by SafetyCulture)",
+              "type": "indirect",
+              "what": "A general safety platform that includes SDS management features, priced on a per-user basis.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "$24 / seat / month",
+                  "domain": "mitti.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a pricing page for a general safety software, aimed at a broad audience."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing alternatives are established compliance tools with large databases of SDSs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "repository of 190000 up-to-date SDSs",
+                  "domain": "benchmarkgensuite.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This is a general SDS software for any organization, a broader audience than university labs."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The available software appears to be general-purpose for any industry and does not seem to be specifically designed for the unique environment, scale, or user workflows of a university research lab.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Manual tracking is error-prone, a major audit risk, and a safety hazard.",
+            "finding": "No evidence was found from lab managers describing their current process or its risks.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Existing tools are often priced for large institutions or are clunky.",
+            "finding": "Existing tools have varied pricing models, including per-seat ($24/month) and volume-based (e.g., €629/year for 20-99 SDSs), which may be accessible to a lab. The 'clunkiness' is untested.",
+            "basis": [
+              {
+                "id": "P2",
+                "quote": "$24 / seat / month",
+                "domain": "mitti.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "broader",
+                "relevanceReason": "This is a pricing page for a general safety software, aimed at a broad audience."
+              },
+              {
+                "id": "P4",
+                "quote": "Basic 20-99 SDS € 629 /Jahr",
+                "domain": "sdsmanager.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "broader",
+                "relevanceReason": "This is a pricing page for a general SDS management system, aimed at a broad audience."
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "A simple, lab-level SaaS starting at $49/month would find a ready market.",
+            "finding": "There is no search volume data for lab-specific solution keywords like \"lab safety management tool\". The broader category \"sds software\" has search volume, but this does not confirm demand in the university lab niche.",
+            "basis": [
+              {
+                "id": "K6",
+                "quote": "lab safety management tool",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "'Lab' makes this a very specific search for a solution in the target customer's environment."
+              },
+              {
+                "id": "K4",
+                "quote": "sds software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "category",
+                "relevanceReason": "This is a general category of software used across many industries, not just university labs."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimal experiment would be a simple web app for uploading and organizing SDS PDFs and tracking chemical quantities and locations. The core technology is straightforward."
+        },
+        "unproven": [
+          "Whether university lab managers and PIs view chemical inventory management as a significant problem worth paying to solve.",
+          "If they have the autonomy and budget (via grants) to purchase a lab-specific tool outside of institutional procurement.",
+          "What specific features would make a dedicated tool significantly better than a shared spreadsheet for their needs."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a \"Chemical Inventory & SDS Manager Designed for University Labs.\" Drive traffic via targeted outreach or ads to Lab Managers and PIs and measure sign-ups for an early access list.",
+          "cost": "$200-300 for ads, 10 hours for page creation and outreach.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves a sign-up conversion rate of over 5%, indicating the value proposition resonates with the target audience.",
+        "stopIf": "The sign-up rate is below 1%, suggesting the problem is not pressing or the proposed solution is not compelling.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "competition",
+              "id": "S1.2",
+              "relevance": "none",
+              "reason": "This is a general list of SDS software for any industry, a broader audience than university research labs."
+            },
+            {
+              "claim": "alternative Mitti (by SafetyCulture)",
+              "id": "P1",
+              "relevance": "none",
+              "reason": "This is a general list of SDS software for any workplace, a broader audience than university labs."
+            }
+          ],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-16T09:47:28.177Z",
+        "evidenceUpdatedAt": "2026-09-16T09:39:08.996Z"
+      }
+    },
+    {
+      "id": "2026-09-16:water-plant-mor-generator",
+      "slug": "water-plant-mor-generator",
+      "title": "The Small Water Treatment Plant's \"State-Ready\" Monthly Operating Report (MOR) Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis explicitly states there are over 50,000 community water systems in the US, making it the most plausible location."
+      },
+      "plan": {
+        "slug": "water-plant-mor-generator",
+        "title": "The Small Water Treatment Plant's \"State-Ready\" Monthly Operating Report (MOR) Generator",
+        "problem": "State environmental agencies require a detailed Monthly Operating Report (MOR) with specific testing data in a precise format, where errors or missed deadlines lead to fines and license revocation.",
+        "targetCustomer": "The licensed operator of a small municipal or private water/wastewater treatment system.",
+        "payer": "The licensed operator of a small municipal or private water/wastewater treatment system",
+        "whyPayerPays": "The payer would pay to guarantee compliance, avoid catastrophic fines, and prevent license revocation.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis explicitly states there are over 50,000 community water systems in the US, making it the most plausible location."
+        },
+        "keywords": {
+          "problem": [
+            "monthly operating report requirements",
+            "water treatment plant compliance",
+            "state environmental reporting"
+          ],
+          "solution": [
+            "mor software",
+            "water plant reporting tool",
+            "environmental compliance software"
+          ],
+          "buying": [
+            "mor software pricing",
+            "best water compliance tools",
+            "water reporting software cost"
+          ]
+        },
+        "serpQueries": [
+          "mor software",
+          "monthly operating report requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "monthly operating report requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "water treatment plant compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "state environmental reporting",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "mor software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.06,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-13 01:29:46 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (13 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "water plant reporting tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "environmental compliance software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": 79.88,
+          "adCompetition": 0.17,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -22,
+          "providerUpdatedAt": "2026-08-29 12:43:50 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -23,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "mor software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best water compliance tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "water reporting software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:37:28.865Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "mor software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:38:27.870Z",
+          "checkUrl": "https://www.google.com/search?q=mor%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "morsoftware.com",
+              "url": "https://morsoftware.com/",
+              "title": "MOR Software - Software Development Outsourcing Company ...",
+              "description": "MOR Software is one of Top 10 Vietnam ICT specializing in software development services based international standards.",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/mor-software-jsc",
+              "title": "MOR Software JSC",
+              "description": "MOR Software is a leading software outsourcing company in Vietnam with years of continuous innovation and enhancement of high-quality software services",
+              "id": "S1.3",
+              "class": "platform"
+            },
+            {
+              "rank": 4,
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/show/1UresP10QcSRzwZEz0tgIH",
+              "title": "MOR Software",
+              "description": "Established in April 2016 in Ho Chi Minh City, MOR Software JSC is an IT company focusing on developing and providing information technology and software ... Read more",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.softwareadvice.com.au",
+              "url": "https://www.softwareadvice.com.au/software/434254/mor",
+              "title": "Kolmisoft MOR | Reviews, Pricing & Demos - SoftwareAdvice AU",
+              "description": "MOR is a Class 5 Softswitch with in-built billing, intelligent routing (LCR, quality, percent, priority), rate management, number manipulation, ... Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/morjsc/",
+              "title": "MOR Software JSC | Hanoi",
+              "description": "MOR Software 's high level of expertise in software testing. MOR Software is authorized to train and organize ISTQB certification examinations.",
+              "id": "S1.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 7,
+              "domain": "sites.google.com",
+              "url": "https://sites.google.com/view/mor-software",
+              "title": "MOR Software",
+              "description": "MOR Software offers a variety of services, including web development, mobile app development, software testing, and more.",
+              "id": "S1.7",
+              "class": "platform"
+            },
+            {
+              "rank": 8,
+              "domain": "www.topcv.vn",
+              "url": "https://www.topcv.vn/cong-ty/cong-ty-cp-phan-mem-mor/14556.html",
+              "title": "Công ty CP Phần mềm MOR",
+              "description": "Năm thành lập. 2016 ; Quy mô. 100-499 nhân viên ; Độ tuổi trung bình. 25 ; Lĩnh vực hoạt động. IT - Phần mềm ; Lĩnh vực chính. IT - Phần mềm ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "monthly operating report requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-16T09:38:44.514Z",
+          "checkUrl": "https://www.google.com/search?q=monthly%20operating%20report%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.justice.gov",
+              "url": "https://www.justice.gov/ust/chapter-11-operating-reports",
+              "title": "U.S. Trustee Program | Chapter 11 Operating Reports",
+              "description": "UST Form 11-MOR – Monthly Operating Report Instructions, General information and instructions for the completion of the MOR Form. December 7, 2022 ; UST Form 11- ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.uscourts.gov",
+              "url": "https://www.uscourts.gov/file/22511/download",
+              "title": "Monthly Operating Report for Small Business Under ...",
+              "description": "1. Did the business operate during the entire reporting period? 2. Do you plan to continue to operate the business next month? 3. Have you paid all of your ...",
+              "id": "S2.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.law.cornell.edu",
+              "url": "https://www.law.cornell.edu/cfr/text/28/58.8",
+              "title": "28 CFR § 58.8 - Uniform Periodic Reports in Cases Filed ...",
+              "description": "The Periodic Reports must be utilized by debtors and trustees when completing their monthly operating reports or post-confirmation reports.",
+              "id": "S2.4",
+              "class": "reference_media"
+            },
+            {
+              "rank": 5,
+              "domain": "www.sec.gov",
+              "url": "https://www.sec.gov/Archives/edgar/data/1085734/000119312511160012/dex991.htm",
+              "title": "Monthly Operating Report",
+              "description": "This Monthly Operating Report (“MOR”) has been prepared solely for the purpose of complying with the monthly reporting requirements applicable in these chapter ...",
+              "id": "S2.5",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.justice.gov",
+              "url": "https://www.justice.gov/ust/file/1452396/dl?inline=",
+              "title": "Instructions for UST Form 11-MOR",
+              "description": "Dec 7, 2022 — This document provides instructions for completing the monthly operating report, UST Form 11-MOR (“MOR”), required to be filed in certain ...",
+              "id": "S2.7",
+              "class": "government"
+            },
+            {
+              "rank": 8,
+              "domain": "www.dailydac.com",
+              "url": "https://www.dailydac.com/?p=54196",
+              "title": "Chapter 11 Reporting Requirements: How Debtors Must ...",
+              "description": "The Office of the United States Trustee requires the DIP to file operating reports on a monthly basis through the effective date of a confirmed plan of ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "chapter-11-report-form.pdffiller.com",
+              "url": "https://chapter-11-report-form.pdffiller.com/",
+              "title": "pdfFiller: 2004-2026 Form UST Monthly Operating Report ...",
+              "description": "Jul 1, 2026 — The Chapter 11 Monthly Operating Report must be filed by those designated as debtors-in-possession, an essential role in the bankruptcy process. Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "natlawreview.com",
+              "url": "https://natlawreview.com/advertorial/avoiding-common-pitfalls-monthly-operating-reports-during-chapter-11-bankruptcy",
+              "title": "Avoiding Common Pitfalls in Monthly Operating Reports ...",
+              "description": "Jan 23, 2026 — Under Chapter 11, the debtor must submit an MOR to the bankruptcy court, encompassing detailed financial statements, cash flow forecasts, ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "harneypartners.com",
+              "url": "https://harneypartners.com/new-standardized-mors-required-for-ch-11-cases/",
+              "title": "Newly Required Monthly Operating Report",
+              "description": "Jun 17, 2021 — The new MOR forms require certain mandatory information be entered into the PDF form, including summary information about the number of ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "morsoftware.com",
+          "url": "https://morsoftware.com/",
+          "finalUrl": "https://morsoftware.com/",
+          "retrievedAt": "2026-09-16T09:39:07.266Z",
+          "status": 200,
+          "error": null,
+          "title": "MOR Software - Software Development Outsourcing Company in Vietnam",
+          "description": "MOR Software is one of Top 10 Vietnam ICT specializing in software development services based international standards",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "morsoftware.com",
+          "url": "https://morsoftware.com/pricing",
+          "finalUrl": "https://morsoftware.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:07.267Z",
+          "status": 200,
+          "error": null,
+          "title": "MOR Software - Software Development Outsourcing Company in Vietnam",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P3",
+          "domain": "linkedin.com",
+          "url": "https://www.linkedin.com/company/mor-software-jsc",
+          "finalUrl": "https://www.linkedin.com/company/mor-software-jsc",
+          "retrievedAt": "2026-09-16T09:39:07.268Z",
+          "status": 200,
+          "error": null,
+          "title": "MOR Software JSC | LinkedIn",
+          "description": "MOR Software JSC | 4,863 followers on LinkedIn. MOR Software is a leading software outsourcing company in Vietnam with international-standard software services | MOR Software is a leading software outsourcing company in Vietnam with years of continuous innovation and enhancement of high-quality soft",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "linkedin.com",
+          "url": "https://www.linkedin.com/pricing",
+          "finalUrl": "https://www.linkedin.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:07.269Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "open.spotify.com",
+          "url": "https://open.spotify.com/show/1UresP10QcSRzwZEz0tgIH",
+          "finalUrl": "https://open.spotify.com/show/1UresP10QcSRzwZEz0tgIH",
+          "retrievedAt": "2026-09-16T09:39:07.269Z",
+          "status": 200,
+          "error": null,
+          "title": "MOR Software | Podcast on Spotify",
+          "description": "Listen to MOR Software on Spotify. Established in April 2016 in Ho Chi Minh City, MOR Software JSC is an IT company focusing on developing and providing information technology and software solutions. MOR has been developing products that create core values, and commit to deploying time at the most r",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "open.spotify.com",
+          "url": "https://open.spotify.com/pricing",
+          "finalUrl": "https://open.spotify.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:07.270Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 5,
+          "top": null,
+          "category": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "environmental compliance software",
+              "searchVolume": 110,
+              "id": "K6"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 2,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"mor software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"mor software pricing\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 5 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"environmental compliance software\" 110/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K6"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $79.88 on \"environmental compliance software\"). CPC is an advertiser bid, not a customer's willingness to pay."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "morsoftware.com",
+            "open.spotify.com",
+            "softwareadvice.com.au",
+            "topcv.vn",
+            "dailydac.com",
+            "chapter-11-report-form.pdffiller.com",
+            "natlawreview.com",
+            "harneypartners.com"
+          ],
+          "platformDomains": [
+            "linkedin.com",
+            "sites.google.com"
+          ],
+          "discussionResults": [
+            "facebook.com"
+          ],
+          "pricedDomains": [],
+          "note": "8 vendor-like or publisher domain(s) and 2 broad platform(s) (linkedin.com, sites.google.com) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "b87ee338f647478c",
+      "evidenceUpdatedAt": "2026-09-16T09:39:08.997Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-16T09:46:29.416Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-16T09:39:08.997Z",
+        "qualifiers": [
+          "licensed operator",
+          "small municipal or private water/wastewater treatment system"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the core problem, but the acronym MOR is ambiguous and also refers to bankruptcy reports."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a very specific search term that directly relates to the target customer's high-level problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader category of reporting that includes the target customer but also many other industries."
+          },
+          "K4": {
+            "searcher": "unclear",
+            "topic": "unclear",
+            "reason": "The acronym 'MOR' is highly ambiguous, referring to a software company, telecom software, and bankruptcy reports, none of which are relevant."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a very specific search for a solution that matches the idea perfectly."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broad software category that covers compliance for air, waste, and water across many industries."
+          },
+          "K7": {
+            "searcher": "unclear",
+            "topic": "unclear",
+            "reason": "The acronym 'MOR' is highly ambiguous, making this buying-intent search irrelevant to the idea."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a specific, buying-intent search for a solution in the target customer's domain."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a specific, buying-intent search for a solution in the target customer's domain."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a software development company whose name is 'MOR Software', completely unrelated to the idea's customer or problem."
+          },
+          "S1.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is the LinkedIn profile for the unrelated software development company 'MOR Software'."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a Spotify profile for the unrelated software development company 'MOR Software'."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This 'MOR' software is a telecommunications softswitch, for a completely different industry and problem."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is the Facebook page for the unrelated software development company 'MOR Software'."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a website for the unrelated software development company 'MOR Software'."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a Vietnamese company profile for the unrelated software development company 'MOR Software'."
+          },
+          "S2.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This 'Monthly Operating Report' is for Chapter 11 bankruptcy cases, a completely different customer and context."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This MOR is for small businesses in bankruptcy, a different customer and problem."
+          },
+          "S2.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is legal text about monthly operating reports in bankruptcy cases, a different context."
+          },
+          "S2.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This MOR is for Chapter 11 bankruptcy cases, a different context."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "These are instructions for the bankruptcy-related Monthly Operating Report form."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is about Monthly Operating Reports in the context of Chapter 11 bankruptcy."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a tool for filling out the bankruptcy-related Monthly Operating Report form."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article discusses MORs in the context of Chapter 11 bankruptcy."
+          },
+          "S2.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article discusses the new MOR forms for bankruptcy cases."
+          },
+          "P1": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is the website for an unrelated software development company named 'MOR Software'."
+          },
+          "P2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is the website for an unrelated software development company named 'MOR Software'."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is the LinkedIn profile for the unrelated software development company 'MOR Software'."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a Spotify profile for the unrelated software development company 'MOR Software'."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-16:water-plant-mor-generator",
+        "opportunity": "Small water treatment plants must submit precise Monthly Operating Reports (MORs) to state agencies, with severe penalties for errors. A specialized tool could automate this reporting, ensuring compliance and saving time for licensed operators.",
+        "whoPays": "The licensed operator or the owner of a small water/wastewater system would pay to avoid fines and the risk of license revocation. This is an inference as no evidence of the problem or a payer was found.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "There is no evidence in the search results that describes the problem. Searches for \"monthly operating report requirements\" returned results exclusively about Chapter 11 bankruptcy proceedings.",
+          "inference": "The core problem as described in the original idea is not validated by the evidence. The acronym \"MOR\" is ambiguous and does not appear to be the correct term for this specific compliance document in a searchable context."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct or indirect competitors were found because the search term \"mor software\" was ambiguous and returned irrelevant results.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "MOR Software - Software Development Outsourcing Company"
+                }
+              ],
+              "kind": "observed"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "State environmental agencies (e.g., DEQ, DEP) require a detailed Monthly Operating Report (MOR)",
+            "finding": "The search term \"monthly operating report requirements\" exclusively surfaced results related to Chapter 11 bankruptcy, not environmental compliance for water plants.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "U.S. Trustee Program | Chapter 11 Operating Reports"
+              }
+            ],
+            "effect": "contradicts"
+          },
+          {
+            "original": "Errors or missed deadlines can lead to fines and license revocation.",
+            "finding": "No evidence was found to support or deny the consequences of reporting errors for water treatment plants.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "justifies paying for specialized software over manual spreadsheets",
+            "finding": "Searches for relevant software, such as \"mor software\" or \"water plant reporting tool\", were either ambiguous or had no search volume data, providing no evidence of a market for such a tool.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "mor software"
+              },
+              {
+                "id": "K5",
+                "quote": "water plant reporting tool"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "The first experiment is not to build software, but to validate the problem's existence and discover the correct terminology. This requires finding and engaging a very niche audience, which can be moderately difficult."
+        },
+        "unproven": [
+          "The existence of this specific reporting problem for water treatment plants.",
+          "The correct name or acronym for the required compliance reports.",
+          "Whether small water plant operators are a reachable audience.",
+          "What, if any, tools they currently use for state reporting."
+        ],
+        "nextExperiment": {
+          "what": "Find online communities (e.g., forums, LinkedIn groups, subreddits) for water and wastewater operators. Search for discussions about \"monthly reports,\" \"compliance reporting,\" or \"state forms.\" If nothing is found, post a question asking how operators manage their monthly reporting to the state.",
+          "cost": "$0 cash, 5-10 hours of research.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "The correct terminology for these reports is discovered, and operators in these communities describe the process as being manual, time-consuming, or a source of stress.",
+        "stopIf": "No communities can be found, or discussions indicate the process is trivial, automated by other systems, or the term \"MOR\" is confirmed to be incorrect with no clear alternative."
+      },
+      "assessment": {
+        "opportunity": "Small water treatment plants must submit precise Monthly Operating Reports (MORs) to state agencies, with severe penalties for errors. A specialized tool could automate this reporting, ensuring compliance and saving time for licensed operators.",
+        "whoPays": "The licensed operator or the owner of a small water/wastewater system would pay to avoid fines and the risk of license revocation. This is an inference as no evidence of the problem or a payer was found.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The core problem as described in the original idea is not validated by the evidence. The acronym \"MOR\" is ambiguous and does not appear to be the correct term for this specific compliance document in a searchable context."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct or indirect competitors were found because the search term \"mor software\" was ambiguous and returned irrelevant results.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "State environmental agencies (e.g., DEQ, DEP) require a detailed Monthly Operating Report (MOR)",
+            "finding": "The search term \"monthly operating report requirements\" exclusively surfaced results related to Chapter 11 bankruptcy, not environmental compliance for water plants.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Errors or missed deadlines can lead to fines and license revocation.",
+            "finding": "No evidence was found to support or deny the consequences of reporting errors for water treatment plants.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "justifies paying for specialized software over manual spreadsheets",
+            "finding": "Searches for relevant software, such as \"mor software\" or \"water plant reporting tool\", were either ambiguous or had no search volume data, providing no evidence of a market for such a tool.",
+            "basis": [
+              {
+                "id": "K5",
+                "quote": "water plant reporting tool",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This is a very specific search for a solution that matches the idea perfectly."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "The first experiment is not to build software, but to validate the problem's existence and discover the correct terminology. This requires finding and engaging a very niche audience, which can be moderately difficult."
+        },
+        "unproven": [
+          "The existence of this specific reporting problem for water treatment plants.",
+          "The correct name or acronym for the required compliance reports.",
+          "Whether small water plant operators are a reachable audience.",
+          "What, if any, tools they currently use for state reporting."
+        ],
+        "nextExperiment": {
+          "what": "Find online communities (e.g., forums, LinkedIn groups, subreddits) for water and wastewater operators. Search for discussions about \"monthly reports,\" \"compliance reporting,\" or \"state forms.\" If nothing is found, post a question asking how operators manage their monthly reporting to the state.",
+          "cost": "$0 cash, 5-10 hours of research.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "The correct terminology for these reports is discovered, and operators in these communities describe the process as being manual, time-consuming, or a source of stress.",
+        "stopIf": "No communities can be found, or discussions indicate the process is trivial, automated by other systems, or the term \"MOR\" is confirmed to be incorrect with no clear alternative.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"state environmental agencies (e.g., deq, dep) requ\" contradicts → untested: cites only evidence judged to be about a different customer or problem, or not judged",
+          "gap \"No direct or indirect competitors were found because the sea\" observed → inference"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "change",
+              "id": "S2.2",
+              "relevance": "unrelated",
+              "reason": "This 'Monthly Operating Report' is for Chapter 11 bankruptcy cases, a completely different customer and context."
+            },
+            {
+              "claim": "change",
+              "id": "K4",
+              "relevance": "uncertain",
+              "reason": "The acronym 'MOR' is highly ambiguous, referring to a software company, telecom software, and bankruptcy reports, none of which are relevant."
+            },
+            {
+              "claim": "gap",
+              "id": "S1.1",
+              "relevance": "unrelated",
+              "reason": "This is a software development company whose name is 'MOR Software', completely unrelated to the idea's customer or problem."
+            }
+          ],
+          "downgraded": [
+            "change \"state environmental agencies (e.g., deq, dep) requ\" contradicts → untested: cites only evidence judged to be about a different customer or problem, or not judged",
+            "gap \"No direct or indirect competitors were found because the sea\" observed → inference"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-16T09:47:28.181Z",
+        "evidenceUpdatedAt": "2026-09-16T09:39:08.997Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-16T09:37:28.865Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "60ce9ee7-693a-5214-9b24-b7f598013028",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01308,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-16T09:37:33.441Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "7b5d1c12-a710-5752-9681-ab41950c1080",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-16T09:37:40.469Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "3e2f9ba3-b54d-5a84-affe-b3e80df808ca",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-16T09:38:07.869Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "a020a7c4-8412-5d93-83c0-d09f561dfabf",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-16T09:38:15.346Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "018d1f47-0dcc-5414-89c8-a49b54212932",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-16T09:38:27.870Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "321cdb07-e879-51e2-b1a9-ae3daede3d0b",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-16T09:38:44.514Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "c843e1c3-515a-544d-8b33-c8d289522a74",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.33528,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.66472
+    },
+    "monthToDateUsdBefore": 0.33528,
+    "spentThisRunUsd": 0.02508
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-16T09:39:08.997Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02508,
+    "note": null
+  }
+}

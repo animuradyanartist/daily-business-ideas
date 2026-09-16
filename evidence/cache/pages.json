@@ -1597,6 +1597,385 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.foundant.com/": {
+      "fetchedAt": "2026-09-16T09:39:04.831Z",
+      "data": {
+        "url": "https://www.foundant.com/",
+        "finalUrl": "https://www.foundant.com/",
+        "retrievedAt": "2026-09-16T09:39:04.831Z",
+        "status": 200,
+        "error": null,
+        "title": "Software for Foundations & Social Good Organizations | Foundant",
+        "description": "Foundant's software for foundations and social good organizations improves grant management, scholarship management, fund accounting and more. Request a demo.",
+        "priceMentions": [
+          {
+            "text": "$22",
+            "billingUnit": false,
+            "context": "ight direction LEARN MORE Amplify your impact with Foundant $22B+ 2025 Grant & Scholarship Awards Powered by Foundant, Givi"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.foundant.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:04.833Z",
+      "data": {
+        "url": "https://www.foundant.com/pricing",
+        "finalUrl": "https://www.foundant.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:04.833Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.trytemelio.com/blog/grants-management-software": {
+      "fetchedAt": "2026-09-16T09:39:04.836Z",
+      "data": {
+        "url": "https://www.trytemelio.com/blog/grants-management-software",
+        "finalUrl": "https://www.trytemelio.com/blog/grants-management-software",
+        "retrievedAt": "2026-09-16T09:39:04.836Z",
+        "status": 200,
+        "error": null,
+        "title": "9 Best Grants Management Software for Smarter Grantmaking",
+        "description": "Stop drowning in risky spreadsheets. Compare the best grants management software to automate your workflow, save time, and focus on what matters: your impact.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.instrumentl.com/": {
+      "fetchedAt": "2026-09-16T09:39:04.834Z",
+      "data": {
+        "url": "https://www.instrumentl.com/",
+        "finalUrl": "https://www.instrumentl.com/",
+        "retrievedAt": "2026-09-16T09:39:04.834Z",
+        "status": 200,
+        "error": null,
+        "title": "Instrumentl - Your intelligent grant operating system",
+        "description": "Instrumentl is grant management software for nonprofits: find, win, and manage every grant in one workspace. Trusted by 5,500+ nonprofits.",
+        "priceMentions": [
+          {
+            "text": "$1.1",
+            "billingUnit": false,
+            "context": "e to learn from experts and connect with peers Main content $1.1B+ in grants managed Grant work was scattered. Now it&rsquo;"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.trytemelio.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:04.837Z",
+      "data": {
+        "url": "https://www.trytemelio.com/pricing",
+        "finalUrl": "https://www.trytemelio.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:04.837Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.instrumentl.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:04.835Z",
+      "data": {
+        "url": "https://www.instrumentl.com/pricing",
+        "finalUrl": "https://www.instrumentl.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:04.835Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing Plans | Instrumentl Grant Platform",
+        "description": "Explore Instrumentl's pricing plans for nonprofits, consultants and universities. Instrumentl pricing is based on your organization's grantseeking needs.",
+        "priceMentions": [
+          {
+            "text": "$299 /month",
+            "billingUnit": true,
+            "context": "your grants practice Discover Establish your grants program $299 /month Paid upfront annually (or $349 paid monthly) Try 14 days fr"
+          },
+          {
+            "text": "$349",
+            "billingUnit": false,
+            "context": "h your grants program $299 /month Paid upfront annually (or $349 paid monthly) Try 14 days free Everything you need to find"
+          },
+          {
+            "text": "$499 /month",
+            "billingUnit": true,
+            "context": "organized grants pipeline Pre-Award Grow your grant revenue $499 /month Paid upfront annually (or $579 paid monthly) Try 14 days fr"
+          },
+          {
+            "text": "$579",
+            "billingUnit": false,
+            "context": "ow your grant revenue $499 /month Paid upfront annually (or $579 paid monthly) Try 14 days free Everything in Discover, plus"
+          },
+          {
+            "text": "$999 /month",
+            "billingUnit": true,
+            "context": "ifecycle Manage complex awards with confidence Most Popular $999 /month Paid upfront annually (or $1,159 paid monthly) Try 14 days"
+          },
+          {
+            "text": "$1,159",
+            "billingUnit": false,
+            "context": "nfidence Most Popular $999 /month Paid upfront annually (or $1,159 paid monthly) Try 14 days free The full platform: Everythin"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ul.com/software/ultrus/sds-authoring-and-labeling-software": {
+      "fetchedAt": "2026-09-16T09:39:05.730Z",
+      "data": {
+        "url": "https://www.ul.com/software/ultrus/sds-authoring-and-labeling-software",
+        "finalUrl": "https://www.ul.com/software/ultrus/sds-authoring-and-labeling-software",
+        "retrievedAt": "2026-09-16T09:39:05.730Z",
+        "status": 200,
+        "error": null,
+        "title": "SDS Authoring Software | UL Solutions",
+        "description": "Simplify SDS authoring with ULTRUS™ software for hazard communication.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.ul.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:05.731Z",
+      "data": {
+        "url": "https://www.ul.com/pricing",
+        "finalUrl": "https://www.ul.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:05.731Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://mitti.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:05.728Z",
+      "data": {
+        "url": "https://mitti.com/pricing",
+        "finalUrl": "https://mitti.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:05.728Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Mitti (by SafetyCulture)",
+        "description": "Try any plan free for 30 days, no upfront commitment. Used for more than 50+ million inspections in over 80 countries.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "ams (up to 10) getting started with inspections and reports $0 Start for free (opens in new tab) Includes: Up to 300 AI cr"
+          },
+          {
+            "text": "$24 / seat",
+            "billingUnit": true,
+            "context": "s with advanced tools for growing teams Annually (save 17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / mon"
+          },
+          {
+            "text": "$29 / seat",
+            "billingUnit": true,
+            "context": "17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / month Excl. all applicable taxes Start for free (opens in"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://mitti.com/apps/safety-data-sheet-software": {
+      "fetchedAt": "2026-09-16T09:39:05.727Z",
+      "data": {
+        "url": "https://mitti.com/apps/safety-data-sheet-software",
+        "finalUrl": "https://mitti.com/apps/safety-data-sheet-software",
+        "retrievedAt": "2026-09-16T09:39:05.727Z",
+        "status": 200,
+        "error": null,
+        "title": "7 Best Safety Data Sheet Software of 2026 | Mitti (by SafetyCulture)",
+        "description": "Get to know the leading safety data sheet software and protect your workplace and employees from chemical hazards with your top pick.",
+        "priceMentions": [
+          {
+            "text": "$24/month",
+            "billingUnit": true,
+            "context": "on : Available for teams of up to 10 Pricing : Premium plan $24/month (with a free 30-day trial period) Platforms supported : Ava"
+          },
+          {
+            "text": "$19/month",
+            "billingUnit": true,
+            "context": "bel generation Free Version : Available Pricing : Starts at $19/month, billed annually (with a 30-day free trial) Platforms suppo"
+          },
+          {
+            "text": "$24/user",
+            "billingUnit": true,
+            "context": "e Version Paid Plan Mobile App Mitti (by SafetyCulture) Yes $24/user/month* Yes SDS Manager Yes $19 / month* Yes SpheraCloud No"
+          },
+          {
+            "text": "$19 / month",
+            "billingUnit": true,
+            "context": "(by SafetyCulture) Yes $24/user/month* Yes SDS Manager Yes $19 / month* Yes SpheraCloud No Available upon registration Yes BackPac"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://sdsmanager.com/us/": {
+      "fetchedAt": "2026-09-16T09:39:05.729Z",
+      "data": {
+        "url": "https://sdsmanager.com/us/",
+        "finalUrl": "https://sdsmanager.com/us/",
+        "retrievedAt": "2026-09-16T09:39:05.729Z",
+        "status": 200,
+        "error": null,
+        "title": "Safety Data Sheet Management System | Online MSDS software",
+        "description": "Guaranteed lowest price. OSHA Compliant. Always up-to-date SDS Database. Instant Employee access. Fully automated. 30-day free trial.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://sdsmanager.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:05.730Z",
+      "data": {
+        "url": "https://sdsmanager.com/pricing",
+        "finalUrl": "https://sdsmanager.com/de/pricing/",
+        "retrievedAt": "2026-09-16T09:39:05.730Z",
+        "status": 200,
+        "error": null,
+        "title": "Bestes kostengünstiges Sicherheitsdatenblatt-Managementsystem – Sehen Sie sich unsere Preispläne an",
+        "description": "Zahlen Sie nur für die Sicherheitsdatenblatt in deiner SDB-Bibliothek: 100 SDB = EUR 420/Jahr, 400 SDB = EUR 960/Jahr, 1.000 SDB = EUR 1872/Jahr. Keine Einrichtungsgebühr.",
+        "priceMentions": [
+          {
+            "text": "€ 8.99",
+            "billingUnit": false,
+            "context": "00 4,000 + Wählen Sie Ihren perfekten Plan für EHS Pauschal € 8.99 pro Mitarbeiter und Monat. Keine Einrichtungsgebühren. 30 T"
+          },
+          {
+            "text": "€ 179",
+            "billingUnit": false,
+            "context": ". 30 Tage kostenlos testen, ohne Kreditkarte. Pay-as-you-go € 179 /Sicherheitsdatenblatt Ideal für die gelegentliche Erstellu"
+          },
+          {
+            "text": "€ 1,349",
+            "billingUnit": false,
+            "context": "rbeitung für Überarbeitungen AM BELIEBTESTEN Basis Standard € 1,349 jährlich Ideal für regelmäßige Anforderungen an die Erstell"
+          },
+          {
+            "text": "€ 359",
+            "billingUnit": false,
+            "context": "Tarif Jahrespreis Basic 1-4 SDS € 179 /Jahr Basic 5-19 SDS € 359 /Jahr Basic 20-99 SDS € 629 /Jahr Basic 100-499 SDS € 1,790"
+          },
+          {
+            "text": "€ 629",
+            "billingUnit": false,
+            "context": "SDS € 179 /Jahr Basic 5-19 SDS € 359 /Jahr Basic 20-99 SDS € 629 /Jahr Basic 100-499 SDS € 1,790 /Jahr Basic 500 + SDS Vertr"
+          },
+          {
+            "text": "€ 1,790",
+            "billingUnit": false,
+            "context": "S € 359 /Jahr Basic 20-99 SDS € 629 /Jahr Basic 100-499 SDS € 1,790 /Jahr Basic 500 + SDS Vertrieb kontaktieren Standard – unse"
+          },
+          {
+            "text": "€ 2,069",
+            "billingUnit": false,
+            "context": "f Jahrespreis Standard 15 SDB € 1,349 /Jahr Standard 30 SDB € 2,069 /Jahr Standard 50 SDB € 2,969 /Jahr Standard 70 SDB € 3,869"
+          },
+          {
+            "text": "€ 2,969",
+            "billingUnit": false,
+            "context": "€ 1,349 /Jahr Standard 30 SDB € 2,069 /Jahr Standard 50 SDB € 2,969 /Jahr Standard 70 SDB € 3,869 /Jahr Standard 100 SDB € 5,12"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.linkedin.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:07.269Z",
+      "data": {
+        "url": "https://www.linkedin.com/pricing",
+        "finalUrl": "https://www.linkedin.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:07.269Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://open.spotify.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:07.270Z",
+      "data": {
+        "url": "https://open.spotify.com/pricing",
+        "finalUrl": "https://open.spotify.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:07.270Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://open.spotify.com/show/1UresP10QcSRzwZEz0tgIH": {
+      "fetchedAt": "2026-09-16T09:39:07.269Z",
+      "data": {
+        "url": "https://open.spotify.com/show/1UresP10QcSRzwZEz0tgIH",
+        "finalUrl": "https://open.spotify.com/show/1UresP10QcSRzwZEz0tgIH",
+        "retrievedAt": "2026-09-16T09:39:07.269Z",
+        "status": 200,
+        "error": null,
+        "title": "MOR Software | Podcast on Spotify",
+        "description": "Listen to MOR Software on Spotify. Established in April 2016 in Ho Chi Minh City, MOR Software JSC is an IT company focusing on developing and providing information technology and software solutions. MOR has been developing products that create core values, and commit to deploying time at the most r",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.linkedin.com/company/mor-software-jsc": {
+      "fetchedAt": "2026-09-16T09:39:07.268Z",
+      "data": {
+        "url": "https://www.linkedin.com/company/mor-software-jsc",
+        "finalUrl": "https://www.linkedin.com/company/mor-software-jsc",
+        "retrievedAt": "2026-09-16T09:39:07.268Z",
+        "status": 200,
+        "error": null,
+        "title": "MOR Software JSC | LinkedIn",
+        "description": "MOR Software JSC | 4,863 followers on LinkedIn. MOR Software is a leading software outsourcing company in Vietnam with international-standard software services | MOR Software is a leading software outsourcing company in Vietnam with years of continuous innovation and enhancement of high-quality soft",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://morsoftware.com/pricing": {
+      "fetchedAt": "2026-09-16T09:39:07.267Z",
+      "data": {
+        "url": "https://morsoftware.com/pricing",
+        "finalUrl": "https://morsoftware.com/pricing",
+        "retrievedAt": "2026-09-16T09:39:07.267Z",
+        "status": 200,
+        "error": null,
+        "title": "MOR Software - Software Development Outsourcing Company in Vietnam",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://morsoftware.com/": {
+      "fetchedAt": "2026-09-16T09:39:07.266Z",
+      "data": {
+        "url": "https://morsoftware.com/",
+        "finalUrl": "https://morsoftware.com/",
+        "retrievedAt": "2026-09-16T09:39:07.266Z",
+        "status": 200,
+        "error": null,
+        "title": "MOR Software - Software Development Outsourcing Company in Vietnam",
+        "description": "MOR Software is one of Top 10 Vietnam ICT specializing in software development services based international standards",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }
