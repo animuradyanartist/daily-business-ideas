@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-17 (trends)
+- The most valuable B2B SaaS tools often don't invent a new process, but rather productize and automate an existing, manual, revenue-gating workflow that is currently handled by expensive labor or inefficient service companies.
+- A market's use of high-cost manual "service" substitutes (like record retrieval companies) is one of the strongest possible signals of willingness to pay for a more efficient software solution.
+- For professional services firms (like law firms), the most potent value proposition is accelerating the "intake-to-cash" cycle. Software that directly shortens this cycle is a painkiller.
+- Regulatory complexity (like HIPAA) can be a feature, not a bug. It creates a high barrier to entry, filters out casual competitors, and allows compliant vendors to command a premium.
+
+---
+
 ## 2026-09-17
 - The most valuable B2B SaaS tools often don't invent a new process, but rather productize and automate an existing, manual, revenue-gating workflow that is currently handled by expensive labor or inefficient service companies.
 - A market's use of high-cost manual "service" substitutes (like record retrieval companies) is one of the strongest possible signals of willingness to pay for a more efficient software solution.

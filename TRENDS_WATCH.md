@@ -396,6 +396,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Water Utility Compliance** · Using AI platforms to automate the monitoring and reporting required for environmental and public health compliance. · flagged 2026-09-16 · last checked 2026-09-16 · [origin memo](trends/2026-09-16.md)
 - **AI-Powered Audit Readiness for SMBs** · Using AI tools to automate the preparation for financial audits by continuously monitoring transactions and testing internal controls. · flagged 2026-09-16 · last checked 2026-09-16 · [origin memo](trends/2026-09-16.md)
 - **AI-Automated Creator & Brand Deal Management** · Using AI platforms to automate the full workflow of creator discovery, outreach, contract negotiation, and campaign management. · flagged 2026-09-16 · last checked 2026-09-16 · [origin memo](trends/2026-09-16.md)
+- **AI-Powered Medical Record Retrieval & Analysis for Law Firms** · Using AI to automate the full workflow of retrieving, analyzing, and summarizing medical records for litigation. · flagged 2026-09-17 · last checked 2026-09-17 · [origin memo](trends/2026-09-17.md)
+- **AI-Automated Commercial Insurance Renewals** · Using AI to create "submissionless" renewal quotes by pulling data directly from an agency's management system. · flagged 2026-09-17 · last checked 2026-09-17 · [origin memo](trends/2026-09-17.md)
+- **"Agentic" AI for E-commerce Customer Service** · Using autonomous AI agents to resolve customer support issues end-to-end, including processing refunds and returns. · flagged 2026-09-17 · last checked 2026-09-17 · [origin memo](trends/2026-09-17.md)
 
 
 ## ➡️ Active — plateauing
@@ -667,3 +670,5 @@ _(empty)_
 <!-- 2026-09-15 status-update directive: 🚀 | Generative Music for Creator Content -->
 
 <!-- 2026-09-16 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
+
+<!-- 2026-09-17 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
