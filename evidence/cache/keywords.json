@@ -10280,6 +10280,575 @@
       "fetchedAt": "2026-09-16T09:37:28.865Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|medical records request challenges": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|personal injury records management": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|paralegal medical records pain": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|medical records software": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": true,
+      "data": {
+        "keyword": "medical records software",
+        "searchVolume": 880,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 1000
+          }
+        ],
+        "cpcUsd": 19.64,
+        "adCompetition": 0.55,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 16:08:44 +00:00"
+      }
+    },
+    "labs|united states|en|legal records management system": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": true,
+      "data": {
+        "keyword": "legal records management system",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 19:25:59 +00:00"
+      }
+    },
+    "labs|united states|en|medical records tracking tool": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|legal software pricing": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": true,
+      "data": {
+        "keyword": "legal software pricing",
+        "searchVolume": 40,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 56.84,
+        "adCompetition": 0.27,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -86,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 01:59:54 +00:00"
+      }
+    },
+    "labs|united states|en|medical records software cost": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best law firm software": {
+      "fetchedAt": "2026-09-17T09:45:24.501Z",
+      "returned": true,
+      "data": {
+        "keyword": "best law firm software",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 880
+          }
+        ],
+        "cpcUsd": 129.09,
+        "adCompetition": 0.74,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -64,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 01:19:35 +00:00"
+      }
     }
   }
 }

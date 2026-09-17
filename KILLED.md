@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-17
+- **The Construction Subcontractor's Lien Waiver Hub:** Killed. While a strong pain point, the legal requirements vary significantly by state, making a scalable national product more complex than the PI opportunity.
+- **The Independent Pharmacy's "Audit-Ready" DEA Controlled Substance Log:** Killed. This is a very strong idea that fits the prior compliance pattern. However, the PI market is significantly larger and offers a clearer path to a multi-million dollar ARR business.
+- **The Commercial Landlord's CAM Reconciliation Generator:** Killed. The pain is seasonal (typically annual) rather than a daily, high-frequency workflow, making a monthly subscription harder to justify.
+- **The Small Food Producer's FDA Recall-Ready Hub:** Killed. The cost of failure is catastrophic, but the frequency is extremely low for most producers, making it a "business insurance" product rather than a daily workflow tool.
+
 ## 2026-09-16
 - **The Small Non-Profit's Grant Reporting Hub** — Killed. The pain is real, but the buyer's ability and willingness to pay for software is historically very low.
 - **The University Research Lab's Chemical Inventory Manager** — Killed. A strong compliance pain, but the sales process into universities is complex and slow, often requiring vendor approvals at an institutional level.

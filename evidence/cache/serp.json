@@ -2789,6 +2789,160 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|medical records software": {
+      "fetchedAt": "2026-09-17T09:45:27.989Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=medical%20records%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.epic.com",
+            "url": "https://www.epic.com/",
+            "title": "Epic | ...With the patient at the heart",
+            "description": "Our software makes it possible for every patient to have a single, comprehensive medical record that informs and is informed by their health experiences. Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "ehr.meditech.com",
+            "url": "https://ehr.meditech.com/meditech",
+            "title": "MEDITECH EHR Software | MEDITECH",
+            "description": "MEDITECH's electronic health record (EHR) platform that securely unifies data from inside and outside your organization and delivers AI-driven insights,"
+          },
+          {
+            "rank": 5,
+            "domain": "www.open-emr.org",
+            "url": "https://www.open-emr.org/",
+            "title": "Fund OpenEMR Certification Together",
+            "description": "Fully Open-Source. Free Software, Always and Forever. OpenEMR is the most popular open source electronic health records and medical practice management solution ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "digital.ahrq.gov",
+            "url": "https://digital.ahrq.gov/electronic-medical-record-systems",
+            "title": "Electronic Medical Record Systems",
+            "description": "Physician access to patient information, such as diagnoses, allergies, lab results, and medications. · Access to new and past test results among providers in ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "practicesuite.com",
+            "url": "https://practicesuite.com/resources/ehr/",
+            "title": "Top EHR Software Providers for Detailed Records",
+            "description": "May 15, 2026 — An electronic health record (EHR) software solution can significantly impact patient care, administrative burden, and clinical intelligence. Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.advancedmd.com",
+            "url": "https://www.advancedmd.com/emr-ehr-software/",
+            "title": "EHR Software Systems | 3 Months Free For New Practices",
+            "description": "EHR / EMR software is a computer system that helps healthcare providers manage patient medical records and automate clinical workflows."
+          },
+          {
+            "rank": 9,
+            "domain": "www.athenahealth.com",
+            "url": "https://www.athenahealth.com/resources/blog/4-types-of-electronic-health-and-medical-records-systems",
+            "title": "4 types of electronic health and medical records systems",
+            "description": "Sep 30, 2024 — Understand the different types of EHR software and electronic medical record systems to help you choose the best EMR program solution for ..."
+          },
+          {
+            "rank": 10,
+            "domain": "www.ehrinpractice.com",
+            "url": "https://www.ehrinpractice.com/ehr-product-comparison.html",
+            "title": "EHR Software Comparison | 2026 Pricing, Features & More",
+            "description": "Find and compare the top EHR and EMR systems of 2026. Get side-by-side comparisons of popular EHR vendors like Epic, Oracle Health (Cerner), athenahealth, ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.praxisemr.com",
+            "url": "https://www.praxisemr.com/top-ehr-physicians-systems.html",
+            "title": "Physicians choose their top 10 EHR systems for 2026",
+            "description": "Compare the top 10 EHR systems in different care settings. Praxis EMR, Epic, Oracle Cerner, eClinicalWorks, Athenahealth, Allscripts Veradigm, Nextgen, ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|personal injury records management": {
+      "fetchedAt": "2026-09-17T09:45:33.509Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=personal%20injury%20records%20management&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.casepeer.com",
+            "url": "https://www.casepeer.com/blog/medical-records-management/",
+            "title": "Mastering Medical Records Management for Personal ...",
+            "description": "Sep 4, 2026 — Best practices for managing personal injury medical records include timely requests, consistent organization, secure storage, compliance with ..."
+          },
+          {
+            "rank": 3,
+            "domain": "www.paxton.ai",
+            "url": "https://www.paxton.ai/post/navigating-hipaa-compliance-in-personal-injury-cases-best-practices-for-secure-medical-record-management",
+            "title": "Navigating HIPAA Compliance in Personal Injury Cases",
+            "description": "Best Practices for Secure Medical Record Management in Litigation · Proper Authorizations: Before requesting any PHI, obtain a clearly-worded, HIPAA-compliant ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "gainservicing.com",
+            "url": "https://gainservicing.com/medical-record-management/",
+            "title": "Medical Records Management: A Complete Guide for 2026",
+            "description": "Medical records management covers secure storage, EHR systems, and HIPAA compliance. Learn best practices, key components, and what is involved."
+          },
+          {
+            "rank": 5,
+            "domain": "www.tavrn.ai",
+            "url": "https://www.tavrn.ai/blog/personal-injury-medical-records-request",
+            "title": "Personal Injury Medical Records Request: A Legal Guide",
+            "description": "Nov 27, 2025 — How PI teams request medical records under HIPAA: pathways, deadlines, state rules, fees, and escalation."
+          },
+          {
+            "rank": 7,
+            "domain": "www.recordrs.com",
+            "url": "https://www.recordrs.com/blog/best-personal-injury-case-management-software/",
+            "title": "10 Best Personal Injury Case Management Software ...",
+            "description": "Jun 16, 2026 — The best personal injury case management software. Filevine, Litify, SmartAdvocate, CASEpeer, and Clio are among the most popular choices based ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.clio.com",
+            "url": "https://www.clio.com/features/personal-injury-case-management-software/",
+            "title": "AI for Personal Injury Lawyers | Case Management - Clio",
+            "description": "As a robust personal injury AI platform, Clio helps your firm securely manage confidential medical information, settlements, and more."
+          },
+          {
+            "rank": 9,
+            "domain": "www.chartrequest.com",
+            "url": "https://www.chartrequest.com/articles/medical-record-review-for-personal-injury",
+            "title": "Guide to Medical Record Review for Personal Injury Lawyers",
+            "description": "May 26, 2026 — Learn how medical record review helps personal injury lawyers catch missing records and prepare stronger demand packages."
+          },
+          {
+            "rank": 10,
+            "domain": "gsblposervices.com",
+            "url": "https://gsblposervices.com/personal-injury/medical-records-organization/",
+            "title": "Medical Records Organization for Personal Injury Cases",
+            "description": "At GSB Paralegals, we provide Medical Records Organization Services for personal injury cases within 24 to 48 hours, depending on record volume and complexity. Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.cloudlex.com",
+            "url": "https://www.cloudlex.com/law-firm-management/how-to-organize-personal-injury-medical-records/",
+            "title": "Medical Records Organize for Law Firms",
+            "description": "Apr 16, 2024 — Obtaining, managing, and analyzing personal injury medical records can be a difficult task for law firms but is key. ✓ Learn more!"
+          }
+        ]
+      }
     }
   }
 }

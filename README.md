@@ -72,6 +72,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-09-17 — The Personal Injury Law Firm's Medical Records Request & Tracking Hub — 100/100 high
 - 2026-09-16 — trend forecast — AI-Automated Water Utility Compliance +2 more
 - 2026-09-16 — The Small Water Treatment Plant's "State-Ready" Monthly Operating Report (MOR) Generator — 100/100 high
 - 2026-09-15 — trend forecast — AI-Powered "Deposition Co-pilot" for Litigators +2 more

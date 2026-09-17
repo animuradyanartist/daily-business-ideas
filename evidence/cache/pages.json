@@ -1976,6 +1976,138 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://www.epic.com/": {
+      "fetchedAt": "2026-09-17T09:45:37.290Z",
+      "data": {
+        "url": "https://www.epic.com/",
+        "finalUrl": "https://www.epic.com/",
+        "retrievedAt": "2026-09-17T09:45:37.290Z",
+        "status": 200,
+        "error": null,
+        "title": "Epic | ...With the patient at the heart",
+        "description": "Founded in a basement in 1979, Epic develops software to help people get well, help people stay well, and help future generations be healthier.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.paxton.ai/pricing": {
+      "fetchedAt": "2026-09-17T09:45:37.295Z",
+      "data": {
+        "url": "https://www.paxton.ai/pricing",
+        "finalUrl": "https://www.paxton.ai/pricing",
+        "retrievedAt": "2026-09-17T09:45:37.295Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | PAXTON",
+        "description": "Explore our flexible plans designed to suit every budget. Stay ahead with our affordable pricing models, delivering value and insight with every subscription.",
+        "priceMentions": [
+          {
+            "text": "$499 per user",
+            "billingUnit": true,
+            "context": "ys who want to apply cutting-edge AI to their legal work. ‍ $499 per user/month Start Your Free 7-Day Trial Individual access to our"
+          },
+          {
+            "text": "$2,999 per user",
+            "billingUnit": true,
+            "context": "ys who want to apply cutting-edge AI to their legal work. ‍ $2,999 per user/year Save 50% compared to monthly Start Your Free 7-Day Tri"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.paxton.ai/post/navigating-hipaa-compliance-in-personal-injury-cases-best-practices-for-secure-medical-record-management": {
+      "fetchedAt": "2026-09-17T09:45:37.294Z",
+      "data": {
+        "url": "https://www.paxton.ai/post/navigating-hipaa-compliance-in-personal-injury-cases-best-practices-for-secure-medical-record-management",
+        "finalUrl": "https://www.paxton.ai/post/navigating-hipaa-compliance-in-personal-injury-cases-best-practices-for-secure-medical-record-management",
+        "retrievedAt": "2026-09-17T09:45:37.294Z",
+        "status": 200,
+        "error": null,
+        "title": "Navigating HIPAA Compliance in Personal Injury Cases: Best Practices for Secure Medical Record Management | PAXTON",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.casepeer.com/pricing": {
+      "fetchedAt": "2026-09-17T09:45:37.293Z",
+      "data": {
+        "url": "https://www.casepeer.com/pricing",
+        "finalUrl": "https://www.casepeer.com/pricing/",
+        "retrievedAt": "2026-09-17T09:45:37.293Z",
+        "status": 200,
+        "error": null,
+        "title": "CasePeer Pricing | Book a Demo Today!",
+        "description": "Improve productivity with CasePeer’s cloud-based case management software. Custom pricing plans from $90 per month to fit your firm’s needs. Get a demo!",
+        "priceMentions": [
+          {
+            "text": "$90 /user",
+            "billingUnit": true,
+            "context": "-based case management built for personal injury law firms. $90 /user/month Get A Demo Case and Contact Management Task Managemen"
+          },
+          {
+            "text": "$130 /user",
+            "billingUnit": true,
+            "context": "ent, client intake, reporting, legal AI & key integrations. $130 /user/month Get a Demo Everything in BASIC plus... Client Intake"
+          },
+          {
+            "text": "$160 /user",
+            "billingUnit": true,
+            "context": "to scale your firm, with data sync for advanced reporting. $160 /user/month Get a Demo Everything in PRO plus... Ability to Sched"
+          },
+          {
+            "text": "$90 per user",
+            "billingUnit": true,
+            "context": "onment. How much does CasePeer cost? CasePeer Basic tier is $90 per user/month, CasePeer Pro tier is $130 per user/month, and CasePe"
+          },
+          {
+            "text": "$130 per user",
+            "billingUnit": true,
+            "context": "Peer Basic tier is $90 per user/month, CasePeer Pro tier is $130 per user/month, and CasePeer Advanced tier is $160 per user/month. Y"
+          },
+          {
+            "text": "$160 per user",
+            "billingUnit": true,
+            "context": "tier is $130 per user/month, and CasePeer Advanced tier is $160 per user/month. Your monthly subscription rate depends on the number"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.casepeer.com/blog/medical-records-management/": {
+      "fetchedAt": "2026-09-17T09:45:37.292Z",
+      "data": {
+        "url": "https://www.casepeer.com/blog/medical-records-management/",
+        "finalUrl": "https://www.casepeer.com/blog/medical-records-management/",
+        "retrievedAt": "2026-09-17T09:45:37.292Z",
+        "status": 200,
+        "error": null,
+        "title": "Mastering Medical Records Management for Personal Injury Attorneys",
+        "description": "Medical records management is critical in personal injury law. Explore proven strategies to organize, protect, and streamline records to boost firm efficiency.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.epic.com/pricing": {
+      "fetchedAt": "2026-09-17T09:45:37.291Z",
+      "data": {
+        "url": "https://www.epic.com/pricing",
+        "finalUrl": "https://www.epic.com/pricing/",
+        "retrievedAt": "2026-09-17T09:45:37.291Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }
