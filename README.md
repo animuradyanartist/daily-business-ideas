@@ -72,6 +72,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-09-18 — trend forecast — AI-Automated Firearms Compliance for FFLs +2 more
 - 2026-09-18 — The Independent Firearm Dealer's "ATF-Ready" Digital A&D Book — 100/100 high
 - 2026-09-17 — trend forecast — AI-Powered Medical Record Retrieval & Analysis for Law Firms +2 more
 - 2026-09-17 — The Personal Injury Law Firm's Medical Records Request & Tracking Hub — 100/100 high

@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-18 (trends)
+- An announced repeal of a "zero tolerance" policy doesn't necessarily reduce the market pain if the underlying regulations and high enforcement rates persist; the new, higher level of perceived risk can become permanent.
+- The most compelling vertical SaaS opportunities often exist where a specific government agency (like the ATF) acts as a persistent, non-negotiable antagonist to a fragmented market of small business owners.
+- A market having multiple, long-standing competitors is not a kill signal; it's strong proof of a willingness to pay and a stable market structure. The opportunity is often in execution and user experience, not novel invention.
+
+---
+
 ## 2026-09-18
 - An announced repeal of a "zero tolerance" policy doesn't necessarily reduce the market pain if the underlying regulations and high enforcement rates persist; the new, higher level of perceived risk can become permanent.
 - The most compelling vertical SaaS opportunities often exist where a specific government agency (like the ATF) acts as a persistent, non-negotiable antagonist to a fragmented market of small business owners.

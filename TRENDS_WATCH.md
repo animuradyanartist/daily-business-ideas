@@ -399,6 +399,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Medical Record Retrieval & Analysis for Law Firms** · Using AI to automate the full workflow of retrieving, analyzing, and summarizing medical records for litigation. · flagged 2026-09-17 · last checked 2026-09-17 · [origin memo](trends/2026-09-17.md)
 - **AI-Automated Commercial Insurance Renewals** · Using AI to create "submissionless" renewal quotes by pulling data directly from an agency's management system. · flagged 2026-09-17 · last checked 2026-09-17 · [origin memo](trends/2026-09-17.md)
 - **"Agentic" AI for E-commerce Customer Service** · Using autonomous AI agents to resolve customer support issues end-to-end, including processing refunds and returns. · flagged 2026-09-17 · last checked 2026-09-17 · [origin memo](trends/2026-09-17.md)
+- **AI-Automated Firearms Compliance for FFLs** · Using AI-powered software to automate ATF compliance workflows like A&D books and Form 4473 processing. · flagged 2026-09-18 · last checked 2026-09-18 · [origin memo](trends/2026-09-18.md)
+- **AI-Powered Fleet Telematics Analysis** · Using AI to analyze vehicle telematics data for predictive maintenance, route optimization, and driver safety. · flagged 2026-09-18 · last checked 2026-09-18 · [origin memo](trends/2026-09-18.md)
+- **"Agentic" AI for Performance Marketing Creative** · Using autonomous AI agents to manage the full ad creative lifecycle, from generation and deployment to analysis and optimization. · flagged 2026-09-18 · last checked 2026-09-18 · [origin memo](trends/2026-09-18.md)
 
 
 ## ➡️ Active — plateauing
@@ -672,3 +675,5 @@ _(empty)_
 <!-- 2026-09-16 status-update directive: 🚀 | Autonomous AI Agents for Business Tasks -->
 
 <!-- 2026-09-17 status-update directive: 🚀 | AI-Powered Proactive Customer Support -->
+
+<!-- 2026-09-18 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
