@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-18
+- **The Craft Brewery's Keg Tracking & Recovery Hub** — Killed. The pain is financial loss, not an existential threat. The market is mature and facing economic headwinds, making it a "vitamin" in a tough environment.
+- **The Amazon FBA Seller's "Clawback" Reimbursement Hub** — Killed. A strong "found money" value proposition, but it's a platform-risk business dependent on Amazon's APIs and policies. It lacks the regulatory moat of the FFL idea.
+- **The Residential Real Estate Agent's Transaction Coordination Hub** — Killed. A good opportunity with proven willingness to pay (hiring human TCs), but the risk of a missed deadline is lower than the risk of losing a federal license to operate. The FFL pain is more acute.
+
 ## 2026-09-17
 - **The Construction Subcontractor's Lien Waiver Hub:** Killed. While a strong pain point, the legal requirements vary significantly by state, making a scalable national product more complex than the PI opportunity.
 - **The Independent Pharmacy's "Audit-Ready" DEA Controlled Substance Log:** Killed. This is a very strong idea that fits the prior compliance pattern. However, the PI market is significantly larger and offers a clearer path to a multi-million dollar ARR business.

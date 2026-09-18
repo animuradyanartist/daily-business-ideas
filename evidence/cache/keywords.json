@@ -10849,6 +10849,1975 @@
         "mainIntent": "commercial",
         "providerUpdatedAt": "2026-09-15 01:19:35 +00:00"
       }
+    },
+    "labs|united states|en|lost beer kegs": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|keg tracking problems": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|brewery asset loss": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|keg tracking": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "keg tracking",
+        "searchVolume": 40,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 7.95,
+        "adCompetition": 0.19,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 67,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-15 06:16:41 +00:00"
+      }
+    },
+    "labs|united states|en|brewery software": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "brewery software",
+        "searchVolume": 210,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 1300
+          }
+        ],
+        "cpcUsd": 20.91,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -19,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 08:30:51 +00:00"
+      }
+    },
+    "labs|united states|en|asset management system": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "asset management system",
+        "searchVolume": 720,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 880
+          }
+        ],
+        "cpcUsd": 81.26,
+        "adCompetition": 0.6,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 17:27:56 +00:00"
+      }
+    },
+    "labs|united states|en|keg tracking cost": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best brewery software": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "best brewery software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 47.35,
+        "adCompetition": 0.43,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 05:46:12 +00:00"
+      }
+    },
+    "labs|united states|en|brewery inventory pricing": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|amazon fba lost inventory": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "amazon fba lost inventory",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": 4.88,
+        "adCompetition": 0.07,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 05:26:55 +00:00"
+      }
+    },
+    "labs|united states|en|fba damaged goods": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|amazon fba discrepancies": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fba reimbursement": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "fba reimbursement",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.16,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 20:19:32 +00:00"
+      }
+    },
+    "labs|united states|en|amazon fba software": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "amazon fba software",
+        "searchVolume": 210,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 9.66,
+        "adCompetition": 0.2,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -59,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 07:29:48 +00:00"
+      }
+    },
+    "labs|united states|en|fba audit service": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fba reimbursement cost": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best fba tools": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "best fba tools",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 1.49,
+        "adCompetition": 0.86,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 20:01:57 +00:00"
+      }
+    },
+    "labs|united states|en|amazon fba audit pricing": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|real estate admin burden": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|real estate deadline management": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|transaction coordinator pain points": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|transaction coordination": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "transaction coordination",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": 15.49,
+        "adCompetition": 0.29,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-16 08:18:16 +00:00"
+      }
+    },
+    "labs|united states|en|real estate software": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "real estate software",
+        "searchVolume": 1900,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 1900
+          }
+        ],
+        "cpcUsd": 25.67,
+        "adCompetition": 0.34,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -76,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 03:26:18 +00:00"
+      }
+    },
+    "labs|united states|en|agent productivity tools": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "agent productivity tools",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 39.84,
+        "adCompetition": 0.12,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-15 05:23:42 +00:00"
+      }
+    },
+    "labs|united states|en|transaction coordinator cost": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "transaction coordinator cost",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.35,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-14 05:14:29 +00:00"
+      }
+    },
+    "labs|united states|en|best real estate crm": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "best real estate crm",
+        "searchVolume": 1300,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 2400
+          }
+        ],
+        "cpcUsd": 42.85,
+        "adCompetition": 0.57,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -45,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 00:29:52 +00:00"
+      }
+    },
+    "labs|united states|en|real estate software pricing": {
+      "fetchedAt": "2026-09-18T09:19:22.774Z",
+      "returned": true,
+      "data": {
+        "keyword": "real estate software pricing",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 17:24:19 +00:00"
+      }
     }
   }
 }

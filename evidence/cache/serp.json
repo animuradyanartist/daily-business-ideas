@@ -2943,6 +2943,458 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|brewery software": {
+      "fetchedAt": "2026-09-18T09:19:27.666Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=brewery%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "getollie.com",
+            "url": "https://getollie.com/",
+            "title": "Ollie: Brewery Management Software",
+            "description": "Grow your craft brewery with the fastest-growing and most-reviewed brewery management software that handles everything from your tanks to your books."
+          },
+          {
+            "rank": 3,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/TheBrewery/comments/1b9biqj/brewery_management_software/",
+            "title": "Brewery Management software : r/TheBrewery",
+            "description": "Ollie Ops is the best for the brewers hands down. Originally called Fermentables it was started by two guys quite a few years ago (a brewer and ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "breww.com",
+            "url": "https://breww.com/en-us/",
+            "title": "Breww | Modern Brewery Management Software",
+            "description": "Breww is modern brewery management software designed specifically for craft breweries. Manage production, sales, deliveries, and more."
+          },
+          {
+            "rank": 5,
+            "domain": "the5thingredient.com",
+            "url": "https://the5thingredient.com/beer30-software/",
+            "title": "Beer30 | Brewery Management Software",
+            "description": "Beer30 is brewery management software designed to be your brewery's production, accounting, inventory, compliance, and ERP software all under one roof."
+          },
+          {
+            "rank": 6,
+            "domain": "www.massbrewersguild.org",
+            "url": "https://www.massbrewersguild.org/news/2022/10/6/operations-the-5-essential-brewery-management-software-types",
+            "title": "Operations: The 5 essential brewery management software ...",
+            "description": "Oct 6, 2022 — Operations: The 5 essential brewery management software types · 1. Point of sale software · 2. Quality control software · 3. Digital order and ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "pos.toasttab.com",
+            "url": "https://pos.toasttab.com/blog/on-the-line/brewery-software?srsltid=AU7gw4XdPlCaAsJSWInchR9llYIGAc1YvvdRdfEI5IIc_vKWdHdWcsYC",
+            "title": "The Best Brewery Software For Success In 2026",
+            "description": "Nov 4, 2024 — Some of the best brewery software include: Ollie Breww Ekos Kegshoe BrewMan Tripleseat Beer30 Ohanafy Crafted ERP BrewNinja"
+          },
+          {
+            "rank": 9,
+            "domain": "www.brewersfriend.com",
+            "url": "https://www.brewersfriend.com/",
+            "title": "Brewer's Friend | Homebrew Beer Recipes, Software ...",
+            "description": "2 hours ago — Brewer's Friend is a set of tools and homebrewing information to help you brew your very best, every time. Easy to use for beginners with ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.brewninja.net",
+            "url": "https://www.brewninja.net/",
+            "title": "Brew Ninja | Brewery Management Software",
+            "description": "Brew Ninja is a software that streamlines the day-to-day operations of your brewery, including inventory, accounting, sales, reporting, and compliance,"
+          },
+          {
+            "rank": 11,
+            "domain": "www.capterra.com",
+            "url": "https://www.capterra.com/brewery-software/",
+            "title": "Best Brewery Software 2026",
+            "description": "What is this product about? Breww is the modern choice to help you run your brewery. Always online, cloud-based and secure. Trusted by over 750 breweries. Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|lost beer kegs": {
+      "fetchedAt": "2026-09-18T09:19:35.576Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=lost%20beer%20kegs&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "popular_products",
+          "people_also_ask",
+          "organic",
+          "local_pack",
+          "google_reviews"
+        ],
+        "items": [
+          {
+            "rank": 3,
+            "domain": "www.brewersassociation.org",
+            "url": "https://www.brewersassociation.org/brewing-industry-updates/keg-etiquette/",
+            "title": "Keg Etiquette",
+            "description": "Feb 1, 2026 — The Cost of Lost Kegs. Keg loss costs the U.S. brewing industry between 46 cents and $1.37 per barrel, acting as an enormous additional and ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.slg.com",
+            "url": "https://www.slg.com/blog/lost-kegs-why-it-pays-to-track/",
+            "title": "The Lost Kegs: Why It Pays to Track",
+            "description": "Nov 14, 2017 — Every brewery loses kegs. This adds up to a profit loss of $10-15 per barrel of kegged beer each year. loss to be as high as 20 annually,"
+          },
+          {
+            "rank": 5,
+            "domain": "thekegcompany.co.uk",
+            "url": "https://thekegcompany.co.uk/products/brewdog-lost-lager-30l-keykeg?srsltid=AU7gw4U3rdr0zd3PgnEebLB76cuoSHBKEQo0isgaTYxBJdXBouINcKap",
+            "title": "Brewdog - Lost Lager - 30L Keykeg",
+            "description": "Upgrade your taps with BrewDog Lost Lager, a perfectly balanced 4.5% ABV pilsner-style beer. Crafted with Simcoe hops and Pale Ale malts, this lager delivers a ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/beer/comments/yftmsd/this_is_likely_a_stupid_question_but_im_trying_to/",
+            "title": "this is likely a stupid question, but I'm trying to help a friend. ...",
+            "description": "Go to the liquor store and order a keg. Return your empty to wipe out the cost of your shell deposit. Getting new kegs is the same procedure as ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/crimewatchwirral/posts/1648564292250680/",
+            "title": "Anyone lost 2 kegs of beer Ford hill.",
+            "description": "We are trying to recover our kegs, Which apparently came out of a Skip Bin at a Pub about a year ago... I have been told they have been returned ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.paulmueller.com",
+            "url": "https://www.paulmueller.com/academy/ways-kegs-are-losing-you-money?scLang=en",
+            "title": "4 Ways Kegs Are Losing You Money",
+            "description": "A discussion in the Beer Advocate Forums suggests that you lose anywhere from 5-10 percent of your beer when using kegs. A 7.5 percent loss equals nine pints of ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.mikesliquors.com",
+            "url": "https://www.mikesliquors.com/products/del-cielo-hazy-lost-ipa-keg?srsltid=AU7gw4UA3MSe4MCci0uTZQJZP2PgVeTtY2Dn0rMeCVDMEfU_Bh5fsyjK",
+            "title": "Del Cielo Hazy Lost IPA Keg (1/2 Barrel) - Mike's Liquors",
+            "description": "Del Cielo Hazy Lost is a soft, juicy hazy IPA big tropical and citrus hop flavor. This half-barrel keg pours roughly 120+ pints, built for events."
+          },
+          {
+            "rank": 10,
+            "domain": "www.denverpost.com",
+            "url": "https://www.denverpost.com/2007/07/02/beer-kegs-missing-scrapped/",
+            "title": "Beer kegs missing, scrapped",
+            "description": "Jul 2, 2007 — The beer industry is coupling with the scrap metal recycling industry to let metal buyers know they can't accept kegs unless they're sold by the ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "bevmo.com",
+            "url": "https://bevmo.com/products/116038?srsltid=AU7gw4WIWIVrPBTArq7_rMjuvLAUM_ApwRllukM6Sm8g2UjVV58w3gHw",
+            "title": "Lost Abbey Judgment Day (15.5 GAL KEG)",
+            "description": "Upon pickup, you will be required by law to complete a keg registration form. A deposit of $40 is required and will be refunded upon return of the keg with ... Read more"
+          },
+          {
+            "rank": 12,
+            "domain": "www.craftbeer.com",
+            "url": "https://www.craftbeer.com/craft-beer-muses/costly-stray-beer-kegs",
+            "title": "The Pesky, Costly Life of Stray Beer Kegs",
+            "description": "Apr 5, 2018 — It's a pesky, costly life for stray beer kegs. Beer Kegs Get Lost Easily. Stray Kegs Chicago's Burger Bar sets up a 'Keg Cemetery.' (Matt Powers). Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|fba reimbursement": {
+      "fetchedAt": "2026-09-18T09:19:43.600Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=fba%20reimbursement&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "video",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "sellercentral-europe.amazon.com",
+            "url": "https://sellercentral-europe.amazon.com/gp/help/external/G200213130",
+            "title": "FBA lost and damaged inventory reimbursement policy",
+            "description": "If we determine that your reimbursement claim is valid, we will replace the lost or damaged item with a new item of the same product or we will reimburse you ..."
+          },
+          {
+            "rank": 4,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/FulfillmentByAmazon/comments/1hhb5pp/the_new_fba_reimbursement_policy_is_nothing_short/",
+            "title": "The New FBA Reimbursement Policy is Nothing Short of ...",
+            "description": "Effective March 10, 2025, we'll reimburse you based on the product manufacturing cost of the affected inventory."
+          },
+          {
+            "rank": 5,
+            "domain": "www.spscommerce.com",
+            "url": "https://www.spscommerce.com/community/articles/amazon-reimbursement-policy",
+            "title": "Key Amazon Reimbursement Policy Details, Changes, and ...",
+            "description": "Jun 15, 2026 — Amazon now automatically reimburses many cases involving FBA inventory that is lost or damaged within its fulfillment network,"
+          },
+          {
+            "rank": 6,
+            "domain": "novadata.io",
+            "url": "https://novadata.io/resources/blog/amazon-reimbursement-guide",
+            "title": "Amazon FBA Reimbursement Guide 2026: Recover Lost ...",
+            "description": "Sep 9, 2026 — Amazon reimburses FBA inventory lost or damaged before a customer orders it on your manufacturing cost, not the retail selling price."
+          },
+          {
+            "rank": 7,
+            "domain": "www.sellersprite.com",
+            "url": "http://www.sellersprite.com/en/blog/amazon-fba-reimbursement-services",
+            "title": "Amazon Owes You Money! Amazon FBA Reimbursement ...",
+            "description": "FBA inventory reimbursements occur when Amazon loses or damages your inventory while it is in their possession. These reimbursements can cover the cost of the ..."
+          },
+          {
+            "rank": 8,
+            "domain": "getida.com",
+            "url": "https://getida.com/resources/blog/fba-reimbursements/understanding-the-amazon-fba-reimbursement-process/",
+            "title": "Understanding Amazon FBA Reimbursement Process 1/6",
+            "description": "Amazon FBA reimbursements are financial compensations issued by Amazon to correct discrepancies that occur within the FBA system."
+          },
+          {
+            "rank": 9,
+            "domain": "sellercentral.amazon.com",
+            "url": "https://sellercentral.amazon.com/help/hub/reference/external/G200732720?locale=en-US",
+            "title": "Reimbursements report (overview)",
+            "description": "Reimbursements appear in your account 4-5 business days after the reimbursement is approved. Tip: For information about FBA customer refunds, see FBA customer ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.amztoolhub.com",
+            "url": "https://www.amztoolhub.com/blog/amazon-fba-reimbursement-tools-2026",
+            "title": "FBA Reimbursements in 2026: How to Recover - AMZToolHub",
+            "description": "Aug 3, 2026 — An FBA reimbursement is a credit Amazon issues when it loses or damages your inventory in its own operations, or over-charges an FBA fee. Common ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|amazon fba lost inventory": {
+      "fetchedAt": "2026-09-18T09:19:50.873Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=amazon%20fba%20lost%20inventory&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "video",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/FulfillmentByAmazon/comments/1igt1aw/amazon_has_lost_200_units_of_our_expensive/",
+            "title": "Amazon has lost 200 units of our expensive inventory and ...",
+            "description": "Amazon has lost 200 units of our expensive inventory and refuse to investigate/reimburse. A box sent FBA with 201 items. 200 items gone missing ..."
+          },
+          {
+            "rank": 3,
+            "domain": "sellercentral-europe.amazon.com",
+            "url": "https://sellercentral-europe.amazon.com/gp/help/external/G200213130",
+            "title": "FBA lost and damaged inventory reimbursement policy",
+            "description": "For items that were in unsellable condition when lost, damaged or removed from the Amazon fulfilment network, we will reimburse at a reduced estimated cost of ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "sellercentral.amazon.com",
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3be443bd-5bfe-4099-9d77-f32b55b8d5e6",
+            "title": "Amazon \"lost\" my FBA inventory during transit and started ...",
+            "description": "Mar 24, 2023 — This is normal. If you want to sell FBA you will have to get good at lost/missing from inbound cases. We had over 1000 of these cases last year. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "sellercentral.amazon.com",
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/b1c67794e4cc51e92b5ab6d62e3b0694",
+            "title": "FBA Inventory completely disappeared? Amazon seems to ...",
+            "description": "it is normal. After receipt, Amazon sends to various FC, and in the process many shipments get lost temp so it is just a matter of time until they re-appear."
+          },
+          {
+            "rank": 7,
+            "domain": "sellercentral.amazon.ae",
+            "url": "https://sellercentral.amazon.ae/gp/help/external/G200213130",
+            "title": "FBA lost and damaged inventory reimbursement policy",
+            "description": "Inventory misplaced at Amazon fulfillment center, Claims must be submitted within 60 calendar days from the date the unit is marked as \"Misplaced\" in the ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "sellercentral.amazon.com",
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/140a5a8c-ce3c-4a45-9f67-5f5f41e2cec3",
+            "title": "Amazon FBA – Lost Inventory, No Reimbursement",
+            "description": "Mar 13, 2026 — My inventory has been missing in an Amazon fulfillment center for over two months, the items are clearly lost in the warehouse, but no ..."
+          },
+          {
+            "rank": 9,
+            "domain": "marketplacevalet.com",
+            "url": "https://marketplacevalet.com/dealing-with-lost-or-damaged-inventory-in-amazon-fba-a-comprehensive-guide/",
+            "title": "Dealing with Lost or Damaged Inventory in Amazon FBA",
+            "description": "When Amazon loses or damages your FBA inventory due to errors in its own network, you are usually eligible for reimbursement at the product's fair market value."
+          },
+          {
+            "rank": 10,
+            "domain": "sellercentral.amazon.com",
+            "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/02b97be0-c18c-47ac-83d1-f06cde4228f6",
+            "title": "What's wrong with FBA Reimbursement (lost inventory)?",
+            "description": "May 2, 2024 — In short: when it comes to lost inventory, Amazon FBA reimburses only about a half or even less than a half of what the product is worth. For ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|transaction coordination": {
+      "fetchedAt": "2026-09-18T09:20:00.129Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=transaction%20coordination&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "video",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "transactly.com",
+            "url": "https://transactly.com/",
+            "title": "Transactly | The #1 Real Estate Transaction Coordination ...",
+            "description": "The #1 Real Estate Transaction Coordination Platform. Transactly provides industry leading transaction services and tech-enabled transaction coordinators. Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.indeed.com",
+            "url": "https://www.indeed.com/career-advice/finding-a-job/transaction-coordinator",
+            "title": "What Is a Transaction Coordinator? (With Duties and Skills)",
+            "description": "Jun 15, 2026 — A transaction coordinator is a professional who completes tasks related to real estate sales."
+          },
+          {
+            "rank": 5,
+            "domain": "www.onlineed.com",
+            "url": "https://www.onlineed.com/catalog/real-estate/transaction-coordination?srsltid=AU7gw4XjBkEyGJRFAFpIBdoL1WbivAvUZ8mjJ0jjuwX1fgqrWUJ7IBxD",
+            "title": "Real Estate Transaction Coordination Training",
+            "description": "A Transaction Coordinator is an assistant to a licensed real estate agent or brokerage. They may or may not have a real estate license."
+          },
+          {
+            "rank": 6,
+            "domain": "www.premiertcsvc.com",
+            "url": "https://www.premiertcsvc.com/post/the-essential-guide-to-understanding-real-estate-transaction-coordination",
+            "title": "What is Real Estate Transaction Coordination?",
+            "description": "Aug 20, 2023 — Transaction Coordination involves managing and overseeing all aspects of a real estate transaction from contract to closing."
+          },
+          {
+            "rank": 7,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/realtors/comments/1l9xd1k/should_i_get_a_transaction_coordinator/",
+            "title": "Should I get a transaction coordinator? : r/realtors",
+            "description": "Do you guys use a transaction coordinator? I've been working solo for ~2.5 years (relatively new to this) and I honestly spend the majority of my day ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/therealestateagentreferralnetwork/posts/1818387565695986/",
+            "title": "What is transaction coordination in real estate?",
+            "description": "Transaction Coordination involves overseeing paperwork and incidentals, usually from the time the contract is signed until closing. Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.freedom-res.com",
+            "url": "https://www.freedom-res.com/what-does-a-transaction-coordinator-do/",
+            "title": "What Does a Transaction Coordinator Actually Do All Day?",
+            "description": "A transaction coordinator manages the administrative work that happens between an executed real estate contract and closing day."
+          },
+          {
+            "rank": 10,
+            "domain": "www.empowertransactions.com",
+            "url": "https://www.empowertransactions.com/ready-to-hire-a-transaction-coordinator/",
+            "title": "Ready to Hire a Transaction Coordinator? Cost & Next Steps",
+            "description": "A transaction coordinator is a professional who handles all of the administrative tasks associated with a real estate transaction. This includes tasks such as ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|real estate admin burden": {
+      "fetchedAt": "2026-09-18T09:20:06.960Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=real%20estate%20admin%20burden&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/1055334112537176/posts/1507805553956694/",
+            "title": "What are the administrative burdens on real estate agents?",
+            "description": "Does anyone else see this as an issue!?  \nI thought being a realtor meant doing showings, and booking new clients. Not countless time, energy, and/or ..."
+          },
+          {
+            "rank": 3,
+            "domain": "theborowskigroup.com",
+            "url": "https://theborowskigroup.com/blog/stop-drowning-in-admin--why-systems-matter-more-than-hustle",
+            "title": "Stop Drowning in Admin: Why Systems Matter More Than ...",
+            "description": "One of the most frequently cited stressors in real estate is administrative burden. Agents often report spending more time managing logistics than engaging ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.redrover.ca",
+            "url": "https://www.redrover.ca/blogs/blog/1184767-the-role-of-administrative-assistants-in-real-estate",
+            "title": "The Role of Administrative Assistants in Real Estate",
+            "description": "Feb 19, 2024 — In the dynamic world of real estate, administrative tasks can be a significant burden for professionals trying to focus on their core ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "jobs.marylandnonprofits.org",
+            "url": "https://jobs.marylandnonprofits.org/career/real-estate-administrative-assistant",
+            "title": "Real Estate Administrative Assistant Overview",
+            "description": "A Real Estate Administrative Assistant is a professional who provides administrative support to real estate agents and brokers. They are responsible for a ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.fyxer.com",
+            "url": "https://www.fyxer.com/admin-burden-index/real-estate-industry-briefing",
+            "title": "Real Estate AI Industry Briefing | Admin Burden Index",
+            "description": "90% of real estate professionals now use AI, but only 35% find it genuinely helpful. This is a stark gap between tools deployed and value delivered—the largest ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "therealestatetrainer.com",
+            "url": "https://therealestatetrainer.com/how-realtors-use-administrative-support-to-get-more-business/",
+            "title": "How Real Estate Administrative Assistants Generate ...",
+            "description": "Agents must ensure that by hiring an administrative assistant the agent is permitted to spend less time on business servicing activities and more time ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/realtors/comments/720jt8/real_estate_administrative_assistant_what_to_know/",
+            "title": "Real Estate Administrative Assistant: What to know : r/realtors",
+            "description": "Hello all! I've applied to a local real estate agency regarding a job as an administrative assistant. One thing they ask for is Photoshop ..."
+          },
+          {
+            "rank": 10,
+            "domain": "wizehire.com",
+            "url": "https://wizehire.com/real-estate-administrative-assistant-job-description",
+            "title": "Real Estate Administrative Assistant Job Description",
+            "description": "Craft a Real Estate Administrative Assistant job description with Wizehire's free template, ideal for attracting skilled professionals."
+          },
+          {
+            "rank": 11,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=4iFUMg8EvCc",
+            "title": "Should Agents Hire a Real Estate Transaction Coordinator or ...",
+            "description": "Should you hire a real estate transaction coordinator or administrative assistant ? If you're asking this question, you're already ahead ..."
+          }
+        ]
+      }
     }
   }
 }

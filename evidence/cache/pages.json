@@ -2108,6 +2108,517 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.brewersassociation.org/brewing-industry-updates/keg-etiquette/": {
+      "fetchedAt": "2026-09-18T09:20:11.148Z",
+      "data": {
+        "url": "https://www.brewersassociation.org/brewing-industry-updates/keg-etiquette/",
+        "finalUrl": "https://www.brewersassociation.org/brewing-industry-updates/keg-etiquette/",
+        "retrievedAt": "2026-09-18T09:20:11.148Z",
+        "status": 200,
+        "error": null,
+        "title": "Keg Etiquette - Brewers Association",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$1.37",
+            "billingUnit": false,
+            "context": "g loss costs the U.S. brewing industry between 46 cents and $1.37 per barrel, acting as an enormous additional and unintended"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://breww.com/en-us/": {
+      "fetchedAt": "2026-09-18T09:20:11.150Z",
+      "data": {
+        "url": "https://breww.com/en-us/",
+        "finalUrl": "https://breww.com/en-us/",
+        "retrievedAt": "2026-09-18T09:20:11.150Z",
+        "status": 200,
+        "error": null,
+        "title": "Breww | Modern Brewery Management Software",
+        "description": "Breww is modern brewery management software designed specifically for craft breweries. Manage production, sales, deliveries, and more.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://breww.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:11.150Z",
+      "data": {
+        "url": "https://breww.com/pricing",
+        "finalUrl": "https://breww.com/pricing/",
+        "retrievedAt": "2026-09-18T09:20:11.150Z",
+        "status": 200,
+        "error": null,
+        "title": "Breww | Pricing",
+        "description": "See exactly what Breww costs for your brewery. Choose your currency, move the beer production slider, compare plans and review optional add-ons.",
+        "priceMentions": [
+          {
+            "text": "US$19.99",
+            "billingUnit": false,
+            "context": "u need, priced just as openly. Advanced sales visit routing US$19.99 per enabled user /mo Plan in-person sales visits around fix"
+          },
+          {
+            "text": "US$39.99",
+            "billingUnit": false,
+            "context": "there is a long wait between meetings. Advanced deliveries US$39.99 per vehicle /mo Plan using historic traffic, real roads, cu"
+          },
+          {
+            "text": "£4.99",
+            "billingUnit": false,
+            "context": "month, typically one per order. Consignments Price Up to 20 £4.99 Up to 1,000 £34.99 Up to 2,500 £79.99 Up to 6,000 £169.99 U"
+          },
+          {
+            "text": "£34.99",
+            "billingUnit": false,
+            "context": "ne per order. Consignments Price Up to 20 £4.99 Up to 1,000 £34.99 Up to 2,500 £79.99 Up to 6,000 £169.99 Up to 15,000 £329.99"
+          },
+          {
+            "text": "£79.99",
+            "billingUnit": false,
+            "context": "gnments Price Up to 20 £4.99 Up to 1,000 £34.99 Up to 2,500 £79.99 Up to 6,000 £169.99 Up to 15,000 £329.99 Additional over 15"
+          },
+          {
+            "text": "£169.99",
+            "billingUnit": false,
+            "context": "20 £4.99 Up to 1,000 £34.99 Up to 2,500 £79.99 Up to 6,000 £169.99 Up to 15,000 £329.99 Additional over 15,000 £0.05 per consi"
+          },
+          {
+            "text": "£329.99",
+            "billingUnit": false,
+            "context": "£34.99 Up to 2,500 £79.99 Up to 6,000 £169.99 Up to 15,000 £329.99 Additional over 15,000 £0.05 per consignment Consignments P"
+          },
+          {
+            "text": "£0.05",
+            "billingUnit": false,
+            "context": "o 6,000 £169.99 Up to 15,000 £329.99 Additional over 15,000 £0.05 per consignment Consignments Price Up to 20 US$6.99 Up to 1"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://getollie.com/": {
+      "fetchedAt": "2026-09-18T09:20:11.145Z",
+      "data": {
+        "url": "https://getollie.com/",
+        "finalUrl": "https://getollie.com/",
+        "retrievedAt": "2026-09-18T09:20:11.145Z",
+        "status": 200,
+        "error": null,
+        "title": "Brewery Management Software - Ollie",
+        "description": "Grow your craft brewery with the fastest-growing and most-reviewed brewery management software that handles everything from your tanks to your books.",
+        "priceMentions": [
+          {
+            "text": "$6,000/YR",
+            "billingUnit": true,
+            "context": "ing craft landscape. Success Stories Craft Your Story Saved $6,000/YR Boosted Sales Eased Workload Simple Switch to Ollie Saved $"
+          },
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "R Boosted Sales Eased Workload Simple Switch to Ollie Saved $1000's Improved Keg Tracking Increased Sales Increased Profitab"
+          },
+          {
+            "text": "$200 a Month",
+            "billingUnit": true,
+            "context": "ss Stories Pedals & Pints Brewing Saves 12 Hours a Week and $200 a Month Switching to Ollie Learn More 42 North Brewing Increases Pr"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.brewersassociation.org/pricing": {
+      "fetchedAt": "2026-09-18T09:20:11.149Z",
+      "data": {
+        "url": "https://www.brewersassociation.org/pricing",
+        "finalUrl": "https://www.brewersassociation.org/pricing",
+        "retrievedAt": "2026-09-18T09:20:11.149Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://getollie.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:11.147Z",
+      "data": {
+        "url": "https://getollie.com/pricing",
+        "finalUrl": "https://getollie.com/pricing",
+        "retrievedAt": "2026-09-18T09:20:11.147Z",
+        "status": 200,
+        "error": null,
+        "title": "How much does Ollie cost?",
+        "description": "View Ollie pricing and compare features to decide which brewery management software will be best for your craft brewery.",
+        "priceMentions": [
+          {
+            "text": "$201",
+            "billingUnit": false,
+            "context": "ls to efficiently manage brewery production and operations. $201 USD /mo $201 USD /mo Limted Time: 3 Year Price Lock Get Pri"
+          },
+          {
+            "text": "$366",
+            "billingUnit": false,
+            "context": "Ops, plus tools for sales, marketing, accounting, and more! $366 USD /mo $366 USD /mo Limted Time: 3 Year Price Lock Get Pri"
+          },
+          {
+            "text": "$1,188",
+            "billingUnit": false,
+            "context": "y delivers you a return on your investment. eCommerce Tools $1,188 Value Every Ollie subscriber gets a free* subscription to O"
+          },
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "ght about the trends in your area Untappd Marketing Package $1,000 Value Promote your brand on the world's largest online beer"
+          },
+          {
+            "text": "$588",
+            "billingUnit": false,
+            "context": "Untappd Sponsored Promotion annually. Monthly Consumer Data $588 Value Get local data delivered straight to your inbox every"
+          },
+          {
+            "text": "$600",
+            "billingUnit": false,
+            "context": "Badges? Data & Insights My Brewery Analytics Subscription A $600 value More Than Brewery Software - A Partnership Our pricin"
+          },
+          {
+            "text": "$200 a Month",
+            "billingUnit": true,
+            "context": "ss Stories Pedals & Pints Brewing Saves 12 Hours a Week and $200 a Month Switching to Ollie Learn More 42 North Brewing Increases Pr"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.spscommerce.com/community/articles/amazon-reimbursement-policy": {
+      "fetchedAt": "2026-09-18T09:20:12.887Z",
+      "data": {
+        "url": "https://www.spscommerce.com/community/articles/amazon-reimbursement-policy",
+        "finalUrl": "https://www.spscommerce.com/community/articles/amazon-reimbursement-policy",
+        "retrievedAt": "2026-09-18T09:20:12.887Z",
+        "status": 200,
+        "error": null,
+        "title": "Key Amazon Reimbursement Policy Details, Changes, and Updates | The Supply Chain Source",
+        "description": "Amazon reimbursement policy updates: claim windows, automated reimbursements, reimbursement caps, and seller recovery tips.",
+        "priceMentions": [
+          {
+            "text": "$450",
+            "billingUnit": false,
+            "context": "c reimbursement limits. Country Reimbursement Cap Australia $450 AUD Canada $400 CAD France €275 EUR Germany €275 EUR Italy"
+          },
+          {
+            "text": "$400",
+            "billingUnit": false,
+            "context": "limits. Country Reimbursement Cap Australia $450 AUD Canada $400 CAD France €275 EUR Germany €275 EUR Italy €275 EUR Mexico"
+          },
+          {
+            "text": "€275",
+            "billingUnit": false,
+            "context": "Reimbursement Cap Australia $450 AUD Canada $400 CAD France €275 EUR Germany €275 EUR Italy €275 EUR Mexico $5000 MXN Spain"
+          },
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "CAD France €275 EUR Germany €275 EUR Italy €275 EUR Mexico $5000 MXN Spain €275 EUR United Kingdom £250 GBP Note: Amazon’s"
+          },
+          {
+            "text": "£250",
+            "billingUnit": false,
+            "context": "aly €275 EUR Mexico $5000 MXN Spain €275 EUR United Kingdom £250 GBP Note: Amazon’s 2024 announcement included a Japan reimb"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|http://www.sellersprite.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:12.891Z",
+      "data": {
+        "url": "http://www.sellersprite.com/pricing",
+        "finalUrl": "https://www.sellersprite.com/pricing",
+        "retrievedAt": "2026-09-18T09:20:12.891Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://novadata.io/resources/blog/amazon-reimbursement-guide": {
+      "fetchedAt": "2026-09-18T09:20:12.889Z",
+      "data": {
+        "url": "https://novadata.io/resources/blog/amazon-reimbursement-guide",
+        "finalUrl": "https://novadata.io/resources/blog/amazon-reimbursement-guide",
+        "retrievedAt": "2026-09-18T09:20:12.889Z",
+        "status": 200,
+        "error": null,
+        "title": "Amazon FBA Reimbursement Guide: Refunds Reach 3.53% | Nova",
+        "description": "Refunds reached 3.53% of units across Nova&#x27;s panel. Learn the nine Amazon FBA reimbursement categories, claim windows and records needed to recover losses.",
+        "priceMentions": [
+          {
+            "text": "$1,500",
+            "billingUnit": false,
+            "context": "BA Reimbursement Guide 2026: Recover Lost Inventory Recover $1,500-$3,000 annually in lost inventory and overcharged fees. Com"
+          },
+          {
+            "text": "$3,000",
+            "billingUnit": false,
+            "context": "bursement Guide 2026: Recover Lost Inventory Recover $1,500-$3,000 annually in lost inventory and overcharged fees. Complete g"
+          },
+          {
+            "text": "$3,000 per year",
+            "billingUnit": true,
+            "context": "Most sellers don&#x27;t realize they&#x27;re leaving $1,500-$3,000 per year unclaimed because they don&#x27;t know what to look for or"
+          },
+          {
+            "text": "$40",
+            "billingUnit": false,
+            "context": "meline of the window change . New calculation: Previously a $40 retail SKU with a $9 landed cost would reimburse near $40."
+          },
+          {
+            "text": "$9",
+            "billingUnit": false,
+            "context": "hange . New calculation: Previously a $40 retail SKU with a $9 landed cost would reimburse near $40. Under the new policy"
+          },
+          {
+            "text": "$2,500",
+            "billingUnit": false,
+            "context": "of FBA inventory experiences reimbursable issues annually. $2,500 Average annual reimbursements per seller 1-3% Inventory wit"
+          },
+          {
+            "text": "$0.50",
+            "billingUnit": false,
+            "context": "t fee tier. Dimension and weight verification is crucial. A $0.50 overcharge per unit on 10,000 units = $5,000 in unnecessary"
+          },
+          {
+            "text": "$5,000",
+            "billingUnit": false,
+            "context": "n is crucial. A $0.50 overcharge per unit on 10,000 units = $5,000 in unnecessary fees. 7. Switcheroo returns Customer orders"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://novadata.io/pricing": {
+      "fetchedAt": "2026-09-18T09:20:12.890Z",
+      "data": {
+        "url": "https://novadata.io/pricing",
+        "finalUrl": "https://novadata.io/pricing",
+        "retrievedAt": "2026-09-18T09:20:12.890Z",
+        "status": 200,
+        "error": null,
+        "title": "Amazon Analytics Pricing - From $49/mo for FBA & FBM | Nova",
+        "description": "Start your free trial today. 14-day trial, no credit card required, cancel anytime. Plans from $49/mo for sellers, brands, and agencies.",
+        "priceMentions": [
+          {
+            "text": "$49/mo",
+            "billingUnit": true,
+            "context": "Amazon Analytics Pricing - From $49/mo for FBA & FBM | Nova Skip to main content Features Performa"
+          },
+          {
+            "text": "$49 /mo",
+            "billingUnit": true,
+            "context": "Pricing Log in Try for free Amazon analytics pricing, from $49 /mo 3,000+ users already trust Nova for their Amazon business 1"
+          },
+          {
+            "text": "$49 /month",
+            "billingUnit": true,
+            "context": "nd Owners Everything you need to grow on Amazon Starting at $49 /month Start 14 -day free trial Unlimited MCP Calls Amazon Command"
+          },
+          {
+            "text": "$49/month",
+            "billingUnit": true,
+            "context": "accounts? Yes. Additional Seller Central accounts start at $49/month each, the same base price as the main plan. Contact our sup"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.spscommerce.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:12.888Z",
+      "data": {
+        "url": "https://www.spscommerce.com/pricing",
+        "finalUrl": "https://www.spscommerce.com/pricing",
+        "retrievedAt": "2026-09-18T09:20:12.888Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|http://www.sellersprite.com/en/blog/amazon-fba-reimbursement-services": {
+      "fetchedAt": "2026-09-18T09:20:12.891Z",
+      "data": {
+        "url": "http://www.sellersprite.com/en/blog/amazon-fba-reimbursement-services",
+        "finalUrl": "https://www.sellersprite.com/en/blog/amazon-fba-reimbursement-services",
+        "retrievedAt": "2026-09-18T09:20:12.891Z",
+        "status": 200,
+        "error": null,
+        "title": "Amazon Owes You Money! Amazon FBA Reimbursement Services Help You Get It! - Seller Sprite",
+        "description": "Looking for an Amazon FBA Reimbursement Service? We tested a few and found our favorites. Learn how to get money back from Amazon for lost inventory and other situations.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://transactly.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:17.051Z",
+      "data": {
+        "url": "https://transactly.com/pricing",
+        "finalUrl": "https://transactly.com/pricing",
+        "retrievedAt": "2026-09-18T09:20:17.051Z",
+        "status": 200,
+        "error": null,
+        "title": "Transactly | Pricing",
+        "description": "Pricing on the #1 Transaction Coordination service.\nTransactly saves you 16+ hours every week. We handle 90% of closing tasks. \nStreamline closings today!",
+        "priceMentions": [
+          {
+            "text": "$ 0 /month",
+            "billingUnit": true,
+            "context": "Monthly Quarterly (Discount) Monthly Plans > Pay as you Go $ 0 /month Get Started Elite Monthly $ 379 /month Meet with Us Enterpr"
+          },
+          {
+            "text": "$ 379 /month",
+            "billingUnit": true,
+            "context": "Plans > Pay as you Go $ 0 /month Get Started Elite Monthly $ 379 /month Meet with Us Enterprise Custom quote Meet with Us Transacti"
+          },
+          {
+            "text": "$399",
+            "billingUnit": false,
+            "context": "Custom quote Meet with Us Transaction Coordination Services $399 $379 ($20 off ) Schedule a demo for pricing Other Coordinat"
+          },
+          {
+            "text": "$379",
+            "billingUnit": false,
+            "context": "m quote Meet with Us Transaction Coordination Services $399 $379 ($20 off ) Schedule a demo for pricing Other Coordination S"
+          },
+          {
+            "text": "$20",
+            "billingUnit": false,
+            "context": "e Meet with Us Transaction Coordination Services $399 $379 ($20 off ) Schedule a demo for pricing Other Coordination Servic"
+          },
+          {
+            "text": "$150",
+            "billingUnit": false,
+            "context": "f ) Schedule a demo for pricing Other Coordination Services $150 5% off Schedule a demo for pricing Transaction credits 1 tr"
+          },
+          {
+            "text": "$ 359 /month",
+            "billingUnit": true,
+            "context": "anager Office admin login Quarterly Plans > Elite Quarterly $ 359 /month paid quarterly Meet with Us Elite Annual Save More- 15% off"
+          },
+          {
+            "text": "$359",
+            "billingUnit": false,
+            "context": "Custom quote Meet with Us Transaction Coordination Services $359 ($40 off) $339 ($60 off) Schedule a demo for pricing Other"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://transactly.com/": {
+      "fetchedAt": "2026-09-18T09:20:17.050Z",
+      "data": {
+        "url": "https://transactly.com/",
+        "finalUrl": "https://transactly.com/",
+        "retrievedAt": "2026-09-18T09:20:17.050Z",
+        "status": 200,
+        "error": null,
+        "title": "Transactly | The #1 Real Estate Transaction Coordination Platform",
+        "description": "Eliminate The Paperwork, Leave The Driving To Us. Convenient, Hassle-free Real Estate Transactions. Need A TC? Get started with the Transactly Platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://theborowskigroup.com/blog/stop-drowning-in-admin--why-systems-matter-more-than-hustle": {
+      "fetchedAt": "2026-09-18T09:20:17.052Z",
+      "data": {
+        "url": "https://theborowskigroup.com/blog/stop-drowning-in-admin--why-systems-matter-more-than-hustle",
+        "finalUrl": "https://theborowskigroup.com/blog/stop-drowning-in-admin--why-systems-matter-more-than-hustle",
+        "retrievedAt": "2026-09-18T09:20:17.052Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://theborowskigroup.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:17.053Z",
+      "data": {
+        "url": "https://theborowskigroup.com/pricing",
+        "finalUrl": "https://theborowskigroup.com/pricing",
+        "retrievedAt": "2026-09-18T09:20:17.053Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://www.onlineed.com/pricing": {
+      "fetchedAt": "2026-09-18T09:20:17.054Z",
+      "data": {
+        "url": "https://www.onlineed.com/pricing",
+        "finalUrl": "https://www.onlineed.com/pricing",
+        "retrievedAt": "2026-09-18T09:20:17.054Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.onlineed.com/catalog/real-estate/transaction-coordination?srsltid=AU7gw4XjBkEyGJRFAFpIBdoL1WbivAvUZ8mjJ0jjuwX1fgqrWUJ7IBxD": {
+      "fetchedAt": "2026-09-18T09:20:17.054Z",
+      "data": {
+        "url": "https://www.onlineed.com/catalog/real-estate/transaction-coordination?srsltid=AU7gw4XjBkEyGJRFAFpIBdoL1WbivAvUZ8mjJ0jjuwX1fgqrWUJ7IBxD",
+        "finalUrl": "https://www.onlineed.com/catalog/real-estate/transaction-coordination?srsltid=AU7gw4XjBkEyGJRFAFpIBdoL1WbivAvUZ8mjJ0jjuwX1fgqrWUJ7IBxD",
+        "retrievedAt": "2026-09-18T09:20:17.054Z",
+        "status": 200,
+        "error": null,
+        "title": "Real Estate Transaction Coordination Training | OnlineEd",
+        "description": "Learn the skills you need to be a real estate transaction coordinator! Certification available.",
+        "priceMentions": [
+          {
+            "text": "$ 249.00",
+            "billingUnit": false,
+            "context": "ees and unlicensed persons looking to get into real estate. $ 249.00 Add to Cart Learn More Certified Transaction Coordinator (C"
+          },
+          {
+            "text": "$ 749.00",
+            "billingUnit": false,
+            "context": "intended for non-licensees looking to get into real estate. $ 749.00 Add to Cart Learn More Certified Transaction Coordinator (C"
+          },
+          {
+            "text": "$ 738.00",
+            "billingUnit": false,
+            "context": "le for active licensees. Take this course at your own pace. $ 738.00 Add to Cart Learn More Transaction Coordination 2: Beyond t"
+          },
+          {
+            "text": "$ 198.00",
+            "billingUnit": false,
+            "context": "ful TC, how to run a TC business and everything in-between. $ 198.00 Add to Cart Learn More About Transaction Coordination A rea"
+          },
+          {
+            "text": "$40,000",
+            "billingUnit": false,
+            "context": "How much money does a Transaction Coordinator earn? Between $40,000 and $110,000. Amounts vary by region, pay structure, volume"
+          },
+          {
+            "text": "$110,000",
+            "billingUnit": false,
+            "context": "ey does a Transaction Coordinator earn? Between $40,000 and $110,000. Amounts vary by region, pay structure, volume, and experie"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
     }
   }
 }
