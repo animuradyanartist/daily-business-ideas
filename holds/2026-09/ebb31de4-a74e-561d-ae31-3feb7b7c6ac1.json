@@ -2,15 +2,25 @@
   "id": "ebb31de4-a74e-561d-ae31-3feb7b7c6ac1",
   "month": "2026-09",
   "client": "scout",
-  "status": "reserved",
+  "status": "charged",
   "estimatedUsd": 0.0022,
-  "actualUsd": null,
+  "actualUsd": 0.002,
   "endpoint": "serp/google/organic/live/regular",
   "requestKey": "b345d060d3a3b27a32c65666",
   "runId": "2026-09-19-a1-1789808776225",
   "createdAt": "2026-09-19T09:07:17.131Z",
   "expiresAt": "2026-09-19T09:22:17.131Z",
-  "settledAt": null,
+  "settledAt": "2026-09-19T09:07:32.146Z",
   "note": null,
-  "payload": null
+  "payload": {
+    "endpoint": "serp/google/organic/live/regular",
+    "requested": 1,
+    "location": "United States",
+    "language": "en",
+    "source": "scout",
+    "runId": "2026-09-19-a1-1789808776225",
+    "measured": 9,
+    "measuredAt": "2026-09-19T09:07:18.666Z",
+    "estimated": false
+  }
 }
