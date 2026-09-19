@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-19
+*   The most powerful B2B software opportunities often exist in industries where the primary customer is the government (e.g., Medicaid), as this creates a complex, non-negotiable billing process that is ripe for automation.
+*   A "slow" go-to-market strategy focused on dominating a single state can be a powerful moat, building local network effects and regulatory expertise that are difficult for fast-moving, well-funded competitors to replicate.
+*   For businesses with tight cash flow cycles, software that accelerates the "work-to-cash" timeline is not a vitamin; it is core infrastructure and a powerful painkiller.
+
 ## 2026-09-18 (trends)
 - An announced repeal of a "zero tolerance" policy doesn't necessarily reduce the market pain if the underlying regulations and high enforcement rates persist; the new, higher level of perceived risk can become permanent.
 - The most compelling vertical SaaS opportunities often exist where a specific government agency (like the ATF) acts as a persistent, non-negotiable antagonist to a fragmented market of small business owners.

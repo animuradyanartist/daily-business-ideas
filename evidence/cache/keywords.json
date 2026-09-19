@@ -12818,6 +12818,1582 @@
         "mainIntent": "commercial",
         "providerUpdatedAt": "2026-09-17 17:24:19 +00:00"
       }
+    },
+    "labs|united states|en|dental lab problems": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab workflow": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "dental lab workflow",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.2,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 11:17:16 +00:00"
+      }
+    },
+    "labs|united states|en|dental lab errors": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab software": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "dental lab software",
+        "searchVolume": 260,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 28.85,
+        "adCompetition": 0.31,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-12 19:36:28 +00:00"
+      }
+    },
+    "labs|united states|en|lab management system": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "lab management system",
+        "searchVolume": 12100,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 14800
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 14800
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 14800
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 1600
+          }
+        ],
+        "cpcUsd": 18.39,
+        "adCompetition": 0.33,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 23:20:24 +00:00"
+      }
+    },
+    "labs|united states|en|dental lab tools": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "dental lab tools",
+        "searchVolume": 720,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 320
+          }
+        ],
+        "cpcUsd": 3.96,
+        "adCompetition": 0.42,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 49,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-09-15 02:21:59 +00:00"
+      }
+    },
+    "labs|united states|en|lab software cost": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best dental lab software": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "best dental lab software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.86,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-12 05:34:27 +00:00"
+      }
+    },
+    "labs|united states|en|dental lab management cost": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|nemt scheduling problems": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|nemt missed appointments": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|nemt operational chaos": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|nemt dispatch software": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "nemt dispatch software",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 44.71,
+        "adCompetition": 0.37,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 00:54:55 +00:00"
+      }
+    },
+    "labs|united states|en|nemt billing software": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "nemt billing software",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 42,
+        "adCompetition": 0.15,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -44,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 05:08:57 +00:00"
+      }
+    },
+    "labs|united states|en|nemt routing app": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|nemt software pricing": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "nemt software pricing",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 31.27,
+        "adCompetition": 0.33,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 00:18:51 +00:00"
+      }
+    },
+    "labs|united states|en|best nemt software": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "best nemt software",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 29,
+        "adCompetition": 0.21,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 22,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 19:28:29 +00:00"
+      }
+    },
+    "labs|united states|en|nemt dispatch system cost": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|construction submittal tracking problems": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|architect submittal log issues": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|manage construction submittals": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|submittal log software": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "submittal log software",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.14,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-09-13 15:28:37 +00:00"
+      }
+    },
+    "labs|united states|en|construction submittal tool": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|architect project management": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": true,
+      "data": {
+        "keyword": "architect project management",
+        "searchVolume": 260,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 390
+          }
+        ],
+        "cpcUsd": 21.05,
+        "adCompetition": 0.29,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -35,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 23:51:21 +00:00"
+      }
+    },
+    "labs|united states|en|submittal software pricing": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best submittal tracking": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|construction submittal cost": {
+      "fetchedAt": "2026-09-19T09:06:20.632Z",
+      "returned": false,
+      "data": null
     }
   }
 }

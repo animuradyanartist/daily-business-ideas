@@ -2619,6 +2619,426 @@
         "mentionsContactSales": false,
         "mentionsPricing": false
       }
+    },
+    "page|https://www.magictouchsoftware.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:33.734Z",
+      "data": {
+        "url": "https://www.magictouchsoftware.com/pricing",
+        "finalUrl": "https://www.magictouchsoftware.com/pricing",
+        "retrievedAt": "2026-09-19T09:07:33.734Z",
+        "status": 200,
+        "error": null,
+        "title": "Magic Touch Lab Software Plans & Bundles",
+        "description": "Find the right Magic Touch plan for your dental lab. Simplify workflows, track cases, billing & CRM with transparent pricing options. See if you qualify for special pricing.",
+        "priceMentions": [
+          {
+            "text": "$325 /mo",
+            "billingUnit": true,
+            "context": "nts Best for growing labs managing daily volume Starting at $325 /mo Book a demo Magic Touch Lite This is some text inside of a"
+          },
+          {
+            "text": "$154 /mo",
+            "billingUnit": true,
+            "context": "& invoicing Best for small labs getting started Starting at $154 /mo Book a demo Magic Touch Signature most popular Magic Touch"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.magictouchsoftware.com/": {
+      "fetchedAt": "2026-09-19T09:07:33.732Z",
+      "data": {
+        "url": "https://www.magictouchsoftware.com/",
+        "finalUrl": "https://www.magictouchsoftware.com/",
+        "retrievedAt": "2026-09-19T09:07:33.732Z",
+        "status": 200,
+        "error": null,
+        "title": "Magic Touch | Dental Laboratory Management Software",
+        "description": "CRM tools, case management, billing, client communications, custom reports, automations and more. Book a demo of Magic Touch software.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.avadent.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:33.738Z",
+      "data": {
+        "url": "https://www.avadent.com/pricing",
+        "finalUrl": "https://www.avadent.com/pricing",
+        "retrievedAt": "2026-09-19T09:07:33.738Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://digitalsmiledesign.com/learning-hub/what-are-the-biggest-problems-dentists-face-with-dental-labs-and-what-can-you-do-about-them": {
+      "fetchedAt": "2026-09-19T09:07:33.735Z",
+      "data": {
+        "url": "https://digitalsmiledesign.com/learning-hub/what-are-the-biggest-problems-dentists-face-with-dental-labs-and-what-can-you-do-about-them",
+        "finalUrl": "https://digitalsmiledesign.com/learning-hub/what-are-the-biggest-problems-dentists-face-with-dental-labs-and-what-can-you-do-about-them",
+        "retrievedAt": "2026-09-19T09:07:33.735Z",
+        "status": 200,
+        "error": null,
+        "title": "What are the biggest problems dentists face with dental labs",
+        "description": "Struggling with dental lab problems? Discover the 5 most common issues dentists face with labs — and practical ways to solve them for predictable results.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.avadent.com/software-dental-lab-management/": {
+      "fetchedAt": "2026-09-19T09:07:33.738Z",
+      "data": {
+        "url": "https://www.avadent.com/software-dental-lab-management/",
+        "finalUrl": "https://www.avadent.com/software-dental-lab-management/",
+        "retrievedAt": "2026-09-19T09:07:33.738Z",
+        "status": 200,
+        "error": null,
+        "title": "Best Dental Lab Management Software (2026 Guide) | AvaDent",
+        "description": "Find the best dental lab management software for your practice. Compare features, pricing, and integration of top platforms including AvaDent CAE solution.",
+        "priceMentions": [
+          {
+            "text": "$39/month",
+            "billingUnit": true,
+            "context": "For example, basic options like MyDentLab can start around $39/month, which is great for getting essential features without a hu"
+          },
+          {
+            "text": "$79/month",
+            "billingUnit": true,
+            "context": "tment. More advanced systems like 3Shape might start around $79/month and cost more as you grow and add more functionality. When"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://digitalsmiledesign.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:33.736Z",
+      "data": {
+        "url": "https://digitalsmiledesign.com/pricing",
+        "finalUrl": "https://digitalsmiledesign.com/pricing",
+        "retrievedAt": "2026-09-19T09:07:33.736Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://nemtclouddispatch.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:34.916Z",
+      "data": {
+        "url": "https://nemtclouddispatch.com/pricing",
+        "finalUrl": "https://nemtclouddispatch.com/nemt-pricing/",
+        "retrievedAt": "2026-09-19T09:07:34.916Z",
+        "status": 200,
+        "error": null,
+        "title": "NEMT Software Pricing From $49.99/Month | NEMT Cloud Dispatch",
+        "description": "NEMT software pricing from $49.99/month. Transparent tiers for solo operators, small fleets, and growing NEMT, paratransit, and school transportation operations.",
+        "priceMentions": [
+          {
+            "text": "$49.99/Month",
+            "billingUnit": true,
+            "context": "NEMT Software Pricing From $49.99/Month | NEMT Cloud Dispatch Home Industries NEMT Real Time Dispat"
+          },
+          {
+            "text": "$49.99 a month",
+            "billingUnit": true,
+            "context": "any vehicles you run. A solo operator with one vehicle pays $49.99 a month. A growing fleet of 10 vehicles pays $149.99 plus five addi"
+          },
+          {
+            "text": "$149.99",
+            "billingUnit": false,
+            "context": "le pays $49.99 a month. A growing fleet of 10 vehicles pays $149.99 plus five additional vehicles at $39.99 each — $349.94 tota"
+          },
+          {
+            "text": "$39.99",
+            "billingUnit": false,
+            "context": "f 10 vehicles pays $149.99 plus five additional vehicles at $39.99 each — $349.94 total, or about $35 per vehicle. A 30-vehicl"
+          },
+          {
+            "text": "$349.94",
+            "billingUnit": false,
+            "context": "pays $149.99 plus five additional vehicles at $39.99 each — $349.94 total, or about $35 per vehicle. A 30-vehicle operation cos"
+          },
+          {
+            "text": "$35",
+            "billingUnit": false,
+            "context": "dditional vehicles at $39.99 each — $349.94 total, or about $35 per vehicle. A 30-vehicle operation costs $1,149.74 per mon"
+          },
+          {
+            "text": "$1,149.74 per month",
+            "billingUnit": true,
+            "context": "tal, or about $35 per vehicle. A 30-vehicle operation costs $1,149.74 per month, or about $38.32 per vehicle. Beyond five vehicles, each ad"
+          },
+          {
+            "text": "$38.32",
+            "billingUnit": false,
+            "context": "A 30-vehicle operation costs $1,149.74 per month, or about $38.32 per vehicle. Beyond five vehicles, each additional vehicle"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://momentmtech.com/nemt-software/": {
+      "fetchedAt": "2026-09-19T09:07:34.913Z",
+      "data": {
+        "url": "https://momentmtech.com/nemt-software/",
+        "finalUrl": "https://momentmtech.com/nemt-software/",
+        "retrievedAt": "2026-09-19T09:07:34.913Z",
+        "status": 200,
+        "error": null,
+        "title": "NEMT Software for Dispatch, Scheduling & Billing | Momentm Technologies",
+        "description": "NEMT software for transportation providers, brokers, and health programs. Manage scheduling, dispatch, routing, billing, reporting, and compliance.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://caretap.net/blog/top-nemt-software-picks/": {
+      "fetchedAt": "2026-09-19T09:07:34.911Z",
+      "data": {
+        "url": "https://caretap.net/blog/top-nemt-software-picks/",
+        "finalUrl": "https://caretap.net/blog/top-nemt-software-picks/",
+        "retrievedAt": "2026-09-19T09:07:34.911Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 10 NEMT Software Picks for 2026 | Caretap",
+        "description": "Discover leading NEMT software for 2026 designed to simplify workflows and improve efficiency.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://momentmtech.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:34.914Z",
+      "data": {
+        "url": "https://momentmtech.com/pricing",
+        "finalUrl": "https://momentmtech.com/pricing",
+        "retrievedAt": "2026-09-19T09:07:34.914Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://caretap.net/pricing": {
+      "fetchedAt": "2026-09-19T09:07:34.912Z",
+      "data": {
+        "url": "https://caretap.net/pricing",
+        "finalUrl": "https://caretap.net/pricing/",
+        "retrievedAt": "2026-09-19T09:07:34.912Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Caretap",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$199",
+            "billingUnit": false,
+            "context": "Your personalized quote may vary. Starter Plan Starting at $199 $99/month, first 4 months Best for small agencies getting o"
+          },
+          {
+            "text": "$99/month",
+            "billingUnit": true,
+            "context": "personalized quote may vary. Starter Plan Starting at $199 $99/month, first 4 months Best for small agencies getting organized."
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://nemtclouddispatch.com/manual-nemt-scheduling-cost/": {
+      "fetchedAt": "2026-09-19T09:07:34.915Z",
+      "data": {
+        "url": "https://nemtclouddispatch.com/manual-nemt-scheduling-cost/",
+        "finalUrl": "https://nemtclouddispatch.com/manual-nemt-scheduling-cost/",
+        "retrievedAt": "2026-09-19T09:07:34.915Z",
+        "status": 200,
+        "error": null,
+        "title": "Manual NEMT Scheduling Cost Explained | NEMT Cloud Dispatch",
+        "description": "Learn the real manual NEMT scheduling cost and how NEMT Cloud Dispatch solves scheduling problems and inefficiencies.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://buildsync.ai/pricing": {
+      "fetchedAt": "2026-09-19T09:07:39.678Z",
+      "data": {
+        "url": "https://buildsync.ai/pricing",
+        "finalUrl": "https://buildsync.ai/pricing",
+        "retrievedAt": "2026-09-19T09:07:39.678Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.knack.com/blog/submittal-management-software/": {
+      "fetchedAt": "2026-09-19T09:07:39.679Z",
+      "data": {
+        "url": "https://www.knack.com/blog/submittal-management-software/",
+        "finalUrl": "https://www.knack.com/blog/submittal-management-software/",
+        "retrievedAt": "2026-09-19T09:07:39.679Z",
+        "status": 200,
+        "error": null,
+        "title": "Construction Submittal Tracking & Approval Workflows System | Knack",
+        "description": "Learn how to streamline construction submittal tracking and approvals with centralized workflows and build a custom system tailored to your projects.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://buildsync.ai/resources/best-submittal-software-reviewed": {
+      "fetchedAt": "2026-09-19T09:07:39.677Z",
+      "data": {
+        "url": "https://buildsync.ai/resources/best-submittal-software-reviewed",
+        "finalUrl": "https://buildsync.ai/resources/best-submittal-software-reviewed",
+        "retrievedAt": "2026-09-19T09:07:39.677Z",
+        "status": 200,
+        "error": null,
+        "title": "9 Best Submittal Software for Construction Projects Reviewed - BuildSync",
+        "description": "Compare the top submittal software solutions for construction teams. Our expert review covers features, pricing, and user ratings to help you choose the right platform.",
+        "priceMentions": [
+          {
+            "text": "$805",
+            "billingUnit": false,
+            "context": "te hovers around 30%. Each rejected submittal costs roughly $805 in direct costs, plus the indirect hit of 2-4 weeks added t"
+          },
+          {
+            "text": "$120,000",
+            "billingUnit": false,
+            "context": "ical project processing 500 construction submittals, that's $120,000+ in rejection costs alone. Before picking a tool, it helps"
+          },
+          {
+            "text": "$150",
+            "billingUnit": false,
+            "context": "minutes to set up. No dedicated training required. Pricing: $150-$250/month flat rate/custom pricing for enterprise Best For"
+          },
+          {
+            "text": "$250/month",
+            "billingUnit": true,
+            "context": "es to set up. No dedicated training required. Pricing: $150-$250/month flat rate/custom pricing for enterprise Best For: Local con"
+          },
+          {
+            "text": "$260",
+            "billingUnit": false,
+            "context": "ject team members to mark up files simultaneously. Pricing: $260-$590/user/year Best For: Teams needing advanced PDF markup"
+          },
+          {
+            "text": "$590/user",
+            "billingUnit": true,
+            "context": "team members to mark up files simultaneously. Pricing: $260-$590/user/year Best For: Teams needing advanced PDF markup across all"
+          },
+          {
+            "text": "$249",
+            "billingUnit": false,
+            "context": "ble for larger teams than per-user pricing models. Pricing: $249- $1,449/month Best For: Large teams where per-user pricing"
+          },
+          {
+            "text": "$1,449/month",
+            "billingUnit": true,
+            "context": "r larger teams than per-user pricing models. Pricing: $249- $1,449/month Best For: Large teams where per-user pricing becomes prohib"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.cmfusion.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:39.682Z",
+      "data": {
+        "url": "https://www.cmfusion.com/pricing",
+        "finalUrl": "https://www.cmfusion.com/pricing",
+        "retrievedAt": "2026-09-19T09:07:39.682Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.knack.com/pricing": {
+      "fetchedAt": "2026-09-19T09:07:39.680Z",
+      "data": {
+        "url": "https://www.knack.com/pricing",
+        "finalUrl": "https://www.knack.com/pricing/",
+        "retrievedAt": "2026-09-19T09:07:39.680Z",
+        "status": 200,
+        "error": null,
+        "title": "Knack Pricing | Unlimited Users Allows You to Scale Without Fees",
+        "description": "Knack has competitive pricing. Try free for 14 days, no credit card needed. Choose from Starter, Pro, Corporate, or Enterprise plans.",
+        "priceMentions": [
+          {
+            "text": "$59",
+            "billingUnit": false,
+            "context": "Limited Time Only! Starter For individuals and small teams. $59 $19 * per month / month, billed monthly Start Free Trial Fe"
+          },
+          {
+            "text": "$19",
+            "billingUnit": false,
+            "context": "ted Time Only! Starter For individuals and small teams. $59 $19 * per month / month, billed monthly Start Free Trial Featur"
+          },
+          {
+            "text": "$130",
+            "billingUnit": false,
+            "context": "tomers only. Pro For businesses building more complex apps. $130 $49 * per month / month, billed monthly Start Free Trial Al"
+          },
+          {
+            "text": "$49",
+            "billingUnit": false,
+            "context": "s only. Pro For businesses building more complex apps. $130 $49 * per month / month, billed monthly Start Free Trial All th"
+          },
+          {
+            "text": "$300",
+            "billingUnit": false,
+            "context": "r companies looking to transform their business operations. $300 * per month / month, billed monthly Start Free Trial All th"
+          },
+          {
+            "text": "$49 / month",
+            "billingUnit": true,
+            "context": "ted time offer Starter For individuals and small teams. $59 $49 / month, billed annually Start Free Trial Features: No code online"
+          },
+          {
+            "text": "$110 / month",
+            "billingUnit": true,
+            "context": "Credits Pro For businesses building more complex apps. $130 $110 / month, billed annually Start Free Trial All the features of Start"
+          },
+          {
+            "text": "$250",
+            "billingUnit": false,
+            "context": "panies looking to transform their business operations. $130 $250 * / month, billed annually Start Free Trial All the feature"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.cmfusion.com/features/construction-submittals": {
+      "fetchedAt": "2026-09-19T09:07:39.681Z",
+      "data": {
+        "url": "https://www.cmfusion.com/features/construction-submittals",
+        "finalUrl": "https://www.cmfusion.com/features/construction-submittals",
+        "retrievedAt": "2026-09-19T09:07:39.681Z",
+        "status": 200,
+        "error": null,
+        "title": "Submittal Tracking Software That Works - CM Fusion",
+        "description": "Tired of manually tracking your construction submittals and activity? Streamline the process with construction submittal software by CM Fusion.",
+        "priceMentions": [
+          {
+            "text": "$199/month",
+            "billingUnit": true,
+            "context": "ittal management software, you can sign up for as little as $199/month with: – Unlimited users – 100 active projects for Pro users"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
     }
   }
 }

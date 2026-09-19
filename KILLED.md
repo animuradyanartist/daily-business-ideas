@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-19
+*   **The Dental Lab's "Case-in-the-Box" Management Hub** — Killed. While the pain is real, it's an efficiency/profitability problem, which is less acute than the NEMT provider's existential cash flow problem.
+*   **The Church Administrator's "Sunday-Morning-Ready" Volunteer Scheduling Hub** — Killed. The buyer (churches) has a notoriously low willingness to pay for software, and the problem, while frustrating, does not have a direct, measurable financial cost.
+*   **The Small Landscaping Business's "Get Paid Before The Grass Grows" Quoting & Invoicing Hub** — Killed. A very crowded market with dozens of existing solutions (Jobber, Housecall Pro, etc.). The wedge is unclear.
+
 ## 2026-09-18
 - **The Craft Brewery's Keg Tracking & Recovery Hub** — Killed. The pain is financial loss, not an existential threat. The market is mature and facing economic headwinds, making it a "vitamin" in a tough environment.
 - **The Amazon FBA Seller's "Clawback" Reimbursement Hub** — Killed. A strong "found money" value proposition, but it's a platform-risk business dependent on Amazon's APIs and policies. It lacks the regulatory moat of the FFL idea.

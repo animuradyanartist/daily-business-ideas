@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 100 | high | 2026-09-19 | The Non-Emergency Medical Transportation (NEMT) Provider's "Get Paid, Not Buried" Hub |
 | 100 | high | 2026-09-18 | The Independent Firearm Dealer's "ATF-Ready" Digital A&D Book |
 | 100 | high | 2026-09-17 | The Personal Injury Law Firm's Medical Records Request & Tracking Hub |
 | 100 | high | 2026-09-16 | The Small Water Treatment Plant's "State-Ready" Monthly Operating Report (MOR) Generator |
