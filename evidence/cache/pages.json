@@ -3039,6 +3039,405 @@
         "mentionsContactSales": true,
         "mentionsPricing": true
       }
+    },
+    "page|https://hitechpawn.com/": {
+      "fetchedAt": "2026-09-20T09:34:00.929Z",
+      "data": {
+        "url": "https://hitechpawn.com/",
+        "finalUrl": "https://hitechpawn.com/",
+        "retrievedAt": "2026-09-20T09:34:00.929Z",
+        "status": 200,
+        "error": null,
+        "title": "Hi-Tech Pawn | Pawn Shop POS Software | First 30 Days Free",
+        "description": "Hi-Tech has provided high quality, easy-to-use, affordable Pawn Shop Software for over 30 years. Start your free 30 day trial within minutes.",
+        "priceMentions": [
+          {
+            "text": "$98.39 per month",
+            "billingUnit": true,
+            "context": "Month Three Months Six Months Yearly One Month One Feature $98.39 per month Select Any Feature: Pawn Shop Management - OR - Title Pawn"
+          },
+          {
+            "text": "$126.03 per month",
+            "billingUnit": true,
+            "context": "Title Pawn - OR - Check Loans / Check Cashing Two Features $126.03 per month Select Any Two Features: Pawn Shop Management - AND / OR -"
+          },
+          {
+            "text": "$153.63 per month",
+            "billingUnit": true,
+            "context": "awn - AND / OR - Check Loans / Check Cashing Three Features $153.63 per month All Three Feature Sets: Pawn Shop Management -AND- Title Pa"
+          },
+          {
+            "text": "$280.41",
+            "billingUnit": false,
+            "context": "-AND- Check Loans / Check Cashing Three Months One Feature $280.41 per quarter Select Any Feature: Pawn Shop Management - OR -"
+          },
+          {
+            "text": "$359.18",
+            "billingUnit": false,
+            "context": "Title Pawn - OR - Check Loans / Check Cashing Two Features $359.18 per quarter Select Any Two Features: Pawn Shop Management -"
+          },
+          {
+            "text": "$437.84",
+            "billingUnit": false,
+            "context": "awn - AND / OR - Check Loans / Check Cashing Three Features $437.84 per quarter All Three Feature Sets: Pawn Shop Management -A"
+          },
+          {
+            "text": "$531.31",
+            "billingUnit": false,
+            "context": "wn -AND- Check Loans / Check Cashing Six Months One Feature $531.31 semi-annually Select Any Feature: Pawn Shop Management - OR"
+          },
+          {
+            "text": "$680.54",
+            "billingUnit": false,
+            "context": "Title Pawn - OR - Check Loans / Check Cashing Two Features $680.54 semi-annually Select Any Two Features: Pawn Shop Management"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.pawn-software.com/": {
+      "fetchedAt": "2026-09-20T09:34:00.925Z",
+      "data": {
+        "url": "https://www.pawn-software.com/",
+        "finalUrl": "https://pawn-software.com/",
+        "retrievedAt": "2026-09-20T09:34:00.925Z",
+        "status": 200,
+        "error": null,
+        "title": "PawnSmarts Pawn Shop Software",
+        "description": "Work from anywhere on PC, Mac or phone. Very fast 30-sec pawn entry. Pledgors pay online. Compliance help. LEADS reporting. No contract or hidden costs.",
+        "priceMentions": [
+          {
+            "text": "$120.00",
+            "billingUnit": false,
+            "context": "age &mdash; PawnSmarts Hi Maria &mdash; your loan #7265 for $120.00 is due in 3 days on Apr 25. Tap below to pay and keep your"
+          },
+          {
+            "text": "$142.50",
+            "billingUnit": false,
+            "context": "3 days on Apr 25. Tap below to pay and keep your item. Pay $142.50 Now → Delivered &middot; 9:14 AM Online Payment Pledgor Pay"
+          },
+          {
+            "text": "$89",
+            "billingUnit": false,
+            "context": "ine Any phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migrat"
+          },
+          {
+            "text": "$129/mo",
+            "billingUnit": true,
+            "context": "phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migration Switch"
+          },
+          {
+            "text": "$395",
+            "billingUnit": false,
+            "context": "story Comes With You Send Us Your Data. We Do the Rest. For $395, we convert it &mdash; customers, open loans, transaction h"
+          },
+          {
+            "text": "$129/Month",
+            "billingUnit": true,
+            "context": "total time: < 24 hours 04 &mdash; The Price Is Right $89 or $129/Month ~ or Free! 1 No Contract. No Surprises. Month to month. Can"
+          },
+          {
+            "text": "$89/month",
+            "billingUnit": true,
+            "context": "No setup fee. No annual commitment. Essential Plan &mdash; $89/month Everything You Need to Run Your Shop. $89/month, month to m"
+          },
+          {
+            "text": "$129/month",
+            "billingUnit": true,
+            "context": "s and online payment? Those are in the Professional plan at $129/month. Switching from expensive software? Most shops cut their so"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://hitechpawn.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:00.930Z",
+      "data": {
+        "url": "https://hitechpawn.com/pricing",
+        "finalUrl": "https://hitechpawn.com/pricing",
+        "retrievedAt": "2026-09-20T09:34:00.930Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - Hi-Tech Pawn Software",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.pawn-software.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:00.926Z",
+      "data": {
+        "url": "https://www.pawn-software.com/pricing",
+        "finalUrl": "https://pawn-software.com/",
+        "retrievedAt": "2026-09-20T09:34:00.926Z",
+        "status": 200,
+        "error": null,
+        "title": "PawnSmarts Pawn Shop Software",
+        "description": "Work from anywhere on PC, Mac or phone. Very fast 30-sec pawn entry. Pledgors pay online. Compliance help. LEADS reporting. No contract or hidden costs.",
+        "priceMentions": [
+          {
+            "text": "$120.00",
+            "billingUnit": false,
+            "context": "age &mdash; PawnSmarts Hi Maria &mdash; your loan #7265 for $120.00 is due in 3 days on Apr 25. Tap below to pay and keep your"
+          },
+          {
+            "text": "$142.50",
+            "billingUnit": false,
+            "context": "3 days on Apr 25. Tap below to pay and keep your item. Pay $142.50 Now → Delivered &middot; 9:14 AM Online Payment Pledgor Pay"
+          },
+          {
+            "text": "$89",
+            "billingUnit": false,
+            "context": "ine Any phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migrat"
+          },
+          {
+            "text": "$129/mo",
+            "billingUnit": true,
+            "context": "phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migration Switch"
+          },
+          {
+            "text": "$395",
+            "billingUnit": false,
+            "context": "story Comes With You Send Us Your Data. We Do the Rest. For $395, we convert it &mdash; customers, open loans, transaction h"
+          },
+          {
+            "text": "$129/Month",
+            "billingUnit": true,
+            "context": "total time: < 24 hours 04 &mdash; The Price Is Right $89 or $129/Month ~ or Free! 1 No Contract. No Surprises. Month to month. Can"
+          },
+          {
+            "text": "$89/month",
+            "billingUnit": true,
+            "context": "No setup fee. No annual commitment. Essential Plan &mdash; $89/month Everything You Need to Run Your Shop. $89/month, month to m"
+          },
+          {
+            "text": "$129/month",
+            "billingUnit": true,
+            "context": "s and online payment? Those are in the Professional plan at $129/month. Switching from expensive software? Most shops cut their so"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.pawnmate.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:00.929Z",
+      "data": {
+        "url": "https://www.pawnmate.com/pricing",
+        "finalUrl": "https://www.pawnmate.com/pricing",
+        "retrievedAt": "2026-09-20T09:34:00.929Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.pawnmate.com/": {
+      "fetchedAt": "2026-09-20T09:34:00.928Z",
+      "data": {
+        "url": "https://www.pawnmate.com/",
+        "finalUrl": "https://www.pawnmate.com/",
+        "retrievedAt": "2026-09-20T09:34:00.928Z",
+        "status": 200,
+        "error": null,
+        "title": "PawnMate Pawnshop Software Platform – Manage your pawnshop with PawnMate Software Platform",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/": {
+      "fetchedAt": "2026-09-20T09:34:08.531Z",
+      "data": {
+        "url": "https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/",
+        "finalUrl": "https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/",
+        "retrievedAt": "2026-09-20T09:34:08.531Z",
+        "status": 200,
+        "error": null,
+        "title": "What Is a SWPPP & When Is It Required? | AQUALIS",
+        "description": "Learn what a SWPPP is, when a Stormwater Pollution Prevention Plan is required, what it includes and how AQUALIS helps support stormwater compliance.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://compliancego.com/": {
+      "fetchedAt": "2026-09-20T09:34:08.533Z",
+      "data": {
+        "url": "https://compliancego.com/",
+        "finalUrl": "https://compliancego.com/",
+        "retrievedAt": "2026-09-20T09:34:08.533Z",
+        "status": 200,
+        "error": null,
+        "title": "Stormwater Inspection Software | ComplianceGo",
+        "description": "Inspect, get rain event alerts, update site maps, manage SWPPPs, stay compliant with our All-In-One Place stormwater inspection software. Schedule Demo Today!",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://aqualisco.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:08.532Z",
+      "data": {
+        "url": "https://aqualisco.com/pricing",
+        "finalUrl": "https://aqualisco.com/pricing",
+        "retrievedAt": "2026-09-20T09:34:08.532Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://iworq.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:08.536Z",
+      "data": {
+        "url": "https://iworq.com/pricing",
+        "finalUrl": "https://iworq.com/pricing",
+        "retrievedAt": "2026-09-20T09:34:08.536Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://iworq.com/systems/stormwater-management-software/": {
+      "fetchedAt": "2026-09-20T09:34:08.535Z",
+      "data": {
+        "url": "https://iworq.com/systems/stormwater-management-software/",
+        "finalUrl": "https://iworq.com/systems/stormwater-management-software/",
+        "retrievedAt": "2026-09-20T09:34:08.535Z",
+        "status": 200,
+        "error": null,
+        "title": "Stormwater Management Software | iWorQ Systems",
+        "description": "Stormwater management software that maintains maps and reports on your culverts, cleanouts, drains, and inlets. MS4 program approved.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://compliancego.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:08.534Z",
+      "data": {
+        "url": "https://compliancego.com/pricing",
+        "finalUrl": "https://compliancego.com/pricing",
+        "retrievedAt": "2026-09-20T09:34:08.534Z",
+        "status": 200,
+        "error": null,
+        "title": "Affordable Stormwater Inspection Software Pricing | ComplianceGo",
+        "description": "Explore flexible pricing plans with no setup fees or contracts. Start your free 30-day trial today. No credit card required!",
+        "priceMentions": [
+          {
+            "text": "$100/mo",
+            "billingUnit": true,
+            "context": "t Auto weather‑triggered notifications Get Started Now --> *$100/mo account minimum Phone, email, & chat support We digitize yo"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.passare.com/": {
+      "fetchedAt": "2026-09-20T09:34:09.702Z",
+      "data": {
+        "url": "https://www.passare.com/",
+        "finalUrl": "https://www.passare.com/",
+        "retrievedAt": "2026-09-20T09:34:09.702Z",
+        "status": 200,
+        "error": null,
+        "title": "Funeral Home Software - Passare",
+        "description": "Funeral home software with a new way of thinking. Manage your business from anywhere and connect with families like never before. Save time on paperwork. Spend more time with families.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.passare.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:09.703Z",
+      "data": {
+        "url": "https://www.passare.com/pricing",
+        "finalUrl": "https://www.passare.com/pricing",
+        "retrievedAt": "2026-09-20T09:34:09.703Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://osirissoftware.com/": {
+      "fetchedAt": "2026-09-20T09:34:09.703Z",
+      "data": {
+        "url": "https://osirissoftware.com/",
+        "finalUrl": "https://osirissoftware.com/",
+        "retrievedAt": "2026-09-20T09:34:09.703Z",
+        "status": 200,
+        "error": null,
+        "title": "Funeral Home Software - Osiris Software",
+        "description": "Osiris Software was built by funeral directors for funeral directors and is the premium software management solution for funeral homes, cemeteries and crematories.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://osirissoftware.com/pricing": {
+      "fetchedAt": "2026-09-20T09:34:09.704Z",
+      "data": {
+        "url": "https://osirissoftware.com/pricing",
+        "finalUrl": "https://osirissoftware.com/pricing/",
+        "retrievedAt": "2026-09-20T09:34:09.704Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - Osiris Software",
+        "description": "Osiris Software was built by funeral directors for funeral directors and is the premium software management solution for funeral homes, cemeteries and crematories.",
+        "priceMentions": [
+          {
+            "text": "$79/month",
+            "billingUnit": true,
+            "context": "me. Based on your at need call volume, plan prices start at $79/month and up. At Osiris, we work hard to earn your business each"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.nfda.org/pricing": {
+      "fetchedAt": "2026-09-20T09:34:09.705Z",
+      "data": {
+        "url": "https://www.nfda.org/pricing",
+        "finalUrl": "https://www.nfda.org/pricing",
+        "retrievedAt": "2026-09-20T09:34:09.705Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.nfda.org/your-business/business-resources/legal-compliance/": {
+      "fetchedAt": "2026-09-20T09:34:09.705Z",
+      "data": {
+        "url": "https://www.nfda.org/your-business/business-resources/legal-compliance/",
+        "finalUrl": "https://www.nfda.org/your-business/business-resources/legal-compliance/",
+        "retrievedAt": "2026-09-20T09:34:09.705Z",
+        "status": 200,
+        "error": null,
+        "title": "NFDA | Funeral Home Business Management Resources",
+        "description": "NFDA has funeral home management resources to run your business more effectively. Staff management, operational best practices, long-term business planning.",
+        "priceMentions": [
+          {
+            "text": "$250",
+            "billingUnit": false,
+            "context": "will back your GPL at no additional charge. The service is $250 for members and turnaround is within 30 days. For more info"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
     }
   }
 }

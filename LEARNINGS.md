@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-20
+*   An incumbent service shutting down is one of the most powerful go-to-market catalysts. It creates a pool of active, motivated buyers who are forced to make a purchasing decision on a specific timeline.
+*   For non-technical small business owners, the value proposition of a simple, reliable tool that solves one high-stakes problem can be more compelling than a complex, all-in-one system, even if that system is from an established vendor.
+*   A small TAM can be a feature, not a bug, for a solo or small-team founder, as it deters competition from larger, venture-backed players.
+
 ## 2026-09-19 (trends)
 - The most powerful B2B software opportunities often exist in industries where the primary customer is the government (e.g., Medicaid), as this creates a complex, non-negotiable billing process that is ripe for automation.
 - A "slow" go-to-market strategy focused on dominating a single state can be a powerful moat, building local network effects and regulatory expertise that are difficult for fast-moving, well-funded competitors to replicate.

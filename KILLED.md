@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-20
+*   **The Construction Site Manager's "Always-Ready" SWPPP Compliance Hub** — Killed. A strong pain, but the market has more sophisticated existing software solutions compared to the pawn shop space. The "forced migration" catalyst for pawn shops is a stronger entry point.
+*   **The Funeral Home Director's "FTC-Proof" General Price List (GPL) Manager** — Killed. The regulatory change is a good "why now," but the pain frequency is lower than the pawn shop's daily reporting requirement. Daily pain is more likely to drive a subscription purchase.
+*   **The Asbestos Abatement Contractor's "State-Ready" Project & Disposal Log** — Killed. Extreme compliance pain, but a much smaller, more specialized niche than pawn shops, making customer acquisition more difficult.
+
 ## 2026-09-19
 *   **The Dental Lab's "Case-in-the-Box" Management Hub** — Killed. While the pain is real, it's an efficiency/profitability problem, which is less acute than the NEMT provider's existential cash flow problem.
 *   **The Church Administrator's "Sunday-Morning-Ready" Volunteer Scheduling Hub** — Killed. The buyer (churches) has a notoriously low willingness to pay for software, and the problem, while frustrating, does not have a direct, measurable financial cost.

@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Pawn Shop Compliance Software | us-pawn-shop-compliance-software | 2026-09-20 | 100 | The Pawn Shop's "Never-Fail" Daily Police Report Generator |
 | US Non-Emergency Medical Transportation (NEMT) Provider Software | us-nemt-provider-software | 2026-09-19 | 100 | The Non-Emergency Medical Transportation (NEMT) Provider's "Get Paid, Not Buried" Hub |
 | US Federal Firearms Licensee (FFL) Compliance Software | us-ffl-compliance-software | 2026-09-18 | 100 | The Independent Firearm Dealer's "ATF-Ready" Digital A&D Book |
 | US Personal Injury Law Firm Workflow Software | us-personal-injury-law-firm-workflow-software | 2026-09-17 | 100 | The Personal Injury Law Firm's Medical Records Request & Tracking Hub |

@@ -1,0 +1,4729 @@
+{
+  "schema": 1,
+  "date": "2026-09-20",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-20.md"
+  },
+  "createdAt": "2026-09-20T09:33:01.062Z",
+  "updatedAt": "2026-09-20T09:33:01.063Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-20.md",
+    "title": "The Pawn Shop's \"Never-Fail\" Daily Police Report Generator",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-20:pawn-shop-police-report-generator",
+      "slug": "pawn-shop-police-report-generator",
+      "title": "The Pawn Shop's \"Never-Fail\" Daily Police Report Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem description mentions \"local/state law enforcement\" and an incumbent (BWI/RAPID) likely operating within the US regulatory framework."
+      },
+      "plan": {
+        "slug": "pawn-shop-police-report-generator",
+        "title": "The Pawn Shop's \"Never-Fail\" Daily Police Report Generator",
+        "problem": "Independent pawn shop owners must submit daily, mandatory reports of all transactions to local/state law enforcement to maintain their license, and failure is an existential risk.",
+        "targetCustomer": "Independent pawn shop owner",
+        "payer": "Independent pawn shop owner",
+        "whyPayerPays": "The payer needs to avoid license revocation and severe penalties by ensuring daily, accurate, and compliant reporting.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem description mentions \"local/state law enforcement\" and an incumbent (BWI/RAPID) likely operating within the US regulatory framework."
+        },
+        "keywords": {
+          "problem": [
+            "pawn shop reporting requirements",
+            "daily police report pawn",
+            "pawn shop compliance issues"
+          ],
+          "solution": [
+            "pawn software",
+            "pawn shop reporting system",
+            "police report generator pawn"
+          ],
+          "buying": [
+            "pawn software pricing",
+            "best pawn shop software",
+            "buy pawn shop reporting"
+          ]
+        },
+        "serpQueries": [
+          "pawn software",
+          "pawn shop reporting requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "pawn shop reporting requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-17 01:59:34 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "daily police report pawn",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "pawn shop compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "pawn software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 260,
+          "cpcUsd": 17.15,
+          "adCompetition": 0.23,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": -34,
+          "providerUpdatedAt": "2026-09-17 07:29:59 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 590
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -53,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "pawn shop reporting system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.17,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-13 05:23:33 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "police report generator pawn",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "pawn software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best pawn shop software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-12 20:07:26 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (30 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "buy pawn shop reporting",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "pawn software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:09.694Z",
+          "checkUrl": "https://www.google.com/search?q=pawn%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "www.pawnmate.com",
+              "url": "https://www.pawnmate.com/",
+              "title": "PawnMate Pawnshop Software Platform – Manage your ...",
+              "description": "Our state-of-the-art software meticulously monitors your cash transactions, intelligently identifying connected transactions that reach the crucial $10,000 ... Read more",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 2,
+              "domain": "hitechpawn.com",
+              "url": "https://hitechpawn.com/",
+              "title": "Hi-Tech Pawn | Pawn Shop POS Software | First 30 Days Free",
+              "description": "Hi-Tech has provided high quality, easy-to-use, affordable Pawn Shop Software for over 30 years. Start your free 30 day trial within minutes.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.pawn-software.com",
+              "url": "https://www.pawn-software.com/",
+              "title": "PawnSmarts Pawn Shop Software",
+              "description": "Pawn shop software designed for speed. From $89/month or $2,995 one time. No contract. Online Pay Switching Pricing Live Demo",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.capterra.com",
+              "url": "https://www.capterra.com/pawn-shop-software/",
+              "title": "Best Pawn Shop Software 2026",
+              "description": "Pawn is a cloud-based pawn shop tool that helps businesses manage loans, inventory, more",
+              "id": "S1.4",
+              "class": "review_directory"
+            },
+            {
+              "rank": 6,
+              "domain": "occc.texas.gov",
+              "url": "https://occc.texas.gov/industry/pawnshops-and-pawn-employees/software-vendors/",
+              "title": "Reviewed Pawnbroker Software Vendors",
+              "description": "The following computer software products have been reviewed for use by licensed pawnbrokers in the State of Texas. Opens for Pawn Shop & Pawn Employees. 512- ...",
+              "id": "S1.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "snapsoftware.com",
+              "url": "https://snapsoftware.com/",
+              "title": "PawnSnap Pawn Shop Software | Snap Software",
+              "description": "PawnSnap pawn shop software helps pawnbrokers manage loans, buys, point of sale, inventory, payments, reporting, and customer communication (727) 491-7296.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.softwareadvice.com",
+              "url": "https://www.softwareadvice.com/inventory-management/pawnbroker-pawn-shop-software-profile/",
+              "title": "Pawnbroker Pawn Shop Software Review",
+              "description": "Pawn Shop Software is a windows-based business management platform that streamlines the entire loan management lifecycle for pawn shops,",
+              "id": "S1.8",
+              "class": "review_directory"
+            },
+            {
+              "rank": 9,
+              "domain": "www.guideflow.com",
+              "url": "https://www.guideflow.com/blog/pawn-shop-software",
+              "title": "6 best pawn shop software for 2026",
+              "description": "Sep 3, 2026 — The 8 best pawn shop software tools · 1. PawnMate · 2. PawnSmarts · 3. Bravo Store Systems · 4. PawnSnap · 5. Pawnit Systems · 6. The Gold ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "pawn shop reporting requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:17.662Z",
+          "checkUrl": "https://www.google.com/search?q=pawn%20shop%20reporting%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.ilga.gov",
+              "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4466&ChapterID=20&Print=True",
+              "title": "(205 ILCS 511/) Pawnbroker Regulation Act of 2023.",
+              "description": "a pawnbroker must provide the daily report to the sheriff only if the pawnshop is located in an unincorporated area of the county.",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.leg.state.fl.us",
+              "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0539/0539.html",
+              "title": "The 2026 Florida Statutes",
+              "description": "A pawnbroker must maintain a copy of each completed pawnbroker transaction form on the pawnshop premises for at least 1 year after the date of the transaction.",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.losangelescriminallawyer.pro",
+              "url": "https://www.losangelescriminallawyer.pro/california-business-professions-code-section-21628-bpc-failure-t.html",
+              "title": "California Business & Professions Code Section 21628 BPC",
+              "description": "Because of their exposure to potentially stolen goods, pawnbrokers and second hand store proprietors are required to adhere to strict reporting requirements.",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.piercecountywa.gov",
+              "url": "https://www.piercecountywa.gov/4955/Pawn-Secondhand-Sale-Reporting-Requireme",
+              "title": "Pawn & Secondhand Sale Reporting Requirements",
+              "description": "1 - Read the Sheriff's Department letter to Pawn & Secondhand Shop Owners. 2 - Review the Electronic Batch File Reporting Instructions. Batch file reporting ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "com.ohio.gov",
+              "url": "https://com.ohio.gov/divisions-and-programs/financial-institutions/consumers/stolen-property-sold-to-pawnshops",
+              "title": "Stolen Property Sold to Pawnshops",
+              "description": "Apr 11, 2021 — 1. File a police report · Provide brand, model, color, distinguishing marks, and serial numbers. · Include photos, receipts, warranties, or other ... Read more",
+              "id": "S2.7",
+              "class": "government"
+            },
+            {
+              "rank": 8,
+              "domain": "www.ncleg.net",
+              "url": "https://www.ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_66/Article_45.pdf",
+              "title": "NC General Statutes - Chapter 66 Article 45",
+              "description": "§ 66‑391. Record‑keeping requirements for pawnbrokers. (a). Every pawnbroker shall keep consecutively numbered records of each and every pawn transaction, ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.pawn-software.com",
+              "url": "https://www.pawn-software.com/police_reports.htm",
+              "title": "Police Reporting & LEADS Online, Done For You",
+              "description": "Requirements vary by jurisdiction: some mandate daily electronic uploads, others require printed reports for officer pickup or CSV files submitted by email.",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "revisor.mo.gov",
+              "url": "https://revisor.mo.gov/main/PageSelect.aspx?section=367.031&bid=48473&hl=",
+              "title": "Revised Statutes of Missouri, RSMo Section 367.031 - MO.gov",
+              "description": "The pawnbroker shall record on the written statement the identifying information required, the date the statement is given, and the number of the pawn ticket ... Read more",
+              "id": "S2.10",
+              "class": "government"
+            },
+            {
+              "rank": 11,
+              "domain": "www.bravostoresystems.com",
+              "url": "https://www.bravostoresystems.com/post/what-are-the-rules-of-a-pawn-shop",
+              "title": "What Are the Rules of a Pawn Shop? (2026 Guide)",
+              "description": "Mar 5, 2025 — Pawn shops are required to verify the identity of all customers through valid government-issued identification documents. Detailed records of ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "pawn-software.com",
+          "url": "https://www.pawn-software.com/",
+          "finalUrl": "https://pawn-software.com/",
+          "retrievedAt": "2026-09-20T09:34:00.925Z",
+          "status": 200,
+          "error": null,
+          "title": "PawnSmarts Pawn Shop Software",
+          "description": "Work from anywhere on PC, Mac or phone. Very fast 30-sec pawn entry. Pledgors pay online. Compliance help. LEADS reporting. No contract or hidden costs.",
+          "priceMentions": [
+            {
+              "text": "$120.00",
+              "billingUnit": false,
+              "context": "age &mdash; PawnSmarts Hi Maria &mdash; your loan #7265 for $120.00 is due in 3 days on Apr 25. Tap below to pay and keep your"
+            },
+            {
+              "text": "$142.50",
+              "billingUnit": false,
+              "context": "3 days on Apr 25. Tap below to pay and keep your item. Pay $142.50 Now → Delivered &middot; 9:14 AM Online Payment Pledgor Pay"
+            },
+            {
+              "text": "$89",
+              "billingUnit": false,
+              "context": "ine Any phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migrat"
+            },
+            {
+              "text": "$129/mo",
+              "billingUnit": true,
+              "context": "phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migration Switch"
+            },
+            {
+              "text": "$395",
+              "billingUnit": false,
+              "context": "story Comes With You Send Us Your Data. We Do the Rest. For $395, we convert it &mdash; customers, open loans, transaction h"
+            },
+            {
+              "text": "$129/Month",
+              "billingUnit": true,
+              "context": "total time: < 24 hours 04 &mdash; The Price Is Right $89 or $129/Month ~ or Free! 1 No Contract. No Surprises. Month to month. Can"
+            },
+            {
+              "text": "$89/month",
+              "billingUnit": true,
+              "context": "No setup fee. No annual commitment. Essential Plan &mdash; $89/month Everything You Need to Run Your Shop. $89/month, month to m"
+            },
+            {
+              "text": "$129/month",
+              "billingUnit": true,
+              "context": "s and online payment? Those are in the Professional plan at $129/month. Switching from expensive software? Most shops cut their so"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "pawn-software.com",
+          "url": "https://www.pawn-software.com/pricing",
+          "finalUrl": "https://pawn-software.com/",
+          "retrievedAt": "2026-09-20T09:34:00.926Z",
+          "status": 200,
+          "error": null,
+          "title": "PawnSmarts Pawn Shop Software",
+          "description": "Work from anywhere on PC, Mac or phone. Very fast 30-sec pawn entry. Pledgors pay online. Compliance help. LEADS reporting. No contract or hidden costs.",
+          "priceMentions": [
+            {
+              "text": "$120.00",
+              "billingUnit": false,
+              "context": "age &mdash; PawnSmarts Hi Maria &mdash; your loan #7265 for $120.00 is due in 3 days on Apr 25. Tap below to pay and keep your"
+            },
+            {
+              "text": "$142.50",
+              "billingUnit": false,
+              "context": "3 days on Apr 25. Tap below to pay and keep your item. Pay $142.50 Now → Delivered &middot; 9:14 AM Online Payment Pledgor Pay"
+            },
+            {
+              "text": "$89",
+              "billingUnit": false,
+              "context": "ine Any phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migrat"
+            },
+            {
+              "text": "$129/mo",
+              "billingUnit": true,
+              "context": "phone or computer < 24 hrs To switch with your data $89 or $129/mo WORKS OFFLINE Inet down? Fine. 03 &mdash; Migration Switch"
+            },
+            {
+              "text": "$395",
+              "billingUnit": false,
+              "context": "story Comes With You Send Us Your Data. We Do the Rest. For $395, we convert it &mdash; customers, open loans, transaction h"
+            },
+            {
+              "text": "$129/Month",
+              "billingUnit": true,
+              "context": "total time: < 24 hours 04 &mdash; The Price Is Right $89 or $129/Month ~ or Free! 1 No Contract. No Surprises. Month to month. Can"
+            },
+            {
+              "text": "$89/month",
+              "billingUnit": true,
+              "context": "No setup fee. No annual commitment. Essential Plan &mdash; $89/month Everything You Need to Run Your Shop. $89/month, month to m"
+            },
+            {
+              "text": "$129/month",
+              "billingUnit": true,
+              "context": "s and online payment? Those are in the Professional plan at $129/month. Switching from expensive software? Most shops cut their so"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "pawnmate.com",
+          "url": "https://www.pawnmate.com/",
+          "finalUrl": "https://www.pawnmate.com/",
+          "retrievedAt": "2026-09-20T09:34:00.928Z",
+          "status": 200,
+          "error": null,
+          "title": "PawnMate Pawnshop Software Platform – Manage your pawnshop with PawnMate Software Platform",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "pawnmate.com",
+          "url": "https://www.pawnmate.com/pricing",
+          "finalUrl": "https://www.pawnmate.com/pricing",
+          "retrievedAt": "2026-09-20T09:34:00.929Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "hitechpawn.com",
+          "url": "https://hitechpawn.com/",
+          "finalUrl": "https://hitechpawn.com/",
+          "retrievedAt": "2026-09-20T09:34:00.929Z",
+          "status": 200,
+          "error": null,
+          "title": "Hi-Tech Pawn | Pawn Shop POS Software | First 30 Days Free",
+          "description": "Hi-Tech has provided high quality, easy-to-use, affordable Pawn Shop Software for over 30 years. Start your free 30 day trial within minutes.",
+          "priceMentions": [
+            {
+              "text": "$98.39 per month",
+              "billingUnit": true,
+              "context": "Month Three Months Six Months Yearly One Month One Feature $98.39 per month Select Any Feature: Pawn Shop Management - OR - Title Pawn"
+            },
+            {
+              "text": "$126.03 per month",
+              "billingUnit": true,
+              "context": "Title Pawn - OR - Check Loans / Check Cashing Two Features $126.03 per month Select Any Two Features: Pawn Shop Management - AND / OR -"
+            },
+            {
+              "text": "$153.63 per month",
+              "billingUnit": true,
+              "context": "awn - AND / OR - Check Loans / Check Cashing Three Features $153.63 per month All Three Feature Sets: Pawn Shop Management -AND- Title Pa"
+            },
+            {
+              "text": "$280.41",
+              "billingUnit": false,
+              "context": "-AND- Check Loans / Check Cashing Three Months One Feature $280.41 per quarter Select Any Feature: Pawn Shop Management - OR -"
+            },
+            {
+              "text": "$359.18",
+              "billingUnit": false,
+              "context": "Title Pawn - OR - Check Loans / Check Cashing Two Features $359.18 per quarter Select Any Two Features: Pawn Shop Management -"
+            },
+            {
+              "text": "$437.84",
+              "billingUnit": false,
+              "context": "awn - AND / OR - Check Loans / Check Cashing Three Features $437.84 per quarter All Three Feature Sets: Pawn Shop Management -A"
+            },
+            {
+              "text": "$531.31",
+              "billingUnit": false,
+              "context": "wn -AND- Check Loans / Check Cashing Six Months One Feature $531.31 semi-annually Select Any Feature: Pawn Shop Management - OR"
+            },
+            {
+              "text": "$680.54",
+              "billingUnit": false,
+              "context": "Title Pawn - OR - Check Loans / Check Cashing Two Features $680.54 semi-annually Select Any Two Features: Pawn Shop Management"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "hitechpawn.com",
+          "url": "https://hitechpawn.com/pricing",
+          "finalUrl": "https://hitechpawn.com/pricing",
+          "retrievedAt": "2026-09-20T09:34:00.930Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing - Hi-Tech Pawn Software",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 6,
+          "top": {
+            "keyword": "pawn shop reporting requirements",
+            "searchVolume": 10,
+            "id": "K1"
+          },
+          "category": {
+            "level": "some",
+            "measuredCount": 2,
+            "totalCount": 3,
+            "top": {
+              "keyword": "pawn software",
+              "searchVolume": 260,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"pawn shop reporting requirements\" at 10/month; next \"pawn shop reporting system\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"pawn software\" 260/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "strong",
+          "biddingKeywordIds": [
+            "K4"
+          ],
+          "pricedPageIds": [
+            "P1",
+            "P2",
+            "P5"
+          ],
+          "pricedDomains": [
+            "pawn-software.com",
+            "hitechpawn.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $17.15 on \"pawn software\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 2 ranking site(s): pawn-software.com, hitechpawn.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "pawn-software.com",
+            "pawnmate.com",
+            "hitechpawn.com",
+            "leg.state.fl.us",
+            "losangelescriminallawyer.pro",
+            "snapsoftware.com",
+            "ncleg.net",
+            "guideflow.com",
+            "bravostoresystems.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "capterra.com",
+            "softwareadvice.com"
+          ],
+          "pricedDomains": [
+            "pawn-software.com",
+            "hitechpawn.com"
+          ],
+          "note": "9 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on pawn-software.com, hitechpawn.com. Judged for relevance: 2 domain(s) with a direct competitor (same problem) (snapsoftware.com, pawn-software.com), 5 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "snapsoftware.com",
+            "pawn-software.com"
+          ],
+          "indirectAlternativeDomains": [
+            "hitechpawn.com",
+            "pawn-software.com",
+            "capterra.com",
+            "softwareadvice.com",
+            "guideflow.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "d0ab8faf5a3bbbcc",
+      "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-20T09:40:41.860Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z",
+        "qualifiers": [
+          "pawn shop owner"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the specific regulations that create the problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the specific task that the business idea aims to solve for pawn shop owners."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the general problem area of compliance that the idea addresses for pawn shop owners."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for the general software category for pawn shops, which is broader than the specific reporting problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for a solution to the reporting problem faced by pawn shop owners."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for a tool that solves the specific reporting problem for pawn shop owners."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This search is about the price of general pawn shop software, not specifically a reporting tool."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for the best general software for pawn shops, a broader category than the idea's specific solution."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for a solution to the specific reporting problem for pawn shop owners."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general pawnshop software platform for pawn shop owners, covering more than just police reporting."
+          },
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general point-of-sale software for pawn shop owners, which is broader than just the reporting problem."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general pawn shop software for pawn shop owners, covering more than just the reporting problem."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a directory of general pawn shop software for pawn shop owners, covering management of loans and inventory, not just reporting."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a government list of approved software for pawnbrokers, addressing general operations rather than just the specific reporting problem."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This pawn shop software for pawnbrokers explicitly lists reporting as a core function, matching the idea's problem."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a review of general pawn shop software for pawn shop owners, focusing on the broad loan management lifecycle."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a list of the best general pawn shop software for pawn shop owners, a broader problem space."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal document specifying the daily reporting requirements for pawnbrokers, which is the core problem."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal document specifying transaction reporting requirements for pawnbrokers, which is the core problem."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the strict reporting requirements for pawnbrokers, which is the idea's core problem."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government page providing instructions on reporting requirements for pawn shop owners, the core problem."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is for victims of theft on how to file a police report, not for pawn shop owners on how to report transactions."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal document specifying record-keeping requirements for pawnbrokers, which is the core problem."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a software feature page specifically addressing the problem of police reporting for pawn shops."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal document specifying the information pawnbrokers must record for each transaction, part of the reporting problem."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide for pawn shop owners that discusses the requirement to keep detailed records, which is the core problem."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a software product for pawn shops that explicitly lists compliance and LEADS reporting as features."
+          },
+          "P2": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a software product for pawn shops that explicitly lists compliance and LEADS reporting as features."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general pawnshop management software platform for pawn shop owners."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general point-of-sale software for pawn shop owners, which is broader than just reporting."
+          },
+          "P6": {
+            "customer": "same",
+            "customerMatches": [
+              "pawn shop owner"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is the pricing page for a general pawn shop software product aimed at pawn shop owners."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-20:pawn-shop-police-report-generator",
+        "opportunity": "The opportunity is to provide a specialized software tool for independent pawn shop owners to generate and submit mandatory daily reports to law enforcement. This would help them comply with strict regulations and avoid the risk of losing their license.",
+        "whoPays": "The independent pawn shop owner pays to ensure they meet legal reporting requirements, avoiding fines and potential license revocation. This is an inference as no direct evidence of payment for this specific service was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "Pawn & Secondhand Sale Reporting Requirements"
+            },
+            {
+              "id": "S2.8",
+              "quote": "Record‑keeping requirements for pawnbrokers"
+            },
+            {
+              "id": "S2.11",
+              "quote": "Pawn shops are required to verify the identity of all customers through valid government-issued identification documents"
+            }
+          ],
+          "observed": "Government websites and industry guides show that pawn shops are subject to mandatory, legally-enforced reporting and record-keeping requirements for their transactions.",
+          "inference": "Pawn shop owners face a recurring, mission-critical compliance task that must be performed correctly to maintain their license and avoid legal penalties."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "P1",
+              "quote": "Compliance help. LEADS reporting."
+            },
+            {
+              "id": "S1.7",
+              "quote": "PawnSnap pawn shop software helps pawnbrokers manage loans, buys, point of sale, inventory, payments, reporting"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "PawnSmarts",
+              "type": "direct",
+              "what": "A full pawn shop software suite that includes 'Compliance help' and 'LEADS reporting' as features. Pricing is listed at $89 or $129 per month.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Compliance help. LEADS reporting."
+                },
+                {
+                  "id": "P1",
+                  "quote": "Essential Plan &mdash; $89/month"
+                }
+              ]
+            },
+            {
+              "name": "PawnSnap",
+              "type": "direct",
+              "what": "A pawn shop software platform that helps pawnbrokers manage multiple aspects of their business, including reporting.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "helps pawnbrokers manage loans, buys, point of sale, inventory, payments, reporting"
+                }
+              ]
+            },
+            {
+              "name": "Hi-Tech Pawn",
+              "type": "indirect",
+              "what": "A Point-of-Sale (POS) software for pawn shops offered for over 30 years.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "affordable Pawn Shop Software for over 30 years"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing competitors offer reporting as an integrated feature within a comprehensive pawn shop management suite.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "manage loans, buys, point of sale, inventory, payments, reporting"
+                },
+                {
+                  "id": "P1",
+                  "quote": "Everything You Need to Run Your Shop"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The evidence does not show any standalone, reporting-only software. This suggests a potential gap for customers who are happy with their existing POS but need a new or better reporting solution.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "A major incumbent reporting channel (BWI/RAPID) is shutting down",
+            "finding": "The provided evidence contains no mention of BWI, RAPID, or any incumbent service shutting down.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment could be a simple web tool that accepts a CSV of daily transactions and generates a formatted report for a single police jurisdiction. This requires understanding one specific format but not building a full POS system."
+        },
+        "unproven": [
+          "The core 'Why Now?' hypothesis that a major incumbent (BWI/RAPID) is shutting down is entirely unproven by the evidence.",
+          "The willingness of pawn shop owners to pay for a *standalone* reporting tool, separate from their main POS software.",
+          "The actual level of pain and time spent on manual reporting; the evidence confirms the requirement exists but not how difficult it is to fulfill."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 independent pawn shop owners. Ask how they currently handle police reporting, what software they use, if they've been affected by the BWI/RAPID shutdown, and what the most difficult part of the process is.",
+          "cost": "Low cash (~$100 for incentives) + 10-20 hours of outreach and interviews.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "At least 3 of 5 interviewed owners confirm they are affected by the BWI/RAPID situation and are actively seeking a replacement, or they express significant, quantifiable pain (e.g., >30 minutes per day) with their current reporting process.",
+        "stopIf": "Interviewed owners are unaware of any BWI/RAPID shutdown and are satisfied with their current, integrated reporting solutions, viewing it as a minor and solved problem."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a specialized software tool for independent pawn shop owners to generate and submit mandatory daily reports to law enforcement. This would help them comply with strict regulations and avoid the risk of losing their license.",
+        "whoPays": "The independent pawn shop owner pays to ensure they meet legal reporting requirements, avoiding fines and potential license revocation. This is an inference as no direct evidence of payment for this specific service was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "Pawn & Secondhand Sale Reporting Requirements",
+              "domain": "piercecountywa.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "direct",
+              "relevanceReason": "This is a government page providing instructions on reporting requirements for pawn shop owners, the core problem."
+            },
+            {
+              "id": "S2.8",
+              "quote": "Record‑keeping requirements for pawnbrokers",
+              "domain": "ncleg.net",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This is a legal document specifying record-keeping requirements for pawnbrokers, which is the core problem."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Pawn shops are required to verify the identity of all customers through valid government-issued identification documents",
+              "domain": "bravostoresystems.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This is a guide for pawn shop owners that discusses the requirement to keep detailed records, which is the core problem."
+            }
+          ],
+          "observed": "Government websites and industry guides show that pawn shops are subject to mandatory, legally-enforced reporting and record-keeping requirements for their transactions.",
+          "inference": "Pawn shop owners face a recurring, mission-critical compliance task that must be performed correctly to maintain their license and avoid legal penalties."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "P1",
+              "quote": "Compliance help. LEADS reporting.",
+              "domain": "pawn-software.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a software product for pawn shops that explicitly lists compliance and LEADS reporting as features."
+            },
+            {
+              "id": "S1.7",
+              "quote": "PawnSnap pawn shop software helps pawnbrokers manage loans, buys, point of sale, inventory, payments, reporting",
+              "domain": "snapsoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This pawn shop software for pawnbrokers explicitly lists reporting as a core function, matching the idea's problem."
+            }
+          ],
+          "directCompetitors": [
+            "pawn-software.com",
+            "snapsoftware.com"
+          ],
+          "indirectAlternatives": [
+            "hitechpawn.com"
+          ],
+          "alternatives": [
+            {
+              "name": "PawnSmarts",
+              "type": "direct",
+              "what": "A full pawn shop software suite that includes 'Compliance help' and 'LEADS reporting' as features. Pricing is listed at $89 or $129 per month.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Compliance help. LEADS reporting.",
+                  "domain": "pawn-software.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a software product for pawn shops that explicitly lists compliance and LEADS reporting as features."
+                }
+              ]
+            },
+            {
+              "name": "PawnSnap",
+              "type": "direct",
+              "what": "A pawn shop software platform that helps pawnbrokers manage multiple aspects of their business, including reporting.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "helps pawnbrokers manage loans, buys, point of sale, inventory, payments, reporting",
+                  "domain": "snapsoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This pawn shop software for pawnbrokers explicitly lists reporting as a core function, matching the idea's problem."
+                }
+              ]
+            },
+            {
+              "name": "Hi-Tech Pawn",
+              "type": "indirect",
+              "what": "A Point-of-Sale (POS) software for pawn shops offered for over 30 years.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "affordable Pawn Shop Software for over 30 years",
+                  "domain": "hitechpawn.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general point-of-sale software for pawn shop owners, which is broader than just the reporting problem."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing competitors offer reporting as an integrated feature within a comprehensive pawn shop management suite.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "manage loans, buys, point of sale, inventory, payments, reporting",
+                  "domain": "snapsoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct",
+                  "relevanceReason": "This pawn shop software for pawnbrokers explicitly lists reporting as a core function, matching the idea's problem."
+                },
+                {
+                  "id": "P1",
+                  "quote": "Everything You Need to Run Your Shop",
+                  "domain": "pawn-software.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct",
+                  "relevanceReason": "This is a software product for pawn shops that explicitly lists compliance and LEADS reporting as features."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The evidence does not show any standalone, reporting-only software. This suggests a potential gap for customers who are happy with their existing POS but need a new or better reporting solution.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "A major incumbent reporting channel (BWI/RAPID) is shutting down",
+            "finding": "The provided evidence contains no mention of BWI, RAPID, or any incumbent service shutting down.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment could be a simple web tool that accepts a CSV of daily transactions and generates a formatted report for a single police jurisdiction. This requires understanding one specific format but not building a full POS system."
+        },
+        "unproven": [
+          "The core 'Why Now?' hypothesis that a major incumbent (BWI/RAPID) is shutting down is entirely unproven by the evidence.",
+          "The willingness of pawn shop owners to pay for a *standalone* reporting tool, separate from their main POS software.",
+          "The actual level of pain and time spent on manual reporting; the evidence confirms the requirement exists but not how difficult it is to fulfill."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 independent pawn shop owners. Ask how they currently handle police reporting, what software they use, if they've been affected by the BWI/RAPID shutdown, and what the most difficult part of the process is.",
+          "cost": "Low cash (~$100 for incentives) + 10-20 hours of outreach and interviews.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "At least 3 of 5 interviewed owners confirm they are affected by the BWI/RAPID situation and are actively seeking a replacement, or they express significant, quantifiable pain (e.g., >30 minutes per day) with their current reporting process.",
+        "stopIf": "Interviewed owners are unaware of any BWI/RAPID shutdown and are satisfied with their current, integrated reporting solutions, viewing it as a minor and solved problem.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-20T09:41:45.551Z",
+        "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z"
+      }
+    },
+    {
+      "id": "2026-09-20:construction-swppp-compliance-hub",
+      "slug": "construction-swppp-compliance-hub",
+      "title": "The Construction Site Manager's \"Always-Ready\" SWPPP Compliance Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem mentions EPA enforcement and specific fine amounts, which are characteristic of the United States regulatory environment."
+      },
+      "plan": {
+        "slug": "construction-swppp-compliance-hub",
+        "title": "The Construction Site Manager's \"Always-Ready\" SWPPP Compliance Hub",
+        "problem": "Every construction site over one acre must maintain a Stormwater Pollution Prevention Plan (SWPPP) with frequent inspections and logs, and fines for non-compliance are severe.",
+        "targetCustomer": "General contractors, homebuilders, site developers",
+        "payer": "General contractors, homebuilders, site developers",
+        "whyPayerPays": "The payer needs to avoid severe fines (up to $68,445 per day) and ensure continuous regulatory compliance for their construction projects.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem mentions EPA enforcement and specific fine amounts, which are characteristic of the United States regulatory environment."
+        },
+        "keywords": {
+          "problem": [
+            "swppp compliance requirements",
+            "swppp inspection log",
+            "swppp fines penalties"
+          ],
+          "solution": [
+            "swppp software",
+            "swppp compliance tools",
+            "stormwater management software"
+          ],
+          "buying": [
+            "swppp software pricing",
+            "best swppp software",
+            "swppp compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "swppp software",
+          "swppp compliance requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "swppp compliance requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "swppp inspection log",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 16.42,
+          "adCompetition": 0.13,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-15 16:23:29 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "swppp fines penalties",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "swppp software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 40,
+          "cpcUsd": null,
+          "adCompetition": 0.47,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -80,
+          "providerUpdatedAt": "2026-09-12 10:41:45 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -82,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "swppp compliance tools",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "stormwater management software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 13.97,
+          "adCompetition": 0.2,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 22,
+          "providerUpdatedAt": "2026-09-15 00:36:36 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 210
+            }
+          ],
+          "trend": {
+            "direction": "rising",
+            "changePct": 44,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "swppp software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best swppp software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "swppp compliance cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "swppp software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:24.715Z",
+          "checkUrl": "https://www.google.com/search?q=swppp%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "compliancego.com",
+              "url": "https://compliancego.com/",
+              "title": "ComplianceGo: Stormwater Inspection Software",
+              "description": "Automate Inspections, Manage NOIs & SWPPPs, Update Stormwater Maps, & Receive Real-Time Rain Alerts, All In One Place. Try it FREE for 30 days!",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Construction/comments/9suwb9/swppp_stormwater_pollution_prevention_plan/",
+              "title": "SWPPP (Stormwater Pollution Prevention Plan) Software?",
+              "description": "Draw your erosion control on a map. Create one page assigning responsibilities (contractor A handles erosion control maintenance, subcontractor ... Read more",
+              "id": "S1.3",
+              "class": "discussion"
+            },
+            {
+              "rank": 4,
+              "domain": "iworq.com",
+              "url": "https://iworq.com/systems/stormwater-management-software/",
+              "title": "Stormwater Management Software | iWorQ Systems",
+              "description": "Stormwater management software that maintains maps and reports on your culverts, cleanouts, drains, and inlets. Stormwater Pollution Prevention Plans (SWPPP),  ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.swiftcomply.com",
+              "url": "https://www.swiftcomply.com/stormwater/",
+              "title": "Stormwater MS4 Compliance Software",
+              "description": "Simplify stormwater compliance with SwiftComply. Manage inspections, enforcement and reporting with one system configured for your MS4 requirements.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "des.sc.gov",
+              "url": "https://des.sc.gov/programs/bureau-water/stormwater/stormwater-management/stormwater-pollution-prevention-plans-swppps",
+              "title": "Stormwater Pollution Prevention Plans (SWPPPs)",
+              "description": "The OS-SWPPP is a condensed version of the Comprehensive SWPPP that includes various logs to track the construction activity, inspections, maintenance ... Read more",
+              "id": "S1.7",
+              "class": "government"
+            },
+            {
+              "rank": 8,
+              "domain": "www.swppponline.com",
+              "url": "https://www.swppponline.com/",
+              "title": "SWPPP Online - Professional Reports Fast and Easy",
+              "description": "Online Software Available. SWPPP Online is designed to assist the entire construction industry in the management of stormwater reporting to maintain compliance ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "aqualisco.com",
+              "url": "https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/",
+              "title": "What is a SWPPP (Stormwater Pollution Prevention Plan)?",
+              "description": "A stormwater pollution prevention plan (SWPPP) is developed to guide a facility's efforts to reduce the amount of pollutants in stormwater and runoff. Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "sw2.net",
+              "url": "https://sw2.net/",
+              "title": "SW² | #1 Software to Streamline Stormwater Compliance",
+              "description": "SW² gives you a clear, reliable way to manage stormwater compliance across inspections, documentation, and reporting so you can stay ready for audits and keep ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "mitti.com",
+              "url": "https://mitti.com/topics/swppp",
+              "title": "Developing a Storm Water Pollution Prevention Plan (SWPPP)",
+              "description": "SWPPP provides guidelines and tools to keep a community's stormwater and water quality in check. Learn what SWPPP's meaning is.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "swppp compliance requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:32.603Z",
+          "checkUrl": "https://www.google.com/search?q=swppp%20compliance%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/npdes/developing-stormwater-pollution-prevention-plan-swppp",
+              "title": "Developing a Stormwater Pollution Prevention Plan (SWPPP)",
+              "description": "Aug 17, 2026 — Instructional resources for developing effective Stormwater Pollution Prevention Plans (SWPPP). Medium-Sized (20-acre) Standards and  ...",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "des.sc.gov",
+              "url": "https://des.sc.gov/programs/bureau-water/stormwater/stormwater-management/stormwater-pollution-prevention-plans-swppps",
+              "title": "Stormwater Pollution Prevention Plans (SWPPPs)",
+              "description": "The following is a list of items that each SWPPP Document (commonly referred to as the C-SWPPP) must address in order to be considered in compliance with the ... Read more",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "www.ecopermitpros.com",
+              "url": "https://www.ecopermitpros.com/swppp-requirements-2025",
+              "title": "SWPPP Requirements (2026 Guide) | Do You Need a ...",
+              "description": "What Must Be Included in a SWPPP? · Silt Fence​ · Inlet Protection · Stabilized Construction Entrances · Temporary and Permanent Stabilization Practices. Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "azdeq.gov",
+              "url": "http://azdeq.gov/swppp",
+              "title": "WQD | SWPPP",
+              "description": "Oct 3, 2025 — ADEQ offers a checklist and template to help operators ensure the site SWPPP meets permit requirements. The checklist includes guidance for ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "iowastormwater.org",
+              "url": "https://iowastormwater.org/regulations/swppps/",
+              "title": "SWPPPs",
+              "description": "Signed certification statements must be kept with SWPPP and retained for at least 3 years after final stabilization is achieved and the Notice of ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "epa.illinois.gov",
+              "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/pollution-prevention-plan.html",
+              "title": "Storm Water Pollution Prevention Plan",
+              "description": "Annual Inspection: An annual inspection is required that includes a review of the storm water pollution prevention plan, as well as the facility to assure all ... Read more",
+              "id": "S2.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "aqualisco.com",
+              "url": "https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/",
+              "title": "What is a SWPPP (Stormwater Pollution Prevention Plan)?",
+              "description": "SWPPP requirements vary by industry and site. But generally, each SWPPP should include a site map and description, best management practices (BMPs), controls, ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "law.lis.virginia.gov",
+              "url": "https://law.lis.virginia.gov/admincode/title9/agency25/chapter151/section80/",
+              "title": "9VAC25-151-80. Stormwater pollution prevention plans.",
+              "description": "The contents of the SWPPP shall comply with the requirements listed below and those in the appropriate sectors of Part IV. These requirements are cumulative.",
+              "id": "S2.10",
+              "class": "government"
+            },
+            {
+              "rank": 11,
+              "domain": "crgtexas.com",
+              "url": "https://crgtexas.com/2025/11/04/texas-swppp-requirements-explained-what-every-contractor-needs-before-breaking-ground/",
+              "title": "Texas SWPPP Requirements: What Every Contractor Must ...",
+              "description": "Nov 4, 2025 — Under Texas SWPPP requirements, every site disturbing one acre or more must prepare and implement a site-specific plan. This plan includes: Site ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "aqualisco.com",
+          "url": "https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/",
+          "finalUrl": "https://aqualisco.com/what-is-a-swppp-stormwater-pollution-prevention-plan/",
+          "retrievedAt": "2026-09-20T09:34:08.531Z",
+          "status": 200,
+          "error": null,
+          "title": "What Is a SWPPP & When Is It Required? | AQUALIS",
+          "description": "Learn what a SWPPP is, when a Stormwater Pollution Prevention Plan is required, what it includes and how AQUALIS helps support stormwater compliance.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "aqualisco.com",
+          "url": "https://aqualisco.com/pricing",
+          "finalUrl": "https://aqualisco.com/pricing",
+          "retrievedAt": "2026-09-20T09:34:08.532Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "compliancego.com",
+          "url": "https://compliancego.com/",
+          "finalUrl": "https://compliancego.com/",
+          "retrievedAt": "2026-09-20T09:34:08.533Z",
+          "status": 200,
+          "error": null,
+          "title": "Stormwater Inspection Software | ComplianceGo",
+          "description": "Inspect, get rain event alerts, update site maps, manage SWPPPs, stay compliant with our All-In-One Place stormwater inspection software. Schedule Demo Today!",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "compliancego.com",
+          "url": "https://compliancego.com/pricing",
+          "finalUrl": "https://compliancego.com/pricing",
+          "retrievedAt": "2026-09-20T09:34:08.534Z",
+          "status": 200,
+          "error": null,
+          "title": "Affordable Stormwater Inspection Software Pricing | ComplianceGo",
+          "description": "Explore flexible pricing plans with no setup fees or contracts. Start your free 30-day trial today. No credit card required!",
+          "priceMentions": [
+            {
+              "text": "$100/mo",
+              "billingUnit": true,
+              "context": "t Auto weather‑triggered notifications Get Started Now --> *$100/mo account minimum Phone, email, & chat support We digitize yo"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "iworq.com",
+          "url": "https://iworq.com/systems/stormwater-management-software/",
+          "finalUrl": "https://iworq.com/systems/stormwater-management-software/",
+          "retrievedAt": "2026-09-20T09:34:08.535Z",
+          "status": 200,
+          "error": null,
+          "title": "Stormwater Management Software | iWorQ Systems",
+          "description": "Stormwater management software that maintains maps and reports on your culverts, cleanouts, drains, and inlets. MS4 program approved.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "iworq.com",
+          "url": "https://iworq.com/pricing",
+          "finalUrl": "https://iworq.com/pricing",
+          "retrievedAt": "2026-09-20T09:34:08.536Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 8,
+          "top": {
+            "keyword": "swppp software",
+            "searchVolume": 40,
+            "id": "K4"
+          },
+          "category": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "stormwater management software",
+              "searchVolume": 140,
+              "id": "K6"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"swppp software\" at 40/month; next \"swppp inspection log\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"stormwater management software\" 140/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K6"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $13.97 on \"stormwater management software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "aqualisco.com",
+            "compliancego.com",
+            "iworq.com",
+            "swiftcomply.com",
+            "ecopermitpros.com",
+            "iowastormwater.org",
+            "swppponline.com",
+            "sw2.net",
+            "mitti.com",
+            "crgtexas.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "compliancego.com"
+          ],
+          "note": "10 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on compliancego.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 1 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "iworq.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "f016194330c9e99b",
+      "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-20T09:40:41.861Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z",
+        "qualifiers": [
+          "general contractor",
+          "homebuilder",
+          "site developer"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the specific regulations that create the problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for a specific document required for SWPPP compliance, a core part of the problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about the negative consequences of non-compliance, which is the motivation for solving the problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for a software solution to the SWPPP compliance problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for tools to solve the SWPPP compliance problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader software category, as stormwater management can apply to municipalities and industrial facilities, not just construction sites."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for a direct software solution to the SWPPP problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for a direct software solution to the SWPPP problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about the cost of solving the SWPPP compliance problem, indicating interest from the target customer."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is software for managing SWPPPs and inspections, directly targeting the problem for construction-related customers."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion among construction professionals about software for managing SWPPPs."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software seems aimed at municipalities for managing their overall stormwater systems, which is broader than construction site compliance."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for MS4 compliance, which is a problem for municipalities, not construction contractors."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This government page describes SWPPP requirements in the context of construction activity, which is for the target customer."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is explicitly for the construction industry to manage SWPPP reporting and compliance."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article explaining what a SWPPP is, applicable to both construction and other industries like industrial facilities."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software helps manage stormwater compliance, inspections, and documentation, which is the exact problem for the target customer."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article explaining what a SWPPP is, not specific to the construction industry."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an EPA resource for developing SWPPPs, aimed at those who need to create them, including construction site operators."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This government page lists SWPPP compliance requirements for those who must create them, like construction site developers."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This guide details SWPPP requirements with examples specific to construction sites."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government checklist for construction site operators to ensure their SWPPP is compliant."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page discusses SWPPP requirements, including record retention after construction is complete, which is relevant to the target customer."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page discusses general SWPPP inspection requirements for a 'facility,' which is broader than just construction sites."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about SWPPP requirements across different industries, not just construction."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This legal text outlines SWPPP content requirements across various sectors, not just construction."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is specifically about SWPPP requirements for construction contractors in Texas."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general informational page about SWPPPs from a company that serves a broader market than just construction."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is for managing SWPPPs and inspections, directly addressing the problem for construction site managers."
+          },
+          "P4": {
+            "customer": "same",
+            "customerMatches": [
+              "general contractor",
+              "homebuilder",
+              "site developer"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is the pricing page for a software product that solves the SWPPP compliance problem for construction site managers."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for municipalities to manage their overall stormwater systems (MS4), a different customer and broader problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-20:construction-swppp-compliance-hub",
+        "opportunity": "The opportunity is to offer a software tool for construction firms to manage Stormwater Pollution Prevention Plan (SWPPP) compliance. This would help them handle inspections, logs, and reporting to avoid significant fines.",
+        "whoPays": "General contractors, homebuilders, and site developers would pay to reduce the risk of costly fines and to streamline compliance documentation. This is an inference as no direct evidence of payment was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "SWPPP (Stormwater Pollution Prevention Plan) Software?"
+            },
+            {
+              "id": "S2.11",
+              "quote": "Under Texas SWPPP requirements, every site disturbing one acre or more must prepare and implement a site-specific plan"
+            }
+          ],
+          "observed": "A discussion forum shows a user asking about SWPPP software. Government and industry websites confirm that construction sites over a certain size are required to prepare and implement a SWPPP.",
+          "inference": "The existence of regulations creates a need for compliance, and some people are looking for software to help manage it. However, the evidence does not indicate the severity of the pain or how widespread the search for a software solution is."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "The evidence, constrained by the provided relevance ratings, shows no direct or indirect competitors. Several potential competitors appeared in search results but were marked as 'uncertain' and thus cannot be assessed.",
+              "basis": [],
+              "kind": "observed"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "managing a high-stakes, paperwork-intensive compliance burden on clipboards and in binders",
+            "finding": "The evidence confirms a compliance burden exists, but there is no mention of how companies currently manage it, such as with 'clipboards and in binders'.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A simple first experiment would be a mobile-friendly web app that provides a digital checklist for SWPPP inspections for one state. It would allow users to check items, add notes, and export a PDF log."
+        },
+        "unproven": [
+          "The actual pain level and time consumed by SWPPP compliance for site managers.",
+          "Willingness to pay for a dedicated SWPPP software solution.",
+          "The competitive landscape is unclear, as multiple potential vendors were found but not rated as direct or indirect competitors in the evidence."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a '10-Minute SWPPP Inspection Tool' that emphasizes speed and ease of use. Run a small Google Ads campaign targeting the keyword 'swppp software' to drive traffic and measure email sign-ups for a waitlist.",
+          "cost": "$200-300 in ad spend + 10 hours for landing page creation.",
+          "duration": "2-4 weeks"
+        },
+        "continueIf": "The ad campaign generates a respectable click-through rate (>2%) and the landing page converts visitors to the waitlist at a rate of >5%, indicating the problem and solution resonate with searchers.",
+        "stopIf": "The ad campaign fails to generate clicks or the landing page has a near-zero conversion rate, suggesting a lack of interest or a poor problem-solution fit for those actively searching."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to offer a software tool for construction firms to manage Stormwater Pollution Prevention Plan (SWPPP) compliance. This would help them handle inspections, logs, and reporting to avoid significant fines.",
+        "whoPays": "General contractors, homebuilders, and site developers would pay to reduce the risk of costly fines and to streamline compliance documentation. This is an inference as no direct evidence of payment was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "SWPPP (Stormwater Pollution Prevention Plan) Software?",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "This is a discussion among construction professionals about software for managing SWPPPs."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Under Texas SWPPP requirements, every site disturbing one acre or more must prepare and implement a site-specific plan",
+              "domain": "crgtexas.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article is specifically about SWPPP requirements for construction contractors in Texas."
+            }
+          ],
+          "observed": "A discussion forum shows a user asking about SWPPP software. Government and industry websites confirm that construction sites over a certain size are required to prepare and implement a SWPPP.",
+          "inference": "The existence of regulations creates a need for compliance, and some people are looking for software to help manage it. However, the evidence does not indicate the severity of the pain or how widespread the search for a software solution is."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "The evidence, constrained by the provided relevance ratings, shows no direct or indirect competitors. Several potential competitors appeared in search results but were marked as 'uncertain' and thus cannot be assessed.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "managing a high-stakes, paperwork-intensive compliance burden on clipboards and in binders",
+            "finding": "The evidence confirms a compliance burden exists, but there is no mention of how companies currently manage it, such as with 'clipboards and in binders'.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A simple first experiment would be a mobile-friendly web app that provides a digital checklist for SWPPP inspections for one state. It would allow users to check items, add notes, and export a PDF log."
+        },
+        "unproven": [
+          "The actual pain level and time consumed by SWPPP compliance for site managers.",
+          "Willingness to pay for a dedicated SWPPP software solution.",
+          "The competitive landscape is unclear, as multiple potential vendors were found but not rated as direct or indirect competitors in the evidence."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a '10-Minute SWPPP Inspection Tool' that emphasizes speed and ease of use. Run a small Google Ads campaign targeting the keyword 'swppp software' to drive traffic and measure email sign-ups for a waitlist.",
+          "cost": "$200-300 in ad spend + 10 hours for landing page creation.",
+          "duration": "2-4 weeks"
+        },
+        "continueIf": "The ad campaign generates a respectable click-through rate (>2%) and the landing page converts visitors to the waitlist at a rate of >5%, indicating the problem and solution resonate with searchers.",
+        "stopIf": "The ad campaign fails to generate clicks or the landing page has a near-zero conversion rate, suggesting a lack of interest or a poor problem-solution fit for those actively searching.",
+        "removedLinks": 0,
+        "downgraded": [
+          "gap \"The evidence, constrained by the provided relevance ratings,\" observed → inference"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "gap \"The evidence, constrained by the provided relevance ratings,\" observed → inference"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-20T09:41:45.555Z",
+        "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z"
+      }
+    },
+    {
+      "id": "2026-09-20:funeral-home-gpl-manager",
+      "slug": "funeral-home-gpl-manager",
+      "title": "The Funeral Home Director's \"FTC-Proof\" General Price List (GPL) Manager",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem explicitly references the \"FTC's 'Funeral Rule'\" and specific penalty amounts, which are unique to the United States regulatory context."
+      },
+      "plan": {
+        "slug": "funeral-home-gpl-manager",
+        "title": "The Funeral Home Director's \"FTC-Proof\" General Price List (GPL) Manager",
+        "problem": "Independent funeral home owners must provide an accurate, itemized General Price List (GPL) to all consumers as mandated by the FTC's \"Funeral Rule,\" with violations carrying significant penalties.",
+        "targetCustomer": "Independent funeral home owner/director",
+        "payer": "Independent funeral home owner/director",
+        "whyPayerPays": "The payer needs to avoid substantial FTC fines (up to $53,088 per violation) and ensure their General Price List is always compliant with federal regulations.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem explicitly references the \"FTC's 'Funeral Rule'\" and specific penalty amounts, which are unique to the United States regulatory context."
+        },
+        "keywords": {
+          "problem": [
+            "funeral rule compliance",
+            "ftc funeral rule violations",
+            "general price list requirements"
+          ],
+          "solution": [
+            "funeral home software",
+            "gpl management system",
+            "funeral pricing software"
+          ],
+          "buying": [
+            "funeral home software pricing",
+            "best funeral home software",
+            "gpl software cost"
+          ]
+        },
+        "serpQueries": [
+          "funeral home software",
+          "funeral rule compliance"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "funeral rule compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "ftc funeral rule violations",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 40,
+          "cpcUsd": null,
+          "adCompetition": 0.01,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -25,
+          "providerUpdatedAt": "2026-09-17 21:31:16 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (43 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "general price list requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "funeral home software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 260,
+          "cpcUsd": 9.03,
+          "adCompetition": 0.26,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 50,
+          "providerUpdatedAt": "2026-09-16 20:56:14 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "rising",
+            "changePct": 63,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "gpl management system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "funeral pricing software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "funeral home software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best funeral home software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 8.12,
+          "adCompetition": 0.63,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-16 00:13:30 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (30 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "gpl software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:05.107Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "funeral home software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:49.646Z",
+          "checkUrl": "https://www.google.com/search?q=funeral%20home%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.passare.com",
+              "url": "https://www.passare.com/",
+              "title": "Passare: Funeral Home Software",
+              "description": "Funeral home software with a new way of thinking. Manage your business from anywhere and connect with families like never before. Save time on paperwork.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "osirissoftware.com",
+              "url": "https://osirissoftware.com/",
+              "title": "Osiris Software: Funeral Home Software",
+              "description": "Osiris is a powerful, completely customizable web-based cemetery financial management software. It is securely built to help you effectively manage data and ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.capterra.com",
+              "url": "https://www.capterra.com/funeral-home-software/",
+              "title": "Best Funeral Home Software",
+              "description": "funeral home software helps you organize intake, delivery times, service schedules, and invitations.",
+              "id": "S1.4",
+              "class": "review_directory"
+            },
+            {
+              "rank": 5,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/askfuneraldirectors/comments/1ptrhzu/what_software_do_you_recommend_for_a_new/",
+              "title": "What software do you recommend for a new, family-owned ...",
+              "description": "This might be a basic question, but if you were starting over today, what software would you use to manage everything (arrangements, cases, filings, websites, ...",
+              "id": "S1.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "gather.app",
+              "url": "https://gather.app/",
+              "title": "Gather | The Future of Funeral Home Software",
+              "description": "Gather is an innovative case management platform built specifically for funeral homes. With Case Management, Body Tracking, Websites, and Live Streaming, No ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.tributetech.com",
+              "url": "https://www.tributetech.com/",
+              "title": "Tribute Technology: Home",
+              "description": "Enhance your funeral, cremation, or cemetery business with best-in-class websites, marketing, and management software.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "continentalcomputers.com",
+              "url": "https://continentalcomputers.com/blog/funeral-home-software-serve-families-21-century/",
+              "title": "Funeral Home Software Helps Deathcare Professionals ...",
+              "description": "Nov 19, 2024 — Explore funeral home software features like digital signatures, software integrations, and online funeral planning.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "partingpro.com",
+              "url": "https://partingpro.com/blog/what-is-the-best-software-for-funeral-homes/",
+              "title": "Best Funeral Home Software (2026): How to Choose",
+              "description": "For independent and multi-location funeral homes in 2026, the platforms worth evaluating are Parting Pro, Passare, Gather, SRS Computing, Osiris, and Halcyon. Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "plotbox.com",
+              "url": "https://plotbox.com/funeral-home-software",
+              "title": "Funeral Home Software",
+              "description": "Funeral home software that finally keeps up with your day. From the first call to the final memorial, PlotBox runs your front office - cases, custody, payments ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "funeral rule compliance",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-20T09:33:56.693Z",
+          "checkUrl": "https://www.google.com/search?q=funeral%20rule%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.ftc.gov",
+              "url": "https://www.ftc.gov/business-guidance/resources/complying-funeral-rule",
+              "title": "Complying with the Funeral Rule",
+              "description": "Four items that the Rule requires you to list are: (1) forwarding of remains; (2) receiving remains; (3) direct cremation; and (4) immediate burial. Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.nfda.org",
+              "url": "https://www.nfda.org/your-business/business-resources/legal-compliance/",
+              "title": "NFDA | Funeral Home Business Management Resources",
+              "description": "Funeral Rule requires funeral homes to give consumers itemized price information and other disclosures when they inquire about funeral arrangements.",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.funerals.org",
+              "url": "https://www.funerals.org/your-rights/ftc-funeral-rule/",
+              "title": "FTC Funeral Rule",
+              "description": "The Funeral Rule, enforced by the Federal Trade Commission, makes it possible for you to choose only those goods and services you want or need and to pay ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "quizlet.com",
+              "url": "https://quizlet.com/study-guides/understanding-the-funeral-rule-compliance-guidelines-13f44975-5722-48c7-810e-285224d23422",
+              "title": "Understanding the Funeral Rule Compliance Guidelines",
+              "description": "Jul 2, 2025 — The Rule mandates that funeral providers must provide accurate, itemized price information and various disclosures about funeral goods and ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "education.ofdaonline.org",
+              "url": "https://education.ofdaonline.org/?pg=semwebCatalog&panel=showSWOD&seminarid=23599",
+              "title": "Funeral Rule Compliance and Online Sales: What You Need ...",
+              "description": "Jul 18, 2024 — What You Will Learn. A detailed understanding of what we know about the FTC's recent focus on Funeral Rule violations. Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.ftc.gov",
+              "url": "https://www.ftc.gov/news-events/topics/truth-advertising/funeral-rule",
+              "title": "Funeral Rule",
+              "description": "Under the FTC's Funeral Rule, consumers have the right to get a general price list from a funeral provider when they ask about funeral arrangements.",
+              "id": "S2.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "us-funerals.com",
+              "url": "https://us-funerals.com/the-ftcs-funeral-rule/",
+              "title": "The FTC Funeral Rule: Your Consumer Rights When ...",
+              "description": "Apr 16, 2026 — It requires funeral providers to give you accurate, itemized price information, prohibits them from bundling services you don't want, and gives ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Funeral_Rule",
+              "title": "Funeral Rule",
+              "description": "All U.S. funeral providers must comply with The Funeral Rule. The Funeral ... According to The Funeral Rule, funeral homes and any crematory must comply ... Read more",
+              "id": "S2.10",
+              "class": "reference_media"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "passare.com",
+          "url": "https://www.passare.com/",
+          "finalUrl": "https://www.passare.com/",
+          "retrievedAt": "2026-09-20T09:34:09.702Z",
+          "status": 200,
+          "error": null,
+          "title": "Funeral Home Software - Passare",
+          "description": "Funeral home software with a new way of thinking. Manage your business from anywhere and connect with families like never before. Save time on paperwork. Spend more time with families.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "passare.com",
+          "url": "https://www.passare.com/pricing",
+          "finalUrl": "https://www.passare.com/pricing",
+          "retrievedAt": "2026-09-20T09:34:09.703Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "osirissoftware.com",
+          "url": "https://osirissoftware.com/",
+          "finalUrl": "https://osirissoftware.com/",
+          "retrievedAt": "2026-09-20T09:34:09.703Z",
+          "status": 200,
+          "error": null,
+          "title": "Funeral Home Software - Osiris Software",
+          "description": "Osiris Software was built by funeral directors for funeral directors and is the premium software management solution for funeral homes, cemeteries and crematories.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "osirissoftware.com",
+          "url": "https://osirissoftware.com/pricing",
+          "finalUrl": "https://osirissoftware.com/pricing/",
+          "retrievedAt": "2026-09-20T09:34:09.704Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing - Osiris Software",
+          "description": "Osiris Software was built by funeral directors for funeral directors and is the premium software management solution for funeral homes, cemeteries and crematories.",
+          "priceMentions": [
+            {
+              "text": "$79/month",
+              "billingUnit": true,
+              "context": "me. Based on your at need call volume, plan prices start at $79/month and up. At Osiris, we work hard to earn your business each"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "nfda.org",
+          "url": "https://www.nfda.org/your-business/business-resources/legal-compliance/",
+          "finalUrl": "https://www.nfda.org/your-business/business-resources/legal-compliance/",
+          "retrievedAt": "2026-09-20T09:34:09.705Z",
+          "status": 200,
+          "error": null,
+          "title": "NFDA | Funeral Home Business Management Resources",
+          "description": "NFDA has funeral home management resources to run your business more effectively. Staff management, operational best practices, long-term business planning.",
+          "priceMentions": [
+            {
+              "text": "$250",
+              "billingUnit": false,
+              "context": "will back your GPL at no additional charge. The service is $250 for members and turnaround is within 30 days. For more info"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "nfda.org",
+          "url": "https://www.nfda.org/pricing",
+          "finalUrl": "https://www.nfda.org/pricing",
+          "retrievedAt": "2026-09-20T09:34:09.705Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 6,
+          "top": {
+            "keyword": "ftc funeral rule violations",
+            "searchVolume": 40,
+            "id": "K2"
+          },
+          "category": {
+            "level": "some",
+            "measuredCount": 2,
+            "totalCount": 3,
+            "top": {
+              "keyword": "funeral home software",
+              "searchVolume": 260,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"ftc funeral rule violations\" at 40/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"funeral home software\" 260/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K8"
+          ],
+          "pricedPageIds": [
+            "P4"
+          ],
+          "pricedDomains": [
+            "osirissoftware.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $9.03 on \"funeral home software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): osirissoftware.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "passare.com",
+            "osirissoftware.com",
+            "nfda.org",
+            "funerals.org",
+            "gather.app",
+            "quizlet.com",
+            "tributetech.com",
+            "education.ofdaonline.org",
+            "continentalcomputers.com",
+            "partingpro.com",
+            "us-funerals.com",
+            "plotbox.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "capterra.com",
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "osirissoftware.com"
+          ],
+          "note": "12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on osirissoftware.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 7 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "passare.com",
+            "osirissoftware.com",
+            "capterra.com",
+            "gather.app",
+            "tributetech.com",
+            "partingpro.com",
+            "plotbox.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "b3a6aad225525c1e",
+      "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-20T09:40:41.861Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z",
+        "qualifiers": [
+          "funeral home owner",
+          "funeral home director"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the specific regulation that creates the problem for funeral home directors."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about the negative consequences of non-compliance, which is the core problem for funeral home directors."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the specific requirements of the General Price List, the central part of the problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for the general software category, which is broader than a specific GPL management tool."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for a solution to the problem of managing the General Price List."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for a software solution to the problem of managing funeral pricing and the GPL."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This search is about the price of general funeral home software, not specifically a GPL management tool."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for the best general software for funeral homes, a broader category than the idea's specific solution."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for a software solution to the specific GPL problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general funeral home management software, which is broader than just managing the General Price List."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a broad financial management software for funeral homes and cemeteries, not specifically for GPL compliance."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a directory of general funeral home management software, covering tasks beyond GPL compliance."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a discussion by a funeral home owner asking for software to manage their entire business, a broader problem than GPL."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a broad case management platform for funeral homes, covering much more than just GPL management."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This company offers a suite of services including websites and marketing, which is broader than GPL management."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article discusses broad features of funeral home software, like online planning, not just GPL management."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a review of general funeral home software platforms for funeral home owners."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a comprehensive software for managing funeral home operations, from first call to final memorial, much broader than GPL."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an FTC guide for funeral homes on how to comply with the Funeral Rule, the core problem."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home director"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a resource from the funeral directors' association explaining the Funeral Rule and GPL requirements."
+          },
+          "S2.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This page explains the Funeral Rule from the consumer's perspective, not the funeral home director's compliance problem."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home director"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a study guide about Funeral Rule compliance, which is the core problem for funeral directors."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home director"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an educational resource for funeral directors about Funeral Rule violations, the core problem."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This FTC page explains the Funeral Rule, which is relevant to both consumers and the funeral directors who must comply."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article explains the Funeral Rule from the perspective of consumer rights, not the funeral home's compliance problem."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general encyclopedia article explaining the Funeral Rule and the compliance requirement for funeral homes."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general funeral home management software, which is broader than just managing the GPL."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a comprehensive management software for funeral homes, a broader solution than just GPL management."
+          },
+          "P4": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is the pricing page for a comprehensive funeral home management software."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "funeral home owner",
+              "funeral home director"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This page offers resources for a wide range of funeral home business management topics, much broader than just GPL compliance."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-20:funeral-home-gpl-manager",
+        "opportunity": "The opportunity is to provide a focused software tool for independent funeral homes to create and manage their General Price List (GPL). This helps them comply with the FTC's 'Funeral Rule' and avoid substantial penalties.",
+        "whoPays": "The independent funeral home owner or director pays to ensure compliance with federal regulations and avoid the risk of large fines. This is an inference as no direct evidence of payment for this specific service was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Complying with the Funeral Rule"
+            },
+            {
+              "id": "S2.4",
+              "quote": "Funeral Rule requires funeral homes to give consumers itemized price information"
+            },
+            {
+              "id": "S2.7",
+              "quote": "FTC's recent focus on Funeral Rule violations"
+            }
+          ],
+          "observed": "The Federal Trade Commission (FTC) provides guides on 'Complying with the Funeral Rule'. The national industry association (NFDA) and other educational resources confirm that funeral homes are required to provide itemized price information and that there is a focus on violations.",
+          "inference": "Funeral home directors operate under a strict, federally-enforced pricing transparency rule, and non-compliance is a significant business risk they are actively being educated about."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Passare: Funeral Home Software"
+            },
+            {
+              "id": "S1.3",
+              "quote": "Osiris Software: Funeral Home Software"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Gather | The Future of Funeral Home Software"
+            },
+            {
+              "id": "S1.10",
+              "quote": "Funeral Home Software"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Passare",
+              "type": "indirect",
+              "what": "A comprehensive funeral home software to 'Manage your business from anywhere' and 'Save time on paperwork'.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Manage your business from anywhere and connect with families like never before."
+                }
+              ]
+            },
+            {
+              "name": "Osiris Software",
+              "type": "indirect",
+              "what": "A web-based cemetery and funeral home financial management software. Pricing starts at $79/month.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "web-based cemetery financial management software"
+                },
+                {
+                  "id": "P4",
+                  "quote": "plan prices start at $79/month and up"
+                }
+              ]
+            },
+            {
+              "name": "Gather",
+              "type": "indirect",
+              "what": "A case management platform for funeral homes that includes body tracking, websites, and live streaming.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "innovative case management platform built specifically for funeral homes"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market has numerous established, all-in-one software suites for funeral home management.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "the platforms worth evaluating are Parting Pro, Passare, Gather, SRS Computing, Osiris, and Halcyon"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The evidence does not show any standalone, dedicated GPL management tools. The market appears to consist of broad, all-in-one platforms, which may be too complex or expensive for smaller homes that only need help with this one compliance task.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "manage this critical compliance document using Word docs and paper binders",
+            "finding": "The evidence does not contain any information about the specific tools (e.g., Word, paper) that funeral homes currently use to manage their GPLs.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A first experiment could be a simple web form that collects a funeral home's services and prices and generates a compliant GPL PDF. The compliance rules are publicly available from the FTC."
+        },
+        "unproven": [
+          "Whether funeral homes are willing to pay for a standalone GPL tool, or if they expect this functionality to be included in their main management software.",
+          "The actual difficulty and time spent creating and maintaining a GPL; it might be a simple task for most homes.",
+          "Whether the existing all-in-one software suites already solve this problem effectively."
+        ],
+        "nextExperiment": {
+          "what": "The NFDA website mentions a GPL review service for $250. Offer a competing service: a landing page for a '$199 GPL Compliance Review'. Promote it to a small number of independent funeral homes to see if they will pay for an expert review, which validates the pain and willingness to pay.",
+          "cost": "Low cash + 10-15 hours for landing page and outreach.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 2-3 funeral homes purchase the review service. This would validate that GPL compliance is a pain point they will spend money to solve and provides direct customer contact for deeper problem discovery.",
+        "stopIf": "No one purchases the service after outreach to 50+ funeral homes, suggesting the pain is not acute enough to pay for, or they already have trusted solutions."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a focused software tool for independent funeral homes to create and manage their General Price List (GPL). This helps them comply with the FTC's 'Funeral Rule' and avoid substantial penalties.",
+        "whoPays": "The independent funeral home owner or director pays to ensure compliance with federal regulations and avoid the risk of large fines. This is an inference as no direct evidence of payment for this specific service was found.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Complying with the Funeral Rule",
+              "domain": "ftc.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "direct",
+              "relevanceReason": "This is an FTC guide for funeral homes on how to comply with the Funeral Rule, the core problem."
+            },
+            {
+              "id": "S2.4",
+              "quote": "Funeral Rule requires funeral homes to give consumers itemized price information",
+              "domain": "nfda.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a resource from the funeral directors' association explaining the Funeral Rule and GPL requirements."
+            },
+            {
+              "id": "S2.7",
+              "quote": "FTC's recent focus on Funeral Rule violations",
+              "domain": "education.ofdaonline.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is an educational resource for funeral directors about Funeral Rule violations, the core problem."
+            }
+          ],
+          "observed": "The Federal Trade Commission (FTC) provides guides on 'Complying with the Funeral Rule'. The national industry association (NFDA) and other educational resources confirm that funeral homes are required to provide itemized price information and that there is a focus on violations.",
+          "inference": "Funeral home directors operate under a strict, federally-enforced pricing transparency rule, and non-compliance is a significant business risk they are actively being educated about."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Passare: Funeral Home Software",
+              "domain": "passare.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a general funeral home management software, which is broader than just managing the General Price List."
+            },
+            {
+              "id": "S1.3",
+              "quote": "Osiris Software: Funeral Home Software",
+              "domain": "osirissoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a broad financial management software for funeral homes and cemeteries, not specifically for GPL compliance."
+            },
+            {
+              "id": "S1.6",
+              "quote": "Gather | The Future of Funeral Home Software",
+              "domain": "gather.app",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a broad case management platform for funeral homes, covering much more than just GPL management."
+            },
+            {
+              "id": "S1.10",
+              "quote": "Funeral Home Software",
+              "domain": "plotbox.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a comprehensive software for managing funeral home operations, from first call to final memorial, much broader than GPL."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "passare.com",
+            "osirissoftware.com",
+            "gather.app",
+            "plotbox.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Passare",
+              "type": "indirect",
+              "what": "A comprehensive funeral home software to 'Manage your business from anywhere' and 'Save time on paperwork'.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Manage your business from anywhere and connect with families like never before.",
+                  "domain": "passare.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general funeral home management software, which is broader than just managing the General Price List."
+                }
+              ]
+            },
+            {
+              "name": "Osiris Software",
+              "type": "indirect",
+              "what": "A web-based cemetery and funeral home financial management software. Pricing starts at $79/month.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "web-based cemetery financial management software",
+                  "domain": "osirissoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a broad financial management software for funeral homes and cemeteries, not specifically for GPL compliance."
+                },
+                {
+                  "id": "P4",
+                  "quote": "plan prices start at $79/month and up",
+                  "domain": "osirissoftware.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is the pricing page for a comprehensive funeral home management software."
+                }
+              ]
+            },
+            {
+              "name": "Gather",
+              "type": "indirect",
+              "what": "A case management platform for funeral homes that includes body tracking, websites, and live streaming.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "innovative case management platform built specifically for funeral homes",
+                  "domain": "gather.app",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a broad case management platform for funeral homes, covering much more than just GPL management."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market has numerous established, all-in-one software suites for funeral home management.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "the platforms worth evaluating are Parting Pro, Passare, Gather, SRS Computing, Osiris, and Halcyon",
+                  "domain": "partingpro.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a review of general funeral home software platforms for funeral home owners."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The evidence does not show any standalone, dedicated GPL management tools. The market appears to consist of broad, all-in-one platforms, which may be too complex or expensive for smaller homes that only need help with this one compliance task.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "manage this critical compliance document using Word docs and paper binders",
+            "finding": "The evidence does not contain any information about the specific tools (e.g., Word, paper) that funeral homes currently use to manage their GPLs.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A first experiment could be a simple web form that collects a funeral home's services and prices and generates a compliant GPL PDF. The compliance rules are publicly available from the FTC."
+        },
+        "unproven": [
+          "Whether funeral homes are willing to pay for a standalone GPL tool, or if they expect this functionality to be included in their main management software.",
+          "The actual difficulty and time spent creating and maintaining a GPL; it might be a simple task for most homes.",
+          "Whether the existing all-in-one software suites already solve this problem effectively."
+        ],
+        "nextExperiment": {
+          "what": "The NFDA website mentions a GPL review service for $250. Offer a competing service: a landing page for a '$199 GPL Compliance Review'. Promote it to a small number of independent funeral homes to see if they will pay for an expert review, which validates the pain and willingness to pay.",
+          "cost": "Low cash + 10-15 hours for landing page and outreach.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 2-3 funeral homes purchase the review service. This would validate that GPL compliance is a pain point they will spend money to solve and provides direct customer contact for deeper problem discovery.",
+        "stopIf": "No one purchases the service after outreach to 50+ funeral homes, suggesting the pain is not acute enough to pay for, or they already have trusted solutions.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → moderate: strong needs two independent domains directly about this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → moderate: strong needs two independent domains directly about this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-20T09:41:45.560Z",
+        "evidenceUpdatedAt": "2026-09-20T09:34:12.105Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-20T09:33:05.107Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "070b0cf0-315b-50df-b428-9077ae8ba500",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.0132,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-20T09:33:09.694Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "8c162891-2f0f-5a96-b9fb-0bfd2f5ad0fb",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-20T09:33:17.662Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "e0f2611d-cbf8-5940-895a-57e3b2ae032f",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-20T09:33:24.715Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "ad26eaea-47cb-58b0-9f72-b74f10c3d725",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-20T09:33:32.603Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "43f007f6-1e4f-56ef-9d5d-6443d0d2b29e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-20T09:33:49.646Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "91771ad0-7bae-58eb-b4bd-3cca33637f99",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-20T09:33:56.693Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "e17a13b8-737b-5955-94d7-6e937455d6d3",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.42784,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.57216
+    },
+    "monthToDateUsdBefore": 0.42784,
+    "spentThisRunUsd": 0.0252
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-20T09:34:12.105Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.0252,
+    "note": null
+  }
+}
