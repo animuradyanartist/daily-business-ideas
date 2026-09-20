@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-20 (trends)
+- A powerful go-to-market strategy is to build a "co-pilot" for navigating a complex, high-stakes bureaucratic process where the user feels overwhelmed and the cost of error is high (e.g., VA claims).
+- For fragmented, non-technical SMB markets (cleaning services, landscaping), the most compelling AI tools are those that automate the "front office" first—lead capture, quoting, and scheduling—as these are the most direct levers on revenue.
+- The value proposition of generative AI for visual tasks (like landscape design) is not replacing the professional, but collapsing the "concept-to-visualization" timeline from days to minutes, dramatically accelerating the sales and client feedback cycle.
+
+---
+
 ## 2026-09-20
 *   An incumbent service shutting down is one of the most powerful go-to-market catalysts. It creates a pool of active, motivated buyers who are forced to make a purchasing decision on a specific timeline.
 *   For non-technical small business owners, the value proposition of a simple, reliable tool that solves one high-stakes problem can be more compelling than a complex, all-in-one system, even if that system is from an established vendor.

@@ -405,6 +405,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Home Health Operations** · Using AI platforms to automate operational workflows like documentation, QA, and billing for home care agencies. · flagged 2026-09-19 · last checked 2026-09-19 · [origin memo](trends/2026-09-19.md)
 - **AI-Automated Employee Lifecycle Management** · Using agentic AI systems to automate end-to-end employee onboarding and offboarding workflows across HR, IT, and management. · flagged 2026-09-19 · last checked 2026-09-19 · [origin memo](trends/2026-09-19.md)
 - **AI-Powered "Family OS" to Reduce Mental Load** · Using AI-powered consumer apps to proactively manage and coordinate household tasks, schedules, and communications. · flagged 2026-09-19 · last checked 2026-09-19 · [origin memo](trends/2026-09-19.md)
+- **AI-Automated Operations for Cleaning Services** · Using all-in-one AI platforms to automate quoting, scheduling, and client management for cleaning businesses. · flagged 2026-09-20 · last checked 2026-09-20 · [origin memo](trends/2026-09-20.md)
+- **AI Co-pilots for Navigating Veterans' Benefits** · Using AI-powered platforms to help veterans understand, prepare, and file for VA disability benefits. · flagged 2026-09-20 · last checked 2026-09-20 · [origin memo](trends/2026-09-20.md)
+- **AI-Powered Landscape Design & Visualization** · Using AI to rapidly generate photorealistic landscape design concepts from photos, sketches, and 3D models. · flagged 2026-09-20 · last checked 2026-09-20 · [origin memo](trends/2026-09-20.md)
 
 
 ## ➡️ Active — plateauing
@@ -682,3 +685,5 @@ _(empty)_
 <!-- 2026-09-18 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
 
 <!-- 2026-09-19 status-update directive: 🚀 | AI-Generated Architectural Visualization -->
+
+<!-- 2026-09-20 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
