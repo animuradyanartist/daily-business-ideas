@@ -408,6 +408,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Operations for Cleaning Services** · Using all-in-one AI platforms to automate quoting, scheduling, and client management for cleaning businesses. · flagged 2026-09-20 · last checked 2026-09-20 · [origin memo](trends/2026-09-20.md)
 - **AI Co-pilots for Navigating Veterans' Benefits** · Using AI-powered platforms to help veterans understand, prepare, and file for VA disability benefits. · flagged 2026-09-20 · last checked 2026-09-20 · [origin memo](trends/2026-09-20.md)
 - **AI-Powered Landscape Design & Visualization** · Using AI to rapidly generate photorealistic landscape design concepts from photos, sketches, and 3D models. · flagged 2026-09-20 · last checked 2026-09-20 · [origin memo](trends/2026-09-20.md)
+- **AI-Powered Electrical Contracting Operations** · Using all-in-one AI platforms to automate quoting, scheduling, and client management for electrical contractors. · flagged 2026-09-21 · last checked 2026-09-21 · [origin memo](trends/2026-09-21.md)
+- **AI for Corporate Sustainability (ESG) Reporting** · Using AI platforms to automate data collection and reporting for mandatory ESG disclosures like the CSRD. · flagged 2026-09-21 · last checked 2026-09-21 · [origin memo](trends/2026-09-21.md)
+- **AI-Powered Public Speaking & Communication Coaching** · Using AI apps to practice and get data-driven feedback on communication skills for high-stakes professional situations. · flagged 2026-09-21 · last checked 2026-09-21 · [origin memo](trends/2026-09-21.md)
 
 
 ## ➡️ Active — plateauing
@@ -687,3 +690,5 @@ _(empty)_
 <!-- 2026-09-19 status-update directive: 🚀 | AI-Generated Architectural Visualization -->
 
 <!-- 2026-09-20 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-09-21 status-update directive: 🚀 | AI-Automated Immigration Law Workflows -->

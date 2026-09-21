@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-21 (trends)
+- A non-negotiable, date-certain regulatory deadline (like the EU's CSRD) is one of the most powerful catalysts for the rapid adoption of B2B AI platforms.
+- For skilled trades and other fragmented SMB markets, the most compelling AI tools are those that automate the "front office" first—lead capture, quoting, and scheduling—as these are the most direct levers on revenue.
+- The "AI as a coach" pattern is expanding from technical skills to high-value soft skills like communication and public speaking, creating a new category of professional development tools.
+
+---
+
 ## 2026-09-21
 - A market contraction can be a powerful "why now" catalyst for efficiency and cost-saving tools.
 - Customer complaints about an incumbent's price hikes are a strong signal of opportunity for a more focused, fairly-priced competitor.
