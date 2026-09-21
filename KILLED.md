@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-21
+- **The Childcare Center's State Licensing Report Hub:** Killed. A strong pain, but licensing requirements are highly variable state-by-state, making a national product difficult to launch. The brewery TTB report is a single, federal standard.
+- **The Independent Auto Repair Shop's EPA Waste Disposal Log:** Killed. While a compliance pain, the frequency is lower and the "business-ending" risk is less acute than for TTB compliance.
+- **The Private Security Firm's Incident & Guard-Tour Reporting System:** Killed. A good B2B SaaS opportunity, but more of an operational efficiency tool than a high-stakes compliance painkiller driven by a federal mandate.
+
 ## 2026-09-20
 *   **The Construction Site Manager's "Always-Ready" SWPPP Compliance Hub** — Killed. A strong pain, but the market has more sophisticated existing software solutions compared to the pawn shop space. The "forced migration" catalyst for pawn shops is a stronger entry point.
 *   **The Funeral Home Director's "FTC-Proof" General Price List (GPL) Manager** — Killed. The regulatory change is a good "why now," but the pain frequency is lower than the pawn shop's daily reporting requirement. Daily pain is more likely to drive a subscription purchase.

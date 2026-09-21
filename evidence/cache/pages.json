@@ -3438,6 +3438,133 @@
         "mentionsContactSales": false,
         "mentionsPricing": false
       }
+    },
+    "page|https://www.goekos.com/feature/ttb-report-generation_/": {
+      "fetchedAt": "2026-09-21T10:20:02.907Z",
+      "data": {
+        "url": "https://www.goekos.com/feature/ttb-report-generation_/",
+        "finalUrl": "https://www.goekos.com/feature/ttb-report-generation_/",
+        "retrievedAt": "2026-09-21T10:20:02.907Z",
+        "status": 200,
+        "error": null,
+        "title": "TTB Report Generation | Ekos Features | Ekos",
+        "description": "With TTB report generation in Ekos, you can save 10+ hours per month on this time-consuming task. Learn more!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.goekos.com/pricing": {
+      "fetchedAt": "2026-09-21T10:20:02.908Z",
+      "data": {
+        "url": "https://www.goekos.com/pricing",
+        "finalUrl": "https://www.goekos.com/pricing/",
+        "retrievedAt": "2026-09-21T10:20:02.908Z",
+        "status": 200,
+        "error": null,
+        "title": "Ekos: Pricing",
+        "description": "With pricing options to fit your unique needs, Ekos offers craft producers an end-to-end system to manage inventory, production, sales, and accounting.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://getollie.com/ttb-reporting": {
+      "fetchedAt": "2026-09-21T10:20:02.909Z",
+      "data": {
+        "url": "https://getollie.com/ttb-reporting",
+        "finalUrl": "https://getollie.com/ttb-reporting",
+        "retrievedAt": "2026-09-21T10:20:02.909Z",
+        "status": 200,
+        "error": null,
+        "title": "Automated TTB Reporting - Ollie",
+        "description": "Breweries challenged with tax and TTB reporting need a solution to save time and money. With Ollie, craft breweries are spending less time in reporting.",
+        "priceMentions": [
+          {
+            "text": "$200 a Month",
+            "billingUnit": true,
+            "context": "ss Stories Pedals & Pints Brewing Saves 12 Hours a Week and $200 a Month Switching to Ollie Learn More 42 North Brewing Increases Pr"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ttbtamer.com/pricing": {
+      "fetchedAt": "2026-09-21T10:20:02.906Z",
+      "data": {
+        "url": "https://www.ttbtamer.com/pricing",
+        "finalUrl": "https://www.ttbtamer.com/pricing",
+        "retrievedAt": "2026-09-21T10:20:02.906Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - Software for TTB Reporting - Breweries, Wineries, Distilleries",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$ 47 / month",
+            "billingUnit": true,
+            "context": "Priority Customer Service NO CONTRACTS Monthly most popular $ 47 / month REQUIRED: One time $249 – Account setup, Process creation,"
+          },
+          {
+            "text": "$249",
+            "billingUnit": false,
+            "context": "TRACTS Monthly most popular $ 47 / month REQUIRED: One time $249 – Account setup, Process creation, and Training customized"
+          },
+          {
+            "text": "$1/month",
+            "billingUnit": true,
+            "context": "s creation, and Training customized to your operations. Add $1/month per Additional User Get Started Monthly Yearly $ 476 / year"
+          },
+          {
+            "text": "$ 476 / year",
+            "billingUnit": true,
+            "context": "Add $1/month per Additional User Get Started Monthly Yearly $ 476 / year REQUIRED: One time $249 – Account setup, Process creation,"
+          },
+          {
+            "text": "$12/year",
+            "billingUnit": true,
+            "context": "s creation, and Training customized to your operations. Add $12/year per Additional User Save $88 compared to monthly billing Ge"
+          },
+          {
+            "text": "$88",
+            "billingUnit": false,
+            "context": "d to your operations. Add $12/year per Additional User Save $88 compared to monthly billing Get Started Yearly Great so far"
+          },
+          {
+            "text": "$ 61 / month",
+            "billingUnit": true,
+            "context": "Priority Customer Service NO CONTRACTS Monthly Most Popular $ 61 / month REQUIRED: One time $349 – Account setup, Process creation,"
+          },
+          {
+            "text": "$349",
+            "billingUnit": false,
+            "context": "TRACTS Monthly Most Popular $ 61 / month REQUIRED: One time $349 – Account setup, Process creation, and Training customized"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ttbtamer.com/": {
+      "fetchedAt": "2026-09-21T10:20:02.904Z",
+      "data": {
+        "url": "https://www.ttbtamer.com/",
+        "finalUrl": "https://www.ttbtamer.com/",
+        "retrievedAt": "2026-09-21T10:20:02.904Z",
+        "status": 200,
+        "error": null,
+        "title": "TTB Tamer - Software for TTB Reporting - Breweries, Wineries, Distilleries",
+        "description": "Quick and Easy Federal TTB Software for Brewery Reporting so Brewers can spend more time Brewing Beer, and less time creating reports. No Spreadsheets!",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }

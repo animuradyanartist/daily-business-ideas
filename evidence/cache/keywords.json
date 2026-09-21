@@ -15839,6 +15839,313 @@
       "fetchedAt": "2026-09-20T09:33:05.107Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|how to file ttb report": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ttb report of operations errors": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|brewery compliance reporting issues": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ttb reporting software": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": true,
+      "data": {
+        "keyword": "ttb reporting software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": null,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-15 03:41:16 +00:00"
+      }
+    },
+    "labs|united states|en|brewery management software": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": true,
+      "data": {
+        "keyword": "brewery management software",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 320
+          }
+        ],
+        "cpcUsd": 8.96,
+        "adCompetition": 0.22,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -90,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 05:26:24 +00:00"
+      }
+    },
+    "labs|united states|en|brewery compliance tool": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ttb software pricing": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best brewery reporting tools": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|brewery compliance software cost": {
+      "fetchedAt": "2026-09-21T10:19:49.358Z",
+      "returned": false,
+      "data": null
     }
   }
 }

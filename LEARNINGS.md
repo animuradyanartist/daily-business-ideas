@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-21
+- A market contraction can be a powerful "why now" catalyst for efficiency and cost-saving tools.
+- Customer complaints about an incumbent's price hikes are a strong signal of opportunity for a more focused, fairly-priced competitor.
+- The existence of users paying for a bloated software suite *just to use one feature* is one of the strongest possible validation signals for unbundling that feature into a standalone product.
+
 ## 2026-09-20 (trends)
 - A powerful go-to-market strategy is to build a "co-pilot" for navigating a complex, high-stakes bureaucratic process where the user feels overwhelmed and the cost of error is high (e.g., VA claims).
 - For fragmented, non-technical SMB markets (cleaning services, landscaping), the most compelling AI tools are those that automate the "front office" first—lead capture, quoting, and scheduling—as these are the most direct levers on revenue.
