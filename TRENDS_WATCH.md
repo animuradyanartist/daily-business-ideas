@@ -411,6 +411,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Electrical Contracting Operations** · Using all-in-one AI platforms to automate quoting, scheduling, and client management for electrical contractors. · flagged 2026-09-21 · last checked 2026-09-21 · [origin memo](trends/2026-09-21.md)
 - **AI for Corporate Sustainability (ESG) Reporting** · Using AI platforms to automate data collection and reporting for mandatory ESG disclosures like the CSRD. · flagged 2026-09-21 · last checked 2026-09-21 · [origin memo](trends/2026-09-21.md)
 - **AI-Powered Public Speaking & Communication Coaching** · Using AI apps to practice and get data-driven feedback on communication skills for high-stakes professional situations. · flagged 2026-09-21 · last checked 2026-09-21 · [origin memo](trends/2026-09-21.md)
+- **AI-Automated Insurance Claim Documentation for Contractors** · Using AI to analyze photos and generate structured damage reports for insurance claims. · flagged 2026-09-22 · last checked 2026-09-22 · [origin memo](trends/2026-09-22.md)
+- **AI-Personalized Pet Nutrition & Wellness Plans** · Using AI to generate custom meal plans and proactive wellness guidance based on a pet's specific data. · flagged 2026-09-22 · last checked 2026-09-22 · [origin memo](trends/2026-09-22.md)
+- **AI-Automated Code Review for Small Teams** · Using AI tools to automatically review code changes in pull requests for bugs, security, and style. · flagged 2026-09-22 · last checked 2026-09-22 · [origin memo](trends/2026-09-22.md)
 
 
 ## ➡️ Active — plateauing
@@ -692,3 +695,5 @@ _(empty)_
 <!-- 2026-09-20 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
 
 <!-- 2026-09-21 status-update directive: 🚀 | AI-Automated Immigration Law Workflows -->
+
+<!-- 2026-09-22 status-update directive: 🚀 | AI as a Thought Partner -->
