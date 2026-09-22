@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-22
+- The most powerful B2B compliance opportunities have a hard, annual deadline that creates a predictable buying season every year.
+- A free, clunky government-provided tool can be a feature, not a bug. It validates the core need while creating a clear opportunity for a user-friendly, paid alternative that sells certainty and peace of mind.
+- For compliance SaaS, the price is not anchored to features, but to the size of the potential penalty and the cost of the manual alternative (consultants).
+- A market where "not knowing you have the problem" is a common failure mode represents a significant opportunity for education-based marketing.
+
 ## 2026-09-21 (trends)
 - A non-negotiable, date-certain regulatory deadline (like the EU's CSRD) is one of the most powerful catalysts for the rapid adoption of B2B AI platforms.
 - For skilled trades and other fragmented SMB markets, the most compelling AI tools are those that automate the "front office" first—lead capture, quoting, and scheduling—as these are the most direct levers on revenue.

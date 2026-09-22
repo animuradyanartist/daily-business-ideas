@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US SMB EPA Tier II Compliance Software | us-smb-epa-tier-ii-compliance-software | 2026-09-22 | 93 | The Small Business "Penalty-Proof" EPA Tier II Report Generator |
 | US Craft Brewery Compliance Software | us-craft-brewery-compliance-software | 2026-09-21 | 95 | The Small Brewery's "TTB-Ready" Report of Operations Generator |
 | US Pawn Shop Compliance Software | us-pawn-shop-compliance-software | 2026-09-20 | 100 | The Pawn Shop's "Never-Fail" Daily Police Report Generator |
 | US Non-Emergency Medical Transportation (NEMT) Provider Software | us-nemt-provider-software | 2026-09-19 | 100 | The Non-Emergency Medical Transportation (NEMT) Provider's "Get Paid, Not Buried" Hub |

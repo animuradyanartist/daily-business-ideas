@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-22
+- **The "Always-Compliant" Professional CE Tracker:** Killed. While the pain is real, the market is fragmented by profession and state, making a single product difficult. The annual ACV is also likely lower than for a B2B compliance product.
+- **The "Audit-Proof" Freight Bill Auditor:** Killed. This is an ROI/efficiency play, not a compliance painkiller. In a downturn, it's a strong pitch, but the "must-have" nature of compliance software is stronger.
+- **The Small Business "Penalty-Proof" COBRA Administrator:** Killed. A very strong idea that fits the pattern. However, the Tier II market appears to have a larger base of affected businesses and a more severe, clear-cut penalty structure.
+- **The Small Business "Always-Ready" OSHA 300 Log Hub:** Killed. Also a very strong compliance idea. The annual, hard-deadline nature of the Tier II report creates a more powerful purchasing trigger than the more continuous, incident-driven OSHA logging requirement.
+
 ## 2026-09-21
 - **The Childcare Center's State Licensing Report Hub:** Killed. A strong pain, but licensing requirements are highly variable state-by-state, making a national product difficult to launch. The brewery TTB report is a single, federal standard.
 - **The Independent Auto Repair Shop's EPA Waste Disposal Log:** Killed. While a compliance pain, the frequency is lower and the "business-ending" risk is less acute than for TTB compliance.

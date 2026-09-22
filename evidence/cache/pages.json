@@ -3565,6 +3565,270 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://cebroker.com/pricing": {
+      "fetchedAt": "2026-09-22T09:35:46.574Z",
+      "data": {
+        "url": "https://cebroker.com/pricing",
+        "finalUrl": "https://cebroker.com/pricing",
+        "retrievedAt": "2026-09-22T09:35:46.574Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://nabp.pharmacy/pricing": {
+      "fetchedAt": "2026-09-22T09:35:46.576Z",
+      "data": {
+        "url": "https://nabp.pharmacy/pricing",
+        "finalUrl": "https://nabp.pharmacy/pricing",
+        "retrievedAt": "2026-09-22T09:35:46.576Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://nabp.pharmacy/programs/cpe-monitor/": {
+      "fetchedAt": "2026-09-22T09:35:46.575Z",
+      "data": {
+        "url": "https://nabp.pharmacy/programs/cpe-monitor/",
+        "finalUrl": "https://nabp.pharmacy/programs/cpe-monitor/",
+        "retrievedAt": "2026-09-22T09:35:46.575Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://support.aanp.org/hc/en-us/sections/22072698558363-Using-the-CE-Tracker": {
+      "fetchedAt": "2026-09-22T09:35:46.576Z",
+      "data": {
+        "url": "https://support.aanp.org/hc/en-us/sections/22072698558363-Using-the-CE-Tracker",
+        "finalUrl": "https://support.aanp.org/hc/en-us/sections/22072698558363-Using-the-CE-Tracker",
+        "retrievedAt": "2026-09-22T09:35:46.576Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://cebroker.com/": {
+      "fetchedAt": "2026-09-22T09:35:46.572Z",
+      "data": {
+        "url": "https://cebroker.com/",
+        "finalUrl": "https://cebroker.com/",
+        "retrievedAt": "2026-09-22T09:35:46.572Z",
+        "status": 200,
+        "error": null,
+        "title": "Your CE compliance companion - Propelus CE Broker",
+        "description": "CE Broker is the most trusted CE management solution, modernizing how professionals, regulators, and education providers work better together.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://support.aanp.org/pricing": {
+      "fetchedAt": "2026-09-22T09:35:46.577Z",
+      "data": {
+        "url": "https://support.aanp.org/pricing",
+        "finalUrl": "https://support.aanp.org/pricing",
+        "retrievedAt": "2026-09-22T09:35:46.577Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://mitti.com/apps/osha-compliance-software": {
+      "fetchedAt": "2026-09-22T09:35:47.397Z",
+      "data": {
+        "url": "https://mitti.com/apps/osha-compliance-software",
+        "finalUrl": "https://mitti.com/apps/osha-compliance-software",
+        "retrievedAt": "2026-09-22T09:35:47.397Z",
+        "status": 200,
+        "error": null,
+        "title": "7 Best OSHA Compliance Software of 2026 | Mitti (by SafetyCulture)",
+        "description": "Get to know the top-performing OSHA compliance software and uphold the industry’s best standards with your final pick.",
+        "priceMentions": [
+          {
+            "text": "$24/seat",
+            "billingUnit": true,
+            "context": "on : Available for teams of up to 10 Pricing : Premium plan $24/seat/month (with free trial period) Platforms supported : Availa"
+          },
+          {
+            "text": "$24/user",
+            "billingUnit": true,
+            "context": "Paid Plan Best for Mobile App Mitti (by SafetyCulture) Yes $24/user/month* Safety audits & inspections Yes Benchmark Gensuite N"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://compliancy-group.com/osha-compliance-management-software/": {
+      "fetchedAt": "2026-09-22T09:35:47.400Z",
+      "data": {
+        "url": "https://compliancy-group.com/osha-compliance-management-software/",
+        "finalUrl": "https://compliancy-group.com/osha-compliance-management-software/",
+        "retrievedAt": "2026-09-22T09:35:47.400Z",
+        "status": 200,
+        "error": null,
+        "title": "OSHA Compliance Management Software",
+        "description": "Managing OSHA compliance can be daunting. This is where OSHA compliance management software comes into play. Find out more.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://compliancy-group.com/pricing": {
+      "fetchedAt": "2026-09-22T09:35:47.400Z",
+      "data": {
+        "url": "https://compliancy-group.com/pricing",
+        "finalUrl": "https://compliancy-group.com/request-pricing/",
+        "retrievedAt": "2026-09-22T09:35:47.400Z",
+        "status": 200,
+        "error": null,
+        "title": "Compliance Program Software Pricing | Compliancy Group",
+        "description": "Request pricing for Compliancy Group's platform for healthcare compliance programs, the Guard.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.hcss.com/blog/osha-recordkeeping-software-for-safety-reporting/": {
+      "fetchedAt": "2026-09-22T09:35:47.398Z",
+      "data": {
+        "url": "https://www.hcss.com/blog/osha-recordkeeping-software-for-safety-reporting/",
+        "finalUrl": "https://www.hcss.com/blog/osha-recordkeeping-software-for-safety-reporting/",
+        "retrievedAt": "2026-09-22T09:35:47.398Z",
+        "status": 200,
+        "error": null,
+        "title": "OSHA Recordkeeping Software for Better Safety Reporting | HCSS",
+        "description": "Read our guide to OSHA recordkeeping software for better safety documentation and reporting in the construction industry.",
+        "priceMentions": [
+          {
+            "text": "$16,500",
+            "billingUnit": false,
+            "context": "in in 2025. Serious violations now carry fines of more than $16,500, and repeated or willful violations exceed $165,000. Beyond"
+          },
+          {
+            "text": "$165,000",
+            "billingUnit": false,
+            "context": "ore than $16,500, and repeated or willful violations exceed $165,000. Beyond the dollar amounts, repeated infractions can trigge"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.hcss.com/pricing": {
+      "fetchedAt": "2026-09-22T09:35:47.399Z",
+      "data": {
+        "url": "https://www.hcss.com/pricing",
+        "finalUrl": "https://www.hcss.com/pricing/",
+        "retrievedAt": "2026-09-22T09:35:47.399Z",
+        "status": 200,
+        "error": null,
+        "title": "Software Pricing | HCSS",
+        "description": "Get HCSS software pricing as its the end-to-end software solution for winning, planning, & managing heavy civil work.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.securityguard.app/pricing": {
+      "fetchedAt": "2026-09-22T09:35:51.173Z",
+      "data": {
+        "url": "https://www.securityguard.app/pricing",
+        "finalUrl": "https://www.securityguard.app/pricing",
+        "retrievedAt": "2026-09-22T09:35:51.173Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Security Guard App",
+        "description": "Security Guards App is not only one of the most intuitive mobile apps available on the market but also one of the most cost-effective.",
+        "priceMentions": [
+          {
+            "text": "$ 5",
+            "billingUnit": false,
+            "context": "s Signup For Free Standard For teams with management needs. $ 5 Per Guard/Mo In-App Check-In/Out Guards right from their sm"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.securityguard.app/reporting": {
+      "fetchedAt": "2026-09-22T09:35:51.172Z",
+      "data": {
+        "url": "https://www.securityguard.app/reporting",
+        "finalUrl": "https://www.securityguard.app/reporting",
+        "retrievedAt": "2026-09-22T09:35:51.172Z",
+        "status": 200,
+        "error": null,
+        "title": "Reporting | Security Guard App",
+        "description": "Empower your guards with the best reporting app available on market to help them create and share multiple reports from the post-site in real-time.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://play.google.com/pricing": {
+      "fetchedAt": "2026-09-22T09:35:51.175Z",
+      "data": {
+        "url": "https://play.google.com/pricing",
+        "finalUrl": "https://play.google.com/pricing",
+        "retrievedAt": "2026-09-22T09:35:51.175Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://securitypatroltrack.com/security-guard-reporting-app-software/": {
+      "fetchedAt": "2026-09-22T09:35:51.176Z",
+      "data": {
+        "url": "https://securitypatroltrack.com/security-guard-reporting-app-software/",
+        "finalUrl": "https://securitypatroltrack.com/security-guard-reporting-app-software/",
+        "retrievedAt": "2026-09-22T09:35:51.176Z",
+        "status": 200,
+        "error": null,
+        "title": "Security Guard Reporting App Software For Incidents, DAR & More",
+        "description": "Security Guard Reporting App Software has never been easier to use and deploy. Simple Incident Reporting, DAR, Visitor reports and much more.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://play.google.com/store/apps/details?id=app.securityguard&hl=en_NZ": {
+      "fetchedAt": "2026-09-22T09:35:51.174Z",
+      "data": {
+        "url": "https://play.google.com/store/apps/details?id=app.securityguard&hl=en_NZ",
+        "finalUrl": "https://play.google.com/store/apps/details?id=app.securityguard&hl=en_NZ",
+        "retrievedAt": "2026-09-22T09:35:51.174Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://securitypatroltrack.com/pricing": {
+      "fetchedAt": "2026-09-22T09:35:51.176Z",
+      "data": {
+        "url": "https://securitypatroltrack.com/pricing",
+        "finalUrl": "https://securitypatroltrack.com/",
+        "retrievedAt": "2026-09-22T09:35:51.176Z",
+        "status": 200,
+        "error": null,
+        "title": "Guard Patrol Management System & Patrol Tracking App",
+        "description": "A Security Guard Patrol Management System that is easy to use and includes a Guard Patrol Tracking App with management system capabilities.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
     }
   }
 }
