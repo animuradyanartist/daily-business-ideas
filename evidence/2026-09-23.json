@@ -6,7 +6,7 @@
     "memo": "ideas/2026-09-23.md"
   },
   "createdAt": "2026-09-23T09:40:10.499Z",
-  "updatedAt": "2026-09-23T09:40:10.501Z",
+  "updatedAt": "2026-09-23T10:24:46.000Z",
   "attempts": 1,
   "mode": "live",
   "market": {
@@ -1068,18 +1068,26 @@
       "reason": null,
       "readings": {
         "demand": {
-          "level": "unknown",
+          "level": "low",
           "scope": "direct keywords only",
           "upTo": null,
-          "classified": false,
-          "measuredCount": 0,
-          "totalCount": 0,
-          "top": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 5,
+          "top": {
+            "keyword": "hoa violation tracker",
+            "searchVolume": 10,
+            "id": "K5"
+          },
           "category": {
-            "level": "unknown",
-            "measuredCount": 0,
-            "totalCount": 0,
-            "top": null
+            "level": "some",
+            "measuredCount": 2,
+            "totalCount": 4,
+            "top": {
+              "keyword": "hoa software",
+              "searchVolume": 590,
+              "id": "K4"
+            }
           },
           "broader": {
             "level": "unknown",
@@ -1087,63 +1095,27 @@
             "totalCount": 0,
             "top": null
           },
-          "uncertainCount": 9,
-          "flags": [
-            {
-              "id": "K1",
-              "kind": "uncertain",
-              "text": "\"hoa violation tracking problems\": relevance not judged — not counted."
-            },
-            {
-              "id": "K2",
-              "kind": "uncertain",
-              "text": "\"self managed hoa compliance\": relevance not judged — not counted."
-            },
-            {
-              "id": "K3",
-              "kind": "uncertain",
-              "text": "\"hoa legal non compliance\": relevance not judged — not counted."
-            },
-            {
-              "id": "K4",
-              "kind": "uncertain",
-              "text": "\"hoa software\": relevance not judged — not counted."
-            },
-            {
-              "id": "K5",
-              "kind": "uncertain",
-              "text": "\"hoa violation tracker\": relevance not judged — not counted."
-            },
-            {
-              "id": "K6",
-              "kind": "uncertain",
-              "text": "\"hoa management tool\": relevance not judged — not counted."
-            },
-            {
-              "id": "K7",
-              "kind": "uncertain",
-              "text": "\"hoa software pricing\": relevance not judged — not counted."
-            },
-            {
-              "id": "K8",
-              "kind": "uncertain",
-              "text": "\"best hoa management software\": relevance not judged — not counted."
-            },
-            {
-              "id": "K9",
-              "kind": "uncertain",
-              "text": "\"hoa violation tracker cost\": relevance not judged — not counted."
-            }
-          ],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"hoa violation tracker\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"hoa software\" 590/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
-          "level": "unknown",
-          "biddingKeywordIds": [],
-          "pricedPageIds": [],
-          "pricedDomains": [],
+          "level": "strong",
+          "biddingKeywordIds": [
+            "K4",
+            "K5",
+            "K8"
+          ],
+          "pricedPageIds": [
+            "P2",
+            "P4"
+          ],
+          "pricedDomains": [
+            "payhoa.com",
+            "hoamessenger.com"
+          ],
           "pricedPlatforms": [],
-          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+          "note": "Advertisers bid on 3 commercial keyword(s) (highest CPC $89.76 on \"best hoa management software\"). CPC is an advertiser bid, not a customer's willingness to pay. 3 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 2 ranking site(s): payhoa.com, hoamessenger.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
         },
         "competitors": {
           "vendorLikeDomains": [
@@ -1171,12 +1143,565 @@
             "payhoa.com",
             "hoamessenger.com"
           ],
-          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on payhoa.com, hoamessenger.com."
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on payhoa.com, hoamessenger.com. Judged for relevance: 5 domain(s) with a direct competitor (same problem) (hoamessenger.com, condocontrol.com, hoa.works, townsq.io, hoastart.com), 7 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "hoamessenger.com",
+            "condocontrol.com",
+            "hoa.works",
+            "townsq.io",
+            "hoastart.com"
+          ],
+          "indirectAlternativeDomains": [
+            "payhoa.com",
+            "runhoa.com",
+            "yardibreeze.com",
+            "moneyminder.com",
+            "easyhoa.com",
+            "hoamessenger.com",
+            "condocontrol.com"
+          ]
         }
       },
       "evidenceFingerprint": "2772271b69278020",
       "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
-      "matchesOriginalPick": false
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-23T10:26:38.325Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
+        "qualifiers": [
+          "Volunteer board member of an HOA",
+          "self-managed HOA",
+          "small-to-medium (<100 unit) HOA"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the core problem of tracking violations, which a volunteer board member would search for."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a specific concern for the target customer (self-managed HOA) related to the problem of legal non-compliance."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a key risk mentioned in the problem statement that a board member would research."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the broad software category; the idea is a specific type of HOA software."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the specific solution for the problem, which a board member would search for."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader category of tools for HOAs, not specific to violation tracking."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This search is about the pricing for the general category of HOA software."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This search is for the broader category of HOA management software, not specifically a violation tracker."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the specific solution type the idea offers."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is an all-in-one software for any HOA, not specifically for violation tracking in small, self-managed ones."
+          },
+          "S1.3": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "A Reddit user is asking for general HOA software recommendations; the type and size of the HOA are unknown."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "Volunteer board member of an HOA"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for a general audience of board members, residents, and managers, not specifically for small, self-managed HOAs."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a buyer's guide for general HOA software, not specific to the target customer's niche."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general property management software for condos and HOAs, not specific to the target customer."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "self-managed HOA"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for accounting in self-managed HOAs, a broader problem than violation tracking."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general top 10 list of HOA management software, not specific to the target customer or problem."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "self-managed HOA",
+              "Volunteer board member of an HOA"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article discusses software for self-managed boards but covers a broader problem set than just violation tracking."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software focuses on HOA financial management, a different problem than violation tracking."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is specifically for HOA violation tracking, but it's for any HOA, not just small, self-managed ones."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software feature is for violation tracking but is aimed at a broader audience of condos and HOAs."
+          },
+          "S2.4": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "A Reddit user asks about tracking resident issues, which aligns with the problem, but the customer's context is unknown."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide on HOA violation tracking for a general HOA audience."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This guide discusses automating violation tracking for a general audience of community managers and HOAs."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a violation tracking software for any HOA, not specifically small, self-managed ones."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product for violation management aimed at any HOA."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a violation tracking software for any HOA, not specifically small, self-managed ones."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This blog post discusses best practices for the violation process for a general HOA audience, which is adjacent to tracking."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is an all-in-one software for any HOA, not specifically for violation tracking in small, self-managed HOAs."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [
+              "self-managed HOA",
+              "small-to-medium (<100 unit) HOA"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The pricing page targets a broad range of customers, including the target, but for a broader, all-in-one product."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This page describes a messaging tool for any HOA, which is a different problem from violation tracking."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a general set of HOA management tools for any HOA."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page describes a violation tracking feature for a broad audience of condos and HOAs."
+          },
+          "P6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a full software suite for condos and HOAs, not just a violation tracker."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-23:self-managed-hoa-violation-tracker",
+        "opportunity": "This is an opportunity to provide a specialized, easy-to-use software for small, self-managed HOAs to track property violations. The tool would focus on creating an audit-proof record to ensure legal compliance and reduce the administrative burden on volunteer board members.",
+        "whoPays": "The volunteer board of a small, self-managed HOA pays to reduce their personal administrative workload and mitigate the legal risk of non-compliance from improper record-keeping. This is an inference as no direct evidence of payment was observed.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "HOA violation cases average 21 days to resolve manually — automation cuts that to 6 days or fewer"
+            },
+            {
+              "id": "S2.9",
+              "quote": "streamline HOA violation tracking, enhance HOA communication, and ensure fair, consistent HOA violation enforcement"
+            }
+          ],
+          "observed": "The evidence shows that manual HOA violation tracking is a slow process, with cases averaging 21 days to resolve. Software solutions aim to streamline this process, improve communication, and ensure consistent enforcement.",
+          "inference": "The significant time required for manual resolution implies a substantial administrative burden, likely felt most acutely by volunteer board members in self-managed HOAs who lack professional support. The need for 'fair, consistent' enforcement suggests that manual processes risk being inconsistent, creating legal exposure."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "HOA Violation Tracking Software"
+            },
+            {
+              "id": "S2.3",
+              "quote": "HOA Violation Tracking & Management"
+            },
+            {
+              "id": "S2.8",
+              "quote": "HOA Violation Tracking Software"
+            },
+            {
+              "id": "S2.10",
+              "quote": "HOA Violation Tracking Software"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "HOA Messenger",
+              "type": "direct",
+              "what": "Offers software to track and review all of an HOA's recorded CC&R violations from a single location.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "track, and review all or your HOA's recorded CC&R violations from a single organized and secure location"
+                }
+              ]
+            },
+            {
+              "name": "Condo Control",
+              "type": "direct",
+              "what": "Provides a feature for condos and HOAs to send, track, and resolve community violations.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "lets condos and HOAs effectively send, track, and resolve violations within their community"
+                }
+              ]
+            },
+            {
+              "name": "PayHOA",
+              "type": "indirect",
+              "what": "An all-in-one software portal for HOAs that includes invoicing, dues collection, financial management, and communication tools.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "all-in-one cloud-based HOA software portal that allows you to invoice, collect dues, manage financials, use communication tools, and more"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors offer violation tracking as part of a comprehensive, all-in-one HOA management suite.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "all-in-one cloud-based HOA software portal"
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing competitors appear to target the general HOA market, with no specific focus on the unique needs or budget constraints of small, self-managed associations.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A basic CRUD application to log violations, dates, and communications is feasible. Ensuring the system is reliable and generates legally sound documentation adds complexity, moving it from 'easy' to 'moderate'."
+        },
+        "unproven": [
+          "Whether small, self-managed HOAs are sufficiently unhappy with spreadsheets or other manual methods to pay for a dedicated tool.",
+          "Whether the features of broader, all-in-one HOA software are too complex or expensive for this niche, leaving a genuine gap.",
+          "The specific price point this target customer is willing to pay."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 board members of small (<100 unit), self-managed HOAs to understand their current violation tracking process, their primary pain points, and their budget for administrative software.",
+          "cost": "$50-100 in gift cards + 10-15 hours of time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees describe their current process as a major time sink or legal worry and confirm they would pay for a tool that specifically solves violation tracking.",
+        "stopIf": "Most interviewees state their current method (e.g., a spreadsheet) is 'good enough' or they are already using a feature within a larger, affordable software suite they are happy with."
+      },
+      "assessment": {
+        "opportunity": "This is an opportunity to provide a specialized, easy-to-use software for small, self-managed HOAs to track property violations. The tool would focus on creating an audit-proof record to ensure legal compliance and reduce the administrative burden on volunteer board members.",
+        "whoPays": "The volunteer board of a small, self-managed HOA pays to reduce their personal administrative workload and mitigate the legal risk of non-compliance from improper record-keeping. This is an inference as no direct evidence of payment was observed.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "HOA violation cases average 21 days to resolve manually — automation cuts that to 6 days or fewer",
+              "domain": "ustechautomations.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This guide discusses automating violation tracking for a general audience of community managers and HOAs."
+            },
+            {
+              "id": "S2.9",
+              "quote": "streamline HOA violation tracking, enhance HOA communication, and ensure fair, consistent HOA violation enforcement",
+              "domain": "townsq.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a product for violation management aimed at any HOA."
+            }
+          ],
+          "observed": "The evidence shows that manual HOA violation tracking is a slow process, with cases averaging 21 days to resolve. Software solutions aim to streamline this process, improve communication, and ensure consistent enforcement.",
+          "inference": "The significant time required for manual resolution implies a substantial administrative burden, likely felt most acutely by volunteer board members in self-managed HOAs who lack professional support. The need for 'fair, consistent' enforcement suggests that manual processes risk being inconsistent, creating legal exposure."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "HOA Violation Tracking Software",
+              "domain": "hoamessenger.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software is specifically for HOA violation tracking, but it's for any HOA, not just small, self-managed ones."
+            },
+            {
+              "id": "S2.3",
+              "quote": "HOA Violation Tracking & Management",
+              "domain": "condocontrol.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software feature is for violation tracking but is aimed at a broader audience of condos and HOAs."
+            },
+            {
+              "id": "S2.8",
+              "quote": "HOA Violation Tracking Software",
+              "domain": "hoa.works",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a violation tracking software for any HOA, not specifically small, self-managed ones."
+            },
+            {
+              "id": "S2.10",
+              "quote": "HOA Violation Tracking Software",
+              "domain": "hoastart.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a violation tracking software for any HOA, not specifically small, self-managed ones."
+            }
+          ],
+          "directCompetitors": [
+            "hoamessenger.com",
+            "condocontrol.com",
+            "hoa.works",
+            "hoastart.com"
+          ],
+          "indirectAlternatives": [
+            "payhoa.com"
+          ],
+          "alternatives": [
+            {
+              "name": "HOA Messenger",
+              "type": "direct",
+              "what": "Offers software to track and review all of an HOA's recorded CC&R violations from a single location.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "track, and review all or your HOA's recorded CC&R violations from a single organized and secure location",
+                  "domain": "hoamessenger.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This software is specifically for HOA violation tracking, but it's for any HOA, not just small, self-managed ones."
+                }
+              ]
+            },
+            {
+              "name": "Condo Control",
+              "type": "direct",
+              "what": "Provides a feature for condos and HOAs to send, track, and resolve community violations.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "lets condos and HOAs effectively send, track, and resolve violations within their community",
+                  "domain": "condocontrol.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This page describes a violation tracking feature for a broad audience of condos and HOAs."
+                }
+              ]
+            },
+            {
+              "name": "PayHOA",
+              "type": "indirect",
+              "what": "An all-in-one software portal for HOAs that includes invoicing, dues collection, financial management, and communication tools.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "all-in-one cloud-based HOA software portal that allows you to invoice, collect dues, manage financials, use communication tools, and more",
+                  "domain": "payhoa.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is an all-in-one software for any HOA, not specifically for violation tracking in small, self-managed HOAs."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors offer violation tracking as part of a comprehensive, all-in-one HOA management suite.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "all-in-one cloud-based HOA software portal",
+                  "domain": "payhoa.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "broader",
+                  "relevanceReason": "This is an all-in-one software for any HOA, not specifically for violation tracking in small, self-managed HOAs."
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing competitors appear to target the general HOA market, with no specific focus on the unique needs or budget constraints of small, self-managed associations.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A basic CRUD application to log violations, dates, and communications is feasible. Ensuring the system is reliable and generates legally sound documentation adds complexity, moving it from 'easy' to 'moderate'."
+        },
+        "unproven": [
+          "Whether small, self-managed HOAs are sufficiently unhappy with spreadsheets or other manual methods to pay for a dedicated tool.",
+          "Whether the features of broader, all-in-one HOA software are too complex or expensive for this niche, leaving a genuine gap.",
+          "The specific price point this target customer is willing to pay."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 board members of small (<100 unit), self-managed HOAs to understand their current violation tracking process, their primary pain points, and their budget for administrative software.",
+          "cost": "$50-100 in gift cards + 10-15 hours of time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees describe their current process as a major time sink or legal worry and confirm they would pay for a tool that specifically solves violation tracking.",
+        "stopIf": "Most interviewees state their current method (e.g., a spreadsheet) is 'good enough' or they are already using a feature within a larger, affordable software suite they are happy with.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-23T10:27:48.069Z",
+        "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z"
+      }
     },
     {
       "id": "2026-09-23:livestock-digital-traceability-log",
@@ -1901,15 +2426,19 @@
           "level": "unknown",
           "scope": "direct keywords only",
           "upTo": null,
-          "classified": false,
+          "classified": true,
           "measuredCount": 0,
-          "totalCount": 0,
+          "totalCount": 6,
           "top": null,
           "category": {
-            "level": "unknown",
-            "measuredCount": 0,
-            "totalCount": 0,
-            "top": null
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 3,
+            "top": {
+              "keyword": "livestock tracking software",
+              "searchVolume": 30,
+              "id": "K4"
+            }
           },
           "broader": {
             "level": "unknown",
@@ -1917,63 +2446,21 @@
             "totalCount": 0,
             "top": null
           },
-          "uncertainCount": 9,
-          "flags": [
-            {
-              "id": "K1",
-              "kind": "uncertain",
-              "text": "\"cattle traceability requirements\": relevance not judged — not counted."
-            },
-            {
-              "id": "K2",
-              "kind": "uncertain",
-              "text": "\"usda animal identification rule\": relevance not judged — not counted."
-            },
-            {
-              "id": "K3",
-              "kind": "uncertain",
-              "text": "\"livestock compliance burden\": relevance not judged — not counted."
-            },
-            {
-              "id": "K4",
-              "kind": "uncertain",
-              "text": "\"livestock tracking software\": relevance not judged — not counted."
-            },
-            {
-              "id": "K5",
-              "kind": "uncertain",
-              "text": "\"animal traceability system\": relevance not judged — not counted."
-            },
-            {
-              "id": "K6",
-              "kind": "uncertain",
-              "text": "\"cattle ear tag records\": relevance not judged — not counted."
-            },
-            {
-              "id": "K7",
-              "kind": "uncertain",
-              "text": "\"livestock software pricing\": relevance not judged — not counted."
-            },
-            {
-              "id": "K8",
-              "kind": "uncertain",
-              "text": "\"best cattle tracking app\": relevance not judged — not counted."
-            },
-            {
-              "id": "K9",
-              "kind": "uncertain",
-              "text": "\"animal traceability cost\": relevance not judged — not counted."
-            }
-          ],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 6 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low (\"livestock tracking software\" 30/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
-          "level": "unknown",
+          "level": "moderate",
           "biddingKeywordIds": [],
-          "pricedPageIds": [],
-          "pricedDomains": [],
+          "pricedPageIds": [
+            "P4"
+          ],
+          "pricedDomains": [
+            "cattlemax.com"
+          ],
           "pricedPlatforms": [],
-          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+          "note": "No advertiser CPC was returned for the commercial keywords. Published offer prices seen on 1 ranking site(s): cattlemax.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
         },
         "competitors": {
           "vendorLikeDomains": [
@@ -2000,12 +2487,474 @@
           "pricedDomains": [
             "cattlemax.com"
           ],
-          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on cattlemax.com."
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on cattlemax.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "farmbrite.com",
+            "cattlemax.com",
+            "herdone.com",
+            "cattle360.com",
+            "cattlytics.com"
+          ]
         }
       },
       "evidenceFingerprint": "665553df64b1d55d",
       "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
-      "matchesOriginalPick": false
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-23T10:26:38.326Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
+        "qualifiers": [
+          "Owner of a cattle or bison operation",
+          "small-to-medium sized operation"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the core compliance problem for a cattle operation owner."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is the specific regulation causing the problem, which the target customer would research."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the problem from the customer's perspective, which they would likely search."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader software category, not specific to cattle/bison or traceability compliance."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the specific solution category for the problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a core component of the compliance problem and solution that a cattle owner would search for."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broader category of software than the idea's specific focus."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "General cattle tracking is a broader problem than traceability for compliance."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search related to the specific problem of traceability."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for managing various types of livestock, a broader customer and problem than the idea's focus."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for general cattle management for ranches of all sizes, a broader problem than traceability."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a guide to general livestock management software for a broad range of farm sizes and types."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for general record keeping for various types of livestock, not specifically cattle/bison traceability."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a discussion about general cattle management apps among ranchers, a broader problem than traceability compliance."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for general cattle management for herds of any size, a broader scope than the idea."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a review of apps for various types of livestock, a broader customer base and problem."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is an all-in-one management software for cattle operations, a broader problem than just traceability."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a guide to general cattle management software, not specifically for traceability compliance."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a government page explaining animal disease traceability for a broad audience of livestock stakeholders."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains livestock traceability updates for a general audience of producers."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains the new USDA traceability regulations, which is the core problem, for a general audience."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This page is about Canadian livestock traceability regulations, which is a different context and customer."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains the specific traceability rule for cattle producers, matching the problem for a broad audience."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a Canadian government page about their livestock traceability regulations."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This page is from a Canadian provincial organization about Canadian traceability rules."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This university extension article explains the general rules for interstate livestock movement, which is the core problem."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article discusses a cattle traceability rule from 2013, which is likely not the 'new' compliance burden the idea focuses on."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general livestock management software for various animals, not specific to cattle/bison traceability."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a general farm management software aimed at a broad audience."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general cattle management software for herds of all sizes, a broader problem than traceability."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a cattle or bison operation"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The pricing page is for a general cattle management software targeting a broad range of herd types and sizes."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains the problem of new traceability regulations for a general audience of beef producers."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-23:livestock-digital-traceability-log",
+        "opportunity": "This is an opportunity to provide a simple, low-cost digital log for small cattle and bison producers. The tool would focus exclusively on helping them comply with a new federal mandate for electronic animal identification and traceability for interstate movement.",
+        "whoPays": "The owner of a small-to-medium cattle or bison operation pays to ensure they are in compliance with a new, non-negotiable federal regulation. This is an inference based on the nature of the problem.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "USDA updates regulations to require electronically readable ID tags for animals moving interstate"
+            },
+            {
+              "id": "S2.7",
+              "quote": "the change coming Nov. 5 is going to require tags to be electronically readable, on top of visually readable"
+            }
+          ],
+          "observed": "The evidence clearly shows that the USDA is implementing new regulations that mandate electronically readable ID tags for livestock moved interstate. There is a specific deadline for this change, which adds a visual requirement to an electronic one.",
+          "inference": "This new, mandatory regulation creates an immediate and unavoidable problem for all producers moving animals interstate, especially smaller operators who may lack existing systems to manage this type of electronic record-keeping."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [],
+          "alternatives": [
+            {
+              "name": "CattleMax",
+              "type": "indirect",
+              "what": "A cloud-based, easy-to-use herd management software for herds of all sizes, used by ranchers since 1999.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "CattleMax is the trusted cattle software by farmers and ranchers worldwide since 1999. This easy-to-use herd management software is for herds of all sizes."
+                }
+              ]
+            },
+            {
+              "name": "Farmbrite",
+              "type": "indirect",
+              "what": "An all-in-one record keeping software for various types of livestock, including cattle, sheep, and pigs.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "All-in-one livestock record keeping software for cattle, sheep, pigs, and more."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing alternatives are established, comprehensive herd management platforms that have been on the market for years.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "trusted cattle software by farmers and ranchers worldwide since 1999"
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No competitors appear to offer a simple, low-cost tool focused exclusively on solving this new traceability compliance burden. Existing software may be too complex or expensive for a small producer who only needs to solve this specific problem.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimum viable product could be a simple web or mobile app with a form to log animal ID, tag ID, and movement dates. This is a straightforward CRUD application that does not require complex integrations for an initial test."
+        },
+        "unproven": [
+          "Whether small producers will pay for a specialized tool or attempt to comply using free methods like spreadsheets.",
+          "Whether the large, existing herd management platforms will quickly add this feature for free, making a standalone tool obsolete.",
+          "The price producers are willing to pay to solve this specific compliance task."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page that explains the new USDA traceability rule and offers a waitlist for a 'simple compliance' software tool. Drive a small amount of targeted traffic from ranching forums or Facebook groups to the page.",
+          "cost": "$100-200 for ads and landing page tool + 8 hours of time.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves a waitlist signup conversion rate of over 5%, indicating that the problem is urgent and a dedicated solution is appealing.",
+        "stopIf": "The signup rate is below 1%, suggesting producers are not actively seeking a software solution and may plan to use other methods or wait for existing tools to update."
+      },
+      "assessment": {
+        "opportunity": "This is an opportunity to provide a simple, low-cost digital log for small cattle and bison producers. The tool would focus exclusively on helping them comply with a new federal mandate for electronic animal identification and traceability for interstate movement.",
+        "whoPays": "The owner of a small-to-medium cattle or bison operation pays to ensure they are in compliance with a new, non-negotiable federal regulation. This is an inference based on the nature of the problem.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "USDA updates regulations to require electronically readable ID tags for animals moving interstate",
+              "domain": "globalvetlink.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article explains the new USDA traceability regulations, which is the core problem, for a general audience."
+            },
+            {
+              "id": "S2.7",
+              "quote": "the change coming Nov. 5 is going to require tags to be electronically readable, on top of visually readable",
+              "domain": "calcattlemen.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article explains the specific traceability rule for cattle producers, matching the problem for a broad audience."
+            }
+          ],
+          "observed": "The evidence clearly shows that the USDA is implementing new regulations that mandate electronically readable ID tags for livestock moved interstate. There is a specific deadline for this change, which adds a visual requirement to an electronic one.",
+          "inference": "This new, mandatory regulation creates an immediate and unavoidable problem for all producers moving animals interstate, especially smaller operators who may lack existing systems to manage this type of electronic record-keeping."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "cattlemax.com",
+            "farmbrite.com"
+          ],
+          "alternatives": [
+            {
+              "name": "CattleMax",
+              "type": "indirect",
+              "what": "A cloud-based, easy-to-use herd management software for herds of all sizes, used by ranchers since 1999.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "CattleMax is the trusted cattle software by farmers and ranchers worldwide since 1999. This easy-to-use herd management software is for herds of all sizes.",
+                  "domain": "cattlemax.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general cattle management software for herds of all sizes, a broader problem than traceability."
+                }
+              ]
+            },
+            {
+              "name": "Farmbrite",
+              "type": "indirect",
+              "what": "An all-in-one record keeping software for various types of livestock, including cattle, sheep, and pigs.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "All-in-one livestock record keeping software for cattle, sheep, pigs, and more.",
+                  "domain": "farmbrite.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general livestock management software for various animals, not specific to cattle/bison traceability."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing alternatives are established, comprehensive herd management platforms that have been on the market for years.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "trusted cattle software by farmers and ranchers worldwide since 1999",
+                  "domain": "cattlemax.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "broader",
+                  "relevanceReason": "This is a general cattle management software for herds of all sizes, a broader problem than traceability."
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No competitors appear to offer a simple, low-cost tool focused exclusively on solving this new traceability compliance burden. Existing software may be too complex or expensive for a small producer who only needs to solve this specific problem.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimum viable product could be a simple web or mobile app with a form to log animal ID, tag ID, and movement dates. This is a straightforward CRUD application that does not require complex integrations for an initial test."
+        },
+        "unproven": [
+          "Whether small producers will pay for a specialized tool or attempt to comply using free methods like spreadsheets.",
+          "Whether the large, existing herd management platforms will quickly add this feature for free, making a standalone tool obsolete.",
+          "The price producers are willing to pay to solve this specific compliance task."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page that explains the new USDA traceability rule and offers a waitlist for a 'simple compliance' software tool. Drive a small amount of targeted traffic from ranching forums or Facebook groups to the page.",
+          "cost": "$100-200 for ads and landing page tool + 8 hours of time.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves a waitlist signup conversion rate of over 5%, indicating that the problem is urgent and a dedicated solution is appealing.",
+        "stopIf": "The signup rate is below 1%, suggesting producers are not actively seeking a software solution and may plan to use other methods or wait for existing tools to update.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-23T10:27:48.072Z",
+        "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z"
+      }
     },
     {
       "id": "2026-09-23:shopify-returns-dashboard",
@@ -2777,79 +3726,49 @@
           "level": "unknown",
           "scope": "direct keywords only",
           "upTo": null,
-          "classified": false,
+          "classified": true,
           "measuredCount": 0,
-          "totalCount": 0,
+          "totalCount": 3,
           "top": null,
           "category": {
-            "level": "unknown",
-            "measuredCount": 0,
-            "totalCount": 0,
-            "top": null
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 3,
+            "top": {
+              "keyword": "shopify returns app",
+              "searchVolume": 110,
+              "id": "K4"
+            }
           },
           "broader": {
-            "level": "unknown",
-            "measuredCount": 0,
-            "totalCount": 0,
-            "top": null
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "ecommerce returns software",
+              "searchVolume": 20,
+              "id": "K5"
+            }
           },
-          "uncertainCount": 9,
+          "uncertainCount": 1,
           "flags": [
-            {
-              "id": "K1",
-              "kind": "uncertain",
-              "text": "\"shopify returns reporting issues\": relevance not judged — not counted."
-            },
             {
               "id": "K2",
               "kind": "uncertain",
-              "text": "\"ecommerce refund reconciliation\": relevance not judged — not counted."
-            },
-            {
-              "id": "K3",
-              "kind": "uncertain",
-              "text": "\"shopify inaccurate sales reports\": relevance not judged — not counted."
-            },
-            {
-              "id": "K4",
-              "kind": "uncertain",
-              "text": "\"shopify returns app\": relevance not judged — not counted."
-            },
-            {
-              "id": "K5",
-              "kind": "uncertain",
-              "text": "\"ecommerce returns software\": relevance not judged — not counted."
-            },
-            {
-              "id": "K6",
-              "kind": "uncertain",
-              "text": "\"profit dashboard shopify\": relevance not judged — not counted."
-            },
-            {
-              "id": "K7",
-              "kind": "uncertain",
-              "text": "\"shopify returns pricing\": relevance not judged — not counted."
-            },
-            {
-              "id": "K8",
-              "kind": "uncertain",
-              "text": "\"best shopify returns apps\": relevance not judged — not counted."
-            },
-            {
-              "id": "K9",
-              "kind": "uncertain",
-              "text": "\"ecommerce profit dashboard cost\": relevance not judged — not counted."
+              "text": "\"ecommerce refund reconciliation\": relevance unclear — not counted."
             }
           ],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 3 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"shopify returns app\" 110/mo); broader market: low (\"ecommerce returns software\" 20/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
-          "level": "unknown",
-          "biddingKeywordIds": [],
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4"
+          ],
           "pricedPageIds": [],
           "pricedDomains": [],
           "pricedPlatforms": [],
-          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $48.14 on \"shopify returns app\"). CPC is an advertiser bid, not a customer's willingness to pay. No published offer prices were found on the fetched competitor pages."
         },
         "competitors": {
           "vendorLikeDomains": [
@@ -2873,12 +3792,479 @@
             "apps.shopify.com",
             "shopify.com"
           ],
-          "note": "6 vendor-like or publisher domain(s) and 3 broad platform(s) (apps.shopify.com, shopify.com, help.shopify.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on apps.shopify.com, shopify.com."
+          "note": "6 vendor-like or publisher domain(s) and 3 broad platform(s) (apps.shopify.com, shopify.com, help.shopify.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on apps.shopify.com, shopify.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 1 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "apps.shopify.com"
+          ]
         }
       },
       "evidenceFingerprint": "802376c0b4ac0186",
       "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
-      "matchesOriginalPick": false
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-23T10:26:38.326Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
+        "qualifiers": [
+          "Shopify-based e-commerce brand"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the exact problem a Shopify merchant would face."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "This is a wider accounting problem that applies to any e-commerce platform, not just Shopify's specific issue."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct symptom of the problem described in the idea, which a Shopify merchant would search for."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the general solution category, but not specific to fixing the reporting/profit dashboard issue."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "This is a very broad search for software for any e-commerce platform, not just Shopify."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the type of solution the idea proposes for the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for the general category of Shopify returns apps."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This search is for general returns apps, not a specific dashboard to fix reporting."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "This is a buying-intent search for a solution on any e-commerce platform, not just Shopify."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a list of general returns management apps for Shopify merchants, a broader problem than fixing reporting inaccuracies."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a Shopify app for managing the entire returns process, a broader problem than the specific reporting issue."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "A Shopify merchant is asking for recommendations for a general returns app, not a solution for the specific reporting problem."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is documentation for developers building returns apps, not for merchants using them."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a help document for Shopify merchants on how to use the native returns system, not about fixing its reporting issues."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a comprehensive returns management app for Shopify, a broader problem than the reporting issue."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This Shopify app focuses on automating and reducing returns, a broader problem than fixing reporting."
+          },
+          "S1.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a listicle of general returns apps for Shopify merchants, not focused on the specific reporting problem."
+          },
+          "S2.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a form for reporting a Shopify merchant for policy violations, an entirely different customer and problem."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "A Shopify merchant discusses reporting problems that are related but not identical to the specific issue in the idea."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "A Shopify merchant is describing the exact problem of returns being deducted from reports prematurely."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article describes the exact problem of how Shopify returns break sales reports."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a support document explaining how Shopify reports returns, which is adjacent to the specific problem of inaccuracy."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This help article describes the problem of Shopify overstating refund reporting."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article perfectly describes the problem of inaccurate sales reporting due to how Shopify handles returns."
+          },
+          "S2.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a form for shoppers to report order issues to Shopify, a different customer and problem."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "Shopify-based e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is the Shopify App Store page for general returns management apps, a broader problem than the reporting issue."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a pricing page for the Shopify platform itself, for a broad audience of potential merchants."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a form to report a merchant for policy violations, a different customer and problem."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a pricing page for the Shopify platform, not a solution for the merchant's reporting problem."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is developer documentation about building returns apps, not for the target customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-23:shopify-returns-dashboard",
+        "opportunity": "This is an opportunity to provide a Shopify app that acts as a 'true profit' dashboard, correcting inaccurate sales figures caused by Shopify's native returns system. It would give merchants an accurate view of their finances without requiring them to change their returns workflow.",
+        "whoPays": "The owner or operations lead of a Shopify store pays to get an accurate view of their business's financial health, enabling better decision-making. This is an inference as no direct evidence of payment was observed.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.10",
+              "quote": "Sales figures may appear lower than actual due to immediate deduction of potential refunds"
+            },
+            {
+              "id": "S2.6",
+              "quote": "How Shopify Returns and Refunds Break Reports, Cause Data Discrepancies"
+            },
+            {
+              "id": "S2.9",
+              "quote": "These issues often cause Shopify to largely overstate Refund reporting"
+            }
+          ],
+          "observed": "Multiple sources state that the way Shopify handles returns can break sales reports, cause data discrepancies, and make sales figures appear lower than they are. This is due to the immediate deduction of potential refunds and the overstatement of refund reporting.",
+          "inference": "Merchants relying on native Shopify reports are operating with flawed financial data. This could lead to incorrect assessments of profitability, flawed inventory planning, and miscalculated marketing budgets."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Branded return portal that connects to your WMS, carriers and helpdesk"
+            },
+            {
+              "id": "S1.10",
+              "quote": "EcoReturns is the best AI-powered Shopify Returns App. It helps you reduce refunds, automate returns/exchanges"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "General Shopify Returns Apps (e.g., Return Prime, EcoReturns)",
+              "type": "indirect",
+              "what": "Comprehensive applications that manage the entire returns process, including creating a return portal, automating approvals, offering exchanges, and generating shipping labels. Better reporting is likely a feature of these larger systems.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Auto-approve or reject returns with rules on reason, product and return window"
+                },
+                {
+                  "id": "S1.10",
+                  "quote": "automate returns/exchanges, offer store credits and save on shipping"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Indirect competitors offer a complete, end-to-end solution for managing returns, which can be more valuable to a merchant than a single-purpose reporting tool.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Manage returns, exchanges, tracking, order editing & more"
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "There are no apparent competitors offering a simple, standalone app that *only* fixes the reporting problem. Merchants may not want to switch their entire returns workflow just to get accurate numbers, creating a gap for a dedicated reporting solution.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "hard",
+          "note": "Building an accurate financial reporting tool on top of a third-party API is complex. It requires deep knowledge of the Shopify API, robust data ingestion and reconciliation logic, and a high degree of reliability, as customers will be making financial decisions based on the data."
+        },
+        "unproven": [
+          "Whether merchants perceive this reporting inaccuracy as a critical 'hair-on-fire' problem worth paying to fix, or just a known annoyance.",
+          "If merchants would prefer a dedicated, simple reporting fix or an all-in-one returns management suite that also solves the reporting issue.",
+          "The technical feasibility of reliably pulling and reconciling all necessary data from the Shopify API to create a universally accurate report."
+        ],
+        "nextExperiment": {
+          "what": "Offer to manually audit the sales and returns data for 3-5 Shopify merchants. Create a spreadsheet that shows the discrepancy between Shopify's reports and their actual net sales after returns are finalized. Use this to gauge the severity of the pain.",
+          "cost": "15-20 hours of time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "The financial discrepancy is significant for the merchants (e.g., >5% of monthly sales), and at least two of them state they would pay a monthly fee for an automated dashboard that provides the correct numbers.",
+        "stopIf": "The discrepancy is small or merchants feel they can easily account for it mentally or with a simple manual export, and they show no willingness to pay for a solution."
+      },
+      "assessment": {
+        "opportunity": "This is an opportunity to provide a Shopify app that acts as a 'true profit' dashboard, correcting inaccurate sales figures caused by Shopify's native returns system. It would give merchants an accurate view of their finances without requiring them to change their returns workflow.",
+        "whoPays": "The owner or operations lead of a Shopify store pays to get an accurate view of their business's financial health, enabling better decision-making. This is an inference as no direct evidence of payment was observed.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.10",
+              "quote": "Sales figures may appear lower than actual due to immediate deduction of potential refunds",
+              "domain": "returnzap.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This article perfectly describes the problem of inaccurate sales reporting due to how Shopify handles returns."
+            },
+            {
+              "id": "S2.9",
+              "quote": "These issues often cause Shopify to largely overstate Refund reporting",
+              "domain": "help.getredo.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This help article describes the problem of Shopify overstating refund reporting."
+            }
+          ],
+          "observed": "Multiple sources state that the way Shopify handles returns can break sales reports, cause data discrepancies, and make sales figures appear lower than they are. This is due to the immediate deduction of potential refunds and the overstatement of refund reporting.",
+          "inference": "Merchants relying on native Shopify reports are operating with flawed financial data. This could lead to incorrect assessments of profitability, flawed inventory planning, and miscalculated marketing budgets."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Branded return portal that connects to your WMS, carriers and helpdesk",
+              "domain": "apps.shopify.com",
+              "kind": "S",
+              "cls": "platform",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a Shopify app for managing the entire returns process, a broader problem than the specific reporting issue."
+            },
+            {
+              "id": "S1.10",
+              "quote": "EcoReturns is the best AI-powered Shopify Returns App. It helps you reduce refunds, automate returns/exchanges",
+              "domain": "apps.shopify.com",
+              "kind": "S",
+              "cls": "platform",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This Shopify app focuses on automating and reducing returns, a broader problem than fixing reporting."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "apps.shopify.com"
+          ],
+          "alternatives": [
+            {
+              "name": "General Shopify Returns Apps (e.g., Return Prime, EcoReturns)",
+              "type": "indirect",
+              "what": "Comprehensive applications that manage the entire returns process, including creating a return portal, automating approvals, offering exchanges, and generating shipping labels. Better reporting is likely a feature of these larger systems.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Auto-approve or reject returns with rules on reason, product and return window",
+                  "domain": "apps.shopify.com",
+                  "kind": "S",
+                  "cls": "platform",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a Shopify app for managing the entire returns process, a broader problem than the specific reporting issue."
+                },
+                {
+                  "id": "S1.10",
+                  "quote": "automate returns/exchanges, offer store credits and save on shipping",
+                  "domain": "apps.shopify.com",
+                  "kind": "S",
+                  "cls": "platform",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This Shopify app focuses on automating and reducing returns, a broader problem than fixing reporting."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Indirect competitors offer a complete, end-to-end solution for managing returns, which can be more valuable to a merchant than a single-purpose reporting tool.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "There are no apparent competitors offering a simple, standalone app that *only* fixes the reporting problem. Merchants may not want to switch their entire returns workflow just to get accurate numbers, creating a gap for a dedicated reporting solution.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "hard",
+          "note": "Building an accurate financial reporting tool on top of a third-party API is complex. It requires deep knowledge of the Shopify API, robust data ingestion and reconciliation logic, and a high degree of reliability, as customers will be making financial decisions based on the data."
+        },
+        "unproven": [
+          "Whether merchants perceive this reporting inaccuracy as a critical 'hair-on-fire' problem worth paying to fix, or just a known annoyance.",
+          "If merchants would prefer a dedicated, simple reporting fix or an all-in-one returns management suite that also solves the reporting issue.",
+          "The technical feasibility of reliably pulling and reconciling all necessary data from the Shopify API to create a universally accurate report."
+        ],
+        "nextExperiment": {
+          "what": "Offer to manually audit the sales and returns data for 3-5 Shopify merchants. Create a spreadsheet that shows the discrepancy between Shopify's reports and their actual net sales after returns are finalized. Use this to gauge the severity of the pain.",
+          "cost": "15-20 hours of time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "The financial discrepancy is significant for the merchants (e.g., >5% of monthly sales), and at least two of them state they would pay a monthly fee for an automated dashboard that provides the correct numbers.",
+        "stopIf": "The discrepancy is small or merchants feel they can easily account for it mentally or with a simple manual export, and they show no willingness to pay for a solution.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [
+            {
+              "claim": "problem evidence",
+              "id": "S2.6",
+              "reason": "quote not found in the cited item"
+            }
+          ],
+          "irrelevantCitations": [
+            {
+              "claim": "strength",
+              "id": "S1.2",
+              "relevance": "uncertain",
+              "reason": "This is a list of general returns management apps for Shopify merchants, a broader problem than fixing reporting inaccuracies."
+            }
+          ],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-23T10:27:48.075Z",
+        "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z"
+      }
     }
   ],
   "spend": [
@@ -3012,11 +4398,10 @@
     "reservedUsd": 0.029964
   },
   "lastGather": {
-    "at": "2026-09-23T09:41:03.325Z",
+    "at": "2026-09-23T10:24:46.000Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.02496,
-    "note": null
-  },
-  "assessmentError": "assessment not written for some ideas (they will be retried): 2026-09-23:self-managed-hoa-violation-tracker: the model returned no relevance judgements for it | 2026-09-23:livestock-digital-traceability-log: the model returned no relevance judgements for it | 2026-09-23:shopify-returns-dashboard: the model returned no relevance judgements for it"
+    "pendingIdeas": 0,
+    "spentUsd": 0,
+    "note": "nothing pending — no requests made"
+  }
 }
