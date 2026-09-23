@@ -414,6 +414,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Insurance Claim Documentation for Contractors** · Using AI to analyze photos and generate structured damage reports for insurance claims. · flagged 2026-09-22 · last checked 2026-09-22 · [origin memo](trends/2026-09-22.md)
 - **AI-Personalized Pet Nutrition & Wellness Plans** · Using AI to generate custom meal plans and proactive wellness guidance based on a pet's specific data. · flagged 2026-09-22 · last checked 2026-09-22 · [origin memo](trends/2026-09-22.md)
 - **AI-Automated Code Review for Small Teams** · Using AI tools to automatically review code changes in pull requests for bugs, security, and style. · flagged 2026-09-22 · last checked 2026-09-22 · [origin memo](trends/2026-09-22.md)
+- **AI-Automated Towing Compliance (SCRA)** · Using AI-powered software to automate the mandatory military status verification for vehicle lien enforcement. · flagged 2026-09-23 · last checked 2026-09-23 · [origin memo](trends/2026-09-23.md)
+- **AI-Automated Towing & Roadside Assistance Dispatch** · Using AI agents to provide 24/7 call-taking, lead capture, and job dispatch for towing companies. · flagged 2026-09-23 · last checked 2026-09-23 · [origin memo](trends/2026-09-23.md)
+- **AI-Automated Post-Award Grant Management** · Using AI to automate compliance tracking, financial monitoring, and reporting for awarded grants. · flagged 2026-09-23 · last checked 2026-09-23 · [origin memo](trends/2026-09-23.md)
 
 
 ## ➡️ Active — plateauing
@@ -697,3 +700,5 @@ _(empty)_
 <!-- 2026-09-21 status-update directive: 🚀 | AI-Automated Immigration Law Workflows -->
 
 <!-- 2026-09-22 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-09-23 status-update directive: 🚀 | AI-Powered "Business-in-a-Box" for Home Service Trades -->

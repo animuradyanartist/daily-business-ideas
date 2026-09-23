@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-23 (trends)
+- A powerful B2B niche exists where a business's primary profit center is directly tied to a legally-mandated, high-friction administrative process. Automating that process is a direct lever on profitability.
+- High-profile federal enforcement actions (like the DOJ suing towers under the SCRA) can serve as a powerful, market-wide "why now" catalyst, even for compliance with state-level regulations.
+- The existence of manual "done-for-you" service businesses is one of the strongest possible validation signals for a SaaS opportunity, as it proves willingness-to-pay to make a specific pain go away.
+
+---
+
 ## 2026-09-23
 - A powerful B2B niche exists where a business's primary profit center is directly tied to a legally-mandated, high-friction administrative process. Automating that process is a direct lever on profitability.
 - High-profile federal enforcement actions (like the DOJ suing towers under the SCRA) can serve as a powerful, market-wide "why now" catalyst, even for compliance with state-level regulations.
