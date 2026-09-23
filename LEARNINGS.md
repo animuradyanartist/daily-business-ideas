@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-23
+- A powerful B2B niche exists where a business's primary profit center is directly tied to a legally-mandated, high-friction administrative process. Automating that process is a direct lever on profitability.
+- High-profile federal enforcement actions (like the DOJ suing towers under the SCRA) can serve as a powerful, market-wide "why now" catalyst, even for compliance with state-level regulations.
+- The existence of manual "done-for-you" service businesses is one of the strongest possible validation signals for a SaaS opportunity, as it proves willingness-to-pay to make a specific pain go away.
+
 ## 2026-09-22 (trends)
 - The most powerful B2B compliance opportunities have a hard, annual deadline that creates a predictable buying season every year.
 - A free, clunky government-provided tool can be a feature, not a bug. It validates the core need while creating a clear opportunity for a user-friendly, paid alternative that sells certainty and peace of mind.

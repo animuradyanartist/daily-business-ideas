@@ -1,0 +1,3022 @@
+{
+  "schema": 1,
+  "date": "2026-09-23",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-23.md"
+  },
+  "createdAt": "2026-09-23T09:40:10.499Z",
+  "updatedAt": "2026-09-23T09:40:10.501Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-23.md",
+    "title": "The Towing Operator's \"Lien-Ready\" Impound & Disposal Hub",
+    "score": 95,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-23:self-managed-hoa-violation-tracker",
+      "slug": "self-managed-hoa-violation-tracker",
+      "title": "The Self-Managed HOA's \"Audit-Proof\" Violation & ARC Tracker",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis explicitly states there are over 355,000 HOAs in the US, with a significant portion being self-managed."
+      },
+      "plan": {
+        "slug": "self-managed-hoa-violation-tracker",
+        "title": "The Self-Managed HOA's \"Audit-Proof\" Violation & ARC Tracker",
+        "problem": "Volunteer HOA board members are overwhelmed tracking property violations, their cures, and certified letters, risking legal non-compliance and difficulty reconstructing case records.",
+        "targetCustomer": "Volunteer board member of a small-to-medium (<100 unit) self-managed Homeowners Association (HOA).",
+        "payer": "Volunteer board member of a small-to-medium (<100 unit) self-managed Homeowners Association (HOA).",
+        "whyPayerPays": "The payer will spend money to solve the high-risk, high-friction job of violation tracking and avoid legal non-compliance and administrative burden.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis explicitly states there are over 355,000 HOAs in the US, with a significant portion being self-managed."
+        },
+        "keywords": {
+          "problem": [
+            "hoa violation tracking problems",
+            "self managed hoa compliance",
+            "hoa legal non compliance"
+          ],
+          "solution": [
+            "hoa software",
+            "hoa violation tracker",
+            "hoa management tool"
+          ],
+          "buying": [
+            "hoa software pricing",
+            "best hoa management software",
+            "hoa violation tracker cost"
+          ]
+        },
+        "serpQueries": [
+          "hoa software",
+          "hoa violation tracking problems"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "hoa violation tracking problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "self managed hoa compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "hoa legal non compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "hoa software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 590,
+          "cpcUsd": 69.35,
+          "adCompetition": 0.72,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": -56,
+          "providerUpdatedAt": "2026-09-15 03:53:00 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 2400
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -41,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "hoa violation tracker",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 13.69,
+          "adCompetition": 0.57,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-16 13:46:11 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (17 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "hoa management tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "hoa software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-11 17:18:34 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best hoa management software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": 89.76,
+          "adCompetition": 0.64,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -18,
+          "providerUpdatedAt": "2026-09-13 17:08:00 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 140
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -7,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "hoa violation tracker cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "hoa software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:16.806Z",
+          "checkUrl": "https://www.google.com/search?q=hoa%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.payhoa.com",
+              "url": "https://www.payhoa.com/",
+              "title": "PayHOA: HOA Software | HOA Management Software | HOA ...",
+              "description": "PayHOA is an all-in-one cloud-based HOA software portal that allows you to invoice, collect dues, manage financials, use communication tools, and more.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/HOA/comments/ur5m6f/recommended_hoa_management_software/",
+              "title": "Recommended HOA management software?",
+              "description": "Hello all, I wanted to come on here and ask if you have any recommendations for HOA software. I'd like to advise some good tools for my dad's HOA so that ...",
+              "id": "S1.3",
+              "class": "discussion"
+            },
+            {
+              "rank": 4,
+              "domain": "www.runhoa.com",
+              "url": "https://www.runhoa.com/",
+              "title": "RunHOA - Best HOA Management Software Online",
+              "description": "HOA Management Software for residents, board members and association managers to manage their Home Owner Associations online at a fraction of the cost.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "blog.omegafi.com",
+              "url": "https://blog.omegafi.com/best-hoa-software",
+              "title": "What's the Best HOA Software? 8 Top Picks + Buyer Guide",
+              "description": "Jul 31, 2025 — OmegaFi is the top HOA software solution on the market. SmartWebs is an HOA platform designed to manage community operations, member ...",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.yardibreeze.com",
+              "url": "https://www.yardibreeze.com/blog/2025/11/hoa-condo-association-software/",
+              "title": "Best property management software for condo & HOA (2026)",
+              "description": "Nov 11, 2025 — Yardi Breeze Premier is all-in-one homeowner association software that meets the unique needs of HOA and condo communities.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "moneyminder.com",
+              "url": "https://moneyminder.com/hoa/",
+              "title": "Easier HOA Accounting Software",
+              "description": "HOA accounting for self-managed homeowners associations. Track dues, expenses, budgets, and reserve funds. Free for 30 days, then $299/year.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=fscG2739Sqs",
+              "title": "Top 10 HOA Management Software for 2025",
+              "description": null,
+              "id": "S1.9",
+              "class": "reference_media"
+            },
+            {
+              "rank": 10,
+              "domain": "www.community.solume.com",
+              "url": "https://www.community.solume.com/blog/best-hoa-management-software-self-managed-boards",
+              "title": "Best HOA Management Software for Self-Managed Boards ...",
+              "description": "May 27, 2026 — The best HOA software handles HOA accounting, reserve study tracking, architectural review, violation tracking, and compliance in one system.",
+              "id": "S1.10",
+              "class": "discussion"
+            },
+            {
+              "rank": 11,
+              "domain": "easyhoa.com",
+              "url": "https://easyhoa.com/",
+              "title": "Easy HOA: HOA Management Software To Manage Your ...",
+              "description": "Automatically import your HOA bank transactions, build your chart of accounts, compare your budgeted vs actual expenses, and view real time Profit and Loss and ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "hoa violation tracking problems",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:22.768Z",
+          "checkUrl": "https://www.google.com/search?q=hoa%20violation%20tracking%20problems&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "hoamessenger.com",
+              "url": "https://hoamessenger.com/hoa-violation-tracking-software",
+              "title": "HOA Violation Tracking Software",
+              "description": "Modern HOA HOA Messenger lets you track, and review all or your HOA's recorded CC&R violations from a single organized and secure location",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.condocontrol.com",
+              "url": "https://www.condocontrol.com/record-keeping/violation-tracking-management/",
+              "title": "HOA Violation Tracking & Management",
+              "description": "Our violation tracking feature lets condos and HOAs effectively send, track, and resolve violations within their community.",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/HOA/comments/1stxkko/moall_how_do_hoas_even_keep_track_of_resident/",
+              "title": "[MO][All] How do HOAs even keep track of resident issues ...",
+              "description": "This might be a dumb question but genuinely curious.\n\nIn our community, people report issues in all kinds of ways:\n\n* calling\n\n* texting board members ...",
+              "id": "S2.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "mochamanage.com",
+              "url": "https://mochamanage.com/resources/blogs/hoa-violation-tracking",
+              "title": "HOA Violation Tracking: A Complete Guide (2026)",
+              "description": "Aug 23, 2026 — Learn how HOA violation tracking works, from logging infractions to notices, hearings, and resolution, plus how software keeps enforcement ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "ustechautomations.com",
+              "url": "https://ustechautomations.com/resources/blog/hoa-violation-tracking-automation-how-to-guide-2026",
+              "title": "HOA Violation Tracking Automation: 2026 How-To Guide",
+              "description": "Mar 27, 2026 — HOA violation cases average 21 days to resolve manually — automation cuts that to 6 days or fewer · 61% of community managers rank violation ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "hoa.works",
+              "url": "https://hoa.works/blog/software/how-hoa-software-simplifies-property-violation-tracking/",
+              "title": "HOA Violation Tracking Software",
+              "description": "HOA software simplifies violation tracking with automation, real-time updates, and clear documentation for faster resolution.",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.townsq.io",
+              "url": "https://www.townsq.io/blog/how-to-track-hoa-violations-in-the-communities-you-manage",
+              "title": "HOA Violation Management",
+              "description": "Explore industry-proven strategies to streamline HOA violation tracking, enhance HOA communication, and ensure fair, consistent HOA violation enforcement.",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "hoastart.com",
+              "url": "https://hoastart.com/violation-tracking/",
+              "title": "HOA Violation Tracking Software",
+              "description": "Track, manage, and resolve HOA violations efficiently. HOAStart's violation tracking tools automate notices, document infractions, and keep your community ...",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.hoappm.com",
+              "url": "https://www.hoappm.com/hoa-violation-process/",
+              "title": "Violation Process for HOAs: Best Practices | PPM Blog",
+              "description": "The HOA should handle fines carefully and track them separately from assessments. State law and governing documents can treat these categories differently, ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "payhoa.com",
+          "url": "https://www.payhoa.com/",
+          "finalUrl": "https://www.payhoa.com/",
+          "retrievedAt": "2026-09-23T09:40:59.163Z",
+          "status": 200,
+          "error": null,
+          "title": "HOA Software | HOA Management Software | HOA Accounting - PayHOA",
+          "description": "PayHOA is an all-in-one cloud-based HOA software portal that allows you to invoice, collect dues, manage financials, use communication tools, and more.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "payhoa.com",
+          "url": "https://www.payhoa.com/pricing",
+          "finalUrl": "https://www.payhoa.com/pricing/",
+          "retrievedAt": "2026-09-23T09:40:59.164Z",
+          "status": 200,
+          "error": null,
+          "title": "HOA Software Pricing | HOA Management Software Pricing - PayHOA",
+          "description": "Whether you self-manage a small HOA or oversee multiple condo associations, our HOA software pricing is flexible based on your association's units.",
+          "priceMentions": [
+            {
+              "text": "$54 /mo",
+              "billingUnit": true,
+              "context": "0 units 401 – 500 units 500+ units Your plan (0 - 25 units) $54 /mo $49 per month, billed yearly Your plan (26 - 50 units) $65"
+            },
+            {
+              "text": "$49 per month",
+              "billingUnit": true,
+              "context": "401 – 500 units 500+ units Your plan (0 - 25 units) $54 /mo $49 per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per mo"
+            },
+            {
+              "text": "$65 /mo",
+              "billingUnit": true,
+              "context": "/mo $49 per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per month, billed yearly Your plan (51 - 100 units) $10"
+            },
+            {
+              "text": "$59 per month",
+              "billingUnit": true,
+              "context": "per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per"
+            },
+            {
+              "text": "$109 /mo",
+              "billingUnit": true,
+              "context": "/mo $59 per month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per month, billed yearly Your plan (101 - 150 units) $1"
+            },
+            {
+              "text": "$99 per month",
+              "billingUnit": true,
+              "context": "er month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per month, billed yearly Your plan (101 - 150 units) $142 /mo $129 pe"
+            },
+            {
+              "text": "$142 /mo",
+              "billingUnit": true,
+              "context": "mo $99 per month, billed yearly Your plan (101 - 150 units) $142 /mo $129 per month, billed yearly Your plan (151 - 200 units) $"
+            },
+            {
+              "text": "$129 per month",
+              "billingUnit": true,
+              "context": "r month, billed yearly Your plan (101 - 150 units) $142 /mo $129 per month, billed yearly Your plan (151 - 200 units) $186 /mo $169 pe"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "hoamessenger.com",
+          "url": "https://hoamessenger.com/hoa-violation-tracking-software",
+          "finalUrl": "https://www.hoamessenger.com/hoa-violation-tracking-software",
+          "retrievedAt": "2026-09-23T09:40:59.165Z",
+          "status": 200,
+          "error": null,
+          "title": "HOA Violation Tracking Software",
+          "description": "Communication is essential to an HOA’s successful operations and HOA Messenger helps make that process easy with its messaging functionality. Whether you you need to send a Broadcast message to everyone, or a direct message to an individual resident, HOA Messenger’s easy to use messaging software ha",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "hoamessenger.com",
+          "url": "https://hoamessenger.com/pricing",
+          "finalUrl": "https://www.hoamessenger.com/pricing",
+          "retrievedAt": "2026-09-23T09:40:59.166Z",
+          "status": 200,
+          "error": null,
+          "title": "HOA Messenger - Pricing",
+          "description": "HOA Messenger provides the most comprehensive set of free HOA Management tools available, with premium functionality available if and when you need it.",
+          "priceMentions": [
+            {
+              "text": "$0 / mo",
+              "billingUnit": true,
+              "context": "available for as long as you want, no credit card required. $0 / mo Private Mobile Portal Unlimited HOAs Unlimited Residents Co"
+            },
+            {
+              "text": "$25 / mo",
+              "billingUnit": true,
+              "context": "nting & Bill Pay Software + Use of Advanced Customizations. $25 / mo Everything in the Free Plan Double-Entry Accounting Softwar"
+            },
+            {
+              "text": "$399 / mo",
+              "billingUnit": true,
+              "context": "+ public facing landing page + monthly bank reconciliation. $399 / mo Access to all Premium Features Receivables administration P"
+            },
+            {
+              "text": "$20 / mo",
+              "billingUnit": true,
+              "context": "nting & Bill Pay Software + Use of Advanced Customizations. $20 / mo Everything in the Free Plan Double-Entry Accounting Softwar"
+            },
+            {
+              "text": "$319 / mo",
+              "billingUnit": true,
+              "context": "+ public facing landing page + monthly bank reconciliation. $319 / mo Access to all Premium Features Receivables administration P"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "condocontrol.com",
+          "url": "https://www.condocontrol.com/record-keeping/violation-tracking-management/",
+          "finalUrl": "https://www.condocontrol.com/record-keeping/violation-tracking-management/",
+          "retrievedAt": "2026-09-23T09:40:59.167Z",
+          "status": 200,
+          "error": null,
+          "title": "HOA Violation Tracking & Management - Condo Control",
+          "description": "Our violation tracking feature lets condos and HOAs effectively send, track, and resolve violations within their community.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "condocontrol.com",
+          "url": "https://www.condocontrol.com/pricing",
+          "finalUrl": "https://www.condocontrol.com/pricing/",
+          "retrievedAt": "2026-09-23T09:40:59.168Z",
+          "status": 200,
+          "error": null,
+          "title": "Community Association Software Pricing | Condo Control",
+          "description": "Our condo & HOA software pricing model is simple: You pay an up-front cost and an ongoing cost. Pricing options are available.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": false,
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 9,
+          "flags": [
+            {
+              "id": "K1",
+              "kind": "uncertain",
+              "text": "\"hoa violation tracking problems\": relevance not judged — not counted."
+            },
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"self managed hoa compliance\": relevance not judged — not counted."
+            },
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"hoa legal non compliance\": relevance not judged — not counted."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"hoa software\": relevance not judged — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"hoa violation tracker\": relevance not judged — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"hoa management tool\": relevance not judged — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"hoa software pricing\": relevance not judged — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best hoa management software\": relevance not judged — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"hoa violation tracker cost\": relevance not judged — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "payhoa.com",
+            "hoamessenger.com",
+            "condocontrol.com",
+            "runhoa.com",
+            "blog.omegafi.com",
+            "mochamanage.com",
+            "yardibreeze.com",
+            "ustechautomations.com",
+            "moneyminder.com",
+            "hoa.works",
+            "townsq.io",
+            "hoastart.com",
+            "easyhoa.com",
+            "hoappm.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "community.solume.com"
+          ],
+          "pricedDomains": [
+            "payhoa.com",
+            "hoamessenger.com"
+          ],
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on payhoa.com, hoamessenger.com."
+        }
+      },
+      "evidenceFingerprint": "2772271b69278020",
+      "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
+      "matchesOriginalPick": false
+    },
+    {
+      "id": "2026-09-23:livestock-digital-traceability-log",
+      "slug": "livestock-digital-traceability-log",
+      "title": "The Small Livestock Producer's \"Sale-Ready\" Digital Traceability Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem is driven by a USDA final rule, effective November 2024, which affects a large portion of the US cattle industry."
+      },
+      "plan": {
+        "slug": "livestock-digital-traceability-log",
+        "title": "The Small Livestock Producer's \"Sale-Ready\" Digital Traceability Log",
+        "problem": "Small cattle or bison operations face a new, non-negotiable compliance burden to use electronically readable ear tags and maintain records for interstate animal movement.",
+        "targetCustomer": "Owner of a small-to-medium sized cattle or bison operation.",
+        "payer": "Owner of a small-to-medium sized cattle or bison operation.",
+        "whyPayerPays": "The payer will spend money to comply with the new federal mandate for electronic animal identification and traceability.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem is driven by a USDA final rule, effective November 2024, which affects a large portion of the US cattle industry."
+        },
+        "keywords": {
+          "problem": [
+            "cattle traceability requirements",
+            "usda animal identification rule",
+            "livestock compliance burden"
+          ],
+          "solution": [
+            "livestock tracking software",
+            "animal traceability system",
+            "cattle ear tag records"
+          ],
+          "buying": [
+            "livestock software pricing",
+            "best cattle tracking app",
+            "animal traceability cost"
+          ]
+        },
+        "serpQueries": [
+          "livestock tracking software",
+          "cattle traceability requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "cattle traceability requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "usda animal identification rule",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "livestock compliance burden",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "livestock tracking software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-14 22:02:13 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (23 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "animal traceability system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-18 09:16:15 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "cattle ear tag records",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "livestock software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best cattle tracking app",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "animal traceability cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "livestock tracking software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:27.750Z",
+          "checkUrl": "https://www.google.com/search?q=livestock%20tracking%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.farmbrite.com",
+              "url": "https://www.farmbrite.com/livestock",
+              "title": "Livestock Software for Cattle, Goats, Sheep and more",
+              "description": "All-in-one livestock record keeping software for cattle, sheep, pigs, and more. Manage your entire herd easily and affordably. Try it free!",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.cattlemax.com",
+              "url": "https://www.cattlemax.com/",
+              "title": "CattleMax: Cattle Management Software | Cattle Record ...",
+              "description": "CattleMax is a cloud-based program that allows you to view your ranch records on the go. Using our newly enhanced mobile version on a smartphone or tablet makes ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.farmkeep.com",
+              "url": "https://www.farmkeep.com/farm-guides/farm-management/best-livestock-management-software",
+              "title": "Best Livestock Management Software (2026 Guide)",
+              "description": "Apr 17, 2026 — Compare the best livestock management software for small and large farms. Explore features, pricing, and tools for tracking animals, ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "herdone.com",
+              "url": "https://herdone.com/",
+              "title": "HerdOne - Livestock Management and Record Keeping",
+              "description": "Use HerdOne To Access And Record Livestock Information From Anywhere On Any Device. organize your livestock records. Create custom livestock types, breeds, PCs ...",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Ranching/comments/1npdb8d/what_cattle_management_apps_are_you_using/",
+              "title": "What cattle management apps are you using? : r/Ranching",
+              "description": "I like CattleMax. I'm a big fan of spreadsheets but can't use those on my phone out in the field very well. Read more",
+              "id": "S1.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "www.cattle360.com",
+              "url": "https://www.cattle360.com/",
+              "title": "Cattle Management Software with Unlimited Animals | Cattle360",
+              "description": "Cattle management software designed for efficiency and profitability. Track herd records, simplify daily workflows, and keep every key detail in one place ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.farmleo.com",
+              "url": "https://www.farmleo.com/insights/best-free-livestock-management-software-2026",
+              "title": "top 5 apps for cattle, sheep, goats, pigs, and mixed farms",
+              "description": "Feb 28, 2026 — Farmleo: best overall for usability, core livestock records, and a free plan under 20 animals. CattleMax: best for cattle-first records and more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.cattlytics.com",
+              "url": "https://www.cattlytics.com/cattle-management-software/",
+              "title": "Cattle Management Software for Smarter Herd Operations",
+              "description": "Cattlytics is an all-in-one farm and livestock management software, powered by Folio3, designed to optimize herd tracking and drive operational efficiency.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "cattly.io",
+              "url": "https://cattly.io/blog/top-5-cattle-management-software-comparison",
+              "title": "Best Cattle Management Software (2026)",
+              "description": "Mar 10, 2026 — 1. Cattly — Best value overall · 2. Cattlytics — All-in-One Cattle Management Built for the Field · 3. CattleMax — Deepest record-keeping · 4. Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "cattle traceability requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:39.498Z",
+          "checkUrl": "https://www.google.com/search?q=cattle%20traceability%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.aphis.usda.gov",
+              "url": "https://www.aphis.usda.gov/livestock-poultry-disease/traceability",
+              "title": "Animal Disease Traceability",
+              "description": "Jun 26, 2026 — Animal disease traceability is knowing where diseased and at-risk animals are, where they have been, and when they were there. Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "abpdaily.com",
+              "url": "https://abpdaily.com/checking-in-with-abp/understanding-proposed-updates-to-livestock-traceability-regulations/",
+              "title": "Understanding proposed updates to livestock traceability ...",
+              "description": "Dec 19, 2025 — The ability to track livestock through their lifecycle relies on three pillars: premise identification (PID), animal identification, and animal ... Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.globalvetlink.com",
+              "url": "https://www.globalvetlink.com/blog/enhancing-livestock-traceability-new-usda-regulations",
+              "title": "Livestock Traceability | New USDA Regulations",
+              "description": "Jul 23, 2024 — USDA updates regulations to require electronically readable ID tags for animals moving interstate to enhance disease traceability and ...",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www2.gov.bc.ca",
+              "url": "https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/food-safety/traceability/livestock-traceability",
+              "title": "Livestock traceability - Province of British Columbia",
+              "description": "Nov 18, 2025 — Current federal requirements include mandatory identification of cattle, bison, sheep and pigs and movement reporting requirements for pigs. Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "calcattlemen.org",
+              "url": "https://calcattlemen.org/eid/",
+              "title": "What to Know About the Cattle Traceability Rule Going into ...",
+              "description": "In short, the change coming Nov. 5 is going to require tags to be electronically readable, on top of visually readable. See CCA's policy on animal disease ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "inspection.canada.ca",
+              "url": "http://inspection.canada.ca/en/animal-health/terrestrial-animals/traceability",
+              "title": "Livestock traceability",
+              "description": "Jun 2, 2026 — Regulatory overview of livestock traceability in Canada. Legal requirements for the traceability of livestock in Canada. Regulatory guidance. Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "mbbeef.ca",
+              "url": "https://mbbeef.ca/our-news/understanding-proposed-updates-to-livestock-traceability-regulations/",
+              "title": "Understanding proposed updates to livestock traceability ...",
+              "description": "Dec 19, 2025 — The proposed requirement is that all cattle must be identified with a CCIA tag before leaving the farm of origin, unless they are being taken to ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "farmoffice.osu.edu",
+              "url": "https://farmoffice.osu.edu/blog-tags/animal-disease-traceability",
+              "title": "animal disease traceability - OSU Farm Office",
+              "description": "Unless specifically exempted, livestock moved interstate must be officially identified and accompanied by an interstate certificate of veterinary inspection or ... Read more",
+              "id": "S2.10",
+              "class": "reference_media"
+            },
+            {
+              "rank": 11,
+              "domain": "www.steinhausers.com",
+              "url": "https://www.steinhausers.com/new-cattle-traceability-and-tagging-requirements/",
+              "title": "New Cattle Traceability and Tagging Requirements",
+              "description": "Jan 1, 2013 — New Cattle Traceability requirements kicked in on January 1, 2013. All adult cattle must have an approved form of permanent identification.",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "farmbrite.com",
+          "url": "https://www.farmbrite.com/livestock",
+          "finalUrl": "https://www.farmbrite.com/livestock",
+          "retrievedAt": "2026-09-23T09:41:00.032Z",
+          "status": 200,
+          "error": null,
+          "title": "Livestock Software for Cattle, Goats, Sheep and more | Farmbrite",
+          "description": "All-in-one livestock record keeping software for cattle, sheep, pigs, and more. Manage your entire herd easily and affordably. Try it free!",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "farmbrite.com",
+          "url": "https://www.farmbrite.com/pricing",
+          "finalUrl": "https://www.farmbrite.com/pricing",
+          "retrievedAt": "2026-09-23T09:41:00.033Z",
+          "status": 200,
+          "error": null,
+          "title": "Farm & Livestock Management Software - Plans & Pricing | Farmbrite",
+          "description": "Explore Farmbrite",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "cattlemax.com",
+          "url": "https://www.cattlemax.com/",
+          "finalUrl": "https://www.cattlemax.com/",
+          "retrievedAt": "2026-09-23T09:41:00.034Z",
+          "status": 200,
+          "error": null,
+          "title": "Cattle Management Software | Cattle Record Keeping | CattleMax",
+          "description": "CattleMax is the trusted cattle software by farmers and ranchers worldwide since 1999. This easy-to-use herd management software is for herds of all sizes.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "cattlemax.com",
+          "url": "https://www.cattlemax.com/pricing",
+          "finalUrl": "https://www.cattlemax.com/pricing",
+          "retrievedAt": "2026-09-23T09:41:00.035Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing - CattleMax",
+          "description": "Pricing plans for registered and commercial herds. Our software is compatible with multiple users and devices, with no contract or cancellation fees.",
+          "priceMentions": [
+            {
+              "text": "$ 30 /mo",
+              "billingUnit": true,
+              "context": "erything you need to manage commercial cow-calf operations. $ 30 /mo billed yearly What's included ✔ Complete cattle records ✔ P"
+            },
+            {
+              "text": "$ 41 /mo",
+              "billingUnit": true,
+              "context": "breed association interfaces and advanced seedstock tools. $ 41 /mo billed yearly Includes everything in Commercial, plus: ✔ Br"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "abpdaily.com",
+          "url": "https://abpdaily.com/checking-in-with-abp/understanding-proposed-updates-to-livestock-traceability-regulations/",
+          "finalUrl": "https://abpdaily.com/checking-in-with-abp/understanding-proposed-updates-to-livestock-traceability-regulations/",
+          "retrievedAt": "2026-09-23T09:41:00.036Z",
+          "status": 200,
+          "error": null,
+          "title": "Understanding proposed updates to livestock traceability regulations - Alberta Beef Producers",
+          "description": "Alberta Beef Producers breaks down proposed federal updates to livestock traceability regulations, including what’s changing, what’s consistent, and how producers can prepare.",
+          "priceMentions": [
+            {
+              "text": "$71.40",
+              "billingUnit": false,
+              "context": "- Heifers Live: 222.00 (IA) *few Rail: --- Canadian Dollar $71.40 0.12 December 19, 2025 Checking in with ABP Understanding p"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "abpdaily.com",
+          "url": "https://abpdaily.com/pricing",
+          "finalUrl": "https://abpdaily.com/pricing",
+          "retrievedAt": "2026-09-23T09:41:00.036Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": false,
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 9,
+          "flags": [
+            {
+              "id": "K1",
+              "kind": "uncertain",
+              "text": "\"cattle traceability requirements\": relevance not judged — not counted."
+            },
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"usda animal identification rule\": relevance not judged — not counted."
+            },
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"livestock compliance burden\": relevance not judged — not counted."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"livestock tracking software\": relevance not judged — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"animal traceability system\": relevance not judged — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"cattle ear tag records\": relevance not judged — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"livestock software pricing\": relevance not judged — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best cattle tracking app\": relevance not judged — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"animal traceability cost\": relevance not judged — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "farmbrite.com",
+            "cattlemax.com",
+            "abpdaily.com",
+            "farmkeep.com",
+            "herdone.com",
+            "globalvetlink.com",
+            "www2.gov.bc.ca",
+            "calcattlemen.org",
+            "cattle360.com",
+            "inspection.canada.ca",
+            "farmleo.com",
+            "mbbeef.ca",
+            "cattlytics.com",
+            "cattly.io",
+            "steinhausers.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "cattlemax.com"
+          ],
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on cattlemax.com."
+        }
+      },
+      "evidenceFingerprint": "665553df64b1d55d",
+      "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
+      "matchesOriginalPick": false
+    },
+    {
+      "id": "2026-09-23:shopify-returns-dashboard",
+      "slug": "shopify-returns-dashboard",
+      "title": "The Shopify Merchant's \"True Profit\" Returns Dashboard",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "Shopify is a global platform, but the problem description does not specify a country, so the first plausible option (United States, en) is chosen."
+      },
+      "plan": {
+        "slug": "shopify-returns-dashboard",
+        "title": "The Shopify Merchant's \"True Profit\" Returns Dashboard",
+        "problem": "Shopify's native returns system inaccurately deducts potential refunds from sales reports, creating false sales figures and phantom \"refund owed\" balances.",
+        "targetCustomer": "Owner or operations lead at a Shopify-based e-commerce brand with growing return volume.",
+        "payer": "Owner or operations lead at a Shopify-based e-commerce brand.",
+        "whyPayerPays": "The payer will spend money to gain an accurate view of their finances, automate return reconciliation, and avoid margin erosion.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "Shopify is a global platform, but the problem description does not specify a country, so the first plausible option (United States, en) is chosen."
+        },
+        "keywords": {
+          "problem": [
+            "shopify returns reporting issues",
+            "ecommerce refund reconciliation",
+            "shopify inaccurate sales reports"
+          ],
+          "solution": [
+            "shopify returns app",
+            "ecommerce returns software",
+            "profit dashboard shopify"
+          ],
+          "buying": [
+            "shopify returns pricing",
+            "best shopify returns apps",
+            "ecommerce profit dashboard cost"
+          ]
+        },
+        "serpQueries": [
+          "shopify returns app",
+          "shopify returns reporting issues"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "shopify returns reporting issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "ecommerce refund reconciliation",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "shopify inaccurate sales reports",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "shopify returns app",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": 48.14,
+          "adCompetition": 0.21,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 27,
+          "providerUpdatedAt": "2026-09-15 00:30:39 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 210
+            }
+          ],
+          "trend": {
+            "direction": "rising",
+            "changePct": 56,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "ecommerce returns software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 76.66,
+          "adCompetition": 0.35,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -75,
+          "providerUpdatedAt": "2026-09-15 01:02:51 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 20
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (33 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "profit dashboard shopify",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "shopify returns pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best shopify returns apps",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "ecommerce profit dashboard cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:13.346Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "shopify returns app",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:48.773Z",
+          "checkUrl": "https://www.google.com/search?q=shopify%20returns%20app&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "apps.shopify.com",
+              "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all",
+              "title": "Best Returns and exchanges Apps For 2026",
+              "description": "Manage returns, exchanges, tracking, order editing & more ! ShipStation Orders & Inventory. 4.2 out of 5 stars (706) 706 total reviews • Free trial ... Read more",
+              "id": "S1.2",
+              "class": "platform"
+            },
+            {
+              "rank": 3,
+              "domain": "apps.shopify.com",
+              "url": "https://apps.shopify.com/return-prime",
+              "title": "Return Prime:Return & Exchange",
+              "description": "Branded return portal that connects to your WMS, carriers and helpdesk ; Auto-approve or reject returns with rules on reason, product and return window. Read more",
+              "id": "S1.3",
+              "class": "platform"
+            },
+            {
+              "rank": 4,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/shopify/comments/1pl5914/best_returns_app_for_shopify/",
+              "title": "Best Returns App for Shopify?",
+              "description": "I’m in the market for a solid returns integration for my Shopify store and am hoping for some recommendations from people, ideally people with ...",
+              "id": "S1.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "shopify.dev",
+              "url": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps",
+              "title": "Apps in returns",
+              "description": "Returns apps provide merchants with various ways to manage their returns. For example, returns apps offer functionality such as a customer self-serve portal, ... Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "help.shopify.com",
+              "url": "https://help.shopify.com/en/manual/fulfillment/managing-orders/returns/creating-returns",
+              "title": "Creating returns and exchanges",
+              "description": "Learn to create returns and exchanges for your orders in your Shopify admin, including return reasons, return fees, and return shipping options.",
+              "id": "S1.7",
+              "class": "platform"
+            },
+            {
+              "rank": 8,
+              "domain": "apps.shopify.com",
+              "url": "https://apps.shopify.com/returngo",
+              "title": "ReturnGO Returns & Exchanges - Automate refunds and ...",
+              "description": "Product & variant exchange, gift returns, cancel order, store credit, and more. Flexible return reasons, follow-up questions, and image & video upload. Read more",
+              "id": "S1.8",
+              "class": "platform"
+            },
+            {
+              "rank": 10,
+              "domain": "apps.shopify.com",
+              "url": "https://apps.shopify.com/ecoreturns-by-saarainc",
+              "title": "EcoReturns: AI powered Returns",
+              "description": "EcoReturns is the best AI-powered Shopify Returns App. It helps you reduce refunds, automate returns/exchanges, offer store credits and save on shipping ...",
+              "id": "S1.10",
+              "class": "platform"
+            },
+            {
+              "rank": 11,
+              "domain": "www.aftersell.com",
+              "url": "https://www.aftersell.com/blog/best-shopify-returns-apps",
+              "title": "Top 5 best Shopify returns apps in 2026",
+              "description": "What are the best Shopify return apps? · 1) Frate Peer‑to‑Peer Returns · 2) Return Prime · 3) AfterShip Returns · 4) Loop Returns · 5) ReturnGO. returngo ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "shopify returns reporting issues",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-23T09:40:55.998Z",
+          "checkUrl": "https://www.google.com/search?q=shopify%20returns%20reporting%20issues&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.shopify.com",
+              "url": "https://www.shopify.com/legal/tools/report-an-issue",
+              "title": "Report an issue",
+              "description": "Report an issue. Report a merchant. Report a merchant that you believe is in violation of Shopify's policies. Shopify. What is Shopify? Read more",
+              "id": "S2.2",
+              "class": "platform"
+            },
+            {
+              "rank": 4,
+              "domain": "community.shopify.com",
+              "url": "https://community.shopify.com/t/reporting-problems/573811",
+              "title": "Reporting problems",
+              "description": "Nov 3, 2025 — For your specific reporting issues with split orders and cross-quarter refunds, you'll need a specialized analytics app from the Shopify App ... Read more",
+              "id": "S2.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "community.shopify.com",
+              "url": "https://community.shopify.com/t/returns-reporting-flaw-any-thoughts/322369",
+              "title": "Returns Reporting Flaw --Any thoughts",
+              "description": "May 13, 2024 — The return should only be deducted from any report when the actual refund is made to the customer and that return is closed out. I already ... Read more",
+              "id": "S2.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "www.reportpundit.com",
+              "url": "https://www.reportpundit.com/post/how-shopify-returns-and-refunds-break-reports-cause-data-discrepancies-and-how-to-fix-them",
+              "title": "How Shopify Returns and Refunds Break Reports, Cause ...",
+              "description": "How Returns Break Reports and Cause Discrepancies · 1. Date mismatches · 2. Premature sales deductions from self-serve returns · 3. Third-party return app ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "support.returngo.ai",
+              "url": "https://support.returngo.ai/shopify-reporting",
+              "title": "Shopify Reporting - Knowledge Base - ReturnGO",
+              "description": "May 24, 2026 — Returns are documented as returned in Shopify reports as long as the refund is performed on the line item and not at the order level.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "help.getredo.com",
+              "url": "https://help.getredo.com/en/articles/10756040-return-reporting-in-redo-vs-shopify",
+              "title": "Return Reporting in Redo vs Shopify - Redo Help Center",
+              "description": "Jul 6, 2026 — These issues often cause Shopify to largely overstate Refund reporting. Shopify return rate fails to correctly align returns with orders and ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "returnzap.com",
+              "url": "https://returnzap.com/blog/how-shopify-returns-impact-sales-reporting",
+              "title": "Shopify returns causing inaccurate sales reporting? Here's ...",
+              "description": "Jul 19, 2024 — Sales Reporting Discrepancies: Sales figures may appear lower than actual due to immediate deduction of potential refunds. · Persistent Refund ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.shopify.com",
+              "url": "https://www.shopify.com/legal/tools/report-an-issue/order-issue",
+              "title": "Issue with an order",
+              "description": "Issue with an order. Report issues you have with a specific order from a merchant. Learn More. Legal first name. Legal last name. Email. Order confirmation URL ... Read more",
+              "id": "S2.11",
+              "class": "platform"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "apps.shopify.com",
+          "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all",
+          "finalUrl": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all",
+          "retrievedAt": "2026-09-23T09:41:02.804Z",
+          "status": 200,
+          "error": null,
+          "title": "Best Returns and exchanges Apps For 2026 - Shopify App Store",
+          "description": "Boost your Shopify store with apps for Returns and exchanges. Discover the latest free and premium apps on the Shopify App Store.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "apps.shopify.com",
+          "url": "https://apps.shopify.com/pricing",
+          "finalUrl": "https://www.shopify.com/pricing",
+          "retrievedAt": "2026-09-23T09:41:02.805Z",
+          "status": 200,
+          "error": null,
+          "title": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+          "description": "Get detailed information on Shopify pricing and features. Find the right plan for you and start your business in seconds.",
+          "priceMentions": [
+            {
+              "text": "$1/month",
+              "billingUnit": true,
+              "context": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29 /mo"
+            },
+            {
+              "text": "$29 /mo",
+              "billingUnit": true,
+              "context": "1/month for 3 months. Pay yearly Compare all features Basic $29 /mo For solo entrepreneurs Start for free Sell online, in perso"
+            },
+            {
+              "text": "$5,000",
+              "billingUnit": false,
+              "context": "30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Ever"
+            },
+            {
+              "text": "$79 /mo",
+              "billingUnit": true,
+              "context": "istant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Everything in Basic Card rat"
+            },
+            {
+              "text": "$7,500",
+              "billingUnit": false,
+              "context": "SD Up to 5 staff accounts Up to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for fre"
+            },
+            {
+              "text": "$299 /mo",
+              "billingUnit": true,
+              "context": "p to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for free Everything in Grow Card rat"
+            },
+            {
+              "text": "$10,000",
+              "billingUnit": false,
+              "context": "party shipping rates Tailor your store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a h"
+            },
+            {
+              "text": "$2,300 /mo",
+              "billingUnit": true,
+              "context": "our store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a href=\"https://admin.shopify.com/s"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "shopify.com",
+          "url": "https://www.shopify.com/legal/tools/report-an-issue",
+          "finalUrl": "https://www.shopify.com/legal/tools/report-an-issue",
+          "retrievedAt": "2026-09-23T09:41:02.806Z",
+          "status": 200,
+          "error": null,
+          "title": "Report an issue - Shopify",
+          "description": "Report an issue with a merchant.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "shopify.com",
+          "url": "https://www.shopify.com/pricing",
+          "finalUrl": "https://www.shopify.com/pricing",
+          "retrievedAt": "2026-09-23T09:41:02.806Z",
+          "status": 200,
+          "error": null,
+          "title": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+          "description": "Get detailed information on Shopify pricing and features. Find the right plan for you and start your business in seconds.",
+          "priceMentions": [
+            {
+              "text": "$1/month",
+              "billingUnit": true,
+              "context": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29 /mo"
+            },
+            {
+              "text": "$29 /mo",
+              "billingUnit": true,
+              "context": "1/month for 3 months. Pay yearly Compare all features Basic $29 /mo For solo entrepreneurs Start for free Sell online, in perso"
+            },
+            {
+              "text": "$5,000",
+              "billingUnit": false,
+              "context": "30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Ever"
+            },
+            {
+              "text": "$79 /mo",
+              "billingUnit": true,
+              "context": "istant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Everything in Basic Card rat"
+            },
+            {
+              "text": "$7,500",
+              "billingUnit": false,
+              "context": "SD Up to 5 staff accounts Up to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for fre"
+            },
+            {
+              "text": "$299 /mo",
+              "billingUnit": true,
+              "context": "p to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for free Everything in Grow Card rat"
+            },
+            {
+              "text": "$10,000",
+              "billingUnit": false,
+              "context": "party shipping rates Tailor your store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a h"
+            },
+            {
+              "text": "$2,300 /mo",
+              "billingUnit": true,
+              "context": "our store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a href=\"https://admin.shopify.com/s"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "shopify.dev",
+          "url": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps",
+          "finalUrl": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps",
+          "retrievedAt": "2026-09-23T09:41:02.807Z",
+          "status": 200,
+          "error": null,
+          "title": "Apps in returns",
+          "description": "Learn about how returns apps can provide a return management workflow for merchants and customers.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "shopify.dev",
+          "url": "https://shopify.dev/pricing",
+          "finalUrl": "https://shopify.dev/pricing",
+          "retrievedAt": "2026-09-23T09:41:02.808Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": false,
+          "measuredCount": 0,
+          "totalCount": 0,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 9,
+          "flags": [
+            {
+              "id": "K1",
+              "kind": "uncertain",
+              "text": "\"shopify returns reporting issues\": relevance not judged — not counted."
+            },
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"ecommerce refund reconciliation\": relevance not judged — not counted."
+            },
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"shopify inaccurate sales reports\": relevance not judged — not counted."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"shopify returns app\": relevance not judged — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"ecommerce returns software\": relevance not judged — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"profit dashboard shopify\": relevance not judged — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"shopify returns pricing\": relevance not judged — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best shopify returns apps\": relevance not judged — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"ecommerce profit dashboard cost\": relevance not judged — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. Keywords have not been judged for relevance yet, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "The evidence has not been judged for relevance yet, so commercial signals are not counted."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "shopify.dev",
+            "reportpundit.com",
+            "support.returngo.ai",
+            "help.getredo.com",
+            "returnzap.com",
+            "aftersell.com"
+          ],
+          "platformDomains": [
+            "apps.shopify.com",
+            "shopify.com",
+            "help.shopify.com"
+          ],
+          "discussionResults": [
+            "community.shopify.com",
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "apps.shopify.com",
+            "shopify.com"
+          ],
+          "note": "6 vendor-like or publisher domain(s) and 3 broad platform(s) (apps.shopify.com, shopify.com, help.shopify.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on apps.shopify.com, shopify.com."
+        }
+      },
+      "evidenceFingerprint": "802376c0b4ac0186",
+      "evidenceUpdatedAt": "2026-09-23T09:41:03.325Z",
+      "matchesOriginalPick": false
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-23T09:40:13.345Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "11e61f8d-dfc7-51b8-a3e0-e8eadc316c78",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01296,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-23T09:40:16.806Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "9f3f7263-61b2-5631-a688-53d53ec4e251",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-23T09:40:22.768Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "a207fa19-546b-5ff0-ac07-14693c576861",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-23T09:40:27.750Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "488ebe1f-524b-579a-8061-6b41ec6cdf76",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-23T09:40:39.498Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "21d397e2-c5b3-578c-9624-33ea6e853799",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-23T09:40:48.773Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "7d3ebd2b-9a98-5719-b7b3-616a506f5939",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-23T09:40:55.998Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "69ec095f-0936-59ab-911a-4cd40f0d1f4c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.49472,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.50528
+    },
+    "monthToDateUsdBefore": 0.49472,
+    "spentThisRunUsd": 0.02496
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-23T09:41:03.325Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02496,
+    "note": null
+  },
+  "assessmentError": "assessment not written for some ideas (they will be retried): 2026-09-23:self-managed-hoa-violation-tracker: the model returned no relevance judgements for it | 2026-09-23:livestock-digital-traceability-log: the model returned no relevance judgements for it | 2026-09-23:shopify-returns-dashboard: the model returned no relevance judgements for it"
+}

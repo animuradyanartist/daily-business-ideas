@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-23
+- **The Self-Managed HOA's Violation & ARC Tracker** — Killed. High risk of state-by-state legal variation and the buyer (volunteer board) has high churn and questionable willingness-to-pay.
+- **The Shopify Merchant's "True Profit" Returns Dashboard** — Killed. This is an efficiency tool ("vitamin"), not a compliance painkiller. It operates in the hyper-competitive Shopify App Store ecosystem.
+- **The Small Non-Profit's "Funder-Ready" Grant Reporting Ledger** — Killed. The buyer is notoriously budget-constrained, and the problem is complex due to the lack of standardization in grant reporting requirements.
+
 ## 2026-09-22
 - **The "Always-Compliant" Professional CE Tracker:** Killed. While the pain is real, the market is fragmented by profession and state, making a single product difficult. The annual ACV is also likely lower than for a B2B compliance product.
 - **The "Audit-Proof" Freight Bill Auditor:** Killed. This is an ROI/efficiency play, not a compliance painkiller. In a downturn, it's a strong pitch, but the "must-have" nature of compliance software is stronger.

@@ -3829,6 +3829,448 @@
         "mentionsContactSales": true,
         "mentionsPricing": true
       }
+    },
+    "page|https://www.payhoa.com/": {
+      "fetchedAt": "2026-09-23T09:40:59.163Z",
+      "data": {
+        "url": "https://www.payhoa.com/",
+        "finalUrl": "https://www.payhoa.com/",
+        "retrievedAt": "2026-09-23T09:40:59.163Z",
+        "status": 200,
+        "error": null,
+        "title": "HOA Software | HOA Management Software | HOA Accounting - PayHOA",
+        "description": "PayHOA is an all-in-one cloud-based HOA software portal that allows you to invoice, collect dues, manage financials, use communication tools, and more.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.payhoa.com/pricing": {
+      "fetchedAt": "2026-09-23T09:40:59.164Z",
+      "data": {
+        "url": "https://www.payhoa.com/pricing",
+        "finalUrl": "https://www.payhoa.com/pricing/",
+        "retrievedAt": "2026-09-23T09:40:59.164Z",
+        "status": 200,
+        "error": null,
+        "title": "HOA Software Pricing | HOA Management Software Pricing - PayHOA",
+        "description": "Whether you self-manage a small HOA or oversee multiple condo associations, our HOA software pricing is flexible based on your association's units.",
+        "priceMentions": [
+          {
+            "text": "$54 /mo",
+            "billingUnit": true,
+            "context": "0 units 401 – 500 units 500+ units Your plan (0 - 25 units) $54 /mo $49 per month, billed yearly Your plan (26 - 50 units) $65"
+          },
+          {
+            "text": "$49 per month",
+            "billingUnit": true,
+            "context": "401 – 500 units 500+ units Your plan (0 - 25 units) $54 /mo $49 per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per mo"
+          },
+          {
+            "text": "$65 /mo",
+            "billingUnit": true,
+            "context": "/mo $49 per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per month, billed yearly Your plan (51 - 100 units) $10"
+          },
+          {
+            "text": "$59 per month",
+            "billingUnit": true,
+            "context": "per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per"
+          },
+          {
+            "text": "$109 /mo",
+            "billingUnit": true,
+            "context": "/mo $59 per month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per month, billed yearly Your plan (101 - 150 units) $1"
+          },
+          {
+            "text": "$99 per month",
+            "billingUnit": true,
+            "context": "er month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per month, billed yearly Your plan (101 - 150 units) $142 /mo $129 pe"
+          },
+          {
+            "text": "$142 /mo",
+            "billingUnit": true,
+            "context": "mo $99 per month, billed yearly Your plan (101 - 150 units) $142 /mo $129 per month, billed yearly Your plan (151 - 200 units) $"
+          },
+          {
+            "text": "$129 per month",
+            "billingUnit": true,
+            "context": "r month, billed yearly Your plan (101 - 150 units) $142 /mo $129 per month, billed yearly Your plan (151 - 200 units) $186 /mo $169 pe"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.condocontrol.com/record-keeping/violation-tracking-management/": {
+      "fetchedAt": "2026-09-23T09:40:59.167Z",
+      "data": {
+        "url": "https://www.condocontrol.com/record-keeping/violation-tracking-management/",
+        "finalUrl": "https://www.condocontrol.com/record-keeping/violation-tracking-management/",
+        "retrievedAt": "2026-09-23T09:40:59.167Z",
+        "status": 200,
+        "error": null,
+        "title": "HOA Violation Tracking & Management - Condo Control",
+        "description": "Our violation tracking feature lets condos and HOAs effectively send, track, and resolve violations within their community.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://hoamessenger.com/hoa-violation-tracking-software": {
+      "fetchedAt": "2026-09-23T09:40:59.165Z",
+      "data": {
+        "url": "https://hoamessenger.com/hoa-violation-tracking-software",
+        "finalUrl": "https://www.hoamessenger.com/hoa-violation-tracking-software",
+        "retrievedAt": "2026-09-23T09:40:59.165Z",
+        "status": 200,
+        "error": null,
+        "title": "HOA Violation Tracking Software",
+        "description": "Communication is essential to an HOA’s successful operations and HOA Messenger helps make that process easy with its messaging functionality. Whether you you need to send a Broadcast message to everyone, or a direct message to an individual resident, HOA Messenger’s easy to use messaging software ha",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://hoamessenger.com/pricing": {
+      "fetchedAt": "2026-09-23T09:40:59.166Z",
+      "data": {
+        "url": "https://hoamessenger.com/pricing",
+        "finalUrl": "https://www.hoamessenger.com/pricing",
+        "retrievedAt": "2026-09-23T09:40:59.166Z",
+        "status": 200,
+        "error": null,
+        "title": "HOA Messenger - Pricing",
+        "description": "HOA Messenger provides the most comprehensive set of free HOA Management tools available, with premium functionality available if and when you need it.",
+        "priceMentions": [
+          {
+            "text": "$0 / mo",
+            "billingUnit": true,
+            "context": "available for as long as you want, no credit card required. $0 / mo Private Mobile Portal Unlimited HOAs Unlimited Residents Co"
+          },
+          {
+            "text": "$25 / mo",
+            "billingUnit": true,
+            "context": "nting & Bill Pay Software + Use of Advanced Customizations. $25 / mo Everything in the Free Plan Double-Entry Accounting Softwar"
+          },
+          {
+            "text": "$399 / mo",
+            "billingUnit": true,
+            "context": "+ public facing landing page + monthly bank reconciliation. $399 / mo Access to all Premium Features Receivables administration P"
+          },
+          {
+            "text": "$20 / mo",
+            "billingUnit": true,
+            "context": "nting & Bill Pay Software + Use of Advanced Customizations. $20 / mo Everything in the Free Plan Double-Entry Accounting Softwar"
+          },
+          {
+            "text": "$319 / mo",
+            "billingUnit": true,
+            "context": "+ public facing landing page + monthly bank reconciliation. $319 / mo Access to all Premium Features Receivables administration P"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.condocontrol.com/pricing": {
+      "fetchedAt": "2026-09-23T09:40:59.168Z",
+      "data": {
+        "url": "https://www.condocontrol.com/pricing",
+        "finalUrl": "https://www.condocontrol.com/pricing/",
+        "retrievedAt": "2026-09-23T09:40:59.168Z",
+        "status": 200,
+        "error": null,
+        "title": "Community Association Software Pricing | Condo Control",
+        "description": "Our condo & HOA software pricing model is simple: You pay an up-front cost and an ongoing cost. Pricing options are available.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.farmbrite.com/livestock": {
+      "fetchedAt": "2026-09-23T09:41:00.032Z",
+      "data": {
+        "url": "https://www.farmbrite.com/livestock",
+        "finalUrl": "https://www.farmbrite.com/livestock",
+        "retrievedAt": "2026-09-23T09:41:00.032Z",
+        "status": 200,
+        "error": null,
+        "title": "Livestock Software for Cattle, Goats, Sheep and more | Farmbrite",
+        "description": "All-in-one livestock record keeping software for cattle, sheep, pigs, and more. Manage your entire herd easily and affordably. Try it free!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.farmbrite.com/pricing": {
+      "fetchedAt": "2026-09-23T09:41:00.033Z",
+      "data": {
+        "url": "https://www.farmbrite.com/pricing",
+        "finalUrl": "https://www.farmbrite.com/pricing",
+        "retrievedAt": "2026-09-23T09:41:00.033Z",
+        "status": 200,
+        "error": null,
+        "title": "Farm & Livestock Management Software - Plans & Pricing | Farmbrite",
+        "description": "Explore Farmbrite",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.cattlemax.com/": {
+      "fetchedAt": "2026-09-23T09:41:00.034Z",
+      "data": {
+        "url": "https://www.cattlemax.com/",
+        "finalUrl": "https://www.cattlemax.com/",
+        "retrievedAt": "2026-09-23T09:41:00.034Z",
+        "status": 200,
+        "error": null,
+        "title": "Cattle Management Software | Cattle Record Keeping | CattleMax",
+        "description": "CattleMax is the trusted cattle software by farmers and ranchers worldwide since 1999. This easy-to-use herd management software is for herds of all sizes.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://abpdaily.com/pricing": {
+      "fetchedAt": "2026-09-23T09:41:00.036Z",
+      "data": {
+        "url": "https://abpdaily.com/pricing",
+        "finalUrl": "https://abpdaily.com/pricing",
+        "retrievedAt": "2026-09-23T09:41:00.036Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://abpdaily.com/checking-in-with-abp/understanding-proposed-updates-to-livestock-traceability-regulations/": {
+      "fetchedAt": "2026-09-23T09:41:00.036Z",
+      "data": {
+        "url": "https://abpdaily.com/checking-in-with-abp/understanding-proposed-updates-to-livestock-traceability-regulations/",
+        "finalUrl": "https://abpdaily.com/checking-in-with-abp/understanding-proposed-updates-to-livestock-traceability-regulations/",
+        "retrievedAt": "2026-09-23T09:41:00.036Z",
+        "status": 200,
+        "error": null,
+        "title": "Understanding proposed updates to livestock traceability regulations - Alberta Beef Producers",
+        "description": "Alberta Beef Producers breaks down proposed federal updates to livestock traceability regulations, including what’s changing, what’s consistent, and how producers can prepare.",
+        "priceMentions": [
+          {
+            "text": "$71.40",
+            "billingUnit": false,
+            "context": "- Heifers Live: 222.00 (IA) *few Rail: --- Canadian Dollar $71.40 0.12 December 19, 2025 Checking in with ABP Understanding p"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.cattlemax.com/pricing": {
+      "fetchedAt": "2026-09-23T09:41:00.035Z",
+      "data": {
+        "url": "https://www.cattlemax.com/pricing",
+        "finalUrl": "https://www.cattlemax.com/pricing",
+        "retrievedAt": "2026-09-23T09:41:00.035Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - CattleMax",
+        "description": "Pricing plans for registered and commercial herds. Our software is compatible with multiple users and devices, with no contract or cancellation fees.",
+        "priceMentions": [
+          {
+            "text": "$ 30 /mo",
+            "billingUnit": true,
+            "context": "erything you need to manage commercial cow-calf operations. $ 30 /mo billed yearly What's included ✔ Complete cattle records ✔ P"
+          },
+          {
+            "text": "$ 41 /mo",
+            "billingUnit": true,
+            "context": "breed association interfaces and advanced seedstock tools. $ 41 /mo billed yearly Includes everything in Commercial, plus: ✔ Br"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://shopify.dev/pricing": {
+      "fetchedAt": "2026-09-23T09:41:02.808Z",
+      "data": {
+        "url": "https://shopify.dev/pricing",
+        "finalUrl": "https://shopify.dev/pricing",
+        "retrievedAt": "2026-09-23T09:41:02.808Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://apps.shopify.com/pricing": {
+      "fetchedAt": "2026-09-23T09:41:02.805Z",
+      "data": {
+        "url": "https://apps.shopify.com/pricing",
+        "finalUrl": "https://www.shopify.com/pricing",
+        "retrievedAt": "2026-09-23T09:41:02.805Z",
+        "status": 200,
+        "error": null,
+        "title": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+        "description": "Get detailed information on Shopify pricing and features. Find the right plan for you and start your business in seconds.",
+        "priceMentions": [
+          {
+            "text": "$1/month",
+            "billingUnit": true,
+            "context": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29 /mo"
+          },
+          {
+            "text": "$29 /mo",
+            "billingUnit": true,
+            "context": "1/month for 3 months. Pay yearly Compare all features Basic $29 /mo For solo entrepreneurs Start for free Sell online, in perso"
+          },
+          {
+            "text": "$5,000",
+            "billingUnit": false,
+            "context": "30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Ever"
+          },
+          {
+            "text": "$79 /mo",
+            "billingUnit": true,
+            "context": "istant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Everything in Basic Card rat"
+          },
+          {
+            "text": "$7,500",
+            "billingUnit": false,
+            "context": "SD Up to 5 staff accounts Up to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for fre"
+          },
+          {
+            "text": "$299 /mo",
+            "billingUnit": true,
+            "context": "p to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for free Everything in Grow Card rat"
+          },
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "party shipping rates Tailor your store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a h"
+          },
+          {
+            "text": "$2,300 /mo",
+            "billingUnit": true,
+            "context": "our store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a href=\"https://admin.shopify.com/s"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all": {
+      "fetchedAt": "2026-09-23T09:41:02.804Z",
+      "data": {
+        "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all",
+        "finalUrl": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all",
+        "retrievedAt": "2026-09-23T09:41:02.804Z",
+        "status": 200,
+        "error": null,
+        "title": "Best Returns and exchanges Apps For 2026 - Shopify App Store",
+        "description": "Boost your Shopify store with apps for Returns and exchanges. Discover the latest free and premium apps on the Shopify App Store.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps": {
+      "fetchedAt": "2026-09-23T09:41:02.807Z",
+      "data": {
+        "url": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps",
+        "finalUrl": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps",
+        "retrievedAt": "2026-09-23T09:41:02.807Z",
+        "status": 200,
+        "error": null,
+        "title": "Apps in returns",
+        "description": "Learn about how returns apps can provide a return management workflow for merchants and customers.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.shopify.com/legal/tools/report-an-issue": {
+      "fetchedAt": "2026-09-23T09:41:02.806Z",
+      "data": {
+        "url": "https://www.shopify.com/legal/tools/report-an-issue",
+        "finalUrl": "https://www.shopify.com/legal/tools/report-an-issue",
+        "retrievedAt": "2026-09-23T09:41:02.806Z",
+        "status": 200,
+        "error": null,
+        "title": "Report an issue - Shopify",
+        "description": "Report an issue with a merchant.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.shopify.com/pricing": {
+      "fetchedAt": "2026-09-23T09:41:02.806Z",
+      "data": {
+        "url": "https://www.shopify.com/pricing",
+        "finalUrl": "https://www.shopify.com/pricing",
+        "retrievedAt": "2026-09-23T09:41:02.806Z",
+        "status": 200,
+        "error": null,
+        "title": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+        "description": "Get detailed information on Shopify pricing and features. Find the right plan for you and start your business in seconds.",
+        "priceMentions": [
+          {
+            "text": "$1/month",
+            "billingUnit": true,
+            "context": "rt for free You've got plans. Us too. Try 3 days free, then $1/month for 3 months. Pay yearly Compare all features Basic $29 /mo"
+          },
+          {
+            "text": "$29 /mo",
+            "billingUnit": true,
+            "context": "1/month for 3 months. Pay yearly Compare all features Basic $29 /mo For solo entrepreneurs Start for free Sell online, in perso"
+          },
+          {
+            "text": "$5,000",
+            "billingUnit": false,
+            "context": "30¢ USD Built-in AI assistant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Ever"
+          },
+          {
+            "text": "$79 /mo",
+            "billingUnit": true,
+            "context": "istant Millions of tokens Earn up to $5,000 in credits Grow $79 /mo For small teams Start for free Everything in Basic Card rat"
+          },
+          {
+            "text": "$7,500",
+            "billingUnit": false,
+            "context": "SD Up to 5 staff accounts Up to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for fre"
+          },
+          {
+            "text": "$299 /mo",
+            "billingUnit": true,
+            "context": "p to 87% off shipping Earn up to $7,500 in credits Advanced $299 /mo For global reach Start for free Everything in Grow Card rat"
+          },
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "party shipping rates Tailor your store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a h"
+          },
+          {
+            "text": "$2,300 /mo",
+            "billingUnit": true,
+            "context": "our store by region Earn up to $10,000 in credits Plus from $2,300 /mo For complex businesses <a href=\"https://admin.shopify.com/s"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }

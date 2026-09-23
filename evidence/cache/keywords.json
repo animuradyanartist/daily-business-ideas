@@ -17823,6 +17823,1189 @@
       "fetchedAt": "2026-09-22T09:34:55.015Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|hoa violation tracking problems": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|self managed hoa compliance": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hoa legal non compliance": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hoa software": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "hoa software",
+        "searchVolume": 590,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 2400
+          }
+        ],
+        "cpcUsd": 69.35,
+        "adCompetition": 0.72,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-15 03:53:00 +00:00"
+      }
+    },
+    "labs|united states|en|hoa violation tracker": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "hoa violation tracker",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 13.69,
+        "adCompetition": 0.57,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-16 13:46:11 +00:00"
+      }
+    },
+    "labs|united states|en|hoa management tool": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hoa software pricing": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "hoa software pricing",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-06-11 17:18:34 +00:00"
+      }
+    },
+    "labs|united states|en|best hoa management software": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "best hoa management software",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 89.76,
+        "adCompetition": 0.64,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -18,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 17:08:00 +00:00"
+      }
+    },
+    "labs|united states|en|hoa violation tracker cost": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|cattle traceability requirements": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|usda animal identification rule": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|livestock compliance burden": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|livestock tracking software": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "livestock tracking software",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 22:02:13 +00:00"
+      }
+    },
+    "labs|united states|en|animal traceability system": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "animal traceability system",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-06-18 09:16:15 +00:00"
+      }
+    },
+    "labs|united states|en|cattle ear tag records": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|livestock software pricing": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best cattle tracking app": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|animal traceability cost": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|shopify returns reporting issues": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ecommerce refund reconciliation": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|shopify inaccurate sales reports": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|shopify returns app": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "shopify returns app",
+        "searchVolume": 110,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 210
+          }
+        ],
+        "cpcUsd": 48.14,
+        "adCompetition": 0.21,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 27,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-15 00:30:39 +00:00"
+      }
+    },
+    "labs|united states|en|ecommerce returns software": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": true,
+      "data": {
+        "keyword": "ecommerce returns software",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": 76.66,
+        "adCompetition": 0.35,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -75,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 01:02:51 +00:00"
+      }
+    },
+    "labs|united states|en|profit dashboard shopify": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|shopify returns pricing": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best shopify returns apps": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ecommerce profit dashboard cost": {
+      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "returned": false,
+      "data": null
     }
   }
 }
