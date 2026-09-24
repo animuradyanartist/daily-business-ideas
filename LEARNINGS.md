@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-24 (trends)
+- A significant opportunity exists in unbundling a single, high-pain compliance feature from expensive, complex enterprise suites and offering it as a best-in-class point solution for the SMB segment.
+- The most powerful validation for a compliance SaaS idea is a market that already supports multiple solutions at vastly different price points (e.g., $14/filing manual tools vs. $35/month/truck automated suites). This demonstrates a deep and diverse willingness to pay.
+- For fragmented, non-technical SMB markets, the "cost of doing nothing" (penalties, audits, business disruption) is a more powerful sales driver than ROI or time savings alone.
+- The "agentic" layer is the next evolution for AI platforms, moving from automating a task to autonomously managing an entire business outcome like compliance, cost control, or customer retention.
+
+---
+
 ## 2026-09-24
 - A significant opportunity exists in unbundling a single, high-pain compliance feature from expensive, complex enterprise suites and offering it as a best-in-class point solution for the SMB segment.
 - The most powerful validation for a compliance SaaS idea is a market that already supports multiple solutions at vastly different price points (e.g., $25/quarter manual tools vs. $50/month/truck automated suites). This demonstrates a deep and diverse willingness to pay.

@@ -417,6 +417,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Towing Compliance (SCRA)** · Using AI-powered software to automate the mandatory military status verification for vehicle lien enforcement. · flagged 2026-09-23 · last checked 2026-09-23 · [origin memo](trends/2026-09-23.md)
 - **AI-Automated Towing & Roadside Assistance Dispatch** · Using AI agents to provide 24/7 call-taking, lead capture, and job dispatch for towing companies. · flagged 2026-09-23 · last checked 2026-09-23 · [origin memo](trends/2026-09-23.md)
 - **AI-Automated Post-Award Grant Management** · Using AI to automate compliance tracking, financial monitoring, and reporting for awarded grants. · flagged 2026-09-23 · last checked 2026-09-23 · [origin memo](trends/2026-09-23.md)
+- **AI-Automated IFTA Fuel Tax Reporting** · Using AI to automate the generation of quarterly fuel tax reports for interstate trucking fleets. · flagged 2026-09-24 · last checked 2026-09-24 · [origin memo](trends/2026-09-24.md)
+- **AI-Automated Corporate Legal Spend Management** · Using AI to automate the review of invoices from outside counsel to control corporate legal costs. · flagged 2026-09-24 · last checked 2026-09-24 · [origin memo](trends/2026-09-24.md)
+- **"Agentic" AI for Proactive Customer Retention** · Using autonomous AI agents to monitor customer signals and proactively reduce churn for service businesses. · flagged 2026-09-24 · last checked 2026-09-24 · [origin memo](trends/2026-09-24.md)
 
 
 ## ➡️ Active — plateauing
@@ -702,3 +705,5 @@ _(empty)_
 <!-- 2026-09-22 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-09-23 status-update directive: 🚀 | AI-Powered "Business-in-a-Box" for Home Service Trades -->
+
+<!-- 2026-09-24 status-update directive: 🚀 | The AI-Augmented Second Brain -->
