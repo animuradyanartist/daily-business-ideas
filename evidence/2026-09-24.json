@@ -6,8 +6,8 @@
     "memo": "ideas/2026-09-24.md"
   },
   "createdAt": "2026-09-24T09:39:16.267Z",
-  "updatedAt": "2026-09-24T09:39:16.268Z",
-  "attempts": 1,
+  "updatedAt": "2026-09-24T10:41:32.602Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -76,8 +76,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -803,11 +803,127 @@
               "class": "discussion"
             }
           ]
+        },
+        {
+          "id": "S2",
+          "query": "certified payroll mistakes",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T10:41:35.572Z",
+          "checkUrl": "https://www.google.com/search?q=certified%20payroll%20mistakes&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.completepayroll.com",
+              "url": "https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll",
+              "title": "Avoid the Top 5 Mistakes With Certified Payroll",
+              "description": "Certified Payroll mistakes can cost your company money and hurt your chances of getting federally-funded construction contracts.",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "ebacon.com",
+              "url": "https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands",
+              "title": "3 Real Scenarios Where a Certified Payroll Error Cost ...",
+              "description": "May 11, 2026 — What happens if certified payroll reports are inaccurate? Contractors may face investigations, back wage liability, withheld contract funds, or ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "emarsinc.com",
+              "url": "https://emarsinc.com/blog/common-certified-payroll-errors",
+              "title": "Common Certified Payroll Errors",
+              "description": "Jul 17, 2026 — Common Certified Payroll Errors · 1. Worker Misclassification · 2. Incorrect Fringe Benefit Reporting · 3. Missing or Inaccurate Work Hours · 4. Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "proscore.ai",
+              "url": "https://proscore.ai/certified-payroll-errors/",
+              "title": "Certified Payroll Errors: 8 Common Mistakes",
+              "description": "Certified payroll errors can create wage corrections and review risk. Learn 8 common mistakes, how to fix them, and how teams improve weekly reporting.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "hrcertification.com",
+              "url": "https://hrcertification.com/blog/payroll-errors-hr-must-watch-biid1000293",
+              "title": "Payroll Errors HR Must Watch For - HRcertification",
+              "description": "Learn the payroll errors HR must watch for, including miscalculations, missed deadlines, tax mistakes, and compliance risks.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "industrialaffairs.delaware.gov",
+              "url": "https://industrialaffairs.delaware.gov/en/knowledgebase-employer/how-do-i-avoid-common-mistakes-on-certified-payroll",
+              "title": "How do I avoid common mistakes on certified payroll?",
+              "description": "Avoid common certified payroll mistakes by using correct worker classifications, confirming the prevailing wage rate before each project, correct worker ...",
+              "id": "S2.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "www.miter.com",
+              "url": "https://www.miter.com/resources/payroll-mistakes/",
+              "title": "8 construction payroll mistakes: Common errors and their ...",
+              "description": "Aug 2, 2026 — Explore construction payroll mistakes, from miscalculating prevailing wages to missing deadlines. certified payroll reporting, are missing or ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "design.missouristate.edu",
+              "url": "https://design.missouristate.edu/ContractorResources/Common-Mistakes.htm",
+              "title": "Common Mistakes to Avoid When Completing a Certified ...",
+              "description": "Aug 4, 2025 — 1. Incorrect Occupational Title: ; 2. Incorrect Hourly Rate of Pay: ; 3. Lapse in Weekly Payroll Reports: ; 4. Listing Owner as an Exempt Employee: Read more",
+              "id": "S2.10",
+              "class": "reference_media"
+            },
+            {
+              "rank": 11,
+              "domain": "prevailingwageconsultingllc.com",
+              "url": "https://prevailingwageconsultingllc.com/2026/01/government-certified-payroll/",
+              "title": "Government Certified Payroll Mistakes That Could Cost ...",
+              "description": "Jan 27, 2026 — Government certified payroll mistakes can trigger penalties, withheld payments, audits, and costly compliance violations.",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
         }
       ],
       "pages": [
         {
           "id": "P1",
+          "domain": "completepayroll.com",
+          "url": "https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll",
+          "finalUrl": "https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll",
+          "retrievedAt": "2026-09-24T10:41:40.128Z",
+          "status": 200,
+          "error": null,
+          "title": "Top 5 Certified Payroll Mistakes | Complete Payroll",
+          "description": "Certified Payroll mistakes can cost your company money and hurt your chances of getting federally-funded construction contracts.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "completepayroll.com",
+          "url": "https://www.completepayroll.com/pricing",
+          "finalUrl": "https://www.completepayroll.com/pricing",
+          "retrievedAt": "2026-09-24T10:41:40.130Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
           "domain": "connecteam.com",
           "url": "https://connecteam.com/best-construction-payroll-software/",
           "finalUrl": "https://connecteam.com/best-payroll-software-solutions-small-businesses/",
@@ -843,7 +959,7 @@
           "mentionsPricing": true
         },
         {
-          "id": "P2",
+          "id": "P4",
           "domain": "connecteam.com",
           "url": "https://connecteam.com/pricing",
           "finalUrl": "https://connecteam.com/pricing/",
@@ -899,20 +1015,50 @@
           "mentionsPricing": true
         },
         {
-          "id": "P3",
-          "domain": "protaxcommunity.com",
-          "url": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
-          "finalUrl": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
-          "retrievedAt": "2026-09-24T09:40:37.341Z",
+          "id": "P5",
+          "domain": "ebacon.com",
+          "url": "https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands",
+          "finalUrl": "https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands",
+          "retrievedAt": "2026-09-24T10:41:40.131Z",
           "status": 200,
           "error": null,
-          "title": "Payroll software - recommendation - Accounting and Bookkeeping - protaxcommunity.com",
-          "description": "Hello everyone, \nI am looking for a best payroll software because my business is growing and getting more busier. I want to save my time in the payroll. \nPlease give me your advice and recommendation, which software, the…",
+          "title": "3 Real Scenarios Where a Certified Payroll Error Cost Contractors Thousands",
+          "description": "Discover how small certified payroll errors can lead to significant financial losses. Learn real scenarios and prevention strategies for compliance.",
           "priceMentions": [
             {
-              "text": "$125 per year",
-              "billingUnit": true,
-              "context": "of years ago - it worked but I did switch for some reason. $125 per year for the full version also sounds like a good deal. mitch No"
+              "text": "$2,000",
+              "billingUnit": false,
+              "context": "ed federal or federally assisted construction projects over $2,000 to pay prevailing wages and maintain accurate certified pay"
+            },
+            {
+              "text": "$85,000",
+              "billingUnit": false,
+              "context": "Pennsylvania contractor ended up on the hook for more than $85,000 after investigators found workers were improperly classifie"
+            },
+            {
+              "text": "$85,284",
+              "billingUnit": false,
+              "context": "ation shortcut turned into a six-figure compliance problem: $85,284 in back wages Litigation with the Department of Labor Addit"
+            },
+            {
+              "text": "$45,000",
+              "billingUnit": false,
+              "context": "ts and misclassified skilled workers. The result was nearly $45,000 in back wages owed to 12 employees. What Went Wrong? Appren"
+            },
+            {
+              "text": "$44,816",
+              "billingUnit": false,
+              "context": "ge rates for the classification of work performed. The Cost $44,816 in back wages DOL investigation findings Increased scrutiny"
+            },
+            {
+              "text": "$77,000",
+              "billingUnit": false,
+              "context": "ceal violations The Department of Labor recovered more than $77,000 in back wages for affected employees, and both subcontracto"
+            },
+            {
+              "text": "$77,206",
+              "billingUnit": false,
+              "context": "r is obligated to ensure subcontractor compliance. The Cost $77,206 in back wages Disbarment from government contracts What The"
             }
           ],
           "mentionsFreeTrial": false,
@@ -920,81 +1066,16 @@
           "mentionsPricing": false
         },
         {
-          "id": "P4",
-          "domain": "protaxcommunity.com",
-          "url": "https://www.protaxcommunity.com/pricing",
-          "finalUrl": "https://www.protaxcommunity.com/pricing",
-          "retrievedAt": "2026-09-24T09:40:37.342Z",
-          "status": 404,
-          "error": "HTTP 404"
-        },
-        {
-          "id": "P5",
-          "domain": "softwarefinder.com",
-          "url": "https://softwarefinder.com/resources/best-payroll-software",
-          "finalUrl": "https://softwarefinder.com/resources/best-payroll-software",
-          "retrievedAt": "2026-09-24T09:40:37.343Z",
-          "status": 200,
-          "error": null,
-          "title": "9 Best Payroll Software: Pricing and Features| 2026",
-          "description": "Discover the top Payroll software for your business. Compare the best systems for direct deposits, international payments, and ease of use, based on your needs.",
-          "priceMentions": [
-            {
-              "text": "$8/user",
-              "billingUnit": true,
-              "context": "(Editor&#x27;s Choice) 4.9/5 Read Reviews Pricing starts at $8/user/month plus a base fee of $40/month Get a Custom Quote 14-da"
-            },
-            {
-              "text": "$40/month",
-              "billingUnit": true,
-              "context": "Reviews Pricing starts at $8/user/month plus a base fee of $40/month Get a Custom Quote 14-day free trial View Demo Workforce ma"
-            },
-            {
-              "text": "$10/employee",
-              "billingUnit": true,
-              "context": "sses of all sizes BambooHR 4.3/5 Read Reviews Starting from $10/employee/month Get a Custom Quote 7-day free trial View Demo Perform"
-            },
-            {
-              "text": "$5/employee",
-              "billingUnit": true,
-              "context": "sinesses of all sizes Deel 4.8/5 Read Reviews Starting from $5/employee/month Get a Custom Quote N/A View Demo Self-service onboard"
-            },
-            {
-              "text": "$38/month",
-              "billingUnit": true,
-              "context": "inesses QuickBooks Payroll 4.4/5 Read Reviews Starting from $38/month Get a Custom Quote 30-day free trial View Demo Advanced acc"
-            },
-            {
-              "text": "$40",
-              "billingUnit": false,
-              "context": "he platform offers a starting price of $8/user/month plus a $40 base fee and builds on it with modular pricing across four"
-            },
-            {
-              "text": "$0",
-              "billingUnit": false,
-              "context": "its their needs. The modules include: Deel PEO: starting at $0 Deel US Payroll: Custom pricing Deel Global Payroll: Starti"
-            },
-            {
-              "text": "$29/employee",
-              "billingUnit": true,
-              "context": "US Payroll: Custom pricing Deel Global Payroll: Starting at $29/employee/month Deel Contractor Management: starting at $49/contracto"
-            }
-          ],
-          "mentionsFreeTrial": true,
-          "mentionsContactSales": false,
-          "mentionsPricing": true
-        },
-        {
           "id": "P6",
-          "domain": "softwarefinder.com",
-          "url": "https://softwarefinder.com/pricing",
-          "finalUrl": "https://softwarefinder.com/pricing",
-          "retrievedAt": "2026-09-24T09:40:37.344Z",
+          "domain": "ebacon.com",
+          "url": "https://ebacon.com/pricing",
+          "finalUrl": "https://ebacon.com/pricing",
+          "retrievedAt": "2026-09-24T10:41:40.132Z",
           "status": 404,
           "error": "HTTP 404"
         }
       ],
-      "reason": "search results for \"certified payroll mistakes\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "reason": null,
       "readings": {
         "demand": {
           "level": "low",
@@ -1009,6 +1090,12 @@
             "id": "K3"
           },
           "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
             "level": "substantial",
             "measuredCount": 2,
             "totalCount": 2,
@@ -1018,12 +1105,6 @@
               "id": "K4"
             }
           },
-          "broader": {
-            "level": "unknown",
-            "measuredCount": 0,
-            "totalCount": 0,
-            "top": null
-          },
           "uncertainCount": 0,
           "flags": [
             {
@@ -1032,31 +1113,32 @@
               "text": "\"davis bacon act compliance\" (140/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
             }
           ],
-          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"certified payroll requirements\" at 50/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: substantial (\"payroll software\" 33100/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"certified payroll requirements\" at 50/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: substantial (\"payroll software\" 33100/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
-          "level": "strong",
-          "biddingKeywordIds": [
-            "K4",
-            "K7"
-          ],
+          "level": "moderate",
+          "biddingKeywordIds": [],
           "pricedPageIds": [
-            "P1",
-            "P2",
-            "P5"
+            "P3"
           ],
           "pricedDomains": [
-            "connecteam.com",
-            "softwarefinder.com"
+            "connecteam.com"
           ],
           "pricedPlatforms": [],
-          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $128.41 on \"payroll software\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 2 ranking site(s): connecteam.com, softwarefinder.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+          "note": "No advertiser CPC was returned for the commercial keywords. Published offer prices seen on 1 ranking site(s): connecteam.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
         },
         "competitors": {
           "vendorLikeDomains": [
+            "completepayroll.com",
             "connecteam.com",
+            "ebacon.com",
+            "emarsinc.com",
+            "proscore.ai",
             "protaxcommunity.com",
-            "softwarefinder.com"
+            "hrcertification.com",
+            "miter.com",
+            "softwarefinder.com",
+            "prevailingwageconsultingllc.com"
           ],
           "platformDomains": [],
           "discussionResults": [
@@ -1067,67 +1149,65 @@
             "community.spiceworks.com"
           ],
           "pricedDomains": [
-            "connecteam.com",
-            "protaxcommunity.com",
-            "softwarefinder.com"
+            "connecteam.com"
           ],
-          "note": "3 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on connecteam.com, protaxcommunity.com, softwarefinder.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "note": "10 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on connecteam.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
           "directCompetitorDomains": [],
           "indirectAlternativeDomains": [
             "reddit.com",
             "connecteam.com",
             "g2.com",
-            "protaxcommunity.com",
+            "quora.com",
             "softwarefinder.com"
           ]
         }
       },
-      "evidenceFingerprint": "ea83b3f87b7b5971",
-      "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z",
+      "evidenceFingerprint": "3cad3076d96898a7",
+      "evidenceUpdatedAt": "2026-09-24T10:41:40.476Z",
       "matchesOriginalPick": false,
       "relevance": {
-        "at": "2026-09-24T09:48:21.786Z",
+        "at": "2026-09-24T10:42:31.594Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z",
+        "evidenceUpdatedAt": "2026-09-24T10:41:40.476Z",
         "qualifiers": [
-          "small-to-medium construction subcontractor",
-          "working on federally-funded (Davis-Bacon Act) projects"
+          "construction subcontractor",
+          "works on federally-funded projects"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This describes the core problem of making mistakes on certified payroll, which the target customer faces."
+            "reason": "This search is for mistakes in certified payroll, which is the core problem for the target customer."
           },
           "K2": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This describes the specific regulatory environment (Davis-Bacon Act) that defines the target customer and their problem."
+            "reason": "This search is about compliance with the specific act governing the target customer's work, directly related to the problem."
           },
           "K3": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search is about understanding the rules of certified payroll, a core part of the customer's problem."
+            "reason": "This search is about understanding the rules of certified payroll, which is central to the customer's problem of compliance."
           },
           "K4": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "This is a search for general payroll software, a broader category than the idea's specific certified payroll solution."
+            "topic": "wider",
+            "reason": "This is a search for general payroll software, a much wider category than the idea's specific focus on certified payroll."
           },
           "K5": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search describes the idea's solution directly."
+            "reason": "This search describes the idea's proposed solution exactly."
           },
           "K6": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a search for automating a specific, critical form (WH-347) used in certified payroll, which is part of the idea's solution."
+            "reason": "This search is for automating a specific, mandatory form for certified payroll, directly addressing the customer's administrative burden."
           },
           "K7": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "This is a search for general payroll software pricing, a broader category than the idea's specific solution."
+            "topic": "wider",
+            "reason": "This is a search for general payroll pricing, a much broader topic than the niche of certified payroll software."
           },
           "K8": {
             "searcher": "includes",
@@ -1137,7 +1217,7 @@
           "K9": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a buying-intent search for the cost of software that solves the specific certified payroll problem."
+            "reason": "This is a buying-intent search for the cost of software that solves the specific problem of certified payroll."
           }
         },
         "items": {
@@ -1146,99 +1226,200 @@
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is about general payroll software for a one-person business, not specifically for construction subcontractors needing certified payroll."
+            "reason": "This item is about general payroll software for any small business, a broader customer and problem than certified payroll for construction."
           },
           "S1.4": {
             "customer": "broader",
             "customerMatches": [
-              "small-to-medium construction subcontractor"
+              "construction subcontractor"
             ],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+            "reason": "This item is for the broader audience of any construction company and addresses general payroll, not the specific problem of certified payroll compliance."
           },
           "S1.5": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is about general payroll software for any small business, not the specific niche of the target customer."
+            "reason": "This item is about general payroll software for any small business, a broader customer and problem."
           },
           "S1.6": {
             "customer": "different",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a recommendation for general payroll software on a forum for high-income professionals, a different audience."
+            "reason": "This item is a recommendation for general payroll software for a different audience (high-income professionals/doctors)."
           },
           "S1.7": {
-            "customer": "broader",
+            "customer": "different",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a general recommendation for payroll software for any business, not specific to the target customer's needs."
+            "reason": "This item is a discussion among tax professionals about general payroll software, not the target end-user."
           },
           "S1.9": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
-            "offering": "no",
-            "reason": "This is a general question about payroll software for any small business, not specific to the target customer."
+            "offering": "yes",
+            "reason": "This item is a general question about payroll software for any small business, a broader customer and problem."
           },
           "S1.10": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a general list of payroll and HR software for any business, not focused on certified payroll for construction."
+            "reason": "This item is a general review of payroll and HR software for a broad business audience."
           },
           "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is a request for general payroll software recommendations from an IT professional in a larger company, a different customer."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "construction subcontractor",
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about avoiding certified payroll mistakes specifically for those on federally-funded construction contracts, matching the customer and problem exactly."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "construction subcontractor",
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the high-stakes consequences of certified payroll errors for contractors, which matches the customer and problem."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses common certified payroll errors, which is the correct problem, but for a broader audience than just construction subcontractors."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses certified payroll errors, matching the problem, but for a general audience dealing with this requirement, not specifically construction."
+          },
+          "S2.7": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This is a request for general payroll software for a large company (~700 employees), which is outside the target customer size."
+            "reason": "This article is about general payroll errors for a broad HR audience, not the specific problem of certified payroll for construction."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This government page addresses the problem of avoiding certified payroll mistakes, but for a broader audience of any business subject to the requirement."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "construction subcontractor"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is for construction companies and covers a broader set of payroll mistakes, including but not limited to certified payroll."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "construction subcontractor"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page addresses the problem of certified payroll mistakes for contractors, but in a state university context rather than federal projects."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "construction subcontractor",
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about the high-stakes mistakes in government certified payroll, matching the target customer and problem exactly."
           },
           "P1": {
-            "customer": "broader",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "yes",
-            "reason": "This page compares general payroll software for any small business, not specifically for construction or certified payroll."
-          },
-          "P2": {
-            "customer": "broader",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "yes",
-            "reason": "This is a pricing page for a general business management tool, not a specialized certified payroll generator."
+            "customer": "same",
+            "customerMatches": [
+              "construction subcontractor",
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page is about certified payroll mistakes specifically for companies with federally-funded construction contracts, matching the customer and problem."
           },
           "P3": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
-            "offering": "no",
-            "reason": "This is a general request for payroll software for a growing business, not specific to the target customer's certified payroll needs."
+            "offering": "yes",
+            "reason": "This page compares general payroll software for any small business, a broader customer and problem."
           },
-          "P5": {
+          "P4": {
             "customer": "broader",
             "customerMatches": [],
-            "problem": "broader",
+            "problem": "different",
             "offering": "yes",
-            "reason": "This is a general list of payroll software for any business, not focused on the certified payroll problem."
+            "reason": "This is a pricing page for a general business management tool, not specific to the customer or their certified payroll problem."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "construction subcontractor",
+              "works on federally-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page details the high-stakes financial consequences of certified payroll errors for contractors, matching the customer and problem."
           }
         },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-09-24:construction-subcontractor-certified-payroll-gen",
-        "opportunity": "The opportunity is to provide a specialized tool for small construction subcontractors to automate the generation of weekly certified payroll reports. This would help them comply with federal project requirements and avoid penalties from errors.",
-        "whoPays": "The office manager or owner of a small-to-medium construction subcontractor would pay to avoid fines, payment delays, and the administrative overhead of manual compliance.",
+        "opportunity": "The opportunity is to create a specialized software tool for construction subcontractors that automates the generation of compliant certified payroll reports for federally-funded projects. This would reduce a high-stakes administrative burden and minimize the risk of costly errors.",
+        "whoPays": "The owner or office manager of a small-to-medium construction subcontractor pays to avoid fines, withheld payments, and being barred from future government contracts. This is an inference based on the problem's description.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "The provided search results and pages do not contain evidence describing the problem of certified payroll reporting for construction subcontractors.",
-          "inference": "The existence of search keywords like \"certified payroll mistakes\" and \"davis bacon act compliance\" suggests that people are seeking information about this topic, but the evidence lacks any first-hand accounts or articles detailing the specific pains."
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Certified Payroll mistakes can cost your company money and hurt your chances of getting federally-funded construction contracts."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Certified payroll errors can create wage corrections and review risk."
+            },
+            {
+              "id": "S2.5",
+              "quote": "Common Certified Payroll Errors"
+            }
+          ],
+          "observed": "Multiple online articles from business service providers and consultants describe the common mistakes and significant negative consequences of errors in certified payroll reporting. These consequences include financial penalties and being barred from future federally-funded construction contracts.",
+          "inference": "The existence of this content suggests that certified payroll errors are a common and painful enough problem for subcontractors to actively seek information, and for service providers to use it as a topic for marketing their expertise."
         },
         "competition": {
           "level": "sparse",
@@ -1246,91 +1427,99 @@
             {
               "id": "S1.4",
               "quote": "5 Best Payroll Software for your Construction Company"
+            },
+            {
+              "id": "S1.2",
+              "quote": "Gusto Payroll does wage calculations, payment processing, and taxes submission automatically."
             }
           ],
           "alternatives": [
             {
-              "name": "Gusto",
+              "name": "General Payroll Software (Gusto, QuickBooks, etc.)",
               "type": "indirect",
-              "what": "A general payroll software solution suggested for contractors.",
+              "what": "These are broad payroll systems for small businesses that handle wage calculations, payment processing, and tax submissions. Some are marketed towards construction companies generally.",
               "basis": [
                 {
-                  "id": "S1.4",
-                  "quote": "Gusto. Good for contractors"
-                }
-              ]
-            },
-            {
-              "name": "Paychex Flex",
-              "type": "indirect",
-              "what": "A general payroll software solution with features for tax filing.",
-              "basis": [
+                  "id": "S1.2",
+                  "quote": "Gusto Payroll does wage calculations, payment processing, and taxes submission automatically."
+                },
                 {
                   "id": "S1.4",
-                  "quote": "Paychex Flex. Good for tax filing and tax credits"
-                }
-              ]
-            },
-            {
-              "name": "QuickBooks Payroll",
-              "type": "indirect",
-              "what": "A general payroll software solution.",
-              "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "QuickBooks Payroll. Good for"
+                  "quote": "QuickBooks Payroll. Good for tax filing"
                 }
               ]
             }
           ],
-          "strengths": [],
+          "strengths": [
+            {
+              "text": "Indirect alternatives are established, well-known brands that customers may already use for their general accounting and payroll needs.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
           "gaps": [
             {
-              "text": "The identified alternatives are general payroll systems, not specialized tools designed specifically for generating certified payroll reports (e.g., WH-347 form) for government contracts.",
+              "text": "The evidence does not show whether these general payroll systems adequately handle the specific compliance requirements and forms (like the WH-347) for certified payroll on Davis-Bacon projects. They may lack the specialized focus needed to prevent the specific errors that cause problems for subcontractors.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "Weekly certified payroll reporting is a mandatory, high-stakes administrative burden.",
-            "finding": "The evidence contains no search results or pages describing this problem. While relevant keywords show search demand, there is no content corroborating the pain.",
-            "basis": [],
-            "effect": "untested"
-          },
-          {
-            "original": "A tool that ... automatically generate the weekly WH-347 form ... would be a \"must-have\" for this segment.",
-            "finding": "Search demand for solution-related terms like \"certified payroll generator\" and \"wh 347 form automation\" exists, but the search volume is unmeasured in the evidence, making the level of demand unknown.",
-            "basis": [],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
           "level": "moderate",
-          "note": "A minimal first experiment that takes a CSV payroll export and generates a filled WH-347 PDF is technically feasible. The primary difficulty lies in correctly interpreting and implementing all Davis-Bacon Act compliance rules, which requires significant domain expertise."
+          "note": "A small first experiment could be a web application that accepts CSV data and generates a filled-out WH-347 PDF form. This avoids building a full payroll engine but requires understanding the form's rules and using a PDF generation library."
         },
         "unproven": [
-          "The severity and frequency of the certified payroll problem for the target customer.",
-          "Whether subcontractors would pay for a standalone tool rather than expecting this functionality from their primary payroll provider.",
-          "Whether existing payroll systems (e.g., contractor versions of QuickBooks) already solve this problem adequately."
+          "Whether subcontractors are willing to pay for a new, standalone tool versus expecting this functionality from their existing payroll provider.",
+          "What specific solutions (manual processes, accountants, existing software features) subcontractors currently use to manage certified payroll reporting.",
+          "The actual time and money cost of the current process for a typical subcontractor.",
+          "Whether direct competitors exist that were not found by the search queries used."
         ],
         "nextExperiment": {
-          "what": "Conduct 5-10 interviews with office managers at small construction subcontractors who work on federally-funded projects. The goal is to validate the problem's severity, understand their current workflow, and gauge their reaction to a dedicated tool.",
-          "cost": "~$200 in incentives + 15 hours time",
-          "duration": "2-3 weeks"
+          "what": "Create a landing page for a \"Certified Payroll Report Generator for Construction Subcontractors.\" The page should highlight how it prevents costly errors and saves time, with a call-to-action to sign up for an early access list.",
+          "cost": "~$100 for landing page tool and domain, 10-15 hours of work.",
+          "duration": "2-4 weeks"
         },
-        "continueIf": "At least 3 interviewees describe certified payroll as a significant weekly pain, express dissatisfaction with their current manual or software process, and show strong interest in a specialized automated solution.",
-        "stopIf": "Most interviewees report that their current payroll software handles certified payroll well, that it's not a major problem, or they show no interest in a new, separate tool."
+        "continueIf": "The landing page collects at least 20 email signups from individuals who appear to be in the target market (e.g., from construction company email domains).",
+        "stopIf": "The landing page generates fewer than 5 email signups after 4 weeks, or if qualitative feedback from signups indicates they would not pay for a standalone tool."
       },
       "assessment": {
-        "opportunity": "The opportunity is to provide a specialized tool for small construction subcontractors to automate the generation of weekly certified payroll reports. This would help them comply with federal project requirements and avoid penalties from errors.",
-        "whoPays": "The office manager or owner of a small-to-medium construction subcontractor would pay to avoid fines, payment delays, and the administrative overhead of manual compliance.",
+        "opportunity": "The opportunity is to create a specialized software tool for construction subcontractors that automates the generation of compliant certified payroll reports for federally-funded projects. This would reduce a high-stakes administrative burden and minimize the risk of costly errors.",
+        "whoPays": "The owner or office manager of a small-to-medium construction subcontractor pays to avoid fines, withheld payments, and being barred from future government contracts. This is an inference based on the problem's description.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "",
-          "inference": "The existence of search keywords like \"certified payroll mistakes\" and \"davis bacon act compliance\" suggests that people are seeking information about this topic, but the evidence lacks any first-hand accounts or articles detailing the specific pains."
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Certified Payroll mistakes can cost your company money and hurt your chances of getting federally-funded construction contracts.",
+              "domain": "completepayroll.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This article is about avoiding certified payroll mistakes specifically for those on federally-funded construction contracts, matching the customer and problem exactly."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Certified payroll errors can create wage corrections and review risk.",
+              "domain": "proscore.ai",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses certified payroll errors, matching the problem, but for a general audience dealing with this requirement, not specifically construction."
+            },
+            {
+              "id": "S2.5",
+              "quote": "Common Certified Payroll Errors",
+              "domain": "emarsinc.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses common certified payroll errors, which is the correct problem, but for a broader audience than just construction subcontractors."
+            }
+          ],
+          "observed": "Multiple online articles from business service providers and consultants describe the common mistakes and significant negative consequences of errors in certified payroll reporting. These consequences include financial penalties and being barred from future federally-funded construction contracts.",
+          "inference": "The existence of this content suggests that certified payroll errors are a common and painful enough problem for subcontractors to actively seek information, and for service providers to use it as a topic for marketing their expertise."
         },
         "competition": {
           "level": "unknown",
@@ -1342,119 +1531,99 @@
               "kind": "S",
               "cls": "site",
               "relevance": "indirect alternative",
-              "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+              "relevanceReason": "This item is for the broader audience of any construction company and addresses general payroll, not the specific problem of certified payroll compliance."
+            },
+            {
+              "id": "S1.2",
+              "quote": "Gusto Payroll does wage calculations, payment processing, and taxes submission automatically.",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item is about general payroll software for any small business, a broader customer and problem than certified payroll for construction."
             }
           ],
           "directCompetitors": [],
           "indirectAlternatives": [
-            "connecteam.com"
+            "connecteam.com",
+            "reddit.com"
           ],
           "alternatives": [
             {
-              "name": "Gusto",
+              "name": "General Payroll Software (Gusto, QuickBooks, etc.)",
               "type": "indirect",
-              "what": "A general payroll software solution suggested for contractors.",
+              "what": "These are broad payroll systems for small businesses that handle wage calculations, payment processing, and tax submissions. Some are marketed towards construction companies generally.",
               "basis": [
                 {
-                  "id": "S1.4",
-                  "quote": "Gusto. Good for contractors",
-                  "domain": "connecteam.com",
+                  "id": "S1.2",
+                  "quote": "Gusto Payroll does wage calculations, payment processing, and taxes submission automatically.",
+                  "domain": "reddit.com",
                   "kind": "S",
-                  "cls": "site",
+                  "cls": "discussion",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
-                }
-              ]
-            },
-            {
-              "name": "Paychex Flex",
-              "type": "indirect",
-              "what": "A general payroll software solution with features for tax filing.",
-              "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "Paychex Flex. Good for tax filing and tax credits",
-                  "domain": "connecteam.com",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
-                }
-              ]
-            },
-            {
-              "name": "QuickBooks Payroll",
-              "type": "indirect",
-              "what": "A general payroll software solution.",
-              "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "QuickBooks Payroll. Good for",
-                  "domain": "connecteam.com",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+                  "relevanceReason": "This item is about general payroll software for any small business, a broader customer and problem than certified payroll for construction."
                 }
               ]
             }
           ],
-          "strengths": [],
+          "strengths": [
+            {
+              "text": "Indirect alternatives are established, well-known brands that customers may already use for their general accounting and payroll needs.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
           "gaps": [
             {
-              "text": "The identified alternatives are general payroll systems, not specialized tools designed specifically for generating certified payroll reports (e.g., WH-347 form) for government contracts.",
+              "text": "The evidence does not show whether these general payroll systems adequately handle the specific compliance requirements and forms (like the WH-347) for certified payroll on Davis-Bacon projects. They may lack the specialized focus needed to prevent the specific errors that cause problems for subcontractors.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "Weekly certified payroll reporting is a mandatory, high-stakes administrative burden.",
-            "finding": "The evidence contains no search results or pages describing this problem. While relevant keywords show search demand, there is no content corroborating the pain.",
-            "basis": [],
-            "effect": "untested"
-          },
-          {
-            "original": "A tool that ... automatically generate the weekly WH-347 form ... would be a \"must-have\" for this segment.",
-            "finding": "Search demand for solution-related terms like \"certified payroll generator\" and \"wh 347 form automation\" exists, but the search volume is unmeasured in the evidence, making the level of demand unknown.",
-            "basis": [],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
           "level": "moderate",
-          "note": "A minimal first experiment that takes a CSV payroll export and generates a filled WH-347 PDF is technically feasible. The primary difficulty lies in correctly interpreting and implementing all Davis-Bacon Act compliance rules, which requires significant domain expertise."
+          "note": "A small first experiment could be a web application that accepts CSV data and generates a filled-out WH-347 PDF form. This avoids building a full payroll engine but requires understanding the form's rules and using a PDF generation library."
         },
         "unproven": [
-          "The severity and frequency of the certified payroll problem for the target customer.",
-          "Whether subcontractors would pay for a standalone tool rather than expecting this functionality from their primary payroll provider.",
-          "Whether existing payroll systems (e.g., contractor versions of QuickBooks) already solve this problem adequately."
+          "Whether subcontractors are willing to pay for a new, standalone tool versus expecting this functionality from their existing payroll provider.",
+          "What specific solutions (manual processes, accountants, existing software features) subcontractors currently use to manage certified payroll reporting.",
+          "The actual time and money cost of the current process for a typical subcontractor.",
+          "Whether direct competitors exist that were not found by the search queries used."
         ],
         "nextExperiment": {
-          "what": "Conduct 5-10 interviews with office managers at small construction subcontractors who work on federally-funded projects. The goal is to validate the problem's severity, understand their current workflow, and gauge their reaction to a dedicated tool.",
-          "cost": "~$200 in incentives + 15 hours time",
-          "duration": "2-3 weeks"
+          "what": "Create a landing page for a \"Certified Payroll Report Generator for Construction Subcontractors.\" The page should highlight how it prevents costly errors and saves time, with a call-to-action to sign up for an early access list.",
+          "cost": "~$100 for landing page tool and domain, 10-15 hours of work.",
+          "duration": "2-4 weeks"
         },
-        "continueIf": "At least 3 interviewees describe certified payroll as a significant weekly pain, express dissatisfaction with their current manual or software process, and show strong interest in a specialized automated solution.",
-        "stopIf": "Most interviewees report that their current payroll software handles certified payroll well, that it's not a major problem, or they show no interest in a new, separate tool.",
+        "continueIf": "The landing page collects at least 20 email signups from individuals who appear to be in the target market (e.g., from construction company email domains).",
+        "stopIf": "The landing page generates fewer than 5 email signups after 4 weeks, or if qualitative feedback from signups indicates they would not pay for a standalone tool.",
         "removedLinks": 0,
         "downgraded": [
+          "problem evidence strong → moderate: strong needs two independent domains directly about this customer and problem",
           "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
         ],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
-          "rejectedCitations": [],
+          "rejectedCitations": [
+            {
+              "claim": "alternative General Payroll Software (Gusto, QuickBooks, etc.)",
+              "id": "S1.4",
+              "reason": "quote not found in the cited item"
+            }
+          ],
           "irrelevantCitations": [],
           "downgraded": [
+            "problem evidence strong → moderate: strong needs two independent domains directly about this customer and problem",
             "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
           ],
           "dropped": []
         },
-        "assessedAt": "2026-09-24T09:49:42.848Z",
-        "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z"
+        "assessedAt": "2026-09-24T10:43:02.461Z",
+        "evidenceUpdatedAt": "2026-09-24T10:41:40.476Z"
       }
     },
     {
@@ -4679,14 +4848,23 @@
       "status": "charged",
       "budget": "recorded",
       "costEstimated": false
+    },
+    {
+      "at": "2026-09-24T10:41:35.572Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "c866132b-4b22-552a-873f-88f6dbf71804",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
     }
   ],
   "provider": {
     "status": "live",
     "reason": null,
-    "warnings": [
-      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
-    ]
+    "warnings": []
   },
   "budget": {
     "backend": "git-ledger",
@@ -4698,14 +4876,14 @@
       "month": "2026-09",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.51968,
+      "chargedUsd": 0.54488,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.48032
+      "remainingUsd": 1.45512
     },
-    "monthToDateUsdBefore": 0.51968,
-    "spentThisRunUsd": 0.0252
+    "monthToDateUsdBefore": 0.54488,
+    "spentThisRunUsd": 0.002
   },
   "marketSupport": {
     "united states|en": {
@@ -4716,29 +4894,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 27,
-    "keywordsFromCache": 0,
-    "labsUsd": 0.01524,
-    "serpQueries": 6,
-    "serpsFromCache": 0,
-    "serpUsd": 0.012,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 9,
+    "labsUsd": 0,
+    "serpQueries": 1,
+    "serpsFromCache": 1,
+    "serpUsd": 0.002,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 27
+        "ideas": 1,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.02724,
-    "reservedUsd": 0.029964
+    "totalUsd": 0.002,
+    "reservedUsd": 0.0022
   },
   "lastGather": {
-    "at": "2026-09-24T09:40:40.471Z",
+    "at": "2026-09-24T10:41:40.476Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.0252,
+    "pendingIdeas": 1,
+    "spentUsd": 0.002,
     "note": null
   }
 }

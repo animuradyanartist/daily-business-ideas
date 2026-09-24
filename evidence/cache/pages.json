@@ -4709,6 +4709,94 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll": {
+      "fetchedAt": "2026-09-24T10:41:40.128Z",
+      "data": {
+        "url": "https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll",
+        "finalUrl": "https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll",
+        "retrievedAt": "2026-09-24T10:41:40.128Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 5 Certified Payroll Mistakes | Complete Payroll",
+        "description": "Certified Payroll mistakes can cost your company money and hurt your chances of getting federally-funded construction contracts.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://ebacon.com/pricing": {
+      "fetchedAt": "2026-09-24T10:41:40.132Z",
+      "data": {
+        "url": "https://ebacon.com/pricing",
+        "finalUrl": "https://ebacon.com/pricing",
+        "retrievedAt": "2026-09-24T10:41:40.132Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands": {
+      "fetchedAt": "2026-09-24T10:41:40.131Z",
+      "data": {
+        "url": "https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands",
+        "finalUrl": "https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands",
+        "retrievedAt": "2026-09-24T10:41:40.131Z",
+        "status": 200,
+        "error": null,
+        "title": "3 Real Scenarios Where a Certified Payroll Error Cost Contractors Thousands",
+        "description": "Discover how small certified payroll errors can lead to significant financial losses. Learn real scenarios and prevention strategies for compliance.",
+        "priceMentions": [
+          {
+            "text": "$2,000",
+            "billingUnit": false,
+            "context": "ed federal or federally assisted construction projects over $2,000 to pay prevailing wages and maintain accurate certified pay"
+          },
+          {
+            "text": "$85,000",
+            "billingUnit": false,
+            "context": "Pennsylvania contractor ended up on the hook for more than $85,000 after investigators found workers were improperly classifie"
+          },
+          {
+            "text": "$85,284",
+            "billingUnit": false,
+            "context": "ation shortcut turned into a six-figure compliance problem: $85,284 in back wages Litigation with the Department of Labor Addit"
+          },
+          {
+            "text": "$45,000",
+            "billingUnit": false,
+            "context": "ts and misclassified skilled workers. The result was nearly $45,000 in back wages owed to 12 employees. What Went Wrong? Appren"
+          },
+          {
+            "text": "$44,816",
+            "billingUnit": false,
+            "context": "ge rates for the classification of work performed. The Cost $44,816 in back wages DOL investigation findings Increased scrutiny"
+          },
+          {
+            "text": "$77,000",
+            "billingUnit": false,
+            "context": "ceal violations The Department of Labor recovered more than $77,000 in back wages for affected employees, and both subcontracto"
+          },
+          {
+            "text": "$77,206",
+            "billingUnit": false,
+            "context": "r is obligated to ensure subcontractor compliance. The Cost $77,206 in back wages Disbarment from government contracts What The"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.completepayroll.com/pricing": {
+      "fetchedAt": "2026-09-24T10:41:40.130Z",
+      "data": {
+        "url": "https://www.completepayroll.com/pricing",
+        "finalUrl": "https://www.completepayroll.com/pricing",
+        "retrievedAt": "2026-09-24T10:41:40.130Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

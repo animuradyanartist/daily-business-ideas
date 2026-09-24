@@ -5732,6 +5732,83 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|certified payroll mistakes": {
+      "fetchedAt": "2026-09-24T10:41:35.572Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=certified%20payroll%20mistakes&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.completepayroll.com",
+            "url": "https://www.completepayroll.com/blog/avoid-the-top-5-mistakes-with-certified-payroll",
+            "title": "Avoid the Top 5 Mistakes With Certified Payroll",
+            "description": "Certified Payroll mistakes can cost your company money and hurt your chances of getting federally-funded construction contracts."
+          },
+          {
+            "rank": 4,
+            "domain": "ebacon.com",
+            "url": "https://ebacon.com/institute-of-ebaconology/3-real-scenarios-where-a-payroll-error-cost-contractors-thousands",
+            "title": "3 Real Scenarios Where a Certified Payroll Error Cost ...",
+            "description": "May 11, 2026 — What happens if certified payroll reports are inaccurate? Contractors may face investigations, back wage liability, withheld contract funds, or ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "emarsinc.com",
+            "url": "https://emarsinc.com/blog/common-certified-payroll-errors",
+            "title": "Common Certified Payroll Errors",
+            "description": "Jul 17, 2026 — Common Certified Payroll Errors · 1. Worker Misclassification · 2. Incorrect Fringe Benefit Reporting · 3. Missing or Inaccurate Work Hours · 4. Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "proscore.ai",
+            "url": "https://proscore.ai/certified-payroll-errors/",
+            "title": "Certified Payroll Errors: 8 Common Mistakes",
+            "description": "Certified payroll errors can create wage corrections and review risk. Learn 8 common mistakes, how to fix them, and how teams improve weekly reporting."
+          },
+          {
+            "rank": 7,
+            "domain": "hrcertification.com",
+            "url": "https://hrcertification.com/blog/payroll-errors-hr-must-watch-biid1000293",
+            "title": "Payroll Errors HR Must Watch For - HRcertification",
+            "description": "Learn the payroll errors HR must watch for, including miscalculations, missed deadlines, tax mistakes, and compliance risks."
+          },
+          {
+            "rank": 8,
+            "domain": "industrialaffairs.delaware.gov",
+            "url": "https://industrialaffairs.delaware.gov/en/knowledgebase-employer/how-do-i-avoid-common-mistakes-on-certified-payroll",
+            "title": "How do I avoid common mistakes on certified payroll?",
+            "description": "Avoid common certified payroll mistakes by using correct worker classifications, confirming the prevailing wage rate before each project, correct worker ..."
+          },
+          {
+            "rank": 9,
+            "domain": "www.miter.com",
+            "url": "https://www.miter.com/resources/payroll-mistakes/",
+            "title": "8 construction payroll mistakes: Common errors and their ...",
+            "description": "Aug 2, 2026 — Explore construction payroll mistakes, from miscalculating prevailing wages to missing deadlines. certified payroll reporting, are missing or ..."
+          },
+          {
+            "rank": 10,
+            "domain": "design.missouristate.edu",
+            "url": "https://design.missouristate.edu/ContractorResources/Common-Mistakes.htm",
+            "title": "Common Mistakes to Avoid When Completing a Certified ...",
+            "description": "Aug 4, 2025 — 1. Incorrect Occupational Title: ; 2. Incorrect Hourly Rate of Pay: ; 3. Lapse in Weekly Payroll Reports: ; 4. Listing Owner as an Exempt Employee: Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "prevailingwageconsultingllc.com",
+            "url": "https://prevailingwageconsultingllc.com/2026/01/government-certified-payroll/",
+            "title": "Government Certified Payroll Mistakes That Could Cost ...",
+            "description": "Jan 27, 2026 — Government certified payroll mistakes can trigger penalties, withheld payments, audits, and costly compliance violations."
+          }
+        ]
+      }
     }
   }
 }
