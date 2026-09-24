@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Fleet IFTA Compliance Software | us-small-fleet-ifta-compliance-software | 2026-09-24 | 92 | The Small Trucking Fleet's "Audit-Ready" IFTA Fuel Tax Hub |
 | US Towing Operator Compliance Software | us-towing-operator-compliance-software | 2026-09-23 | 95 | The Towing Operator's "Lien-Ready" Impound & Disposal Hub |
 | US SMB EPA Tier II Compliance Software | us-smb-epa-tier-ii-compliance-software | 2026-09-22 | 93 | The Small Business "Penalty-Proof" EPA Tier II Report Generator |
 | US Craft Brewery Compliance Software | us-craft-brewery-compliance-software | 2026-09-21 | 95 | The Small Brewery's "TTB-Ready" Report of Operations Generator |

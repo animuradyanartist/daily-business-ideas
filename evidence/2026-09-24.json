@@ -1,0 +1,4744 @@
+{
+  "schema": 1,
+  "date": "2026-09-24",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-24.md"
+  },
+  "createdAt": "2026-09-24T09:39:16.267Z",
+  "updatedAt": "2026-09-24T09:39:16.268Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-24.md",
+    "title": "The Small Trucking Fleet's \"Audit-Ready\" IFTA Fuel Tax Hub",
+    "score": 92,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-24:construction-subcontractor-certified-payroll-gen",
+      "slug": "construction-subcontractor-certified-payroll-gen",
+      "title": "The Construction Subcontractor's \"Always Compliant\" Certified Payroll Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "Federally-funded projects and Davis-Bacon Act requirements are specific to the United States."
+      },
+      "plan": {
+        "slug": "construction-subcontractor-certified-payroll-gen",
+        "title": "The Construction Subcontractor's \"Always Compliant\" Certified Payroll Generator",
+        "problem": "Weekly certified payroll reporting is a mandatory, high-stakes administrative burden where mistakes lead to withheld payments, fines, and being barred from future government contracts.",
+        "targetCustomer": "The office manager or owner of a small-to-medium construction subcontractor working on federally-funded (Davis-Bacon Act) projects.",
+        "payer": "The office manager or owner of a small-to-medium construction subcontractor.",
+        "whyPayerPays": "The payer would pay to avoid withheld payments, fines, and being barred from future government contracts due to certified payroll errors.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "Federally-funded projects and Davis-Bacon Act requirements are specific to the United States."
+        },
+        "keywords": {
+          "problem": [
+            "certified payroll mistakes",
+            "davis bacon act compliance",
+            "certified payroll requirements"
+          ],
+          "solution": [
+            "payroll software",
+            "certified payroll generator",
+            "wh 347 form automation"
+          ],
+          "buying": [
+            "payroll pricing",
+            "best certified payroll tools",
+            "certified payroll software cost"
+          ]
+        },
+        "serpQueries": [
+          "payroll software",
+          "certified payroll mistakes"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "certified payroll mistakes",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "davis bacon act compliance",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 16.56,
+          "adCompetition": 0.27,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 21,
+          "providerUpdatedAt": "2026-09-12 04:41:03 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 110
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -24,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "certified payroll requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": 22.87,
+          "adCompetition": 0.22,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-12 08:15:00 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -32,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "payroll software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 33100,
+          "cpcUsd": 128.41,
+          "adCompetition": 0.18,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -45,
+          "providerUpdatedAt": "2026-09-13 10:07:34 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 14800
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 18100
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 22200
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 27100
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40500
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40500
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 27100
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 27100
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 22200
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 18100
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 12100
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40500
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 33100
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 14800
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 9900
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 12100
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -24,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "certified payroll generator",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "wh 347 form automation",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "payroll pricing",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 480,
+          "cpcUsd": 92.03,
+          "adCompetition": 0.12,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 51,
+          "providerUpdatedAt": "2026-09-15 09:38:25 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 880
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -9,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best certified payroll tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "certified payroll software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "payroll software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:23.218Z",
+          "checkUrl": "https://www.google.com/search?q=payroll%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/smallbusiness/comments/6x4qml/iso_cheap_payroll_processing_software_for_a_one/",
+              "title": "Cheap payroll processing software for a one employee ...",
+              "description": "Gusto Payroll does wage calculations, payment processing, and taxes submission automatically. Patriot Payroll is one of the most user-friendly  ...",
+              "id": "S1.2",
+              "class": "discussion"
+            },
+            {
+              "rank": 4,
+              "domain": "connecteam.com",
+              "url": "https://connecteam.com/best-construction-payroll-software/",
+              "title": "5 Best Payroll Software for your Construction Company",
+              "description": "Aug 6, 2024 — Our Top Picks · 1. Gusto. Good for contractors · 2. Paychex Flex. Good for tax filing and tax credits · 3. QuickBooks Payroll. Good for ... Read more",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.g2.com",
+              "url": "https://www.g2.com/discussions/what-is-the-best-payroll-software-for-small-businesses",
+              "title": "What is the best payroll software for small businesses?",
+              "description": "Apr 10, 2026 — Gusto seems like what a lot of small teams start with because it's simple and predictable ; RUN Powered by ADP feels like the “safe choice” when ... Read more",
+              "id": "S1.5",
+              "class": "review_directory"
+            },
+            {
+              "rank": 6,
+              "domain": "forum.whitecoatinvestor.com",
+              "url": "https://forum.whitecoatinvestor.com/tax-reduction/279897-payroll-software-recommendation",
+              "title": "Payroll software recommendation?",
+              "description": "Jun 24, 2021 — I exclusively use Gusto and I think it's competitively priced. Gusto is well worth the $39/month + $6/month/employee for what you get. I've ...",
+              "id": "S1.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 7,
+              "domain": "www.protaxcommunity.com",
+              "url": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
+              "title": "Payroll software - recommendation",
+              "description": "Nov 4, 2021 — For most of my clients I recommend Desjardin's EmpoyerD, Paywork, ADP, Ceridian. They are user-friendly, easy to generate different types of ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.quora.com",
+              "url": "https://www.quora.com/What-is-the-best-payroll-software-for-a-small-business",
+              "title": "What is the best payroll software for a small business?",
+              "description": "What is the best payroll software for a small business?",
+              "id": "S1.9",
+              "class": "discussion"
+            },
+            {
+              "rank": 10,
+              "domain": "softwarefinder.com",
+              "url": "https://softwarefinder.com/resources/best-payroll-software",
+              "title": "9 Best Payroll Software: Pricing and Features| 2026",
+              "description": "Jul 7, 2026 — Detailed Best HRSM Reviews · 1. Rippling (Editor's Choice) · 2. BambooHR · 3. Deel · 4. HiBob · 5. Paylocity · 6. Zenefits · 7. Quickbooks ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "community.spiceworks.com",
+              "url": "https://community.spiceworks.com/t/payroll-software-any-recommendations/233687",
+              "title": "Payroll Software - Any recommendations?",
+              "description": "Aug 20, 2013 —  We have around ~700 on the payroll. \n Needs to be purely payroll and functional and good value. Anything we get will be a massive improvement on ...",
+              "id": "S1.11",
+              "class": "discussion"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "connecteam.com",
+          "url": "https://connecteam.com/best-construction-payroll-software/",
+          "finalUrl": "https://connecteam.com/best-payroll-software-solutions-small-businesses/",
+          "retrievedAt": "2026-09-24T09:40:37.338Z",
+          "status": 200,
+          "error": null,
+          "title": "5 Best Payroll Software for Small Businesses (In-Depth Comparison)",
+          "description": "Best Payroll Software for Small Businesses: Gusto · QuickBooks Online · Paychex · OnPay · Ripplin",
+          "priceMentions": [
+            {
+              "text": "$49",
+              "billingUnit": false,
+              "context": "e alerts Limited work management features Pricing Starts at $49 base fee + $6 per seat per month Trial: No Free Plan: No Re"
+            },
+            {
+              "text": "$6 per seat",
+              "billingUnit": true,
+              "context": "d work management features Pricing Starts at $49 base fee + $6 per seat per month Trial: No Free Plan: No Read our in-depth Gusto r"
+            },
+            {
+              "text": "$25,000",
+              "billingUnit": false,
+              "context": "the platform&rsquo;s tax guarantee. QuickBooks covers up to $25,000 if you receive tax penalties due to mistakes on the company"
+            },
+            {
+              "text": "$38/user",
+              "billingUnit": true,
+              "context": "ng curve Limited project management tools Pricing Starts at $38/user/month Trial: Yes — 30-day Free Plan: No Visit QuickBooks On"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "connecteam.com",
+          "url": "https://connecteam.com/pricing",
+          "finalUrl": "https://connecteam.com/pricing/",
+          "retrievedAt": "2026-09-24T09:40:37.340Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing | Connecteam",
+          "description": "Connecteam offers fixed price, affordable plans for any business! Visit our pricing page for more details.",
+          "priceMentions": [
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "ly free for up to 10 users *See full list of features below $0 Free for life Join for free Compare plans for each hub Oper"
+            },
+            {
+              "text": "$ 29 /mo",
+              "billingUnit": true,
+              "context": "ling Forms Quick Tasks Basic Kick-start with the essentials $ 29 /mo For the first 30 users $0.8 / month for each additional use"
+            },
+            {
+              "text": "$0.8 / month",
+              "billingUnit": true,
+              "context": "k-start with the essentials $ 29 /mo For the first 30 users $0.8 / month for each additional user $ 35 /mo For the first 30 users $1"
+            },
+            {
+              "text": "$ 35 /mo",
+              "billingUnit": true,
+              "context": "or the first 30 users $0.8 / month for each additional user $ 35 /mo For the first 30 users $1.0 / month for each additional use"
+            },
+            {
+              "text": "$1.0 / month",
+              "billingUnit": true,
+              "context": "th for each additional user $ 35 /mo For the first 30 users $1.0 / month for each additional user Start for free See details Real-ti"
+            },
+            {
+              "text": "$ 49 /mo",
+              "billingUnit": true,
+              "context": "en tooltip Why Advanced? Advanced Work faster and save time $ 49 /mo For the first 30 users $2.5 / month for each additional use"
+            },
+            {
+              "text": "$2.5 / month",
+              "billingUnit": true,
+              "context": "d Work faster and save time $ 49 /mo For the first 30 users $2.5 / month for each additional user $ 59 /mo For the first 30 users $3"
+            },
+            {
+              "text": "$ 59 /mo",
+              "billingUnit": true,
+              "context": "or the first 30 users $2.5 / month for each additional user $ 59 /mo For the first 30 users $3.0 / month for each additional use"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "protaxcommunity.com",
+          "url": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
+          "finalUrl": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
+          "retrievedAt": "2026-09-24T09:40:37.341Z",
+          "status": 200,
+          "error": null,
+          "title": "Payroll software - recommendation - Accounting and Bookkeeping - protaxcommunity.com",
+          "description": "Hello everyone, \nI am looking for a best payroll software because my business is growing and getting more busier. I want to save my time in the payroll. \nPlease give me your advice and recommendation, which software, the…",
+          "priceMentions": [
+            {
+              "text": "$125 per year",
+              "billingUnit": true,
+              "context": "of years ago - it worked but I did switch for some reason. $125 per year for the full version also sounds like a good deal. mitch No"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "protaxcommunity.com",
+          "url": "https://www.protaxcommunity.com/pricing",
+          "finalUrl": "https://www.protaxcommunity.com/pricing",
+          "retrievedAt": "2026-09-24T09:40:37.342Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "softwarefinder.com",
+          "url": "https://softwarefinder.com/resources/best-payroll-software",
+          "finalUrl": "https://softwarefinder.com/resources/best-payroll-software",
+          "retrievedAt": "2026-09-24T09:40:37.343Z",
+          "status": 200,
+          "error": null,
+          "title": "9 Best Payroll Software: Pricing and Features| 2026",
+          "description": "Discover the top Payroll software for your business. Compare the best systems for direct deposits, international payments, and ease of use, based on your needs.",
+          "priceMentions": [
+            {
+              "text": "$8/user",
+              "billingUnit": true,
+              "context": "(Editor&#x27;s Choice) 4.9/5 Read Reviews Pricing starts at $8/user/month plus a base fee of $40/month Get a Custom Quote 14-da"
+            },
+            {
+              "text": "$40/month",
+              "billingUnit": true,
+              "context": "Reviews Pricing starts at $8/user/month plus a base fee of $40/month Get a Custom Quote 14-day free trial View Demo Workforce ma"
+            },
+            {
+              "text": "$10/employee",
+              "billingUnit": true,
+              "context": "sses of all sizes BambooHR 4.3/5 Read Reviews Starting from $10/employee/month Get a Custom Quote 7-day free trial View Demo Perform"
+            },
+            {
+              "text": "$5/employee",
+              "billingUnit": true,
+              "context": "sinesses of all sizes Deel 4.8/5 Read Reviews Starting from $5/employee/month Get a Custom Quote N/A View Demo Self-service onboard"
+            },
+            {
+              "text": "$38/month",
+              "billingUnit": true,
+              "context": "inesses QuickBooks Payroll 4.4/5 Read Reviews Starting from $38/month Get a Custom Quote 30-day free trial View Demo Advanced acc"
+            },
+            {
+              "text": "$40",
+              "billingUnit": false,
+              "context": "he platform offers a starting price of $8/user/month plus a $40 base fee and builds on it with modular pricing across four"
+            },
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "its their needs. The modules include: Deel PEO: starting at $0 Deel US Payroll: Custom pricing Deel Global Payroll: Starti"
+            },
+            {
+              "text": "$29/employee",
+              "billingUnit": true,
+              "context": "US Payroll: Custom pricing Deel Global Payroll: Starting at $29/employee/month Deel Contractor Management: starting at $49/contracto"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "softwarefinder.com",
+          "url": "https://softwarefinder.com/pricing",
+          "finalUrl": "https://softwarefinder.com/pricing",
+          "retrievedAt": "2026-09-24T09:40:37.344Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": "search results for \"certified payroll mistakes\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 7,
+          "top": {
+            "keyword": "certified payroll requirements",
+            "searchVolume": 50,
+            "id": "K3"
+          },
+          "category": {
+            "level": "substantial",
+            "measuredCount": 2,
+            "totalCount": 2,
+            "top": {
+              "keyword": "payroll software",
+              "searchVolume": 33100,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncorroborated",
+              "text": "\"davis bacon act compliance\" (140/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"certified payroll requirements\" at 50/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: substantial (\"payroll software\" 33100/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "strong",
+          "biddingKeywordIds": [
+            "K4",
+            "K7"
+          ],
+          "pricedPageIds": [
+            "P1",
+            "P2",
+            "P5"
+          ],
+          "pricedDomains": [
+            "connecteam.com",
+            "softwarefinder.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $128.41 on \"payroll software\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 2 ranking site(s): connecteam.com, softwarefinder.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "connecteam.com",
+            "protaxcommunity.com",
+            "softwarefinder.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "g2.com",
+            "forum.whitecoatinvestor.com",
+            "quora.com",
+            "community.spiceworks.com"
+          ],
+          "pricedDomains": [
+            "connecteam.com",
+            "protaxcommunity.com",
+            "softwarefinder.com"
+          ],
+          "note": "3 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on connecteam.com, protaxcommunity.com, softwarefinder.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "reddit.com",
+            "connecteam.com",
+            "g2.com",
+            "protaxcommunity.com",
+            "softwarefinder.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "ea83b3f87b7b5971",
+      "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-24T09:48:21.786Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z",
+        "qualifiers": [
+          "small-to-medium construction subcontractor",
+          "working on federally-funded (Davis-Bacon Act) projects"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the core problem of making mistakes on certified payroll, which the target customer faces."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the specific regulatory environment (Davis-Bacon Act) that defines the target customer and their problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about understanding the rules of certified payroll, a core part of the customer's problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for general payroll software, a broader category than the idea's specific certified payroll solution."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the idea's solution directly."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a search for automating a specific, critical form (WH-347) used in certified payroll, which is part of the idea's solution."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for general payroll software pricing, a broader category than the idea's specific solution."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for solutions to the specific problem of certified payroll."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the cost of software that solves the specific certified payroll problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is about general payroll software for a one-person business, not specifically for construction subcontractors needing certified payroll."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "small-to-medium construction subcontractor"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is about general payroll software for any small business, not the specific niche of the target customer."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a recommendation for general payroll software on a forum for high-income professionals, a different audience."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general recommendation for payroll software for any business, not specific to the target customer's needs."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general question about payroll software for any small business, not specific to the target customer."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general list of payroll and HR software for any business, not focused on certified payroll for construction."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a request for general payroll software for a large company (~700 employees), which is outside the target customer size."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page compares general payroll software for any small business, not specifically for construction or certified payroll."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a general business management tool, not a specialized certified payroll generator."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general request for payroll software for a growing business, not specific to the target customer's certified payroll needs."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general list of payroll software for any business, not focused on the certified payroll problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-24:construction-subcontractor-certified-payroll-gen",
+        "opportunity": "The opportunity is to provide a specialized tool for small construction subcontractors to automate the generation of weekly certified payroll reports. This would help them comply with federal project requirements and avoid penalties from errors.",
+        "whoPays": "The office manager or owner of a small-to-medium construction subcontractor would pay to avoid fines, payment delays, and the administrative overhead of manual compliance.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "The provided search results and pages do not contain evidence describing the problem of certified payroll reporting for construction subcontractors.",
+          "inference": "The existence of search keywords like \"certified payroll mistakes\" and \"davis bacon act compliance\" suggests that people are seeking information about this topic, but the evidence lacks any first-hand accounts or articles detailing the specific pains."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.4",
+              "quote": "5 Best Payroll Software for your Construction Company"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Gusto",
+              "type": "indirect",
+              "what": "A general payroll software solution suggested for contractors.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Gusto. Good for contractors"
+                }
+              ]
+            },
+            {
+              "name": "Paychex Flex",
+              "type": "indirect",
+              "what": "A general payroll software solution with features for tax filing.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Paychex Flex. Good for tax filing and tax credits"
+                }
+              ]
+            },
+            {
+              "name": "QuickBooks Payroll",
+              "type": "indirect",
+              "what": "A general payroll software solution.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "QuickBooks Payroll. Good for"
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "The identified alternatives are general payroll systems, not specialized tools designed specifically for generating certified payroll reports (e.g., WH-347 form) for government contracts.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Weekly certified payroll reporting is a mandatory, high-stakes administrative burden.",
+            "finding": "The evidence contains no search results or pages describing this problem. While relevant keywords show search demand, there is no content corroborating the pain.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "A tool that ... automatically generate the weekly WH-347 form ... would be a \"must-have\" for this segment.",
+            "finding": "Search demand for solution-related terms like \"certified payroll generator\" and \"wh 347 form automation\" exists, but the search volume is unmeasured in the evidence, making the level of demand unknown.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A minimal first experiment that takes a CSV payroll export and generates a filled WH-347 PDF is technically feasible. The primary difficulty lies in correctly interpreting and implementing all Davis-Bacon Act compliance rules, which requires significant domain expertise."
+        },
+        "unproven": [
+          "The severity and frequency of the certified payroll problem for the target customer.",
+          "Whether subcontractors would pay for a standalone tool rather than expecting this functionality from their primary payroll provider.",
+          "Whether existing payroll systems (e.g., contractor versions of QuickBooks) already solve this problem adequately."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 5-10 interviews with office managers at small construction subcontractors who work on federally-funded projects. The goal is to validate the problem's severity, understand their current workflow, and gauge their reaction to a dedicated tool.",
+          "cost": "~$200 in incentives + 15 hours time",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees describe certified payroll as a significant weekly pain, express dissatisfaction with their current manual or software process, and show strong interest in a specialized automated solution.",
+        "stopIf": "Most interviewees report that their current payroll software handles certified payroll well, that it's not a major problem, or they show no interest in a new, separate tool."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a specialized tool for small construction subcontractors to automate the generation of weekly certified payroll reports. This would help them comply with federal project requirements and avoid penalties from errors.",
+        "whoPays": "The office manager or owner of a small-to-medium construction subcontractor would pay to avoid fines, payment delays, and the administrative overhead of manual compliance.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The existence of search keywords like \"certified payroll mistakes\" and \"davis bacon act compliance\" suggests that people are seeking information about this topic, but the evidence lacks any first-hand accounts or articles detailing the specific pains."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [
+            {
+              "id": "S1.4",
+              "quote": "5 Best Payroll Software for your Construction Company",
+              "domain": "connecteam.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "connecteam.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Gusto",
+              "type": "indirect",
+              "what": "A general payroll software solution suggested for contractors.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Gusto. Good for contractors",
+                  "domain": "connecteam.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+                }
+              ]
+            },
+            {
+              "name": "Paychex Flex",
+              "type": "indirect",
+              "what": "A general payroll software solution with features for tax filing.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Paychex Flex. Good for tax filing and tax credits",
+                  "domain": "connecteam.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+                }
+              ]
+            },
+            {
+              "name": "QuickBooks Payroll",
+              "type": "indirect",
+              "what": "A general payroll software solution.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "QuickBooks Payroll. Good for",
+                  "domain": "connecteam.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is for the broader category of construction companies but does not specify the need for certified payroll for federally-funded projects."
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "The identified alternatives are general payroll systems, not specialized tools designed specifically for generating certified payroll reports (e.g., WH-347 form) for government contracts.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Weekly certified payroll reporting is a mandatory, high-stakes administrative burden.",
+            "finding": "The evidence contains no search results or pages describing this problem. While relevant keywords show search demand, there is no content corroborating the pain.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "A tool that ... automatically generate the weekly WH-347 form ... would be a \"must-have\" for this segment.",
+            "finding": "Search demand for solution-related terms like \"certified payroll generator\" and \"wh 347 form automation\" exists, but the search volume is unmeasured in the evidence, making the level of demand unknown.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A minimal first experiment that takes a CSV payroll export and generates a filled WH-347 PDF is technically feasible. The primary difficulty lies in correctly interpreting and implementing all Davis-Bacon Act compliance rules, which requires significant domain expertise."
+        },
+        "unproven": [
+          "The severity and frequency of the certified payroll problem for the target customer.",
+          "Whether subcontractors would pay for a standalone tool rather than expecting this functionality from their primary payroll provider.",
+          "Whether existing payroll systems (e.g., contractor versions of QuickBooks) already solve this problem adequately."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 5-10 interviews with office managers at small construction subcontractors who work on federally-funded projects. The goal is to validate the problem's severity, understand their current workflow, and gauge their reaction to a dedicated tool.",
+          "cost": "~$200 in incentives + 15 hours time",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees describe certified payroll as a significant weekly pain, express dissatisfaction with their current manual or software process, and show strong interest in a specialized automated solution.",
+        "stopIf": "Most interviewees report that their current payroll software handles certified payroll well, that it's not a major problem, or they show no interest in a new, separate tool.",
+        "removedLinks": 0,
+        "downgraded": [
+          "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-24T09:49:42.848Z",
+        "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z"
+      }
+    },
+    {
+      "id": "2026-09-24:small-fleet-ifta-fuel-tax-hub",
+      "slug": "small-fleet-ifta-fuel-tax-hub",
+      "title": "The Small Fleet's \"Audit-Ready\" IFTA Fuel Tax Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "IFTA (International Fuel Tax Agreement) is a North American agreement, but the context of 'small fleet' and 'owner-operator' often points to the US market for initial focus."
+      },
+      "plan": {
+        "slug": "small-fleet-ifta-fuel-tax-hub",
+        "title": "The Small Fleet's \"Audit-Ready\" IFTA Fuel Tax Hub",
+        "problem": "Quarterly IFTA reporting is a manual, time-consuming nightmare of collecting fuel receipts and calculating mileage per state, where errors lead to audits and penalties.",
+        "targetCustomer": "Owner-operator or small fleet manager with 2-20 trucks running interstate.",
+        "payer": "Owner-operator or small fleet manager.",
+        "whyPayerPays": "The payer would pay to save days of work, prevent costly errors, and avoid fines associated with IFTA reporting.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "IFTA (International Fuel Tax Agreement) is a North American agreement, but the context of 'small fleet' and 'owner-operator' often points to the US market for initial focus."
+        },
+        "keywords": {
+          "problem": [
+            "ifta reporting errors",
+            "ifta fuel tax penalty",
+            "how to calculate ifta"
+          ],
+          "solution": [
+            "ifta software",
+            "ifta reporting tool",
+            "ifta mileage tracker"
+          ],
+          "buying": [
+            "ifta software cost",
+            "best ifta reporting",
+            "ifta compliance pricing"
+          ]
+        },
+        "serpQueries": [
+          "ifta software",
+          "ifta reporting errors"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ifta reporting errors",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "ifta fuel tax penalty",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "how to calculate ifta",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 3.38,
+          "adCompetition": 0.43,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-14 07:46:04 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -27,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "ifta software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 18.24,
+          "adCompetition": 0.57,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -56,
+          "providerUpdatedAt": "2026-09-17 12:53:42 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 140
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -38,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "ifta reporting tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "ifta mileage tracker",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": 10.55,
+          "adCompetition": 0.57,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -29,
+          "providerUpdatedAt": "2026-09-13 01:37:29 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -18,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "ifta software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best ifta reporting",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "ifta compliance pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "ifta software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:55.826Z",
+          "checkUrl": "https://www.google.com/search?q=ifta%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.geotab.com",
+              "url": "https://www.geotab.com/fleet-management-solutions/ifta/",
+              "title": "International Fuel Tax Agreement (IFTA) reporting software",
+              "description": "Track fuel costs, integrate fuel cards, and automate IFTA reporting with Geotab's open telematics platform IFTA software. Learn more about our products.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.verizonconnect.com",
+              "url": "https://www.verizonconnect.com/resources/article/ifta-tracking-reporting/",
+              "title": "Simplify IFTA tracking with fleet management software",
+              "description": "Sep 9, 2025 — Fleet management software offers a practical solution, helping fleets automate complex IFTA reporting tasks and stay ahead of compliance ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "gomotive.com",
+              "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
+              "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation",
+              "description": "IFTA automation simplifies key aspects of fleet compliance by automating fuel tax calculations and report creation. e's compliance tools",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.trucklogics.com",
+              "url": "https://www.trucklogics.com/solutions/ifta-reporting-software",
+              "title": "IFTA Fuel Tax Reporting Software",
+              "description": "Our IFTA reporting software helps generate quarterly fuel tax reports easily with multiple data import options and accurate tax calculations.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.torotms.com",
+              "url": "https://www.torotms.com/blog/ifta-software",
+              "title": "IFTA Software: How to Spend Less Time on Fuel Tax ...",
+              "description": "IFTA reporting is tedious and error-prone. Dedicated IFTA software like Toro TMS helps trucking companies save time and stay compliant.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.radius.com",
+              "url": "https://www.radius.com/en-us/telematics/dot-compliance/ifta-software/",
+              "title": "IFTA Reporting Software - Radius",
+              "description": "Our integrated IFTA reporting software automates and simplifies the entire fuel tax reporting process, ensuring accuracy and saving you valuable time. Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "tentrucks.com",
+              "url": "https://tentrucks.com/blog/best-ifta-software-owner-operators",
+              "title": "Best IFTA Software for Owner-Operators 2026",
+              "description": "Jul 7, 2026 — The best IFTA reporting software for owner-operators in 2026 is TenTrucks. It handles IFTA reporting for both the US and Canada, and does it ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "fleetcollect.net",
+              "url": "https://fleetcollect.net/blog/best-ifta-software-comparison",
+              "title": "Best IFTA Software 2026: FleetCollect vs Motive vs Samsara",
+              "description": "Jul 14, 2026 — FleetCollect is the best IFTA software for most trucking companies. It's the only solution under $10/month with fully automatic GPS mileage ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "ifta reporting errors",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:40:08.870Z",
+          "checkUrl": "https://www.google.com/search?q=ifta%20reporting%20errors&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.truckingoffice.com",
+              "url": "https://www.truckingoffice.com/blog/5-common-ifta-reporting-mistakes/",
+              "title": "5 Common IFTA Reporting Mistakes and How to Avoid Them",
+              "description": "#1. Late filing or not filing an IFTA report at all. #2. Estimating mileage and gallons. #3. Failure to document odometer or GPS issues. #4. Not logging every ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "saferoadcompliance.com",
+              "url": "https://saferoadcompliance.com/blog/top-10-ifta-reporting-mistakes/",
+              "title": "Top 10 IFTA Reporting Mistakes and How to Avoid Them",
+              "description": "Apr 9, 2026 — The most common mistakes include inaccurate mileage tracking, missing fuel receipts, incorrect tax calculations, and late filings.",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "fleetrabbit.com",
+              "url": "https://fleetrabbit.com/blogs/post/avoid-ifta-reporting-mistakes",
+              "title": "Avoiding 9 Common IFTA Reporting Mistakes with ...",
+              "description": "Aug 28, 2025 — Mistake #1: Missing or Late Quarterly Filing. Mileage reporting errors represent 65% of IFTA audit failures. toll data, and GPS tracking. #3: ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.fleetio.com",
+              "url": "https://www.fleetio.com/blog/9-most-common-ifta-reporting-mistakes",
+              "title": "IFTA Reporting Guide: Avoid Common Filing Mistakes",
+              "description": "Sep 12, 2017 — Avoid common IFTA reporting errors. Learn how to simplify fuel tax calculations and streamline reporting for better compliance.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.revenue.alabama.gov",
+              "url": "https://www.revenue.alabama.gov/faqs/if-i-make-a-mistake-on-my-ifta-quarterly-tax-return-can-i-correct-it/",
+              "title": "If I make a mistake on my IFTA quarterly tax return, can I ...",
+              "description": "You may correct any mistake prior to paying the return. If you have already paid your return, you must file an amended return.",
+              "id": "S2.7",
+              "class": "government"
+            },
+            {
+              "rank": 8,
+              "domain": "www.simplyfleet.app",
+              "url": "https://www.simplyfleet.app/blog/common-ifta-reporting-mistakes-to-avoid",
+              "title": "Common IFTA Reporting Mistakes to Avoid for Fleets",
+              "description": "Jun 27, 2025 — Common IFTA Reporting Mistakes to Avoid · 1. Late Filing or Not Filing at All · 2. Estimating Fuel and Mileage Data · 3. Not Documenting ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.atob.com",
+              "url": "https://www.atob.com/blog/ifta-fuel-tax-reporting",
+              "title": "IFTA Fuel Tax Reporting: Complete Guide for 2025",
+              "description": "Nov 25, 2025 — One error can trigger an audit or result in overpaid taxes that take months to recover. AtoB's fuel card system includes built-in IFTA ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.jjkellerdatasense.com",
+              "url": "https://www.jjkellerdatasense.com/vehicle-insights/ifta-irp-filing-mistakes-to-avoid",
+              "title": "Top IFTA and IRP Filing Mistakes Motor Carriers Must ...",
+              "description": "Feb 10, 2026 — Errors usually stem from: Forgetting to record state line crossings; Relying on estimates instead of actual odometer or GPS readings; Failing ...",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "gomotive.com",
+              "url": "https://gomotive.com/blog/ifta-fuel-tax-reporting-mistakes/",
+              "title": "5 common IFTA fuel tax reporting mistakes explained.",
+              "description": "Jul 30, 2018 — Incorrect fuel calculations may raise doubts and lead to an IFTA audit. You are required to maintain precise records — not estimates — of fuel ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "gomotive.com",
+          "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
+          "finalUrl": "https://gomotive.com/products/features/ifta-reporting-automation/",
+          "retrievedAt": "2026-09-24T09:40:38.111Z",
+          "status": 200,
+          "error": null,
+          "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation | Motive",
+          "description": "Automate IFTA compliance with Motive’s platform. Simplify reporting, reduce errors, & boost efficiency with one-click report generation.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "gomotive.com",
+          "url": "https://gomotive.com/pricing",
+          "finalUrl": "https://gomotive.com/get-in-touch/?id=pricing",
+          "retrievedAt": "2026-09-24T09:40:38.113Z",
+          "status": 200,
+          "error": null,
+          "title": "Motive Pricing | ELD | Dash Cam | Motive",
+          "description": "With Motive, minimize violations, boost productivity, decrease audit risk, and lower insurance costs all-in-one fleet management platform.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "geotab.com",
+          "url": "https://www.geotab.com/fleet-management-solutions/ifta/",
+          "finalUrl": "https://www.geotab.com/fleet-management-solutions/ifta/",
+          "retrievedAt": "2026-09-24T09:40:38.114Z",
+          "status": 200,
+          "error": null,
+          "title": "IFTA Reporting Software: Easily Automate IFTA Reporting | Geotab",
+          "description": "Track fuel costs, integrate fuel cards, and automate IFTA reporting with Geotab’s open telematics platform IFTA software. Learn more about our products.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "geotab.com",
+          "url": "https://www.geotab.com/pricing",
+          "finalUrl": "https://www.geotab.com/pricing/",
+          "retrievedAt": "2026-09-24T09:40:38.115Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "truckingoffice.com",
+          "url": "https://www.truckingoffice.com/blog/5-common-ifta-reporting-mistakes/",
+          "finalUrl": "https://www.truckingoffice.com/blog/5-common-ifta-reporting-mistakes/",
+          "retrievedAt": "2026-09-24T09:40:38.116Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "truckingoffice.com",
+          "url": "https://www.truckingoffice.com/pricing",
+          "finalUrl": "https://www.truckingoffice.com/pricing",
+          "retrievedAt": "2026-09-24T09:40:38.117Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "some",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 3,
+          "totalCount": 9,
+          "top": {
+            "keyword": "how to calculate ifta",
+            "searchVolume": 140,
+            "id": "K3"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): some. Largest directly relevant keyword: \"how to calculate ifta\" at 140/month; next \"ifta software\" at 140/month. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K6"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $18.24 on \"ifta software\"). CPC is an advertiser bid, not a customer's willingness to pay. 2 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "gomotive.com",
+            "geotab.com",
+            "truckingoffice.com",
+            "verizonconnect.com",
+            "saferoadcompliance.com",
+            "fleetrabbit.com",
+            "trucklogics.com",
+            "fleetio.com",
+            "torotms.com",
+            "simplyfleet.app",
+            "radius.com",
+            "atob.com",
+            "tentrucks.com",
+            "jjkellerdatasense.com",
+            "fleetcollect.net"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 8 domain(s) with a direct competitor (same problem) (geotab.com, verizonconnect.com, gomotive.com, trucklogics.com, torotms.com, radius.com, tentrucks.com, fleetcollect.net), 1 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "geotab.com",
+            "verizonconnect.com",
+            "gomotive.com",
+            "trucklogics.com",
+            "torotms.com",
+            "radius.com",
+            "tentrucks.com",
+            "fleetcollect.net"
+          ],
+          "indirectAlternativeDomains": [
+            "gomotive.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "3179db6dfed4c95e",
+      "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-24T09:48:21.786Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z",
+        "qualifiers": [
+          "Owner-operator or small fleet manager",
+          "with 2-20 trucks"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the core problem of making errors in IFTA reporting, which leads to audits and penalties."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about the negative consequences of the problem, which the target customer wants to avoid."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is about the manual, time-consuming task at the heart of the customer's problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the idea's solution category directly."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is another way of searching for the idea's solution."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for a key feature of a potential solution to the IFTA reporting problem."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the cost of solutions to the IFTA problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the best solutions to the IFTA problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the cost of IFTA compliance solutions."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for IFTA software, but the provider (Geotab) serves fleets of all sizes, not just small ones."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for IFTA software, but the provider (Verizon Connect) is an enterprise solution for fleets of all sizes."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for IFTA software, but the provider (Motive) serves fleets of all sizes, not just small ones."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for IFTA software, but the provider (TruckLogics) serves a wide range of fleet sizes."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for IFTA software for general 'trucking companies', not specifically small fleets."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for a general IFTA reporting software, not one specifically tailored to small fleets."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This result is specifically about IFTA software for owner-operators, which is a core part of the target customer definition."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This compares IFTA software for 'most trucking companies', which is broader than the target small fleet niche."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This government page about correcting IFTA mistakes applies to all filers, not just small fleets."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about IFTA mistakes is relevant to any fleet, not just small ones."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This guide to IFTA reporting is for any filer, not specifically small fleets."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about filing mistakes is for all motor carriers, not just small fleets."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for Motive, which serves fleets of all sizes, not just the target small fleet customer."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a pricing page for a full fleet management platform (ELD, dash cam), which is broader than just an IFTA solution."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner-operator or small fleet manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for Geotab, which serves fleets of all sizes, not just the target small fleet customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-24:small-fleet-ifta-fuel-tax-hub",
+        "opportunity": "The opportunity is to offer a simple, automated tool for small trucking fleets to manage and file their quarterly IFTA fuel tax reports. This would save them time and help them avoid costly errors, audits, and penalties.",
+        "whoPays": "The owner-operator or small fleet manager would pay to save administrative time and avoid the financial risks associated with incorrect IFTA filings.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.3",
+              "quote": "The most common mistakes include inaccurate mileage tracking, missing fuel receipts, incorrect tax calculations, and late filings."
+            },
+            {
+              "id": "S2.4",
+              "quote": "Mileage reporting errors represent 65% of IFTA audit failures."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Incorrect fuel calculations may raise doubts and lead to an IFTA audit."
+            }
+          ],
+          "observed": "Multiple sources describe common IFTA reporting mistakes, including inaccurate mileage and fuel data, incorrect calculations, and late filings. These errors are noted to be a primary cause of audits.",
+          "inference": "Small fleet operators, who likely have limited administrative support, are particularly vulnerable to these time-consuming and high-stakes reporting errors."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "International Fuel Tax Agreement (IFTA) reporting software"
+            },
+            {
+              "id": "S1.5",
+              "quote": "IFTA Fuel Tax Reporting Software, Tracking, & Automation"
+            },
+            {
+              "id": "S1.10",
+              "quote": "Best IFTA Software for Owner-Operators 2026"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Geotab",
+              "type": "direct",
+              "what": "Offers IFTA reporting as part of an open telematics platform.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "automate IFTA reporting with Geotab's open telematics platform IFTA software"
+                }
+              ]
+            },
+            {
+              "name": "Verizon Connect",
+              "type": "direct",
+              "what": "Provides fleet management software to automate IFTA reporting tasks.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "fleet management software offers a practical solution, helping fleets automate complex IFTA reporting tasks"
+                }
+              ]
+            },
+            {
+              "name": "Motive",
+              "type": "direct",
+              "what": "Offers IFTA automation for fuel tax calculations and report creation.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "automating fuel tax calculations and report creation"
+                }
+              ]
+            },
+            {
+              "name": "TenTrucks",
+              "type": "direct",
+              "what": "Described as the best IFTA reporting software for owner-operators.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "best IFTA reporting software for owner-operators"
+                }
+              ]
+            },
+            {
+              "name": "FleetCollect",
+              "type": "direct",
+              "what": "Claims to be the best IFTA software for most trucking companies, with a low price point.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "FleetCollect is the best IFTA software for most trucking companies"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors are established telematics and fleet management platforms that offer automated IFTA reporting.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Geotab's open telematics platform IFTA software"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "fleet management software offers a practical solution"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "While many competitors are large, complex platforms, the emergence of players specifically targeting owner-operators and low price points suggests the gap for a simple, affordable tool is already being addressed.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Best IFTA Software for Owner-Operators"
+                },
+                {
+                  "id": "S1.11",
+                  "quote": "the only solution under $10/month with fully automatic GPS mileage"
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Quarterly IFTA reporting is a manual, time-consuming nightmare of collecting fuel receipts and calculating mileage per state.",
+            "finding": "Multiple sources confirm that IFTA reporting is prone to common errors like inaccurate mileage tracking, missing receipts, and incorrect calculations, which can trigger audits.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "most common mistakes include inaccurate mileage tracking, missing fuel receipts, incorrect tax calculations"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A market of thousands of small fleets exists, currently using spreadsheets or overpriced, complex fleet management suites.",
+            "finding": "The market is crowded with direct software competitors, including not only large fleet management suites but also newer entrants specifically targeting owner-operators and low price points.",
+            "basis": [
+              {
+                "id": "S1.10",
+                "quote": "Best IFTA Software for Owner-Operators"
+              },
+              {
+                "id": "S1.11",
+                "quote": "FleetCollect is the best IFTA software for most trucking companies"
+              }
+            ],
+            "effect": "contradicts"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment that generates IFTA reports from user-uploaded CSV files of mileage and fuel data is feasible. Integrating directly with the many different ELD and GPS providers would be hard for an initial product."
+        },
+        "unproven": [
+          "Whether a significant number of small fleets are dissatisfied with existing low-cost IFTA solutions.",
+          "Whether small fleets are willing to pay for a standalone IFTA tool if their ELD or fleet management platform already includes a (perhaps inferior) IFTA feature.",
+          "What specific feature (e.g., receipt scanning) could provide a compelling advantage over established competitors."
+        ],
+        "nextExperiment": {
+          "what": "Sign up for free trials of the lowest-cost direct competitors (e.g., TenTrucks, FleetCollect). Analyze their user experience, feature set, and pricing to identify a clear, valuable differentiation opportunity for a new product.",
+          "cost": "<$100 for trials + 10 hours time",
+          "duration": "1 week"
+        },
+        "continueIf": "A clear gap is found where existing low-cost tools have a poor user experience, are missing a key workflow, or fail to serve the 2-20 truck fleet segment effectively.",
+        "stopIf": "The existing low-cost competitors solve the core problem well with an easy-to-use interface and affordable pricing, indicating no obvious entry point for a new solo founder."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to offer a simple, automated tool for small trucking fleets to manage and file their quarterly IFTA fuel tax reports. This would save them time and help them avoid costly errors, audits, and penalties.",
+        "whoPays": "The owner-operator or small fleet manager would pay to save administrative time and avoid the financial risks associated with incorrect IFTA filings.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.3",
+              "quote": "The most common mistakes include inaccurate mileage tracking, missing fuel receipts, incorrect tax calculations, and late filings.",
+              "domain": "saferoadcompliance.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+            },
+            {
+              "id": "S2.4",
+              "quote": "Mileage reporting errors represent 65% of IFTA audit failures.",
+              "domain": "fleetrabbit.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Incorrect fuel calculations may raise doubts and lead to an IFTA audit.",
+              "domain": "gomotive.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+            }
+          ],
+          "observed": "Multiple sources describe common IFTA reporting mistakes, including inaccurate mileage and fuel data, incorrect calculations, and late filings. These errors are noted to be a primary cause of audits.",
+          "inference": "Small fleet operators, who likely have limited administrative support, are particularly vulnerable to these time-consuming and high-stakes reporting errors."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "International Fuel Tax Agreement (IFTA) reporting software",
+              "domain": "geotab.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is for IFTA software, but the provider (Geotab) serves fleets of all sizes, not just small ones."
+            },
+            {
+              "id": "S1.5",
+              "quote": "IFTA Fuel Tax Reporting Software, Tracking, & Automation",
+              "domain": "gomotive.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is for IFTA software, but the provider (Motive) serves fleets of all sizes, not just small ones."
+            },
+            {
+              "id": "S1.10",
+              "quote": "Best IFTA Software for Owner-Operators 2026",
+              "domain": "tentrucks.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This result is specifically about IFTA software for owner-operators, which is a core part of the target customer definition."
+            }
+          ],
+          "directCompetitors": [
+            "geotab.com",
+            "gomotive.com",
+            "tentrucks.com",
+            "verizonconnect.com",
+            "fleetcollect.net"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Geotab",
+              "type": "direct",
+              "what": "Offers IFTA reporting as part of an open telematics platform.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "automate IFTA reporting with Geotab's open telematics platform IFTA software",
+                  "domain": "geotab.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is for IFTA software, but the provider (Geotab) serves fleets of all sizes, not just small ones."
+                }
+              ]
+            },
+            {
+              "name": "Verizon Connect",
+              "type": "direct",
+              "what": "Provides fleet management software to automate IFTA reporting tasks.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "fleet management software offers a practical solution, helping fleets automate complex IFTA reporting tasks",
+                  "domain": "verizonconnect.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is for IFTA software, but the provider (Verizon Connect) is an enterprise solution for fleets of all sizes."
+                }
+              ]
+            },
+            {
+              "name": "Motive",
+              "type": "direct",
+              "what": "Offers IFTA automation for fuel tax calculations and report creation.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "automating fuel tax calculations and report creation",
+                  "domain": "gomotive.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is for IFTA software, but the provider (Motive) serves fleets of all sizes, not just small ones."
+                }
+              ]
+            },
+            {
+              "name": "TenTrucks",
+              "type": "direct",
+              "what": "Described as the best IFTA reporting software for owner-operators.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "best IFTA reporting software for owner-operators",
+                  "domain": "tentrucks.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This result is specifically about IFTA software for owner-operators, which is a core part of the target customer definition."
+                }
+              ]
+            },
+            {
+              "name": "FleetCollect",
+              "type": "direct",
+              "what": "Claims to be the best IFTA software for most trucking companies, with a low price point.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "FleetCollect is the best IFTA software for most trucking companies",
+                  "domain": "fleetcollect.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This compares IFTA software for 'most trucking companies', which is broader than the target small fleet niche."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors are established telematics and fleet management platforms that offer automated IFTA reporting.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Geotab's open telematics platform IFTA software",
+                  "domain": "geotab.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is for IFTA software, but the provider (Geotab) serves fleets of all sizes, not just small ones."
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "fleet management software offers a practical solution",
+                  "domain": "verizonconnect.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is for IFTA software, but the provider (Verizon Connect) is an enterprise solution for fleets of all sizes."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "While many competitors are large, complex platforms, the emergence of players specifically targeting owner-operators and low price points suggests the gap for a simple, affordable tool is already being addressed.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Best IFTA Software for Owner-Operators",
+                  "domain": "tentrucks.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This result is specifically about IFTA software for owner-operators, which is a core part of the target customer definition."
+                },
+                {
+                  "id": "S1.11",
+                  "quote": "the only solution under $10/month with fully automatic GPS mileage",
+                  "domain": "fleetcollect.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This compares IFTA software for 'most trucking companies', which is broader than the target small fleet niche."
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Quarterly IFTA reporting is a manual, time-consuming nightmare of collecting fuel receipts and calculating mileage per state.",
+            "finding": "Multiple sources confirm that IFTA reporting is prone to common errors like inaccurate mileage tracking, missing receipts, and incorrect calculations, which can trigger audits.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "most common mistakes include inaccurate mileage tracking, missing fuel receipts, incorrect tax calculations",
+                "domain": "saferoadcompliance.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article about IFTA mistakes is relevant to anyone filing IFTA, not just small fleets."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A market of thousands of small fleets exists, currently using spreadsheets or overpriced, complex fleet management suites.",
+            "finding": "The market is crowded with direct software competitors, including not only large fleet management suites but also newer entrants specifically targeting owner-operators and low price points.",
+            "basis": [
+              {
+                "id": "S1.10",
+                "quote": "Best IFTA Software for Owner-Operators",
+                "domain": "tentrucks.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This result is specifically about IFTA software for owner-operators, which is a core part of the target customer definition."
+              },
+              {
+                "id": "S1.11",
+                "quote": "FleetCollect is the best IFTA software for most trucking companies",
+                "domain": "fleetcollect.net",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This compares IFTA software for 'most trucking companies', which is broader than the target small fleet niche."
+              }
+            ],
+            "effect": "contradicts"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment that generates IFTA reports from user-uploaded CSV files of mileage and fuel data is feasible. Integrating directly with the many different ELD and GPS providers would be hard for an initial product."
+        },
+        "unproven": [
+          "Whether a significant number of small fleets are dissatisfied with existing low-cost IFTA solutions.",
+          "Whether small fleets are willing to pay for a standalone IFTA tool if their ELD or fleet management platform already includes a (perhaps inferior) IFTA feature.",
+          "What specific feature (e.g., receipt scanning) could provide a compelling advantage over established competitors."
+        ],
+        "nextExperiment": {
+          "what": "Sign up for free trials of the lowest-cost direct competitors (e.g., TenTrucks, FleetCollect). Analyze their user experience, feature set, and pricing to identify a clear, valuable differentiation opportunity for a new product.",
+          "cost": "<$100 for trials + 10 hours time",
+          "duration": "1 week"
+        },
+        "continueIf": "A clear gap is found where existing low-cost tools have a poor user experience, are missing a key workflow, or fail to serve the 2-20 truck fleet segment effectively.",
+        "stopIf": "The existing low-cost competitors solve the core problem well with an easy-to-use interface and affordable pricing, indicating no obvious entry point for a new solo founder.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-24T09:49:42.856Z",
+        "evidenceUpdatedAt": "2026-09-24T09:40:40.470Z"
+      }
+    },
+    {
+      "id": "2026-09-24:property-manager-vendor-coi-tracker",
+      "slug": "property-manager-vendor-coi-tracker",
+      "title": "The Property Manager's \"Never-Lapse\" Vendor COI Tracker",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "Property management and insurance regulations, especially regarding liability and COIs, vary significantly by country, making the US a plausible initial focus."
+      },
+      "plan": {
+        "slug": "property-manager-vendor-coi-tracker",
+        "title": "The Property Manager's \"Never-Lapse\" Vendor COI Tracker",
+        "problem": "Manually tracking Certificates of Insurance (COIs) for dozens or hundreds of vendors is tedious and prone to failure, creating massive liability if an uninsured vendor causes an accident.",
+        "targetCustomer": "A property manager for a small to mid-sized portfolio of residential or commercial buildings.",
+        "payer": "A property manager.",
+        "whyPayerPays": "The payer would pay to mitigate catastrophic liability risk and ensure compliance by preventing uninsured vendors from working on their properties.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "Property management and insurance regulations, especially regarding liability and COIs, vary significantly by country, making the US a plausible initial focus."
+        },
+        "keywords": {
+          "problem": [
+            "vendor coi tracking issues",
+            "uninsured vendor liability",
+            "property management risk"
+          ],
+          "solution": [
+            "coi tracker",
+            "vendor insurance software",
+            "certificate of insurance management"
+          ],
+          "buying": [
+            "coi tracking pricing",
+            "best coi management",
+            "vendor compliance software cost"
+          ]
+        },
+        "serpQueries": [
+          "coi tracker",
+          "vendor coi tracking issues"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "vendor coi tracking issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "uninsured vendor liability",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "property management risk",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": 7.31,
+          "adCompetition": 0.09,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 75,
+          "providerUpdatedAt": "2026-09-13 02:27:27 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (40 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "coi tracker",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 33.89,
+          "adCompetition": 0.68,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-17 22:37:56 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 15,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "vendor insurance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "certificate of insurance management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 20.32,
+          "adCompetition": 0.56,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -75,
+          "providerUpdatedAt": "2026-09-13 20:03:12 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (37 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "coi tracking pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best coi management",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "vendor compliance software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:39:19.334Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "coi tracker",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:40:14.817Z",
+          "checkUrl": "https://www.google.com/search?q=coi%20tracker&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "coitracker.com",
+              "url": "https://coitracker.com/",
+              "title": "COI Tracker: Certificate of Insurance Tracking Software",
+              "description": "COI Tracker - Certificate of Insurance Tracking Software. Automate the difficult tasks of tracking and managing your Insurance COIs. FREE and easy migration. ...",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 2,
+              "domain": "www.vertikalrms.com",
+              "url": "https://www.vertikalrms.com/article/best-coi-tracking-software-2026-top-coi-platforms-for-contractors/",
+              "title": "Best COI Tracking Software (2026): 7 Platforms Compared",
+              "description": "Jan 8, 2026 — CertFocus by Vertikal RMS stands out as the best overall COI tracking software for companies that require advanced automation and enterprise- ...",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.illumend.ai",
+              "url": "https://www.illumend.ai/",
+              "title": "COI Tracking Software | illumend, from myCOI",
+              "description": "illumend helps teams track certificates of insurance, confirm coverage against their own requirements, and clear third-party partners in one guided workflow.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.getbcs.com",
+              "url": "https://www.getbcs.com/coi-tracking",
+              "title": "COI Tracking Software | Certificate of Insurance Tracking",
+              "description": "COI tracking software is a tool that centralizes every certificate of insurance, reads each one on upload, verifies coverage against your requirements,",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.netvendor.com",
+              "url": "https://www.netvendor.com/blog/what-is-coi-tracking-software",
+              "title": "What Is COI Tracking Software in Property Management?",
+              "description": "Jun 29, 2026 — COI tracking software automates the collection, validation, and monitoring of vendor Certificates of Insurance, ensuring coverage stays active, ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "billyforinsurance.com",
+              "url": "https://billyforinsurance.com/",
+              "title": "Best COI tracking software for construction",
+              "description": "Save time and money in your construction COI compliance tracking process with Billy, the top automated construction compliance software.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.trustlayer.io",
+              "url": "https://www.trustlayer.io/resources/blog-coi-tracker",
+              "title": "A Comprehensive Guide to Using a COI Tracker",
+              "description": "Sep 22, 2023 — A COI tracker is a software or online tool designed to streamline the process of managing certificates of insurance. It provides a centralized ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.docutrax.com",
+              "url": "https://www.docutrax.com/coi-tracking",
+              "title": "Certificate of Insurance (COI) Tracking",
+              "description": "COI tracking, managed by licensed insurance professionals. Every certificate collected, verified, and tracked against your contractual requirements.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "smartcompliance.co",
+              "url": "https://smartcompliance.co/blog/what-is-a-coi-tracking-system",
+              "title": "What Is a COI Tracking System and Why Every Compliance ...",
+              "description": "May 7, 2025 — Enter the COI tracking system—a purpose-built software solution that automates the process of collecting, verifying, and monitoring COIs to help ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "vendor coi tracking issues",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-24T09:40:23.520Z",
+          "checkUrl": "https://www.google.com/search?q=vendor%20coi%20tracking%20issues&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.netvendor.com",
+              "url": "https://www.netvendor.com/blog/what-is-coi-tracking-software",
+              "title": "What Is COI Tracking Software in Property Management?",
+              "description": "Jun 29, 2026 — COI tracking alone does not prevent vendor risk. It identifies issues, but it does not control whether vendors should be allowed to work. Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.getbcs.com",
+              "url": "https://www.getbcs.com/coi-tracking",
+              "title": "COI Tracking Software | Certificate of Insurance Tracking",
+              "description": "bcs COI tracking software reads every certificate, endorsement, and policy on upload and shows vendors what to fix in seconds.",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.trustlayer.io",
+              "url": "https://www.trustlayer.io/resources/blog-coi-vendor",
+              "title": "A Comprehensive Guide to Vendor COI Tracking",
+              "description": "Oct 13, 2023 — One of the primary challenges in vendor COI tracking is the sheer volume of vendors and the associated documentation. Larger organizations may ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.illumend.ai",
+              "url": "https://www.illumend.ai/evaluation-buying/best-certificate-of-insurance-tracking-coi-software-2026",
+              "title": "What Is The Best Certificate Of Insurance Tracking (COI) ...",
+              "description": "Dec 14, 2025 — In this guide, we break down the features to look for and questions to ask to find the best COI management software for your needs.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.cobblestonesoftware.com",
+              "url": "https://www.cobblestonesoftware.com/blog/vendor-coi-tracking-with-vendor-management-software",
+              "title": "Vendor COI Tracking Is Easy With Vendor Management ...",
+              "description": "Nov 25, 2020 — This lack of COI tracking oversight can lead to missed deadlines, failed compliance, and more – leaving your organization at reputational and ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "billyforinsurance.com",
+              "url": "https://billyforinsurance.com/resources/certificate-of-insurance-tracking-how-to-do-it-right-at-scale/",
+              "title": "Certificate of Insurance Tracking: How to Do It Right at Scale",
+              "description": "The three root causes behind most COI tracking failures: No proactive expiration tracking. Someone entered a date when the original COI arrived, but no system",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.expirationreminder.com",
+              "url": "https://www.expirationreminder.com/blog/track-vendor-insurance-certificates-without-excel",
+              "title": "How to Track Vendor Insurance Without Excel (2026 Guide)",
+              "description": "Discover practical alternatives to Excel for tracking vendor insurance certificates. Learn how to reduce errors, save time, and ensure COI compliance ...",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "smartcompliance.co",
+              "url": "https://smartcompliance.co/blog/what-is-a-coi-tracking-system",
+              "title": "What Is a COI Tracking System and Why Every Compliance ...",
+              "description": "May 7, 2025 — The reality is this: one expired COI can trigger a cascade of problems—from breach of contract and fines to lost revenue. A dedicated",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "netvendor.com",
+          "url": "https://www.netvendor.com/blog/what-is-coi-tracking-software",
+          "finalUrl": "https://www.netvendor.com/blog/what-is-coi-tracking-software",
+          "retrievedAt": "2026-09-24T09:40:39.998Z",
+          "status": 200,
+          "error": null,
+          "title": "What Is COI Tracking Software in Property Management? | NetVendor",
+          "description": "NetVendor&#x27;s blog on compliance-led vendor management for multifamily and commercial real estate, covering onboarding, credentialing, and risk reduction.",
+          "priceMentions": [
+            {
+              "text": "$30,000",
+              "billingUnit": false,
+              "context": "ging 462 vendors, recovered more than 30 hours per week and $30,000 in annual labor costs after replacing manual COI tracking w"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "netvendor.com",
+          "url": "https://www.netvendor.com/pricing",
+          "finalUrl": "https://www.netvendor.com/pricing",
+          "retrievedAt": "2026-09-24T09:40:40.000Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "getbcs.com",
+          "url": "https://www.getbcs.com/coi-tracking",
+          "finalUrl": "https://www.getbcs.com/coi-tracking",
+          "retrievedAt": "2026-09-24T09:40:40.001Z",
+          "status": 200,
+          "error": null,
+          "title": "COI Tracking Software | Certificate of Insurance Tracking | bcs",
+          "description": "bcs COI tracking software reads every certificate, endorsement, and policy on upload and shows vendors what to fix in seconds. Try free for up to 25 vendors.",
+          "priceMentions": [
+            {
+              "text": "$1,000,000",
+              "billingUnit": false,
+              "context": "OCCUR ☒ Y Y GLO026958111 7/1/2025 7/1/2027 EACH OCCURRENCE $1,000,000 DAMAGE TO RENTED PREMISES $10,000 PERSONAL & ADV INJURY $1,"
+            },
+            {
+              "text": "$10,000",
+              "billingUnit": false,
+              "context": "1/2027 EACH OCCURRENCE $1,000,000 DAMAGE TO RENTED PREMISES $10,000 PERSONAL & ADV INJURY $1,000,000 GENERAL AGGREGATE $2,000,0"
+            },
+            {
+              "text": "$2,000,000",
+              "billingUnit": false,
+              "context": "$10,000 PERSONAL & ADV INJURY $1,000,000 GENERAL AGGREGATE $2,000,000 A AUTOMOBILE LIABILITY ANY AUTO ☒ Y N AUT884210566 7/1/2025"
+            },
+            {
+              "text": "$500,000",
+              "billingUnit": false,
+              "context": "027 E.L. EACH ACCIDENT $1,000,000 E.L. DISEASE, EA EMPLOYEE $500,000 DESCRIPTION OF OPERATIONS / LOCATIONS / VEHICLES Certificat"
+            },
+            {
+              "text": "$100,000",
+              "billingUnit": false,
+              "context": "0, requires $2,000,000 DAMAGE TO PREMISES $10,000, requires $100,000 Graded in 4.2 seconds, this is what your vendor sees Instan"
+            },
+            {
+              "text": "$0.95",
+              "billingUnit": false,
+              "context": "you need to collect, review, and track compliance in-house. $0.95 per vendor / month (price dependent on vendor volume); free"
+            },
+            {
+              "text": "$120,000",
+              "billingUnit": false,
+              "context": "irectors and officers (D&O) coverage faced claims averaging $120,000 over the last two years, yet most companies still lack prop"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "getbcs.com",
+          "url": "https://www.getbcs.com/pricing",
+          "finalUrl": "https://www.getbcs.com/pricing-and-plans",
+          "retrievedAt": "2026-09-24T09:40:40.002Z",
+          "status": 200,
+          "error": null,
+          "title": "COI Tracking Software Pricing & Plans | bcs",
+          "description": "bcs COI tracking starts free. No credit card required. Self-service from $0.95/vendor/month. Full-service from $17.80/vendor/year. Compare plans.",
+          "priceMentions": [
+            {
+              "text": "$11.40",
+              "billingUnit": false,
+              "context": "e — no credit card, no trial period. Self-service plans run $11.40/vendor/year ($0.95/vendor/month). Full-service compliance m"
+            },
+            {
+              "text": "$0.95",
+              "billingUnit": false,
+              "context": "no trial period. Self-service plans run $11.40/vendor/year ($0.95/vendor/month). Full-service compliance management, where bc"
+            },
+            {
+              "text": "$17.80",
+              "billingUnit": false,
+              "context": "handles vendor outreach and renewals end-to-end, starts at $17.80/vendor/year with a $10,000 annual minimum. Every tier inclu"
+            },
+            {
+              "text": "$10,000",
+              "billingUnit": false,
+              "context": "nd renewals end-to-end, starts at $17.80/vendor/year with a $10,000 annual minimum. Every tier includes AI-powered certificate"
+            },
+            {
+              "text": "$35",
+              "billingUnit": false,
+              "context": "hours per week on compliance management. At a conservative $35/hour, that's $27,300–$36,400 in recovered labor annually —"
+            },
+            {
+              "text": "$27,300",
+              "billingUnit": false,
+              "context": "n compliance management. At a conservative $35/hour, that's $27,300–$36,400 in recovered labor annually — before accounting for"
+            },
+            {
+              "text": "$36,400",
+              "billingUnit": false,
+              "context": "ance management. At a conservative $35/hour, that's $27,300–$36,400 in recovered labor annually — before accounting for the lia"
+            },
+            {
+              "text": "$2,280/year",
+              "billingUnit": true,
+              "context": "dles it) Annual cost (200 vendors) $27,300–$36,400 in Labor $2,280/year (200 vendors × $0.95 × 12) Custom quote Renewal tracking Ma"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "illumend.ai",
+          "url": "https://www.illumend.ai/",
+          "finalUrl": "https://www.illumend.ai/",
+          "retrievedAt": "2026-09-24T09:40:40.002Z",
+          "status": 200,
+          "error": null,
+          "title": "COI Tracking Software | illumend, from myCOI",
+          "description": "Unlock effortless compliance with illumend’s AI-driven insurance compliance software. Automate renewals, monitor COIs, uncover risk gaps & get audit-ready fast.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "illumend.ai",
+          "url": "https://www.illumend.ai/pricing",
+          "finalUrl": "https://www.illumend.ai/pricing",
+          "retrievedAt": "2026-09-24T09:40:40.003Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 7,
+          "top": {
+            "keyword": "certificate of insurance management",
+            "searchVolume": 20,
+            "id": "K6"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncorroborated",
+              "text": "\"coi tracker\" (140/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            },
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"property management risk\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"certificate of insurance management\" at 20/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K6"
+          ],
+          "pricedPageIds": [
+            "P4"
+          ],
+          "pricedDomains": [
+            "getbcs.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $33.89 on \"coi tracker\"). CPC is an advertiser bid, not a customer's willingness to pay. 2 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): getbcs.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "netvendor.com",
+            "getbcs.com",
+            "illumend.ai",
+            "trustlayer.io",
+            "billyforinsurance.com",
+            "smartcompliance.co",
+            "coitracker.com",
+            "vertikalrms.com",
+            "cobblestonesoftware.com",
+            "docutrax.com",
+            "expirationreminder.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [
+            "getbcs.com"
+          ],
+          "note": "11 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on getbcs.com. Judged for relevance: 7 domain(s) with a direct competitor (same problem) (coitracker.com, vertikalrms.com, illumend.ai, getbcs.com, netvendor.com, docutrax.com, cobblestonesoftware.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "coitracker.com",
+            "vertikalrms.com",
+            "illumend.ai",
+            "getbcs.com",
+            "netvendor.com",
+            "docutrax.com",
+            "cobblestonesoftware.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "58877cbafd20c38f",
+      "evidenceUpdatedAt": "2026-09-24T09:40:40.471Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-24T09:48:21.787Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-24T09:40:40.471Z",
+        "qualifiers": [
+          "property manager",
+          "small to mid-sized portfolio"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the core problem of tracking vendor COIs, which the target customer faces."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the high-stakes consequence of the problem, which is a major pain point for property managers."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "This is a broader problem area; vendor insurance is just one component of overall property management risk."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the idea's solution category directly."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is another way of searching for the idea's solution."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the job to be done, which the idea's solution addresses."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the cost of the idea's solution category."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for the best solutions for COI management."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for a broader category of software, as vendor compliance can include more than just COI tracking."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general COI tracking software, not specifically designed or marketed for property managers."
+          },
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general comparison of COI software for any company, not specifically for property managers."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general COI tracking software for any business, not specifically for property managers."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general COI tracking software for any business, not specifically for property managers."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "property manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item is explicitly about COI tracking software for property management, matching the target customer."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is for the construction industry, which is a different customer than property managers."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide to using COI trackers, not specific to the property management industry."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general COI tracking service for any business, not specifically for property managers."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about COI tracking systems for any compliance professional, not just property managers."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "property manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item is explicitly about COI tracking software for property management, matching the target customer."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general COI tracking software for any business, not specifically for property managers."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide about vendor COI tracking for any organization, not specific to property managers."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide for any business looking for COI software, not specific to property managers."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is about a general vendor management software that includes COI tracking for any organization."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about the problems with COI tracking, not specific to property managers."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide for any business tracking vendor insurance, not specific to property managers."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about COI tracking systems for any compliance role, not just property managers."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "property manager"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page is specifically about vendor management and COI tracking for property managers in real estate."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for a general COI tracking software, not specific to property managers."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a pricing page for a general COI tracking software, not specific to property managers."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for a general COI tracking software, not specific to property managers."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-24:property-manager-vendor-coi-tracker",
+        "opportunity": "The opportunity is to provide a simple software tool for property managers to track vendor Certificates of Insurance (COIs). This would automate a tedious manual process and reduce the significant liability risk from uninsured vendors.",
+        "whoPays": "A property manager would pay to mitigate liability risk, ensure vendor compliance, and save administrative time.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "lack of COI tracking oversight can lead to missed deadlines, failed compliance, and more"
+            },
+            {
+              "id": "S2.11",
+              "quote": "one expired COI can trigger a cascade of problems—from breach of contract and fines to lost revenue"
+            },
+            {
+              "id": "S2.6",
+              "quote": "One of the primary challenges in vendor COI tracking is the sheer volume of vendors"
+            }
+          ],
+          "observed": "Multiple sources state that managing vendor COIs is challenging due to the volume of documents and the need for proactive expiration tracking. Failures in this process are described as leading to compliance issues, missed deadlines, and significant financial and reputational risk.",
+          "inference": "This problem is particularly acute for property managers, who regularly engage with a large and diverse set of vendors."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "COI Tracker: Certificate of Insurance Tracking Software"
+            },
+            {
+              "id": "S1.7",
+              "quote": "What Is COI Tracking Software in Property Management?"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "NetVendor",
+              "type": "direct",
+              "what": "Provides COI tracking software specifically for property management, automating collection, validation, and monitoring.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "COI tracking software automates the collection, validation, and monitoring of vendor Certificates of Insurance"
+                }
+              ]
+            },
+            {
+              "name": "bcs",
+              "type": "direct",
+              "what": "A COI tracking software that centralizes certificates, reads them on upload, and verifies coverage.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "COI tracking software is a tool that centralizes every certificate of insurance, reads each one on upload"
+                }
+              ]
+            },
+            {
+              "name": "COI Tracker",
+              "type": "direct",
+              "what": "Software to automate the tasks of tracking and managing insurance COIs.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Automate the difficult tasks of tracking and managing your Insurance COIs"
+                }
+              ]
+            },
+            {
+              "name": "illumend",
+              "type": "direct",
+              "what": "Software that helps teams track COIs and confirm coverage against requirements.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "helps teams track certificates of insurance, confirm coverage against their own requirements"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors offer sophisticated features like automated document reading and verification, and at least one (NetVendor) is specifically niched for the property management industry.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "reads each one on upload, verifies coverage against your requirements"
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "COI Tracking Software in Property Management?"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Full-service compliance management from competitors can have high annual minimums, which may be prohibitive for smaller property management firms, suggesting a potential gap for a simple, affordable self-service tool.",
+              "basis": [
+                {
+                  "id": "P4",
+                  "quote": "starts at $17.80/vendor/year with a $10,000 annual minimum"
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Manually tracking Certificates of Insurance (COIs) for dozens or hundreds of vendors is tedious and prone to failure",
+            "finding": "Multiple sources confirm that tracking vendor COIs is a significant challenge due to the volume of documents, and that failures lead to compliance issues and financial risk.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "challenges in vendor COI tracking is the sheer volume of vendors"
+              },
+              {
+                "id": "S2.8",
+                "quote": "lack of COI tracking oversight can lead to missed deadlines, failed compliance"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "(Implicit assumption of an open market)",
+            "finding": "The market is crowded with direct competitors offering COI tracking software, including at least one company, NetVendor, that specifically targets property managers.",
+            "basis": [
+              {
+                "id": "S1.1",
+                "quote": "COI Tracker: Certificate of Insurance Tracking Software"
+              },
+              {
+                "id": "S1.7",
+                "quote": "COI Tracking Software in Property Management?"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A simple MVP that tracks vendor names and COI expiration dates and sends automated email reminders is highly feasible. An advanced product that uses OCR/AI to read and validate coverage details from uploaded PDFs would be hard."
+        },
+        "unproven": [
+          "Whether small or mid-sized property managers are underserved by existing solutions, including niche players like NetVendor or low-cost self-service plans from others.",
+          "The price point at which a new, simpler tool would be compelling enough to attract customers away from established alternatives.",
+          "Whether a basic expiration reminder tool is valuable enough, or if automated document validation is a required feature to compete effectively."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a \"Simple COI Tracker for Property Managers\" priced around $29/month. Run a small ($100) ad campaign on Google or LinkedIn targeting property managers to drive traffic and measure email sign-ups for a waitlist.",
+          "cost": "~$150 ($50 for landing page, $100 for ads) + 8 hours time",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The ad campaign achieves a reasonable click-through rate and a waitlist conversion rate that suggests real interest (e.g., >5 sign-ups), validating that the positioning and price are attractive.",
+        "stopIf": "The campaign generates few clicks or a very low conversion rate (<1%), indicating the offer is not compelling enough to capture interest in a crowded market."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a simple software tool for property managers to track vendor Certificates of Insurance (COIs). This would automate a tedious manual process and reduce the significant liability risk from uninsured vendors.",
+        "whoPays": "A property manager would pay to mitigate liability risk, ensure vendor compliance, and save administrative time.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "lack of COI tracking oversight can lead to missed deadlines, failed compliance, and more",
+              "domain": "cobblestonesoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is about a general vendor management software that includes COI tracking for any organization."
+            },
+            {
+              "id": "S2.11",
+              "quote": "one expired COI can trigger a cascade of problems—from breach of contract and fines to lost revenue",
+              "domain": "smartcompliance.co",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a general article about COI tracking systems for any compliance role, not just property managers."
+            },
+            {
+              "id": "S2.6",
+              "quote": "One of the primary challenges in vendor COI tracking is the sheer volume of vendors",
+              "domain": "trustlayer.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a general guide about vendor COI tracking for any organization, not specific to property managers."
+            }
+          ],
+          "observed": "Multiple sources state that managing vendor COIs is challenging due to the volume of documents and the need for proactive expiration tracking. Failures in this process are described as leading to compliance issues, missed deadlines, and significant financial and reputational risk.",
+          "inference": "This problem is particularly acute for property managers, who regularly engage with a large and diverse set of vendors."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.1",
+              "quote": "COI Tracker: Certificate of Insurance Tracking Software",
+              "domain": "coitracker.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a general COI tracking software, not specifically designed or marketed for property managers."
+            },
+            {
+              "id": "S1.7",
+              "quote": "What Is COI Tracking Software in Property Management?",
+              "domain": "netvendor.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This item is explicitly about COI tracking software for property management, matching the target customer."
+            }
+          ],
+          "directCompetitors": [
+            "coitracker.com",
+            "netvendor.com",
+            "getbcs.com",
+            "illumend.ai"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "NetVendor",
+              "type": "direct",
+              "what": "Provides COI tracking software specifically for property management, automating collection, validation, and monitoring.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "COI tracking software automates the collection, validation, and monitoring of vendor Certificates of Insurance",
+                  "domain": "netvendor.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This item is explicitly about COI tracking software for property management, matching the target customer."
+                }
+              ]
+            },
+            {
+              "name": "bcs",
+              "type": "direct",
+              "what": "A COI tracking software that centralizes certificates, reads them on upload, and verifies coverage.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "COI tracking software is a tool that centralizes every certificate of insurance, reads each one on upload",
+                  "domain": "getbcs.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general COI tracking software for any business, not specifically for property managers."
+                }
+              ]
+            },
+            {
+              "name": "COI Tracker",
+              "type": "direct",
+              "what": "Software to automate the tasks of tracking and managing insurance COIs.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Automate the difficult tasks of tracking and managing your Insurance COIs",
+                  "domain": "coitracker.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general COI tracking software, not specifically designed or marketed for property managers."
+                }
+              ]
+            },
+            {
+              "name": "illumend",
+              "type": "direct",
+              "what": "Software that helps teams track COIs and confirm coverage against requirements.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "helps teams track certificates of insurance, confirm coverage against their own requirements",
+                  "domain": "illumend.ai",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general COI tracking software for any business, not specifically for property managers."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors offer sophisticated features like automated document reading and verification, and at least one (NetVendor) is specifically niched for the property management industry.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "reads each one on upload, verifies coverage against your requirements",
+                  "domain": "getbcs.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a general COI tracking software for any business, not specifically for property managers."
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "COI Tracking Software in Property Management?",
+                  "domain": "netvendor.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This item is explicitly about COI tracking software for property management, matching the target customer."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Full-service compliance management from competitors can have high annual minimums, which may be prohibitive for smaller property management firms, suggesting a potential gap for a simple, affordable self-service tool.",
+              "basis": [
+                {
+                  "id": "P4",
+                  "quote": "starts at $17.80/vendor/year with a $10,000 annual minimum",
+                  "domain": "getbcs.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "This is a pricing page for a general COI tracking software, not specific to property managers."
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "A simple MVP that tracks vendor names and COI expiration dates and sends automated email reminders is highly feasible. An advanced product that uses OCR/AI to read and validate coverage details from uploaded PDFs would be hard."
+        },
+        "unproven": [
+          "Whether small or mid-sized property managers are underserved by existing solutions, including niche players like NetVendor or low-cost self-service plans from others.",
+          "The price point at which a new, simpler tool would be compelling enough to attract customers away from established alternatives.",
+          "Whether a basic expiration reminder tool is valuable enough, or if automated document validation is a required feature to compete effectively."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a \"Simple COI Tracker for Property Managers\" priced around $29/month. Run a small ($100) ad campaign on Google or LinkedIn targeting property managers to drive traffic and measure email sign-ups for a waitlist.",
+          "cost": "~$150 ($50 for landing page, $100 for ads) + 8 hours time",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The ad campaign achieves a reasonable click-through rate and a waitlist conversion rate that suggests real interest (e.g., >5 sign-ups), validating that the positioning and price are attractive.",
+        "stopIf": "The campaign generates few clicks or a very low conversion rate (<1%), indicating the offer is not compelling enough to capture interest in a crowded market.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "competition crowded → some: crowded needs three distinct domains judged competitors or alternatives"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "competition crowded → some: crowded needs three distinct domains judged competitors or alternatives"
+          ],
+          "dropped": [
+            "change: original text \"Manually tracking Certificates of Insurance (COIs) for dozen\" is not in Scout's memo",
+            "change: original text \"(Implicit assumption of an open market)\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-09-24T09:49:42.861Z",
+        "evidenceUpdatedAt": "2026-09-24T09:40:40.471Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-24T09:39:19.334Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "360d11ce-e898-5b22-8105-0b33d5649f34",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.0132,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-24T09:39:23.218Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "5716b1d4-c651-55ce-8b34-437ac610d25b",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-24T09:39:34.850Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "b89298b8-21d6-52ff-ba00-db010b84fbd1",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
+    },
+    {
+      "at": "2026-09-24T09:39:55.826Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "6e829529-a2ec-51dc-bf53-4a895aca0266",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-24T09:40:08.870Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "92e47fe5-c4cc-550f-9835-0f1c2f24687f",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-24T09:40:14.817Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "944aa865-4546-57ee-a239-f0b6e7722ec0",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-24T09:40:23.520Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "3d89ad17-8633-58c0-b8aa-74568eb62c24",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": [
+      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
+    ]
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.51968,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.48032
+    },
+    "monthToDateUsdBefore": 0.51968,
+    "spentThisRunUsd": 0.0252
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-24T09:40:40.471Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.0252,
+    "note": null
+  }
+}

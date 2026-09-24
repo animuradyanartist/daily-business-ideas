@@ -72,6 +72,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-09-24 — The Small Trucking Fleet's "Audit-Ready" IFTA Fuel Tax Hub — 92/100 high
 - 2026-09-23 — trend forecast — AI-Automated Towing Compliance (SCRA) +2 more
 - 2026-09-23 — The Towing Operator's "Lien-Ready" Impound & Disposal Hub — 95/100 high
 - 2026-09-22 — trend forecast — AI-Automated Insurance Claim Documentation for Contractors +2 more

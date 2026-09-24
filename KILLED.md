@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-24
+- **The Construction Subcontractor's Certified Payroll Generator** — A very strong opportunity, but the weekly frequency and direct link to cash flow may be offset by the complexity of integrating with dozens of payroll systems. The IFTA market feels more standardized.
+- **The Small Manufacturer's ISO 9001 Compliance Hub** — Killed. The audit is annual, making the pain less frequent than the quarterly IFTA deadline. The buyer may be less tech-savvy and harder to reach online.
+- **The Property Manager's Vendor COI Tracker** — Killed. This is a risk-mitigation tool ("vitamin"), not a mandatory, deadline-driven compliance tool ("painkiller"). The pain is latent until an incident occurs, making the purchase less urgent than a quarterly tax filing.
+
 ## 2026-09-23
 - **The Self-Managed HOA's Violation & ARC Tracker** — Killed. High risk of state-by-state legal variation and the buyer (volunteer board) has high churn and questionable willingness-to-pay.
 - **The Shopify Merchant's "True Profit" Returns Dashboard** — Killed. This is an efficiency tool ("vitamin"), not a compliance painkiller. It operates in the hyper-competitive Shopify App Store ecosystem.

@@ -19006,6 +19006,1421 @@
       "fetchedAt": "2026-09-23T09:40:13.346Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|certified payroll mistakes": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|davis bacon act compliance": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "davis bacon act compliance",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": 16.56,
+        "adCompetition": 0.27,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 21,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 04:41:03 +00:00"
+      }
+    },
+    "labs|united states|en|certified payroll requirements": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "certified payroll requirements",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 22.87,
+        "adCompetition": 0.22,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 08:15:00 +00:00"
+      }
+    },
+    "labs|united states|en|payroll software": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "payroll software",
+        "searchVolume": 33100,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 14800
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 18100
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40500
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 22200
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 27100
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40500
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40500
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 27100
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 27100
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 22200
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 18100
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40500
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 33100
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 14800
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 9900
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 12100
+          }
+        ],
+        "cpcUsd": 128.41,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -45,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 10:07:34 +00:00"
+      }
+    },
+    "labs|united states|en|certified payroll generator": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|wh 347 form automation": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|payroll pricing": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "payroll pricing",
+        "searchVolume": 480,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 880
+          }
+        ],
+        "cpcUsd": 92.03,
+        "adCompetition": 0.12,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 51,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 09:38:25 +00:00"
+      }
+    },
+    "labs|united states|en|best certified payroll tools": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|certified payroll software cost": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta reporting errors": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta fuel tax penalty": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to calculate ifta": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to calculate ifta",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 3.38,
+        "adCompetition": 0.43,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-14 07:46:04 +00:00"
+      }
+    },
+    "labs|united states|en|ifta software": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "ifta software",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 18.24,
+        "adCompetition": 0.57,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 12:53:42 +00:00"
+      }
+    },
+    "labs|united states|en|ifta reporting tool": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta mileage tracker": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "ifta mileage tracker",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": 10.55,
+        "adCompetition": 0.57,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -29,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 01:37:29 +00:00"
+      }
+    },
+    "labs|united states|en|ifta software cost": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best ifta reporting": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta compliance pricing": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|vendor coi tracking issues": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|uninsured vendor liability": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|property management risk": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "property management risk",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": 7.31,
+        "adCompetition": 0.09,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 75,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 02:27:27 +00:00"
+      }
+    },
+    "labs|united states|en|coi tracker": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "coi tracker",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 33.89,
+        "adCompetition": 0.68,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-17 22:37:56 +00:00"
+      }
+    },
+    "labs|united states|en|vendor insurance software": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|certificate of insurance management": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": true,
+      "data": {
+        "keyword": "certificate of insurance management",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 20.32,
+        "adCompetition": 0.56,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -75,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 20:03:12 +00:00"
+      }
+    },
+    "labs|united states|en|coi tracking pricing": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best coi management": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|vendor compliance software cost": {
+      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "returned": false,
+      "data": null
     }
   }
 }

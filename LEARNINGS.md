@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-24
+- A significant opportunity exists in unbundling a single, high-pain compliance feature from expensive, complex enterprise suites and offering it as a best-in-class point solution for the SMB segment.
+- The most powerful validation for a compliance SaaS idea is a market that already supports multiple solutions at vastly different price points (e.g., $25/quarter manual tools vs. $50/month/truck automated suites). This demonstrates a deep and diverse willingness to pay.
+- For fragmented, non-technical SMB markets, the "cost of doing nothing" (penalties, audits, business disruption) is a more powerful sales driver than ROI or time savings alone.
+- The presence of a hardware-mandate (like ELDs) can be a feature, as it creates a standardized, digital data source that enables powerful automation opportunities for third-party software.
+
 ## 2026-09-23 (trends)
 - A powerful B2B niche exists where a business's primary profit center is directly tied to a legally-mandated, high-friction administrative process. Automating that process is a direct lever on profitability.
 - High-profile federal enforcement actions (like the DOJ suing towers under the SCRA) can serve as a powerful, market-wide "why now" catalyst, even for compliance with state-level regulations.

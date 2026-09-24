@@ -4271,6 +4271,444 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://softwarefinder.com/resources/best-payroll-software": {
+      "fetchedAt": "2026-09-24T09:40:37.343Z",
+      "data": {
+        "url": "https://softwarefinder.com/resources/best-payroll-software",
+        "finalUrl": "https://softwarefinder.com/resources/best-payroll-software",
+        "retrievedAt": "2026-09-24T09:40:37.343Z",
+        "status": 200,
+        "error": null,
+        "title": "9 Best Payroll Software: Pricing and Features| 2026",
+        "description": "Discover the top Payroll software for your business. Compare the best systems for direct deposits, international payments, and ease of use, based on your needs.",
+        "priceMentions": [
+          {
+            "text": "$8/user",
+            "billingUnit": true,
+            "context": "(Editor&#x27;s Choice) 4.9/5 Read Reviews Pricing starts at $8/user/month plus a base fee of $40/month Get a Custom Quote 14-da"
+          },
+          {
+            "text": "$40/month",
+            "billingUnit": true,
+            "context": "Reviews Pricing starts at $8/user/month plus a base fee of $40/month Get a Custom Quote 14-day free trial View Demo Workforce ma"
+          },
+          {
+            "text": "$10/employee",
+            "billingUnit": true,
+            "context": "sses of all sizes BambooHR 4.3/5 Read Reviews Starting from $10/employee/month Get a Custom Quote 7-day free trial View Demo Perform"
+          },
+          {
+            "text": "$5/employee",
+            "billingUnit": true,
+            "context": "sinesses of all sizes Deel 4.8/5 Read Reviews Starting from $5/employee/month Get a Custom Quote N/A View Demo Self-service onboard"
+          },
+          {
+            "text": "$38/month",
+            "billingUnit": true,
+            "context": "inesses QuickBooks Payroll 4.4/5 Read Reviews Starting from $38/month Get a Custom Quote 30-day free trial View Demo Advanced acc"
+          },
+          {
+            "text": "$40",
+            "billingUnit": false,
+            "context": "he platform offers a starting price of $8/user/month plus a $40 base fee and builds on it with modular pricing across four"
+          },
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "its their needs. The modules include: Deel PEO: starting at $0 Deel US Payroll: Custom pricing Deel Global Payroll: Starti"
+          },
+          {
+            "text": "$29/employee",
+            "billingUnit": true,
+            "context": "US Payroll: Custom pricing Deel Global Payroll: Starting at $29/employee/month Deel Contractor Management: starting at $49/contracto"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://connecteam.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:37.340Z",
+      "data": {
+        "url": "https://connecteam.com/pricing",
+        "finalUrl": "https://connecteam.com/pricing/",
+        "retrievedAt": "2026-09-24T09:40:37.340Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Connecteam",
+        "description": "Connecteam offers fixed price, affordable plans for any business! Visit our pricing page for more details.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "ly free for up to 10 users *See full list of features below $0 Free for life Join for free Compare plans for each hub Oper"
+          },
+          {
+            "text": "$ 29 /mo",
+            "billingUnit": true,
+            "context": "ling Forms Quick Tasks Basic Kick-start with the essentials $ 29 /mo For the first 30 users $0.8 / month for each additional use"
+          },
+          {
+            "text": "$0.8 / month",
+            "billingUnit": true,
+            "context": "k-start with the essentials $ 29 /mo For the first 30 users $0.8 / month for each additional user $ 35 /mo For the first 30 users $1"
+          },
+          {
+            "text": "$ 35 /mo",
+            "billingUnit": true,
+            "context": "or the first 30 users $0.8 / month for each additional user $ 35 /mo For the first 30 users $1.0 / month for each additional use"
+          },
+          {
+            "text": "$1.0 / month",
+            "billingUnit": true,
+            "context": "th for each additional user $ 35 /mo For the first 30 users $1.0 / month for each additional user Start for free See details Real-ti"
+          },
+          {
+            "text": "$ 49 /mo",
+            "billingUnit": true,
+            "context": "en tooltip Why Advanced? Advanced Work faster and save time $ 49 /mo For the first 30 users $2.5 / month for each additional use"
+          },
+          {
+            "text": "$2.5 / month",
+            "billingUnit": true,
+            "context": "d Work faster and save time $ 49 /mo For the first 30 users $2.5 / month for each additional user $ 59 /mo For the first 30 users $3"
+          },
+          {
+            "text": "$ 59 /mo",
+            "billingUnit": true,
+            "context": "or the first 30 users $2.5 / month for each additional user $ 59 /mo For the first 30 users $3.0 / month for each additional use"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://softwarefinder.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:37.344Z",
+      "data": {
+        "url": "https://softwarefinder.com/pricing",
+        "finalUrl": "https://softwarefinder.com/pricing",
+        "retrievedAt": "2026-09-24T09:40:37.344Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.protaxcommunity.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:37.342Z",
+      "data": {
+        "url": "https://www.protaxcommunity.com/pricing",
+        "finalUrl": "https://www.protaxcommunity.com/pricing",
+        "retrievedAt": "2026-09-24T09:40:37.342Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://connecteam.com/best-construction-payroll-software/": {
+      "fetchedAt": "2026-09-24T09:40:37.338Z",
+      "data": {
+        "url": "https://connecteam.com/best-construction-payroll-software/",
+        "finalUrl": "https://connecteam.com/best-payroll-software-solutions-small-businesses/",
+        "retrievedAt": "2026-09-24T09:40:37.338Z",
+        "status": 200,
+        "error": null,
+        "title": "5 Best Payroll Software for Small Businesses (In-Depth Comparison)",
+        "description": "Best Payroll Software for Small Businesses: Gusto · QuickBooks Online · Paychex · OnPay · Ripplin",
+        "priceMentions": [
+          {
+            "text": "$49",
+            "billingUnit": false,
+            "context": "e alerts Limited work management features Pricing Starts at $49 base fee + $6 per seat per month Trial: No Free Plan: No Re"
+          },
+          {
+            "text": "$6 per seat",
+            "billingUnit": true,
+            "context": "d work management features Pricing Starts at $49 base fee + $6 per seat per month Trial: No Free Plan: No Read our in-depth Gusto r"
+          },
+          {
+            "text": "$25,000",
+            "billingUnit": false,
+            "context": "the platform&rsquo;s tax guarantee. QuickBooks covers up to $25,000 if you receive tax penalties due to mistakes on the company"
+          },
+          {
+            "text": "$38/user",
+            "billingUnit": true,
+            "context": "ng curve Limited project management tools Pricing Starts at $38/user/month Trial: Yes — 30-day Free Plan: No Visit QuickBooks On"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.protaxcommunity.com/t/payroll-software-recommendation/5081": {
+      "fetchedAt": "2026-09-24T09:40:37.341Z",
+      "data": {
+        "url": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
+        "finalUrl": "https://www.protaxcommunity.com/t/payroll-software-recommendation/5081",
+        "retrievedAt": "2026-09-24T09:40:37.341Z",
+        "status": 200,
+        "error": null,
+        "title": "Payroll software - recommendation - Accounting and Bookkeeping - protaxcommunity.com",
+        "description": "Hello everyone, \nI am looking for a best payroll software because my business is growing and getting more busier. I want to save my time in the payroll. \nPlease give me your advice and recommendation, which software, the…",
+        "priceMentions": [
+          {
+            "text": "$125 per year",
+            "billingUnit": true,
+            "context": "of years ago - it worked but I did switch for some reason. $125 per year for the full version also sounds like a good deal. mitch No"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://gomotive.com/products/features/ifta-reporting-automation/": {
+      "fetchedAt": "2026-09-24T09:40:38.111Z",
+      "data": {
+        "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
+        "finalUrl": "https://gomotive.com/products/features/ifta-reporting-automation/",
+        "retrievedAt": "2026-09-24T09:40:38.111Z",
+        "status": 200,
+        "error": null,
+        "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation | Motive",
+        "description": "Automate IFTA compliance with Motive’s platform. Simplify reporting, reduce errors, & boost efficiency with one-click report generation.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.geotab.com/fleet-management-solutions/ifta/": {
+      "fetchedAt": "2026-09-24T09:40:38.114Z",
+      "data": {
+        "url": "https://www.geotab.com/fleet-management-solutions/ifta/",
+        "finalUrl": "https://www.geotab.com/fleet-management-solutions/ifta/",
+        "retrievedAt": "2026-09-24T09:40:38.114Z",
+        "status": 200,
+        "error": null,
+        "title": "IFTA Reporting Software: Easily Automate IFTA Reporting | Geotab",
+        "description": "Track fuel costs, integrate fuel cards, and automate IFTA reporting with Geotab’s open telematics platform IFTA software. Learn more about our products.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.truckingoffice.com/blog/5-common-ifta-reporting-mistakes/": {
+      "fetchedAt": "2026-09-24T09:40:38.116Z",
+      "data": {
+        "url": "https://www.truckingoffice.com/blog/5-common-ifta-reporting-mistakes/",
+        "finalUrl": "https://www.truckingoffice.com/blog/5-common-ifta-reporting-mistakes/",
+        "retrievedAt": "2026-09-24T09:40:38.116Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.geotab.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:38.115Z",
+      "data": {
+        "url": "https://www.geotab.com/pricing",
+        "finalUrl": "https://www.geotab.com/pricing/",
+        "retrievedAt": "2026-09-24T09:40:38.115Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.truckingoffice.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:38.117Z",
+      "data": {
+        "url": "https://www.truckingoffice.com/pricing",
+        "finalUrl": "https://www.truckingoffice.com/pricing",
+        "retrievedAt": "2026-09-24T09:40:38.117Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://gomotive.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:38.113Z",
+      "data": {
+        "url": "https://gomotive.com/pricing",
+        "finalUrl": "https://gomotive.com/get-in-touch/?id=pricing",
+        "retrievedAt": "2026-09-24T09:40:38.113Z",
+        "status": 200,
+        "error": null,
+        "title": "Motive Pricing | ELD | Dash Cam | Motive",
+        "description": "With Motive, minimize violations, boost productivity, decrease audit risk, and lower insurance costs all-in-one fleet management platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.netvendor.com/blog/what-is-coi-tracking-software": {
+      "fetchedAt": "2026-09-24T09:40:39.998Z",
+      "data": {
+        "url": "https://www.netvendor.com/blog/what-is-coi-tracking-software",
+        "finalUrl": "https://www.netvendor.com/blog/what-is-coi-tracking-software",
+        "retrievedAt": "2026-09-24T09:40:39.998Z",
+        "status": 200,
+        "error": null,
+        "title": "What Is COI Tracking Software in Property Management? | NetVendor",
+        "description": "NetVendor&#x27;s blog on compliance-led vendor management for multifamily and commercial real estate, covering onboarding, credentialing, and risk reduction.",
+        "priceMentions": [
+          {
+            "text": "$30,000",
+            "billingUnit": false,
+            "context": "ging 462 vendors, recovered more than 30 hours per week and $30,000 in annual labor costs after replacing manual COI tracking w"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.getbcs.com/coi-tracking": {
+      "fetchedAt": "2026-09-24T09:40:40.001Z",
+      "data": {
+        "url": "https://www.getbcs.com/coi-tracking",
+        "finalUrl": "https://www.getbcs.com/coi-tracking",
+        "retrievedAt": "2026-09-24T09:40:40.001Z",
+        "status": 200,
+        "error": null,
+        "title": "COI Tracking Software | Certificate of Insurance Tracking | bcs",
+        "description": "bcs COI tracking software reads every certificate, endorsement, and policy on upload and shows vendors what to fix in seconds. Try free for up to 25 vendors.",
+        "priceMentions": [
+          {
+            "text": "$1,000,000",
+            "billingUnit": false,
+            "context": "OCCUR ☒ Y Y GLO026958111 7/1/2025 7/1/2027 EACH OCCURRENCE $1,000,000 DAMAGE TO RENTED PREMISES $10,000 PERSONAL & ADV INJURY $1,"
+          },
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "1/2027 EACH OCCURRENCE $1,000,000 DAMAGE TO RENTED PREMISES $10,000 PERSONAL & ADV INJURY $1,000,000 GENERAL AGGREGATE $2,000,0"
+          },
+          {
+            "text": "$2,000,000",
+            "billingUnit": false,
+            "context": "$10,000 PERSONAL & ADV INJURY $1,000,000 GENERAL AGGREGATE $2,000,000 A AUTOMOBILE LIABILITY ANY AUTO ☒ Y N AUT884210566 7/1/2025"
+          },
+          {
+            "text": "$500,000",
+            "billingUnit": false,
+            "context": "027 E.L. EACH ACCIDENT $1,000,000 E.L. DISEASE, EA EMPLOYEE $500,000 DESCRIPTION OF OPERATIONS / LOCATIONS / VEHICLES Certificat"
+          },
+          {
+            "text": "$100,000",
+            "billingUnit": false,
+            "context": "0, requires $2,000,000 DAMAGE TO PREMISES $10,000, requires $100,000 Graded in 4.2 seconds, this is what your vendor sees Instan"
+          },
+          {
+            "text": "$0.95",
+            "billingUnit": false,
+            "context": "you need to collect, review, and track compliance in-house. $0.95 per vendor / month (price dependent on vendor volume); free"
+          },
+          {
+            "text": "$120,000",
+            "billingUnit": false,
+            "context": "irectors and officers (D&O) coverage faced claims averaging $120,000 over the last two years, yet most companies still lack prop"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.netvendor.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:40.000Z",
+      "data": {
+        "url": "https://www.netvendor.com/pricing",
+        "finalUrl": "https://www.netvendor.com/pricing",
+        "retrievedAt": "2026-09-24T09:40:40.000Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.getbcs.com/pricing": {
+      "fetchedAt": "2026-09-24T09:40:40.002Z",
+      "data": {
+        "url": "https://www.getbcs.com/pricing",
+        "finalUrl": "https://www.getbcs.com/pricing-and-plans",
+        "retrievedAt": "2026-09-24T09:40:40.002Z",
+        "status": 200,
+        "error": null,
+        "title": "COI Tracking Software Pricing & Plans | bcs",
+        "description": "bcs COI tracking starts free. No credit card required. Self-service from $0.95/vendor/month. Full-service from $17.80/vendor/year. Compare plans.",
+        "priceMentions": [
+          {
+            "text": "$11.40",
+            "billingUnit": false,
+            "context": "e — no credit card, no trial period. Self-service plans run $11.40/vendor/year ($0.95/vendor/month). Full-service compliance m"
+          },
+          {
+            "text": "$0.95",
+            "billingUnit": false,
+            "context": "no trial period. Self-service plans run $11.40/vendor/year ($0.95/vendor/month). Full-service compliance management, where bc"
+          },
+          {
+            "text": "$17.80",
+            "billingUnit": false,
+            "context": "handles vendor outreach and renewals end-to-end, starts at $17.80/vendor/year with a $10,000 annual minimum. Every tier inclu"
+          },
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "nd renewals end-to-end, starts at $17.80/vendor/year with a $10,000 annual minimum. Every tier includes AI-powered certificate"
+          },
+          {
+            "text": "$35",
+            "billingUnit": false,
+            "context": "hours per week on compliance management. At a conservative $35/hour, that's $27,300–$36,400 in recovered labor annually —"
+          },
+          {
+            "text": "$27,300",
+            "billingUnit": false,
+            "context": "n compliance management. At a conservative $35/hour, that's $27,300–$36,400 in recovered labor annually — before accounting for"
+          },
+          {
+            "text": "$36,400",
+            "billingUnit": false,
+            "context": "ance management. At a conservative $35/hour, that's $27,300–$36,400 in recovered labor annually — before accounting for the lia"
+          },
+          {
+            "text": "$2,280/year",
+            "billingUnit": true,
+            "context": "dles it) Annual cost (200 vendors) $27,300–$36,400 in Labor $2,280/year (200 vendors × $0.95 × 12) Custom quote Renewal tracking Ma"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.illumend.ai/": {
+      "fetchedAt": "2026-09-24T09:40:40.002Z",
+      "data": {
+        "url": "https://www.illumend.ai/",
+        "finalUrl": "https://www.illumend.ai/",
+        "retrievedAt": "2026-09-24T09:40:40.002Z",
+        "status": 200,
+        "error": null,
+        "title": "COI Tracking Software | illumend, from myCOI",
+        "description": "Unlock effortless compliance with illumend’s AI-driven insurance compliance software. Automate renewals, monitor COIs, uncover risk gaps & get audit-ready fast.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.illumend.ai/pricing": {
+      "fetchedAt": "2026-09-24T09:40:40.003Z",
+      "data": {
+        "url": "https://www.illumend.ai/pricing",
+        "finalUrl": "https://www.illumend.ai/pricing",
+        "retrievedAt": "2026-09-24T09:40:40.003Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }
