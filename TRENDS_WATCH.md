@@ -420,6 +420,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated IFTA Fuel Tax Reporting** · Using AI to automate the generation of quarterly fuel tax reports for interstate trucking fleets. · flagged 2026-09-24 · last checked 2026-09-24 · [origin memo](trends/2026-09-24.md)
 - **AI-Automated Corporate Legal Spend Management** · Using AI to automate the review of invoices from outside counsel to control corporate legal costs. · flagged 2026-09-24 · last checked 2026-09-24 · [origin memo](trends/2026-09-24.md)
 - **"Agentic" AI for Proactive Customer Retention** · Using autonomous AI agents to monitor customer signals and proactively reduce churn for service businesses. · flagged 2026-09-24 · last checked 2026-09-24 · [origin memo](trends/2026-09-24.md)
+- **AI-Automated Records Retention Compliance** · Using AI to automate the auditable capture and supervision of electronic communications for financial services firms. · flagged 2026-09-25 · last checked 2026-09-25 · [origin memo](trends/2026-09-25.md)
+- **AI-Powered Data Security for Employee Offboarding** · Using AI to secure corporate data and prevent exfiltration when an employee departs. · flagged 2026-09-25 · last checked 2026-09-25 · [origin memo](trends/2026-09-25.md)
+- **AI-Powered "Digital Twin" for Career & Financial Planning** · Using AI to create dynamic simulations of a person's career and financial life to model the long-term impact of decisions. · flagged 2026-09-25 · last checked 2026-09-25 · [origin memo](trends/2026-09-25.md)
 
 
 ## ➡️ Active — plateauing
@@ -707,3 +710,5 @@ _(empty)_
 <!-- 2026-09-23 status-update directive: 🚀 | AI-Powered "Business-in-a-Box" for Home Service Trades -->
 
 <!-- 2026-09-24 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-09-25 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->

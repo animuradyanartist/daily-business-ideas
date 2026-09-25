@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-25 (trends)
+- A change in a seemingly minor administrative rule, like extending a record retention period, can be a powerful "why now" catalyst that creates an entirely new software category.
+- The pain is not always the *task* itself, but the long-term *liability* associated with the proof of that task.
+- A defensible wedge against large, bundled incumbents can be an obsessive focus on doing one critical, unglamorous job better than anyone else, especially when that job is tied to a high-stakes compliance risk.
+
+---
+
 ## 2026-09-25
 *   A change in a seemingly minor administrative rule, like extending a record retention period, can be a powerful "why now" catalyst that creates an entirely new software category.
 *   The pain is not always the *task* itself, but the long-term *liability* associated with the proof of that task.
