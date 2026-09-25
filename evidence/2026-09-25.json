@@ -6,8 +6,8 @@
     "memo": "ideas/2026-09-25.md"
   },
   "createdAt": "2026-09-25T09:56:31.113Z",
-  "updatedAt": "2026-09-25T09:56:31.115Z",
-  "attempts": 1,
+  "updatedAt": "2026-09-25T10:44:43.988Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -1657,7 +1657,7 @@
         }
       },
       "status": "partial",
-      "attempts": 1,
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -4879,6 +4879,16 @@
       "status": "charged",
       "budget": "recorded",
       "costEstimated": false
+    },
+    {
+      "at": "2026-09-25T10:44:47.123Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "8e926788-cc64-5fea-9e1a-80d3a2d56c32",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
     }
   ],
   "provider": {
@@ -4898,14 +4908,14 @@
       "month": "2026-09",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.54688,
+      "chargedUsd": 0.5722,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.45312
+      "remainingUsd": 1.4278
     },
-    "monthToDateUsdBefore": 0.54688,
-    "spentThisRunUsd": 0.02532
+    "monthToDateUsdBefore": 0.5722,
+    "spentThisRunUsd": 0.002
   },
   "marketSupport": {
     "united states|en": {
@@ -4916,29 +4926,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 27,
-    "keywordsFromCache": 0,
-    "labsUsd": 0.01524,
-    "serpQueries": 6,
-    "serpsFromCache": 0,
-    "serpUsd": 0.012,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 9,
+    "labsUsd": 0,
+    "serpQueries": 1,
+    "serpsFromCache": 1,
+    "serpUsd": 0.002,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 27
+        "ideas": 1,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.02724,
-    "reservedUsd": 0.029964
+    "totalUsd": 0.002,
+    "reservedUsd": 0.0022
   },
   "lastGather": {
-    "at": "2026-09-25T09:57:45.143Z",
+    "at": "2026-09-25T10:45:03.735Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.02532,
+    "pendingIdeas": 1,
+    "spentUsd": 0.002,
     "note": null
   }
 }
