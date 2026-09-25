@@ -72,6 +72,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-09-25 — The Independent Auto Dealer's "10-Year Audit-Proof" OFAC Compliance Hub — 85/100 high
 - 2026-09-24 — trend forecast — AI-Automated IFTA Fuel Tax Reporting +2 more
 - 2026-09-24 — The Small Trucking Fleet's "Audit-Ready" IFTA Fuel Tax Hub — 92/100 high
 - 2026-09-23 — trend forecast — AI-Automated Towing Compliance (SCRA) +2 more

@@ -4797,6 +4797,246 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/": {
+      "fetchedAt": "2026-09-25T09:57:41.995Z",
+      "data": {
+        "url": "https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/",
+        "finalUrl": "https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/",
+        "retrievedAt": "2026-09-25T09:57:41.995Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://us.dealertrack.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:41.996Z",
+      "data": {
+        "url": "https://us.dealertrack.com/pricing",
+        "finalUrl": "https://us.dealertrack.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:41.996Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://dilisense.com/en/insights/ofac-sdn-list": {
+      "fetchedAt": "2026-09-25T09:57:41.993Z",
+      "data": {
+        "url": "https://dilisense.com/en/insights/ofac-sdn-list",
+        "finalUrl": "https://dilisense.com/en/insights/ofac-sdn-list",
+        "retrievedAt": "2026-09-25T09:57:41.993Z",
+        "status": 200,
+        "error": null,
+        "title": "OFAC SDN List: How Names Are Listed, Screened and Blocked",
+        "description": "The OFAC SDN List names blocked persons whose assets are frozen. Learn how OFAC lists them, how to read an entry and what to do when a screen hits a match.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://dilisense.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:41.994Z",
+      "data": {
+        "url": "https://dilisense.com/pricing",
+        "finalUrl": "https://dilisense.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:41.994Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.totaldealercompliance.com/office-of-foreign-assets-control.html": {
+      "fetchedAt": "2026-09-25T09:57:41.990Z",
+      "data": {
+        "url": "https://www.totaldealercompliance.com/office-of-foreign-assets-control.html",
+        "finalUrl": "https://www.totaldealercompliance.com/office-of-foreign-assets-control.html",
+        "retrievedAt": "2026-09-25T09:57:41.990Z",
+        "status": 200,
+        "error": null,
+        "title": "OFAC Compliance for Car Dealerships",
+        "description": "Are you sure your car dealership is compliant? Visit Total Dealer Compliance now to learn ECOA Compliance and protect your dealership!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.totaldealercompliance.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:41.992Z",
+      "data": {
+        "url": "https://www.totaldealercompliance.com/pricing",
+        "finalUrl": "https://www.totaldealercompliance.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:41.992Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.sparefoot.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:42.509Z",
+      "data": {
+        "url": "https://www.sparefoot.com/pricing",
+        "finalUrl": "https://www.sparefoot.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:42.509Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process": {
+      "fetchedAt": "2026-09-25T09:57:42.509Z",
+      "data": {
+        "url": "https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process",
+        "finalUrl": "https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process",
+        "retrievedAt": "2026-09-25T09:57:42.509Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://ai-lean.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:42.508Z",
+      "data": {
+        "url": "https://ai-lean.com/pricing",
+        "finalUrl": "https://ai-lean.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:42.508Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://ai-lean.com/resources/state-guides/texas-lien-laws": {
+      "fetchedAt": "2026-09-25T09:57:42.507Z",
+      "data": {
+        "url": "https://ai-lean.com/resources/state-guides/texas-lien-laws",
+        "finalUrl": "https://ai-lean.com/resources/state-guides/texas-lien-laws",
+        "retrievedAt": "2026-09-25T09:57:42.507Z",
+        "status": 200,
+        "error": null,
+        "title": "Texas Self-Storage Lien Laws: Complete 2025 Compliance Guide for Operators | Ai Lean",
+        "description": "Navigate Texas self-storage lien laws with confidence using our comprehensive 2025 compliance guide. Learn about proper notice requirements, auction procedures, handling of excess funds, and recent legal updates. Discover how automation can reduce compliance risks and streamline your lien process. E",
+        "priceMentions": [
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "ance New Lien Law Pitfalls: How a 9pm Notice Could Cost You $1000 Automating Lien Compliance: The Secret Weapon for Self-Sto"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.selfstorage.org/pricing": {
+      "fetchedAt": "2026-09-25T09:57:42.506Z",
+      "data": {
+        "url": "https://www.selfstorage.org/pricing",
+        "finalUrl": "https://www.selfstorage.org/pricing",
+        "retrievedAt": "2026-09-25T09:57:42.506Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws": {
+      "fetchedAt": "2026-09-25T09:57:42.505Z",
+      "data": {
+        "url": "https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws",
+        "finalUrl": "https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws",
+        "retrievedAt": "2026-09-25T09:57:42.505Z",
+        "status": 200,
+        "error": null,
+        "title": "Self Storage Association (SSA) > Legal > Legal Resource Center > Topics",
+        "description": "Self Storage Association",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://instantgmp.com/": {
+      "fetchedAt": "2026-09-25T09:57:43.934Z",
+      "data": {
+        "url": "https://instantgmp.com/",
+        "finalUrl": "https://instantgmp.com/",
+        "retrievedAt": "2026-09-25T09:57:43.934Z",
+        "status": 202,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://instantgmp.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:43.935Z",
+      "data": {
+        "url": "https://instantgmp.com/pricing",
+        "finalUrl": "https://instantgmp.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:43.935Z",
+        "status": 202,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://mitti.com/apps/top-5-gmp-software": {
+      "fetchedAt": "2026-09-25T09:57:43.937Z",
+      "data": {
+        "url": "https://mitti.com/apps/top-5-gmp-software",
+        "finalUrl": "https://mitti.com/apps/top-5-gmp-software",
+        "retrievedAt": "2026-09-25T09:57:43.937Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 5 GMP Compliance Software of 2026 | Mitti (by SafetyCulture)",
+        "description": "Compare the top 5 GMP compliance software tools for 2026 and find the right fit to help your manufacturing business meet GMP standards.",
+        "priceMentions": [
+          {
+            "text": "$24/seat",
+            "billingUnit": true,
+            "context": "on : Available for teams of up to 10 Pricing : Premium plan $24/seat/month (with free trial period) Platforms supported : Availa"
+          },
+          {
+            "text": "$100/user",
+            "billingUnit": true,
+            "context": "c security Free Version : Not available Pricing : Starts at $100/user/month Platforms supported : Available as a mobile app (iOS"
+          },
+          {
+            "text": "$100/seat",
+            "billingUnit": true,
+            "context": "SafetyCulture) Yes $24/seat/month* Yes Tulip Not available $100/seat/month* Yes Qualio Not available Contact vendor for pricing"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.packaging-gateway.com/pricing": {
+      "fetchedAt": "2026-09-25T09:57:43.937Z",
+      "data": {
+        "url": "https://www.packaging-gateway.com/pricing",
+        "finalUrl": "https://www.packaging-gateway.com/pricing",
+        "retrievedAt": "2026-09-25T09:57:43.937Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/": {
+      "fetchedAt": "2026-09-25T09:57:43.936Z",
+      "data": {
+        "url": "https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/",
+        "finalUrl": "https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/",
+        "retrievedAt": "2026-09-25T09:57:43.936Z",
+        "status": 200,
+        "error": null,
+        "title": "FDA tightens cosmetic packaging rules",
+        "description": "The US Food and Drug Administration has released new guidance focused on packaging technologies and tamper-resistant measures for cosmetic products.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
     }
   }
 }

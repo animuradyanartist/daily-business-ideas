@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-25
+*   **The Self-Storage Facility's "Lien Sale-Ready" Delinquency Manager** — Killed. The state-by-state variation in lien sale laws makes a national product complex to build and maintain. OFAC is a single federal rule.
+*   **The Small-Scale Cosmetics Maker's "FDA-Ready" GMP Batch Record Log** — Killed. The "why now" (MoCRA 2022) is strong, but the market is newer and less defined than auto dealers, and their willingness to pay for compliance software is less proven.
+*   **The Small Landlord's "Fair-Housing-Ready" Applicant Screening Workflow** — Killed. A high-stakes problem, but the market has many existing solutions and the legal risks of providing a tool that influences tenant selection are significant.
+
 ## 2026-09-24
 - **The Construction Subcontractor's Certified Payroll Generator** — A very strong opportunity, but the weekly frequency and direct link to cash flow may be offset by the complexity of integrating with dozens of payroll systems. The IFTA market feels more standardized.
 - **The Small Manufacturer's ISO 9001 Compliance Hub** — Killed. The audit is annual, making the pain less frequent than the quarterly IFTA deadline. The buyer may be less tech-savvy and harder to reach online.

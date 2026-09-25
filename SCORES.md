@@ -103,6 +103,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 88 | high | 2026-06-08 | The Independent Insurance Adjuster's "Claim Narrative" AI Assistant |
 | 87 | high | 2026-06-09 | The "Proof of Patrol" & Guard Welfare System for Security Companies |
 | 86 | high | 2026-06-07 | The "Know Your Rights & Rules" Hub for Self-Managed HOAs |
+| 85 | high | 2026-09-25 | The Independent Auto Dealer's "10-Year Audit-Proof" OFAC Compliance Hub |
 | 85 | high | 2026-06-06 | The Local Service Business "Call Source" Tracking Kit |
 | 84 | high | 2026-06-05 | The Independent Freight Broker's "Carrier Vetting & Compliance" Hub |
 | 82 | high | 2026-06-03 | The Small Construction Co's "Know Your Number" Job Costing Kit |

@@ -20421,6 +20421,1582 @@
       "fetchedAt": "2026-09-24T09:39:19.334Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|ofac compliance auto dealers": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "ofac compliance auto dealers",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-17 20:04:00 +00:00"
+      }
+    },
+    "labs|united states|en|auto dealer customer screening": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ofac penalties car sales": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ofac screening": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "ofac screening",
+        "searchVolume": 590,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 31.19,
+        "adCompetition": 0.45,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-15 10:24:44 +00:00"
+      }
+    },
+    "labs|united states|en|ofac compliance software": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "ofac compliance software",
+        "searchVolume": 110,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.03,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -86,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 20:14:50 +00:00"
+      }
+    },
+    "labs|united states|en|auto dealer compliance tool": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ofac screening cost": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best ofac compliance tools": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ofac software pricing": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|self storage lien sale laws": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|self storage delinquency process": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|wrongful lien sale lawsuit": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|lien sale software": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "lien sale software",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-06-12 19:33:39 +00:00"
+      }
+    },
+    "labs|united states|en|self storage management software": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "self storage management software",
+        "searchVolume": 390,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 590
+          }
+        ],
+        "cpcUsd": 20.56,
+        "adCompetition": 0.45,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -76,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 11:41:04 +00:00"
+      }
+    },
+    "labs|united states|en|delinquency management system": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "delinquency management system",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.71,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": null,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-14 20:49:46 +00:00"
+      }
+    },
+    "labs|united states|en|lien sale software pricing": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best self storage software": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "best self storage software",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 24.01,
+        "adCompetition": 0.68,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -43,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 17:33:14 +00:00"
+      }
+    },
+    "labs|united states|en|self storage software cost": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "self storage software cost",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 720
+          }
+        ],
+        "cpcUsd": 20.5,
+        "adCompetition": 0.64,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 07:07:45 +00:00"
+      }
+    },
+    "labs|united states|en|cosmetics fda requirements": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|mocra compliance small brands": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|gmp batch record keeping": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|gmp software": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "gmp software",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 37.83,
+        "adCompetition": 0.47,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -44,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-09-16 10:55:37 +00:00"
+      }
+    },
+    "labs|united states|en|batch record template": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "batch record template",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 43.91,
+        "adCompetition": 0.23,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 23:07:57 +00:00"
+      }
+    },
+    "labs|united states|en|cosmetics compliance tool": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|gmp software pricing": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best gmp software": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": true,
+      "data": {
+        "keyword": "best gmp software",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-06-11 10:37:20 +00:00"
+      }
+    },
+    "labs|united states|en|batch record software cost": {
+      "fetchedAt": "2026-09-25T09:56:36.354Z",
+      "returned": false,
+      "data": null
     }
   }
 }

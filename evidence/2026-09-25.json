@@ -1,0 +1,4944 @@
+{
+  "schema": 1,
+  "date": "2026-09-25",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-25.md"
+  },
+  "createdAt": "2026-09-25T09:56:31.113Z",
+  "updatedAt": "2026-09-25T09:56:31.115Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-25.md",
+    "title": "The Independent Auto Dealer's \"10-Year Audit-Proof\" OFAC Compliance Hub",
+    "score": 85,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-25:auto-dealer-ofac-screening-tool",
+      "slug": "auto-dealer-ofac-screening-tool",
+      "title": "The Independent Auto Dealer's \"OFAC-Ready\" Customer Screening Tool.",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis explicitly states 'over 40,000 independent used car dealers in the US'."
+      },
+      "plan": {
+        "slug": "auto-dealer-ofac-screening-tool",
+        "title": "The Independent Auto Dealer's \"OFAC-Ready\" Customer Screening Tool.",
+        "problem": "Federal law mandates that dealerships screen all customers against the OFAC SDN list, with severe penalties for non-compliance.",
+        "targetCustomer": "Owner of a small, independent used car dealership.",
+        "payer": "Owner of a small, independent used car dealership.",
+        "whyPayerPays": "They will pay a monthly fee for a simple, standalone tool that automates and logs this mandatory check, providing an audit trail and peace of mind against catastrophic penalties.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis explicitly states 'over 40,000 independent used car dealers in the US'."
+        },
+        "keywords": {
+          "problem": [
+            "ofac compliance auto dealers",
+            "auto dealer customer screening",
+            "ofac penalties car sales"
+          ],
+          "solution": [
+            "ofac screening",
+            "ofac compliance software",
+            "auto dealer compliance tool"
+          ],
+          "buying": [
+            "ofac screening cost",
+            "best ofac compliance tools",
+            "ofac software pricing"
+          ]
+        },
+        "serpQueries": [
+          "ofac screening",
+          "ofac compliance auto dealers"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ofac compliance auto dealers",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-17 20:04:00 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "auto dealer customer screening",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "ofac penalties car sales",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "ofac screening",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 590,
+          "cpcUsd": 31.19,
+          "adCompetition": 0.45,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-15 10:24:44 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 0,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "ofac compliance software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": null,
+          "adCompetition": 0.03,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -86,
+          "providerUpdatedAt": "2026-09-16 20:14:50 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -77,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "auto dealer compliance tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "ofac screening cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best ofac compliance tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "ofac software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "ofac screening",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:41.080Z",
+          "checkUrl": "https://www.google.com/search?q=ofac%20screening&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "dilisense.com",
+              "url": "https://dilisense.com/en/insights/ofac-sdn-list",
+              "title": "OFAC SDN List: How Names Are Listed, Screened and ...",
+              "description": "Sep 10, 2026 — This article stays on the SDN List itself: how OFAC designates a name, how to read an entry and what your obligations are when a screen returns ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "complyone.tech",
+              "url": "https://complyone.tech/blog/what-is-ofac-sanctions-screening-a-compliance-guide-for-fintechs",
+              "title": "What Is OFAC Sanctions Screening? Fintech Compliance ...",
+              "description": "OFAC sanctions screening is a legal requirement for every U.S. fintech that moves money — no exceptions. Here is what OFAC is, what the SDN list requires, and ... Read more",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.regly.ai",
+              "url": "https://www.regly.ai/blog/ofac-sanctions-guide",
+              "title": "What Are OFAC Sanctions? A Practical Guide (Updated ...",
+              "description": "Apr 15, 2026 — OFAC sanctions are economic and financial restrictions designed to limit transactions connected to activities that threaten US foreign policy, ... Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/LWPnxIaIT9Y?xstg=CAMSBhUD_LL2Hw%3D%3D",
+              "title": "How to screen applicants against OFAC sanctions lists",
+              "description": "Use an OFAC screening API to check business names and individuals against the U.S. Treasury Department's Specially Designated Nationals (SDN) ...",
+              "id": "S1.6",
+              "class": "reference_media"
+            },
+            {
+              "rank": 7,
+              "domain": "clearsanction.com",
+              "url": "https://clearsanction.com/pages/ofac-screening-checklist",
+              "title": "OFAC Screening Checklist",
+              "description": "A practical checklist for thinking through key steps in an OFAC screening process, with links to relevant ClearSanction capabilities.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "lightspark.com",
+              "url": "https://lightspark.com/glossary/ofac-screening",
+              "title": "OFAC Screening: The Compliance Mandate for Bitcoin and ...",
+              "description": "Nov 14, 2025 — OFAC screening is a mandatory check financial institutions perform, comparing transaction details against U.S. sanctions lists.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "blog.volkovlaw.com",
+              "url": "https://blog.volkovlaw.com/2020/11/ofac-screening-and-internal-controls/",
+              "title": "OFAC Screening and Internal Controls",
+              "description": "Nov 23, 2020 — These open source intelligence-based services provide companies with quick sanctions screening results. build and implement important controls ...",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "ofac compliance auto dealers",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:52.576Z",
+          "checkUrl": "https://www.google.com/search?q=ofac%20compliance%20auto%20dealers&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "www.totaldealercompliance.com",
+              "url": "https://www.totaldealercompliance.com/office-of-foreign-assets-control.html",
+              "title": "OFAC Compliance for Car Dealerships",
+              "description": "The Office of Foreign Asset Controls requires car dealers to check customer names against a database of known dangerous organizations and individuals. Read more",
+              "id": "S2.1",
+              "class": "site"
+            },
+            {
+              "rank": 2,
+              "domain": "us.dealertrack.com",
+              "url": "https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/",
+              "title": "The Impact of OFAC on Dealers",
+              "description": "OFAC will assess your compliance program in relation to the size and nature of your business. Auto dealers are considered an important business to OFAC ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.intellicheck.com",
+              "url": "https://www.intellicheck.com/resource-library/how-to-ensure-ofac-compliance-for-auto-dealers",
+              "title": "How to Ensure OFAC Compliance for Auto Dealers",
+              "description": "Aug 30, 2022 — Auto dealers should be concerned with OFAC compliance as they authorize credit applications for buyers to avoid approving prohibited ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.autoraptor.com",
+              "url": "https://www.autoraptor.com/blog/ofac-compliance-auto-industry-dealership-prepared",
+              "title": "OFAC Car Dealership Compliance: Are You Prepared?",
+              "description": "May 10, 2023 — OFAC compliance checks are usually performed at the same time you conduct a credit check. You do not need to obtain authorization from the ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.fi-magazine.com",
+              "url": "https://www.fi-magazine.com/articles/ofac-requirements-are-serious-business",
+              "title": "OFAC Requirements Are Serious Business",
+              "description": "Oct 29, 2024 — OFAC needs to be checked on all types of transactions, including cash, wholesale, retail and lease. Dealerships have several resources they can ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/askcarsales/comments/9hkjyx/wanted_to_buy_a_car_but_they_wouldnt_proceed/",
+              "title": "Wanted to buy a car, but they wouldn't proceed without an \" ...",
+              "description": "My guess is they used OFAC as an excuse for company policy because it makes sense for most people, and they should have just said that to you. Read more",
+              "id": "S2.10",
+              "class": "discussion"
+            },
+            {
+              "rank": 11,
+              "domain": "www.autolegalgroup.com",
+              "url": "https://www.autolegalgroup.com/unpacking-the-ofac-compliance/",
+              "title": "Unpacking The OFAC Compliance",
+              "description": "If a customer is on the OFAC list, the car dealership is not allowed to sell a car to them. The dealership should immediately terminate any transactions with ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            },
+            {
+              "rank": 12,
+              "domain": "informativ.com",
+              "url": "https://informativ.com/blog/what-is-ofac-compliance/",
+              "title": "What Is OFAC Compliance? A Simple Guide for Lenders ...",
+              "description": "Jun 16, 2026 — For auto dealers, that means embedding OFAC checks into the deal workflow, so they fire every time, on every deal, before anything advances to ... Read more",
+              "id": "S2.12",
+              "class": "site"
+            },
+            {
+              "rank": 13,
+              "domain": "www.visualofac.com",
+              "url": "https://www.visualofac.com/sectors/dealerships/",
+              "title": "OFAC Compliance for Auto and Boat Dealers",
+              "description": "Protect your company against possible OFAC and FCPA violations with Visual OFAC's compliance solutions for car and boat manufacturers.",
+              "id": "S2.13",
+              "class": "site"
+            },
+            {
+              "rank": 14,
+              "domain": "www.michiganada.org",
+              "url": "https://www.michiganada.org/faq/federal-compliance-topics-links-and-resources/",
+              "title": "Federal compliance topics, links and resources - MADA",
+              "description": "Access customer topics, Finance & Insurance topics, general management & personnel topics, new & used vehicle sales topics, service/parts & body shop ...",
+              "id": "S2.14",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "totaldealercompliance.com",
+          "url": "https://www.totaldealercompliance.com/office-of-foreign-assets-control.html",
+          "finalUrl": "https://www.totaldealercompliance.com/office-of-foreign-assets-control.html",
+          "retrievedAt": "2026-09-25T09:57:41.990Z",
+          "status": 200,
+          "error": null,
+          "title": "OFAC Compliance for Car Dealerships",
+          "description": "Are you sure your car dealership is compliant? Visit Total Dealer Compliance now to learn ECOA Compliance and protect your dealership!",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "totaldealercompliance.com",
+          "url": "https://www.totaldealercompliance.com/pricing",
+          "finalUrl": "https://www.totaldealercompliance.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:41.992Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "dilisense.com",
+          "url": "https://dilisense.com/en/insights/ofac-sdn-list",
+          "finalUrl": "https://dilisense.com/en/insights/ofac-sdn-list",
+          "retrievedAt": "2026-09-25T09:57:41.993Z",
+          "status": 200,
+          "error": null,
+          "title": "OFAC SDN List: How Names Are Listed, Screened and Blocked",
+          "description": "The OFAC SDN List names blocked persons whose assets are frozen. Learn how OFAC lists them, how to read an entry and what to do when a screen hits a match.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "dilisense.com",
+          "url": "https://dilisense.com/pricing",
+          "finalUrl": "https://dilisense.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:41.994Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "us.dealertrack.com",
+          "url": "https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/",
+          "finalUrl": "https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/",
+          "retrievedAt": "2026-09-25T09:57:41.995Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "us.dealertrack.com",
+          "url": "https://us.dealertrack.com/pricing",
+          "finalUrl": "https://us.dealertrack.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:41.996Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 5,
+          "top": {
+            "keyword": "ofac compliance auto dealers",
+            "searchVolume": 10,
+            "id": "K1"
+          },
+          "category": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 4,
+            "top": {
+              "keyword": "ofac compliance software",
+              "searchVolume": 110,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncorroborated",
+              "text": "\"ofac screening\" (590/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"ofac compliance auto dealers\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: some (\"ofac compliance software\" 110/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $31.19 on \"ofac screening\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "totaldealercompliance.com",
+            "dilisense.com",
+            "us.dealertrack.com",
+            "complyone.tech",
+            "intellicheck.com",
+            "regly.ai",
+            "autoraptor.com",
+            "fi-magazine.com",
+            "clearsanction.com",
+            "lightspark.com",
+            "blog.volkovlaw.com",
+            "autolegalgroup.com",
+            "informativ.com",
+            "visualofac.com",
+            "michiganada.org"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 8 domain(s) with a direct competitor (same problem) (clearsanction.com, totaldealercompliance.com, us.dealertrack.com, intellicheck.com, autoraptor.com, autolegalgroup.com, informativ.com, visualofac.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "clearsanction.com",
+            "totaldealercompliance.com",
+            "us.dealertrack.com",
+            "intellicheck.com",
+            "autoraptor.com",
+            "autolegalgroup.com",
+            "informativ.com",
+            "visualofac.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "9e527e772f8ff93a",
+      "evidenceUpdatedAt": "2026-09-25T09:57:45.142Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-25T10:05:33.296Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-25T09:57:45.142Z",
+        "qualifiers": [
+          "Owner of a used car dealership",
+          "small, independent"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is made by the target customer about their specific compliance problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the core activity related to the idea's problem for the target customer."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the negative consequence of the problem the idea solves for the target customer."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the core task the idea helps with, likely searched by the target customer."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the general software category the idea's solution belongs to."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader category of tools for the target customer, which could include the idea's solution."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search from the target customer for a solution to their specific problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for the broader product category the idea belongs to."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for the broader product category the idea belongs to."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide to OFAC screening, relevant to a broader audience than just auto dealers."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about OFAC screening but is explicitly for the Fintech industry, not auto dealers."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide to OFAC sanctions, not specific to the auto dealer customer."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This video is a general guide to OFAC screening for any type of applicant, not specifically for auto dealers."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general OFAC screening checklist, not specific to auto dealers, offered by a potential competitor."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about OFAC screening but is specifically for the Bitcoin/crypto industry, not auto dealers."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about OFAC screening controls for any business, not specifically auto dealers."
+          },
+          "S2.1": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for car dealerships facing the exact problem of OFAC compliance."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for auto dealers and discusses the exact problem of OFAC compliance."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is an article for auto dealers about the specific problem of OFAC compliance, from a company offering a solution."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for car dealerships facing the exact problem of OFAC compliance."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for car dealerships about the specific problem of OFAC compliance."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is from a car buyer's perspective, which is a different customer with a different problem."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for car dealerships about the specific problem of OFAC compliance."
+          },
+          "S2.12": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This guide is for a broader audience of lenders but explicitly includes auto dealers and their OFAC compliance problem."
+          },
+          "S2.13": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for auto and boat dealers, a slightly broader customer group, but addresses the same problem with a competing solution."
+          },
+          "S2.14": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for auto dealers but covers a broader range of compliance issues than just OFAC."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner of a used car dealership"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page is for car dealerships and directly addresses OFAC compliance, offering a service."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general guide to the OFAC SDN list, relevant to a broader audience than just auto dealers."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-25:auto-dealer-ofac-screening-tool",
+        "opportunity": "The opportunity is to provide a simple, standalone software tool for independent auto dealers to screen customers against the OFAC SDN list. This helps them comply with federal law and avoid severe penalties for non-compliance.",
+        "whoPays": "The owner of a small, independent used car dealership pays to automate a mandatory compliance check, providing an audit trail and reducing the risk of catastrophic fines. This is an inference.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.1",
+              "quote": "The Office of Foreign Asset Controls requires car dealers to check customer names against a database"
+            },
+            {
+              "id": "S2.6",
+              "quote": "OFAC needs to be checked on all types of transactions, including cash, wholesale, retail and lease"
+            },
+            {
+              "id": "S2.11",
+              "quote": "If a customer is on the OFAC list, the car dealership is not allowed to sell a car to them"
+            },
+            {
+              "id": "S2.4",
+              "quote": "Auto dealers should be concerned with OFAC compliance as they authorize credit applications for buyers"
+            }
+          ],
+          "observed": "Multiple sources state that auto dealers are required by the Office of Foreign Asset Controls (OFAC) to check customer names against a database on all transaction types. Dealers are not allowed to sell a car to a person on the OFAC list and should be concerned with compliance when authorizing credit.",
+          "inference": "This is a mandatory, recurring business process for all auto dealers, and non-compliance has significant consequences. The problem is well-established and understood within the industry."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "P1",
+              "quote": "OFAC Compliance for Car Dealerships"
+            },
+            {
+              "id": "S2.2",
+              "quote": "The Impact of OFAC on Dealers"
+            },
+            {
+              "id": "S2.13",
+              "quote": "OFAC Compliance for Auto and Boat Dealers"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Total Dealer Compliance",
+              "type": "direct",
+              "what": "Offers OFAC compliance services specifically for car dealerships.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "OFAC Compliance for Car Dealerships"
+                }
+              ]
+            },
+            {
+              "name": "Dealertrack",
+              "type": "direct",
+              "what": "Provides resources and likely solutions regarding the impact of OFAC on dealers.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "The Impact of OFAC on Dealers"
+                }
+              ]
+            },
+            {
+              "name": "Intellicheck",
+              "type": "direct",
+              "what": "Provides resources and likely solutions on how to ensure OFAC compliance for auto dealers.",
+              "basis": [
+                {
+                  "id": "S2.4",
+                  "quote": "How to Ensure OFAC Compliance for Auto Dealers"
+                }
+              ]
+            },
+            {
+              "name": "Autoraptor",
+              "type": "direct",
+              "what": "Provides resources and likely solutions regarding OFAC compliance for car dealerships.",
+              "basis": [
+                {
+                  "id": "S2.5",
+                  "quote": "OFAC Car Dealership Compliance: Are You Prepared?"
+                }
+              ]
+            },
+            {
+              "name": "Visual OFAC",
+              "type": "direct",
+              "what": "Offers compliance solutions for car and boat manufacturers and dealers.",
+              "basis": [
+                {
+                  "id": "S2.13",
+                  "quote": "compliance solutions for car and boat manufacturers"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors are established brands within the auto industry, suggesting they have existing relationships and distribution channels.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "us.dealertrack.com"
+                },
+                {
+                  "id": "S2.5",
+                  "quote": "www.autoraptor.com"
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is not clear from the evidence whether existing solutions are simple, standalone tools or are bundled into larger, more expensive Dealer Management Systems (DMS). There may be a gap for a low-cost, focused tool for smaller independent dealers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Federal law mandates that dealerships screen all customers",
+            "finding": "Multiple sources confirm that OFAC requires car dealers to check customer names on all transactions.",
+            "basis": [
+              {
+                "id": "S2.1",
+                "quote": "requires car dealers to check customer names"
+              },
+              {
+                "id": "S2.6",
+                "quote": "OFAC needs to be checked on all types of transactions"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "pay a monthly fee for a simple, standalone tool",
+            "finding": "The evidence shows a crowded market of competitors offering OFAC compliance solutions, but does not specify if these are standalone tools or part of larger suites, nor does it show pricing.",
+            "basis": [
+              {
+                "id": "S2.1",
+                "quote": "OFAC Compliance for Car Dealerships"
+              },
+              {
+                "id": "S2.13",
+                "quote": "OFAC Compliance for Auto and Boat Dealers"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimum viable product could be a simple web form that calls a public or commercial sanctions list API and logs the result with a timestamp. This is technically straightforward."
+        },
+        "unproven": [
+          "Whether independent dealers prefer a standalone tool over a feature integrated into their existing Dealer Management System (DMS) or CRM.",
+          "The price independent dealers are willing to pay for a standalone tool.",
+          "The specific features (e.g., audit log format, reporting) that are most important for demonstrating compliance."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a \"Simple OFAC Screening Tool for Independent Dealers\" priced at $29/month. Drive traffic via a small Google Ads campaign targeting keywords like \"ofac compliance auto dealers\". Measure email signups for a waitlist.",
+          "cost": "$200-300 in ad spend + 1-2 days of work.",
+          "duration": "2-4 weeks"
+        },
+        "continueIf": "The landing page achieves a waitlist signup conversion rate of over 1% from qualified ad traffic.",
+        "stopIf": "The conversion rate is below 0.5% after the ad budget is spent, indicating low interest in a standalone product."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a simple, standalone software tool for independent auto dealers to screen customers against the OFAC SDN list. This helps them comply with federal law and avoid severe penalties for non-compliance.",
+        "whoPays": "The owner of a small, independent used car dealership pays to automate a mandatory compliance check, providing an audit trail and reducing the risk of catastrophic fines. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.1",
+              "quote": "The Office of Foreign Asset Controls requires car dealers to check customer names against a database",
+              "domain": "totaldealercompliance.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is for car dealerships facing the exact problem of OFAC compliance."
+            },
+            {
+              "id": "S2.6",
+              "quote": "OFAC needs to be checked on all types of transactions, including cash, wholesale, retail and lease",
+              "domain": "fi-magazine.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article is for car dealerships about the specific problem of OFAC compliance."
+            },
+            {
+              "id": "S2.11",
+              "quote": "If a customer is on the OFAC list, the car dealership is not allowed to sell a car to them",
+              "domain": "autolegalgroup.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is for car dealerships about the specific problem of OFAC compliance."
+            },
+            {
+              "id": "S2.4",
+              "quote": "Auto dealers should be concerned with OFAC compliance as they authorize credit applications for buyers",
+              "domain": "intellicheck.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is an article for auto dealers about the specific problem of OFAC compliance, from a company offering a solution."
+            }
+          ],
+          "observed": "Multiple sources state that auto dealers are required by the Office of Foreign Asset Controls (OFAC) to check customer names against a database on all transaction types. Dealers are not allowed to sell a car to a person on the OFAC list and should be concerned with compliance when authorizing credit.",
+          "inference": "This is a mandatory, recurring business process for all auto dealers, and non-compliance has significant consequences. The problem is well-established and understood within the industry."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "P1",
+              "quote": "OFAC Compliance for Car Dealerships",
+              "domain": "totaldealercompliance.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "direct competitor",
+              "relevanceReason": "This page is for car dealerships and directly addresses OFAC compliance, offering a service."
+            },
+            {
+              "id": "S2.2",
+              "quote": "The Impact of OFAC on Dealers",
+              "domain": "us.dealertrack.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is for auto dealers and discusses the exact problem of OFAC compliance."
+            },
+            {
+              "id": "S2.13",
+              "quote": "OFAC Compliance for Auto and Boat Dealers",
+              "domain": "visualofac.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is for auto and boat dealers, a slightly broader customer group, but addresses the same problem with a competing solution."
+            }
+          ],
+          "directCompetitors": [
+            "totaldealercompliance.com",
+            "us.dealertrack.com",
+            "visualofac.com",
+            "intellicheck.com",
+            "autoraptor.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Total Dealer Compliance",
+              "type": "direct",
+              "what": "Offers OFAC compliance services specifically for car dealerships.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "OFAC Compliance for Car Dealerships",
+                  "domain": "totaldealercompliance.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This page is for car dealerships and directly addresses OFAC compliance, offering a service."
+                }
+              ]
+            },
+            {
+              "name": "Dealertrack",
+              "type": "direct",
+              "what": "Provides resources and likely solutions regarding the impact of OFAC on dealers.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "The Impact of OFAC on Dealers",
+                  "domain": "us.dealertrack.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is for auto dealers and discusses the exact problem of OFAC compliance."
+                }
+              ]
+            },
+            {
+              "name": "Intellicheck",
+              "type": "direct",
+              "what": "Provides resources and likely solutions on how to ensure OFAC compliance for auto dealers.",
+              "basis": [
+                {
+                  "id": "S2.4",
+                  "quote": "How to Ensure OFAC Compliance for Auto Dealers",
+                  "domain": "intellicheck.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is an article for auto dealers about the specific problem of OFAC compliance, from a company offering a solution."
+                }
+              ]
+            },
+            {
+              "name": "Autoraptor",
+              "type": "direct",
+              "what": "Provides resources and likely solutions regarding OFAC compliance for car dealerships.",
+              "basis": [
+                {
+                  "id": "S2.5",
+                  "quote": "OFAC Car Dealership Compliance: Are You Prepared?",
+                  "domain": "autoraptor.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is for car dealerships facing the exact problem of OFAC compliance."
+                }
+              ]
+            },
+            {
+              "name": "Visual OFAC",
+              "type": "direct",
+              "what": "Offers compliance solutions for car and boat manufacturers and dealers.",
+              "basis": [
+                {
+                  "id": "S2.13",
+                  "quote": "compliance solutions for car and boat manufacturers",
+                  "domain": "visualofac.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is for auto and boat dealers, a slightly broader customer group, but addresses the same problem with a competing solution."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many competitors are established brands within the auto industry, suggesting they have existing relationships and distribution channels.",
+              "basis": [
+                {
+                  "id": "S2.2",
+                  "quote": "us.dealertrack.com",
+                  "domain": "us.dealertrack.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is for auto dealers and discusses the exact problem of OFAC compliance."
+                },
+                {
+                  "id": "S2.5",
+                  "quote": "www.autoraptor.com",
+                  "domain": "autoraptor.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is for car dealerships facing the exact problem of OFAC compliance."
+                }
+              ],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is not clear from the evidence whether existing solutions are simple, standalone tools or are bundled into larger, more expensive Dealer Management Systems (DMS). There may be a gap for a low-cost, focused tool for smaller independent dealers.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Federal law mandates that dealerships screen all customers",
+            "finding": "Multiple sources confirm that OFAC requires car dealers to check customer names on all transactions.",
+            "basis": [
+              {
+                "id": "S2.1",
+                "quote": "requires car dealers to check customer names",
+                "domain": "totaldealercompliance.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is for car dealerships facing the exact problem of OFAC compliance."
+              },
+              {
+                "id": "S2.6",
+                "quote": "OFAC needs to be checked on all types of transactions",
+                "domain": "fi-magazine.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article is for car dealerships about the specific problem of OFAC compliance."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "pay a monthly fee for a simple, standalone tool",
+            "finding": "The evidence shows a crowded market of competitors offering OFAC compliance solutions, but does not specify if these are standalone tools or part of larger suites, nor does it show pricing.",
+            "basis": [
+              {
+                "id": "S2.1",
+                "quote": "OFAC Compliance for Car Dealerships",
+                "domain": "totaldealercompliance.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is for car dealerships facing the exact problem of OFAC compliance."
+              },
+              {
+                "id": "S2.13",
+                "quote": "OFAC Compliance for Auto and Boat Dealers",
+                "domain": "visualofac.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is for auto and boat dealers, a slightly broader customer group, but addresses the same problem with a competing solution."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimum viable product could be a simple web form that calls a public or commercial sanctions list API and logs the result with a timestamp. This is technically straightforward."
+        },
+        "unproven": [
+          "Whether independent dealers prefer a standalone tool over a feature integrated into their existing Dealer Management System (DMS) or CRM.",
+          "The price independent dealers are willing to pay for a standalone tool.",
+          "The specific features (e.g., audit log format, reporting) that are most important for demonstrating compliance."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for a \"Simple OFAC Screening Tool for Independent Dealers\" priced at $29/month. Drive traffic via a small Google Ads campaign targeting keywords like \"ofac compliance auto dealers\". Measure email signups for a waitlist.",
+          "cost": "$200-300 in ad spend + 1-2 days of work.",
+          "duration": "2-4 weeks"
+        },
+        "continueIf": "The landing page achieves a waitlist signup conversion rate of over 1% from qualified ad traffic.",
+        "stopIf": "The conversion rate is below 0.5% after the ad budget is spent, indicating low interest in a standalone product.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-25T10:06:47.212Z",
+        "evidenceUpdatedAt": "2026-09-25T09:57:45.142Z"
+      }
+    },
+    {
+      "id": "2026-09-25:self-storage-lien-sale-manager",
+      "slug": "self-storage-lien-sale-manager",
+      "title": "The Self-Storage Facility's \"Lien Sale-Ready\" Delinquency Manager.",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis explicitly states '30,000+ independent self-storage owners in the US'."
+      },
+      "plan": {
+        "slug": "self-storage-lien-sale-manager",
+        "title": "The Self-Storage Facility's \"Lien Sale-Ready\" Delinquency Manager.",
+        "problem": "Handling delinquent tenants and executing a legal lien sale is dictated by strict state-by-state laws, and procedural errors can result in wrongful sale lawsuits.",
+        "targetCustomer": "Owner or manager of an independent self-storage facility.",
+        "payer": "Owner or manager of an independent self-storage facility.",
+        "whyPayerPays": "They will pay for a software tool that automates the delinquency and lien sale timeline, generates required notices, and creates a defensible record of compliance, reducing legal risk.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis explicitly states '30,000+ independent self-storage owners in the US'."
+        },
+        "keywords": {
+          "problem": [
+            "self storage lien sale laws",
+            "self storage delinquency process",
+            "wrongful lien sale lawsuit"
+          ],
+          "solution": [
+            "lien sale software",
+            "self storage management software",
+            "delinquency management system"
+          ],
+          "buying": [
+            "lien sale software pricing",
+            "best self storage software",
+            "self storage software cost"
+          ]
+        },
+        "serpQueries": [
+          "lien sale software",
+          "self storage lien sale laws"
+        ],
+        "planning": {
+          "draftIssues": [
+            {
+              "group": "buying",
+              "issue": "no_head_term"
+            }
+          ],
+          "repairRequested": true,
+          "repaired": false,
+          "repairOutcome": "repair not better (1 issue(s) vs 1)",
+          "finalIssues": [
+            {
+              "group": "buying",
+              "issue": "no_head_term"
+            }
+          ]
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "self storage lien sale laws",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "self storage delinquency process",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "wrongful lien sale lawsuit",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "lien sale software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-12 19:33:39 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "self storage management software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 390,
+          "cpcUsd": 20.56,
+          "adCompetition": 0.45,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -76,
+          "providerUpdatedAt": "2026-09-16 11:41:04 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 590
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -82,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "delinquency management system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.71,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": null,
+          "providerUpdatedAt": "2026-09-14 20:49:46 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "lien sale software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best self storage software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 70,
+          "cpcUsd": 24.01,
+          "adCompetition": 0.68,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -43,
+          "providerUpdatedAt": "2026-09-15 17:33:14 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -83,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "self storage software cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 20.5,
+          "adCompetition": 0.64,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -33,
+          "providerUpdatedAt": "2026-09-17 07:07:45 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 720
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -91,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S2",
+          "query": "self storage lien sale laws",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:57:20.394Z",
+          "checkUrl": "https://www.google.com/search?q=self%20storage%20lien%20sale%20laws&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.revisor.mn.gov",
+              "url": "https://www.revisor.mn.gov/statutes/cite/514.973",
+              "title": "Sec. 514.973 MN Statutes",
+              "description": "The sale may take place no sooner than 15 days after the first publication. If the lien is satisfied before the second publication occurs, the second ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.selfstorage.org",
+              "url": "https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws",
+              "title": "Self Storage Association (SSA) > Legal > Legal Resource ...",
+              "description": "Self Storage Lien Law. Annotated lien law booklets help owner/operators and managers make the right decisions regarding lien sales. available by calling 703. ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "ai-lean.com",
+              "url": "https://ai-lean.com/resources/state-guides/texas-lien-laws",
+              "title": "Texas Self-Storage Lien Law Guide",
+              "description": "Before conducting an auction, you must wait at least 14 days after sending the notice at least the “15th day”. The sale must be conducted at your self-storage ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "revisor.mo.gov",
+              "url": "https://revisor.mo.gov/main/OneSection.aspx?section=415.415",
+              "title": "Revised Statutes of Missouri, RSMo Section 415.415 - MO.gov",
+              "description": "The operator of a self-service storage facility has a lien on all personal property stored within each leased space for rent, labor, or other charges, and ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.sparefoot.com",
+              "url": "https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process",
+              "title": "Understanding the Self-Storage Lien Process",
+              "description": "Aug 15, 2025 — ▸ Storage facilities can legally sell your belongings through auctions when you fall behind on rent, following state-specific lien laws and ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "jwesleyatkinson.com",
+              "url": "https://jwesleyatkinson.com/alabama-storage-lien-law/",
+              "title": "Alabama Storage Lien Law: Complete Guide for Facility ...",
+              "description": "Alabama law says you must advertise the storage unit sale in a general circulation newspaper. The ad must run once weekly for two weeks before the sale. ...",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.lucaslaw.com",
+              "url": "https://www.lucaslaw.com/newsletters/miscellaneous/self-storage-facilities-in-illinois",
+              "title": "Self Storage Facilities In Illinois - Lucas Law",
+              "description": "The lien permits the owner to sell the contents of the storage unit after a default by the occupant. After the occurrence of the default, the owner must notify ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "lloydwinterlaw.com",
+              "url": "https://lloydwinterlaw.com/blog/storage-unit-contracts/",
+              "title": "Lien on Storage Unit | What California Renters Need to Know",
+              "description": "Nov 19, 2025 — Lien on Storage Unit laws explain when facilities can lock you out or sell items and what rights renters have to stop or undo a sale.",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "help.publicstorage.com",
+              "url": "https://help.publicstorage.com/rent-a-unit/rental-faqs/zzzzz-Storage_Auctions_and_the_Lien_Process",
+              "title": "Storage Auctions and the Lien Process",
+              "description": "When rent remains unpaid for an extended period, state laws require storage companies to follow a legal lien process to recover the space and unpaid rent. Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "selfstorage.org",
+          "url": "https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws",
+          "finalUrl": "https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws",
+          "retrievedAt": "2026-09-25T09:57:42.505Z",
+          "status": 200,
+          "error": null,
+          "title": "Self Storage Association (SSA) > Legal > Legal Resource Center > Topics",
+          "description": "Self Storage Association",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "selfstorage.org",
+          "url": "https://www.selfstorage.org/pricing",
+          "finalUrl": "https://www.selfstorage.org/pricing",
+          "retrievedAt": "2026-09-25T09:57:42.506Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "ai-lean.com",
+          "url": "https://ai-lean.com/resources/state-guides/texas-lien-laws",
+          "finalUrl": "https://ai-lean.com/resources/state-guides/texas-lien-laws",
+          "retrievedAt": "2026-09-25T09:57:42.507Z",
+          "status": 200,
+          "error": null,
+          "title": "Texas Self-Storage Lien Laws: Complete 2025 Compliance Guide for Operators | Ai Lean",
+          "description": "Navigate Texas self-storage lien laws with confidence using our comprehensive 2025 compliance guide. Learn about proper notice requirements, auction procedures, handling of excess funds, and recent legal updates. Discover how automation can reduce compliance risks and streamline your lien process. E",
+          "priceMentions": [
+            {
+              "text": "$100",
+              "billingUnit": false,
+              "context": "ance New Lien Law Pitfalls: How a 9pm Notice Could Cost You $1000 Automating Lien Compliance: The Secret Weapon for Self-Sto"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "ai-lean.com",
+          "url": "https://ai-lean.com/pricing",
+          "finalUrl": "https://ai-lean.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:42.508Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "sparefoot.com",
+          "url": "https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process",
+          "finalUrl": "https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process",
+          "retrievedAt": "2026-09-25T09:57:42.509Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "sparefoot.com",
+          "url": "https://www.sparefoot.com/pricing",
+          "finalUrl": "https://www.sparefoot.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:42.509Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": "search results for \"lien sale software\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 3,
+          "top": null,
+          "category": {
+            "level": "some",
+            "measuredCount": 4,
+            "totalCount": 6,
+            "top": {
+              "keyword": "self storage management software",
+              "searchVolume": 390,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 3 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"self storage management software\" 390/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5",
+            "K8",
+            "K9"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 3 commercial keyword(s) (highest CPC $24.01 on \"best self storage software\"). CPC is an advertiser bid, not a customer's willingness to pay. 4 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "selfstorage.org",
+            "ai-lean.com",
+            "sparefoot.com",
+            "jwesleyatkinson.com",
+            "lucaslaw.com",
+            "lloydwinterlaw.com",
+            "help.publicstorage.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "7 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers). Judged for relevance: 4 domain(s) with a direct competitor (same problem) (selfstorage.org, ai-lean.com, jwesleyatkinson.com, lucaslaw.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "selfstorage.org",
+            "ai-lean.com",
+            "jwesleyatkinson.com",
+            "lucaslaw.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "132483b3b323d657",
+      "evidenceUpdatedAt": "2026-09-25T09:57:45.143Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-25T10:05:33.297Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-25T09:57:45.143Z",
+        "qualifiers": [
+          "Owner or manager of a self-storage facility",
+          "independent"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the specific legal framework that creates the problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the exact process that the idea aims to manage for the target customer."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the negative consequence the idea helps the target customer avoid."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader software category that could apply to other industries beyond self-storage."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is the main software category for the target customer, of which the idea is a specialized feature or tool."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a broader software category that could apply to any business with delinquent accounts."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broader software category that could include the idea's solution."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for the main software category for the target customer."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for the main software category for the target customer."
+          }
+        },
+        "items": {
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is the specific Minnesota state law on lien sales, relevant to the target customer but also to tenants and lawyers."
+          },
+          "S2.3": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is from the industry association for the target customer, addressing the exact problem."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a guide for the target customer in a specific state, addressing the exact problem, from a competitor."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is the specific Missouri state law on lien sales, relevant to the target customer but also to tenants and lawyers."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains the lien process to a broad audience that includes both facility owners and tenants."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a guide for the target customer in a specific state, addressing the exact problem."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a guide for the target customer in a specific state, addressing the exact problem."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is for self-storage tenants (renters), not facility owners, and addresses the problem from their perspective."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This explains the lien process, likely for tenants of a large chain, not for independent owners managing the process."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but covers a broader set of legal problems than just lien sales."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "Owner or manager of a self-storage facility"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page is for the target customer, addresses the exact problem, and offers a competing software solution."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-25:self-storage-lien-sale-manager",
+        "opportunity": "The opportunity is to provide a software tool for independent self-storage owners to manage the legally complex delinquency and lien sale process. This helps them adhere to strict, state-specific laws and reduce the risk of lawsuits.",
+        "whoPays": "The owner or manager of an independent self-storage facility pays to automate and create a defensible record of a legally risky process, ensuring compliance and reducing liability. This is an inference.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "following state-specific lien laws"
+            },
+            {
+              "id": "S2.3",
+              "quote": "Annotated lien law booklets help owner/operators and managers make the right decisions regarding lien sales"
+            },
+            {
+              "id": "S2.11",
+              "quote": "state laws require storage companies to follow a legal lien process"
+            },
+            {
+              "id": "S2.9",
+              "quote": "The lien permits the owner to sell the contents of the storage unit after a default by the occupant"
+            }
+          ],
+          "observed": "State laws require storage companies to follow a specific legal lien process before they can sell the contents of a defaulted unit. The industry association provides \"annotated lien law booklets\" to help operators make correct decisions, indicating the process has complexities.",
+          "inference": "The existence of state-specific laws and guidance booklets from an industry association implies that the process is complex and carries a risk of procedural errors. Facility owners are aware of and need help navigating these rules."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "P3",
+              "quote": "Automating Lien Compliance: The Secret Weapon"
+            },
+            {
+              "id": "S2.3",
+              "quote": "Annotated lien law booklets"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Ai Lean",
+              "type": "direct",
+              "what": "Offers a compliance guide and automation to reduce compliance risks and streamline the lien process.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Automating Lien Compliance: The Secret Weapon for Self-Sto"
+                }
+              ]
+            },
+            {
+              "name": "Self Storage Association",
+              "type": "indirect",
+              "what": "Provides annotated lien law booklets to help operators make correct decisions, a manual alternative to software.",
+              "basis": [
+                {
+                  "id": "S2.3",
+                  "quote": "Annotated lien law booklets help owner/operators and managers make the right decisions"
+                }
+              ]
+            },
+            {
+              "name": "Law Firm Guides",
+              "type": "indirect",
+              "what": "Law firms publish state-specific guides on storage lien laws, a manual research alternative.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "Alabama Storage Lien Law: Complete Guide for Facility"
+                },
+                {
+                  "id": "S2.9",
+                  "quote": "Self Storage Facilities In Illinois - Lucas Law"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "At least one competitor, Ai Lean, is directly focused on automating this specific niche problem.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Automating Lien Compliance: The Secret Weapon"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is unclear if the major self-storage management software platforms handle this process adequately. If they do not, or if they are too expensive for small operators, a gap for a specialized, affordable tool could exist.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "dictated by strict state-by-state laws",
+            "finding": "Multiple search results confirm the existence of state-specific lien laws for self-storage facilities.",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "following state-specific lien laws"
+              },
+              {
+                "id": "S2.5",
+                "quote": "Texas Self-Storage Lien Law Guide"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "result in wrongful sale lawsuits from tenants",
+            "finding": "The evidence does not mention \"wrongful sale lawsuits.\" A keyword for this phrase has no search volume data, so this specific pain point is not validated.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "pay for a software tool that automates the delinquency and lien sale timeline",
+            "finding": "At least one direct competitor, Ai Lean, exists and explicitly markets automation for lien compliance.",
+            "basis": [
+              {
+                "id": "P3",
+                "quote": "Automating Lien Compliance: The Secret Weapon"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "The core challenge is not technical, but legal. A first experiment would require significant research to accurately codify the lien laws and timelines for even one or two states, making a small test difficult."
+        },
+        "unproven": [
+          "The actual frequency and cost of procedural errors or lawsuits for independent operators.",
+          "Whether independent owners are willing to pay for a specialized tool if their current management software has a 'good enough' feature.",
+          "How many independent operators still use manual methods (spreadsheets, paper) versus integrated software for this process."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 15-minute customer discovery interviews with 5-10 independent self-storage facility owners. Ask how they currently manage the lien process, what tools they use, and what their biggest fears or frustrations are with it.",
+          "cost": "0 cash + 5-10 hours of outreach and interview time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "A majority of interviewees describe their current process as manual, time-consuming, or risky, and express clear interest in a specialized tool to automate it.",
+        "stopIf": "Most interviewees are satisfied with the features in their existing management software or do not perceive the lien process as a significant problem worth paying to solve."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a software tool for independent self-storage owners to manage the legally complex delinquency and lien sale process. This helps them adhere to strict, state-specific laws and reduce the risk of lawsuits.",
+        "whoPays": "The owner or manager of an independent self-storage facility pays to automate and create a defensible record of a legally risky process, ensuring compliance and reducing liability. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "following state-specific lien laws",
+              "domain": "sparefoot.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article explains the lien process to a broad audience that includes both facility owners and tenants."
+            },
+            {
+              "id": "S2.3",
+              "quote": "Annotated lien law booklets help owner/operators and managers make the right decisions regarding lien sales",
+              "domain": "selfstorage.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is from the industry association for the target customer, addressing the exact problem."
+            },
+            {
+              "id": "S2.11",
+              "quote": "state laws require storage companies to follow a legal lien process",
+              "domain": "help.publicstorage.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This explains the lien process, likely for tenants of a large chain, not for independent owners managing the process."
+            },
+            {
+              "id": "S2.9",
+              "quote": "The lien permits the owner to sell the contents of the storage unit after a default by the occupant",
+              "domain": "lucaslaw.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a guide for the target customer in a specific state, addressing the exact problem."
+            }
+          ],
+          "observed": "State laws require storage companies to follow a specific legal lien process before they can sell the contents of a defaulted unit. The industry association provides \"annotated lien law booklets\" to help operators make correct decisions, indicating the process has complexities.",
+          "inference": "The existence of state-specific laws and guidance booklets from an industry association implies that the process is complex and carries a risk of procedural errors. Facility owners are aware of and need help navigating these rules."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "P3",
+              "quote": "Automating Lien Compliance: The Secret Weapon",
+              "domain": "ai-lean.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "direct competitor",
+              "relevanceReason": "This page is for the target customer, addresses the exact problem, and offers a competing software solution."
+            },
+            {
+              "id": "S2.3",
+              "quote": "Annotated lien law booklets",
+              "domain": "selfstorage.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is from the industry association for the target customer, addressing the exact problem."
+            }
+          ],
+          "directCompetitors": [
+            "ai-lean.com",
+            "selfstorage.org",
+            "jwesleyatkinson.com",
+            "lucaslaw.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Ai Lean",
+              "type": "direct",
+              "what": "Offers a compliance guide and automation to reduce compliance risks and streamline the lien process.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Automating Lien Compliance: The Secret Weapon for Self-Sto",
+                  "domain": "ai-lean.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This page is for the target customer, addresses the exact problem, and offers a competing software solution."
+                }
+              ]
+            },
+            {
+              "name": "Self Storage Association",
+              "type": "direct",
+              "what": "Provides annotated lien law booklets to help operators make correct decisions, a manual alternative to software.",
+              "basis": [
+                {
+                  "id": "S2.3",
+                  "quote": "Annotated lien law booklets help owner/operators and managers make the right decisions",
+                  "domain": "selfstorage.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is from the industry association for the target customer, addressing the exact problem."
+                }
+              ]
+            },
+            {
+              "name": "Law Firm Guides",
+              "type": "direct",
+              "what": "Law firms publish state-specific guides on storage lien laws, a manual research alternative.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "Alabama Storage Lien Law: Complete Guide for Facility",
+                  "domain": "jwesleyatkinson.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a guide for the target customer in a specific state, addressing the exact problem."
+                },
+                {
+                  "id": "S2.9",
+                  "quote": "Self Storage Facilities In Illinois - Lucas Law",
+                  "domain": "lucaslaw.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a guide for the target customer in a specific state, addressing the exact problem."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "At least one competitor, Ai Lean, is directly focused on automating this specific niche problem.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Automating Lien Compliance: The Secret Weapon",
+                  "domain": "ai-lean.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "This page is for the target customer, addresses the exact problem, and offers a competing software solution."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is unclear if the major self-storage management software platforms handle this process adequately. If they do not, or if they are too expensive for small operators, a gap for a specialized, affordable tool could exist.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "dictated by strict state-by-state laws",
+            "finding": "Multiple search results confirm the existence of state-specific lien laws for self-storage facilities.",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "following state-specific lien laws",
+                "domain": "sparefoot.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article explains the lien process to a broad audience that includes both facility owners and tenants."
+              },
+              {
+                "id": "S2.5",
+                "quote": "Texas Self-Storage Lien Law Guide",
+                "domain": "ai-lean.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a guide for the target customer in a specific state, addressing the exact problem, from a competitor."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "result in wrongful sale lawsuits from tenants",
+            "finding": "The evidence does not mention \"wrongful sale lawsuits.\" A keyword for this phrase has no search volume data, so this specific pain point is not validated.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "pay for a software tool that automates the delinquency and lien sale timeline",
+            "finding": "At least one direct competitor, Ai Lean, exists and explicitly markets automation for lien compliance.",
+            "basis": [
+              {
+                "id": "P3",
+                "quote": "Automating Lien Compliance: The Secret Weapon",
+                "domain": "ai-lean.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "category",
+                "relevanceReason": "This page is for the target customer, addresses the exact problem, and offers a competing software solution."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "The core challenge is not technical, but legal. A first experiment would require significant research to accurately codify the lien laws and timelines for even one or two states, making a small test difficult."
+        },
+        "unproven": [
+          "The actual frequency and cost of procedural errors or lawsuits for independent operators.",
+          "Whether independent owners are willing to pay for a specialized tool if their current management software has a 'good enough' feature.",
+          "How many independent operators still use manual methods (spreadsheets, paper) versus integrated software for this process."
+        ],
+        "nextExperiment": {
+          "what": "Conduct 15-minute customer discovery interviews with 5-10 independent self-storage facility owners. Ask how they currently manage the lien process, what tools they use, and what their biggest fears or frustrations are with it.",
+          "cost": "0 cash + 5-10 hours of outreach and interview time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "A majority of interviewees describe their current process as manual, time-consuming, or risky, and express clear interest in a specialized tool to automate it.",
+        "stopIf": "Most interviewees are satisfied with the features in their existing management software or do not perceive the lien process as a significant problem worth paying to solve.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-25T10:06:47.218Z",
+        "evidenceUpdatedAt": "2026-09-25T09:57:45.143Z"
+      }
+    },
+    {
+      "id": "2026-09-25:cosmetics-gmp-batch-record-log",
+      "slug": "cosmetics-gmp-batch-record-log",
+      "title": "The Small-Scale Cosmetics Maker's \"FDA-Ready\" GMP Batch Record Log.",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem refers to 'FDA requirements' and 'MoCRA of 2022', which are US regulations."
+      },
+      "plan": {
+        "slug": "cosmetics-gmp-batch-record-log",
+        "title": "The Small-Scale Cosmetics Maker's \"FDA-Ready\" GMP Batch Record Log.",
+        "problem": "The MoCRA of 2022 imposes new, stricter FDA requirements on cosmetic manufacturers, including mandatory adherence to GMP and detailed batch record-keeping for product traceability.",
+        "targetCustomer": "The owner of an independent, small-batch cosmetics brand selling online or in local retail.",
+        "payer": "The owner of an independent, small-batch cosmetics brand.",
+        "whyPayerPays": "They will pay for a simple tool to create and store the now-mandatory GMP documentation to comply with new FDA requirements.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem refers to 'FDA requirements' and 'MoCRA of 2022', which are US regulations."
+        },
+        "keywords": {
+          "problem": [
+            "cosmetics fda requirements",
+            "mocra compliance small brands",
+            "gmp batch record keeping"
+          ],
+          "solution": [
+            "gmp software",
+            "batch record template",
+            "cosmetics compliance tool"
+          ],
+          "buying": [
+            "gmp software pricing",
+            "best gmp software",
+            "batch record software cost"
+          ]
+        },
+        "serpQueries": [
+          "gmp software",
+          "cosmetics fda requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "cosmetics fda requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "mocra compliance small brands",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "gmp batch record keeping",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "gmp software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": 37.83,
+          "adCompetition": 0.47,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": -44,
+          "providerUpdatedAt": "2026-09-16 10:55:37 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 140
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -41,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "batch record template",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": 43.91,
+          "adCompetition": 0.23,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-13 23:07:57 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (33 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "cosmetics compliance tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "gmp software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best gmp software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-11 10:37:20 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "batch record software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "gmp software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:57:28.521Z",
+          "checkUrl": "https://www.google.com/search?q=gmp%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "instantgmp.com",
+              "url": "https://instantgmp.com/",
+              "title": "InstantGMP: All-in-One Manufacturing, Inventory & Quality SaaS",
+              "description": "The InstantGMP PRO software integrates batch manufacturing, inventory control, quality assurance, and quality control in one cloud-based system. Designed to ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "mitti.com",
+              "url": "https://mitti.com/apps/top-5-gmp-software",
+              "title": "Top 5 GMP Compliance Software of 2026 - Mitti",
+              "description": "Jul 10, 2026 — Good Manufacturing Practices (GMP) software is a digital tool that helps manufacturers implement, monitor, and maintain compliance across their ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "gmpsoftwareindia.com",
+              "url": "https://gmpsoftwareindia.com/",
+              "title": "GMP Software India | Pharma ERP, QMS, PaperLess GMP ...",
+              "description": "GMP Software India provides world-class pharma ERP systems, digital QMS, PaperLess GMP, pharmaceutical documentation software, CFR Part 11 compliant eQMS, ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.gmpsop.com",
+              "url": "https://www.gmpsop.com/gmpsoftwares/",
+              "title": "GMP Software - Application GMP Compliance",
+              "description": "Access-based GMP software modules. Ready to be used for electronic management of quality systems. Each software application is built with best-practice ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.botable.ai",
+              "url": "https://www.botable.ai/blog/ai-gmp-software-for-compliant-manufacturing",
+              "title": "AI GMP Software for Compliant Manufacturing",
+              "description": "AI-powered solutions streamline GMP processes by automating tasks, predicting issues, and enhancing oversight. Botable.ai delivers tools tailored for quality ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "foodready.ai",
+              "url": "https://foodready.ai/blog/gmp-software/",
+              "title": "What Is a GMP Software and Why Manufacturers Need It?",
+              "description": "May 12, 2026 — GMP software is a digital system that manages Good Manufacturing Practices by organizing documentation, standardizing workflows, and ensuring ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "nirdoshjagota.us",
+              "url": "https://nirdoshjagota.us/top-6-software-platforms-transforming-gmp-compliance/",
+              "title": "Top 6 Software Platforms Transforming GMP Compliance",
+              "description": "Jan 30, 2026 — Compare 6 GMP compliance software platforms to improve QMS workflows, Part 11 readiness, batch release speed, and audit readiness.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/biotech/comments/pzm3wf/are_there_any_gmp_software_companies_disrupting/",
+              "title": "Are there any GMP software companies disrupting ...",
+              "description": "The manufacturing process is so slow and expensive that it's demoralizing. How is anything incredible suppose to be invented when everything is held back ...",
+              "id": "S1.10",
+              "class": "discussion"
+            },
+            {
+              "rank": 11,
+              "domain": "www.caq.net",
+              "url": "https://www.caq.net/en/solutions/gmp-software",
+              "title": "GMP Software | QM in the Pharmaceutical Industry",
+              "description": "Quality Management in the Pharmaceutical Industry: Say goodbye to spreadsheets and paper-based solutions. Discover the GMP Software CAQ.Net »",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "cosmetics fda requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:57:35.620Z",
+          "checkUrl": "https://www.google.com/search?q=cosmetics%20fda%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.packaging-gateway.com",
+              "url": "https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/",
+              "title": "FDA tightens cosmetic packaging rules",
+              "description": "Jan 6, 2026 — Under the updated guidance, cosmetic products must incorporate tamper-evident features to alert consumers if a product has been opened or ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.crafters-choice.com",
+              "url": "https://www.crafters-choice.com/handmade101/business-articles/fda-product-definitions-information.aspx",
+              "title": "Product Definitions: Cosmetic, Drug or Both? - Crafter",
+              "description": "Aug 27, 2013 — Under the FD&C Act, cosmetic products and ingredients, with the exception of color additives, do not require FDA approval before they go on the ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "ragaitanlaw.com",
+              "url": "https://ragaitanlaw.com/fda-increases-enforcement-efforts-against-cosmetic-companies/",
+              "title": "FDA Increases Enforcement Efforts Against Cosmetic ...",
+              "description": "cosmetics are subject to an Import Alert ; · cosmetics are adulterated, meaning the product is contaminated, is not safe, or does not otherwise meet applicable ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.lienm.com",
+              "url": "https://www.lienm.com/blogs/ointment-fda-requirements/",
+              "title": "FDA Requirements for Ointment Manufacturing Equipment",
+              "description": "Jun 3, 2026 — The FDA regulates pharmaceutical and cosmetic ointments under 21 CFR Parts 210 and 211, which outline Good Manufacturing Practices (GMP) for ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "dash.harvard.edu",
+              "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-9e34-6bd4-e053-0100007fdf3b/content",
+              "title": "FDA Regulation and the New Anti-aging Products",
+              "description": "by DP Hensel · 1995 · Cited by 3 — FDA may require the cosmetic product to comply with the monograph. An example of this is the use of sunscreen agents in cosmetics.",
+              "id": "S2.7",
+              "class": "reference_media"
+            },
+            {
+              "rank": 8,
+              "domain": "www.makingcosmetics.com",
+              "url": "https://www.makingcosmetics.com/blog-16.html?lang=en_US&locale=ko",
+              "title": "MoCRA Update: Registration Delay and Key Requirements",
+              "description": "A responsible person must register your products by 7월 1, 2024, and provide annual updates [details here](https://www.fda.gov/cosmetics/cosmetics-laws- ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.justanswer.com",
+              "url": "https://www.justanswer.com/business-law/8zpq0-inci-names-required-cosmetic-product-labels-sold.html",
+              "title": "Are INCI Names Required on US Cosmetic Labels?",
+              "description": "The FDA mandates that all cosmetics must include a list of ingredients using the standardized INCI name for each ingredient.",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/nytimes/posts/the-fda-has-withdrawn-a-proposed-rule-that-would-have-required-makeup-manufactur/1237775638204897/",
+              "title": "The FDA has withdrawn a proposed rule that would have ...",
+              "description": "The FDA has withdrawn a proposed rule that would have required makeup manufacturers to test talcum powder and cosmetics made with talc for ...",
+              "id": "S2.10",
+              "class": "discussion"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "instantgmp.com",
+          "url": "https://instantgmp.com/",
+          "finalUrl": "https://instantgmp.com/",
+          "retrievedAt": "2026-09-25T09:57:43.934Z",
+          "status": 202,
+          "error": null,
+          "title": null,
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "instantgmp.com",
+          "url": "https://instantgmp.com/pricing",
+          "finalUrl": "https://instantgmp.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:43.935Z",
+          "status": 202,
+          "error": null,
+          "title": null,
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P3",
+          "domain": "packaging-gateway.com",
+          "url": "https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/",
+          "finalUrl": "https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/",
+          "retrievedAt": "2026-09-25T09:57:43.936Z",
+          "status": 200,
+          "error": null,
+          "title": "FDA tightens cosmetic packaging rules",
+          "description": "The US Food and Drug Administration has released new guidance focused on packaging technologies and tamper-resistant measures for cosmetic products.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "packaging-gateway.com",
+          "url": "https://www.packaging-gateway.com/pricing",
+          "finalUrl": "https://www.packaging-gateway.com/pricing",
+          "retrievedAt": "2026-09-25T09:57:43.937Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "mitti.com",
+          "url": "https://mitti.com/apps/top-5-gmp-software",
+          "finalUrl": "https://mitti.com/apps/top-5-gmp-software",
+          "retrievedAt": "2026-09-25T09:57:43.937Z",
+          "status": 200,
+          "error": null,
+          "title": "Top 5 GMP Compliance Software of 2026 | Mitti (by SafetyCulture)",
+          "description": "Compare the top 5 GMP compliance software tools for 2026 and find the right fit to help your manufacturing business meet GMP standards.",
+          "priceMentions": [
+            {
+              "text": "$24/seat",
+              "billingUnit": true,
+              "context": "on : Available for teams of up to 10 Pricing : Premium plan $24/seat/month (with free trial period) Platforms supported : Availa"
+            },
+            {
+              "text": "$100/user",
+              "billingUnit": true,
+              "context": "c security Free Version : Not available Pricing : Starts at $100/user/month Platforms supported : Available as a mobile app (iOS"
+            },
+            {
+              "text": "$100/seat",
+              "billingUnit": true,
+              "context": "SafetyCulture) Yes $24/seat/month* Yes Tulip Not available $100/seat/month* Yes Qualio Not available Contact vendor for pricing"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "mitti.com",
+          "url": "https://mitti.com/pricing",
+          "finalUrl": "https://mitti.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:05.728Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing | Mitti (by SafetyCulture)",
+          "description": "Try any plan free for 30 days, no upfront commitment. Used for more than 50+ million inspections in over 80 countries.",
+          "priceMentions": [
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "ams (up to 10) getting started with inspections and reports $0 Start for free (opens in new tab) Includes: Up to 300 AI cr"
+            },
+            {
+              "text": "$24 / seat",
+              "billingUnit": true,
+              "context": "s with advanced tools for growing teams Annually (save 17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / mon"
+            },
+            {
+              "text": "$29 / seat",
+              "billingUnit": true,
+              "context": "17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / month Excl. all applicable taxes Start for free (opens in"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 5,
+          "top": {
+            "keyword": "batch record template",
+            "searchVolume": 30,
+            "id": "K5"
+          },
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 4,
+            "top": {
+              "keyword": "gmp software",
+              "searchVolume": 90,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"batch record template\" at 30/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low (\"gmp software\" 90/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K5"
+          ],
+          "pricedPageIds": [
+            "P6"
+          ],
+          "pricedDomains": [
+            "mitti.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $43.91 on \"batch record template\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): mitti.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "instantgmp.com",
+            "packaging-gateway.com",
+            "mitti.com",
+            "gmpsoftwareindia.com",
+            "crafters-choice.com",
+            "ragaitanlaw.com",
+            "gmpsop.com",
+            "lienm.com",
+            "botable.ai",
+            "foodready.ai",
+            "makingcosmetics.com",
+            "nirdoshjagota.us",
+            "justanswer.com",
+            "caq.net"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "facebook.com"
+          ],
+          "pricedDomains": [
+            "mitti.com"
+          ],
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on mitti.com. Judged for relevance: 3 domain(s) with a direct competitor (same problem) (instantgmp.com, gmpsop.com, botable.ai), 1 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "instantgmp.com",
+            "gmpsop.com",
+            "botable.ai"
+          ],
+          "indirectAlternativeDomains": [
+            "mitti.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "49abd5dba060d405",
+      "evidenceUpdatedAt": "2026-09-25T09:57:45.143Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-25T10:05:33.297Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-25T09:57:45.143Z",
+        "qualifiers": [
+          "owner of a cosmetics brand",
+          "independent, small-batch"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for the general regulatory problem that the target customer faces."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a highly specific search that matches the target customer and their problem perfectly."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the specific compliance task that the idea's solution addresses."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for a broad software category that applies to many industries beyond cosmetics."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a search for a direct, non-software solution to the customer's specific problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for the solution category specific to the cosmetics industry."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broad software category that applies to many industries."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a buying-intent search for a broad software category that applies to many industries."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a buying-intent search for a software solution to the specific problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general review of GMP software, not specific to small cosmetics brands."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is specifically for the pharmaceutical industry, not cosmetics."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general GMP software, not specific to small cosmetics brands."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general AI-powered GMP software, not specific to small cosmetics brands."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about GMP software for any manufacturer, not specific to cosmetics."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general review of GMP software, not specific to small cosmetics brands."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general discussion about the high cost of GMP software and processes, not specific to cosmetics."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is specifically for the pharmaceutical industry, not cosmetics."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but discusses a different, though related, compliance problem (packaging rules)."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand",
+              "independent, small-batch"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but addresses a broader, more foundational compliance issue than batch record-keeping."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but discusses broader FDA enforcement issues, not specifically the GMP batch record problem."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for a broader group of manufacturers and focuses on a different aspect of GMP (equipment) than the idea's problem."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the cosmetics industry but discusses a different problem (product claims) and is very dated."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand",
+              "independent, small-batch"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is for the exact target customer and discusses the exact problem (MoCRA compliance)."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but addresses a different compliance problem (labeling)."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but discusses a different, specific compliance issue (talc testing)."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "owner of a cosmetics brand"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is for the target customer but discusses a different, though related, compliance problem (packaging rules)."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general review of GMP software, not specific to small cosmetics brands."
+          },
+          "P6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is the pricing page for a general-purpose compliance tool, not one specifically for cosmetics GMP."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-25:cosmetics-gmp-batch-record-log",
+        "opportunity": "The opportunity is to provide a simple software tool for small-batch cosmetics makers to create and manage GMP-compliant batch records. This helps them comply with new FDA regulations (MoCRA) that mandate stricter record-keeping.",
+        "whoPays": "The owner of an independent, small-batch cosmetics brand pays for a simple tool to create and store mandatory compliance documentation required by new FDA rules. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "The FDA regulates pharmaceutical and cosmetic ointments under 21 CFR Parts 210 and 211, which outline Good Manufacturing Practices (GMP)"
+            },
+            {
+              "id": "S1.8",
+              "quote": "GMP software is a digital system that manages Good Manufacturing Practices by organizing documentation"
+            }
+          ],
+          "observed": "The FDA regulates cosmetics under Good Manufacturing Practices (GMP). GMP software exists to help manage this by organizing documentation.",
+          "inference": "While the general requirement for GMP in cosmetics exists, the evidence does not strongly establish that new MoCRA regulations create a specific, urgent pain point around batch records for small brands that they are looking to solve with software."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "The InstantGMP PRO software integrates batch manufacturing, inventory control, quality assurance"
+            },
+            {
+              "id": "K5",
+              "quote": "batch record template"
+            },
+            {
+              "id": "P6",
+              "quote": "$24 / seat / month"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "InstantGMP",
+              "type": "direct",
+              "what": "An all-in-one cloud-based system for batch manufacturing, inventory, and quality assurance.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "integrates batch manufacturing, inventory control, quality assurance, and quality control in one cloud-based system"
+                }
+              ]
+            },
+            {
+              "name": "GMPSOP",
+              "type": "direct",
+              "what": "Offers software modules for electronic management of quality systems.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Ready to be used for electronic management of quality systems"
+                }
+              ]
+            },
+            {
+              "name": "Mitti (by SafetyCulture)",
+              "type": "indirect",
+              "what": "A general-purpose inspection and compliance platform that could be adapted for GMP records, with pricing starting at $24/seat/month.",
+              "basis": [
+                {
+                  "id": "P6",
+                  "quote": "$24 / seat / month"
+                }
+              ]
+            },
+            {
+              "name": "Templates",
+              "type": "indirect",
+              "what": "Manual batch record templates (e.g., spreadsheets, documents) are a likely non-software alternative.",
+              "basis": [
+                {
+                  "id": "K5",
+                  "quote": "batch record template"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing GMP software solutions appear to be comprehensive, all-in-one systems.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "integrates batch manufacturing, inventory control, quality assurance, and quality control"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing GMP software seems geared towards larger, multi-industry manufacturing and may be too complex and expensive for small-batch cosmetics makers. A discussion notes that the GMP process can be \"so slow and expensive.\"",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "The manufacturing process is so slow and expensive that it's demoralizing."
+                }
+              ],
+              "kind": "inference"
+            },
+            {
+              "text": "There appears to be a lack of simple, focused tools specifically for small cosmetics brands navigating MoCRA requirements.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "MoCRA of 2022 imposes new, stricter FDA requirements",
+            "finding": "One search result mentions a \"MoCRA Update\" with a registration deadline, which weakly supports the idea of new requirements, but provides no detail on batch records.",
+            "basis": [
+              {
+                "id": "S2.8",
+                "quote": "MoCRA Update: Registration Delay and Key Requirements"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "mandatory adherence to Good Manufacturing Practices (GMP) and detailed record-keeping",
+            "finding": "The evidence confirms that GMP applies to cosmetics, but does not specify that detailed batch record-keeping is a new, painful requirement for small brands.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "outline Good Manufacturing Practices (GMP) for"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "pay for a simple tool",
+            "finding": "The existence of complex, general GMP software and searches for \"batch record template\" suggests a potential gap for a simple tool. An indirect competitor offers a general compliance tool at a price point accessible to small businesses.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "All-in-One Manufacturing, Inventory & Quality SaaS"
+              },
+              {
+                "id": "K5",
+                "quote": "batch record template"
+              },
+              {
+                "id": "P6",
+                "quote": "$24 / seat / month"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A simple web application that allows users to fill out, save, and export templated batch records is technically simple to build as a first experiment."
+        },
+        "unproven": [
+          "Whether the new MoCRA regulations are a strong enough catalyst to make small brands switch from free templates to paid software.",
+          "The specific features a small cosmetics maker needs for batch records beyond a simple template.",
+          "The price point that this target customer is willing to pay."
+        ],
+        "nextExperiment": {
+          "what": "Create a high-quality, free \"MoCRA-Ready GMP Batch Record Template\" (as a Google Sheet or fillable PDF). Offer it for download on a landing page in exchange for an email address. The page should also mention a \"coming soon\" software version to automate the process.",
+          "cost": "0 cash + 1-2 days of work.",
+          "duration": "4 weeks"
+        },
+        "continueIf": "The free template is downloaded over 100 times by people who appear to be small business owners, indicating the problem is real and they are actively seeking solutions.",
+        "stopIf": "There are very few downloads, suggesting the pain point is not significant enough for makers to even seek out a free template."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a simple software tool for small-batch cosmetics makers to create and manage GMP-compliant batch records. This helps them comply with new FDA regulations (MoCRA) that mandate stricter record-keeping.",
+        "whoPays": "The owner of an independent, small-batch cosmetics brand pays for a simple tool to create and store mandatory compliance documentation required by new FDA rules. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.8",
+              "quote": "GMP software is a digital system that manages Good Manufacturing Practices by organizing documentation",
+              "domain": "foodready.ai",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a general article about GMP software for any manufacturer, not specific to cosmetics."
+            }
+          ],
+          "observed": "The FDA regulates cosmetics under Good Manufacturing Practices (GMP). GMP software exists to help manage this by organizing documentation.",
+          "inference": "While the general requirement for GMP in cosmetics exists, the evidence does not strongly establish that new MoCRA regulations create a specific, urgent pain point around batch records for small brands that they are looking to solve with software."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "The InstantGMP PRO software integrates batch manufacturing, inventory control, quality assurance",
+              "domain": "instantgmp.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+            },
+            {
+              "id": "P6",
+              "quote": "$24 / seat / month",
+              "domain": "mitti.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is the pricing page for a general-purpose compliance tool, not one specifically for cosmetics GMP."
+            }
+          ],
+          "directCompetitors": [
+            "instantgmp.com",
+            "gmpsop.com"
+          ],
+          "indirectAlternatives": [
+            "mitti.com"
+          ],
+          "alternatives": [
+            {
+              "name": "InstantGMP",
+              "type": "direct",
+              "what": "An all-in-one cloud-based system for batch manufacturing, inventory, and quality assurance.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "integrates batch manufacturing, inventory control, quality assurance, and quality control in one cloud-based system",
+                  "domain": "instantgmp.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+                }
+              ]
+            },
+            {
+              "name": "GMPSOP",
+              "type": "direct",
+              "what": "Offers software modules for electronic management of quality systems.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Ready to be used for electronic management of quality systems",
+                  "domain": "gmpsop.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general GMP software, not specific to small cosmetics brands."
+                }
+              ]
+            },
+            {
+              "name": "Mitti (by SafetyCulture)",
+              "type": "indirect",
+              "what": "A general-purpose inspection and compliance platform that could be adapted for GMP records, with pricing starting at $24/seat/month.",
+              "basis": [
+                {
+                  "id": "P6",
+                  "quote": "$24 / seat / month",
+                  "domain": "mitti.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is the pricing page for a general-purpose compliance tool, not one specifically for cosmetics GMP."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing GMP software solutions appear to be comprehensive, all-in-one systems.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "integrates batch manufacturing, inventory control, quality assurance, and quality control",
+                  "domain": "instantgmp.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing GMP software seems geared towards larger, multi-industry manufacturing and may be too complex and expensive for small-batch cosmetics makers. A discussion notes that the GMP process can be \"so slow and expensive.\"",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "There appears to be a lack of simple, focused tools specifically for small cosmetics brands navigating MoCRA requirements.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "mandatory adherence to Good Manufacturing Practices (GMP) and detailed record-keeping",
+            "finding": "The evidence confirms that GMP applies to cosmetics, but does not specify that detailed batch record-keeping is a new, painful requirement for small brands.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "pay for a simple tool",
+            "finding": "The existence of complex, general GMP software and searches for \"batch record template\" suggests a potential gap for a simple tool. An indirect competitor offers a general compliance tool at a price point accessible to small businesses.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "All-in-One Manufacturing, Inventory & Quality SaaS",
+                "domain": "instantgmp.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a general GMP software for any manufacturing, likely aimed at larger companies than the target customer."
+              },
+              {
+                "id": "K5",
+                "quote": "batch record template",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This is a search for a direct, non-software solution to the customer's specific problem."
+              },
+              {
+                "id": "P6",
+                "quote": "$24 / seat / month",
+                "domain": "mitti.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "broader",
+                "relevanceReason": "This is the pricing page for a general-purpose compliance tool, not one specifically for cosmetics GMP."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A simple web application that allows users to fill out, save, and export templated batch records is technically simple to build as a first experiment."
+        },
+        "unproven": [
+          "Whether the new MoCRA regulations are a strong enough catalyst to make small brands switch from free templates to paid software.",
+          "The specific features a small cosmetics maker needs for batch records beyond a simple template.",
+          "The price point that this target customer is willing to pay."
+        ],
+        "nextExperiment": {
+          "what": "Create a high-quality, free \"MoCRA-Ready GMP Batch Record Template\" (as a Google Sheet or fillable PDF). Offer it for download on a landing page in exchange for an email address. The page should also mention a \"coming soon\" software version to automate the process.",
+          "cost": "0 cash + 1-2 days of work.",
+          "duration": "4 weeks"
+        },
+        "continueIf": "The free template is downloaded over 100 times by people who appear to be small business owners, indicating the problem is real and they are actively seeking solutions.",
+        "stopIf": "There are very few downloads, suggesting the pain point is not significant enough for makers to even seek out a free template.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"mandatory adherence to good manufacturing practice\" supports → untested: cites only evidence judged to be about a different customer or problem, or not judged"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "problem evidence",
+              "id": "S2.6",
+              "relevance": "broader",
+              "reason": "This is for a broader group of manufacturers and focuses on a different aspect of GMP (equipment) than the idea's problem."
+            },
+            {
+              "claim": "competition",
+              "id": "K5",
+              "relevance": "null",
+              "reason": "This is a search for a direct, non-software solution to the customer's specific problem."
+            },
+            {
+              "claim": "alternative Templates",
+              "id": "K5",
+              "relevance": "null",
+              "reason": "This is a search for a direct, non-software solution to the customer's specific problem."
+            },
+            {
+              "claim": "change",
+              "id": "S2.6",
+              "relevance": "broader",
+              "reason": "This is for a broader group of manufacturers and focuses on a different aspect of GMP (equipment) than the idea's problem."
+            },
+            {
+              "claim": "gap",
+              "id": "S1.10",
+              "relevance": "broader",
+              "reason": "This is a general discussion about the high cost of GMP software and processes, not specific to cosmetics."
+            }
+          ],
+          "downgraded": [
+            "change \"mandatory adherence to good manufacturing practice\" supports → untested: cites only evidence judged to be about a different customer or problem, or not judged"
+          ],
+          "dropped": [
+            "alternative \"Templates\": no quoted, relevant evidence that it is an offering for this customer's problem",
+            "change: original text \"MoCRA of 2022 imposes new, stricter FDA requirements\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-09-25T10:06:47.224Z",
+        "evidenceUpdatedAt": "2026-09-25T09:57:45.143Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-25T09:56:36.353Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "88845720-958b-5f3f-bc37-02f1ea9b7beb",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01332,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-25T09:56:41.080Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "5a1c283d-27c5-5dad-a437-99112d2ff192",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-25T09:56:52.576Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "abf9e9fe-6145-5c73-92f8-e0c7ed9c80a0",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-25T09:56:59.783Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "0fb928a1-5915-5fc0-8de3-8d53d43ecf6e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
+    },
+    {
+      "at": "2026-09-25T09:57:20.394Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "1405b78d-29db-5c10-a4ca-53a67cb4bdb8",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-25T09:57:28.521Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "28697e7b-a6d0-5e55-ae3b-69f210030e3e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-25T09:57:35.620Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "f2231c42-2d85-5973-a445-7ce9a127ed4c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": [
+      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
+    ]
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.54688,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.45312
+    },
+    "monthToDateUsdBefore": 0.54688,
+    "spentThisRunUsd": 0.02532
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-25T09:57:45.143Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02532,
+    "note": null
+  }
+}

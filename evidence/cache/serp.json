@@ -5809,6 +5809,378 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|ofac screening": {
+      "fetchedAt": "2026-09-25T09:56:41.080Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=ofac%20screening&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "discussions_and_forums",
+          "images"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "dilisense.com",
+            "url": "https://dilisense.com/en/insights/ofac-sdn-list",
+            "title": "OFAC SDN List: How Names Are Listed, Screened and ...",
+            "description": "Sep 10, 2026 — This article stays on the SDN List itself: how OFAC designates a name, how to read an entry and what your obligations are when a screen returns ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "complyone.tech",
+            "url": "https://complyone.tech/blog/what-is-ofac-sanctions-screening-a-compliance-guide-for-fintechs",
+            "title": "What Is OFAC Sanctions Screening? Fintech Compliance ...",
+            "description": "OFAC sanctions screening is a legal requirement for every U.S. fintech that moves money — no exceptions. Here is what OFAC is, what the SDN list requires, and ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.regly.ai",
+            "url": "https://www.regly.ai/blog/ofac-sanctions-guide",
+            "title": "What Are OFAC Sanctions? A Practical Guide (Updated ...",
+            "description": "Apr 15, 2026 — OFAC sanctions are economic and financial restrictions designed to limit transactions connected to activities that threaten US foreign policy, ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/shorts/LWPnxIaIT9Y?xstg=CAMSBhUD_LL2Hw%3D%3D",
+            "title": "How to screen applicants against OFAC sanctions lists",
+            "description": "Use an OFAC screening API to check business names and individuals against the U.S. Treasury Department's Specially Designated Nationals (SDN) ..."
+          },
+          {
+            "rank": 7,
+            "domain": "clearsanction.com",
+            "url": "https://clearsanction.com/pages/ofac-screening-checklist",
+            "title": "OFAC Screening Checklist",
+            "description": "A practical checklist for thinking through key steps in an OFAC screening process, with links to relevant ClearSanction capabilities."
+          },
+          {
+            "rank": 9,
+            "domain": "lightspark.com",
+            "url": "https://lightspark.com/glossary/ofac-screening",
+            "title": "OFAC Screening: The Compliance Mandate for Bitcoin and ...",
+            "description": "Nov 14, 2025 — OFAC screening is a mandatory check financial institutions perform, comparing transaction details against U.S. sanctions lists."
+          },
+          {
+            "rank": 10,
+            "domain": "blog.volkovlaw.com",
+            "url": "https://blog.volkovlaw.com/2020/11/ofac-screening-and-internal-controls/",
+            "title": "OFAC Screening and Internal Controls",
+            "description": "Nov 23, 2020 — These open source intelligence-based services provide companies with quick sanctions screening results. build and implement important controls ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|ofac compliance auto dealers": {
+      "fetchedAt": "2026-09-25T09:56:52.576Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=ofac%20compliance%20auto%20dealers&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "organic",
+          "people_also_ask",
+          "local_pack",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "domain": "www.totaldealercompliance.com",
+            "url": "https://www.totaldealercompliance.com/office-of-foreign-assets-control.html",
+            "title": "OFAC Compliance for Car Dealerships",
+            "description": "The Office of Foreign Asset Controls requires car dealers to check customer names against a database of known dangerous organizations and individuals. Read more"
+          },
+          {
+            "rank": 2,
+            "domain": "us.dealertrack.com",
+            "url": "https://us.dealertrack.com/resources/the-impact-of-ofac-on-dealers/",
+            "title": "The Impact of OFAC on Dealers",
+            "description": "OFAC will assess your compliance program in relation to the size and nature of your business. Auto dealers are considered an important business to OFAC ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.intellicheck.com",
+            "url": "https://www.intellicheck.com/resource-library/how-to-ensure-ofac-compliance-for-auto-dealers",
+            "title": "How to Ensure OFAC Compliance for Auto Dealers",
+            "description": "Aug 30, 2022 — Auto dealers should be concerned with OFAC compliance as they authorize credit applications for buyers to avoid approving prohibited ..."
+          },
+          {
+            "rank": 5,
+            "domain": "www.autoraptor.com",
+            "url": "https://www.autoraptor.com/blog/ofac-compliance-auto-industry-dealership-prepared",
+            "title": "OFAC Car Dealership Compliance: Are You Prepared?",
+            "description": "May 10, 2023 — OFAC compliance checks are usually performed at the same time you conduct a credit check. You do not need to obtain authorization from the ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.fi-magazine.com",
+            "url": "https://www.fi-magazine.com/articles/ofac-requirements-are-serious-business",
+            "title": "OFAC Requirements Are Serious Business",
+            "description": "Oct 29, 2024 — OFAC needs to be checked on all types of transactions, including cash, wholesale, retail and lease. Dealerships have several resources they can ..."
+          },
+          {
+            "rank": 10,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/askcarsales/comments/9hkjyx/wanted_to_buy_a_car_but_they_wouldnt_proceed/",
+            "title": "Wanted to buy a car, but they wouldn't proceed without an \" ...",
+            "description": "My guess is they used OFAC as an excuse for company policy because it makes sense for most people, and they should have just said that to you. Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.autolegalgroup.com",
+            "url": "https://www.autolegalgroup.com/unpacking-the-ofac-compliance/",
+            "title": "Unpacking The OFAC Compliance",
+            "description": "If a customer is on the OFAC list, the car dealership is not allowed to sell a car to them. The dealership should immediately terminate any transactions with ... Read more"
+          },
+          {
+            "rank": 12,
+            "domain": "informativ.com",
+            "url": "https://informativ.com/blog/what-is-ofac-compliance/",
+            "title": "What Is OFAC Compliance? A Simple Guide for Lenders ...",
+            "description": "Jun 16, 2026 — For auto dealers, that means embedding OFAC checks into the deal workflow, so they fire every time, on every deal, before anything advances to ... Read more"
+          },
+          {
+            "rank": 13,
+            "domain": "www.visualofac.com",
+            "url": "https://www.visualofac.com/sectors/dealerships/",
+            "title": "OFAC Compliance for Auto and Boat Dealers",
+            "description": "Protect your company against possible OFAC and FCPA violations with Visual OFAC's compliance solutions for car and boat manufacturers."
+          },
+          {
+            "rank": 14,
+            "domain": "www.michiganada.org",
+            "url": "https://www.michiganada.org/faq/federal-compliance-topics-links-and-resources/",
+            "title": "Federal compliance topics, links and resources - MADA",
+            "description": "Access customer topics, Finance & Insurance topics, general management & personnel topics, new & used vehicle sales topics, service/parts & body shop ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|self storage lien sale laws": {
+      "fetchedAt": "2026-09-25T09:57:20.394Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=self%20storage%20lien%20sale%20laws&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.revisor.mn.gov",
+            "url": "https://www.revisor.mn.gov/statutes/cite/514.973",
+            "title": "Sec. 514.973 MN Statutes",
+            "description": "The sale may take place no sooner than 15 days after the first publication. If the lien is satisfied before the second publication occurs, the second ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.selfstorage.org",
+            "url": "https://www.selfstorage.org/Advocacy/Legal-Resource-Center/Topics/ArticleId/101/State-Lien-Tenant-Insurance-Laws",
+            "title": "Self Storage Association (SSA) > Legal > Legal Resource ...",
+            "description": "Self Storage Lien Law. Annotated lien law booklets help owner/operators and managers make the right decisions regarding lien sales. available by calling 703. ..."
+          },
+          {
+            "rank": 5,
+            "domain": "ai-lean.com",
+            "url": "https://ai-lean.com/resources/state-guides/texas-lien-laws",
+            "title": "Texas Self-Storage Lien Law Guide",
+            "description": "Before conducting an auction, you must wait at least 14 days after sending the notice at least the “15th day”. The sale must be conducted at your self-storage ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "revisor.mo.gov",
+            "url": "https://revisor.mo.gov/main/OneSection.aspx?section=415.415",
+            "title": "Revised Statutes of Missouri, RSMo Section 415.415 - MO.gov",
+            "description": "The operator of a self-service storage facility has a lien on all personal property stored within each leased space for rent, labor, or other charges, and ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.sparefoot.com",
+            "url": "https://www.sparefoot.com/blog/understanding-the-self-storage-lien-process",
+            "title": "Understanding the Self-Storage Lien Process",
+            "description": "Aug 15, 2025 — ▸ Storage facilities can legally sell your belongings through auctions when you fall behind on rent, following state-specific lien laws and ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "jwesleyatkinson.com",
+            "url": "https://jwesleyatkinson.com/alabama-storage-lien-law/",
+            "title": "Alabama Storage Lien Law: Complete Guide for Facility ...",
+            "description": "Alabama law says you must advertise the storage unit sale in a general circulation newspaper. The ad must run once weekly for two weeks before the sale. ..."
+          },
+          {
+            "rank": 9,
+            "domain": "www.lucaslaw.com",
+            "url": "https://www.lucaslaw.com/newsletters/miscellaneous/self-storage-facilities-in-illinois",
+            "title": "Self Storage Facilities In Illinois - Lucas Law",
+            "description": "The lien permits the owner to sell the contents of the storage unit after a default by the occupant. After the occurrence of the default, the owner must notify ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "lloydwinterlaw.com",
+            "url": "https://lloydwinterlaw.com/blog/storage-unit-contracts/",
+            "title": "Lien on Storage Unit | What California Renters Need to Know",
+            "description": "Nov 19, 2025 — Lien on Storage Unit laws explain when facilities can lock you out or sell items and what rights renters have to stop or undo a sale."
+          },
+          {
+            "rank": 11,
+            "domain": "help.publicstorage.com",
+            "url": "https://help.publicstorage.com/rent-a-unit/rental-faqs/zzzzz-Storage_Auctions_and_the_Lien_Process",
+            "title": "Storage Auctions and the Lien Process",
+            "description": "When rent remains unpaid for an extended period, state laws require storage companies to follow a legal lien process to recover the space and unpaid rent. Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|gmp software": {
+      "fetchedAt": "2026-09-25T09:57:28.521Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=gmp%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "instantgmp.com",
+            "url": "https://instantgmp.com/",
+            "title": "InstantGMP: All-in-One Manufacturing, Inventory & Quality SaaS",
+            "description": "The InstantGMP PRO software integrates batch manufacturing, inventory control, quality assurance, and quality control in one cloud-based system. Designed to ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "mitti.com",
+            "url": "https://mitti.com/apps/top-5-gmp-software",
+            "title": "Top 5 GMP Compliance Software of 2026 - Mitti",
+            "description": "Jul 10, 2026 — Good Manufacturing Practices (GMP) software is a digital tool that helps manufacturers implement, monitor, and maintain compliance across their ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "gmpsoftwareindia.com",
+            "url": "https://gmpsoftwareindia.com/",
+            "title": "GMP Software India | Pharma ERP, QMS, PaperLess GMP ...",
+            "description": "GMP Software India provides world-class pharma ERP systems, digital QMS, PaperLess GMP, pharmaceutical documentation software, CFR Part 11 compliant eQMS, ..."
+          },
+          {
+            "rank": 6,
+            "domain": "www.gmpsop.com",
+            "url": "https://www.gmpsop.com/gmpsoftwares/",
+            "title": "GMP Software - Application GMP Compliance",
+            "description": "Access-based GMP software modules. Ready to be used for electronic management of quality systems. Each software application is built with best-practice ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.botable.ai",
+            "url": "https://www.botable.ai/blog/ai-gmp-software-for-compliant-manufacturing",
+            "title": "AI GMP Software for Compliant Manufacturing",
+            "description": "AI-powered solutions streamline GMP processes by automating tasks, predicting issues, and enhancing oversight. Botable.ai delivers tools tailored for quality ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "foodready.ai",
+            "url": "https://foodready.ai/blog/gmp-software/",
+            "title": "What Is a GMP Software and Why Manufacturers Need It?",
+            "description": "May 12, 2026 — GMP software is a digital system that manages Good Manufacturing Practices by organizing documentation, standardizing workflows, and ensuring ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "nirdoshjagota.us",
+            "url": "https://nirdoshjagota.us/top-6-software-platforms-transforming-gmp-compliance/",
+            "title": "Top 6 Software Platforms Transforming GMP Compliance",
+            "description": "Jan 30, 2026 — Compare 6 GMP compliance software platforms to improve QMS workflows, Part 11 readiness, batch release speed, and audit readiness."
+          },
+          {
+            "rank": 10,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/biotech/comments/pzm3wf/are_there_any_gmp_software_companies_disrupting/",
+            "title": "Are there any GMP software companies disrupting ...",
+            "description": "The manufacturing process is so slow and expensive that it's demoralizing. How is anything incredible suppose to be invented when everything is held back ..."
+          },
+          {
+            "rank": 11,
+            "domain": "www.caq.net",
+            "url": "https://www.caq.net/en/solutions/gmp-software",
+            "title": "GMP Software | QM in the Pharmaceutical Industry",
+            "description": "Quality Management in the Pharmaceutical Industry: Say goodbye to spreadsheets and paper-based solutions. Discover the GMP Software CAQ.Net »"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|cosmetics fda requirements": {
+      "fetchedAt": "2026-09-25T09:57:35.620Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=cosmetics%20fda%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "images"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.packaging-gateway.com",
+            "url": "https://www.packaging-gateway.com/features/fda-tightens-cosmetic-packaging-rules/",
+            "title": "FDA tightens cosmetic packaging rules",
+            "description": "Jan 6, 2026 — Under the updated guidance, cosmetic products must incorporate tamper-evident features to alert consumers if a product has been opened or ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.crafters-choice.com",
+            "url": "https://www.crafters-choice.com/handmade101/business-articles/fda-product-definitions-information.aspx",
+            "title": "Product Definitions: Cosmetic, Drug or Both? - Crafter",
+            "description": "Aug 27, 2013 — Under the FD&C Act, cosmetic products and ingredients, with the exception of color additives, do not require FDA approval before they go on the ..."
+          },
+          {
+            "rank": 5,
+            "domain": "ragaitanlaw.com",
+            "url": "https://ragaitanlaw.com/fda-increases-enforcement-efforts-against-cosmetic-companies/",
+            "title": "FDA Increases Enforcement Efforts Against Cosmetic ...",
+            "description": "cosmetics are subject to an Import Alert ; · cosmetics are adulterated, meaning the product is contaminated, is not safe, or does not otherwise meet applicable ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.lienm.com",
+            "url": "https://www.lienm.com/blogs/ointment-fda-requirements/",
+            "title": "FDA Requirements for Ointment Manufacturing Equipment",
+            "description": "Jun 3, 2026 — The FDA regulates pharmaceutical and cosmetic ointments under 21 CFR Parts 210 and 211, which outline Good Manufacturing Practices (GMP) for ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "dash.harvard.edu",
+            "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-9e34-6bd4-e053-0100007fdf3b/content",
+            "title": "FDA Regulation and the New Anti-aging Products",
+            "description": "by DP Hensel · 1995 · Cited by 3 — FDA may require the cosmetic product to comply with the monograph. An example of this is the use of sunscreen agents in cosmetics."
+          },
+          {
+            "rank": 8,
+            "domain": "www.makingcosmetics.com",
+            "url": "https://www.makingcosmetics.com/blog-16.html?lang=en_US&locale=ko",
+            "title": "MoCRA Update: Registration Delay and Key Requirements",
+            "description": "A responsible person must register your products by 7월 1, 2024, and provide annual updates [details here](https://www.fda.gov/cosmetics/cosmetics-laws- ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.justanswer.com",
+            "url": "https://www.justanswer.com/business-law/8zpq0-inci-names-required-cosmetic-product-labels-sold.html",
+            "title": "Are INCI Names Required on US Cosmetic Labels?",
+            "description": "The FDA mandates that all cosmetics must include a list of ingredients using the standardized INCI name for each ingredient."
+          },
+          {
+            "rank": 10,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/nytimes/posts/the-fda-has-withdrawn-a-proposed-rule-that-would-have-required-makeup-manufactur/1237775638204897/",
+            "title": "The FDA has withdrawn a proposed rule that would have ...",
+            "description": "The FDA has withdrawn a proposed rule that would have required makeup manufacturers to test talcum powder and cosmetics made with talc for ..."
+          }
+        ]
+      }
     }
   }
 }
