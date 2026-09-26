@@ -5330,6 +5330,222 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.farmbrite.com/": {
+      "fetchedAt": "2026-09-26T10:29:55.545Z",
+      "data": {
+        "url": "https://www.farmbrite.com/",
+        "finalUrl": "https://www.farmbrite.com/",
+        "retrievedAt": "2026-09-26T10:29:55.545Z",
+        "status": 200,
+        "error": null,
+        "title": "Farm Management Software for your whole farm | Farmbrite",
+        "description": "All-in-one farm management software for the modern farmer to run a thriving farm or livestock business. Organize, integrate and improve everything on your farm without the busywork.  Farmbrite helps you know more, grow more and sell more all from one place. Start your free trial today!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://tractionag.com/": {
+      "fetchedAt": "2026-09-26T10:29:55.550Z",
+      "data": {
+        "url": "https://tractionag.com/",
+        "finalUrl": "https://tractionag.com/",
+        "retrievedAt": "2026-09-26T10:29:55.550Z",
+        "status": 200,
+        "error": null,
+        "title": "Farm Accounting Software Built for Farmers | Traction Ag",
+        "description": "Get true farm financial clarity. Traction Ag’s farm accounting software tracks income, expenses, payroll, and inventory—all in one easy-to-use platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://tractionag.com/pricing": {
+      "fetchedAt": "2026-09-26T10:29:55.551Z",
+      "data": {
+        "url": "https://tractionag.com/pricing",
+        "finalUrl": "https://tractionag.com/pricing",
+        "retrievedAt": "2026-09-26T10:29:55.551Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.truecommerce.com/pricing": {
+      "fetchedAt": "2026-09-26T10:29:55.549Z",
+      "data": {
+        "url": "https://www.truecommerce.com/pricing",
+        "finalUrl": "https://www.truecommerce.com/pricing",
+        "retrievedAt": "2026-09-26T10:29:55.549Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.truecommerce.com/blog/fsma-food-traceability-rule/": {
+      "fetchedAt": "2026-09-26T10:29:55.547Z",
+      "data": {
+        "url": "https://www.truecommerce.com/blog/fsma-food-traceability-rule/",
+        "finalUrl": "https://www.truecommerce.com/blog/fsma-food-traceability-rule/",
+        "retrievedAt": "2026-09-26T10:29:55.547Z",
+        "status": 200,
+        "error": null,
+        "title": "FSMA 204 Food Traceability Rule: Compliance Guide for Food Suppliers | TrueCommerce",
+        "description": "Learn what the FSMA 204 Food Traceability Rule requires, who it applies to, and how EDI supports faster, more accurate traceability.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.autodesk.com/solutions/cam-software": {
+      "fetchedAt": "2026-09-26T10:29:58.180Z",
+      "data": {
+        "url": "https://www.autodesk.com/solutions/cam-software",
+        "finalUrl": "https://www.autodesk.com/solutions/cam-software",
+        "retrievedAt": "2026-09-26T10:29:58.180Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.autodesk.com/pricing": {
+      "fetchedAt": "2026-09-26T10:29:58.181Z",
+      "data": {
+        "url": "https://www.autodesk.com/pricing",
+        "finalUrl": "https://www.autodesk.com/pricing",
+        "retrievedAt": "2026-09-26T10:29:58.181Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.trintech.com/pricing": {
+      "fetchedAt": "2026-09-26T10:29:58.179Z",
+      "data": {
+        "url": "https://www.trintech.com/pricing",
+        "finalUrl": "https://www.trintech.com/pricing",
+        "retrievedAt": "2026-09-26T10:29:58.179Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/": {
+      "fetchedAt": "2026-09-26T10:29:58.178Z",
+      "data": {
+        "url": "https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/",
+        "finalUrl": "https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/",
+        "retrievedAt": "2026-09-26T10:29:58.178Z",
+        "status": 200,
+        "error": null,
+        "title": "How to Solve Capital Lease Reconciliation Challenges",
+        "description": "Failing to overcome lease reconciliation challenges exposes your company to huge overpayments. Tackle your lease reconciliation and never overpay again!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.ptc.com/pricing": {
+      "fetchedAt": "2026-09-26T10:29:58.177Z",
+      "data": {
+        "url": "https://www.ptc.com/pricing",
+        "finalUrl": "https://www.ptc.com/en/pricing",
+        "retrievedAt": "2026-09-26T10:29:58.177Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid": {
+      "fetchedAt": "2026-09-26T10:29:58.176Z",
+      "data": {
+        "url": "https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid",
+        "finalUrl": "https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid",
+        "retrievedAt": "2026-09-26T10:29:58.176Z",
+        "status": 200,
+        "error": null,
+        "title": "What is CAM Software? | PTC",
+        "description": "CAM software automates the creation of computerized numeric control (CNC) toolpaths by directly referencing 3D CAD geometry. CAM software generates programming instructions that are used to manufacture products and tools.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://heartlandestatelaw.com/pricing": {
+      "fetchedAt": "2026-09-26T10:30:00.642Z",
+      "data": {
+        "url": "https://heartlandestatelaw.com/pricing",
+        "finalUrl": "https://heartlandestatelaw.com/404/?request_url=pricing/",
+        "retrievedAt": "2026-09-26T10:30:00.642Z",
+        "status": 200,
+        "error": null,
+        "title": "Site 404 Error",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.f6s.com/pricing": {
+      "fetchedAt": "2026-09-26T10:30:00.640Z",
+      "data": {
+        "url": "https://www.f6s.com/pricing",
+        "retrievedAt": "2026-09-26T10:30:00.640Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/": {
+      "fetchedAt": "2026-09-26T10:30:00.641Z",
+      "data": {
+        "url": "https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+        "finalUrl": "https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+        "retrievedAt": "2026-09-26T10:30:00.641Z",
+        "status": 200,
+        "error": null,
+        "title": "What Are the Common Challenges in Probate Administration? | Heartland Estate Law, LLC",
+        "description": "What are some common challenges in probate administration in Kansas and Missouri? Contact Heartland Estate Law, LLC to discuss probate law.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.f6s.com/software/category/probate-automation": {
+      "fetchedAt": "2026-09-26T10:30:00.639Z",
+      "data": {
+        "url": "https://www.f6s.com/software/category/probate-automation",
+        "retrievedAt": "2026-09-26T10:30:00.639Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/": {
+      "fetchedAt": "2026-09-26T10:30:00.642Z",
+      "data": {
+        "url": "https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/",
+        "finalUrl": "https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/",
+        "retrievedAt": "2026-09-26T10:30:00.642Z",
+        "status": 200,
+        "error": null,
+        "title": "10 essential cloud-based case management tools Probate Solicitors need for their law firm - Denovo",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.denovobi.com/pricing": {
+      "fetchedAt": "2026-09-26T10:30:00.643Z",
+      "data": {
+        "url": "https://www.denovobi.com/pricing",
+        "finalUrl": "https://www.denovobi.com/pricing",
+        "retrievedAt": "2026-09-26T10:30:00.643Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

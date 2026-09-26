@@ -6553,6 +6553,460 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|farm software": {
+      "fetchedAt": "2026-09-26T10:28:43.817Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=farm%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "domain": "www.farmbrite.com",
+            "url": "https://www.farmbrite.com/",
+            "title": "Farmbrite: Farm Management Software for your whole farm",
+            "description": "All-in-one farm management software for the modern farmer to run a thriving farm or livestock business. Organize, integrate and improve everything on your ..."
+          },
+          {
+            "rank": 3,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/farming/comments/1e7n73j/thoughts_on_allinone_farm_management_software/",
+            "title": "Thoughts on all-in-one Farm Management Software ...",
+            "description": "Most farming applications are used to do smaller things like track tasks or manage fields. Task Manager: A tool to manage daily tasks and ..."
+          },
+          {
+            "rank": 5,
+            "domain": "farms.extension.wisc.edu",
+            "url": "https://farms.extension.wisc.edu/articles/find-a-good-farm-accounting-software-system/",
+            "title": "Find a good farm accounting software system",
+            "description": "EasyFarm Accounting and Management Software is a single-entry cash basis accounting system. Farm Biz or Ultra Farm Accounting Software programs are cash basis ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "tractionag.com",
+            "url": "https://tractionag.com/",
+            "title": "Traction Ag: Farm Accounting Software Built for Farmers",
+            "description": "Get true farm financial clarity. Traction Ag's farm accounting software tracks income, expenses, payroll, and inventory—all in one easy-to-use platform."
+          },
+          {
+            "rank": 7,
+            "domain": "farmos.org",
+            "url": "https://farmos.org/",
+            "title": "farmOS | farmOS",
+            "description": "farmOS is a free and open source web-based application for farm management, planning, and record keeping. It is developed by a community of farmers, developers, ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.canr.msu.edu",
+            "url": "https://www.canr.msu.edu/news/choosing-the-right-accounting-software-for-your-farm",
+            "title": "Choosing the right accounting software for your farm",
+            "description": "May 26, 2026 — When evaluating accounting software, identify which features are most important for your farm's needs: Farm-specific chart of accounts and units ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.farmraise.com",
+            "url": "https://www.farmraise.com/",
+            "title": "FarmRaise | Software for Farm Programs, Grants & Grower ...",
+            "description": "FarmRaise helps ag organizations manage enrollment, documents, reporting, and payments for farmer programs and grants in one easy platform."
+          },
+          {
+            "rank": 10,
+            "domain": "www.farmkeep.com",
+            "url": "https://www.farmkeep.com/farm-guides/farm-management/best-farm-management-software",
+            "title": "Best Farm Management Software (2026 Guide)",
+            "description": "Apr 17, 2026 — Farm management software is designed to help farmers track, organize, and manage their operations in one place."
+          },
+          {
+            "rank": 11,
+            "domain": "smartfarmpilot.com",
+            "url": "https://smartfarmpilot.com/blog/best-small-farm-management-software-2026",
+            "title": "Best Small Farm Management Software in 2026",
+            "description": "Jan 10, 2026 — Top Small Farm Management Software Compared · 1. SmartFarmPilot · 2. Farmbrite · 3. Local Line · 4. FJDynamics Farm Management. Best for: Larger ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|fsma 204 compliance": {
+      "fetchedAt": "2026-09-26T10:28:50.922Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=fsma%20204%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.fda.gov",
+            "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+            "title": "FSMA Final Rule on Requirements for Additional ...",
+            "description": "Jul 24, 2026 — The compliance date is January 20, 2026. Start working on this today! Food Traceability List (FTL). Section 204 of the FDA Food ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.fda.gov",
+            "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+            "title": "Food Traceability List",
+            "description": "Jul 24, 2026 — Section 204 of the FDA Food Safety Modernization Act (FSMA) requires the FDA to designate foods for which additional recordkeeping ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.truecommerce.com",
+            "url": "https://www.truecommerce.com/blog/fsma-food-traceability-rule/",
+            "title": "FSMA 204 Food Traceability Rule: Compliance Guide ...",
+            "description": "Mar 26, 2026 — The rule requires food businesses to capture defined data at key points in the supply chain and to make those records available within 24 hours, ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.itradenetwork.com",
+            "url": "https://www.itradenetwork.com/resources/fsma-204-compliance-made-simple",
+            "title": "FSMA 204 Compliance Made Simple",
+            "description": "FSMA 204 (part of the FDA's Food Safety Modernization Act) requires suppliers to capture and share specific traceability data, known as Key Data Elements (KDEs) ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.food-safety.com",
+            "url": "https://www.food-safety.com/articles/10245-fda-delays-fsma-204-traceability-rule-compliance-date-by-30-months",
+            "title": "FDA Delays FSMA 204 Traceability Rule Compliance Date ...",
+            "description": "Mar 20, 2025 — FDA has delayed the compliance date for its Food Traceability Final Rule, fulfilling Section 204(d) of the Food Safety Modernization Act ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.nsf.org",
+            "url": "https://www.nsf.org/food-beverage/fsma-204-traceability-rule",
+            "title": "FSMA 204 Traceability Rule",
+            "description": "It establishes traceability recordkeeping requirements beyond those in existing regulations, for persons who manufacture, process, pack, or hold foods included ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.videojet.com",
+            "url": "https://www.videojet.com/us/homepage/resources/learn/fsma-204.html",
+            "title": "FSMA 204 Food Traceability Final Rule",
+            "description": "Steps to comply with FSMA 204 · Step 1: Understand the key requirements · Step 2: Assign and manage TLCs · Step 3: Develop a traceability plan · Step 4: ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=qjeAM05Ptzg",
+            "title": "FSMA 204 food traceability solutions: Training, audits and ...",
+            "description": "The FDA's FSMA 204 rule revolutionizes food traceability, ensuring faster and more effective responses to contamination events."
+          },
+          {
+            "rank": 11,
+            "domain": "foodtech.folio3.com",
+            "url": "https://foodtech.folio3.com/solutions/food-safety-software/fsma-204/",
+            "title": "FSMA 204 Compliance Software For Traceability Readiness",
+            "description": "FSMA 204 is the FDA's Food Traceability Rule, requiring enhanced recordkeeping for high-risk foods on the Food Traceability List (FTL). Any business that ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|cam software": {
+      "fetchedAt": "2026-09-26T10:29:07.535Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=cam%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.ptc.com",
+            "url": "https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid",
+            "title": "What is CAM Software?",
+            "description": "CAM software automates the creation of computerized numeric control (CNC) toolpaths by directly referencing 3D CAD geometry."
+          },
+          {
+            "rank": 3,
+            "domain": "www.autodesk.com",
+            "url": "https://www.autodesk.com/solutions/cam-software",
+            "title": "CAM software for CNC Machining",
+            "description": "Computer-aided manufacturing (CAM) software is a type of application designed to assist in the control and automation of manufacturing processes. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/CNC/comments/yvbaon/best_and_worse_cam_softwares/",
+            "title": "Best and worse CAM softwares? : r/CNC",
+            "description": "I started with the cam provided by my cnc manufacturer and it was back to windows 3.1 (at most GUI) 'German language' half translated software that never ..."
+          },
+          {
+            "rank": 6,
+            "domain": "encycam.com",
+            "url": "https://encycam.com/articles/what-is-cam-software-complete-guide-to-computer-aided-manufacturing/",
+            "title": "Complete Guide to Computer-Aided Manufacturing",
+            "description": "CAM software is used to plan, simulate, and generate toolpaths and control code for CNC (Computer Numerical Control) machines. It takes 3D models"
+          },
+          {
+            "rank": 7,
+            "domain": "jlccnc.com",
+            "url": "https://jlccnc.com/blog/best-free-cam-software",
+            "title": "A Comprehensive Guide to the Best Free CAM Software",
+            "description": "Apr 16, 2024 — CamBam is a user-friendly CAM software that offers a free version with limited functionality. It supports 2.5-axis milling, profiling, ..."
+          },
+          {
+            "rank": 8,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Computer-aided_manufacturing",
+            "title": "Computer-aided manufacturing",
+            "description": "CAM (computer-aided manufacturing), is the use of software to control machine tools in the manufacturing of work pieces."
+          },
+          {
+            "rank": 9,
+            "domain": "mecsoft.com",
+            "url": "https://mecsoft.com/products/freemill/free-cad-cam-software/",
+            "title": "Looking for free CAD/CAM software?",
+            "description": "Get started with CNC machining with our free CAD/CAM software. Download our free plug-in and start milling today."
+          },
+          {
+            "rank": 10,
+            "domain": "camworks.com",
+            "url": "https://camworks.com/",
+            "title": "CAM Software | CNC Programming Software | CAMWorks",
+            "description": "CAMWorks® with Machining Intelligence is the most advanced CAM software available. It is a next generation best-in-class CNC programming software"
+          },
+          {
+            "rank": 11,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=dCi-giExHj4",
+            "title": "Getting Started with CNC Machines - What is CAM?",
+            "description": "In this introductory video, we define what CAM software is, as well as look at different types of CAD and CAM programs available and why you ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|cam reconciliation problems": {
+      "fetchedAt": "2026-09-26T10:29:22.717Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=cam%20reconciliation%20problems&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "images"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.trintech.com",
+            "url": "https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/",
+            "title": "How to Solve Capital Lease Reconciliation Challenges",
+            "description": "Dec 4, 2018 — Solution: Companies can avoid these reconciliation problems by deploying digital archiving software to computerize contracts and invoices. With ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "ntrustinfotech.com",
+            "url": "https://ntrustinfotech.com/cam-reconciliation-unapplied-cash-mystery/",
+            "title": "CAM Reconciliation Unapplied Cash Mystery",
+            "description": "During an audit, a large publicly traded REIT found it had a significant amount of unapplied cash on its books... and no way to track how it should be applied."
+          },
+          {
+            "rank": 5,
+            "domain": "www.linkedin.com",
+            "url": "https://www.linkedin.com/posts/springbord_camreconciliation-commercialrealestate-activity-7501648191092797440-Kuj8",
+            "title": "Springbord's Post",
+            "description": "Most CAM reconciliation problems don't start at year-end. They start with a budget assumption nobody documented, or expense data that never got ..."
+          },
+          {
+            "rank": 6,
+            "domain": "www.springbord.com",
+            "url": "https://www.springbord.com/downloadable-doc/case-studies/cam-reconciliation-case-study.pdf",
+            "title": "CAM Reconciliation Case Study",
+            "description": "Inaccurate CAM calculations from previous years gave rise to financial concerns, including the omission of essential expenses. Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "treadstonelaw.ca",
+            "url": "https://treadstonelaw.ca/answers/cam-reconciliation-on-commercial-property-sale-ontario",
+            "title": "What is a CAM reconciliation and who is responsible for it ...",
+            "description": "Common area maintenance (CAM) reconciliation is the year-end process of comparing what tenants were charged throughout the year in estimated CAM costs…"
+          },
+          {
+            "rank": 8,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/CommercialRealEstate/comments/1io7eye/reminder_to_look_at_your_cam_its_probably_wrong/",
+            "title": "Reminder to look at your CAM - it's probably wrong.",
+            "description": "... problems in the future. In this business the fewer headaches the ... Have an opportunity to correct for 2024 reconciliation and an ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.crevertical.com",
+            "url": "https://www.crevertical.com/stratcre/the-cam-reconciliation-a-direct-line-to-noi",
+            "title": "The CAM Reconciliation: A Direct Line to NOI",
+            "description": "Apr 27, 2026 — The CAM reconciliation is where the lease meets the actual operating expenses. It is where gross-up provisions, caps, base years, exclusions, ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "blog.rebolease.com",
+            "url": "https://blog.rebolease.com/category/cam-reconciliation/",
+            "title": "CAM Reconciliation Archives - RE BackOffice - Blog",
+            "description": "Misclassifying capital expenditures as operating costs can invalidate the reconciliation and trigger cam disputes. Routine patching of that same roof is an ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|probate software": {
+      "fetchedAt": "2026-09-26T10:29:34.120Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=probate%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.f6s.com",
+            "url": "https://www.f6s.com/software/category/probate-automation",
+            "title": "Best Probate Automation Software • September 2026",
+            "description": "Find the best Probate Automation software of 2026. Get discounts on top-rated systems and tools based on reviews, features, pricing and more."
+          },
+          {
+            "rank": 3,
+            "domain": "www.denovobi.com",
+            "url": "https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/",
+            "title": "10 essential cloud-based case management tools Probate ...",
+            "description": "Sep 20, 2023 — The software module now boasts specific tools to help automate the production of the Inventory, Petition and other Tax Forms, along with tools ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.statular.com",
+            "url": "https://www.statular.com/features/estate-planning-client-questionnaire-software",
+            "title": "Estate Planning Client Questionnaire Software",
+            "description": "Collect estate planning client questionnaire responses and sync reviewed answers into wills, trusts, powers, healthcare directives, and administration ..."
+          },
+          {
+            "rank": 5,
+            "domain": "www.estateexec.com",
+            "url": "https://www.estateexec.com/Docs/probate-process/MP?srsltid=AU7gw4WPreG8AWCRSpwPPopmFyZb43IZ4Wl0dQiDAE218PzQlb6aHilF",
+            "title": "MP Estate Probate (with AI Software)",
+            "description": "Feb 7, 2026 — Probate in MP is the court-supervised process of settling a person's affairs after his or her death, resolving debts and distributing ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.capterra.com",
+            "url": "https://www.capterra.com/p/10058510/Heir-Pros-Probate-Services/",
+            "title": "Heir Pros Probate Services Software Pricing, Alternatives & ...",
+            "description": "Aug 24, 2026 — Heir Pros Probate Services is heir location software that identifies missing heirs and generates court-ready documentation for estate ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/LawFirm/comments/18ymc69/case_management_software_for_solo_estate_planning/",
+            "title": "Case Management Software for Solo Estate Planning and ...",
+            "description": "We use SimpleLaw. VERY reasonably priced and has some nice features like easy intake, document automation, and more. We are an immigration law ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.smokeball.com",
+            "url": "https://www.smokeball.com/legal-resources/workflow-checklist-for-estate-planning-probate-matters",
+            "title": "Workflow Checklist for Estate Planning & Probate Matters",
+            "description": "Workflow Checklist for Estate Planning & Probate Matters. Smokeball will transform your firm and business like no other law firm software. Probate Law Software ..."
+          },
+          {
+            "rank": 10,
+            "domain": "www.onelegal.com",
+            "url": "https://www.onelegal.com/practice-types/probate/",
+            "title": "Probate court filing and process serving",
+            "description": "Certified electronic court filing where permitted, paper filing elsewhere, with the fastest, easiest workflow built specifically for law firms. Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=TOdLRsMUBFw",
+            "title": "Probate marketing & EstateExec software as a value add",
+            "description": null
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|probate administration challenges": {
+      "fetchedAt": "2026-09-26T10:29:50.728Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=probate%20administration%20challenges&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "scholarly_articles"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "heartlandestatelaw.com",
+            "url": "https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+            "title": "What Are the Common Challenges in Probate ...",
+            "description": "Apr 15, 2026 — One of the most frequent challenges in probate administration is delays. Disputed wills: Asset valuation issues: Incomplete records: Conflicts ..."
+          },
+          {
+            "rank": 3,
+            "domain": "www.rodneygouldlaw.com",
+            "url": "https://www.rodneygouldlaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+            "title": "What Are the Common Challenges in Probate ...",
+            "description": "Feb 12, 2026 — What Are the Common Challenges in Probate Administration? · Early Steps That Commonly Cause Delays · Asset Management and Valuation Problems. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "gilesrobinson.com",
+            "url": "https://gilesrobinson.com/what-is-probate-administration-and-why-do-you-need-it-a-beginners-guide/",
+            "title": "What Is Probate Administration and Why Do You Need It? ...",
+            "description": "Mar 10, 2026 — Missed tax deadlines can trigger penalties. Incomplete administration often resurfaces long after the estate appears settled, creating problems ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "bartleonardi.com",
+            "url": "https://bartleonardi.com/common-challenges-in-probate-administration/",
+            "title": "Common Challenges in Probate Administration",
+            "description": "Various factors can delay the outcome, including disputes among beneficiaries, complexities in the estate and issues with creditors. For example, if a will is ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.evanscase.com",
+            "url": "https://www.evanscase.com/five-challenges-in-probate-administration-and-ways-to-resolve-them/",
+            "title": "Five Challenges in Probate Administration and Ways ...",
+            "description": "Apr 28, 2026 — Probate does not start the day someone dies. It starts when somebody opens of families do not see coming. The car needs to be insured. And ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.mcamporealelaw.com",
+            "url": "https://www.mcamporealelaw.com/probate-estate-administration/the-common-challenges-faced-during-the-probate-process/",
+            "title": "The Common Challenges Faced During The Probate ...",
+            "description": "Most people are not happy about the long wait that occurs during the probate process and most people will not be happy when that delay will be increased when a ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.capecoralattorney.com",
+            "url": "https://www.capecoralattorney.com/blog/2024/12/8-common-challenges-in-probate-and-how-to-overcome-them/",
+            "title": "8 common challenges in probate and how to overcome them",
+            "description": "Dec 31, 2024 — 1. Will contests and disputes ・ 2. Probate delays ・ 3. Debts and Taxes ・ 4. Lost or invalid documents"
+          },
+          {
+            "rank": 11,
+            "domain": "www.americanbar.org",
+            "url": "https://www.americanbar.org/groups/real_property_trust_estate/resources/estate-planning/probate-process/",
+            "title": "The Probate Process",
+            "description": "In planning your estate, more important than minimizing probate is minimizing the real issues that can make probate difficult, such as lawsuits by heirs. Should ... Read more"
+          },
+          {
+            "rank": 12,
+            "domain": "www.boswellpllc.com",
+            "url": "https://www.boswellpllc.com/blog/4-challenges-of-the-probate-process",
+            "title": "4 Challenges Of The Probate Process - Call Today",
+            "description": "The probate process can sometimes lead to disagreements among family members over asset distribution, executor responsibilities, or the validity of the will. Read more"
+          }
+        ]
+      }
     }
   }
 }

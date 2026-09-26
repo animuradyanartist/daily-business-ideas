@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-26
+- The most powerful B2B SaaS value proposition is not saving time or money, but mitigating a "never event"—a low-probability but business-ending catastrophe.
+- A rapidly growing operational process (like cremation) can turn a manageable manual workflow into an acute, high-risk pain point, creating a powerful "why now" for automation.
+- For conservative, non-technical SMB markets, the most effective wedge against complex, all-in-one incumbents is a simple, standalone tool that perfectly solves the single most terrifying part of their job.
+
 ## 2026-09-25 (trends)
 - A change in a seemingly minor administrative rule, like extending a record retention period, can be a powerful "why now" catalyst that creates an entirely new software category.
 - The pain is not always the *task* itself, but the long-term *liability* associated with the proof of that task.

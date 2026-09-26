@@ -1,0 +1,5060 @@
+{
+  "schema": 1,
+  "date": "2026-09-26",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-26.md"
+  },
+  "createdAt": "2026-09-26T10:28:34.943Z",
+  "updatedAt": "2026-09-26T10:28:34.944Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-26.md",
+    "title": "The Independent Funeral Home's \"Lawsuit-Proof\" Cremation Chain of Custody Log",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-26:farm-fsma-204-log",
+      "slug": "farm-fsma-204-log",
+      "title": "The Small Produce Farm's \"FSMA 204-Ready\" Harvest & Cooling Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The FDA regulation (FSMA 204) specifically applies to U.S. farms, making the United States the most plausible market for search."
+      },
+      "plan": {
+        "slug": "farm-fsma-204-log",
+        "title": "The Small Produce Farm's \"FSMA 204-Ready\" Harvest & Cooling Log",
+        "problem": "Small to mid-size farms growing foods on the FDA's Food Traceability List must maintain detailed, sortable electronic harvest and cooling logs to comply with FSMA 204.",
+        "targetCustomer": "Owner/operator of a small to mid-size U.S. farm growing foods on the FDA's Food Traceability List (FTL), like leafy greens, peppers, or shell eggs.",
+        "payer": "Owner/operator of a small to mid-size U.S. farm",
+        "whyPayerPays": "The payer will spend money to avoid regulatory action and meet stricter traceability requirements from major retailers by complying with FSMA 204.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The FDA regulation (FSMA 204) specifically applies to U.S. farms, making the United States the most plausible market for search."
+        },
+        "keywords": {
+          "problem": [
+            "fsma 204 compliance",
+            "food traceability requirements",
+            "farm record keeping laws"
+          ],
+          "solution": [
+            "farm software",
+            "traceability log system",
+            "harvest tracking app"
+          ],
+          "buying": [
+            "fsma 204 software",
+            "farm traceability cost",
+            "best farm record software"
+          ]
+        },
+        "serpQueries": [
+          "farm software",
+          "fsma 204 compliance"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "fsma 204 compliance",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 390,
+          "cpcUsd": 11.86,
+          "adCompetition": 0.57,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 321,
+          "providerUpdatedAt": "2026-09-17 06:23:00 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "rising",
+            "changePct": 295,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "food traceability requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-14 16:03:34 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "farm record keeping laws",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "farm software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 480,
+          "cpcUsd": 44.77,
+          "adCompetition": 0.68,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -36,
+          "providerUpdatedAt": "2026-09-13 00:10:03 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 320
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -62,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "traceability log system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "harvest tracking app",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.21,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-16 01:47:14 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "fsma 204 software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 29.18,
+          "adCompetition": 0.59,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-17 21:42:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (13 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "farm traceability cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "best farm record software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "farm software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:43.817Z",
+          "checkUrl": "https://www.google.com/search?q=farm%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "www.farmbrite.com",
+              "url": "https://www.farmbrite.com/",
+              "title": "Farmbrite: Farm Management Software for your whole farm",
+              "description": "All-in-one farm management software for the modern farmer to run a thriving farm or livestock business. Organize, integrate and improve everything on your ...",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/farming/comments/1e7n73j/thoughts_on_allinone_farm_management_software/",
+              "title": "Thoughts on all-in-one Farm Management Software ...",
+              "description": "Most farming applications are used to do smaller things like track tasks or manage fields. Task Manager: A tool to manage daily tasks and ...",
+              "id": "S1.3",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "farms.extension.wisc.edu",
+              "url": "https://farms.extension.wisc.edu/articles/find-a-good-farm-accounting-software-system/",
+              "title": "Find a good farm accounting software system",
+              "description": "EasyFarm Accounting and Management Software is a single-entry cash basis accounting system. Farm Biz or Ultra Farm Accounting Software programs are cash basis ... Read more",
+              "id": "S1.5",
+              "class": "reference_media"
+            },
+            {
+              "rank": 6,
+              "domain": "tractionag.com",
+              "url": "https://tractionag.com/",
+              "title": "Traction Ag: Farm Accounting Software Built for Farmers",
+              "description": "Get true farm financial clarity. Traction Ag's farm accounting software tracks income, expenses, payroll, and inventory—all in one easy-to-use platform.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "farmos.org",
+              "url": "https://farmos.org/",
+              "title": "farmOS | farmOS",
+              "description": "farmOS is a free and open source web-based application for farm management, planning, and record keeping. It is developed by a community of farmers, developers, ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.canr.msu.edu",
+              "url": "https://www.canr.msu.edu/news/choosing-the-right-accounting-software-for-your-farm",
+              "title": "Choosing the right accounting software for your farm",
+              "description": "May 26, 2026 — When evaluating accounting software, identify which features are most important for your farm's needs: Farm-specific chart of accounts and units ... Read more",
+              "id": "S1.8",
+              "class": "reference_media"
+            },
+            {
+              "rank": 9,
+              "domain": "www.farmraise.com",
+              "url": "https://www.farmraise.com/",
+              "title": "FarmRaise | Software for Farm Programs, Grants & Grower ...",
+              "description": "FarmRaise helps ag organizations manage enrollment, documents, reporting, and payments for farmer programs and grants in one easy platform.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.farmkeep.com",
+              "url": "https://www.farmkeep.com/farm-guides/farm-management/best-farm-management-software",
+              "title": "Best Farm Management Software (2026 Guide)",
+              "description": "Apr 17, 2026 — Farm management software is designed to help farmers track, organize, and manage their operations in one place.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "smartfarmpilot.com",
+              "url": "https://smartfarmpilot.com/blog/best-small-farm-management-software-2026",
+              "title": "Best Small Farm Management Software in 2026",
+              "description": "Jan 10, 2026 — Top Small Farm Management Software Compared · 1. SmartFarmPilot · 2. Farmbrite · 3. Local Line · 4. FJDynamics Farm Management. Best for: Larger ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "fsma 204 compliance",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:50.922Z",
+          "checkUrl": "https://www.google.com/search?q=fsma%20204%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.fda.gov",
+              "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+              "title": "FSMA Final Rule on Requirements for Additional ...",
+              "description": "Jul 24, 2026 — The compliance date is January 20, 2026. Start working on this today! Food Traceability List (FTL). Section 204 of the FDA Food ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.fda.gov",
+              "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+              "title": "Food Traceability List",
+              "description": "Jul 24, 2026 — Section 204 of the FDA Food Safety Modernization Act (FSMA) requires the FDA to designate foods for which additional recordkeeping ... Read more",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "www.truecommerce.com",
+              "url": "https://www.truecommerce.com/blog/fsma-food-traceability-rule/",
+              "title": "FSMA 204 Food Traceability Rule: Compliance Guide ...",
+              "description": "Mar 26, 2026 — The rule requires food businesses to capture defined data at key points in the supply chain and to make those records available within 24 hours, ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.itradenetwork.com",
+              "url": "https://www.itradenetwork.com/resources/fsma-204-compliance-made-simple",
+              "title": "FSMA 204 Compliance Made Simple",
+              "description": "FSMA 204 (part of the FDA's Food Safety Modernization Act) requires suppliers to capture and share specific traceability data, known as Key Data Elements (KDEs) ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.food-safety.com",
+              "url": "https://www.food-safety.com/articles/10245-fda-delays-fsma-204-traceability-rule-compliance-date-by-30-months",
+              "title": "FDA Delays FSMA 204 Traceability Rule Compliance Date ...",
+              "description": "Mar 20, 2025 — FDA has delayed the compliance date for its Food Traceability Final Rule, fulfilling Section 204(d) of the Food Safety Modernization Act ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.nsf.org",
+              "url": "https://www.nsf.org/food-beverage/fsma-204-traceability-rule",
+              "title": "FSMA 204 Traceability Rule",
+              "description": "It establishes traceability recordkeeping requirements beyond those in existing regulations, for persons who manufacture, process, pack, or hold foods included ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.videojet.com",
+              "url": "https://www.videojet.com/us/homepage/resources/learn/fsma-204.html",
+              "title": "FSMA 204 Food Traceability Final Rule",
+              "description": "Steps to comply with FSMA 204 · Step 1: Understand the key requirements · Step 2: Assign and manage TLCs · Step 3: Develop a traceability plan · Step 4: ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=qjeAM05Ptzg",
+              "title": "FSMA 204 food traceability solutions: Training, audits and ...",
+              "description": "The FDA's FSMA 204 rule revolutionizes food traceability, ensuring faster and more effective responses to contamination events.",
+              "id": "S2.10",
+              "class": "reference_media"
+            },
+            {
+              "rank": 11,
+              "domain": "foodtech.folio3.com",
+              "url": "https://foodtech.folio3.com/solutions/food-safety-software/fsma-204/",
+              "title": "FSMA 204 Compliance Software For Traceability Readiness",
+              "description": "FSMA 204 is the FDA's Food Traceability Rule, requiring enhanced recordkeeping for high-risk foods on the Food Traceability List (FTL). Any business that ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "farmbrite.com",
+          "url": "https://www.farmbrite.com/",
+          "finalUrl": "https://www.farmbrite.com/",
+          "retrievedAt": "2026-09-26T10:29:55.545Z",
+          "status": 200,
+          "error": null,
+          "title": "Farm Management Software for your whole farm | Farmbrite",
+          "description": "All-in-one farm management software for the modern farmer to run a thriving farm or livestock business. Organize, integrate and improve everything on your farm without the busywork.  Farmbrite helps you know more, grow more and sell more all from one place. Start your free trial today!",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "farmbrite.com",
+          "url": "https://www.farmbrite.com/pricing",
+          "finalUrl": "https://www.farmbrite.com/pricing",
+          "retrievedAt": "2026-09-23T09:41:00.033Z",
+          "status": 200,
+          "error": null,
+          "title": "Farm & Livestock Management Software - Plans & Pricing | Farmbrite",
+          "description": "Explore Farmbrite",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "truecommerce.com",
+          "url": "https://www.truecommerce.com/blog/fsma-food-traceability-rule/",
+          "finalUrl": "https://www.truecommerce.com/blog/fsma-food-traceability-rule/",
+          "retrievedAt": "2026-09-26T10:29:55.547Z",
+          "status": 200,
+          "error": null,
+          "title": "FSMA 204 Food Traceability Rule: Compliance Guide for Food Suppliers | TrueCommerce",
+          "description": "Learn what the FSMA 204 Food Traceability Rule requires, who it applies to, and how EDI supports faster, more accurate traceability.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "truecommerce.com",
+          "url": "https://www.truecommerce.com/pricing",
+          "finalUrl": "https://www.truecommerce.com/pricing",
+          "retrievedAt": "2026-09-26T10:29:55.549Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "tractionag.com",
+          "url": "https://tractionag.com/",
+          "finalUrl": "https://tractionag.com/",
+          "retrievedAt": "2026-09-26T10:29:55.550Z",
+          "status": 200,
+          "error": null,
+          "title": "Farm Accounting Software Built for Farmers | Traction Ag",
+          "description": "Get true farm financial clarity. Traction Ag’s farm accounting software tracks income, expenses, payroll, and inventory—all in one easy-to-use platform.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "tractionag.com",
+          "url": "https://tractionag.com/pricing",
+          "finalUrl": "https://tractionag.com/pricing",
+          "retrievedAt": "2026-09-26T10:29:55.551Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 3,
+          "totalCount": 5,
+          "top": {
+            "keyword": "fsma 204 software",
+            "searchVolume": 20,
+            "id": "K7"
+          },
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 3,
+            "top": {
+              "keyword": "food traceability requirements",
+              "searchVolume": 10,
+              "id": "K2"
+            }
+          },
+          "broader": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "farm software",
+              "searchVolume": 480,
+              "id": "K4"
+            }
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K1",
+              "kind": "uncorroborated",
+              "text": "\"fsma 204 compliance\" (390/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"fsma 204 software\" at 20/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low (\"food traceability requirements\" 10/mo); broader market: some (\"farm software\" 480/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K7"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $29.18 on \"fsma 204 software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "farmbrite.com",
+            "truecommerce.com",
+            "tractionag.com",
+            "itradenetwork.com",
+            "farmos.org",
+            "food-safety.com",
+            "nsf.org",
+            "farmraise.com",
+            "videojet.com",
+            "farmkeep.com",
+            "smartfarmpilot.com",
+            "foodtech.folio3.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 4 domain(s) with a direct competitor (same problem) (itradenetwork.com, youtube.com, foodtech.folio3.com, truecommerce.com), 5 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "itradenetwork.com",
+            "youtube.com",
+            "foodtech.folio3.com",
+            "truecommerce.com"
+          ],
+          "indirectAlternativeDomains": [
+            "farmbrite.com",
+            "farms.extension.wisc.edu",
+            "tractionag.com",
+            "farmos.org",
+            "smartfarmpilot.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "cb65756fb80b1e07",
+      "evidenceUpdatedAt": "2026-09-26T10:30:03.329Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-26T10:36:15.811Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-26T10:30:03.329Z",
+        "qualifiers": [
+          "small to mid-size U.S. farm",
+          "growing foods on the FDA's Food Traceability List (FTL)"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is someone directly affected by FSMA 204, which includes the target customer, and the topic is the core compliance problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is anyone in the food supply chain, including the target customer, and the topic is the broader category of traceability requirements."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is a farmer, but the topic of general record-keeping laws is broader than the specific FSMA 204 compliance problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is a farmer, but the topic of 'farm software' is a very wide category of solutions beyond traceability."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is anyone in the food supply chain needing traceability, including the target customer, and the topic is a specific solution for the problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is a farmer, and a harvest tracking app is a core component of the proposed solution."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is looking for a software solution for the exact problem, indicating they are part of the target market."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a farmer evaluating the cost of traceability solutions, which is directly related to the problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is a farmer, but the topic of 'farm record software' is a broader category than a specific FSMA 204 log."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is all-in-one farm management software for any modern farmer, not specifically for FSMA 204 compliance on farms growing FTL foods."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general discussion about farm management software for any type of farm, not specific to FSMA 204 compliance."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is about farm accounting software, a different problem from harvest and cooling logs for FSMA 204 compliance."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is farm accounting software, which addresses a different problem than FSMA 204 traceability."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general farm management and record-keeping application, not one specifically for FSMA 204 compliance."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is about choosing farm accounting software, a different problem from FSMA 204 compliance."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for managing farm grants and programs, a different problem from FSMA 204 compliance."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general guide to farm management software for any type of farm, not specific to FSMA 204."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "small to mid-size U.S. farm"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is about general management software for small farms, but not specifically for those growing FTL foods or for FSMA 204 compliance."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "growing foods on the FDA's Food Traceability List (FTL)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This official FDA page is for anyone affected by the rule, a broader audience than just farms, but it describes the exact problem."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "growing foods on the FDA's Food Traceability List (FTL)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This FDA page lists the foods on the FTL, which is central to the problem for any business that handles them, including the target customer."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This compliance guide is for all 'food businesses,' a broader audience than just small to mid-size farms."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This solution is for 'suppliers,' a broader category within the food supply chain than just farms."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article about the compliance date is for anyone affected by FSMA 204, a broader audience than just farms."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page is for anyone who manufactures, processes, packs, or holds FTL foods, which is a broader group than just farms."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This guide on how to comply with FSMA 204 is for any affected business, not just farms."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This video discusses FSMA 204 solutions for a general audience in the food industry, not specifically for farms."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is for any business dealing with FTL foods, a broader audience than just small to mid-size farms."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general, all-in-one farm management software, not a specialized tool for FSMA 204 compliance."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is the pricing page for a general farm management software, not a specific FSMA 204 solution."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This compliance guide is aimed at 'food suppliers,' a broader category than the target customer of small to mid-size farms."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is farm accounting software, which solves a different problem than FSMA 204 harvest and cooling logs."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-26:farm-fsma-204-log",
+        "opportunity": "Provide small to mid-size farms with a simple digital tool to maintain harvest and cooling logs that comply with the new FSMA 204 regulations. This helps them avoid regulatory action and meet retailer requirements.",
+        "whoPays": "The owner/operator of a small to mid-size U.S. farm pays to avoid regulatory penalties and meet traceability requirements from their buyers. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "The rule requires food businesses to capture defined data at key points in the supply chain"
+            },
+            {
+              "id": "S2.6",
+              "quote": "requires suppliers to capture and share specific traceability data"
+            },
+            {
+              "id": "S2.8",
+              "quote": "establishes traceability recordkeeping requirements beyond those in existing regulations"
+            }
+          ],
+          "observed": "The FDA's FSMA 204 rule establishes new, enhanced traceability and recordkeeping requirements for food businesses, including suppliers, who must be able to make records available within 24 hours.",
+          "inference": "Small to mid-size farms growing foods on the Food Traceability List will be subject to these new regulations and will need a method to comply. The evidence confirms the regulation exists but does not show that small farms specifically are struggling with it."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "FSMA 204 Compliance Made Simple"
+            },
+            {
+              "id": "S2.11",
+              "quote": "FSMA 204 Compliance Software For Traceability Readiness"
+            },
+            {
+              "id": "P3",
+              "quote": "FSMA 204 Food Traceability Rule: Compliance Guide for Food Suppliers"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "iTradeNetwork",
+              "type": "direct",
+              "what": "Offers a solution for suppliers to capture and share traceability data for FSMA 204 compliance.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "FSMA 204 Compliance Made Simple"
+                }
+              ]
+            },
+            {
+              "name": "Folio3 FoodTech",
+              "type": "direct",
+              "what": "Provides FSMA 204 compliance software for businesses that handle foods on the Food Traceability List.",
+              "basis": [
+                {
+                  "id": "S2.11",
+                  "quote": "FSMA 204 Compliance Software For Traceability Readiness"
+                }
+              ]
+            },
+            {
+              "name": "TrueCommerce",
+              "type": "direct",
+              "what": "Provides solutions and guidance for food suppliers to support faster and more accurate traceability under FSMA 204.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "supports faster, more accurate traceability"
+                }
+              ]
+            },
+            {
+              "name": "Farmbrite",
+              "type": "indirect",
+              "what": "An all-in-one farm management software for general farm operations, not specific to FSMA 204.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "All-in-one farm management software for the modern farmer"
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "Existing direct competitors appear to target a broad audience of 'food businesses' or 'suppliers' rather than being specifically tailored to the needs and scale of small farms.",
+              "basis": [
+                {
+                  "id": "S2.5",
+                  "quote": "rule requires food businesses"
+                },
+                {
+                  "id": "S2.6",
+                  "quote": "requires suppliers to capture"
+                },
+                {
+                  "id": "S2.11",
+                  "quote": "Any business that"
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "creates a large market of non-technical businesses needing a simple digital solution",
+            "finding": "Search demand for solutions appears low. The largest confirmed, directly relevant keyword has only 20 searches per month.",
+            "basis": [
+              {
+                "id": "K7",
+                "quote": "fsma 204 software"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "major retailers like Walmart are already enforcing stricter traceability requirements on their suppliers",
+            "finding": "No evidence was found in the search results or pages to support this claim.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment would be a simple web application to log harvest/cooling data and export it as a sortable file. This is a standard CRUD app, but requires understanding the specific data elements mandated by the regulation."
+        },
+        "unproven": [
+          "Whether small to mid-size farms perceive FSMA 204 as a significant problem requiring a dedicated software solution.",
+          "Willingness to pay for a specialized tool versus using spreadsheets or features within broader farm management software.",
+          "The specific workflow challenges and pain points small farms face when trying to comply with FSMA 204."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 owners/operators of small to mid-size farms that grow foods on the FDA's Food Traceability List. Ask how they are planning for FSMA 204, what tools they use for record-keeping, and what they see as the biggest challenges.",
+          "cost": "$0 cash + 10-20 hours of outreach and interviews.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 of the interviewed farmers express significant concern about FSMA 204 compliance and are currently using or actively looking for a better solution than spreadsheets.",
+        "stopIf": "The interviewed farmers are either unaware of the rule, not concerned about it, or are satisfied with their current (or planned) record-keeping methods."
+      },
+      "assessment": {
+        "opportunity": "Provide small to mid-size farms with a simple digital tool to maintain harvest and cooling logs that comply with the new FSMA 204 regulations. This helps them avoid regulatory action and meet retailer requirements.",
+        "whoPays": "The owner/operator of a small to mid-size U.S. farm pays to avoid regulatory penalties and meet traceability requirements from their buyers. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "The rule requires food businesses to capture defined data at key points in the supply chain",
+              "domain": "truecommerce.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This compliance guide is for all 'food businesses,' a broader audience than just small to mid-size farms."
+            },
+            {
+              "id": "S2.6",
+              "quote": "requires suppliers to capture and share specific traceability data",
+              "domain": "itradenetwork.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This solution is for 'suppliers,' a broader category within the food supply chain than just farms."
+            },
+            {
+              "id": "S2.8",
+              "quote": "establishes traceability recordkeeping requirements beyond those in existing regulations",
+              "domain": "nsf.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This page is for anyone who manufactures, processes, packs, or holds FTL foods, which is a broader group than just farms."
+            }
+          ],
+          "observed": "The FDA's FSMA 204 rule establishes new, enhanced traceability and recordkeeping requirements for food businesses, including suppliers, who must be able to make records available within 24 hours.",
+          "inference": "Small to mid-size farms growing foods on the Food Traceability List will be subject to these new regulations and will need a method to comply. The evidence confirms the regulation exists but does not show that small farms specifically are struggling with it."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "FSMA 204 Compliance Made Simple",
+              "domain": "itradenetwork.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This solution is for 'suppliers,' a broader category within the food supply chain than just farms."
+            },
+            {
+              "id": "S2.11",
+              "quote": "FSMA 204 Compliance Software For Traceability Readiness",
+              "domain": "foodtech.folio3.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software is for any business dealing with FTL foods, a broader audience than just small to mid-size farms."
+            },
+            {
+              "id": "P3",
+              "quote": "FSMA 204 Food Traceability Rule: Compliance Guide for Food Suppliers",
+              "domain": "truecommerce.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "direct competitor",
+              "relevanceReason": "This compliance guide is aimed at 'food suppliers,' a broader category than the target customer of small to mid-size farms."
+            }
+          ],
+          "directCompetitors": [
+            "itradenetwork.com",
+            "foodtech.folio3.com",
+            "truecommerce.com"
+          ],
+          "indirectAlternatives": [
+            "farmbrite.com"
+          ],
+          "alternatives": [
+            {
+              "name": "iTradeNetwork",
+              "type": "direct",
+              "what": "Offers a solution for suppliers to capture and share traceability data for FSMA 204 compliance.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "FSMA 204 Compliance Made Simple",
+                  "domain": "itradenetwork.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This solution is for 'suppliers,' a broader category within the food supply chain than just farms."
+                }
+              ]
+            },
+            {
+              "name": "Folio3 FoodTech",
+              "type": "direct",
+              "what": "Provides FSMA 204 compliance software for businesses that handle foods on the Food Traceability List.",
+              "basis": [
+                {
+                  "id": "S2.11",
+                  "quote": "FSMA 204 Compliance Software For Traceability Readiness",
+                  "domain": "foodtech.folio3.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This software is for any business dealing with FTL foods, a broader audience than just small to mid-size farms."
+                }
+              ]
+            },
+            {
+              "name": "TrueCommerce",
+              "type": "direct",
+              "what": "Provides solutions and guidance for food suppliers to support faster and more accurate traceability under FSMA 204.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "supports faster, more accurate traceability",
+                  "domain": "truecommerce.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This compliance guide is aimed at 'food suppliers,' a broader category than the target customer of small to mid-size farms."
+                }
+              ]
+            },
+            {
+              "name": "Farmbrite",
+              "type": "indirect",
+              "what": "An all-in-one farm management software for general farm operations, not specific to FSMA 204.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "All-in-one farm management software for the modern farmer",
+                  "domain": "farmbrite.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general, all-in-one farm management software, not a specialized tool for FSMA 204 compliance."
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "Existing direct competitors appear to target a broad audience of 'food businesses' or 'suppliers' rather than being specifically tailored to the needs and scale of small farms.",
+              "basis": [
+                {
+                  "id": "S2.5",
+                  "quote": "rule requires food businesses",
+                  "domain": "truecommerce.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This compliance guide is for all 'food businesses,' a broader audience than just small to mid-size farms."
+                },
+                {
+                  "id": "S2.6",
+                  "quote": "requires suppliers to capture",
+                  "domain": "itradenetwork.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This solution is for 'suppliers,' a broader category within the food supply chain than just farms."
+                },
+                {
+                  "id": "S2.11",
+                  "quote": "Any business that",
+                  "domain": "foodtech.folio3.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This software is for any business dealing with FTL foods, a broader audience than just small to mid-size farms."
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "creates a large market of non-technical businesses needing a simple digital solution",
+            "finding": "Search demand for solutions appears low. The largest confirmed, directly relevant keyword has only 20 searches per month.",
+            "basis": [
+              {
+                "id": "K7",
+                "quote": "fsma 204 software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "The searcher is looking for a software solution for the exact problem, indicating they are part of the target market."
+              }
+            ],
+            "effect": "untested"
+          },
+          {
+            "original": "major retailers like Walmart are already enforcing stricter traceability requirements on their suppliers",
+            "finding": "No evidence was found in the search results or pages to support this claim.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment would be a simple web application to log harvest/cooling data and export it as a sortable file. This is a standard CRUD app, but requires understanding the specific data elements mandated by the regulation."
+        },
+        "unproven": [
+          "Whether small to mid-size farms perceive FSMA 204 as a significant problem requiring a dedicated software solution.",
+          "Willingness to pay for a specialized tool versus using spreadsheets or features within broader farm management software.",
+          "The specific workflow challenges and pain points small farms face when trying to comply with FSMA 204."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 owners/operators of small to mid-size farms that grow foods on the FDA's Food Traceability List. Ask how they are planning for FSMA 204, what tools they use for record-keeping, and what they see as the biggest challenges.",
+          "cost": "$0 cash + 10-20 hours of outreach and interviews.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 of the interviewed farmers express significant concern about FSMA 204 compliance and are currently using or actively looking for a better solution than spreadsheets.",
+        "stopIf": "The interviewed farmers are either unaware of the rule, not concerned about it, or are satisfied with their current (or planned) record-keeping methods.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"creates a large market of non-technical businesses\" weakens → untested: a claim about payment or a validated market cannot rest on search volume"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "change \"creates a large market of non-technical businesses\" weakens → untested: a claim about payment or a validated market cannot rest on search volume"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-26T10:37:23.930Z",
+        "evidenceUpdatedAt": "2026-09-26T10:30:03.329Z"
+      }
+    },
+    {
+      "id": "2026-09-26:cam-reconciliation-generator",
+      "slug": "cam-reconciliation-generator",
+      "title": "The Commercial Property Manager's \"Dispute-Proof\" CAM Reconciliation Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem description and market context imply a U.S. legal and property management framework, making the United States the most plausible market for search."
+      },
+      "plan": {
+        "slug": "cam-reconciliation-generator",
+        "title": "The Commercial Property Manager's \"Dispute-Proof\" CAM Reconciliation Generator",
+        "problem": "Commercial property managers face stress, anxiety, and tenant disputes due to inaccurate expense classification, misinterpretation of lease terms, and calculation errors during CAM reconciliation.",
+        "targetCustomer": "Commercial property managers, accountants, and building owners responsible for calculating and billing tenants for Common Area Maintenance (CAM) charges.",
+        "payer": "Commercial property managers, accountants, and building owners",
+        "whyPayerPays": "The payer will spend money to save time, prevent errors, recover operating income, and maintain tenant relationships by streamlining CAM reconciliation.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem description and market context imply a U.S. legal and property management framework, making the United States the most plausible market for search."
+        },
+        "keywords": {
+          "problem": [
+            "cam reconciliation problems",
+            "common area maintenance disputes",
+            "commercial lease cam errors"
+          ],
+          "solution": [
+            "cam software",
+            "property management tools",
+            "lease accounting solution"
+          ],
+          "buying": [
+            "cam software pricing",
+            "best cam reconciliation",
+            "property management cost"
+          ]
+        },
+        "serpQueries": [
+          "cam software",
+          "cam reconciliation problems"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "cam reconciliation problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "common area maintenance disputes",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "commercial lease cam errors",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "cam software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 1900,
+          "cpcUsd": 15.82,
+          "adCompetition": 0.34,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": -33,
+          "providerUpdatedAt": "2026-09-13 04:56:13 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 2900
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -37,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "property management tools",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 480,
+          "cpcUsd": 90.27,
+          "adCompetition": 0.45,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -56,
+          "providerUpdatedAt": "2026-09-12 11:40:59 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -57,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "lease accounting solution",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": null,
+          "adCompetition": 0.33,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-17 23:15:14 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (20 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "cam software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best cam reconciliation",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "property management cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 2900,
+          "cpcUsd": 12.82,
+          "adCompetition": 0.29,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -33,
+          "providerUpdatedAt": "2026-09-15 09:48:12 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 4400
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -38,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "cam software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:29:07.535Z",
+          "checkUrl": "https://www.google.com/search?q=cam%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.ptc.com",
+              "url": "https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid",
+              "title": "What is CAM Software?",
+              "description": "CAM software automates the creation of computerized numeric control (CNC) toolpaths by directly referencing 3D CAD geometry.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.autodesk.com",
+              "url": "https://www.autodesk.com/solutions/cam-software",
+              "title": "CAM software for CNC Machining",
+              "description": "Computer-aided manufacturing (CAM) software is a type of application designed to assist in the control and automation of manufacturing processes. Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/CNC/comments/yvbaon/best_and_worse_cam_softwares/",
+              "title": "Best and worse CAM softwares? : r/CNC",
+              "description": "I started with the cam provided by my cnc manufacturer and it was back to windows 3.1 (at most GUI) 'German language' half translated software that never ...",
+              "id": "S1.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "encycam.com",
+              "url": "https://encycam.com/articles/what-is-cam-software-complete-guide-to-computer-aided-manufacturing/",
+              "title": "Complete Guide to Computer-Aided Manufacturing",
+              "description": "CAM software is used to plan, simulate, and generate toolpaths and control code for CNC (Computer Numerical Control) machines. It takes 3D models",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "jlccnc.com",
+              "url": "https://jlccnc.com/blog/best-free-cam-software",
+              "title": "A Comprehensive Guide to the Best Free CAM Software",
+              "description": "Apr 16, 2024 — CamBam is a user-friendly CAM software that offers a free version with limited functionality. It supports 2.5-axis milling, profiling, ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Computer-aided_manufacturing",
+              "title": "Computer-aided manufacturing",
+              "description": "CAM (computer-aided manufacturing), is the use of software to control machine tools in the manufacturing of work pieces.",
+              "id": "S1.8",
+              "class": "reference_media"
+            },
+            {
+              "rank": 9,
+              "domain": "mecsoft.com",
+              "url": "https://mecsoft.com/products/freemill/free-cad-cam-software/",
+              "title": "Looking for free CAD/CAM software?",
+              "description": "Get started with CNC machining with our free CAD/CAM software. Download our free plug-in and start milling today.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "camworks.com",
+              "url": "https://camworks.com/",
+              "title": "CAM Software | CNC Programming Software | CAMWorks",
+              "description": "CAMWorks® with Machining Intelligence is the most advanced CAM software available. It is a next generation best-in-class CNC programming software",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=dCi-giExHj4",
+              "title": "Getting Started with CNC Machines - What is CAM?",
+              "description": "In this introductory video, we define what CAM software is, as well as look at different types of CAD and CAM programs available and why you ...",
+              "id": "S1.11",
+              "class": "reference_media"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "cam reconciliation problems",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:29:22.717Z",
+          "checkUrl": "https://www.google.com/search?q=cam%20reconciliation%20problems&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.trintech.com",
+              "url": "https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/",
+              "title": "How to Solve Capital Lease Reconciliation Challenges",
+              "description": "Dec 4, 2018 — Solution: Companies can avoid these reconciliation problems by deploying digital archiving software to computerize contracts and invoices. With ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "ntrustinfotech.com",
+              "url": "https://ntrustinfotech.com/cam-reconciliation-unapplied-cash-mystery/",
+              "title": "CAM Reconciliation Unapplied Cash Mystery",
+              "description": "During an audit, a large publicly traded REIT found it had a significant amount of unapplied cash on its books... and no way to track how it should be applied.",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/posts/springbord_camreconciliation-commercialrealestate-activity-7501648191092797440-Kuj8",
+              "title": "Springbord's Post",
+              "description": "Most CAM reconciliation problems don't start at year-end. They start with a budget assumption nobody documented, or expense data that never got ...",
+              "id": "S2.5",
+              "class": "platform"
+            },
+            {
+              "rank": 6,
+              "domain": "www.springbord.com",
+              "url": "https://www.springbord.com/downloadable-doc/case-studies/cam-reconciliation-case-study.pdf",
+              "title": "CAM Reconciliation Case Study",
+              "description": "Inaccurate CAM calculations from previous years gave rise to financial concerns, including the omission of essential expenses. Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "treadstonelaw.ca",
+              "url": "https://treadstonelaw.ca/answers/cam-reconciliation-on-commercial-property-sale-ontario",
+              "title": "What is a CAM reconciliation and who is responsible for it ...",
+              "description": "Common area maintenance (CAM) reconciliation is the year-end process of comparing what tenants were charged throughout the year in estimated CAM costs…",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/CommercialRealEstate/comments/1io7eye/reminder_to_look_at_your_cam_its_probably_wrong/",
+              "title": "Reminder to look at your CAM - it's probably wrong.",
+              "description": "... problems in the future. In this business the fewer headaches the ... Have an opportunity to correct for 2024 reconciliation and an ... Read more",
+              "id": "S2.8",
+              "class": "discussion"
+            },
+            {
+              "rank": 9,
+              "domain": "www.crevertical.com",
+              "url": "https://www.crevertical.com/stratcre/the-cam-reconciliation-a-direct-line-to-noi",
+              "title": "The CAM Reconciliation: A Direct Line to NOI",
+              "description": "Apr 27, 2026 — The CAM reconciliation is where the lease meets the actual operating expenses. It is where gross-up provisions, caps, base years, exclusions, ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "blog.rebolease.com",
+              "url": "https://blog.rebolease.com/category/cam-reconciliation/",
+              "title": "CAM Reconciliation Archives - RE BackOffice - Blog",
+              "description": "Misclassifying capital expenditures as operating costs can invalidate the reconciliation and trigger cam disputes. Routine patching of that same roof is an ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "ptc.com",
+          "url": "https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid",
+          "finalUrl": "https://www.ptc.com/en/technologies/cad/cam-software?srsltid=AU7gw4WHgB2SrETdIn5ATobalQiXQrg1T4ih951KOL2dCqjg6KxDNXid",
+          "retrievedAt": "2026-09-26T10:29:58.176Z",
+          "status": 200,
+          "error": null,
+          "title": "What is CAM Software? | PTC",
+          "description": "CAM software automates the creation of computerized numeric control (CNC) toolpaths by directly referencing 3D CAD geometry. CAM software generates programming instructions that are used to manufacture products and tools.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "ptc.com",
+          "url": "https://www.ptc.com/pricing",
+          "finalUrl": "https://www.ptc.com/en/pricing",
+          "retrievedAt": "2026-09-26T10:29:58.177Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "trintech.com",
+          "url": "https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/",
+          "finalUrl": "https://www.trintech.com/blog/how-to-solve-capital-lease-reconciliation-challenges/",
+          "retrievedAt": "2026-09-26T10:29:58.178Z",
+          "status": 200,
+          "error": null,
+          "title": "How to Solve Capital Lease Reconciliation Challenges",
+          "description": "Failing to overcome lease reconciliation challenges exposes your company to huge overpayments. Tackle your lease reconciliation and never overpay again!",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "trintech.com",
+          "url": "https://www.trintech.com/pricing",
+          "finalUrl": "https://www.trintech.com/pricing",
+          "retrievedAt": "2026-09-26T10:29:58.179Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "autodesk.com",
+          "url": "https://www.autodesk.com/solutions/cam-software",
+          "finalUrl": "https://www.autodesk.com/solutions/cam-software",
+          "retrievedAt": "2026-09-26T10:29:58.180Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "autodesk.com",
+          "url": "https://www.autodesk.com/pricing",
+          "finalUrl": "https://www.autodesk.com/pricing",
+          "retrievedAt": "2026-09-26T10:29:58.181Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 4,
+          "top": null,
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "lease accounting solution",
+              "searchVolume": 30,
+              "id": "K6"
+            }
+          },
+          "broader": {
+            "level": "substantial",
+            "measuredCount": 2,
+            "totalCount": 2,
+            "top": {
+              "keyword": "property management cost",
+              "searchVolume": 2900,
+              "id": "K9"
+            }
+          },
+          "uncertainCount": 2,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"cam software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"cam software pricing\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low (\"lease accounting solution\" 30/mo); broader market: substantial (\"property management cost\" 2900/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "ptc.com",
+            "trintech.com",
+            "autodesk.com",
+            "ntrustinfotech.com",
+            "encycam.com",
+            "springbord.com",
+            "jlccnc.com",
+            "treadstonelaw.ca",
+            "mecsoft.com",
+            "crevertical.com",
+            "camworks.com",
+            "blog.rebolease.com"
+          ],
+          "platformDomains": [
+            "linkedin.com"
+          ],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "12 vendor-like or publisher domain(s) and 1 broad platform(s) (linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 1 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "trintech.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "a427cd10fa6c4c1c",
+      "evidenceUpdatedAt": "2026-09-26T10:30:03.329Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-26T10:36:15.812Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-26T10:30:03.329Z",
+        "qualifiers": [
+          "Commercial property manager, accountant, or building owner"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is someone dealing with CAM reconciliation, which is the target customer, and the topic is their exact problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a property manager or tenant involved in a dispute, and the topic is the core problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a property manager or accountant, and the topic of errors is the core problem."
+          },
+          "K4": {
+            "searcher": "excludes",
+            "topic": "different",
+            "reason": "The search results show that 'CAM software' overwhelmingly refers to Computer-Aided Manufacturing, a different industry."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is a property manager, but the topic is a very broad category of tools for both commercial and residential properties."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is likely an accountant or property manager, and the topic is a broader category of software that includes CAM reconciliation."
+          },
+          "K7": {
+            "searcher": "excludes",
+            "topic": "different",
+            "reason": "Similar to 'CAM software', this search refers to pricing for Computer-Aided Manufacturing software."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer looking for a solution to the specific problem of CAM reconciliation."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is a property manager or owner, but the topic is about the general costs of management services, not a specific tool."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is about Computer-Aided Manufacturing (CAM) software for CNC machining, a completely different industry and problem."
+          },
+          "S1.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is about Computer-Aided Manufacturing (CAM) software for CNC machining, which is unrelated to property management."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a Reddit discussion about Computer-Aided Manufacturing (CAM) software for CNC machines."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a guide to Computer-Aided Manufacturing (CAM), an unrelated field."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a guide to free Computer-Aided Manufacturing (CAM) software for milling."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is the Wikipedia page for Computer-Aided Manufacturing (CAM)."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is about free CAD/CAM software for CNC machining, which is an unrelated industry."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is software for Computer-Aided Manufacturing (CAM) and CNC programming."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a video explaining Computer-Aided Manufacturing (CAM) for CNC machines."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "accountants"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is about capital lease reconciliation for any company, a broader accounting problem than just CAM reconciliation for property managers."
+          },
+          "S2.3": {
+            "customer": "same",
+            "customerMatches": [
+              "Commercial property manager, accountant, or building owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This case study describes a specific CAM reconciliation problem for a REIT, which is the target customer."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "Commercial property manager, accountant, or building owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This post discusses the root causes of CAM reconciliation problems, directly addressing the target customer and their problem."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "Commercial property manager, accountant, or building owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This case study is about inaccurate CAM calculations, which is the exact problem for the target customer."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "Commercial property manager, accountant, or building owner"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article explains what CAM reconciliation is, and could be for either property managers or tenants."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This discussion appears to be from a tenant's perspective about incorrect CAM charges, not from the property manager's side."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Commercial property manager, accountant, or building owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the importance of the CAM reconciliation process for property managers and owners."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Commercial property manager, accountant, or building owner"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This blog post addresses a specific type of error in CAM reconciliation, which is part of the core problem for the target customer."
+          },
+          "P1": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This page defines Computer-Aided Manufacturing (CAM) software, which is for a different industry and solves a different problem."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "accountants"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is about solving lease reconciliation challenges for any company, a broader audience and problem than just CAM for property managers."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-26:cam-reconciliation-generator",
+        "opportunity": "Provide commercial property managers with a specialized tool to automate Common Area Maintenance (CAM) reconciliation. This could reduce errors, save time, and prevent tenant disputes.",
+        "whoPays": "Commercial property managers, accountants, and building owners pay to save time, prevent costly errors, and maintain better tenant relationships. This is an inference.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "No evidence with 'direct' or 'category' relevance was found describing the problems of CAM reconciliation from the perspective of the target customer.",
+          "inference": "The problem as stated in the original memo is not validated by the evidence."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "P3",
+              "quote": "How to Solve Capital Lease Reconciliation Challenges"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Trintech",
+              "type": "indirect",
+              "what": "Offers solutions for general capital lease reconciliation challenges, a broader accounting problem not specific to property management CAM.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Solve Capital Lease Reconciliation Challenges"
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "The search term 'CAM software' is overwhelmingly used to refer to Computer-Aided Manufacturing software.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "What is CAM Software?"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "CAM software for CNC Machining"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "There appears to be a lack of dedicated, easily discoverable software specifically for Common Area Maintenance reconciliation, suggesting it may not be a standalone software category.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "CAM reconciliation is described as a \"source of stress and anxiety,\" a \"long drawn process,\" and a frequent cause of tenant disputes",
+            "finding": "No evidence was found to support these specific descriptions of the problem. All potentially relevant items had 'uncertain' or 'broader' relevance and were discarded.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Existing solutions are often part of larger, complex property management suites.",
+            "finding": "The fact that searches for 'cam software' are dominated by an unrelated industry supports the hypothesis that if solutions exist, they are not marketed as standalone products.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "What is CAM Software?"
+              },
+              {
+                "id": "S1.3",
+                "quote": "CAM software for CNC Machining"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment would be a tool that takes lease terms and expenses to calculate reconciliation. The rules engine for varied lease terms could be complex, but a version for common cases is achievable."
+        },
+        "unproven": [
+          "The existence of the problem itself; there is no valid evidence of stress or disputes from the property manager's perspective.",
+          "The language the target customer uses to describe this problem and search for solutions.",
+          "Whether property managers would pay for a standalone tool instead of using spreadsheets or their existing property management software."
+        ],
+        "nextExperiment": {
+          "what": "Find 5 commercial property managers on LinkedIn. Ask them how they handle year-end CAM reconciliations, what the most frustrating part of that process is, and what tools they currently use.",
+          "cost": "$0 cash + 10 hours of outreach and interviews.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "At least 3 of the 5 managers describe CAM reconciliation as a significant manual pain point involving spreadsheets and mention specific problems like errors, tenant disputes, or time consumption.",
+        "stopIf": "The managers indicate they are happy with their current process, it's handled automatically by their existing software, or they don't see it as a significant problem."
+      },
+      "assessment": {
+        "opportunity": "Provide commercial property managers with a specialized tool to automate Common Area Maintenance (CAM) reconciliation. This could reduce errors, save time, and prevent tenant disputes.",
+        "whoPays": "Commercial property managers, accountants, and building owners pay to save time, prevent costly errors, and maintain better tenant relationships. This is an inference.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The problem as stated in the original memo is not validated by the evidence."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "P3",
+              "quote": "How to Solve Capital Lease Reconciliation Challenges",
+              "domain": "trintech.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This page is about solving lease reconciliation challenges for any company, a broader audience and problem than just CAM for property managers."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "trintech.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Trintech",
+              "type": "indirect",
+              "what": "Offers solutions for general capital lease reconciliation challenges, a broader accounting problem not specific to property management CAM.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Solve Capital Lease Reconciliation Challenges",
+                  "domain": "trintech.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This page is about solving lease reconciliation challenges for any company, a broader audience and problem than just CAM for property managers."
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "The search term 'CAM software' is overwhelmingly used to refer to Computer-Aided Manufacturing software.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "There appears to be a lack of dedicated, easily discoverable software specifically for Common Area Maintenance reconciliation, suggesting it may not be a standalone software category.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "CAM reconciliation is described as a \"source of stress and anxiety,\" a \"long drawn process,\" and a frequent cause of tenant disputes",
+            "finding": "No evidence was found to support these specific descriptions of the problem. All potentially relevant items had 'uncertain' or 'broader' relevance and were discarded.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "Existing solutions are often part of larger, complex property management suites.",
+            "finding": "The fact that searches for 'cam software' are dominated by an unrelated industry supports the hypothesis that if solutions exist, they are not marketed as standalone products.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment would be a tool that takes lease terms and expenses to calculate reconciliation. The rules engine for varied lease terms could be complex, but a version for common cases is achievable."
+        },
+        "unproven": [
+          "The existence of the problem itself; there is no valid evidence of stress or disputes from the property manager's perspective.",
+          "The language the target customer uses to describe this problem and search for solutions.",
+          "Whether property managers would pay for a standalone tool instead of using spreadsheets or their existing property management software."
+        ],
+        "nextExperiment": {
+          "what": "Find 5 commercial property managers on LinkedIn. Ask them how they handle year-end CAM reconciliations, what the most frustrating part of that process is, and what tools they currently use.",
+          "cost": "$0 cash + 10 hours of outreach and interviews.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "At least 3 of the 5 managers describe CAM reconciliation as a significant manual pain point involving spreadsheets and mention specific problems like errors, tenant disputes, or time consumption.",
+        "stopIf": "The managers indicate they are happy with their current process, it's handled automatically by their existing software, or they don't see it as a significant problem.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"existing solutions are often part of larger, compl\" supports → untested: cites only evidence judged to be about a different customer or problem, or not judged",
+          "gap \"The search term 'CAM software' is overwhelmingly used to ref\" observed → inference"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "change",
+              "id": "S1.2",
+              "relevance": "unrelated",
+              "reason": "This is about Computer-Aided Manufacturing (CAM) software for CNC machining, a completely different industry and problem."
+            },
+            {
+              "claim": "change",
+              "id": "S1.3",
+              "relevance": "unrelated",
+              "reason": "This is about Computer-Aided Manufacturing (CAM) software for CNC machining, which is unrelated to property management."
+            },
+            {
+              "claim": "gap",
+              "id": "S1.2",
+              "relevance": "unrelated",
+              "reason": "This is about Computer-Aided Manufacturing (CAM) software for CNC machining, a completely different industry and problem."
+            },
+            {
+              "claim": "gap",
+              "id": "S1.3",
+              "relevance": "unrelated",
+              "reason": "This is about Computer-Aided Manufacturing (CAM) software for CNC machining, which is unrelated to property management."
+            }
+          ],
+          "downgraded": [
+            "change \"existing solutions are often part of larger, compl\" supports → untested: cites only evidence judged to be about a different customer or problem, or not judged",
+            "gap \"The search term 'CAM software' is overwhelmingly used to ref\" observed → inference"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-26T10:37:23.934Z",
+        "evidenceUpdatedAt": "2026-09-26T10:30:03.329Z"
+      }
+    },
+    {
+      "id": "2026-09-26:probate-administration-ledger",
+      "slug": "probate-administration-ledger",
+      "title": "The Probate Attorney's \"Error-Proof\" Estate Administration Ledger",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The reference to \"probate attorney\" and \"legal tech software\" implies a U.S. legal system context, making the United States the most plausible market for search."
+      },
+      "plan": {
+        "slug": "probate-administration-ledger",
+        "title": "The Probate Attorney's \"Error-Proof\" Estate Administration Ledger",
+        "problem": "Solo and small-firm probate attorneys struggle with managing complex workflows, automating forms, tracking assets, and ensuring compliance over long periods, leading to significant liability risks.",
+        "targetCustomer": "Solo and small-firm attorneys specializing in probate and estate administration.",
+        "payer": "Solo and small-firm attorneys",
+        "whyPayerPays": "The payer will spend money to mitigate high malpractice liability risk, manage administrative burden, and streamline complex probate workflows.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The reference to \"probate attorney\" and \"legal tech software\" implies a U.S. legal system context, making the United States the most plausible market for search."
+        },
+        "keywords": {
+          "problem": [
+            "probate administration challenges",
+            "estate management risks",
+            "legal workflow complexity"
+          ],
+          "solution": [
+            "probate software",
+            "estate planning tools",
+            "legal practice management"
+          ],
+          "buying": [
+            "probate software cost",
+            "best estate administration",
+            "legal tech pricing"
+          ]
+        },
+        "serpQueries": [
+          "probate software",
+          "probate administration challenges"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "probate administration challenges",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "estate management risks",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-18 01:39:48 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "legal workflow complexity",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "probate software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": 23.43,
+          "adCompetition": 0.64,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -25,
+          "providerUpdatedAt": "2026-09-13 08:09:31 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (30 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "estate planning tools",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 6600,
+          "cpcUsd": 6.65,
+          "adCompetition": 0.22,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -18,
+          "providerUpdatedAt": "2026-09-15 03:51:32 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 320
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -27,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "legal practice management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 70,
+          "cpcUsd": 414.7,
+          "adCompetition": 0.31,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -55,
+          "providerUpdatedAt": "2026-09-12 21:55:48 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -42,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "probate software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best estate administration",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "legal tech pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:28:39.026Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "probate software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:29:34.120Z",
+          "checkUrl": "https://www.google.com/search?q=probate%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.f6s.com",
+              "url": "https://www.f6s.com/software/category/probate-automation",
+              "title": "Best Probate Automation Software • September 2026",
+              "description": "Find the best Probate Automation software of 2026. Get discounts on top-rated systems and tools based on reviews, features, pricing and more.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.denovobi.com",
+              "url": "https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/",
+              "title": "10 essential cloud-based case management tools Probate ...",
+              "description": "Sep 20, 2023 — The software module now boasts specific tools to help automate the production of the Inventory, Petition and other Tax Forms, along with tools ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.statular.com",
+              "url": "https://www.statular.com/features/estate-planning-client-questionnaire-software",
+              "title": "Estate Planning Client Questionnaire Software",
+              "description": "Collect estate planning client questionnaire responses and sync reviewed answers into wills, trusts, powers, healthcare directives, and administration ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.estateexec.com",
+              "url": "https://www.estateexec.com/Docs/probate-process/MP?srsltid=AU7gw4WPreG8AWCRSpwPPopmFyZb43IZ4Wl0dQiDAE218PzQlb6aHilF",
+              "title": "MP Estate Probate (with AI Software)",
+              "description": "Feb 7, 2026 — Probate in MP is the court-supervised process of settling a person's affairs after his or her death, resolving debts and distributing ...",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.capterra.com",
+              "url": "https://www.capterra.com/p/10058510/Heir-Pros-Probate-Services/",
+              "title": "Heir Pros Probate Services Software Pricing, Alternatives & ...",
+              "description": "Aug 24, 2026 — Heir Pros Probate Services is heir location software that identifies missing heirs and generates court-ready documentation for estate ... Read more",
+              "id": "S1.7",
+              "class": "review_directory"
+            },
+            {
+              "rank": 8,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/LawFirm/comments/18ymc69/case_management_software_for_solo_estate_planning/",
+              "title": "Case Management Software for Solo Estate Planning and ...",
+              "description": "We use SimpleLaw. VERY reasonably priced and has some nice features like easy intake, document automation, and more. We are an immigration law ... Read more",
+              "id": "S1.8",
+              "class": "discussion"
+            },
+            {
+              "rank": 9,
+              "domain": "www.smokeball.com",
+              "url": "https://www.smokeball.com/legal-resources/workflow-checklist-for-estate-planning-probate-matters",
+              "title": "Workflow Checklist for Estate Planning & Probate Matters",
+              "description": "Workflow Checklist for Estate Planning & Probate Matters. Smokeball will transform your firm and business like no other law firm software. Probate Law Software ...",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.onelegal.com",
+              "url": "https://www.onelegal.com/practice-types/probate/",
+              "title": "Probate court filing and process serving",
+              "description": "Certified electronic court filing where permitted, paper filing elsewhere, with the fastest, easiest workflow built specifically for law firms. Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=TOdLRsMUBFw",
+              "title": "Probate marketing & EstateExec software as a value add",
+              "description": null,
+              "id": "S1.11",
+              "class": "reference_media"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "probate administration challenges",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-26T10:29:50.728Z",
+          "checkUrl": "https://www.google.com/search?q=probate%20administration%20challenges&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "heartlandestatelaw.com",
+              "url": "https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+              "title": "What Are the Common Challenges in Probate ...",
+              "description": "Apr 15, 2026 — One of the most frequent challenges in probate administration is delays. Disputed wills: Asset valuation issues: Incomplete records: Conflicts ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.rodneygouldlaw.com",
+              "url": "https://www.rodneygouldlaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+              "title": "What Are the Common Challenges in Probate ...",
+              "description": "Feb 12, 2026 — What Are the Common Challenges in Probate Administration? · Early Steps That Commonly Cause Delays · Asset Management and Valuation Problems. Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "gilesrobinson.com",
+              "url": "https://gilesrobinson.com/what-is-probate-administration-and-why-do-you-need-it-a-beginners-guide/",
+              "title": "What Is Probate Administration and Why Do You Need It? ...",
+              "description": "Mar 10, 2026 — Missed tax deadlines can trigger penalties. Incomplete administration often resurfaces long after the estate appears settled, creating problems ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "bartleonardi.com",
+              "url": "https://bartleonardi.com/common-challenges-in-probate-administration/",
+              "title": "Common Challenges in Probate Administration",
+              "description": "Various factors can delay the outcome, including disputes among beneficiaries, complexities in the estate and issues with creditors. For example, if a will is ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.evanscase.com",
+              "url": "https://www.evanscase.com/five-challenges-in-probate-administration-and-ways-to-resolve-them/",
+              "title": "Five Challenges in Probate Administration and Ways ...",
+              "description": "Apr 28, 2026 — Probate does not start the day someone dies. It starts when somebody opens of families do not see coming. The car needs to be insured. And ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.mcamporealelaw.com",
+              "url": "https://www.mcamporealelaw.com/probate-estate-administration/the-common-challenges-faced-during-the-probate-process/",
+              "title": "The Common Challenges Faced During The Probate ...",
+              "description": "Most people are not happy about the long wait that occurs during the probate process and most people will not be happy when that delay will be increased when a ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.capecoralattorney.com",
+              "url": "https://www.capecoralattorney.com/blog/2024/12/8-common-challenges-in-probate-and-how-to-overcome-them/",
+              "title": "8 common challenges in probate and how to overcome them",
+              "description": "Dec 31, 2024 — 1. Will contests and disputes ・ 2. Probate delays ・ 3. Debts and Taxes ・ 4. Lost or invalid documents",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.americanbar.org",
+              "url": "https://www.americanbar.org/groups/real_property_trust_estate/resources/estate-planning/probate-process/",
+              "title": "The Probate Process",
+              "description": "In planning your estate, more important than minimizing probate is minimizing the real issues that can make probate difficult, such as lawsuits by heirs. Should ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            },
+            {
+              "rank": 12,
+              "domain": "www.boswellpllc.com",
+              "url": "https://www.boswellpllc.com/blog/4-challenges-of-the-probate-process",
+              "title": "4 Challenges Of The Probate Process - Call Today",
+              "description": "The probate process can sometimes lead to disagreements among family members over asset distribution, executor responsibilities, or the validity of the will. Read more",
+              "id": "S2.12",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "f6s.com",
+          "url": "https://www.f6s.com/software/category/probate-automation",
+          "retrievedAt": "2026-09-26T10:30:00.639Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P2",
+          "domain": "f6s.com",
+          "url": "https://www.f6s.com/pricing",
+          "retrievedAt": "2026-09-26T10:30:00.640Z",
+          "status": null,
+          "error": "robots.txt disallows this path"
+        },
+        {
+          "id": "P3",
+          "domain": "heartlandestatelaw.com",
+          "url": "https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+          "finalUrl": "https://heartlandestatelaw.com/blog/what-are-the-common-challenges-in-probate-administration/",
+          "retrievedAt": "2026-09-26T10:30:00.641Z",
+          "status": 200,
+          "error": null,
+          "title": "What Are the Common Challenges in Probate Administration? | Heartland Estate Law, LLC",
+          "description": "What are some common challenges in probate administration in Kansas and Missouri? Contact Heartland Estate Law, LLC to discuss probate law.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "heartlandestatelaw.com",
+          "url": "https://heartlandestatelaw.com/pricing",
+          "finalUrl": "https://heartlandestatelaw.com/404/?request_url=pricing/",
+          "retrievedAt": "2026-09-26T10:30:00.642Z",
+          "status": 200,
+          "error": null,
+          "title": "Site 404 Error",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P5",
+          "domain": "denovobi.com",
+          "url": "https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/",
+          "finalUrl": "https://www.denovobi.com/blog/10-essential-cloud-based-case-management-tools-probate-solicitors-need-for-their-law-firm/",
+          "retrievedAt": "2026-09-26T10:30:00.642Z",
+          "status": 200,
+          "error": null,
+          "title": "10 essential cloud-based case management tools Probate Solicitors need for their law firm - Denovo",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "denovobi.com",
+          "url": "https://www.denovobi.com/pricing",
+          "finalUrl": "https://www.denovobi.com/pricing",
+          "retrievedAt": "2026-09-26T10:30:00.643Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 5,
+          "top": {
+            "keyword": "probate software",
+            "searchVolume": 30,
+            "id": "K4"
+          },
+          "category": {
+            "level": "substantial",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "estate planning tools",
+              "searchVolume": 6600,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "legal practice management",
+              "searchVolume": 70,
+              "id": "K6"
+            }
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"legal workflow complexity\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"probate software\" at 30/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: substantial (\"estate planning tools\" 6600/mo); broader market: low (\"legal practice management\" 70/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K5"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $23.43 on \"probate software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "f6s.com",
+            "heartlandestatelaw.com",
+            "denovobi.com",
+            "rodneygouldlaw.com",
+            "statular.com",
+            "estateexec.com",
+            "gilesrobinson.com",
+            "bartleonardi.com",
+            "evanscase.com",
+            "mcamporealelaw.com",
+            "smokeball.com",
+            "onelegal.com",
+            "capecoralattorney.com",
+            "americanbar.org",
+            "boswellpllc.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "capterra.com",
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 2 domain(s) with a direct competitor (same problem) (smokeball.com, denovobi.com), 1 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "smokeball.com",
+            "denovobi.com"
+          ],
+          "indirectAlternativeDomains": [
+            "capterra.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "f131831f1d8f4226",
+      "evidenceUpdatedAt": "2026-09-26T10:30:03.330Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-26T10:36:15.812Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-26T10:30:03.330Z",
+        "qualifiers": [
+          "Solo and small-firm attorneys",
+          "specializing in probate and estate administration"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a probate attorney or an executor dealing with the exact challenges the idea addresses."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely an attorney or executor concerned with liability, which is the core problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The searcher is an attorney, but the topic of 'legal workflow complexity' is much broader than just probate."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is looking for a solution in the exact category of the idea, indicating they are the target customer."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher could be an attorney or a consumer, and estate planning is a related but distinct field from estate administration."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is an attorney, but 'legal practice management' is a very wide software category for all types of law."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer with buying intent for a solution to their specific problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a probate attorney looking for tools or best practices for estate administration."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is an attorney, but the topic of 'legal tech pricing' is very broad and not specific to probate."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a list of probate automation software, which directly targets the customer and their problem of managing complex workflows."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This describes case management tools specifically for probate lawyers to automate forms, which is part of the core problem."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "Solo and small-firm attorneys"
+            ],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for estate planning client intake, which is a different process from the post-death estate administration."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software appears to be for individuals acting as executors to settle an estate, not for attorneys managing the process for clients."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a specialized tool for finding heirs, which is only one part of the broader probate administration workflow problem."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion by a solo estate planning and probate attorney seeking case management software, exactly matching the target customer."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software offers a workflow checklist for probate matters, directly addressing the problem of managing complex workflows for the target customer."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a service for a specific part of the probate process (court filing), not a comprehensive tool for managing the entire workflow."
+          },
+          "S1.11": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This video is about marketing for probate attorneys, which is a different problem from managing the administration workflow."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses common probate challenges and is relevant to attorneys, but is written for a broader audience that includes their clients."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about probate challenges is aimed at a general audience, which includes but is not limited to probate attorneys."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains probate administration and its challenges, such as missed deadlines, to a general audience."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses common challenges in probate for a general audience, including beneficiaries and executors as well as attorneys."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article on probate challenges is written for a general audience, not specifically for legal professionals."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses probate delays for a general audience, not specifically for the attorneys managing the process."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a list of common probate challenges aimed at a general audience, including will contests and delays."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This American Bar Association article explains the probate process and its difficulties to the public, a broader audience than just attorneys."
+          },
+          "S2.12": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article about probate challenges like family disagreements is written for a general audience, not specifically for attorneys."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a law firm's blog post explaining probate challenges to attract potential clients, not to educate other attorneys."
+          },
+          "P4": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "unclear",
+            "reason": "The page could not be fetched, resulting in a 404 error, so its content and audience are unknown."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "Solo and small-firm attorneys",
+              "specializing in probate and estate administration"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This article lists case management tools specifically for probate solicitors (attorneys), directly matching the target customer and their problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-26:probate-administration-ledger",
+        "opportunity": "Provide solo and small-firm probate attorneys with a specialized software tool to manage workflows, track assets, and ensure compliance. This would help them reduce administrative burden and mitigate liability risks.",
+        "whoPays": "Solo and small-firm attorneys pay to mitigate malpractice risk, reduce administrative work, and streamline complex probate cases. This is an inference.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S1.8",
+              "quote": "Case Management Software for Solo Estate Planning and"
+            },
+            {
+              "id": "S2.2",
+              "quote": "challenges in probate administration is delays"
+            },
+            {
+              "id": "S2.5",
+              "quote": "Missed tax deadlines can trigger penalties"
+            }
+          ],
+          "observed": "A solo probate attorney is actively seeking case management software. Common challenges in probate administration that can create problems include delays, incomplete records, and missed tax deadlines which can trigger penalties.",
+          "inference": "Solo and small-firm attorneys need specialized software to manage the complexities of probate administration to avoid errors and penalties."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.9",
+              "quote": "Probate Law Software"
+            },
+            {
+              "id": "S1.3",
+              "quote": "case management tools Probate"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Smokeball",
+              "type": "direct",
+              "what": "Offers Probate Law Software that includes features like a workflow checklist for probate matters.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Workflow Checklist for Estate Planning & Probate Matters"
+                }
+              ]
+            },
+            {
+              "name": "Denovo",
+              "type": "direct",
+              "what": "Provides cloud-based case management tools for probate lawyers, with features to automate forms like inventories and petitions.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "automate the production of the Inventory, Petition and other Tax Forms"
+                }
+              ]
+            },
+            {
+              "name": "Heir Pros Probate Services",
+              "type": "indirect",
+              "what": "A specialized tool for a single part of the probate process: locating missing heirs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "heir location software that identifies missing heirs"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing competitors offer features to manage complex processes, such as workflow checklists and automation of legal forms.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Workflow Checklist for Estate Planning & Probate Matters"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "automate the production of the Inventory, Petition and other Tax Forms"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions appear to be part of broader practice management suites, which may be too complex or expensive for a solo attorney who only needs a tool for probate administration.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The process involves managing complex workflows, automating repetitive forms, tracking assets, and ensuring compliance",
+            "finding": "Evidence confirms the complexity, citing challenges like delays and missed deadlines. Competitors address this by offering workflow checklists and form automation.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "challenges in probate administration is delays"
+              },
+              {
+                "id": "S1.9",
+                "quote": "Workflow Checklist for Estate Planning & Probate Matters"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Existing products prove willingness to pay for tools that streamline this process.",
+            "finding": "Advertisers are bidding up to $23.43 CPC for the keyword 'probate software', indicating that customers searching for these tools are considered valuable.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "probate software"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment would be a simple web app for tracking estate assets, deadlines, and generating a basic inventory report. The core functionality is a standard CRUD app, but ensuring legal compliance of outputs adds complexity."
+        },
+        "unproven": [
+          "Whether solo and small-firm attorneys are dissatisfied with existing, broader practice management solutions.",
+          "The price point these attorneys are willing to pay for a standalone, specialized tool.",
+          "The most critical missing feature or biggest frustration with current tools that a new product could solve."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for 'The Simple Probate Ledger' that highlights features for asset tracking, deadline management, and one-click inventory reporting. Run a small ad campaign targeting the keyword 'probate software' to measure email sign-ups for a waitlist.",
+          "cost": "$200-300 in ad spend + 10 hours to build the page.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "The campaign achieves a click-through rate comparable to industry averages and a waitlist conversion rate of over 5% on the landing page.",
+        "stopIf": "The ad campaign generates very few clicks or the landing page has a near-zero conversion rate, indicating a lack of interest in a new, specialized solution."
+      },
+      "assessment": {
+        "opportunity": "Provide solo and small-firm probate attorneys with a specialized software tool to manage workflows, track assets, and ensure compliance. This would help them reduce administrative burden and mitigate liability risks.",
+        "whoPays": "Solo and small-firm attorneys pay to mitigate malpractice risk, reduce administrative work, and streamline complex probate cases. This is an inference.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S1.8",
+              "quote": "Case Management Software for Solo Estate Planning and",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "direct",
+              "relevanceReason": "This is a discussion by a solo estate planning and probate attorney seeking case management software, exactly matching the target customer."
+            },
+            {
+              "id": "S2.2",
+              "quote": "challenges in probate administration is delays",
+              "domain": "heartlandestatelaw.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses common probate challenges and is relevant to attorneys, but is written for a broader audience that includes their clients."
+            },
+            {
+              "id": "S2.5",
+              "quote": "Missed tax deadlines can trigger penalties",
+              "domain": "gilesrobinson.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article explains probate administration and its challenges, such as missed deadlines, to a general audience."
+            }
+          ],
+          "observed": "A solo probate attorney is actively seeking case management software. Common challenges in probate administration that can create problems include delays, incomplete records, and missed tax deadlines which can trigger penalties.",
+          "inference": "Solo and small-firm attorneys need specialized software to manage the complexities of probate administration to avoid errors and penalties."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.9",
+              "quote": "Probate Law Software",
+              "domain": "smokeball.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software offers a workflow checklist for probate matters, directly addressing the problem of managing complex workflows for the target customer."
+            }
+          ],
+          "directCompetitors": [
+            "smokeball.com"
+          ],
+          "indirectAlternatives": [
+            "capterra.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Smokeball",
+              "type": "direct",
+              "what": "Offers Probate Law Software that includes features like a workflow checklist for probate matters.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Workflow Checklist for Estate Planning & Probate Matters",
+                  "domain": "smokeball.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This software offers a workflow checklist for probate matters, directly addressing the problem of managing complex workflows for the target customer."
+                }
+              ]
+            },
+            {
+              "name": "Heir Pros Probate Services",
+              "type": "indirect",
+              "what": "A specialized tool for a single part of the probate process: locating missing heirs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "heir location software that identifies missing heirs",
+                  "domain": "capterra.com",
+                  "kind": "S",
+                  "cls": "review_directory",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a specialized tool for finding heirs, which is only one part of the broader probate administration workflow problem."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Existing competitors offer features to manage complex processes, such as workflow checklists and automation of legal forms.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Workflow Checklist for Estate Planning & Probate Matters",
+                  "domain": "smokeball.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct",
+                  "relevanceReason": "This software offers a workflow checklist for probate matters, directly addressing the problem of managing complex workflows for the target customer."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing solutions appear to be part of broader practice management suites, which may be too complex or expensive for a solo attorney who only needs a tool for probate administration.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The process involves managing complex workflows, automating repetitive forms, tracking assets, and ensuring compliance",
+            "finding": "Evidence confirms the complexity, citing challenges like delays and missed deadlines. Competitors address this by offering workflow checklists and form automation.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "challenges in probate administration is delays",
+                "domain": "heartlandestatelaw.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article discusses common probate challenges and is relevant to attorneys, but is written for a broader audience that includes their clients."
+              },
+              {
+                "id": "S1.9",
+                "quote": "Workflow Checklist for Estate Planning & Probate Matters",
+                "domain": "smokeball.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "direct",
+                "relevanceReason": "This software offers a workflow checklist for probate matters, directly addressing the problem of managing complex workflows for the target customer."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Existing products prove willingness to pay for tools that streamline this process.",
+            "finding": "Advertisers are bidding up to $23.43 CPC for the keyword 'probate software', indicating that customers searching for these tools are considered valuable.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "probate software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "The searcher is looking for a solution in the exact category of the idea, indicating they are the target customer."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment would be a simple web app for tracking estate assets, deadlines, and generating a basic inventory report. The core functionality is a standard CRUD app, but ensuring legal compliance of outputs adds complexity."
+        },
+        "unproven": [
+          "Whether solo and small-firm attorneys are dissatisfied with existing, broader practice management solutions.",
+          "The price point these attorneys are willing to pay for a standalone, specialized tool.",
+          "The most critical missing feature or biggest frustration with current tools that a new product could solve."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page for 'The Simple Probate Ledger' that highlights features for asset tracking, deadline management, and one-click inventory reporting. Run a small ad campaign targeting the keyword 'probate software' to measure email sign-ups for a waitlist.",
+          "cost": "$200-300 in ad spend + 10 hours to build the page.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "The campaign achieves a click-through rate comparable to industry averages and a waitlist conversion rate of over 5% on the landing page.",
+        "stopIf": "The ad campaign generates very few clicks or the landing page has a near-zero conversion rate, indicating a lack of interest in a new, specialized solution.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"existing products prove willingness to pay for too\" supports → untested: a claim about payment or a validated market cannot rest on search volume"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "competition",
+              "id": "S1.3",
+              "relevance": "uncertain",
+              "reason": "This describes case management tools specifically for probate lawyers to automate forms, which is part of the core problem."
+            },
+            {
+              "claim": "alternative Denovo",
+              "id": "S1.3",
+              "relevance": "uncertain",
+              "reason": "This describes case management tools specifically for probate lawyers to automate forms, which is part of the core problem."
+            },
+            {
+              "claim": "strength",
+              "id": "S1.3",
+              "relevance": "uncertain",
+              "reason": "This describes case management tools specifically for probate lawyers to automate forms, which is part of the core problem."
+            }
+          ],
+          "downgraded": [
+            "change \"existing products prove willingness to pay for too\" supports → untested: a claim about payment or a validated market cannot rest on search volume"
+          ],
+          "dropped": [
+            "alternative \"Denovo\": no quoted, relevant evidence that it is an offering for this customer's problem"
+          ]
+        },
+        "assessedAt": "2026-09-26T10:37:23.941Z",
+        "evidenceUpdatedAt": "2026-09-26T10:30:03.330Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-26T10:28:39.026Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "435e0290-613f-5cac-bdf2-1364a2b2e32f",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01356,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-26T10:28:43.816Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "591f7671-b8d8-59fa-adcc-d5d4e56f430e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-26T10:28:50.922Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "791eb63a-2e0e-54a0-896f-dc038846514c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-26T10:29:07.535Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "32184092-dc63-58fe-a537-aaa6b82d09be",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-26T10:29:22.717Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "2f7c7809-a36a-59dd-bb13-3cad995f07e5",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-26T10:29:34.120Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "d3a1e219-5528-5771-b1bb-f1451d0c64ff",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-26T10:29:50.728Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "5a8f72d0-ca90-51c1-8bbb-b0329b5874f6",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.59904,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.40096
+    },
+    "monthToDateUsdBefore": 0.59904,
+    "spentThisRunUsd": 0.02556
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-26T10:30:03.330Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02556,
+    "note": null
+  }
+}

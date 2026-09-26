@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-26
+- **The Small Produce Farm's "FSMA 204-Ready" Log** — Killed. A very strong opportunity, but the "cost of failure" for the funeral home (catastrophic lawsuit) is even more acute than for the farm (regulatory action/retailer rejection).
+- **The Commercial Property Manager's CAM Reconciliation Generator** — Killed. An efficiency tool, not a compliance painkiller. The pain is financial friction, not existential business risk.
+- **The Probate Attorney's Estate Administration Ledger** — Killed. A strong vertical SaaS play, but the market feels smaller and the "why now" is a general trend, not a hard deadline or a rapidly increasing operational risk like rising cremation rates.
+
 ## 2026-09-25
 *   **The Self-Storage Facility's "Lien Sale-Ready" Delinquency Manager** — Killed. The state-by-state variation in lien sale laws makes a national product complex to build and maintain. OFAC is a single federal rule.
 *   **The Small-Scale Cosmetics Maker's "FDA-Ready" GMP Batch Record Log** — Killed. The "why now" (MoCRA 2022) is strong, but the market is newer and less defined than auto dealers, and their willingness to pay for compliance software is less proven.

@@ -5,6 +5,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 
 | Score | Conviction | Date | Idea |
 |---|---|---|---|
+| 100 | high | 2026-09-26 | The Independent Funeral Home's "Lawsuit-Proof" Cremation Chain of Custody Log |
 | 100 | high | 2026-09-20 | The Pawn Shop's "Never-Fail" Daily Police Report Generator |
 | 100 | high | 2026-09-19 | The Non-Emergency Medical Transportation (NEMT) Provider's "Get Paid, Not Buried" Hub |
 | 100 | high | 2026-09-18 | The Independent Firearm Dealer's "ATF-Ready" Digital A&D Book |
