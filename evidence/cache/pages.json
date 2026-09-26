@@ -5037,6 +5037,299 @@
         "mentionsContactSales": false,
         "mentionsPricing": false
       }
+    },
+    "page|https://rightlook.com/mobile-detailing-wastewater-regulations-what-the-epa-and-clean-water-act-require/": {
+      "fetchedAt": "2026-09-26T09:40:49.670Z",
+      "data": {
+        "url": "https://rightlook.com/mobile-detailing-wastewater-regulations-what-the-epa-and-clean-water-act-require/",
+        "finalUrl": "https://rightlook.com/mobile-detailing-wastewater-regulations-what-the-epa-and-clean-water-act-require/",
+        "retrievedAt": "2026-09-26T09:40:49.670Z",
+        "status": 200,
+        "error": null,
+        "title": "Mobile Detailing Wastewater Regulations: What the EPA and Clean Water Act Require - Automotive Appearance Training and Equipment",
+        "description": "What the Clean Water Act, EPA rules, and local programs require for detailing wastewater regulations, and how to stay compliant on every job.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://riskonnect.com/solutions/compliance-monitoring-software/": {
+      "fetchedAt": "2026-09-26T09:40:49.667Z",
+      "data": {
+        "url": "https://riskonnect.com/solutions/compliance-monitoring-software/",
+        "finalUrl": "https://riskonnect.com/solutions/compliance-monitoring-software/",
+        "retrievedAt": "2026-09-26T09:40:49.667Z",
+        "status": 200,
+        "error": null,
+        "title": "Compliance Monitoring Software · Riskonnect",
+        "description": "Discover the power of compliance monitoring software. Ensure you remain compliant with regulations, policies, and procedures with Riskonnect. Book a demo today!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://riskonnect.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:49.669Z",
+      "data": {
+        "url": "https://riskonnect.com/pricing",
+        "finalUrl": "https://riskonnect.com/pricing",
+        "retrievedAt": "2026-09-26T09:40:49.669Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://usercentrics.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:49.673Z",
+      "data": {
+        "url": "https://usercentrics.com/pricing",
+        "finalUrl": "https://usercentrics.com/pricing/",
+        "retrievedAt": "2026-09-26T09:40:49.673Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Find The Right Consent Management Platform Package",
+        "description": "With the Usercentrics Consent Management Platform you can obtain, manage, and optimize consents. Find the right package for your company!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://rightlook.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:49.671Z",
+      "data": {
+        "url": "https://rightlook.com/pricing",
+        "finalUrl": "https://rightlook.com/pricing",
+        "retrievedAt": "2026-09-26T09:40:49.671Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://usercentrics.com/knowledge-hub/compliance-tracking-software-comparison/": {
+      "fetchedAt": "2026-09-26T09:40:49.672Z",
+      "data": {
+        "url": "https://usercentrics.com/knowledge-hub/compliance-tracking-software-comparison/",
+        "finalUrl": "https://usercentrics.com/knowledge-hub/compliance-tracking-software-comparison/",
+        "retrievedAt": "2026-09-26T09:40:49.672Z",
+        "status": 200,
+        "error": null,
+        "title": "What’s The Best Compliance Tracking Software & How To Choose",
+        "description": "Compliance tracking software centralizes tasks, risks, policies, and evidence so you can see progress at a glance and stay ISO 27001 and SOC 2 audit-ready.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://bnbmastery.com/videoblog/3-reasons-why-airbnb-co-hosting-is-booming/": {
+      "fetchedAt": "2026-09-26T09:40:51.742Z",
+      "data": {
+        "url": "https://bnbmastery.com/videoblog/3-reasons-why-airbnb-co-hosting-is-booming/",
+        "finalUrl": "https://bnbmastery.com/videoblog/3-reasons-why-airbnb-co-hosting-is-booming/",
+        "retrievedAt": "2026-09-26T09:40:51.742Z",
+        "status": 200,
+        "error": null,
+        "title": "Airbnb Hosting: Complete Guide for Hosts in 2026 | BNB Mastery",
+        "description": "Everything you need to know about Airbnb hosting in 2026 — from setting up your listing to co-hosting, pricing, and maximizing revenue. Start here.",
+        "priceMentions": [
+          {
+            "text": "$1,500/month",
+            "billingUnit": true,
+            "context": "nds simple, but the difference between a listing that earns $1,500/month and one that earns $4,500/month on the same property is ent"
+          },
+          {
+            "text": "$4,500/month",
+            "billingUnit": true,
+            "context": "etween a listing that earns $1,500/month and one that earns $4,500/month on the same property is entirely in how it's managed. Hosts"
+          },
+          {
+            "text": "$15",
+            "billingUnit": false,
+            "context": "y above market rates for cleaning. The difference between a $15/hour cleaner and a $20/hour cleaner is trivial compared to"
+          },
+          {
+            "text": "$20",
+            "billingUnit": false,
+            "context": "r cleaning. The difference between a $15/hour cleaner and a $20/hour cleaner is trivial compared to the cost of a bad revie"
+          },
+          {
+            "text": "$2,500",
+            "billingUnit": false,
+            "context": "optimized single property in a mid-tier market can generate $2,500–$5,000/month in gross revenue. Top-performing properties in"
+          },
+          {
+            "text": "$5,000/month",
+            "billingUnit": true,
+            "context": "ed single property in a mid-tier market can generate $2,500–$5,000/month in gross revenue. Top-performing properties in high-demand"
+          },
+          {
+            "text": "$10,000/month",
+            "billingUnit": true,
+            "context": "Top-performing properties in high-demand markets can exceed $10,000/month. The biggest variable is management quality — pricing, list"
+          },
+          {
+            "text": "$1,000 per month",
+            "billingUnit": true,
+            "context": "o-Hosting Guide Managing one Airbnb property could generate $1,000 per month — without buying, renting, or furnishing anything. Here&#x2"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://bnbmastery.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:51.743Z",
+      "data": {
+        "url": "https://bnbmastery.com/pricing",
+        "finalUrl": "https://bnbmastery.com/pricing/",
+        "retrievedAt": "2026-09-26T09:40:51.743Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.hostaway.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:51.746Z",
+      "data": {
+        "url": "https://www.hostaway.com/pricing",
+        "finalUrl": "https://www.hostaway.com/pricing",
+        "retrievedAt": "2026-09-26T09:40:51.746Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - Hostaway | Short-Term, Airbnb & Vacation Rental Management Software",
+        "description": "Discover Hostaway&#x27;s flexible pricing plans for Vacation Rental Software. Choose a plan that fits your short-term rental business needs and start optimizing your property management today.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.airbnb.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:51.745Z",
+      "data": {
+        "url": "https://www.airbnb.com/pricing",
+        "finalUrl": "https://www.airbnb.com/404",
+        "retrievedAt": "2026-09-26T09:40:51.745Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.hostaway.com/blog/what-is-an-airbnb-cohost/": {
+      "fetchedAt": "2026-09-26T09:40:51.746Z",
+      "data": {
+        "url": "https://www.hostaway.com/blog/what-is-an-airbnb-cohost/",
+        "finalUrl": "https://www.hostaway.com/blog/what-is-an-airbnb-cohost/",
+        "retrievedAt": "2026-09-26T09:40:51.746Z",
+        "status": 200,
+        "error": null,
+        "title": "What Is an Airbnb Co-Host? | Hostaway | Hostaway",
+        "description": "Learn what an Airbnb co-host is, what they do, what they charge, and how to set up a co-host agreement that protects your vacation rental business.",
+        "priceMentions": [
+          {
+            "text": "$200",
+            "billingUnit": false,
+            "context": "the nightly rate, not total booking revenue. A 20% fee on a $200 nightly rate is $40 per night, before any cleaning fee arra"
+          },
+          {
+            "text": "$40",
+            "billingUnit": false,
+            "context": "total booking revenue. A 20% fee on a $200 nightly rate is $40 per night, before any cleaning fee arrangement. For hosts r"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "r hosts is 10-50% of the reservation amount at a minimum of $50. It also suppresses the listing&#x27;s search ranking, a hi"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.airbnb.com/help/article/1534": {
+      "fetchedAt": "2026-09-26T09:40:51.744Z",
+      "data": {
+        "url": "https://www.airbnb.com/help/article/1534",
+        "finalUrl": "https://www.airbnb.com/help/article/1534",
+        "retrievedAt": "2026-09-26T09:40:51.744Z",
+        "status": 200,
+        "error": null,
+        "title": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences",
+        "description": "A co-host can help a host with their space, their guests, or both. Co-hosts decide how much they want to handle with the listing owner ahead of time.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://vcasoftware.com/insurance-claims-processing-workflow/": {
+      "fetchedAt": "2026-09-26T09:40:52.755Z",
+      "data": {
+        "url": "https://vcasoftware.com/insurance-claims-processing-workflow/",
+        "finalUrl": "https://vcasoftware.com/insurance-claims-processing-workflow/",
+        "retrievedAt": "2026-09-26T09:40:52.755Z",
+        "status": 200,
+        "error": null,
+        "title": "Insurance Claims Processing Workflow: 2026 Guide",
+        "description": "Walk through every stage of the insurance claims processing workflow, FNOL to closure. Includes bottlenecks, KPIs, automation tips, and tools for carriers, TPAs & IA firms.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://riskonnect.com/claims-management-software/": {
+      "fetchedAt": "2026-09-26T09:40:52.757Z",
+      "data": {
+        "url": "https://riskonnect.com/claims-management-software/",
+        "finalUrl": "https://riskonnect.com/claims-management-software/",
+        "retrievedAt": "2026-09-26T09:40:52.757Z",
+        "status": 200,
+        "error": null,
+        "title": "Claims Management Software Solutions · Riskonnect",
+        "description": "Our Claims Management Software streamlines claims processes, from initial submission to final settlement. Resolve complex claims quickly and easily.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://vcasoftware.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:52.756Z",
+      "data": {
+        "url": "https://vcasoftware.com/pricing",
+        "finalUrl": "https://vcasoftware.com/pricing",
+        "retrievedAt": "2026-09-26T09:40:52.756Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.esker.com/business-process-solutions/order-to-cash/customer-service-automation/claims-management-software/": {
+      "fetchedAt": "2026-09-26T09:40:52.757Z",
+      "data": {
+        "url": "https://www.esker.com/business-process-solutions/order-to-cash/customer-service-automation/claims-management-software/",
+        "finalUrl": "https://www.esker.com/business-process-solutions/order-to-cash/customer-service-automation/claims-management-software/",
+        "retrievedAt": "2026-09-26T09:40:52.757Z",
+        "status": 200,
+        "error": null,
+        "title": "Claims Management Software | Esker CS Claims Mgmt",
+        "description": "Discover Esker's claims management software that leverages AI-powered data capture to support customer service and accounts receivable departments.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.esker.com/pricing": {
+      "fetchedAt": "2026-09-26T09:40:52.757Z",
+      "data": {
+        "url": "https://www.esker.com/pricing",
+        "finalUrl": "https://www.esker.com/pricing",
+        "retrievedAt": "2026-09-26T09:40:52.757Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

@@ -21997,6 +21997,1028 @@
       "fetchedAt": "2026-09-25T09:56:36.354Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|mobile detailing wastewater regulations": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa clean water act compliance": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|mobile car wash runoff fines": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|wastewater log": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|compliance tracking software": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "compliance tracking software",
+        "searchVolume": 260,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          }
+        ],
+        "cpcUsd": 120.14,
+        "adCompetition": 0.23,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 10:39:06 +00:00"
+      }
+    },
+    "labs|united states|en|mobile detailing app": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "mobile detailing app",
+        "searchVolume": 210,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 320
+          }
+        ],
+        "cpcUsd": 15.43,
+        "adCompetition": 0.53,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -47,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 17:12:45 +00:00"
+      }
+    },
+    "labs|united states|en|compliance software pricing": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "compliance software pricing",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 02:03:53 +00:00"
+      }
+    },
+    "labs|united states|en|best mobile detailing software": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "best mobile detailing software",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-06-15 04:19:10 +00:00"
+      }
+    },
+    "labs|united states|en|wastewater compliance cost": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|airbnb cohost reporting challenges": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|property management owner reports": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "property management owner reports",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-06-14 16:38:38 +00:00"
+      }
+    },
+    "labs|united states|en|short term rental client retention": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|owner report software": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|airbnb cohost tools": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|property management reporting": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "property management reporting",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 22.86,
+        "adCompetition": 0.32,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -55,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 18:02:08 +00:00"
+      }
+    },
+    "labs|united states|en|cohost software pricing": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best airbnb management tools": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|owner statement generator cost": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance adjuster workload management": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|claims adjuster documentation challenges": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|independent adjuster efficiency": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|claims workflow software": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|adjuster management tools": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance claims platform": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": true,
+      "data": {
+        "keyword": "insurance claims platform",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 30.55,
+        "adCompetition": 0.71,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 17:18:56 +00:00"
+      }
+    },
+    "labs|united states|en|claims software pricing": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best adjuster software": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance workflow cost": {
+      "fetchedAt": "2026-09-26T09:39:18.400Z",
+      "returned": false,
+      "data": null
     }
   }
 }
