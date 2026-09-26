@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-26 (trends)
+- The most powerful B2B SaaS value proposition is not saving time or money, but mitigating a "never event"—a low-probability but business-ending catastrophe.
+- A rapidly growing operational process (like cremation) can turn a manageable manual workflow into an acute, high-risk pain point, creating a powerful "why now" for automation.
+- For conservative, non-technical SMB markets, the most effective wedge against complex, all-in-one incumbents is a simple, standalone tool that perfectly solves the single most terrifying part of their job.
+
+---
+
 ## 2026-09-26
 - The most powerful B2B SaaS value proposition is not saving time or money, but mitigating a "never event"—a low-probability but business-ending catastrophe.
 - A rapidly growing operational process (like cremation) can turn a manageable manual workflow into an acute, high-risk pain point, creating a powerful "why now" for automation.

@@ -423,6 +423,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Records Retention Compliance** · Using AI to automate the auditable capture and supervision of electronic communications for financial services firms. · flagged 2026-09-25 · last checked 2026-09-25 · [origin memo](trends/2026-09-25.md)
 - **AI-Powered Data Security for Employee Offboarding** · Using AI to secure corporate data and prevent exfiltration when an employee departs. · flagged 2026-09-25 · last checked 2026-09-25 · [origin memo](trends/2026-09-25.md)
 - **AI-Powered "Digital Twin" for Career & Financial Planning** · Using AI to create dynamic simulations of a person's career and financial life to model the long-term impact of decisions. · flagged 2026-09-25 · last checked 2026-09-25 · [origin memo](trends/2026-09-25.md)
+- **AI-Automated Cremation Compliance & Operations** · Using AI to automate the high-friction, high-risk administrative workflows for funeral homes and crematories. · flagged 2026-09-26 · last checked 2026-09-26 · [origin memo](trends/2026-09-26.md)
+- **AI Co-pilots for Eldercare Navigation** · Using AI-powered tools to help families manage the complex process of finding and coordinating senior care. · flagged 2026-09-26 · last checked 2026-09-26 · [origin memo](trends/2026-09-26.md)
+- **AI-Powered Music Licensing for Video Content** · Using integrated AI platforms to generate and commercially license custom music for video, film, and ads. · flagged 2026-09-26 · last checked 2026-09-26 · [origin memo](trends/2026-09-26.md)
 
 
 ## ➡️ Active — plateauing
@@ -712,3 +715,5 @@ _(empty)_
 <!-- 2026-09-24 status-update directive: 🚀 | The AI-Augmented Second Brain -->
 
 <!-- 2026-09-25 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
+
+<!-- 2026-09-26 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
