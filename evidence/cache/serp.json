@@ -7007,6 +7007,307 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|commercial insurance sov problems": {
+      "fetchedAt": "2026-09-27T10:19:08.427Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=commercial%20insurance%20sov%20problems&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "pingintel.com",
+            "url": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
+            "title": "ACORD Forms, Loss Runs, and the Unstructured Data Problem ...",
+            "description": "DATA FUNDAMENTALS. The SOV is only one document in a property submission. The forms and reports around it carry just as much critical data — and just as ..."
+          },
+          {
+            "rank": 3,
+            "domain": "www.inevo.ai",
+            "url": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
+            "title": "10 Submission Problems Costing MGAs in 2026",
+            "description": "Missing ACORD fields stop the quote and an SOV that has not been cleaned up can pull property and package quotes 20% or more off. The whitepaper maps six of ..."
+          },
+          {
+            "rank": 4,
+            "domain": "pibit.ai",
+            "url": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
+            "title": "What Your ACORD Forms Contain That Nobody's Actually Reading",
+            "description": "The more practical problem is maintenance. A commercial carrier receiving SOVs from 30 active brokers receives 30 different approaches to organizing property ..."
+          },
+          {
+            "rank": 5,
+            "domain": "www.furtherai.com",
+            "url": "https://www.furtherai.com/blog/risk-engineer-multi-source-risk-data",
+            "title": "How Risk Engineers Aggregate Multi-Source Risk Data",
+            "description": "This guide covers the input side of that problem: how to reconcile SOVs, loss runs, inspection reports, engineering surveys, and broker correspondence into one ..."
+          },
+          {
+            "rank": 6,
+            "domain": "schererinsurance.com",
+            "url": "https://schererinsurance.com/10-documents-every-apartment-owner-should-have-before-shopping-for-insurance/",
+            "title": "10 Documents Every Apartment Owner Should Have Before ...",
+            "description": "Sep 19, 2026 — Commercial property insurance is heavily dependent on accurate property values. An outdated building value can create problems at claim time ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.onarchipelago.com",
+            "url": "https://www.onarchipelago.com/blog/insurance-data-management/",
+            "title": "Insurance Data Management That Automates Broker ...",
+            "description": "Jan 21, 2026 — Poor insurance data management causes quote delays, creates coverage gaps, and leads to hours of manual work correcting errors in statements ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.hyperexponential.com",
+            "url": "https://www.hyperexponential.com/blog/smart-insurance-trading-how-algorithmic-matching-is-transforming-the-london-market",
+            "title": "Smart Insurance Trading: How Algorithmic Matching Is ...",
+            "description": "Every step of the slow follow model, from receiving individual submissions to re-keying SOV data into policy administration systems, consumes time and headcount ..."
+          },
+          {
+            "rank": 9,
+            "domain": "kalepa.com",
+            "url": "https://kalepa.com/post/building-trust-in-ai-coupling-extraction-and-judging-agents-for-insurance-submission-processing",
+            "title": "Building Trust in AI: Coupling Extraction and Judging Agents for ...",
+            "description": "A loss run in one submission follows a completely different format from another. A SOV might be a clean Excel spreadsheet in one package but a scanned PDF of a ..."
+          },
+          {
+            "rank": 10,
+            "domain": "convr.com",
+            "url": "https://convr.com/blog/are-you-ready-for-an-underwriting-workbench-4-signs-youre-ready-to-implement-now",
+            "title": "Are You Ready for an Underwriting Workbench? 4 Signs ...",
+            "description": "Feb 17, 2026 — A commercial property submission with a large SOV can take an underwriter or their support staff hours to process by hand, checking property ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|affidavit generator": {
+      "fetchedAt": "2026-09-27T10:19:14.016Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=affidavit%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 1,
+            "domain": "lawcentral.ai",
+            "url": "https://lawcentral.ai/affidavit",
+            "title": "Free Affidavit Generator Online India",
+            "description": "Create a legally valid affidavit online for free. Name change, income certificate, address proof, date of birth & one-and-same-person affidavits."
+          },
+          {
+            "rank": 3,
+            "domain": "www.fillout.com",
+            "url": "https://www.fillout.com/templates/affidavit-form",
+            "title": "Affidavit Form Template",
+            "description": "Create affidavits quickly with our user-friendly online template. Simply fill in the required fields, sign, and submit. Use this free template to generate ..."
+          },
+          {
+            "rank": 4,
+            "domain": "www.lawdepot.com",
+            "url": "https://www.lawdepot.com/us/business/affidavit-form/",
+            "title": "Free Affidavit Template for Every State (US)",
+            "description": "Jul 3, 2026 — Quickly create a customized Sworn Affadavit or Statutory Declaration using our online forms. Print or download for free."
+          },
+          {
+            "rank": 5,
+            "domain": "www.template.net",
+            "url": "https://www.template.net/ai-affidavit-generator",
+            "title": "Free AI Affidavit Generator",
+            "description": "Prompt text or voice and our AI generates professional affidavit documents instantly with structured legal formatting and declaration-ready layouts."
+          },
+          {
+            "rank": 6,
+            "domain": "www.makeform.ai",
+            "url": "https://www.makeform.ai/tools/ai-affidavit-form-generator",
+            "title": "Free AI Affidavit Form Generator",
+            "description": "Create professional affidavit forms in seconds with AI-powered templates for legally sound sworn statements and declarations."
+          },
+          {
+            "rank": 8,
+            "domain": "www.notarypro.ca",
+            "url": "https://www.notarypro.ca/legal-templates/custom-affidavit-drafting/",
+            "title": "Affidavit Template | Free Customizable Sample",
+            "description": "Draft an Affidavit with our free, customizable Affidavit template. Sign it with an online notary in under 7 minutes."
+          },
+          {
+            "rank": 9,
+            "domain": "affidavit.great-site.net",
+            "url": "https://affidavit.great-site.net/",
+            "title": "Affidavit Maker | Simple Drafting Tool for India",
+            "description": "Simple, modern dashboard to create affidavits for India. Name change, income, EWS, and 40+ affidavit templates available. This is a drafting tool only."
+          },
+          {
+            "rank": 10,
+            "domain": "legaltemplates.net",
+            "url": "https://legaltemplates.net/form/affidavit/",
+            "title": "Free Affidavit Templates | PDF & Word",
+            "description": "Nov 9, 2025 — Use our free affidavit template to swear that a fact is true. Download yours to get it notarized and use it in legal or personal matters."
+          },
+          {
+            "rank": 11,
+            "domain": "casemark.com",
+            "url": "https://casemark.com/workflows/financial-affidavit-and-disclosure",
+            "title": "Financial Affidavit Generator | AI-Powered Drafting for Family ...",
+            "description": "Generate comprehensive financial affidavits in minutes with AI. Automatically extract data from documents, ensure complete disclosure, and draft court-ready ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|manual j software": {
+      "fetchedAt": "2026-09-27T10:19:41.546Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=manual%20j%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.acca.org",
+            "url": "https://www.acca.org/standards/approved-software",
+            "title": "Approved Software - ACCA",
+            "description": "ACCA-approved software complies with our design standards. Manual J® residential load calculation, TM, Room-by-Room LoadTM, Zone-by-ZoneTM and Adequate"
+          },
+          {
+            "rank": 3,
+            "domain": "www.coolcalc.com",
+            "url": "https://www.coolcalc.com/",
+            "title": "Cool Calc - Web-based Manual J,S, and D Design Software",
+            "description": "Cool Calc is the only Manual J,S, and D solution that works on all modern web browsers. It can be used on a Mac, PC, phone or tablet as long as there is an ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/HVAC/comments/1pfvcvv/what_software_do_you_use_for_manual_j_s_and_d/",
+            "title": "What software do you use for manual J, S, and D? : r/HVAC",
+            "description": "I’ve been looking at software to try and practice doing manual j, s, and d. I’ve seen RHVAC is good and Sketchup. I was just wondering what everyone ..."
+          },
+          {
+            "rank": 6,
+            "domain": "getconduit.com",
+            "url": "https://getconduit.com/blog/best-hvac-load-calculation-software-2026-comparison-guide",
+            "title": "Best HVAC Load Calculation Software for 2026",
+            "description": "Compare the best HVAC load calculation software for 2026 and discover which Manual J tools actually help you close more sales. Learn how LiDAR-powered ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.fieldvibe.com",
+            "url": "https://www.fieldvibe.com/manual-j-calculation-simple-hvac-load-calculator/",
+            "title": "Manual J HVAC load calculator",
+            "description": "Use FieldVibe's free online HVAC load calculator for quick Manual J estimations. Ideal for HVAC professionals, technicians, and small contractors looking to ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.wrightsoft.com",
+            "url": "https://www.wrightsoft.com/product/right-j-mobile/",
+            "title": "Right-J® Mobile",
+            "description": "Right-J® Mobile is a web-based Manual J load calculation tool designed to quickly and easily generate ACCA-approved Manual J8 whole-house Residential block ..."
+          },
+          {
+            "rank": 9,
+            "domain": "m.lennoxpros.com",
+            "url": "https://m.lennoxpros.com/news/manual-j-load-calculator-updates",
+            "title": "Manual J HVAC Load Calculator",
+            "description": "The HVAC Load Calculator that's fast, compliant and free. Use our Cool Calc powered Manual J calculator for professional ACCA approved MJ8 reports."
+          },
+          {
+            "rank": 10,
+            "domain": "www.amply.energy",
+            "url": "https://www.amply.energy/",
+            "title": "Amply Energy | Software solutions for heat pump contractors",
+            "description": "Whether or not your state or municipality requires an ACCA Manual J load calculation, it is the gold standard for high-performance contractors. Amply's unique ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.designmaster.biz",
+            "url": "https://www.designmaster.biz/help/hvac/knowledgebase/buildingloads/manual-j-calculations/",
+            "title": "Manual J Calculations",
+            "description": "Manual J is a standard intended for use by residential HVAC contractors. It is essentially composed of two parts: a simplified set of HVAC load calculations, ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|manual j calculation errors": {
+      "fetchedAt": "2026-09-27T10:19:53.044Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=manual%20j%20calculation%20errors&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "video",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.hvac-talk.com",
+            "url": "https://www.hvac-talk.com/threads/manual-j-load-calculation-values-in-report-seem-wrong.2198987/",
+            "title": "Manual J load calculation, values in report seem wrong...",
+            "description": "Sep 6, 2018 — The issue is that the contractors are trying to keep a/c as small as possible because of the difficulty of maintaining %RH during the hours of ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "andersonaircorps.com",
+            "url": "https://andersonaircorps.com/manual-j-calculation-uneven-temperatures/",
+            "title": "Manual J Calculation Errors That Cause Uneven ...",
+            "description": "A flawed manual J calculation is a leading cause of hot and cold spots. Small assumption errors compound into major comfort issues. Oversizing and undersizing ..."
+          },
+          {
+            "rank": 5,
+            "domain": "www.greenbuildingadvisor.com",
+            "url": "https://www.greenbuildingadvisor.com/question/is-24-manual-j-inaccuracy-common-is-this-overestimation-desirable",
+            "title": "Is 24% Manual J inaccuracy common? Is this ...",
+            "description": "Dec 8, 2019 — I have both measured and calculated thermal load numbers. There is 24% disparity. Measured load is 15127btu @23f. CoolCalc Manual J ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.acca.org",
+            "url": "https://www.acca.org/standards/technical-manuals/manual-j",
+            "title": "Manual J® Residential Load Calculation - ACCA",
+            "description": "ACCA's Manual J - Residential Load Calculation is the ANSI standard for producing HVAC systems for small indoor environments."
+          },
+          {
+            "rank": 7,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/1854210748209867/posts/3754091601555096/",
+            "title": "Evaluating the Effectiveness of Manual J in HVAC Sizing",
+            "description": "Industry standards are bad if they lead to bad outcomes.\n\nAnd oversized equipment is a bad outcome for HVAC sizing.\n\nSo, what does that say about ..."
+          },
+          {
+            "rank": 8,
+            "domain": "ductarchitect.com",
+            "url": "https://ductarchitect.com/blog/6-manual-j-data-inputs-that-decide-if-your-load-calc-is-defensible",
+            "title": "Manual J Data Inputs That Make or Break Your Load Calc",
+            "description": "2 days ago — Wrong inputs produce an incorrectly sized system. Oversized equipment short-cycles, causes humidity problems, and generates comfort callbacks. Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/hvacadvice/comments/1lexjly/manual_j_calculation_seems_off/",
+            "title": "Manual J Calculation Seems Off : r/hvacadvice",
+            "description": "I just did a full Manual J calculation for my 1440 sq. ft. townhouse cause I'm getting ready to replace my AC and furnace. My biggest concern is ..."
+          },
+          {
+            "rank": 11,
+            "domain": "fieldcamp.ai",
+            "url": "https://fieldcamp.ai/hvac-software/manual-j-calculation/",
+            "title": "Manual J Calculation: What It Is, How It Works | 2026",
+            "description": "Mar 21, 2026 — Manual J sizes systems within ±5% accuracy vs. ±30% for rule-of-thumb methods. Roughly 70% of residential HVAC systems are improperly sized ... Read more"
+          }
+        ]
+      }
     }
   }
 }

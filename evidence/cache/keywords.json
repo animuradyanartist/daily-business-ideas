@@ -24857,6 +24857,1058 @@
       "fetchedAt": "2026-09-26T10:28:39.026Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|commercial insurance sov problems": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|statement of values collection issues": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance policy renewal delays": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|sov collection software": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance data management": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "insurance data management",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-12 14:15:27 +00:00"
+      }
+    },
+    "labs|united states|en|brokerage automation tools": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|sov software pricing": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best insurance brokerage tools": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance data platform cost": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|affidavit of service errors": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|process server documentation issues": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|court document compliance problems": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|affidavit generator": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "affidavit generator",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": 4.62,
+        "adCompetition": 0.79,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 08:45:59 +00:00"
+      }
+    },
+    "labs|united states|en|process server software": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "process server software",
+        "searchVolume": 110,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 2900
+          }
+        ],
+        "cpcUsd": 21.43,
+        "adCompetition": 0.47,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -59,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 03:37:41 +00:00"
+      }
+    },
+    "labs|united states|en|legal document automation": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "legal document automation",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 63.99,
+        "adCompetition": 0.33,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -44,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 05:02:03 +00:00"
+      }
+    },
+    "labs|united states|en|affidavit software pricing": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best process server tools": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|legal document generator cost": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|manual j calculation errors": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hvac system sizing problems": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|seer2 compliance issues": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|manual j software": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "manual j software",
+        "searchVolume": 320,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 8.02,
+        "adCompetition": 0.68,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -46,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-12 05:13:37 +00:00"
+      }
+    },
+    "labs|united states|en|hvac load calculation software": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "hvac load calculation software",
+        "searchVolume": 1000,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 11.21,
+        "adCompetition": 0.16,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -75,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 08:03:51 +00:00"
+      }
+    },
+    "labs|united states|en|hvac proposal generator": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hvac software pricing": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": true,
+      "data": {
+        "keyword": "hvac software pricing",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.71,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 10:09:43 +00:00"
+      }
+    },
+    "labs|united states|en|best hvac load calculation": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hvac proposal tool cost": {
+      "fetchedAt": "2026-09-27T10:18:45.063Z",
+      "returned": false,
+      "data": null
     }
   }
 }

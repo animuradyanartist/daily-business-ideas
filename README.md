@@ -72,6 +72,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-09-27 — The Commercial Insurance Broker's "E&O-Proof" Statement of Values (SOV) Hub — 96/100 high
 - 2026-09-26 — trend forecast — AI-Automated Cremation Compliance & Operations +2 more
 - 2026-09-26 — The Independent Funeral Home's "Lawsuit-Proof" Cremation Chain of Custody Log — 100/100 high
 - 2026-09-25 — trend forecast — AI-Automated Records Retention Compliance +2 more

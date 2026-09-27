@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-27
+*   **The Process Server's "Court-Ready" Affidavit of Service Generator** — Killed. A valid pain, but the market size and ACV potential feel smaller and less certain than for commercial insurance brokers.
+*   **The HVAC Contractor's "SEER2-Compliant" Load Calculation & Proposal Generator** — Killed. This is a mix of compliance and sales enablement. The pain of non-compliance feels less severe than the E&O risk in the insurance space.
+*   **The Small Landlord's "Fair-Housing-Ready" Applicant Screening Workflow** — Killed. High-stakes problem, but the market has many existing solutions and the legal risks of providing a tool that influences tenant selection are significant.
+
 ## 2026-09-26
 - **The Small Produce Farm's "FSMA 204-Ready" Log** — Killed. A very strong opportunity, but the "cost of failure" for the funeral home (catastrophic lawsuit) is even more acute than for the farm (regulatory action/retailer rejection).
 - **The Commercial Property Manager's CAM Reconciliation Generator** — Killed. An efficiency tool, not a compliance painkiller. The pain is financial friction, not existential business risk.

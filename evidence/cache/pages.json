@@ -5546,6 +5546,294 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/": {
+      "fetchedAt": "2026-09-27T10:19:58.009Z",
+      "data": {
+        "url": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
+        "finalUrl": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
+        "retrievedAt": "2026-09-27T10:19:58.009Z",
+        "status": 200,
+        "error": null,
+        "title": "ACORD Forms, Loss Runs, and the Unstructured Data Problem — PING",
+        "description": "DATA FUNDAMENTALS. The SOV is only one document in a property submission. The forms and reports around it carry just as much critical data — and just as many…",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence": {
+      "fetchedAt": "2026-09-27T10:19:58.014Z",
+      "data": {
+        "url": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
+        "finalUrl": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
+        "retrievedAt": "2026-09-27T10:19:58.014Z",
+        "status": 200,
+        "error": null,
+        "title": "What Your ACORD Forms Contain That Nobody&#x27;s Actually Reading | Pibit.AI",
+        "description": "COIs, SOVs, and ACORD forms hold more underwriting intelligence than most carriers ever surface. The ceiling isn&#x27;t the documents, it&#x27;s the workflows built to handle them.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://pibit.ai/pricing": {
+      "fetchedAt": "2026-09-27T10:19:58.015Z",
+      "data": {
+        "url": "https://pibit.ai/pricing",
+        "finalUrl": "https://pibit.ai/pricing",
+        "retrievedAt": "2026-09-27T10:19:58.015Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026": {
+      "fetchedAt": "2026-09-27T10:19:58.013Z",
+      "data": {
+        "url": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
+        "finalUrl": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
+        "retrievedAt": "2026-09-27T10:19:58.013Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|http://www.inevo.ai/pricing": {
+      "fetchedAt": "2026-09-27T10:19:58.014Z",
+      "data": {
+        "url": "http://www.inevo.ai/pricing",
+        "finalUrl": "http://www.inevo.ai/pricing",
+        "retrievedAt": "2026-09-27T10:19:58.014Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://pingintel.com/pricing": {
+      "fetchedAt": "2026-09-27T10:19:58.011Z",
+      "data": {
+        "url": "https://pingintel.com/pricing",
+        "finalUrl": "https://pingintel.com/pricing",
+        "retrievedAt": "2026-09-27T10:19:58.011Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://lawcentral.ai/affidavit": {
+      "fetchedAt": "2026-09-27T10:19:58.509Z",
+      "data": {
+        "url": "https://lawcentral.ai/affidavit",
+        "finalUrl": "https://lawcentral.ai/affidavit",
+        "retrievedAt": "2026-09-27T10:19:58.509Z",
+        "status": 200,
+        "error": null,
+        "title": "Free Affidavit Generator Online India – Name Change, Income & More | LawCentral AI",
+        "description": "Create a legally valid affidavit online for free. Name change, income certificate, address proof, date of birth & one-and-same-person affidavits. AI-generated on stamp paper format with notarization guide. Instant PDF download.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.fillout.com/pricing": {
+      "fetchedAt": "2026-09-27T10:19:58.512Z",
+      "data": {
+        "url": "https://www.fillout.com/pricing",
+        "finalUrl": "https://www.fillout.com/pricing",
+        "retrievedAt": "2026-09-27T10:19:58.512Z",
+        "status": 200,
+        "error": null,
+        "title": "Fillout | Plans & Pricing",
+        "description": "Make your first form in minutes, for free. Fillout offers free, pro, business and enterprise plans that scale with any business.",
+        "priceMentions": [
+          {
+            "text": "$0 / month",
+            "billingUnit": true,
+            "context": "ations and scoring Pre-fill and hidden fields Free, forever $0 / month Get started Explore premium features ↓ One flat fee, unlimi"
+          },
+          {
+            "text": "$15 / month",
+            "billingUnit": true,
+            "context": "1000 responses/mo All the basics See all features → Starter $15 / month $ 228 $ 180 billed annually Get started Everything in Free,"
+          },
+          {
+            "text": "$ 228",
+            "billingUnit": false,
+            "context": "es/mo All the basics See all features → Starter $15 / month $ 228 $ 180 billed annually Get started Everything in Free, plus"
+          },
+          {
+            "text": "$ 180",
+            "billingUnit": false,
+            "context": "All the basics See all features → Starter $15 / month $ 228 $ 180 billed annually Get started Everything in Free, plus Unlimi"
+          },
+          {
+            "text": "$40 / month",
+            "billingUnit": true,
+            "context": "s Login forms Redirect on completion See all features → Pro $40 / month $ 588 $ 480 billed annually Get started Everything in Start"
+          },
+          {
+            "text": "$ 588",
+            "billingUnit": false,
+            "context": "s Redirect on completion See all features → Pro $40 / month $ 588 $ 480 billed annually Get started Everything in Starter, pl"
+          },
+          {
+            "text": "$ 480",
+            "billingUnit": false,
+            "context": "rect on completion See all features → Pro $40 / month $ 588 $ 480 billed annually Get started Everything in Starter, plus Unl"
+          },
+          {
+            "text": "$75 / month",
+            "billingUnit": true,
+            "context": "stom fonts & favicon Custom CSS See all features → Business $75 / month $ 1068 $ 900 billed annually Get started Everything in Pro,"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.fillout.com/templates/affidavit-form": {
+      "fetchedAt": "2026-09-27T10:19:58.511Z",
+      "data": {
+        "url": "https://www.fillout.com/templates/affidavit-form",
+        "finalUrl": "https://www.fillout.com/templates/affidavit-form",
+        "retrievedAt": "2026-09-27T10:19:58.511Z",
+        "status": 200,
+        "error": null,
+        "title": "Affidavit Form Template",
+        "description": "Create affidavits quickly with our user-friendly online template. Simply fill in the required fields, sign, and submit. Use this free template to generate affidavits for legal proceedings, evidence documentation, and more.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.lawdepot.com/us/business/affidavit-form/": {
+      "fetchedAt": "2026-09-27T10:19:58.513Z",
+      "data": {
+        "url": "https://www.lawdepot.com/us/business/affidavit-form/",
+        "finalUrl": "https://www.lawdepot.com/us/business/affidavit-form/",
+        "retrievedAt": "2026-09-27T10:19:58.513Z",
+        "status": 200,
+        "error": null,
+        "title": "LawDepot",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.lawdepot.com/pricing": {
+      "fetchedAt": "2026-09-27T10:19:58.513Z",
+      "data": {
+        "url": "https://www.lawdepot.com/pricing",
+        "finalUrl": "https://www.lawdepot.com/pricing/",
+        "retrievedAt": "2026-09-27T10:19:58.513Z",
+        "status": 200,
+        "error": null,
+        "title": "Lawdepot",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://lawcentral.ai/pricing": {
+      "fetchedAt": "2026-09-27T10:19:58.510Z",
+      "data": {
+        "url": "https://lawcentral.ai/pricing",
+        "finalUrl": "https://lawcentral.ai/pricing",
+        "retrievedAt": "2026-09-27T10:19:58.510Z",
+        "status": 200,
+        "error": null,
+        "title": "LawCentral AI – The Operating System for Modern Indian Law",
+        "description": "AI-powered legal research, case management, and document drafting for Indian lawyers and law firms. Search Supreme Court and High Court judgments instantly.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.coolcalc.com/": {
+      "fetchedAt": "2026-09-27T10:19:59.771Z",
+      "data": {
+        "url": "https://www.coolcalc.com/",
+        "finalUrl": "https://www.coolcalc.com/",
+        "retrievedAt": "2026-09-27T10:19:59.771Z",
+        "status": 200,
+        "error": null,
+        "title": "Cool Calc - Web-based Manual J,S, and D Design Software",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$50 /user",
+            "billingUnit": true,
+            "context": "Pricing Monthly Yearly Yearly = billed every 12 months Pro $50 /user/mo Unlimited Manual J Unlimited Manual S Unlimited Manual D"
+          },
+          {
+            "text": "$14/mo",
+            "billingUnit": true,
+            "context": "iDAR App Unlimited ticketed Support Add-ons Utility Rebates $14/mo --> Get Started Pro Plus Coming in Q2 $250 /user/mo Everyth"
+          },
+          {
+            "text": "$250 /user",
+            "billingUnit": true,
+            "context": "tility Rebates $14/mo --> Get Started Pro Plus Coming in Q2 $250 /user/mo Everything in Pro Plan Proposal Builder Backend CRM API"
+          },
+          {
+            "text": "$45",
+            "billingUnit": false,
+            "context": "uests. Request Academic Credit Per-Project Pricing Personal $45 /project Manual J Manual S Manual D CoolCalc Scan LiDAR App"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.acca.org/standards/approved-software": {
+      "fetchedAt": "2026-09-27T10:19:59.768Z",
+      "data": {
+        "url": "https://www.acca.org/standards/approved-software",
+        "finalUrl": "https://www.acca.org/standards/approved-software",
+        "retrievedAt": "2026-09-27T10:19:59.768Z",
+        "status": 200,
+        "error": null,
+        "title": "Approved Software - ACCA",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.acca.org/pricing": {
+      "fetchedAt": "2026-09-27T10:19:59.769Z",
+      "data": {
+        "url": "https://www.acca.org/pricing",
+        "finalUrl": "https://www.acca.org/pricing",
+        "retrievedAt": "2026-09-27T10:19:59.769Z",
+        "status": 200,
+        "error": null,
+        "title": "- ACCA",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.coolcalc.com/pricing": {
+      "fetchedAt": "2026-09-27T10:19:59.772Z",
+      "data": {
+        "url": "https://www.coolcalc.com/pricing",
+        "finalUrl": "https://www.coolcalc.com/pricing",
+        "retrievedAt": "2026-09-27T10:19:59.772Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

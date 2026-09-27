@@ -1,0 +1,3897 @@
+{
+  "schema": 1,
+  "date": "2026-09-27",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-27.md"
+  },
+  "createdAt": "2026-09-27T10:18:42.207Z",
+  "updatedAt": "2026-09-27T10:18:42.208Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-27.md",
+    "title": "The Commercial Insurance Broker's \"E&O-Proof\" Statement of Values (SOV) Hub",
+    "score": 96,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-27:commercial-insurance-sov-hub",
+      "slug": "commercial-insurance-sov-hub",
+      "title": "The Commercial Insurance Broker's Statement of Values (SOV) Collection Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market is large, comprising thousands of independent brokerages, and the problem is described in a general business context applicable to the US."
+      },
+      "plan": {
+        "slug": "commercial-insurance-sov-hub",
+        "title": "The Commercial Insurance Broker's Statement of Values (SOV) Collection Hub",
+        "problem": "Manually collecting, validating, and managing Statements of Values (SOVs) from clients via spreadsheets is a time-consuming, error-prone bottleneck that delays policy renewals and introduces significant risk of underinsurance or incorrect coverage.",
+        "targetCustomer": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage.",
+        "payer": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage.",
+        "whyPayerPays": "Brokers will pay for a portal that automates SOV collection, flags missing data, and provides a clean, standardized output for underwriters, reducing their Errors & Omissions (E&O) liability.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market is large, comprising thousands of independent brokerages, and the problem is described in a general business context applicable to the US."
+        },
+        "keywords": {
+          "problem": [
+            "commercial insurance sov problems",
+            "statement of values collection issues",
+            "insurance policy renewal delays"
+          ],
+          "solution": [
+            "sov collection software",
+            "insurance data management",
+            "brokerage automation tools"
+          ],
+          "buying": [
+            "sov software pricing",
+            "best insurance brokerage tools",
+            "insurance data platform cost"
+          ]
+        },
+        "serpQueries": [
+          "sov collection software",
+          "commercial insurance sov problems"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "commercial insurance sov problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "statement of values collection issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "insurance policy renewal delays",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "sov collection software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "insurance data management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-12 14:15:27 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (20 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "brokerage automation tools",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "sov software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best insurance brokerage tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "insurance data platform cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S2",
+          "query": "commercial insurance sov problems",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:19:08.427Z",
+          "checkUrl": "https://www.google.com/search?q=commercial%20insurance%20sov%20problems&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "pingintel.com",
+              "url": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
+              "title": "ACORD Forms, Loss Runs, and the Unstructured Data Problem ...",
+              "description": "DATA FUNDAMENTALS. The SOV is only one document in a property submission. The forms and reports around it carry just as much critical data — and just as ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.inevo.ai",
+              "url": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
+              "title": "10 Submission Problems Costing MGAs in 2026",
+              "description": "Missing ACORD fields stop the quote and an SOV that has not been cleaned up can pull property and package quotes 20% or more off. The whitepaper maps six of ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "pibit.ai",
+              "url": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
+              "title": "What Your ACORD Forms Contain That Nobody's Actually Reading",
+              "description": "The more practical problem is maintenance. A commercial carrier receiving SOVs from 30 active brokers receives 30 different approaches to organizing property ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.furtherai.com",
+              "url": "https://www.furtherai.com/blog/risk-engineer-multi-source-risk-data",
+              "title": "How Risk Engineers Aggregate Multi-Source Risk Data",
+              "description": "This guide covers the input side of that problem: how to reconcile SOVs, loss runs, inspection reports, engineering surveys, and broker correspondence into one ...",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "schererinsurance.com",
+              "url": "https://schererinsurance.com/10-documents-every-apartment-owner-should-have-before-shopping-for-insurance/",
+              "title": "10 Documents Every Apartment Owner Should Have Before ...",
+              "description": "Sep 19, 2026 — Commercial property insurance is heavily dependent on accurate property values. An outdated building value can create problems at claim time ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.onarchipelago.com",
+              "url": "https://www.onarchipelago.com/blog/insurance-data-management/",
+              "title": "Insurance Data Management That Automates Broker ...",
+              "description": "Jan 21, 2026 — Poor insurance data management causes quote delays, creates coverage gaps, and leads to hours of manual work correcting errors in statements ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.hyperexponential.com",
+              "url": "https://www.hyperexponential.com/blog/smart-insurance-trading-how-algorithmic-matching-is-transforming-the-london-market",
+              "title": "Smart Insurance Trading: How Algorithmic Matching Is ...",
+              "description": "Every step of the slow follow model, from receiving individual submissions to re-keying SOV data into policy administration systems, consumes time and headcount ...",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "kalepa.com",
+              "url": "https://kalepa.com/post/building-trust-in-ai-coupling-extraction-and-judging-agents-for-insurance-submission-processing",
+              "title": "Building Trust in AI: Coupling Extraction and Judging Agents for ...",
+              "description": "A loss run in one submission follows a completely different format from another. A SOV might be a clean Excel spreadsheet in one package but a scanned PDF of a ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "convr.com",
+              "url": "https://convr.com/blog/are-you-ready-for-an-underwriting-workbench-4-signs-youre-ready-to-implement-now",
+              "title": "Are You Ready for an Underwriting Workbench? 4 Signs ...",
+              "description": "Feb 17, 2026 — A commercial property submission with a large SOV can take an underwriter or their support staff hours to process by hand, checking property ...",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "pingintel.com",
+          "url": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
+          "finalUrl": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
+          "retrievedAt": "2026-09-27T10:19:58.009Z",
+          "status": 200,
+          "error": null,
+          "title": "ACORD Forms, Loss Runs, and the Unstructured Data Problem — PING",
+          "description": "DATA FUNDAMENTALS. The SOV is only one document in a property submission. The forms and reports around it carry just as much critical data — and just as many…",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "pingintel.com",
+          "url": "https://pingintel.com/pricing",
+          "finalUrl": "https://pingintel.com/pricing",
+          "retrievedAt": "2026-09-27T10:19:58.011Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "inevo.ai",
+          "url": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
+          "finalUrl": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
+          "retrievedAt": "2026-09-27T10:19:58.013Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P4",
+          "domain": "inevo.ai",
+          "url": "http://www.inevo.ai/pricing",
+          "finalUrl": "http://www.inevo.ai/pricing",
+          "retrievedAt": "2026-09-27T10:19:58.014Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P5",
+          "domain": "pibit.ai",
+          "url": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
+          "finalUrl": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
+          "retrievedAt": "2026-09-27T10:19:58.014Z",
+          "status": 200,
+          "error": null,
+          "title": "What Your ACORD Forms Contain That Nobody&#x27;s Actually Reading | Pibit.AI",
+          "description": "COIs, SOVs, and ACORD forms hold more underwriting intelligence than most carriers ever surface. The ceiling isn&#x27;t the documents, it&#x27;s the workflows built to handle them.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "pibit.ai",
+          "url": "https://pibit.ai/pricing",
+          "finalUrl": "https://pibit.ai/pricing",
+          "retrievedAt": "2026-09-27T10:19:58.015Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": "search results for \"sov collection software\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 4,
+          "top": null,
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 4,
+            "top": {
+              "keyword": "insurance data management",
+              "searchVolume": 20,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"insurance policy renewal delays\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low (\"insurance data management\" 20/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "pingintel.com",
+            "inevo.ai",
+            "pibit.ai",
+            "furtherai.com",
+            "schererinsurance.com",
+            "onarchipelago.com",
+            "hyperexponential.com",
+            "kalepa.com",
+            "convr.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "9 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers). Judged for relevance: 2 domain(s) with a direct competitor (same problem) (onarchipelago.com, kalepa.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "onarchipelago.com",
+            "kalepa.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "5a46eb3bbbe6365a",
+      "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-27T10:25:26.555Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+        "qualifiers": [
+          "principal or account manager",
+          "independent commercial property & casualty (P&C) insurance brokerage"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the core problem area that the target customer at an insurance brokerage would search for."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a specific description of the problem that the target customer faces."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The target customer experiences this, but the keyword covers all causes of renewal delays, not just SOV collection issues."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the exact type of solution the target customer would be looking for."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "SOV management is a part of insurance data management, but this is a much broader software category."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The idea is a type of brokerage automation tool, but this keyword covers a wide range of other tools like CRMs or marketing automation."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a high-intent buying keyword for the specific solution the target customer would need."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for any tool a brokerage might use, which is a broader category than just an SOV solution."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This refers to a broader category of software than the specific SOV collection tool."
+          }
+        },
+        "items": {
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article discusses the general problem of unstructured data in insurance, which is broader than the specific SOV collection workflow for brokers."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is aimed at MGAs (Managing General Agents), a different customer, although it discusses the same problem with SOVs."
+          },
+          "S2.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is written from the perspective of a commercial carrier receiving SOVs, not the broker collecting them."
+          },
+          "S2.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This guide is for risk engineers and covers aggregating all risk data, not just the broker's problem of collecting SOVs."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is for the broker's client (an apartment owner), not the broker, and discusses the client's need to prepare documents."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the pain of re-keying SOV data in the context of the entire insurance industry, not just the broker's collection workflow."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for underwriters or carriers using AI to process submissions, not brokers collecting them, but it addresses the same data inconsistency problem."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is for underwriters, a different customer, discussing their pain in processing SOVs received from brokers."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The page discusses the broad problem of unstructured data across the insurance industry, which is wider than the broker's specific SOV collection issue."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for insurance carriers, a different customer, and discusses the broader problem of extracting data from various forms."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-27:commercial-insurance-sov-hub",
+        "opportunity": "The opportunity is to create a software portal for commercial insurance brokers to automate the collection and validation of Statement of Values (SOV) documents from their clients. This would replace the current manual, error-prone spreadsheet-based process.",
+        "whoPays": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage would pay to reduce manual work, decrease the risk of errors, and lower their E&O liability. This is an inference, as no direct evidence of payment is provided.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Poor insurance data management causes quote delays, creates coverage gaps, and leads to hours of manual work"
+            },
+            {
+              "id": "S2.8",
+              "quote": "re-keying SOV data into policy administration systems, consumes time and headcount"
+            },
+            {
+              "id": "S2.9",
+              "quote": "A SOV might be a clean Excel spreadsheet in one package but a scanned PDF"
+            }
+          ],
+          "observed": "The evidence, from sources discussing the broader insurance industry, shows that poor data management leads to quote delays and manual work. Specifically, re-keying SOV data is time-consuming, and SOV documents arrive in inconsistent formats like spreadsheets and PDFs.",
+          "inference": "While the problem of inefficient data handling is clearly described, the evidence comes from vendors targeting the broader industry (including large enterprises or carriers), not specifically independent brokers. It is an inference that this industry-wide problem is a significant, unsolved pain point for the target customer."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Insurance Data Management That Automates Broker"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Coupling Extraction and Judging Agents for Insurance Submission Processing"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Archipelago",
+              "type": "direct",
+              "what": "Offers 'Insurance Data Management That Automates Broker' workflows.",
+              "basis": [
+                {
+                  "id": "S2.7",
+                  "quote": "Insurance Data Management That Automates Broker"
+                }
+              ]
+            },
+            {
+              "name": "Kalepa",
+              "type": "indirect",
+              "what": "Provides AI for underwriters to process submissions, including inconsistent SOVs. This is an alternative way the ecosystem solves the problem of poor data, rather than a tool for the broker.",
+              "basis": [
+                {
+                  "id": "S2.9",
+                  "quote": "Coupling Extraction and Judging Agents for Insurance Submission Processing"
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "Existing competitors appear to be focused on either large enterprise clients or on underwriters, not specifically on the independent brokerage that is the target customer.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Verification can be found in discussions within insurance professional communities",
+            "finding": "No discussions from insurance professional communities appeared in the search results. The problem evidence that was found came from vendor blog posts.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment could be a web tool that validates an uploaded SOV spreadsheet against a set of rules and flags errors. This avoids the complexity of a full client-facing portal but still requires understanding insurance data standards."
+        },
+        "unproven": [
+          "Whether the pain of SOV collection is acute enough for the target customer (independent brokerages) to pay for a solution.",
+          "Whether brokers' clients would adopt and use a new portal instead of emailing spreadsheets.",
+          "The price point and business model (e.g., per-broker, per-client) that this market would support."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 principals or account managers at independent commercial P&C brokerages. Show them mockups of a simple SOV collection and validation portal and gauge their reaction to the problem and proposed solution.",
+          "cost": "$0-500 for interview incentives + ~20 hours of time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "A majority of interviewees confirm that manual SOV collection is a top operational bottleneck and express strong interest in a dedicated tool, citing specific pains like renewal delays or E&O risk.",
+        "stopIf": "Interviewees state that spreadsheets are 'good enough,' the problem is not a high priority, or that the primary issue is client responsiveness, which a tool cannot solve."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to create a software portal for commercial insurance brokers to automate the collection and validation of Statement of Values (SOV) documents from their clients. This would replace the current manual, error-prone spreadsheet-based process.",
+        "whoPays": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage would pay to reduce manual work, decrease the risk of errors, and lower their E&O liability. This is an inference, as no direct evidence of payment is provided.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Poor insurance data management causes quote delays, creates coverage gaps, and leads to hours of manual work",
+              "domain": "onarchipelago.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
+            },
+            {
+              "id": "S2.8",
+              "quote": "re-keying SOV data into policy administration systems, consumes time and headcount",
+              "domain": "hyperexponential.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses the pain of re-keying SOV data in the context of the entire insurance industry, not just the broker's collection workflow."
+            },
+            {
+              "id": "S2.9",
+              "quote": "A SOV might be a clean Excel spreadsheet in one package but a scanned PDF",
+              "domain": "kalepa.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is for underwriters or carriers using AI to process submissions, not brokers collecting them, but it addresses the same data inconsistency problem."
+            }
+          ],
+          "observed": "The evidence, from sources discussing the broader insurance industry, shows that poor data management leads to quote delays and manual work. Specifically, re-keying SOV data is time-consuming, and SOV documents arrive in inconsistent formats like spreadsheets and PDFs.",
+          "inference": "While the problem of inefficient data handling is clearly described, the evidence comes from vendors targeting the broader industry (including large enterprises or carriers), not specifically independent brokers. It is an inference that this industry-wide problem is a significant, unsolved pain point for the target customer."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Insurance Data Management That Automates Broker",
+              "domain": "onarchipelago.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
+            }
+          ],
+          "directCompetitors": [
+            "onarchipelago.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Archipelago",
+              "type": "direct",
+              "what": "Offers 'Insurance Data Management That Automates Broker' workflows.",
+              "basis": [
+                {
+                  "id": "S2.7",
+                  "quote": "Insurance Data Management That Automates Broker",
+                  "domain": "onarchipelago.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "Existing competitors appear to be focused on either large enterprise clients or on underwriters, not specifically on the independent brokerage that is the target customer.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Verification can be found in discussions within insurance professional communities",
+            "finding": "No discussions from insurance professional communities appeared in the search results. The problem evidence that was found came from vendor blog posts.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A first experiment could be a web tool that validates an uploaded SOV spreadsheet against a set of rules and flags errors. This avoids the complexity of a full client-facing portal but still requires understanding insurance data standards."
+        },
+        "unproven": [
+          "Whether the pain of SOV collection is acute enough for the target customer (independent brokerages) to pay for a solution.",
+          "Whether brokers' clients would adopt and use a new portal instead of emailing spreadsheets.",
+          "The price point and business model (e.g., per-broker, per-client) that this market would support."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 principals or account managers at independent commercial P&C brokerages. Show them mockups of a simple SOV collection and validation portal and gauge their reaction to the problem and proposed solution.",
+          "cost": "$0-500 for interview incentives + ~20 hours of time.",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "A majority of interviewees confirm that manual SOV collection is a top operational bottleneck and express strong interest in a dedicated tool, citing specific pains like renewal delays or E&O risk.",
+        "stopIf": "Interviewees state that spreadsheets are 'good enough,' the problem is not a high priority, or that the primary issue is client responsiveness, which a tool cannot solve.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [
+            {
+              "claim": "competition",
+              "id": "S2.9",
+              "reason": "quote not found in the cited item"
+            },
+            {
+              "claim": "alternative Kalepa",
+              "id": "S2.9",
+              "reason": "quote not found in the cited item"
+            }
+          ],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": [
+            "alternative \"Kalepa\": no quoted, relevant evidence that it is an offering for this customer's problem"
+          ]
+        },
+        "assessedAt": "2026-09-27T10:26:26.193Z",
+        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z"
+      }
+    },
+    {
+      "id": "2026-09-27:process-server-affidavit-generator",
+      "slug": "process-server-affidavit-generator",
+      "title": "The Process Server's \"Court-Ready\" Affidavit of Service Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market consists of nearly 9,000 process servers in the US alone, and the problem is specific to US legal processes."
+      },
+      "plan": {
+        "slug": "process-server-affidavit-generator",
+        "title": "The Process Server's \"Court-Ready\" Affidavit of Service Generator",
+        "problem": "Manually creating a legally compliant, error-free Affidavit of Service for every completed serve is a repetitive, time-consuming task where a single mistake can jeopardize a legal case.",
+        "targetCustomer": "The owner-operator of a small-to-midsize process serving agency.",
+        "payer": "The owner-operator of a small-to-midsize process serving agency.",
+        "whyPayerPays": "Process servers will pay for a tool that ingests service attempt data and automatically generates state-specific, court-ready affidavits, reducing manual work and legal risk.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market consists of nearly 9,000 process servers in the US alone, and the problem is specific to US legal processes."
+        },
+        "keywords": {
+          "problem": [
+            "affidavit of service errors",
+            "process server documentation issues",
+            "court document compliance problems"
+          ],
+          "solution": [
+            "affidavit generator",
+            "process server software",
+            "legal document automation"
+          ],
+          "buying": [
+            "affidavit software pricing",
+            "best process server tools",
+            "legal document generator cost"
+          ]
+        },
+        "serpQueries": [
+          "affidavit generator",
+          "affidavit of service errors"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "affidavit of service errors",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "process server documentation issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "court document compliance problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "affidavit generator",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 4.62,
+          "adCompetition": 0.79,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-13 08:45:59 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 20
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "process server software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": 21.43,
+          "adCompetition": 0.47,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -59,
+          "providerUpdatedAt": "2026-09-14 03:37:41 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 2900
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -14,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "legal document automation",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": 63.99,
+          "adCompetition": 0.33,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -44,
+          "providerUpdatedAt": "2026-09-16 05:02:03 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 260
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -62,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "affidavit software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best process server tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "legal document generator cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "affidavit generator",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:19:14.016Z",
+          "checkUrl": "https://www.google.com/search?q=affidavit%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "lawcentral.ai",
+              "url": "https://lawcentral.ai/affidavit",
+              "title": "Free Affidavit Generator Online India",
+              "description": "Create a legally valid affidavit online for free. Name change, income certificate, address proof, date of birth & one-and-same-person affidavits.",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.fillout.com",
+              "url": "https://www.fillout.com/templates/affidavit-form",
+              "title": "Affidavit Form Template",
+              "description": "Create affidavits quickly with our user-friendly online template. Simply fill in the required fields, sign, and submit. Use this free template to generate ...",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.lawdepot.com",
+              "url": "https://www.lawdepot.com/us/business/affidavit-form/",
+              "title": "Free Affidavit Template for Every State (US)",
+              "description": "Jul 3, 2026 — Quickly create a customized Sworn Affadavit or Statutory Declaration using our online forms. Print or download for free.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.template.net",
+              "url": "https://www.template.net/ai-affidavit-generator",
+              "title": "Free AI Affidavit Generator",
+              "description": "Prompt text or voice and our AI generates professional affidavit documents instantly with structured legal formatting and declaration-ready layouts.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.makeform.ai",
+              "url": "https://www.makeform.ai/tools/ai-affidavit-form-generator",
+              "title": "Free AI Affidavit Form Generator",
+              "description": "Create professional affidavit forms in seconds with AI-powered templates for legally sound sworn statements and declarations.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.notarypro.ca",
+              "url": "https://www.notarypro.ca/legal-templates/custom-affidavit-drafting/",
+              "title": "Affidavit Template | Free Customizable Sample",
+              "description": "Draft an Affidavit with our free, customizable Affidavit template. Sign it with an online notary in under 7 minutes.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "affidavit.great-site.net",
+              "url": "https://affidavit.great-site.net/",
+              "title": "Affidavit Maker | Simple Drafting Tool for India",
+              "description": "Simple, modern dashboard to create affidavits for India. Name change, income, EWS, and 40+ affidavit templates available. This is a drafting tool only.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "legaltemplates.net",
+              "url": "https://legaltemplates.net/form/affidavit/",
+              "title": "Free Affidavit Templates | PDF & Word",
+              "description": "Nov 9, 2025 — Use our free affidavit template to swear that a fact is true. Download yours to get it notarized and use it in legal or personal matters.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "casemark.com",
+              "url": "https://casemark.com/workflows/financial-affidavit-and-disclosure",
+              "title": "Financial Affidavit Generator | AI-Powered Drafting for Family ...",
+              "description": "Generate comprehensive financial affidavits in minutes with AI. Automatically extract data from documents, ensure complete disclosure, and draft court-ready ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "lawcentral.ai",
+          "url": "https://lawcentral.ai/affidavit",
+          "finalUrl": "https://lawcentral.ai/affidavit",
+          "retrievedAt": "2026-09-27T10:19:58.509Z",
+          "status": 200,
+          "error": null,
+          "title": "Free Affidavit Generator Online India – Name Change, Income & More | LawCentral AI",
+          "description": "Create a legally valid affidavit online for free. Name change, income certificate, address proof, date of birth & one-and-same-person affidavits. AI-generated on stamp paper format with notarization guide. Instant PDF download.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "lawcentral.ai",
+          "url": "https://lawcentral.ai/pricing",
+          "finalUrl": "https://lawcentral.ai/pricing",
+          "retrievedAt": "2026-09-27T10:19:58.510Z",
+          "status": 200,
+          "error": null,
+          "title": "LawCentral AI – The Operating System for Modern Indian Law",
+          "description": "AI-powered legal research, case management, and document drafting for Indian lawyers and law firms. Search Supreme Court and High Court judgments instantly.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "fillout.com",
+          "url": "https://www.fillout.com/templates/affidavit-form",
+          "finalUrl": "https://www.fillout.com/templates/affidavit-form",
+          "retrievedAt": "2026-09-27T10:19:58.511Z",
+          "status": 200,
+          "error": null,
+          "title": "Affidavit Form Template",
+          "description": "Create affidavits quickly with our user-friendly online template. Simply fill in the required fields, sign, and submit. Use this free template to generate affidavits for legal proceedings, evidence documentation, and more.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "fillout.com",
+          "url": "https://www.fillout.com/pricing",
+          "finalUrl": "https://www.fillout.com/pricing",
+          "retrievedAt": "2026-09-27T10:19:58.512Z",
+          "status": 200,
+          "error": null,
+          "title": "Fillout | Plans & Pricing",
+          "description": "Make your first form in minutes, for free. Fillout offers free, pro, business and enterprise plans that scale with any business.",
+          "priceMentions": [
+            {
+              "text": "$0 / month",
+              "billingUnit": true,
+              "context": "ations and scoring Pre-fill and hidden fields Free, forever $0 / month Get started Explore premium features ↓ One flat fee, unlimi"
+            },
+            {
+              "text": "$15 / month",
+              "billingUnit": true,
+              "context": "1000 responses/mo All the basics See all features → Starter $15 / month $ 228 $ 180 billed annually Get started Everything in Free,"
+            },
+            {
+              "text": "$ 228",
+              "billingUnit": false,
+              "context": "es/mo All the basics See all features → Starter $15 / month $ 228 $ 180 billed annually Get started Everything in Free, plus"
+            },
+            {
+              "text": "$ 180",
+              "billingUnit": false,
+              "context": "All the basics See all features → Starter $15 / month $ 228 $ 180 billed annually Get started Everything in Free, plus Unlimi"
+            },
+            {
+              "text": "$40 / month",
+              "billingUnit": true,
+              "context": "s Login forms Redirect on completion See all features → Pro $40 / month $ 588 $ 480 billed annually Get started Everything in Start"
+            },
+            {
+              "text": "$ 588",
+              "billingUnit": false,
+              "context": "s Redirect on completion See all features → Pro $40 / month $ 588 $ 480 billed annually Get started Everything in Starter, pl"
+            },
+            {
+              "text": "$ 480",
+              "billingUnit": false,
+              "context": "rect on completion See all features → Pro $40 / month $ 588 $ 480 billed annually Get started Everything in Starter, plus Unl"
+            },
+            {
+              "text": "$75 / month",
+              "billingUnit": true,
+              "context": "stom fonts & favicon Custom CSS See all features → Business $75 / month $ 1068 $ 900 billed annually Get started Everything in Pro,"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "lawdepot.com",
+          "url": "https://www.lawdepot.com/us/business/affidavit-form/",
+          "finalUrl": "https://www.lawdepot.com/us/business/affidavit-form/",
+          "retrievedAt": "2026-09-27T10:19:58.513Z",
+          "status": 200,
+          "error": null,
+          "title": "LawDepot",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "lawdepot.com",
+          "url": "https://www.lawdepot.com/pricing",
+          "finalUrl": "https://www.lawdepot.com/pricing/",
+          "retrievedAt": "2026-09-27T10:19:58.513Z",
+          "status": 200,
+          "error": null,
+          "title": "Lawdepot",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        }
+      ],
+      "reason": "search results for \"affidavit of service errors\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 2,
+          "top": null,
+          "category": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "process server software",
+              "searchVolume": 110,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 5,
+          "flags": [
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"court document compliance problems\": relevance unclear — not counted."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"affidavit generator\": relevance unclear — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"legal document automation\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"affidavit software pricing\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"legal document generator cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 2 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"process server software\" 110/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5"
+          ],
+          "pricedPageIds": [
+            "P4"
+          ],
+          "pricedDomains": [
+            "fillout.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $21.43 on \"process server software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): fillout.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "lawcentral.ai",
+            "fillout.com",
+            "lawdepot.com",
+            "template.net",
+            "makeform.ai",
+            "notarypro.ca",
+            "affidavit.great-site.net",
+            "legaltemplates.net",
+            "casemark.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [
+            "fillout.com"
+          ],
+          "note": "9 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on fillout.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "fillout.com",
+            "lawdepot.com",
+            "template.net",
+            "makeform.ai",
+            "legaltemplates.net"
+          ]
+        }
+      },
+      "evidenceFingerprint": "451e4cc6e03c0797",
+      "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-27T10:25:26.555Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+        "qualifiers": [
+          "owner-operator",
+          "small-to-midsize process serving agency"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the core problem that a process server would face and search for."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This keyword is highly specific to the target customer and their problem area."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "Process servers deal with this, but the term covers compliance for all court documents, not just affidavits of service."
+          },
+          "K4": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "This is a generic search for any type of affidavit, not the specific 'Affidavit of Service' that a process server needs."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The idea is a type of process server software, but this keyword also covers CRMs, routing, and billing tools for this customer."
+          },
+          "K6": {
+            "searcher": "broader",
+            "topic": "wider",
+            "reason": "This is a very broad software category used by many legal professionals, not just process servers."
+          },
+          "K7": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "This is a generic search for any type of affidavit software, not specific to process servers."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for any tool a process server might use, a broader category than just an affidavit generator."
+          },
+          "K9": {
+            "searcher": "broader",
+            "topic": "wider",
+            "reason": "This is a very broad search for software used by many different legal professionals."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a general affidavit tool for individuals in India needing personal documents, not for professional US process servers."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a generic AI tool for creating any type of affidavit, not one specifically for process servers."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a generic AI tool for creating any type of affidavit form, not specifically for process servers."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a generic affidavit template for a Canadian audience, not for US-based process servers."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a tool for creating personal affidavits for use in India, a different customer and legal context."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This offers generic affidavit templates for a broad audience, not a specialized tool for process servers."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This tool is for family law professionals creating financial affidavits, a different customer and document type."
+          },
+          "P1": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This tool is for individuals in India creating personal affidavits, not for professional process servers."
+          },
+          "P2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a broad legal tech platform for lawyers in India, a different customer and problem space."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general form builder that can be used for affidavits, serving a very broad audience."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is the pricing page for a generic form builder, not a specialized tool for process servers."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general legal document template site for a broad audience, not specific to process servers."
+          },
+          "P6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a general legal document template site for a broad audience, not specific to process servers."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-27:process-server-affidavit-generator",
+        "opportunity": "The opportunity is to build a specialized tool for process servers that automates the creation of legally compliant, error-free Affidavits of Service. This would save time and reduce the legal risk associated with manual document preparation.",
+        "whoPays": "The owner-operator of a small-to-midsize process serving agency would pay to reduce repetitive administrative work and minimize the risk of a legal case being jeopardized by a documentation error. This is an inference from the idea's plan.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "There is no evidence in the search results from a relevant source (direct or category) that describes the problems of manually creating Affidavits of Service.",
+          "inference": "The problem as stated in the original plan is not validated by the provided evidence."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Affidavit Form Template"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Free Affidavit Template for Every State (US)"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Fillout.com",
+              "type": "indirect",
+              "what": "A generic, user-friendly online template for creating affidavits.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Create affidavits quickly with our user-friendly online template"
+                }
+              ]
+            },
+            {
+              "name": "LawDepot",
+              "type": "indirect",
+              "what": "A free, customizable affidavit form for every US state.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Quickly create a customized Sworn Affadavit"
+                }
+              ]
+            },
+            {
+              "name": "Template.net",
+              "type": "indirect",
+              "what": "An AI tool that generates professional affidavit documents.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "AI generates professional affidavit documents instantly"
+                }
+              ]
+            },
+            {
+              "name": "Makeform.ai",
+              "type": "indirect",
+              "what": "An AI-powered form generator for creating affidavit forms.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Create professional affidavit forms in seconds with AI-powered templates"
+                }
+              ]
+            },
+            {
+              "name": "LegalTemplates.net",
+              "type": "indirect",
+              "what": "Free, downloadable affidavit templates in PDF & Word format.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Use our free affidavit template to swear that a fact is true"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many indirect alternatives are available for free.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Print or download for free"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "Use this free template to generate"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing alternatives are generic form builders or templates, not specialized tools for the specific 'Affidavit of Service' document required by process servers, which has unique and jurisdiction-specific requirements.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "No direct competitors offering a specialized 'Affidavit of Service' generator were found.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "This pain is evident in the feature sets of existing case management software for this niche.",
+            "finding": "The evidence does not include search results for 'process server software' or other category-level keywords that would show existing case management software. The searches performed did not surface any such software.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimal first experiment would be a simple web form that generates a compliant PDF Affidavit of Service for a single court jurisdiction. This is a straightforward document generation task, with the main challenge being legal research, not technology."
+        },
+        "unproven": [
+          "Whether the problem of manual creation is painful enough for process servers to pay for a solution, given the availability of free generic templates.",
+          "Whether process servers already use case management software that adequately solves this problem.",
+          "The specific compliance details that make generic templates insufficient or risky."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5 process servers, asking them to walk through their current process for creating an Affidavit of Service. The goal is to observe the tools they use, the time it takes, and the specific pain points they encounter.",
+          "cost": "$0-250 for incentives + ~15 hours of time.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "A majority of interviewees describe a manual, time-consuming process using Word or PDF templates and express frustration with errors, compliance concerns, or the repetitive nature of the task.",
+        "stopIf": "Most interviewees report using a case management system that handles this well, or they state their current template-based process is fast, easy, and error-free."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to build a specialized tool for process servers that automates the creation of legally compliant, error-free Affidavits of Service. This would save time and reduce the legal risk associated with manual document preparation.",
+        "whoPays": "The owner-operator of a small-to-midsize process serving agency would pay to reduce repetitive administrative work and minimize the risk of a legal case being jeopardized by a documentation error. This is an inference from the idea's plan.",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The problem as stated in the original plan is not validated by the provided evidence."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Affidavit Form Template",
+              "domain": "fillout.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+            },
+            {
+              "id": "S1.4",
+              "quote": "Free Affidavit Template for Every State (US)",
+              "domain": "lawdepot.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "fillout.com",
+            "lawdepot.com",
+            "template.net",
+            "makeform.ai",
+            "legaltemplates.net"
+          ],
+          "alternatives": [
+            {
+              "name": "Fillout.com",
+              "type": "indirect",
+              "what": "A generic, user-friendly online template for creating affidavits.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Create affidavits quickly with our user-friendly online template",
+                  "domain": "fillout.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+                }
+              ]
+            },
+            {
+              "name": "LawDepot",
+              "type": "indirect",
+              "what": "A free, customizable affidavit form for every US state.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Quickly create a customized Sworn Affadavit",
+                  "domain": "lawdepot.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
+                }
+              ]
+            },
+            {
+              "name": "Template.net",
+              "type": "indirect",
+              "what": "An AI tool that generates professional affidavit documents.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "AI generates professional affidavit documents instantly",
+                  "domain": "template.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a generic AI tool for creating any type of affidavit, not one specifically for process servers."
+                }
+              ]
+            },
+            {
+              "name": "Makeform.ai",
+              "type": "indirect",
+              "what": "An AI-powered form generator for creating affidavit forms.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Create professional affidavit forms in seconds with AI-powered templates",
+                  "domain": "makeform.ai",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a generic AI tool for creating any type of affidavit form, not specifically for process servers."
+                }
+              ]
+            },
+            {
+              "name": "LegalTemplates.net",
+              "type": "indirect",
+              "what": "Free, downloadable affidavit templates in PDF & Word format.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Use our free affidavit template to swear that a fact is true",
+                  "domain": "legaltemplates.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This offers generic affidavit templates for a broad audience, not a specialized tool for process servers."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Many indirect alternatives are available for free.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Print or download for free",
+                  "domain": "lawdepot.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "Use this free template to generate",
+                  "domain": "fillout.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing alternatives are generic form builders or templates, not specialized tools for the specific 'Affidavit of Service' document required by process servers, which has unique and jurisdiction-specific requirements.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "No direct competitors offering a specialized 'Affidavit of Service' generator were found.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "This pain is evident in the feature sets of existing case management software for this niche.",
+            "finding": "The evidence does not include search results for 'process server software' or other category-level keywords that would show existing case management software. The searches performed did not surface any such software.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A minimal first experiment would be a simple web form that generates a compliant PDF Affidavit of Service for a single court jurisdiction. This is a straightforward document generation task, with the main challenge being legal research, not technology."
+        },
+        "unproven": [
+          "Whether the problem of manual creation is painful enough for process servers to pay for a solution, given the availability of free generic templates.",
+          "Whether process servers already use case management software that adequately solves this problem.",
+          "The specific compliance details that make generic templates insufficient or risky."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5 process servers, asking them to walk through their current process for creating an Affidavit of Service. The goal is to observe the tools they use, the time it takes, and the specific pain points they encounter.",
+          "cost": "$0-250 for incentives + ~15 hours of time.",
+          "duration": "2 weeks"
+        },
+        "continueIf": "A majority of interviewees describe a manual, time-consuming process using Word or PDF templates and express frustration with errors, compliance concerns, or the repetitive nature of the task.",
+        "stopIf": "Most interviewees report using a case management system that handles this well, or they state their current template-based process is fast, easy, and error-free.",
+        "removedLinks": 0,
+        "downgraded": [
+          "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-27T10:26:26.198Z",
+        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z"
+      }
+    },
+    {
+      "id": "2026-09-27:hvac-load-calculation-proposal",
+      "slug": "hvac-load-calculation-proposal",
+      "title": "The HVAC Contractor's \"SEER2-Compliant\" Load Calculation & Proposal Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem explicitly mentions \"SEER2 federal energy efficiency standards,\" which are specific to the United States."
+      },
+      "plan": {
+        "slug": "hvac-load-calculation-proposal",
+        "title": "The HVAC Contractor's \"SEER2-Compliant\" Load Calculation & Proposal Generator",
+        "problem": "Performing an accurate Manual J load calculation—required by building codes for new installations—is complex and time-consuming compared to using outdated \"rules of thumb,\" leading to improperly sized systems, unhappy customers, and potential compliance issues.",
+        "targetCustomer": "The owner or lead technician of a residential HVAC installation business.",
+        "payer": "The owner or lead technician of a residential HVAC installation business.",
+        "whyPayerPays": "HVAC contractors will pay for a tool that simplifies the Manual J calculation process based on new SEER2 efficiency standards and automatically generates a professional, compliant customer proposal.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem explicitly mentions \"SEER2 federal energy efficiency standards,\" which are specific to the United States."
+        },
+        "keywords": {
+          "problem": [
+            "manual j calculation errors",
+            "hvac system sizing problems",
+            "seer2 compliance issues"
+          ],
+          "solution": [
+            "manual j software",
+            "hvac load calculation software",
+            "hvac proposal generator"
+          ],
+          "buying": [
+            "hvac software pricing",
+            "best hvac load calculation",
+            "hvac proposal tool cost"
+          ]
+        },
+        "serpQueries": [
+          "manual j software",
+          "manual j calculation errors"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "manual j calculation errors",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "hvac system sizing problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "seer2 compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "manual j software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 320,
+          "cpcUsd": 8.02,
+          "adCompetition": 0.68,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": -46,
+          "providerUpdatedAt": "2026-09-12 05:13:37 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -39,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "hvac load calculation software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 1000,
+          "cpcUsd": 11.21,
+          "adCompetition": 0.16,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -75,
+          "providerUpdatedAt": "2026-09-16 08:03:51 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -77,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "hvac proposal generator",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "hvac software pricing",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.71,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-14 10:09:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best hvac load calculation",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "hvac proposal tool cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:18:45.063Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "manual j software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:19:41.546Z",
+          "checkUrl": "https://www.google.com/search?q=manual%20j%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.acca.org",
+              "url": "https://www.acca.org/standards/approved-software",
+              "title": "Approved Software - ACCA",
+              "description": "ACCA-approved software complies with our design standards. Manual J® residential load calculation, TM, Room-by-Room LoadTM, Zone-by-ZoneTM and Adequate",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.coolcalc.com",
+              "url": "https://www.coolcalc.com/",
+              "title": "Cool Calc - Web-based Manual J,S, and D Design Software",
+              "description": "Cool Calc is the only Manual J,S, and D solution that works on all modern web browsers. It can be used on a Mac, PC, phone or tablet as long as there is an ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/HVAC/comments/1pfvcvv/what_software_do_you_use_for_manual_j_s_and_d/",
+              "title": "What software do you use for manual J, S, and D? : r/HVAC",
+              "description": "I’ve been looking at software to try and practice doing manual j, s, and d. I’ve seen RHVAC is good and Sketchup. I was just wondering what everyone ...",
+              "id": "S1.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "getconduit.com",
+              "url": "https://getconduit.com/blog/best-hvac-load-calculation-software-2026-comparison-guide",
+              "title": "Best HVAC Load Calculation Software for 2026",
+              "description": "Compare the best HVAC load calculation software for 2026 and discover which Manual J tools actually help you close more sales. Learn how LiDAR-powered ... Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.fieldvibe.com",
+              "url": "https://www.fieldvibe.com/manual-j-calculation-simple-hvac-load-calculator/",
+              "title": "Manual J HVAC load calculator",
+              "description": "Use FieldVibe's free online HVAC load calculator for quick Manual J estimations. Ideal for HVAC professionals, technicians, and small contractors looking to ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.wrightsoft.com",
+              "url": "https://www.wrightsoft.com/product/right-j-mobile/",
+              "title": "Right-J® Mobile",
+              "description": "Right-J® Mobile is a web-based Manual J load calculation tool designed to quickly and easily generate ACCA-approved Manual J8 whole-house Residential block ...",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "m.lennoxpros.com",
+              "url": "https://m.lennoxpros.com/news/manual-j-load-calculator-updates",
+              "title": "Manual J HVAC Load Calculator",
+              "description": "The HVAC Load Calculator that's fast, compliant and free. Use our Cool Calc powered Manual J calculator for professional ACCA approved MJ8 reports.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.amply.energy",
+              "url": "https://www.amply.energy/",
+              "title": "Amply Energy | Software solutions for heat pump contractors",
+              "description": "Whether or not your state or municipality requires an ACCA Manual J load calculation, it is the gold standard for high-performance contractors. Amply's unique ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.designmaster.biz",
+              "url": "https://www.designmaster.biz/help/hvac/knowledgebase/buildingloads/manual-j-calculations/",
+              "title": "Manual J Calculations",
+              "description": "Manual J is a standard intended for use by residential HVAC contractors. It is essentially composed of two parts: a simplified set of HVAC load calculations, ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "manual j calculation errors",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:19:53.044Z",
+          "checkUrl": "https://www.google.com/search?q=manual%20j%20calculation%20errors&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.hvac-talk.com",
+              "url": "https://www.hvac-talk.com/threads/manual-j-load-calculation-values-in-report-seem-wrong.2198987/",
+              "title": "Manual J load calculation, values in report seem wrong...",
+              "description": "Sep 6, 2018 — The issue is that the contractors are trying to keep a/c as small as possible because of the difficulty of maintaining %RH during the hours of ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "andersonaircorps.com",
+              "url": "https://andersonaircorps.com/manual-j-calculation-uneven-temperatures/",
+              "title": "Manual J Calculation Errors That Cause Uneven ...",
+              "description": "A flawed manual J calculation is a leading cause of hot and cold spots. Small assumption errors compound into major comfort issues. Oversizing and undersizing ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.greenbuildingadvisor.com",
+              "url": "https://www.greenbuildingadvisor.com/question/is-24-manual-j-inaccuracy-common-is-this-overestimation-desirable",
+              "title": "Is 24% Manual J inaccuracy common? Is this ...",
+              "description": "Dec 8, 2019 — I have both measured and calculated thermal load numbers. There is 24% disparity. Measured load is 15127btu @23f. CoolCalc Manual J ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.acca.org",
+              "url": "https://www.acca.org/standards/technical-manuals/manual-j",
+              "title": "Manual J® Residential Load Calculation - ACCA",
+              "description": "ACCA's Manual J - Residential Load Calculation is the ANSI standard for producing HVAC systems for small indoor environments.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/1854210748209867/posts/3754091601555096/",
+              "title": "Evaluating the Effectiveness of Manual J in HVAC Sizing",
+              "description": "Industry standards are bad if they lead to bad outcomes.\n\nAnd oversized equipment is a bad outcome for HVAC sizing.\n\nSo, what does that say about ...",
+              "id": "S2.7",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "ductarchitect.com",
+              "url": "https://ductarchitect.com/blog/6-manual-j-data-inputs-that-decide-if-your-load-calc-is-defensible",
+              "title": "Manual J Data Inputs That Make or Break Your Load Calc",
+              "description": "2 days ago — Wrong inputs produce an incorrectly sized system. Oversized equipment short-cycles, causes humidity problems, and generates comfort callbacks. Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/hvacadvice/comments/1lexjly/manual_j_calculation_seems_off/",
+              "title": "Manual J Calculation Seems Off : r/hvacadvice",
+              "description": "I just did a full Manual J calculation for my 1440 sq. ft. townhouse cause I'm getting ready to replace my AC and furnace. My biggest concern is ...",
+              "id": "S2.10",
+              "class": "discussion"
+            },
+            {
+              "rank": 11,
+              "domain": "fieldcamp.ai",
+              "url": "https://fieldcamp.ai/hvac-software/manual-j-calculation/",
+              "title": "Manual J Calculation: What It Is, How It Works | 2026",
+              "description": "Mar 21, 2026 — Manual J sizes systems within ±5% accuracy vs. ±30% for rule-of-thumb methods. Roughly 70% of residential HVAC systems are improperly sized ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "acca.org",
+          "url": "https://www.acca.org/standards/approved-software",
+          "finalUrl": "https://www.acca.org/standards/approved-software",
+          "retrievedAt": "2026-09-27T10:19:59.768Z",
+          "status": 200,
+          "error": null,
+          "title": "Approved Software - ACCA",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "acca.org",
+          "url": "https://www.acca.org/pricing",
+          "finalUrl": "https://www.acca.org/pricing",
+          "retrievedAt": "2026-09-27T10:19:59.769Z",
+          "status": 200,
+          "error": null,
+          "title": "- ACCA",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P3",
+          "domain": "hvac-talk.com",
+          "url": "https://www.hvac-talk.com/threads/manual-j-load-calculation-values-in-report-seem-wrong.2198987/",
+          "retrievedAt": "2026-09-27T10:19:59.770Z",
+          "status": null,
+          "error": "timed out"
+        },
+        {
+          "id": "P4",
+          "domain": "hvac-talk.com",
+          "url": "https://www.hvac-talk.com/pricing",
+          "retrievedAt": "2026-09-27T10:19:59.771Z",
+          "status": null,
+          "error": "timed out"
+        },
+        {
+          "id": "P5",
+          "domain": "coolcalc.com",
+          "url": "https://www.coolcalc.com/",
+          "finalUrl": "https://www.coolcalc.com/",
+          "retrievedAt": "2026-09-27T10:19:59.771Z",
+          "status": 200,
+          "error": null,
+          "title": "Cool Calc - Web-based Manual J,S, and D Design Software",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$50 /user",
+              "billingUnit": true,
+              "context": "Pricing Monthly Yearly Yearly = billed every 12 months Pro $50 /user/mo Unlimited Manual J Unlimited Manual S Unlimited Manual D"
+            },
+            {
+              "text": "$14/mo",
+              "billingUnit": true,
+              "context": "iDAR App Unlimited ticketed Support Add-ons Utility Rebates $14/mo --> Get Started Pro Plus Coming in Q2 $250 /user/mo Everyth"
+            },
+            {
+              "text": "$250 /user",
+              "billingUnit": true,
+              "context": "tility Rebates $14/mo --> Get Started Pro Plus Coming in Q2 $250 /user/mo Everything in Pro Plan Proposal Builder Backend CRM API"
+            },
+            {
+              "text": "$45",
+              "billingUnit": false,
+              "context": "uests. Request Academic Credit Per-Project Pricing Personal $45 /project Manual J Manual S Manual D CoolCalc Scan LiDAR App"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "coolcalc.com",
+          "url": "https://www.coolcalc.com/pricing",
+          "finalUrl": "https://www.coolcalc.com/pricing",
+          "retrievedAt": "2026-09-27T10:19:59.772Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "some",
+          "scope": "direct keywords only",
+          "upTo": "substantial",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 7,
+          "top": {
+            "keyword": "manual j software",
+            "searchVolume": 320,
+            "id": "K4"
+          },
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "hvac software pricing",
+              "searchVolume": 10,
+              "id": "K7"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K5",
+              "kind": "uncorroborated",
+              "text": "\"hvac load calculation software\" (1000/mo) alone would put idea-level demand at \"substantial\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            },
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"seer2 compliance issues\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): some (up to \"substantial\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"manual j software\" at 320/month. Category-level: low (\"hvac software pricing\" 10/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K5"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $11.21 on \"hvac load calculation software\"). CPC is an advertiser bid, not a customer's willingness to pay. 2 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "acca.org",
+            "hvac-talk.com",
+            "coolcalc.com",
+            "andersonaircorps.com",
+            "greenbuildingadvisor.com",
+            "getconduit.com",
+            "fieldvibe.com",
+            "wrightsoft.com",
+            "ductarchitect.com",
+            "m.lennoxpros.com",
+            "amply.energy",
+            "designmaster.biz",
+            "fieldcamp.ai"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "facebook.com"
+          ],
+          "pricedDomains": [
+            "coolcalc.com"
+          ],
+          "note": "13 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on coolcalc.com. Judged for relevance: 1 domain(s) with a direct competitor (same problem) (fieldvibe.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "fieldvibe.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "17def2a52473b1d0",
+      "evidenceUpdatedAt": "2026-09-27T10:20:15.779Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-27T10:25:26.556Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-27T10:20:15.779Z",
+        "qualifiers": [
+          "owner or lead technician",
+          "residential HVAC installation business"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the core problem of inaccurate calculations that the target HVAC professional faces."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct description of the negative outcome of the problem, which the target customer wants to avoid."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "Manual J is part of SEER2 compliance, but this keyword covers all aspects of the regulation, including equipment standards."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a direct search for the solution by the target customer."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is another direct search for the solution by the target customer."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This describes the other half of the idea's value proposition and is specific to the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "This is a search for any HVAC software (e.g., dispatching, billing), which is a broader category than the idea."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a high-intent search for a solution to the core problem by the target customer."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This is a high-intent buying keyword for the proposal generation aspect of the solution."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a list of approved software from the industry's standards body (ACCA), aimed directly at HVAC professionals."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a direct competitor, offering Manual J software specifically for HVAC professionals."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion among HVAC professionals on a dedicated subreddit about tools to solve the exact problem."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a review of competing products, written for the target customer, and is content marketing for a specific tool."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a free calculator tool explicitly offered to HVAC professionals and small contractors."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a well-known competitor product that provides Manual J software for the target customer."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a free tool provided by a major manufacturer on their portal for HVAC professionals."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a software solution for heat pump contractors, who are the same or a very similar audience, addressing the Manual J problem."
+          },
+          "S1.11": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page explains that Manual J is for residential HVAC contractors and offers a software solution."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion on a forum for HVAC professionals about errors and issues with Manual J calculations."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the problem but is on a contractor's website, aimed at educating homeowners (the end customer)."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion about the problem of Manual J inaccuracy among a broader group of building professionals and homeowners."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is the official page for the Manual J standard from the industry authority, aimed at HVAC professionals."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a social media post discussing the problem of equipment sizing, aimed at an audience of HVAC professionals."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for the target customer and details a specific aspect of the problem: incorrect data inputs for load calculations."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a post from a homeowner on an advice subreddit, not from the target HVAC professional."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a blog post from a field service software company explaining the Manual J process to their target audience of HVAC business owners."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a resource page from the industry standards body listing compliant software for HVAC professionals."
+          },
+          "P2": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The ACCA website is for the target customer but covers all aspects of running an HVAC business, not just load calculations."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or lead technician",
+              "residential HVAC installation business"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is the homepage for a direct competitor product that offers Manual J software to HVAC professionals."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-27:hvac-load-calculation-proposal",
+        "opportunity": "The opportunity is to provide HVAC contractors with software that simplifies complex Manual J load calculations and automatically generates customer-facing proposals. This addresses the need for accuracy, compliance, and sales efficiency.",
+        "whoPays": "The owner or lead technician of a residential HVAC business would pay for a tool that saves time on complex calculations, ensures compliance, and helps create professional proposals to win more jobs. This is an inference from the idea's plan.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "oversized equipment is a bad outcome for HVAC sizing"
+            },
+            {
+              "id": "S2.3",
+              "quote": "A flawed manual J calculation is a leading cause of hot and cold spots"
+            },
+            {
+              "id": "S2.5",
+              "quote": "Is 24% Manual J inaccuracy common?"
+            }
+          ],
+          "observed": "Evidence from a professional discussion group shows concern over 'oversized equipment' as a 'bad outcome' of HVAC sizing. A contractor's blog states that a 'flawed manual J calculation' causes comfort issues. A building-focused site includes discussion about the commonality of 'Manual J inaccuracy'.",
+          "inference": "HVAC professionals and related building experts are aware of and actively discuss the negative consequences of inaccurate Manual J calculations, which indicates it is a recognized problem in the industry."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.7",
+              "quote": "Manual J HVAC load calculator"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "FieldVibe",
+              "type": "direct",
+              "what": "A free online HVAC load calculator for quick Manual J estimations.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Use FieldVibe's free online HVAC load calculator for quick Manual J estimations"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "At least one competitor offers their tool for free.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "free online HVAC load calculator"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The identified competitor's tool is positioned for 'quick estimations,' which may not be sufficient for official compliance or complex jobs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "quick Manual J estimations"
+                }
+              ],
+              "kind": "inference"
+            },
+            {
+              "text": "The evidence does not show any competitors that explicitly combine the Manual J calculation with a proposal generation feature.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Performing an accurate Manual J load calculation...is complex and time-consuming",
+            "finding": "The existence of significant search demand for keywords like 'manual j software' (320/mo) and 'hvac load calculation software' (1000/mo) indicates that contractors are actively seeking tools to solve this problem.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "manual j software"
+              },
+              {
+                "id": "K5",
+                "quote": "hvac load calculation software"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A minimal experiment requires correctly implementing the ACCA's Manual J standard, which involves complex engineering calculations. Even a simplified version for a basic house layout is a significant technical and domain-knowledge challenge."
+        },
+        "unproven": [
+          "Whether HVAC contractors are willing to pay for a calculation tool when free options exist.",
+          "Whether the proposal generation feature is a compelling enough differentiator to drive sales.",
+          "The proportion of the market that still uses inaccurate 'rules of thumb' versus those who have already adopted some form of calculation software."
+        ],
+        "nextExperiment": {
+          "what": "Build a simple, single-page web calculator for one small part of the Manual J calculation (e.g., heat gain for a single window). Share it in an HVAC professional forum to get feedback on its accuracy and to gauge interest in a more comprehensive tool.",
+          "cost": "~25 hours of development time.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "Experienced HVAC professionals validate the tool's calculations as accurate and express a desire for a more complete version to use in their workflow.",
+        "stopIf": "Feedback indicates the calculation is inaccurate, existing free tools are superior, or there is a general lack of interest from the target audience."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide HVAC contractors with software that simplifies complex Manual J load calculations and automatically generates customer-facing proposals. This addresses the need for accuracy, compliance, and sales efficiency.",
+        "whoPays": "The owner or lead technician of a residential HVAC business would pay for a tool that saves time on complex calculations, ensures compliance, and helps create professional proposals to win more jobs. This is an inference from the idea's plan.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "oversized equipment is a bad outcome for HVAC sizing",
+              "domain": "facebook.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "direct",
+              "relevanceReason": "This is a social media post discussing the problem of equipment sizing, aimed at an audience of HVAC professionals."
+            },
+            {
+              "id": "S2.3",
+              "quote": "A flawed manual J calculation is a leading cause of hot and cold spots",
+              "domain": "andersonaircorps.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses the problem but is on a contractor's website, aimed at educating homeowners (the end customer)."
+            },
+            {
+              "id": "S2.5",
+              "quote": "Is 24% Manual J inaccuracy common?",
+              "domain": "greenbuildingadvisor.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a discussion about the problem of Manual J inaccuracy among a broader group of building professionals and homeowners."
+            }
+          ],
+          "observed": "Evidence from a professional discussion group shows concern over 'oversized equipment' as a 'bad outcome' of HVAC sizing. A contractor's blog states that a 'flawed manual J calculation' causes comfort issues. A building-focused site includes discussion about the commonality of 'Manual J inaccuracy'.",
+          "inference": "HVAC professionals and related building experts are aware of and actively discuss the negative consequences of inaccurate Manual J calculations, which indicates it is a recognized problem in the industry."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.7",
+              "quote": "Manual J HVAC load calculator",
+              "domain": "fieldvibe.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a free calculator tool explicitly offered to HVAC professionals and small contractors."
+            }
+          ],
+          "directCompetitors": [
+            "fieldvibe.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "FieldVibe",
+              "type": "direct",
+              "what": "A free online HVAC load calculator for quick Manual J estimations.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Use FieldVibe's free online HVAC load calculator for quick Manual J estimations",
+                  "domain": "fieldvibe.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a free calculator tool explicitly offered to HVAC professionals and small contractors."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "At least one competitor offers their tool for free.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "free online HVAC load calculator",
+                  "domain": "fieldvibe.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct",
+                  "relevanceReason": "This is a free calculator tool explicitly offered to HVAC professionals and small contractors."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The identified competitor's tool is positioned for 'quick estimations,' which may not be sufficient for official compliance or complex jobs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "quick Manual J estimations",
+                  "domain": "fieldvibe.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct",
+                  "relevanceReason": "This is a free calculator tool explicitly offered to HVAC professionals and small contractors."
+                }
+              ],
+              "kind": "inference"
+            },
+            {
+              "text": "The evidence does not show any competitors that explicitly combine the Manual J calculation with a proposal generation feature.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Performing an accurate Manual J load calculation...is complex and time-consuming",
+            "finding": "[removed: a statement about search demand that the collected evidence does not show]",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "manual j software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This is a direct search for the solution by the target customer."
+              },
+              {
+                "id": "K5",
+                "quote": "hvac load calculation software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This is another direct search for the solution by the target customer."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A minimal experiment requires correctly implementing the ACCA's Manual J standard, which involves complex engineering calculations. Even a simplified version for a basic house layout is a significant technical and domain-knowledge challenge."
+        },
+        "unproven": [
+          "Whether HVAC contractors are willing to pay for a calculation tool when free options exist.",
+          "Whether the proposal generation feature is a compelling enough differentiator to drive sales.",
+          "The proportion of the market that still uses inaccurate 'rules of thumb' versus those who have already adopted some form of calculation software."
+        ],
+        "nextExperiment": {
+          "what": "Build a simple, single-page web calculator for one small part of the Manual J calculation (e.g., heat gain for a single window). Share it in an HVAC professional forum to get feedback on its accuracy and to gauge interest in a more comprehensive tool.",
+          "cost": "~25 hours of development time.",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "Experienced HVAC professionals validate the tool's calculations as accurate and express a desire for a more complete version to use in their workflow.",
+        "stopIf": "Feedback indicates the calculation is inaccurate, existing free tools are superior, or there is a general lack of interest from the target audience.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 1,
+          "removedSentences": [
+            "The existence of significant search demand for keywords like 'manual j software' (320/mo) and 'hvac load calculation software' (1000/mo) indicates that contractors are actively seeking tools to solve this problem."
+          ],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-27T10:26:26.204Z",
+        "evidenceUpdatedAt": "2026-09-27T10:20:15.779Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-27T10:18:45.063Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "95879170-ff7b-50fb-9bc7-1fa8db5d197c",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01284,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-27T10:18:48.503Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "bab35248-7991-5c99-869c-bf3563c899ae",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
+    },
+    {
+      "at": "2026-09-27T10:19:08.427Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "552017dd-556b-5401-8cfc-a1f2f14b392c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-27T10:19:14.016Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "9fedcd47-a4fb-5353-9e58-9cfed762ae8c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-27T10:19:19.538Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "acd5173e-6efb-518e-b1b7-a24f038d783c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
+    },
+    {
+      "at": "2026-09-27T10:19:41.546Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "082251c7-982a-560b-996c-2fc72275e7d1",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-27T10:19:53.044Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "d114d7c2-9c5e-5f5e-ab20-1c3c62632a26",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": [
+      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
+    ]
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.6246,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.3754
+    },
+    "monthToDateUsdBefore": 0.6246,
+    "spentThisRunUsd": 0.02484
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-27T10:20:15.779Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02484,
+    "note": null
+  }
+}
