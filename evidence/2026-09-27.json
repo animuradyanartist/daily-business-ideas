@@ -6,8 +6,8 @@
     "memo": "ideas/2026-09-27.md"
   },
   "createdAt": "2026-09-27T10:18:42.207Z",
-  "updatedAt": "2026-09-27T10:18:42.208Z",
-  "attempts": 1,
+  "updatedAt": "2026-09-27T10:58:32.254Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -76,8 +76,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -323,6 +323,98 @@
       ],
       "serps": [
         {
+          "id": "S1",
+          "query": "sov collection software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:58:36.388Z",
+          "checkUrl": "https://www.google.com/search?q=sov%20collection%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "superconstruct.io",
+              "url": "https://superconstruct.io/schedule-of-values/",
+              "title": "Schedule of Values (SOV) Management Software",
+              "description": "Create, approve and lock Schedule of Values with divisions, tasks, comments and change-order controls for accurate construction billing. Fast. Clear.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "my.spitfiremanagement.com",
+              "url": "http://my.spitfiremanagement.com/software/swo_sov_billing.htm",
+              "title": "Schedule of Values (SOV) Billing",
+              "description": "The SOV can be built from the project contract or from project commitments/subcontracts, giving you flexibility · Billing against the SOV creates an audit trail ... Read more",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.autodesk.com",
+              "url": "https://www.autodesk.com/blogs/construction/schedule-of-values/",
+              "title": "Schedule of Values (SOV): A Guide for Construction Projects",
+              "description": "Aug 11, 2025 — Today's cloud-based software and its intuitive AI features ensure SOV documents are updated in real-time, keeping everyone abreast of up-to-the- ... Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.theaccessgroup.com",
+              "url": "https://www.theaccessgroup.com/en-us/construction/resources/schedule-of-values/",
+              "title": "Schedule of Values in Construction | Access Coins",
+              "description": "Nov 17, 2024 — Use construction management software and digital tools to automate and streamline the SOV process. Use templates, cost databases, and ... Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.onarchipelago.com",
+              "url": "https://www.onarchipelago.com/blog/sov-tools",
+              "title": "4 SOV Insurance Broker Tools to Evaluate in 2026 and ...",
+              "description": "Sep 25, 2024 — Best SOV Automation Tools in 2026 · #1 Archipelago · #2: Convr · #3: Scrub AI · #4: UiPath · AI Agent for Insurance Brokers. Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "buildertrend.com",
+              "url": "https://buildertrend.com/blog/sov-construction/",
+              "title": "SOV Construction: What Is Schedule of Values",
+              "description": "Aug 10, 2023 — An SOV acts as a reference point for builders and clients, ensuring everyone is on the same page regarding the financial aspects of a project. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/smallbusiness/comments/guve3p/debt_collections_software_what_systems_do_you/",
+              "title": "Debt collections software? What systems do you use ...",
+              "description": "We have several accounts that are past due and need to be in constant communication with. Any software you recommend?",
+              "id": "S1.9",
+              "class": "discussion"
+            },
+            {
+              "rank": 10,
+              "domain": "hesfintech.com",
+              "url": "https://hesfintech.com/blog/top-debt-collection-software/",
+              "title": "11 Best Debt Collection Software 2026",
+              "description": "Aug 6, 2026 — Check out the top debt collection software covering different debt recovery stages: HES LoanBox, HighRadius, Upflow, Latitude, Experian, ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.rakenapp.com",
+              "url": "https://www.rakenapp.com/blog/what-is-schedule-of-values-sov",
+              "title": "What is a Schedule of Values (SOV) in Construction?",
+              "description": "May 8, 2023 — A schedule of values, or SOV, is a document that lists all work and costs associated with a construction project. SOVs help track financial ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
           "id": "S2",
           "query": "commercial insurance sov problems",
           "provider": "DataForSEO SERP · google organic live",
@@ -418,6 +510,72 @@
       "pages": [
         {
           "id": "P1",
+          "domain": "onarchipelago.com",
+          "url": "https://www.onarchipelago.com/blog/sov-tools",
+          "finalUrl": "https://www.onarchipelago.com/blog/sov-tools",
+          "retrievedAt": "2026-09-27T10:59:05.331Z",
+          "status": 200,
+          "error": null,
+          "title": "4 SOV Insurance Broker Tools to Evaluate in 2026 and Beyond",
+          "description": "Excel wasn",
+          "priceMentions": [
+            {
+              "text": "$400 per month",
+              "billingUnit": true,
+              "context": "individual brokers on a per-seat license basis, starting at $400 per month. Cons: Priced Per User : The full Archipelago suite is curr"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "onarchipelago.com",
+          "url": "https://www.onarchipelago.com/pricing",
+          "finalUrl": "https://www.onarchipelago.com/pricing",
+          "retrievedAt": "2026-09-27T10:59:05.333Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "superconstruct.io",
+          "url": "https://superconstruct.io/schedule-of-values/",
+          "finalUrl": "https://superconstruct.io/schedule-of-values/",
+          "retrievedAt": "2026-09-27T10:59:05.334Z",
+          "status": 200,
+          "error": null,
+          "title": "Schedule of Values (SOV) Management Software",
+          "description": "Create, approve and lock Schedule of Values with divisions, tasks, comments and change-order controls for accurate construction billing. Fast. Clear. Simple.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "superconstruct.io",
+          "url": "https://superconstruct.io/pricing",
+          "finalUrl": "https://superconstruct.io/pricing/",
+          "retrievedAt": "2026-09-27T10:59:05.335Z",
+          "status": 200,
+          "error": null,
+          "title": "Construction Management Software Pricing | SuperConstruct",
+          "description": "Construction management software pricing and plans for contractors, owners, cities and teams - see what SuperConstruct costs and what&#x27;s included.",
+          "priceMentions": [
+            {
+              "text": "$299",
+              "billingUnit": false,
+              "context": "Support and Storage Exclusive early access to new features $299 Per project Per Month Start Your Free Trial Frequently Aske"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
           "domain": "pingintel.com",
           "url": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
           "finalUrl": "https://pingintel.com/acord-forms-loss-runs-and-the-unstructured-data-problem/",
@@ -432,58 +590,16 @@
           "mentionsPricing": true
         },
         {
-          "id": "P2",
+          "id": "P6",
           "domain": "pingintel.com",
           "url": "https://pingintel.com/pricing",
           "finalUrl": "https://pingintel.com/pricing",
           "retrievedAt": "2026-09-27T10:19:58.011Z",
           "status": 404,
           "error": "HTTP 404"
-        },
-        {
-          "id": "P3",
-          "domain": "inevo.ai",
-          "url": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
-          "finalUrl": "http://www.inevo.ai/whitepapers/10-submission-problems-costing-mgas-in-2026",
-          "retrievedAt": "2026-09-27T10:19:58.013Z",
-          "status": 403,
-          "error": "HTTP 403"
-        },
-        {
-          "id": "P4",
-          "domain": "inevo.ai",
-          "url": "http://www.inevo.ai/pricing",
-          "finalUrl": "http://www.inevo.ai/pricing",
-          "retrievedAt": "2026-09-27T10:19:58.014Z",
-          "status": 403,
-          "error": "HTTP 403"
-        },
-        {
-          "id": "P5",
-          "domain": "pibit.ai",
-          "url": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
-          "finalUrl": "https://pibit.ai/blog/acord-forms-hidden-data-underwriting-intelligence",
-          "retrievedAt": "2026-09-27T10:19:58.014Z",
-          "status": 200,
-          "error": null,
-          "title": "What Your ACORD Forms Contain That Nobody&#x27;s Actually Reading | Pibit.AI",
-          "description": "COIs, SOVs, and ACORD forms hold more underwriting intelligence than most carriers ever surface. The ceiling isn&#x27;t the documents, it&#x27;s the workflows built to handle them.",
-          "priceMentions": [],
-          "mentionsFreeTrial": false,
-          "mentionsContactSales": true,
-          "mentionsPricing": true
-        },
-        {
-          "id": "P6",
-          "domain": "pibit.ai",
-          "url": "https://pibit.ai/pricing",
-          "finalUrl": "https://pibit.ai/pricing",
-          "retrievedAt": "2026-09-27T10:19:58.015Z",
-          "status": 404,
-          "error": "HTTP 404"
         }
       ],
-      "reason": "search results for \"sov collection software\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "reason": null,
       "readings": {
         "demand": {
           "level": "unknown",
@@ -529,273 +645,350 @@
         },
         "competitors": {
           "vendorLikeDomains": [
+            "onarchipelago.com",
+            "superconstruct.io",
             "pingintel.com",
             "inevo.ai",
+            "my.spitfiremanagement.com",
             "pibit.ai",
+            "autodesk.com",
             "furtherai.com",
+            "theaccessgroup.com",
             "schererinsurance.com",
-            "onarchipelago.com",
+            "buildertrend.com",
             "hyperexponential.com",
             "kalepa.com",
-            "convr.com"
+            "hesfintech.com",
+            "convr.com",
+            "rakenapp.com"
           ],
           "platformDomains": [],
-          "discussionResults": [],
-          "pricedDomains": [],
-          "note": "9 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers). Judged for relevance: 2 domain(s) with a direct competitor (same problem) (onarchipelago.com, kalepa.com), 0 with an indirect alternative.",
-          "directCompetitorDomains": [
-            "onarchipelago.com",
-            "kalepa.com"
+          "discussionResults": [
+            "reddit.com"
           ],
+          "pricedDomains": [
+            "onarchipelago.com",
+            "superconstruct.io"
+          ],
+          "note": "16 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on onarchipelago.com, superconstruct.io. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
           "indirectAlternativeDomains": []
         }
       },
-      "evidenceFingerprint": "5a46eb3bbbe6365a",
-      "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+      "evidenceFingerprint": "676f8946cb6ef8d3",
+      "evidenceUpdatedAt": "2026-09-27T10:59:06.483Z",
       "matchesOriginalPick": true,
       "relevance": {
-        "at": "2026-09-27T10:25:26.555Z",
+        "at": "2026-09-27T11:00:31.487Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+        "evidenceUpdatedAt": "2026-09-27T10:59:06.483Z",
         "qualifiers": [
-          "principal or account manager",
-          "independent commercial property & casualty (P&C) insurance brokerage"
+          "principal or account manager at an insurance brokerage",
+          "commercial property & casualty (P&C)"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This describes the core problem area that the target customer at an insurance brokerage would search for."
+            "reason": "This is a specific problem search that the target customer at a commercial insurance brokerage would make."
           },
           "K2": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a specific description of the problem that the target customer faces."
+            "reason": "This describes the core problem of the business idea, and the searcher is likely an insurance professional."
           },
           "K3": {
             "searcher": "includes",
             "topic": "broader",
-            "reason": "The target customer experiences this, but the keyword covers all causes of renewal delays, not just SOV collection issues."
+            "reason": "The target customer would search this, but SOV issues are only one of many potential causes for policy renewal delays."
           },
           "K4": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This describes the exact type of solution the target customer would be looking for."
+            "reason": "This is a direct search for a solution to the problem, though it may also attract users from the construction industry who use a different type of SOV."
           },
           "K5": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "SOV management is a part of insurance data management, but this is a much broader software category."
+            "reason": "The idea is a specific type of insurance data management tool; this keyword represents the broader category."
           },
           "K6": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "The idea is a type of brokerage automation tool, but this keyword covers a wide range of other tools like CRMs or marketing automation."
+            "reason": "The target customer would search for these, and the idea is one type of tool that falls into this category."
           },
           "K7": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This is a high-intent buying keyword for the specific solution the target customer would need."
+            "reason": "This is a high-intent buying keyword for a solution to the specific problem."
           },
           "K8": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This is a search for any tool a brokerage might use, which is a broader category than just an SOV solution."
+            "reason": "The target customer would search this to find a range of tools, of which the idea is one type."
           },
           "K9": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This refers to a broader category of software than the specific SOV collection tool."
+            "reason": "The idea is a type of insurance data platform, so this search represents the broader category and buying intent."
           }
         },
         "items": {
-          "S2.2": {
-            "customer": "broader",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "no",
-            "reason": "This article discusses the general problem of unstructured data in insurance, which is broader than the specific SOV collection workflow for brokers."
-          },
-          "S2.3": {
+          "S1.2": {
             "customer": "different",
             "customerMatches": [],
-            "problem": "same",
-            "offering": "no",
-            "reason": "This item is aimed at MGAs (Managing General Agents), a different customer, although it discusses the same problem with SOVs."
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for managing 'Schedule of Values' for construction billing, not 'Statement of Values' for insurance."
           },
-          "S2.4": {
+          "S1.4": {
             "customer": "different",
             "customerMatches": [],
-            "problem": "same",
-            "offering": "no",
-            "reason": "This is written from the perspective of a commercial carrier receiving SOVs, not the broker collecting them."
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for billing against a 'Schedule of Values' on a construction project, a different industry and problem."
           },
-          "S2.5": {
-            "customer": "different",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "no",
-            "reason": "This guide is for risk engineers and covers aggregating all risk data, not just the broker's problem of collecting SOVs."
-          },
-          "S2.6": {
+          "S1.5": {
             "customer": "different",
             "customerMatches": [],
             "problem": "different",
             "offering": "no",
-            "reason": "This is for the broker's client (an apartment owner), not the broker, and discusses the client's need to prepare documents."
+            "reason": "This guide is explicitly for 'Schedule of Values' in construction projects, a different customer and context."
           },
-          "S2.7": {
-            "customer": "broader",
+          "S1.6": {
+            "customer": "different",
             "customerMatches": [],
-            "problem": "same",
-            "offering": "yes",
-            "reason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is about 'Schedule of Values' in the construction industry, not 'Statement of Values' in insurance."
           },
-          "S2.8": {
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "principal or account manager at an insurance brokerage",
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is a list of tools specifically for insurance brokers managing SOVs, which is the exact customer and problem."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article defines 'Schedule of Values' for builders and clients in the construction industry."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a discussion about debt collection software, which is an entirely different domain from insurance data management."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a list of debt collection software, which is unrelated to the insurance SOV problem."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article defines 'Schedule of Values' specifically for the construction industry, a different customer."
+          },
+          "S2.2": {
             "customer": "broader",
+            "customerMatches": [
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the problem of unstructured data in insurance submissions (including SOVs), which is relevant to brokers, carriers, and underwriters."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is for MGAs (Managing General Agents), a related but broader audience, discussing the exact problem of unclean SOV data."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the problem of varied SOV formats from the perspective of a commercial carrier, which is part of the same problem ecosystem as the broker."
+          },
+          "S2.5": {
+            "customer": "different",
             "customerMatches": [],
             "problem": "same",
             "offering": "no",
-            "reason": "This article discusses the pain of re-keying SOV data in the context of the entire insurance industry, not just the broker's collection workflow."
+            "reason": "This guide is for risk engineers, a different role, but it addresses the same problem of reconciling SOVs and other risk data."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is for apartment owners (the broker's client), not the insurance broker themselves."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "principal or account manager at an insurance brokerage",
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page describes a solution for insurance brokers to automate work and correct errors in statements of values, the exact customer and problem."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the broader insurance process but specifically mentions 're-keying SOV data' as a time-consuming problem relevant to brokers and others."
           },
           "S2.9": {
             "customer": "broader",
-            "customerMatches": [],
+            "customerMatches": [
+              "commercial property & casualty (P&C)"
+            ],
             "problem": "same",
-            "offering": "yes",
-            "reason": "This is for underwriters or carriers using AI to process submissions, not brokers collecting them, but it addresses the same data inconsistency problem."
+            "offering": "no",
+            "reason": "This article discusses the problem of inconsistent SOV formats (Excel vs. PDF), which is relevant to brokers, underwriters, and carriers."
           },
           "S2.10": {
             "customer": "different",
             "customerMatches": [],
             "problem": "same",
-            "offering": "yes",
-            "reason": "This is for underwriters, a different customer, discussing their pain in processing SOVs received from brokers."
+            "offering": "no",
+            "reason": "This article is for underwriters, a different customer, but it describes the same problem of manually processing large SOVs."
           },
           "P1": {
-            "customer": "broader",
-            "customerMatches": [],
-            "problem": "broader",
+            "customer": "same",
+            "customerMatches": [
+              "principal or account manager at an insurance brokerage",
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
             "offering": "no",
-            "reason": "The page discusses the broad problem of unstructured data across the insurance industry, which is wider than the broker's specific SOV collection issue."
+            "reason": "This article is explicitly for insurance brokers looking for tools to solve the problem of managing SOVs."
           },
-          "P5": {
+          "P3": {
             "customer": "different",
             "customerMatches": [],
-            "problem": "broader",
+            "problem": "different",
             "offering": "yes",
-            "reason": "This page is for insurance carriers, a different customer, and discusses the broader problem of extracting data from various forms."
+            "reason": "This software is for the construction industry to manage billing, not for insurance brokers to manage client data."
+          },
+          "P4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a pricing page for construction management software, aimed at contractors and owners, not insurance brokers."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [
+              "commercial property & casualty (P&C)"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the problem of unstructured data in property submissions, including SOVs, which is relevant to brokers and the wider insurance industry."
           }
         },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-09-27:commercial-insurance-sov-hub",
-        "opportunity": "The opportunity is to create a software portal for commercial insurance brokers to automate the collection and validation of Statement of Values (SOV) documents from their clients. This would replace the current manual, error-prone spreadsheet-based process.",
-        "whoPays": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage would pay to reduce manual work, decrease the risk of errors, and lower their E&O liability. This is an inference, as no direct evidence of payment is provided.",
+        "opportunity": "The opportunity is to create a specialized portal for commercial insurance brokers to automate the collection and validation of Statements of Values (SOVs) from their clients. This would replace error-prone manual spreadsheet processes, saving time and reducing risk.",
+        "whoPays": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage pays to reduce time spent on manual data entry and to lower their Errors & Omissions (E&O) liability from incorrect data. This is an inference.",
         "problemEvidence": {
           "level": "weak",
           "basis": [
             {
-              "id": "S2.7",
-              "quote": "Poor insurance data management causes quote delays, creates coverage gaps, and leads to hours of manual work"
+              "id": "S2.3",
+              "quote": "an SOV that has not been cleaned up can pull property and package quotes 20% or more off"
+            },
+            {
+              "id": "S2.4",
+              "quote": "A commercial carrier receiving SOVs from 30 active brokers receives 30 different approaches to organizing property"
             },
             {
               "id": "S2.8",
               "quote": "re-keying SOV data into policy administration systems, consumes time and headcount"
-            },
-            {
-              "id": "S2.9",
-              "quote": "A SOV might be a clean Excel spreadsheet in one package but a scanned PDF"
             }
           ],
-          "observed": "The evidence, from sources discussing the broader insurance industry, shows that poor data management leads to quote delays and manual work. Specifically, re-keying SOV data is time-consuming, and SOV documents arrive in inconsistent formats like spreadsheets and PDFs.",
-          "inference": "While the problem of inefficient data handling is clearly described, the evidence comes from vendors targeting the broader industry (including large enterprises or carriers), not specifically independent brokers. It is an inference that this industry-wide problem is a significant, unsolved pain point for the target customer."
+          "observed": "Evidence from sources aimed at adjacent roles (MGAs, carriers) shows that unclean SOV data can lead to inaccurate quotes, varied formats from different brokers create maintenance issues, and re-keying SOV data is a time-consuming task.",
+          "inference": "Since brokers are the source of this data for carriers and MGAs, it is inferred they experience the upstream problem of collecting and formatting this inconsistent data from their clients."
         },
         "competition": {
-          "level": "some",
-          "basis": [
-            {
-              "id": "S2.7",
-              "quote": "Insurance Data Management That Automates Broker"
-            },
-            {
-              "id": "S2.9",
-              "quote": "Coupling Extraction and Judging Agents for Insurance Submission Processing"
-            }
-          ],
-          "alternatives": [
-            {
-              "name": "Archipelago",
-              "type": "direct",
-              "what": "Offers 'Insurance Data Management That Automates Broker' workflows.",
-              "basis": [
-                {
-                  "id": "S2.7",
-                  "quote": "Insurance Data Management That Automates Broker"
-                }
-              ]
-            },
-            {
-              "name": "Kalepa",
-              "type": "indirect",
-              "what": "Provides AI for underwriters to process submissions, including inconsistent SOVs. This is an alternative way the ecosystem solves the problem of poor data, rather than a tool for the broker.",
-              "basis": [
-                {
-                  "id": "S2.9",
-                  "quote": "Coupling Extraction and Judging Agents for Insurance Submission Processing"
-                }
-              ]
-            }
-          ],
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
           "strengths": [],
           "gaps": [
             {
-              "text": "Existing competitors appear to be focused on either large enterprise clients or on underwriters, not specifically on the independent brokerage that is the target customer.",
+              "text": "No direct or indirect competitors specifically for SOV collection for insurance brokers were found in the evidence. The search for 'sov collection software' was dominated by irrelevant tools for the construction industry.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "Verification can be found in discussions within insurance professional communities",
-            "finding": "No discussions from insurance professional communities appeared in the search results. The problem evidence that was found came from vendor blog posts.",
-            "basis": [],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
           "level": "moderate",
-          "note": "A first experiment could be a web tool that validates an uploaded SOV spreadsheet against a set of rules and flags errors. This avoids the complexity of a full client-facing portal but still requires understanding insurance data standards."
+          "note": "A minimal first experiment could be a web application with a structured form that guides a client through entering SOV data and exports it as a standardized CSV for the broker. This is technically achievable for a solo founder."
         },
         "unproven": [
-          "Whether the pain of SOV collection is acute enough for the target customer (independent brokerages) to pay for a solution.",
-          "Whether brokers' clients would adopt and use a new portal instead of emailing spreadsheets.",
-          "The price point and business model (e.g., per-broker, per-client) that this market would support."
+          "Whether the problem of SOV collection is painful enough for brokers to pay for a dedicated tool, rather than treating it as a cost of doing business.",
+          "The willingness to pay for such a solution.",
+          "Whether brokers perceive a need for a specialized tool, given the lack of observable search demand for one."
         ],
         "nextExperiment": {
-          "what": "Interview 5-10 principals or account managers at independent commercial P&C brokerages. Show them mockups of a simple SOV collection and validation portal and gauge their reaction to the problem and proposed solution.",
-          "cost": "$0-500 for interview incentives + ~20 hours of time.",
+          "what": "Conduct interviews with 5-10 principals or account managers at independent commercial P&C brokerages to validate the severity of the problem. Focus on their current process, time spent, and the consequences of errors.",
+          "cost": "$100 + 15-20 hours",
           "duration": "2-3 weeks"
         },
-        "continueIf": "A majority of interviewees confirm that manual SOV collection is a top operational bottleneck and express strong interest in a dedicated tool, citing specific pains like renewal delays or E&O risk.",
-        "stopIf": "Interviewees state that spreadsheets are 'good enough,' the problem is not a high priority, or that the primary issue is client responsiveness, which a tool cannot solve."
+        "continueIf": "At least 3 of 5 interviewees describe the SOV collection process as a significant, time-consuming bottleneck and express clear interest in a specialized tool to solve it.",
+        "stopIf": "Fewer than 2 of 5 interviewees see SOV collection as a major problem, or most state they are happy with their current spreadsheet-based process."
       },
       "assessment": {
-        "opportunity": "The opportunity is to create a software portal for commercial insurance brokers to automate the collection and validation of Statement of Values (SOV) documents from their clients. This would replace the current manual, error-prone spreadsheet-based process.",
-        "whoPays": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage would pay to reduce manual work, decrease the risk of errors, and lower their E&O liability. This is an inference, as no direct evidence of payment is provided.",
+        "opportunity": "The opportunity is to create a specialized portal for commercial insurance brokers to automate the collection and validation of Statements of Values (SOVs) from their clients. This would replace error-prone manual spreadsheet processes, saving time and reducing risk.",
+        "whoPays": "A principal or account manager at an independent commercial property & casualty (P&C) insurance brokerage pays to reduce time spent on manual data entry and to lower their Errors & Omissions (E&O) liability from incorrect data. This is an inference.",
         "problemEvidence": {
           "level": "weak",
           "basis": [
             {
-              "id": "S2.7",
-              "quote": "Poor insurance data management causes quote delays, creates coverage gaps, and leads to hours of manual work",
-              "domain": "onarchipelago.com",
+              "id": "S2.3",
+              "quote": "an SOV that has not been cleaned up can pull property and package quotes 20% or more off",
+              "domain": "inevo.ai",
               "kind": "S",
               "cls": "site",
               "relevance": "category",
-              "relevanceReason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
+              "relevanceReason": "This is for MGAs (Managing General Agents), a related but broader audience, discussing the exact problem of unclean SOV data."
+            },
+            {
+              "id": "S2.4",
+              "quote": "A commercial carrier receiving SOVs from 30 active brokers receives 30 different approaches to organizing property",
+              "domain": "pibit.ai",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses the problem of varied SOV formats from the perspective of a commercial carrier, which is part of the same problem ecosystem as the broker."
             },
             {
               "id": "S2.8",
@@ -804,115 +997,57 @@
               "kind": "S",
               "cls": "site",
               "relevance": "category",
-              "relevanceReason": "This article discusses the pain of re-keying SOV data in the context of the entire insurance industry, not just the broker's collection workflow."
-            },
-            {
-              "id": "S2.9",
-              "quote": "A SOV might be a clean Excel spreadsheet in one package but a scanned PDF",
-              "domain": "kalepa.com",
-              "kind": "S",
-              "cls": "site",
-              "relevance": "category",
-              "relevanceReason": "This is for underwriters or carriers using AI to process submissions, not brokers collecting them, but it addresses the same data inconsistency problem."
+              "relevanceReason": "This article discusses the broader insurance process but specifically mentions 're-keying SOV data' as a time-consuming problem relevant to brokers and others."
             }
           ],
-          "observed": "The evidence, from sources discussing the broader insurance industry, shows that poor data management leads to quote delays and manual work. Specifically, re-keying SOV data is time-consuming, and SOV documents arrive in inconsistent formats like spreadsheets and PDFs.",
-          "inference": "While the problem of inefficient data handling is clearly described, the evidence comes from vendors targeting the broader industry (including large enterprises or carriers), not specifically independent brokers. It is an inference that this industry-wide problem is a significant, unsolved pain point for the target customer."
+          "observed": "Evidence from sources aimed at adjacent roles (MGAs, carriers) shows that unclean SOV data can lead to inaccurate quotes, varied formats from different brokers create maintenance issues, and re-keying SOV data is a time-consuming task.",
+          "inference": "Since brokers are the source of this data for carriers and MGAs, it is inferred they experience the upstream problem of collecting and formatting this inconsistent data from their clients."
         },
         "competition": {
-          "level": "some",
-          "basis": [
-            {
-              "id": "S2.7",
-              "quote": "Insurance Data Management That Automates Broker",
-              "domain": "onarchipelago.com",
-              "kind": "S",
-              "cls": "site",
-              "relevance": "direct competitor",
-              "relevanceReason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
-            }
-          ],
-          "directCompetitors": [
-            "onarchipelago.com"
-          ],
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
           "indirectAlternatives": [],
-          "alternatives": [
-            {
-              "name": "Archipelago",
-              "type": "direct",
-              "what": "Offers 'Insurance Data Management That Automates Broker' workflows.",
-              "basis": [
-                {
-                  "id": "S2.7",
-                  "quote": "Insurance Data Management That Automates Broker",
-                  "domain": "onarchipelago.com",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "direct competitor",
-                  "relevanceReason": "This addresses the exact problem but appears to be a platform for large enterprises and their brokers, a broader audience than just independent brokerages."
-                }
-              ]
-            }
-          ],
+          "alternatives": [],
           "strengths": [],
           "gaps": [
             {
-              "text": "Existing competitors appear to be focused on either large enterprise clients or on underwriters, not specifically on the independent brokerage that is the target customer.",
+              "text": "No direct or indirect competitors specifically for SOV collection for insurance brokers were found in the evidence. The search for 'sov collection software' was dominated by irrelevant tools for the construction industry.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "Verification can be found in discussions within insurance professional communities",
-            "finding": "No discussions from insurance professional communities appeared in the search results. The problem evidence that was found came from vendor blog posts.",
-            "basis": [],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
           "level": "moderate",
-          "note": "A first experiment could be a web tool that validates an uploaded SOV spreadsheet against a set of rules and flags errors. This avoids the complexity of a full client-facing portal but still requires understanding insurance data standards."
+          "note": "A minimal first experiment could be a web application with a structured form that guides a client through entering SOV data and exports it as a standardized CSV for the broker. This is technically achievable for a solo founder."
         },
         "unproven": [
-          "Whether the pain of SOV collection is acute enough for the target customer (independent brokerages) to pay for a solution.",
-          "Whether brokers' clients would adopt and use a new portal instead of emailing spreadsheets.",
-          "The price point and business model (e.g., per-broker, per-client) that this market would support."
+          "Whether the problem of SOV collection is painful enough for brokers to pay for a dedicated tool, rather than treating it as a cost of doing business.",
+          "The willingness to pay for such a solution.",
+          "Whether brokers perceive a need for a specialized tool, given the lack of observable search demand for one."
         ],
         "nextExperiment": {
-          "what": "Interview 5-10 principals or account managers at independent commercial P&C brokerages. Show them mockups of a simple SOV collection and validation portal and gauge their reaction to the problem and proposed solution.",
-          "cost": "$0-500 for interview incentives + ~20 hours of time.",
+          "what": "Conduct interviews with 5-10 principals or account managers at independent commercial P&C brokerages to validate the severity of the problem. Focus on their current process, time spent, and the consequences of errors.",
+          "cost": "$100 + 15-20 hours",
           "duration": "2-3 weeks"
         },
-        "continueIf": "A majority of interviewees confirm that manual SOV collection is a top operational bottleneck and express strong interest in a dedicated tool, citing specific pains like renewal delays or E&O risk.",
-        "stopIf": "Interviewees state that spreadsheets are 'good enough,' the problem is not a high priority, or that the primary issue is client responsiveness, which a tool cannot solve.",
+        "continueIf": "At least 3 of 5 interviewees describe the SOV collection process as a significant, time-consuming bottleneck and express clear interest in a specialized tool to solve it.",
+        "stopIf": "Fewer than 2 of 5 interviewees see SOV collection as a major problem, or most state they are happy with their current spreadsheet-based process.",
         "removedLinks": 0,
         "downgraded": [],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
-          "rejectedCitations": [
-            {
-              "claim": "competition",
-              "id": "S2.9",
-              "reason": "quote not found in the cited item"
-            },
-            {
-              "claim": "alternative Kalepa",
-              "id": "S2.9",
-              "reason": "quote not found in the cited item"
-            }
-          ],
+          "rejectedCitations": [],
           "irrelevantCitations": [],
           "downgraded": [],
-          "dropped": [
-            "alternative \"Kalepa\": no quoted, relevant evidence that it is an offering for this customer's problem"
-          ]
+          "dropped": []
         },
-        "assessedAt": "2026-09-27T10:26:26.193Z",
-        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z"
+        "assessedAt": "2026-09-27T11:01:09.911Z",
+        "evidenceUpdatedAt": "2026-09-27T10:59:06.483Z"
       }
     },
     {
@@ -965,8 +1100,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -1568,6 +1703,98 @@
               "class": "site"
             }
           ]
+        },
+        {
+          "id": "S2",
+          "query": "affidavit of service errors",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-27T10:58:42.835Z",
+          "checkUrl": "https://www.google.com/search?q=affidavit%20of%20service%20errors&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.proofserve.com",
+              "url": "https://www.proofserve.com/learn/process-server-best-practices/what-makes-an-affidavit-of-service-defective",
+              "title": "What Makes an Affidavit of Service Defective?",
+              "description": "May 31, 2026 — An affidavit of service can be deemed defective for a number of reasons, including substantive or content problems, incorrect service, caption ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.justanswer.com",
+              "url": "https://www.justanswer.com/canada-law/vrn0n-affidavit-of-service-clerical-error-fix.html",
+              "title": "Affidavit of Service AOD: Fix Clerical Errors - Expert Q&A",
+              "description": "Jul 12, 2026 — Filing an amended affidavit of service to rectify a clerical error in dates is the correct procedural action in Ontario Superior Court ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.nycourts.gov",
+              "url": "https://www.nycourts.gov/help/representing-yourself-court/filing-affidavit-service",
+              "title": "Filing an Affidavit of Service | New York Courts",
+              "description": "If the case has started already, the original Affidavit of Service is filed when the original legal papers are given to the court. The rules are different for ... Read more",
+              "id": "S2.5",
+              "class": "government"
+            },
+            {
+              "rank": 6,
+              "domain": "www.avvo.com",
+              "url": "https://www.avvo.com/legal-answers/my-process-server-made-a-mistake-on-the-affidavit--4738479.html",
+              "title": "My process server made a mistake on the Affidavit of ...",
+              "description": "Dec 19, 2019 — My process server made a mistake on the Affidavit of Service by putting the wrong case number on the affidavit by putting the wrong letters.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "lundinpllc.com",
+              "url": "https://lundinpllc.com/commercial-case-notes/service-of-process/error-or-omission-in-an-affidavit-of-service-is-a-jurisdictional-defect/",
+              "title": "Error or Omission in an Affidavit of Service is a ...",
+              "description": "Dec 24, 2024 — This omission is normally fatal to the issue of establishing proper service of process and thus personal jurisdiction. WealthUnion nevertheless ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.nycomdiv.com",
+              "url": "https://www.nycomdiv.com/2019/06/court-has-mercy-allows-untimely-proof-of-service/",
+              "title": "Court Has Mercy, Allows Untimely Proof of Service | New York ...",
+              "description": "Jun 10, 2019 — Some are irreparable: Statute of repose expired? Too much denim? In these circumstances, the law affords the court no discretion for mercy. Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.upcounsel.com",
+              "url": "https://www.upcounsel.com/affidavit-of-service-meaning",
+              "title": "Affidavit of Service Meaning and Legal Importance",
+              "description": "Apr 15, 2025 — If an affidavit of service is fraudulent, an improper service of process can lead to a case dismissal, and the process server may be subject to ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.dgrlegal.com",
+              "url": "https://www.dgrlegal.com/process-service-mistakes/",
+              "title": "Common Process Service Mistakes with Major ...",
+              "description": "Sep 29, 2020 — But filing an Affidavit of Service is crucial, since it prevents the opposition from contesting the service by claiming incorrect or incomplete ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.quora.com",
+              "url": "https://www.quora.com/How-common-is-it-for-a-lawyer-submitting-an-affidavit-to-a-court-to-have-a-large-obvious-error-in-it-Will-it-make-the-court-skeptical-of-the-rest-of-the-evidence-submitted",
+              "title": "How common is it for a lawyer submitting an affidavit to ...",
+              "description": "How common is it for a lawyer submitting an affidavit to a court to have a large obvious error in it? Will it make the court skeptical of the rest ...",
+              "id": "S2.11",
+              "class": "discussion"
+            }
+          ]
         }
       ],
       "pages": [
@@ -1603,6 +1830,83 @@
         },
         {
           "id": "P3",
+          "domain": "proofserve.com",
+          "url": "https://www.proofserve.com/learn/process-server-best-practices/what-makes-an-affidavit-of-service-defective",
+          "finalUrl": "https://www.proofserve.com/learn/process-server-best-practices/what-makes-an-affidavit-of-service-defective",
+          "retrievedAt": "2026-09-27T10:59:05.878Z",
+          "status": 200,
+          "error": null,
+          "title": "What Makes an Affidavit of Service Defective? | Proof",
+          "description": "Prevent your affidavits of service from being rejected. Learn about notarization rules that vary by jurisdiction, what to ask your process server, and compliant paper trails.",
+          "priceMentions": [
+            {
+              "text": "$40",
+              "billingUnit": false,
+              "context": "th the subpoena itself. In federal cases, the fee is set at $40 per day of attendance plus mileage. \",\"type\":\"text\",\"marks\""
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "proofserve.com",
+          "url": "https://www.proofserve.com/pricing",
+          "finalUrl": "https://www.proofserve.com/pricing",
+          "retrievedAt": "2026-09-27T10:59:05.879Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing",
+          "description": "Proof&#x27;s service of process platform starts as low as $75 per serve. No hidden fees and no nickle-and-diming. Our pricing is simple, fair, and commitment-free.",
+          "priceMentions": [
+            {
+              "text": "$75",
+              "billingUnit": false,
+              "context": "tion\":\"Proof's service of process platform starts as low as $75 per serve. No hidden fees and no nickle-and-diming. Our pri"
+            },
+            {
+              "text": "$50",
+              "billingUnit": false,
+              "context": "ts to reach areas.\",\"name\":\"Extended Travel Areas\",\"price\":\"$50+\",\"server_cut\":false,\"server_price\":\"$27.5+\",\"state_id\":6},"
+            },
+            {
+              "text": "$27.5",
+              "billingUnit": false,
+              "context": "el Areas\",\"price\":\"$50+\",\"server_cut\":false,\"server_price\":\"$27.5+\",\"state_id\":6},{\"id\":80,\"created_at\":-62135596800000,\"upda"
+            },
+            {
+              "text": "$2",
+              "billingUnit": false,
+              "context": "ount will be charged for printing \\u0026 delivery of check. $2 min / $25 max.\",\"name\":\"Witness Fee Convenience Charge\",\"pr"
+            },
+            {
+              "text": "$25",
+              "billingUnit": false,
+              "context": "be charged for printing \\u0026 delivery of check. $2 min / $25 max.\",\"name\":\"Witness Fee Convenience Charge\",\"price\":\"10%\""
+            },
+            {
+              "text": "$41.25",
+              "billingUnit": false,
+              "context": "ison Serve\",\"price\":\"$75\",\"server_cut\":true,\"server_price\":\"$41.25\",\"state_id\":6},{\"id\":83,\"created_at\":-62135596800000,\"updat"
+            },
+            {
+              "text": "$150",
+              "billingUnit": false,
+              "context": ". 3 hour minimum.\",\"name\":\"On-demand Surveillance\",\"price\":\"$150/hour\",\"server_cut\":false,\"server_price\":\"Up to $41.25/hour\""
+            },
+            {
+              "text": "$38.25",
+              "billingUnit": false,
+              "context": "tive Order\",\"price\":\"$75\",\"server_cut\":true,\"server_price\":\"$38.25\",\"state_id\":6},{\"id\":479,\"created_at\":-62135596800000,\"upda"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
           "domain": "fillout.com",
           "url": "https://www.fillout.com/templates/affidavit-form",
           "finalUrl": "https://www.fillout.com/templates/affidavit-form",
@@ -1617,7 +1921,7 @@
           "mentionsPricing": true
         },
         {
-          "id": "P4",
+          "id": "P6",
           "domain": "fillout.com",
           "url": "https://www.fillout.com/pricing",
           "finalUrl": "https://www.fillout.com/pricing",
@@ -1671,39 +1975,9 @@
           "mentionsFreeTrial": true,
           "mentionsContactSales": false,
           "mentionsPricing": true
-        },
-        {
-          "id": "P5",
-          "domain": "lawdepot.com",
-          "url": "https://www.lawdepot.com/us/business/affidavit-form/",
-          "finalUrl": "https://www.lawdepot.com/us/business/affidavit-form/",
-          "retrievedAt": "2026-09-27T10:19:58.513Z",
-          "status": 200,
-          "error": null,
-          "title": "LawDepot",
-          "description": null,
-          "priceMentions": [],
-          "mentionsFreeTrial": false,
-          "mentionsContactSales": false,
-          "mentionsPricing": false
-        },
-        {
-          "id": "P6",
-          "domain": "lawdepot.com",
-          "url": "https://www.lawdepot.com/pricing",
-          "finalUrl": "https://www.lawdepot.com/pricing/",
-          "retrievedAt": "2026-09-27T10:19:58.513Z",
-          "status": 200,
-          "error": null,
-          "title": "Lawdepot",
-          "description": null,
-          "priceMentions": [],
-          "mentionsFreeTrial": false,
-          "mentionsContactSales": false,
-          "mentionsPricing": false
         }
       ],
-      "reason": "search results for \"affidavit of service errors\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "reason": null,
       "readings": {
         "demand": {
           "level": "unknown",
@@ -1768,95 +2042,105 @@
             "P4"
           ],
           "pricedDomains": [
-            "fillout.com"
+            "proofserve.com"
           ],
           "pricedPlatforms": [],
-          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $21.43 on \"process server software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): fillout.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $21.43 on \"process server software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): proofserve.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
         },
         "competitors": {
           "vendorLikeDomains": [
             "lawcentral.ai",
+            "proofserve.com",
             "fillout.com",
             "lawdepot.com",
+            "justanswer.com",
             "template.net",
             "makeform.ai",
+            "avvo.com",
+            "lundinpllc.com",
             "notarypro.ca",
+            "nycomdiv.com",
             "affidavit.great-site.net",
+            "upcounsel.com",
             "legaltemplates.net",
+            "dgrlegal.com",
             "casemark.com"
           ],
           "platformDomains": [],
-          "discussionResults": [],
+          "discussionResults": [
+            "quora.com"
+          ],
           "pricedDomains": [
+            "proofserve.com",
             "fillout.com"
           ],
-          "note": "9 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on fillout.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "note": "16 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on proofserve.com, fillout.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 6 with an indirect alternative.",
           "directCompetitorDomains": [],
           "indirectAlternativeDomains": [
             "fillout.com",
             "lawdepot.com",
             "template.net",
             "makeform.ai",
-            "legaltemplates.net"
+            "legaltemplates.net",
+            "proofserve.com"
           ]
         }
       },
-      "evidenceFingerprint": "451e4cc6e03c0797",
-      "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+      "evidenceFingerprint": "6f22e140fd2ceb1e",
+      "evidenceUpdatedAt": "2026-09-27T10:59:06.484Z",
       "matchesOriginalPick": false,
       "relevance": {
-        "at": "2026-09-27T10:25:26.555Z",
+        "at": "2026-09-27T11:00:31.487Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z",
+        "evidenceUpdatedAt": "2026-09-27T10:59:06.484Z",
         "qualifiers": [
-          "owner-operator",
-          "small-to-midsize process serving agency"
+          "owner-operator of a process serving agency"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This describes the core problem that a process server would face and search for."
+            "reason": "This is the specific problem that a process server would be concerned about and that the idea aims to solve."
           },
           "K2": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This keyword is highly specific to the target customer and their problem area."
+            "reason": "This is a direct search by the target customer about a core part of their job, which includes creating affidavits of service."
           },
           "K3": {
             "searcher": "includes",
             "topic": "broader",
-            "reason": "Process servers deal with this, but the term covers compliance for all court documents, not just affidavits of service."
+            "reason": "The target customer is concerned with this, but an affidavit of service is only one of many court documents with compliance requirements."
           },
           "K4": {
             "searcher": "broader",
             "topic": "category",
-            "reason": "This is a generic search for any type of affidavit, not the specific 'Affidavit of Service' that a process server needs."
+            "reason": "Many people besides process servers search for affidavit generators; the idea is a specific type of tool in this general category."
           },
           "K5": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "The idea is a type of process server software, but this keyword also covers CRMs, routing, and billing tools for this customer."
+            "reason": "This is a direct search by the target customer for software, and the idea would be a feature or a tool within this category."
           },
           "K6": {
             "searcher": "broader",
             "topic": "wider",
-            "reason": "This is a very broad software category used by many legal professionals, not just process servers."
+            "reason": "This is a very broad category of software searched by many legal professionals, not just process servers."
           },
           "K7": {
             "searcher": "broader",
             "topic": "category",
-            "reason": "This is a generic search for any type of affidavit software, not specific to process servers."
+            "reason": "This is a buying-intent search for the general category of affidavit software, which would include a wide range of users."
           },
           "K8": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This is a search for any tool a process server might use, a broader category than just an affidavit generator."
+            "reason": "This is a direct search by the target customer for tools to help their business; the idea would be one such tool."
           },
           "K9": {
             "searcher": "broader",
             "topic": "wider",
-            "reason": "This is a very broad search for software used by many different legal professionals."
+            "reason": "This is a broad search for a wide category of tools used by many different legal professionals."
           }
         },
         "items": {
@@ -1865,443 +2149,457 @@
             "customerMatches": [],
             "problem": "different",
             "offering": "yes",
-            "reason": "This is a general affidavit tool for individuals in India needing personal documents, not for professional US process servers."
+            "reason": "This tool is for individuals in India creating personal affidavits (e.g., for name changes), not for professional process servers."
           },
           "S1.3": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+            "reason": "This is a generic affidavit template for a general audience, not specialized for the legal compliance needs of process servers."
           },
           "S1.4": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
+            "reason": "This is a general-purpose affidavit template for a broad US audience, not tailored to the specific requirements of an Affidavit of Service."
           },
           "S1.5": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a generic AI tool for creating any type of affidavit, not one specifically for process servers."
+            "reason": "This is a generic AI tool for creating any type of affidavit, not one specialized for process serving."
           },
           "S1.6": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a generic AI tool for creating any type of affidavit form, not specifically for process servers."
+            "reason": "This is a general AI form generator for affidavits, not a specialized tool for process servers."
           },
           "S1.8": {
             "customer": "different",
             "customerMatches": [],
-            "problem": "broader",
+            "problem": "different",
             "offering": "yes",
-            "reason": "This is a generic affidavit template for a Canadian audience, not for US-based process servers."
+            "reason": "This is a generic affidavit template for a Canadian audience, which is a different jurisdiction and customer."
           },
           "S1.9": {
             "customer": "different",
             "customerMatches": [],
             "problem": "different",
             "offering": "yes",
-            "reason": "This is a tool for creating personal affidavits for use in India, a different customer and legal context."
+            "reason": "This tool is specifically for creating affidavits for use in India, a different legal system and customer base."
           },
           "S1.10": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This offers generic affidavit templates for a broad audience, not a specialized tool for process servers."
+            "reason": "This offers generic affidavit templates for a broad audience for various legal or personal matters, not specifically for process serving."
           },
           "S1.11": {
             "customer": "different",
             "customerMatches": [],
             "problem": "different",
             "offering": "yes",
-            "reason": "This tool is for family law professionals creating financial affidavits, a different customer and document type."
+            "reason": "This is a specialized tool for family law professionals to generate financial affidavits, a different customer and document type."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "owner-operator of a process serving agency"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article directly addresses the core problem of what makes an Affidavit of Service defective, which is aimed at process servers."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This Q&A addresses the exact problem of errors in an Affidavit of Service, for an audience that includes process servers, lawyers, and litigants."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is an official court information page about filing procedures, which is relevant to a broad audience including process servers, but not about error-free creation."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This question is from the perspective of a lawyer or client whose process server made a mistake, not the process server themselves."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This legal article discusses the consequences of errors in an Affidavit of Service, a problem relevant to process servers and lawyers."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This legal blog post about a specific case is relevant to a broad legal audience, and the problem is about timeliness, not content errors."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general informational article explaining the document, not focused on the problem of creating it without errors."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "owner-operator of a process serving agency"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article on 'Common Process Service Mistakes' is aimed directly at process servers and mentions the importance of a correct Affidavit of Service."
+          },
+          "S2.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This discussion is about lawyers making errors on general affidavits, not process servers creating Affidavits of Service."
           },
           "P1": {
             "customer": "different",
             "customerMatches": [],
             "problem": "different",
             "offering": "yes",
-            "reason": "This tool is for individuals in India creating personal affidavits, not for professional process servers."
+            "reason": "This tool is for individuals in India creating personal affidavits, a different customer and legal context."
           },
           "P2": {
             "customer": "different",
             "customerMatches": [],
             "problem": "different",
             "offering": "yes",
-            "reason": "This is a broad legal tech platform for lawyers in India, a different customer and problem space."
+            "reason": "This is a legal tech platform for Indian lawyers, a different customer and jurisdiction."
           },
           "P3": {
-            "customer": "broader",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "yes",
-            "reason": "This is a general form builder that can be used for affidavits, serving a very broad audience."
+            "customer": "same",
+            "customerMatches": [
+              "owner-operator of a process serving agency"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for process servers and directly addresses the problem of creating a compliant, non-defective Affidavit of Service."
           },
           "P4": {
-            "customer": "broader",
-            "customerMatches": [],
+            "customer": "same",
+            "customerMatches": [
+              "owner-operator of a process serving agency"
+            ],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is the pricing page for a generic form builder, not a specialized tool for process servers."
+            "reason": "This is a pricing page for a process serving platform, which is an offering for the target customer that solves a broader set of problems than just affidavit generation."
           },
           "P5": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This is a general legal document template site for a broad audience, not specific to process servers."
+            "reason": "This is a generic form builder for creating general affidavits, not a specialized tool for process servers."
           },
           "P6": {
             "customer": "broader",
             "customerMatches": [],
-            "problem": "broader",
+            "problem": "different",
             "offering": "yes",
-            "reason": "This is a general legal document template site for a broad audience, not specific to process servers."
+            "reason": "This is a pricing page for a general-purpose online form builder, not a specialized legal tool for process servers."
           }
         },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-09-27:process-server-affidavit-generator",
-        "opportunity": "The opportunity is to build a specialized tool for process servers that automates the creation of legally compliant, error-free Affidavits of Service. This would save time and reduce the legal risk associated with manual document preparation.",
-        "whoPays": "The owner-operator of a small-to-midsize process serving agency would pay to reduce repetitive administrative work and minimize the risk of a legal case being jeopardized by a documentation error. This is an inference from the idea's plan.",
+        "opportunity": "The opportunity is to offer a specialized software tool for process servers that automates the generation of legally compliant, state-specific Affidavits of Service. This saves time on repetitive manual data entry and reduces the risk of errors that could jeopardize a legal case.",
+        "whoPays": "The owner-operator of a small-to-midsize process serving agency pays to reduce administrative time and minimize the legal and financial risk associated with filing a defective affidavit. This is an inference.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "There is no evidence in the search results from a relevant source (direct or category) that describes the problems of manually creating Affidavits of Service.",
-          "inference": "The problem as stated in the original plan is not validated by the provided evidence."
-        },
-        "competition": {
-          "level": "sparse",
+          "level": "strong",
           "basis": [
             {
+              "id": "S2.2",
+              "quote": "An affidavit of service can be deemed defective for a number of reasons, including substantive or content problems"
+            },
+            {
+              "id": "S2.7",
+              "quote": "Error or Omission in an Affidavit of Service is a"
+            },
+            {
+              "id": "S2.10",
+              "quote": "filing an Affidavit of Service is crucial, since it prevents the opposition from contesting the service"
+            }
+          ],
+          "observed": "The evidence shows that Affidavits of Service can be deemed defective due to content problems, that errors or omissions can be fatal to establishing proper service, and that a correct affidavit is crucial to prevent legal challenges.",
+          "inference": "The significant legal consequences of errors create a strong incentive for process servers to ensure their affidavits are accurate and compliant."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "P4",
+              "quote": "Proof's service of process platform starts as low as $75 per serve."
+            },
+            {
               "id": "S1.3",
-              "quote": "Affidavit Form Template"
+              "quote": "Create affidavits quickly with our user-friendly online template."
             },
             {
               "id": "S1.4",
-              "quote": "Free Affidavit Template for Every State (US)"
+              "quote": "Quickly create a customized Sworn Affadavit or Statutory Declaration using our online forms."
             }
           ],
           "alternatives": [
             {
-              "name": "Fillout.com",
+              "name": "ProofServe",
               "type": "indirect",
-              "what": "A generic, user-friendly online template for creating affidavits.",
+              "what": "A full service of process platform that includes features for managing serves, priced on a per-serve basis.",
+              "basis": [
+                {
+                  "id": "P4",
+                  "quote": "Proof's service of process platform starts as low as $75 per serve."
+                }
+              ]
+            },
+            {
+              "name": "General Form Builders (Fillout, LawDepot, etc.)",
+              "type": "indirect",
+              "what": "Generic online templates and form builders for creating a wide variety of affidavits, not specialized for process serving.",
               "basis": [
                 {
                   "id": "S1.3",
-                  "quote": "Create affidavits quickly with our user-friendly online template"
-                }
-              ]
-            },
-            {
-              "name": "LawDepot",
-              "type": "indirect",
-              "what": "A free, customizable affidavit form for every US state.",
-              "basis": [
+                  "quote": "Use this free template to generate"
+                },
                 {
                   "id": "S1.4",
-                  "quote": "Quickly create a customized Sworn Affadavit"
-                }
-              ]
-            },
-            {
-              "name": "Template.net",
-              "type": "indirect",
-              "what": "An AI tool that generates professional affidavit documents.",
-              "basis": [
-                {
-                  "id": "S1.5",
-                  "quote": "AI generates professional affidavit documents instantly"
-                }
-              ]
-            },
-            {
-              "name": "Makeform.ai",
-              "type": "indirect",
-              "what": "An AI-powered form generator for creating affidavit forms.",
-              "basis": [
-                {
-                  "id": "S1.6",
-                  "quote": "Create professional affidavit forms in seconds with AI-powered templates"
-                }
-              ]
-            },
-            {
-              "name": "LegalTemplates.net",
-              "type": "indirect",
-              "what": "Free, downloadable affidavit templates in PDF & Word format.",
-              "basis": [
-                {
-                  "id": "S1.10",
-                  "quote": "Use our free affidavit template to swear that a fact is true"
+                  "quote": "Free Affidavit Template for Every State (US)"
                 }
               ]
             }
           ],
           "strengths": [
             {
-              "text": "Many indirect alternatives are available for free.",
+              "text": "Broad platforms like ProofServe offer an all-in-one solution for process servers, which may be more convenient than using multiple single-purpose tools.",
               "basis": [
                 {
-                  "id": "S1.4",
-                  "quote": "Print or download for free"
-                },
-                {
-                  "id": "S1.3",
-                  "quote": "Use this free template to generate"
+                  "id": "P4",
+                  "quote": "Proof's service of process platform"
                 }
               ],
-              "kind": "observed"
+              "kind": "inference"
             }
           ],
           "gaps": [
             {
-              "text": "The existing alternatives are generic form builders or templates, not specialized tools for the specific 'Affidavit of Service' document required by process servers, which has unique and jurisdiction-specific requirements.",
-              "basis": [],
-              "kind": "inference"
-            },
-            {
-              "text": "No direct competitors offering a specialized 'Affidavit of Service' generator were found.",
+              "text": "No specialized tool focused exclusively on generating court-ready, state-specific Affidavits of Service was found. The generic template sites lack the legal specificity and compliance features a professional process server would likely require.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "This pain is evident in the feature sets of existing case management software for this niche.",
-            "finding": "The evidence does not include search results for 'process server software' or other category-level keywords that would show existing case management software. The searches performed did not surface any such software.",
-            "basis": [],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
-          "level": "easy",
-          "note": "A minimal first experiment would be a simple web form that generates a compliant PDF Affidavit of Service for a single court jurisdiction. This is a straightforward document generation task, with the main challenge being legal research, not technology."
+          "level": "moderate",
+          "note": "A minimal experiment could be a web application that generates a compliant Affidavit of Service for a single, high-volume jurisdiction. This requires upfront legal research to ensure compliance, but the technology itself is standard web development."
         },
         "unproven": [
-          "Whether the problem of manual creation is painful enough for process servers to pay for a solution, given the availability of free generic templates.",
-          "Whether process servers already use case management software that adequately solves this problem.",
-          "The specific compliance details that make generic templates insufficient or risky."
+          "Whether existing features within larger process server platforms are 'good enough' for creating affidavits, making a standalone tool redundant.",
+          "The willingness of process servers to pay for a dedicated affidavit tool versus using a generic template or a bundled feature.",
+          "The technical and legal complexity of maintaining compliance across numerous and varied state and local court jurisdictions."
         ],
         "nextExperiment": {
-          "what": "Interview 5 process servers, asking them to walk through their current process for creating an Affidavit of Service. The goal is to observe the tools they use, the time it takes, and the specific pain points they encounter.",
-          "cost": "$0-250 for incentives + ~15 hours of time.",
+          "what": "Create a landing page for a 'Court-Ready Affidavit of Service Generator for [Specific State]'. Detail how it ensures compliance with local court rules and automates the process. Promote it in online process server communities and measure email signups.",
+          "cost": "$100 + 10 hours",
           "duration": "2 weeks"
         },
-        "continueIf": "A majority of interviewees describe a manual, time-consuming process using Word or PDF templates and express frustration with errors, compliance concerns, or the repetitive nature of the task.",
-        "stopIf": "Most interviewees report using a case management system that handles this well, or they state their current template-based process is fast, easy, and error-free."
+        "continueIf": "The landing page achieves a 5% or higher conversion rate from visitors to email signups, indicating a clear interest in a specialized solution.",
+        "stopIf": "Fewer than 10 signups are collected after two weeks, suggesting the problem is not pressing or is adequately solved by existing alternatives."
       },
       "assessment": {
-        "opportunity": "The opportunity is to build a specialized tool for process servers that automates the creation of legally compliant, error-free Affidavits of Service. This would save time and reduce the legal risk associated with manual document preparation.",
-        "whoPays": "The owner-operator of a small-to-midsize process serving agency would pay to reduce repetitive administrative work and minimize the risk of a legal case being jeopardized by a documentation error. This is an inference from the idea's plan.",
+        "opportunity": "The opportunity is to offer a specialized software tool for process servers that automates the generation of legally compliant, state-specific Affidavits of Service. This saves time on repetitive manual data entry and reduces the risk of errors that could jeopardize a legal case.",
+        "whoPays": "The owner-operator of a small-to-midsize process serving agency pays to reduce administrative time and minimize the legal and financial risk associated with filing a defective affidavit. This is an inference.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "",
-          "inference": "The problem as stated in the original plan is not validated by the provided evidence."
-        },
-        "competition": {
-          "level": "unknown",
+          "level": "strong",
           "basis": [
             {
+              "id": "S2.2",
+              "quote": "An affidavit of service can be deemed defective for a number of reasons, including substantive or content problems",
+              "domain": "proofserve.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This article directly addresses the core problem of what makes an Affidavit of Service defective, which is aimed at process servers."
+            },
+            {
+              "id": "S2.7",
+              "quote": "Error or Omission in an Affidavit of Service is a",
+              "domain": "lundinpllc.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This legal article discusses the consequences of errors in an Affidavit of Service, a problem relevant to process servers and lawyers."
+            },
+            {
+              "id": "S2.10",
+              "quote": "filing an Affidavit of Service is crucial, since it prevents the opposition from contesting the service",
+              "domain": "dgrlegal.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This article on 'Common Process Service Mistakes' is aimed directly at process servers and mentions the importance of a correct Affidavit of Service."
+            }
+          ],
+          "observed": "The evidence shows that Affidavits of Service can be deemed defective due to content problems, that errors or omissions can be fatal to establishing proper service, and that a correct affidavit is crucial to prevent legal challenges.",
+          "inference": "The significant legal consequences of errors create a strong incentive for process servers to ensure their affidavits are accurate and compliant."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "P4",
+              "quote": "Proof's service of process platform starts as low as $75 per serve.",
+              "domain": "proofserve.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a pricing page for a process serving platform, which is an offering for the target customer that solves a broader set of problems than just affidavit generation."
+            },
+            {
               "id": "S1.3",
-              "quote": "Affidavit Form Template",
+              "quote": "Create affidavits quickly with our user-friendly online template.",
               "domain": "fillout.com",
               "kind": "S",
               "cls": "site",
               "relevance": "indirect alternative",
-              "relevanceReason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+              "relevanceReason": "This is a generic affidavit template for a general audience, not specialized for the legal compliance needs of process servers."
             },
             {
               "id": "S1.4",
-              "quote": "Free Affidavit Template for Every State (US)",
+              "quote": "Quickly create a customized Sworn Affadavit or Statutory Declaration using our online forms.",
               "domain": "lawdepot.com",
               "kind": "S",
               "cls": "site",
               "relevance": "indirect alternative",
-              "relevanceReason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
+              "relevanceReason": "This is a general-purpose affidavit template for a broad US audience, not tailored to the specific requirements of an Affidavit of Service."
             }
           ],
           "directCompetitors": [],
           "indirectAlternatives": [
+            "proofserve.com",
             "fillout.com",
-            "lawdepot.com",
-            "template.net",
-            "makeform.ai",
-            "legaltemplates.net"
+            "lawdepot.com"
           ],
           "alternatives": [
             {
-              "name": "Fillout.com",
+              "name": "ProofServe",
               "type": "indirect",
-              "what": "A generic, user-friendly online template for creating affidavits.",
+              "what": "A full service of process platform that includes features for managing serves, priced on a per-serve basis.",
               "basis": [
                 {
-                  "id": "S1.3",
-                  "quote": "Create affidavits quickly with our user-friendly online template",
-                  "domain": "fillout.com",
-                  "kind": "S",
-                  "cls": "site",
+                  "id": "P4",
+                  "quote": "Proof's service of process platform starts as low as $75 per serve.",
+                  "domain": "proofserve.com",
+                  "kind": "P",
+                  "cls": "page",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+                  "relevanceReason": "This is a pricing page for a process serving platform, which is an offering for the target customer that solves a broader set of problems than just affidavit generation."
                 }
               ]
             },
             {
-              "name": "LawDepot",
+              "name": "General Form Builders (Fillout, LawDepot, etc.)",
               "type": "indirect",
-              "what": "A free, customizable affidavit form for every US state.",
+              "what": "Generic online templates and form builders for creating a wide variety of affidavits, not specialized for process serving.",
               "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "Quickly create a customized Sworn Affadavit",
-                  "domain": "lawdepot.com",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
-                }
-              ]
-            },
-            {
-              "name": "Template.net",
-              "type": "indirect",
-              "what": "An AI tool that generates professional affidavit documents.",
-              "basis": [
-                {
-                  "id": "S1.5",
-                  "quote": "AI generates professional affidavit documents instantly",
-                  "domain": "template.net",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This is a generic AI tool for creating any type of affidavit, not one specifically for process servers."
-                }
-              ]
-            },
-            {
-              "name": "Makeform.ai",
-              "type": "indirect",
-              "what": "An AI-powered form generator for creating affidavit forms.",
-              "basis": [
-                {
-                  "id": "S1.6",
-                  "quote": "Create professional affidavit forms in seconds with AI-powered templates",
-                  "domain": "makeform.ai",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This is a generic AI tool for creating any type of affidavit form, not specifically for process servers."
-                }
-              ]
-            },
-            {
-              "name": "LegalTemplates.net",
-              "type": "indirect",
-              "what": "Free, downloadable affidavit templates in PDF & Word format.",
-              "basis": [
-                {
-                  "id": "S1.10",
-                  "quote": "Use our free affidavit template to swear that a fact is true",
-                  "domain": "legaltemplates.net",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This offers generic affidavit templates for a broad audience, not a specialized tool for process servers."
-                }
-              ]
-            }
-          ],
-          "strengths": [
-            {
-              "text": "Many indirect alternatives are available for free.",
-              "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "Print or download for free",
-                  "domain": "lawdepot.com",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "broader",
-                  "relevanceReason": "This is a generic affidavit template for a broad US audience, not a specialized tool for process servers."
-                },
                 {
                   "id": "S1.3",
                   "quote": "Use this free template to generate",
                   "domain": "fillout.com",
                   "kind": "S",
                   "cls": "site",
-                  "relevance": "broader",
-                  "relevanceReason": "This is a generic affidavit template for a broad audience, not a specialized tool for process servers' 'Affidavit of Service'."
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a generic affidavit template for a general audience, not specialized for the legal compliance needs of process servers."
+                },
+                {
+                  "id": "S1.4",
+                  "quote": "Free Affidavit Template for Every State (US)",
+                  "domain": "lawdepot.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a general-purpose affidavit template for a broad US audience, not tailored to the specific requirements of an Affidavit of Service."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Broad platforms like ProofServe offer an all-in-one solution for process servers, which may be more convenient than using multiple single-purpose tools.",
+              "basis": [
+                {
+                  "id": "P4",
+                  "quote": "Proof's service of process platform",
+                  "domain": "proofserve.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "This is a pricing page for a process serving platform, which is an offering for the target customer that solves a broader set of problems than just affidavit generation."
                 }
               ],
-              "kind": "observed"
+              "kind": "inference"
             }
           ],
           "gaps": [
             {
-              "text": "The existing alternatives are generic form builders or templates, not specialized tools for the specific 'Affidavit of Service' document required by process servers, which has unique and jurisdiction-specific requirements.",
-              "basis": [],
-              "kind": "inference"
-            },
-            {
-              "text": "No direct competitors offering a specialized 'Affidavit of Service' generator were found.",
+              "text": "No specialized tool focused exclusively on generating court-ready, state-specific Affidavits of Service was found. The generic template sites lack the legal specificity and compliance features a professional process server would likely require.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "This pain is evident in the feature sets of existing case management software for this niche.",
-            "finding": "The evidence does not include search results for 'process server software' or other category-level keywords that would show existing case management software. The searches performed did not surface any such software.",
-            "basis": [],
-            "effect": "untested"
-          }
-        ],
+        "changes": [],
         "feasibility": {
-          "level": "easy",
-          "note": "A minimal first experiment would be a simple web form that generates a compliant PDF Affidavit of Service for a single court jurisdiction. This is a straightforward document generation task, with the main challenge being legal research, not technology."
+          "level": "moderate",
+          "note": "A minimal experiment could be a web application that generates a compliant Affidavit of Service for a single, high-volume jurisdiction. This requires upfront legal research to ensure compliance, but the technology itself is standard web development."
         },
         "unproven": [
-          "Whether the problem of manual creation is painful enough for process servers to pay for a solution, given the availability of free generic templates.",
-          "Whether process servers already use case management software that adequately solves this problem.",
-          "The specific compliance details that make generic templates insufficient or risky."
+          "Whether existing features within larger process server platforms are 'good enough' for creating affidavits, making a standalone tool redundant.",
+          "The willingness of process servers to pay for a dedicated affidavit tool versus using a generic template or a bundled feature.",
+          "The technical and legal complexity of maintaining compliance across numerous and varied state and local court jurisdictions."
         ],
         "nextExperiment": {
-          "what": "Interview 5 process servers, asking them to walk through their current process for creating an Affidavit of Service. The goal is to observe the tools they use, the time it takes, and the specific pain points they encounter.",
-          "cost": "$0-250 for incentives + ~15 hours of time.",
+          "what": "Create a landing page for a 'Court-Ready Affidavit of Service Generator for [Specific State]'. Detail how it ensures compliance with local court rules and automates the process. Promote it in online process server communities and measure email signups.",
+          "cost": "$100 + 10 hours",
           "duration": "2 weeks"
         },
-        "continueIf": "A majority of interviewees describe a manual, time-consuming process using Word or PDF templates and express frustration with errors, compliance concerns, or the repetitive nature of the task.",
-        "stopIf": "Most interviewees report using a case management system that handles this well, or they state their current template-based process is fast, easy, and error-free.",
+        "continueIf": "The landing page achieves a 5% or higher conversion rate from visitors to email signups, indicating a clear interest in a specialized solution.",
+        "stopIf": "Fewer than 10 signups are collected after two weeks, suggesting the problem is not pressing or is adequately solved by existing alternatives.",
         "removedLinks": 0,
-        "downgraded": [
-          "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
-        ],
+        "downgraded": [],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
           "rejectedCitations": [],
           "irrelevantCitations": [],
-          "downgraded": [
-            "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
-          ],
+          "downgraded": [],
           "dropped": []
         },
-        "assessedAt": "2026-09-27T10:26:26.198Z",
-        "evidenceUpdatedAt": "2026-09-27T10:20:15.778Z"
+        "assessedAt": "2026-09-27T11:01:09.917Z",
+        "evidenceUpdatedAt": "2026-09-27T10:59:06.484Z"
       }
     },
     {
@@ -3831,15 +4129,34 @@
       "status": "charged",
       "budget": "recorded",
       "costEstimated": false
+    },
+    {
+      "at": "2026-09-27T10:58:36.387Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "a650d0f8-dd6c-5b55-90af-1b7f052391a2",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-27T10:58:42.835Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "1f7309b4-23ae-5bec-af2b-f520fbb43201",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
     }
   ],
   "provider": {
     "status": "live",
     "reason": null,
-    "warnings": [
-      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
-      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
-    ]
+    "warnings": []
   },
   "budget": {
     "backend": "git-ledger",
@@ -3851,14 +4168,14 @@
       "month": "2026-09",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.6246,
+      "chargedUsd": 0.64944,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.3754
+      "remainingUsd": 1.35056
     },
-    "monthToDateUsdBefore": 0.6246,
-    "spentThisRunUsd": 0.02484
+    "monthToDateUsdBefore": 0.64944,
+    "spentThisRunUsd": 0.004
   },
   "marketSupport": {
     "united states|en": {
@@ -3869,29 +4186,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 27,
-    "keywordsFromCache": 0,
-    "labsUsd": 0.01524,
-    "serpQueries": 6,
-    "serpsFromCache": 0,
-    "serpUsd": 0.012,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 18,
+    "labsUsd": 0,
+    "serpQueries": 2,
+    "serpsFromCache": 2,
+    "serpUsd": 0.004,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 27
+        "ideas": 2,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.02724,
-    "reservedUsd": 0.029964
+    "totalUsd": 0.004,
+    "reservedUsd": 0.0044
   },
   "lastGather": {
-    "at": "2026-09-27T10:20:15.779Z",
+    "at": "2026-09-27T10:59:06.484Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.02484,
+    "pendingIdeas": 2,
+    "spentUsd": 0.004,
     "note": null
   }
 }

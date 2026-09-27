@@ -5834,6 +5834,155 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://superconstruct.io/schedule-of-values/": {
+      "fetchedAt": "2026-09-27T10:59:05.334Z",
+      "data": {
+        "url": "https://superconstruct.io/schedule-of-values/",
+        "finalUrl": "https://superconstruct.io/schedule-of-values/",
+        "retrievedAt": "2026-09-27T10:59:05.334Z",
+        "status": 200,
+        "error": null,
+        "title": "Schedule of Values (SOV) Management Software",
+        "description": "Create, approve and lock Schedule of Values with divisions, tasks, comments and change-order controls for accurate construction billing. Fast. Clear. Simple.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://superconstruct.io/pricing": {
+      "fetchedAt": "2026-09-27T10:59:05.335Z",
+      "data": {
+        "url": "https://superconstruct.io/pricing",
+        "finalUrl": "https://superconstruct.io/pricing/",
+        "retrievedAt": "2026-09-27T10:59:05.335Z",
+        "status": 200,
+        "error": null,
+        "title": "Construction Management Software Pricing | SuperConstruct",
+        "description": "Construction management software pricing and plans for contractors, owners, cities and teams - see what SuperConstruct costs and what&#x27;s included.",
+        "priceMentions": [
+          {
+            "text": "$299",
+            "billingUnit": false,
+            "context": "Support and Storage Exclusive early access to new features $299 Per project Per Month Start Your Free Trial Frequently Aske"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.onarchipelago.com/blog/sov-tools": {
+      "fetchedAt": "2026-09-27T10:59:05.331Z",
+      "data": {
+        "url": "https://www.onarchipelago.com/blog/sov-tools",
+        "finalUrl": "https://www.onarchipelago.com/blog/sov-tools",
+        "retrievedAt": "2026-09-27T10:59:05.331Z",
+        "status": 200,
+        "error": null,
+        "title": "4 SOV Insurance Broker Tools to Evaluate in 2026 and Beyond",
+        "description": "Excel wasn",
+        "priceMentions": [
+          {
+            "text": "$400 per month",
+            "billingUnit": true,
+            "context": "individual brokers on a per-seat license basis, starting at $400 per month. Cons: Priced Per User : The full Archipelago suite is curr"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.onarchipelago.com/pricing": {
+      "fetchedAt": "2026-09-27T10:59:05.333Z",
+      "data": {
+        "url": "https://www.onarchipelago.com/pricing",
+        "finalUrl": "https://www.onarchipelago.com/pricing",
+        "retrievedAt": "2026-09-27T10:59:05.333Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.proofserve.com/pricing": {
+      "fetchedAt": "2026-09-27T10:59:05.879Z",
+      "data": {
+        "url": "https://www.proofserve.com/pricing",
+        "finalUrl": "https://www.proofserve.com/pricing",
+        "retrievedAt": "2026-09-27T10:59:05.879Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing",
+        "description": "Proof&#x27;s service of process platform starts as low as $75 per serve. No hidden fees and no nickle-and-diming. Our pricing is simple, fair, and commitment-free.",
+        "priceMentions": [
+          {
+            "text": "$75",
+            "billingUnit": false,
+            "context": "tion\":\"Proof's service of process platform starts as low as $75 per serve. No hidden fees and no nickle-and-diming. Our pri"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "ts to reach areas.\",\"name\":\"Extended Travel Areas\",\"price\":\"$50+\",\"server_cut\":false,\"server_price\":\"$27.5+\",\"state_id\":6},"
+          },
+          {
+            "text": "$27.5",
+            "billingUnit": false,
+            "context": "el Areas\",\"price\":\"$50+\",\"server_cut\":false,\"server_price\":\"$27.5+\",\"state_id\":6},{\"id\":80,\"created_at\":-62135596800000,\"upda"
+          },
+          {
+            "text": "$2",
+            "billingUnit": false,
+            "context": "ount will be charged for printing \\u0026 delivery of check. $2 min / $25 max.\",\"name\":\"Witness Fee Convenience Charge\",\"pr"
+          },
+          {
+            "text": "$25",
+            "billingUnit": false,
+            "context": "be charged for printing \\u0026 delivery of check. $2 min / $25 max.\",\"name\":\"Witness Fee Convenience Charge\",\"price\":\"10%\""
+          },
+          {
+            "text": "$41.25",
+            "billingUnit": false,
+            "context": "ison Serve\",\"price\":\"$75\",\"server_cut\":true,\"server_price\":\"$41.25\",\"state_id\":6},{\"id\":83,\"created_at\":-62135596800000,\"updat"
+          },
+          {
+            "text": "$150",
+            "billingUnit": false,
+            "context": ". 3 hour minimum.\",\"name\":\"On-demand Surveillance\",\"price\":\"$150/hour\",\"server_cut\":false,\"server_price\":\"Up to $41.25/hour\""
+          },
+          {
+            "text": "$38.25",
+            "billingUnit": false,
+            "context": "tive Order\",\"price\":\"$75\",\"server_cut\":true,\"server_price\":\"$38.25\",\"state_id\":6},{\"id\":479,\"created_at\":-62135596800000,\"upda"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.proofserve.com/learn/process-server-best-practices/what-makes-an-affidavit-of-service-defective": {
+      "fetchedAt": "2026-09-27T10:59:05.878Z",
+      "data": {
+        "url": "https://www.proofserve.com/learn/process-server-best-practices/what-makes-an-affidavit-of-service-defective",
+        "finalUrl": "https://www.proofserve.com/learn/process-server-best-practices/what-makes-an-affidavit-of-service-defective",
+        "retrievedAt": "2026-09-27T10:59:05.878Z",
+        "status": 200,
+        "error": null,
+        "title": "What Makes an Affidavit of Service Defective? | Proof",
+        "description": "Prevent your affidavits of service from being rejected. Learn about notarization rules that vary by jurisdiction, what to ask your process server, and compliant paper trails.",
+        "priceMentions": [
+          {
+            "text": "$40",
+            "billingUnit": false,
+            "context": "th the subpoena itself. In federal cases, the fee is set at $40 per day of attendance plus mileage. \",\"type\":\"text\",\"marks\""
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }
