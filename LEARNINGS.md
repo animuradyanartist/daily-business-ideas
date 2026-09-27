@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-27 (trends)
+- The most potent B2B software opportunities often lie in the unglamorous data collection and documentation workflows that precede the work done in major "systems of record."
+- A proxy for willingness-to-pay for risk-mitigation software is the existing spend on insurance premiums designed to cover that exact risk.
+- For fragmented, non-technical SMB markets, the most effective wedge against complex, all-in-one incumbents is a simple, standalone tool that perfectly solves the single most terrifying or tedious part of their job.
+- A successful vertical SaaS business can be built by unbundling a single, high-pain workflow and executing it better than the bundled, legacy alternative.
+
+---
+
 ## 2026-09-27
 *   The most potent B2B software opportunities often lie in the unglamorous data collection workflows that precede the work done in major "systems of record."
 *   A proxy for willingness-to-pay for risk-mitigation software is the existing spend on insurance premiums designed to cover that exact risk.

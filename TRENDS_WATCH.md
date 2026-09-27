@@ -426,6 +426,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Cremation Compliance & Operations** · Using AI to automate the high-friction, high-risk administrative workflows for funeral homes and crematories. · flagged 2026-09-26 · last checked 2026-09-26 · [origin memo](trends/2026-09-26.md)
 - **AI Co-pilots for Eldercare Navigation** · Using AI-powered tools to help families manage the complex process of finding and coordinating senior care. · flagged 2026-09-26 · last checked 2026-09-26 · [origin memo](trends/2026-09-26.md)
 - **AI-Powered Music Licensing for Video Content** · Using integrated AI platforms to generate and commercially license custom music for video, film, and ads. · flagged 2026-09-26 · last checked 2026-09-26 · [origin memo](trends/2026-09-26.md)
+- **AI-Automated Workplace Safety (EHS) Compliance** · Using AI to automate safety monitoring, risk prediction, and compliance reporting for SMBs. · flagged 2026-09-27 · last checked 2026-09-27 · [origin memo](trends/2026-09-27.md)
+- **AI-Powered "Game Master" for TTRPGs** · Using AI tools to automate the preparation and management of tabletop role-playing games. · flagged 2026-09-27 · last checked 2026-09-27 · [origin memo](trends/2026-09-27.md)
+- **AI-Assisted "Pro Se" Legal Document Generation** · Using AI to draft court documents for self-representation, creating a need for "guardrail" tools and education. · flagged 2026-09-27 · last checked 2026-09-27 · [origin memo](trends/2026-09-27.md)
 
 
 ## ➡️ Active — plateauing
@@ -717,3 +720,5 @@ _(empty)_
 <!-- 2026-09-25 status-update directive: 🚀 | AI-Assisted UX Research Synthesis -->
 
 <!-- 2026-09-26 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
+
+<!-- 2026-09-27 status-update directive: 🚀 | Conversational AI Language Tutors -->
