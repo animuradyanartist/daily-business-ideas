@@ -6,8 +6,8 @@
     "memo": "ideas/2026-09-28.md"
   },
   "createdAt": "2026-09-28T11:21:44.420Z",
-  "updatedAt": "2026-09-28T11:21:44.421Z",
-  "attempts": 1,
+  "updatedAt": "2026-09-28T12:15:12.741Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -87,8 +87,8 @@
           ]
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -690,6 +690,98 @@
               "class": "site"
             }
           ]
+        },
+        {
+          "id": "S2",
+          "query": "dental lab lost case",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-28T12:15:16.625Z",
+          "checkUrl": "https://www.google.com/search?q=dental%20lab%20lost%20case&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/allon4implants/posts/1450474456668852/",
+              "title": "Anyone have the Dentist call and tell you they lost your ...",
+              "description": "“If the case was scanned digitally at any stage, there should typically be a backup file stored by either the lab or the clinic. Read more",
+              "id": "S2.2",
+              "class": "discussion"
+            },
+            {
+              "rank": 3,
+              "domain": "www.nextdentallab.com",
+              "url": "https://www.nextdentallab.com/dental-lab-case-submission-checklist/",
+              "title": "Dental Lab Case Submission Checklist for Dentists",
+              "description": "Jun 18, 2026 — Every case must have a full patient name, tooth number, and due date. You also need to list the material and shade to avoid delays.",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/legaladvice/comments/cnaxsk/i_work_for_a_dental_lab_and_we_have_a_reoccurring/",
+              "title": "I work for a dental lab and we have a reoccurring patient ...",
+              "description": "So I work for a dental lab and we have 1 patient that has had all of his teeth remade over 200+ times and counting. Read more",
+              "id": "S2.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "www.roedentallab.com",
+              "url": "https://www.roedentallab.com/knowledge-base/what-if-the-physical-case-is-missing",
+              "title": "What if the physical case is missing?",
+              "description": "If a case appears to be missing. For help with your current and/or next case, contact ROE Dental Laboratory: Phone: (216) 663-2233 Email: info@roedentallab.com",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.dentallabguru.com",
+              "url": "https://www.dentallabguru.com/dental-lab-case-management-software",
+              "title": "Dental Lab Case Management Software",
+              "description": "Dental Lab Guru is dental lab case management software that tracks cases from intake to delivery, with deadlines, statuses, tasks, files, and dentist…",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.avvo.com",
+              "url": "https://www.avvo.com/legal-answers/can-i-sue-a-dental-lab-for-losing-my-impressions--600720.html",
+              "title": "Can I sue a dental lab for losing my impressions?",
+              "description": "Dec 27, 2011 — The lab that misplaced(?) your molds should make the new ones for free as a matter of accomodation. Any damages (losses) you have do not rise ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.ddslab.com",
+              "url": "https://www.ddslab.com/send-a-case/",
+              "title": "Send your patient's case to DDS Lab",
+              "description": "Everything you need to send your case to DDS Lab. Case Packing & Sending Case Scheduling Guide … in one convenient document. track your patient's case in real- ...",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.justanswer.com",
+              "url": "https://www.justanswer.com/business-law/2mgd8-does-dental-lab-right-hold-patient-cases.html",
+              "title": "Can a Dental Lab Hold Cases for Unpaid Dentists?",
+              "description": "Aug 2, 2017 — Dental labs often have contractual rights to withhold patient cases if a prescribing dentist is significantly overdue on payments, such as 90 days past due. Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/61553607652988/posts/when-a-crown-fails-dentist-or-dental-labwhos-really-responsibledentist-dentallab/122253413012120255/",
+              "title": "When a Crown Fails: Dentist or Dental Lab—Who's Really ...",
+              "description": "The Quality Problem Dentist Struggle: Crowns that don't fit. Shades that miss. Margins that feel off. You fix what shouldn't need fixing. Lab ... Read more",
+              "id": "S2.11",
+              "class": "discussion"
+            }
+          ]
         }
       ],
       "pages": [
@@ -771,56 +863,36 @@
         },
         {
           "id": "P5",
-          "domain": "seazona.com",
-          "url": "https://www.seazona.com/",
-          "finalUrl": "https://www.seazona.com/",
-          "retrievedAt": "2026-09-28T11:23:04.609Z",
+          "domain": "nextdentallab.com",
+          "url": "https://www.nextdentallab.com/dental-lab-case-submission-checklist/",
+          "finalUrl": "https://www.nextdentallab.com/dental-lab-case-submission-checklist/",
+          "retrievedAt": "2026-09-28T12:15:23.130Z",
           "status": 200,
           "error": null,
-          "title": "Seazona - Dental Lab Software",
-          "description": null,
+          "title": "Dental Lab Case Submission Checklist for Dentists",
+          "description": "Get the dental lab case submission checklist for clearer physical and digital submissions. Review the steps and prepare your next case.",
           "priceMentions": [
             {
-              "text": "$250,000",
+              "text": "$50",
               "billingUnit": false,
-              "context": "is akin to herding cats on a good day. We processed around $250,000 worth of retainers, study casts, and appliances in 2017. Us"
-            },
-            {
-              "text": "$89 /month",
-              "billingUnit": true,
-              "context": "ures & Integrations → Starter Core features to run your lab $89 /month 250 Cases 3 Lab Users Case Management Billing & Payments Sh"
-            },
-            {
-              "text": "$129 /month",
-              "billingUnit": true,
-              "context": "e Starter Most Popular Professional Includes Starter, plus: $129 /month 500 Cases 12 Lab Users Doctor Portal Technician Portal Mobi"
-            },
-            {
-              "text": "$249 /month",
-              "billingUnit": true,
-              "context": "ns Choose Professional Premier Includes Professional, plus: $249 /month 1,200 Cases 24 Lab Users Dashboard Insights Team Messaging"
-            },
-            {
-              "text": "$599/month",
-              "billingUnit": true,
-              "context": "er custom pricing for higher volumes or unlimited cases for $599/month. Please contact sales at +1 (480) 435-2747 or by email [ema"
+              "context": "Dentists Skip to content Register your office to receive a $50 credit towards your first case. EN FR 833-400-5443 Make a P"
             }
           ],
           "mentionsFreeTrial": false,
-          "mentionsContactSales": true,
+          "mentionsContactSales": false,
           "mentionsPricing": true
         },
         {
           "id": "P6",
-          "domain": "seazona.com",
-          "url": "https://www.seazona.com/pricing",
-          "finalUrl": "https://www.seazona.com/pricing",
-          "retrievedAt": "2026-09-28T11:23:04.611Z",
+          "domain": "nextdentallab.com",
+          "url": "https://www.nextdentallab.com/pricing",
+          "finalUrl": "https://www.nextdentallab.com/pricing",
+          "retrievedAt": "2026-09-28T12:15:23.132Z",
           "status": 404,
           "error": "HTTP 404"
         }
       ],
-      "reason": "search results for \"dental lab lost case\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "reason": null,
       "readings": {
         "demand": {
           "level": "unknown",
@@ -828,7 +900,7 @@
           "upTo": null,
           "classified": true,
           "measuredCount": 0,
-          "totalCount": 2,
+          "totalCount": 4,
           "top": null,
           "category": {
             "level": "some",
@@ -846,307 +918,350 @@
             "totalCount": 0,
             "top": null
           },
-          "uncertainCount": 2,
-          "flags": [
-            {
-              "id": "K2",
-              "kind": "uncertain",
-              "text": "\"dental lab workflow problems\": relevance unclear — not counted."
-            },
-            {
-              "id": "K3",
-              "kind": "uncertain",
-              "text": "\"dental lab communication issues\": relevance unclear — not counted."
-            }
-          ],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 2 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"dental lab software\" 260/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"dental lab software\" 260/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
-          "level": "strong",
+          "level": "moderate",
           "biddingKeywordIds": [
             "K4",
             "K6"
           ],
           "pricedPageIds": [
-            "P2",
-            "P5"
+            "P2"
           ],
           "pricedDomains": [
-            "magictouchsoftware.com",
-            "seazona.com"
+            "magictouchsoftware.com"
           ],
           "pricedPlatforms": [],
-          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $52.03 on \"dental lab management system\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 2 ranking site(s): magictouchsoftware.com, seazona.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $52.03 on \"dental lab management system\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. Published offer prices seen on 1 ranking site(s): magictouchsoftware.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
         },
         "competitors": {
           "vendorLikeDomains": [
             "magictouchsoftware.com",
             "avadent.com",
+            "nextdentallab.com",
             "seazona.com",
+            "roedentallab.com",
             "softsmile.com",
+            "dentallabguru.com",
             "mainstreet-systems.com",
+            "avvo.com",
             "henryschein.com",
+            "ddslab.com",
             "curvedental.com",
+            "justanswer.com",
             "labtrac.com"
           ],
           "platformDomains": [],
-          "discussionResults": [],
+          "discussionResults": [
+            "facebook.com",
+            "reddit.com"
+          ],
           "pricedDomains": [
             "magictouchsoftware.com",
-            "avadent.com",
-            "seazona.com"
+            "avadent.com"
           ],
-          "note": "8 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on magictouchsoftware.com, avadent.com, seazona.com. Judged for relevance: 3 domain(s) with a direct competitor (same problem) (magictouchsoftware.com, mainstreet-systems.com, labtrac.com), 3 with an indirect alternative.",
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on magictouchsoftware.com, avadent.com. Judged for relevance: 1 domain(s) with a direct competitor (same problem) (dentallabguru.com), 6 with an indirect alternative.",
           "directCompetitorDomains": [
-            "magictouchsoftware.com",
-            "mainstreet-systems.com",
-            "labtrac.com"
+            "dentallabguru.com"
           ],
           "indirectAlternativeDomains": [
+            "magictouchsoftware.com",
             "seazona.com",
+            "mainstreet-systems.com",
             "henryschein.com",
-            "youtube.com"
+            "youtube.com",
+            "labtrac.com"
           ]
         }
       },
-      "evidenceFingerprint": "21ce93ccb4c16008",
-      "evidenceUpdatedAt": "2026-09-28T11:23:08.053Z",
+      "evidenceFingerprint": "cd9dc4e830dc0d3a",
+      "evidenceUpdatedAt": "2026-09-28T12:15:26.755Z",
       "matchesOriginalPick": false,
       "relevance": {
-        "at": "2026-09-28T11:30:35.164Z",
+        "at": "2026-09-28T12:16:16.109Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-09-28T11:23:08.053Z",
+        "evidenceUpdatedAt": "2026-09-28T12:15:26.755Z",
         "qualifiers": [
-          "Owner of a dental laboratory",
+          "dental laboratory owner",
           "small-to-medium-sized dental laboratory"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This search is from someone in a dental lab, likely an owner or manager, experiencing the exact problem."
+            "reason": "This search is made by a dental lab professional experiencing the exact problem the idea solves."
           },
           "K2": {
             "searcher": "includes",
-            "topic": "broader",
-            "reason": "This is likely a dental lab owner or manager, but 'workflow problems' is a broader category than just losing cases."
+            "topic": "same",
+            "reason": "This search is from a dental lab professional looking into the root causes of problems like lost cases."
           },
           "K3": {
             "searcher": "includes",
-            "topic": "broader",
-            "reason": "This is likely a dental lab owner or manager, but 'communication issues' is an adjacent problem, not the specific one of losing cases."
+            "topic": "same",
+            "reason": "This search is from a dental lab professional investigating a core reason for case errors and losses."
           },
           "K4": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This is the general software category for the target customer."
+            "reason": "This search is for the general software category that the idea's product belongs to."
           },
           "K5": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "This describes the exact solution for the target customer's problem."
+            "reason": "This search describes the exact type of solution the idea proposes for the problem."
           },
           "K6": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This is a broader software category that includes case tracking but also other functions."
+            "reason": "This search is for a broader category of software that includes case tracking as a feature."
           },
           "K7": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This shows buying intent for the general software category, not a specific tracking solution."
+            "reason": "This is a buying-intent search for the general software category the idea is in."
           },
           "K8": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This shows buying intent for the general software category."
+            "reason": "This is a high-intent search for the broader software category the idea's product fits into."
           },
           "K9": {
             "searcher": "includes",
             "topic": "category",
-            "reason": "This shows buying intent for the general software category."
+            "reason": "This is a buying-intent search related to the cost of the broader category of solutions."
           }
         },
         "items": {
           "S1.2": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
-            "problem": "same",
+            "customerMatches": [],
+            "problem": "broader",
             "offering": "yes",
-            "reason": "This is a management software for dental labs of any size, and it explicitly mentions case tracking and cutting rework."
+            "reason": "This software is for any dental lab and addresses broad issues like rework and profitability, not just lost cases."
           },
           "S1.3": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This is a list of software for any dental lab, covering general management features, not just case tracking."
+            "reason": "This is a comparison article for any dental lab or practice, covering the broad topic of lab management."
           },
           "S1.4": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This software is for any dental lab and covers many aspects of management, not just the specific problem of losing cases."
+            "reason": "This software is for any dental lab and aims to manage every aspect of the lab, a much broader problem."
           },
           "S1.6": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
-            "problem": "same",
+            "customerMatches": [],
+            "problem": "broader",
             "offering": "no",
-            "reason": "This is a list of software for any dental lab, and it specifically mentions case tracking as a feature."
+            "reason": "This is a review article for any dental lab covering broad operational software, which includes case tracking."
           },
           "S1.7": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
-            "problem": "same",
+            "customerMatches": [],
+            "problem": "broader",
             "offering": "yes",
-            "reason": "This software is for dental labs of any size and focuses on case management, which is the core problem."
+            "reason": "This software is for any dental lab using QuickBooks, addressing case management and scheduling, which is broader than just preventing lost cases."
           },
           "S1.8": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This software is for any dental lab and focuses on general operations and communication, a broader problem space."
+            "reason": "This software is for any dental lab and addresses general operational efficiency and communication."
           },
           "S1.9": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This article explains the general benefits of lab software for any dental lab, covering workflow and billing, not just case tracking."
+            "reason": "This is an informational article for any dental lab about the broad benefits of management software."
           },
           "S1.10": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This software is for 'any dental lab' and focuses on order management and billing, which is broader than just tracking cases to prevent loss."
+            "reason": "This software is for any dental lab and focuses on order management and billing, a broader problem than case tracking."
           },
           "S1.11": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This software is for any dental lab looking to scale, addressing the broad problem of managing sales and manufacturing workflows."
+          },
+          "S2.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This discussion is about a dentist losing a case sent by a lab, which is the inverse of the idea's problem."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This checklist is for dentists on how to submit cases to a lab, not for labs managing their internal workflow."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This post is from a dental lab worker about a patient requiring constant remakes, a quality issue, not a lost case issue."
+          },
+          "S2.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a support page for a lab's dentist clients about what to do if a case is missing, not for the lab itself."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
             "problem": "same",
             "offering": "yes",
-            "reason": "This platform is for any dental lab and explicitly mentions the ability to 'track' manufacturing workflows."
+            "reason": "This software is for any dental lab and directly addresses the problem of tracking cases from intake to delivery."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is from a patient's perspective, asking about suing a dental lab for losing their impressions."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is an instructional page for dentists on how to send cases to a specific lab."
+          },
+          "S2.10": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is about payment disputes between labs and dentists, not about losing track of cases."
+          },
+          "S2.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This post is for dentists complaining about the quality of work from labs, a related but different problem than a lab losing a case."
           },
           "P1": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
-            "problem": "same",
+            "customerMatches": [],
+            "problem": "broader",
             "offering": "yes",
-            "reason": "This is the homepage for a dental lab software that lists case management as a key feature, for labs of any size."
+            "reason": "This software is for any dental lab and offers a broad suite of management tools beyond just case tracking."
           },
           "P2": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
-            "problem": "same",
+            "customerMatches": [],
+            "problem": "broader",
             "offering": "yes",
-            "reason": "This pricing page for a dental lab software mentions the ability to 'track cases', addressing the core problem for labs of any size."
+            "reason": "This pricing page is for any dental lab and describes a solution for broad workflow issues, which includes case tracking."
           },
           "P3": {
             "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
+            "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This is a guide to general dental lab management software for any dental practice or lab, not specifically focused on preventing lost cases."
+            "reason": "This guide is for dental practices or labs on the general topic of lab management software, not specifically for small labs."
           },
           "P5": {
-            "customer": "broader",
-            "customerMatches": [
-              "Owner of a dental laboratory"
-            ],
-            "problem": "broader",
-            "offering": "yes",
-            "reason": "This is the homepage for a dental lab software that manages 'every aspect' of a lab, which is broader than just case tracking."
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This page is a guide for dentists on how to submit cases, not for lab owners managing their internal workflow."
           }
         },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-09-28:dental-lab-case-tracker",
-        "opportunity": "Dental labs risk losing valuable dentist accounts and wasting money on remakes when they lose track of patient cases. This is an opportunity to provide a simple case tracking system to improve a lab's reliability and efficiency.",
-        "whoPays": "The owner of a small-to-medium-sized dental laboratory pays to prevent losing high-value clients and to reduce costly operational errors. This is an inference as no direct evidence of payment was observed.",
+        "opportunity": "Provide a simple case tracking tool for small-to-medium dental labs to prevent costly errors from lost or misplaced patient cases. This helps them improve efficiency and retain their dentist clients.",
+        "whoPays": "The owner of a small-to-medium dental laboratory pays to avoid the high cost of remakes and the risk of losing valuable dentist accounts due to operational errors.",
         "problemEvidence": {
           "level": "weak",
           "basis": [
             {
-              "id": "S1.2",
-              "quote": "helps you cut rework, move cases faster"
-            },
-            {
-              "id": "P2",
-              "quote": "Simplify workflows, track cases, billing & CRM"
+              "id": "S2.6",
+              "quote": "dental lab case management software that tracks cases from intake to delivery"
             }
           ],
-          "observed": "Competitors offer software with features designed to \"cut rework, move cases faster\" and to \"Simplify workflows, track cases\".",
-          "inference": "The existence of these features implies that dental labs struggle with rework, slow case turnaround, and complex or untracked workflows. The severity and financial impact of these problems are not established by the evidence."
+          "observed": "There is at least one company offering software specifically for \"dental lab case management software that tracks cases from intake to delivery\".",
+          "inference": "The existence of a dedicated solution for case management implies that tracking cases is a challenge for dental labs. However, there is no direct evidence in the search results of lab owners themselves discussing or complaining about losing cases."
         },
         "competition": {
           "level": "some",
           "basis": [
             {
-              "id": "P1",
-              "quote": "CRM tools, case management, billing, client communications"
+              "id": "S2.6",
+              "quote": "Dental Lab Guru is dental lab case management software"
             },
             {
-              "id": "S1.7",
-              "quote": "automates case management, scheduling & QuickBooks sync"
+              "id": "S1.2",
+              "quote": "Dental lab management software that helps you cut rework"
             },
             {
-              "id": "S1.11",
-              "quote": "Control, automate, track and analyse your sales and manufacturing workflows"
-            },
-            {
-              "id": "P2",
-              "quote": "Starting at $154 /mo"
+              "id": "S1.4",
+              "quote": "Manage every aspect of your lab from one secure cloud platform"
             }
           ],
           "alternatives": [
             {
-              "name": "Magic Touch Software",
+              "name": "Dental Lab Guru",
               "type": "direct",
-              "what": "Offers dental lab management software including CRM tools, case management, billing, and client communications, with plans starting at $154/month.",
+              "what": "Offers dental lab case management software designed to track cases from the point of intake through to delivery.",
               "basis": [
                 {
-                  "id": "P1",
-                  "quote": "CRM tools, case management, billing, client communications"
-                },
-                {
-                  "id": "P2",
-                  "quote": "Best for small labs getting started Starting at $154 /mo"
+                  "id": "S2.6",
+                  "quote": "Dental Lab Guru is dental lab case management software that tracks cases from intake to delivery"
                 }
               ]
             },
             {
-              "name": "Dental Lab for QuickBooks",
-              "type": "direct",
-              "what": "Software that automates case management, scheduling, and synchronization with QuickBooks.",
+              "name": "Magic Touch",
+              "type": "indirect",
+              "what": "A comprehensive dental laboratory management software that includes case tracking, billing, and CRM to help labs reduce rework and improve profitability.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Dental lab management software that helps you cut rework, move cases faster, and build a more profitable lab. ‍ Magic Touch brings your case tracking, billing,"
+                }
+              ]
+            },
+            {
+              "name": "Seazona",
+              "type": "indirect",
+              "what": "A cloud platform to manage all aspects of a dental lab, including collaboration with doctors, shipping, and payments.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Manage every aspect of your lab from one secure cloud platform."
+                }
+              ]
+            },
+            {
+              "name": "Mainstreet Systems",
+              "type": "indirect",
+              "what": "Dental lab management software that integrates with QuickBooks and automates case management and scheduling.",
               "basis": [
                 {
                   "id": "S1.7",
@@ -1156,52 +1271,33 @@
             },
             {
               "name": "Labtrac",
-              "type": "direct",
-              "what": "A platform to control, automate, track, and analyze sales and manufacturing workflows for dental labs.",
+              "type": "indirect",
+              "what": "A platform for dental labs to control, automate, and track sales and manufacturing workflows.",
               "basis": [
                 {
                   "id": "S1.11",
                   "quote": "Control, automate, track and analyse your sales and manufacturing workflows"
                 }
               ]
-            },
-            {
-              "name": "Seazona",
-              "type": "indirect",
-              "what": "A cloud platform to manage all aspects of a dental lab, with pricing tiers based on case volume, starting at $89/month for 250 cases.",
-              "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "Manage every aspect of your lab from one secure cloud platform"
-                },
-                {
-                  "id": "P5",
-                  "quote": "Starter Core features to run your lab $89 /month 250 Cases"
-                }
-              ]
             }
           ],
           "strengths": [
             {
-              "text": "Competitors offer comprehensive management suites that include not just case tracking but also CRM, billing, and client communication tools.",
+              "text": "Existing competitors offer comprehensive, all-in-one management suites that cover case management, billing, CRM, and more.",
               "basis": [
                 {
                   "id": "P1",
-                  "quote": "CRM tools, case management, billing, client communications, custom reports, automations and more"
+                  "quote": "CRM tools, case management, billing, client communications, custom reports, automations and more."
                 }
               ],
               "kind": "observed"
             },
             {
-              "text": "There are established players with transparent monthly pricing plans.",
+              "text": "Some competitors are established, with one claiming to be trusted by over 2000 labs.",
               "basis": [
                 {
-                  "id": "P2",
-                  "quote": "Starting at $154 /mo"
-                },
-                {
-                  "id": "P5",
-                  "quote": "$89 /month 250 Cases"
+                  "id": "S1.7",
+                  "quote": "trusted by 2000+ labs in 8 countries"
                 }
               ],
               "kind": "observed"
@@ -1209,168 +1305,153 @@
           ],
           "gaps": [
             {
-              "text": "Existing competitors appear to offer full-featured, potentially complex management systems. There may be a gap for a simpler, more focused tool dedicated solely to case tracking for labs that don't need a full CRM and billing suite.",
+              "text": "The starting price for at least one comprehensive system is over $150/month, which may be too expensive for very small labs.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "Starting at $154 /mo"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Existing solutions appear to be broad management systems. There may be a gap for a simpler, more affordable tool focused exclusively on preventing lost cases for small labs that don't need a full suite.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "Dental labs are drowning in manual, paper-based systems.",
-            "finding": "The evidence shows multiple software vendors exist offering digital solutions for case management and workflow automation.",
-            "basis": [
-              {
-                "id": "S1.2",
-                "quote": "Dental lab management software"
-              },
-              {
-                "id": "S1.7",
-                "quote": "Dental Lab Management Software"
-              }
-            ],
-            "effect": "weakens"
-          },
-          {
-            "original": "pay a monthly fee for a simple barcode-based system",
-            "finding": "Competitors successfully sell software on a monthly subscription basis, with prices seen from $89 to $325 per month.",
-            "basis": [
-              {
-                "id": "P2",
-                "quote": "Starting at $154 /mo"
-              },
-              {
-                "id": "P5",
-                "quote": "$89 /month 250 Cases"
-              }
-            ],
-            "effect": "supports"
-          }
-        ],
+        "changes": [],
         "feasibility": {
-          "level": "moderate",
-          "note": "A first experiment could be a simple web application where lab staff manually update the status of a case at different workstations. This requires standard web development skills without needing specialized hardware or complex integrations."
+          "level": "easy",
+          "note": "A first experiment could be a simple web application where cases are assigned QR codes. Lab technicians could scan these codes with a phone to update the case's location and status, which is technically straightforward."
         },
         "unproven": [
-          "The actual frequency and cost of lost or delayed cases for the target customer.",
-          "Whether small labs are dissatisfied with their current systems (digital or manual).",
-          "Whether a simple, dedicated tracking tool is preferable to the existing all-in-one lab management suites.",
-          "The viability of a barcode-based system specifically."
+          "Whether losing cases is a significant, top-of-mind problem for small lab owners, or a minor annoyance.",
+          "Whether small labs would pay for a standalone tracking tool versus wanting an all-in-one management suite.",
+          "The actual financial and client-relationship cost of a lost or delayed case.",
+          "What systems (paper, whiteboard, spreadsheets) small labs currently use to track cases and if they are actively looking for an alternative."
         ],
         "nextExperiment": {
-          "what": "Interview 5-10 owners of small dental labs (5-50 technicians). Ask them to describe their step-by-step process for tracking a case. Inquire about the last time a case was misplaced or delayed and what the specific consequences were.",
-          "cost": "~$200 in gift cards + 15 hours",
+          "what": "Conduct 5-10 interviews with owners of small dental labs (5-50 technicians). The goal is to validate the problem by asking how they track cases, how often cases are lost or delayed, and what the impact is.",
+          "cost": "Time: 10-20 hours. Cash: $0-$500 for interview incentives.",
           "duration": "2-3 weeks"
         },
-        "continueIf": "At least 3 of 10 lab owners describe losing cases as a recurring, costly problem and express active frustration with their current tracking methods.",
-        "stopIf": "The majority of lab owners report that lost cases are a rare, low-impact event and are generally satisfied with their current processes."
+        "continueIf": "At least 3 of 5 lab owners describe losing or misplacing a case as a significant, costly problem that has occurred in the last year and express clear frustration with their current method.",
+        "stopIf": "The majority of lab owners do not consider lost cases a significant problem, or they are satisfied with their current, often manual, tracking systems."
       },
       "assessment": {
-        "opportunity": "Dental labs risk losing valuable dentist accounts and wasting money on remakes when they lose track of patient cases. This is an opportunity to provide a simple case tracking system to improve a lab's reliability and efficiency.",
-        "whoPays": "The owner of a small-to-medium-sized dental laboratory pays to prevent losing high-value clients and to reduce costly operational errors. This is an inference as no direct evidence of payment was observed.",
+        "opportunity": "Provide a simple case tracking tool for small-to-medium dental labs to prevent costly errors from lost or misplaced patient cases. This helps them improve efficiency and retain their dentist clients.",
+        "whoPays": "The owner of a small-to-medium dental laboratory pays to avoid the high cost of remakes and the risk of losing valuable dentist accounts due to operational errors.",
         "problemEvidence": {
           "level": "weak",
           "basis": [
             {
-              "id": "S1.2",
-              "quote": "helps you cut rework, move cases faster",
-              "domain": "magictouchsoftware.com",
+              "id": "S2.6",
+              "quote": "dental lab case management software that tracks cases from intake to delivery",
+              "domain": "dentallabguru.com",
               "kind": "S",
               "cls": "site",
               "relevance": "category",
-              "relevanceReason": "This is a management software for dental labs of any size, and it explicitly mentions case tracking and cutting rework."
-            },
-            {
-              "id": "P2",
-              "quote": "Simplify workflows, track cases, billing & CRM",
-              "domain": "magictouchsoftware.com",
-              "kind": "P",
-              "cls": "page",
-              "relevance": "category",
-              "relevanceReason": "This pricing page for a dental lab software mentions the ability to 'track cases', addressing the core problem for labs of any size."
+              "relevanceReason": "This software is for any dental lab and directly addresses the problem of tracking cases from intake to delivery."
             }
           ],
-          "observed": "Competitors offer software with features designed to \"cut rework, move cases faster\" and to \"Simplify workflows, track cases\".",
-          "inference": "The existence of these features implies that dental labs struggle with rework, slow case turnaround, and complex or untracked workflows. The severity and financial impact of these problems are not established by the evidence."
+          "observed": "There is at least one company offering software specifically for \"dental lab case management software that tracks cases from intake to delivery\".",
+          "inference": "The existence of a dedicated solution for case management implies that tracking cases is a challenge for dental labs. However, there is no direct evidence in the search results of lab owners themselves discussing or complaining about losing cases."
         },
         "competition": {
           "level": "some",
           "basis": [
             {
-              "id": "P1",
-              "quote": "CRM tools, case management, billing, client communications",
-              "domain": "magictouchsoftware.com",
-              "kind": "P",
-              "cls": "page",
-              "relevance": "direct competitor",
-              "relevanceReason": "This is the homepage for a dental lab software that lists case management as a key feature, for labs of any size."
-            },
-            {
-              "id": "S1.7",
-              "quote": "automates case management, scheduling & QuickBooks sync",
-              "domain": "mainstreet-systems.com",
+              "id": "S2.6",
+              "quote": "Dental Lab Guru is dental lab case management software",
+              "domain": "dentallabguru.com",
               "kind": "S",
               "cls": "site",
               "relevance": "direct competitor",
-              "relevanceReason": "This software is for dental labs of any size and focuses on case management, which is the core problem."
+              "relevanceReason": "This software is for any dental lab and directly addresses the problem of tracking cases from intake to delivery."
             },
             {
-              "id": "S1.11",
-              "quote": "Control, automate, track and analyse your sales and manufacturing workflows",
-              "domain": "labtrac.com",
+              "id": "S1.2",
+              "quote": "Dental lab management software that helps you cut rework",
+              "domain": "magictouchsoftware.com",
               "kind": "S",
               "cls": "site",
-              "relevance": "direct competitor",
-              "relevanceReason": "This platform is for any dental lab and explicitly mentions the ability to 'track' manufacturing workflows."
+              "relevance": "indirect alternative",
+              "relevanceReason": "This software is for any dental lab and addresses broad issues like rework and profitability, not just lost cases."
             },
             {
-              "id": "P2",
-              "quote": "Starting at $154 /mo",
-              "domain": "magictouchsoftware.com",
-              "kind": "P",
-              "cls": "page",
-              "relevance": "direct competitor",
-              "relevanceReason": "This pricing page for a dental lab software mentions the ability to 'track cases', addressing the core problem for labs of any size."
+              "id": "S1.4",
+              "quote": "Manage every aspect of your lab from one secure cloud platform",
+              "domain": "seazona.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This software is for any dental lab and aims to manage every aspect of the lab, a much broader problem."
             }
           ],
           "directCompetitors": [
+            "dentallabguru.com"
+          ],
+          "indirectAlternatives": [
             "magictouchsoftware.com",
+            "seazona.com",
             "mainstreet-systems.com",
             "labtrac.com"
           ],
-          "indirectAlternatives": [
-            "seazona.com"
-          ],
           "alternatives": [
             {
-              "name": "Magic Touch Software",
+              "name": "Dental Lab Guru",
               "type": "direct",
-              "what": "Offers dental lab management software including CRM tools, case management, billing, and client communications, with plans starting at $154/month.",
+              "what": "Offers dental lab case management software designed to track cases from the point of intake through to delivery.",
               "basis": [
                 {
-                  "id": "P1",
-                  "quote": "CRM tools, case management, billing, client communications",
-                  "domain": "magictouchsoftware.com",
-                  "kind": "P",
-                  "cls": "page",
+                  "id": "S2.6",
+                  "quote": "Dental Lab Guru is dental lab case management software that tracks cases from intake to delivery",
+                  "domain": "dentallabguru.com",
+                  "kind": "S",
+                  "cls": "site",
                   "relevance": "direct competitor",
-                  "relevanceReason": "This is the homepage for a dental lab software that lists case management as a key feature, for labs of any size."
-                },
-                {
-                  "id": "P2",
-                  "quote": "Best for small labs getting started Starting at $154 /mo",
-                  "domain": "magictouchsoftware.com",
-                  "kind": "P",
-                  "cls": "page",
-                  "relevance": "direct competitor",
-                  "relevanceReason": "This pricing page for a dental lab software mentions the ability to 'track cases', addressing the core problem for labs of any size."
+                  "relevanceReason": "This software is for any dental lab and directly addresses the problem of tracking cases from intake to delivery."
                 }
               ]
             },
             {
-              "name": "Dental Lab for QuickBooks",
-              "type": "direct",
-              "what": "Software that automates case management, scheduling, and synchronization with QuickBooks.",
+              "name": "Magic Touch",
+              "type": "indirect",
+              "what": "A comprehensive dental laboratory management software that includes case tracking, billing, and CRM to help labs reduce rework and improve profitability.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Dental lab management software that helps you cut rework, move cases faster, and build a more profitable lab. ‍ Magic Touch brings your case tracking, billing,",
+                  "domain": "magictouchsoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This software is for any dental lab and addresses broad issues like rework and profitability, not just lost cases."
+                }
+              ]
+            },
+            {
+              "name": "Seazona",
+              "type": "indirect",
+              "what": "A cloud platform to manage all aspects of a dental lab, including collaboration with doctors, shipping, and payments.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Manage every aspect of your lab from one secure cloud platform.",
+                  "domain": "seazona.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This software is for any dental lab and aims to manage every aspect of the lab, a much broader problem."
+                }
+              ]
+            },
+            {
+              "name": "Mainstreet Systems",
+              "type": "indirect",
+              "what": "Dental lab management software that integrates with QuickBooks and automates case management and scheduling.",
               "basis": [
                 {
                   "id": "S1.7",
@@ -1378,15 +1459,15 @@
                   "domain": "mainstreet-systems.com",
                   "kind": "S",
                   "cls": "site",
-                  "relevance": "direct competitor",
-                  "relevanceReason": "This software is for dental labs of any size and focuses on case management, which is the core problem."
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This software is for any dental lab using QuickBooks, addressing case management and scheduling, which is broader than just preventing lost cases."
                 }
               ]
             },
             {
               "name": "Labtrac",
-              "type": "direct",
-              "what": "A platform to control, automate, track, and analyze sales and manufacturing workflows for dental labs.",
+              "type": "indirect",
+              "what": "A platform for dental labs to control, automate, and track sales and manufacturing workflows.",
               "basis": [
                 {
                   "id": "S1.11",
@@ -1394,73 +1475,39 @@
                   "domain": "labtrac.com",
                   "kind": "S",
                   "cls": "site",
-                  "relevance": "direct competitor",
-                  "relevanceReason": "This platform is for any dental lab and explicitly mentions the ability to 'track' manufacturing workflows."
-                }
-              ]
-            },
-            {
-              "name": "Seazona",
-              "type": "indirect",
-              "what": "A cloud platform to manage all aspects of a dental lab, with pricing tiers based on case volume, starting at $89/month for 250 cases.",
-              "basis": [
-                {
-                  "id": "S1.4",
-                  "quote": "Manage every aspect of your lab from one secure cloud platform",
-                  "domain": "seazona.com",
-                  "kind": "S",
-                  "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This software is for any dental lab and covers many aspects of management, not just the specific problem of losing cases."
-                },
-                {
-                  "id": "P5",
-                  "quote": "Starter Core features to run your lab $89 /month 250 Cases",
-                  "domain": "seazona.com",
-                  "kind": "P",
-                  "cls": "page",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This is the homepage for a dental lab software that manages 'every aspect' of a lab, which is broader than just case tracking."
+                  "relevanceReason": "This software is for any dental lab looking to scale, addressing the broad problem of managing sales and manufacturing workflows."
                 }
               ]
             }
           ],
           "strengths": [
             {
-              "text": "Competitors offer comprehensive management suites that include not just case tracking but also CRM, billing, and client communication tools.",
+              "text": "Existing competitors offer comprehensive, all-in-one management suites that cover case management, billing, CRM, and more.",
               "basis": [
                 {
                   "id": "P1",
-                  "quote": "CRM tools, case management, billing, client communications, custom reports, automations and more",
+                  "quote": "CRM tools, case management, billing, client communications, custom reports, automations and more.",
                   "domain": "magictouchsoftware.com",
-                  "kind": "P",
-                  "cls": "page",
-                  "relevance": "category",
-                  "relevanceReason": "This is the homepage for a dental lab software that lists case management as a key feature, for labs of any size."
-                }
-              ],
-              "kind": "inference"
-            },
-            {
-              "text": "There are established players with transparent monthly pricing plans.",
-              "basis": [
-                {
-                  "id": "P2",
-                  "quote": "Starting at $154 /mo",
-                  "domain": "magictouchsoftware.com",
-                  "kind": "P",
-                  "cls": "page",
-                  "relevance": "category",
-                  "relevanceReason": "This pricing page for a dental lab software mentions the ability to 'track cases', addressing the core problem for labs of any size."
-                },
-                {
-                  "id": "P5",
-                  "quote": "$89 /month 250 Cases",
-                  "domain": "seazona.com",
                   "kind": "P",
                   "cls": "page",
                   "relevance": "broader",
-                  "relevanceReason": "This is the homepage for a dental lab software that manages 'every aspect' of a lab, which is broader than just case tracking."
+                  "relevanceReason": "This software is for any dental lab and offers a broad suite of management tools beyond just case tracking."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some competitors are established, with one claiming to be trusted by over 2000 labs.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "trusted by 2000+ labs in 8 countries",
+                  "domain": "mainstreet-systems.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This software is for any dental lab using QuickBooks, addressing case management and scheduling, which is broader than just preventing lost cases."
                 }
               ],
               "kind": "observed"
@@ -1468,98 +1515,58 @@
           ],
           "gaps": [
             {
-              "text": "Existing competitors appear to offer full-featured, potentially complex management systems. There may be a gap for a simpler, more focused tool dedicated solely to case tracking for labs that don't need a full CRM and billing suite.",
+              "text": "The starting price for at least one comprehensive system is over $150/month, which may be too expensive for very small labs.",
+              "basis": [
+                {
+                  "id": "P2",
+                  "quote": "Starting at $154 /mo",
+                  "domain": "magictouchsoftware.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "broader",
+                  "relevanceReason": "This pricing page is for any dental lab and describes a solution for broad workflow issues, which includes case tracking."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Existing solutions appear to be broad management systems. There may be a gap for a simpler, more affordable tool focused exclusively on preventing lost cases for small labs that don't need a full suite.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [
-          {
-            "original": "Dental labs are drowning in manual, paper-based systems.",
-            "finding": "The evidence shows multiple software vendors exist offering digital solutions for case management and workflow automation.",
-            "basis": [
-              {
-                "id": "S1.2",
-                "quote": "Dental lab management software",
-                "domain": "magictouchsoftware.com",
-                "kind": "S",
-                "cls": "site",
-                "relevance": "category",
-                "relevanceReason": "This is a management software for dental labs of any size, and it explicitly mentions case tracking and cutting rework."
-              },
-              {
-                "id": "S1.7",
-                "quote": "Dental Lab Management Software",
-                "domain": "mainstreet-systems.com",
-                "kind": "S",
-                "cls": "site",
-                "relevance": "category",
-                "relevanceReason": "This software is for dental labs of any size and focuses on case management, which is the core problem."
-              }
-            ],
-            "effect": "weakens"
-          },
-          {
-            "original": "pay a monthly fee for a simple barcode-based system",
-            "finding": "Competitors successfully sell software on a monthly subscription basis, with prices seen from $89 to $325 per month.",
-            "basis": [
-              {
-                "id": "P2",
-                "quote": "Starting at $154 /mo",
-                "domain": "magictouchsoftware.com",
-                "kind": "P",
-                "cls": "page",
-                "relevance": "category",
-                "relevanceReason": "This pricing page for a dental lab software mentions the ability to 'track cases', addressing the core problem for labs of any size."
-              },
-              {
-                "id": "P5",
-                "quote": "$89 /month 250 Cases",
-                "domain": "seazona.com",
-                "kind": "P",
-                "cls": "page",
-                "relevance": "broader",
-                "relevanceReason": "This is the homepage for a dental lab software that manages 'every aspect' of a lab, which is broader than just case tracking."
-              }
-            ],
-            "effect": "supports"
-          }
-        ],
+        "changes": [],
         "feasibility": {
-          "level": "moderate",
-          "note": "A first experiment could be a simple web application where lab staff manually update the status of a case at different workstations. This requires standard web development skills without needing specialized hardware or complex integrations."
+          "level": "easy",
+          "note": "A first experiment could be a simple web application where cases are assigned QR codes. Lab technicians could scan these codes with a phone to update the case's location and status, which is technically straightforward."
         },
         "unproven": [
-          "The actual frequency and cost of lost or delayed cases for the target customer.",
-          "Whether small labs are dissatisfied with their current systems (digital or manual).",
-          "Whether a simple, dedicated tracking tool is preferable to the existing all-in-one lab management suites.",
-          "The viability of a barcode-based system specifically."
+          "Whether losing cases is a significant, top-of-mind problem for small lab owners, or a minor annoyance.",
+          "Whether small labs would pay for a standalone tracking tool versus wanting an all-in-one management suite.",
+          "The actual financial and client-relationship cost of a lost or delayed case.",
+          "What systems (paper, whiteboard, spreadsheets) small labs currently use to track cases and if they are actively looking for an alternative."
         ],
         "nextExperiment": {
-          "what": "Interview 5-10 owners of small dental labs (5-50 technicians). Ask them to describe their step-by-step process for tracking a case. Inquire about the last time a case was misplaced or delayed and what the specific consequences were.",
-          "cost": "~$200 in gift cards + 15 hours",
+          "what": "Conduct 5-10 interviews with owners of small dental labs (5-50 technicians). The goal is to validate the problem by asking how they track cases, how often cases are lost or delayed, and what the impact is.",
+          "cost": "Time: 10-20 hours. Cash: $0-$500 for interview incentives.",
           "duration": "2-3 weeks"
         },
-        "continueIf": "At least 3 of 10 lab owners describe losing cases as a recurring, costly problem and express active frustration with their current tracking methods.",
-        "stopIf": "The majority of lab owners report that lost cases are a rare, low-impact event and are generally satisfied with their current processes.",
+        "continueIf": "At least 3 of 5 lab owners describe losing or misplacing a case as a significant, costly problem that has occurred in the last year and express clear frustration with their current method.",
+        "stopIf": "The majority of lab owners do not consider lost cases a significant problem, or they are satisfied with their current, often manual, tracking systems.",
         "removedLinks": 0,
-        "downgraded": [
-          "strength \"Competitors offer comprehensive management suites that inclu\" observed → inference"
-        ],
+        "downgraded": [],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
           "rejectedCitations": [],
           "irrelevantCitations": [],
-          "downgraded": [
-            "strength \"Competitors offer comprehensive management suites that inclu\" observed → inference"
-          ],
+          "downgraded": [],
           "dropped": []
         },
-        "assessedAt": "2026-09-28T11:32:05.472Z",
-        "evidenceUpdatedAt": "2026-09-28T11:23:08.053Z"
+        "assessedAt": "2026-09-28T12:16:53.825Z",
+        "evidenceUpdatedAt": "2026-09-28T12:15:26.755Z"
       }
     },
     {
@@ -4981,14 +4988,23 @@
       "status": "charged",
       "budget": "recorded",
       "costEstimated": false
+    },
+    {
+      "at": "2026-09-28T12:15:16.625Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "167d026a-2261-5c2a-965f-7993d3c53215",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
     }
   ],
   "provider": {
     "status": "live",
     "reason": null,
-    "warnings": [
-      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
-    ]
+    "warnings": []
   },
   "budget": {
     "backend": "git-ledger",
@@ -5000,14 +5016,14 @@
       "month": "2026-09",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.65344,
+      "chargedUsd": 0.67628,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.34656
+      "remainingUsd": 1.32372
     },
-    "monthToDateUsdBefore": 0.65344,
-    "spentThisRunUsd": 0.02284
+    "monthToDateUsdBefore": 0.67628,
+    "spentThisRunUsd": 0.002
   },
   "marketSupport": {
     "united states|en": {
@@ -5018,29 +5034,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 25,
-    "keywordsFromCache": 2,
-    "labsUsd": 0.015,
-    "serpQueries": 5,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 9,
+    "labsUsd": 0,
+    "serpQueries": 1,
     "serpsFromCache": 1,
-    "serpUsd": 0.01,
+    "serpUsd": 0.002,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 25
+        "ideas": 1,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.025,
-    "reservedUsd": 0.0275
+    "totalUsd": 0.002,
+    "reservedUsd": 0.0022
   },
   "lastGather": {
-    "at": "2026-09-28T11:23:08.054Z",
+    "at": "2026-09-28T12:15:26.755Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.02284,
+    "pendingIdeas": 1,
+    "spentUsd": 0.002,
     "note": null
   }
 }

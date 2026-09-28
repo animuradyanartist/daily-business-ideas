@@ -6318,6 +6318,38 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.nextdentallab.com/dental-lab-case-submission-checklist/": {
+      "fetchedAt": "2026-09-28T12:15:23.130Z",
+      "data": {
+        "url": "https://www.nextdentallab.com/dental-lab-case-submission-checklist/",
+        "finalUrl": "https://www.nextdentallab.com/dental-lab-case-submission-checklist/",
+        "retrievedAt": "2026-09-28T12:15:23.130Z",
+        "status": 200,
+        "error": null,
+        "title": "Dental Lab Case Submission Checklist for Dentists",
+        "description": "Get the dental lab case submission checklist for clearer physical and digital submissions. Review the steps and prepare your next case.",
+        "priceMentions": [
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "Dentists Skip to content Register your office to receive a $50 credit towards your first case. EN FR 833-400-5443 Make a P"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.nextdentallab.com/pricing": {
+      "fetchedAt": "2026-09-28T12:15:23.132Z",
+      "data": {
+        "url": "https://www.nextdentallab.com/pricing",
+        "finalUrl": "https://www.nextdentallab.com/pricing",
+        "retrievedAt": "2026-09-28T12:15:23.132Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

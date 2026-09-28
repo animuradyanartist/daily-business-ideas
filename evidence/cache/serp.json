@@ -7762,6 +7762,82 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|dental lab lost case": {
+      "fetchedAt": "2026-09-28T12:15:16.625Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=dental%20lab%20lost%20case&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/allon4implants/posts/1450474456668852/",
+            "title": "Anyone have the Dentist call and tell you they lost your ...",
+            "description": "“If the case was scanned digitally at any stage, there should typically be a backup file stored by either the lab or the clinic. Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.nextdentallab.com",
+            "url": "https://www.nextdentallab.com/dental-lab-case-submission-checklist/",
+            "title": "Dental Lab Case Submission Checklist for Dentists",
+            "description": "Jun 18, 2026 — Every case must have a full patient name, tooth number, and due date. You also need to list the material and shade to avoid delays."
+          },
+          {
+            "rank": 4,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/legaladvice/comments/cnaxsk/i_work_for_a_dental_lab_and_we_have_a_reoccurring/",
+            "title": "I work for a dental lab and we have a reoccurring patient ...",
+            "description": "So I work for a dental lab and we have 1 patient that has had all of his teeth remade over 200+ times and counting. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.roedentallab.com",
+            "url": "https://www.roedentallab.com/knowledge-base/what-if-the-physical-case-is-missing",
+            "title": "What if the physical case is missing?",
+            "description": "If a case appears to be missing. For help with your current and/or next case, contact ROE Dental Laboratory: Phone: (216) 663-2233 Email: info@roedentallab.com"
+          },
+          {
+            "rank": 6,
+            "domain": "www.dentallabguru.com",
+            "url": "https://www.dentallabguru.com/dental-lab-case-management-software",
+            "title": "Dental Lab Case Management Software",
+            "description": "Dental Lab Guru is dental lab case management software that tracks cases from intake to delivery, with deadlines, statuses, tasks, files, and dentist…"
+          },
+          {
+            "rank": 7,
+            "domain": "www.avvo.com",
+            "url": "https://www.avvo.com/legal-answers/can-i-sue-a-dental-lab-for-losing-my-impressions--600720.html",
+            "title": "Can I sue a dental lab for losing my impressions?",
+            "description": "Dec 27, 2011 — The lab that misplaced(?) your molds should make the new ones for free as a matter of accomodation. Any damages (losses) you have do not rise ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.ddslab.com",
+            "url": "https://www.ddslab.com/send-a-case/",
+            "title": "Send your patient's case to DDS Lab",
+            "description": "Everything you need to send your case to DDS Lab. Case Packing & Sending Case Scheduling Guide … in one convenient document. track your patient's case in real- ..."
+          },
+          {
+            "rank": 10,
+            "domain": "www.justanswer.com",
+            "url": "https://www.justanswer.com/business-law/2mgd8-does-dental-lab-right-hold-patient-cases.html",
+            "title": "Can a Dental Lab Hold Cases for Unpaid Dentists?",
+            "description": "Aug 2, 2017 — Dental labs often have contractual rights to withhold patient cases if a prescribing dentist is significantly overdue on payments, such as 90 days past due. Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/61553607652988/posts/when-a-crown-fails-dentist-or-dental-labwhos-really-responsibledentist-dentallab/122253413012120255/",
+            "title": "When a Crown Fails: Dentist or Dental Lab—Who's Really ...",
+            "description": "The Quality Problem Dentist Struggle: Crowns that don't fit. Shades that miss. Margins that feel off. You fix what shouldn't need fixing. Lab ... Read more"
+          }
+        ]
+      }
     }
   }
 }
