@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Asbestos Abatement Contractor Compliance Software | us-asbestos-abatement-compliance-software | 2026-09-28 | 100 | The Asbestos Abatement Contractor's "EPA-Proof" Waste Manifest Hub |
 | US Independent P&C Insurance Agency Software | us-independent-pc-insurance-agency-software | 2026-09-27 | 96 | The Commercial Insurance Broker's "E&O-Proof" Statement of Values (SOV) Hub |
 | US Independent Funeral Home Compliance Software | us-independent-funeral-home-compliance-software | 2026-09-26 | 100 | The Independent Funeral Home's "Lawsuit-Proof" Cremation Chain of Custody Log |
 | US Independent Auto Dealer OFAC Compliance Software | us-independent-auto-dealer-ofac-compliance-software | 2026-09-25 | 85 | The Independent Auto Dealer's "10-Year Audit-Proof" OFAC Compliance Hub |

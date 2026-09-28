@@ -5983,6 +5983,341 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://www.seazona.com/pricing": {
+      "fetchedAt": "2026-09-28T11:23:04.611Z",
+      "data": {
+        "url": "https://www.seazona.com/pricing",
+        "finalUrl": "https://www.seazona.com/pricing",
+        "retrievedAt": "2026-09-28T11:23:04.611Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.seazona.com/": {
+      "fetchedAt": "2026-09-28T11:23:04.609Z",
+      "data": {
+        "url": "https://www.seazona.com/",
+        "finalUrl": "https://www.seazona.com/",
+        "retrievedAt": "2026-09-28T11:23:04.609Z",
+        "status": 200,
+        "error": null,
+        "title": "Seazona - Dental Lab Software",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$250,000",
+            "billingUnit": false,
+            "context": "is akin to herding cats on a good day. We processed around $250,000 worth of retainers, study casts, and appliances in 2017. Us"
+          },
+          {
+            "text": "$89 /month",
+            "billingUnit": true,
+            "context": "ures & Integrations → Starter Core features to run your lab $89 /month 250 Cases 3 Lab Users Case Management Billing & Payments Sh"
+          },
+          {
+            "text": "$129 /month",
+            "billingUnit": true,
+            "context": "e Starter Most Popular Professional Includes Starter, plus: $129 /month 500 Cases 12 Lab Users Doctor Portal Technician Portal Mobi"
+          },
+          {
+            "text": "$249 /month",
+            "billingUnit": true,
+            "context": "ns Choose Professional Premier Includes Professional, plus: $249 /month 1,200 Cases 24 Lab Users Dashboard Insights Team Messaging"
+          },
+          {
+            "text": "$599/month",
+            "billingUnit": true,
+            "context": "er custom pricing for higher volumes or unlimited cases for $599/month. Please contact sales at +1 (480) 435-2747 or by email [ema"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.rev.com/blog/court-reporter-equipment-tools-software": {
+      "fetchedAt": "2026-09-28T11:23:05.234Z",
+      "data": {
+        "url": "https://www.rev.com/blog/court-reporter-equipment-tools-software",
+        "finalUrl": "https://www.rev.com/blog/court-reporter-equipment-tools-software",
+        "retrievedAt": "2026-09-28T11:23:05.234Z",
+        "status": 200,
+        "error": null,
+        "title": "11 Crucial Court Reporter Equipment, Tools, and Software | Rev",
+        "description": "Court reporters are just as important as ever, even as their technology has advanced. Here are 11 crucial court reporting tools and software.",
+        "priceMentions": [
+          {
+            "text": "$4,000",
+            "billingUnit": false,
+            "context": "it’s expensive. The best steno machines can cost more than $4,000 and even the cheaper versions run at least several hundred"
+          },
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "find a capable Windows laptop for court reporting for under $1,000. 3. Quality Microphones When making audio legal recordings,"
+          },
+          {
+            "text": "$20",
+            "billingUnit": false,
+            "context": "will do. While the cost of a good microphone varies wildly ($20 — $1,000+), the important thing is to use microphones built"
+          },
+          {
+            "text": "$75 per month",
+            "billingUnit": true,
+            "context": "like Reporter Studio Pro, are subscription-based. RS Pro is $75 per month. 5. Rev Transcription Services In lieu of expensive transcr"
+          },
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "ndependent, battery-powered backup recorder costs less than $100 but could prove to be invaluable if something in your prima"
+          },
+          {
+            "text": "$150",
+            "billingUnit": false,
+            "context": "oom is a budget-friendly example of this, costing less than $150. 9. Digital Cameras Deposition rooms are often hard-wired f"
+          },
+          {
+            "text": "$200",
+            "billingUnit": false,
+            "context": "save you in a pinch. You can find a good one for less than $200. 11. Powerstrips It might seem basic and unnecessary, but b"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "omes in handy all the time, and can be purchased for around $50. Without battery backup, your sub-$25 options are endless."
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.rev.com/pricing": {
+      "fetchedAt": "2026-09-28T11:23:05.235Z",
+      "data": {
+        "url": "https://www.rev.com/pricing",
+        "finalUrl": "https://www.rev.com/pricing",
+        "retrievedAt": "2026-09-28T11:23:05.235Z",
+        "status": 200,
+        "error": null,
+        "title": "Subscription Plans + Per-Minute Pricing | Rev",
+        "description": "Explore Rev&#x27;s pricing and subscription plans, tailored to your needs. Features include AI transcription, multi-file analysis, translation, and more.",
+        "priceMentions": [
+          {
+            "text": "$25.49 per seat",
+            "billingUnit": true,
+            "context": "able starting point for solo practitioners and small firms. $25.49 per seat/month $29.99 per seat/month Get 2 months free with annual p"
+          },
+          {
+            "text": "$29.99 per seat",
+            "billingUnit": true,
+            "context": "r solo practitioners and small firms. $25.49 per seat/month $29.99 per seat/month Get 2 months free with annual pricing 2 months free ·"
+          },
+          {
+            "text": "$305.90",
+            "billingUnit": false,
+            "context": "month Get 2 months free with annual pricing 2 months free · $305.90 billed annually Get Started Everything in Free, plus: Engli"
+          },
+          {
+            "text": "$47.99 per seat",
+            "billingUnit": true,
+            "context": "s who need more seats, more minutes, and smarter workflows. $47.99 per seat/month $59.99 per seat/month Get 2 months free with annual p"
+          },
+          {
+            "text": "$59.99 per seat",
+            "billingUnit": true,
+            "context": "more minutes, and smarter workflows. $47.99 per seat/month $59.99 per seat/month Get 2 months free with annual pricing 2 months free ·"
+          },
+          {
+            "text": "$575.88",
+            "billingUnit": false,
+            "context": "month Get 2 months free with annual pricing 2 months free · $575.88 billed annually Get Started Everything in Essentials, plus:"
+          },
+          {
+            "text": "$1.99",
+            "billingUnit": false,
+            "context": "#x27;t be compromised, 99%+ guaranteed in 12 hours or less. $1.99 /min. Save up to 15% with a subscription plan → Order Human"
+          },
+          {
+            "text": "$2.25",
+            "billingUnit": false,
+            "context": "transcripts fast — ideal for internal review and case prep. $2.25 /page Same Day to 3 days Order Legal Rough Draft Transcribe"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.soniclear.com/pricing": {
+      "fetchedAt": "2026-09-28T11:23:05.233Z",
+      "data": {
+        "url": "https://www.soniclear.com/pricing",
+        "finalUrl": "https://www.soniclear.com/pricing",
+        "retrievedAt": "2026-09-28T11:23:05.233Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.soniclear.com/court-reporting": {
+      "fetchedAt": "2026-09-28T11:23:05.232Z",
+      "data": {
+        "url": "https://www.soniclear.com/court-reporting",
+        "finalUrl": "https://www.soniclear.com/court-reporting",
+        "retrievedAt": "2026-09-28T11:23:05.232Z",
+        "status": 200,
+        "error": null,
+        "title": "Court Reporting &mdash; SONICLEAR",
+        "description": "Use SoniClear Court Recorder 10 to record and transcribe legal proceedings accurately and reliably. Easy to operate and allows courts to function when a court reporter is not available.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.gallo.legal/pricing": {
+      "fetchedAt": "2026-09-28T11:23:05.231Z",
+      "data": {
+        "url": "https://www.gallo.legal/pricing",
+        "finalUrl": "https://www.gallo.legal/pricing",
+        "retrievedAt": "2026-09-28T11:23:05.231Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.gallo.legal/what-happens-if-a-court-reporter-makes-a-mistake/": {
+      "fetchedAt": "2026-09-28T11:23:05.230Z",
+      "data": {
+        "url": "https://www.gallo.legal/what-happens-if-a-court-reporter-makes-a-mistake/",
+        "finalUrl": "https://www.gallo.legal/what-happens-if-a-court-reporter-makes-a-mistake/",
+        "retrievedAt": "2026-09-28T11:23:05.230Z",
+        "status": 200,
+        "error": null,
+        "title": "What Happens if a Court Reporter Makes a Mistake? - Gallo Legal Services",
+        "description": "Do court reporters make mistakes? Errors are rare because court reporters are trained and have various methods of checking for accuracy.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://learn.sweptworks.com/cleaning-proposal-software": {
+      "fetchedAt": "2026-09-28T11:23:06.506Z",
+      "data": {
+        "url": "https://learn.sweptworks.com/cleaning-proposal-software",
+        "finalUrl": "https://learn.sweptworks.com/cleaning-proposal-software",
+        "retrievedAt": "2026-09-28T11:23:06.506Z",
+        "status": 200,
+        "error": null,
+        "title": "The Cleaning Proposal Software to Raise Excitement for Your Cleaning Company",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$1",
+            "billingUnit": false,
+            "context": "pp messages Learn more → Time Tracking Track time for about $1/day → Quality Assurance Keep quality consistent and clients"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.janitorialmanager.com/work-management-system/janitorial-bidding-software/": {
+      "fetchedAt": "2026-09-28T11:23:06.510Z",
+      "data": {
+        "url": "https://www.janitorialmanager.com/work-management-system/janitorial-bidding-software/",
+        "finalUrl": "https://www.janitorialmanager.com/work-management-system/janitorial-bidding-software/",
+        "retrievedAt": "2026-09-28T11:23:06.510Z",
+        "status": 200,
+        "error": null,
+        "title": "Janitorial Bidding Software | Cleaning Estimate Software",
+        "description": "Janitorial Bidding Software in Janitorial Manager makes estimating projects/ locations quick & easy. Remove guesswork and stress out of janitorial bidding.",
+        "priceMentions": [
+          {
+            "text": "$3,000 a month",
+            "billingUnit": true,
+            "context": "s are actually losing you money! I reduced expenses by over $3,000 a month. I HIGHLY recommend this program!\" Nicky Havican - Nicky's"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.cleanguru.com/pricing": {
+      "fetchedAt": "2026-09-28T11:23:06.509Z",
+      "data": {
+        "url": "https://www.cleanguru.com/pricing",
+        "finalUrl": "https://www.cleanguru.com/pricing",
+        "retrievedAt": "2026-09-28T11:23:06.509Z",
+        "status": 200,
+        "error": null,
+        "title": "Janitorial Cleaning Business Bidding Software | CleanGuru",
+        "description": "Plans and prices for mobile janitorial bidding software cleaning business owners use to calculate cleaning times and prices as well as create cleaning proposals",
+        "priceMentions": [
+          {
+            "text": "$159 /mo",
+            "billingUnit": true,
+            "context": "Mobile CHECKLISTS COACHING Videos INSPECTING App Guru Plus $159 /mo Start Free Trial You’ll Get ALL Modules! Janitorial Constru"
+          },
+          {
+            "text": "$129 /mo",
+            "billingUnit": true,
+            "context": "d Notifications Contact Supervisor Employee Messaging Guru! $129 /mo Start Free Trial You’ll Get ALL Modules! Janitorial Constru"
+          },
+          {
+            "text": "$79 /mo",
+            "billingUnit": true,
+            "context": "d Notifications Contact Supervisor Employee Messaging Basic $79 /mo Start Free Trial Choose 1 Module Janitorial Construction Di"
+          },
+          {
+            "text": "$5/mo",
+            "billingUnit": true,
+            "context": "TS COACHING Videos INSPECTING App Additional cleaners, just $5/mo! And More… Mobile App Express Loading Auto Follow-up Email"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://learn.sweptworks.com/pricing": {
+      "fetchedAt": "2026-09-28T11:23:06.508Z",
+      "data": {
+        "url": "https://learn.sweptworks.com/pricing",
+        "finalUrl": "https://learn.sweptworks.com/pricing",
+        "retrievedAt": "2026-09-28T11:23:06.508Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.cleanguru.com/cleanbid": {
+      "fetchedAt": "2026-09-28T11:23:06.508Z",
+      "data": {
+        "url": "https://www.cleanguru.com/cleanbid",
+        "finalUrl": "https://www.cleanguru.com/cleanbid",
+        "retrievedAt": "2026-09-28T11:23:06.508Z",
+        "status": 200,
+        "error": null,
+        "title": "Janitorial Bidding Software, Proposal | CleanGuru",
+        "description": "Janitorial bidding software helps cleaning business owners who want to know how long a cleaning job should take, how much to charge and how to create a proposal.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.janitorialmanager.com/pricing": {
+      "fetchedAt": "2026-09-28T11:23:06.511Z",
+      "data": {
+        "url": "https://www.janitorialmanager.com/pricing",
+        "finalUrl": "https://www.janitorialmanager.com/pricing",
+        "retrievedAt": "2026-09-28T11:23:06.511Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

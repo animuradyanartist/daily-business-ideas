@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-28
+- **The Dental Lab's "Never Lose a Case" Tracker** — Killed. A strong opportunity with clear business pain, but the regulatory hammer and criminal liability of the asbestos market create a more intense, non-negotiable pain.
+- **The Commercial Cleaning Company's "Win the Bid" Calculator** — Killed. This is a sales enablement tool ("vitamin"), not a compliance painkiller. The pain is losing a bid, not facing federal prison.
+- **The Court Reporter's "Bulletproof" Transcript & Exhibit Hub** — Killed. A valid workflow problem, but the market size feels smaller and less accessible than asbestos abatement contractors, who are easily identifiable through state licensing databases.
+
 ## 2026-09-27
 *   **The Process Server's "Court-Ready" Affidavit of Service Generator** — Killed. A valid pain, but the market size and ACV potential feel smaller and less certain than for commercial insurance brokers.
 *   **The HVAC Contractor's "SEER2-Compliant" Load Calculation & Proposal Generator** — Killed. This is a mix of compliance and sales enablement. The pain of non-compliance feels less severe than the E&O risk in the insurance space.

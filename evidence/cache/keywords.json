@@ -25909,6 +25909,1018 @@
       "fetchedAt": "2026-09-27T10:18:45.063Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|dental lab lost case": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab workflow problems": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab communication issues": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab tracking system": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab management system": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "dental lab management system",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 52.03,
+        "adCompetition": 0.19,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 23:51:46 +00:00"
+      }
+    },
+    "labs|united states|en|dental lab software pricing": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dental lab system cost": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|court reporter errors": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "court reporter errors",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-06-13 19:24:25 +00:00"
+      }
+    },
+    "labs|united states|en|transcript production challenges": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|managing legal exhibits": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|court reporter software": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "court reporter software",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 27.41,
+        "adCompetition": 0.2,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -21,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-09-13 10:09:54 +00:00"
+      }
+    },
+    "labs|united states|en|transcript management system": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "transcript management system",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 21:06:56 +00:00"
+      }
+    },
+    "labs|united states|en|legal exhibit management": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|court reporter software pricing": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best court reporter tools": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|transcript software cost": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|commercial cleaning quoting problems": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|how to bid cleaning jobs": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "how to bid cleaning jobs",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 10.96,
+        "adCompetition": 0.53,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -22,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 23:37:08 +00:00"
+      }
+    },
+    "labs|united states|en|cleaning business pricing challenges": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|cleaning bid software": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "cleaning bid software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 40
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.24,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 09:25:04 +00:00"
+      }
+    },
+    "labs|united states|en|commercial cleaning estimator": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|cleaning proposal template": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": true,
+      "data": {
+        "keyword": "cleaning proposal template",
+        "searchVolume": 260,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 590
+          }
+        ],
+        "cpcUsd": 5.33,
+        "adCompetition": 1,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-16 20:09:03 +00:00"
+      }
+    },
+    "labs|united states|en|cleaning bid software pricing": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best cleaning estimating tools": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|commercial cleaning software cost": {
+      "fetchedAt": "2026-09-28T11:21:48.181Z",
+      "returned": false,
+      "data": null
     }
   }
 }
