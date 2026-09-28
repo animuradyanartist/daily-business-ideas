@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-28 (trends)
+- The most powerful "why now" is often an external economic force (like a fee change) applied by a regulator to a slow-moving industry.
+- A clunky, low-adoption government system is not a threat, but a signal of opportunity. It validates the problem and provides a clear opening for a user-friendly private alternative.
+- The perceived risk of a "black swan" event (like an audit or a "never event" surgery) can be a powerful motivator if the consequences are existential (bankruptcy, loss of license) and the preventative action is low-cost.
+- Market size can be misleading. A smaller, highly-fragmented market where every single participant feels an acute, legally-mandated pain can be more valuable than a larger market with a diffuse, optional problem.
+
+---
+
 ## 2026-09-28
 - The most powerful "why now" is often an external economic force (like a fee change) applied by a regulator to a slow-moving industry.
 - A clunky, low-adoption government system is not a threat, but a signal of opportunity. It validates the problem and provides a clear opening for a user-friendly private alternative.

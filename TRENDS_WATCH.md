@@ -429,6 +429,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Workplace Safety (EHS) Compliance** · Using AI to automate safety monitoring, risk prediction, and compliance reporting for SMBs. · flagged 2026-09-27 · last checked 2026-09-27 · [origin memo](trends/2026-09-27.md)
 - **AI-Powered "Game Master" for TTRPGs** · Using AI tools to automate the preparation and management of tabletop role-playing games. · flagged 2026-09-27 · last checked 2026-09-27 · [origin memo](trends/2026-09-27.md)
 - **AI-Assisted "Pro Se" Legal Document Generation** · Using AI to draft court documents for self-representation, creating a need for "guardrail" tools and education. · flagged 2026-09-27 · last checked 2026-09-27 · [origin memo](trends/2026-09-27.md)
+- **AI-Automated Commercial Financing Disclosure Compliance** · Using AI to automate the complex calculations and generation of mandatory disclosure documents for alternative lenders. · flagged 2026-09-28 · last checked 2026-09-28 · [origin memo](trends/2026-09-28.md)
+- **AI-Assisted Prevention of "Never Events" in Surgery** · Using computer vision and data analysis to augment and verify manual safety protocols in operating rooms. · flagged 2026-09-28 · last checked 2026-09-28 · [origin memo](trends/2026-09-28.md)
+- **AI for Early Case Assessment in Litigation** · Using AI to quickly analyze the viability of potential lawsuits before committing significant legal resources. · flagged 2026-09-28 · last checked 2026-09-28 · [origin memo](trends/2026-09-28.md)
 
 
 ## ➡️ Active — plateauing
@@ -722,3 +725,5 @@ _(empty)_
 <!-- 2026-09-26 status-update directive: 🚀 | AI-Powered Conversational Trip Planning -->
 
 <!-- 2026-09-27 status-update directive: 🚀 | Conversational AI Language Tutors -->
+
+<!-- 2026-09-28 status-update directive: 🚀 | AI-Automated Workplace Safety (EHS) Compliance -->
