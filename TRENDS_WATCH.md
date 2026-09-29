@@ -432,6 +432,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Commercial Financing Disclosure Compliance** · Using AI to automate the complex calculations and generation of mandatory disclosure documents for alternative lenders. · flagged 2026-09-28 · last checked 2026-09-28 · [origin memo](trends/2026-09-28.md)
 - **AI-Assisted Prevention of "Never Events" in Surgery** · Using computer vision and data analysis to augment and verify manual safety protocols in operating rooms. · flagged 2026-09-28 · last checked 2026-09-28 · [origin memo](trends/2026-09-28.md)
 - **AI for Early Case Assessment in Litigation** · Using AI to quickly analyze the viability of potential lawsuits before committing significant legal resources. · flagged 2026-09-28 · last checked 2026-09-28 · [origin memo](trends/2026-09-28.md)
+- **AI Tutors for Professional Licensing Exams** · Using specialized AI to provide adaptive learning paths and state-specific content for high-stakes professional exams. · flagged 2026-09-29 · last checked 2026-09-29 · [origin memo](trends/2026-09-29.md)
+- **AI-Powered "Digital Twin" for SMB Operations** · Using AI to create dynamic software models of a small business's operations to simulate the impact of decisions. · flagged 2026-09-29 · last checked 2026-09-29 · [origin memo](trends/2026-09-29.md)
+- **AI-Powered "Business-in-a-Box" for Home Service Trades** · Using all-in-one AI platforms to automate the entire back-office workflow for contractors, from quoting to invoicing. · flagged 2026-09-29 · last checked 2026-09-29 · [origin memo](trends/2026-09-29.md)
 
 
 ## ➡️ Active — plateauing
@@ -727,3 +730,5 @@ _(empty)_
 <!-- 2026-09-27 status-update directive: 🚀 | Conversational AI Language Tutors -->
 
 <!-- 2026-09-28 status-update directive: 🚀 | AI-Automated Workplace Safety (EHS) Compliance -->
+
+<!-- 2026-09-29 status-update directive: 🚀 | Generative Music for Creator Content -->

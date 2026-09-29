@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-29 (trends)
+- The most potent B2B opportunities exist where a high-stakes, mandatory process (like licensing exams or back-office operations) can be automated, providing a clear ROI in both time saved and risk avoided.
+- A viable strategy is to productize the "how-to" layer on top of emerging AI platforms. As AI tools become more powerful and complex, a market emerges for toolkits that teach non-experts how to use them effectively.
+- For fragmented SMB markets (like home service trades), the winning product is often an all-in-one system that eliminates the cognitive load of managing multiple, disconnected tools.
+
+---
+
 ## 2026-09-29
 - The explosion of sophisticated, organized fraud can create an intense "why now" that turns a long-standing "vitamin" (efficiency) into a "painkiller" (existential risk mitigation).
 - A Supreme Court ruling that shifts liability onto a fragmented market of SMBs is a powerful catalyst for the adoption of compliance and due diligence software.
