@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-29
+- **The Welding Shop's "Audit-Ready" Welder Qualification & Continuity Log** — Killed. A strong opportunity, but the freight brokerage market is larger and the pain of active, intelligent fraudsters feels more acute than the passive risk of a compliance audit.
+- **The Self-Storage Operator's "Lawsuit-Proof" Lien Sale Workflow** — Killed. Previously killed due to high state-by-state legal variance, which makes a single national product too complex.
+- **The Small Construction Sub's Certified Payroll Generator** — Killed. Previously killed due to the high complexity of integrating with dozens of payroll systems.
+- **The Cannabis Dispensary's "Seed-to-Sale" Compliance Hub** — Killed. The "seed-to-sale" market is mature with established incumbents, and the high state-by-state regulatory variance adds significant complexity.
+
 ## 2026-09-28
 - **The Dental Lab's "Never Lose a Case" Tracker** — Killed. A strong opportunity with clear business pain, but the regulatory hammer and criminal liability of the asbestos market create a more intense, non-negotiable pain.
 - **The Commercial Cleaning Company's "Win the Bid" Calculator** — Killed. This is a sales enablement tool ("vitamin"), not a compliance painkiller. The pain is losing a bid, not facing federal prison.

@@ -6350,6 +6350,296 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.dat.com/onboard": {
+      "fetchedAt": "2026-09-29T11:02:25.172Z",
+      "data": {
+        "url": "https://www.dat.com/onboard",
+        "finalUrl": "https://www.dat.com/onboard",
+        "retrievedAt": "2026-09-29T11:02:25.172Z",
+        "status": 200,
+        "error": null,
+        "title": "DAT OnBoard™ - DAT",
+        "description": "Bring on carriers in minutes, not hours with DAT's onboarding service.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.descartes.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:25.176Z",
+      "data": {
+        "url": "https://www.descartes.com/pricing",
+        "finalUrl": "https://www.descartes.com/pricing",
+        "retrievedAt": "2026-09-29T11:02:25.176Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.dat.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:25.173Z",
+      "data": {
+        "url": "https://www.dat.com/pricing",
+        "finalUrl": "https://www.dat.com/load-boards",
+        "retrievedAt": "2026-09-29T11:02:25.173Z",
+        "status": 200,
+        "error": null,
+        "title": "Load Board - DAT",
+        "description": "DAT Load Board Right load. Right time. Anywhere. Already a customer? Log-in Carriers Get started Brokers Get started Shippers Get started Grow your",
+        "priceMentions": [
+          {
+            "text": "$90",
+            "billingUnit": false,
+            "context": "--> --> Load Board - DAT &times; For only $90 more , you'll get The ability to run 2 searches at once 15-"
+          },
+          {
+            "text": "$20",
+            "billingUnit": false,
+            "context": "inue with Standard Upgrade to Enhanced Now &times; For only $20 more , you'll get Access to our entire North American Marke"
+          },
+          {
+            "text": "$250",
+            "billingUnit": false,
+            "context": "ility to run 3 searches at once A credit your account up to $250 with DAT Assurance if you don’t get paid *Best for owner-op"
+          },
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "p to 10 searches at once DAT will credit your account up to $500 with DAT Assurance if you don’t get paid *Best for small fl"
+          },
+          {
+            "text": "$80",
+            "billingUnit": false,
+            "context": "ks Continue with PRO Upgrade to Select Now &times; For only $80 more , you’ll get LaneMakers (Premium), showing the top com"
+          },
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "rate with multiple users DAT will credit your account up to $1,000 with DAT Assurance if you don’t get paid *Best for mid-larg"
+          },
+          {
+            "text": "$160",
+            "billingUnit": false,
+            "context": "e spikes or drops as they’re happening. Sign Up &times; For $160 more , you’ll get: Access to the most current paid rate ave"
+          },
+          {
+            "text": "$130",
+            "billingUnit": false,
+            "context": "re! Continue with Express Upgrade to Select Now &times; For $130 more , you’ll get: Access to LaneMakers, which helps you di"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.linkedin.com/posts/rick-burnett_how-many-hours-per-day-do-you-spend-onboarding-activity-7483569021683113984-mqVX": {
+      "fetchedAt": "2026-09-29T11:02:25.174Z",
+      "data": {
+        "url": "https://www.linkedin.com/posts/rick-burnett_how-many-hours-per-day-do-you-spend-onboarding-activity-7483569021683113984-mqVX",
+        "finalUrl": "https://www.linkedin.com/posts/rick-burnett_how-many-hours-per-day-do-you-spend-onboarding-activity-7483569021683113984-mqVX",
+        "retrievedAt": "2026-09-29T11:02:25.174Z",
+        "status": 200,
+        "error": null,
+        "title": "Carrier Onboarding Bottleneck Steals Strategic Time | Ricky Burnett posted on the topic | LinkedIn",
+        "description": "How many hours per day do you spend onboarding carriers?\n\nCall after call. Email after email. Doc after doc. I keep seeing the same pattern across brokerages: teams stuck in a loop of chasing insurance certificates, W‑9s, rate confirmations, and then manually entering everything into the TMS.\n\nIt",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.descartes.com/solutions/transportation-management/carrier-onboarding-fraud-prevention": {
+      "fetchedAt": "2026-09-29T11:02:25.175Z",
+      "data": {
+        "url": "https://www.descartes.com/solutions/transportation-management/carrier-onboarding-fraud-prevention",
+        "finalUrl": "https://www.descartes.com/solutions/transportation-management/carrier-onboarding-fraud-prevention",
+        "retrievedAt": "2026-09-29T11:02:25.175Z",
+        "status": 200,
+        "error": null,
+        "title": "Carrier Onboarding & Fraud Prevention | Descartes",
+        "description": "Make sure you know who's handling your freight - simplify carrier onboarding, ensure compliance, and defend against fraud - all with one platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://esab.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:26.466Z",
+      "data": {
+        "url": "https://esab.com/pricing",
+        "finalUrl": "https://esab.com/pricing",
+        "retrievedAt": "2026-09-29T11:02:26.466Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://esab.com/ae/mea_en/products-solutions/product/welding-equipment/software/weldcloud-notes/": {
+      "fetchedAt": "2026-09-29T11:02:26.465Z",
+      "data": {
+        "url": "https://esab.com/ae/mea_en/products-solutions/product/welding-equipment/software/weldcloud-notes/",
+        "finalUrl": "https://esab.com/ae/mea_en/products-solutions/product/welding-equipment/software/weldcloud-notes/",
+        "retrievedAt": "2026-09-29T11:02:26.465Z",
+        "status": 200,
+        "error": null,
+        "title": "WeldCloud® Notes - ESAB MEA",
+        "description": "Improve your welding engineer’s productivity from the very first use. The Notes app takes the documentation of welding management off your plate, so you can spend your time doing more for your shop.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.weldtrace.com/": {
+      "fetchedAt": "2026-09-29T11:02:26.466Z",
+      "data": {
+        "url": "https://www.weldtrace.com/",
+        "finalUrl": "https://www.weldtrace.com/",
+        "retrievedAt": "2026-09-29T11:02:26.466Z",
+        "status": 200,
+        "error": null,
+        "title": "WeldTrace | Connected Welding Management",
+        "description": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.weldtrace.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:26.467Z",
+      "data": {
+        "url": "https://www.weldtrace.com/pricing",
+        "finalUrl": "https://www.weldtrace.com/plans",
+        "retrievedAt": "2026-09-29T11:02:26.467Z",
+        "status": 200,
+        "error": null,
+        "title": "Request a personalised WeldTrace quote",
+        "description": "Tell us about your welding workflows, team and deployment needs. Our sales team will tailor and approve a quotation for your organisation.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.welderqualificationtracker.com/": {
+      "fetchedAt": "2026-09-29T11:02:26.468Z",
+      "data": {
+        "url": "https://www.welderqualificationtracker.com/",
+        "finalUrl": "https://www.welderqualificationtracker.com/",
+        "retrievedAt": "2026-09-29T11:02:26.468Z",
+        "status": 200,
+        "error": null,
+        "title": "Welder Qualification Tracker",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$0 per user",
+            "billingUnit": true,
+            "context": "s are secure protected. Starter Plan Free Forever Free Plan $0 per user/month Want to experience WQT before committing? Start with"
+          },
+          {
+            "text": "$71 /month",
+            "billingUnit": true,
+            "context": "ur business operations Monthly Yearly Save 10% Professional $71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year"
+          },
+          {
+            "text": "$75",
+            "billingUnit": false,
+            "context": "ly Save 10% Professional $71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year Save 10% vs Monthly 5% First"
+          },
+          {
+            "text": "$7.1 per user",
+            "billingUnit": true,
+            "context": "ave 10% Professional $71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year Save 10% vs Monthly 5% First Year Discount"
+          },
+          {
+            "text": "$770 /year",
+            "billingUnit": true,
+            "context": "$71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year Save 10% vs Monthly 5% First Year Discount $810 $6.42 per u"
+          },
+          {
+            "text": "$810",
+            "billingUnit": false,
+            "context": "month $770 /year Save 10% vs Monthly 5% First Year Discount $810 $6.42 per user/month Features Up to 10 users Free mobile ap"
+          },
+          {
+            "text": "$6.42 per user",
+            "billingUnit": true,
+            "context": "$770 /year Save 10% vs Monthly 5% First Year Discount $810 $6.42 per user/month Features Up to 10 users Free mobile app for employees"
+          },
+          {
+            "text": "$126 /month",
+            "billingUnit": true,
+            "context": "to 10 users Free mobile app for employees Register Now Team $126 /month 10% First Month Discount $140 $6.3 per user/month $1,361 /y"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.welderqualificationtracker.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:26.468Z",
+      "data": {
+        "url": "https://www.welderqualificationtracker.com/pricing",
+        "finalUrl": "https://www.welderqualificationtracker.com/pricing",
+        "retrievedAt": "2026-09-29T11:02:26.468Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.insideselfstorage.com/legal-issues/the-fair-debt-collection-practices-act-an-overview-for-self-storage-operators": {
+      "fetchedAt": "2026-09-29T11:02:28.844Z",
+      "data": {
+        "url": "https://www.insideselfstorage.com/legal-issues/the-fair-debt-collection-practices-act-an-overview-for-self-storage-operators",
+        "finalUrl": "https://www.insideselfstorage.com/legal-issues/the-fair-debt-collection-practices-act-an-overview-for-self-storage-operators",
+        "retrievedAt": "2026-09-29T11:02:28.844Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.insideselfstorage.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:28.845Z",
+      "data": {
+        "url": "https://www.insideselfstorage.com/pricing",
+        "finalUrl": "https://www.insideselfstorage.com/pricing",
+        "retrievedAt": "2026-09-29T11:02:28.845Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://law.justia.com/pricing": {
+      "fetchedAt": "2026-09-29T11:02:28.848Z",
+      "data": {
+        "url": "https://law.justia.com/pricing",
+        "finalUrl": "https://law.justia.com/pricing",
+        "retrievedAt": "2026-09-29T11:02:28.848Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://law.justia.com/codes/michigan/chapter-570/statute-act-148-of-1985/section-570-525/": {
+      "fetchedAt": "2026-09-29T11:02:28.847Z",
+      "data": {
+        "url": "https://law.justia.com/codes/michigan/chapter-570/statute-act-148-of-1985/section-570-525/",
+        "finalUrl": "https://law.justia.com/codes/michigan/chapter-570/statute-act-148-of-1985/section-570-525/",
+        "retrievedAt": "2026-09-29T11:02:28.847Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://taxlienlady.com/WebinarTraining/TrackingYourLiens.pdf": {
+      "fetchedAt": "2026-09-29T11:02:28.846Z",
+      "data": {
+        "url": "https://taxlienlady.com/WebinarTraining/TrackingYourLiens.pdf",
+        "finalUrl": "https://taxlienlady.com/WebinarTraining/TrackingYourLiens.pdf",
+        "retrievedAt": "2026-09-29T11:02:28.846Z",
+        "status": 200,
+        "error": "not HTML (application/pdf)"
+      }
     }
   }
 }

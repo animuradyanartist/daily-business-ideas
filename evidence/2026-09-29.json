@@ -1,0 +1,4818 @@
+{
+  "schema": 1,
+  "date": "2026-09-29",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-29.md"
+  },
+  "createdAt": "2026-09-29T11:00:36.274Z",
+  "updatedAt": "2026-09-29T11:00:36.275Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-29.md",
+    "title": "The Freight Broker's \"Fraud-Proof\" Carrier Onboarding Hub",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-29:freight-broker-carrier-onboarding-hub",
+      "slug": "freight-broker-carrier-onboarding-hub",
+      "title": "The Freight Broker's \"Instant Onboarding\" Carrier Packet Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis states there are over 17,000 freight brokers in the US, proving a large addressable market."
+      },
+      "plan": {
+        "slug": "freight-broker-carrier-onboarding-hub",
+        "title": "The Freight Broker's \"Instant Onboarding\" Carrier Packet Hub",
+        "problem": "The process of onboarding a new trucking carrier is a high-friction, manual bottleneck involving document collection, verification, and agreement, leading to delays and risks.",
+        "targetCustomer": "Small to mid-sized freight brokerage (3-50 brokers).",
+        "payer": "Small to mid-sized freight brokerage.",
+        "whyPayerPays": "The brokerage pays to reduce manual, non-revenue-generating tasks, mitigate liability from non-compliant carriers, and improve operational efficiency.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis states there are over 17,000 freight brokers in the US, proving a large addressable market."
+        },
+        "keywords": {
+          "problem": [
+            "carrier onboarding bottleneck",
+            "freight broker compliance risk",
+            "trucking carrier verification"
+          ],
+          "solution": [
+            "carrier onboarding software",
+            "freight broker tools",
+            "transportation management system"
+          ],
+          "buying": [
+            "carrier onboarding cost",
+            "best freight broker software",
+            "freight broker software pricing"
+          ]
+        },
+        "serpQueries": [
+          "carrier onboarding software",
+          "carrier onboarding bottleneck"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "carrier onboarding bottleneck",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "freight broker compliance risk",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "trucking carrier verification",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "carrier onboarding software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 25.65,
+          "adCompetition": 0.15,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -20,
+          "providerUpdatedAt": "2026-09-13 04:29:03 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (30 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "freight broker tools",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 18.27,
+          "adCompetition": 0.05,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -60,
+          "providerUpdatedAt": "2026-09-13 10:06:29 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 20
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (30 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "transportation management system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 1300,
+          "cpcUsd": 31.72,
+          "adCompetition": 0.44,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -54,
+          "providerUpdatedAt": "2026-09-12 20:03:58 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 880
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 2400
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -54,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "carrier onboarding cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best freight broker software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": 33.87,
+          "adCompetition": 0.43,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -29,
+          "providerUpdatedAt": "2026-09-14 10:09:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 480
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -27,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "freight broker software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "carrier onboarding software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:45.456Z",
+          "checkUrl": "https://www.google.com/search?q=carrier%20onboarding%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/FreightBrokers/comments/1jhkjey/best_carrier_onboarding_softwares/",
+              "title": "Best Carrier Onboarding Softwares? : r/FreightBrokers",
+              "description": "I was wondering what’s the best carrier onboarding software for a small sized brokerage? We use Ascend TMS and move 100-150 loads a month. As of now, ...",
+              "id": "S1.2",
+              "class": "discussion"
+            },
+            {
+              "rank": 3,
+              "domain": "www.descartes.com",
+              "url": "https://www.descartes.com/solutions/transportation-management/carrier-onboarding-fraud-prevention",
+              "title": "Carrier Onboarding & Fraud Prevention",
+              "description": "Make sure you know who's handling your freight - simplify carrier onboarding, ensure compliance, and defend against fraud - all with one platform.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "vetcarriers.com",
+              "url": "https://vetcarriers.com/features/carrier-onboarding/",
+              "title": "Carrier Onboarding - VETCarriers",
+              "description": "Save an hour on each carrier setup by switching to our effortless onboarding software. Most carriers will have your agreement signed in two minutes or less.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.dat.com",
+              "url": "https://www.dat.com/onboard",
+              "title": "DAT OnBoard",
+              "description": "Improve the accuracy and speed of carrier onboarding · Onboard from anywhere · Get the information you need, where you need it · Make it personal. Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.mycarrierportal.com",
+              "url": "https://www.mycarrierportal.com/",
+              "title": "Descartes MyCarrierPortal: Number One Carrier Identity ...",
+              "description": "Fast and reliable carrier onboarding paired with rigorous vetting. From identity verification to real-time insurance monitoring, Descartes MyCarrierPortal ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.mcleodsoftware.com",
+              "url": "https://www.mcleodsoftware.com/solutions/carrier-management/",
+              "title": "Carrier Management",
+              "description": "Carrier Onboarding Accelerate onboarding with a fully automated, paperless system that qualifies carriers using customizable rules and workflows.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "fareye.com",
+              "url": "https://fareye.com/resources/blogs/carrier-onboarding-software",
+              "title": "Smarter Carrier Onboarding Software for 3PLs and Shippers",
+              "description": "Apr 29, 2026 — Carrier onboarding software is a digital solution that streamlines the qualification and activation of freight carriers for retailers.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "carrierpacket.link",
+              "url": "https://carrierpacket.link/carrier-onboarding",
+              "title": "Verified, Vetted, and Signed in Minutes | CarrierPacket.Link",
+              "description": "Aug 29, 2026 — CarrierPacket.Link is carrier onboarding software for freight brokers — broker-branded, embeddable, with real-time FMCSA verification, ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.goodship.io",
+              "url": "https://www.goodship.io/carrier-management",
+              "title": "Carrier Performance Management & Scorecard Software",
+              "description": "Empower carriers with self-service scorecards and communication tools. Use GoodShip's carrier management platform to track performance and resolve issues in ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "carrier onboarding bottleneck",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:01:05.460Z",
+          "checkUrl": "https://www.google.com/search?q=carrier%20onboarding%20bottleneck&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/posts/rick-burnett_how-many-hours-per-day-do-you-spend-onboarding-activity-7483569021683113984-mqVX",
+              "title": "Carrier Onboarding Bottleneck Steals Strategic Time",
+              "description": "It's not just busywork — it's a bottleneck that steals strategic time. Smaller carriers get missed. Rates sit unconfirmed. Loads sit in limbo while someone ...",
+              "id": "S2.2",
+              "class": "platform"
+            },
+            {
+              "rank": 3,
+              "domain": "onramp.us",
+              "url": "https://onramp.us/blog/enterprise-onboarding-bottlenecks",
+              "title": "How to Fix Enterprise Onboarding Bottlenecks in 2026",
+              "description": "Enterprise onboarding bottlenecks are wait time, not workload. The six most common bottlenecks, how to diagnose each in 30 days, and 2026 benchmarks.",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "agentsync.io",
+              "url": "https://agentsync.io/blog/ease-of-doing-business/producer-to-carrier-onboarding-doesnt-have-to-suck-7-best-practices-to-drive-efficiencies-in-the-contracting-process",
+              "title": "Producer-to-Carrier Onboarding Doesn't Have To Suck",
+              "description": "Nov 25, 2025 — Bottlenecks in the contracting and appointment process prolong your producers' ready-to-sell timelines. Currently, the producer-to-carrier ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.zineps.com",
+              "url": "https://www.zineps.com/blog/carrier-onboarding-automation?lang=en",
+              "title": "Carrier Onboarding Automation for Scalable Logistics",
+              "description": "Feb 25, 2026 — Manual carrier onboarding is often one of the biggest hidden bottlenecks in logistics growth. Carrier onboarding automation solves this ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.dat.com",
+              "url": "https://www.dat.com/resources/carrier-onboarding-guide",
+              "title": "Best practices for carrier onboarding: What every broker ...",
+              "description": "Discover what carrier onboarding is, why it's important, and how you can optimize the process with the right tools, such as DAT OnBoard.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "owlery.ai",
+              "url": "https://owlery.ai/glossary/carrier-onboarding",
+              "title": "What is Carrier Onboarding?",
+              "description": "Feb 19, 2026 — Carrier onboarding is the process of bringing a new trucking company into your approved carrier network so they can begin hauling your freight.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "truckstop.com",
+              "url": "https://truckstop.com/blog/broker-carrier-packets/",
+              "title": "Broker Carrier Packets and Ways to Simplify Onboarding",
+              "description": "Dec 29, 2024 — Additionally, digital processes reduce bottlenecks to make tracking packet status easier and faster.",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.magnumsoftwareservices.com",
+              "url": "https://www.magnumsoftwareservices.com/blog/mga-producer-onboarding-credentialing.html",
+              "title": "Producer Onboarding Bottleneck: Credentialing Velocity for MGAs",
+              "description": "MGAs sign strong retail agencies, then lose months to credentialing paperwork. Why producer onboarding stalls, what the delay costs, and how automated ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "martinfowler.com",
+              "url": "https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html",
+              "title": "Bottleneck #06: Onboarding",
+              "description": "Jan 31, 2024 — In this article we will explore signs that your company is bottlenecked by an ineffective onboarding process, and the best practice solutions ...",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "dat.com",
+          "url": "https://www.dat.com/onboard",
+          "finalUrl": "https://www.dat.com/onboard",
+          "retrievedAt": "2026-09-29T11:02:25.172Z",
+          "status": 200,
+          "error": null,
+          "title": "DAT OnBoard™ - DAT",
+          "description": "Bring on carriers in minutes, not hours with DAT's onboarding service.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "dat.com",
+          "url": "https://www.dat.com/pricing",
+          "finalUrl": "https://www.dat.com/load-boards",
+          "retrievedAt": "2026-09-29T11:02:25.173Z",
+          "status": 200,
+          "error": null,
+          "title": "Load Board - DAT",
+          "description": "DAT Load Board Right load. Right time. Anywhere. Already a customer? Log-in Carriers Get started Brokers Get started Shippers Get started Grow your",
+          "priceMentions": [
+            {
+              "text": "$90",
+              "billingUnit": false,
+              "context": "--> --> Load Board - DAT &times; For only $90 more , you'll get The ability to run 2 searches at once 15-"
+            },
+            {
+              "text": "$20",
+              "billingUnit": false,
+              "context": "inue with Standard Upgrade to Enhanced Now &times; For only $20 more , you'll get Access to our entire North American Marke"
+            },
+            {
+              "text": "$250",
+              "billingUnit": false,
+              "context": "ility to run 3 searches at once A credit your account up to $250 with DAT Assurance if you don’t get paid *Best for owner-op"
+            },
+            {
+              "text": "$500",
+              "billingUnit": false,
+              "context": "p to 10 searches at once DAT will credit your account up to $500 with DAT Assurance if you don’t get paid *Best for small fl"
+            },
+            {
+              "text": "$80",
+              "billingUnit": false,
+              "context": "ks Continue with PRO Upgrade to Select Now &times; For only $80 more , you’ll get LaneMakers (Premium), showing the top com"
+            },
+            {
+              "text": "$1,000",
+              "billingUnit": false,
+              "context": "rate with multiple users DAT will credit your account up to $1,000 with DAT Assurance if you don’t get paid *Best for mid-larg"
+            },
+            {
+              "text": "$160",
+              "billingUnit": false,
+              "context": "e spikes or drops as they’re happening. Sign Up &times; For $160 more , you’ll get: Access to the most current paid rate ave"
+            },
+            {
+              "text": "$130",
+              "billingUnit": false,
+              "context": "re! Continue with Express Upgrade to Select Now &times; For $130 more , you’ll get: Access to LaneMakers, which helps you di"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "linkedin.com",
+          "url": "https://www.linkedin.com/posts/rick-burnett_how-many-hours-per-day-do-you-spend-onboarding-activity-7483569021683113984-mqVX",
+          "finalUrl": "https://www.linkedin.com/posts/rick-burnett_how-many-hours-per-day-do-you-spend-onboarding-activity-7483569021683113984-mqVX",
+          "retrievedAt": "2026-09-29T11:02:25.174Z",
+          "status": 200,
+          "error": null,
+          "title": "Carrier Onboarding Bottleneck Steals Strategic Time | Ricky Burnett posted on the topic | LinkedIn",
+          "description": "How many hours per day do you spend onboarding carriers?\n\nCall after call. Email after email. Doc after doc. I keep seeing the same pattern across brokerages: teams stuck in a loop of chasing insurance certificates, W‑9s, rate confirmations, and then manually entering everything into the TMS.\n\nIt",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "linkedin.com",
+          "url": "https://www.linkedin.com/pricing",
+          "finalUrl": "https://www.linkedin.com/pricing",
+          "retrievedAt": "2026-09-16T09:39:07.269Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "descartes.com",
+          "url": "https://www.descartes.com/solutions/transportation-management/carrier-onboarding-fraud-prevention",
+          "finalUrl": "https://www.descartes.com/solutions/transportation-management/carrier-onboarding-fraud-prevention",
+          "retrievedAt": "2026-09-29T11:02:25.175Z",
+          "status": 200,
+          "error": null,
+          "title": "Carrier Onboarding & Fraud Prevention | Descartes",
+          "description": "Make sure you know who's handling your freight - simplify carrier onboarding, ensure compliance, and defend against fraud - all with one platform.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "descartes.com",
+          "url": "https://www.descartes.com/pricing",
+          "finalUrl": "https://www.descartes.com/pricing",
+          "retrievedAt": "2026-09-29T11:02:25.176Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 4,
+          "top": {
+            "keyword": "carrier onboarding software",
+            "searchVolume": 20,
+            "id": "K4"
+          },
+          "category": {
+            "level": "low",
+            "measuredCount": 2,
+            "totalCount": 3,
+            "top": {
+              "keyword": "best freight broker software",
+              "searchVolume": 50,
+              "id": "K8"
+            }
+          },
+          "broader": {
+            "level": "substantial",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "transportation management system",
+              "searchVolume": 1300,
+              "id": "K6"
+            }
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"freight broker compliance risk\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"carrier onboarding software\" at 20/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low (\"best freight broker software\" 50/mo); broader market: substantial (\"transportation management system\" 1300/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K5",
+            "K8"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 3 commercial keyword(s) (highest CPC $33.87 on \"best freight broker software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "dat.com",
+            "descartes.com",
+            "onramp.us",
+            "vetcarriers.com",
+            "agentsync.io",
+            "zineps.com",
+            "mycarrierportal.com",
+            "mcleodsoftware.com",
+            "owlery.ai",
+            "truckstop.com",
+            "fareye.com",
+            "magnumsoftwareservices.com",
+            "carrierpacket.link",
+            "martinfowler.com",
+            "goodship.io"
+          ],
+          "platformDomains": [
+            "linkedin.com"
+          ],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "15 vendor-like or publisher domain(s) and 1 broad platform(s) (linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 5 domain(s) with a direct competitor (same problem) (descartes.com, dat.com, mycarrierportal.com, fareye.com, carrierpacket.link), 2 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "descartes.com",
+            "dat.com",
+            "mycarrierportal.com",
+            "fareye.com",
+            "carrierpacket.link"
+          ],
+          "indirectAlternativeDomains": [
+            "mcleodsoftware.com",
+            "goodship.io"
+          ]
+        }
+      },
+      "evidenceFingerprint": "b42e8443b28cb548",
+      "evidenceUpdatedAt": "2026-09-29T11:02:37.277Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-29T11:10:35.052Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-29T11:02:37.277Z",
+        "qualifiers": [
+          "freight brokerage"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a freight broker experiencing the exact problem of carrier onboarding being a bottleneck."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The searcher is the target customer (freight broker), but the problem of compliance risk is broader than just the onboarding process."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a freight broker performing a key task within the problem of carrier onboarding."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer looking for a software solution to the specific problem of carrier onboarding."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is the target customer, but they are looking for a general category of tools, not specifically for onboarding."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is the target customer, but they are looking for a much broader category of software (TMS) that manages the entire transportation process."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is likely a freight broker evaluating the costs associated with the specific problem of carrier onboarding."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is the target customer looking for a general category of software, not a specific solution for onboarding."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is the target customer looking for pricing on a general category of software for brokers."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "freight brokerage"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a discussion among freight brokers about the exact problem of finding carrier onboarding software."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item offers a solution to the same problem but for a broader audience that includes freight brokers, shippers, and 3PLs."
+          },
+          "S1.4": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item offers a solution to the same problem, but it's unclear if the target customer is specifically freight brokers."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is a direct solution to the problem, but it's offered by a company (DAT) that serves a broader audience than just freight brokers."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a solution for the same problem, but aimed at a broader logistics market including freight brokers."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is a broader software solution (carrier management) for a broader audience (trucking companies, brokers, 3PLs)."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is a solution for the same problem but is explicitly marketed to a broader audience of 3PLs and shippers, which includes freight brokers."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "freight brokerage"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item is a direct competitor, offering a solution for the exact same customer (freight brokers) and problem."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item addresses the adjacent problem of ongoing carrier performance management, not the initial onboarding process."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "freight brokerage"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion of the exact problem experienced by the target customer (brokerages)."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item discusses a similar problem (onboarding bottleneck) but in a completely different context (general enterprise)."
+          },
+          "S2.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item uses similar terms ('carrier onboarding') but refers to the insurance industry, a different customer and problem."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses the same problem but for a broader 'logistics' audience that includes freight brokers."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "freight brokerage"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is written for the exact target customer (brokers) about the exact problem (carrier onboarding)."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general informational article defining the problem space for a broad audience that includes brokers."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "freight brokerage"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The article is for the target customer (brokers) about the specific problem of simplifying onboarding."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is about the insurance industry, using similar terms for a different customer and problem."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a generic article about onboarding bottlenecks, not specific to the freight industry."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a direct competitor's product page, solving the same problem for a broader audience that includes freight brokers."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a different product (load board) for a broader audience, solving the problem of finding loads/trucks."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "freight brokerage"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This LinkedIn post describes the exact problem from the perspective of the target customer (brokerages)."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for a solution to the same problem, aimed at a broader logistics audience."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-29:freight-broker-carrier-onboarding-hub",
+        "opportunity": "The opportunity is to provide software for small to mid-sized freight brokerages to automate the manual and risky process of onboarding new trucking carriers. This would reduce administrative work and help mitigate compliance risks associated with non-compliant carriers.",
+        "whoPays": "The small to mid-sized freight brokerage pays to reduce manual tasks, speed up the process of booking loads with new carriers, and lower the risk of fraud or non-compliance. This is an inference based on the problem description.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "best carrier onboarding software for a small sized brokerage"
+            },
+            {
+              "id": "P3",
+              "quote": "Carrier Onboarding Bottleneck Steals Strategic Time"
+            },
+            {
+              "id": "S2.8",
+              "quote": "digital processes reduce bottlenecks to make tracking packet status easier"
+            },
+            {
+              "id": "S2.6",
+              "quote": "Best practices for carrier onboarding: What every broker"
+            }
+          ],
+          "observed": "Freight brokers discuss the need for carrier onboarding software for small brokerages on Reddit (S1.2). A LinkedIn post describes the problem as a \"Carrier Onboarding Bottleneck Steals Strategic Time\" involving a \"loop of chasing\" documents (P3). Industry content publishers provide advice on how to \"reduce bottlenecks\" (S2.8) and establish \"Best practices for carrier onboarding\" (S2.6).",
+          "inference": "The manual process of collecting documents and verifying carriers is a common and time-consuming pain point for freight brokerages, leading them to actively seek out software solutions."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Carrier Onboarding & Fraud Prevention"
+            },
+            {
+              "id": "S1.5",
+              "quote": "DAT OnBoard"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Fast and reliable carrier onboarding paired with rigorous vetting"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Smarter Carrier Onboarding Software for 3PLs and Shippers"
+            },
+            {
+              "id": "S1.10",
+              "quote": "carrier onboarding software for freight brokers"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Descartes",
+              "type": "direct",
+              "what": "Offers a platform for carrier onboarding that includes compliance and fraud prevention features.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "simplify carrier onboarding, ensure compliance, and defend against fraud"
+                }
+              ]
+            },
+            {
+              "name": "DAT",
+              "type": "direct",
+              "what": "Provides DAT OnBoard, a service to speed up the carrier onboarding process.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Bring on carriers in minutes, not hours with DAT's onboarding service"
+                }
+              ]
+            },
+            {
+              "name": "MyCarrierPortal",
+              "type": "direct",
+              "what": "A Descartes product offering fast carrier onboarding with identity verification and insurance monitoring.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Fast and reliable carrier onboarding paired with rigorous vetting"
+                }
+              ]
+            },
+            {
+              "name": "FarEye",
+              "type": "direct",
+              "what": "Provides carrier onboarding software for 3PLs and shippers.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Smarter Carrier Onboarding Software for 3PLs and Shippers"
+                }
+              ]
+            },
+            {
+              "name": "CarrierPacket.Link",
+              "type": "direct",
+              "what": "Offers broker-branded, embeddable carrier onboarding software with real-time FMCSA verification.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "carrier onboarding software for freight brokers — broker-branded, embeddable, with real-time FMCSA verification"
+                }
+              ]
+            },
+            {
+              "name": "McLeod Software",
+              "type": "indirect",
+              "what": "A broader carrier management system that includes an automated carrier onboarding feature.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Accelerate onboarding with a fully automated, paperless system"
+                }
+              ]
+            },
+            {
+              "name": "GoodShip.io",
+              "type": "indirect",
+              "what": "A carrier management platform focused on ongoing performance tracking and scorecards, rather than initial onboarding.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "Carrier Performance Management & Scorecard Software"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors include established players in logistics software (DAT, Descartes) offering solutions that promise speed, compliance, and fraud prevention.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Bring on carriers in minutes, not hours"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "ensure compliance, and defend against fraud"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Major competitors appear to target a broad market including large 3PLs and shippers, which may leave a gap for a simpler tool tailored to small brokerages.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Carrier Onboarding Software for 3PLs and Shippers"
+                }
+              ],
+              "kind": "inference"
+            },
+            {
+              "text": "No pricing was found on competitor pages, suggesting a 'contact sales' process that can be a barrier for smaller businesses.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The process of onboarding a new trucking carrier is a high-friction, manual bottleneck.",
+            "finding": "This is strongly supported by evidence describing the problem as a \"Carrier Onboarding Bottleneck\" and discussing how \"digital processes reduce bottlenecks\".",
+            "basis": [
+              {
+                "id": "P3",
+                "quote": "Carrier Onboarding Bottleneck Steals Strategic Time"
+              },
+              {
+                "id": "S2.8",
+                "quote": "digital processes reduce bottlenecks"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "This pain is universal and directly tied to operational efficiency and liability mitigation.",
+            "finding": "Evidence supports this, with a user from a \"small sized brokerage\" seeking software and a competitor highlighting the need to \"ensure compliance, and defend against fraud\".",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "for a small sized brokerage"
+              },
+              {
+                "id": "S1.3",
+                "quote": "ensure compliance, and defend against fraud"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Market Hypothesis: There are over 17,000 freight brokers in the US, most of them small.",
+            "finding": "No evidence was found to support or refute the market size claim.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A simple MVP could be a web form to collect documents with a manual verification process on the backend. The main challenge is gaining the trust of a brokerage to handle their compliance-sensitive data."
+        },
+        "unproven": [
+          "Willingness of small brokerages to pay for a standalone tool versus using a feature in their existing TMS.",
+          "The specific feature set that would be compelling against established competitors.",
+          "The cost and complexity of reliably automating the verification of carrier documents like insurance certificates."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 small freight brokerage owners/managers to validate the problem's severity, understand their current process, and gauge their budget for a solution.",
+          "cost": "~$100 in gift cards + 10-20 hours",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 of the interviewed brokers express strong frustration with their current process and state they are actively looking for or would pay for a better solution in the $50-$150/month range.",
+        "stopIf": "Most brokers are satisfied with their current process, use a feature within their existing TMS that is 'good enough,' or are unwilling to pay for a standalone tool."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide software for small to mid-sized freight brokerages to automate the manual and risky process of onboarding new trucking carriers. This would reduce administrative work and help mitigate compliance risks associated with non-compliant carriers.",
+        "whoPays": "The small to mid-sized freight brokerage pays to reduce manual tasks, speed up the process of booking loads with new carriers, and lower the risk of fraud or non-compliance. This is an inference based on the problem description.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "best carrier onboarding software for a small sized brokerage",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "direct",
+              "relevanceReason": "The item is a discussion among freight brokers about the exact problem of finding carrier onboarding software."
+            },
+            {
+              "id": "P3",
+              "quote": "Carrier Onboarding Bottleneck Steals Strategic Time",
+              "domain": "linkedin.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "direct",
+              "relevanceReason": "This LinkedIn post describes the exact problem from the perspective of the target customer (brokerages)."
+            },
+            {
+              "id": "S2.8",
+              "quote": "digital processes reduce bottlenecks to make tracking packet status easier",
+              "domain": "truckstop.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "The article is for the target customer (brokers) about the specific problem of simplifying onboarding."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Best practices for carrier onboarding: What every broker",
+              "domain": "dat.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This article is written for the exact target customer (brokers) about the exact problem (carrier onboarding)."
+            }
+          ],
+          "observed": "Freight brokers discuss the need for carrier onboarding software for small brokerages on Reddit (S1.2). A LinkedIn post describes the problem as a \"Carrier Onboarding Bottleneck Steals Strategic Time\" involving a \"loop of chasing\" documents (P3). Industry content publishers provide advice on how to \"reduce bottlenecks\" (S2.8) and establish \"Best practices for carrier onboarding\" (S2.6).",
+          "inference": "The manual process of collecting documents and verifying carriers is a common and time-consuming pain point for freight brokerages, leading them to actively seek out software solutions."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Carrier Onboarding & Fraud Prevention",
+              "domain": "descartes.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item offers a solution to the same problem but for a broader audience that includes freight brokers, shippers, and 3PLs."
+            },
+            {
+              "id": "S1.5",
+              "quote": "DAT OnBoard",
+              "domain": "dat.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is a direct solution to the problem, but it's offered by a company (DAT) that serves a broader audience than just freight brokers."
+            },
+            {
+              "id": "S1.6",
+              "quote": "Fast and reliable carrier onboarding paired with rigorous vetting",
+              "domain": "mycarrierportal.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a solution for the same problem, but aimed at a broader logistics market including freight brokers."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Smarter Carrier Onboarding Software for 3PLs and Shippers",
+              "domain": "fareye.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is a solution for the same problem but is explicitly marketed to a broader audience of 3PLs and shippers, which includes freight brokers."
+            },
+            {
+              "id": "S1.10",
+              "quote": "carrier onboarding software for freight brokers",
+              "domain": "carrierpacket.link",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This item is a direct competitor, offering a solution for the exact same customer (freight brokers) and problem."
+            }
+          ],
+          "directCompetitors": [
+            "descartes.com",
+            "dat.com",
+            "mycarrierportal.com",
+            "fareye.com",
+            "carrierpacket.link"
+          ],
+          "indirectAlternatives": [
+            "mcleodsoftware.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Descartes",
+              "type": "direct",
+              "what": "Offers a platform for carrier onboarding that includes compliance and fraud prevention features.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "simplify carrier onboarding, ensure compliance, and defend against fraud",
+                  "domain": "descartes.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a product page for a solution to the same problem, aimed at a broader logistics audience."
+                }
+              ]
+            },
+            {
+              "name": "DAT",
+              "type": "direct",
+              "what": "Provides DAT OnBoard, a service to speed up the carrier onboarding process.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Bring on carriers in minutes, not hours with DAT's onboarding service",
+                  "domain": "dat.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a direct competitor's product page, solving the same problem for a broader audience that includes freight brokers."
+                }
+              ]
+            },
+            {
+              "name": "MyCarrierPortal",
+              "type": "direct",
+              "what": "A Descartes product offering fast carrier onboarding with identity verification and insurance monitoring.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Fast and reliable carrier onboarding paired with rigorous vetting",
+                  "domain": "mycarrierportal.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a solution for the same problem, but aimed at a broader logistics market including freight brokers."
+                }
+              ]
+            },
+            {
+              "name": "FarEye",
+              "type": "direct",
+              "what": "Provides carrier onboarding software for 3PLs and shippers.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Smarter Carrier Onboarding Software for 3PLs and Shippers",
+                  "domain": "fareye.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item is a solution for the same problem but is explicitly marketed to a broader audience of 3PLs and shippers, which includes freight brokers."
+                }
+              ]
+            },
+            {
+              "name": "CarrierPacket.Link",
+              "type": "direct",
+              "what": "Offers broker-branded, embeddable carrier onboarding software with real-time FMCSA verification.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "carrier onboarding software for freight brokers — broker-branded, embeddable, with real-time FMCSA verification",
+                  "domain": "carrierpacket.link",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This item is a direct competitor, offering a solution for the exact same customer (freight brokers) and problem."
+                }
+              ]
+            },
+            {
+              "name": "McLeod Software",
+              "type": "indirect",
+              "what": "A broader carrier management system that includes an automated carrier onboarding feature.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Accelerate onboarding with a fully automated, paperless system",
+                  "domain": "mcleodsoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is a broader software solution (carrier management) for a broader audience (trucking companies, brokers, 3PLs)."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors include established players in logistics software (DAT, Descartes) offering solutions that promise speed, compliance, and fraud prevention.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "Bring on carriers in minutes, not hours",
+                  "domain": "dat.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "This is a direct competitor's product page, solving the same problem for a broader audience that includes freight brokers."
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "ensure compliance, and defend against fraud",
+                  "domain": "descartes.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item offers a solution to the same problem but for a broader audience that includes freight brokers, shippers, and 3PLs."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Major competitors appear to target a broad market including large 3PLs and shippers, which may leave a gap for a simpler tool tailored to small brokerages.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Carrier Onboarding Software for 3PLs and Shippers",
+                  "domain": "fareye.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item is a solution for the same problem but is explicitly marketed to a broader audience of 3PLs and shippers, which includes freight brokers."
+                }
+              ],
+              "kind": "inference"
+            },
+            {
+              "text": "No pricing was found on competitor pages, suggesting a 'contact sales' process that can be a barrier for smaller businesses.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The process of onboarding a new trucking carrier is a high-friction, manual bottleneck.",
+            "finding": "This is strongly supported by evidence describing the problem as a \"Carrier Onboarding Bottleneck\" and discussing how \"digital processes reduce bottlenecks\".",
+            "basis": [
+              {
+                "id": "P3",
+                "quote": "Carrier Onboarding Bottleneck Steals Strategic Time",
+                "domain": "linkedin.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "direct",
+                "relevanceReason": "This LinkedIn post describes the exact problem from the perspective of the target customer (brokerages)."
+              },
+              {
+                "id": "S2.8",
+                "quote": "digital processes reduce bottlenecks",
+                "domain": "truckstop.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "direct",
+                "relevanceReason": "The article is for the target customer (brokers) about the specific problem of simplifying onboarding."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "This pain is universal and directly tied to operational efficiency and liability mitigation.",
+            "finding": "Evidence supports this, with a user from a \"small sized brokerage\" seeking software and a competitor highlighting the need to \"ensure compliance, and defend against fraud\".",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "for a small sized brokerage",
+                "domain": "reddit.com",
+                "kind": "S",
+                "cls": "discussion",
+                "relevance": "direct",
+                "relevanceReason": "The item is a discussion among freight brokers about the exact problem of finding carrier onboarding software."
+              },
+              {
+                "id": "S1.3",
+                "quote": "ensure compliance, and defend against fraud",
+                "domain": "descartes.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "The item offers a solution to the same problem but for a broader audience that includes freight brokers, shippers, and 3PLs."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Market Hypothesis: There are over 17,000 freight brokers in the US, most of them small.",
+            "finding": "No evidence was found to support or refute the market size claim.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A simple MVP could be a web form to collect documents with a manual verification process on the backend. The main challenge is gaining the trust of a brokerage to handle their compliance-sensitive data."
+        },
+        "unproven": [
+          "Willingness of small brokerages to pay for a standalone tool versus using a feature in their existing TMS.",
+          "The specific feature set that would be compelling against established competitors.",
+          "The cost and complexity of reliably automating the verification of carrier documents like insurance certificates."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 small freight brokerage owners/managers to validate the problem's severity, understand their current process, and gauge their budget for a solution.",
+          "cost": "~$100 in gift cards + 10-20 hours",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 of the interviewed brokers express strong frustration with their current process and state they are actively looking for or would pay for a better solution in the $50-$150/month range.",
+        "stopIf": "Most brokers are satisfied with their current process, use a feature within their existing TMS that is 'good enough,' or are unwilling to pay for a standalone tool.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-29T11:12:02.252Z",
+        "evidenceUpdatedAt": "2026-09-29T11:02:37.277Z"
+      }
+    },
+    {
+      "id": "2026-09-29:welder-qualification-continuity-log",
+      "slug": "welder-qualification-continuity-log",
+      "title": "The Welding Shop's \"Audit-Ready\" Welder Qualification & Continuity Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis states the US has over 65,000 welding shops, with those doing code-work having a non-negotiable need."
+      },
+      "plan": {
+        "slug": "welder-qualification-continuity-log",
+        "title": "The Welding Shop's \"Audit-Ready\" Welder Qualification & Continuity Log",
+        "problem": "Tracking each welder's certifications and ensuring continuity is a compliance nightmare, risking lost contracts or project shutdowns during audits.",
+        "targetCustomer": "Owner of a small to mid-sized fabrication or welding shop that works on structural steel, pressure vessels, or other code-compliant projects.",
+        "payer": "Owner of a small to mid-sized fabrication or welding shop.",
+        "whyPayerPays": "The shop owner pays to avoid catastrophic audit failures, maintain compliance, and prevent lost contracts or project shutdowns.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis states the US has over 65,000 welding shops, with those doing code-work having a non-negotiable need."
+        },
+        "keywords": {
+          "problem": [
+            "welder certification tracking",
+            "welder continuity log requirements",
+            "welding shop audit risk"
+          ],
+          "solution": [
+            "welder log software",
+            "welding compliance software",
+            "welder qualification management"
+          ],
+          "buying": [
+            "welder log software pricing",
+            "best welding shop software",
+            "welder certification cost"
+          ]
+        },
+        "serpQueries": [
+          "welder log software",
+          "welder certification tracking"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "welder certification tracking",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "welder continuity log requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-16 02:51:02 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "welding shop audit risk",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "welder log software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "welding compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "welder qualification management",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "welder log software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best welding shop software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "welder certification cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 320,
+          "cpcUsd": 9.37,
+          "adCompetition": 0.24,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -33,
+          "providerUpdatedAt": "2026-09-13 12:14:03 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 590
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -42,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "welder log software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:01:18.304Z",
+          "checkUrl": "https://www.google.com/search?q=welder%20log%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "esab.com",
+              "url": "https://esab.com/ae/mea_en/products-solutions/product/welding-equipment/software/weldcloud-notes/",
+              "title": "WeldCloud® Notes",
+              "description": "With WeldCloud Notes, it's simple to track of all your welder qualifications (WPQ) expiration dates. You can then requalify them every 6 months and attach test ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "ihris.health.gov.mw",
+              "url": "https://ihris.health.gov.mw/repository/mL8BG9604239/Sample-Welders-Continuity-Log",
+              "title": "SAMPLE WELDERS CONTINUITY LOG",
+              "description": "Sep 19, 2026 — Sample welders continuity log is an essential document used in the welding industry to ensure quality control, traceability, and compliance ... Read more",
+              "id": "S1.3",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "apps.apple.com",
+              "url": "https://apps.apple.com/cm/app/pocket-welder-helper/id6752232358?l=en-GB",
+              "title": "Pocket Welder Helper - App Store - Apple",
+              "description": "Pocket Welder Helper is a professional welding calculator and reference app built for welders, fabricators, metal workers, and welding students.",
+              "id": "S1.5",
+              "class": "marketplace"
+            },
+            {
+              "rank": 6,
+              "domain": "esab.com",
+              "url": "https://esab.com/ca/nam_en/esab-university/videos/weldcloud-notes-write-pwps-preliminary-welding-procedure-specification/",
+              "title": "Create pWPS with WeldCloud Notes",
+              "description": "In this video, ESAB's Tiago Pereira demonstrates how to use WeldCloud Notes software to write a good pWPS for a 25mm fillet weld on mild ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/MillerWelders/videos/all-the-benefits-of-automated-welding-without-all-the-programming-time-introduci/1395285798467083/",
+              "title": "All the benefits of automated welding without ...",
+              "description": "All the benefits of automated welding without all the programming time — Introducing PerformArc™ with new IntelliPath™ offline programming.",
+              "id": "S1.7",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "publicreg.vaccination.gov.ng",
+              "url": "https://publicreg.vaccination.gov.ng/browse/86tzbp/277048/sample-welders__continuity_log.pdf",
+              "title": "Sample Welders Continuity Log",
+              "description": "Yes, there are digital software solutions and apps designed to manage Welders Continuity Logs electronically, offering benefits such as easier data entry, ... Read more",
+              "id": "S1.8",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "www.buehler.com",
+              "url": "https://www.buehler.com/blog/diamet-hardness-software-weld-testing-using-vickers-hardness-scale/",
+              "title": "Weld Testing Using Vickers Hardness Scale - DiaMet",
+              "description": "May 16, 2018 — Buehler has developed its own software module for the DiaMet hardness testing software, which greatly simplifies welding seam measurements. Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "qualora.io",
+              "url": "https://qualora.io/courses/ai-for-welders",
+              "title": "AI for Welders: WPS Documentation, Inspection Planning, and ...",
+              "description": "AI tools support welding documentation and planning - from WPS lookup -plan drafts, hot-work permits, weld logs, and code-compliant traceability.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "welder certification tracking",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:01:30.160Z",
+          "checkUrl": "https://www.google.com/search?q=welder%20certification%20tracking&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Welding/comments/yncx08/software_to_pull_a_welders_certifications/",
+              "title": "Software to pull a welders certifications? : r/Welding",
+              "description": "Are there any services or software that can pull a welders certifications? My company is trying to automate this (also when the certifications expire). Thanks!",
+              "id": "S2.2",
+              "class": "discussion"
+            },
+            {
+              "rank": 3,
+              "domain": "www.weldtrace.com",
+              "url": "https://www.weldtrace.com/",
+              "title": "WeldTrace | Connected Welding Management",
+              "description": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform. WeldTrace connects procedures, people, drawings, welds ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.welderqualificationtracker.com",
+              "url": "https://www.welderqualificationtracker.com/",
+              "title": "Welder Qualification Tracker",
+              "description": "Keep track of all your Welder qualifications on an easy-to-use, simple Portal. The WQT Portal allows companies to upload and update their qualifications in ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.weldeye.com",
+              "url": "https://www.weldeye.com/",
+              "title": "Welding Management Software - Cloud Service",
+              "description": "Universal welding management software for welding production. Digital welding quality management enables 100% traceability to any weld you make.",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.aws.org",
+              "url": "https://www.aws.org/certification-and-education/professional-certification/",
+              "title": "Professional Welding Certifications",
+              "description": "QuikCheck is your fastest way to verify current AWS Certification credentials. Enter an individual's certification information and get immediate results.",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.welderslog.com",
+              "url": "https://www.welderslog.com/",
+              "title": "Welders Log | Welding Management Software | 2500 Regency ...",
+              "description": "Welders Log has the best software product for welding documentation and welder qualification management. Our software includes all the forms you need to ...",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/msofficeaccess/posts/2349619685116591/",
+              "title": "Welder certification tracking database setup help needed",
+              "description": "Aug 9, 2019 — First off, thank you for allowing me to join.\n\nI am a beginner user but I have questions.\n\nI am attempting to create a database that is for welder continuity ...",
+              "id": "S2.10",
+              "class": "discussion"
+            },
+            {
+              "rank": 11,
+              "domain": "rationalgo.ai",
+              "url": "https://rationalgo.ai/resources/app-builder/welder-certification-project-qualification-tracker",
+              "title": "Build a Welder Certification and Project Qualification Tracker",
+              "description": "Build a welder certification tracker where I can log all my active qualifications with process, material, thickness range, and position, track six-month ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "esab.com",
+          "url": "https://esab.com/ae/mea_en/products-solutions/product/welding-equipment/software/weldcloud-notes/",
+          "finalUrl": "https://esab.com/ae/mea_en/products-solutions/product/welding-equipment/software/weldcloud-notes/",
+          "retrievedAt": "2026-09-29T11:02:26.465Z",
+          "status": 200,
+          "error": null,
+          "title": "WeldCloud® Notes - ESAB MEA",
+          "description": "Improve your welding engineer’s productivity from the very first use. The Notes app takes the documentation of welding management off your plate, so you can spend your time doing more for your shop.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "esab.com",
+          "url": "https://esab.com/pricing",
+          "finalUrl": "https://esab.com/pricing",
+          "retrievedAt": "2026-09-29T11:02:26.466Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P3",
+          "domain": "weldtrace.com",
+          "url": "https://www.weldtrace.com/",
+          "finalUrl": "https://www.weldtrace.com/",
+          "retrievedAt": "2026-09-29T11:02:26.466Z",
+          "status": 200,
+          "error": null,
+          "title": "WeldTrace | Connected Welding Management",
+          "description": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "weldtrace.com",
+          "url": "https://www.weldtrace.com/pricing",
+          "finalUrl": "https://www.weldtrace.com/plans",
+          "retrievedAt": "2026-09-29T11:02:26.467Z",
+          "status": 200,
+          "error": null,
+          "title": "Request a personalised WeldTrace quote",
+          "description": "Tell us about your welding workflows, team and deployment needs. Our sales team will tailor and approve a quotation for your organisation.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "welderqualificationtracker.com",
+          "url": "https://www.welderqualificationtracker.com/",
+          "finalUrl": "https://www.welderqualificationtracker.com/",
+          "retrievedAt": "2026-09-29T11:02:26.468Z",
+          "status": 200,
+          "error": null,
+          "title": "Welder Qualification Tracker",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$0 per user",
+              "billingUnit": true,
+              "context": "s are secure protected. Starter Plan Free Forever Free Plan $0 per user/month Want to experience WQT before committing? Start with"
+            },
+            {
+              "text": "$71 /month",
+              "billingUnit": true,
+              "context": "ur business operations Monthly Yearly Save 10% Professional $71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year"
+            },
+            {
+              "text": "$75",
+              "billingUnit": false,
+              "context": "ly Save 10% Professional $71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year Save 10% vs Monthly 5% First"
+            },
+            {
+              "text": "$7.1 per user",
+              "billingUnit": true,
+              "context": "ave 10% Professional $71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year Save 10% vs Monthly 5% First Year Discount"
+            },
+            {
+              "text": "$770 /year",
+              "billingUnit": true,
+              "context": "$71 /month 5% First Month Discount $75 $7.1 per user/month $770 /year Save 10% vs Monthly 5% First Year Discount $810 $6.42 per u"
+            },
+            {
+              "text": "$810",
+              "billingUnit": false,
+              "context": "month $770 /year Save 10% vs Monthly 5% First Year Discount $810 $6.42 per user/month Features Up to 10 users Free mobile ap"
+            },
+            {
+              "text": "$6.42 per user",
+              "billingUnit": true,
+              "context": "$770 /year Save 10% vs Monthly 5% First Year Discount $810 $6.42 per user/month Features Up to 10 users Free mobile app for employees"
+            },
+            {
+              "text": "$126 /month",
+              "billingUnit": true,
+              "context": "to 10 users Free mobile app for employees Register Now Team $126 /month 10% First Month Discount $140 $6.3 per user/month $1,361 /y"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "welderqualificationtracker.com",
+          "url": "https://www.welderqualificationtracker.com/pricing",
+          "finalUrl": "https://www.welderqualificationtracker.com/pricing",
+          "retrievedAt": "2026-09-29T11:02:26.468Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 7,
+          "top": {
+            "keyword": "welder continuity log requirements",
+            "searchVolume": 10,
+            "id": "K2"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"welder certification cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"welder continuity log requirements\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "esab.com",
+            "weldtrace.com",
+            "welderqualificationtracker.com",
+            "weldeye.com",
+            "aws.org",
+            "welderslog.com",
+            "buehler.com",
+            "qualora.io",
+            "rationalgo.ai"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "facebook.com",
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "welderqualificationtracker.com"
+          ],
+          "note": "9 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on welderqualificationtracker.com. Judged for relevance: 1 domain(s) with a direct competitor (same problem) (welderslog.com), 4 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "welderslog.com"
+          ],
+          "indirectAlternativeDomains": [
+            "qualora.io",
+            "weldtrace.com",
+            "weldeye.com",
+            "esab.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "bbfc28f0d87a19c5",
+      "evidenceUpdatedAt": "2026-09-29T11:02:37.278Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-29T11:10:35.052Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-29T11:02:37.278Z",
+        "qualifiers": [
+          "fabrication or welding shop"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer looking for a way to manage the exact problem of tracking welder certifications."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer trying to understand the specific compliance requirements the idea addresses."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer focusing on the risk that the idea is designed to mitigate."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer looking for a software solution to their logging and tracking problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer looking for a software solution to their compliance problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer looking for a way to manage welder qualifications, which is the core problem."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer evaluating the cost of a solution to their specific problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The searcher is the target customer, but they are looking for a broader category of software for their shop."
+          },
+          "K9": {
+            "searcher": "unclear",
+            "topic": "broader",
+            "reason": "The searcher could be an individual welder, and the topic is the cost of certification, not the software to track it."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a direct competitor's product aimed at the same customer and solving the same problem."
+          },
+          "S1.3": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a resource for the target customer dealing with the exact compliance problem."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This app is for individual welders to help with their work, not for shop owners to manage compliance."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is about a related but distinct compliance task (creating procedures) for the same target customer."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is for the same customer but addresses a completely different problem related to production efficiency and automation."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page discusses the exact problem and mentions the existence of software solutions for the target customer."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is for the same customer but addresses the different problem of materials testing, not personnel certification tracking."
+          },
+          "S1.11": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This tool addresses a broader set of documentation and compliance problems for the same customer."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion by the target customer about the exact problem the idea aims to solve."
+          },
+          "S2.3": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a competitor offering a broader welding management solution that includes the idea's core feature."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a direct competitor focused squarely on the same customer and problem."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a competitor offering a broader quality and traceability solution for the same customer."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a verification tool for individual certifications, not a management system for a shop's entire workforce."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a direct competitor offering a solution for the same problem."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a post from the target customer trying to solve the exact problem, indicating a need."
+          },
+          "S2.11": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This describes building a tool for the exact problem, but it's unclear if the intended user is an individual or a shop."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a competitor's product page aimed at the same customer, solving a slightly broader documentation problem."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a competitor's product page for a broad welding management solution that includes the idea's features."
+          },
+          "P4": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a sales page for a competitor with a broader offering for the same customer."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "fabrication or welding shop"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is the homepage for a direct competitor solving the exact same problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-29:welder-qualification-continuity-log",
+        "opportunity": "The opportunity is to provide welding and fabrication shops with simple software to track welder certifications and continuity logs. This helps them stay compliant and avoid failing audits, which can lead to lost contracts.",
+        "whoPays": "The owner of a small to mid-sized fabrication or welding shop pays to ensure they can pass client or regulatory audits, which is critical for keeping and winning code-compliant work. This is an inference based on the problem description.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Are there any services or software that can pull a welders certifications? My company is trying to automate this"
+            },
+            {
+              "id": "S1.3",
+              "quote": "Sample welders continuity log is an essential document used in the welding industry to ensure quality control, traceability, and compliance"
+            }
+          ],
+          "observed": "A company is actively looking for software to automate the tracking of welder certifications and their expiration dates (S2.2). A government resource describes the welder's continuity log as an \"essential document\" for compliance and traceability in the welding industry (S1.3).",
+          "inference": "Welding shops have a compliance-driven need to track welder certifications and continuity, and some are actively seeking software to automate this process, likely to move away from manual methods."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "best software product for welding documentation and welder qualification management"
+            },
+            {
+              "id": "S2.3",
+              "quote": "Control welding procedures, qualifications, projects, inspection and handover"
+            },
+            {
+              "id": "S2.5",
+              "quote": "Universal welding management software for welding production"
+            },
+            {
+              "id": "P1",
+              "quote": "takes the documentation of welding management off your plate"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Welders Log",
+              "type": "direct",
+              "what": "Offers software specifically for welding documentation and welder qualification management.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "Welders Log has the best software product for welding documentation and welder qualification management."
+                }
+              ]
+            },
+            {
+              "name": "WeldTrace",
+              "type": "indirect",
+              "what": "A comprehensive platform to manage welding procedures, qualifications, projects, and inspections.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform."
+                }
+              ]
+            },
+            {
+              "name": "WeldEye",
+              "type": "indirect",
+              "what": "A broad welding management software for production and quality management.",
+              "basis": [
+                {
+                  "id": "S2.5",
+                  "quote": "Universal welding management software for welding production."
+                }
+              ]
+            },
+            {
+              "name": "ESAB WeldCloud Notes",
+              "type": "indirect",
+              "what": "Software from a major industry supplier that helps manage welding documentation, including tracking welder qualification expiration dates.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "track of all your welder qualifications (WPQ) expiration dates"
+                }
+              ]
+            },
+            {
+              "name": "Qualora.io",
+              "type": "indirect",
+              "what": "Provides AI-powered tools for broader welding documentation, including weld logs and traceability.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "AI tools support welding documentation and planning"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors include comprehensive management platforms and tools from major industry players like ESAB.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Connected Welding Management"
+                },
+                {
+                  "id": "P1",
+                  "quote": "Improve your welding engineer’s productivity"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The more comprehensive, indirect competitors may be too complex or expensive for smaller shops, potentially leaving a gap for a simpler, focused tool.",
+              "basis": [
+                {
+                  "id": "S2.3",
+                  "quote": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform"
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Tracking each welder's certifications... and ensuring they remain current is a compliance nightmare often managed in spreadsheets.",
+            "finding": "Evidence supports that companies are looking to move beyond manual methods, with one Reddit poster stating their \"company is trying to automate this\".",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "My company is trying to automate this"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Failure to produce these records during an audit can lead to lost contracts or project shutdowns.",
+            "finding": "Evidence confirms the documents are essential for compliance, with a government source calling the log an \"essential document\" for \"quality control, traceability, and compliance\", though the direct consequence of lost contracts is not mentioned.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "essential document used in the welding industry to ensure quality control, traceability, and compliance"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Existing software seems complex or dated, leaving a gap for a simple, mobile-first log.",
+            "finding": "The competitive landscape includes both comprehensive platforms (WeldTrace, WeldEye) and more focused tools (Welders Log), suggesting the gap for simpler tools is being addressed by competitors.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "Connected Welding Management"
+              },
+              {
+                "id": "S2.8",
+                "quote": "welder qualification management"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "The core functionality is a CRUD application with email notifications. The main challenge is not technical but in designing a workflow that is significantly better than a spreadsheet for a busy shop owner."
+        },
+        "unproven": [
+          "The willingness of small shop owners to pay a monthly subscription for a tool that replaces a spreadsheet.",
+          "The actual frequency and cost of audit failures related to this specific documentation.",
+          "Whether a simple, standalone tool is preferable to a module within a larger shop management system."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page with a demo video of a simple prototype (can be a Figma mockup). Drive traffic via targeted ads on platforms where welders/shop owners congregate and measure sign-ups for an early access list.",
+          "cost": "~$200-300 in ad spend + 20 hours",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves a conversion rate of >3% for email sign-ups from qualified traffic (e.g., people identifying as shop owners/managers).",
+        "stopIf": "The cost per qualified lead is prohibitively high (e.g., >$50) or there is very little interest, suggesting the pain is not acute enough to seek out a solution."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide welding and fabrication shops with simple software to track welder certifications and continuity logs. This helps them stay compliant and avoid failing audits, which can lead to lost contracts.",
+        "whoPays": "The owner of a small to mid-sized fabrication or welding shop pays to ensure they can pass client or regulatory audits, which is critical for keeping and winning code-compliant work. This is an inference based on the problem description.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Are there any services or software that can pull a welders certifications? My company is trying to automate this",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "direct",
+              "relevanceReason": "This is a discussion by the target customer about the exact problem the idea aims to solve."
+            },
+            {
+              "id": "S1.3",
+              "quote": "Sample welders continuity log is an essential document used in the welding industry to ensure quality control, traceability, and compliance",
+              "domain": "ihris.health.gov.mw",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "direct",
+              "relevanceReason": "This is a resource for the target customer dealing with the exact compliance problem."
+            }
+          ],
+          "observed": "A company is actively looking for software to automate the tracking of welder certifications and their expiration dates (S2.2). A government resource describes the welder's continuity log as an \"essential document\" for compliance and traceability in the welding industry (S1.3).",
+          "inference": "Welding shops have a compliance-driven need to track welder certifications and continuity, and some are actively seeking software to automate this process, likely to move away from manual methods."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "best software product for welding documentation and welder qualification management",
+              "domain": "welderslog.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a direct competitor offering a solution for the same problem."
+            },
+            {
+              "id": "S2.3",
+              "quote": "Control welding procedures, qualifications, projects, inspection and handover",
+              "domain": "weldtrace.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a competitor offering a broader welding management solution that includes the idea's core feature."
+            },
+            {
+              "id": "S2.5",
+              "quote": "Universal welding management software for welding production",
+              "domain": "weldeye.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a competitor offering a broader quality and traceability solution for the same customer."
+            },
+            {
+              "id": "P1",
+              "quote": "takes the documentation of welding management off your plate",
+              "domain": "esab.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a competitor's product page aimed at the same customer, solving a slightly broader documentation problem."
+            }
+          ],
+          "directCompetitors": [
+            "welderslog.com"
+          ],
+          "indirectAlternatives": [
+            "weldtrace.com",
+            "weldeye.com",
+            "esab.com",
+            "qualora.io"
+          ],
+          "alternatives": [
+            {
+              "name": "Welders Log",
+              "type": "direct",
+              "what": "Offers software specifically for welding documentation and welder qualification management.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "Welders Log has the best software product for welding documentation and welder qualification management.",
+                  "domain": "welderslog.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a direct competitor offering a solution for the same problem."
+                }
+              ]
+            },
+            {
+              "name": "WeldTrace",
+              "type": "indirect",
+              "what": "A comprehensive platform to manage welding procedures, qualifications, projects, and inspections.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform.",
+                  "domain": "weldtrace.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a competitor's product page for a broad welding management solution that includes the idea's features."
+                }
+              ]
+            },
+            {
+              "name": "WeldEye",
+              "type": "indirect",
+              "what": "A broad welding management software for production and quality management.",
+              "basis": [
+                {
+                  "id": "S2.5",
+                  "quote": "Universal welding management software for welding production.",
+                  "domain": "weldeye.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a competitor offering a broader quality and traceability solution for the same customer."
+                }
+              ]
+            },
+            {
+              "name": "Qualora.io",
+              "type": "indirect",
+              "what": "Provides AI-powered tools for broader welding documentation, including weld logs and traceability.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "AI tools support welding documentation and planning",
+                  "domain": "qualora.io",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This tool addresses a broader set of documentation and compliance problems for the same customer."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors include comprehensive management platforms and tools from major industry players like ESAB.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Connected Welding Management",
+                  "domain": "weldtrace.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "This is a competitor's product page for a broad welding management solution that includes the idea's features."
+                },
+                {
+                  "id": "P1",
+                  "quote": "Improve your welding engineer’s productivity",
+                  "domain": "esab.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "This is a competitor's product page aimed at the same customer, solving a slightly broader documentation problem."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The more comprehensive, indirect competitors may be too complex or expensive for smaller shops, potentially leaving a gap for a simpler, focused tool.",
+              "basis": [
+                {
+                  "id": "S2.3",
+                  "quote": "Control welding procedures, qualifications, projects, inspection and handover in one traceable platform",
+                  "domain": "weldtrace.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a competitor offering a broader welding management solution that includes the idea's core feature."
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Tracking each welder's certifications... and ensuring they remain current is a compliance nightmare often managed in spreadsheets.",
+            "finding": "Evidence supports that companies are looking to move beyond manual methods, with one Reddit poster stating their \"company is trying to automate this\".",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "My company is trying to automate this",
+                "domain": "reddit.com",
+                "kind": "S",
+                "cls": "discussion",
+                "relevance": "direct",
+                "relevanceReason": "This is a discussion by the target customer about the exact problem the idea aims to solve."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Failure to produce these records during an audit can lead to lost contracts or project shutdowns.",
+            "finding": "Evidence confirms the documents are essential for compliance, with a government source calling the log an \"essential document\" for \"quality control, traceability, and compliance\", though the direct consequence of lost contracts is not mentioned.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "essential document used in the welding industry to ensure quality control, traceability, and compliance",
+                "domain": "ihris.health.gov.mw",
+                "kind": "S",
+                "cls": "government",
+                "relevance": "direct",
+                "relevanceReason": "This is a resource for the target customer dealing with the exact compliance problem."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Existing software seems complex or dated, leaving a gap for a simple, mobile-first log.",
+            "finding": "The competitive landscape includes both comprehensive platforms (WeldTrace, WeldEye) and more focused tools (Welders Log), suggesting the gap for simpler tools is being addressed by competitors.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "Connected Welding Management",
+                "domain": "weldtrace.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a competitor offering a broader welding management solution that includes the idea's core feature."
+              },
+              {
+                "id": "S2.8",
+                "quote": "welder qualification management",
+                "domain": "welderslog.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "direct",
+                "relevanceReason": "This is a direct competitor offering a solution for the same problem."
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "The core functionality is a CRUD application with email notifications. The main challenge is not technical but in designing a workflow that is significantly better than a spreadsheet for a busy shop owner."
+        },
+        "unproven": [
+          "The willingness of small shop owners to pay a monthly subscription for a tool that replaces a spreadsheet.",
+          "The actual frequency and cost of audit failures related to this specific documentation.",
+          "Whether a simple, standalone tool is preferable to a module within a larger shop management system."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page with a demo video of a simple prototype (can be a Figma mockup). Drive traffic via targeted ads on platforms where welders/shop owners congregate and measure sign-ups for an early access list.",
+          "cost": "~$200-300 in ad spend + 20 hours",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The landing page achieves a conversion rate of >3% for email sign-ups from qualified traffic (e.g., people identifying as shop owners/managers).",
+        "stopIf": "The cost per qualified lead is prohibitively high (e.g., >$50) or there is very little interest, suggesting the pain is not acute enough to seek out a solution.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "alternative ESAB WeldCloud Notes",
+              "id": "S1.2",
+              "relevance": "uncertain",
+              "reason": "This is a direct competitor's product aimed at the same customer and solving the same problem."
+            }
+          ],
+          "downgraded": [],
+          "dropped": [
+            "alternative \"ESAB WeldCloud Notes\": no quoted, relevant evidence that it is an offering for this customer's problem"
+          ]
+        },
+        "assessedAt": "2026-09-29T11:12:02.258Z",
+        "evidenceUpdatedAt": "2026-09-29T11:02:37.278Z"
+      }
+    },
+    {
+      "id": "2026-09-29:self-storage-lien-sale-workflow",
+      "slug": "self-storage-lien-sale-workflow",
+      "title": "The Self-Storage Operator's \"Lawsuit-Proof\" Lien Sale Workflow",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis states there are over 50,000 self-storage facilities in the US, with many independent operators."
+      },
+      "plan": {
+        "slug": "self-storage-lien-sale-workflow",
+        "title": "The Self-Storage Operator's \"Lawsuit-Proof\" Lien Sale Workflow",
+        "problem": "A single procedural error in the state-specific lien sale process can lead to a wrongful sale lawsuit with judgments reaching hundreds of thousands of dollars.",
+        "targetCustomer": "The independent owner or manager of one or more self-storage facilities.",
+        "payer": "The independent owner or manager of one or more self-storage facilities.",
+        "whyPayerPays": "The operator pays to mitigate the high-severity risk of catastrophic wrongful sale lawsuits and ensure compliance with strict state laws.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis states there are over 50,000 self-storage facilities in the US, with many independent operators."
+        },
+        "keywords": {
+          "problem": [
+            "self storage lien sale risk",
+            "wrongful lien sale lawsuit",
+            "self storage compliance issues"
+          ],
+          "solution": [
+            "lien sale software",
+            "self storage management",
+            "storage auction software"
+          ],
+          "buying": [
+            "lien sale software pricing",
+            "best self storage software",
+            "storage management cost"
+          ]
+        },
+        "serpQueries": [
+          "lien sale software",
+          "self storage lien sale risk"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "self storage lien sale risk",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "wrongful lien sale lawsuit",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "self storage compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "lien sale software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-12 19:33:39 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "self storage management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": 67.57,
+          "adCompetition": 0.69,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -22,
+          "providerUpdatedAt": "2026-09-15 04:14:30 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 590
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -47,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "storage auction software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "lien sale software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best self storage software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 70,
+          "cpcUsd": 24.01,
+          "adCompetition": 0.68,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -43,
+          "providerUpdatedAt": "2026-09-15 17:33:14 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -83,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-25T09:56:36.354Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "storage management cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:00:40.619Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "lien sale software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:01:39.830Z",
+          "checkUrl": "https://www.google.com/search?q=lien%20sale%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "taxlienlady.com",
+              "url": "https://taxlienlady.com/WebinarTraining/TrackingYourLiens.pdf",
+              "title": "Let's Get Acquainted Our Agenda",
+              "description": "Easiest Way to keep track of your liens and your profit Automates the whole process of tax lien investing. Download tax sale lists into your software program ❑ ...",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "library.ctr.utexas.edu",
+              "url": "https://library.ctr.utexas.edu/hostedpdfs/tti/3913-s.pdf",
+              "title": "Electronic Lien and Titling",
+              "description": "by RN Reinhardt · 1997 — This software must be able to accept inputs from terminal operators, extract information from the data bases that contain the lien/title information, and format ... Read more",
+              "id": "S1.4",
+              "class": "reference_media"
+            },
+            {
+              "rank": 6,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/angeloakms/videos/our-bank-statement-heloc-and-closed-end-second-lien-programs-can-help-your-self-/9082658155097127/",
+              "title": "Our bank statement HELOC and closed-end second lien ...",
+              "description": "Our bank statement HELOC and closed-end second lien programs can help your self-employed borrowers and private real estate investors access ...",
+              "id": "S1.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "codelibrary.amlegal.com",
+              "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_admin/0-0-0-5700",
+              "title": "ARTICLE XX: LIEN PROCEDURE",
+              "description": "Creation of Lien. authorizes the creation and imposition of a lien to enforce financial obligations owed to the City and County of San Francisco,",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.fitchratings.com",
+              "url": "https://www.fitchratings.com/research/us-public-finance/fitch-rates-chicago-sales-tax-securitization-corp-il-sr-lien-revs-aaa-2nd-lien-revs-aa-31-10-2025",
+              "title": "Fitch Rates Chicago Sales Tax Securitization Corp., IL's Sr ...",
+              "description": "Oct 31, 2025 — Fitch has also affirmed the rating on the STSC's outstanding sales tax securitization bonds (senior lien) at 'AAA' and outstanding second lien ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "inlandempireescrow.com",
+              "url": "https://inlandempireescrow.com/wp-content/uploads/2016/01/Warehousemans-Lien-Sale.pdf",
+              "title": "WAREHOUSEMAN'S LIEN SALE",
+              "description": "WAREHOUSEMAN'S LIEN SALE Page. STATE OF CALIFORNIA BUSINESS, CONSUMER SERVICES AND HOUSING AGENCY DEPARTMENT. REGISTRATION AND TITLING PROGRAM. PUBLIC OR ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.instagram.com",
+              "url": "https://www.instagram.com/reel/DKAyK0SPh3q/",
+              "title": "To anyone still on NYC's lien sale list — watch this important ...",
+              "description": "To anyone still on NYC's lien sale list — watch this important video from our partner, @legalservicesnyc It could help you take action right now ...",
+              "id": "S1.11",
+              "class": "reference_media"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "self storage lien sale risk",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-29T11:02:08.685Z",
+          "checkUrl": "https://www.google.com/search?q=self%20storage%20lien%20sale%20risk&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.insideselfstorage.com",
+              "url": "https://www.insideselfstorage.com/legal-issues/the-fair-debt-collection-practices-act-an-overview-for-self-storage-operators",
+              "title": "The Fair Debt Collection Practices Act: An Overview for Self ...",
+              "description": "Jun 12, 2017 — If you follow the statutory notice procedures outlined in your state lien laws, there should be no liability for collecting your own debt. Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "law.justia.com",
+              "url": "https://law.justia.com/codes/michigan/chapter-570/statute-act-148-of-1985/section-570-525/",
+              "title": "Michigan Compiled Laws § 570.525 (2025) - Enforcement ...",
+              "description": "570.525 Enforcement of lien. Sec. 5. (1) An owner's lien under section 3 shall be enforced only as provided in this section. Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.selfstoragetalk.com",
+              "url": "https://www.selfstoragetalk.com/forum/general-self-storage-forums/day-to-day-management/9353-processing-a-lien-in-new-jersey",
+              "title": "Processing a lien in New Jersey",
+              "description": "Oct 1, 2014 — In NJ we can start to process a unit for lien status,after the tenant has not made a payment for 61 days. We publish in the paper, cut the lock ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.scribd.com",
+              "url": "https://www.scribd.com/document/434173448/Pennsylvania-Lien-Law",
+              "title": "Pennsylvania Self-Service Storage Lien Law | PDF",
+              "description": "This document summarizes Pennsylvania's Self-Service Storage Facility Act, which establishes a lien process for storage facility owners to enforce payment ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.servicememberscivilreliefact.com",
+              "url": "https://www.servicememberscivilreliefact.com/blog/military-verification-for-lien-sale/",
+              "title": "Why Military Verification is Required for Lien Sales?",
+              "description": "Learn why military status verification is required before lien sales and vehicle disposal to comply with SCRA protections for active-duty servicemembers.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.insideselfstorage.com",
+              "url": "https://www.insideselfstorage.com/legal-issues/self-storage-payment-policies-and-the-danger-of-unintentional-discrimination-",
+              "title": "Self-Storage Payment Policies and 'Unintentional ...",
+              "description": "Aug 11, 2018 — Many operators will reject this type of payment before a lien sale to avoid a charge dispute after cancelling the auction. Perhaps once a tenant ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.avvo.com",
+              "url": "https://www.avvo.com/legal-answers/what-can-we-do-asap-re-wrongful-lien-sale-in-self--2185114.html",
+              "title": "What can we do ASAP re wrongful lien sale in self-storage ...",
+              "description": "May 13, 2015 — Your written rental agreement has to be followed or the owner has the right to sell the contents. Read your agreement for the notice ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.underpriced.app",
+              "url": "https://www.underpriced.app/blog/storage-unit-auction-flipping-guide-2026",
+              "title": "Online Storage Auction Guide & Bid Ceiling 2026",
+              "description": "Aug 26, 2026 — The Lien Law Basics. Self-storage lien laws allow facility operators to sell the contents of a delinquent unit after the required notice process ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/157640989713259/posts/1359399842870695/",
+              "title": "Collecting deposit and cleaning out auction units?",
+              "description": "Posted our first lien auction\n\nWe are a virtual facility (no office with staff on site). We used Bid13 for our auction with a $100 cleaning deposit. How ...",
+              "id": "S2.11",
+              "class": "discussion"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "insideselfstorage.com",
+          "url": "https://www.insideselfstorage.com/legal-issues/the-fair-debt-collection-practices-act-an-overview-for-self-storage-operators",
+          "finalUrl": "https://www.insideselfstorage.com/legal-issues/the-fair-debt-collection-practices-act-an-overview-for-self-storage-operators",
+          "retrievedAt": "2026-09-29T11:02:28.844Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P2",
+          "domain": "insideselfstorage.com",
+          "url": "https://www.insideselfstorage.com/pricing",
+          "finalUrl": "https://www.insideselfstorage.com/pricing",
+          "retrievedAt": "2026-09-29T11:02:28.845Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P3",
+          "domain": "taxlienlady.com",
+          "url": "https://taxlienlady.com/WebinarTraining/TrackingYourLiens.pdf",
+          "finalUrl": "https://taxlienlady.com/WebinarTraining/TrackingYourLiens.pdf",
+          "retrievedAt": "2026-09-29T11:02:28.846Z",
+          "status": 200,
+          "error": "not HTML (application/pdf)"
+        },
+        {
+          "id": "P4",
+          "domain": "taxlienlady.com",
+          "url": "https://taxlienlady.com/pricing",
+          "retrievedAt": "2026-09-29T11:02:28.847Z",
+          "status": null,
+          "error": "timed out"
+        },
+        {
+          "id": "P5",
+          "domain": "law.justia.com",
+          "url": "https://law.justia.com/codes/michigan/chapter-570/statute-act-148-of-1985/section-570-525/",
+          "finalUrl": "https://law.justia.com/codes/michigan/chapter-570/statute-act-148-of-1985/section-570-525/",
+          "retrievedAt": "2026-09-29T11:02:28.847Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "law.justia.com",
+          "url": "https://law.justia.com/pricing",
+          "finalUrl": "https://law.justia.com/pricing",
+          "retrievedAt": "2026-09-29T11:02:28.848Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 1,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "some",
+            "measuredCount": 2,
+            "totalCount": 3,
+            "top": {
+              "keyword": "self storage management",
+              "searchVolume": 110,
+              "id": "K5"
+            }
+          },
+          "uncertainCount": 5,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"wrongful lien sale lawsuit\": relevance unclear — not counted."
+            },
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"self storage compliance issues\": relevance unclear — not counted."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"lien sale software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"storage auction software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"lien sale software pricing\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 1 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: some (\"self storage management\" 110/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "insideselfstorage.com",
+            "taxlienlady.com",
+            "law.justia.com",
+            "selfstoragetalk.com",
+            "scribd.com",
+            "servicememberscivilreliefact.com",
+            "codelibrary.amlegal.com",
+            "fitchratings.com",
+            "avvo.com",
+            "inlandempireescrow.com",
+            "underpriced.app"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "facebook.com"
+          ],
+          "pricedDomains": [],
+          "note": "11 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "cfc99c295de4dbeb",
+      "evidenceUpdatedAt": "2026-09-29T11:02:37.278Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-29T11:10:35.052Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-29T11:02:37.278Z",
+        "qualifiers": [
+          "owner or manager of self-storage facilities"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The searcher is the target customer researching the exact risk the idea is designed to mitigate."
+          },
+          "K2": {
+            "searcher": "unclear",
+            "topic": "same",
+            "reason": "While the topic is correct, the searcher is ambiguous and could be the tenant (different customer) rather than the operator."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The searcher is the target customer, but the problem of compliance issues is broader than just the lien sale process."
+          },
+          "K4": {
+            "searcher": "unclear",
+            "topic": "category",
+            "reason": "The search term is for a general category of software that applies to many industries, not just self-storage."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is the target customer, but they are looking for a comprehensive facility management system, which is much wider than the idea."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The searcher is the target customer, but the software is for a specific part of the process (the auction itself), while the idea covers the entire compliance workflow."
+          },
+          "K7": {
+            "searcher": "unclear",
+            "topic": "category",
+            "reason": "The search term is a generic buying-intent query for a category of software that is not specific to self-storage."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is the target customer looking for a wide category of software to manage their entire facility."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The searcher is the target customer looking for pricing on comprehensive facility management software."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is for a different customer (tax lien investors) in a different domain."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is about vehicle liens, a completely different type of lien process and customer."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is about real estate finance and mortgage liens, which is unrelated to self-storage."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is about municipal government liens, a different customer and legal process."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is about municipal finance, which is completely unrelated."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal document for the general category of warehouseman's liens, which includes but is not exclusive to self-storage."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is for property owners facing a tax lien sale, a different customer and problem."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or manager of self-storage facilities"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is for the target customer but discusses a broader compliance topic (FDCPA) related to the problem."
+          },
+          "S2.3": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or manager of self-storage facilities"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a state law defining the lien sale process, which is the exact problem space for the target customer in that state."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or manager of self-storage facilities"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion among the target customers about the specifics of the problem."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or manager of self-storage facilities"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This document is a resource for the target customer about the exact legal process they must follow."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The article addresses a key part of the lien sale compliance problem for a broader audience that includes self-storage operators."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or manager of self-storage facilities"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses a specific procedural pitfall within the lien sale process for the target customer."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is about the same problem (wrongful lien sale) but from the perspective of the tenant, not the facility owner."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This guide is for a broader audience (operators and bidders) and focuses more on the auction than the preceding compliance steps."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "owner or manager of self-storage facilities"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a post from the target customer about an adjacent, post-auction problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-29:self-storage-lien-sale-workflow",
+        "opportunity": "The opportunity is to provide self-storage operators with workflow software to navigate the complex, state-specific legal process of lien sales. This would help them ensure compliance and mitigate the risk of expensive wrongful sale lawsuits.",
+        "whoPays": "The independent owner or manager of a self-storage facility pays for insurance against a low-frequency, high-severity event (a wrongful sale lawsuit) and to reduce the mental overhead of complex legal compliance. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "Self-Storage Payment Policies and 'Unintentional"
+            },
+            {
+              "id": "S2.3",
+              "quote": "Enforcement of lien. Sec. 5. (1) An owner's lien under section 3 shall be enforced only as provided in this section."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Pennsylvania's Self-Service Storage Facility Act, which establishes a lien process"
+            }
+          ],
+          "observed": "Industry publications discuss procedural risks and policies related to lien sales (S2.8). The process is governed by detailed state laws, such as those in Michigan (S2.3) and Pennsylvania (S2.6), which operators are required to follow.",
+          "inference": "Self-storage operators face a compliance burden due to complex, state-specific laws governing lien sales. Errors in this process create legal risk, but the evidence does not show how severe or common this pain is for operators."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [
+            {
+              "text": "No direct or indirect competitors were identified in the evidence.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The entire market for a standalone tool appears to be a gap. This function may be handled by lawyers, manual checklists, or as a feature within broader self-storage management software, which was not investigated.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The process of auctioning the contents of a delinquent unit is governed by strict, state-specific laws",
+            "finding": "This is supported by evidence showing specific, detailed state laws for Michigan and Pennsylvania that govern the lien process.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "Michigan Compiled Laws § 570.525 (2025) - Enforcement"
+              },
+              {
+                "id": "S2.6",
+                "quote": "Pennsylvania Self-Service Storage Lien Law"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A single procedural error... can lead to a wrongful sale lawsuit with judgments reaching hundreds of thousands of dollars.",
+            "finding": "The evidence does not contain information about lawsuits or judgment amounts. While it discusses procedural risks, the high-severity financial consequence is not validated.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "This is a low-frequency, high-severity risk.",
+            "finding": "The evidence does not establish the frequency or severity of this risk for facility operators.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "The core of the product is legal compliance logic that varies by state. Building a reliable workflow for even one state would require significant legal research or consultation, making a simple MVP difficult and potentially creating liability if incorrect."
+        },
+        "unproven": [
+          "The actual severity and frequency of wrongful sale lawsuits and whether this is a top-of-mind fear for operators.",
+          "Whether operators would pay for a standalone tool or expect this functionality to be part of their primary facility management software.",
+          "The feasibility of codifying and maintaining complex, state-specific legal workflows without a team of lawyers."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 independent self-storage operators to discover if they have ever faced a wrongful sale claim, how they currently manage the lien process, and if they perceive it as a significant risk they would pay to mitigate.",
+          "cost": "~$100 in gift cards + 10-20 hours",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 2 operators have either personally experienced a legal challenge or know someone who has, and they express a strong desire for a tool to prevent it, indicating a budget for legal/compliance tools.",
+        "stopIf": "Operators universally see this as a solved problem, handle it with a simple checklist, rely on their lawyers for the rare occasions it happens, or show no willingness to pay for a dedicated software solution."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide self-storage operators with workflow software to navigate the complex, state-specific legal process of lien sales. This would help them ensure compliance and mitigate the risk of expensive wrongful sale lawsuits.",
+        "whoPays": "The independent owner or manager of a self-storage facility pays for insurance against a low-frequency, high-severity event (a wrongful sale lawsuit) and to reduce the mental overhead of complex legal compliance. This is an inference.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "Self-Storage Payment Policies and 'Unintentional",
+              "domain": "insideselfstorage.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This article discusses a specific procedural pitfall within the lien sale process for the target customer."
+            },
+            {
+              "id": "S2.3",
+              "quote": "Enforcement of lien. Sec. 5. (1) An owner's lien under section 3 shall be enforced only as provided in this section.",
+              "domain": "law.justia.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This is a state law defining the lien sale process, which is the exact problem space for the target customer in that state."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Pennsylvania's Self-Service Storage Facility Act, which establishes a lien process",
+              "domain": "scribd.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct",
+              "relevanceReason": "This document is a resource for the target customer about the exact legal process they must follow."
+            }
+          ],
+          "observed": "Industry publications discuss procedural risks and policies related to lien sales (S2.8). The process is governed by detailed state laws, such as those in Michigan (S2.3) and Pennsylvania (S2.6), which operators are required to follow.",
+          "inference": "Self-storage operators face a compliance burden due to complex, state-specific laws governing lien sales. Errors in this process create legal risk, but the evidence does not show how severe or common this pain is for operators."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [
+            {
+              "text": "No direct or indirect competitors were identified in the evidence.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The entire market for a standalone tool appears to be a gap. This function may be handled by lawyers, manual checklists, or as a feature within broader self-storage management software, which was not investigated.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The process of auctioning the contents of a delinquent unit is governed by strict, state-specific laws",
+            "finding": "This is supported by evidence showing specific, detailed state laws for Michigan and Pennsylvania that govern the lien process.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "Michigan Compiled Laws § 570.525 (2025) - Enforcement",
+                "domain": "law.justia.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "direct",
+                "relevanceReason": "This is a state law defining the lien sale process, which is the exact problem space for the target customer in that state."
+              },
+              {
+                "id": "S2.6",
+                "quote": "Pennsylvania Self-Service Storage Lien Law",
+                "domain": "scribd.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "direct",
+                "relevanceReason": "This document is a resource for the target customer about the exact legal process they must follow."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A single procedural error... can lead to a wrongful sale lawsuit with judgments reaching hundreds of thousands of dollars.",
+            "finding": "The evidence does not contain information about lawsuits or judgment amounts. While it discusses procedural risks, the high-severity financial consequence is not validated.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "This is a low-frequency, high-severity risk.",
+            "finding": "The evidence does not establish the frequency or severity of this risk for facility operators.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "The core of the product is legal compliance logic that varies by state. Building a reliable workflow for even one state would require significant legal research or consultation, making a simple MVP difficult and potentially creating liability if incorrect."
+        },
+        "unproven": [
+          "The actual severity and frequency of wrongful sale lawsuits and whether this is a top-of-mind fear for operators.",
+          "Whether operators would pay for a standalone tool or expect this functionality to be part of their primary facility management software.",
+          "The feasibility of codifying and maintaining complex, state-specific legal workflows without a team of lawyers."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 independent self-storage operators to discover if they have ever faced a wrongful sale claim, how they currently manage the lien process, and if they perceive it as a significant risk they would pay to mitigate.",
+          "cost": "~$100 in gift cards + 10-20 hours",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 2 operators have either personally experienced a legal challenge or know someone who has, and they express a strong desire for a tool to prevent it, indicating a budget for legal/compliance tools.",
+        "stopIf": "Operators universally see this as a solved problem, handle it with a simple checklist, rely on their lawyers for the rare occasions it happens, or show no willingness to pay for a dedicated software solution.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-29T11:12:02.261Z",
+        "evidenceUpdatedAt": "2026-09-29T11:02:37.278Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-29T11:00:40.618Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 23,
+      "holdId": "75d301f1-2194-55fc-a4f1-d1f4ebc34d57",
+      "estimateUsd": 0.016236,
+      "costUsd": 0.01284,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-29T11:00:45.455Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "c058da79-4c10-592c-bb31-2d6aa99c10b7",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-29T11:01:05.460Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "a20305f8-6ae7-50d1-ad7b-9043361de31d",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-29T11:01:18.304Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "8b4fcb16-1cbe-5ca8-aae6-225b0ee805da",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-29T11:01:30.160Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "73603964-a095-59a3-ad88-0560d7a1bbd1",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-29T11:01:39.830Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "cbf677ee-7961-5709-b305-b9d8d783b760",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-29T11:02:08.685Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "7e9e3a91-3c9f-525b-95ce-a8fadad5c881",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.67828,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.32172
+    },
+    "monthToDateUsdBefore": 0.67828,
+    "spentThisRunUsd": 0.02484
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 23,
+    "keywordsFromCache": 4,
+    "labsUsd": 0.01476,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 23
+      }
+    ],
+    "totalUsd": 0.02676,
+    "reservedUsd": 0.029436
+  },
+  "lastGather": {
+    "at": "2026-09-29T11:02:37.278Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02484,
+    "note": null
+  }
+}

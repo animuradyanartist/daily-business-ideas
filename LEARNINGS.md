@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-29
+- The explosion of sophisticated, organized fraud can create an intense "why now" that turns a long-standing "vitamin" (efficiency) into a "painkiller" (existential risk mitigation).
+- A Supreme Court ruling that shifts liability onto a fragmented market of SMBs is a powerful catalyst for the adoption of compliance and due diligence software.
+- In fragmented SMB markets, high-priced enterprise incumbents create a natural price umbrella, leaving a significant opportunity for a focused, affordable point solution that does 80% of the job for 20% of the cost.
+
 ## 2026-09-28 (trends)
 - The most powerful "why now" is often an external economic force (like a fee change) applied by a regulator to a slow-moving industry.
 - A clunky, low-adoption government system is not a threat, but a signal of opportunity. It validates the problem and provides a clear opening for a user-friendly private alternative.
