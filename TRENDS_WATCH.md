@@ -435,6 +435,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI Tutors for Professional Licensing Exams** · Using specialized AI to provide adaptive learning paths and state-specific content for high-stakes professional exams. · flagged 2026-09-29 · last checked 2026-09-29 · [origin memo](trends/2026-09-29.md)
 - **AI-Powered "Digital Twin" for SMB Operations** · Using AI to create dynamic software models of a small business's operations to simulate the impact of decisions. · flagged 2026-09-29 · last checked 2026-09-29 · [origin memo](trends/2026-09-29.md)
 - **AI-Powered "Business-in-a-Box" for Home Service Trades** · Using all-in-one AI platforms to automate the entire back-office workflow for contractors, from quoting to invoicing. · flagged 2026-09-29 · last checked 2026-09-29 · [origin memo](trends/2026-09-29.md)
+- **AI-Powered Lab Management for University Research** · Using AI platforms to automate safety, compliance, and inventory management for academic research labs. · flagged 2026-09-30 · last checked 2026-09-30 · [origin memo](trends/2026-09-30.md)
+- **AI-Powered "Gifting-as-a-Service" Platforms** · Using AI platforms to automate personalized, ROI-tracked corporate gifting for B2B marketing and HR. · flagged 2026-09-30 · last checked 2026-09-30 · [origin memo](trends/2026-09-30.md)
+- **AI-Powered Litigation Intelligence & Case Sourcing** · Using AI platforms to analyze public data and proactively identify high-value litigation opportunities for plaintiff law firms. · flagged 2026-09-30 · last checked 2026-09-30 · [origin memo](trends/2026-09-30.md)
 
 
 ## ➡️ Active — plateauing
@@ -732,3 +735,5 @@ _(empty)_
 <!-- 2026-09-28 status-update directive: 🚀 | AI-Automated Workplace Safety (EHS) Compliance -->
 
 <!-- 2026-09-29 status-update directive: 🚀 | Generative Music for Creator Content -->
+
+<!-- 2026-09-30 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
