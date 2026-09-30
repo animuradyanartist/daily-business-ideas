@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-09-30
+- **The Independent Appraiser's "USPAP-Compliant" Workfile Archive** — A strong opportunity, but the clinical research market has a higher ARPA potential and the pain of an FDA audit feels more severe than a state appraisal board complaint.
+- **The Boutique Fitness Studio's "Never-Lapse" Instructor Certification & Insurance Tracker** — Killed. This is a real liability risk, but it's a "vitamin" for risk management, not a "painkiller" tied to a direct, high-stakes federal audit process that is core to revenue generation.
+- **The Small-Scale Chemical Manufacturer's "GHS-Compliant" Safety Data Sheet (SDS) Authoring Hub** — Killed. A valid compliance pain, but the market feels more niche and the buyer less concentrated than clinical research sites, which have clear community hubs like SCRS.
+- **The Small Food Truck's "Health-Department-Ready" Temperature & Cleaning Log** — Killed. The cost of failure (a temporary shutdown) is high, but the price point for a solution would be very low, making the unit economics less attractive.
+
 ## 2026-09-29
 - **The Welding Shop's "Audit-Ready" Welder Qualification & Continuity Log** — Killed. A strong opportunity, but the freight brokerage market is larger and the pain of active, intelligent fraudsters feels more acute than the passive risk of a compliance audit.
 - **The Self-Storage Operator's "Lawsuit-Proof" Lien Sale Workflow** — Killed. Previously killed due to high state-by-state legal variance, which makes a single national product too complex.

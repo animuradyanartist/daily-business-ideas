@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-09-30
+- A dominant incumbent offering a "free" product is not a death sentence; it's a market validation signal that can create an opportunity for a paid, user-centric alternative if the incumbent's incentives are misaligned with the user's.
+- The most valuable B2B SaaS products in regulated industries are not workflow tools; they are risk-neutralization utilities. The ROI is calculated against the cost of catastrophic failure, not against hours saved per week.
+- A proxy for a market's willingness to pay for compliance software is the existence of a "reimbursement" mechanism, where a primary stakeholder (e.g., a sponsor) pays a secondary stakeholder (e.g., a site) to use a specific tool.
+- The best wedge into a complex vertical is often the most painful, legally-mandated piece of paperwork. Owning the "system of record" for compliance creates a powerful data moat before expanding into operations.
+
 ## 2026-09-29 (trends)
 - The most potent B2B opportunities exist where a high-stakes, mandatory process (like licensing exams or back-office operations) can be automated, providing a clear ROI in both time saved and risk avoided.
 - A viable strategy is to productize the "how-to" layer on top of emerging AI platforms. As AI tools become more powerful and complex, a market emerges for toolkits that teach non-experts how to use them effectively.

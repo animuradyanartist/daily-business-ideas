@@ -6640,6 +6640,321 @@
         "status": 200,
         "error": "not HTML (application/pdf)"
       }
+    },
+    "page|https://www.ifs.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:40.905Z",
+      "data": {
+        "url": "https://www.ifs.com/pricing",
+        "finalUrl": "https://www.ifs.com/pricing",
+        "retrievedAt": "2026-09-30T10:51:40.905Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://www.ifs.com/en": {
+      "fetchedAt": "2026-09-30T10:51:40.903Z",
+      "data": {
+        "url": "https://www.ifs.com/en",
+        "finalUrl": "https://www.ifs.com/en",
+        "retrievedAt": "2026-09-30T10:51:40.903Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://ecustoms.com/compliance_solutions/pre-arrival_notification_isf_software/": {
+      "fetchedAt": "2026-09-30T10:51:40.908Z",
+      "data": {
+        "url": "https://ecustoms.com/compliance_solutions/pre-arrival_notification_isf_software/",
+        "finalUrl": "https://ecustoms.com/compliance_solutions/pre-arrival_notification_isf_software/",
+        "retrievedAt": "2026-09-30T10:51:40.908Z",
+        "status": 200,
+        "error": null,
+        "title": "Importer Security Filing (ISF) Software | eCustoms",
+        "description": "Fast and precise Importer Security Filing and 10+2 pre-arrival notification software for Importers and Freight Carriers.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://ecustoms.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:40.908Z",
+      "data": {
+        "url": "https://ecustoms.com/pricing",
+        "finalUrl": "https://ecustoms.com/pricing",
+        "retrievedAt": "2026-09-30T10:51:40.908Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://isfinnovation.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:40.907Z",
+      "data": {
+        "url": "https://isfinnovation.com/pricing",
+        "finalUrl": "https://isfinnovation.com/pricing",
+        "retrievedAt": "2026-09-30T10:51:40.907Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://isfinnovation.com/": {
+      "fetchedAt": "2026-09-30T10:51:40.906Z",
+      "data": {
+        "url": "https://isfinnovation.com/",
+        "finalUrl": "https://isfinnovation.com/",
+        "retrievedAt": "2026-09-30T10:51:40.906Z",
+        "status": 200,
+        "error": null,
+        "title": "ISF Innovation Experts | ISFsoft by ISF Innovation Experts",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.bradfordsoftware.com/team-appraising/index.shtml": {
+      "fetchedAt": "2026-09-30T10:51:44.287Z",
+      "data": {
+        "url": "https://www.bradfordsoftware.com/team-appraising/index.shtml",
+        "finalUrl": "https://www.bradfordsoftware.com/team-appraising/index.shtml",
+        "retrievedAt": "2026-09-30T10:51:44.287Z",
+        "status": 200,
+        "error": null,
+        "title": "Team Appraising | Bradford Technologies, Inc.",
+        "description": "With NightHawk, speed matters and in the first 10 seconds of starting a report, NightHawk retrieves information from multiple sources.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.bradfordsoftware.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:44.289Z",
+      "data": {
+        "url": "https://www.bradfordsoftware.com/pricing",
+        "finalUrl": "https://www.bradfordsoftware.com/pricing",
+        "retrievedAt": "2026-09-30T10:51:44.289Z",
+        "status": 200,
+        "error": null,
+        "title": "Oops | Bradford Technologies, Inc.",
+        "description": "Free Trainee,Appraisal Software,ClickFORMS,Easy Appraisal,",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://dm-web-w-us-apps-staging.azurewebsites.net/office-workfile-sharing/": {
+      "fetchedAt": "2026-09-30T10:51:44.291Z",
+      "data": {
+        "url": "https://dm-web-w-us-apps-staging.azurewebsites.net/office-workfile-sharing/",
+        "finalUrl": "https://dm-web-w-us-apps-staging.azurewebsites.net/office-workfile-sharing/",
+        "retrievedAt": "2026-09-30T10:51:44.291Z",
+        "status": 200,
+        "error": null,
+        "title": "Office Workfile Sharing",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.workingre.com/theres-what-in-your-workfile-2016/": {
+      "fetchedAt": "2026-09-30T10:51:44.290Z",
+      "data": {
+        "url": "https://www.workingre.com/theres-what-in-your-workfile-2016/",
+        "finalUrl": "https://www.workingre.com/theres-what-in-your-workfile-2016/",
+        "retrievedAt": "2026-09-30T10:51:44.290Z",
+        "status": 200,
+        "error": null,
+        "title": "Bulletproof Your Appraisal Report and Workfile",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$49",
+            "billingUnit": false,
+            "context": "ed eBook The Expert’s Guide to a Defensible Workfile FREE! ($49 value) With extensive experience as a USPAP expert in cases"
+          },
+          {
+            "text": "$59",
+            "billingUnit": false,
+            "context": "Consultant, and AQB-Certified USPAP Instructor Sign Up Now ($59) OREP Members – Click Here for a Discount ($49) *Webinars a"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.workingre.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:44.291Z",
+      "data": {
+        "url": "https://www.workingre.com/pricing",
+        "finalUrl": "https://www.workingre.com/pricing-services-strategies-considerations-part-1/",
+        "retrievedAt": "2026-09-30T10:51:44.291Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing Your Services – Strategies and Considerations (Part 1)",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$359",
+            "billingUnit": false,
+            "context": "The average across North America was in the neighborhood of $359 as of 2012. There is a big spread on this average, however."
+          },
+          {
+            "text": "$400",
+            "billingUnit": false,
+            "context": "ever. For example, in our market, the average fee was about $400. Once you have this information, you can pursue one of seve"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://dm-web-w-us-apps-staging.azurewebsites.net/pricing": {
+      "fetchedAt": "2026-09-30T10:51:44.292Z",
+      "data": {
+        "url": "https://dm-web-w-us-apps-staging.azurewebsites.net/pricing",
+        "finalUrl": "https://dm-web-w-us-apps-staging.azurewebsites.net/pricing",
+        "retrievedAt": "2026-09-30T10:51:44.292Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://trainingtrackersoftware.com/": {
+      "fetchedAt": "2026-09-30T10:51:47.511Z",
+      "data": {
+        "url": "https://trainingtrackersoftware.com/",
+        "finalUrl": "https://trainingtrackersoftware.com/",
+        "retrievedAt": "2026-09-30T10:51:47.511Z",
+        "status": 200,
+        "error": null,
+        "title": "Training Tracker | Simple Employee Training Management App",
+        "description": "Training Tracker is an easy-to-use employee training management app to keep your company in regulatory compliance and your staff safe through up-to-date training.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://trainingtrackersoftware.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:47.512Z",
+      "data": {
+        "url": "https://trainingtrackersoftware.com/pricing",
+        "finalUrl": "https://trainingtrackersoftware.com/pricing",
+        "retrievedAt": "2026-09-30T10:51:47.512Z",
+        "status": 200,
+        "error": null,
+        "title": "Training Tracker | Feature Rich, Simple Training Management",
+        "description": "Training Tracker has useful features like reminder emails, easy reporting, certification tracking, and employee management tools to make compliance painless.",
+        "priceMentions": [
+          {
+            "text": "$34 /User",
+            "billingUnit": true,
+            "context": "art! See our feature chart! Training Tracker Features Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over"
+          },
+          {
+            "text": "$408",
+            "billingUnit": false,
+            "context": "raining Tracker Features Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 Use"
+          },
+          {
+            "text": "$374",
+            "billingUnit": false,
+            "context": "ng Tracker Features Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr"
+          },
+          {
+            "text": "$49 /User",
+            "billingUnit": true,
+            "context": "es Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/M"
+          },
+          {
+            "text": "$588",
+            "billingUnit": false,
+            "context": "2 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $"
+          },
+          {
+            "text": "$539",
+            "billingUnit": false,
+            "context": "s = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $814 U"
+          },
+          {
+            "text": "$74 /User",
+            "billingUnit": true,
+            "context": "o $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $814 User/Yr Track Employee Trainin"
+          },
+          {
+            "text": "$888",
+            "billingUnit": false,
+            "context": "= $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $814 User/Yr Track Employee Training Eliminates: Lost sprea"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://learningnetwork.cisco.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:47.513Z",
+      "data": {
+        "url": "https://learningnetwork.cisco.com/pricing",
+        "finalUrl": "https://learningnetwork.cisco.com/pricing",
+        "retrievedAt": "2026-09-30T10:51:47.513Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://learningnetwork.cisco.com/s/article/instructor-certification-program-icp": {
+      "fetchedAt": "2026-09-30T10:51:47.512Z",
+      "data": {
+        "url": "https://learningnetwork.cisco.com/s/article/instructor-certification-program-icp",
+        "finalUrl": "https://learningnetwork.cisco.com/s/article/instructor-certification-program-icp",
+        "retrievedAt": "2026-09-30T10:51:47.512Z",
+        "status": 200,
+        "error": null,
+        "title": "Cisco Learning Network",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://cprenroll.com/how-to-track-instructor-credentials/": {
+      "fetchedAt": "2026-09-30T10:51:47.509Z",
+      "data": {
+        "url": "https://cprenroll.com/how-to-track-instructor-credentials/",
+        "finalUrl": "https://cprenroll.com/how-to-track-instructor-credentials/",
+        "retrievedAt": "2026-09-30T10:51:47.509Z",
+        "status": 200,
+        "error": null,
+        "title": "How to Track Instructor Credentials Well - cpr-enroll",
+        "description": "Learn how to track instructor credentials with a system that reduces admin work, prevents lapses, and keeps CPR training records audit-ready.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://cprenroll.com/pricing": {
+      "fetchedAt": "2026-09-30T10:51:47.510Z",
+      "data": {
+        "url": "https://cprenroll.com/pricing",
+        "finalUrl": "https://cprenroll.com/pricing/",
+        "retrievedAt": "2026-09-30T10:51:47.510Z",
+        "status": 200,
+        "error": null,
+        "title": "CPR Enroll Pricing | Start With a 14-Day Free Trial",
+        "description": "Review CPR Enroll pricing and start a 14-day free trial. Manage CPR classes, students, payments, paperwork, certifications, instructors, and more from one platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }

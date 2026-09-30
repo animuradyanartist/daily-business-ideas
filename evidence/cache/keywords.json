@@ -27953,6 +27953,1058 @@
       "fetchedAt": "2026-09-29T11:00:40.619Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|fda 483 observation": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "fda 483 observation",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 8.11,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-14 12:19:44 +00:00"
+      }
+    },
+    "labs|united states|en|clinical trial audit failure": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|investigator site file compliance": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|isf software": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "isf software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.12,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -67,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 16:56:55 +00:00"
+      }
+    },
+    "labs|united states|en|clinical trial document management": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "clinical trial document management",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 18:40:18 +00:00"
+      }
+    },
+    "labs|united states|en|research site compliance tool": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|isf software pricing": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best clinical research software": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|clinical trial compliance cost": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|uspap workfile requirements": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "uspap workfile requirements",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.07,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-15 05:57:35 +00:00"
+      }
+    },
+    "labs|united states|en|appraisal audit failure": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|appraiser license risk": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|appraisal workfile software": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|uspap compliance tool": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|real estate appraisal archive": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|appraisal software pricing": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best appraiser tools": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "best appraiser tools",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-06-15 02:04:47 +00:00"
+      }
+    },
+    "labs|united states|en|uspap compliance cost": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|expired instructor certification risk": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fitness studio liability insurance": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "fitness studio liability insurance",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.86,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-12 02:18:50 +00:00"
+      }
+    },
+    "labs|united states|en|group fitness instructor compliance": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|instructor certification tracker": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fitness studio management software": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": true,
+      "data": {
+        "keyword": "fitness studio management software",
+        "searchVolume": 260,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 390
+          }
+        ],
+        "cpcUsd": 124.03,
+        "adCompetition": 0.01,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 88,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 09:47:27 +00:00"
+      }
+    },
+    "labs|united states|en|liability risk management tool": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fitness software pricing": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best studio management tools": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|instructor tracker cost": {
+      "fetchedAt": "2026-09-30T10:50:24.020Z",
+      "returned": false,
+      "data": null
     }
   }
 }

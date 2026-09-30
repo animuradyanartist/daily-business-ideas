@@ -1,0 +1,4366 @@
+{
+  "schema": 1,
+  "date": "2026-09-30",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-09-30.md"
+  },
+  "createdAt": "2026-09-30T10:50:20.424Z",
+  "updatedAt": "2026-09-30T10:50:20.425Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-09-30.md",
+    "title": "The Independent Clinical Research Site's \"FDA-Proof\" Investigator Site File Hub",
+    "score": 100,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-09-30:clinical-research-site-isf-hub",
+      "slug": "clinical-research-site-isf-hub",
+      "title": "The Clinical Research Site's \"Audit-Ready\" Investigator Site File (ISF) Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem mentions FDA 483 observation, which is a US regulatory term, indicating the US is the primary market."
+      },
+      "plan": {
+        "slug": "clinical-research-site-isf-hub",
+        "title": "The Clinical Research Site's \"Audit-Ready\" Investigator Site File (ISF) Hub",
+        "problem": "A missing or incomplete document in the ISF can lead to an FDA 483 observation, jeopardize trial data integrity, and cause sponsors to withhold millions in payments.",
+        "targetCustomer": "Clinical Research Coordinator or Site Manager at a small, independent research site.",
+        "payer": "Clinical Research Coordinator or Site Manager at a small, independent research site.",
+        "whyPayerPays": "An affordable SaaS tool is a rounding error compared to the cost of audit failure.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem mentions FDA 483 observation, which is a US regulatory term, indicating the US is the primary market."
+        },
+        "keywords": {
+          "problem": [
+            "fda 483 observation",
+            "clinical trial audit failure",
+            "investigator site file compliance"
+          ],
+          "solution": [
+            "isf software",
+            "clinical trial document management",
+            "research site compliance tool"
+          ],
+          "buying": [
+            "isf software pricing",
+            "best clinical research software",
+            "clinical trial compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "isf software",
+          "fda 483 observation"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "fda 483 observation",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 8.11,
+          "adCompetition": 0.18,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 100,
+          "providerUpdatedAt": "2026-09-14 12:19:44 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "rising",
+            "changePct": 129,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "clinical trial audit failure",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "investigator site file compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "isf software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.12,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -67,
+          "providerUpdatedAt": "2026-09-14 16:56:55 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 20
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (27 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "clinical trial document management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -100,
+          "providerUpdatedAt": "2026-09-12 18:40:18 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (47 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "research site compliance tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "isf software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best clinical research software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "clinical trial compliance cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "isf software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:28.200Z",
+          "checkUrl": "https://www.google.com/search?q=isf%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.ifs.com",
+              "url": "https://www.ifs.com/en",
+              "title": "IFS. AI-Powered Software Built for Your Industry",
+              "description": "Recognized as a leading enterprise software solution provider, IFS develops and delivers ERP, EAM, FSM and ESM to businesses worldwide.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "isfinnovation.com",
+              "url": "https://isfinnovation.com/",
+              "title": "ISF Innovation Experts",
+              "description": "ISFsoft Viewer is a versatile 3D model and engineering document viewer … users can view, manage, and download essential information",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "ecustoms.com",
+              "url": "https://ecustoms.com/compliance_solutions/pre-arrival_notification_isf_software/",
+              "title": "Importer Security Filing (ISF) Software - eCustoms",
+              "description": "Fast and precise Importer Security Filing and 10+2 pre-arrival notification software for Importers and Freight Carriers.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "isf.video",
+              "url": "https://isf.video/",
+              "title": "ISF",
+              "description": "ISF is designed to provide a simple, reusable and open format for creating efficient hardware-accelerated interactive resources for media servers, VJ software,",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.isfwatchkeeper.com",
+              "url": "https://www.isfwatchkeeper.com/",
+              "title": "ISF Watchkeeper - STCW Crew Work Rest Hours Compliance ...",
+              "description": "ISF Watchkeeper is the global work and rest hour software solution for STCW and MLC 2006 compliance. Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.isf.com",
+              "url": "https://www.isf.com/",
+              "title": "Home - ISF",
+              "description": "Discover how ISF Solves the Future · Organizational Transformation · Strategy and Operations · Public Sector Managed Services · IT Modernization. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "gofreight.com",
+              "url": "https://gofreight.com/glossary/isf-filing-software-guide",
+              "title": "How to File ISF Online: Step-by-Step 10+2 Filing Guide ...",
+              "description": "ISF filing software helps importers and their agents submit required security filing data (10+2) to US Customs and Border Protection for ocean imports.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/company/isf-inc-us",
+              "title": "ISF, Inc.",
+              "description": "ISF offers a wide variety of services to include management consulting, custom software development and support, data conversion, system design and analysis,",
+              "id": "S1.10",
+              "class": "platform"
+            },
+            {
+              "rank": 11,
+              "domain": "insider.govtech.com",
+              "url": "https://insider.govtech.com/texas/isf",
+              "title": "ISF",
+              "description": "ISF is a trusted thought leader in strategic services for public sector agencies. We are a stable and consistent presence for employees and clients who love ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "fda 483 observation",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:35.465Z",
+          "checkUrl": "https://www.google.com/search?q=fda%20483%20observation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.fda.gov",
+              "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/inspection-observations",
+              "title": "Inspection Observations",
+              "description": "Dec 16, 2025 — During an inspection, OII investigators may observe conditions they deem to be objectionable. These observations, are listed on an FDA Form 483 ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.fda.gov",
+              "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters",
+              "title": "Warning Letters",
+              "description": "Learn about the types of warning letters on FDA's website. Matters described in FDA warning letters may have been subject to subsequent interaction between ... Read more",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Form_FDA_483",
+              "title": "Form FDA 483",
+              "description": "This response must be submitted within 15 business days regardless of the number of observations, as of September 2009. While a response is not compulsory, a ... Read more",
+              "id": "S2.5",
+              "class": "reference_media"
+            },
+            {
+              "rank": 6,
+              "domain": "www.fda.gov",
+              "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/inspectional-observations-and-citations",
+              "title": "Inspectional Observations and Citations",
+              "description": "Mar 20, 2024 — Observations are listed on an FDA Form 483 in order of risk significance by the investigator. The format of any single observation begins with ...",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.ideagen.com",
+              "url": "https://www.ideagen.com/thought-leadership/blog/the-most-common-fda-483-observations",
+              "title": "The most common FDA 483 observations",
+              "description": "Apr 18, 2023 — What are the most common FDA 483 observations? · Inadequate or insufficient documentation of procedures, testing, or quality control measures. Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.greenlight.guru",
+              "url": "https://www.greenlight.guru/blog/fda-483-warning-letters",
+              "title": "The Definitive Guide to Responding to FDA 483 ...",
+              "description": "Jan 13, 2026 — In the definitive guide to responding to FDA 483 & warning letters you will learn exactly how you should react & includes a free response ...",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.cloudtheapp.com",
+              "url": "https://www.cloudtheapp.com/blog/fda-483-observations-what-they-are-why-they-happen-and-how-to-avoid-them",
+              "title": "FDA 483 Observations: What & How to Avoid",
+              "description": "May 6, 2026 — A 483 observation is a written finding issued by an FDA investigator when they spot conditions that may violate federal law during an inspection ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.fda.gov",
+              "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions",
+              "title": "FDA Form 483 Frequently Asked Questions",
+              "description": "Jan 9, 2020 — The FDA Form 483 is a report which does not include observations of questionable or unknown significance at the time of the inspection. There ... Read more",
+              "id": "S2.10",
+              "class": "government"
+            },
+            {
+              "rank": 11,
+              "domain": "www.propharmagroup.com",
+              "url": "https://www.propharmagroup.com/thought-leadership/fda-inspection-readiness-top-observations-how-to-avoid-form-483",
+              "title": "FDA Inspection Readiness: Top Observations and How to ...",
+              "description": "Aug 19, 2025 — Receiving a 483 can delay product approvals, disrupt operations, or even lead to warning letters, import alerts, or a consent decree. By ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "ifs.com",
+          "url": "https://www.ifs.com/en",
+          "finalUrl": "https://www.ifs.com/en",
+          "retrievedAt": "2026-09-30T10:51:40.903Z",
+          "status": 429,
+          "error": "HTTP 429"
+        },
+        {
+          "id": "P2",
+          "domain": "ifs.com",
+          "url": "https://www.ifs.com/pricing",
+          "finalUrl": "https://www.ifs.com/pricing",
+          "retrievedAt": "2026-09-30T10:51:40.905Z",
+          "status": 429,
+          "error": "HTTP 429"
+        },
+        {
+          "id": "P3",
+          "domain": "isfinnovation.com",
+          "url": "https://isfinnovation.com/",
+          "finalUrl": "https://isfinnovation.com/",
+          "retrievedAt": "2026-09-30T10:51:40.906Z",
+          "status": 200,
+          "error": null,
+          "title": "ISF Innovation Experts | ISFsoft by ISF Innovation Experts",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "isfinnovation.com",
+          "url": "https://isfinnovation.com/pricing",
+          "finalUrl": "https://isfinnovation.com/pricing",
+          "retrievedAt": "2026-09-30T10:51:40.907Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "ecustoms.com",
+          "url": "https://ecustoms.com/compliance_solutions/pre-arrival_notification_isf_software/",
+          "finalUrl": "https://ecustoms.com/compliance_solutions/pre-arrival_notification_isf_software/",
+          "retrievedAt": "2026-09-30T10:51:40.908Z",
+          "status": 200,
+          "error": null,
+          "title": "Importer Security Filing (ISF) Software | eCustoms",
+          "description": "Fast and precise Importer Security Filing and 10+2 pre-arrival notification software for Importers and Freight Carriers.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "ecustoms.com",
+          "url": "https://ecustoms.com/pricing",
+          "finalUrl": "https://ecustoms.com/pricing",
+          "retrievedAt": "2026-09-30T10:51:40.908Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 5,
+          "top": {
+            "keyword": "isf software",
+            "searchVolume": 10,
+            "id": "K4"
+          },
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 3,
+            "top": {
+              "keyword": "clinical trial document management",
+              "searchVolume": 10,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K1",
+              "kind": "uncorroborated",
+              "text": "\"fda 483 observation\" (140/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"isf software\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low (\"clinical trial document management\" 10/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "ifs.com",
+            "isfinnovation.com",
+            "ecustoms.com",
+            "isf.video",
+            "isfwatchkeeper.com",
+            "ideagen.com",
+            "isf.com",
+            "greenlight.guru",
+            "gofreight.com",
+            "cloudtheapp.com",
+            "insider.govtech.com",
+            "propharmagroup.com"
+          ],
+          "platformDomains": [
+            "linkedin.com"
+          ],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "12 vendor-like or publisher domain(s) and 1 broad platform(s) (linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "d38ec33360f34ee4",
+      "evidenceUpdatedAt": "2026-09-30T10:51:50.317Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-09-30T11:00:11.132Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-30T10:51:50.317Z",
+        "qualifiers": [
+          "Clinical Research Coordinator",
+          "Site Manager",
+          "small, independent research site"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is for a specific negative consequence (FDA 483 observation) that the idea aims to prevent for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about the core problem of failing a clinical trial audit, which the idea directly addresses."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about compliance for the Investigator Site File, which is the central focus of the idea."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is for software to manage the Investigator Site File (ISF), which is exactly what the idea proposes."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search is for a broader category of software for managing clinical trial documents, which includes the idea's specific solution."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search is for a general compliance tool for a research site, a category that includes the idea's specific ISF tool."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search shows buying intent for the specific type of software the idea offers."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search is for the best software in the broader clinical research category, which would include the idea's solution."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The search is about the general cost of compliance, a wider topic than a specific tool to manage it."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is about general enterprise software (ERP, EAM) for various industries, not clinical research site document management."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a 3D model and engineering document viewer, not a tool for clinical research files."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for Importer Security Filing (ISF) for customs, not Investigator Site Files in clinical research."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a format for VJ and media server software, unrelated to clinical research."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This software is for managing work/rest hours for maritime crews, not clinical trial documents."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a consulting firm for organizational transformation and IT, not a clinical research tool."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is about Importer Security Filing (ISF) for ocean freight, not Investigator Site Files for clinical trials."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a general IT and consulting services company, not a specific product for clinical research sites."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This company provides strategic services for public sector agencies, not software for clinical research sites."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an official FDA page explaining FDA 483 observations, relevant to the target customer but also to anyone in an FDA-regulated industry."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is about FDA Warning Letters, a related but more severe issue than a 483 observation, relevant to a broad audience in regulated industries."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general informational article about Form FDA 483, relevant to the target customer and anyone in an FDA-regulated industry."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an official FDA page about inspectional observations, relevant to the target customer and anyone in an FDA-regulated industry."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses common FDA 483 observations, a problem relevant to the target customer but also to a broader audience in regulated industries."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide on how to respond to an FDA 483, relevant to the target customer and anyone else in an FDA-regulated industry."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article explains what FDA 483s are and how to avoid them, relevant to the target customer and a broader audience in regulated industries."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an official FDA FAQ about Form 483, relevant to the target customer and anyone in an FDA-regulated industry."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about preparing for FDA inspections, a topic relevant to the target customer and a broader audience in regulated industries."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a product page for a 3D model and engineering document viewer, not a tool for clinical research files."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a product page for Importer Security Filing (ISF) software for customs, not Investigator Site Files in clinical research."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-30:clinical-research-site-isf-hub",
+        "opportunity": "The opportunity is to provide a specialized software tool for small clinical research sites to manage their Investigator Site File (ISF). This would help them maintain audit-ready compliance and avoid penalties from regulatory bodies like the FDA.",
+        "whoPays": "This is an inference: The Clinical Research Coordinator or Site Manager at a small research site would pay. They are directly responsible for site operations and face severe consequences from audit failures, making a tool that reduces this risk a high-value purchase.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Inadequate or insufficient documentation of procedures"
+            },
+            {
+              "id": "S2.11",
+              "quote": "delay product approvals, disrupt operations, or even lead to warning letters"
+            }
+          ],
+          "observed": "Articles aimed at a broad audience in FDA-regulated industries state that common reasons for FDA 483 observations include \"Inadequate or insufficient documentation of procedures\". The consequences of receiving a 483 can be to \"delay product approvals, disrupt operations, or even lead to warning letters\".",
+          "inference": "Since clinical research sites are FDA-regulated, it is inferred they face this specific problem and these negative consequences, creating a need for better document management."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "A search for the most direct solution keyword, \"isf software\", returned no relevant competitors. The results were for unrelated industries that use the same acronym (e.g., Importer Security Filing). This suggests either a complete lack of direct competition or that the target customer uses a different term to find solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "A missing or incomplete document in the ISF can lead to an FDA 483 observation",
+            "finding": "Search results for \"fda 483 observation\" show that a common cause is \"Inadequate or insufficient documentation of procedures\".",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "Inadequate or insufficient documentation of procedures"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "An affordable SaaS tool is a rounding error compared to the cost of audit failure",
+            "finding": "The primary solution keyword \"isf software\" has very low search volume (10/mo) and the search results are all for unrelated industries, indicating customers may not be searching for a solution with this term.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "isf software"
+              },
+              {
+                "id": "S1.5",
+                "quote": "Importer Security Filing (ISF) Software"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A first experiment could be a landing page and a downloadable \"Audit-Ready ISF Checklist\" lead magnet. This requires minimal technical work and can be built in a few days."
+        },
+        "unproven": [
+          "Whether clinical research coordinators at small sites are actively searching for a dedicated ISF software solution.",
+          "What terminology target customers use to describe this problem and search for solutions, given the poor results for \"isf software\".",
+          "Whether sites use generic tools (like Google Drive) or features within larger Clinical Trial Management Systems (CTMS) that they deem 'good enough'."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page with the headline \"The Always Audit-Ready Investigator Site File for Independent Research Sites.\" Offer a free \"FDA Inspection-Ready ISF Checklist\" for an email signup. Drive traffic via a small, targeted LinkedIn ad campaign aimed at 'Clinical Research Coordinator' job titles.",
+          "cost": "~$250 for ads + 2 days founder time",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The ad campaign achieves a click-to-signup conversion rate of 5% or more, indicating the problem and solution messaging resonates with the target audience.",
+        "stopIf": "The ad campaign generates fewer than 10 total signups, suggesting the value proposition is not compelling or the audience is not being reached effectively."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a specialized software tool for small clinical research sites to manage their Investigator Site File (ISF). This would help them maintain audit-ready compliance and avoid penalties from regulatory bodies like the FDA.",
+        "whoPays": "This is an inference: The Clinical Research Coordinator or Site Manager at a small research site would pay. They are directly responsible for site operations and face severe consequences from audit failures, making a tool that reduces this risk a high-value purchase.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Inadequate or insufficient documentation of procedures",
+              "domain": "ideagen.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses common FDA 483 observations, a problem relevant to the target customer but also to a broader audience in regulated industries."
+            },
+            {
+              "id": "S2.11",
+              "quote": "delay product approvals, disrupt operations, or even lead to warning letters",
+              "domain": "propharmagroup.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article is about preparing for FDA inspections, a topic relevant to the target customer and a broader audience in regulated industries."
+            }
+          ],
+          "observed": "Articles aimed at a broad audience in FDA-regulated industries state that common reasons for FDA 483 observations include \"Inadequate or insufficient documentation of procedures\". The consequences of receiving a 483 can be to \"delay product approvals, disrupt operations, or even lead to warning letters\".",
+          "inference": "Since clinical research sites are FDA-regulated, it is inferred they face this specific problem and these negative consequences, creating a need for better document management."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "A search for the most direct solution keyword, \"isf software\", returned no relevant competitors. The results were for unrelated industries that use the same acronym (e.g., Importer Security Filing). This suggests either a complete lack of direct competition or that the target customer uses a different term to find solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "A missing or incomplete document in the ISF can lead to an FDA 483 observation",
+            "finding": "Search results for \"fda 483 observation\" show that a common cause is \"Inadequate or insufficient documentation of procedures\".",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "Inadequate or insufficient documentation of procedures",
+                "domain": "ideagen.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article discusses common FDA 483 observations, a problem relevant to the target customer but also to a broader audience in regulated industries."
+              }
+            ],
+            "effect": "untested"
+          },
+          {
+            "original": "An affordable SaaS tool is a rounding error compared to the cost of audit failure",
+            "finding": "The primary solution keyword \"isf software\" has very low search volume (10/mo) and the search results are all for unrelated industries, indicating customers may not be searching for a solution with this term.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "isf software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "The search is for software to manage the Investigator Site File (ISF), which is exactly what the idea proposes."
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A first experiment could be a landing page and a downloadable \"Audit-Ready ISF Checklist\" lead magnet. This requires minimal technical work and can be built in a few days."
+        },
+        "unproven": [
+          "Whether clinical research coordinators at small sites are actively searching for a dedicated ISF software solution.",
+          "What terminology target customers use to describe this problem and search for solutions, given the poor results for \"isf software\".",
+          "Whether sites use generic tools (like Google Drive) or features within larger Clinical Trial Management Systems (CTMS) that they deem 'good enough'."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page with the headline \"The Always Audit-Ready Investigator Site File for Independent Research Sites.\" Offer a free \"FDA Inspection-Ready ISF Checklist\" for an email signup. Drive traffic via a small, targeted LinkedIn ad campaign aimed at 'Clinical Research Coordinator' job titles.",
+          "cost": "~$250 for ads + 2 days founder time",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The ad campaign achieves a click-to-signup conversion rate of 5% or more, indicating the problem and solution messaging resonates with the target audience.",
+        "stopIf": "The ad campaign generates fewer than 10 total signups, suggesting the value proposition is not compelling or the audience is not being reached effectively.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"a missing or incomplete document in the isf can le\" supports → untested: Scout's claim is that something is absent, which quoted items cannot show — at most an inference"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "change",
+              "id": "S1.5",
+              "relevance": "unrelated",
+              "reason": "This software is for Importer Security Filing (ISF) for customs, not Investigator Site Files in clinical research."
+            }
+          ],
+          "downgraded": [
+            "change \"a missing or incomplete document in the isf can le\" supports → untested: Scout's claim is that something is absent, which quoted items cannot show — at most an inference"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-30T11:01:24.041Z",
+        "evidenceUpdatedAt": "2026-09-30T10:51:50.317Z"
+      }
+    },
+    {
+      "id": "2026-09-30:appraiser-uspap-workfile-archive",
+      "slug": "appraiser-uspap-workfile-archive",
+      "title": "The Independent Appraiser's \"USPAP-Compliant\" Workfile Archive",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "USPAP (Uniform Standards of Professional Appraisal Practice) is a standard primarily used in the United States, and the market hypothesis mentions 'US appraisers'."
+      },
+      "plan": {
+        "slug": "appraiser-uspap-workfile-archive",
+        "title": "The Independent Appraiser's \"USPAP-Compliant\" Workfile Archive",
+        "problem": "USPAP standards require a complete \"workfile\" to be maintained for 5+ years for every appraisal, and an audit failure can lead to loss of license.",
+        "targetCustomer": "Licensed solo or small-firm real estate appraiser.",
+        "payer": "Licensed solo or small-firm real estate appraiser.",
+        "whyPayerPays": "A dedicated archive to protect their license is a logical, high-ROI purchase.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "USPAP (Uniform Standards of Professional Appraisal Practice) is a standard primarily used in the United States, and the market hypothesis mentions 'US appraisers'."
+        },
+        "keywords": {
+          "problem": [
+            "uspap workfile requirements",
+            "appraisal audit failure",
+            "appraiser license risk"
+          ],
+          "solution": [
+            "appraisal workfile software",
+            "uspap compliance tool",
+            "real estate appraisal archive"
+          ],
+          "buying": [
+            "appraisal software pricing",
+            "best appraiser tools",
+            "uspap compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "appraisal workfile software",
+          "uspap workfile requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "uspap workfile requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.07,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-15 05:57:35 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "appraisal audit failure",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "appraiser license risk",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "appraisal workfile software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "uspap compliance tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "real estate appraisal archive",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "appraisal software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best appraiser tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-15 02:04:47 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "uspap compliance cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "appraisal workfile software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:48.641Z",
+          "checkUrl": "https://www.google.com/search?q=appraisal%20workfile%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.bradfordsoftware.com",
+              "url": "https://www.bradfordsoftware.com/team-appraising/index.shtml",
+              "title": "Team Appraising | Bradford Technologies, Inc.",
+              "description": "Team Appraising combines the benefits of desktop appraisal software, mobile inspection software, online form processing and cloud storage with instant data ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "dm-web-w-us-apps-staging.azurewebsites.net",
+              "url": "https://dm-web-w-us-apps-staging.azurewebsites.net/office-workfile-sharing/",
+              "title": "Office Workfile Sharing - DataMaster for Appraisers",
+              "description": "With DataMaster Pro, you can share your entire workfile with others in your office. Collaborate on your subject, comparables, and market analysis to make your ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.appraisalinbox.com",
+              "url": "https://www.appraisalinbox.com/blog/tag/appraisal-software/",
+              "title": "Blog - appraisal software",
+              "description": "Grow and manage your appraisal business with an all-in-one platform for order tracking, scheduling, assignment, accounting, customer relationship management and ...",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "appraisersforum.com",
+              "url": "https://appraisersforum.com/forums/threads/convert-zap-files.223364/",
+              "title": "Convert Zap Files",
+              "description": "Jun 4, 2019 — UAD Reader is the only way to view and verify UAD appraisals in XML format. Eliminate the hassle, and make it easier for everyone to open, read, ... Read more",
+              "id": "S1.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 7,
+              "domain": "blogs.alamode.com",
+              "url": "https://blogs.alamode.com/what-if-you-lost-everything-tomorrow",
+              "title": "What if you lost all your reports tomorrow? - Blog",
+              "description": "Aug 18, 2016 — Vault ensures your appraisal files and settings are always accessible in case anything could happen to your computer. Vault backs up PDFs, ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.appraisaldream.com",
+              "url": "https://www.appraisaldream.com/blog/a-free-estimate-is-not-an-opinion-of-value",
+              "title": "A Free Estimate Is Not an Opinion of Value | AD Blog",
+              "description": "This is where Appraisal Dream fits into the modern appraiser's practice. Appraisal Dream is not a self-service calculator designed to bypass the professional.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/1629345170707107/posts/3062700500704893/",
+              "title": "Desktop appraisal guidance and software",
+              "description": "appraiser's work file. FNMAE released a new version of appraisal review software called Collateral Underwriter.",
+              "id": "S1.9",
+              "class": "discussion"
+            },
+            {
+              "rank": 10,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/appraisal/comments/1uyb2jk/software_switch/",
+              "title": "Software switch : r/appraisal",
+              "description": "I created Property Appraiser Pro. It is a 3.6 workfile, multi-user for a small office. No card to try it aka Free to try and do whatever.",
+              "id": "S1.10",
+              "class": "discussion"
+            },
+            {
+              "rank": 11,
+              "domain": "everydaybackups.com",
+              "url": "https://everydaybackups.com/a/real-estate-appraisal-backup.html",
+              "title": "Backup for Real Estate Appraisal Firms | Everyday Backups",
+              "description": "Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles, subject and comp photos, sketches, and QuickBooks.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "uspap workfile requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:51:17.404Z",
+          "checkUrl": "https://www.google.com/search?q=uspap%20workfile%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.workingre.com",
+              "url": "https://www.workingre.com/theres-what-in-your-workfile-2016/",
+              "title": "Bulletproof Your Appraisal Report and Workfile",
+              "description": "Bulletproof Your Appraisal Report and Workfile · Subject site dimensions, area, shape, and view · Zoning classification and zoning description · Highest and best ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "brainly.com",
+              "url": "https://brainly.com/question/38482342",
+              "title": "[FREE] How long must an appraiser retain the work file and ...",
+              "description": "Sep 25, 2023 — An appraiser is required to retain the work file and the report for a minimum of five years or at least two years after any judicial ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "quizlet.com",
+              "url": "https://quizlet.com/720528614/pre-course-assessment-flash-cards/",
+              "title": "Pre-Course Assessment Flashcards",
+              "description": "An electronic copy of the appraisal report transmitted to the client satisfies the workfile requirement as a true copy of the report. A paper photocopy must be ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.law.cornell.edu",
+              "url": "https://www.law.cornell.edu/regulations/oregon/Or-Admin-Code-SS-161-025-0060",
+              "title": "Or. Admin. Code § 161-025-0060 - Appraisal Standards and ...",
+              "description": "All licensees must develop and communicate each appraisal assignment. USPAP when examining an appraisal report and workfile as part of an official investigation",
+              "id": "S2.6",
+              "class": "reference_media"
+            },
+            {
+              "rank": 7,
+              "domain": "www.scribd.com",
+              "url": "https://www.scribd.com/document/606413631/USPAP-Standards-1-4",
+              "title": "USPAP Standards 1 4 | PDF | Real Estate Appraisal",
+              "description": "An appraiser must prepare a workfile for each appraisal or appraisal review assignment. A workfile must be in existence prior to the issuance of any report",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.brienzaappraisal.com",
+              "url": "http://www.brienzaappraisal.com/images/2012-2013USPAP.pdf",
+              "title": "UNIFORM STANDARDS OF PROFESSIONAL APPRAISAL ...",
+              "description": "Jan 1, 2012 — The RECORD KEEPING RULE establishes the workfile requirements for appraisal, 169 appraisal review, and appraisal consulting assignments.",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "appraisersforum.com",
+              "url": "https://appraisersforum.com/forums/threads/uspap-and-departing-employee-files.140309/",
+              "title": "USPAP and departing employee files",
+              "description": "Jun 11, 2008 — \"An appraiser must have custody of his or her workfile, or make appropriate workfile retention, access, and retrieval arrangements with the ... Read more",
+              "id": "S2.9",
+              "class": "discussion"
+            },
+            {
+              "rank": 10,
+              "domain": "www.docsity.com",
+              "url": "https://www.docsity.com/en/docs/15-hr-national-uspap-2025-questions-and-answers-100percent-guaranteed-success/13942586/",
+              "title": "USPAP (Uniform Standards of Professional Appraisal ...",
+              "description": "The RECORD KEEPING RULE establishes the workfile requirements for appraisal and appraisal review assignments. What does the COMPETENCY RULE do? - correct ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www2.myfloridalicense.com",
+              "url": "https://www2.myfloridalicense.com/re/documents/FREAB%20Meeting%20Documents/2019/0419FREAB/0419FREABFourthExposureDraft.pdf",
+              "title": "Fourth Exposure Draft of Changes for the 2020-21 USPAP ...",
+              "description": "Feb 27, 2019 — If adopted, the new requirements will permit additional intended users besides the client for a Restricted Appraisal Report, as long as the ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "bradfordsoftware.com",
+          "url": "https://www.bradfordsoftware.com/team-appraising/index.shtml",
+          "finalUrl": "https://www.bradfordsoftware.com/team-appraising/index.shtml",
+          "retrievedAt": "2026-09-30T10:51:44.287Z",
+          "status": 200,
+          "error": null,
+          "title": "Team Appraising | Bradford Technologies, Inc.",
+          "description": "With NightHawk, speed matters and in the first 10 seconds of starting a report, NightHawk retrieves information from multiple sources.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "bradfordsoftware.com",
+          "url": "https://www.bradfordsoftware.com/pricing",
+          "finalUrl": "https://www.bradfordsoftware.com/pricing",
+          "retrievedAt": "2026-09-30T10:51:44.289Z",
+          "status": 200,
+          "error": null,
+          "title": "Oops | Bradford Technologies, Inc.",
+          "description": "Free Trainee,Appraisal Software,ClickFORMS,Easy Appraisal,",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P3",
+          "domain": "workingre.com",
+          "url": "https://www.workingre.com/theres-what-in-your-workfile-2016/",
+          "finalUrl": "https://www.workingre.com/theres-what-in-your-workfile-2016/",
+          "retrievedAt": "2026-09-30T10:51:44.290Z",
+          "status": 200,
+          "error": null,
+          "title": "Bulletproof Your Appraisal Report and Workfile",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$49",
+              "billingUnit": false,
+              "context": "ed eBook The Expert’s Guide to a Defensible Workfile FREE! ($49 value) With extensive experience as a USPAP expert in cases"
+            },
+            {
+              "text": "$59",
+              "billingUnit": false,
+              "context": "Consultant, and AQB-Certified USPAP Instructor Sign Up Now ($59) OREP Members – Click Here for a Discount ($49) *Webinars a"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "workingre.com",
+          "url": "https://www.workingre.com/pricing",
+          "finalUrl": "https://www.workingre.com/pricing-services-strategies-considerations-part-1/",
+          "retrievedAt": "2026-09-30T10:51:44.291Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing Your Services – Strategies and Considerations (Part 1)",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$359",
+              "billingUnit": false,
+              "context": "The average across North America was in the neighborhood of $359 as of 2012. There is a big spread on this average, however."
+            },
+            {
+              "text": "$400",
+              "billingUnit": false,
+              "context": "ever. For example, in our market, the average fee was about $400. Once you have this information, you can pursue one of seve"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "dm-web-w-us-apps-staging.azurewebsites.net",
+          "url": "https://dm-web-w-us-apps-staging.azurewebsites.net/office-workfile-sharing/",
+          "finalUrl": "https://dm-web-w-us-apps-staging.azurewebsites.net/office-workfile-sharing/",
+          "retrievedAt": "2026-09-30T10:51:44.291Z",
+          "status": 200,
+          "error": null,
+          "title": "Office Workfile Sharing",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "dm-web-w-us-apps-staging.azurewebsites.net",
+          "url": "https://dm-web-w-us-apps-staging.azurewebsites.net/pricing",
+          "finalUrl": "https://dm-web-w-us-apps-staging.azurewebsites.net/pricing",
+          "retrievedAt": "2026-09-30T10:51:44.292Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 6,
+          "top": {
+            "keyword": "uspap workfile requirements",
+            "searchVolume": 10,
+            "id": "K1"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 2,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"uspap workfile requirements\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "bradfordsoftware.com",
+            "workingre.com",
+            "dm-web-w-us-apps-staging.azurewebsites.net",
+            "brainly.com",
+            "appraisalinbox.com",
+            "quizlet.com",
+            "blogs.alamode.com",
+            "scribd.com",
+            "appraisaldream.com",
+            "brienzaappraisal.com",
+            "docsity.com",
+            "everydaybackups.com",
+            "www2.myfloridalicense.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "appraisersforum.com",
+            "facebook.com",
+            "reddit.com"
+          ],
+          "pricedDomains": [
+            "workingre.com"
+          ],
+          "note": "13 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on workingre.com. Judged for relevance: 2 domain(s) with a direct competitor (same problem) (blogs.alamode.com, everydaybackups.com), 4 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "blogs.alamode.com",
+            "everydaybackups.com"
+          ],
+          "indirectAlternativeDomains": [
+            "bradfordsoftware.com",
+            "dm-web-w-us-apps-staging.azurewebsites.net",
+            "appraisalinbox.com",
+            "reddit.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "528bad92021370b1",
+      "evidenceUpdatedAt": "2026-09-30T10:51:50.318Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-30T11:00:11.132Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-30T10:51:50.318Z",
+        "qualifiers": [
+          "real estate appraiser",
+          "solo or small-firm"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about the specific compliance requirements (USPAP workfile) that the idea helps appraisers meet."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about the core negative outcome (audit failure) that the idea is designed to prevent for appraisers."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about the risk to an appraiser's license, which is the ultimate problem the idea helps mitigate."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is for software to manage appraisal workfiles, which is exactly what the idea is."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is for a tool to help with USPAP compliance, which is the core function of the idea."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is for a way to archive real estate appraisals, which is a key feature of the proposed solution."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search shows buying intent for the broader category of appraisal software, which includes the idea's solution."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search is for the best tools for appraisers, a broad category that would include the idea's workfile archive."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The search is about the general cost of USPAP compliance, a wider topic than a specific tool to manage it."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a comprehensive appraisal software suite for appraisers that includes cloud storage, a broader offering than just a workfile archive."
+          },
+          "S1.4": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This tool is for sharing workfiles within an appraiser's office for collaboration, an adjacent problem to long-term archival."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a full business management platform for appraisers, which is much broader than just a workfile archive."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a utility for viewing specific file formats (UAD XML), not for archiving the entire workfile."
+          },
+          "S1.7": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a cloud backup service specifically for appraisal files to prevent data loss, which directly addresses the problem of maintaining a workfile."
+          },
+          "S1.8": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "The snippet is unclear about the exact offering for appraisers, but it is targeted at them."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is a discussion about appraisal review software used by lenders, not workfile archiving for appraisers."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser",
+              "solo or small-firm"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a multi-user workfile software for a small appraisal office, a broader solution than just an archive."
+          },
+          "S1.11": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a backup service specifically for appraisal firms to protect workfiles, directly addressing the idea's problem."
+          },
+          "S2.2": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an article offering advice to appraisers on how to create a compliant workfile, addressing the core problem."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a Q&A entry discussing the USPAP workfile retention period, which is the core of the problem."
+          },
+          "S2.5": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "These are study flashcards for appraisers discussing USPAP workfile requirements."
+          },
+          "S2.6": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a legal text referencing USPAP standards for workfiles, directly related to the problem."
+          },
+          "S2.7": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This document quotes USPAP standards requiring a workfile, which is the core of the problem."
+          },
+          "S2.8": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a document on an appraisal firm's website explaining the USPAP record-keeping rule for workfiles."
+          },
+          "S2.9": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a forum discussion among appraisers about the specific requirements for workfile retention and custody."
+          },
+          "S2.10": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a study guide or document for appraisers explaining the USPAP record-keeping rule."
+          },
+          "S2.11": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This document discusses proposed changes to USPAP, a broader topic than just the workfile requirement."
+          },
+          "P1": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a feature within a larger appraisal software suite designed to speed up report creation, a broader problem than archiving."
+          },
+          "P2": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page lists features and targets for a comprehensive appraisal software suite, which is broader than just a workfile archive."
+          },
+          "P3": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an article offering advice to appraisers on how to create a compliant workfile, addressing the core problem."
+          },
+          "P4": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is about how appraisers should price their services, a different problem from workfile compliance."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "real estate appraiser"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This tool is for sharing workfiles within an appraiser's office for collaboration, an adjacent problem to long-term archival."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-30:appraiser-uspap-workfile-archive",
+        "opportunity": "The opportunity is to offer a specialized, USPAP-compliant digital archive for solo and small-firm real estate appraisers. This helps them securely meet the mandatory 5+ year workfile retention requirement and protect their license during an audit.",
+        "whoPays": "This is an inference: The licensed solo or small-firm real estate appraiser pays. The service directly addresses a mandatory professional standard (USPAP) tied to their license to operate, making compliance a critical business expense.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.4",
+              "quote": "retain the work file and the report for a minimum of five years"
+            },
+            {
+              "id": "S2.7",
+              "quote": "An appraiser must prepare a workfile for each appraisal"
+            },
+            {
+              "id": "S2.9",
+              "quote": "make appropriate workfile retention, access, and retrieval arrangements"
+            }
+          ],
+          "observed": "Multiple sources, including educational and professional forum sites, state the USPAP requirement that an appraiser must \"prepare a workfile for each appraisal\", \"retain the work file and the report for a minimum of five years\", and \"make appropriate workfile retention, access, and retrieval arrangements\".",
+          "inference": "This mandatory, long-term record-keeping rule creates a clear and ongoing need for a reliable archival solution for professional appraisers."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.7",
+              "quote": "Vault ensures your appraisal files and settings are always accessible"
+            },
+            {
+              "id": "S1.11",
+              "quote": "Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles"
+            },
+            {
+              "id": "S1.2",
+              "quote": "desktop appraisal software, mobile inspection software, online form processing and cloud storage"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Vault (by a la mode)",
+              "type": "direct",
+              "what": "A service that \"ensures your appraisal files and settings are always accessible in case anything could happen to your computer.\"",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "ensures your appraisal files and settings are always accessible"
+                }
+              ]
+            },
+            {
+              "name": "Everyday Backups",
+              "type": "direct",
+              "what": "A backup service designed to \"Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles, subject and comp photos, sketches, and QuickBooks.\"",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles"
+                }
+              ]
+            },
+            {
+              "name": "Bradford Technologies",
+              "type": "indirect",
+              "what": "A comprehensive appraisal software suite that includes \"cloud storage with instant data\" as part of a larger offering.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "cloud storage with instant data"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market includes established appraisal software companies (like a la mode, the provider of 'Vault') who likely have existing distribution channels and customer trust.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Direct competitors are positioned as generic 'backup' or 'cloud storage' services. There appears to be a gap for a product positioned specifically around 'USPAP compliance' and 'audit-proofing', which addresses the core motivation more directly.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "USPAP standards require a complete \"workfile\" to be maintained for 5+ years",
+            "finding": "Multiple search results confirm this requirement, stating an appraiser must \"retain the work file and the report for a minimum of five years\".",
+            "basis": [
+              {
+                "id": "S2.4",
+                "quote": "retain the work file and the report for a minimum of five years"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A dedicated archive to protect their license is a logical, high-ROI purchase",
+            "finding": "The market already contains direct competitors offering dedicated backup services for appraisers, as well as indirect competitors who bundle cloud storage into larger software suites.",
+            "basis": [
+              {
+                "id": "S1.7",
+                "quote": "Vault ensures your appraisal files"
+              },
+              {
+                "id": "S1.11",
+                "quote": "Backup for Real Estate Appraisal Firms"
+              },
+              {
+                "id": "S1.2",
+                "quote": "cloud storage with instant data"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A minimal experiment requires more than a landing page; it involves securely handling customer files. Building a simple front-end on top of a secure cloud storage service like AWS S3 is a moderate technical challenge for a solo founder."
+        },
+        "unproven": [
+          "Whether appraisers are willing to pay for a standalone, specialized archive if their primary appraisal software already includes a generic 'cloud storage' feature.",
+          "If the marketing angle of 'USPAP compliance' is strong enough to win customers from established 'backup' providers.",
+          "The specific archival features (e.g., audit logs, immutability) that would make a dedicated solution superior to general cloud storage like Dropbox."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page that directly compares the proposed \"USPAP-Compliant Workfile Archive\" against generic cloud storage (Dropbox) and bundled software storage. Highlight features like \"audit-ready exports\" and \"retention period tracking.\" Collect emails for a waitlist.",
+          "cost": "~$100 for domain/hosting + 2 days founder time",
+          "duration": "1 week"
+        },
+        "continueIf": "The waitlist gets over 50 signups, indicating that the specialized compliance-focused positioning is compelling enough to attract interest despite existing alternatives.",
+        "stopIf": "The waitlist gets fewer than 10 signups, suggesting the value proposition is not sufficiently differentiated from existing backup and storage solutions."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to offer a specialized, USPAP-compliant digital archive for solo and small-firm real estate appraisers. This helps them securely meet the mandatory 5+ year workfile retention requirement and protect their license during an audit.",
+        "whoPays": "This is an inference: The licensed solo or small-firm real estate appraiser pays. The service directly addresses a mandatory professional standard (USPAP) tied to their license to operate, making compliance a critical business expense.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.4",
+              "quote": "retain the work file and the report for a minimum of five years",
+              "domain": "brainly.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This is a Q&A entry discussing the USPAP workfile retention period, which is the core of the problem."
+            },
+            {
+              "id": "S2.7",
+              "quote": "An appraiser must prepare a workfile for each appraisal",
+              "domain": "scribd.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This document quotes USPAP standards requiring a workfile, which is the core of the problem."
+            },
+            {
+              "id": "S2.9",
+              "quote": "make appropriate workfile retention, access, and retrieval arrangements",
+              "domain": "appraisersforum.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "This is a forum discussion among appraisers about the specific requirements for workfile retention and custody."
+            }
+          ],
+          "observed": "Multiple sources, including educational and professional forum sites, state the USPAP requirement that an appraiser must \"prepare a workfile for each appraisal\", \"retain the work file and the report for a minimum of five years\", and \"make appropriate workfile retention, access, and retrieval arrangements\".",
+          "inference": "This mandatory, long-term record-keeping rule creates a clear and ongoing need for a reliable archival solution for professional appraisers."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.7",
+              "quote": "Vault ensures your appraisal files and settings are always accessible",
+              "domain": "blogs.alamode.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a cloud backup service specifically for appraisal files to prevent data loss, which directly addresses the problem of maintaining a workfile."
+            },
+            {
+              "id": "S1.11",
+              "quote": "Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles",
+              "domain": "everydaybackups.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a backup service specifically for appraisal firms to protect workfiles, directly addressing the idea's problem."
+            },
+            {
+              "id": "S1.2",
+              "quote": "desktop appraisal software, mobile inspection software, online form processing and cloud storage",
+              "domain": "bradfordsoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is a comprehensive appraisal software suite for appraisers that includes cloud storage, a broader offering than just a workfile archive."
+            }
+          ],
+          "directCompetitors": [
+            "blogs.alamode.com",
+            "everydaybackups.com"
+          ],
+          "indirectAlternatives": [
+            "bradfordsoftware.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Vault (by a la mode)",
+              "type": "direct",
+              "what": "A service that \"ensures your appraisal files and settings are always accessible in case anything could happen to your computer.\"",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "ensures your appraisal files and settings are always accessible",
+                  "domain": "blogs.alamode.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a cloud backup service specifically for appraisal files to prevent data loss, which directly addresses the problem of maintaining a workfile."
+                }
+              ]
+            },
+            {
+              "name": "Everyday Backups",
+              "type": "direct",
+              "what": "A backup service designed to \"Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles, subject and comp photos, sketches, and QuickBooks.\"",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "Protect the files a real estate appraisal firm cannot recreate: completed appraisal reports, workfiles",
+                  "domain": "everydaybackups.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a backup service specifically for appraisal firms to protect workfiles, directly addressing the idea's problem."
+                }
+              ]
+            },
+            {
+              "name": "Bradford Technologies",
+              "type": "indirect",
+              "what": "A comprehensive appraisal software suite that includes \"cloud storage with instant data\" as part of a larger offering.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "cloud storage with instant data",
+                  "domain": "bradfordsoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is a comprehensive appraisal software suite for appraisers that includes cloud storage, a broader offering than just a workfile archive."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market includes established appraisal software companies (like a la mode, the provider of 'Vault') who likely have existing distribution channels and customer trust.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Direct competitors are positioned as generic 'backup' or 'cloud storage' services. There appears to be a gap for a product positioned specifically around 'USPAP compliance' and 'audit-proofing', which addresses the core motivation more directly.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "USPAP standards require a complete \"workfile\" to be maintained for 5+ years",
+            "finding": "Multiple search results confirm this requirement, stating an appraiser must \"retain the work file and the report for a minimum of five years\".",
+            "basis": [
+              {
+                "id": "S2.4",
+                "quote": "retain the work file and the report for a minimum of five years",
+                "domain": "brainly.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a Q&A entry discussing the USPAP workfile retention period, which is the core of the problem."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "A dedicated archive to protect their license is a logical, high-ROI purchase",
+            "finding": "The market already contains direct competitors offering dedicated backup services for appraisers, as well as indirect competitors who bundle cloud storage into larger software suites.",
+            "basis": [
+              {
+                "id": "S1.7",
+                "quote": "Vault ensures your appraisal files",
+                "domain": "blogs.alamode.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a cloud backup service specifically for appraisal files to prevent data loss, which directly addresses the problem of maintaining a workfile."
+              },
+              {
+                "id": "S1.11",
+                "quote": "Backup for Real Estate Appraisal Firms",
+                "domain": "everydaybackups.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a backup service specifically for appraisal firms to protect workfiles, directly addressing the idea's problem."
+              },
+              {
+                "id": "S1.2",
+                "quote": "cloud storage with instant data",
+                "domain": "bradfordsoftware.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This is a comprehensive appraisal software suite for appraisers that includes cloud storage, a broader offering than just a workfile archive."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A minimal experiment requires more than a landing page; it involves securely handling customer files. Building a simple front-end on top of a secure cloud storage service like AWS S3 is a moderate technical challenge for a solo founder."
+        },
+        "unproven": [
+          "Whether appraisers are willing to pay for a standalone, specialized archive if their primary appraisal software already includes a generic 'cloud storage' feature.",
+          "If the marketing angle of 'USPAP compliance' is strong enough to win customers from established 'backup' providers.",
+          "The specific archival features (e.g., audit logs, immutability) that would make a dedicated solution superior to general cloud storage like Dropbox."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page that directly compares the proposed \"USPAP-Compliant Workfile Archive\" against generic cloud storage (Dropbox) and bundled software storage. Highlight features like \"audit-ready exports\" and \"retention period tracking.\" Collect emails for a waitlist.",
+          "cost": "~$100 for domain/hosting + 2 days founder time",
+          "duration": "1 week"
+        },
+        "continueIf": "The waitlist gets over 50 signups, indicating that the specialized compliance-focused positioning is compelling enough to attract interest despite existing alternatives.",
+        "stopIf": "The waitlist gets fewer than 10 signups, suggesting the value proposition is not sufficiently differentiated from existing backup and storage solutions.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-30T11:01:24.047Z",
+        "evidenceUpdatedAt": "2026-09-30T10:51:50.318Z"
+      }
+    },
+    {
+      "id": "2026-09-30:fitness-studio-instructor-tracker",
+      "slug": "fitness-studio-instructor-tracker",
+      "title": "The Boutique Fitness Studio's \"Never-Lapse\" Instructor Certification & Insurance Tracker",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The market hypothesis mentions Mindbody, a US-centric example, and the general context of business liability and insurance suggests a US focus."
+      },
+      "plan": {
+        "slug": "fitness-studio-instructor-tracker",
+        "title": "The Boutique Fitness Studio's \"Never-Lapse\" Instructor Certification & Insurance Tracker",
+        "problem": "An instructor teaching a class with an expired certification or liability insurance creates a massive, potentially uninsurable liability risk for the studio owner.",
+        "targetCustomer": "Owner of a small yoga, pilates, or group fitness studio.",
+        "payer": "Owner of a small yoga, pilates, or group fitness studio.",
+        "whyPayerPays": "A dedicated tool to mitigate this specific, existential risk is a small cost compared to rising commercial insurance premiums.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The market hypothesis mentions Mindbody, a US-centric example, and the general context of business liability and insurance suggests a US focus."
+        },
+        "keywords": {
+          "problem": [
+            "expired instructor certification risk",
+            "fitness studio liability insurance",
+            "group fitness instructor compliance"
+          ],
+          "solution": [
+            "instructor certification tracker",
+            "fitness studio management software",
+            "liability risk management tool"
+          ],
+          "buying": [
+            "fitness software pricing",
+            "best studio management tools",
+            "instructor tracker cost"
+          ]
+        },
+        "serpQueries": [
+          "instructor certification tracker",
+          "expired instructor certification risk"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "expired instructor certification risk",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "fitness studio liability insurance",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.86,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-12 02:18:50 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "group fitness instructor compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "instructor certification tracker",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "fitness studio management software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 260,
+          "cpcUsd": 124.03,
+          "adCompetition": 0.01,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 88,
+          "providerUpdatedAt": "2026-09-13 09:47:27 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 260
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 390
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 16,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "liability risk management tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "fitness software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best studio management tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "instructor tracker cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:50:24.020Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "instructor certification tracker",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:51:27.502Z",
+          "checkUrl": "https://www.google.com/search?q=instructor%20certification%20tracker&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Training/comments/1lbltca/built_a_tool_to_help_teams_manage_training_and/",
+              "title": "Built a tool to help teams manage training and certification ...",
+              "description": "I recently launched a platform called Unified Training that helps organizations track training hours, certifications, and compliance ... Read more",
+              "id": "S1.1",
+              "class": "discussion"
+            },
+            {
+              "rank": 2,
+              "domain": "trainingtrackersoftware.com",
+              "url": "https://trainingtrackersoftware.com/",
+              "title": "Training Tracker | Simple Employee Training Management App",
+              "description": "Training Tracker is an easy-to-use employee training management app to keep your company in regulatory compliance and your staff safe",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "learningnetwork.cisco.com",
+              "url": "https://learningnetwork.cisco.com/s/article/instructor-certification-program-icp",
+              "title": "Instructor Certification Program (ICP)",
+              "description": "Jun 15, 2026 — The Instructor Certification Program (ICP) is a rigorous assessment designed to validate a candidate can meet Cisco's minimum quality standards ...",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "cprenroll.com",
+              "url": "https://cprenroll.com/how-to-track-instructor-credentials/",
+              "title": "How to Track Instructor Credentials Well",
+              "description": "Jun 26, 2026 — The cleanest way to track instructor credentials is to treat each instructor file as a live compliance record, not a static personnel folder.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "zatrovo.com",
+              "url": "https://zatrovo.com/blog/instructor-certification-tracking",
+              "title": "Instructor Certification Tracking: Never Miss a CPR or Cert ...",
+              "description": "3 days ago — Instructor certification tracking software stops CPR and cert lapses. Use the 90-60-30 Cert Ladder to catch every expiry before it hits your ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.talentguard.com",
+              "url": "https://www.talentguard.com/certification-management-software",
+              "title": "Best Training Tracking Software for Employees in 2026",
+              "description": "TalentGuard's 2026 training tracking software for employees to ensure compliance, track certifications, and streamline workforce development.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "certificationtrackingapp.com",
+              "url": "https://certificationtrackingapp.com/",
+              "title": "Certification Tracking Software for Teams & Professionals",
+              "description": "Simplify employee certification tracking with software that organizes credentials, stores documents, and sends expiration reminders. Start your free trial.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "sales.firefighterapp.com",
+              "url": "https://sales.firefighterapp.com/blog/introducing-certassist-simplify-certification-tracking-training-management/",
+              "title": "Simplify Certification Tracking & Training Management",
+              "description": "Jan 27, 2025 — CertAssistTM includes preloaded lists of training areas and certified instructors to make data entry quick and accurate.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=oekryDpFEDw",
+              "title": "Tracking Employee Training and/or Certifications in Microsoft ...",
+              "description": null,
+              "id": "S1.10",
+              "class": "reference_media"
+            },
+            {
+              "rank": 11,
+              "domain": "www.capterra.com",
+              "url": "https://www.capterra.com/certification-tracking-software/",
+              "title": "Best Certification Tracking Software 2026",
+              "description": "Automate compliance training and certification tracking so you monitor your team's progress ... Manage, deliver and track training for any team 5 to 50,000 ... Read more",
+              "id": "S1.11",
+              "class": "review_directory"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "expired instructor certification risk",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-09-30T10:51:35.361Z",
+          "checkUrl": "https://www.google.com/search?q=expired%20instructor%20certification%20risk&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.dcjs.virginia.gov",
+              "url": "https://www.dcjs.virginia.gov/content/my-instructorship-expired-last-year-what-do-i-need-do-become-certified-instructor-again",
+              "title": "My instructorship expired last year. What do I need to do to ...",
+              "description": "All instructorship certifications expired for more than 12 months shall not be eligible for reinstatement. A new instructor development course would be required ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "midwestcprcenter.com",
+              "url": "https://midwestcprcenter.com/blog/expired-cpr-certification-consequences",
+              "title": "Expired Cpr Certification Consequences: What You Risk",
+              "description": "Jun 8, 2026 — A lapsed certification can prevent an employee from being counted in the facility's required staff-to-child ratio, creating scheduling problems ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/614857891966930/posts/24154130707612984/",
+              "title": "My instructor expired in 2023. How can I get it back? ...",
+              "description": "My instructor expired in 2023. How can I get it back? I training over 200 people. I don’t want to be under my previous TC that was my issue",
+              "id": "S2.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/posts/amaracareertraining_expired-cpr-certification-is-more-than-a-activity-7430704855616270336-Xci6",
+              "title": "Expired CPR Certification Risks Compliance Gaps Liability",
+              "description": "Expired CPR certification is more than a paperwork issue — it can create compliance gaps, liability concerns, and reduced emergency ...",
+              "id": "S2.6",
+              "class": "platform"
+            },
+            {
+              "rank": 7,
+              "domain": "www.cprtrainingschool.com",
+              "url": "https://www.cprtrainingschool.com/cpr-instructor-certification-renewal-what-you-need-to-know/",
+              "title": "CPR Instructor Certification Renewal Guide",
+              "description": "Aug 21, 2025 — Should your instructor certification expire, you will unfortunately lose the authority to teach AHA courses and issue provider cards until it ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Lifeguards/comments/1f53r0f/recert_more_than_a_month_after_my_current/",
+              "title": "Recert more than a month after my current certification ...",
+              "description": "Hi guys, the place I work at says it's fine for me to do a recert more than 30 days after my current certification expired but on the red cross website ...",
+              "id": "S2.8",
+              "class": "discussion"
+            },
+            {
+              "rank": 9,
+              "domain": "www.federalregister.gov",
+              "url": "https://www.federalregister.gov/documents/2024/10/01/2024-22018/removal-of-expiration-date-on-a-flight-instructor-certificate-additional-qualification-requirements",
+              "title": "Removal of Expiration Date on a Flight Instructor Certificate ...",
+              "description": "Oct 1, 2024 — The FAA notes that the removal of the expiration date from flight instructor certificates does not increase the risk of this scenario.",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "regs.maryland.gov",
+              "url": "https://regs.maryland.gov/us/md/exec/comar/12.04.06.14",
+              "title": ".14 Expiration of Instructor Certification.",
+              "description": "An individual's term of certification may not expire while the individual is on inactive status.",
+              "id": "S2.10",
+              "class": "government"
+            },
+            {
+              "rank": 11,
+              "domain": "cprenroll.com",
+              "url": "https://cprenroll.com/how-to-track-instructor-credentials/",
+              "title": "How to Track Instructor Credentials Well",
+              "description": "Jun 26, 2026 — You risk expired documentation slipping through when schedules get busy. That is why many training providers move credential tracking into a ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "cprenroll.com",
+          "url": "https://cprenroll.com/how-to-track-instructor-credentials/",
+          "finalUrl": "https://cprenroll.com/how-to-track-instructor-credentials/",
+          "retrievedAt": "2026-09-30T10:51:47.509Z",
+          "status": 200,
+          "error": null,
+          "title": "How to Track Instructor Credentials Well - cpr-enroll",
+          "description": "Learn how to track instructor credentials with a system that reduces admin work, prevents lapses, and keeps CPR training records audit-ready.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "cprenroll.com",
+          "url": "https://cprenroll.com/pricing",
+          "finalUrl": "https://cprenroll.com/pricing/",
+          "retrievedAt": "2026-09-30T10:51:47.510Z",
+          "status": 200,
+          "error": null,
+          "title": "CPR Enroll Pricing | Start With a 14-Day Free Trial",
+          "description": "Review CPR Enroll pricing and start a 14-day free trial. Manage CPR classes, students, payments, paperwork, certifications, instructors, and more from one platform.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "trainingtrackersoftware.com",
+          "url": "https://trainingtrackersoftware.com/",
+          "finalUrl": "https://trainingtrackersoftware.com/",
+          "retrievedAt": "2026-09-30T10:51:47.511Z",
+          "status": 200,
+          "error": null,
+          "title": "Training Tracker | Simple Employee Training Management App",
+          "description": "Training Tracker is an easy-to-use employee training management app to keep your company in regulatory compliance and your staff safe through up-to-date training.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "trainingtrackersoftware.com",
+          "url": "https://trainingtrackersoftware.com/pricing",
+          "finalUrl": "https://trainingtrackersoftware.com/pricing",
+          "retrievedAt": "2026-09-30T10:51:47.512Z",
+          "status": 200,
+          "error": null,
+          "title": "Training Tracker | Feature Rich, Simple Training Management",
+          "description": "Training Tracker has useful features like reminder emails, easy reporting, certification tracking, and employee management tools to make compliance painless.",
+          "priceMentions": [
+            {
+              "text": "$34 /User",
+              "billingUnit": true,
+              "context": "art! See our feature chart! Training Tracker Features Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over"
+            },
+            {
+              "text": "$408",
+              "billingUnit": false,
+              "context": "raining Tracker Features Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 Use"
+            },
+            {
+              "text": "$374",
+              "billingUnit": false,
+              "context": "ng Tracker Features Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr"
+            },
+            {
+              "text": "$49 /User",
+              "billingUnit": true,
+              "context": "es Basic $34 /User/Mon Over 12 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/M"
+            },
+            {
+              "text": "$588",
+              "billingUnit": false,
+              "context": "2 mons = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $"
+            },
+            {
+              "text": "$539",
+              "billingUnit": false,
+              "context": "s = $408 $374 User/Yr Pro $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $814 U"
+            },
+            {
+              "text": "$74 /User",
+              "billingUnit": true,
+              "context": "o $49 /User/Mon Over 12 mons = $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $814 User/Yr Track Employee Trainin"
+            },
+            {
+              "text": "$888",
+              "billingUnit": false,
+              "context": "= $588 $539 User/Yr Enterprise $74 /User/Mon Over 12 mons = $888 $814 User/Yr Track Employee Training Eliminates: Lost sprea"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "learningnetwork.cisco.com",
+          "url": "https://learningnetwork.cisco.com/s/article/instructor-certification-program-icp",
+          "finalUrl": "https://learningnetwork.cisco.com/s/article/instructor-certification-program-icp",
+          "retrievedAt": "2026-09-30T10:51:47.512Z",
+          "status": 200,
+          "error": null,
+          "title": "Cisco Learning Network",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "learningnetwork.cisco.com",
+          "url": "https://learningnetwork.cisco.com/pricing",
+          "finalUrl": "https://learningnetwork.cisco.com/pricing",
+          "retrievedAt": "2026-09-30T10:51:47.513Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 4,
+          "top": null,
+          "category": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 3,
+            "top": {
+              "keyword": "fitness studio management software",
+              "searchVolume": 260,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 2,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"fitness studio liability insurance\": relevance unclear — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"liability risk management tool\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"fitness studio management software\" 260/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K5"
+          ],
+          "pricedPageIds": [
+            "P4"
+          ],
+          "pricedDomains": [
+            "trainingtrackersoftware.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $124.03 on \"fitness studio management software\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 1 ranking site(s): trainingtrackersoftware.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "cprenroll.com",
+            "trainingtrackersoftware.com",
+            "learningnetwork.cisco.com",
+            "midwestcprcenter.com",
+            "zatrovo.com",
+            "talentguard.com",
+            "cprtrainingschool.com",
+            "certificationtrackingapp.com",
+            "sales.firefighterapp.com"
+          ],
+          "platformDomains": [
+            "linkedin.com"
+          ],
+          "discussionResults": [
+            "reddit.com",
+            "facebook.com",
+            "capterra.com"
+          ],
+          "pricedDomains": [
+            "trainingtrackersoftware.com"
+          ],
+          "note": "9 vendor-like or publisher domain(s) and 1 broad platform(s) (linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on trainingtrackersoftware.com. Judged for relevance: 7 domain(s) with a direct competitor (same problem) (reddit.com, trainingtrackersoftware.com, zatrovo.com, talentguard.com, certificationtrackingapp.com, capterra.com, cprenroll.com), 1 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "reddit.com",
+            "trainingtrackersoftware.com",
+            "zatrovo.com",
+            "talentguard.com",
+            "certificationtrackingapp.com",
+            "capterra.com",
+            "cprenroll.com"
+          ],
+          "indirectAlternativeDomains": [
+            "cprenroll.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "47fad29b05fa2911",
+      "evidenceUpdatedAt": "2026-09-30T10:51:50.318Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-09-30T11:00:11.133Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-09-30T10:51:50.318Z",
+        "qualifiers": [
+          "small fitness studio owner"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about the specific risk of expired certifications, which is the core problem the idea solves for studio owners."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The search is about the broader topic of liability insurance for a studio, not specifically about tracking certifications to mitigate risk."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is about ensuring compliance for group fitness instructors, which is what the idea helps with."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search is for a tool to track instructor certifications, which is exactly what the idea is."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search is for the broader category of studio management software, which might include certification tracking as one feature."
+          },
+          "K6": {
+            "searcher": "unclear",
+            "topic": "wider",
+            "reason": "The search is for a generic liability risk management tool, which is a much wider category than the idea's specific solution."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search shows buying intent for the broader category of fitness software, which includes the idea's solution."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The search is for the best tools in the broader studio management category, which would include the idea's solution."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The search shows buying intent for a tool that tracks instructors, which is what the idea provides."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general tool for any organization to track training and certifications, not specifically for fitness studios."
+          },
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general employee training tracker for any company, not specifically for fitness studios."
+          },
+          "S1.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is about Cisco's certification program for their own IT instructors, not a tool for studio owners."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about tracking instructor credentials, likely for CPR/First Aid training providers, a broader customer group than just fitness studios."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software tracks instructor certifications, with a focus on CPR, making it relevant but for a broader audience than just fitness studios."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general employee training and certification tracking software for any business, not specific to fitness studios."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general certification tracking software for any team or profession, not specifically for fitness studios."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a certification tracking tool specifically for firefighters, a different customer."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a tutorial on how to track employee certifications using general Microsoft tools, applicable to any business owner."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a review page for general certification tracking software, applicable to many industries including fitness."
+          },
+          "S2.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is about instructor certification renewal for a specific profession regulated by the Virginia DCJS, not fitness instructors."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the consequences of expired CPR certification, a problem relevant to fitness studios but also many other businesses."
+          },
+          "S2.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a question from an instructor (the employee), not the studio owner (the customer)."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about the risks of expired CPR certification, applicable to any business where it's required."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide for CPR instructors on renewing their certification, not for the business owners who employ them."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a question from an instructor about their own expired Red Cross certification, not from a studio owner."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is about a rule change for flight instructor certificates, a different customer and a different problem."
+          },
+          "S2.10": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a state regulation about instructor certification expiration, but it's unclear for which profession."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about tracking instructor credentials, likely for CPR/First Aid training providers, a broader customer group than just fitness studios."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a tool for managing CPR training businesses, which includes tracking instructor credentials, a broader customer than just fitness studios."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a full management platform for CPR training businesses, a broader solution for a related but different customer type."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a general employee training tracker for any company, not specifically for fitness studios."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page lists features for a general certification tracking tool applicable to any business, not just fitness studios."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is Cisco's learning platform for IT professionals, not a tool for fitness studio owners."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-09-30:fitness-studio-instructor-tracker",
+        "opportunity": "The opportunity is to provide a focused software tool for boutique fitness studio owners to track instructor certifications and insurance expirations. This would help owners mitigate a key liability risk and ensure compliance.",
+        "whoPays": "This is an inference: The owner of a small yoga, pilates, or group fitness studio would pay. They are responsible for the studio's liability and insurance coverage, making a tool that reduces this specific risk a worthwhile expense.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "Expired CPR certification is more than a paperwork issue — it can create compliance gaps, liability concerns"
+            },
+            {
+              "id": "S2.11",
+              "quote": "You risk expired documentation slipping through when schedules get busy"
+            }
+          ],
+          "observed": "General business articles and posts note that \"Expired CPR certification... can create compliance gaps, liability concerns\" and that businesses \"risk expired documentation slipping through when schedules get busy.\"",
+          "inference": "Since fitness instructors are often required to have CPR certification, it is inferred that studio owners face these same liability concerns and risks, especially when busy."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Simple Employee Training Management App"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Instructor certification tracking software stops CPR and cert lapses"
+            },
+            {
+              "id": "S1.7",
+              "quote": "Best Training Tracking Software for Employees in 2026"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Certification Tracking Software for Teams & Professionals"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Training Tracker",
+              "type": "direct",
+              "what": "An \"easy-to-use employee training management app to keep your company in regulatory compliance\".",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "easy-to-use employee training management app"
+                }
+              ]
+            },
+            {
+              "name": "Zatrovo",
+              "type": "direct",
+              "what": "An \"Instructor certification tracking software\" focused on preventing CPR and other certification lapses.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Instructor certification tracking software"
+                }
+              ]
+            },
+            {
+              "name": "TalentGuard",
+              "type": "direct",
+              "what": "A general \"training tracking software for employees to ensure compliance, track certifications, and streamline workforce development.\"",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "training tracking software for employees to ensure compliance"
+                }
+              ]
+            },
+            {
+              "name": "Certification Tracking App",
+              "type": "direct",
+              "what": "Software to \"Simplify employee certification tracking with software that organizes credentials, stores documents, and sends expiration reminders.\"",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Simplify employee certification tracking with software"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The existence of numerous general-purpose certification tracking tools validates that businesses are willing to pay to solve this problem.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Simple Employee Training Management App"
+                },
+                {
+                  "id": "S1.8",
+                  "quote": "Certification Tracking Software for Teams & Professionals"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "None of the identified direct competitors are specifically targeted at the fitness studio market. They are all horizontal SaaS products for any type of business, which may leave an opening for a vertically-focused solution.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "An instructor teaching a class with an expired certification or liability insurance creates a massive, potentially uninsurable liability risk",
+            "finding": "The evidence found is generic, noting that expired CPR certification can create \"liability concerns\" for businesses in general. No evidence was found confirming the risk is \"massive\" or \"uninsurable\" specifically for fitness studios.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "create compliance gaps, liability concerns"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "need a dedicated tool to mitigate this specific, existential risk",
+            "finding": "The market is crowded with general-purpose, non-dedicated certification tracking tools. This suggests that customers are currently served by horizontal solutions, not specialized ones.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "Simple Employee Training Management App"
+              },
+              {
+                "id": "S1.7",
+                "quote": "training tracking software for employees"
+              }
+            ],
+            "effect": "contradicts"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A first experiment can be a simple lead magnet, like a pre-formatted Google Sheet or Notion template for tracking certifications, offered on a landing page. This requires no custom software development."
+        },
+        "unproven": [
+          "Whether fitness studio owners perceive this risk as acute enough to pay for a dedicated software solution.",
+          "If studio owners are already using 'good enough' solutions like spreadsheets, calendar alerts, or features within their main studio management software (e.g., Mindbody).",
+          "Whether a tool designed specifically for fitness studios can offer enough value over the many existing general-purpose trackers to justify its existence."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page offering a free, downloadable \"Fitness Instructor Compliance Tracker\" Google Sheet template. Promote the page in online communities for yoga, pilates, and boutique fitness studio owners to gauge if the problem resonates.",
+          "cost": "~$50 for domain/hosting + 1 day founder time",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The template is downloaded over 100 times within a month, indicating that a significant number of studio owners recognize the problem and are actively seeking a tool to solve it.",
+        "stopIf": "The template is downloaded fewer than 20 times, suggesting the problem is not a high priority or that existing solutions (even manual ones) are considered adequate."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a focused software tool for boutique fitness studio owners to track instructor certifications and insurance expirations. This would help owners mitigate a key liability risk and ensure compliance.",
+        "whoPays": "This is an inference: The owner of a small yoga, pilates, or group fitness studio would pay. They are responsible for the studio's liability and insurance coverage, making a tool that reduces this specific risk a worthwhile expense.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "Expired CPR certification is more than a paperwork issue — it can create compliance gaps, liability concerns",
+              "domain": "linkedin.com",
+              "kind": "S",
+              "cls": "platform",
+              "relevance": "category",
+              "relevanceReason": "This is a general article about the risks of expired CPR certification, applicable to any business where it's required."
+            },
+            {
+              "id": "S2.11",
+              "quote": "You risk expired documentation slipping through when schedules get busy",
+              "domain": "cprenroll.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article is about tracking instructor credentials, likely for CPR/First Aid training providers, a broader customer group than just fitness studios."
+            }
+          ],
+          "observed": "General business articles and posts note that \"Expired CPR certification... can create compliance gaps, liability concerns\" and that businesses \"risk expired documentation slipping through when schedules get busy.\"",
+          "inference": "Since fitness instructors are often required to have CPR certification, it is inferred that studio owners face these same liability concerns and risks, especially when busy."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Simple Employee Training Management App",
+              "domain": "trainingtrackersoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a general employee training tracker for any company, not specifically for fitness studios."
+            },
+            {
+              "id": "S1.6",
+              "quote": "Instructor certification tracking software stops CPR and cert lapses",
+              "domain": "zatrovo.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software tracks instructor certifications, with a focus on CPR, making it relevant but for a broader audience than just fitness studios."
+            },
+            {
+              "id": "S1.7",
+              "quote": "Best Training Tracking Software for Employees in 2026",
+              "domain": "talentguard.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a general employee training and certification tracking software for any business, not specific to fitness studios."
+            },
+            {
+              "id": "S1.8",
+              "quote": "Certification Tracking Software for Teams & Professionals",
+              "domain": "certificationtrackingapp.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a general certification tracking software for any team or profession, not specifically for fitness studios."
+            }
+          ],
+          "directCompetitors": [
+            "trainingtrackersoftware.com",
+            "zatrovo.com",
+            "talentguard.com",
+            "certificationtrackingapp.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Training Tracker",
+              "type": "direct",
+              "what": "An \"easy-to-use employee training management app to keep your company in regulatory compliance\".",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "easy-to-use employee training management app",
+                  "domain": "trainingtrackersoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general employee training tracker for any company, not specifically for fitness studios."
+                }
+              ]
+            },
+            {
+              "name": "Zatrovo",
+              "type": "direct",
+              "what": "An \"Instructor certification tracking software\" focused on preventing CPR and other certification lapses.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Instructor certification tracking software",
+                  "domain": "zatrovo.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This software tracks instructor certifications, with a focus on CPR, making it relevant but for a broader audience than just fitness studios."
+                }
+              ]
+            },
+            {
+              "name": "TalentGuard",
+              "type": "direct",
+              "what": "A general \"training tracking software for employees to ensure compliance, track certifications, and streamline workforce development.\"",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "training tracking software for employees to ensure compliance",
+                  "domain": "talentguard.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general employee training and certification tracking software for any business, not specific to fitness studios."
+                }
+              ]
+            },
+            {
+              "name": "Certification Tracking App",
+              "type": "direct",
+              "what": "Software to \"Simplify employee certification tracking with software that organizes credentials, stores documents, and sends expiration reminders.\"",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Simplify employee certification tracking with software",
+                  "domain": "certificationtrackingapp.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a general certification tracking software for any team or profession, not specifically for fitness studios."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The existence of numerous general-purpose certification tracking tools validates that businesses are willing to pay to solve this problem.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Simple Employee Training Management App",
+                  "domain": "trainingtrackersoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a general employee training tracker for any company, not specifically for fitness studios."
+                },
+                {
+                  "id": "S1.8",
+                  "quote": "Certification Tracking Software for Teams & Professionals",
+                  "domain": "certificationtrackingapp.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This is a general certification tracking software for any team or profession, not specifically for fitness studios."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "None of the identified direct competitors are specifically targeted at the fitness studio market. They are all horizontal SaaS products for any type of business, which may leave an opening for a vertically-focused solution.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "An instructor teaching a class with an expired certification or liability insurance creates a massive, potentially uninsurable liability risk",
+            "finding": "The evidence found is generic, noting that expired CPR certification can create \"liability concerns\" for businesses in general. No evidence was found confirming the risk is \"massive\" or \"uninsurable\" specifically for fitness studios.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "create compliance gaps, liability concerns",
+                "domain": "linkedin.com",
+                "kind": "S",
+                "cls": "platform",
+                "relevance": "category",
+                "relevanceReason": "This is a general article about the risks of expired CPR certification, applicable to any business where it's required."
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "need a dedicated tool to mitigate this specific, existential risk",
+            "finding": "The market is crowded with general-purpose, non-dedicated certification tracking tools. This suggests that customers are currently served by horizontal solutions, not specialized ones.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "Simple Employee Training Management App",
+                "domain": "trainingtrackersoftware.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a general employee training tracker for any company, not specifically for fitness studios."
+              },
+              {
+                "id": "S1.7",
+                "quote": "training tracking software for employees",
+                "domain": "talentguard.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is a general employee training and certification tracking software for any business, not specific to fitness studios."
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A first experiment can be a simple lead magnet, like a pre-formatted Google Sheet or Notion template for tracking certifications, offered on a landing page. This requires no custom software development."
+        },
+        "unproven": [
+          "Whether fitness studio owners perceive this risk as acute enough to pay for a dedicated software solution.",
+          "If studio owners are already using 'good enough' solutions like spreadsheets, calendar alerts, or features within their main studio management software (e.g., Mindbody).",
+          "Whether a tool designed specifically for fitness studios can offer enough value over the many existing general-purpose trackers to justify its existence."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page offering a free, downloadable \"Fitness Instructor Compliance Tracker\" Google Sheet template. Promote the page in online communities for yoga, pilates, and boutique fitness studio owners to gauge if the problem resonates.",
+          "cost": "~$50 for domain/hosting + 1 day founder time",
+          "duration": "2 weeks"
+        },
+        "continueIf": "The template is downloaded over 100 times within a month, indicating that a significant number of studio owners recognize the problem and are actively seeking a tool to solve it.",
+        "stopIf": "The template is downloaded fewer than 20 times, suggesting the problem is not a high priority or that existing solutions (even manual ones) are considered adequate.",
+        "removedLinks": 0,
+        "downgraded": [
+          "change \"need a dedicated tool to mitigate this specific, e\" contradicts → weakens: the finding relies on something not being seen, which cannot contradict a claim"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "change \"need a dedicated tool to mitigate this specific, e\" contradicts → weakens: the finding relies on something not being seen, which cannot contradict a claim"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-09-30T11:01:24.053Z",
+        "evidenceUpdatedAt": "2026-09-30T10:51:50.318Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-09-30T10:50:24.020Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "2a34e6e2-ad5e-5469-b05f-eed0531ebdd5",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01284,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-30T10:50:28.200Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "49b22264-aa1e-5766-bfd9-325a8bd309b7",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-30T10:50:35.465Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "3c4bbf0c-415b-5d94-ac09-4c8c6ea1f273",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-30T10:50:48.641Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "82eee84a-db82-50a3-a332-d495246c864a",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-30T10:51:17.404Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "9d11b56b-3f7f-519a-bbe0-f728b6554c4e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-30T10:51:27.502Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "16573067-aabd-50df-a697-9f932148c514",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-09-30T10:51:35.360Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "95604e6a-eabf-5b3a-8727-9709d39e06a9",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-09",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.70312,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.29688
+    },
+    "monthToDateUsdBefore": 0.70312,
+    "spentThisRunUsd": 0.02484
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-09-30T10:51:50.318Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02484,
+    "note": null
+  }
+}
