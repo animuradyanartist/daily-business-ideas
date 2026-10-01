@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small Government Contractor Compliance Software | us-small-govcon-compliance-software | 2026-10-01 | 95 | The Small Government Contractor's "DCAA-Proof" Timesheet Hub |
 | US Clinical Research Site Compliance Software | us-clinical-research-site-compliance-software | 2026-09-30 | 100 | The Independent Clinical Research Site's "FDA-Proof" Investigator Site File Hub |
 | US Freight Broker Compliance Software | us-freight-broker-compliance-software | 2026-09-29 | 100 | The Freight Broker's "Fraud-Proof" Carrier Onboarding Hub |
 | US Asbestos Abatement Contractor Compliance Software | us-asbestos-abatement-compliance-software | 2026-09-28 | 100 | The Asbestos Abatement Contractor's "EPA-Proof" Waste Manifest Hub |

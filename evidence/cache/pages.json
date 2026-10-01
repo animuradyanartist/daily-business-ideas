@@ -6955,6 +6955,320 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://www.accountingdepartment.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:36.836Z",
+      "data": {
+        "url": "https://www.accountingdepartment.com/pricing",
+        "finalUrl": "https://www.accountingdepartment.com/pricing",
+        "retrievedAt": "2026-10-01T11:18:36.836Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$1",
+            "billingUnit": false,
+            "context": "ncial Management As an entrepreneur driving a business with $1-50+ million in annual revenue, you know accounting is often"
+          },
+          {
+            "text": "$1,500/month",
+            "billingUnit": true,
+            "context": "close, and essential financial reporting. Investment: Up to $1,500/month Ideal for: Growing businesses with $1-3M annual revenue see"
+          },
+          {
+            "text": "$2",
+            "billingUnit": false,
+            "context": "business complexity) Ideal for: Established businesses with $2-10M annual revenue requiring deeper financial insights. 3 C"
+          },
+          {
+            "text": "$3,500/month",
+            "billingUnit": true,
+            "context": "ing, forecasting, and CFO advisory. Investment: Starting at $3,500/month Ideal for: Complex operations with $5-20M+ annual revenue n"
+          },
+          {
+            "text": "$5",
+            "billingUnit": false,
+            "context": "Starting at $3,500/month Ideal for: Complex operations with $5-20M+ annual revenue needing sophisticated financial archite"
+          },
+          {
+            "text": "$7,500/month",
+            "billingUnit": true,
+            "context": "ng, and complex financial modeling. Investment: Starting at $7,500/month Ideal for: Businesses with $8-50M+ annual revenue requiring"
+          },
+          {
+            "text": "$8",
+            "billingUnit": false,
+            "context": "stment: Starting at $7,500/month Ideal for: Businesses with $8-50M+ annual revenue requiring executive-level financial lea"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.accountingdepartment.com/blog/preparing-for-a-dcaa-audit-what-every-contractor-should-know": {
+      "fetchedAt": "2026-10-01T11:18:36.835Z",
+      "data": {
+        "url": "https://www.accountingdepartment.com/blog/preparing-for-a-dcaa-audit-what-every-contractor-should-know",
+        "finalUrl": "https://www.accountingdepartment.com/blog/preparing-for-a-dcaa-audit-what-every-contractor-should-know",
+        "retrievedAt": "2026-10-01T11:18:36.835Z",
+        "status": 200,
+        "error": null,
+        "title": "Preparing for a DCAA Audit: What Every Contractor Should Know",
+        "description": "Learn to navigate the DCAA audit process. Our guide covers key steps for government contractors, including record-keeping, understanding requirements, and internal audits.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://boostllc.net/accounting/dcaa-compliant-accounting-softwares/": {
+      "fetchedAt": "2026-10-01T11:18:36.833Z",
+      "data": {
+        "url": "https://boostllc.net/accounting/dcaa-compliant-accounting-softwares/",
+        "finalUrl": "https://boostllc.net/accounting/dcaa-compliant-accounting-softwares/",
+        "retrievedAt": "2026-10-01T11:18:36.833Z",
+        "status": 200,
+        "error": null,
+        "title": "DCAA-Compliant Accounting Software | BOOST LLC",
+        "description": "Government-approved accounting systems for contractors. BOOST offers DCAA-compliant accounting software & ERP solutions to keep your GovCon compliant.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.hourtimesheet.com/2024/06/05/dcaa-audit-tips-for-government-contractors/": {
+      "fetchedAt": "2026-10-01T11:18:36.837Z",
+      "data": {
+        "url": "https://www.hourtimesheet.com/2024/06/05/dcaa-audit-tips-for-government-contractors/",
+        "finalUrl": "https://www.hourtimesheet.com/2024/06/05/dcaa-audit-tips-for-government-contractors/",
+        "retrievedAt": "2026-10-01T11:18:36.837Z",
+        "status": 200,
+        "error": null,
+        "title": "How to Prepare for a DCAA Audit: Essential Tips for Small Government Contractors – Hour Timesheet",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.hourtimesheet.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:36.837Z",
+      "data": {
+        "url": "https://www.hourtimesheet.com/pricing",
+        "finalUrl": "https://v2.hourtimesheet.com/pricing",
+        "retrievedAt": "2026-10-01T11:18:36.837Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Hour Timesheet",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$50,000",
+            "billingUnit": false,
+            "context": "riced honestly . No DCAA-tax. No enterprise sales cycle. No $50,000 implementation. Just compliant time tracking, billed per us"
+          },
+          {
+            "text": "$8 / user",
+            "billingUnit": true,
+            "context": "compliant time tracking, billed per user, per month. Basic $8 / user / month No base fee · Billed monthly + Expense tracking add"
+          },
+          {
+            "text": "$4 / user",
+            "billingUnit": true,
+            "context": "nth No base fee · Billed monthly + Expense tracking add-on: $4 / user / month 100% DCAA-compliant timekeeping Supervisor approval"
+          },
+          {
+            "text": "$14 / user",
+            "billingUnit": true,
+            "context": "documentation Start 30-Day Free Trial POPULAR With Payroll $14 / user / month + $40 / month base fee · Billed monthly Everything"
+          },
+          {
+            "text": "$40 / month",
+            "billingUnit": true,
+            "context": "30-Day Free Trial POPULAR With Payroll $14 / user / month + $40 / month base fee · Billed monthly Everything in Basic, plus: Integr"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://boostllc.net/pricing": {
+      "fetchedAt": "2026-10-01T11:18:36.835Z",
+      "data": {
+        "url": "https://boostllc.net/pricing",
+        "finalUrl": "https://boostllc.net/pricing/",
+        "retrievedAt": "2026-10-01T11:18:36.835Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing Services For GovCons - BOOST LLC",
+        "description": "Our pricing services for GovCons use years of experience to craft your proposal. Learn more about our price consulting and solutions.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://rsbenv.com/due-diligence/why-you-need-a-phase-1-environmental-report-for-a-commercial-property-loan/": {
+      "fetchedAt": "2026-10-01T11:18:38.435Z",
+      "data": {
+        "url": "https://rsbenv.com/due-diligence/why-you-need-a-phase-1-environmental-report-for-a-commercial-property-loan/",
+        "finalUrl": "https://rsbenv.com/due-diligence/why-you-need-a-phase-1-environmental-report-for-a-commercial-property-loan/",
+        "retrievedAt": "2026-10-01T11:18:38.435Z",
+        "status": 200,
+        "error": null,
+        "title": "Why You Need a Phase 1 Environmental Report for a Commercial Property Loan | RSB Environmental - Environmental Firm Houston",
+        "description": "You should obtain a Phase 1 environmental report before obtaining a commercial property loan. Find out why in this guide to Phase 1 environmental reports",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://rsbenv.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:38.436Z",
+      "data": {
+        "url": "https://rsbenv.com/pricing",
+        "finalUrl": "https://rsbenv.com/pricing",
+        "retrievedAt": "2026-10-01T11:18:38.436Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.solutionsintheland.com/feeds/blog/environmental-phase-1-vs-phase-2": {
+      "fetchedAt": "2026-10-01T11:18:38.436Z",
+      "data": {
+        "url": "https://www.solutionsintheland.com/feeds/blog/environmental-phase-1-vs-phase-2",
+        "finalUrl": "https://www.solutionsintheland.com/feeds/blog/environmental-phase-1-vs-phase-2",
+        "retrievedAt": "2026-10-01T11:18:38.436Z",
+        "status": 200,
+        "error": null,
+        "title": "Phase 1 vs Phase 2 Environmental Site Assessments",
+        "description": "Compare Phase I vs Phase II Environmental Site Assessments to learn key differences, costs, and timelines. Find out which ESA your property needs today!",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.solutionsintheland.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:38.437Z",
+      "data": {
+        "url": "https://www.solutionsintheland.com/pricing",
+        "finalUrl": "https://www.solutionsintheland.com/pricing",
+        "retrievedAt": "2026-10-01T11:18:38.437Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.esa-automation.com/en/kreo-hmi-the-new-esa-responsive-software/": {
+      "fetchedAt": "2026-10-01T11:18:38.437Z",
+      "data": {
+        "url": "https://www.esa-automation.com/en/kreo-hmi-the-new-esa-responsive-software/",
+        "finalUrl": "https://www.esa-automation.com/en/kreo-hmi-the-new-esa-responsive-software/",
+        "retrievedAt": "2026-10-01T11:18:38.437Z",
+        "status": 200,
+        "error": null,
+        "title": "Kreo HMI: the New ESA Responsive Software",
+        "description": "Web technology and responsiveness, these are the strong points of Kreo HMI. ESA’s software allows you to create powerful web-based supervision applications, withresponsive project management.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.esa-automation.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:38.438Z",
+      "data": {
+        "url": "https://www.esa-automation.com/pricing",
+        "finalUrl": "https://www.esa-automation.com/en/pricing",
+        "retrievedAt": "2026-10-01T11:18:38.438Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.discussoftware.com/fai-optimization/solutions/first-article-inspection/": {
+      "fetchedAt": "2026-10-01T11:18:41.121Z",
+      "data": {
+        "url": "https://www.discussoftware.com/fai-optimization/solutions/first-article-inspection/",
+        "finalUrl": "https://www.discussoftware.com/fai-optimization/solutions/first-article-inspection/",
+        "retrievedAt": "2026-10-01T11:18:41.121Z",
+        "status": 200,
+        "error": null,
+        "title": "First Article Inspection Software | FAI | DISCUS",
+        "description": "First article inspection is a key process for ensuring quality, consistency and regulatory alignment. Learn more about DISCUS and FAI.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.net-inspect.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:41.121Z",
+      "data": {
+        "url": "https://www.net-inspect.com/pricing",
+        "finalUrl": "https://www.net-inspect.com/pricing",
+        "retrievedAt": "2026-10-01T11:18:41.121Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.inspectionxpert.com/blog/article/fai-software-as9102": {
+      "fetchedAt": "2026-10-01T11:18:41.122Z",
+      "data": {
+        "url": "https://www.inspectionxpert.com/blog/article/fai-software-as9102",
+        "finalUrl": "https://www.inspectionxpert.com/blog/article/fai-software-as9102",
+        "retrievedAt": "2026-10-01T11:18:41.122Z",
+        "status": 200,
+        "error": null,
+        "title": "Faster First Article Inspections (FAI) for AS9102",
+        "description": "Quality Engineer Samir used to spend 30-40 minutes to create an inspection package. Learn how he cut FAI time down to 10 minutes by using InspectionXpert.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.net-inspect.com/solutions/first-article-inspection-software/": {
+      "fetchedAt": "2026-10-01T11:18:41.119Z",
+      "data": {
+        "url": "https://www.net-inspect.com/solutions/first-article-inspection-software/",
+        "finalUrl": "https://www.net-inspect.com/solutions/first-article-inspection-software/",
+        "retrievedAt": "2026-10-01T11:18:41.119Z",
+        "status": 200,
+        "error": null,
+        "title": "First Article Inspection Software (FAI) for AS9102",
+        "description": "Eliminate paper FAI Reports and accelerate AS9102 compliance with Net-Inspect",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.discussoftware.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:41.122Z",
+      "data": {
+        "url": "https://www.discussoftware.com/pricing",
+        "finalUrl": "https://www.discussoftware.com/pricing",
+        "retrievedAt": "2026-10-01T11:18:41.122Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.inspectionxpert.com/pricing": {
+      "fetchedAt": "2026-10-01T11:18:41.123Z",
+      "data": {
+        "url": "https://www.inspectionxpert.com/pricing",
+        "finalUrl": "https://www.inspectionxpert.com/en-us/pricing",
+        "retrievedAt": "2026-10-01T11:18:41.123Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

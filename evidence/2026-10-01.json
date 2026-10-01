@@ -1,0 +1,4214 @@
+{
+  "schema": 1,
+  "date": "2026-10-01",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-01.md"
+  },
+  "createdAt": "2026-10-01T11:17:16.625Z",
+  "updatedAt": "2026-10-01T11:17:16.626Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-01.md",
+    "title": "The Small Government Contractor's \"DCAA-Proof\" Timesheet Hub",
+    "score": 95,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-01:govcon-dcaa-timesheet-hub",
+      "slug": "govcon-dcaa-timesheet-hub",
+      "title": "The Small Government Contractor's \"DCAA-Proof\" Timesheet Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "DCAA is a US federal agency, so the market is clearly the United States."
+      },
+      "plan": {
+        "slug": "govcon-dcaa-timesheet-hub",
+        "title": "The Small Government Contractor's \"DCAA-Proof\" Timesheet Hub",
+        "problem": "Failing a Defense Contract Audit Agency (DCAA) audit on timekeeping can lead to contract termination, repayment of funds, and being barred from future government work.",
+        "targetCustomer": "Owner of a small (5-50 employee) government contracting firm in engineering, IT, or professional services.",
+        "payer": "Owner of a small (5-50 employee) government contracting firm",
+        "whyPayerPays": "The payer would pay to avoid catastrophic financial losses and business termination due to DCAA audit failures.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "DCAA is a US federal agency, so the market is clearly the United States."
+        },
+        "keywords": {
+          "problem": [
+            "dcaa audit requirements",
+            "government contractor timekeeping rules",
+            "dcaa compliance issues"
+          ],
+          "solution": [
+            "dcaa software",
+            "government contractor timesheet software",
+            "dcaa compliant time tracking"
+          ],
+          "buying": [
+            "dcaa software pricing",
+            "best dcaa timekeeping tools",
+            "dcaa timesheet system cost"
+          ]
+        },
+        "serpQueries": [
+          "dcaa software",
+          "dcaa audit requirements"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "dcaa audit requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.14,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-14 09:35:25 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (20 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "government contractor timekeeping rules",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "dcaa compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "dcaa software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 45.54,
+          "adCompetition": 0.4,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-16 12:43:39 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "government contractor timesheet software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "dcaa compliant time tracking",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 170,
+          "cpcUsd": 154.51,
+          "adCompetition": 0.15,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-16 22:51:56 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -19,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "dcaa software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best dcaa timekeeping tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "dcaa timesheet system cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "dcaa software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:23.362Z",
+          "checkUrl": "https://www.google.com/search?q=dcaa%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "boostllc.net",
+              "url": "https://boostllc.net/accounting/dcaa-compliant-accounting-softwares/",
+              "title": "DCAA-Compliant Accounting Software",
+              "description": "Government-approved accounting systems for contractors. BOOST offers DCAA-compliant accounting software & ERP solutions to keep your GovCon compliant.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.dcaa.mil",
+              "url": "https://www.dcaa.mil/",
+              "title": "Defense Contract Audit Agency - Home",
+              "description": "DCAA provides audit and financial advisory services to the War Department and other federal entities responsible for acquisition and contract administration. Read more",
+              "id": "S1.3",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "eubanksaccounting.com",
+              "url": "https://eubanksaccounting.com/2024/11/22/list-of-the-best-dcaa-approved-and-compliant-accounting-software-systems/",
+              "title": "List of the Best DCAA Approved and Compliant Accounting ...",
+              "description": "Nov 22, 2024 — The 7 Best DCAA-Compliant Accounting Software Systems · 1 JAMIS Prime ERP · 2 Deltek Costpoint · 3 Unanet · 4 PROCAS. Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.accountingseed.com",
+              "url": "https://www.accountingseed.com/resource/guides/does-my-accounting-software-meet-dcaa-compliance/",
+              "title": "Does Your Software Meet DCAA Compliance?",
+              "description": "Sep 2, 2026 — There are no accounting systems formally approved by the DCAA. Even saying a system is DCAA compliant just means it has features that meet the ... Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.deltek.com",
+              "url": "https://www.deltek.com/resources/articles/dcaa-approved-accounting-system/",
+              "title": "What is a DCAA Approved Accounting System?",
+              "description": "Jan 8, 2024 — No accounting system is officially \"DCAA-approved\": The DCAA evaluates accounting methods, procedures, and controls, not software, so compliance ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pulse/dcaa-compliant-accounting-software-complete-guide-sumx-inc-hy8xc",
+              "title": "DCAA Compliant Accounting Software: The Complete Guide",
+              "description": "the DCAA (Defense Contract Audit Agency) does not \"certify\" or \"approve\" software. Instead, they audit your accounting system as a whole,",
+              "id": "S1.8",
+              "class": "platform"
+            },
+            {
+              "rank": 9,
+              "domain": "www.icatsystems.com",
+              "url": "https://www.icatsystems.com/",
+              "title": "Government Contract Accounting Software for QuickBooks",
+              "description": "Use ICAT with QuickBooks for a DCAA compliant accounting system and find training in Government Contract Accounting and FAR compliance.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "info.redstonegci.com",
+              "url": "https://info.redstonegci.com/blog/software-options-for-a-dcaa-approved-accounting-system",
+              "title": "Software Options for a DCAA Approved Accounting System",
+              "description": "Jan 26, 2022 — Small business accounting software such as QuickBooks can be a good solution for government contractors seeking to achieve a DCAA-approved ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.bigtime.net",
+              "url": "https://www.bigtime.net/industries/government-contracting/",
+              "title": "DCAA Government Contracting Software",
+              "description": "BigTime is a DCAA-compliant project management software for contractors who need to work with the requirements for time-tracking, approvals, and reporting.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "dcaa audit requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:32.306Z",
+          "checkUrl": "https://www.google.com/search?q=dcaa%20audit%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.accountingdepartment.com",
+              "url": "https://www.accountingdepartment.com/blog/preparing-for-a-dcaa-audit-what-every-contractor-should-know",
+              "title": "Preparing for a DCAA Audit: What Every Contractor Should ...",
+              "description": "1. Understand DCAA Requirements Thoroughly · Key areas of focus include: Allowable Costs: ; 2. Maintain Accurate and Detailed Records · Your accounting system ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.hourtimesheet.com",
+              "url": "https://www.hourtimesheet.com/2024/06/05/dcaa-audit-tips-for-government-contractors/",
+              "title": "How to Prepare for a DCAA Audit: Essential Tips for Small ...",
+              "description": "Jun 5, 2024 — This DCAA Audit Tip guide provides valuable insights into the types of DCAA audits, key compliance elements, and best practices to ensure a ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "unanet.com",
+              "url": "https://unanet.com/blog/getting-ready-for-a-dcaa-audit",
+              "title": "Getting Ready for a DCAA Audit",
+              "description": "May 22, 2019 — DCAA audits ONLY government contractors. Each DCAA audit is conducted in accordance with the Generally Accepted Government Auditing Standards ( ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.famr.us",
+              "url": "https://www.famr.us/learn/dcaa-compliance/",
+              "title": "DCAA Auditing, Compliance, & More For Your Business",
+              "description": "The requirements and guidance for these audits have to come from somewhere, and the DCAA gets them from the rules outlined by the Federal Acquisition Regulation ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.procas.com",
+              "url": "https://www.procas.com/types-of-dcaa-audits-for-government-contractors/",
+              "title": "Types of DCAA Audits for Government Contractors",
+              "description": "Aug 16, 2019 — According to DCAA audit requirements, provisional billing rates should be: Submitted at the beginning of each fiscal year or when ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.waru.edu",
+              "url": "https://www.waru.edu/sites/default/files/2024-03/Capitalizing%20on%20DCAA%20Services%20-%20Contractor%20Business%20Systems-DAU.pdf",
+              "title": "Defense Contract Audit Agency (DCAA) Capitalizing on ...",
+              "description": "s When DCAA identifies a noncompliance, the audit report will include the following: Description of the condition (nature of the deficiency) Identification of ...",
+              "id": "S2.8",
+              "class": "reference_media"
+            },
+            {
+              "rank": 9,
+              "domain": "www.diener.org",
+              "url": "https://www.diener.org/how-to-successfully-pass-a-dcaa-accounting-system-audit/",
+              "title": "How To Successfully Pass A DCAA Accounting System Audit",
+              "description": "Aug 1, 2022 — Government contractors are required to pass several DCAA audits. Be Detailed With Expenses, Project Information And Time When … reports, ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.cjeffersoncpa.com",
+              "url": "https://www.cjeffersoncpa.com/successfully-pass-a-dcaa-pre-award-audit/",
+              "title": "DCAA Pre-Award Audit for Government Contractors",
+              "description": "Passing a DCAA pre-award audit requires diligence, transparency, and a solid understanding of regulatory compliance. By preparing your accounting systems,",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=sT4Zok052pI",
+              "title": "DCAA Pre-Award Audit",
+              "description": null,
+              "id": "S2.11",
+              "class": "reference_media"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "boostllc.net",
+          "url": "https://boostllc.net/accounting/dcaa-compliant-accounting-softwares/",
+          "finalUrl": "https://boostllc.net/accounting/dcaa-compliant-accounting-softwares/",
+          "retrievedAt": "2026-10-01T11:18:36.833Z",
+          "status": 200,
+          "error": null,
+          "title": "DCAA-Compliant Accounting Software | BOOST LLC",
+          "description": "Government-approved accounting systems for contractors. BOOST offers DCAA-compliant accounting software & ERP solutions to keep your GovCon compliant.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "boostllc.net",
+          "url": "https://boostllc.net/pricing",
+          "finalUrl": "https://boostllc.net/pricing/",
+          "retrievedAt": "2026-10-01T11:18:36.835Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing Services For GovCons - BOOST LLC",
+          "description": "Our pricing services for GovCons use years of experience to craft your proposal. Learn more about our price consulting and solutions.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "accountingdepartment.com",
+          "url": "https://www.accountingdepartment.com/blog/preparing-for-a-dcaa-audit-what-every-contractor-should-know",
+          "finalUrl": "https://www.accountingdepartment.com/blog/preparing-for-a-dcaa-audit-what-every-contractor-should-know",
+          "retrievedAt": "2026-10-01T11:18:36.835Z",
+          "status": 200,
+          "error": null,
+          "title": "Preparing for a DCAA Audit: What Every Contractor Should Know",
+          "description": "Learn to navigate the DCAA audit process. Our guide covers key steps for government contractors, including record-keeping, understanding requirements, and internal audits.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "accountingdepartment.com",
+          "url": "https://www.accountingdepartment.com/pricing",
+          "finalUrl": "https://www.accountingdepartment.com/pricing",
+          "retrievedAt": "2026-10-01T11:18:36.836Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$1",
+              "billingUnit": false,
+              "context": "ncial Management As an entrepreneur driving a business with $1-50+ million in annual revenue, you know accounting is often"
+            },
+            {
+              "text": "$1,500/month",
+              "billingUnit": true,
+              "context": "close, and essential financial reporting. Investment: Up to $1,500/month Ideal for: Growing businesses with $1-3M annual revenue see"
+            },
+            {
+              "text": "$2",
+              "billingUnit": false,
+              "context": "business complexity) Ideal for: Established businesses with $2-10M annual revenue requiring deeper financial insights. 3 C"
+            },
+            {
+              "text": "$3,500/month",
+              "billingUnit": true,
+              "context": "ing, forecasting, and CFO advisory. Investment: Starting at $3,500/month Ideal for: Complex operations with $5-20M+ annual revenue n"
+            },
+            {
+              "text": "$5",
+              "billingUnit": false,
+              "context": "Starting at $3,500/month Ideal for: Complex operations with $5-20M+ annual revenue needing sophisticated financial archite"
+            },
+            {
+              "text": "$7,500/month",
+              "billingUnit": true,
+              "context": "ng, and complex financial modeling. Investment: Starting at $7,500/month Ideal for: Businesses with $8-50M+ annual revenue requiring"
+            },
+            {
+              "text": "$8",
+              "billingUnit": false,
+              "context": "stment: Starting at $7,500/month Ideal for: Businesses with $8-50M+ annual revenue requiring executive-level financial lea"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "hourtimesheet.com",
+          "url": "https://www.hourtimesheet.com/2024/06/05/dcaa-audit-tips-for-government-contractors/",
+          "finalUrl": "https://www.hourtimesheet.com/2024/06/05/dcaa-audit-tips-for-government-contractors/",
+          "retrievedAt": "2026-10-01T11:18:36.837Z",
+          "status": 200,
+          "error": null,
+          "title": "How to Prepare for a DCAA Audit: Essential Tips for Small Government Contractors – Hour Timesheet",
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "hourtimesheet.com",
+          "url": "https://www.hourtimesheet.com/pricing",
+          "finalUrl": "https://v2.hourtimesheet.com/pricing",
+          "retrievedAt": "2026-10-01T11:18:36.837Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing | Hour Timesheet",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$50,000",
+              "billingUnit": false,
+              "context": "riced honestly . No DCAA-tax. No enterprise sales cycle. No $50,000 implementation. Just compliant time tracking, billed per us"
+            },
+            {
+              "text": "$8 / user",
+              "billingUnit": true,
+              "context": "compliant time tracking, billed per user, per month. Basic $8 / user / month No base fee · Billed monthly + Expense tracking add"
+            },
+            {
+              "text": "$4 / user",
+              "billingUnit": true,
+              "context": "nth No base fee · Billed monthly + Expense tracking add-on: $4 / user / month 100% DCAA-compliant timekeeping Supervisor approval"
+            },
+            {
+              "text": "$14 / user",
+              "billingUnit": true,
+              "context": "documentation Start 30-Day Free Trial POPULAR With Payroll $14 / user / month + $40 / month base fee · Billed monthly Everything"
+            },
+            {
+              "text": "$40 / month",
+              "billingUnit": true,
+              "context": "30-Day Free Trial POPULAR With Payroll $14 / user / month + $40 / month base fee · Billed monthly Everything in Basic, plus: Integr"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 7,
+          "top": {
+            "keyword": "dcaa audit requirements",
+            "searchVolume": 10,
+            "id": "K1"
+          },
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 2,
+            "top": {
+              "keyword": "dcaa software",
+              "searchVolume": 20,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K6",
+              "kind": "uncorroborated",
+              "text": "\"dcaa compliant time tracking\" (170/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"dcaa audit requirements\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: low (\"dcaa software\" 20/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K6"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $154.51 on \"dcaa compliant time tracking\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "boostllc.net",
+            "accountingdepartment.com",
+            "hourtimesheet.com",
+            "eubanksaccounting.com",
+            "unanet.com",
+            "accountingseed.com",
+            "famr.us",
+            "deltek.com",
+            "procas.com",
+            "icatsystems.com",
+            "diener.org",
+            "info.redstonegci.com",
+            "cjeffersoncpa.com",
+            "bigtime.net"
+          ],
+          "platformDomains": [
+            "linkedin.com"
+          ],
+          "discussionResults": [],
+          "pricedDomains": [
+            "accountingdepartment.com",
+            "hourtimesheet.com"
+          ],
+          "note": "14 vendor-like or publisher domain(s) and 1 broad platform(s) (linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on accountingdepartment.com, hourtimesheet.com. Judged for relevance: 1 domain(s) with a direct competitor (same problem) (famr.us), 3 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "famr.us"
+          ],
+          "indirectAlternativeDomains": [
+            "boostllc.net",
+            "icatsystems.com",
+            "bigtime.net"
+          ]
+        }
+      },
+      "evidenceFingerprint": "338bed198c1f6a77",
+      "evidenceUpdatedAt": "2026-10-01T11:18:42.449Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-10-01T11:24:45.060Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-01T11:18:42.449Z",
+        "qualifiers": [
+          "small government contracting firm",
+          "Owner"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An owner of a government contracting firm would search for DCAA audit requirements to solve their compliance problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An owner of a government contracting firm would search for timekeeping rules to ensure they are compliant."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An owner of a government contracting firm would search for compliance issues to understand and avoid them."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "An owner of a government contracting firm would search for DCAA software, which is the broader category for the idea's timesheet hub."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search is for a specific solution for the target customer's problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the core function of the proposed solution for the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "An owner of a government contracting firm would search for pricing, but 'DCAA software' is the broader category for the idea's timesheet hub."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An owner of a government contracting firm would search for the best tools to solve their specific timekeeping problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An owner of a government contracting firm would search for the cost of a timesheet system, which is the specific solution."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is for any government contractor needing accounting software, a broader audience and problem than just timesheets for small firms."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is the official DCAA website, for a general audience, not a solution for a contractor's problem."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a list of accounting software for any government contractor, a broader audience and problem than just timesheets."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a general article about software compliance for any government contractor."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is an informational article about DCAA approval for accounting systems, aimed at any government contractor."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This is a guide to accounting software for any government contractor, a broader audience and problem."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is an add-on for QuickBooks for government contractors, a broader problem than just timesheets."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "small government contracting firm"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article discusses accounting software options, mentioning small businesses, but the problem is broader than just timesheets."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is project management software for government contractors, a broader problem than just timesheets."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide for any government contractor on how to prepare for a DCAA audit."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "small government contracting firm"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is specifically for small government contractors preparing for a DCAA audit, matching the customer and problem."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide for any government contractor preparing for a DCAA audit."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a service firm offering DCAA compliance help to any business, a broader customer base."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is an informational article for any government contractor about different types of DCAA audits."
+          },
+          "S2.8": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "no",
+            "reason": "The snippet is about how DCAA reports noncompliance, not about the contractor's problem of avoiding it."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is for any government contractor on passing an accounting system audit, a broader problem than just timesheets."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article is for any government contractor facing a pre-award audit, a specific and adjacent problem."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This video is for any government contractor facing a pre-award audit, an adjacent problem."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This is a product page for accounting software aimed at any government contractor, a broader problem than just timesheets."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This page is for a different problem: creating pricing proposals for government contracts."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a guide for any government contractor on preparing for a DCAA audit."
+          },
+          "P4": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "This is a generic pricing page for an outsourced accounting service."
+          },
+          "P5": {
+            "customer": "same",
+            "customerMatches": [
+              "small government contracting firm"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is specifically for small government contractors preparing for a DCAA audit, matching the customer and problem."
+          },
+          "P6": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "This is a generic pricing page for a timesheet product."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-01:govcon-dcaa-timesheet-hub",
+        "opportunity": "Small government contractors face severe penalties like contract termination for failing DCAA timekeeping audits. A focused, affordable software tool could help them maintain compliance and avoid these catastrophic business risks.",
+        "whoPays": "The owner of a small government contracting firm pays to avoid the significant financial and business risks associated with failing a DCAA audit. This is an inference as no direct evidence of payment motivation was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "P3",
+              "quote": "Learn to navigate the DCAA audit process"
+            },
+            {
+              "id": "P5",
+              "quote": "How to Prepare for a DCAA Audit: Essential Tips for Small Government Contractors"
+            }
+          ],
+          "observed": "Publishers and service providers offer guides on how to prepare for and navigate the DCAA audit process, with some content specifically targeting small government contractors.",
+          "inference": "The existence of these guides implies that DCAA audits are complex and risky enough for contractors to seek external information to ensure compliance. The specific pain of 'catastrophic financial losses' described in the plan is not directly observed in the evidence."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "DCAA Auditing, Compliance, & More For Your Business"
+            },
+            {
+              "id": "S1.2",
+              "quote": "DCAA-compliant accounting software & ERP solutions"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Government Contract Accounting Software for QuickBooks"
+            },
+            {
+              "id": "S1.11",
+              "quote": "DCAA-compliant project management software for contractors"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "famr.us",
+              "type": "direct",
+              "what": "Offers DCAA auditing and compliance services for businesses.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "DCAA Auditing, Compliance, & More For Your Business"
+                }
+              ]
+            },
+            {
+              "name": "boostllc.net",
+              "type": "indirect",
+              "what": "Offers DCAA-compliant accounting software and ERP solutions for government contractors.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "offers DCAA-compliant accounting software & ERP solutions to keep your GovCon compliant"
+                }
+              ]
+            },
+            {
+              "name": "icatsystems.com",
+              "type": "indirect",
+              "what": "Provides a DCAA compliant accounting system as an add-on for QuickBooks.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Use ICAT with QuickBooks for a DCAA compliant accounting system"
+                }
+              ]
+            },
+            {
+              "name": "bigtime.net",
+              "type": "indirect",
+              "what": "Offers DCAA-compliant project management software for contractors.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "BigTime is a DCAA-compliant project management software for contractors"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market includes broad ERP, accounting, and project management solutions that offer DCAA compliance as a feature.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "DCAA-compliant accounting software & ERP solutions"
+                },
+                {
+                  "id": "S1.11",
+                  "quote": "DCAA-compliant project management software"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing software competitors appear to be broad, potentially expensive systems (ERP, full accounting), which may leave a gap for a focused and more affordable timesheet-only tool for small contractors.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Existing tools are often bundled into expensive ERPs",
+            "finding": "Evidence shows indirect competitors are broad accounting, ERP, or project management systems, rather than standalone timesheet tools.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "DCAA-compliant accounting software & ERP solutions"
+              },
+              {
+                "id": "S1.11",
+                "quote": "DCAA-compliant project management software for contractors"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A basic time-tracking web application with an immutable audit trail is a well-understood software project. The primary challenge is correctly interpreting and implementing all DCAA rules, but a minimal version for a pilot is feasible."
+        },
+        "unproven": [
+          "That small government contractors are currently underserved by existing solutions.",
+          "That they are willing to pay for a new, standalone timesheet tool rather than using bundled features in larger systems or manual methods.",
+          "The specific price point a small contractor would pay for such a tool."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 owners of small (5-50 employee) government contracting firms to validate the pain of DCAA timekeeping compliance, their current solutions, and their dissatisfaction.",
+          "cost": "~$500 for incentives + 1-2 weeks of time",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees express significant frustration with their current timekeeping method and confirm that fear of a DCAA audit failure is a primary concern.",
+        "stopIf": "Most interviewees are satisfied with their current solution (e.g., QuickBooks Time, an ERP module) or do not perceive DCAA timekeeping compliance as a significant, unsolved problem."
+      },
+      "assessment": {
+        "opportunity": "Small government contractors face severe penalties like contract termination for failing DCAA timekeeping audits. A focused, affordable software tool could help them maintain compliance and avoid these catastrophic business risks.",
+        "whoPays": "The owner of a small government contracting firm pays to avoid the significant financial and business risks associated with failing a DCAA audit. This is an inference as no direct evidence of payment motivation was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "P3",
+              "quote": "Learn to navigate the DCAA audit process",
+              "domain": "accountingdepartment.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "This is a guide for any government contractor on preparing for a DCAA audit."
+            },
+            {
+              "id": "P5",
+              "quote": "How to Prepare for a DCAA Audit: Essential Tips for Small Government Contractors",
+              "domain": "hourtimesheet.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "This article is specifically for small government contractors preparing for a DCAA audit, matching the customer and problem."
+            }
+          ],
+          "observed": "Publishers and service providers offer guides on how to prepare for and navigate the DCAA audit process, with some content specifically targeting small government contractors.",
+          "inference": "The existence of these guides implies that DCAA audits are complex and risky enough for contractors to seek external information to ensure compliance. The specific pain of 'catastrophic financial losses' described in the plan is not directly observed in the evidence."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "DCAA Auditing, Compliance, & More For Your Business",
+              "domain": "famr.us",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is a service firm offering DCAA compliance help to any business, a broader customer base."
+            },
+            {
+              "id": "S1.2",
+              "quote": "DCAA-compliant accounting software & ERP solutions",
+              "domain": "boostllc.net",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is for any government contractor needing accounting software, a broader audience and problem than just timesheets for small firms."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Government Contract Accounting Software for QuickBooks",
+              "domain": "icatsystems.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is an add-on for QuickBooks for government contractors, a broader problem than just timesheets."
+            },
+            {
+              "id": "S1.11",
+              "quote": "DCAA-compliant project management software for contractors",
+              "domain": "bigtime.net",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This is project management software for government contractors, a broader problem than just timesheets."
+            }
+          ],
+          "directCompetitors": [
+            "famr.us"
+          ],
+          "indirectAlternatives": [
+            "boostllc.net",
+            "icatsystems.com",
+            "bigtime.net"
+          ],
+          "alternatives": [
+            {
+              "name": "famr.us",
+              "type": "direct",
+              "what": "Offers DCAA auditing and compliance services for businesses.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "DCAA Auditing, Compliance, & More For Your Business",
+                  "domain": "famr.us",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is a service firm offering DCAA compliance help to any business, a broader customer base."
+                }
+              ]
+            },
+            {
+              "name": "boostllc.net",
+              "type": "indirect",
+              "what": "Offers DCAA-compliant accounting software and ERP solutions for government contractors.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "offers DCAA-compliant accounting software & ERP solutions to keep your GovCon compliant",
+                  "domain": "boostllc.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is for any government contractor needing accounting software, a broader audience and problem than just timesheets for small firms."
+                }
+              ]
+            },
+            {
+              "name": "icatsystems.com",
+              "type": "indirect",
+              "what": "Provides a DCAA compliant accounting system as an add-on for QuickBooks.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Use ICAT with QuickBooks for a DCAA compliant accounting system",
+                  "domain": "icatsystems.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is an add-on for QuickBooks for government contractors, a broader problem than just timesheets."
+                }
+              ]
+            },
+            {
+              "name": "bigtime.net",
+              "type": "indirect",
+              "what": "Offers DCAA-compliant project management software for contractors.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "BigTime is a DCAA-compliant project management software for contractors",
+                  "domain": "bigtime.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This is project management software for government contractors, a broader problem than just timesheets."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market includes broad ERP, accounting, and project management solutions that offer DCAA compliance as a feature.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "DCAA-compliant accounting software & ERP solutions",
+                  "domain": "boostllc.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This is for any government contractor needing accounting software, a broader audience and problem than just timesheets for small firms."
+                },
+                {
+                  "id": "S1.11",
+                  "quote": "DCAA-compliant project management software",
+                  "domain": "bigtime.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This is project management software for government contractors, a broader problem than just timesheets."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing software competitors appear to be broad, potentially expensive systems (ERP, full accounting), which may leave a gap for a focused and more affordable timesheet-only tool for small contractors.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Existing tools are often bundled into expensive ERPs",
+            "finding": "Evidence shows indirect competitors are broad accounting, ERP, or project management systems, rather than standalone timesheet tools.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "DCAA-compliant accounting software & ERP solutions",
+                "domain": "boostllc.net",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This is for any government contractor needing accounting software, a broader audience and problem than just timesheets for small firms."
+              },
+              {
+                "id": "S1.11",
+                "quote": "DCAA-compliant project management software for contractors",
+                "domain": "bigtime.net",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This is project management software for government contractors, a broader problem than just timesheets."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A basic time-tracking web application with an immutable audit trail is a well-understood software project. The primary challenge is correctly interpreting and implementing all DCAA rules, but a minimal version for a pilot is feasible."
+        },
+        "unproven": [
+          "That small government contractors are currently underserved by existing solutions.",
+          "That they are willing to pay for a new, standalone timesheet tool rather than using bundled features in larger systems or manual methods.",
+          "The specific price point a small contractor would pay for such a tool."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 owners of small (5-50 employee) government contracting firms to validate the pain of DCAA timekeeping compliance, their current solutions, and their dissatisfaction.",
+          "cost": "~$500 for incentives + 1-2 weeks of time",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees express significant frustration with their current timekeeping method and confirm that fear of a DCAA audit failure is a primary concern.",
+        "stopIf": "Most interviewees are satisfied with their current solution (e.g., QuickBooks Time, an ERP module) or do not perceive DCAA timekeeping compliance as a significant, unsolved problem.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-01T11:26:03.994Z",
+        "evidenceUpdatedAt": "2026-10-01T11:18:42.449Z"
+      }
+    },
+    {
+      "id": "2026-10-01:environmental-consultant-phase-i-esa",
+      "slug": "environmental-consultant-phase-i-esa",
+      "title": "The Independent Environmental Consultant's \"40-Hour\" Phase I ESA Report Generator",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "Phase I ESA reports are standardized by ASTM E1527-21, which is a US standard, making the US the most plausible market."
+      },
+      "plan": {
+        "slug": "environmental-consultant-phase-i-esa",
+        "title": "The Independent Environmental Consultant's \"40-Hour\" Phase I ESA Report Generator",
+        "problem": "Creating a Phase I Environmental Site Assessment (ESA) report is a manual, time-consuming process that can take 2-4 weeks, requiring dozens of hours compiling data and writing repetitive sections.",
+        "targetCustomer": "Owner or senior consultant at a small (2-20 person) environmental consulting firm.",
+        "payer": "Owner or senior consultant at a small environmental consulting firm",
+        "whyPayerPays": "The payer would pay to save significant non-billable administrative time and increase report throughput.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "Phase I ESA reports are standardized by ASTM E1527-21, which is a US standard, making the US the most plausible market."
+        },
+        "keywords": {
+          "problem": [
+            "phase i esa report challenges",
+            "environmental site assessment pain points",
+            "time to complete phase i esa"
+          ],
+          "solution": [
+            "esa software",
+            "phase i esa report generator",
+            "environmental report automation tool"
+          ],
+          "buying": [
+            "esa software pricing",
+            "best phase i esa tools",
+            "environmental report software cost"
+          ]
+        },
+        "serpQueries": [
+          "esa software",
+          "phase i esa report challenges"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "phase i esa report challenges",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "environmental site assessment pain points",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "time to complete phase i esa",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "esa software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 70,
+          "cpcUsd": 8.5,
+          "adCompetition": 0.22,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 40,
+          "providerUpdatedAt": "2026-09-12 13:50:43 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 9,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "phase i esa report generator",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "environmental report automation tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "esa software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best phase i esa tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "environmental report software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "esa software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:42.048Z",
+          "checkUrl": "https://www.google.com/search?q=esa%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.esa.int",
+              "url": "https://www.esa.int/TEC/Software_engineering_and_standardisation/TECRFBUXBQE_2.html",
+              "title": "ESA - Software engineering and standardisation",
+              "description": "Aug 2, 2006 — ESA - Software engineering and standardisation. This language is preferred for critical software such as platform command and control.",
+              "id": "S1.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.esa-automation.com",
+              "url": "https://www.esa-automation.com/en/kreo-hmi-the-new-esa-responsive-software/",
+              "title": "Kreo HMI: the New ESA Responsive Software",
+              "description": "Mar 27, 2023 — ESA's software allows you to create powerful web-based supervision applications, with fully responsive project management.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/TechnicalSolutions2019/videos/paccar-esa-560-kenworth-peterbilt-sw-programming-files-2023paccar-esa-560-kenwor/986347246145288/",
+              "title": "Paccar ESA 5.6.0 ( Kenworth & Peterbilt ) SW Programming ...",
+              "description": "ESA 5.6.0 (Kenworth and Peterbilt ) is a programming software used for vehicle diagnostics and firmware updates. It serves as a diagnostic tool ...",
+              "id": "S1.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Environmental_Careers/comments/1l8u0as/phase_i_esapca_infield_software_options/",
+              "title": "Phase I ESA/PCA In-Field Software Options?!",
+              "description": "Yes it exists and works great, Fulcrum and Survey123 (arcGIS) give coordinates where the photo was taken, plots the point on a map and you can ...",
+              "id": "S1.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 7,
+              "domain": "www.ebay.com",
+              "url": "https://www.ebay.com/itm/127851176025",
+              "title": "For PACCAR-R Davie 4 Diagnostic & Engine Service ...",
+              "description": "Menu Options · This item is no longer available. · Black laptop with touchscreen displaying ESA 5.7 software, green dashboard, and text “Identify vehicle.”. Read more",
+              "id": "S1.7",
+              "class": "marketplace"
+            },
+            {
+              "rank": 8,
+              "domain": "www.esa.int",
+              "url": "https://www.esa.int/TEC/Software_engineering_and_standardisation/TEC8LEUXBQE_0.html",
+              "title": "Software engineering and standardisation - Useful links",
+              "description": "Jul 23, 2008 — This page gives a list of links that have been encountered in the course of the daily work of the Software Engineering and Standardisation ...",
+              "id": "S1.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/c/esasoftware",
+              "title": "ESA Software",
+              "description": "Software per la gestione delle piccole imprese | e/ready. Un programma gestionale semplice, pensato per le esigenze delle piccole aziende. Read more",
+              "id": "S1.9",
+              "class": "reference_media"
+            },
+            {
+              "rank": 10,
+              "domain": "mhhauto.com",
+              "url": "https://mhhauto.com/Thread-Paccar-Electronic-Service-Analyst-ESA-v4-4-6-207-English",
+              "title": "Paccar Electronic Service Analyst (ESA) v4.4.6.207 English",
+              "description": "Jul 25, 2015 — Paccar Electronic Service Analyst (ESA) is a diagnostic tool what communicates over a Data Link Adapter to the NAMUX components. Can connect to ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "phase i esa report challenges",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:50.688Z",
+          "checkUrl": "https://www.google.com/search?q=phase%20i%20esa%20report%20challenges&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "rsbenv.com",
+              "url": "https://rsbenv.com/due-diligence/why-you-need-a-phase-1-environmental-report-for-a-commercial-property-loan/",
+              "title": "Why You Need a Phase 1 Environmental Report for a ...",
+              "description": "Jun 14, 2022 — A Phase 1 environmental report outlines any environmental risks that were discovered during an inspection of commercial property. Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.solutionsintheland.com",
+              "url": "https://www.solutionsintheland.com/feeds/blog/environmental-phase-1-vs-phase-2",
+              "title": "Phase 1 vs Phase 2 Environmental Site Assessments",
+              "description": "1 day ago — A Phase I report is not an absolute legal guarantee; it is one part of a broader. Without Phase I context, sampling can hit the wrong locations ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.hilgerhammond.com",
+              "url": "https://www.hilgerhammond.com/phase-i-environmental-site-assessments-in-commercial-real-estate/",
+              "title": "Phase I Environmental Site Assessments in Commercial ...",
+              "description": "Failure to include a termination option could stick a purchaser or lessee with environmentally contaminated real estate that may significantly decrease in value",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "360eec.com",
+              "url": "https://360eec.com/is-this-still-good-the-best-before-sell-by-meilleur-avant-date-of-your-phase-1-esa-report/",
+              "title": "Is this still good? The Best Before/Sell by/Meilleur Avant ...",
+              "description": "A Phase 1 ESA is a snapshot of the condition of the Property at that time, and won't capture anything that has happened professional declaration,",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Environmental_Careers/comments/18dpxjj/what_are_esas_and_how_do_i_learn_them/",
+              "title": "What are ESAs and how do I learn them.",
+              "description": "I am a considering a career switch from construction monitoring to more office style work. I see job openings all the time that want experience with phase ...",
+              "id": "S2.7",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "primior.com",
+              "url": "https://primior.com/hidden-environmental-risks-in-commercial-properties-due-diligence-guide-2025/",
+              "title": "Hidden Environmental Risks in Commercial Properties",
+              "description": "Aug 4, 2025 — Phase I ESA might not catch all environmental liability sources. A well-planned scope of work and careful report review must be part of your ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "trustlands.utah.gov",
+              "url": "https://trustlands.utah.gov/wp-content/uploads/2023/02/C27107-Phase-1-ESA.pdf",
+              "title": "Phase I Environmental Site Assessment C 27107 Property",
+              "description": "Feb 13, 2023 — There may be environmental issues or conditions at a property. Non- scope considerations include (but are not limited to) asbestos-containing ...",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "www.greenvalleyhomeinspections.net",
+              "url": "https://www.greenvalleyhomeinspections.net/what-you-need-to-know-about-phase-1-site-environmental-assessment",
+              "title": "What is a Phase 1 ESA Process, Benefits, and learning RECs",
+              "description": "Apr 13, 2026 — A Phase 1 Environmental Site Assessment is a preliminary investigation that identifies potential environmental contamination risks on a property ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "rsbenv.com",
+          "url": "https://rsbenv.com/due-diligence/why-you-need-a-phase-1-environmental-report-for-a-commercial-property-loan/",
+          "finalUrl": "https://rsbenv.com/due-diligence/why-you-need-a-phase-1-environmental-report-for-a-commercial-property-loan/",
+          "retrievedAt": "2026-10-01T11:18:38.435Z",
+          "status": 200,
+          "error": null,
+          "title": "Why You Need a Phase 1 Environmental Report for a Commercial Property Loan | RSB Environmental - Environmental Firm Houston",
+          "description": "You should obtain a Phase 1 environmental report before obtaining a commercial property loan. Find out why in this guide to Phase 1 environmental reports",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "rsbenv.com",
+          "url": "https://rsbenv.com/pricing",
+          "finalUrl": "https://rsbenv.com/pricing",
+          "retrievedAt": "2026-10-01T11:18:38.436Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "solutionsintheland.com",
+          "url": "https://www.solutionsintheland.com/feeds/blog/environmental-phase-1-vs-phase-2",
+          "finalUrl": "https://www.solutionsintheland.com/feeds/blog/environmental-phase-1-vs-phase-2",
+          "retrievedAt": "2026-10-01T11:18:38.436Z",
+          "status": 200,
+          "error": null,
+          "title": "Phase 1 vs Phase 2 Environmental Site Assessments",
+          "description": "Compare Phase I vs Phase II Environmental Site Assessments to learn key differences, costs, and timelines. Find out which ESA your property needs today!",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "solutionsintheland.com",
+          "url": "https://www.solutionsintheland.com/pricing",
+          "finalUrl": "https://www.solutionsintheland.com/pricing",
+          "retrievedAt": "2026-10-01T11:18:38.437Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "esa-automation.com",
+          "url": "https://www.esa-automation.com/en/kreo-hmi-the-new-esa-responsive-software/",
+          "finalUrl": "https://www.esa-automation.com/en/kreo-hmi-the-new-esa-responsive-software/",
+          "retrievedAt": "2026-10-01T11:18:38.437Z",
+          "status": 200,
+          "error": null,
+          "title": "Kreo HMI: the New ESA Responsive Software",
+          "description": "Web technology and responsiveness, these are the strong points of Kreo HMI. ESA’s software allows you to create powerful web-based supervision applications, withresponsive project management.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "esa-automation.com",
+          "url": "https://www.esa-automation.com/pricing",
+          "finalUrl": "https://www.esa-automation.com/en/pricing",
+          "retrievedAt": "2026-10-01T11:18:38.438Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 6,
+          "top": null,
+          "category": {
+            "level": "low",
+            "measuredCount": 1,
+            "totalCount": 3,
+            "top": {
+              "keyword": "esa software",
+              "searchVolume": 70,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 6 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low (\"esa software\" 70/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $8.50 on \"esa software\"). CPC is an advertiser bid, not a customer's willingness to pay."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "rsbenv.com",
+            "solutionsintheland.com",
+            "esa-automation.com",
+            "hilgerhammond.com",
+            "360eec.com",
+            "primior.com",
+            "mhhauto.com",
+            "greenvalleyhomeinspections.net"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "facebook.com"
+          ],
+          "pricedDomains": [],
+          "note": "8 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "ccce4a88f92e45de",
+      "evidenceUpdatedAt": "2026-10-01T11:18:42.449Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-01T11:24:45.061Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-01T11:18:42.449Z",
+        "qualifiers": [
+          "Owner or senior consultant",
+          "small (2-20 person) environmental consulting firm"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An environmental consultant would search for challenges with reports to find solutions for their problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An environmental consultant would search for pain points in their work to find solutions."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An environmental consultant dealing with the time-consuming nature of reports would search this."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "An environmental consultant would search for software, but 'ESA software' is ambiguous (European Space Agency) and a broad category."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the exact solution to the target customer's problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the function of the proposed solution for the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "An environmental consultant would search for pricing, but 'ESA software' is an ambiguous and broad category."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "An environmental consultant would search for the best tools to solve their specific report-writing problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "An environmental consultant would search for software costs, but 'environmental report software' is a broader category than just Phase I ESA tools."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This result is for the European Space Agency (ESA), not Environmental Site Assessments."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This result is for an industrial automation company named ESA, not Environmental Site Assessments."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This result is for truck diagnostic software (Electronic Service Analyst), not Environmental Site Assessments."
+          },
+          "S1.6": {
+            "customer": "same",
+            "customerMatches": [
+              "small (2-20 person) environmental consulting firm"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a discussion among environmental consultants about software options for their work, matching the customer and problem."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This result is for truck diagnostic software, not Environmental Site Assessments."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This result is for the European Space Agency (ESA), not Environmental Site Assessments."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is for general small business management software from a company named ESA, not for Environmental Site Assessments."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This result is for truck diagnostic software, not Environmental Site Assessments."
+          },
+          "S2.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is for the client of an environmental consultant, explaining why they need a Phase I ESA report."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is for the client of an environmental consultant, explaining the difference between Phase I and Phase II reports."
+          },
+          "S2.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is for commercial real estate buyers, a different customer, about the risks of not getting an ESA."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article discusses the validity period of a Phase I ESA report, an adjacent problem for both consultants and their clients."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This is from a person looking to enter the field, not a practicing consultant trying to solve a workflow problem."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article is for commercial property investors, a different customer, about environmental risks."
+          },
+          "S2.9": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This appears to be a specific property assessment document, not content about the process or challenges."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This article explains the basics of a Phase I ESA, likely for the client of a consultant."
+          },
+          "P1": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This page is for the client of an environmental consultant, explaining why they need a report for a loan."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This page is for the client of an environmental consultant, explaining the difference between report types."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This is a product page for an industrial automation company named ESA, not for Environmental Site Assessments."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-01:environmental-consultant-phase-i-esa",
+        "opportunity": "Environmental consultants spend significant time manually creating standardized Phase I ESA reports. A tool to automate data gathering and report writing could save them many hours per report, allowing them to increase throughput.",
+        "whoPays": "The owner or senior consultant at a small environmental consulting firm pays to save non-billable administrative time and increase the volume of reports they can produce. This is an inference as no direct evidence of payment motivation was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.6",
+              "quote": "Phase I ESA/PCA In-Field Software Options?!"
+            }
+          ],
+          "observed": "A discussion on Reddit shows environmental professionals asking about software options for Phase I ESA fieldwork.",
+          "inference": "The fact that consultants are actively seeking software solutions implies their current processes are inefficient. The specific pain of reports taking '2-4 weeks' is not observed in the evidence."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct or indirect competitors offering a Phase I ESA report generation tool were identified in the analyzed search results.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "consultants spend dozens of hours manually compiling data",
+            "finding": "No evidence was found to confirm the amount of time or manual effort required. One Reddit thread shows consultants discussing software for in-field work, but does not quantify the problem.",
+            "basis": [
+              {
+                "id": "S1.6",
+                "quote": "Phase I ESA/PCA In-Field Software Options?!"
+              }
+            ],
+            "effect": "untested"
+          },
+          {
+            "original": "A tool that automates the data gathering and report writing",
+            "finding": "The keyword 'phase i esa report generator' has no search volume data, and no such tools appeared in search results, suggesting low awareness or demand for a fully automated solution.",
+            "basis": [
+              {
+                "id": "K5",
+                "quote": "phase i esa report generator"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A minimal experiment would need to connect to multiple external data sources (e.g., geological, historical, government databases) and format them into a specific report structure. Accessing and integrating this data via APIs is likely to be a significant technical challenge."
+        },
+        "unproven": [
+          "The core problem: that report generation is a significant, time-consuming pain point for small environmental consulting firms.",
+          "That the necessary data for the reports is programmatically accessible via APIs for automation.",
+          "That consultants are willing to pay for a new tool beyond the generic data collection tools they may already use."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 environmental consultants at small firms who create Phase I ESA reports to validate the time spent, identify specific bottlenecks, and understand their current tool usage.",
+          "cost": "~$500 for incentives + 1-2 weeks of time",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees confirm they spend more than 20 hours on manual data compilation and report writing per ESA and express strong interest in an automation tool.",
+        "stopIf": "Interviewees indicate the process is not as manual as assumed, they are satisfied with existing generic tools, or that the most time-consuming parts of the report require professional judgment that cannot be automated."
+      },
+      "assessment": {
+        "opportunity": "Environmental consultants spend significant time manually creating standardized Phase I ESA reports. A tool to automate data gathering and report writing could save them many hours per report, allowing them to increase throughput.",
+        "whoPays": "The owner or senior consultant at a small environmental consulting firm pays to save non-billable administrative time and increase the volume of reports they can produce. This is an inference as no direct evidence of payment motivation was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.6",
+              "quote": "Phase I ESA/PCA In-Field Software Options?!",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "This is a discussion among environmental consultants about software options for their work, matching the customer and problem."
+            }
+          ],
+          "observed": "A discussion on Reddit shows environmental professionals asking about software options for Phase I ESA fieldwork.",
+          "inference": "The fact that consultants are actively seeking software solutions implies their current processes are inefficient. The specific pain of reports taking '2-4 weeks' is not observed in the evidence."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct or indirect competitors offering a Phase I ESA report generation tool were identified in the analyzed search results.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "consultants spend dozens of hours manually compiling data",
+            "finding": "No evidence was found to confirm the amount of time or manual effort required. One Reddit thread shows consultants discussing software for in-field work, but does not quantify the problem.",
+            "basis": [
+              {
+                "id": "S1.6",
+                "quote": "Phase I ESA/PCA In-Field Software Options?!",
+                "domain": "reddit.com",
+                "kind": "S",
+                "cls": "discussion",
+                "relevance": "category",
+                "relevanceReason": "This is a discussion among environmental consultants about software options for their work, matching the customer and problem."
+              }
+            ],
+            "effect": "untested"
+          },
+          {
+            "original": "A tool that automates the data gathering and report writing",
+            "finding": "The keyword 'phase i esa report generator' has no search volume data, and no such tools appeared in search results, suggesting low awareness or demand for a fully automated solution.",
+            "basis": [
+              {
+                "id": "K5",
+                "quote": "phase i esa report generator",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "This search describes the exact solution to the target customer's problem."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A minimal experiment would need to connect to multiple external data sources (e.g., geological, historical, government databases) and format them into a specific report structure. Accessing and integrating this data via APIs is likely to be a significant technical challenge."
+        },
+        "unproven": [
+          "The core problem: that report generation is a significant, time-consuming pain point for small environmental consulting firms.",
+          "That the necessary data for the reports is programmatically accessible via APIs for automation.",
+          "That consultants are willing to pay for a new tool beyond the generic data collection tools they may already use."
+        ],
+        "nextExperiment": {
+          "what": "Interview 5-10 environmental consultants at small firms who create Phase I ESA reports to validate the time spent, identify specific bottlenecks, and understand their current tool usage.",
+          "cost": "~$500 for incentives + 1-2 weeks of time",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 interviewees confirm they spend more than 20 hours on manual data compilation and report writing per ESA and express strong interest in an automation tool.",
+        "stopIf": "Interviewees indicate the process is not as manual as assumed, they are satisfied with existing generic tools, or that the most time-consuming parts of the report require professional judgment that cannot be automated.",
+        "removedLinks": 0,
+        "downgraded": [],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-01T11:26:03.997Z",
+        "evidenceUpdatedAt": "2026-10-01T11:18:42.449Z"
+      }
+    },
+    {
+      "id": "2026-10-01:machine-shop-fai-report-hub",
+      "slug": "machine-shop-fai-report-hub",
+      "title": "The Small Machine Shop's \"AS9102-Ready\" First Article Inspection (FAI) Report Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "AS9102 is an aerospace standard, and the aerospace and defense industry is prominent in the United States, making it the most plausible market."
+      },
+      "plan": {
+        "slug": "machine-shop-fai-report-hub",
+        "title": "The Small Machine Shop's \"AS9102-Ready\" First Article Inspection (FAI) Report Hub",
+        "problem": "Manually creating AS9102-compliant First Article Inspection Reports is a bottleneck that gates production, is slow, and prone to errors causing customer rejections.",
+        "targetCustomer": "Quality manager or owner of a small CNC machine shop that is a supplier to the aerospace and defense industry.",
+        "payer": "Quality manager or owner of a small CNC machine shop",
+        "whyPayerPays": "The payer would pay to eliminate production bottlenecks, avoid costly errors, and ensure compliance with mandatory AS9102 requirements.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "AS9102 is an aerospace standard, and the aerospace and defense industry is prominent in the United States, making it the most plausible market."
+        },
+        "keywords": {
+          "problem": [
+            "as9102 fai report challenges",
+            "first article inspection bottleneck",
+            "as9102 compliance issues"
+          ],
+          "solution": [
+            "fai software",
+            "as9102 report generator",
+            "first article inspection tool"
+          ],
+          "buying": [
+            "fai software pricing",
+            "best as9102 software",
+            "first article inspection cost"
+          ]
+        },
+        "serpQueries": [
+          "fai software",
+          "as9102 fai report challenges"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "as9102 fai report challenges",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "first article inspection bottleneck",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "as9102 compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "fai software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": 78.39,
+          "adCompetition": 0.62,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-16 16:34:18 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (33 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "as9102 report generator",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "first article inspection tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "fai software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best as9102 software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "first article inspection cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.05,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-14 23:46:56 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:17:19.642Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "fai software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:18:10.303Z",
+          "checkUrl": "https://www.google.com/search?q=fai%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.net-inspect.com",
+              "url": "https://www.net-inspect.com/solutions/first-article-inspection-software/",
+              "title": "First Article Inspection Software (FAI) for AS9102",
+              "description": "Net-Inspect's First Article Inspection (FAI) software is the most widely used FAI software platform within the aerospace industry.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.discussoftware.com",
+              "url": "https://www.discussoftware.com/fai-optimization/solutions/first-article-inspection/",
+              "title": "First Article Inspection Software | FAI",
+              "description": "Aug 2, 2024 — First Article Inspection, commonly referred to as FAI, is a leading means of inspecting and testing products in the early stages of production. Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.1factory.com",
+              "url": "https://www.1factory.com/fai-ballooning-software.html",
+              "title": "FAI Software & Drawing Ballooning Software",
+              "description": "Our FAI software captures diameters, radii, angles, counterbores, and depths directly from PDF drawings, eliminating the manual data entry typically required",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "highqa.com",
+              "url": "https://highqa.com/fai-old/",
+              "title": "First Article Inspection (FAI)",
+              "description": "High QA software organizes and streamlines all aspects of first article inspection (FAI ) to reduce the cost and time involved – and prevent errors. FAIR, or ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "gndctl.com",
+              "url": "https://gndctl.com/resources/top-4-itar-compliant-as9102-first-article-inspection-fai-software-2026",
+              "title": "Top 4 ITAR-compliant AS9102 First Article Inspection...",
+              "description": "ITAR-compliant FAI software is a system that helps you create AS9102 first article inspection reports while ensuring ITAR-controlled technical data is stored, ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.ideagen.com",
+              "url": "https://www.ideagen.com/solutions/quality/quality-control/first-article-inspection-report",
+              "title": "FAIR software solutions",
+              "description": "FAI is an authentication method for a manufacturing process. It is a detailed verification and comparison of the product design to the manufactured part.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.inspectionxpert.com",
+              "url": "https://www.inspectionxpert.com/blog/article/fai-software-as9102",
+              "title": "Faster First Article Inspections (FAI) for AS9102",
+              "description": "Mar 15, 2018 — Faster FAIs with InspectionXpert. Since implementing InspectionXpert, the amount of time it takes to create an FAI has gone down to less than 10 ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.verisurf.com",
+              "url": "https://www.verisurf.com/blog/article/first-article-inspection/",
+              "title": "Understanding First Article Inspection in Manufacturing",
+              "description": "First Article Inspection (FAI) ensures that manufactured parts meet design specs from the start. Verisurf simplifies the process with CAD-based workflows and ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "as9102 fai report challenges",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-01T11:18:16.757Z",
+          "checkUrl": "https://www.google.com/search?q=as9102%20fai%20report%20challenges&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.discussoftware.com",
+              "url": "https://www.discussoftware.com/as9102-standard/",
+              "title": "AS9102 Standard: A Quick Guide",
+              "description": "Aug 2, 2024 — Challenges include: Capturing flawed or incomplete data. Using incorrect or inefficient data capture processes. Improperly combining or ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.inspectionxpert.com",
+              "url": "https://www.inspectionxpert.com/blog/a-beginners-guide-to-as9102-first-article-inspection",
+              "title": "AS9102 First Article Inspection | Beginner's Guide",
+              "description": "Oct 15, 2020 — Beginner's guide to conducting an AS9102 First Article Inspection, including planning, choosing tools, preparing your report, and inspecting ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.verisurf.com",
+              "url": "https://www.verisurf.com/blog/article/first-article-inspection/",
+              "title": "Understanding First Article Inspection in Manufacturing",
+              "description": "The AS9102 details the full scope of activity and documentation required, even establishing a set of forms that ensure all aspects of design, DPD, manufacturing ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "fairqa.com",
+              "url": "https://fairqa.com/services/as9102-first-article-inspection",
+              "title": "AS9102 First Article Inspection (FAI)",
+              "description": "The six challenges that create the most FAI delays, rework, and compliance risk. Whether you're managing supplier submissions, internal FAIs, or large aerospace",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/AskEngineers/comments/ywudm1/does_an_fai_reports_as9102_require_data_for_every/",
+              "title": "does an FAI reports (as9102) require data for every ...",
+              "description": "I work at a place that does lead refinishing for electronic components in aerospace. We get a lot of requests for FAIR reports. I am in disagreement with ...",
+              "id": "S2.7",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "my.asq.org",
+              "url": "https://my.asq.org/discussion/changes-to-as9102-aerospace-first-article-inspection-requirements",
+              "title": "Changes to AS9102 Aerospace First Article Inspection ...",
+              "description": "This revised standard enhances planning, evaluation and re-accomplishment activities while improving FAI Report (FAIR) documentation forms.",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.capvidia.com",
+              "url": "https://www.capvidia.com/blog/automated-as9102-fai-report-with-model-based-definition",
+              "title": "Automated AS9102 FAI Report with Model-Based Definition",
+              "description": "Nov 16, 2020 — Incorrect or ambiguous product design; Wrong or inconsistent quality of material; Wrong or poor production process (e.g. equipment) ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.net-inspect.com",
+              "url": "https://www.net-inspect.com/solutions/first-article-inspection-software/",
+              "title": "First Article Inspection Software (FAI) for AS9102",
+              "description": "Completely eliminate paper FAIRs and AS9102 forms. Create First Article Inspection Reports directly from 2D and 3D source material, populating 90% of the FAIR. Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ydKS3SJ9bzE",
+              "title": "IAQG Standard 9102 and SCMH 3 2 First Article Inspection FAI ...",
+              "description": null,
+              "id": "S2.11",
+              "class": "reference_media"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "net-inspect.com",
+          "url": "https://www.net-inspect.com/solutions/first-article-inspection-software/",
+          "finalUrl": "https://www.net-inspect.com/solutions/first-article-inspection-software/",
+          "retrievedAt": "2026-10-01T11:18:41.119Z",
+          "status": 200,
+          "error": null,
+          "title": "First Article Inspection Software (FAI) for AS9102",
+          "description": "Eliminate paper FAI Reports and accelerate AS9102 compliance with Net-Inspect",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "net-inspect.com",
+          "url": "https://www.net-inspect.com/pricing",
+          "finalUrl": "https://www.net-inspect.com/pricing",
+          "retrievedAt": "2026-10-01T11:18:41.121Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "discussoftware.com",
+          "url": "https://www.discussoftware.com/fai-optimization/solutions/first-article-inspection/",
+          "finalUrl": "https://www.discussoftware.com/fai-optimization/solutions/first-article-inspection/",
+          "retrievedAt": "2026-10-01T11:18:41.121Z",
+          "status": 200,
+          "error": null,
+          "title": "First Article Inspection Software | FAI | DISCUS",
+          "description": "First article inspection is a key process for ensuring quality, consistency and regulatory alignment. Learn more about DISCUS and FAI.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "discussoftware.com",
+          "url": "https://www.discussoftware.com/pricing",
+          "finalUrl": "https://www.discussoftware.com/pricing",
+          "retrievedAt": "2026-10-01T11:18:41.122Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "inspectionxpert.com",
+          "url": "https://www.inspectionxpert.com/blog/article/fai-software-as9102",
+          "finalUrl": "https://www.inspectionxpert.com/blog/article/fai-software-as9102",
+          "retrievedAt": "2026-10-01T11:18:41.122Z",
+          "status": 200,
+          "error": null,
+          "title": "Faster First Article Inspections (FAI) for AS9102",
+          "description": "Quality Engineer Samir used to spend 30-40 minutes to create an inspection package. Learn how he cut FAI time down to 10 minutes by using InspectionXpert.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "inspectionxpert.com",
+          "url": "https://www.inspectionxpert.com/pricing",
+          "finalUrl": "https://www.inspectionxpert.com/en-us/pricing",
+          "retrievedAt": "2026-10-01T11:18:41.123Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 9,
+          "top": {
+            "keyword": "fai software",
+            "searchVolume": 30,
+            "id": "K4"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"fai software\" at 30/month; next \"first article inspection cost\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $78.39 on \"fai software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "net-inspect.com",
+            "discussoftware.com",
+            "inspectionxpert.com",
+            "verisurf.com",
+            "1factory.com",
+            "fairqa.com",
+            "highqa.com",
+            "gndctl.com",
+            "my.asq.org",
+            "ideagen.com",
+            "capvidia.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "11 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 8 domain(s) with a direct competitor (same problem) (net-inspect.com, discussoftware.com, 1factory.com, highqa.com, ideagen.com, inspectionxpert.com, verisurf.com, fairqa.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "net-inspect.com",
+            "discussoftware.com",
+            "1factory.com",
+            "highqa.com",
+            "ideagen.com",
+            "inspectionxpert.com",
+            "verisurf.com",
+            "fairqa.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "04e54ed454e07b9f",
+      "evidenceUpdatedAt": "2026-10-01T11:18:42.450Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-01T11:24:45.061Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-01T11:18:42.450Z",
+        "qualifiers": [
+          "Quality manager or owner",
+          "small CNC machine shop",
+          "supplier to the aerospace and defense industry"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager in an aerospace machine shop would search for challenges with AS9102 reports to solve their problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager experiencing this exact problem would search for the term 'bottleneck'."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager responsible for compliance would search for issues to understand and avoid them."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager would search for FAI software, which is the specific solution category for their problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "This search describes the exact solution to the target customer's problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager would search for a 'tool' to solve their first article inspection problem."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager or owner would search for pricing of FAI software, the specific solution they need."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager would search for the best software for their specific compliance standard (AS9102)."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "A quality manager or owner would search for the cost associated with first article inspections, which includes tooling and software."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is for any aerospace supplier, a broader customer group than just small machine shops."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is general FAI software, not specific to the AS9102 standard or small aerospace machine shops."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is general FAI software for anyone working with PDF drawings, a broader audience."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is general FAI software, not specific to the AS9102 standard or small aerospace machine shops."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This list is for any aerospace/defense supplier needing AS9102 software, a broader group than just small machine shops."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is general FAI software for manufacturing, not specific to aerospace or small shops."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is for any company doing AS9102 inspections, a broader group than just small machine shops."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is general FAI software for manufacturing, not specific to aerospace or small shops."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This guide is for anyone working with the AS9102 standard, a broader audience than just small machine shops."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a beginner's guide for anyone new to AS9102, a broader audience."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a general article about FAI in manufacturing, a broader audience."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This product is for anyone managing AS9102 FAIs, including large companies, making it a broader audience."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This is a specific compliance question from someone in the aerospace industry, a broader group than small machine shops."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is about changes to the AS9102 standard, relevant to anyone in the aerospace supply chain."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article is for anyone in the aerospace industry using model-based definition for FAI reports."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This software is for any company doing AS9102 inspections, a broader group than just small machine shops."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This video explains the AS9102 standard for a general aerospace audience."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for AS9102 software aimed at any aerospace supplier, not just small machine shops."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This is a product page for general FAI software, not specific to the AS9102 standard or small shops."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [
+              "Quality manager or owner",
+              "supplier to the aerospace and defense industry"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This case study is about a Quality Engineer at an aerospace supplier, but doesn't specify the size of the shop."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-01:machine-shop-fai-report-hub",
+        "opportunity": "Small aerospace machine shops must create AS9102 First Article Inspection (FAI) reports, a manual and error-prone process that can halt production. A specialized software hub could automate this compliance task, saving time and preventing costly rejections.",
+        "whoPays": "The quality manager or owner of a small CNC machine shop pays to eliminate production bottlenecks, reduce errors, and ensure compliance with mandatory aerospace standards. This is an inference as no direct evidence of payment motivation was found.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "challenges that create the most FAI delays, rework, and compliance risk"
+            },
+            {
+              "id": "S2.2",
+              "quote": "Capturing flawed or incomplete data"
+            },
+            {
+              "id": "P5",
+              "quote": "cut FAI time down to 10 minutes"
+            }
+          ],
+          "observed": "Competitors and publishers explicitly describe the challenges of the FAI process, including 'delays, rework, and compliance risk' and 'flawed or incomplete data'. One competitor case study claims their software reduced the time to create an inspection package from '30-40 minutes' to '10 minutes'.",
+          "inference": "The problem of creating AS9102 FAI reports is well-understood and significant enough to support a market of multiple software vendors selling solutions."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Net-Inspect's First Article Inspection (FAI) software"
+            },
+            {
+              "id": "S1.3",
+              "quote": "First Article Inspection Software | FAI"
+            },
+            {
+              "id": "S1.4",
+              "quote": "FAI Software & Drawing Ballooning Software"
+            },
+            {
+              "id": "S1.10",
+              "quote": "Faster First Article Inspections (FAI) for AS9102"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Net-Inspect",
+              "type": "direct",
+              "what": "A widely used First Article Inspection (FAI) software platform within the aerospace industry.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "the most widely used FAI software platform within the aerospace industry"
+                }
+              ]
+            },
+            {
+              "name": "DISCUS Software",
+              "type": "direct",
+              "what": "Software for inspecting and testing products in the early stages of production.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "inspecting and testing products in the early stages of production"
+                }
+              ]
+            },
+            {
+              "name": "1factory",
+              "type": "direct",
+              "what": "FAI software that captures dimensions and other data directly from PDF drawings.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "captures diameters, radii, angles, counterbores, and depths directly from PDF drawings"
+                }
+              ]
+            },
+            {
+              "name": "High QA",
+              "type": "direct",
+              "what": "Software to organize and streamline first article inspections to reduce cost, time, and errors.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "organizes and streamlines all aspects of first article inspection (FAI ) to reduce the cost and time involved"
+                }
+              ]
+            },
+            {
+              "name": "Ideagen",
+              "type": "direct",
+              "what": "Offers First Article Inspection Report (FAIR) software solutions.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "FAIR software solutions"
+                }
+              ]
+            },
+            {
+              "name": "InspectionXpert",
+              "type": "direct",
+              "what": "Software to create faster First Article Inspections for AS9102.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Faster First Article Inspections (FAI) for AS9102"
+                }
+              ]
+            },
+            {
+              "name": "Verisurf",
+              "type": "direct",
+              "what": "Software that simplifies the FAI process using CAD-based workflows.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "simplifies the process with CAD-based workflows"
+                }
+              ]
+            },
+            {
+              "name": "fairqa.com",
+              "type": "direct",
+              "what": "A product or service for managing AS9102 First Article Inspections.",
+              "basis": [
+                {
+                  "id": "S2.6",
+                  "quote": "AS9102 First Article Inspection (FAI)"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market is mature, with at least eight direct competitors offering sophisticated features like creating reports directly from 2D and 3D source material.",
+              "basis": [
+                {
+                  "id": "S2.10",
+                  "quote": "Create First Article Inspection Reports directly from 2D and 3D source material"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is unclear if the many existing competitors cater to or are priced appropriately for small machine shops, suggesting a potential gap for a simpler, more affordable tool.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Manually creating AS9102-compliant First Article Inspection Reports is a bottleneck",
+            "finding": "Competitor marketing materials confirm this pain point, explicitly mentioning 'FAI delays, rework, and compliance risk' and offering significant time savings.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "challenges that create the most FAI delays, rework, and compliance risk"
+              },
+              {
+                "id": "P5",
+                "quote": "cut FAI time down to 10 minutes"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Standalone software solutions exist, validating the willingness to pay",
+            "finding": "The search results are dominated by at least eight direct competitors offering standalone FAI software, strongly validating the market.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "Net-Inspect's First Article Inspection (FAI) software"
+              },
+              {
+                "id": "S1.3",
+                "quote": "First Article Inspection Software"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A minimal experiment would need to handle parsing of PDF or CAD files to extract dimensions and annotations ('ballooning'). This is a complex technical problem and not a simple web application."
+        },
+        "unproven": [
+          "Whether small machine shops are underserved by the eight or more existing competitors.",
+          "The pricing of existing tools and whether there is room for a significantly more affordable option.",
+          "The specific feature set a small shop needs, which may be simpler than what enterprise-focused competitors offer."
+        ],
+        "nextExperiment": {
+          "what": "Secret-shop 3-5 of the main competitors by requesting a demo and pricing for a hypothetical 5-person machine shop. The goal is to understand their pricing, target customer, and sales process.",
+          "cost": "1 week of time",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "Competitor pricing is high (e.g., >$5,000/year) and their sales process is clearly geared towards larger enterprises, suggesting an opening for a simpler, cheaper alternative.",
+        "stopIf": "Multiple competitors offer affordable, self-service plans suitable for small shops (e.g., <$1,500/year), indicating the low end of the market is already well-served."
+      },
+      "assessment": {
+        "opportunity": "Small aerospace machine shops must create AS9102 First Article Inspection (FAI) reports, a manual and error-prone process that can halt production. A specialized software hub could automate this compliance task, saving time and preventing costly rejections.",
+        "whoPays": "The quality manager or owner of a small CNC machine shop pays to eliminate production bottlenecks, reduce errors, and ensure compliance with mandatory aerospace standards. This is an inference as no direct evidence of payment motivation was found.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "challenges that create the most FAI delays, rework, and compliance risk",
+              "domain": "fairqa.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This product is for anyone managing AS9102 FAIs, including large companies, making it a broader audience."
+            },
+            {
+              "id": "S2.2",
+              "quote": "Capturing flawed or incomplete data",
+              "domain": "discussoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This guide is for anyone working with the AS9102 standard, a broader audience than just small machine shops."
+            },
+            {
+              "id": "P5",
+              "quote": "cut FAI time down to 10 minutes",
+              "domain": "inspectionxpert.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "This case study is about a Quality Engineer at an aerospace supplier, but doesn't specify the size of the shop."
+            }
+          ],
+          "observed": "Competitors and publishers explicitly describe the challenges of the FAI process, including 'delays, rework, and compliance risk' and 'flawed or incomplete data'. One competitor case study claims their software reduced the time to create an inspection package from '30-40 minutes' to '10 minutes'.",
+          "inference": "The problem of creating AS9102 FAI reports is well-understood and significant enough to support a market of multiple software vendors selling solutions."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Net-Inspect's First Article Inspection (FAI) software",
+              "domain": "net-inspect.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software is for any aerospace supplier, a broader customer group than just small machine shops."
+            },
+            {
+              "id": "S1.3",
+              "quote": "First Article Inspection Software | FAI",
+              "domain": "discussoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is general FAI software, not specific to the AS9102 standard or small aerospace machine shops."
+            },
+            {
+              "id": "S1.4",
+              "quote": "FAI Software & Drawing Ballooning Software",
+              "domain": "1factory.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This is general FAI software for anyone working with PDF drawings, a broader audience."
+            },
+            {
+              "id": "S1.10",
+              "quote": "Faster First Article Inspections (FAI) for AS9102",
+              "domain": "inspectionxpert.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This software is for any company doing AS9102 inspections, a broader group than just small machine shops."
+            }
+          ],
+          "directCompetitors": [
+            "net-inspect.com",
+            "discussoftware.com",
+            "1factory.com",
+            "inspectionxpert.com",
+            "highqa.com",
+            "ideagen.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "Net-Inspect",
+              "type": "direct",
+              "what": "A widely used First Article Inspection (FAI) software platform within the aerospace industry.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "the most widely used FAI software platform within the aerospace industry",
+                  "domain": "net-inspect.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This software is for any aerospace supplier, a broader customer group than just small machine shops."
+                }
+              ]
+            },
+            {
+              "name": "DISCUS Software",
+              "type": "direct",
+              "what": "Software for inspecting and testing products in the early stages of production.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "inspecting and testing products in the early stages of production",
+                  "domain": "discussoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is general FAI software, not specific to the AS9102 standard or small aerospace machine shops."
+                }
+              ]
+            },
+            {
+              "name": "1factory",
+              "type": "direct",
+              "what": "FAI software that captures dimensions and other data directly from PDF drawings.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "captures diameters, radii, angles, counterbores, and depths directly from PDF drawings",
+                  "domain": "1factory.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is general FAI software for anyone working with PDF drawings, a broader audience."
+                }
+              ]
+            },
+            {
+              "name": "High QA",
+              "type": "direct",
+              "what": "Software to organize and streamline first article inspections to reduce cost, time, and errors.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "organizes and streamlines all aspects of first article inspection (FAI ) to reduce the cost and time involved",
+                  "domain": "highqa.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is general FAI software, not specific to the AS9102 standard or small aerospace machine shops."
+                }
+              ]
+            },
+            {
+              "name": "Ideagen",
+              "type": "direct",
+              "what": "Offers First Article Inspection Report (FAIR) software solutions.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "FAIR software solutions",
+                  "domain": "ideagen.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This is general FAI software for manufacturing, not specific to aerospace or small shops."
+                }
+              ]
+            },
+            {
+              "name": "InspectionXpert",
+              "type": "direct",
+              "what": "Software to create faster First Article Inspections for AS9102.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Faster First Article Inspections (FAI) for AS9102",
+                  "domain": "inspectionxpert.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This software is for any company doing AS9102 inspections, a broader group than just small machine shops."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "The market is mature, with at least eight direct competitors offering sophisticated features like creating reports directly from 2D and 3D source material.",
+              "basis": [
+                {
+                  "id": "S2.10",
+                  "quote": "Create First Article Inspection Reports directly from 2D and 3D source material",
+                  "domain": "net-inspect.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This software is for any company doing AS9102 inspections, a broader group than just small machine shops."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is unclear if the many existing competitors cater to or are priced appropriately for small machine shops, suggesting a potential gap for a simpler, more affordable tool.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Manually creating AS9102-compliant First Article Inspection Reports is a bottleneck",
+            "finding": "Competitor marketing materials confirm this pain point, explicitly mentioning 'FAI delays, rework, and compliance risk' and offering significant time savings.",
+            "basis": [
+              {
+                "id": "S2.6",
+                "quote": "challenges that create the most FAI delays, rework, and compliance risk",
+                "domain": "fairqa.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This product is for anyone managing AS9102 FAIs, including large companies, making it a broader audience."
+              },
+              {
+                "id": "P5",
+                "quote": "cut FAI time down to 10 minutes",
+                "domain": "inspectionxpert.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "category",
+                "relevanceReason": "This case study is about a Quality Engineer at an aerospace supplier, but doesn't specify the size of the shop."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Standalone software solutions exist, validating the willingness to pay",
+            "finding": "The search results are dominated by at least eight direct competitors offering standalone FAI software, strongly validating the market.",
+            "basis": [
+              {
+                "id": "S1.2",
+                "quote": "Net-Inspect's First Article Inspection (FAI) software",
+                "domain": "net-inspect.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This software is for any aerospace supplier, a broader customer group than just small machine shops."
+              },
+              {
+                "id": "S1.3",
+                "quote": "First Article Inspection Software",
+                "domain": "discussoftware.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This is general FAI software, not specific to the AS9102 standard or small aerospace machine shops."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "hard",
+          "note": "A minimal experiment would need to handle parsing of PDF or CAD files to extract dimensions and annotations ('ballooning'). This is a complex technical problem and not a simple web application."
+        },
+        "unproven": [
+          "Whether small machine shops are underserved by the eight or more existing competitors.",
+          "The pricing of existing tools and whether there is room for a significantly more affordable option.",
+          "The specific feature set a small shop needs, which may be simpler than what enterprise-focused competitors offer."
+        ],
+        "nextExperiment": {
+          "what": "Secret-shop 3-5 of the main competitors by requesting a demo and pricing for a hypothetical 5-person machine shop. The goal is to understand their pricing, target customer, and sales process.",
+          "cost": "1 week of time",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "Competitor pricing is high (e.g., >$5,000/year) and their sales process is clearly geared towards larger enterprises, suggesting an opening for a simpler, cheaper alternative.",
+        "stopIf": "Multiple competitors offer affordable, self-service plans suitable for small shops (e.g., <$1,500/year), indicating the low end of the market is already well-served.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "change \"standalone software solutions exist, validating th\" supports → untested: offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "change \"standalone software solutions exist, validating th\" supports → untested: offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-01T11:26:04.001Z",
+        "evidenceUpdatedAt": "2026-10-01T11:18:42.450Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-01T11:17:19.642Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "f1b31ce3-9f15-5688-a9f9-655139ad6b24",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01272,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-01T11:17:23.361Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "7e995834-0061-5a4c-88b4-5b8deba2d836",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-01T11:17:32.306Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "54b95eb0-b5be-51a3-911b-a148bd3267ad",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-01T11:17:42.048Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "3794a9e7-fb64-5dfa-b1b2-ea88a561565c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-01T11:17:50.688Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "4013453a-e57a-56d0-ad13-5646df20dead",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-01T11:18:10.303Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "34710367-51b6-5b12-899e-6f25b0e2d7b3",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-01T11:18:16.757Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "c9672f63-7e7b-5479-8799-1c048eab3668",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 2
+    },
+    "monthToDateUsdBefore": 0,
+    "spentThisRunUsd": 0.02472
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-09-14T06:01:47.851Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-10-01T11:18:42.450Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02472,
+    "note": null
+  }
+}

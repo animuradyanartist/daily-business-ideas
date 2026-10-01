@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-01
+- A shrinking number of market participants is not always a negative signal; it can indicate a "flight to quality" where the remaining players are more professional, have larger budgets, and feel compliance pain more acutely.
+- The most powerful B2B pain is not just a risk of loss, but a hard gate to future revenue (e.g., needing a compliant system to even bid for a contract).
+- Incumbent marketing material is a powerful source for validating the customer's core pain points and fears. Deltek's copy about "risking your firm's future" is a direct signal of the emotional core of the problem.
+
 ## 2026-09-30 (trends)
 - A dominant incumbent offering a "free" product is not a death sentence; it's a market validation signal that can create an opportunity for a paid, user-centric alternative if the incumbent's incentives are misaligned with the user's.
 - The most valuable B2B SaaS products in regulated industries are not workflow tools; they are risk-neutralization utilities. The ROI is calculated against the cost of catastrophic failure, not against hours saved per week.

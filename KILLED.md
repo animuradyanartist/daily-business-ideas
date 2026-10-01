@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-01
+- **The Independent Environmental Consultant's "40-Hour" Phase I ESA Report Generator** — A strong workflow automation play, but the pain is efficiency, not the existential/regulatory risk of the DCAA market.
+- **The Small Machine Shop's "AS9102-Ready" First Article Inspection (FAI) Report Hub** — Another excellent compliance opportunity, but the GovCon market feels larger and more accessible.
+- **The Non-Profit's "OMB-Compliant" Grant Expense Ledger** — Similar compliance pain, but the buyer (non-profit ED) is often more budget-constrained than a for-profit government contractor.
+
 ## 2026-09-30
 - **The Independent Appraiser's "USPAP-Compliant" Workfile Archive** — A strong opportunity, but the clinical research market has a higher ARPA potential and the pain of an FDA audit feels more severe than a state appraisal board complaint.
 - **The Boutique Fitness Studio's "Never-Lapse" Instructor Certification & Insurance Tracker** — Killed. This is a real liability risk, but it's a "vitamin" for risk management, not a "painkiller" tied to a direct, high-stakes federal audit process that is core to revenue generation.
