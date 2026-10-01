@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-01 (trends)
+- The most potent B2B opportunities exist where AI can automate a high-stakes, non-discretionary compliance workflow, providing a clear ROI in risk mitigation.
+- For every complex professional or personal problem, a secondary market is emerging for "scaffolding kits"—digital products that teach non-experts how to effectively use new AI platforms to manage that problem.
+- In both consumer and business contexts, the value of AI is shifting from task execution (doing a thing) to cognitive offloading (managing a process), reducing the mental load for users.
+
+---
+
 ## 2026-10-01
 - A shrinking number of market participants is not always a negative signal; it can indicate a "flight to quality" where the remaining players are more professional, have larger budgets, and feel compliance pain more acutely.
 - The most powerful B2B pain is not just a risk of loss, but a hard gate to future revenue (e.g., needing a compliant system to even bid for a contract).

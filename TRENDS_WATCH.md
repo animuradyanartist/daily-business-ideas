@@ -438,6 +438,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Lab Management for University Research** · Using AI platforms to automate safety, compliance, and inventory management for academic research labs. · flagged 2026-09-30 · last checked 2026-09-30 · [origin memo](trends/2026-09-30.md)
 - **AI-Powered "Gifting-as-a-Service" Platforms** · Using AI platforms to automate personalized, ROI-tracked corporate gifting for B2B marketing and HR. · flagged 2026-09-30 · last checked 2026-09-30 · [origin memo](trends/2026-09-30.md)
 - **AI-Powered Litigation Intelligence & Case Sourcing** · Using AI platforms to analyze public data and proactively identify high-value litigation opportunities for plaintiff law firms. · flagged 2026-09-30 · last checked 2026-09-30 · [origin memo](trends/2026-09-30.md)
+- **AI-Automated Government Contract Compliance** · Using AI to automate the finding, bidding, and compliance workflows for federal contracts. · flagged 2026-10-01 · last checked 2026-10-01 · [origin memo](trends/2026-10-01.md)
+- **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-10-01 · last checked 2026-10-01 · [origin memo](trends/2026-10-01.md)
+- **AI-Powered "Family OS"** · Using AI to automate the coordination and cognitive load of running a household. · flagged 2026-10-01 · last checked 2026-10-01 · [origin memo](trends/2026-10-01.md)
 
 
 ## ➡️ Active — plateauing
@@ -737,3 +740,5 @@ _(empty)_
 <!-- 2026-09-29 status-update directive: 🚀 | Generative Music for Creator Content -->
 
 <!-- 2026-09-30 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
+
+<!-- 2026-10-01 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
