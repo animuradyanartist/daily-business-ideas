@@ -29926,6 +29926,1945 @@
         "mainIntent": "informational",
         "providerUpdatedAt": "2026-09-14 23:46:56 +00:00"
       }
+    },
+    "labs|united states|en|daycare ratio requirements": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "daycare ratio requirements",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 18:56:20 +00:00"
+      }
+    },
+    "labs|united states|en|childcare incident reporting": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|daycare licensing violations": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "daycare licensing violations",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 367,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-13 17:22:44 +00:00"
+      }
+    },
+    "labs|united states|en|daycare software": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "daycare software",
+        "searchVolume": 480,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 12100
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 18100
+          }
+        ],
+        "cpcUsd": 58.77,
+        "adCompetition": 0.23,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -61,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 02:40:30 +00:00"
+      }
+    },
+    "labs|united states|en|childcare management system": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "childcare management system",
+        "searchVolume": 210,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 128.68,
+        "adCompetition": 0.16,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -21,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 12:35:48 +00:00"
+      }
+    },
+    "labs|united states|en|daycare record keeping app": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|daycare software pricing": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "daycare software pricing",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-06-17 10:16:02 +00:00"
+      }
+    },
+    "labs|united states|en|best childcare software": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "best childcare software",
+        "searchVolume": 40,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": 64.42,
+        "adCompetition": 0.54,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-13 19:41:41 +00:00"
+      }
+    },
+    "labs|united states|en|childcare management cost": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa rcra compliance": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hazardous waste violations": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "hazardous waste violations",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -67,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 03:32:51 +00:00"
+      }
+    },
+    "labs|united states|en|rcra record keeping": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|rcra software": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hazardous waste management": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "hazardous waste management",
+        "searchVolume": 720,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 590
+          }
+        ],
+        "cpcUsd": 13.5,
+        "adCompetition": 0.19,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 11:30:46 +00:00"
+      }
+    },
+    "labs|united states|en|environmental compliance system": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|rcra software pricing": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best hazardous waste software": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|environmental compliance cost": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "environmental compliance cost",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.02,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-15 14:57:42 +00:00"
+      }
+    },
+    "labs|united states|en|medication error assisted living": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|mar compliance issues": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|assisted living audit": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "assisted living audit",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-06-17 04:28:55 +00:00"
+      }
+    },
+    "labs|united states|en|mar software": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "mar software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": 8.67,
+        "adCompetition": 0.62,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 300,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-15 00:37:58 +00:00"
+      }
+    },
+    "labs|united states|en|medication management system": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "medication management system",
+        "searchVolume": 260,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": 13.87,
+        "adCompetition": 0.64,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -85,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-14 01:57:25 +00:00"
+      }
+    },
+    "labs|united states|en|assisted living software": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "assisted living software",
+        "searchVolume": 390,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 46.18,
+        "adCompetition": 0.47,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -46,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 05:36:49 +00:00"
+      }
+    },
+    "labs|united states|en|mar software pricing": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best mar system": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|medication management cost": {
+      "fetchedAt": "2026-10-16T09:25:05.368Z",
+      "returned": true,
+      "data": {
+        "keyword": "medication management cost",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-15 02:07:29 +00:00"
+      }
     }
   }
 }

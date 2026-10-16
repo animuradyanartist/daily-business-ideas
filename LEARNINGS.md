@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-16
+*   The "why now" for compliance software is significantly strengthened by recent regulatory shifts (e.g., e-Manifest mandate) and inflation adjustments to federal penalties, transforming latent pain into urgent, budget-backed demand.
+*   Small businesses in highly regulated sectors often rely on inadequate manual systems or expensive consultants, creating a clear gap for specialized, affordable SaaS that unbundles specific high-stakes compliance workflows from broader, enterprise-grade EHS suites.
+*   The "cradle-to-grave" responsibility in hazardous waste management, coupled with the immutability requirements for audit trails, creates a strong data moat and high switching costs for effective compliance software.
+
 ## 2026-10-01 (trends)
 - The most potent B2B opportunities exist where AI can automate a high-stakes, non-discretionary compliance workflow, providing a clear ROI in risk mitigation.
 - For every complex professional or personal problem, a secondary market is emerging for "scaffolding kits"—digital products that teach non-experts how to effectively use new AI platforms to manage that problem.

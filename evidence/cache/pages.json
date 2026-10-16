@@ -7269,6 +7269,359 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.procaresoftware.com/": {
+      "fetchedAt": "2026-10-16T09:25:56.927Z",
+      "data": {
+        "url": "https://www.procaresoftware.com/",
+        "finalUrl": "https://www.procaresoftware.com/",
+        "retrievedAt": "2026-10-16T09:25:56.927Z",
+        "status": 200,
+        "error": null,
+        "title": "Procare | The Leader in Child Care Management Software",
+        "description": "Procare's child care management software simplifies all of your child care program operations so you can focus on what matters – the children.",
+        "priceMentions": [
+          {
+            "text": "$25 per month",
+            "billingUnit": true,
+            "context": "provide all these features for the affordable price of just $25 per month. Let us handle the business of child care so you can get ba"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://mybrightwheel.com/": {
+      "fetchedAt": "2026-10-16T09:25:56.930Z",
+      "data": {
+        "url": "https://mybrightwheel.com/",
+        "finalUrl": "https://mybrightwheel.com/",
+        "retrievedAt": "2026-10-16T09:25:56.930Z",
+        "status": 200,
+        "error": null,
+        "title": "Brightwheel | The Best Childcare Management Software",
+        "description": "Start the new school year with one less thing to worry about. Brightwheel is the most trusted all-in-one childcare management platform for billing, communication, attendance, and more.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "monthly savings Admin time + paper + late payment friction $0 Check-in & sign-out 0.0 hrs / month Chasing late payments 0"
+          },
+          {
+            "text": "$0 / month",
+            "billingUnit": true,
+            "context": "hrs / month Forms & admin 0.0 hrs / month Paper & printing $0 / month Late payment cash flow $0 delayed / month Annualized saving"
+          },
+          {
+            "text": "$0 / year",
+            "billingUnit": true,
+            "context": "ate payment cash flow $0 delayed / month Annualized savings $0 / year Most programs recoup this in their first billing cycle Brig"
+          },
+          {
+            "text": "$18",
+            "billingUnit": false,
+            "context": "lapping tasks. Monthly savings = (total admin hours &times; $18/hr assumed avg ECE staff wage) + paper & printing costs. Ho"
+          },
+          {
+            "text": "$13",
+            "billingUnit": false,
+            "context": "med at $18/hr, the midpoint of the typical ECE staff range ($13-$24/hr). Adjust for your program in future iterations. Chec"
+          },
+          {
+            "text": "$24",
+            "billingUnit": false,
+            "context": "at $18/hr, the midpoint of the typical ECE staff range ($13-$24/hr). Adjust for your program in future iterations. Check-in"
+          },
+          {
+            "text": "$800",
+            "billingUnit": false,
+            "context": "texts, calls, and reconciliation. Late payment cash flow: ~$800 avg monthly tuition &times; 0 % late families ( 0 families)"
+          },
+          {
+            "text": "$2",
+            "billingUnit": false,
+            "context": "per child/month. Capped at 80 hrs/month. Paper & printing: ~$2-$4 per child/month. Note: does not include brightwheel subs"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://mybrightwheel.com/pricing": {
+      "fetchedAt": "2026-10-16T09:25:56.931Z",
+      "data": {
+        "url": "https://mybrightwheel.com/pricing",
+        "finalUrl": "https://mybrightwheel.com/pricing/",
+        "retrievedAt": "2026-10-16T09:25:56.931Z",
+        "status": 200,
+        "error": null,
+        "title": "Brightwheel Custom Pricing: Plan for the New School Year",
+        "description": "Discover brightwheel pricing & features for the new school year. Find the plan that fits your program before the school year begins.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://scchildcare.org/pricing": {
+      "fetchedAt": "2026-10-16T09:25:56.933Z",
+      "data": {
+        "url": "https://scchildcare.org/pricing",
+        "finalUrl": "https://scchildcare.org/pricing",
+        "retrievedAt": "2026-10-16T09:25:56.933Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://scchildcare.org/providers/licensing-requirements/": {
+      "fetchedAt": "2026-10-16T09:25:56.932Z",
+      "data": {
+        "url": "https://scchildcare.org/providers/licensing-requirements/",
+        "finalUrl": "https://scchildcare.org/providers/licensing-requirements/",
+        "retrievedAt": "2026-10-16T09:25:56.932Z",
+        "status": 200,
+        "error": null,
+        "title": "Licensing Requirements - SC Child Care Services",
+        "description": "The Division of Early Care and Education is a division of the South Carolina Department of Social Services (DSS) and serves to make child care more affordable for parents and increase the quality of care for all children in the state.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.procaresoftware.com/pricing": {
+      "fetchedAt": "2026-10-16T09:25:56.929Z",
+      "data": {
+        "url": "https://www.procaresoftware.com/pricing",
+        "finalUrl": "https://www.procaresoftware.com/request-pricing/",
+        "retrievedAt": "2026-10-16T09:25:56.929Z",
+        "status": 200,
+        "error": null,
+        "title": "Request Procare Pricing | Procare",
+        "description": "Request pricing for Procare child care management software today. Our team will show you how our software solution can help streamline child care management.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://rcraready.com/guides": {
+      "fetchedAt": "2026-10-16T09:25:58.644Z",
+      "data": {
+        "url": "https://rcraready.com/guides",
+        "finalUrl": "https://rcraready.com/guides",
+        "retrievedAt": "2026-10-16T09:25:58.644Z",
+        "status": 200,
+        "error": null,
+        "title": "RCRA Compliance Guides — RCRAReady",
+        "description": "RCRA compliance guides for hazardous waste generators, including storage deadlines, weekly inspections, generator status, manifests, labeling, and common EPA violations.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://rcraready.com/pricing": {
+      "fetchedAt": "2026-10-16T09:25:58.645Z",
+      "data": {
+        "url": "https://rcraready.com/pricing",
+        "finalUrl": "https://rcraready.com/pricing",
+        "retrievedAt": "2026-10-16T09:25:58.645Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing — RCRAReady",
+        "description": "RCRAReady pricing for hazardous waste compliance software. The Paid plan is $150 per facility per month, with custom plans for larger rollouts, annual agreements, and procurement needs.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "ees. Free Trial Try it on your own facility before you pay. $0 for 30 days Start free trial No credit card required. Every"
+          },
+          {
+            "text": "$150",
+            "billingUnit": false,
+            "context": "you subscribe Paid Everything to run one facility or many. $150 per facility / month Facilities 1 facility $ 150 /month Get"
+          },
+          {
+            "text": "$ 150 /month",
+            "billingUnit": true,
+            "context": "ty or many. $150 per facility / month Facilities 1 facility $ 150 /month Get started Billed monthly. Cancel anytime. Unlimited hazar"
+          },
+          {
+            "text": "$450/month",
+            "billingUnit": true,
+            "context": "month, with no separate package tiers. Three facilities is $450/month, and adding a facility later adds another $150/month. What"
+          },
+          {
+            "text": "$150/month",
+            "billingUnit": true,
+            "context": "ies is $450/month, and adding a facility later adds another $150/month. What counts as a \"facility\"? A single physical location wi"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ecesis.net/pricing": {
+      "fetchedAt": "2026-10-16T09:25:58.648Z",
+      "data": {
+        "url": "https://www.ecesis.net/pricing",
+        "finalUrl": "https://www.ecesis.net/pricing",
+        "retrievedAt": "2026-10-16T09:25:58.648Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.ecesis.net/Compliance-Calendar-Software/hazardous-waste-compliance-calendar-software.aspx": {
+      "fetchedAt": "2026-10-16T09:25:58.647Z",
+      "data": {
+        "url": "https://www.ecesis.net/Compliance-Calendar-Software/hazardous-waste-compliance-calendar-software.aspx",
+        "finalUrl": "https://www.ecesis.net/Compliance-Calendar-Software/hazardous-waste-compliance-calendar-software.aspx",
+        "retrievedAt": "2026-10-16T09:25:58.647Z",
+        "status": 200,
+        "error": null,
+        "title": "Hazardous Waste Compliance Calendar Software & Mobile App | Ecesis",
+        "description": "Track hazardous waste compliance deadlines with Ecesis Compliance Calendar Software. Manage RCRA generator requirements, biennial reports, manifest tracking, accumulation time limits, training, and EPA reporting obligations.",
+        "priceMentions": [
+          {
+            "text": "$70,117",
+            "billingUnit": false,
+            "context": "n-Compliance: RCRA violations can result in penalties up to $70,117 per day per violation for non-compliance. Accumulation time"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://encamp.com/glossary/rcra/": {
+      "fetchedAt": "2026-10-16T09:25:58.646Z",
+      "data": {
+        "url": "https://encamp.com/glossary/rcra/",
+        "finalUrl": "https://encamp.com/glossary/rcra/",
+        "retrievedAt": "2026-10-16T09:25:58.646Z",
+        "status": 200,
+        "error": null,
+        "title": "RCRA - Encamp",
+        "description": "Learn the history of the Resource Conservation and Recovery Act (RCRA) and where training for RCRA drugs are available.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://pointclickcare.com/products/emar/": {
+      "fetchedAt": "2026-10-16T09:25:59.734Z",
+      "data": {
+        "url": "https://pointclickcare.com/products/emar/",
+        "finalUrl": "https://pointclickcare.com/products/emar/",
+        "retrievedAt": "2026-10-16T09:25:59.734Z",
+        "status": 200,
+        "error": null,
+        "title": "eMAR for Efficient Medication Management | PointClickCare",
+        "description": "Ensure accurate, real-time med passes with eMAR software that reduces medication errors, streamlines workflows, and eliminates manual documentation tasks.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://guardianpharmacy.com/pricing": {
+      "fetchedAt": "2026-10-16T09:25:59.738Z",
+      "data": {
+        "url": "https://guardianpharmacy.com/pricing",
+        "finalUrl": "https://guardianpharmacy.com/pricing",
+        "retrievedAt": "2026-10-16T09:25:59.738Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://pointclickcare.com/pricing": {
+      "fetchedAt": "2026-10-16T09:25:59.735Z",
+      "data": {
+        "url": "https://pointclickcare.com/pricing",
+        "finalUrl": "https://pointclickcare.com/pricing/",
+        "retrievedAt": "2026-10-16T09:25:59.735Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://guardianpharmacy.com/blog/2024/09/27/preventing-medication-errors-in-assisted-living-and-long-term-care-collaborative-approaches-for-better-outcomes/": {
+      "fetchedAt": "2026-10-16T09:25:59.738Z",
+      "data": {
+        "url": "https://guardianpharmacy.com/blog/2024/09/27/preventing-medication-errors-in-assisted-living-and-long-term-care-collaborative-approaches-for-better-outcomes/",
+        "finalUrl": "https://guardianpharmacy.com/blog/2024/09/27/preventing-medication-errors-in-assisted-living-and-long-term-care-collaborative-approaches-for-better-outcomes/",
+        "retrievedAt": "2026-10-16T09:25:59.738Z",
+        "status": 200,
+        "error": null,
+        "title": "Preventing Medication Errors in Assisted Living and LTC: Collaborative Approaches for Better Outcomes - Guardian Pharmacy Services",
+        "description": "Preventing Medication Errors in Assisted Living and LTC: Collaborative Approaches for Better Outcomes Ensuring resident safety is the top priority for assisted living and long-term care (LTC) community operators and their care teams. While medication errors remain a persistent challenge across all h",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://synkwise.com/software/emar/": {
+      "fetchedAt": "2026-10-16T09:25:59.736Z",
+      "data": {
+        "url": "https://synkwise.com/software/emar/",
+        "finalUrl": "https://synkwise.com/software/emar/",
+        "retrievedAt": "2026-10-16T09:25:59.736Z",
+        "status": 200,
+        "error": null,
+        "title": "Synkwise eMAR | Medication Management for Assisted Living",
+        "description": "Synkwise eMAR is an electronic medication administration record designed to support medication management and accurate documentation.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://synkwise.com/pricing": {
+      "fetchedAt": "2026-10-16T09:25:59.737Z",
+      "data": {
+        "url": "https://synkwise.com/pricing",
+        "finalUrl": "https://synkwise.com/pricing/",
+        "retrievedAt": "2026-10-16T09:25:59.737Z",
+        "status": 200,
+        "error": null,
+        "title": "Plan & Pricing - Synkwise",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$149 / mo",
+            "billingUnit": true,
+            "context": "ns to see pricing instantly. Plan Pro Starter Monthly total $149 / mo Based on Pro plan · 1 location · 6 residents How many resid"
+          },
+          {
+            "text": "$20",
+            "billingUnit": false,
+            "context": "locations? Add locations any time. Synkwise Fax (optional) +$20 per facility / month See plan details How many residents? M"
+          },
+          {
+            "text": "$119 per month",
+            "billingUnit": true,
+            "context": "rter For small homes getting started - Synkwise Starting at $119 per month Start Now Core Essentials eMAR Care Planning Progress Notes"
+          },
+          {
+            "text": "$20 / location",
+            "billingUnit": true,
+            "context": "iant Synkwise Fax Unlimited compliant faxing per location. +$20 / location / month Most Popular Pro For care providers committed to lo"
+          },
+          {
+            "text": "$149 per month",
+            "billingUnit": true,
+            "context": "r care providers committed to long-term success Starting at $149 per month Start Now Everything in Starter, plus: For Growing Teams Ph"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
     }
   }
 }

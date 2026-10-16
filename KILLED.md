@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-16
+*   The Commercial Kitchen's "Fine-Proof" Grease Trap Log Hub — While a compliance pain, the fines are generally lower and the regulatory complexity is localized, making it a smaller and less scalable opportunity compared to federal RCRA.
+*   The Independent Daycare's "License-Proof" Incident & Ratio Log — High-stakes, but significant state-by-state variation in regulations and a potentially lower Average Contract Value (ACV) than hazardous waste compliance.
+*   The Independent P&C Insurance Agency's "E&O-Proof" Statement of Values (SOV) Hub (from 2026-09-27) — A strong compliance idea, but the RCRA market presents a more acute, federally mandated, and frequently enforced pain with higher direct financial penalties and clearer "why now" factors (e-Manifest, increased fines).
+
 ## 2026-10-01
 - **The Independent Environmental Consultant's "40-Hour" Phase I ESA Report Generator** — A strong workflow automation play, but the pain is efficiency, not the existential/regulatory risk of the DCAA market.
 - **The Small Machine Shop's "AS9102-Ready" First Article Inspection (FAI) Report Hub** — Another excellent compliance opportunity, but the GovCon market feels larger and more accessible.

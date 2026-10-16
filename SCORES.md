@@ -96,6 +96,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 95 | high | 2026-06-13 | The Small Non-Profit's Grant Compliance & Reporting Hub |
 | 94 | high | 2026-06-30 | The Small Cemetery's "Plot & Records" Management Hub |
 | 94 | high | 2026-06-15 | The Veterinary Clinic's "Audit-Proof" DEA Compliance Log |
+| 93 | high | 2026-10-16 | The Small Hazardous Waste Generator's "EPA-Ready" RCRA Log |
 | 93 | high | 2026-09-22 | The Small Business "Penalty-Proof" EPA Tier II Report Generator |
 | 93 | high | 2026-07-26 | The commercial property manager's "tenant COI" tracker |
 | 93 | high | 2026-07-10 | The Small Farm's "FSMA Audit-Ready" Compliance Locker |
