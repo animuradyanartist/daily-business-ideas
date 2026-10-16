@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-16 (trends)
+- The "scaffolding kit" opportunity is robust. For every new AI-powered professional workflow, a secondary market emerges for digital products that teach non-experts how to structure their inputs, manage the outputs, and strategically integrate these tools.
+- AI is systematically productizing the "back office" and administrative overhead for fragmented SMBs and solo professionals, creating opportunities for tools that automate compliance, marketing, or operational management.
+- The value proposition of AI is shifting from merely "doing a task" to "managing a process" or "providing strategic oversight," reducing cognitive load and enabling proactive decision-making.
+
+---
+
 ## 2026-10-16
 *   The "why now" for compliance software is significantly strengthened by recent regulatory shifts (e.g., e-Manifest mandate) and inflation adjustments to federal penalties, transforming latent pain into urgent, budget-backed demand.
 *   Small businesses in highly regulated sectors often rely on inadequate manual systems or expensive consultants, creating a clear gap for specialized, affordable SaaS that unbundles specific high-stakes compliance workflows from broader, enterprise-grade EHS suites.

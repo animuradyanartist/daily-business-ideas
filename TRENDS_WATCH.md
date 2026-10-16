@@ -441,6 +441,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Automated Government Contract Compliance** · Using AI to automate the finding, bidding, and compliance workflows for federal contracts. · flagged 2026-10-01 · last checked 2026-10-01 · [origin memo](trends/2026-10-01.md)
 - **AI-Powered Employee Attrition Prediction** · Using AI to analyze workforce data, predict which employees are at risk of leaving, and recommend interventions. · flagged 2026-10-01 · last checked 2026-10-01 · [origin memo](trends/2026-10-01.md)
 - **AI-Powered "Family OS"** · Using AI to automate the coordination and cognitive load of running a household. · flagged 2026-10-01 · last checked 2026-10-01 · [origin memo](trends/2026-10-01.md)
+- **AI-Powered Professional Development Coaching** · Using AI to provide scalable, personalized professional development and skill-building, including feedback and role-play. · flagged 2026-10-16 · last checked 2026-10-16 · [origin memo](trends/2026-10-16.md)
+- **AI-Generated Game Assets for Indie Developers** · Using AI tools to rapidly generate 2D and 3D game assets, textures, and environments for small game studios. · flagged 2026-10-16 · last checked 2026-10-16 · [origin memo](trends/2026-10-16.md)
+- **AI-Automated Local Business Marketing** · Using AI platforms to automate local SEO, social media content, and lead generation for small businesses. · flagged 2026-10-16 · last checked 2026-10-16 · [origin memo](trends/2026-10-16.md)
 
 
 ## ➡️ Active — plateauing
@@ -742,3 +745,5 @@ _(empty)_
 <!-- 2026-09-30 status-update directive: 🚀 | AI-Powered "Therapy-Lite" Journaling -->
 
 <!-- 2026-10-01 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-10-16 status-update directive: 🚀 | AI as a Thought Partner -->
