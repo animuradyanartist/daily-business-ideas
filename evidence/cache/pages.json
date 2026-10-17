@@ -4809,11 +4809,11 @@
       }
     },
     "page|https://us.dealertrack.com/pricing": {
-      "fetchedAt": "2026-09-25T09:57:41.996Z",
+      "fetchedAt": "2026-10-17T09:53:05.341Z",
       "data": {
         "url": "https://us.dealertrack.com/pricing",
         "finalUrl": "https://us.dealertrack.com/pricing",
-        "retrievedAt": "2026-09-25T09:57:41.996Z",
+        "retrievedAt": "2026-10-17T09:53:05.341Z",
         "status": 403,
         "error": "HTTP 403"
       }
@@ -7621,6 +7621,295 @@
         "mentionsFreeTrial": false,
         "mentionsContactSales": true,
         "mentionsPricing": true
+      }
+    },
+    "page|https://www.hrcloud.com/blog/best-hris-platforms-multi-state-compliance": {
+      "fetchedAt": "2026-10-17T09:53:02.969Z",
+      "data": {
+        "url": "https://www.hrcloud.com/blog/best-hris-platforms-multi-state-compliance",
+        "finalUrl": "https://www.hrcloud.com/blog/best-hris-platforms-multi-state-compliance",
+        "retrievedAt": "2026-10-17T09:53:02.969Z",
+        "status": 200,
+        "error": null,
+        "title": "Best HRIS Platforms for Multi-State Compliance (2026)",
+        "description": "Compare 10 HRIS platforms for multi-state compliance, from HR Cloud to ADP, Workday, and Paycor, with real pricing, integrations, and use cases.",
+        "priceMentions": [
+          {
+            "text": "$25",
+            "billingUnit": false,
+            "context": "#x27;t exist in most other states, and a violation can cost $25 to $100 per employee per incident , with a single class-act"
+          },
+          {
+            "text": "$100 per employee",
+            "billingUnit": true,
+            "context": "exist in most other states, and a violation can cost $25 to $100 per employee per incident , with a single class-action exposure exceedin"
+          },
+          {
+            "text": "$14,700 per employee",
+            "billingUnit": true,
+            "context": ". Small businesses under 50 employees already spend roughly $14,700 per employee per year on regulatory compliance , so a manual, slow regis"
+          },
+          {
+            "text": "$252",
+            "billingUnit": false,
+            "context": "lti-state employers: I-9 paperwork violations currently run $252 to $2,789 per form, and a company hiring across a dozen sta"
+          },
+          {
+            "text": "$2,789",
+            "billingUnit": false,
+            "context": "e employers: I-9 paperwork violations currently run $252 to $2,789 per form, and a company hiring across a dozen states genera"
+          },
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "entry, and the ADP Marketplace implementation fee is a flat $500 regardless of company size, compared to the $5,000 to $50,0"
+          },
+          {
+            "text": "$5,000",
+            "billingUnit": false,
+            "context": "is a flat $500 regardless of company size, compared to the $5,000 to $50,000 typical for comparable HRIS configuration work e"
+          },
+          {
+            "text": "$50,000",
+            "billingUnit": false,
+            "context": "$500 regardless of company size, compared to the $5,000 to $50,000 typical for comparable HRIS configuration work elsewhere. T"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://event.on24.com/wcc/r/4093360/21C226D235D0D20782A370619A07D1D7": {
+      "fetchedAt": "2026-10-17T09:53:02.966Z",
+      "data": {
+        "url": "https://event.on24.com/wcc/r/4093360/21C226D235D0D20782A370619A07D1D7",
+        "finalUrl": "https://event.on24.com/wcc/r/4093360/21C226D235D0D20782A370619A07D1D7",
+        "retrievedAt": "2026-10-17T09:53:02.966Z",
+        "status": 200,
+        "error": null,
+        "title": "The H-2B Home Stretch! Welcoming H-2B Workers and Maintaining Compliance Files",
+        "description": "Tuesday, February 14, 2023 at 12:00 PM Central Standard Time.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://event.on24.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:02.968Z",
+      "data": {
+        "url": "https://event.on24.com/pricing",
+        "finalUrl": "https://event.on24.com/pricing",
+        "retrievedAt": "2026-10-17T09:53:02.968Z",
+        "status": 418,
+        "error": "HTTP 418"
+      }
+    },
+    "page|https://www.hrcloud.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:02.970Z",
+      "data": {
+        "url": "https://www.hrcloud.com/pricing",
+        "finalUrl": "https://www.hrcloud.com/software-pricing-and-program-trials",
+        "retrievedAt": "2026-10-17T09:53:02.970Z",
+        "status": 200,
+        "error": null,
+        "title": "HR Cloud Pricing — All-in-One HR, No Per-Seat Fees",
+        "description": "HR Cloud pricing is a fixed annual license — no per-seat fees. Get a custom quote for our all-in-one HR platform, sized to your team, modules, and setup.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.mokahr.io/articles/en/the-most-efficient-compliance-software-for-hiring/": {
+      "fetchedAt": "2026-10-17T09:53:02.971Z",
+      "data": {
+        "url": "https://www.mokahr.io/articles/en/the-most-efficient-compliance-software-for-hiring/",
+        "finalUrl": "https://www.mokahr.io/articles/en/the-most-efficient-compliance-software-for-hiring/",
+        "retrievedAt": "2026-10-17T09:53:02.971Z",
+        "status": 200,
+        "error": null,
+        "title": "Ultimate Guide – The Best and Most Efficient Compliance Software for Hiring (2026)",
+        "description": "Explore the best and most efficient compliance software for hiring in 2026. Our Ultimate Guide ranks MokaHR #1 for AI-driven, audit-ready hiring compliance, followed by Greenhouse, Workday, iCIMS, and Lever. Compare EEO/OFCCP reporting, GDPR/CCPA controls, audit trails, data security, and automation",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.mokahr.io/pricing": {
+      "fetchedAt": "2026-10-17T09:53:02.972Z",
+      "data": {
+        "url": "https://www.mokahr.io/pricing",
+        "finalUrl": "https://www.mokahr.io/pricing/",
+        "retrievedAt": "2026-10-17T09:53:02.972Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.points-north.com/certified-payroll-reporting": {
+      "fetchedAt": "2026-10-17T09:53:03.540Z",
+      "data": {
+        "url": "https://www.points-north.com/certified-payroll-reporting",
+        "finalUrl": "https://www.points-north.com/certified-payroll-reporting",
+        "retrievedAt": "2026-10-17T09:53:03.540Z",
+        "status": 200,
+        "error": null,
+        "title": "Certified Payroll Reporting Software & Managed Services | Points North",
+        "description": "Streamline certified payroll with Points North",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.points-north.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:03.542Z",
+      "data": {
+        "url": "https://www.points-north.com/pricing",
+        "finalUrl": "https://www.points-north.com/pricing",
+        "retrievedAt": "2026-10-17T09:53:03.542Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://lcptracker.com/": {
+      "fetchedAt": "2026-10-17T09:53:03.544Z",
+      "data": {
+        "url": "https://lcptracker.com/",
+        "finalUrl": "https://lcptracker.com/",
+        "retrievedAt": "2026-10-17T09:53:03.544Z",
+        "status": 200,
+        "error": null,
+        "title": "Certified Payroll & Prevailing Wage Software | LCPtracker",
+        "description": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects by agencies and contractors.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://emarsinc.com/": {
+      "fetchedAt": "2026-10-17T09:53:03.542Z",
+      "data": {
+        "url": "https://emarsinc.com/",
+        "finalUrl": "https://emarsinc.com/",
+        "retrievedAt": "2026-10-17T09:53:03.542Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://emarsinc.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:03.543Z",
+      "data": {
+        "url": "https://emarsinc.com/pricing",
+        "finalUrl": "https://emarsinc.com/",
+        "retrievedAt": "2026-10-17T09:53:03.543Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://lcptracker.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:03.545Z",
+      "data": {
+        "url": "https://lcptracker.com/pricing",
+        "finalUrl": "https://lcptracker.com/contact-sales/",
+        "retrievedAt": "2026-10-17T09:53:03.545Z",
+        "status": 200,
+        "error": null,
+        "title": "Contact Sales | Request a Demo | LCPtracker",
+        "description": "Talk to LCPtracker's sales team about certified payroll, prevailing wage, and workforce compliance software built for your agency or company.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://get.dealercenter.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:05.338Z",
+      "data": {
+        "url": "https://get.dealercenter.com/pricing",
+        "finalUrl": "https://get.dealercenter.com/pricing",
+        "retrievedAt": "2026-10-17T09:53:05.338Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://get.dealercenter.com/complyauto/": {
+      "fetchedAt": "2026-10-17T09:53:05.337Z",
+      "data": {
+        "url": "https://get.dealercenter.com/complyauto/",
+        "finalUrl": "https://get.dealercenter.com/complyauto/",
+        "retrievedAt": "2026-10-17T09:53:05.337Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/": {
+      "fetchedAt": "2026-10-17T09:53:05.339Z",
+      "data": {
+        "url": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+        "finalUrl": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+        "retrievedAt": "2026-10-17T09:53:05.339Z",
+        "status": 200,
+        "error": null,
+        "title": "The FTC And The Used Car Rule | Philadelphia Used Car Fraud Attorney",
+        "description": "Please contact Louis S. Schwartz at CONSUMERLAWPA.com to discuss your legal options with an experienced and dedicated Philadelphia used car fraud attorney.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html": {
+      "fetchedAt": "2026-10-17T09:53:05.340Z",
+      "data": {
+        "url": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+        "finalUrl": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+        "retrievedAt": "2026-10-17T09:53:05.340Z",
+        "status": 200,
+        "error": null,
+        "title": "Dealer Management System (DMS) Overview | Dealertrack",
+        "description": "Run your dealership with an easy-to-use DMS featuring cloud access, open integrations, and performance management. See features and benefits.",
+        "priceMentions": [
+          {
+            "text": "$ 0",
+            "billingUnit": false,
+            "context": "Marketing F&I Menu Calculate Data Fees Calculate Data Fees $ 0 in data fees over the remainder of contract term Integratio"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.consumerlawpa.com/pricing": {
+      "fetchedAt": "2026-10-17T09:53:05.340Z",
+      "data": {
+        "url": "https://www.consumerlawpa.com/pricing",
+        "finalUrl": "https://www.consumerlawpa.com/",
+        "retrievedAt": "2026-10-17T09:53:05.340Z",
+        "status": 200,
+        "error": null,
+        "title": "Philadelphia Consumer Lawyer",
+        "description": "Our Philadelphia consumer lawyers will ensure you are treated with appropriate professionalism in all consumer interactions.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
       }
     }
   }

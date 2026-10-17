@@ -72,6 +72,7 @@ The interactive Telegram interface lives in [`bot/`](bot/). It gives a 3-button 
 
 ## Log
 
+- 2026-10-17 — The Small Landscaping Contractor's "DOL-Proof" H-2B Visa Compliance Hub — 95/100 high
 - 2026-10-16 — trend forecast — AI-Powered Professional Development Coaching +2 more
 - 2026-10-16 — The Small Hazardous Waste Generator's "EPA-Ready" RCRA Log — 93/100 high
 - 2026-10-01 — trend forecast — AI-Automated Government Contract Compliance +2 more

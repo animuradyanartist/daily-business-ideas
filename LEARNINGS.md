@@ -2,6 +2,12 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-17
+*   The market for compliance software in federally regulated labor programs (e.g., H-2B) is particularly robust due to the non-negotiable nature of the requirements and the high financial penalties for non-compliance, creating a strong "painkiller" dynamic.
+*   The "why now" for compliance solutions is significantly amplified when regulatory bodies (DOL, USCIS) are actively increasing scrutiny, publishing updated guidance, or adjusting visa caps, signaling a heightened risk environment for employers.
+*   "Concierge MVP" validation is crucial for complex, high-stakes compliance problems, allowing for deep understanding of workflow nuances and direct observation of perceived value before significant development investment.
+*   The existence of high-priced legal and consulting services for a specific compliance problem is a strong indicator of existing budget and willingness to pay for solutions, even if those solutions are currently manual or fragmented.
+
 ## 2026-10-16 (trends)
 - The "scaffolding kit" opportunity is robust. For every new AI-powered professional workflow, a secondary market emerges for digital products that teach non-experts how to structure their inputs, manage the outputs, and strategically integrate these tools.
 - AI is systematically productizing the "back office" and administrative overhead for fragmented SMBs and solo professionals, creating opportunities for tools that automate compliance, marketing, or operational management.

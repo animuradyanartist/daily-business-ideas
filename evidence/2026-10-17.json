@@ -1,0 +1,3834 @@
+{
+  "schema": 1,
+  "date": "2026-10-17",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-17.md"
+  },
+  "createdAt": "2026-10-17T09:52:08.452Z",
+  "updatedAt": "2026-10-17T09:52:08.454Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-17.md",
+    "title": "The Small Landscaping Contractor's \"DOL-Proof\" H-2B Visa Compliance Hub",
+    "score": 95,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-17:h2b-visa-compliance-hub",
+      "slug": "h2b-visa-compliance-hub",
+      "title": "The Small Landscaping Contractor's \"DOL-Proof\" H-2B Visa Compliance Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The H-2B visa program is a specific US federal immigration program for temporary non-agricultural workers."
+      },
+      "plan": {
+        "slug": "h2b-visa-compliance-hub",
+        "title": "The Small Landscaping Contractor's \"DOL-Proof\" H-2B Visa Compliance Hub",
+        "problem": "Small seasonal businesses struggle with complex H-2B visa program requirements, risking significant fines and workforce disruption due to non-compliance.",
+        "targetCustomer": "Owners of small-to-medium landscaping, hospitality, or other seasonal businesses (e.g., amusement parks, seafood processing, forestry) relying on H-2B temporary non-agricultural workers.",
+        "payer": "The owner of the seasonal business.",
+        "whyPayerPays": "The payer pays to avoid crippling Department of Labor (DOL) fines, debarment from the H-2B program, and to secure a reliable, compliant seasonal workforce.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The H-2B visa program is a specific US federal immigration program for temporary non-agricultural workers."
+        },
+        "keywords": {
+          "problem": [
+            "h2b visa compliance challenges",
+            "dol h2b audit risks",
+            "h2b visa record keeping"
+          ],
+          "solution": [
+            "h2b compliance software",
+            "h2b visa management",
+            "h2b visa tracking tool"
+          ],
+          "buying": [
+            "h2b software pricing",
+            "best h2b compliance",
+            "hire h2b consultant"
+          ]
+        },
+        "serpQueries": [
+          "h2b compliance software",
+          "h2b visa compliance challenges"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "partial",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "h2b visa compliance challenges",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "dol h2b audit risks",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "h2b visa record keeping",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "h2b compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "h2b visa management",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "h2b visa tracking tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "h2b software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best h2b compliance",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "hire h2b consultant",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "h2b compliance software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:14.120Z",
+          "checkUrl": "https://www.google.com/search?q=h2b%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "event.on24.com",
+              "url": "https://event.on24.com/wcc/r/4093360/21C226D235D0D20782A370619A07D1D7",
+              "title": "The H-2B Home Stretch! Welcoming H-2B Workers and ...",
+              "description": "Tuesday, February 14, 2023 at 12:00 PM Central Standard Time.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "bigdataanalyticspub-sb.uscis.dhs.gov",
+              "url": "https://bigdataanalyticspub-sb.uscis.dhs.gov/views/H2BEmployerDataHub-Final/H2B-EmployerDataHub?:apiInternalVersion=1.177.0&:disableUrlActionsPopups=n&navSrc=Opt&:embed=y&navType=0&:suppressDefaultEditBehavior=n&:sid=0C5FA42B677340BF80905A2C6CE285C6-1:1&mobile=n&:redirect=auth&:toolbar=bottom&:hideEditButton=n&:hideEditInDesktopButton=n&:jsdebug=n&:apiExternalVersion=3.12.0&:tabs=n",
+              "title": "Workbook: H2B Employer Data Hub - Final",
+              "description": "H-2B Employer Datahub. Alaska and Hawaii Beneficiaries Approved - by Top 100 Employers. Rank Employer (Petitioner)",
+              "id": "S1.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.hrcloud.com",
+              "url": "https://www.hrcloud.com/blog/best-hris-platforms-multi-state-compliance",
+              "title": "Best HRIS Platforms for Multi-State Compliance (2026)",
+              "description": "Sep 4, 2026 — Compare 10 HRIS platforms for multi-state compliance, from HR Cloud to ADP, Workday, and Paycor, with real pricing, integrations, ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.mokahr.io",
+              "url": "https://www.mokahr.io/articles/en/the-most-efficient-compliance-software-for-hiring/",
+              "title": "The Best and Most Efficient Compliance Software for Hiring ...",
+              "description": "Our top picks—MokaHR, Greenhouse, Workday, iCIMS, and Lever—excel at reducing risk while accelerating time-to-hire with audit-ready workflows.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "bindbee.dev",
+              "url": "https://bindbee.dev/feeds/service/employer-record-api",
+              "title": "Employer of Record API – 60+ HR Integrations",
+              "description": "6 days ago — Connect employer, HRIS, payroll, and benefits systems with Bindbee's Employer of Record API. Normalize workforce data, automate updates, ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=LwpjGwr__So",
+              "title": "What Documentation Do You Need for the H2B Program ...",
+              "description": "explains the key evidence and documentation you need to successfully file for the H2B temporary worker program. Payroll Records and Revenue ...",
+              "id": "S1.7",
+              "class": "reference_media"
+            },
+            {
+              "rank": 8,
+              "domain": "gitnux.org",
+              "url": "https://gitnux.org/best/workforce-compliance-management-software/",
+              "title": "Best Workforce Compliance Management Software",
+              "description": "Jul 19, 2026 — Top 10 workforce compliance management software roundup for compliance teams, ranking Deel, WorkMotion, Smarsh with tradeoffs and criteria. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "fewaglobal.org",
+              "url": "https://fewaglobal.org/h-2b-workforce-coalition-update/",
+              "title": "H-2B Workforce Coalition Update",
+              "description": "H-2B Cap and Regulatory Relief urging them to include an H-2B returning worker exemption, or other meaningful H-2B cap relief,",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.ntracts.com",
+              "url": "https://www.ntracts.com/compliance-hris-integrations",
+              "title": "Compliance HRIS Integrations",
+              "description": "Ntracts offers comprehensive healthcare contract lifecycle management (CLM), governance, risk and compliance (GRC) and policy software to organizations across ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "event.on24.com",
+          "url": "https://event.on24.com/wcc/r/4093360/21C226D235D0D20782A370619A07D1D7",
+          "finalUrl": "https://event.on24.com/wcc/r/4093360/21C226D235D0D20782A370619A07D1D7",
+          "retrievedAt": "2026-10-17T09:53:02.966Z",
+          "status": 200,
+          "error": null,
+          "title": "The H-2B Home Stretch! Welcoming H-2B Workers and Maintaining Compliance Files",
+          "description": "Tuesday, February 14, 2023 at 12:00 PM Central Standard Time.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "event.on24.com",
+          "url": "https://event.on24.com/pricing",
+          "finalUrl": "https://event.on24.com/pricing",
+          "retrievedAt": "2026-10-17T09:53:02.968Z",
+          "status": 418,
+          "error": "HTTP 418"
+        },
+        {
+          "id": "P3",
+          "domain": "hrcloud.com",
+          "url": "https://www.hrcloud.com/blog/best-hris-platforms-multi-state-compliance",
+          "finalUrl": "https://www.hrcloud.com/blog/best-hris-platforms-multi-state-compliance",
+          "retrievedAt": "2026-10-17T09:53:02.969Z",
+          "status": 200,
+          "error": null,
+          "title": "Best HRIS Platforms for Multi-State Compliance (2026)",
+          "description": "Compare 10 HRIS platforms for multi-state compliance, from HR Cloud to ADP, Workday, and Paycor, with real pricing, integrations, and use cases.",
+          "priceMentions": [
+            {
+              "text": "$25",
+              "billingUnit": false,
+              "context": "#x27;t exist in most other states, and a violation can cost $25 to $100 per employee per incident , with a single class-act"
+            },
+            {
+              "text": "$100 per employee",
+              "billingUnit": true,
+              "context": "exist in most other states, and a violation can cost $25 to $100 per employee per incident , with a single class-action exposure exceedin"
+            },
+            {
+              "text": "$14,700 per employee",
+              "billingUnit": true,
+              "context": ". Small businesses under 50 employees already spend roughly $14,700 per employee per year on regulatory compliance , so a manual, slow regis"
+            },
+            {
+              "text": "$252",
+              "billingUnit": false,
+              "context": "lti-state employers: I-9 paperwork violations currently run $252 to $2,789 per form, and a company hiring across a dozen sta"
+            },
+            {
+              "text": "$2,789",
+              "billingUnit": false,
+              "context": "e employers: I-9 paperwork violations currently run $252 to $2,789 per form, and a company hiring across a dozen states genera"
+            },
+            {
+              "text": "$500",
+              "billingUnit": false,
+              "context": "entry, and the ADP Marketplace implementation fee is a flat $500 regardless of company size, compared to the $5,000 to $50,0"
+            },
+            {
+              "text": "$5,000",
+              "billingUnit": false,
+              "context": "is a flat $500 regardless of company size, compared to the $5,000 to $50,000 typical for comparable HRIS configuration work e"
+            },
+            {
+              "text": "$50,000",
+              "billingUnit": false,
+              "context": "$500 regardless of company size, compared to the $5,000 to $50,000 typical for comparable HRIS configuration work elsewhere. T"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "hrcloud.com",
+          "url": "https://www.hrcloud.com/pricing",
+          "finalUrl": "https://www.hrcloud.com/software-pricing-and-program-trials",
+          "retrievedAt": "2026-10-17T09:53:02.970Z",
+          "status": 200,
+          "error": null,
+          "title": "HR Cloud Pricing — All-in-One HR, No Per-Seat Fees",
+          "description": "HR Cloud pricing is a fixed annual license — no per-seat fees. Get a custom quote for our all-in-one HR platform, sized to your team, modules, and setup.",
+          "priceMentions": [],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "mokahr.io",
+          "url": "https://www.mokahr.io/articles/en/the-most-efficient-compliance-software-for-hiring/",
+          "finalUrl": "https://www.mokahr.io/articles/en/the-most-efficient-compliance-software-for-hiring/",
+          "retrievedAt": "2026-10-17T09:53:02.971Z",
+          "status": 200,
+          "error": null,
+          "title": "Ultimate Guide – The Best and Most Efficient Compliance Software for Hiring (2026)",
+          "description": "Explore the best and most efficient compliance software for hiring in 2026. Our Ultimate Guide ranks MokaHR #1 for AI-driven, audit-ready hiring compliance, followed by Greenhouse, Workday, iCIMS, and Lever. Compare EEO/OFCCP reporting, GDPR/CCPA controls, audit trails, data security, and automation",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "mokahr.io",
+          "url": "https://www.mokahr.io/pricing",
+          "finalUrl": "https://www.mokahr.io/pricing/",
+          "retrievedAt": "2026-10-17T09:53:02.972Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": "search results for \"h2b visa compliance challenges\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 9,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 9 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [
+            "P3"
+          ],
+          "pricedDomains": [
+            "hrcloud.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. Published offer prices seen on 1 ranking site(s): hrcloud.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "event.on24.com",
+            "hrcloud.com",
+            "mokahr.io",
+            "bindbee.dev",
+            "gitnux.org",
+            "fewaglobal.org",
+            "ntracts.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [
+            "hrcloud.com"
+          ],
+          "note": "7 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on hrcloud.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 4 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "hrcloud.com",
+            "mokahr.io",
+            "bindbee.dev",
+            "gitnux.org"
+          ]
+        }
+      },
+      "evidenceFingerprint": "3a054e19722f6bf7",
+      "evidenceUpdatedAt": "2026-10-17T09:53:07.288Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-10-17T09:58:08.433Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-17T09:53:07.288Z",
+        "qualifiers": [
+          "small-to-medium seasonal business owner",
+          "relies on H-2B workers"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names the H-2B visa and compliance challenges, which is the core problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword specifies DOL audits and H-2B, which is a direct aspect of the problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword addresses H-2B visa record keeping, a key part of the compliance problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names H-2B compliance software, a solution to the problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword addresses H-2B visa management, which includes compliance."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword specifies an H-2B visa tracking tool, which helps with compliance."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about pricing for H-2B software, indicating a buying intent for the solution."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword seeks the best H-2B compliance, indicating a buying intent."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about hiring an H-2B consultant, a direct solution to the compliance problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "relies on H-2B workers"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is an event for H-2B employers about welcoming workers and maintaining compliance, which is a broader problem for a broader customer."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "relies on H-2B workers"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a government data hub for H-2B employers, which is broader than the specific customer and problem."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about general HRIS platforms for multi-state compliance, which is a broader problem for a broader customer than H-2B visa compliance for seasonal businesses."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item discusses general hiring compliance software, which is a broader problem for a broader customer."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about a general Employer of Record API and HR integrations, which is a broader problem for a broader customer."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "relies on H-2B workers"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is an informational video about H-2B documentation, which is a broader problem for a broader customer."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item discusses general workforce compliance management software for compliance teams, which is a broader problem for a broader customer."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "relies on H-2B workers"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is an update from an H-2B advocacy group about regulatory relief, which is a broader problem for a broader customer."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is about compliance software for healthcare organizations, which is a different customer and problem."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [
+              "relies on H-2B workers"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The page is for H-2B employers about maintaining compliance files, which is a broader problem for a broader customer."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The page is about general HRIS platforms for multi-state compliance, which is a broader problem for a broader customer."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The page is about general HR platform pricing, which is a broader problem for a broader customer."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The page discusses general hiring compliance software, which is a broader problem for a broader customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-17:h2b-visa-compliance-hub",
+        "opportunity": "Small seasonal businesses struggle with complex H-2B visa program requirements, risking significant fines and workforce disruption. The opportunity is to provide a compliance hub to help them avoid penalties and secure a reliable workforce.",
+        "whoPays": "The owner of the seasonal business pays to avoid crippling Department of Labor (DOL) fines, debarment from the H-2B program, and to secure a reliable, compliant seasonal workforce (inference).",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "No direct evidence was found describing the specific H-2B visa compliance problems for small seasonal businesses. Keywords related to the problem (K1, K2, K3) have no search volume data.",
+          "inference": "The problem's existence and severity for the target customer remain unverified by the provided evidence."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.4",
+              "quote": "Best HRIS Platforms for Multi-State Compliance (2026)"
+            },
+            {
+              "id": "S1.5",
+              "quote": "The Best and Most Efficient Compliance Software for Hiring"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Employer of Record API – 60+ HR Integrations"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Best Workforce Compliance Management Software"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "HR Cloud",
+              "type": "indirect",
+              "what": "General HRIS platforms for multi-state compliance.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Best HRIS Platforms for Multi-State Compliance (2026)"
+                }
+              ]
+            },
+            {
+              "name": "MokaHR",
+              "type": "indirect",
+              "what": "General compliance software for hiring, reducing risk and accelerating time-to-hire with audit-ready workflows.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "The Best and Most Efficient Compliance Software for Hiring"
+                }
+              ]
+            },
+            {
+              "name": "Bindbee",
+              "type": "indirect",
+              "what": "Employer of Record API with 60+ HR Integrations to normalize workforce data and automate updates.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Employer of Record API – 60+ HR Integrations"
+                }
+              ]
+            },
+            {
+              "name": "Gitnux (listing)",
+              "type": "indirect",
+              "what": "Workforce compliance management software for compliance teams.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Best Workforce Compliance Management Software"
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct competitors offering a specialized H-2B visa compliance hub for small seasonal businesses were observed. Existing alternatives are broader HR or general compliance solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Small seasonal businesses struggle with complex H-2B visa program requirements, risking significant fines and workforce disruption due to non-compliance.",
+            "finding": "No direct evidence was found to corroborate this specific problem for the target customer. Keywords related to the problem (K1, K2, K3) have no search volume data, and all search results/pages were deemed broader or unrelated for problem relevance.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "h2b visa compliance challenges"
+              },
+              {
+                "id": "K2",
+                "quote": "dol h2b audit risks"
+              },
+              {
+                "id": "K3",
+                "quote": "h2b visa record keeping"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as conducting customer interviews or setting up a landing page, is straightforward to execute."
+        },
+        "unproven": [
+          "The existence and severity of the H-2B visa compliance problem specifically for small seasonal businesses.",
+          "Whether small seasonal businesses would pay for a dedicated H-2B compliance solution, given the broader HR/compliance tools available."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 10-15 owners of small landscaping or other seasonal businesses that rely on H-2B visas to understand their specific compliance challenges, current methods, and pain points.",
+          "cost": "$0-$200 (for incentives)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 50% of interviewed owners express significant, unaddressed pain related to H-2B compliance that they are actively trying to solve or spending resources on.",
+        "stopIf": "Fewer than 30% of interviewed owners express significant pain or indicate they already have adequate solutions for H-2B compliance."
+      },
+      "assessment": {
+        "opportunity": "Small seasonal businesses struggle with complex H-2B visa program requirements, risking significant fines and workforce disruption. The opportunity is to provide a compliance hub to help them avoid penalties and secure a reliable workforce.",
+        "whoPays": "The owner of the seasonal business pays to avoid crippling Department of Labor (DOL) fines, debarment from the H-2B program, and to secure a reliable, compliant seasonal workforce (inference).",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "The problem's existence and severity for the target customer remain unverified by the provided evidence."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [
+            {
+              "id": "S1.4",
+              "quote": "Best HRIS Platforms for Multi-State Compliance (2026)",
+              "domain": "hrcloud.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about general HRIS platforms for multi-state compliance, which is a broader problem for a broader customer than H-2B visa compliance for seasonal businesses."
+            },
+            {
+              "id": "S1.5",
+              "quote": "The Best and Most Efficient Compliance Software for Hiring",
+              "domain": "mokahr.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item discusses general hiring compliance software, which is a broader problem for a broader customer."
+            },
+            {
+              "id": "S1.6",
+              "quote": "Employer of Record API – 60+ HR Integrations",
+              "domain": "bindbee.dev",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about a general Employer of Record API and HR integrations, which is a broader problem for a broader customer."
+            },
+            {
+              "id": "S1.8",
+              "quote": "Best Workforce Compliance Management Software",
+              "domain": "gitnux.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item discusses general workforce compliance management software for compliance teams, which is a broader problem for a broader customer."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "hrcloud.com",
+            "mokahr.io",
+            "bindbee.dev",
+            "gitnux.org"
+          ],
+          "alternatives": [
+            {
+              "name": "HR Cloud",
+              "type": "indirect",
+              "what": "General HRIS platforms for multi-state compliance.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Best HRIS Platforms for Multi-State Compliance (2026)",
+                  "domain": "hrcloud.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about general HRIS platforms for multi-state compliance, which is a broader problem for a broader customer than H-2B visa compliance for seasonal businesses."
+                }
+              ]
+            },
+            {
+              "name": "MokaHR",
+              "type": "indirect",
+              "what": "General compliance software for hiring, reducing risk and accelerating time-to-hire with audit-ready workflows.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "The Best and Most Efficient Compliance Software for Hiring",
+                  "domain": "mokahr.io",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item discusses general hiring compliance software, which is a broader problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Bindbee",
+              "type": "indirect",
+              "what": "Employer of Record API with 60+ HR Integrations to normalize workforce data and automate updates.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Employer of Record API – 60+ HR Integrations",
+                  "domain": "bindbee.dev",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about a general Employer of Record API and HR integrations, which is a broader problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Gitnux (listing)",
+              "type": "indirect",
+              "what": "Workforce compliance management software for compliance teams.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Best Workforce Compliance Management Software",
+                  "domain": "gitnux.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item discusses general workforce compliance management software for compliance teams, which is a broader problem for a broader customer."
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct competitors offering a specialized H-2B visa compliance hub for small seasonal businesses were observed. Existing alternatives are broader HR or general compliance solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as conducting customer interviews or setting up a landing page, is straightforward to execute."
+        },
+        "unproven": [
+          "The existence and severity of the H-2B visa compliance problem specifically for small seasonal businesses.",
+          "Whether small seasonal businesses would pay for a dedicated H-2B compliance solution, given the broader HR/compliance tools available."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 10-15 owners of small landscaping or other seasonal businesses that rely on H-2B visas to understand their specific compliance challenges, current methods, and pain points.",
+          "cost": "$0-$200 (for incentives)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 50% of interviewed owners express significant, unaddressed pain related to H-2B compliance that they are actively trying to solve or spending resources on.",
+        "stopIf": "Fewer than 30% of interviewed owners express significant pain or indicate they already have adequate solutions for H-2B compliance.",
+        "removedLinks": 0,
+        "downgraded": [
+          "competition sparse → unknown: \"sparse\" contradicts 4 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "competition sparse → unknown: \"sparse\" contradicts 4 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": [
+            "change: original text \"Small seasonal businesses struggle with complex H-2B visa pr\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-10-17T09:59:47.749Z",
+        "evidenceUpdatedAt": "2026-10-17T09:53:07.288Z"
+      }
+    },
+    {
+      "id": "2026-10-17:construction-payroll-compliance-shield",
+      "slug": "construction-payroll-compliance-shield",
+      "title": "The Independent Construction Contractor's Certified Payroll & Wage Compliance Shield",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "Certified payroll and prevailing wage laws are specific to US federal and state government construction projects."
+      },
+      "plan": {
+        "slug": "construction-payroll-compliance-shield",
+        "title": "The Independent Construction Contractor's Certified Payroll & Wage Compliance Shield",
+        "problem": "Small construction contractors face significant penalties and audits for mismanaging certified payroll, prevailing wage, and independent contractor classifications on federal or state projects.",
+        "targetCustomer": "Owners of small independent construction companies, especially those working on government-funded projects.",
+        "payer": "The owner of the small construction company.",
+        "whyPayerPays": "The payer pays to avoid severe Department of Labor (DOL) fines, project delays, and potential debarment from future government contracts due to payroll and wage violations.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "Certified payroll and prevailing wage laws are specific to US federal and state government construction projects."
+        },
+        "keywords": {
+          "problem": [
+            "certified payroll problems",
+            "prevailing wage compliance issues",
+            "independent contractor misclassification risks"
+          ],
+          "solution": [
+            "certified payroll software",
+            "construction payroll solution",
+            "wage compliance tool"
+          ],
+          "buying": [
+            "certified payroll pricing",
+            "best payroll software construction",
+            "hire payroll service"
+          ]
+        },
+        "serpQueries": [
+          "certified payroll software",
+          "certified payroll problems"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "certified payroll problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "prevailing wage compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "independent contractor misclassification risks",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "certified payroll software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 170,
+          "cpcUsd": 93.85,
+          "adCompetition": 0.39,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -48,
+          "providerUpdatedAt": "2026-10-16 13:16:46 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 140
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -43,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "construction payroll solution",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "wage compliance tool",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "certified payroll pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best payroll software construction",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "hire payroll service",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.86,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": null,
+          "providerUpdatedAt": "2026-09-16 17:07:13 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (7 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "certified payroll software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:38.852Z",
+          "checkUrl": "https://www.google.com/search?q=certified%20payroll%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "lcptracker.com",
+              "url": "https://lcptracker.com/",
+              "title": "LCPtracker: Certified Payroll & Prevailing Wage Software",
+              "description": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects by agencies and contractors.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.points-north.com",
+              "url": "https://www.points-north.com/certified-payroll-reporting",
+              "title": "Certified Payroll Reporting Software & Managed Services",
+              "description": "Streamline certified payroll with Points North's comprehensive and simple to use reporting software. Generate certified reports with a few mouse clicks.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "contractorforeman.com",
+              "url": "https://contractorforeman.com/certified-payroll-reporting-tools-top-5-options/",
+              "title": "Certified Payroll Reporting Tools: Top 5 Options",
+              "description": "Certified Payroll Reporting LCPtracker Pro simplifies certified payroll reporting by automating the creation of WH-347 forms and state-specific formats.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.foundationsoft.com",
+              "url": "https://www.foundationsoft.com/software/payroll/",
+              "title": "Construction Payroll Software",
+              "description": "Automate complex construction payroll with FOUNDATION®. Effortlessly manage certified payroll, prevailing wage, union fringes and multi-state taxes.",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "marketplace.microsoft.com",
+              "url": "https://marketplace.microsoft.com/en-us/product/cem-business-solutions.certified_payroll",
+              "title": "Certified Payroll",
+              "description": "A comprehensive and easy software to simplify your prevailing wage payroll processing. Certified Payroll do the calculations and compliance for each payroll. ...",
+              "id": "S1.8",
+              "class": "platform"
+            },
+            {
+              "rank": 9,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Contractor/comments/1ql2h82/do_you_guys_use_a_certified_payroll_compliance/",
+              "title": "Do you guys use a certified payroll compliance software?",
+              "description": "Dedicated certified payroll software like B2W, Foundation, or Viewpoint definitely saves time, but they can get pricey and a bit heavy if you' ...",
+              "id": "S1.9",
+              "class": "discussion"
+            },
+            {
+              "rank": 10,
+              "domain": "www.miter.com",
+              "url": "https://www.miter.com/resources/best-payroll-software-for-construction-company/",
+              "title": "8 best payroll software options for construction companies",
+              "description": "Aug 6, 2026 — 8 construction payroll software options · 1. Miter · 2. Foundation · 3. Payroll4Construction · 4. ADP · 5. Paylocity · 6. Paychex · 7. Paycom · 8. Sage. Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "emarsinc.com",
+              "url": "https://emarsinc.com/",
+              "title": "eMars: Comprehensive Certified Payroll Software | Davis ...",
+              "description": "Certified payroll software for public agencies to manage payroll and labor compliance. eMars centralizes taxes, wage laws, and reporting in one easy platform. Read more",
+              "id": "S1.11",
+              "class": "site"
+            },
+            {
+              "rank": 12,
+              "domain": "www.rippling.com",
+              "url": "https://www.rippling.com/blog/construction-payroll-software",
+              "title": "The 9 best construction payroll software platforms [2026]",
+              "description": "The 9 best construction payroll software platforms [2026] · 1. Rippling · 2. ADP Workforce Now · 3. Gusto · 4. Payroll4Construction · 5. QuickBooks Workforce · 6. Read more",
+              "id": "S1.12",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "certified payroll problems",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:45.376Z",
+          "checkUrl": "https://www.google.com/search?q=certified%20payroll%20problems&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.dir.ca.gov",
+              "url": "https://www.dir.ca.gov/public-works/certified-payroll-reporting.html",
+              "title": "Certified Payroll Reports",
+              "description": "Contractors and subcontractors on most public works projects are required to submit certified payroll records (CPRs) to the Labor Commissioner. Payroll records ...",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.points-north.com",
+              "url": "https://www.points-north.com/trends-and-insights/certified-payroll-reporting-requirements-for-contractors",
+              "title": "Certified Payroll Reporting Requirements for Contractors",
+              "description": "Feb 24, 2026 — Certified payroll compliance requirements evolve regularly, creating ongoing challenges for contractors trying to maintain current practices. Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.payroll4construction.com",
+              "url": "https://www.payroll4construction.com/certified-payroll-compliance-violations-what-triggers-audits-penalties-and-debarment/",
+              "title": "Certified Payroll Compliance Violations: What Triggers ...",
+              "description": "Sep 9, 2026 — Certified payroll violations can trigger agency audits, back-wage liability and other enforcement actions when payroll records show problems ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "emarsinc.com",
+              "url": "https://emarsinc.com/blog/common-certified-payroll-errors",
+              "title": "Common Certified Payroll Errors",
+              "description": "Jul 17, 2026 — Common problems include incorrect straight-time and overtime allocations, missing project hours, hours assigned to the wrong project, and manual ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "ebacon.com",
+              "url": "https://ebacon.com/institute-of-ebaconology/5-signs-your-certified-payroll-process-is-taking-too-long",
+              "title": "5 Signs Your Certified Payroll Process Is Taking Too Long",
+              "description": "Jun 9, 2026 — Slow certified payroll processes often signal deeper workflow issues, such as manual data entry, disconnected systems, missing documentation, ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.kognitos.com",
+              "url": "https://www.kognitos.com/blog/certified-payroll/",
+              "title": "Certified Payroll: New WH-347 and the Weekly Filing ...",
+              "description": "Oct 5, 2026 — The consequences attached to a missing certified payroll are not administrative: wage restitution, withheld contract payments, and agency audit. Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "industrialaffairs.delaware.gov",
+              "url": "https://industrialaffairs.delaware.gov/en/knowledgebase-employer/how-do-i-avoid-common-mistakes-on-certified-payroll",
+              "title": "How do I avoid common mistakes on certified payroll?",
+              "description": "Avoid common certified payroll mistakes by using correct worker classifications, confirming the prevailing wage rate before each project, properly including ...",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "proscore.ai",
+              "url": "https://proscore.ai/certified-payroll-errors/",
+              "title": "Certified Payroll Errors: 8 Common Mistakes",
+              "description": "Common examples include hours assigned to the wrong project, missing daily hours, incorrect overtime treatment where applicable, deductions",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.completepayroll.com",
+              "url": "https://www.completepayroll.com/blog/why-is-certified-payroll-so-complicated",
+              "title": "The Complexity of Certified Payroll Explained",
+              "description": "Construction companies, the waste management industry, and manufacturing all face a shared common problem: Certified Payroll penalties. Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "points-north.com",
+          "url": "https://www.points-north.com/certified-payroll-reporting",
+          "finalUrl": "https://www.points-north.com/certified-payroll-reporting",
+          "retrievedAt": "2026-10-17T09:53:03.540Z",
+          "status": 200,
+          "error": null,
+          "title": "Certified Payroll Reporting Software & Managed Services | Points North",
+          "description": "Streamline certified payroll with Points North",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "points-north.com",
+          "url": "https://www.points-north.com/pricing",
+          "finalUrl": "https://www.points-north.com/pricing",
+          "retrievedAt": "2026-10-17T09:53:03.542Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "emarsinc.com",
+          "url": "https://emarsinc.com/",
+          "finalUrl": "https://emarsinc.com/",
+          "retrievedAt": "2026-10-17T09:53:03.542Z",
+          "status": 200,
+          "error": null,
+          "title": null,
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "emarsinc.com",
+          "url": "https://emarsinc.com/pricing",
+          "finalUrl": "https://emarsinc.com/",
+          "retrievedAt": "2026-10-17T09:53:03.543Z",
+          "status": 200,
+          "error": null,
+          "title": null,
+          "description": null,
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P5",
+          "domain": "lcptracker.com",
+          "url": "https://lcptracker.com/",
+          "finalUrl": "https://lcptracker.com/",
+          "retrievedAt": "2026-10-17T09:53:03.544Z",
+          "status": 200,
+          "error": null,
+          "title": "Certified Payroll & Prevailing Wage Software | LCPtracker",
+          "description": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects by agencies and contractors.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "lcptracker.com",
+          "url": "https://lcptracker.com/pricing",
+          "finalUrl": "https://lcptracker.com/contact-sales/",
+          "retrievedAt": "2026-10-17T09:53:03.545Z",
+          "status": 200,
+          "error": null,
+          "title": "Contact Sales | Request a Demo | LCPtracker",
+          "description": "Talk to LCPtracker's sales team about certified payroll, prevailing wage, and workforce compliance software built for your agency or company.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 5,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 2,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 2,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncorroborated",
+              "text": "\"certified payroll software\" (170/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"wage compliance tool\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"hire payroll service\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown (up to \"some\" if a flagged keyword is confirmed). The only directly relevant keyword with data is unconfirmed (see flags). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $93.85 on \"certified payroll software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "points-north.com",
+            "emarsinc.com",
+            "lcptracker.com",
+            "contractorforeman.com",
+            "payroll4construction.com",
+            "foundationsoft.com",
+            "ebacon.com",
+            "kognitos.com",
+            "miter.com",
+            "proscore.ai",
+            "completepayroll.com",
+            "rippling.com"
+          ],
+          "platformDomains": [
+            "marketplace.microsoft.com"
+          ],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "12 vendor-like or publisher domain(s) and 1 broad platform(s) (marketplace.microsoft.com) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 4 domain(s) with a direct competitor (same problem) (lcptracker.com, points-north.com, contractorforeman.com, marketplace.microsoft.com), 3 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "lcptracker.com",
+            "points-north.com",
+            "contractorforeman.com",
+            "marketplace.microsoft.com"
+          ],
+          "indirectAlternativeDomains": [
+            "foundationsoft.com",
+            "miter.com",
+            "rippling.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "8d09c6d7a53667b6",
+      "evidenceUpdatedAt": "2026-10-17T09:53:07.288Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-17T09:58:08.433Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-17T09:53:07.288Z",
+        "qualifiers": [
+          "small independent construction company owner",
+          "works on government-funded projects"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names 'certified payroll problems,' which is a core problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names 'prevailing wage compliance issues,' which is a core problem for the target customer."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names 'independent contractor misclassification risks,' which is a core problem for the target customer."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names 'certified payroll software,' a solution for the target customer's problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The keyword names a 'construction payroll solution,' which is a broader category than the specific certified payroll problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword names a 'wage compliance tool,' which is a broader problem than the specific certified payroll and prevailing wage issues."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about pricing for certified payroll, indicating buying intent for a solution to the problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The keyword seeks 'best payroll software construction,' which is a broader category than the specific certified payroll and prevailing wage compliance."
+          },
+          "K9": {
+            "searcher": "broader",
+            "topic": "wider",
+            "reason": "The keyword is about hiring a general payroll service, which is a wider solution for a broader customer."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on government-funded projects"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is certified payroll and prevailing wage software for contractors on government projects, which is the same problem for a broader customer."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is certified payroll reporting software, which addresses the same problem for a broader customer."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on government-funded projects"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item discusses certified payroll reporting tools, which addresses the same problem for a broader customer."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is construction payroll software that includes certified payroll and prevailing wage, which is a broader problem for a broader customer."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is software for certified payroll and prevailing wage compliance, which addresses the same problem for a broader customer."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a discussion about certified payroll compliance software, which addresses the same problem for a broader customer."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item lists general payroll software for construction companies, which is a broader problem for a broader customer."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is certified payroll software for public agencies, which is a different customer."
+          },
+          "S1.12": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item lists general construction payroll software, which is a broader problem for a broader customer."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on government-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is about certified payroll requirements for contractors on public works projects, which is the same problem for a broader customer."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses certified payroll compliance challenges for contractors, which is the same problem for a broader customer."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses certified payroll compliance violations and audits, which is the same problem for a broader customer."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses common certified payroll errors, which is the same problem for a broader customer."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses slow certified payroll processes, which is the same problem for a broader customer."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on government-funded projects"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses consequences of missing certified payroll, including audits, which is the same problem for a broader customer."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses how to avoid common certified payroll mistakes, which is the same problem for a broader customer."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses common certified payroll errors, which is the same problem for a broader customer."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item explains the complexity of certified payroll and penalties for various industries, which is the same problem for a broader customer."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The page is for certified payroll reporting software and services, which addresses the same problem for a broader customer."
+          },
+          "P3": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "unclear",
+            "reason": "The page has no content to judge."
+          },
+          "P4": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "unclear",
+            "reason": "The page has no content to judge."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [
+              "works on government-funded projects"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The page is certified payroll and prevailing wage software for contractors on government projects, which is the same problem for a broader customer."
+          },
+          "P6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The page is for contacting sales about certified payroll and prevailing wage software, which addresses the same problem for a broader customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-17:construction-payroll-compliance-shield",
+        "opportunity": "Small construction contractors face significant penalties and audits for mismanaging certified payroll, prevailing wage, and independent contractor classifications. The opportunity is to provide a compliance shield to help them avoid fines, project delays, and debarment.",
+        "whoPays": "The owner of the small construction company pays to avoid severe Department of Labor (DOL) fines, project delays, and potential debarment from future government contracts due to payroll and wage violations (inference).",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.4",
+              "quote": "Certified payroll compliance requirements evolve regularly, creating ongoing challenges for contractors"
+            },
+            {
+              "id": "S2.5",
+              "quote": "Certified payroll violations can trigger agency audits, back-wage liability and other enforcement actions when payroll records show problems"
+            },
+            {
+              "id": "S2.6",
+              "quote": "Common Certified Payroll Errors"
+            },
+            {
+              "id": "S2.7",
+              "quote": "5 Signs Your Certified Payroll Process Is Taking Too Long"
+            },
+            {
+              "id": "S2.8",
+              "quote": "The consequences attached to a missing certified payroll are not administrative: wage restitution, withheld contract payments, and agency audit."
+            },
+            {
+              "id": "S2.11",
+              "quote": "The Complexity of Certified Payroll Explained"
+            }
+          ],
+          "observed": "Multiple sources describe the complexity of certified payroll, the regular evolution of compliance requirements, common errors, and the severe consequences of violations, including agency audits, back-wage liability, withheld contract payments, and debarment. These problems create ongoing challenges for contractors.",
+          "inference": "While the evidence confirms the existence and severity of certified payroll and prevailing wage compliance problems for contractors generally, it does not specifically detail these issues for *small independent construction companies*."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "LCPtracker: Certified Payroll & Prevailing Wage Software"
+            },
+            {
+              "id": "S1.3",
+              "quote": "Certified Payroll Reporting Software & Managed Services"
+            },
+            {
+              "id": "S1.5",
+              "quote": "Certified Payroll Reporting Tools: Top 5 Options"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Certified Payroll"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "LCPtracker",
+              "type": "direct",
+              "what": "FedRAMP-authorized certified payroll and prevailing wage software for Davis-Bacon compliance, trusted on $550B+ in projects.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects by agencies and contractors."
+                }
+              ]
+            },
+            {
+              "name": "Points North",
+              "type": "direct",
+              "what": "Comprehensive and simple-to-use certified payroll reporting software and managed services that streamline reporting and generate certified reports with a few clicks.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Streamline certified payroll with Points North's comprehensive and simple to use reporting software. Generate certified reports with a few mouse clicks."
+                }
+              ]
+            },
+            {
+              "name": "Contractor Foreman",
+              "type": "direct",
+              "what": "Certified payroll reporting tools that simplify reporting by automating the creation of WH-347 forms and state-specific formats.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Certified Payroll Reporting LCPtracker Pro simplifies certified payroll reporting by automating the creation of WH-347 forms and state-specific formats."
+                }
+              ]
+            },
+            {
+              "name": "Microsoft Marketplace Certified Payroll",
+              "type": "direct",
+              "what": "A comprehensive and easy software to simplify prevailing wage payroll processing, performing calculations and ensuring compliance for each payroll.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "A comprehensive and easy software to simplify your prevailing wage payroll processing. Certified Payroll do the calculations and compliance for each payroll."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "LCPtracker is FedRAMP-authorized and trusted on over $550B in projects by agencies and contractors.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Points North offers comprehensive and simple-to-use reporting software that streamlines certified payroll and generates reports with a few mouse clicks.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Streamline certified payroll with Points North's comprehensive and simple to use reporting software. Generate certified reports with a few mouse clicks."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Contractor Foreman simplifies certified payroll reporting by automating WH-347 forms and state-specific formats.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "LCPtracker Pro simplifies certified payroll reporting by automating the creation of WH-347 forms and state-specific formats."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Microsoft Marketplace offers a comprehensive and easy software for certified payroll, handling calculations and compliance.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "A comprehensive and easy software to simplify your prevailing wage payroll processing. Certified Payroll do the calculations and compliance for each payroll."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing direct competitors offer certified payroll solutions for contractors generally, but there is no clear evidence of a solution specifically tailored or marketed to *small independent construction companies* with a focus on extreme simplicity or cost-effectiveness for a solo founder or very small team.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Small construction contractors face significant penalties and audits for mismanaging certified payroll, prevailing wage, and independent contractor classifications on federal or state projects.",
+            "finding": "Multiple sources confirm that certified payroll compliance requirements create ongoing challenges for contractors, and violations can trigger agency audits, back-wage liability, and other enforcement actions, including withheld contract payments and debarment.",
+            "basis": [
+              {
+                "id": "S2.4",
+                "quote": "Certified payroll compliance requirements evolve regularly, creating ongoing challenges for contractors"
+              },
+              {
+                "id": "S2.5",
+                "quote": "Certified payroll violations can trigger agency audits, back-wage liability and other enforcement actions"
+              },
+              {
+                "id": "S2.8",
+                "quote": "The consequences attached to a missing certified payroll are not administrative: wage restitution, withheld contract payments, and agency audit."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "certified payroll software small construction",
+            "finding": "The keyword \"certified payroll software\" (K4) has a search volume of 170/month and a CPC of $93.85, indicating existing commercial interest and demand for solutions in this area.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "certified payroll software"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a certified payroll compliance tool requires deep understanding of complex and evolving regulations, but a focused MVP addressing a specific pain point could be feasible."
+        },
+        "unproven": [
+          "Whether small independent construction contractors perceive existing certified payroll software as too complex or expensive for their specific needs, creating a niche opportunity.",
+          "The specific features or pricing model that would appeal most to this niche customer segment."
+        ],
+        "nextExperiment": {
+          "what": "Create a detailed landing page describing a simplified certified payroll and wage compliance solution specifically for small independent contractors, highlighting ease of use and affordability. Run targeted Google Ads and social media ads (e.g., Facebook groups for small contractors) to gauge interest and collect email sign-ups or pre-orders.",
+          "cost": "$500-$1,000 (for ads and landing page tools)",
+          "duration": "4 weeks"
+        },
+        "continueIf": "The landing page achieves a conversion rate of 5% or higher for email sign-ups, or receives at least 10 pre-orders/serious inquiries within a month.",
+        "stopIf": "The conversion rate is below 2% or fewer than 5 serious inquiries are received within a month, indicating insufficient interest in a specialized solution."
+      },
+      "assessment": {
+        "opportunity": "Small construction contractors face significant penalties and audits for mismanaging certified payroll, prevailing wage, and independent contractor classifications. The opportunity is to provide a compliance shield to help them avoid fines, project delays, and debarment.",
+        "whoPays": "The owner of the small construction company pays to avoid severe Department of Labor (DOL) fines, project delays, and potential debarment from future government contracts due to payroll and wage violations (inference).",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.4",
+              "quote": "Certified payroll compliance requirements evolve regularly, creating ongoing challenges for contractors",
+              "domain": "points-north.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses certified payroll compliance challenges for contractors, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.5",
+              "quote": "Certified payroll violations can trigger agency audits, back-wage liability and other enforcement actions when payroll records show problems",
+              "domain": "payroll4construction.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses certified payroll compliance violations and audits, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Common Certified Payroll Errors",
+              "domain": "emarsinc.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses common certified payroll errors, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.7",
+              "quote": "5 Signs Your Certified Payroll Process Is Taking Too Long",
+              "domain": "ebacon.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses slow certified payroll processes, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.8",
+              "quote": "The consequences attached to a missing certified payroll are not administrative: wage restitution, withheld contract payments, and agency audit.",
+              "domain": "kognitos.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses consequences of missing certified payroll, including audits, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.11",
+              "quote": "The Complexity of Certified Payroll Explained",
+              "domain": "completepayroll.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item explains the complexity of certified payroll and penalties for various industries, which is the same problem for a broader customer."
+            }
+          ],
+          "observed": "Multiple sources describe the complexity of certified payroll, the regular evolution of compliance requirements, common errors, and the severe consequences of violations, including agency audits, back-wage liability, withheld contract payments, and debarment. These problems create ongoing challenges for contractors.",
+          "inference": "While the evidence confirms the existence and severity of certified payroll and prevailing wage compliance problems for contractors generally, it does not specifically detail these issues for *small independent construction companies*."
+        },
+        "competition": {
+          "level": "crowded",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "LCPtracker: Certified Payroll & Prevailing Wage Software",
+              "domain": "lcptracker.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is certified payroll and prevailing wage software for contractors on government projects, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S1.3",
+              "quote": "Certified Payroll Reporting Software & Managed Services",
+              "domain": "points-north.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is certified payroll reporting software, which addresses the same problem for a broader customer."
+            },
+            {
+              "id": "S1.5",
+              "quote": "Certified Payroll Reporting Tools: Top 5 Options",
+              "domain": "contractorforeman.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item discusses certified payroll reporting tools, which addresses the same problem for a broader customer."
+            },
+            {
+              "id": "S1.8",
+              "quote": "Certified Payroll",
+              "domain": "marketplace.microsoft.com",
+              "kind": "S",
+              "cls": "platform",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is software for certified payroll and prevailing wage compliance, which addresses the same problem for a broader customer."
+            }
+          ],
+          "directCompetitors": [
+            "lcptracker.com",
+            "points-north.com",
+            "contractorforeman.com",
+            "marketplace.microsoft.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "LCPtracker",
+              "type": "direct",
+              "what": "FedRAMP-authorized certified payroll and prevailing wage software for Davis-Bacon compliance, trusted on $550B+ in projects.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects by agencies and contractors.",
+                  "domain": "lcptracker.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item is certified payroll and prevailing wage software for contractors on government projects, which is the same problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Points North",
+              "type": "direct",
+              "what": "Comprehensive and simple-to-use certified payroll reporting software and managed services that streamline reporting and generate certified reports with a few clicks.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Streamline certified payroll with Points North's comprehensive and simple to use reporting software. Generate certified reports with a few mouse clicks.",
+                  "domain": "points-north.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item is certified payroll reporting software, which addresses the same problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Contractor Foreman",
+              "type": "direct",
+              "what": "Certified payroll reporting tools that simplify reporting by automating the creation of WH-347 forms and state-specific formats.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Certified Payroll Reporting LCPtracker Pro simplifies certified payroll reporting by automating the creation of WH-347 forms and state-specific formats.",
+                  "domain": "contractorforeman.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item discusses certified payroll reporting tools, which addresses the same problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Microsoft Marketplace Certified Payroll",
+              "type": "direct",
+              "what": "A comprehensive and easy software to simplify prevailing wage payroll processing, performing calculations and ensuring compliance for each payroll.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "A comprehensive and easy software to simplify your prevailing wage payroll processing. Certified Payroll do the calculations and compliance for each payroll.",
+                  "domain": "marketplace.microsoft.com",
+                  "kind": "S",
+                  "cls": "platform",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item is software for certified payroll and prevailing wage compliance, which addresses the same problem for a broader customer."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "LCPtracker is FedRAMP-authorized and trusted on over $550B in projects by agencies and contractors.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "FedRAMP-authorized certified payroll software for Davis-Bacon and prevailing wage compliance. Trusted on $550B+ in projects",
+                  "domain": "lcptracker.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item is certified payroll and prevailing wage software for contractors on government projects, which is the same problem for a broader customer."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Points North offers comprehensive and simple-to-use reporting software that streamlines certified payroll and generates reports with a few mouse clicks.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Streamline certified payroll with Points North's comprehensive and simple to use reporting software. Generate certified reports with a few mouse clicks.",
+                  "domain": "points-north.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item is certified payroll reporting software, which addresses the same problem for a broader customer."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Contractor Foreman simplifies certified payroll reporting by automating WH-347 forms and state-specific formats.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "LCPtracker Pro simplifies certified payroll reporting by automating the creation of WH-347 forms and state-specific formats.",
+                  "domain": "contractorforeman.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item discusses certified payroll reporting tools, which addresses the same problem for a broader customer."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Microsoft Marketplace offers a comprehensive and easy software for certified payroll, handling calculations and compliance.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "A comprehensive and easy software to simplify your prevailing wage payroll processing. Certified Payroll do the calculations and compliance for each payroll.",
+                  "domain": "marketplace.microsoft.com",
+                  "kind": "S",
+                  "cls": "platform",
+                  "relevance": "category",
+                  "relevanceReason": "The item is software for certified payroll and prevailing wage compliance, which addresses the same problem for a broader customer."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "The existing direct competitors offer certified payroll solutions for contractors generally, but there is no clear evidence of a solution specifically tailored or marketed to *small independent construction companies* with a focus on extreme simplicity or cost-effectiveness for a solo founder or very small team.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "certified payroll software small construction",
+            "finding": "The keyword \"certified payroll software\" (K4) has a search volume of 170/month and a CPC of $93.85, indicating existing commercial interest and demand for solutions in this area.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "certified payroll software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "The keyword directly names 'certified payroll software,' a solution for the target customer's problem."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a certified payroll compliance tool requires deep understanding of complex and evolving regulations, but a focused MVP addressing a specific pain point could be feasible."
+        },
+        "unproven": [
+          "Whether small independent construction contractors perceive existing certified payroll software as too complex or expensive for their specific needs, creating a niche opportunity.",
+          "The specific features or pricing model that would appeal most to this niche customer segment."
+        ],
+        "nextExperiment": {
+          "what": "Create a detailed landing page describing a simplified certified payroll and wage compliance solution specifically for small independent contractors, highlighting ease of use and affordability. Run targeted Google Ads and social media ads (e.g., Facebook groups for small contractors) to gauge interest and collect email sign-ups or pre-orders.",
+          "cost": "$500-$1,000 (for ads and landing page tools)",
+          "duration": "4 weeks"
+        },
+        "continueIf": "The landing page achieves a conversion rate of 5% or higher for email sign-ups, or receives at least 10 pre-orders/serious inquiries within a month.",
+        "stopIf": "The conversion rate is below 2% or fewer than 5 serious inquiries are received within a month, indicating insufficient interest in a specialized solution.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": [
+            "change: original text \"Small construction contractors face significant penalties an\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-10-17T09:59:47.758Z",
+        "evidenceUpdatedAt": "2026-10-17T09:53:07.288Z"
+      }
+    },
+    {
+      "id": "2026-10-17:used-car-rule-compliance-assistant",
+      "slug": "used-car-rule-compliance-assistant",
+      "title": "The Small Used Car Dealership's FTC Used Car Rule Compliance Assistant",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The FTC Used Car Rule is a specific federal regulation governing used car sales in the United States."
+      },
+      "plan": {
+        "slug": "used-car-rule-compliance-assistant",
+        "title": "The Small Used Car Dealership's FTC Used Car Rule Compliance Assistant",
+        "problem": "Small used car dealerships struggle to consistently comply with the Federal Trade Commission's (FTC) Used Car Rule, risking fines and legal action for improper buyer's guides or disclosures.",
+        "targetCustomer": "Owners of small, independent used car dealerships.",
+        "payer": "The owner of the small used car dealership.",
+        "whyPayerPays": "The payer pays to avoid substantial FTC fines, consumer lawsuits, and reputational damage resulting from non-compliance with the Used Car Rule.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The FTC Used Car Rule is a specific federal regulation governing used car sales in the United States."
+        },
+        "keywords": {
+          "problem": [
+            "ftc car rule",
+            "ftc used car rule violations",
+            "used car buyer's guide issues"
+          ],
+          "solution": [
+            "car dealer compliance",
+            "used car compliance software",
+            "ftc rule checklist"
+          ],
+          "buying": [
+            "dealer compliance software",
+            "auto compliance software pricing",
+            "buy buyer's guide forms"
+          ]
+        },
+        "serpQueries": [
+          "dealer compliance software",
+          "ftc used car rule violations"
+        ],
+        "planning": {
+          "draftIssues": [
+            {
+              "group": "buying",
+              "issue": "no_head_term"
+            }
+          ],
+          "repairRequested": true,
+          "repaired": true,
+          "draftKeywords": {
+            "problem": [
+              "ftc used car rule violations",
+              "used car buyer's guide issues",
+              "auto dealer disclosure problems"
+            ],
+            "solution": [
+              "used car compliance software",
+              "auto dealer forms",
+              "ftc rule checklist"
+            ],
+            "buying": [
+              "auto compliance software pricing",
+              "best dealer compliance tools",
+              "buy buyer's guide forms"
+            ]
+          },
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ftc car rule",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "ftc used car rule violations",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "used car buyer's guide issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "car dealer compliance",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": 52.96,
+          "adCompetition": 0.19,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-16 17:07:13 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -23,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "used car compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "ftc rule checklist",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "dealer compliance software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "auto compliance software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "buy buyer's guide forms",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "dealer compliance software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:50.921Z",
+          "checkUrl": "https://www.google.com/search?q=dealer%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "get.dealercenter.com",
+              "url": "https://get.dealercenter.com/complyauto/",
+              "title": "The #1 Dealership Privacy & Cybersecurity Platform",
+              "description": "Navigate the regulatory landscape with confidence using our top-tier auto dealership compliance tools. Expertly designed to ensure seamless FTC Safeguards ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "us.dealertrack.com",
+              "url": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+              "title": "Dealer Management System (DMS) Overview",
+              "description": "A dealer management system (DMS) is software that connects every department in your dealership. With powerful, real-time accounting and reporting, Dealertrack",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/fb-answers/which-dealership-software-offers-robust-compliance-tools-to-help-us-navigate-evolving-automotive-industry-regulations/",
+              "title": "Which Dealership Software Offers Robust Compliance ...",
+              "description": "Dealership Accelerator Ai is called out for automatically detecting opt-out signals to avoid compliance issues, while platforms like DealerFlow and Juggernaut ... Read more",
+              "id": "S1.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "www.mosaiccs.com",
+              "url": "https://www.mosaiccs.com/",
+              "title": "Mosaic Compliance Services: Compliance for Dealerships",
+              "description": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services. Explore Mosaic's tools and managed compliance programs.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.gartner.com",
+              "url": "https://www.gartner.com/reviews/market/dealer-management-systems",
+              "title": "Best Dealer Management Systems Reviews 2026",
+              "description": "Dealertrack enables dealerships to automate tasks such as contract processing, compliance management, and reporting, reducing manual data entry and improving ... Read more",
+              "id": "S1.7",
+              "class": "review_directory"
+            },
+            {
+              "rank": 8,
+              "domain": "www.dealerware.com",
+              "url": "https://www.dealerware.com/",
+              "title": "Dealerware: Dealership Mobility Solutions",
+              "description": "Dealerware + is the only solution in the industry that manages all dealership fleets and programs on one platform with one mobile app. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "dealerclick.com",
+              "url": "https://dealerclick.com/blog/cloud-based-auto-dealer-software",
+              "title": "Cloud-Based Auto Dealer Software: Benefits & Features",
+              "description": "May 5, 2025 — Security & Compliance. Modern cloud providers offer encryption, SOC 2 compliance, MFA, single sign-on, automated backups, and disaster ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "slashdot.org",
+              "url": "https://slashdot.org/software/compliance/for-dealer-mate/",
+              "title": "Top Compliance Software for Dealer-Mate in 2026",
+              "description": "Use the comparison tool below to compare the top Compliance software for Dealer-Mate on the market. You can filter results by user reviews, pricing, features, ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "nccdirect.com",
+              "url": "https://nccdirect.com/guide-to-dealership-compliance-tech-and-ops/",
+              "title": "A Practical Guide to Dealership Compliance, Tech, and Ops",
+              "description": "Sep 10, 2025 — Learn how dealerships can boost lead conversion, fight fraud, and simplify compliance with NCC's automotive credit and compliance solutions.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "ftc used car rule violations",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:56.334Z",
+          "checkUrl": "https://www.google.com/search?q=ftc%20used%20car%20rule%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.consumerlawpa.com",
+              "url": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+              "title": "The FTC And The Used Car Rule",
+              "description": "Dec 10, 2018 — Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.rathautofortsmith.com",
+              "url": "https://www.rathautofortsmith.com/blog/everything-you-need-to-know-about-the-ftcs-used-car-rule",
+              "title": "Everything You Need to Know About the FTC's Used Car ...",
+              "description": "Sep 20, 2018 — If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation.",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "fada.org",
+              "url": "https://fada.org/ftc-amends-used-car-rule/",
+              "title": "FTC Amends Used Car Rule",
+              "description": "The amended rule is effective January 27, 2017. However, the final rule permits dealers to use their existing stock of Buyers Guides for up to one year after ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.militaryconsumer.gov",
+              "url": "https://www.militaryconsumer.gov/blog/ftc-used-car-dealers-play-rules-or-pay-price",
+              "title": "FTC to used car dealers: Play by the rules or pay the price",
+              "description": "Mar 18, 2014 — Each violation could result in a civil penalty of $16,000. The FTC's Buyers Guide must tell you: whether the vehicle is being sold \"as is\" or ...",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.jfeyginesq.com",
+              "url": "https://www.jfeyginesq.com/ftc-used-car-rule-buyers-guide/",
+              "title": "FTC Used Car Rule and the Buyers Guide",
+              "description": "Consumers commonly raise Buyers Guide violations through state-law claims such as FDUTPA, and through warranty or misrepresentation theories.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.paschgroup.com",
+              "url": "https://www.paschgroup.com/glossary/used-car-rule/",
+              "title": "FTC Used Car Rule and the Buyers Guide",
+              "description": "6 days ago — The rule covers dealers that sold or offered for sale five or more used vehicles in the previous 12 months, so it reaches franchise and ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "hs.kpa.io",
+              "url": "https://hs.kpa.io/blog/what-you-need-to-know-about-the-new-ftc-cars-rule",
+              "title": "What You Need to Know About the New FTC CARS Rule",
+              "description": "Dec 27, 2023 — Violations of the CARS Rule constitute unfair and deceptive acts and practices under Section 5 of the FTC ACT, and the FTC can impose penalties ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "kpa.io",
+              "url": "https://kpa.io/blog/compliance-tips-for-the-used-car-rule-and-buyers-guides-fi-minute",
+              "title": "Compliance Tips for the Used Car Rule and Buyers Guides",
+              "description": "May 18, 2022 — The FTC has direct oversight over this. Currently, the new citation amount will be $46,517 per violation. In April of 2018, they actually had a ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.autoraptor.com",
+              "url": "https://www.autoraptor.com/blog/stay-compliant-ftc-used-car-rule",
+              "title": "How to Stay Compliant with the FTC Used Car",
+              "description": "Aug 17, 2016 — Non-compliance can result in significant civil penalties — one dealership was ordered to pay $90,000 after ignoring the rule following an ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "get.dealercenter.com",
+          "url": "https://get.dealercenter.com/complyauto/",
+          "finalUrl": "https://get.dealercenter.com/complyauto/",
+          "retrievedAt": "2026-10-17T09:53:05.337Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P2",
+          "domain": "get.dealercenter.com",
+          "url": "https://get.dealercenter.com/pricing",
+          "finalUrl": "https://get.dealercenter.com/pricing",
+          "retrievedAt": "2026-10-17T09:53:05.338Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P3",
+          "domain": "consumerlawpa.com",
+          "url": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+          "finalUrl": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+          "retrievedAt": "2026-10-17T09:53:05.339Z",
+          "status": 200,
+          "error": null,
+          "title": "The FTC And The Used Car Rule | Philadelphia Used Car Fraud Attorney",
+          "description": "Please contact Louis S. Schwartz at CONSUMERLAWPA.com to discuss your legal options with an experienced and dedicated Philadelphia used car fraud attorney.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "consumerlawpa.com",
+          "url": "https://www.consumerlawpa.com/pricing",
+          "finalUrl": "https://www.consumerlawpa.com/",
+          "retrievedAt": "2026-10-17T09:53:05.340Z",
+          "status": 200,
+          "error": null,
+          "title": "Philadelphia Consumer Lawyer",
+          "description": "Our Philadelphia consumer lawyers will ensure you are treated with appropriate professionalism in all consumer interactions.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P5",
+          "domain": "us.dealertrack.com",
+          "url": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+          "finalUrl": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+          "retrievedAt": "2026-10-17T09:53:05.340Z",
+          "status": 200,
+          "error": null,
+          "title": "Dealer Management System (DMS) Overview | Dealertrack",
+          "description": "Run your dealership with an easy-to-use DMS featuring cloud access, open integrations, and performance management. See features and benefits.",
+          "priceMentions": [
+            {
+              "text": "$ 0",
+              "billingUnit": false,
+              "context": "Marketing F&I Menu Calculate Data Fees Calculate Data Fees $ 0 in data fees over the remainder of contract term Integratio"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "us.dealertrack.com",
+          "url": "https://us.dealertrack.com/pricing",
+          "finalUrl": "https://us.dealertrack.com/pricing",
+          "retrievedAt": "2026-10-17T09:53:05.341Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 4,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "uncertainCount": 4,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"car dealer compliance\": relevance unclear — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"used car compliance software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"ftc rule checklist\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"dealer compliance software\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "get.dealercenter.com",
+            "consumerlawpa.com",
+            "us.dealertrack.com",
+            "rathautofortsmith.com",
+            "mosaiccs.com",
+            "fada.org",
+            "jfeyginesq.com",
+            "dealerware.com",
+            "paschgroup.com",
+            "dealerclick.com",
+            "hs.kpa.io",
+            "slashdot.org",
+            "kpa.io",
+            "nccdirect.com",
+            "autoraptor.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "facebook.com",
+            "gartner.com"
+          ],
+          "pricedDomains": [],
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 4 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "get.dealercenter.com",
+            "mosaiccs.com",
+            "dealerclick.com",
+            "slashdot.org"
+          ]
+        }
+      },
+      "evidenceFingerprint": "1aa1b7f272c03514",
+      "evidenceUpdatedAt": "2026-10-17T09:53:07.289Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-17T09:58:08.434Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-17T09:53:07.289Z",
+        "qualifiers": [
+          "small independent used car dealership owner"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names the 'FTC car rule,' which is the core of the problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names 'FTC used car rule violations,' which is the core problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly names 'used car buyer's guide issues,' which is a specific aspect of the problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword names 'car dealer compliance,' which is a broader problem than just the FTC Used Car Rule."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword names 'used car compliance software,' which is a broader solution category than just the FTC Used Car Rule."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword names an 'FTC rule checklist,' which is broader than just the Used Car Rule."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword names 'dealer compliance software,' which is a broader solution category for a broader customer."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The keyword is about pricing for 'auto compliance software,' which is a wider solution category for a wider customer."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about buying 'buyer's guide forms,' which directly relates to a specific aspect of the problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about general auto dealership compliance, privacy, and cybersecurity, including FTC Safeguards, which is a broader problem for a broader customer."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "wider",
+            "offering": "yes",
+            "reason": "The item is a general Dealer Management System, which addresses a wider range of problems for a broader customer."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a discussion about general dealership compliance software, focusing on opt-out signals, which is a broader problem for a broader customer."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers general compliance services for dealerships, including FTC Safeguards and EHS, which is a broader problem for a broader customer."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "wider",
+            "offering": "yes",
+            "reason": "The item reviews general Dealer Management Systems, which address a wider range of problems for a broader customer."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is about dealership mobility solutions and fleet management, which is a different problem for a broader customer."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about general cloud-based auto dealer software focusing on security and IT compliance, which is a broader problem for a broader customer."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is a comparison of general compliance software for dealers, which is a broader problem for a broader customer."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a guide to general dealership compliance, tech, and operations, which is a broader problem for a broader customer."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses FTC Used Car Rule violations and fines for dealerships, which is the same problem for a broader customer."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses FTC Used Car Rule violations and fines for dealerships, which is the same problem for a broader customer."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses amendments to the FTC Used Car Rule and buyer's guides for dealers, which is the same problem for a broader customer."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses FTC Used Car Rule compliance and penalties for used car dealers, which is the same problem for a broader customer."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item discusses how consumers raise Buyers Guide violations, which is a different customer and problem."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses the FTC Used Car Rule and Buyers Guide for dealers, including franchise dealers, which is the same problem for a broader customer."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item discusses the FTC CARS Rule, which is a different problem from the Used Car Rule."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses compliance tips and penalties for the FTC Used Car Rule and Buyers Guides, which is the same problem for a broader customer."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses how to stay compliant with the FTC Used Car Rule and civil penalties for dealerships, which is the same problem for a broader customer."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The page is for consumers seeking legal help against used car fraud, which is a different customer and problem."
+          },
+          "P4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The page is for consumers seeking legal representation, which is a different customer and problem."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "wider",
+            "offering": "yes",
+            "reason": "The page is for a general Dealer Management System, which addresses a wider range of problems for a broader customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-17:used-car-rule-compliance-assistant",
+        "opportunity": "Small used car dealerships struggle to consistently comply with the Federal Trade Commission's (FTC) Used Car Rule, risking fines and legal action. The opportunity is to provide an assistant to ensure proper buyer's guides and disclosures, avoiding penalties and lawsuits.",
+        "whoPays": "The owner of the small used car dealership pays to avoid substantial FTC fines, consumer lawsuits, and reputational damage resulting from non-compliance with the Used Car Rule (inference).",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines"
+            },
+            {
+              "id": "S2.4",
+              "quote": "If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Each violation could result in a civil penalty of $16,000. The FTC's Buyers Guide must tell you: whether the vehicle is being sold \"as is\" or"
+            },
+            {
+              "id": "S2.8",
+              "quote": "The rule covers dealers that sold or offered for sale five or more used vehicles in the previous 12 months, so it reaches franchise and"
+            },
+            {
+              "id": "S2.10",
+              "quote": "Currently, the new citation amount will be $46,517 per violation."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Non-compliance can result in significant civil penalties — one dealership was ordered to pay $90,000 after ignoring the rule following an"
+            }
+          ],
+          "observed": "Multiple sources confirm that dealerships failing to comply with the FTC Used Car Rule face significant consequences, including fines ranging from $16,000 to over $46,000 per violation, and potential liability for damages. The rule covers dealers selling five or more used vehicles annually, and non-compliance can lead to substantial civil penalties.",
+          "inference": "While the evidence clearly establishes the existence and severity of FTC Used Car Rule compliance issues and penalties for dealerships, it does not specifically detail the struggles of *small, independent used car dealerships* compared to larger ones."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "The #1 Dealership Privacy & Cybersecurity Platform"
+            },
+            {
+              "id": "S1.5",
+              "quote": "Mosaic Compliance Services: Compliance for Dealerships"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Cloud-Based Auto Dealer Software: Benefits & Features"
+            },
+            {
+              "id": "S1.10",
+              "quote": "Top Compliance Software for Dealer-Mate in 2026"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "DealerCenter",
+              "type": "indirect",
+              "what": "A dealership privacy and cybersecurity platform offering general auto dealership compliance tools, including FTC Safeguards.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "The #1 Dealership Privacy & Cybersecurity Platform"
+                }
+              ]
+            },
+            {
+              "name": "Mosaic Compliance Services",
+              "type": "indirect",
+              "what": "Offers dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Mosaic Compliance Services: Compliance for Dealerships"
+                }
+              ]
+            },
+            {
+              "name": "DealerClick",
+              "type": "indirect",
+              "what": "Cloud-based auto dealer software focusing on security and IT compliance, among other benefits and features.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Cloud-Based Auto Dealer Software: Benefits & Features"
+                }
+              ]
+            },
+            {
+              "name": "Slashdot (listing)",
+              "type": "indirect",
+              "what": "Comparison of general compliance software for dealers.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Top Compliance Software for Dealer-Mate in 2026"
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct competitors offering a solution specifically for FTC Used Car Rule compliance for *small, independent used car dealerships* were observed. Existing indirect competitors provide broader compliance or Dealer Management System (DMS) solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Small used car dealerships struggle to consistently comply with the Federal Trade Commission's (FTC) Used Car Rule, risking fines and legal action for improper buyer's guides or disclosures.",
+            "finding": "Multiple sources confirm the existence of FTC Used Car Rule violations, significant fines (up to $46,517 per violation), and the importance of proper buyer's guides for dealerships, supporting the problem's severity.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines"
+              },
+              {
+                "id": "S2.4",
+                "quote": "If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation."
+              },
+              {
+                "id": "S2.6",
+                "quote": "Each violation could result in a civil penalty of $16,000. The FTC's Buyers Guide must tell you: whether the vehicle is being sold \"as is\" or"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Developing a tool to ensure compliance with a specific regulation like the FTC Used Car Rule requires careful attention to legal details, but a focused MVP (e.g., a buyer's guide generator) could be manageable."
+        },
+        "unproven": [
+          "Whether small, independent used car dealerships perceive FTC Used Car Rule compliance as a significant, unsolved problem that they would pay to solve with a dedicated tool, given the broader compliance solutions available.",
+          "The specific features or level of automation that would be most valuable to this niche customer segment."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple online tool or downloadable template that helps small used car dealerships generate a compliant FTC Buyer's Guide based on vehicle specifics and warranty information. Offer it for a small one-time fee or a low monthly subscription.",
+          "cost": "$100-$500 (for development of a simple tool/template and basic marketing)",
+          "duration": "4-6 weeks"
+        },
+        "continueIf": "The tool receives at least 20 paid downloads/subscriptions within two months, demonstrating willingness to pay for a specific solution.",
+        "stopIf": "Fewer than 5 paid downloads/subscriptions are made within two months, indicating low demand for a standalone solution."
+      },
+      "assessment": {
+        "opportunity": "Small used car dealerships struggle to consistently comply with the Federal Trade Commission's (FTC) Used Car Rule, risking fines and legal action. The opportunity is to provide an assistant to ensure proper buyer's guides and disclosures, avoiding penalties and lawsuits.",
+        "whoPays": "The owner of the small used car dealership pays to avoid substantial FTC fines, consumer lawsuits, and reputational damage resulting from non-compliance with the Used Car Rule (inference).",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines",
+              "domain": "consumerlawpa.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses FTC Used Car Rule violations and fines for dealerships, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.4",
+              "quote": "If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation.",
+              "domain": "rathautofortsmith.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses FTC Used Car Rule violations and fines for dealerships, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Each violation could result in a civil penalty of $16,000. The FTC's Buyers Guide must tell you: whether the vehicle is being sold \"as is\" or",
+              "domain": "militaryconsumer.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "The item discusses FTC Used Car Rule compliance and penalties for used car dealers, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.8",
+              "quote": "The rule covers dealers that sold or offered for sale five or more used vehicles in the previous 12 months, so it reaches franchise and",
+              "domain": "paschgroup.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses the FTC Used Car Rule and Buyers Guide for dealers, including franchise dealers, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Currently, the new citation amount will be $46,517 per violation.",
+              "domain": "kpa.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses compliance tips and penalties for the FTC Used Car Rule and Buyers Guides, which is the same problem for a broader customer."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Non-compliance can result in significant civil penalties — one dealership was ordered to pay $90,000 after ignoring the rule following an",
+              "domain": "autoraptor.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses how to stay compliant with the FTC Used Car Rule and civil penalties for dealerships, which is the same problem for a broader customer."
+            }
+          ],
+          "observed": "Multiple sources confirm that dealerships failing to comply with the FTC Used Car Rule face significant consequences, including fines ranging from $16,000 to over $46,000 per violation, and potential liability for damages. The rule covers dealers selling five or more used vehicles annually, and non-compliance can lead to substantial civil penalties.",
+          "inference": "While the evidence clearly establishes the existence and severity of FTC Used Car Rule compliance issues and penalties for dealerships, it does not specifically detail the struggles of *small, independent used car dealerships* compared to larger ones."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "The #1 Dealership Privacy & Cybersecurity Platform",
+              "domain": "get.dealercenter.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about general auto dealership compliance, privacy, and cybersecurity, including FTC Safeguards, which is a broader problem for a broader customer."
+            },
+            {
+              "id": "S1.5",
+              "quote": "Mosaic Compliance Services: Compliance for Dealerships",
+              "domain": "mosaiccs.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers general compliance services for dealerships, including FTC Safeguards and EHS, which is a broader problem for a broader customer."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Cloud-Based Auto Dealer Software: Benefits & Features",
+              "domain": "dealerclick.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about general cloud-based auto dealer software focusing on security and IT compliance, which is a broader problem for a broader customer."
+            },
+            {
+              "id": "S1.10",
+              "quote": "Top Compliance Software for Dealer-Mate in 2026",
+              "domain": "slashdot.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is a comparison of general compliance software for dealers, which is a broader problem for a broader customer."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "get.dealercenter.com",
+            "mosaiccs.com",
+            "dealerclick.com",
+            "slashdot.org"
+          ],
+          "alternatives": [
+            {
+              "name": "DealerCenter",
+              "type": "indirect",
+              "what": "A dealership privacy and cybersecurity platform offering general auto dealership compliance tools, including FTC Safeguards.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "The #1 Dealership Privacy & Cybersecurity Platform",
+                  "domain": "get.dealercenter.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about general auto dealership compliance, privacy, and cybersecurity, including FTC Safeguards, which is a broader problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Mosaic Compliance Services",
+              "type": "indirect",
+              "what": "Offers dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Mosaic Compliance Services: Compliance for Dealerships",
+                  "domain": "mosaiccs.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers general compliance services for dealerships, including FTC Safeguards and EHS, which is a broader problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "DealerClick",
+              "type": "indirect",
+              "what": "Cloud-based auto dealer software focusing on security and IT compliance, among other benefits and features.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Cloud-Based Auto Dealer Software: Benefits & Features",
+                  "domain": "dealerclick.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about general cloud-based auto dealer software focusing on security and IT compliance, which is a broader problem for a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Slashdot (listing)",
+              "type": "indirect",
+              "what": "Comparison of general compliance software for dealers.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Top Compliance Software for Dealer-Mate in 2026",
+                  "domain": "slashdot.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is a comparison of general compliance software for dealers, which is a broader problem for a broader customer."
+                }
+              ]
+            }
+          ],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "No direct competitors offering a solution specifically for FTC Used Car Rule compliance for *small, independent used car dealerships* were observed. Existing indirect competitors provide broader compliance or Dealer Management System (DMS) solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Developing a tool to ensure compliance with a specific regulation like the FTC Used Car Rule requires careful attention to legal details, but a focused MVP (e.g., a buyer's guide generator) could be manageable."
+        },
+        "unproven": [
+          "Whether small, independent used car dealerships perceive FTC Used Car Rule compliance as a significant, unsolved problem that they would pay to solve with a dedicated tool, given the broader compliance solutions available.",
+          "The specific features or level of automation that would be most valuable to this niche customer segment."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple online tool or downloadable template that helps small used car dealerships generate a compliant FTC Buyer's Guide based on vehicle specifics and warranty information. Offer it for a small one-time fee or a low monthly subscription.",
+          "cost": "$100-$500 (for development of a simple tool/template and basic marketing)",
+          "duration": "4-6 weeks"
+        },
+        "continueIf": "The tool receives at least 20 paid downloads/subscriptions within two months, demonstrating willingness to pay for a specific solution.",
+        "stopIf": "Fewer than 5 paid downloads/subscriptions are made within two months, indicating low demand for a standalone solution.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "competition sparse → unknown: \"sparse\" contradicts 4 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "competition sparse → unknown: \"sparse\" contradicts 4 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": [
+            "change: original text \"Small used car dealerships struggle to consistently comply w\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-10-17T09:59:47.762Z",
+        "evidenceUpdatedAt": "2026-10-17T09:53:07.289Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-17T09:52:11.050Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 27,
+      "holdId": "62969993-e71b-5d37-ba6e-7088b733382c",
+      "estimateUsd": 0.016764,
+      "costUsd": 0.01236,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-17T09:52:14.120Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "866a2897-5372-52ef-a3fe-47ce77a5de7d",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-17T09:52:19.320Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "6d0489ab-b776-529b-b7de-c5a73f943c9e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded"
+    },
+    {
+      "at": "2026-10-17T09:52:38.852Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "e3c5df6d-3a20-5182-a898-3ab8d7ce4389",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-17T09:52:45.376Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "05e87f90-0af5-5484-9b4e-11ea55f1c287",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-17T09:52:50.921Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "2419edf3-b3b3-51a0-9108-74affaa073eb",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-17T09:52:56.334Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "2a8a17e5-b538-5d8b-9902-a138e6f3b8df",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": [
+      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
+    ]
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.0504,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.9496
+    },
+    "monthToDateUsdBefore": 0.0504,
+    "spentThisRunUsd": 0.02436
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 27,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01524,
+    "serpQueries": 6,
+    "serpsFromCache": 0,
+    "serpUsd": 0.012,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 27
+      }
+    ],
+    "totalUsd": 0.02724,
+    "reservedUsd": 0.029964
+  },
+  "lastGather": {
+    "at": "2026-10-17T09:53:07.289Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02436,
+    "note": null
+  }
+}

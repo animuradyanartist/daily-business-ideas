@@ -31865,6 +31865,534 @@
         "mainIntent": "informational",
         "providerUpdatedAt": "2026-09-15 02:07:29 +00:00"
       }
+    },
+    "labs|united states|en|h2b visa compliance challenges": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dol h2b audit risks": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|h2b visa record keeping": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|h2b compliance software": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|h2b visa management": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|h2b visa tracking tool": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|h2b software pricing": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best h2b compliance": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hire h2b consultant": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|certified payroll problems": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|prevailing wage compliance issues": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|independent contractor misclassification risks": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|certified payroll software": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": true,
+      "data": {
+        "keyword": "certified payroll software",
+        "searchVolume": 170,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 93.85,
+        "adCompetition": 0.39,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -48,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 13:16:46 +00:00"
+      }
+    },
+    "labs|united states|en|construction payroll solution": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|wage compliance tool": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|certified payroll pricing": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best payroll software construction": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hire payroll service": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": true,
+      "data": {
+        "keyword": "hire payroll service",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.86,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": null,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-09-16 17:07:13 +00:00"
+      }
+    },
+    "labs|united states|en|ftc car rule": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ftc used car rule violations": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|used car buyer's guide issues": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|car dealer compliance": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": true,
+      "data": {
+        "keyword": "car dealer compliance",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 52.96,
+        "adCompetition": 0.19,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 17:07:13 +00:00"
+      }
+    },
+    "labs|united states|en|used car compliance software": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ftc rule checklist": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dealer compliance software": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|auto compliance software pricing": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|buy buyer's guide forms": {
+      "fetchedAt": "2026-10-17T09:52:11.050Z",
+      "returned": false,
+      "data": null
     }
   }
 }
