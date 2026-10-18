@@ -7911,6 +7911,426 @@
         "mentionsContactSales": false,
         "mentionsPricing": false
       }
+    },
+    "page|https://www.gymmaster.com/": {
+      "fetchedAt": "2026-10-18T09:16:35.230Z",
+      "data": {
+        "url": "https://www.gymmaster.com/",
+        "finalUrl": "https://www.gymmaster.com/",
+        "retrievedAt": "2026-10-18T09:16:35.230Z",
+        "status": 200,
+        "error": null,
+        "title": "GymMaster | Leading All-In-One Gym Management Software",
+        "description": "The all-in-one gym software system, with 24/7 smart access control, auto-billing & more. Get your free demo today, to see how GymMaster can save you time, and help you grow.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://joinit.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:35.241Z",
+      "data": {
+        "url": "https://joinit.com/pricing",
+        "finalUrl": "https://joinit.com/pricing",
+        "retrievedAt": "2026-10-18T09:16:35.241Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Join It Membership Management Software",
+        "description": "Join It offers a free trial and affordable packages perfect for any budget. Nonprofits and annual packages are eligible for additional discounts.",
+        "priceMentions": [
+          {
+            "text": "$100,000,000",
+            "billingUnit": false,
+            "context": "e Since 2016, Join It has helped 4,000+ organizations track $100,000,000 in membership payments, save time, and delight their member"
+          },
+          {
+            "text": "$29 /mo",
+            "billingUnit": true,
+            "context": "ons qualify for an additional 10% discount. Starter Package $29 /mo 3.0% service fee for online transactions Collect Custom Fie"
+          },
+          {
+            "text": "$99 /mo",
+            "billingUnit": true,
+            "context": "Membership Types Start Free Trial Book a demo Total Package $99 /mo 2.0% service fee for online transactions Digital Membership"
+          },
+          {
+            "text": "$199 /mo",
+            "billingUnit": true,
+            "context": "thing in Starter Start Free Trial Book a demo Extra Package $199 /mo 1.5% service fee for online transactions Support for Custom"
+          },
+          {
+            "text": "$26",
+            "billingUnit": false,
+            "context": "ons qualify for an additional 10% discount. Starter Package $26 .10/mo $313.20/yr 3.0% service fee for online transactions"
+          },
+          {
+            "text": "$313.20/yr",
+            "billingUnit": true,
+            "context": "for an additional 10% discount. Starter Package $26 .10/mo $313.20/yr 3.0% service fee for online transactions Collect Custom Fie"
+          },
+          {
+            "text": "$89",
+            "billingUnit": false,
+            "context": "Membership Types Start Free Trial Book a demo Total Package $89 .10/mo $1069.20/yr 2% service fee for online transactions D"
+          },
+          {
+            "text": "$106",
+            "billingUnit": false,
+            "context": "Types Start Free Trial Book a demo Total Package $89 .10/mo $1069.20/yr 2% service fee for online transactions Digital Membe"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://joinit.com/blog/how-to-retain-members-and-reduce-churn": {
+      "fetchedAt": "2026-10-18T09:16:35.239Z",
+      "data": {
+        "url": "https://joinit.com/blog/how-to-retain-members-and-reduce-churn",
+        "finalUrl": "https://joinit.com/blog/how-to-retain-members-and-reduce-churn",
+        "retrievedAt": "2026-10-18T09:16:35.239Z",
+        "status": 200,
+        "error": null,
+        "title": "How to Retain Members and Reduce Churn",
+        "description": "Gathering new members is great, they need to stick around. How do you make sure that you can retain the members you have and reduce unnecessary churn?",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.gymmaster.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:35.233Z",
+      "data": {
+        "url": "https://www.gymmaster.com/pricing",
+        "finalUrl": "https://www.gymmaster.com/gymmaster-pricing-page/",
+        "retrievedAt": "2026-10-18T09:16:35.233Z",
+        "status": 200,
+        "error": null,
+        "title": "GymMaster Pricing - Plans for Growing Gyms",
+        "description": "GymMaster pricing plans - No hidden costs, cancel anytime, money-back guarantee. Freedom from the front desk at just a few dollars a day using gym software.",
+        "priceMentions": [
+          {
+            "text": "$89",
+            "billingUnit": false,
+            "context": "e only: Foundation plan, for up to 100 current members: USD $89, AUD $119, NZD $129 per site per month. Advanced plan, for"
+          },
+          {
+            "text": "$119",
+            "billingUnit": false,
+            "context": "oundation plan, for up to 100 current members: USD $89, AUD $119, NZD $129 per site per month. Advanced plan, for up to 400"
+          },
+          {
+            "text": "$129",
+            "billingUnit": false,
+            "context": "plan, for up to 100 current members: USD $89, AUD $119, NZD $129 per site per month. Advanced plan, for up to 400 current me"
+          },
+          {
+            "text": "$179",
+            "billingUnit": false,
+            "context": "Advanced plan, for up to 400 current members: USD $129, AUD $179, NZD $189 per site per month. Professional plan, for up to"
+          },
+          {
+            "text": "$189",
+            "billingUnit": false,
+            "context": "lan, for up to 400 current members: USD $129, AUD $179, NZD $189 per site per month. Professional plan, for up to 1300 curre"
+          },
+          {
+            "text": "$209",
+            "billingUnit": false,
+            "context": "nth. Professional plan, for up to 1300 current members: USD $209, AUD $289, NZD $299 per site per month. Enterprise plan, fo"
+          },
+          {
+            "text": "$289",
+            "billingUnit": false,
+            "context": "ssional plan, for up to 1300 current members: USD $209, AUD $289, NZD $299 per site per month. Enterprise plan, for unlimite"
+          },
+          {
+            "text": "$299",
+            "billingUnit": false,
+            "context": "an, for up to 1300 current members: USD $209, AUD $289, NZD $299 per site per month. Enterprise plan, for unlimited current"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ymcareers.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:35.237Z",
+      "data": {
+        "url": "https://www.ymcareers.com/pricing",
+        "finalUrl": "https://www.ymcareers.com/pricing",
+        "retrievedAt": "2026-10-18T09:16:35.237Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.ymcareers.com/resources/whitepapers/10-ways-to-reduce-member-churn/": {
+      "fetchedAt": "2026-10-18T09:16:35.235Z",
+      "data": {
+        "url": "https://www.ymcareers.com/resources/whitepapers/10-ways-to-reduce-member-churn/",
+        "finalUrl": "https://www.ymcareers.com/resources/whitepapers/10-ways-to-reduce-member-churn/",
+        "retrievedAt": "2026-10-18T09:16:35.235Z",
+        "status": 200,
+        "error": null,
+        "title": "10 Ways to Reduce Member Churn",
+        "description": "In this tip sheet, discover ten effective membership retention strategies for associations, reducing member churn.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.returnpro.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:37.475Z",
+      "data": {
+        "url": "https://www.returnpro.com/pricing",
+        "finalUrl": "https://www.returnpro.com/pricing",
+        "retrievedAt": "2026-10-18T09:16:37.475Z",
+        "status": 200,
+        "error": null,
+        "title": "Flexible pricing plans for returns management solutions | ReturnPro",
+        "description": "Explore ReturnPro&#x27;s competitive pricing plans tailored to your returns needs. Compare features across various packages, from basic to enterprise-level, and discover cost-effective solutions for returns volume, warehouse management, supply chain services, and re-commerce. Calculate fees and find",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "ns needs For sellers & brands For enterprise Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month 5 us"
+          },
+          {
+            "text": "$10",
+            "billingUnit": false,
+            "context": "hopify connector only Up to 1,000 returns per month 5 users $10 per additional user Sign up Walmart Seller $0 * Walmart con"
+          },
+          {
+            "text": "$29",
+            "billingUnit": false,
+            "context": "5 users $10 per additional user Sign up Marketplace Seller $29 99* /month Unlimited MP connectors Up to 1,000 returns per"
+          },
+          {
+            "text": "$79",
+            "billingUnit": false,
+            "context": "onth 5 users $10 per additional user Sign up eCommerce Lite $79 99* /month 1 eCommerce store + Unlimited MP connectors Up t"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://nshift.com/delivery-management/returns-management": {
+      "fetchedAt": "2026-10-18T09:16:37.469Z",
+      "data": {
+        "url": "https://nshift.com/delivery-management/returns-management",
+        "finalUrl": "https://nshift.com/delivery-management/returns-management",
+        "retrievedAt": "2026-10-18T09:16:37.469Z",
+        "status": 200,
+        "error": null,
+        "title": "Returns management: how it works and how to improve it | nShift",
+        "description": "Returns management is how retailers handle the products customers send back. A practical guide to the process, the best practices, and what to measure.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.returnpro.com/resources/blog/returnpro-smarter-returns-management-software-for-retailers": {
+      "fetchedAt": "2026-10-18T09:16:37.473Z",
+      "data": {
+        "url": "https://www.returnpro.com/resources/blog/returnpro-smarter-returns-management-software-for-retailers",
+        "finalUrl": "https://www.returnpro.com/resources/blog/returnpro-smarter-returns-management-software-for-retailers",
+        "retrievedAt": "2026-10-18T09:16:37.473Z",
+        "status": 200,
+        "error": null,
+        "title": "ReturnPro: Smarter Returns Management Software for Retailers | ReturnPro",
+        "description": "ReturnPro outperforms the industry by streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste.. Published: Jul 03, 2025.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.claimlane.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:37.477Z",
+      "data": {
+        "url": "https://www.claimlane.com/pricing",
+        "finalUrl": "https://www.claimlane.com/pricing",
+        "retrievedAt": "2026-10-18T09:16:37.477Z",
+        "status": 200,
+        "error": null,
+        "title": "Claimlane Pricing Plans | Flexible Options for Brands",
+        "description": "Flexible after sales pricing: Explore flexible pricing options to deliver best-in-class after-sales for customers and partners. Learn more!",
+        "priceMentions": [
+          {
+            "text": "$800 /month",
+            "billingUnit": true,
+            "context": "re Best for businesses looking for an out-of-the box setup. $800 /month €700 /month Includes 2000 tickets/year Book demo Try Produc"
+          },
+          {
+            "text": "€700 /month",
+            "billingUnit": true,
+            "context": "businesses looking for an out-of-the box setup. $800 /month €700 /month Includes 2000 tickets/year Book demo Try Product tour B2C S"
+          },
+          {
+            "text": "$800/mo",
+            "billingUnit": true,
+            "context": "dor reporting Custom integrations Build your plan Core from $800/mo from €700/mo Custom Add any modules Included in Core Unlimi"
+          },
+          {
+            "text": "€700/mo",
+            "billingUnit": true,
+            "context": "Custom integrations Build your plan Core from $800/mo from €700/mo Custom Add any modules Included in Core Unlimited seats Inv"
+          },
+          {
+            "text": "$25",
+            "billingUnit": false,
+            "context": "time spent per case 20 min 5 min 90 min Staff cost per hour $25 $15 $75 Level of automation with Claimlane i Most Claimlane"
+          },
+          {
+            "text": "$15",
+            "billingUnit": false,
+            "context": "spent per case 20 min 5 min 90 min Staff cost per hour $25 $15 $75 Level of automation with Claimlane i Most Claimlane cus"
+          },
+          {
+            "text": "$75",
+            "billingUnit": false,
+            "context": "nt per case 20 min 5 min 90 min Staff cost per hour $25 $15 $75 Level of automation with Claimlane i Most Claimlane custome"
+          },
+          {
+            "text": "$63,700",
+            "billingUnit": false,
+            "context": "the team adapts. 65% Avg. 1% 100% Estimated annual savings $63,700 Based on 65% automation, average across customers Managing"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.claimlane.com/return-management-system": {
+      "fetchedAt": "2026-10-18T09:16:37.476Z",
+      "data": {
+        "url": "https://www.claimlane.com/return-management-system",
+        "finalUrl": "https://www.claimlane.com/return-management-system",
+        "retrievedAt": "2026-10-18T09:16:37.476Z",
+        "status": 200,
+        "error": null,
+        "title": "What Is a Return Management System (RMS)? Guide 2026",
+        "description": "Learn how an RMS — also known as return authorization software — can help your business solve your returns and warranty claims issues.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://nshift.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:37.471Z",
+      "data": {
+        "url": "https://nshift.com/pricing",
+        "finalUrl": "https://nshift.com/contact-sales",
+        "retrievedAt": "2026-10-18T09:16:37.471Z",
+        "status": 200,
+        "error": null,
+        "title": "Contact nShift sales | Multi-carrier shipping software",
+        "description": "Looking to speak to an expert? Fill out the form to talk to our sales team about nShift",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.restaurant365.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:38.148Z",
+      "data": {
+        "url": "https://www.restaurant365.com/pricing",
+        "finalUrl": "https://www.restaurant365.com/pricing",
+        "retrievedAt": "2026-10-18T09:16:38.148Z",
+        "status": 200,
+        "error": null,
+        "title": "Restaurant Software Pricing I Restaurant365",
+        "description": "Restaurant365’s restaurant-specific accounting and operations software offers a simple pricing model to streamline restaurant operations and increase profits.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.restroworks.com/restaurant-inventory-management-software/": {
+      "fetchedAt": "2026-10-18T09:16:38.151Z",
+      "data": {
+        "url": "https://www.restroworks.com/restaurant-inventory-management-software/",
+        "finalUrl": "https://www.restroworks.com/restaurant-inventory-management-software/",
+        "retrievedAt": "2026-10-18T09:16:38.151Z",
+        "status": 200,
+        "error": null,
+        "title": "Restaurant Inventory Management Software | Restroworks ©",
+        "description": "Simplify inventory with Restaurant Inventory Management Software. Get real-time insights, reduce waste, and make data-driven decisions for profitability.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://mahoneyes.com/restaurant-food-waste-recycling/": {
+      "fetchedAt": "2026-10-18T09:16:38.154Z",
+      "data": {
+        "url": "https://mahoneyes.com/restaurant-food-waste-recycling/",
+        "finalUrl": "https://mahoneyes.com/restaurant-food-waste-recycling/",
+        "retrievedAt": "2026-10-18T09:16:38.154Z",
+        "status": 200,
+        "error": null,
+        "title": "How Is Restaurant Food Waste Recycled? | How Can Restaurants Limit Food Waste?",
+        "description": "The environmental benefits of recycling restaurant food waste are many. Learn how restaurant food waste can be recycled and how restaurants can limit food waste.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.restroworks.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:38.152Z",
+      "data": {
+        "url": "https://www.restroworks.com/pricing",
+        "finalUrl": "https://www.restroworks.com/pricing/",
+        "retrievedAt": "2026-10-18T09:16:38.152Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing & Plans | Restroworks",
+        "description": "Explore Restroworks pricing Based On Your Restaurant's Needs. Our offerings cover software, integrations, and hardware requirements tailored to your restaurant.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.restaurant365.com/blog/best-restaurant-software/": {
+      "fetchedAt": "2026-10-18T09:16:38.145Z",
+      "data": {
+        "url": "https://www.restaurant365.com/blog/best-restaurant-software/",
+        "finalUrl": "https://www.restaurant365.com/blog/best-restaurant-software/",
+        "retrievedAt": "2026-10-18T09:16:38.145Z",
+        "status": 200,
+        "error": null,
+        "title": "Best Restaurant Software for 2024: Top 6 Software Options",
+        "description": "Explore how top-rated restaurant software solutions—including Restaurant365—can help manage everything from online ordering to inventory.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://mahoneyes.com/pricing": {
+      "fetchedAt": "2026-10-18T09:16:38.156Z",
+      "data": {
+        "url": "https://mahoneyes.com/pricing",
+        "finalUrl": "https://mahoneyes.com/pricing",
+        "retrievedAt": "2026-10-18T09:16:38.156Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

@@ -2,6 +2,9 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-18
+- (no candidates killed)
+
 ## 2026-10-17
 *   The Commercial Kitchen's "Fine-Proof" Grease Trap Log Hub — While a compliance pain, the fines are generally lower and the regulatory complexity is localized, making it a smaller and less scalable opportunity compared to federal H-2B. [cite: KILLED.md]
 *   The Independent Daycare's "License-Proof" Incident & Ratio Log — High-stakes, but significant state-by-state variation in regulations and a potentially lower Average Contract Value (ACV) than H-2B compliance. [cite: KILLED.md]
