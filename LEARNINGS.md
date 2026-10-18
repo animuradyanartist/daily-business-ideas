@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-18 (trends)
+- **AI as an Orchestrator of Workflows:** The most compelling AI applications are moving beyond single-task automation to orchestrate entire multi-step workflows, whether it's content repurposing, focus management, or community engagement. This reduces the cognitive load of managing disconnected tools.
+- **The "AI-Powered Scaffolding Kit" Opportunity:** For every emerging AI platform that automates a complex personal or professional workflow, a robust secondary market is forming around digital products (guides, templates, prompt packs) that teach non-experts how to structure inputs, manage outputs, and strategically integrate these tools.
+- **Human-in-the-Loop for AI Governance:** Despite the rise of autonomous AI agents, the need for human judgment, critical thinking, and strategic oversight remains crucial. Products that help users effectively govern and refine AI outputs, rather than blindly accepting them, are gaining importance.
+
+---
+
 ## 2026-10-18
 - (no learnings extracted)
 
