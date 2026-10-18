@@ -6,8 +6,8 @@
     "memo": "ideas/2026-10-18.md"
   },
   "createdAt": "2026-10-18T09:15:25.171Z",
-  "updatedAt": "2026-10-18T09:15:25.172Z",
-  "attempts": 1,
+  "updatedAt": "2026-10-18T10:02:41.375Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -2280,8 +2280,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -2883,6 +2883,98 @@
               "class": "site"
             }
           ]
+        },
+        {
+          "id": "S2",
+          "query": "high ecommerce returns",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-18T10:02:45.403Z",
+          "checkUrl": "https://www.google.com/search?q=high%20ecommerce%20returns&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.richpanel.com",
+              "url": "https://www.richpanel.com/learn/ecommerce-return-rates",
+              "title": "Ecommerce Return Rates in 2026: The Metric That Actually ...",
+              "description": "May 21, 2026 — The average ecommerce return rate is about 20% of online orders heading into 2026: apparel runs 20–40%, electronics 8–15%, beauty 4–12%.",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.bigcommerce.com",
+              "url": "https://www.bigcommerce.com/articles/ecommerce/returns/",
+              "title": "Ecommerce Returns: Best Practices to Reduce Costs in 2026",
+              "description": "Aug 6, 2026 — High return rates across multiple orders. Frequent returns of high value products. Mismatched items or missing products in returned packages. Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.mecalux.com",
+              "url": "https://www.mecalux.com/blog/how-to-reduce-returns-in-ecommerce",
+              "title": "How to reduce returns in ecommerce",
+              "description": "Dec 5, 2025 — The most common reasons for returns include manufacturing defects, unclear product descriptions and issues related to sellers or carriers.",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.jaygroup.com",
+              "url": "https://www.jaygroup.com/blog/ecommerce-returns-taming-the-margin-eating-force-behind-the-buy-button/",
+              "title": "ECommerce Returns: Taming The Margin-Eating Force 📦",
+              "description": "Nov 25, 2025 — Average U.S. ecommerce return rates are around 16.9–18% of online orders. Clothing (25%) and shoes (17%) are the most frequently returned ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.bloomreach.com",
+              "url": "https://www.bloomreach.com/en/blog/e-commerce-returns",
+              "title": "How To Lessen the Impact of Ecommerce Returns",
+              "description": "One of the key factors contributing to high return rates is the gap between the online and brick-and-mortar store experiences. Customers who shop online often ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.cahoot.ai",
+              "url": "https://www.cahoot.ai/top-return-reasons-and-solutions/",
+              "title": "Top Ecommerce Return Reasons and How to Address Them",
+              "description": "Apr 2, 2026 — Discover the most common ecommerce return reasons and proven strategies to reduce return rates and protect profits.",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "xorosoft.com",
+              "url": "https://xorosoft.com/ecommerce-returns-statistics/",
+              "title": "Ecommerce Returns Statistics for 2026",
+              "description": "Aug 20, 2026 — The latest annual NRF and Happy Returns benchmark estimates that consumers returned 19.3% of online sales in 2025, compared with 15.8% across ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.scayle.com",
+              "url": "https://www.scayle.com/library/blog/optimize-ecommerce-returns/",
+              "title": "How to Turn eCommerce Returns into Opportunities",
+              "description": "Aug 21, 2026 — Unravel the complexity of eCommerce returns and turn them into opportunities with strategic insights and actionable steps.",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "neuralens.ai",
+              "url": "http://neuralens.ai/blog/why-ecommerce-returns-are-so-high-and-how-ai-can-reduce-them/",
+              "title": "Why Ecommerce Returns Are So High—and How AI Can ...",
+              "description": "Sep 3, 2025 — Returns are an unavoidable part of ecommerce, but high return rates quickly erode profits, raise operational costs, and hurt customer ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
         }
       ],
       "pages": [
@@ -2918,6 +3010,103 @@
         },
         {
           "id": "P3",
+          "domain": "richpanel.com",
+          "url": "https://www.richpanel.com/learn/ecommerce-return-rates",
+          "finalUrl": "https://www.richpanel.com/learn/ecommerce-return-rates",
+          "retrievedAt": "2026-10-18T10:02:51.846Z",
+          "status": 200,
+          "error": null,
+          "title": "Ecommerce Return Rates in 2026: Benchmarks by Category, and the Metric That Actually Matters | Richpanel",
+          "description": "The average ecommerce return rate is about 20% of online orders heading into 2026: apparel runs 20–40%, electronics 8–15%, beauty 4–12%. But return rate is the number you can least control. See the latest (NRF 2025) benchmarks by category, plus why refund rate and cost-per-return are the metrics tha",
+          "priceMentions": [
+            {
+              "text": "$30",
+              "billingUnit": false,
+              "context": "or work a portal should do. Reverse logistics alone can run $30&ndash;65 per item in electronics, and for furniture it can"
+            },
+            {
+              "text": "$65",
+              "billingUnit": false,
+              "context": "e shipping. Reverse logistics and restocking can run $30 to $65 per item for electronics, and for furniture or oversized go"
+            },
+            {
+              "text": "$849.9",
+              "billingUnit": false,
+              "context": "is expected late 2026). Source for the 15.8% overall rate ($849.9B), the 16.9% / $890B prior-year figures, the ~19.3% ecommer"
+            },
+            {
+              "text": "$890",
+              "billingUnit": false,
+              "context": "). Source for the 15.8% overall rate ($849.9B), the 16.9% / $890B prior-year figures, the ~19.3% ecommerce rate, the 9% frau"
+            },
+            {
+              "text": "$100",
+              "billingUnit": false,
+              "context": "for the broader return-fraud-and-abuse magnitude (north of $100B, roughly 15% of return volume). apprissretail.com Compiled"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "richpanel.com",
+          "url": "https://www.richpanel.com/pricing",
+          "finalUrl": "https://www.richpanel.com/pricing",
+          "retrievedAt": "2026-10-18T10:02:51.847Z",
+          "status": 200,
+          "error": null,
+          "title": "Richpanel Pricing: AI Agents + Helpdesk in One Plan",
+          "description": "AI agents and your helpdesk in one plan. Helpdesk seats from $99 per month, plus AI at about $0.20 per conversation. Book a demo for your exact price.",
+          "priceMentions": [
+            {
+              "text": "$99 per seat",
+              "billingUnit": true,
+              "context": "days. Or your money back. Monthly Annual Save 17% Helpdesk $99 per seat per month No per-ticket fees. AI agents ~ $0.20 per AI hand"
+            },
+            {
+              "text": "$0.20",
+              "billingUnit": false,
+              "context": "desk $99 per seat per month No per-ticket fees. AI agents ~ $0.20 per AI handled conversation i A conversation is the whole t"
+            },
+            {
+              "text": "$0.05",
+              "billingUnit": false,
+              "context": "AI replies Social Media Agent No add-on fee AI usage: about $0.05 per conversation. Answers comments and DMs. Hides spam. Ill"
+            },
+            {
+              "text": "$99 / month",
+              "billingUnit": true,
+              "context": "turns, exchanges and cancellations Returns & Exchanges From $99 / month Paid add-on for ecommerce. 10% better exchange ratio in 60"
+            },
+            {
+              "text": "$0.50",
+              "billingUnit": false,
+              "context": "uestions. How is AI usage billed? AI uses tokens, billed at $0.50 per credit annually. About $0.20 covers a whole conversatio"
+            },
+            {
+              "text": "$200 per month",
+              "billingUnit": true,
+              "context": "ate resolution fee. What is the minimum spend? AI starts at $200 per month, with top-ups in $100 blocks. One helpdesk seat plus the AI"
+            },
+            {
+              "text": "$100",
+              "billingUnit": false,
+              "context": "minimum spend? AI starts at $200 per month, with top-ups in $100 blocks. One helpdesk seat plus the AI minimum starts at $29"
+            },
+            {
+              "text": "$299 per month",
+              "billingUnit": true,
+              "context": "100 blocks. One helpdesk seat plus the AI minimum starts at $299 per month on an annual commitment. Can I buy just the helpdesk? Every"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
           "domain": "returnpro.com",
           "url": "https://www.returnpro.com/resources/blog/returnpro-smarter-returns-management-software-for-retailers",
           "finalUrl": "https://www.returnpro.com/resources/blog/returnpro-smarter-returns-management-software-for-retailers",
@@ -2932,7 +3121,7 @@
           "mentionsPricing": true
         },
         {
-          "id": "P4",
+          "id": "P6",
           "domain": "returnpro.com",
           "url": "https://www.returnpro.com/pricing",
           "finalUrl": "https://www.returnpro.com/pricing",
@@ -2966,98 +3155,27 @@
           "mentionsFreeTrial": false,
           "mentionsContactSales": false,
           "mentionsPricing": true
-        },
-        {
-          "id": "P5",
-          "domain": "claimlane.com",
-          "url": "https://www.claimlane.com/return-management-system",
-          "finalUrl": "https://www.claimlane.com/return-management-system",
-          "retrievedAt": "2026-10-18T09:16:37.476Z",
-          "status": 200,
-          "error": null,
-          "title": "What Is a Return Management System (RMS)? Guide 2026",
-          "description": "Learn how an RMS — also known as return authorization software — can help your business solve your returns and warranty claims issues.",
-          "priceMentions": [],
-          "mentionsFreeTrial": false,
-          "mentionsContactSales": true,
-          "mentionsPricing": true
-        },
-        {
-          "id": "P6",
-          "domain": "claimlane.com",
-          "url": "https://www.claimlane.com/pricing",
-          "finalUrl": "https://www.claimlane.com/pricing",
-          "retrievedAt": "2026-10-18T09:16:37.477Z",
-          "status": 200,
-          "error": null,
-          "title": "Claimlane Pricing Plans | Flexible Options for Brands",
-          "description": "Flexible after sales pricing: Explore flexible pricing options to deliver best-in-class after-sales for customers and partners. Learn more!",
-          "priceMentions": [
-            {
-              "text": "$800 /month",
-              "billingUnit": true,
-              "context": "re Best for businesses looking for an out-of-the box setup. $800 /month €700 /month Includes 2000 tickets/year Book demo Try Produc"
-            },
-            {
-              "text": "€700 /month",
-              "billingUnit": true,
-              "context": "businesses looking for an out-of-the box setup. $800 /month €700 /month Includes 2000 tickets/year Book demo Try Product tour B2C S"
-            },
-            {
-              "text": "$800/mo",
-              "billingUnit": true,
-              "context": "dor reporting Custom integrations Build your plan Core from $800/mo from €700/mo Custom Add any modules Included in Core Unlimi"
-            },
-            {
-              "text": "€700/mo",
-              "billingUnit": true,
-              "context": "Custom integrations Build your plan Core from $800/mo from €700/mo Custom Add any modules Included in Core Unlimited seats Inv"
-            },
-            {
-              "text": "$25",
-              "billingUnit": false,
-              "context": "time spent per case 20 min 5 min 90 min Staff cost per hour $25 $15 $75 Level of automation with Claimlane i Most Claimlane"
-            },
-            {
-              "text": "$15",
-              "billingUnit": false,
-              "context": "spent per case 20 min 5 min 90 min Staff cost per hour $25 $15 $75 Level of automation with Claimlane i Most Claimlane cus"
-            },
-            {
-              "text": "$75",
-              "billingUnit": false,
-              "context": "nt per case 20 min 5 min 90 min Staff cost per hour $25 $15 $75 Level of automation with Claimlane i Most Claimlane custome"
-            },
-            {
-              "text": "$63,700",
-              "billingUnit": false,
-              "context": "the team adapts. 65% Avg. 1% 100% Estimated annual savings $63,700 Based on 65% automation, average across customers Managing"
-            }
-          ],
-          "mentionsFreeTrial": false,
-          "mentionsContactSales": true,
-          "mentionsPricing": true
         }
       ],
-      "reason": "search results for \"high ecommerce returns\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "reason": null,
       "readings": {
         "demand": {
-          "level": "unknown",
+          "level": "low",
           "scope": "direct keywords only",
-          "upTo": null,
+          "upTo": "some",
           "classified": true,
-          "measuredCount": 0,
-          "totalCount": 4,
-          "top": null,
+          "measuredCount": 3,
+          "totalCount": 9,
+          "top": {
+            "keyword": "ecommerce returns solution",
+            "searchVolume": 30,
+            "id": "K5"
+          },
           "category": {
-            "level": "some",
-            "measuredCount": 3,
-            "totalCount": 5,
-            "top": {
-              "keyword": "returns management software",
-              "searchVolume": 210,
-              "id": "K4"
-            }
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
           },
           "broader": {
             "level": "unknown",
@@ -3066,109 +3184,125 @@
             "top": null
           },
           "uncertainCount": 0,
-          "flags": [],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: some (\"returns management software\" 210/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncorroborated",
+              "text": "\"returns management software\" (210/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"ecommerce returns solution\" at 30/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
-          "level": "strong",
+          "level": "moderate",
           "biddingKeywordIds": [
             "K4"
           ],
           "pricedPageIds": [
-            "P4",
             "P6"
           ],
           "pricedDomains": [
-            "returnpro.com",
-            "claimlane.com"
+            "returnpro.com"
           ],
           "pricedPlatforms": [],
-          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $47.38 on \"returns management software\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 2 ranking site(s): returnpro.com, claimlane.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $47.38 on \"returns management software\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 1 ranking site(s): returnpro.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
         },
         "competitors": {
           "vendorLikeDomains": [
             "nshift.com",
+            "richpanel.com",
             "returnpro.com",
             "claimlane.com",
+            "bigcommerce.com",
             "returnprime.com",
+            "mecalux.com",
             "revenuebase.ai",
+            "jaygroup.com",
             "optoro.com",
+            "bloomreach.com",
             "returngo.ai",
-            "gorgias.com"
+            "cahoot.ai",
+            "xorosoft.com",
+            "gorgias.com",
+            "scayle.com",
+            "neuralens.ai"
           ],
           "platformDomains": [],
           "discussionResults": [
             "softwareadvice.com"
           ],
           "pricedDomains": [
-            "returnpro.com",
-            "claimlane.com"
+            "richpanel.com",
+            "returnpro.com"
           ],
-          "note": "8 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on returnpro.com, claimlane.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 2 with an indirect alternative.",
+          "note": "17 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on richpanel.com, returnpro.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
           "directCompetitorDomains": [],
           "indirectAlternativeDomains": [
             "returnpro.com",
-            "claimlane.com"
+            "returnprime.com",
+            "revenuebase.ai",
+            "softwareadvice.com",
+            "gorgias.com"
           ]
         }
       },
-      "evidenceFingerprint": "b1a31872ca3ba89a",
-      "evidenceUpdatedAt": "2026-10-18T09:16:46.971Z",
+      "evidenceFingerprint": "0ea382576bc03b61",
+      "evidenceUpdatedAt": "2026-10-18T10:02:52.274Z",
       "matchesOriginalPick": true,
       "relevance": {
-        "at": "2026-10-18T09:22:00.999Z",
+        "at": "2026-10-18T10:03:36.795Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-10-18T09:16:46.971Z",
+        "evidenceUpdatedAt": "2026-10-18T10:02:52.274Z",
         "qualifiers": [
-          "founder/owner",
           "DTC e-commerce brand",
+          "Apparel, electronics, or home goods industry",
           "$1M-$10M annual revenue"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "People searching 'high ecommerce returns' plausibly include the target customer and it describes the idea's problem."
+            "reason": "People searching this are looking for information or solutions related to the problem of high return rates in e-commerce, which directly affects DTC brands."
           },
           "K2": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "People searching 'reduce return costs' plausibly include the target customer and it describes the idea's problem."
+            "reason": "People searching this are looking for ways to solve the problem of high return costs, which is central to the idea."
           },
           "K3": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "People searching 'manage product returns' plausibly include the target customer and it describes the idea's problem."
+            "reason": "People searching this are looking for solutions to handle the operational aspects of product returns, which is part of the idea's problem."
           },
           "K4": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "People searching 'returns management software' plausibly include the target customer, and it's the wider product category."
+            "topic": "same",
+            "reason": "People searching this are looking for software to manage returns, which is the type of solution the idea offers."
           },
           "K5": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "People searching 'ecommerce returns solution' plausibly include the target customer, and it's the wider product category."
+            "topic": "same",
+            "reason": "People searching this are looking for a solution to e-commerce returns, which is what the idea provides."
           },
           "K6": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "People searching 'reverse logistics platform' plausibly include the target customer, and it's a broader category for the underlying process."
+            "topic": "same",
+            "reason": "People searching this are looking for platforms to manage the reverse logistics process, which is a key part of the idea's problem and solution space."
           },
           "K7": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "People searching 'returns software pricing' plausibly include the target customer, and it's about pricing for the wider product category."
+            "topic": "same",
+            "reason": "People searching this are evaluating the cost of returns management software, which is the type of solution the idea offers."
           },
           "K8": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": "People searching 'best returns management' plausibly include the target customer, and it's about the wider product category."
+            "topic": "same",
+            "reason": "People searching this are looking for the best solutions for returns management, which is the core of the idea."
           },
           "K9": {
             "searcher": "includes",
             "topic": "same",
-            "reason": "People searching 'ecommerce return cost' plausibly include the target customer and it describes the idea's problem."
+            "reason": "People searching this are investigating the costs associated with e-commerce returns, which is the problem the idea aims to solve."
           }
         },
         "items": {
@@ -3177,180 +3311,327 @@
             "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This article explains general returns management for businesses/retailers, which is broader than the idea's specific customer and problem."
+            "reason": "The item discusses returns management for businesses generally, which is broader than the specific DTC e-commerce brand customer and their profit-eroding problem."
           },
           "S1.3": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item offers returns management software for retailers, addressing similar problems but for a broader customer base."
+            "reason": "The item offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
           },
           "S1.4": {
-            "customer": "unclear",
+            "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This guide explains what an RMS is, addressing a broader problem for an unclear customer."
+            "reason": "The item is a general guide about Return Management Systems, not specifically tailored to the DTC e-commerce brand customer or their profit-eroding problem."
           },
           "S1.5": {
             "customer": "broader",
-            "customerMatches": [],
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
             "problem": "broader",
-            "offering": "no",
-            "reason": "This article lists returns management software for e-commerce, which is a broader customer and problem scope."
+            "offering": "yes",
+            "reason": "The item lists returns management software for 'e-commerce' and 'Shopify brands,' which is a broader customer group than the idea's specific DTC e-commerce brands with a revenue range."
           },
           "S1.6": {
             "customer": "broader",
-            "customerMatches": [],
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
             "problem": "broader",
-            "offering": "no",
-            "reason": "This item lists e-commerce returns management software companies, which is broader than the idea's specific customer and problem."
+            "offering": "yes",
+            "reason": "The item lists e-commerce returns management software companies, which serves a broader e-commerce customer base than the idea's specific DTC e-commerce brands."
           },
           "S1.7": {
             "customer": "different",
             "customerMatches": [],
-            "problem": "broader",
+            "problem": "different",
             "offering": "yes",
-            "reason": "This item offers returns management for 3PLs, which is a different customer, even though the problem is related."
+            "reason": "The item offers returns management for 3PLs, which is a different customer than the DTC e-commerce brand."
           },
           "S1.8": {
             "customer": "broader",
-            "customerMatches": [],
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
             "problem": "broader",
             "offering": "no",
-            "reason": "This article explains what an RMS is for eCommerce businesses, which is a broader customer and problem."
+            "reason": "The item explains what an RMS is for 'eCommerce businesses,' which is a broader customer group than the idea's specific DTC e-commerce brands."
           },
           "S1.9": {
-            "customer": "unclear",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "no",
-            "reason": "This article lists general returns management software, which is broader than the idea's specific customer and problem."
-          },
-          "S1.10": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
+            "offering": "yes",
+            "reason": "The item lists and compares returns management software for 'any organization,' which is a broader customer than the specific DTC e-commerce brand."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item lists returns management tools for 'Ecommerce,' which is a broader customer group than the idea's specific DTC e-commerce brands."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "Apparel, electronics, or home goods industry"
+            ],
+            "problem": "same",
             "offering": "no",
-            "reason": "This article lists returns management tools for e-commerce, which is a broader customer and problem scope."
+            "reason": "The item discusses high e-commerce return rates and their impact on profits, which is the idea's problem, for industries that match the idea's target."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses best practices to reduce costs from high e-commerce returns, which directly addresses the idea's problem for e-commerce brands."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses how to reduce returns in e-commerce, which is the idea's problem, for a broader e-commerce customer."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "Apparel, electronics, or home goods industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses e-commerce returns as a 'margin-eating force' and mentions relevant industries, directly aligning with the idea's problem."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses how to lessen the impact of e-commerce returns, which is the idea's problem, for a broader e-commerce customer."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses how to reduce e-commerce return rates and protect profits, directly addressing the idea's problem for a broader e-commerce customer."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item provides statistics on high e-commerce return rates, which quantifies the idea's problem for a broader e-commerce customer."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses managing the complexity of e-commerce returns and turning them into opportunities, which aligns with the idea's problem for a broader e-commerce customer."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "DTC e-commerce brand"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses why high e-commerce return rates erode profits and raise costs, directly addressing the idea's problem for a broader e-commerce customer."
           },
           "P1": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This page explains general returns management for retailers, which is broader than the idea's specific customer and problem."
+            "reason": "The page is a general guide on returns management for retailers, which is broader than the specific DTC e-commerce brand customer and their profit-eroding problem."
           },
           "P2": {
             "customer": "unclear",
             "customerMatches": [],
-            "problem": "different",
+            "problem": "unclear",
             "offering": "yes",
-            "reason": "This page is about contacting sales for shipping software, which is a different problem from the idea's focus on returns costs."
+            "reason": "The page is a sales contact page for shipping software, which is too generic to assess customer or problem relevance."
           },
           "P3": {
             "customer": "broader",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "yes",
-            "reason": "This page offers returns management software for retailers, addressing similar problems but for a broader customer base."
+            "customerMatches": [
+              "Apparel, electronics, or home goods industry"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The page discusses high e-commerce return rates and relevant metrics, directly addressing the idea's problem for industries that match the idea's target."
           },
           "P4": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The page is a pricing page for AI agents and helpdesk software, which is a different offering and problem space than the idea's returns management."
+          },
+          "P5": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This page provides pricing for general returns management solutions, which is broader than the idea's specific customer and problem."
-          },
-          "P5": {
-            "customer": "unclear",
-            "customerMatches": [],
-            "problem": "broader",
-            "offering": "no",
-            "reason": "This page explains what an RMS is and how it can help businesses with returns, which is a broader problem for an unclear customer."
+            "reason": "The page offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
           },
           "P6": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This page provides pricing for after-sales solutions for brands, which is a broader customer and problem than the idea's focus."
+            "reason": "The page offers pricing plans for returns management solutions for businesses with returns, which is a broader customer group than the specific DTC e-commerce brands."
           }
         },
         "missing": []
       },
       "assessmentRaw": {
         "id": "2026-10-18:dtc-returns-management-hub",
-        "opportunity": "The opportunity is to help direct-to-consumer (DTC) e-commerce brands reduce the significant costs associated with product returns. This solution aims to streamline complex logistics, reduce processing labor, and improve re-stocking/resale efficiency, thereby boosting profit margins.",
-        "whoPays": "The Founder/Owner of direct-to-consumer (DTC) e-commerce brands will pay. This is an inference, as they are motivated to reduce the financial impact of returns and improve efficiency, given that returns are a structural cost of retail that erodes profit margins.",
+        "opportunity": "The opportunity is to provide a \"Profit-First\" Returns Management Hub for direct-to-consumer (DTC) e-commerce brands. This solution aims to address the significant costs associated with returns, which erode profit margins due to complex logistics, high processing labor, and inefficient re-stocking/resale processes.",
+        "whoPays": "The Founder/Owner of direct-to-consumer (DTC) e-commerce brands will pay. This is an inference, as they are expected to pay to reduce the financial impact of returns and improve efficiency, as returns are a structural cost of retail that erodes profit margins.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "There is no direct evidence from search results or pages describing the specific problem of significant costs from returns due to complex logistics, high processing labor, and inefficient re-stocking/resale processes for DTC e-commerce brands generating $1M-$10M in annual revenue.",
-          "inference": "While the original memo states that returns are a significant cost center for DTC brands, the provided evidence does not directly support this problem statement with quotes from relevant sources. The direct keywords related to the problem ('high ecommerce returns', 'reduce return costs', 'manage product returns', 'ecommerce return cost') have no search volume data."
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "The average ecommerce return rate is about 20% of online orders heading into 2026: apparel runs 20–40%, electronics 8–15%, beauty 4–12%."
+            },
+            {
+              "id": "S2.4",
+              "quote": "High return rates across multiple orders."
+            },
+            {
+              "id": "S2.6",
+              "quote": "ECommerce Returns: Taming The Margin-Eating Force"
+            },
+            {
+              "id": "S2.8",
+              "quote": "reduce return rates and protect profits."
+            },
+            {
+              "id": "S2.9",
+              "quote": "consumers returned 19.3% of online sales in 2025"
+            },
+            {
+              "id": "S2.11",
+              "quote": "high return rates quickly erode profits, raise operational costs"
+            },
+            {
+              "id": "P3",
+              "quote": "Reverse logistics alone can run $30&ndash;65 per item in electronics"
+            }
+          ],
+          "observed": "E-commerce return rates are high, averaging around 17-20% of online orders, with apparel and electronics often higher. These high return rates are described as a \"margin-eating force\" that \"quickly erode profits, raise operational costs, and hurt customer\" experience. The cost of reverse logistics can be significant, for example, running \"$30&ndash;65 per item in electronics\".",
+          "inference": "DTC e-commerce brands, particularly in apparel, electronics, or home goods, likely face these high return rates and associated costs, impacting their profit margins due to complex logistics, labor, and re-stocking/resale processes."
         },
         "competition": {
           "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Smarter Returns Management Software for Retailers"
+            },
+            {
+              "id": "S1.5",
+              "quote": "Best returns management software for Shopify brands"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Standard $29.95/month Pro $69.95/month Premium $179.95/month"
+            },
+            {
+              "id": "P5",
+              "quote": "streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste."
+            },
+            {
+              "id": "P6",
+              "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month"
+            }
+          ],
           "alternatives": [
             {
               "name": "ReturnPro",
               "type": "indirect",
-              "what": "ReturnPro offers smarter returns management software for retailers, streamlining reverse logistics with AI-powered returns, smart routing, and resale to maximize recovery and profit while reducing costs and waste. They offer plans for Shopify, Walmart, and Marketplace sellers, starting at $0 for up to 1,000 returns/month.",
+              "what": "Offers \"Smarter Returns Management Software for Retailers\" that aims to outperform the industry by \"streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste.\" They provide flexible pricing plans including a \"Shopify Seller\" option.",
               "basis": [
                 {
                   "id": "S1.3",
-                  "quote": "ReturnPro outperforms the industry by streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery"
+                  "quote": "Smarter Returns Management Software for Retailers"
                 },
                 {
-                  "id": "P4",
+                  "id": "P5",
+                  "quote": "streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste."
+                },
+                {
+                  "id": "P6",
                   "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month"
                 }
               ]
             },
             {
-              "name": "Claimlane",
+              "name": "Return Prime",
               "type": "indirect",
-              "what": "Claimlane offers flexible after-sales pricing plans for brands, with a 'Core' package starting at $800/month including 2000 tickets/year, aiming to deliver best-in-class after-sales for customers and partners.",
+              "what": "Listed as one of the \"Best returns management software for Shopify brands\" for e-commerce.",
               "basis": [
                 {
-                  "id": "P6",
-                  "quote": "Core from $800/mo from €700/mo Includes 2000 tickets/year"
-                },
+                  "id": "S1.5",
+                  "quote": "Best returns management software for Shopify brands"
+                }
+              ]
+            },
+            {
+              "name": "Software Advice",
+              "type": "indirect",
+              "what": "A review directory that lists and compares \"Returns Management (RMS) Software\" for various organizations, showing example pricing tiers like \"Standard $29.95/month Pro $69.95/month Premium $179.95/month.\"",
+              "basis": [
                 {
-                  "id": "P6",
-                  "quote": "Explore flexible pricing options to deliver best-in-class after-sales for customers and partners."
+                  "id": "S1.9",
+                  "quote": "Standard $29.95/month Pro $69.95/month Premium $179.95/month"
                 }
               ]
             }
           ],
           "strengths": [
             {
-              "text": "ReturnPro offers AI-powered returns, smart routing, and resale to maximize recovery and profit for retailers.",
+              "text": "Competitors offer returns management software with features like AI-powered returns, smart routing, and resale to maximize recovery and profit while reducing costs.",
               "basis": [
                 {
-                  "id": "S1.3",
-                  "quote": "ReturnPro outperforms the industry by streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery"
+                  "id": "P5",
+                  "quote": "streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste."
                 }
               ],
               "kind": "observed"
             },
             {
-              "text": "ReturnPro provides flexible pricing plans, including free options for Shopify and Walmart sellers for up to 1,000 returns per month.",
-              "basis": [
-                {
-                  "id": "P4",
-                  "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month"
-                }
-              ],
-              "kind": "observed"
-            },
-            {
-              "text": "Claimlane offers flexible after-sales pricing plans for brands, with a focus on delivering best-in-class after-sales.",
+              "text": "Some solutions offer specific integrations, such as Shopify connectors, and tiered pricing plans.",
               "basis": [
                 {
                   "id": "P6",
-                  "quote": "Explore flexible pricing options to deliver best-in-class after-sales for customers and partners."
+                  "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month"
+                },
+                {
+                  "id": "S1.9",
+                  "quote": "Standard $29.95/month Pro $69.95/month Premium $179.95/month"
                 }
               ],
               "kind": "observed"
@@ -3358,12 +3639,7 @@
           ],
           "gaps": [
             {
-              "text": "The evidence does not show any competitor specifically targeting DTC e-commerce brands generating $1 million to $10 million in annual revenue with a 'Profit-First' approach that explicitly addresses the unique challenges of this segment regarding complex logistics, high processing labor, and inefficient re-stocking/resale processes.",
-              "basis": [],
-              "kind": "inference"
-            },
-            {
-              "text": "The evidence does not show competitors explicitly detailing how they reduce the cost per return within the $10-$65 range mentioned in the original memo, beyond general cost reduction claims.",
+              "text": "The evidence does not show any direct competitors specifically targeting DTC brands in the $1 million to $10 million annual revenue range with an explicit \"profit-first\" returns management hub.",
               "basis": [],
               "kind": "inference"
             }
@@ -3371,124 +3647,256 @@
         },
         "changes": [],
         "feasibility": {
-          "level": "moderate",
-          "note": "A small first experiment focusing on a specific aspect of returns management (e.g., automating a part of the re-stocking process or optimizing return shipping labels) for a single DTC brand would be moderately feasible, potentially integrating with existing e-commerce platforms."
+          "level": "easy",
+          "note": "A small first experiment, such as conducting customer interviews or setting up a landing page to gauge interest, is straightforward and requires minimal resources."
         },
         "unproven": [
-          "The existence and severity of the problem (significant costs from returns due to complex logistics, high processing labor, and inefficient re-stocking/resale processes) specifically for DTC e-commerce brands generating $1 million to $10 million in annual revenue.",
-          "The willingness of the target customer to pay for a solution that specifically addresses these profit-eroding aspects of returns, given the presence of broader returns management software.",
-          "The specific features that would constitute a 'Profit-First' approach and how they would differentiate from existing solutions."
+          "Specific demand from DTC brands ($1M-$10M revenue) for a \"profit-first\" solution.",
+          "Willingness to pay for a \"profit-first\" solution versus generic returns management software.",
+          "The exact nature and scale of \"complex logistics, high processing labor, and inefficient re-stocking/resale processes\" for the target customer.",
+          "Whether the keyword \"returns management software\" (K4) is directly relevant to this idea's specific customer and problem.",
+          "The specific features and pricing that would attract the target customer segment."
         ],
         "nextExperiment": {
-          "what": "Conduct 10-15 problem interviews with founders/owners of DTC e-commerce brands (apparel, electronics, home goods) generating $1M-$10M in annual revenue to understand their current returns processes, the costs involved, and their biggest pain points related to logistics, labor, and re-stocking/resale.",
-          "cost": "$0 (time for outreach and interviews)",
-          "duration": "2-3 weeks"
+          "what": "Conduct problem interviews with 5-10 founders/owners of DTC e-commerce brands (within the $1M-$10M annual revenue range) to deeply understand their specific pain points, current methods for managing returns, and the financial impact on their profit margins. Focus on their perception of \"profit-first\" solutions.",
+          "cost": "Low cash (e.g., small incentives for participants if needed, otherwise none) + 1-2 weeks of time for scheduling and conducting interviews.",
+          "duration": "2 weeks"
         },
-        "continueIf": "At least 70% of interviewed DTC founders/owners articulate significant, quantifiable financial losses or operational inefficiencies due to returns, and express a strong desire for a solution that directly impacts their profit margins.",
-        "stopIf": "Fewer than 50% of interviewed DTC founders/owners identify returns as a critical profit-eroding problem, or if they indicate that existing solutions adequately address their needs without significant pain."
+        "continueIf": "At least 3 out of 5 interviewed founders express significant frustration with their current returns costs and processes, and indicate they are actively seeking solutions that explicitly focus on improving profit margins from returns.",
+        "stopIf": "Most interviewed founders state that returns are a minor issue, they have adequate solutions, or they are unwilling to pay for a specialized \"profit-first\" approach to returns management."
       },
       "assessment": {
-        "opportunity": "The opportunity is to help direct-to-consumer (DTC) e-commerce brands reduce the significant costs associated with product returns. This solution aims to streamline complex logistics, reduce processing labor, and improve re-stocking/resale efficiency, thereby boosting profit margins.",
-        "whoPays": "The Founder/Owner of direct-to-consumer (DTC) e-commerce brands will pay. This is an inference, as they are motivated to reduce the financial impact of returns and improve efficiency, given that returns are a structural cost of retail that erodes profit margins.",
+        "opportunity": "The opportunity is to provide a \"Profit-First\" Returns Management Hub for direct-to-consumer (DTC) e-commerce brands. This solution aims to address the significant costs associated with returns, which erode profit margins due to complex logistics, high processing labor, and inefficient re-stocking/resale processes.",
+        "whoPays": "The Founder/Owner of direct-to-consumer (DTC) e-commerce brands will pay. This is an inference, as they are expected to pay to reduce the financial impact of returns and improve efficiency, as returns are a structural cost of retail that erodes profit margins.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "",
-          "inference": "While the original memo states that returns are a significant cost center for DTC brands, the provided evidence does not directly support this problem statement with quotes from relevant sources. The direct keywords related to the problem ('high ecommerce returns', 'reduce return costs', 'manage product returns', 'ecommerce return cost') have no search volume data."
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "The average ecommerce return rate is about 20% of online orders heading into 2026: apparel runs 20–40%, electronics 8–15%, beauty 4–12%.",
+              "domain": "richpanel.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses high e-commerce return rates and their impact on profits, which is the idea's problem, for industries that match the idea's target."
+            },
+            {
+              "id": "S2.4",
+              "quote": "High return rates across multiple orders.",
+              "domain": "bigcommerce.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses best practices to reduce costs from high e-commerce returns, which directly addresses the idea's problem for e-commerce brands."
+            },
+            {
+              "id": "S2.6",
+              "quote": "ECommerce Returns: Taming The Margin-Eating Force",
+              "domain": "jaygroup.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses e-commerce returns as a 'margin-eating force' and mentions relevant industries, directly aligning with the idea's problem."
+            },
+            {
+              "id": "S2.8",
+              "quote": "reduce return rates and protect profits.",
+              "domain": "cahoot.ai",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses how to reduce e-commerce return rates and protect profits, directly addressing the idea's problem for a broader e-commerce customer."
+            },
+            {
+              "id": "S2.9",
+              "quote": "consumers returned 19.3% of online sales in 2025",
+              "domain": "xorosoft.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item provides statistics on high e-commerce return rates, which quantifies the idea's problem for a broader e-commerce customer."
+            },
+            {
+              "id": "S2.11",
+              "quote": "high return rates quickly erode profits, raise operational costs",
+              "domain": "neuralens.ai",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses why high e-commerce return rates erode profits and raise costs, directly addressing the idea's problem for a broader e-commerce customer."
+            },
+            {
+              "id": "P3",
+              "quote": "Reverse logistics alone can run $30&ndash;65 per item in electronics",
+              "domain": "richpanel.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "The page discusses high e-commerce return rates and relevant metrics, directly addressing the idea's problem for industries that match the idea's target."
+            }
+          ],
+          "observed": "E-commerce return rates are high, averaging around 17-20% of online orders, with apparel and electronics often higher. These high return rates are described as a \"margin-eating force\" that \"quickly erode profits, raise operational costs, and hurt customer\" experience. The cost of reverse logistics can be significant, for example, running \"$30&ndash;65 per item in electronics\".",
+          "inference": "DTC e-commerce brands, particularly in apparel, electronics, or home goods, likely face these high return rates and associated costs, impacting their profit margins due to complex logistics, labor, and re-stocking/resale processes."
         },
         "competition": {
-          "level": "unknown",
-          "basis": [],
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Smarter Returns Management Software for Retailers",
+              "domain": "returnpro.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
+            },
+            {
+              "id": "S1.5",
+              "quote": "Best returns management software for Shopify brands",
+              "domain": "returnprime.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item lists returns management software for 'e-commerce' and 'Shopify brands,' which is a broader customer group than the idea's specific DTC e-commerce brands with a revenue range."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Standard $29.95/month Pro $69.95/month Premium $179.95/month",
+              "domain": "softwareadvice.com",
+              "kind": "S",
+              "cls": "review_directory",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item lists and compares returns management software for 'any organization,' which is a broader customer than the specific DTC e-commerce brand."
+            },
+            {
+              "id": "P5",
+              "quote": "streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste.",
+              "domain": "returnpro.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The page offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
+            },
+            {
+              "id": "P6",
+              "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month",
+              "domain": "returnpro.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The page offers pricing plans for returns management solutions for businesses with returns, which is a broader customer group than the specific DTC e-commerce brands."
+            }
+          ],
           "directCompetitors": [],
           "indirectAlternatives": [
             "returnpro.com",
-            "claimlane.com"
+            "returnprime.com",
+            "softwareadvice.com"
           ],
           "alternatives": [
             {
               "name": "ReturnPro",
               "type": "indirect",
-              "what": "ReturnPro offers smarter returns management software for retailers, streamlining reverse logistics with AI-powered returns, smart routing, and resale to maximize recovery and profit while reducing costs and waste. They offer plans for Shopify, Walmart, and Marketplace sellers, starting at $0 for up",
+              "what": "Offers \"Smarter Returns Management Software for Retailers\" that aims to outperform the industry by \"streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste.\" They provide flexible pricing plans including a \"Shop",
               "basis": [
                 {
                   "id": "S1.3",
-                  "quote": "ReturnPro outperforms the industry by streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery",
+                  "quote": "Smarter Returns Management Software for Retailers",
                   "domain": "returnpro.com",
                   "kind": "S",
                   "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This item offers returns management software for retailers, addressing similar problems but for a broader customer base."
+                  "relevanceReason": "The item offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
                 },
                 {
-                  "id": "P4",
+                  "id": "P5",
+                  "quote": "streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste.",
+                  "domain": "returnpro.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The page offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
+                },
+                {
+                  "id": "P6",
                   "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month",
                   "domain": "returnpro.com",
                   "kind": "P",
                   "cls": "page",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This page provides pricing for general returns management solutions, which is broader than the idea's specific customer and problem."
+                  "relevanceReason": "The page offers pricing plans for returns management solutions for businesses with returns, which is a broader customer group than the specific DTC e-commerce brands."
                 }
               ]
             },
             {
-              "name": "Claimlane",
+              "name": "Return Prime",
               "type": "indirect",
-              "what": "Claimlane offers flexible after-sales pricing plans for brands, with a 'Core' package starting at $800/month including 2000 tickets/year, aiming to deliver best-in-class after-sales for customers and partners.",
+              "what": "Listed as one of the \"Best returns management software for Shopify brands\" for e-commerce.",
               "basis": [
                 {
-                  "id": "P6",
-                  "quote": "Explore flexible pricing options to deliver best-in-class after-sales for customers and partners.",
-                  "domain": "claimlane.com",
-                  "kind": "P",
-                  "cls": "page",
+                  "id": "S1.5",
+                  "quote": "Best returns management software for Shopify brands",
+                  "domain": "returnprime.com",
+                  "kind": "S",
+                  "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This page provides pricing for after-sales solutions for brands, which is a broader customer and problem than the idea's focus."
+                  "relevanceReason": "The item lists returns management software for 'e-commerce' and 'Shopify brands,' which is a broader customer group than the idea's specific DTC e-commerce brands with a revenue range."
+                }
+              ]
+            },
+            {
+              "name": "Software Advice",
+              "type": "indirect",
+              "what": "A review directory that lists and compares \"Returns Management (RMS) Software\" for various organizations, showing example pricing tiers like \"Standard $29.95/month Pro $69.95/month Premium $179.95/month.\"",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Standard $29.95/month Pro $69.95/month Premium $179.95/month",
+                  "domain": "softwareadvice.com",
+                  "kind": "S",
+                  "cls": "review_directory",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item lists and compares returns management software for 'any organization,' which is a broader customer than the specific DTC e-commerce brand."
                 }
               ]
             }
           ],
           "strengths": [
             {
-              "text": "ReturnPro offers AI-powered returns, smart routing, and resale to maximize recovery and profit for retailers.",
+              "text": "Competitors offer returns management software with features like AI-powered returns, smart routing, and resale to maximize recovery and profit while reducing costs.",
               "basis": [
                 {
-                  "id": "S1.3",
-                  "quote": "ReturnPro outperforms the industry by streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery",
+                  "id": "P5",
+                  "quote": "streamlining reverse logistics with AI-powered returns, smart routing, and resale, maximizing recovery and profit while reducing costs and waste.",
                   "domain": "returnpro.com",
-                  "kind": "S",
-                  "cls": "site",
+                  "kind": "P",
+                  "cls": "page",
                   "relevance": "broader",
-                  "relevanceReason": "This item offers returns management software for retailers, addressing similar problems but for a broader customer base."
+                  "relevanceReason": "The page offers returns management software for 'retailers,' which is a broader customer group than the specific DTC e-commerce brands."
                 }
               ],
               "kind": "observed"
             },
             {
-              "text": "ReturnPro provides flexible pricing plans, including free options for Shopify and Walmart sellers for up to 1,000 returns per month.",
+              "text": "Some solutions offer specific integrations, such as Shopify connectors, and tiered pricing plans.",
               "basis": [
                 {
-                  "id": "P4",
+                  "id": "P6",
                   "quote": "Shopify Seller $0 * Shopify connector only Up to 1,000 returns per month",
                   "domain": "returnpro.com",
                   "kind": "P",
                   "cls": "page",
                   "relevance": "broader",
-                  "relevanceReason": "This page provides pricing for general returns management solutions, which is broader than the idea's specific customer and problem."
-                }
-              ],
-              "kind": "observed"
-            },
-            {
-              "text": "Claimlane offers flexible after-sales pricing plans for brands, with a focus on delivering best-in-class after-sales.",
-              "basis": [
+                  "relevanceReason": "The page offers pricing plans for returns management solutions for businesses with returns, which is a broader customer group than the specific DTC e-commerce brands."
+                },
                 {
-                  "id": "P6",
-                  "quote": "Explore flexible pricing options to deliver best-in-class after-sales for customers and partners.",
-                  "domain": "claimlane.com",
-                  "kind": "P",
-                  "cls": "page",
+                  "id": "S1.9",
+                  "quote": "Standard $29.95/month Pro $69.95/month Premium $179.95/month",
+                  "domain": "softwareadvice.com",
+                  "kind": "S",
+                  "cls": "review_directory",
                   "relevance": "broader",
-                  "relevanceReason": "This page provides pricing for after-sales solutions for brands, which is a broader customer and problem than the idea's focus."
+                  "relevanceReason": "The item lists and compares returns management software for 'any organization,' which is a broader customer than the specific DTC e-commerce brand."
                 }
               ],
               "kind": "observed"
@@ -3496,12 +3904,7 @@
           ],
           "gaps": [
             {
-              "text": "The evidence does not show any competitor specifically targeting DTC e-commerce brands generating $1 million to $10 million in annual revenue with a 'Profit-First' approach that explicitly addresses the unique challenges of this segment regarding complex logistics, high processing labor, and inefficient re-stocking/resale processes.",
-              "basis": [],
-              "kind": "inference"
-            },
-            {
-              "text": "The evidence does not show competitors explicitly detailing how they reduce the cost per return within the $10-$65 range mentioned in the original memo, beyond general cost reduction claims.",
+              "text": "The evidence does not show any direct competitors specifically targeting DTC brands in the $1 million to $10 million annual revenue range with an explicit \"profit-first\" returns management hub.",
               "basis": [],
               "kind": "inference"
             }
@@ -3509,44 +3912,36 @@
         },
         "changes": [],
         "feasibility": {
-          "level": "moderate",
-          "note": "A small first experiment focusing on a specific aspect of returns management (e.g., automating a part of the re-stocking process or optimizing return shipping labels) for a single DTC brand would be moderately feasible, potentially integrating with existing e-commerce platforms."
+          "level": "easy",
+          "note": "A small first experiment, such as conducting customer interviews or setting up a landing page to gauge interest, is straightforward and requires minimal resources."
         },
         "unproven": [
-          "The existence and severity of the problem (significant costs from returns due to complex logistics, high processing labor, and inefficient re-stocking/resale processes) specifically for DTC e-commerce brands generating $1 million to $10 million in annual revenue.",
-          "The willingness of the target customer to pay for a solution that specifically addresses these profit-eroding aspects of returns, given the presence of broader returns management software.",
-          "The specific features that would constitute a 'Profit-First' approach and how they would differentiate from existing solutions."
+          "Specific demand from DTC brands ($1M-$10M revenue) for a \"profit-first\" solution.",
+          "Willingness to pay for a \"profit-first\" solution versus generic returns management software.",
+          "The exact nature and scale of \"complex logistics, high processing labor, and inefficient re-stocking/resale processes\" for the target customer.",
+          "Whether the keyword \"returns management software\" (K4) is directly relevant to this idea's specific customer and problem.",
+          "The specific features and pricing that would attract the target customer segment."
         ],
         "nextExperiment": {
-          "what": "Conduct 10-15 problem interviews with founders/owners of DTC e-commerce brands (apparel, electronics, home goods) generating $1M-$10M in annual revenue to understand their current returns processes, the costs involved, and their biggest pain points related to logistics, labor, and re-stocking/resale.",
-          "cost": "$0 (time for outreach and interviews)",
-          "duration": "2-3 weeks"
+          "what": "Conduct problem interviews with 5-10 founders/owners of DTC e-commerce brands (within the $1M-$10M annual revenue range) to deeply understand their specific pain points, current methods for managing returns, and the financial impact on their profit margins. Focus on their perception of \"profit-first\" solutions.",
+          "cost": "Low cash (e.g., small incentives for participants if needed, otherwise none) + 1-2 weeks of time for scheduling and conducting interviews.",
+          "duration": "2 weeks"
         },
-        "continueIf": "At least 70% of interviewed DTC founders/owners articulate significant, quantifiable financial losses or operational inefficiencies due to returns, and express a strong desire for a solution that directly impacts their profit margins.",
-        "stopIf": "Fewer than 50% of interviewed DTC founders/owners identify returns as a critical profit-eroding problem, or if they indicate that existing solutions adequately address their needs without significant pain.",
+        "continueIf": "At least 3 out of 5 interviewed founders express significant frustration with their current returns costs and processes, and indicate they are actively seeking solutions that explicitly focus on improving profit margins from returns.",
+        "stopIf": "Most interviewed founders state that returns are a minor issue, they have adequate solutions, or they are unwilling to pay for a specialized \"profit-first\" approach to returns management.",
         "removedLinks": 0,
-        "downgraded": [
-          "competition some → unknown: no cited item was both quote-checked and judged a competitor or alternative for this problem"
-        ],
+        "downgraded": [],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
-          "rejectedCitations": [
-            {
-              "claim": "alternative Claimlane",
-              "id": "P6",
-              "reason": "quote not found in the cited item"
-            }
-          ],
+          "rejectedCitations": [],
           "irrelevantCitations": [],
-          "downgraded": [
-            "competition some → unknown: no cited item was both quote-checked and judged a competitor or alternative for this problem"
-          ],
+          "downgraded": [],
           "dropped": []
         },
-        "assessedAt": "2026-10-18T09:22:38.654Z",
-        "evidenceUpdatedAt": "2026-10-18T09:16:46.971Z"
+        "assessedAt": "2026-10-18T10:04:16.954Z",
+        "evidenceUpdatedAt": "2026-10-18T10:02:52.274Z"
       }
     },
     {
@@ -5333,14 +5728,23 @@
       "status": "charged",
       "budget": "recorded",
       "costEstimated": false
+    },
+    {
+      "at": "2026-10-18T10:02:45.403Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "c30a42e8-31e6-5fe3-9ba4-97c4f9b96b55",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
     }
   ],
   "provider": {
     "status": "live",
     "reason": null,
-    "warnings": [
-      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
-    ]
+    "warnings": []
   },
   "budget": {
     "backend": "git-ledger",
@@ -5352,14 +5756,14 @@
       "month": "2026-10",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.07476,
+      "chargedUsd": 0.10044,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.92524
+      "remainingUsd": 1.89956
     },
-    "monthToDateUsdBefore": 0.07476,
-    "spentThisRunUsd": 0.02568
+    "monthToDateUsdBefore": 0.10044,
+    "spentThisRunUsd": 0.002
   },
   "marketSupport": {
     "united states|en": {
@@ -5370,29 +5774,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 27,
-    "keywordsFromCache": 0,
-    "labsUsd": 0.01524,
-    "serpQueries": 6,
-    "serpsFromCache": 0,
-    "serpUsd": 0.012,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 9,
+    "labsUsd": 0,
+    "serpQueries": 1,
+    "serpsFromCache": 1,
+    "serpUsd": 0.002,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 27
+        "ideas": 1,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.02724,
-    "reservedUsd": 0.029964
+    "totalUsd": 0.002,
+    "reservedUsd": 0.0022
   },
   "lastGather": {
-    "at": "2026-10-18T09:16:46.972Z",
+    "at": "2026-10-18T10:02:52.274Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.02568,
+    "pendingIdeas": 1,
+    "spentUsd": 0.002,
     "note": null
   }
 }

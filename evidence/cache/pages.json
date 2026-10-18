@@ -8331,6 +8331,105 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.richpanel.com/pricing": {
+      "fetchedAt": "2026-10-18T10:02:51.847Z",
+      "data": {
+        "url": "https://www.richpanel.com/pricing",
+        "finalUrl": "https://www.richpanel.com/pricing",
+        "retrievedAt": "2026-10-18T10:02:51.847Z",
+        "status": 200,
+        "error": null,
+        "title": "Richpanel Pricing: AI Agents + Helpdesk in One Plan",
+        "description": "AI agents and your helpdesk in one plan. Helpdesk seats from $99 per month, plus AI at about $0.20 per conversation. Book a demo for your exact price.",
+        "priceMentions": [
+          {
+            "text": "$99 per seat",
+            "billingUnit": true,
+            "context": "days. Or your money back. Monthly Annual Save 17% Helpdesk $99 per seat per month No per-ticket fees. AI agents ~ $0.20 per AI hand"
+          },
+          {
+            "text": "$0.20",
+            "billingUnit": false,
+            "context": "desk $99 per seat per month No per-ticket fees. AI agents ~ $0.20 per AI handled conversation i A conversation is the whole t"
+          },
+          {
+            "text": "$0.05",
+            "billingUnit": false,
+            "context": "AI replies Social Media Agent No add-on fee AI usage: about $0.05 per conversation. Answers comments and DMs. Hides spam. Ill"
+          },
+          {
+            "text": "$99 / month",
+            "billingUnit": true,
+            "context": "turns, exchanges and cancellations Returns & Exchanges From $99 / month Paid add-on for ecommerce. 10% better exchange ratio in 60"
+          },
+          {
+            "text": "$0.50",
+            "billingUnit": false,
+            "context": "uestions. How is AI usage billed? AI uses tokens, billed at $0.50 per credit annually. About $0.20 covers a whole conversatio"
+          },
+          {
+            "text": "$200 per month",
+            "billingUnit": true,
+            "context": "ate resolution fee. What is the minimum spend? AI starts at $200 per month, with top-ups in $100 blocks. One helpdesk seat plus the AI"
+          },
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "minimum spend? AI starts at $200 per month, with top-ups in $100 blocks. One helpdesk seat plus the AI minimum starts at $29"
+          },
+          {
+            "text": "$299 per month",
+            "billingUnit": true,
+            "context": "100 blocks. One helpdesk seat plus the AI minimum starts at $299 per month on an annual commitment. Can I buy just the helpdesk? Every"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.richpanel.com/learn/ecommerce-return-rates": {
+      "fetchedAt": "2026-10-18T10:02:51.846Z",
+      "data": {
+        "url": "https://www.richpanel.com/learn/ecommerce-return-rates",
+        "finalUrl": "https://www.richpanel.com/learn/ecommerce-return-rates",
+        "retrievedAt": "2026-10-18T10:02:51.846Z",
+        "status": 200,
+        "error": null,
+        "title": "Ecommerce Return Rates in 2026: Benchmarks by Category, and the Metric That Actually Matters | Richpanel",
+        "description": "The average ecommerce return rate is about 20% of online orders heading into 2026: apparel runs 20–40%, electronics 8–15%, beauty 4–12%. But return rate is the number you can least control. See the latest (NRF 2025) benchmarks by category, plus why refund rate and cost-per-return are the metrics tha",
+        "priceMentions": [
+          {
+            "text": "$30",
+            "billingUnit": false,
+            "context": "or work a portal should do. Reverse logistics alone can run $30&ndash;65 per item in electronics, and for furniture it can"
+          },
+          {
+            "text": "$65",
+            "billingUnit": false,
+            "context": "e shipping. Reverse logistics and restocking can run $30 to $65 per item for electronics, and for furniture or oversized go"
+          },
+          {
+            "text": "$849.9",
+            "billingUnit": false,
+            "context": "is expected late 2026). Source for the 15.8% overall rate ($849.9B), the 16.9% / $890B prior-year figures, the ~19.3% ecommer"
+          },
+          {
+            "text": "$890",
+            "billingUnit": false,
+            "context": "). Source for the 15.8% overall rate ($849.9B), the 16.9% / $890B prior-year figures, the ~19.3% ecommerce rate, the 9% frau"
+          },
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "for the broader return-fraud-and-abuse magnitude (north of $100B, roughly 15% of return volume). apprissretail.com Compiled"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
     }
   }
 }

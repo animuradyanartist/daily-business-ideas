@@ -10399,6 +10399,82 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|high ecommerce returns": {
+      "fetchedAt": "2026-10-18T10:02:45.403Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=high%20ecommerce%20returns&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.richpanel.com",
+            "url": "https://www.richpanel.com/learn/ecommerce-return-rates",
+            "title": "Ecommerce Return Rates in 2026: The Metric That Actually ...",
+            "description": "May 21, 2026 — The average ecommerce return rate is about 20% of online orders heading into 2026: apparel runs 20–40%, electronics 8–15%, beauty 4–12%."
+          },
+          {
+            "rank": 4,
+            "domain": "www.bigcommerce.com",
+            "url": "https://www.bigcommerce.com/articles/ecommerce/returns/",
+            "title": "Ecommerce Returns: Best Practices to Reduce Costs in 2026",
+            "description": "Aug 6, 2026 — High return rates across multiple orders. Frequent returns of high value products. Mismatched items or missing products in returned packages. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.mecalux.com",
+            "url": "https://www.mecalux.com/blog/how-to-reduce-returns-in-ecommerce",
+            "title": "How to reduce returns in ecommerce",
+            "description": "Dec 5, 2025 — The most common reasons for returns include manufacturing defects, unclear product descriptions and issues related to sellers or carriers."
+          },
+          {
+            "rank": 6,
+            "domain": "www.jaygroup.com",
+            "url": "https://www.jaygroup.com/blog/ecommerce-returns-taming-the-margin-eating-force-behind-the-buy-button/",
+            "title": "ECommerce Returns: Taming The Margin-Eating Force 📦",
+            "description": "Nov 25, 2025 — Average U.S. ecommerce return rates are around 16.9–18% of online orders. Clothing (25%) and shoes (17%) are the most frequently returned ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.bloomreach.com",
+            "url": "https://www.bloomreach.com/en/blog/e-commerce-returns",
+            "title": "How To Lessen the Impact of Ecommerce Returns",
+            "description": "One of the key factors contributing to high return rates is the gap between the online and brick-and-mortar store experiences. Customers who shop online often ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.cahoot.ai",
+            "url": "https://www.cahoot.ai/top-return-reasons-and-solutions/",
+            "title": "Top Ecommerce Return Reasons and How to Address Them",
+            "description": "Apr 2, 2026 — Discover the most common ecommerce return reasons and proven strategies to reduce return rates and protect profits."
+          },
+          {
+            "rank": 9,
+            "domain": "xorosoft.com",
+            "url": "https://xorosoft.com/ecommerce-returns-statistics/",
+            "title": "Ecommerce Returns Statistics for 2026",
+            "description": "Aug 20, 2026 — The latest annual NRF and Happy Returns benchmark estimates that consumers returned 19.3% of online sales in 2025, compared with 15.8% across ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.scayle.com",
+            "url": "https://www.scayle.com/library/blog/optimize-ecommerce-returns/",
+            "title": "How to Turn eCommerce Returns into Opportunities",
+            "description": "Aug 21, 2026 — Unravel the complexity of eCommerce returns and turn them into opportunities with strategic insights and actionable steps."
+          },
+          {
+            "rank": 11,
+            "domain": "neuralens.ai",
+            "url": "http://neuralens.ai/blog/why-ecommerce-returns-are-so-high-and-how-ai-can-reduce-them/",
+            "title": "Why Ecommerce Returns Are So High—and How AI Can ...",
+            "description": "Sep 3, 2025 — Returns are an unavoidable part of ecommerce, but high return rates quickly erode profits, raise operational costs, and hurt customer ... Read more"
+          }
+        ]
+      }
     }
   }
 }
