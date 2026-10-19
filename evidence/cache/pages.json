@@ -3773,11 +3773,11 @@
       }
     },
     "page|https://play.google.com/pricing": {
-      "fetchedAt": "2026-09-22T09:35:51.175Z",
+      "fetchedAt": "2026-10-19T10:25:54.887Z",
       "data": {
         "url": "https://play.google.com/pricing",
         "finalUrl": "https://play.google.com/pricing",
-        "retrievedAt": "2026-09-22T09:35:51.175Z",
+        "retrievedAt": "2026-10-19T10:25:54.887Z",
         "status": 404,
         "error": "HTTP 404"
       }
@@ -8428,6 +8428,288 @@
         ],
         "mentionsFreeTrial": false,
         "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.vinworks.org/": {
+      "fetchedAt": "2026-10-19T10:25:51.563Z",
+      "data": {
+        "url": "https://www.vinworks.org/",
+        "finalUrl": "https://www.vinworks.org/",
+        "retrievedAt": "2026-10-19T10:25:51.563Z",
+        "status": 200,
+        "error": null,
+        "title": "VinWorks | Free Winemaking Software",
+        "description": "Free cloud winemaking software for hobbyists and professionals.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.vinworks.org/pricing": {
+      "fetchedAt": "2026-10-19T10:25:51.563Z",
+      "data": {
+        "url": "https://www.vinworks.org/pricing",
+        "finalUrl": "https://www.vinworks.org/pricing",
+        "retrievedAt": "2026-10-19T10:25:51.563Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.wineprospects.com/pricing": {
+      "fetchedAt": "2026-10-19T10:25:51.562Z",
+      "data": {
+        "url": "https://www.wineprospects.com/pricing",
+        "finalUrl": "https://www.wineprospects.com/pricing",
+        "retrievedAt": "2026-10-19T10:25:51.562Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://technologycounter.com/pricing": {
+      "fetchedAt": "2026-10-19T10:25:51.565Z",
+      "data": {
+        "url": "https://technologycounter.com/pricing",
+        "finalUrl": "https://technologycounter.com/pricing",
+        "retrievedAt": "2026-10-19T10:25:51.565Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://technologycounter.com/winery-software?srsltid=AU7gw4UpEJ-aRB4XDXgtZUSFOSfsgm_4aiTW1FnjLi6mZnN5BFKauqZP": {
+      "fetchedAt": "2026-10-19T10:25:51.564Z",
+      "data": {
+        "url": "https://technologycounter.com/winery-software?srsltid=AU7gw4UpEJ-aRB4XDXgtZUSFOSfsgm_4aiTW1FnjLi6mZnN5BFKauqZP",
+        "finalUrl": "https://technologycounter.com/winery-software?srsltid=AU7gw4UpEJ-aRB4XDXgtZUSFOSfsgm_4aiTW1FnjLi6mZnN5BFKauqZP",
+        "retrievedAt": "2026-10-19T10:25:51.564Z",
+        "status": 200,
+        "error": null,
+        "title": "10 Best Winery Software in India (2026)",
+        "description": "Discover the 10 best winery software in India for 2026. Compare vendors, features, pricing, and reviews to choose the right solution for your business.",
+        "priceMentions": [
+          {
+            "text": "$200",
+            "billingUnit": false,
+            "context": "use. Basic winery software, for example, can cost as low as $200, but enterprise-level winery software might cost tens of th"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.wineprospects.com/blog/top-5-vineyard-management-software-tools-compared": {
+      "fetchedAt": "2026-10-19T10:25:51.560Z",
+      "data": {
+        "url": "https://www.wineprospects.com/blog/top-5-vineyard-management-software-tools-compared",
+        "finalUrl": "https://www.wineprospects.com/blog/top-5-vineyard-management-software-tools-compared",
+        "retrievedAt": "2026-10-19T10:25:51.560Z",
+        "status": 200,
+        "error": null,
+        "title": "Blog | Wine Prospects | B2B Wine Prospects",
+        "description": "Insights and updates from Wine Prospects about vineyards, wineries, and the wine industry.",
+        "priceMentions": [
+          {
+            "text": "$159/month",
+            "billingUnit": true,
+            "context": "Real-time tracking Not specified Vintrace Cellar management $159/month Vintegrate Scalable operations $79/month eCellar DTC sales"
+          },
+          {
+            "text": "$79/month",
+            "billingUnit": true,
+            "context": "Cellar management $159/month Vintegrate Scalable operations $79/month eCellar DTC sales $450/month ISAGRI Large-scale farms Not s"
+          },
+          {
+            "text": "$450/month",
+            "billingUnit": true,
+            "context": "Vintegrate Scalable operations $79/month eCellar DTC sales $450/month ISAGRI Large-scale farms Not specified Each tool has its st"
+          },
+          {
+            "text": "$95.00 per month",
+            "billingUnit": true,
+            "context": "2. Winery Professional 3. Winery Enterprise Prices start at $95.00 per month, but you'll need to contact them for specific pricing. Inte"
+          },
+          {
+            "text": "$450 a month",
+            "billingUnit": true,
+            "context": "marketing and sales with eCellar. Pricing eCellar starts at $450 a month. It's not cheap, but for some wineries, the features might"
+          },
+          {
+            "text": "$250/month",
+            "billingUnit": true,
+            "context": "r three pricing tiers: Essentials: $159/month Professional: $250/month Enterprise: $700/month Vintegrate is budget-friendly, start"
+          },
+          {
+            "text": "$700/month",
+            "billingUnit": true,
+            "context": "Essentials: $159/month Professional: $250/month Enterprise: $700/month Vintegrate is budget-friendly, starting at just $79/month."
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.scuba.com/pricing": {
+      "fetchedAt": "2026-10-19T10:25:54.885Z",
+      "data": {
+        "url": "https://www.scuba.com/pricing",
+        "finalUrl": "https://www.scuba.com/pricing",
+        "retrievedAt": "2026-10-19T10:25:54.885Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.scuba.com/lists/dive-planning-software?srsltid=AU7gw4WyoY0rtwaUpZprnpom5cxobdVHeGtYWCu3E_S2zZMdnnZg6ICU": {
+      "fetchedAt": "2026-10-19T10:25:54.883Z",
+      "data": {
+        "url": "https://www.scuba.com/lists/dive-planning-software?srsltid=AU7gw4WyoY0rtwaUpZprnpom5cxobdVHeGtYWCu3E_S2zZMdnnZg6ICU",
+        "finalUrl": "https://www.scuba.com/lists/dive-planning-software?srsltid=AU7gw4WyoY0rtwaUpZprnpom5cxobdVHeGtYWCu3E_S2zZMdnnZg6ICU",
+        "retrievedAt": "2026-10-19T10:25:54.883Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://play.google.com/store/apps/details?id=com.divinglog.divelog&hl=en_NZ": {
+      "fetchedAt": "2026-10-19T10:25:54.886Z",
+      "data": {
+        "url": "https://play.google.com/store/apps/details?id=com.divinglog.divelog&hl=en_NZ",
+        "finalUrl": "https://play.google.com/store/apps/details?id=com.divinglog.divelog&hl=en_NZ",
+        "retrievedAt": "2026-10-19T10:25:54.886Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://damsafety.org/pricing": {
+      "fetchedAt": "2026-10-19T10:25:54.886Z",
+      "data": {
+        "url": "https://damsafety.org/pricing",
+        "finalUrl": "https://damsafety.org/pricing",
+        "retrievedAt": "2026-10-19T10:25:54.886Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://damsafety.org/reference/osha-instruction-commercial-diving-operations": {
+      "fetchedAt": "2026-10-19T10:25:54.885Z",
+      "data": {
+        "url": "https://damsafety.org/reference/osha-instruction-commercial-diving-operations",
+        "finalUrl": "https://damsafety.org/reference/osha-instruction-commercial-diving-operations",
+        "retrievedAt": "2026-10-19T10:25:54.885Z",
+        "status": 200,
+        "error": null,
+        "title": "OSHA Instruction - Commercial Diving Operations | Association of State Dam Safety",
+        "description": "This instruction provides guidelines for the occupational safety and health standards for commercial diving operations, 29 CFR Part 1910, Subpart T.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://teamtalk.mastercraft.com/pricing": {
+      "fetchedAt": "2026-10-19T10:25:56.132Z",
+      "data": {
+        "url": "https://teamtalk.mastercraft.com/pricing",
+        "finalUrl": "https://teamtalk.mastercraft.com/pricing",
+        "retrievedAt": "2026-10-19T10:25:56.132Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://teamtalk.mastercraft.com/forum/general-mastercraft-topics/general-discussion/80118-marine-survey-inspection-yes-or-no": {
+      "fetchedAt": "2026-10-19T10:25:56.132Z",
+      "data": {
+        "url": "https://teamtalk.mastercraft.com/forum/general-mastercraft-topics/general-discussion/80118-marine-survey-inspection-yes-or-no",
+        "finalUrl": "https://teamtalk.mastercraft.com/forum/general-mastercraft-topics/general-discussion/80118-marine-survey-inspection-yes-or-no",
+        "retrievedAt": "2026-10-19T10:25:56.132Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://inspectxpro.com/": {
+      "fetchedAt": "2026-10-19T10:25:56.130Z",
+      "data": {
+        "url": "https://inspectxpro.com/",
+        "finalUrl": "https://inspectxpro.com/",
+        "retrievedAt": "2026-10-19T10:25:56.130Z",
+        "status": 200,
+        "error": null,
+        "title": "InspectX Home | The Future of Marine Survey Software",
+        "description": "InspectX is a software platform designed for Marine Surveyors looking to save time, improve their reports and increase their productivity.",
+        "priceMentions": [
+          {
+            "text": "$39",
+            "billingUnit": false,
+            "context": ", the purchase price per InspectX report will increase from $39 to $42 (USD). This is the first price adjustment we’ve made"
+          },
+          {
+            "text": "$42",
+            "billingUnit": false,
+            "context": "urchase price per InspectX report will increase from $39 to $42 (USD). This is the first price adjustment we’ve made since"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://force5survey.com/pricing": {
+      "fetchedAt": "2026-10-19T10:25:56.133Z",
+      "data": {
+        "url": "https://force5survey.com/pricing",
+        "finalUrl": "https://force5survey.com/pricing",
+        "retrievedAt": "2026-10-19T10:25:56.133Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://force5survey.com/": {
+      "fetchedAt": "2026-10-19T10:25:56.133Z",
+      "data": {
+        "url": "https://force5survey.com/",
+        "finalUrl": "https://force5survey.com/",
+        "retrievedAt": "2026-10-19T10:25:56.133Z",
+        "status": 200,
+        "error": null,
+        "title": "Force 5 Marine Survey Report Software | Force5 Marine Survey Reporting Software",
+        "description": "FORCE5 is a powerful, standalone Windows program dedicated to marine survey report preparation. It's all you'll need to get your Marine Survey business started.",
+        "priceMentions": [
+          {
+            "text": "$50 a month",
+            "billingUnit": true,
+            "context": "n also get best in class marine surveying software for just $50 a month! It’s the same program as our other packages but you can pa"
+          },
+          {
+            "text": "$449",
+            "billingUnit": false,
+            "context": "onth to month. And the latest special is a 1-Year Lease for $449. GET FORCE5 TODAY \" class=\"feature-image\" > SmartNotes Now"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://inspectxpro.com/pricing": {
+      "fetchedAt": "2026-10-19T10:25:56.131Z",
+      "data": {
+        "url": "https://inspectxpro.com/pricing",
+        "finalUrl": "https://inspectxpro.com/pricing",
+        "retrievedAt": "2026-10-19T10:25:56.131Z",
+        "status": 200,
+        "error": null,
+        "title": "InspectX Pricing | The Future of Marine Survey Software",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
         "mentionsPricing": true
       }
     }

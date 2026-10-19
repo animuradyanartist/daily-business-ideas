@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Small-Batch Compounding Pharmacy Compliance Software | us-small-batch-compounding-pharmacy-compliance-software | 2026-10-19 | 94 | The Small-Batch Compounding Pharmacy's "DEA/FDA-Ready" Logbook Hub |
 | US Small Landscaping Contractor H-2B Visa Compliance Software | us-small-landscaping-h2b-compliance-software | 2026-10-17 | 95 | The Small Landscaping Contractor's "DOL-Proof" H-2B Visa Compliance Hub |
 | US Small Hazardous Waste Generator Compliance Software | us-small-hazardous-waste-generator-compliance-software | 2026-10-16 | 93 | The Small Hazardous Waste Generator's "EPA-Ready" RCRA Log |
 | US Small Government Contractor Compliance Software | us-small-govcon-compliance-software | 2026-10-01 | 95 | The Small Government Contractor's "DCAA-Proof" Timesheet Hub |

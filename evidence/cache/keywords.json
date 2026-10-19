@@ -34362,6 +34362,1552 @@
         "mainIntent": "commercial",
         "providerUpdatedAt": "2026-09-17 09:13:52 +00:00"
       }
+    },
+    "labs|united states|en|ttb compliance requirements": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|wine production record keeping": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|alcohol tax reporting": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|winery software": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "winery software",
+        "searchVolume": 720,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 2900
+          }
+        ],
+        "cpcUsd": 10.37,
+        "adCompetition": 0.06,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -61,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-16 21:07:12 +00:00"
+      }
+    },
+    "labs|united states|en|ttb reporting": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "ttb reporting",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -20,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 02:52:34 +00:00"
+      }
+    },
+    "labs|united states|en|wine production tracking": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|winery software pricing": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best winery software": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "best winery software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 14:48:35 +00:00"
+      }
+    },
+    "labs|united states|en|ttb compliance tools": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha diving regulations": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha diving regulations",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 09:17:05 +00:00"
+      }
+    },
+    "labs|united states|en|commercial dive safety": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dive log requirements": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dive log software": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "dive log software",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 03:50:35 +00:00"
+      }
+    },
+    "labs|united states|en|osha compliance tools": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha compliance tools",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 01:31:45 +00:00"
+      }
+    },
+    "labs|united states|en|commercial diving safety": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "commercial diving safety",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-17 20:01:56 +00:00"
+      }
+    },
+    "labs|united states|en|dive log software cost": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best dive log": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "best dive log",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.6,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-18 13:32:46 +00:00"
+      }
+    },
+    "labs|united states|en|osha compliance service": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|marine survey report issues": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|cargo inspection challenges": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|insurance claim report errors": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|marine survey software": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "marine survey software",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.13,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 13:51:28 +00:00"
+      }
+    },
+    "labs|united states|en|cargo inspection tools": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|survey report template": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "survey report template",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.13,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -44,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-16 14:52:51 +00:00"
+      }
+    },
+    "labs|united states|en|marine survey software pricing": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best survey software": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": true,
+      "data": {
+        "keyword": "best survey software",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          }
+        ],
+        "cpcUsd": 75.55,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-18 22:03:11 +00:00"
+      }
+    },
+    "labs|united states|en|cargo inspection app": {
+      "fetchedAt": "2026-10-19T10:24:58.917Z",
+      "returned": false,
+      "data": null
     }
   }
 }

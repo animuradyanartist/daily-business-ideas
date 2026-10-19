@@ -2,6 +2,10 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-19
+*   The Small Winery's "TTB-Ready" Production & Tax Ledger — Smaller market, potentially lower ARPA, and less acute "existential" pain compared to DEA/FDA compliance, where fines are less catastrophic.
+*   The Commercial Diving Contractor's "OSHA-Proof" Dive Operations Log — While high-stakes, the market size is likely smaller and the operational complexity/liability for software in this domain is significantly higher.
+
 ## 2026-10-18
 - (no candidates killed)
 
