@@ -1,0 +1,16 @@
+{
+  "id": "cee5410b-a174-5331-8073-6ac586fa8129",
+  "month": "2026-10",
+  "client": "scout",
+  "status": "reserved",
+  "estimatedUsd": 0.0022,
+  "actualUsd": null,
+  "endpoint": "serp/google/organic/live/regular",
+  "requestKey": "db42cd5008df922c63b66afb",
+  "runId": "2026-10-19-a1-1792405495265",
+  "createdAt": "2026-10-19T10:25:20.716Z",
+  "expiresAt": "2026-10-19T10:40:20.716Z",
+  "settledAt": null,
+  "note": null,
+  "payload": null
+}
