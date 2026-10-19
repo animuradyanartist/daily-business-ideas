@@ -450,6 +450,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Cross-Platform Content Repurposing** · Automating the transformation of long-form content into diverse, platform-native short-form assets for social media. · flagged 2026-10-18 · last checked 2026-10-18 · [origin memo](trends/2026-10-18.md)
 - **AI-Powered Adaptive Focus & Distraction Management** · Using AI tools to create personalized "deep work" environments by dynamically adjusting soundscapes and blocking distractions. · flagged 2026-10-18 · last checked 2026-10-18 · [origin memo](trends/2026-10-18.md)
 - **AI-Powered Niche Community Engagement & Content Personalization** · Leveraging AI to personalize content delivery, automate engagement, and enhance moderation in online communities. · flagged 2026-10-18 · last checked 2026-10-18 · [origin memo](trends/2026-10-18.md)
+- **AI Digital Twins for Solopreneur Content & Business Scaling** · Using AI to replicate a creator's persona for automated content, brand presence, and sales. · flagged 2026-10-19 · last checked 2026-10-19 · [origin memo](trends/2026-10-19.md)
+- **AI-Powered Microlearning for In-Workflow Upskilling** · Delivering personalized, bite-sized professional development directly within existing workflows. · flagged 2026-10-19 · last checked 2026-10-19 · [origin memo](trends/2026-10-19.md)
+- **AI-Enhanced Augmented Reality for Consumer & SMB Experiences** · Enhancing AR applications with AI for personalized product visualization, interactive guides, and remote assistance. · flagged 2026-10-19 · last checked 2026-10-19 · [origin memo](trends/2026-10-19.md)
 
 
 ## ➡️ Active — plateauing
@@ -757,3 +760,5 @@ _(empty)_
 <!-- 2026-10-17 status-update directive: 🚀 | AI-Generated Coloring Books for Digital Marketplaces -->
 
 <!-- 2026-10-18 status-update directive: 🚀 | AI as a Thought Partner -->
+
+<!-- 2026-10-19 status-update directive: 🚀 | The AI-Augmented Second Brain -->
