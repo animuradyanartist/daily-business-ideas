@@ -9718,12 +9718,17 @@
       "data": null
     },
     "labs|united states|en|sds software": {
-      "fetchedAt": "2026-09-16T09:37:28.865Z",
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
       "returned": true,
       "data": {
         "keyword": "sds software",
         "searchVolume": 480,
         "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 260
+          },
           {
             "year": 2026,
             "month": 7,
@@ -9838,28 +9843,28 @@
             "year": 2024,
             "month": 9,
             "searchVolume": 3600
-          },
-          {
-            "year": 2024,
-            "month": 8,
-            "searchVolume": 3600
           }
         ],
-        "cpcUsd": 90.76,
-        "adCompetition": 0.26,
-        "adCompetitionLevel": "LOW",
-        "providerTrendYearlyPct": -46,
+        "cpcUsd": 94.26,
+        "adCompetition": 0.4,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -64,
         "mainIntent": "commercial",
-        "providerUpdatedAt": "2026-08-29 11:01:10 +00:00"
+        "providerUpdatedAt": "2026-09-16 23:03:57 +00:00"
       }
     },
     "labs|united states|en|chemical inventory system": {
-      "fetchedAt": "2026-09-16T09:37:28.865Z",
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
       "returned": true,
       "data": {
         "keyword": "chemical inventory system",
         "searchVolume": 20,
         "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
           {
             "year": 2026,
             "month": 7,
@@ -9946,12 +9951,12 @@
             "searchVolume": 30
           }
         ],
-        "cpcUsd": 45.94,
-        "adCompetition": 0.41,
-        "adCompetitionLevel": "MEDIUM",
-        "providerTrendYearlyPct": -67,
+        "cpcUsd": 43.32,
+        "adCompetition": 0.73,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -50,
         "mainIntent": "informational",
-        "providerUpdatedAt": "2026-08-29 21:34:45 +00:00"
+        "providerUpdatedAt": "2026-09-17 23:28:56 +00:00"
       }
     },
     "labs|united states|en|lab safety management tool": {
@@ -9960,7 +9965,7 @@
       "data": null
     },
     "labs|united states|en|sds software pricing": {
-      "fetchedAt": "2026-09-16T09:37:28.865Z",
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
       "returned": false,
       "data": null
     },
@@ -36688,6 +36693,912 @@
       "fetchedAt": "2026-10-20T09:45:17.365Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|fire safety requirements": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": true,
+      "data": {
+        "keyword": "fire safety requirements",
+        "searchVolume": 40,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.02,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 133,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 12:17:04 +00:00"
+      }
+    },
+    "labs|united states|en|nfpa 25 compliance checklist": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire code violation fines": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": true,
+      "data": {
+        "keyword": "fire code violation fines",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 02:20:36 +00:00"
+      }
+    },
+    "labs|united states|en|fire inspection software": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": true,
+      "data": {
+        "keyword": "fire inspection software",
+        "searchVolume": 170,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 38.2,
+        "adCompetition": 0.35,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -76,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 22:11:11 +00:00"
+      }
+    },
+    "labs|united states|en|fire safety logbook app": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|property compliance system": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire software pricing": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best fire safety software": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire compliance tools cost": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha hazcom compliance": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dot hazmat shipping rules": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|sds management requirements": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hazmat training platform": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best hazcom software": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|chemical compliance cost": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide log requirements": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pest control compliance fines": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|state pesticide reporting": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide log app": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pest control software": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": true,
+      "data": {
+        "keyword": "pest control software",
+        "searchVolume": 390,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 720
+          }
+        ],
+        "cpcUsd": 130.62,
+        "adCompetition": 0.48,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -70,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 12:53:59 +00:00"
+      }
+    },
+    "labs|united states|en|field service management": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": true,
+      "data": {
+        "keyword": "field service management",
+        "searchVolume": 1000,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1900
+          }
+        ],
+        "cpcUsd": 73.77,
+        "adCompetition": 0.36,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -58,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-10-19 19:30:48 +00:00"
+      }
+    },
+    "labs|united states|en|pest software pricing": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best pesticide log app": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pest control software cost": {
+      "fetchedAt": "2026-10-20T10:35:17.084Z",
+      "returned": true,
+      "data": {
+        "keyword": "pest control software cost",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-19 18:51:33 +00:00"
+      }
     }
   }
 }

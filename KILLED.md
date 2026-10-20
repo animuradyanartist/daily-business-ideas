@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-20
+- The Small Chemical Distributor's "DOT/OSHA-Proof" SDS & HazMat Log — While a strong compliance pain, the market for chemical distributors is more fragmented and potentially smaller than commercial property management, and the regulatory overlap (DOT/OSHA) is slightly less acute than the NFPA/OSHA combination for fire safety.
+- The Independent Food Safety Consultant's "FSMA 204-Ready" Traceability Audit Hub — This targets consultants, not the operating businesses directly, and focuses on efficiency rather than the existential regulatory risk of fire safety.
+- The Small-Batch Beverage Producer's "TABC-Ready" Production & Tax Ledger — Similar to the previously killed winery idea, the market size is likely smaller, and the pain (tax/production logging) is generally less acute and catastrophic than fire safety non-compliance.
+- The Independent HVAC Contractor's "EPA-Proof" Refrigerant Tracking Log — A good compliance idea, but the market is narrower, and the pain (EPA refrigerant tracking) is less universally applicable across a broad range of commercial properties than fire safety.
+
 ## 2026-10-19
 *   The Small Winery's "TTB-Ready" Production & Tax Ledger — Smaller market, potentially lower ARPA, and less acute "existential" pain compared to DEA/FDA compliance, where fines are less catastrophic.
 *   The Commercial Diving Contractor's "OSHA-Proof" Dive Operations Log — While high-stakes, the market size is likely smaller and the operational complexity/liability for software in this domain is significantly higher.

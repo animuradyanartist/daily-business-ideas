@@ -8900,6 +8900,286 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://unece.org/DAM/hlm/documents/Standards/UNECE_International_Fire_Safety_Standards_October_2020.pdf": {
+      "fetchedAt": "2026-10-20T10:36:00.415Z",
+      "data": {
+        "url": "https://unece.org/DAM/hlm/documents/Standards/UNECE_International_Fire_Safety_Standards_October_2020.pdf",
+        "finalUrl": "https://unece.org/DAM/hlm/documents/Standards/UNECE_International_Fire_Safety_Standards_October_2020.pdf",
+        "retrievedAt": "2026-10-20T10:36:00.415Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://unece.org/pricing": {
+      "fetchedAt": "2026-10-20T10:36:00.416Z",
+      "data": {
+        "url": "https://unece.org/pricing",
+        "finalUrl": "https://unece.org/pricing",
+        "retrievedAt": "2026-10-20T10:36:00.416Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|http://www.accela.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:00.414Z",
+      "data": {
+        "url": "http://www.accela.com/pricing",
+        "finalUrl": "https://www.accela.com/pricing",
+        "retrievedAt": "2026-10-20T10:36:00.414Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|http://www.accela.com/solutions/fire-prevention/": {
+      "fetchedAt": "2026-10-20T10:36:00.413Z",
+      "data": {
+        "url": "http://www.accela.com/solutions/fire-prevention/",
+        "finalUrl": "https://www.accela.com/solutions/fire-prevention/",
+        "retrievedAt": "2026-10-20T10:36:00.413Z",
+        "status": 200,
+        "error": null,
+        "title": "Fire Prevention - Accela Government Software",
+        "description": "Industry-leading software for fire departments that streamlines mobile inspections, permit processing and online permit applications in the cloud.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://inspecttrack.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:00.412Z",
+      "data": {
+        "url": "https://inspecttrack.com/pricing",
+        "finalUrl": "https://inspecttrack.com/pricing",
+        "retrievedAt": "2026-10-20T10:36:00.412Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://inspecttrack.com/fire-equipment-inspection/fdc-inspections/": {
+      "fetchedAt": "2026-10-20T10:36:00.411Z",
+      "data": {
+        "url": "https://inspecttrack.com/fire-equipment-inspection/fdc-inspections/",
+        "finalUrl": "https://inspecttrack.com/fire-equipment-inspection/fdc-inspections/",
+        "retrievedAt": "2026-10-20T10:36:00.411Z",
+        "status": 200,
+        "error": null,
+        "title": "Revolutionize FDC Inspections With Inspection Software",
+        "description": "InspectNTrack software can drastically improve FDC inspections. Also discover what FDC inspections are and why they're significant.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.totalsds.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:02.926Z",
+      "data": {
+        "url": "https://www.totalsds.com/pricing",
+        "finalUrl": "https://www.totalsds.com/pricing",
+        "retrievedAt": "2026-10-20T10:36:02.926Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.totalsds.com/sds-software-use-cases/": {
+      "fetchedAt": "2026-10-20T10:36:02.925Z",
+      "data": {
+        "url": "https://www.totalsds.com/sds-software-use-cases/",
+        "finalUrl": "https://www.totalsds.com/sds-software-use-cases/",
+        "retrievedAt": "2026-10-20T10:36:02.925Z",
+        "status": 200,
+        "error": null,
+        "title": "Top SDS Software Enterprise Use Cases | TotalSDS®",
+        "description": "Enterprises today now have access to SDS software to streamline the supply chain and enhance the compliance process. Here is what you need to know.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.workhub.com/features/safety-data-sheets/": {
+      "fetchedAt": "2026-10-20T10:36:02.927Z",
+      "data": {
+        "url": "https://www.workhub.com/features/safety-data-sheets/",
+        "finalUrl": "https://www.workhub.com/features/safety-data-sheets/",
+        "retrievedAt": "2026-10-20T10:36:02.927Z",
+        "status": 200,
+        "error": null,
+        "title": "Workhub | Free Safety Data Sheet (MSDS/SDS) Management Software Storage",
+        "description": "Our Safety Data Sheet Management Software makes it easy to store, organize & distribute SDS&#x27;s. Upload SDS to database & scan container QR codes with mobile device for easy worker access to SDS.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.workhub.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:02.928Z",
+      "data": {
+        "url": "https://www.workhub.com/pricing",
+        "finalUrl": "https://www.workhub.com/pricing/",
+        "retrievedAt": "2026-10-20T10:36:02.928Z",
+        "status": 200,
+        "error": null,
+        "title": "Workhub | Pricing | Free Safety and Compliance Management Software",
+        "description": "Managing workplace compliance (EHS, HSE, OHS, OHSMS) has never been easier or more affordable.",
+        "priceMentions": [
+          {
+            "text": "$0 per month",
+            "billingUnit": true,
+            "context": "th our Free plan’s limited feature offerings. Features Free $0 per month per user Standard $3 (USD) / month per user (minimum 3 user"
+          },
+          {
+            "text": "$3",
+            "billingUnit": false,
+            "context": "ure offerings. Features Free $0 per month per user Standard $3 (USD) / month per user (minimum 3 users) Training Courses +"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.jjkeller.com/topic/hazard-communication-hazcom?srsltid=AU7gw4WTPrbpu9qUaKSZfFhWPnIEDFs-WHYlRiia5oXBZAv-sIf1YwSF": {
+      "fetchedAt": "2026-10-20T10:36:02.928Z",
+      "data": {
+        "url": "https://www.jjkeller.com/topic/hazard-communication-hazcom?srsltid=AU7gw4WTPrbpu9qUaKSZfFhWPnIEDFs-WHYlRiia5oXBZAv-sIf1YwSF",
+        "finalUrl": "https://www.jjkeller.com/topic/hazard-communication-hazcom?srsltid=AU7gw4WTPrbpu9qUaKSZfFhWPnIEDFs-WHYlRiia5oXBZAv-sIf1YwSF",
+        "retrievedAt": "2026-10-20T10:36:02.928Z",
+        "status": 200,
+        "error": null,
+        "title": "OSHA Hazard Communication Standard | HazCom | J.J. Keller",
+        "description": "Protect employees from hazardous chemicals and ensure compliance with hazcom training, safety data sheet (sds), and GHS label requirements of the OSHA Hazard Communication Standard.",
+        "priceMentions": [
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "s of regulatory compliance experience. Free Ground Shipping $500+ Orders | Advantage Members Free Shipping on Every Order *V"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.jjkeller.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:02.929Z",
+      "data": {
+        "url": "https://www.jjkeller.com/pricing",
+        "finalUrl": "https://www.jjkeller.com/not-found",
+        "retrievedAt": "2026-10-20T10:36:02.929Z",
+        "status": 200,
+        "error": null,
+        "title": "Page Not Found",
+        "description": "Page Not Found",
+        "priceMentions": [
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "s of regulatory compliance experience. Free Ground Shipping $500+ Orders | Advantage Members Free Shipping on Every Order *V"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://pesticidestewardship.org/pricing": {
+      "fetchedAt": "2026-10-20T10:36:04.882Z",
+      "data": {
+        "url": "https://pesticidestewardship.org/pricing",
+        "finalUrl": "https://pesticidestewardship.org/pricing",
+        "retrievedAt": "2026-10-20T10:36:04.882Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.croptracker.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:04.883Z",
+      "data": {
+        "url": "https://www.croptracker.com/pricing",
+        "finalUrl": "https://www.croptracker.com/pricing",
+        "retrievedAt": "2026-10-20T10:36:04.883Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.croptracker.com/product/farm-management-software/spray-record-keeping.html": {
+      "fetchedAt": "2026-10-20T10:36:04.882Z",
+      "data": {
+        "url": "https://www.croptracker.com/product/farm-management-software/spray-record-keeping.html",
+        "finalUrl": "https://www.croptracker.com/product/farm-management-software/spray-record-keeping.html",
+        "retrievedAt": "2026-10-20T10:36:04.882Z",
+        "status": 200,
+        "error": null,
+        "title": "Spray Record Keeping - Croptracker",
+        "description": "Pesticide spray records app for Global GAP compliance.  Convert your spray diary templates into a powerful database to track costs and manage pre-harvest intervals, days after application, and ensure your crops are safe to harvest after an agricultural chemical application.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://pesticidestewardship.org/records/": {
+      "fetchedAt": "2026-10-20T10:36:04.881Z",
+      "data": {
+        "url": "https://pesticidestewardship.org/records/",
+        "finalUrl": "https://pesticidestewardship.org/records/",
+        "retrievedAt": "2026-10-20T10:36:04.881Z",
+        "status": 200,
+        "error": null,
+        "title": "Pesticide Application Record keeping – Pesticide Environmental Stewardship",
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.spraydiary.com/": {
+      "fetchedAt": "2026-10-20T10:36:04.879Z",
+      "data": {
+        "url": "https://www.spraydiary.com/",
+        "finalUrl": "https://www.spraydiary.com/",
+        "retrievedAt": "2026-10-20T10:36:04.879Z",
+        "status": 200,
+        "error": null,
+        "title": "Simplify Spray Record Management | Spray Diary App",
+        "description": "Spray Diary App helps streamline and organise your spray records in the cloud. Get started today with our easy-to-use digital spraying app. Free 60-day trial.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.spraydiary.com/pricing": {
+      "fetchedAt": "2026-10-20T10:36:04.880Z",
+      "data": {
+        "url": "https://www.spraydiary.com/pricing",
+        "finalUrl": "https://www.spraydiary.com/pricing/",
+        "retrievedAt": "2026-10-20T10:36:04.880Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing Plans | Spray Diary App",
+        "description": "Spray Diary plans to suit your organisation. Enjoy a free 60-day trial.",
+        "priceMentions": [
+          {
+            "text": "$ 15",
+            "billingUnit": false,
+            "context": "Try now for 60 days – no payment required. Single Location $ 15 AUD per month (includes GST) $ Single Location Single User"
+          },
+          {
+            "text": "$ 30",
+            "billingUnit": false,
+            "context": "ontrol Sprayer Calibrations Start Free Trial Multi Location $ 30 AUD per month (includes GST) $ Unlimited Locations Unlimite"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
     }
   }
 }
