@@ -4466,27 +4466,27 @@
       }
     },
     "page|https://gomotive.com/products/features/ifta-reporting-automation/": {
-      "fetchedAt": "2026-09-24T09:40:38.111Z",
+      "fetchedAt": "2026-10-20T09:46:31.716Z",
       "data": {
         "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
         "finalUrl": "https://gomotive.com/products/features/ifta-reporting-automation/",
-        "retrievedAt": "2026-09-24T09:40:38.111Z",
+        "retrievedAt": "2026-10-20T09:46:31.716Z",
         "status": 200,
         "error": null,
         "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation | Motive",
         "description": "Automate IFTA compliance with Motive’s platform. Simplify reporting, reduce errors, & boost efficiency with one-click report generation.",
         "priceMentions": [],
         "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
+        "mentionsContactSales": true,
         "mentionsPricing": false
       }
     },
     "page|https://www.geotab.com/fleet-management-solutions/ifta/": {
-      "fetchedAt": "2026-09-24T09:40:38.114Z",
+      "fetchedAt": "2026-10-20T09:46:31.713Z",
       "data": {
         "url": "https://www.geotab.com/fleet-management-solutions/ifta/",
         "finalUrl": "https://www.geotab.com/fleet-management-solutions/ifta/",
-        "retrievedAt": "2026-09-24T09:40:38.114Z",
+        "retrievedAt": "2026-10-20T09:46:31.713Z",
         "status": 200,
         "error": null,
         "title": "IFTA Reporting Software: Easily Automate IFTA Reporting | Geotab",
@@ -4508,11 +4508,11 @@
       }
     },
     "page|https://www.geotab.com/pricing": {
-      "fetchedAt": "2026-09-24T09:40:38.115Z",
+      "fetchedAt": "2026-10-20T09:46:31.715Z",
       "data": {
         "url": "https://www.geotab.com/pricing",
         "finalUrl": "https://www.geotab.com/pricing/",
-        "retrievedAt": "2026-09-24T09:40:38.115Z",
+        "retrievedAt": "2026-10-20T09:46:31.715Z",
         "status": 404,
         "error": "HTTP 404"
       }
@@ -4528,11 +4528,11 @@
       }
     },
     "page|https://gomotive.com/pricing": {
-      "fetchedAt": "2026-09-24T09:40:38.113Z",
+      "fetchedAt": "2026-10-20T09:46:31.716Z",
       "data": {
         "url": "https://gomotive.com/pricing",
         "finalUrl": "https://gomotive.com/get-in-touch/?id=pricing",
-        "retrievedAt": "2026-09-24T09:40:38.113Z",
+        "retrievedAt": "2026-10-20T09:46:31.716Z",
         "status": 200,
         "error": null,
         "title": "Motive Pricing | ELD | Dash Cam | Motive",
@@ -8711,6 +8711,194 @@
         "mentionsFreeTrial": false,
         "mentionsContactSales": false,
         "mentionsPricing": true
+      }
+    },
+    "page|https://www.hhaexchange.com/solutions/providers/electronic-visit-verification": {
+      "fetchedAt": "2026-10-20T09:46:29.751Z",
+      "data": {
+        "url": "https://www.hhaexchange.com/solutions/providers/electronic-visit-verification",
+        "finalUrl": "https://www.hhaexchange.com/solutions/providers/electronic-visit-verification",
+        "retrievedAt": "2026-10-20T09:46:29.751Z",
+        "status": 200,
+        "error": null,
+        "title": "Integrated EVV: Powering Agencies Post-CURES Act",
+        "description": "Integrated EVV Solution That Powers Your Agency Beyond 21st Century CURES Act",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ankota.com/blog/evv-software/the-benefits-of-using-3rd-party-evv-software": {
+      "fetchedAt": "2026-10-20T09:46:29.754Z",
+      "data": {
+        "url": "https://www.ankota.com/blog/evv-software/the-benefits-of-using-3rd-party-evv-software",
+        "finalUrl": "https://www.ankota.com/blog/evv-software/the-benefits-of-using-3rd-party-evv-software",
+        "retrievedAt": "2026-10-20T09:46:29.754Z",
+        "status": 200,
+        "error": null,
+        "title": "The Benefits of Using 3rd-Party EVV Software",
+        "description": "Third-party EVV software ensures compliance, accuracy, and real-time tracking while reducing fraud and streamlining home care operations.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.ankota.com/pricing": {
+      "fetchedAt": "2026-10-20T09:46:29.755Z",
+      "data": {
+        "url": "https://www.ankota.com/pricing",
+        "finalUrl": "https://www.ankota.com/pricing",
+        "retrievedAt": "2026-10-20T09:46:29.755Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.hhaexchange.com/pricing": {
+      "fetchedAt": "2026-10-20T09:46:29.753Z",
+      "data": {
+        "url": "https://www.hhaexchange.com/pricing",
+        "finalUrl": "https://www.hhaexchange.com/pricing",
+        "retrievedAt": "2026-10-20T09:46:29.753Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://aaniie.com/pricing": {
+      "fetchedAt": "2026-10-20T09:46:29.757Z",
+      "data": {
+        "url": "https://aaniie.com/pricing",
+        "finalUrl": "https://aaniie.com/pricing/",
+        "retrievedAt": "2026-10-20T09:46:29.757Z",
+        "status": 200,
+        "error": null,
+        "title": "Aaniie Pricing | All-in-One Home Care Software Plans",
+        "description": "Explore Aaniie pricing plans for home care agencies. Simple, transparent pricing with no hidden fees and everything included in one platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://aaniie.com/news/find-the-right-evv-software-for-your-business/": {
+      "fetchedAt": "2026-10-20T09:46:29.756Z",
+      "data": {
+        "url": "https://aaniie.com/news/find-the-right-evv-software-for-your-business/",
+        "finalUrl": "https://aaniie.com/news/find-the-right-evv-software-for-your-business/",
+        "retrievedAt": "2026-10-20T09:46:29.756Z",
+        "status": 200,
+        "error": null,
+        "title": "How to Find the Right EVV Software for Your Business & Stay Medicaid Compliant | Aaniie",
+        "description": "Choose the right EVV software to streamline operations, ensure Medicaid compliance, and improve efficiency in your home care business.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.verizonconnect.com/pricing": {
+      "fetchedAt": "2026-10-20T09:46:31.718Z",
+      "data": {
+        "url": "https://www.verizonconnect.com/pricing",
+        "finalUrl": "https://www.verizonconnect.com/pricing",
+        "retrievedAt": "2026-10-20T09:46:31.718Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.verizonconnect.com/resources/article/ifta-tracking-reporting/": {
+      "fetchedAt": "2026-10-20T09:46:31.717Z",
+      "data": {
+        "url": "https://www.verizonconnect.com/resources/article/ifta-tracking-reporting/",
+        "finalUrl": "https://www.verizonconnect.com/resources/article/ifta-tracking-reporting/",
+        "retrievedAt": "2026-10-20T09:46:31.717Z",
+        "status": 200,
+        "error": null,
+        "title": "IFTA Tracking With Fleet Management Software | Verizon Connect",
+        "description": "Fuel tax compliance is essential for any fleet. Learn how to streamline the IFTA tracking and reporting process to stay ahead of compliance requirements.",
+        "priceMentions": [
+          {
+            "text": "$200,000",
+            "billingUnit": false,
+            "context": "ht Watch how B.A.M. Trucking deflects false claim and saves $200,000 on insurance premiums. Watch now Get a demo Talk to an expe"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.capterra.com.au/pricing": {
+      "fetchedAt": "2026-10-20T09:46:35.500Z",
+      "data": {
+        "url": "https://www.capterra.com.au/pricing",
+        "finalUrl": "https://www.capterra.com.au/pricing",
+        "retrievedAt": "2026-10-20T09:46:35.500Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.capterra.com.au/directory/31558/warranty-management/software": {
+      "fetchedAt": "2026-10-20T09:46:35.499Z",
+      "data": {
+        "url": "https://www.capterra.com.au/directory/31558/warranty-management/software",
+        "finalUrl": "https://www.capterra.com.au/directory/31558/warranty-management/software",
+        "retrievedAt": "2026-10-20T09:46:35.499Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.themotorombudsman.org/pricing": {
+      "fetchedAt": "2026-10-20T09:46:35.498Z",
+      "data": {
+        "url": "https://www.themotorombudsman.org/pricing",
+        "finalUrl": "https://www.themotorombudsman.org/pricing",
+        "retrievedAt": "2026-10-20T09:46:35.498Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.themotorombudsman.org/knowledge/my-warranty-claim-was-rejected-for-wear-and-tear-what-can-i-do/": {
+      "fetchedAt": "2026-10-20T09:46:35.497Z",
+      "data": {
+        "url": "https://www.themotorombudsman.org/knowledge/my-warranty-claim-was-rejected-for-wear-and-tear-what-can-i-do/",
+        "finalUrl": "https://www.themotorombudsman.org/knowledge/my-warranty-claim-was-rejected-for-wear-and-tear-what-can-i-do/",
+        "retrievedAt": "2026-10-20T09:46:35.497Z",
+        "status": 200,
+        "error": null,
+        "title": "What to Do If Your Warranty Claim Is Rejected for Wear and Tear",
+        "description": "Most extended warranty policies will not cover breakdowns caused by wear and tear but if it you do not think it is wear & tear click here to find out more.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://warelawfirm.com/how-do-i-fight-a-denied-warranty-claim/": {
+      "fetchedAt": "2026-10-20T09:46:35.501Z",
+      "data": {
+        "url": "https://warelawfirm.com/how-do-i-fight-a-denied-warranty-claim/",
+        "finalUrl": "https://warelawfirm.com/how-do-i-fight-a-denied-warranty-claim/",
+        "retrievedAt": "2026-10-20T09:46:35.501Z",
+        "status": 200,
+        "error": null,
+        "title": "Denied Warranty Claim? How to Challenge the Decision",
+        "description": "A denied warranty claim is not always the final word. Learn why claims get denied and how to challenge the decision to get the repairs you are owed.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://warelawfirm.com/pricing": {
+      "fetchedAt": "2026-10-20T09:46:35.501Z",
+      "data": {
+        "url": "https://warelawfirm.com/pricing",
+        "finalUrl": "https://warelawfirm.com/pricing",
+        "retrievedAt": "2026-10-20T09:46:35.501Z",
+        "status": 404,
+        "error": "HTTP 404"
       }
     }
   }

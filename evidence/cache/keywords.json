@@ -35908,6 +35908,786 @@
       "fetchedAt": "2026-10-19T10:24:58.917Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|medicaid evv compliance issues": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|evv denied claims": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|home care evv problems": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|evv software": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": true,
+      "data": {
+        "keyword": "evv software",
+        "searchVolume": 110,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 55.05,
+        "adCompetition": 0.37,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -93,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-17 14:33:22 +00:00"
+      }
+    },
+    "labs|united states|en|home care evv system": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|medicaid evv compliance solution": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|evv software pricing": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best evv systems": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|buy evv compliance tool": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta reporting problems": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|eld compliance issues": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|trucking audit risk": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|eld compliance solution": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|trucking record keeping system": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best eld devices": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": true,
+      "data": {
+        "keyword": "best eld devices",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 54.77,
+        "adCompetition": 0.6,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -64,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 07:49:16 +00:00"
+      }
+    },
+    "labs|united states|en|buy ifta reporting tool": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|auto warranty claim denied": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": true,
+      "data": {
+        "keyword": "auto warranty claim denied",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.07,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-20 07:00:16 +00:00"
+      }
+    },
+    "labs|united states|en|repair shop claim issues": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|extended warranty problems": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|warranty software": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": true,
+      "data": {
+        "keyword": "warranty software",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 33.87,
+        "adCompetition": 0.26,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -56,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 02:04:19 +00:00"
+      }
+    },
+    "labs|united states|en|auto repair claim system": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|warranty claim management": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": true,
+      "data": {
+        "keyword": "warranty claim management",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.17,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -94,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 03:52:00 +00:00"
+      }
+    },
+    "labs|united states|en|warranty software pricing": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best claim tools": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|buy auto warranty solution": {
+      "fetchedAt": "2026-10-20T09:45:17.365Z",
+      "returned": false,
+      "data": null
     }
   }
 }

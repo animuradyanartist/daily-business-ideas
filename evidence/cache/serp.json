@@ -5439,14 +5439,13 @@
       }
     },
     "serp|united states|en|d10|ifta software": {
-      "fetchedAt": "2026-09-24T09:39:55.826Z",
+      "fetchedAt": "2026-10-20T09:45:45.626Z",
       "data": {
         "checkUrl": "https://www.google.com/search?q=ifta%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
         "itemTypes": [
           "ai_overview",
           "organic",
           "people_also_ask",
-          "video",
           "related_searches"
         ],
         "items": [
@@ -5458,18 +5457,18 @@
             "description": "Track fuel costs, integrate fuel cards, and automate IFTA reporting with Geotab's open telematics platform IFTA software. Learn more about our products."
           },
           {
-            "rank": 3,
+            "rank": 4,
+            "domain": "gomotive.com",
+            "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
+            "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation",
+            "description": "IFTA automation simplifies key aspects of fleet compliance by automating fuel tax calculations and report creation. Combined with Motive's compliance tools"
+          },
+          {
+            "rank": 5,
             "domain": "www.verizonconnect.com",
             "url": "https://www.verizonconnect.com/resources/article/ifta-tracking-reporting/",
             "title": "Simplify IFTA tracking with fleet management software",
             "description": "Sep 9, 2025 — Fleet management software offers a practical solution, helping fleets automate complex IFTA reporting tasks and stay ahead of compliance ... Read more"
-          },
-          {
-            "rank": 5,
-            "domain": "gomotive.com",
-            "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
-            "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation",
-            "description": "IFTA automation simplifies key aspects of fleet compliance by automating fuel tax calculations and report creation. e's compliance tools"
           },
           {
             "rank": 6,
@@ -5480,31 +5479,38 @@
           },
           {
             "rank": 7,
-            "domain": "www.torotms.com",
-            "url": "https://www.torotms.com/blog/ifta-software",
-            "title": "IFTA Software: How to Spend Less Time on Fuel Tax ...",
-            "description": "IFTA reporting is tedious and error-prone. Dedicated IFTA software like Toro TMS helps trucking companies save time and stay compliant."
+            "domain": "fleetworthy.com",
+            "url": "https://fleetworthy.com/resources/blog/best-ifta-software-private-fleets-2026/",
+            "title": "Best IFTA Software for Private Fleets in 2026",
+            "description": "Sep 25, 2026 — 1. Dedicated fleet compliance platform · 2. Telematics-native IFTA module · 3. Standalone fuel tax calculator · 4. Outsourced service bureau / ... Read more"
           },
           {
-            "rank": 9,
+            "rank": 8,
             "domain": "www.radius.com",
             "url": "https://www.radius.com/en-us/telematics/dot-compliance/ifta-software/",
             "title": "IFTA Reporting Software - Radius",
             "description": "Our integrated IFTA reporting software automates and simplifies the entire fuel tax reporting process, ensuring accuracy and saving you valuable time. Read more"
           },
           {
+            "rank": 9,
+            "domain": "www.torotms.com",
+            "url": "https://www.torotms.com/blog/ifta-software",
+            "title": "IFTA Software: How to Spend Less Time on Fuel Tax ...",
+            "description": "IFTA reporting is tedious and error-prone. Dedicated IFTA software like Toro TMS helps trucking companies save time and stay compliant."
+          },
+          {
             "rank": 10,
-            "domain": "tentrucks.com",
-            "url": "https://tentrucks.com/blog/best-ifta-software-owner-operators",
-            "title": "Best IFTA Software for Owner-Operators 2026",
-            "description": "Jul 7, 2026 — The best IFTA reporting software for owner-operators in 2026 is TenTrucks. It handles IFTA reporting for both the US and Canada, and does it ..."
+            "domain": "www.expressifta.com",
+            "url": "https://www.expressifta.com/",
+            "title": "IFTA Reporting Software - IFTA Filing Online - Quarterly Fuel ...",
+            "description": "Generate quarterly fuel tax reports easily with our online IFTA reporting software. Our tax calculation, auto IFTA report updates, helps to generate reports ..."
           },
           {
             "rank": 11,
-            "domain": "fleetcollect.net",
-            "url": "https://fleetcollect.net/blog/best-ifta-software-comparison",
-            "title": "Best IFTA Software 2026: FleetCollect vs Motive vs Samsara",
-            "description": "Jul 14, 2026 — FleetCollect is the best IFTA software for most trucking companies. It's the only solution under $10/month with fully automatic GPS mileage ..."
+            "domain": "tentrucks.com",
+            "url": "https://tentrucks.com/blog/best-ifta-software-owner-operators",
+            "title": "Best IFTA Software for Owner-Operators 2026",
+            "description": "Jul 7, 2026 — Compare the 5 best IFTA reporting software options for owner-operators in 2026. See why TenTrucks ranks #1 for IFTA, dispatch, ..."
           }
         ]
       }
@@ -10927,6 +10933,307 @@
             "url": "https://www.trawlerforum.com/threads/survey-questions.45814/",
             "title": "Survey questions",
             "description": "Jul 29, 2019 — The remaining issues on the survey are mainly cosmetic and seem to be of normal condition for vessels of this age. It may not matter but the ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|evv software": {
+      "fetchedAt": "2026-10-20T09:45:21.232Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=evv%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.hhaexchange.com",
+            "url": "https://www.hhaexchange.com/solutions/providers/electronic-visit-verification",
+            "title": "Integrated EVV: Powering Agencies Post-CURES Act",
+            "description": "EVV is the process of using electronic means like interactive voice response (IVR), FOB devices, or GPS-enabled mobile apps to verify homecare visits."
+          },
+          {
+            "rank": 3,
+            "domain": "aaniie.com",
+            "url": "https://aaniie.com/news/find-the-right-evv-software-for-your-business/",
+            "title": "How to Find the Right EVV Software for Your Business & ...",
+            "description": "Jan 29, 2025 — Choose the right EVV software to streamline operations, ensure Medicaid compliance, and improve efficiency in your home care business."
+          },
+          {
+            "rank": 4,
+            "domain": "www.carevoyant.com",
+            "url": "https://www.carevoyant.com/home-health-blog/integrated-evv-software-platform-for-home-care-agencies",
+            "title": "Integrated EVV Software Platform for Home Care Agencies",
+            "description": "May 6, 2021 — CareVoyant for Home Care is an integrated, cloud-based EVV software platform specifically designed for Home Health Care Agencies offering ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.alorahealth.com",
+            "url": "https://www.alorahealth.com/evv-system/",
+            "title": "EVV System",
+            "description": "An EVV (Electronic Visit Verification) system is a solution that verifies electronically the time and place in which a person receives Medicaid-funded personal ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.inmyteam.com",
+            "url": "https://www.inmyteam.com/top-8-best-evv-software-in-2026/",
+            "title": "Top 8 Best EVV Software in 2026",
+            "description": "The Top 8 EVV Software Solutions in 2026 · 1. INMYTEAM · 2. Sandata · 3. CareBridge · 4. Axxess · 5. MatrixCare · 6. HHAeXchange · 7. ClearCare (by WellSky) · 8 ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.ankota.com",
+            "url": "https://www.ankota.com/blog/evv-software/the-benefits-of-using-3rd-party-evv-software",
+            "title": "The Benefits of Using 3rd-Party EVV Software",
+            "description": "Feb 17, 2025 — Third-party EVV software ensures compliance, accuracy, and real-time tracking while reducing fraud and streamlining home care operations."
+          },
+          {
+            "rank": 9,
+            "domain": "shiftcare.com",
+            "url": "https://shiftcare.com/us/blog/evv-software-vs-full-care-management-systems-difference",
+            "title": "EVV Software vs Full Care Management Systems",
+            "description": "Aug 10, 2026 — EVV software does exactly that. It captures visit data at the point of care, timestamps the record, and transmits it to the state system. Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.hhaexchange.com",
+            "url": "https://www.hhaexchange.com/blog/everything-homecare-agencies-need-to-know-about-evv",
+            "title": "Everything Homecare Agencies Need to Know About EVV",
+            "description": "Sep 4, 2024 — Electronic Visit Verification (EVV) enables real-time confirmation of when a caregiver's visit begins and ends for members receiving in-home ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.ankota.com",
+            "url": "https://www.ankota.com/blog/evv-software/best-evv-software-for-home-care-a-comprehensive-review",
+            "title": "Best EVV Software for Home Care: A Comprehensive Review",
+            "description": "Sep 22, 2024 — I/DD software is used to manage the operations of agencies and service providers who help people experiencing Intellectual and Developmental ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|medicaid evv compliance issues": {
+      "fetchedAt": "2026-10-20T09:45:28.581Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=medicaid%20evv%20compliance%20issues&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.hhaexchange.com",
+            "url": "https://www.hhaexchange.com/blog/how-medicaid-payers-can-improve-evv-compliance",
+            "title": "How Medicaid Payers Can Improve EVV Compliance",
+            "description": "Jun 27, 2024 — Medicaid payers' strategies can optimize homecare services by supporting EVV compliance, leading to lower costs and enhanced efficiency."
+          },
+          {
+            "rank": 3,
+            "domain": "www.medicaid.gov",
+            "url": "https://www.medicaid.gov/medicaid/downloads/evv-enhance-quality.pdf",
+            "title": "Leveraging Electronic Visit Verification (EVV) to Enhance ...",
+            "description": "EVV requirements were included in the Cures Act in response to long- standing fraud, waste, and abuse (FWA) concerns for Medicaid PCS and HHCS."
+          },
+          {
+            "rank": 5,
+            "domain": "mn.gov",
+            "url": "https://mn.gov/dhs/partners-and-providers/news-initiatives-reports-workgroups/long-term-services-and-supports/evv/index.jsp",
+            "title": "Electronic visit verification / mn.gov/dhs | Partners and Providers",
+            "description": "Use their EVV system to submit complete data for all visits, including noncompliant visits. · Meet at least 80% compliance for all visits billed after this date. Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "spectrumvoice.com",
+            "url": "https://spectrumvoice.com/ohio-medicaid-evv-requirements/",
+            "title": "Ohio Medicaid EVV Requirements: What Home Care ...",
+            "description": "Feb 23, 2026 — Common Ohio Medicaid EVV challenges include: Missed clock-ins or clock-outs Unresolved EVV exceptions Location verification errors Visits that ..."
+          },
+          {
+            "rank": 7,
+            "domain": "medicaid.ncdhhs.gov",
+            "url": "https://medicaid.ncdhhs.gov/EVV",
+            "title": "Electronic Visit Verification - NC Medicaid",
+            "description": "Tips to Troubleshoot EVV-related Billing Issues. Error code 784 is created in the NCTracks provider portal when there is no EVV data (Edit 02077) on a claim ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "mmac.mo.gov",
+            "url": "https://mmac.mo.gov/reminder-of-evv-requirements-for-personal-care-service-providers/",
+            "title": "Reminder of EVV Requirements for Personal Care Service ...",
+            "description": "Apr 24, 2023 — All providers of Medicaid funded personal care services have been required to use EVV to document services delivered to participants in the home ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "oig.hhs.gov",
+            "url": "https://oig.hhs.gov/reports/all/2026/colorado-could-improve-its-electronic-visit-verification-system-and-claimed-federal-medicaid-reimbursement-for-millions-of-dollars-in-personal-care-services-that-did-not-comply-with-federal-and-state-requirements/",
+            "title": "Colorado Could Improve Its Electronic Visit Verification ... - OIG",
+            "description": "Jul 21, 2026 — EVV was developed to address weaknesses in the PCS program that contribute to improper payments, questionable quality of care,"
+          },
+          {
+            "rank": 10,
+            "domain": "activatedinsights.com",
+            "url": "https://activatedinsights.com/articles/evv-requirements-by-state/",
+            "title": "EVV Requirements by State: What Home Care Providers ...",
+            "description": "Mar 20, 2026 — What are common operational challenges with EVV compliance? Agencies face hurdles like caregiver training gaps, software integration issues ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "rosemarksystem.com",
+            "url": "https://rosemarksystem.com/blog/best-practices-for-evv-compliance/",
+            "title": "Best Practices for EVV Compliance",
+            "description": "1. Properly Configure Your System and Set Expectations · 2. Train Your Office Staff First · 3. Review EVV Data Daily · 4. Overcome Objections with Education · 5. Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|warranty software": {
+      "fetchedAt": "2026-10-20T09:46:14.197Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=warranty%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.capterra.com.au",
+            "url": "https://www.capterra.com.au/directory/31558/warranty-management/software",
+            "title": "Warranty Management Software - Comparison & Reviews",
+            "description": "Warranty management software with reporting, dashboard analytics, RMA approval, notifications, reminders, document management, & web portal."
+          },
+          {
+            "rank": 3,
+            "domain": "viindoo.com",
+            "url": "https://viindoo.com/intro/warranty",
+            "title": "Viindoo Warranty Management Software",
+            "description": "Viindoo Warranty helps manage warranty policies with united data of equipment, assets, automating up to 80% warranty process."
+          },
+          {
+            "rank": 5,
+            "domain": "www.maintainnow.app",
+            "url": "https://www.maintainnow.app/learn/definitions/warranty-tracking-software",
+            "title": "Warranty Tracking Software - Definition",
+            "description": "Warranty Tracking Software manages and monitors equipment warranties, ensuring timely maintenance and cost recovery under warranty terms."
+          },
+          {
+            "rank": 6,
+            "domain": "www.delighterp.com",
+            "url": "https://www.delighterp.com/warranty-management-software/?srsltid=AU7gw4VVcrPQuy95_k_KWbhGuRzqmazKX6mD0-spT_8zhmULFiALsdoK",
+            "title": "Warranty Management Software",
+            "description": "Warranty Management Software is a solution that helps businesses effectively manage and track warranty claims, repairs, replacements, and related processes. Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "warrantyhub.com",
+            "url": "https://warrantyhub.com/best-home-warranty-software/",
+            "title": "Best Home Warranty Software for Administrators",
+            "description": "The all-in-one warranty management software platform. Automate claims, policies, and RMAs for home warranty companies, manufacturers, builders, and TPAs. Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.guideflow.com",
+            "url": "https://www.guideflow.com/blog/warranty-management-software",
+            "title": "7 best warranty management software for 2026",
+            "description": "Jul 23, 2026 — The 7 best warranty management software platforms · 1. PTC Warranty · 2. WarrantyHub · 3. Syncron Warranty · 4. ScalePad Lifecycle Manager · 5. Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "homebuilderone.saglobal.com",
+            "url": "https://homebuilderone.saglobal.com/en-us/solutions/homebuilderone-core/construction-warranty-tracking-software/",
+            "title": "Construction Warranty Tracking Software for Homebuilders",
+            "description": "Manage residential warranty requests, inspections, project handovers, and KPI reporting with homebuilder construction warranty software."
+          },
+          {
+            "rank": 10,
+            "domain": "digiwarr.com",
+            "url": "https://digiwarr.com/what-to-look-for-when-choosing-the-best-warranty-management-software-in-2025/",
+            "title": "What to look for When choosing the Best Warranty ...",
+            "description": "Nov 25, 2025 — A good warranty management system software does not feel heavy or complicated. It feels like clarity."
+          },
+          {
+            "rank": 11,
+            "domain": "www.getapp.com",
+            "url": "https://www.getapp.com/operations-management-software/warranty-management/",
+            "title": "Warranty Management Software - GetApp",
+            "description": "iWarranty is the AI-native warranty management software for manufacturers. Automate claims processing, track warranties, detect fraud, and turn post-purchase ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|auto warranty claim denied": {
+      "fetchedAt": "2026-10-20T09:46:22.456Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=auto%20warranty%20claim%20denied&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "video",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "warelawfirm.com",
+            "url": "https://warelawfirm.com/how-do-i-fight-a-denied-warranty-claim/",
+            "title": "Denied Warranty Claim? How to Challenge the Decision",
+            "description": "Step-by-Step Guide to Challenging a Warranty Claim Denial · 1. Request and Review the Denial in Writing · 2. Get Your Warranty Documents and Read the Fine Print. Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.themotorombudsman.org",
+            "url": "https://www.themotorombudsman.org/knowledge/my-warranty-claim-was-rejected-for-wear-and-tear-what-can-i-do/",
+            "title": "My extended warranty claim was rejected for wear and tear ...",
+            "description": "If your claim is rejected because there hasn't been a sudden mechanical breakdown, it is usually best for you to dispute their view by obtaining independent ..."
+          },
+          {
+            "rank": 6,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=bWGwnD2wrAs",
+            "title": "They Sold The Warranty… Then Refused The Claim",
+            "description": "car warranties (especially the third-party kind) are often mis-sold, misunderstood, and almost impossible to claim on when you actually need ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.justanswer.com",
+            "url": "https://www.justanswer.com/consumer-protection-law/nbmnb-warranty-company-denied-claim-engine.html",
+            "title": "A warranty company denied my claim for an engine on a ...",
+            "description": "Oct 31, 2023 — 1. Document Everything: Ensure you maintain a clear and detailed record of all communications with the warranty company, including the initial ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/996512364742302/posts/1204582480601955/",
+            "title": "What to do when warranty claims are repeatedly denied for ...",
+            "description": "I brought a 2008 holden commodore senator replica and  had numerous problems with engine and parts that needed replacing were covered but they kept refusing ..."
+          },
+          {
+            "rank": 9,
+            "domain": "www.quora.com",
+            "url": "https://www.quora.com/What-if-my-after-warranty-company-denies-my-auto-claim",
+            "title": "What if my after warranty company denies my auto claim?",
+            "description": "1. Review the Denial Letter Understand the Reason: The insurance company is required to provide a written explanation of why they denied your  ..."
+          },
+          {
+            "rank": 10,
+            "domain": "www.themotorombudsman.org",
+            "url": "https://www.themotorombudsman.org/knowledge/my-new-car-warranty-claim-was-rejected-what-can-i-do/",
+            "title": "My new car warranty claim was rejected, what can I do?",
+            "description": "If your new car warranty claim has been rejected, you may need to provide independent evidence in the form of an independent technical report."
+          },
+          {
+            "rank": 11,
+            "domain": "www.avvo.com",
+            "url": "https://www.avvo.com/legal-answers/what-to-do-with-denied-auto-warranty-claim--226142.html",
+            "title": "What to do with denied auto warranty claim? - Legal Answers",
+            "description": "Mar 12, 2010 — You need to show your warranty agreement to a lawyer and explain what happened because the law is different in every state. There are basically ... Read more"
           }
         ]
       }
