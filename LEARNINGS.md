@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-20 (trends)
+- The "AI as a Personal Agent" pattern is robust across both consumer and B2B contexts. Whether it's managing a wardrobe, a learning path, or an influencer campaign, AI is moving from being a reactive tool to a proactive, autonomous system that learns and optimizes.
+- The "Scaffolding Kit" opportunity continues to be a strong fit for solo creators. As AI tools become more powerful and specialized, the need for guides, templates, and prompt libraries that teach non-experts how to effectively leverage these tools for specific outcomes increases.
+- Hyper-personalization, driven by AI, is becoming a core differentiator for new products. Whether in education, marketing, or personal style, the ability to adapt to individual user data and preferences in real time creates a significantly more engaging and effective user experience.
+
+---
+
 ## 2026-10-20
 - **The "Compliance Orchestrator" Pattern Extends Beyond Federal Agencies:** The most compelling compliance opportunities combine multiple, distinct regulatory bodies or standards (e.g., NFPA standards and OSHA regulations) into a single, comprehensive hub, amplifying the value proposition by centralizing disparate, high-stakes documentation requirements. This is a refinement of the 2026-10-19 learning.
 - **SMB Fragmentation Creates Durable Unbundling Opportunities:** Large, fragmented markets like commercial property management, where enterprise solutions are too complex and expensive, consistently present opportunities for focused, affordable, purpose-built SaaS products that unbundle specific, high-stakes compliance pains.

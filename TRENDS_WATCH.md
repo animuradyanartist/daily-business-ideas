@@ -453,6 +453,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI Digital Twins for Solopreneur Content & Business Scaling** · Using AI to replicate a creator's persona for automated content, brand presence, and sales. · flagged 2026-10-19 · last checked 2026-10-19 · [origin memo](trends/2026-10-19.md)
 - **AI-Powered Microlearning for In-Workflow Upskilling** · Delivering personalized, bite-sized professional development directly within existing workflows. · flagged 2026-10-19 · last checked 2026-10-19 · [origin memo](trends/2026-10-19.md)
 - **AI-Enhanced Augmented Reality for Consumer & SMB Experiences** · Enhancing AR applications with AI for personalized product visualization, interactive guides, and remote assistance. · flagged 2026-10-19 · last checked 2026-10-19 · [origin memo](trends/2026-10-19.md)
+- **AI-Powered Personalized & Adaptive Learning Paths** · Using AI to dynamically organize schedules, prioritize tasks, and adapt to real-time changes, reducing cognitive load. · flagged 2026-10-20 · last checked 2026-10-20 · [origin memo](trends/2026-10-20.md)
+- **AI-Powered Micro-Influencer Marketing for SMBs** · Using AI platforms to automate the discovery, vetting, outreach, and campaign management for micro-influencers. · flagged 2026-10-20 · last checked 2026-10-20 · [origin memo](trends/2026-10-20.md)
+- **AI-Powered Personal Style & Wardrobe Curation** · Using AI apps to generate personalized outfit recommendations, optimize wardrobes, and assist with smart shopping. · flagged 2026-10-20 · last checked 2026-10-20 · [origin memo](trends/2026-10-20.md)
 
 
 ## ➡️ Active — plateauing
@@ -762,3 +765,5 @@ _(empty)_
 <!-- 2026-10-18 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-10-19 status-update directive: 🚀 | The AI-Augmented Second Brain -->
+
+<!-- 2026-10-20 status-update directive: 🚀 | AI-Automated Government Contract Compliance -->
