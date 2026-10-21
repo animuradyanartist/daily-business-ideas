@@ -1,0 +1,16 @@
+{
+  "id": "c3f4c554-a4b0-5f5c-9bdd-fd198f623c4e",
+  "month": "2026-10",
+  "client": "scout",
+  "status": "reserved",
+  "estimatedUsd": 0.016632,
+  "actualUsd": null,
+  "endpoint": "dataforseo_labs/google/keyword_overview/live",
+  "requestKey": "0dec9b33f9143d9a5402f84d",
+  "runId": "2026-10-21-a1-1792575950141",
+  "createdAt": "2026-10-21T09:45:52.103Z",
+  "expiresAt": "2026-10-21T10:00:52.103Z",
+  "settledAt": null,
+  "note": null,
+  "payload": null
+}
