@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-21 (trends)
+- **AI as a Strategic Orchestrator:** The most compelling AI applications are moving beyond automating discrete tasks to orchestrating entire strategic workflows, whether it's content planning, digital product development, or personalized learning paths. This reduces the cognitive load of managing complex, multi-step processes.
+- **The "Scaffolding Kit" Opportunity in AI-Driven Workflows:** For every emerging AI platform that automates a complex personal or professional workflow, a robust secondary market is forming around digital products (guides, templates, prompt packs) that teach non-experts how to structure inputs, manage outputs, and strategically integrate these tools for specific, high-value outcomes.
+- **Hyper-Personalization Driven by AI:** AI is becoming a core differentiator for new digital products by enabling hyper-personalized experiences across various domains. This includes adaptive learning, tailored content strategies, and customized digital product development, where the AI continuously adapts to individual user data and preferences in real-time.
+
+---
+
 ## 2026-10-21
 *   **The "Compliance Orchestrator" Pattern Thrives on Regulatory Overlap:** The highest-conviction compliance opportunities are those where a single solution can address the *intersection* of multiple, distinct regulatory bodies (e.g., EPA, OSHA, DOT) within a specific niche, rather than just one agency's requirements. This amplifies the value proposition by centralizing disparate, high-stakes documentation.
 *   **"Why Now" Can Be Driven by Relative Disadvantage:** Beyond new regulations, a "why now" can emerge when a fragmented SMB market is left behind by industry consolidation, forcing them to adopt modern solutions to maintain competitiveness and compliance standards set by larger players.
