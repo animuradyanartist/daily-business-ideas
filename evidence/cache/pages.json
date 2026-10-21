@@ -9444,6 +9444,58 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://safelinkconsulting.com/capabilities/industries/dental-laboratory/": {
+      "fetchedAt": "2026-10-21T10:46:23.909Z",
+      "data": {
+        "url": "https://safelinkconsulting.com/capabilities/industries/dental-laboratory/",
+        "finalUrl": "https://safelinkconsulting.com/capabilities/industries/dental-laboratory/",
+        "retrievedAt": "2026-10-21T10:46:23.909Z",
+        "status": 200,
+        "error": null,
+        "title": "Regulatory Compliance for the Dental Laboratory — SafeLink Consulting, Inc.",
+        "description": "Integrated OSHA, FDA, HIPAA, and Environmental compliance programs built for dental laboratories — customized safety, quality management systems, and privacy practices.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.hklaw.com/pricing": {
+      "fetchedAt": "2026-10-21T10:46:23.908Z",
+      "data": {
+        "url": "https://www.hklaw.com/pricing",
+        "finalUrl": "https://www.hklaw.com/pricing",
+        "retrievedAt": "2026-10-21T10:46:23.908Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.hklaw.com/en/insights/publications/2025/09/fda-enforcement-against-dental-lab-could-have-broader-implications": {
+      "fetchedAt": "2026-10-21T10:46:23.906Z",
+      "data": {
+        "url": "https://www.hklaw.com/en/insights/publications/2025/09/fda-enforcement-against-dental-lab-could-have-broader-implications",
+        "finalUrl": "https://www.hklaw.com/en/insights/publications/2025/09/fda-enforcement-against-dental-lab-could-have-broader-implications",
+        "retrievedAt": "2026-10-21T10:46:23.906Z",
+        "status": 200,
+        "error": null,
+        "title": "FDA Enforcement Against Dental Lab Could Have Broader Implications | Insights | Holland & Knight",
+        "description": "The FDA's Warning Letter to Reset Technology highlights new scrutiny of dental labs and similar facilities, reinforcing compliance with medical device regulations.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://safelinkconsulting.com/pricing": {
+      "fetchedAt": "2026-10-21T10:46:23.911Z",
+      "data": {
+        "url": "https://safelinkconsulting.com/pricing",
+        "finalUrl": "https://safelinkconsulting.com/pricing",
+        "retrievedAt": "2026-10-21T10:46:23.911Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

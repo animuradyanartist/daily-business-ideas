@@ -11974,6 +11974,82 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|dental lab fda compliance": {
+      "fetchedAt": "2026-10-21T10:46:09.005Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=dental%20lab%20fda%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.hklaw.com",
+            "url": "https://www.hklaw.com/en/insights/publications/2025/09/fda-enforcement-against-dental-lab-could-have-broader-implications",
+            "title": "FDA Enforcement Against Dental Lab Could Have Broader ...",
+            "description": "Sep 8, 2025 — dental laboratory operations do not trigger FDA oversight because of a narrow, albeit ill-defined, exemption for certain medical device ..."
+          },
+          {
+            "rank": 3,
+            "domain": "safelinkconsulting.com",
+            "url": "https://safelinkconsulting.com/capabilities/industries/dental-laboratory/",
+            "title": "Regulatory Compliance for the Dental Laboratory",
+            "description": "If your lab meets the criteria under FDA Title 21, compliance is a legal requirement. SafeLink has helped dental laboratories globally understand their FDA ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "dentallabs.org",
+            "url": "https://dentallabs.org/fda-inspections-are-not-all-the-same-two-recent-cases/",
+            "title": "FDA Inspections Are Not All the Same – Two Recent Cases",
+            "description": "May 31, 2023 — It remains law that dental laboratories are exempt from FDA registration. However, the changing landscape of business models and the types of ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "info.safelinkconsulting.com",
+            "url": "https://info.safelinkconsulting.com/how-to-stay-on-top-of-fda-dental-regulations",
+            "title": "How to stay on top of FDA Dental Regulations",
+            "description": "All dental laboratories must have a Quality System in place, however, all components of FDA's Quality System Regulation don't apply to all business models. Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.thefdalawblog.com",
+            "url": "https://www.thefdalawblog.com/2025/08/once-bitten-twice-shy-recent-fda-warning-letter-takes-aim-at-dtc-dental-laboratory/",
+            "title": "Once Bitten, Twice Shy: Recent FDA Warning Letter Takes ...",
+            "description": "Aug 28, 2025 — FDA considered the dental laboratory to be engaged in device manufacturing activities and subject to the same regulatory requirements as ..."
+          },
+          {
+            "rank": 7,
+            "domain": "xdentlab.com",
+            "url": "https://xdentlab.com/fda-compliance-for-vietnamese-dental-labs-a-comprehensive-guide",
+            "title": "FDA Compliance For Vietnamese Dental Labs",
+            "description": "Aug 27, 2025 — Compliance with Good Manufacturing Practices (GMP) is mandatory for FDA approval. Vietnamese dental laboratories must: Maintain Clean Facilities ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "medium.com",
+            "url": "https://medium.com/@evo820social/understanding-fda-regulatory-compliance-for-dental-labs-6417fd918b98",
+            "title": "Understanding FDA Regulatory Compliance for Dental Labs",
+            "description": "FDA requires dental labs to comply with FDA 21 CFR Part 820. To learn more about this regulation, please, visit the link above."
+          },
+          {
+            "rank": 10,
+            "domain": "www.linkedin.com",
+            "url": "https://www.linkedin.com/pulse/why-fda-looking-dental-laboratories-tim-torbenson",
+            "title": "Why is the FDA Looking at Dental Laboratories?",
+            "description": "FDA's main regulatory focus has been the materials used in the dental laboratory. Any manufacture of medical devices must be compliant with the ..."
+          },
+          {
+            "rank": 11,
+            "domain": "www.fda.gov",
+            "url": "https://www.fda.gov/medical-devices/products-and-medical-procedures/dental-devices",
+            "title": "Dental Devices",
+            "description": "Sep 9, 2026 — Medical devices used to treat dental problems and maintain dental health ... Inspections and Compliance · Science and Research. Information For. Read more"
+          }
+        ]
+      }
     }
   }
 }
