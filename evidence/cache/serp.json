@@ -11592,6 +11592,388 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|qms software": {
+      "fetchedAt": "2026-10-21T09:45:56.797Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=qms%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "product_considerations",
+          "related_searches",
+          "knowledge_graph"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/QualityAssurance/comments/13exona/what_qms_software_is_used_at_your_company/",
+            "title": "What QMS Software is used at your company?",
+            "description": "And do you actually like it/find it useful?\n\nAt my company, it's split into 3 softwares and they're all just ok. The quality director is asking for opinions ..."
+          },
+          {
+            "rank": 4,
+            "domain": "www.siemens.com",
+            "url": "https://www.siemens.com/en-us/solutions/quality-management-qms/",
+            "title": "Quality Management System (QMS) software solutions",
+            "description": "QMS software is a digital solution that helps you to streamline quality management processes. It centralizes project planning, audits, supplier quality, issues ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.gartner.com",
+            "url": "https://www.gartner.com/reviews/market/quality-management-system-software",
+            "title": "Best Quality Management System Software Reviews 2026",
+            "description": "TrackWise QMS is a software designed to support organizations in managing and automating quality processes such as document control, audit management, CAPA, ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.compliancequest.com",
+            "url": "https://www.compliancequest.com/quality/qms-software-manufacturing/",
+            "title": "QMS Software for the Manufacturing Industry",
+            "description": "Manufacturing QMS software is a digital platform that helps manufacturers manage quality, compliance, and risk across the full product lifecycle, from APQP and ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "plex.rockwellautomation.com",
+            "url": "https://plex.rockwellautomation.com/en-us/products/quality-management-system.html",
+            "title": "Quality Management System (QMS) | Rockwell Automation",
+            "description": "Quality Management System (QMS ) is a cloud-based digital quality solution for manufacturers that standardizes and automates quality documentation, processes, ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "simplerqms.com",
+            "url": "https://simplerqms.com/qms/",
+            "title": "QMS (Quality Management System): Definition, Types, ...",
+            "description": "Apr 16, 2025 — QMS software is a digital solution that helps organizations manage and automate quality management processes to ensure consistent quality, ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "mitti.com",
+            "url": "https://mitti.com/apps/qms-software",
+            "title": "Free Quality Management System (QMS) Software of 2026 - Mitti",
+            "description": "QMS software is a handy tool that boosts product quality by automating processes that follow quality control and assurance standards. Known as quality ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.scilife.io",
+            "url": "https://www.scilife.io/blog/best-quality-management-software-life-sciences",
+            "title": "Best QMS Software for Life Sciences",
+            "description": "Compare the best quality management system software for life sciences, including Scilife, Veeva, MasterControl, Qualio, and other leading eQMS platforms."
+          },
+          {
+            "rank": 11,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=fZtIe9fYNao",
+            "title": "4 QMS Software That Nail ISO 9001 and Quality Control",
+            "description": null
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|as9100 software": {
+      "fetchedAt": "2026-10-21T09:46:23.709Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=as9100%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "discussions_and_forums",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "qt9software.com",
+            "url": "https://qt9software.com/as9100",
+            "title": "AS9100 QMS Software for Aerospace",
+            "description": "Achieve AS9100 aerospace compliance with QT9 QMS software. Centralize document control, audits, CAPA, risk and supplier quality for easier audits."
+          },
+          {
+            "rank": 4,
+            "domain": "intellaquest.com",
+            "url": "https://intellaquest.com/choosing-the-best-quality-management-software-to-meet-the-as9100-aerospace-standard/",
+            "title": "Choosing the Best Quality Management Software to Meet ...",
+            "description": "The AS9100 standard emphasizes the need for a robust document management system that accounts for the complexities throughout the aerospace product lifecycle. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.ideagen.com",
+            "url": "https://www.ideagen.com/noram/standards/as9100",
+            "title": "AS 9100 compliance software for aerospace quality",
+            "description": "AS9100 is the quality management standard for aviation, aerospace and defense. It expands on the building blocks of ISO 9001 to include industry specific ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.softexpert.com",
+            "url": "https://www.softexpert.com/en/compliance/standard/as9100/",
+            "title": "AS9100 Software",
+            "description": "AS9100. Streamline and standardize legal and regulatory compliance management in accordance with AS9100/EN9100 requirements using a comprehensive solution, ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.sae.org",
+            "url": "https://www.sae.org/standards/as9006b-deliverable-aerospace-software-supplement-as9100a-quality-management-systems-aerospace-requirements-software-based-as9100a",
+            "title": "Deliverable Aerospace Software Supplement for AS9100A ...",
+            "description": "The basic requirements of AS9100A apply with the following clarifications. This document supplements the requirements of AS9100A for deliverable software."
+          },
+          {
+            "rank": 8,
+            "domain": "as9100store.com",
+            "url": "https://as9100store.com/aerospace-standards-explained/what-is-as9100/",
+            "title": "AS9100: What is it? Who needs it?",
+            "description": "AS9100 is the international Quality Management System standard for the Aviation, Space and Defense (AS&D) industry."
+          },
+          {
+            "rank": 9,
+            "domain": "advisera.com",
+            "url": "https://advisera.com/9100academy/what-is-as9100/",
+            "title": "What is AS9100? Aerospace Quality Standards",
+            "description": "AS9100 is a standard that sets guidelines for implementing a Quality Management System (QMS) for the aviation, space, and defense organizations. The standard is ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.deltek.com",
+            "url": "https://www.deltek.com/resources/articles/as9100-certification/",
+            "title": "Guide to AS9100 Certification for Aerospace Manufacturers",
+            "description": "Aug 14, 2025 — While no software solution guarantees AS9100 certification, TIPQA can support and streamline the compliance process. TIPQA helps automate ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|as9100 compliance challenges": {
+      "fetchedAt": "2026-10-21T09:46:35.157Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=as9100%20compliance%20challenges&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "scholarly_articles"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "audit-now.com",
+            "url": "https://audit-now.com/audit-guides/as9100-checklists/",
+            "title": "AS9100: Elevating Aerospace Quality Management",
+            "description": "Maintaining AS9100 Compliance. Obtaining AS9100 certification is just the beginning. Maintaining compliance requires ongoing effort and dedication. Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "quadraconsulting.com",
+            "url": "https://quadraconsulting.com/a-guide-to-as9100-implementation/",
+            "title": "A Guide to AS9100 Implementation",
+            "description": "Mar 20, 2023 — The AS9100 standards requires a better understanding of the requirements of your customer so you can better meet their needs which will lead to ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.lrqa.com",
+            "url": "https://www.lrqa.com/en-in/insights/articles/how-do-aviation-regulations-impact-as-9100-certified-organisations/",
+            "title": "Impact of Aviation Regulations on AS 91XX Firms",
+            "description": "Aug 12, 2024 — How aviation regulations impact AS 91XX-certified organisations · Insufficient safety oversight of software development · Lapses in compliance ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.linkedin.com",
+            "url": "https://www.linkedin.com/posts/kevindigilio_as9100-aerospacequality-qms-activity-7394358388144627712-fPPx",
+            "title": "AS9100 audits fail for missing proof, not work. How to ...",
+            "description": "AS9100 audits do not fail for missing work. The problem is that they live on shared drives, disconnected from daily activity. practices don't ..."
+          },
+          {
+            "rank": 7,
+            "domain": "stratlane.com",
+            "url": "https://stratlane.com/navigate-aerospace-regulations-key-as9100-insights-for-you/",
+            "title": "Navigate Aerospace Regulations: Key AS9100 Insights for ...",
+            "description": "Organizations typically face annual surveillance audits to maintain AS9100 certification, with a full recertification audit every three years. In between, many ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "ksqa.org",
+            "url": "https://ksqa.org/blog/understanding-as9100-certification-costs-a-comprehensive-guide",
+            "title": "Unlock Cost-Effective AS9100 Certification with KSQA",
+            "description": "Unlock the full potential of AS9100 certification with our comprehensive guide. Learn cost considerations, strategies for efficiency, and the major benefits ..."
+          },
+          {
+            "rank": 9,
+            "domain": "www.linkedin.com",
+            "url": "https://www.linkedin.com/pulse/case-study-achieving-as9100-certification-45-days-zero-williams-hmahe",
+            "title": "Achieving AS9100 Certification in 45 Days with Zero Audit ...",
+            "description": "Challenge : The manufacturer made quality parts and delivered on time, but did not have an existing Quality Management System (QMS) in place and ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "www.qmii.com",
+            "url": "https://www.qmii.com/as9100-rev-d-overview-ensuring-aerospace-product-safety/",
+            "title": "AS9100 Rev D Overview: Ensuring Aerospace Product ...",
+            "description": "Dec 18, 2024 — Explore how AS9100 Rev D strengthens aerospace product safety, ensuring reliability and compliance in the industry."
+          },
+          {
+            "rank": 12,
+            "domain": "rjqualityconsulting.com",
+            "url": "https://rjqualityconsulting.com/as9100-risk-based-thinking/",
+            "title": "AS9100 Risk Based Thinking",
+            "description": "Feb 4, 2025 — Airlines and regulators expect AS9100 compliance. It helps reduce errors and delays in aircraft production. Companies must track risks at ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|waste management software": {
+      "fetchedAt": "2026-10-21T09:46:41.336Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=waste%20management%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "paid",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.wm.com",
+            "url": "https://www.wm.com/",
+            "title": "WM | Waste Management & Recycling Services",
+            "description": "WM is the leading provider of comprehensive waste management, offering services such as garbage collection, recycling pickup and dumpster rental."
+          },
+          {
+            "rank": 3,
+            "domain": "netzerocompare.com",
+            "url": "https://netzerocompare.com/waste-management-software",
+            "title": "Waste Management Software",
+            "description": "Sep 11, 2026 — Waste Management Software (WMS) helps businesses keep track of their waste, reduce costs, and stay on top of regulations. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/wastemanagement/comments/1qr9c4j/software_suggestions/",
+            "title": "Software suggestions : r/wastemanagement",
+            "description": "For collection-side tracking and dispatch we use CurbWaste, handles our rolloff and commercial routes well with live GPS and order management. Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.curbwaste.com",
+            "url": "https://www.curbwaste.com/glossary/best-waste-management-software",
+            "title": "best waste management software",
+            "description": "Best Waste Management Software refers to top-rated software solutions specifically designed to manage various aspects of waste management operations. Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "feeds.azuga.com",
+            "url": "https://feeds.azuga.com/blog/best-waste-management-software",
+            "title": "Best Waste Management Software 2026",
+            "description": "Aug 4, 2026 — Waste management software covers platforms: AMCS, Routeware, Soft-Pak, Azuga, and RouteSmart, each suited to different hauler needs"
+          },
+          {
+            "rank": 8,
+            "domain": "www.fleetio.com",
+            "url": "https://www.fleetio.com/industries/waste-management-fleet-software",
+            "title": "Waste Management Fleet Software: Maximize Route Uptime",
+            "description": "Manage waste collection fleets efficiently. Track vehicles, automate maintenance, and reduce downtime with mobile-accessible fleet software."
+          },
+          {
+            "rank": 9,
+            "domain": "www.guideflow.com",
+            "url": "https://www.guideflow.com/blog/waste-collection-software",
+            "title": "7 best waste collection software for 2026",
+            "description": "Jul 23, 2026 — Compare the 7 best waste collection software platforms for 2026 across routing, billing, verification, and customer self-service to find ..."
+          },
+          {
+            "rank": 10,
+            "domain": "blog.haulerhero.com",
+            "url": "https://blog.haulerhero.com/best-waste-management-software-in-2026-how-to-choose-the-right-platform-for-your-operation",
+            "title": "Best Waste Management Software in 2026: How to Choose ...",
+            "description": "Mar 4, 2026 — Waste management software is designed to help haulers and municipalities manage daily operations such as: Route planning and dispatch Driver ..."
+          },
+          {
+            "rank": 11,
+            "domain": "www.geofluxus.com",
+            "url": "https://www.geofluxus.com/blog/top-waste-management-applications",
+            "title": "Top 8 Features Every Waste Management Application Needs",
+            "description": "Feb 9, 2026 — 8 Capabilities Every Waste Management Software Needs · 1. Automated Data Capture & Global Classification Solutions · 2. Traceable Data to Help ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|vet clinic waste disposal rules": {
+      "fetchedAt": "2026-10-21T09:46:47.344Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=vet%20clinic%20waste%20disposal%20rules&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.avma.org",
+            "url": "https://www.avma.org/resources-tools/one-health/waste-disposal-veterinary-practices",
+            "title": "Waste disposal by veterinary practices",
+            "description": "Veterinary practices must comply not only with federal requirements for waste disposal, but also with state-specific waste management rules where applicable. Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.biomedicalwastesolutions.com",
+            "url": "https://www.biomedicalwastesolutions.com/veterinarian-waste-disposal/",
+            "title": "Quick Guide to Veterinarian Waste Disposal",
+            "description": "Nov 30, 2023 — Veterinarians are legally obligated to properly segregate, label, store, and dispose of different types of medical waste, such as infectious ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.medprodisposal.com",
+            "url": "https://www.medprodisposal.com/medical-waste-disposal-veterinary-clinics-compliance-guide/",
+            "title": "Medical Waste Disposal for Veterinary Clinics",
+            "description": "Mar 24, 2026 — Clinics must register using EPA Forms 8700-12 or 8700-23 if they generate regulated hazardous waste."
+          },
+          {
+            "rank": 6,
+            "domain": "cvma.net",
+            "url": "https://cvma.net/medical-waste-management-veterinary-practice-obligations/",
+            "title": "Medical Waste Management: Veterinary Practice Obligations",
+            "description": "Dec 5, 2024 — Bags and containers must be clearly labeled with the words “Biohazardous Waste” or with the international biohazard symbol and the word “ ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.stericycle.com",
+            "url": "https://www.stericycle.com/en-us/industries/practices-and-care-providers/veterinary-clinics-and-hospitals",
+            "title": "Veterinary Clinics and Animal Hospitals",
+            "description": "Stericycle offers a comprehensive range of regulated waste management and sharps disposal services that meet the unique waste needs of veterinary clinics."
+          },
+          {
+            "rank": 8,
+            "domain": "dtsc.ca.gov",
+            "url": "https://dtsc.ca.gov/hw_med-offices-fs/",
+            "title": "DTSC Dental, Medical and Veterinary Offices: Managing Your ...",
+            "description": "Wastes that have been determined to be hazardous must be labeled and managed as hazardous wastes, regardless of whether you are eligible to treat them onsite ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.danielshealth.com",
+            "url": "https://www.danielshealth.com/knowledge-center/vet-clinics",
+            "title": "Medical Waste Considerations for Vet Clinics",
+            "description": "Nov 13, 2018 — Know whether or not you are considered a small medical waste generator a large medical waste generator (less than or over 50 pounds) per month. Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.pureway.com",
+            "url": "https://www.pureway.com/blog/veterinary-sharps-disposal",
+            "title": "Veterinary Sharps Disposal",
+            "description": "Nov 10, 2017 — Proper Transport Waste: To transport more than 50 pounds of vet medical waste, you need to have a permit, which is costly and time-consuming ... Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "mcfenvironmental.com",
+            "url": "https://mcfenvironmental.com/best-practices-for-veterinarians-to-remove-biohazardous-medical-waste/",
+            "title": "Best Practices for Veterinarians to Remove Biohazardous ...",
+            "description": "Jan 25, 2023 — If your veterinary facility or practice produces biohazardous waste, you must comply with the Standards Applicable to Generators of Hazardous ... Read more"
+          }
+        ]
+      }
     }
   }
 }

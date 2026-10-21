@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-21
+*   The Small Dental Lab's "FDA-Ready" QMSR & ISO 13485 Quality Management Hub — While a strong compliance pain, the veterinary market is slightly larger and the multi-agency compliance overlap (EPA, OSHA, DOT) feels more acute and less harmonized than the QMSR/ISO 13485 alignment for dental labs.
+*   The Independent Construction Subcontractor's "OSHA-Proof" Site Safety Log — Good compliance pain, but the project-based nature of construction and the variability of site-specific regulations make a standardized software solution more challenging than the relatively stable environment of a veterinary clinic.
+*   The Small Manufacturing Plant's "EPA/OSHA-Ready" Chemical Inventory & SDS Hub — Strong compliance pain, but the sheer diversity of chemicals and manufacturing processes across different small plants makes a universally applicable solution harder to build and market than for a more standardized environment like a vet clinic.
+
 ## 2026-10-20
 - The Small Chemical Distributor's "DOT/OSHA-Proof" SDS & HazMat Log — While a strong compliance pain, the market for chemical distributors is more fragmented and potentially smaller than commercial property management, and the regulatory overlap (DOT/OSHA) is slightly less acute than the NFPA/OSHA combination for fire safety.
 - The Independent Food Safety Consultant's "FSMA 204-Ready" Traceability Audit Hub — This targets consultants, not the operating businesses directly, and focuses on efficiency rather than the existential regulatory risk of fire safety.

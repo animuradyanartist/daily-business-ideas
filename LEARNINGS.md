@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-21
+*   **The "Compliance Orchestrator" Pattern Thrives on Regulatory Overlap:** The highest-conviction compliance opportunities are those where a single solution can address the *intersection* of multiple, distinct regulatory bodies (e.g., EPA, OSHA, DOT) within a specific niche, rather than just one agency's requirements. This amplifies the value proposition by centralizing disparate, high-stakes documentation.
+*   **"Why Now" Can Be Driven by Relative Disadvantage:** Beyond new regulations, a "why now" can emerge when a fragmented SMB market is left behind by industry consolidation, forcing them to adopt modern solutions to maintain competitiveness and compliance standards set by larger players.
+*   **Small Market, High Stakes = Strong Niche:** A market that might appear "small" to venture capital (e.g., $50M SAM) can still be exceptionally attractive for a solo founder if the pain is acute, the wallet is proven, and the unit economics are strong, allowing for a profitable, defensible business without hyper-scale pressure.
+
 ## 2026-10-20 (trends)
 - The "AI as a Personal Agent" pattern is robust across both consumer and B2B contexts. Whether it's managing a wardrobe, a learning path, or an influencer campaign, AI is moving from being a reactive tool to a proactive, autonomous system that learns and optimizes.
 - The "Scaffolding Kit" opportunity continues to be a strong fit for solo creators. As AI tools become more powerful and specialized, the need for guides, templates, and prompt libraries that teach non-experts how to effectively leverage these tools for specific outcomes increases.

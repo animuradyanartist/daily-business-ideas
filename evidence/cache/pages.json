@@ -1894,11 +1894,11 @@
       }
     },
     "page|https://www.linkedin.com/pricing": {
-      "fetchedAt": "2026-09-16T09:39:07.269Z",
+      "fetchedAt": "2026-10-21T09:46:53.179Z",
       "data": {
         "url": "https://www.linkedin.com/pricing",
         "finalUrl": "https://www.linkedin.com/pricing",
-        "retrievedAt": "2026-09-16T09:39:07.269Z",
+        "retrievedAt": "2026-10-21T09:46:53.179Z",
         "status": 404,
         "error": "HTTP 404"
       }
@@ -9177,6 +9177,270 @@
           }
         ],
         "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://plex.rockwellautomation.com/en-us/products/quality-management-system.html": {
+      "fetchedAt": "2026-10-21T09:46:51.551Z",
+      "data": {
+        "url": "https://plex.rockwellautomation.com/en-us/products/quality-management-system.html",
+        "finalUrl": "https://plex.rockwellautomation.com/en-us/products/quality-management-system.html",
+        "retrievedAt": "2026-10-21T09:46:51.551Z",
+        "status": 200,
+        "error": null,
+        "title": "Quality Management System (QMS) | Rockwell Automation | Plex | US",
+        "description": "Ensure production quality & compliance with Plex’s Quality Management System: streamline processes, reduce defects, and drive continuous improvement.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://plex.rockwellautomation.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:51.552Z",
+      "data": {
+        "url": "https://plex.rockwellautomation.com/pricing",
+        "finalUrl": "https://plex.rockwellautomation.com/pricing",
+        "retrievedAt": "2026-10-21T09:46:51.552Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.compliancequest.com/quality/qms-software-manufacturing/": {
+      "fetchedAt": "2026-10-21T09:46:51.549Z",
+      "data": {
+        "url": "https://www.compliancequest.com/quality/qms-software-manufacturing/",
+        "finalUrl": "https://www.compliancequest.com/quality/qms-software-manufacturing/",
+        "retrievedAt": "2026-10-21T09:46:51.549Z",
+        "status": 200,
+        "error": null,
+        "title": "QMS Software for the Manufacturing Industry",
+        "description": "Manufacturing QMS software to automate quality issues from identification to resolution and change control in a centralized system.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.siemens.com/en-us/solutions/quality-management-qms/": {
+      "fetchedAt": "2026-10-21T09:46:51.546Z",
+      "data": {
+        "url": "https://www.siemens.com/en-us/solutions/quality-management-qms/",
+        "finalUrl": "https://www.siemens.com/en-us/solutions/quality-management-qms/",
+        "retrievedAt": "2026-10-21T09:46:51.546Z",
+        "status": 200,
+        "error": null,
+        "title": "Quality Managememt System (QMS) Software | Siemens",
+        "description": "Streamline quality management processes. Closed-loop QMS software solutions allow manufacturers to improve the quality of products from design to compliance.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.compliancequest.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:51.550Z",
+      "data": {
+        "url": "https://www.compliancequest.com/pricing",
+        "finalUrl": "https://www.compliancequest.com/request-pricing/",
+        "retrievedAt": "2026-10-21T09:46:51.550Z",
+        "status": 200,
+        "error": null,
+        "title": "Custom Pricing for Compliance Solutions | ComplianceQuest",
+        "description": "Get a tailored pricing plan aligned with your compliance goals and budget. Discover ComplianceQuest’s AI-powered, cloud-based solutions for quality, safety, and sustainability.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.siemens.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:51.547Z",
+      "data": {
+        "url": "https://www.siemens.com/pricing",
+        "finalUrl": "https://www.siemens.com/pricing/",
+        "retrievedAt": "2026-10-21T09:46:51.547Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://qt9software.com/as9100": {
+      "fetchedAt": "2026-10-21T09:46:53.180Z",
+      "data": {
+        "url": "https://qt9software.com/as9100",
+        "finalUrl": "https://qt9software.com/as9100",
+        "retrievedAt": "2026-10-21T09:46:53.180Z",
+        "status": 200,
+        "error": null,
+        "title": "AS9100 QMS Software for Aerospace | QT9",
+        "description": "Achieve AS9100 aerospace compliance with QT9 QMS software. Centralize document control, audits, CAPA, risk and supplier quality for easier audits.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://qt9software.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:53.181Z",
+      "data": {
+        "url": "https://qt9software.com/pricing",
+        "finalUrl": "https://qt9software.com/pricing",
+        "retrievedAt": "2026-10-21T09:46:53.181Z",
+        "status": 200,
+        "error": null,
+        "title": "QT9 Software Pricing | QMS & ERP Plans",
+        "description": "Compare pricing for QT9 Software solutions. Explore cost-effective QMS & ERP plans to streamline compliance, operations and manufacturing processes.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.linkedin.com/posts/kevindigilio_as9100-aerospacequality-qms-activity-7394358388144627712-fPPx": {
+      "fetchedAt": "2026-10-21T09:46:53.178Z",
+      "data": {
+        "url": "https://www.linkedin.com/posts/kevindigilio_as9100-aerospacequality-qms-activity-7394358388144627712-fPPx",
+        "finalUrl": "https://www.linkedin.com/posts/kevindigilio_as9100-aerospacequality-qms-activity-7394358388144627712-fPPx",
+        "retrievedAt": "2026-10-21T09:46:53.178Z",
+        "status": 200,
+        "error": null,
+        "title": "AS9100 audits fail for missing proof, not work. How to bridge the gap. | Kevin DiGilio posted on the topic | LinkedIn",
+        "description": "“AS9100 audits do not fail for missing work. They fail for missing proof.”\n\nMost aerospace suppliers already have the right procedures.\nThe problem is that they live on shared drives, disconnected from daily activity.\n\nThat gap between procedure and proof is where findings live.\n\nWe have felt the jo",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://audit-now.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:53.183Z",
+      "data": {
+        "url": "https://audit-now.com/pricing",
+        "finalUrl": "https://audit-now.com/pricing/",
+        "retrievedAt": "2026-10-21T09:46:53.183Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing | Audit Now - Plans for Teams of Every Size",
+        "description": "Flexible pricing for businesses of all sizes. Start free, upgrade as you grow. Includes AI assisted audits, mobile auditing, analytics, scheduling, and corrective actions.",
+        "priceMentions": [
+          {
+            "text": "$ 0 / mo",
+            "billingUnit": true,
+            "context": "rfect for small teams getting started with digital auditing $ 0 / mo Start free now! Up to 10 seats Plan Features Up to 5 active"
+          },
+          {
+            "text": "$ 25",
+            "billingUnit": false,
+            "context": "for comprehensive audit management and team collaboration. $ 25 / per seat Choose Premium Billed monthly • 30-day money-bac"
+          },
+          {
+            "text": "$12",
+            "billingUnit": false,
+            "context": "seats with essential audit capabilities at a reduced cost. $12 / per seat Plan Features View actions Receive notifications"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://audit-now.com/audit-guides/as9100-checklists/": {
+      "fetchedAt": "2026-10-21T09:46:53.182Z",
+      "data": {
+        "url": "https://audit-now.com/audit-guides/as9100-checklists/",
+        "finalUrl": "https://audit-now.com/audit-guides/as9100-checklists/",
+        "retrievedAt": "2026-10-21T09:46:53.182Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$30",
+            "billingUnit": false,
+            "context": "start\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L2f\\\",null,{\\\"component\\\":\\\"$30\\\",\\\"href\\\":\\\"/templates/as9100-design-and-development"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.avma.org/resources-tools/one-health/waste-disposal-veterinary-practices": {
+      "fetchedAt": "2026-10-21T09:46:55.522Z",
+      "data": {
+        "url": "https://www.avma.org/resources-tools/one-health/waste-disposal-veterinary-practices",
+        "finalUrl": "https://www.avma.org/resources-tools/one-health/waste-disposal-veterinary-practices",
+        "retrievedAt": "2026-10-21T09:46:55.522Z",
+        "status": 200,
+        "error": null,
+        "title": "Waste disposal by veterinary practices | American Veterinary Medical Association",
+        "description": "Veterinary practices generate a wide variety of waste—from routine trash to materials that may pose health, safety, or environmental risks. Understanding how different waste types are classified and regulated is essential for ensuring compliance and protecting animals, people, and ecosystems.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://netzerocompare.com/waste-management-software": {
+      "fetchedAt": "2026-10-21T09:46:55.523Z",
+      "data": {
+        "url": "https://netzerocompare.com/waste-management-software",
+        "finalUrl": "https://netzerocompare.com/waste-management-software",
+        "retrievedAt": "2026-10-21T09:46:55.523Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://netzerocompare.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:55.524Z",
+      "data": {
+        "url": "https://netzerocompare.com/pricing",
+        "finalUrl": "https://netzerocompare.com/pricing",
+        "retrievedAt": "2026-10-21T09:46:55.524Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.wm.com/pricing": {
+      "fetchedAt": "2026-10-21T09:46:55.521Z",
+      "data": {
+        "url": "https://www.wm.com/pricing",
+        "finalUrl": "https://www.wm.com/pricing",
+        "retrievedAt": "2026-10-21T09:46:55.521Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.wm.com/": {
+      "fetchedAt": "2026-10-21T09:46:55.520Z",
+      "data": {
+        "url": "https://www.wm.com/",
+        "finalUrl": "https://www.wm.com/",
+        "retrievedAt": "2026-10-21T09:46:55.520Z",
+        "status": 200,
+        "error": null,
+        "title": "WM | Waste Management & Recycling Services",
+        "description": "WM is the leading provider of comprehensive waste management, offering services such as garbage collection, recycling pickup and dumpster rental.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.avma.org/pricing": {
+      "fetchedAt": "2026-10-21T09:46:55.522Z",
+      "data": {
+        "url": "https://www.avma.org/pricing",
+        "finalUrl": "https://www.avma.org/resources-tools/practice-management/pricing-strategy-veterinary-practices",
+        "retrievedAt": "2026-10-21T09:46:55.522Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing strategy for veterinary practices | American Veterinary Medical Association",
+        "description": "The way veterinary practices approach pricing is a critical part of business success. Learn the benefits of value-based pricing and how to implement it.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
