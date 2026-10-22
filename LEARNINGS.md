@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-22 (trends)
+- AI is systematically productizing the "creative back office" for solo creators. This includes generating visual assets, orchestrating learning experiences, and managing micro-communities.
+- The "Scaffolding Kit" opportunity is consistently strong. For every complex AI-driven workflow, a market emerges for digital products (guides, templates, prompt packs) that teach non-experts how to effectively leverage these tools for specific outcomes.
+- The shift from "AI as a tool" to "AI as an agent/orchestrator" is a recurring theme. The most compelling AI applications are moving towards autonomous management of entire workflows, reducing cognitive load and enabling creators to focus on high-level strategy and authentic human connection.
+
+---
+
 ## 2026-10-22
 *   **"Why Now" can be driven by reinforced enforcement, not just new rules:** The EPA's "Freedom to Fix" guidance in 2026, while not new regulations, reaffirms and clarifies existing obligations, creating a renewed sense of urgency and a "why now" for independent shops to ensure compliance. This is a subtle but powerful driver of demand.
 *   **The "Hazmat Fee" as a direct signal of compliance burden:** The explicit inclusion of "hazmat fees" or "environmental fees" on customer invoices in the auto repair industry is a strong, tangible signal that shops are already acutely aware of and paying for waste management compliance, making it a proven wallet item.
