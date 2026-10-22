@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-22
+*   **"Why Now" can be driven by reinforced enforcement, not just new rules:** The EPA's "Freedom to Fix" guidance in 2026, while not new regulations, reaffirms and clarifies existing obligations, creating a renewed sense of urgency and a "why now" for independent shops to ensure compliance. This is a subtle but powerful driver of demand.
+*   **The "Hazmat Fee" as a direct signal of compliance burden:** The explicit inclusion of "hazmat fees" or "environmental fees" on customer invoices in the auto repair industry is a strong, tangible signal that shops are already acutely aware of and paying for waste management compliance, making it a proven wallet item.
+*   **Vertical EHS software often targets large enterprises, leaving SMBs underserved:** Many sophisticated EHS (Environmental, Health, and Safety) software solutions exist for the automotive industry, but they are consistently aimed at manufacturers, OEMs, and large suppliers, leaving a significant gap for affordable, purpose-built solutions for the fragmented independent auto repair shop market.
+
 ## 2026-10-21 (trends)
 - **AI as a Strategic Orchestrator:** The most compelling AI applications are moving beyond automating discrete tasks to orchestrating entire strategic workflows, whether it's content planning, digital product development, or personalized learning paths. This reduces the cognitive load of managing complex, multi-step processes.
 - **The "Scaffolding Kit" Opportunity in AI-Driven Workflows:** For every emerging AI platform that automates a complex personal or professional workflow, a robust secondary market is forming around digital products (guides, templates, prompt packs) that teach non-experts how to structure inputs, manage outputs, and strategically integrate these tools for specific, high-value outcomes.

@@ -12050,6 +12050,83 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|epa hazardous waste fines": {
+      "fetchedAt": "2026-10-22T10:48:05.562Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=epa%20hazardous%20waste%20fines&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.lion.com",
+            "url": "https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021",
+            "title": "EPA Increases Civil Penalties for 2021",
+            "description": "Dec 28, 2020 — US EPA increased its maximum monetary civil penalties for violations of air, water, chemical, and hazardous waste programs on December 23, 2020 ..."
+          },
+          {
+            "rank": 3,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/ozone-layer-protection/enforcement-actions-under-title-vi-clean-air-act",
+            "title": "Enforcement Actions under Title VI of the Clean Air Act",
+            "description": "AKE Safety has agreed to pay a penalty of $52,345 for violating the halon emissions reduction requirements by releasing Halon 1211 during promotional ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.lion.com",
+            "url": "https://www.lion.com/lion-news/december-2023/epa-civil-penalty-maximums-increase-for-2024",
+            "title": "EPA, DOT Civil Penalty Maximums Increase for 2024",
+            "description": "Dec 28, 2023 — The new maximum (and minimum) monetary penalties for hazmat shipping violations: $99,756 per day, per violation for a hazardous materials ..."
+          },
+          {
+            "rank": 6,
+            "domain": "blog.idrenvironmental.com",
+            "url": "http://blog.idrenvironmental.com/the-10-most-common-hazardous-waste-violations-and-how-to-avoid-them",
+            "title": "The 10 Most Common Hazardous Waste Violations And ...",
+            "description": "Feb 24, 2025 — Lack of or Improper Labeling of Hazardous Waste · Failure to Perform Hazardous Waste Determinations · Improper Disposal of Hazardous Waste ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.cplabsafety.com",
+            "url": "https://www.cplabsafety.com/avoid-epa-fines/?srsltid=AYCX9vJybhStrkmFn8eAJM-XoFq8fH5xhgcF41Y6tD_hJbEoyf8NOOfy",
+            "title": "Avoid EPA Fines: Are you in Compliance?",
+            "description": "The company could face a penalty of up to $37,500 per violation per day for improper disposal and storage of hazardous wastes, including acids, alkalis, ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=CSOUCges6xw",
+            "title": "EPA fines ATSU over hazardous waste violations",
+            "description": "For more about this and related stories visit http://www.ktvo.com/ EPA fines ATSU over hazardous waste violations"
+          },
+          {
+            "rank": 9,
+            "domain": "www.fedcenter.gov",
+            "url": "https://www.fedcenter.gov/epacorner/actions/",
+            "title": "EPA Enforcement Actions and Press Releases",
+            "description": "EPA announced that U.S. Army Garrison Fort Wainwright will pay $233,300 for violating federal hazardous waste management requirements."
+          },
+          {
+            "rank": 10,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/aboutepa/epa-hotlines",
+            "title": "EPA Hotlines",
+            "description": "Environmental Violations Emergency events and spills or releases should be reported through the National Response Center: 1-800-424-8802. Phone: 800-368-5888 ..."
+          },
+          {
+            "rank": 11,
+            "domain": "www.linkedin.com",
+            "url": "https://www.linkedin.com/pulse/epa-imposes-first-ever-fine-violating-e-manifest-95-million-hammer-ewlzc",
+            "title": "EPA Imposes First-Ever Fine for Violating e-Manifest ...",
+            "description": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million ... hazardous waste as mandated by the e-Manifest system. This ... Read more"
+          }
+        ]
+      }
     }
   }
 }

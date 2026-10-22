@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Independent Auto Repair Shop Environmental Waste Management Software | us-independent-auto-repair-environmental-waste-management-so | 2026-10-22 | 91 | The Independent Auto Repair Shop's "EPA-Proof" Waste Management Log |
 | US Independent Veterinary Clinic Medical Waste Compliance Software | us-independent-veterinary-clinic-medical-waste-compliance-so | 2026-10-21 | 92 | The Independent Veterinary Clinic's "Multi-Agency Medical Waste" Compliance Hub |
 | US Commercial Property Fire Safety Compliance Software | us-commercial-property-fire-safety-compliance-software | 2026-10-20 | 85 | The Commercial Property Manager's "Audit-Ready" Fire Safety Log Hub |
 | US Small-Batch Compounding Pharmacy Compliance Software | us-small-batch-compounding-pharmacy-compliance-software | 2026-10-19 | 94 | The Small-Batch Compounding Pharmacy's "DEA/FDA-Ready" Logbook Hub |

@@ -2,6 +2,10 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-22
+*   **The Small Commercial Janitorial Service's "OSHA-Proof" Chemical Safety & Training Log** — While a strong compliance pain, the multi-agency compliance overlap (EPA, state environmental) for auto repair waste management feels more acute and financially catastrophic than OSHA's Hazard Communication Standard alone for janitorial services.
+*   **The Small-Scale Food Processor's "USDA/FDA-Ready" HACCP Plan & CCP Monitoring Log** — This is a high-stakes compliance pain, but the regulatory framework (HACCP) is highly specialized and often requires extensive scientific validation, potentially increasing the complexity and time-to-market for an MVP compared to the more standardized waste management logs for auto repair.
+
 ## 2026-10-21
 *   The Small Dental Lab's "FDA-Ready" QMSR & ISO 13485 Quality Management Hub — While a strong compliance pain, the veterinary market is slightly larger and the multi-agency compliance overlap (EPA, OSHA, DOT) feels more acute and less harmonized than the QMSR/ISO 13485 alignment for dental labs.
 *   The Independent Construction Subcontractor's "OSHA-Proof" Site Safety Log — Good compliance pain, but the project-based nature of construction and the variability of site-specific regulations make a standardized software solution more challenging than the relatively stable environment of a veterinary clinic.

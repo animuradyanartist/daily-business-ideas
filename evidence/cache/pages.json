@@ -9496,6 +9496,73 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.lion.com/pricing": {
+      "fetchedAt": "2026-10-22T10:48:18.978Z",
+      "data": {
+        "url": "https://www.lion.com/pricing",
+        "finalUrl": "https://www.lion.com/pricing",
+        "retrievedAt": "2026-10-22T10:48:18.978Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021": {
+      "fetchedAt": "2026-10-22T10:48:18.977Z",
+      "data": {
+        "url": "https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021",
+        "finalUrl": "https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021",
+        "retrievedAt": "2026-10-22T10:48:18.977Z",
+        "status": 200,
+        "error": null,
+        "title": "Environmental Civil Penalties Rise for 2021 | Lion Technology",
+        "description": "The cost of noncompliance with US EPA&#x27;s air, water, chemical, and hazardous waste regulations just went up.",
+        "priceMentions": [
+          {
+            "text": "$75,867",
+            "billingUnit": false,
+            "context": "er 12/23/20 Resource Conservation and Recovery Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water"
+          },
+          {
+            "text": "$76,764",
+            "billingUnit": false,
+            "context": "/20 Resource Conservation and Recovery Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( C"
+          },
+          {
+            "text": "$101,439",
+            "billingUnit": false,
+            "context": "Recovery Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency"
+          },
+          {
+            "text": "$102,638",
+            "billingUnit": false,
+            "context": "Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency Planning/"
+          },
+          {
+            "text": "$55,800",
+            "billingUnit": false,
+            "context": "n Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58"
+          },
+          {
+            "text": "$56,460",
+            "billingUnit": false,
+            "context": "t ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58,328 $59"
+          },
+          {
+            "text": "$58,328",
+            "billingUnit": false,
+            "context": "800 $56,460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58,328 $59,017 Comp. Environmental Response... Act ( CERCLA ) $58,"
+          },
+          {
+            "text": "$59,017",
+            "billingUnit": false,
+            "context": "460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58,328 $59,017 Comp. Environmental Response... Act ( CERCLA ) $58,328 $59,"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
     }
   }
 }

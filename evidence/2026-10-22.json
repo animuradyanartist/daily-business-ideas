@@ -1,0 +1,2140 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-22.md"
+  },
+  "createdAt": "2026-10-22T10:47:59.435Z",
+  "updatedAt": "2026-10-22T10:47:59.436Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-22.md",
+    "title": "The Independent Auto Repair Shop's \"EPA-Proof\" Waste Management Log",
+    "score": 91,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-22:auto-repair-waste-log",
+      "slug": "auto-repair-waste-log",
+      "title": "The Independent Auto Repair Shop's \"EPA-Proof\" Waste Management Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem explicitly references the EPA, which is a United States federal agency."
+      },
+      "plan": {
+        "slug": "auto-repair-waste-log",
+        "title": "The Independent Auto Repair Shop's \"EPA-Proof\" Waste Management Log",
+        "problem": "Auto repair shops face significant fines and environmental liabilities for improper disposal and incomplete record-keeping of hazardous wastes.",
+        "targetCustomer": "Owners of independent auto repair shops.",
+        "payer": "Owners of independent auto repair shops.",
+        "whyPayerPays": "The payer pays to avoid significant EPA fines and environmental liabilities related to hazardous waste management.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem explicitly references the EPA, which is a United States federal agency."
+        },
+        "keywords": {
+          "problem": [
+            "epa hazardous waste fines",
+            "auto shop waste disposal",
+            "hazardous waste record keeping"
+          ],
+          "solution": [
+            "waste management software",
+            "environmental compliance software",
+            "hazardous waste tracking system"
+          ],
+          "buying": [
+            "waste management software pricing",
+            "best waste management software",
+            "environmental compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "waste management software",
+          "epa hazardous waste fines"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "epa hazardous waste fines",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-18 16:25:17 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "auto shop waste disposal",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-15 22:01:09 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "hazardous waste record keeping",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-18 10:54:08 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (7 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "waste management software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 210,
+          "cpcUsd": 45.23,
+          "adCompetition": 0.34,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -84,
+          "providerUpdatedAt": "2026-10-16 08:06:23 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 720
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 480
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 1000
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -63,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-21T09:45:53.507Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "environmental compliance software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 110,
+          "cpcUsd": 37.02,
+          "adCompetition": 0.29,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-17 02:46:46 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 390
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 0,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "hazardous waste tracking system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 390,
+          "cpcUsd": 21.34,
+          "adCompetition": 0.21,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 23,
+          "providerUpdatedAt": "2026-10-17 14:28:51 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 390
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 2,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "waste management software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best waste management software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 24.74,
+          "adCompetition": 0.27,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -78,
+          "providerUpdatedAt": "2026-10-20 09:01:52 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 40
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (40 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:02.353Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "environmental compliance cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": null,
+          "adCompetition": 0.02,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-15 14:57:42 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 110
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -15,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-16T09:25:05.368Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "waste management software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-21T09:46:41.336Z",
+          "checkUrl": "https://www.google.com/search?q=waste%20management%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.wm.com",
+              "url": "https://www.wm.com/",
+              "title": "WM | Waste Management & Recycling Services",
+              "description": "WM is the leading provider of comprehensive waste management, offering services such as garbage collection, recycling pickup and dumpster rental.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "netzerocompare.com",
+              "url": "https://netzerocompare.com/waste-management-software",
+              "title": "Waste Management Software",
+              "description": "Sep 11, 2026 — Waste Management Software (WMS) helps businesses keep track of their waste, reduce costs, and stay on top of regulations. Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/wastemanagement/comments/1qr9c4j/software_suggestions/",
+              "title": "Software suggestions : r/wastemanagement",
+              "description": "For collection-side tracking and dispatch we use CurbWaste, handles our rolloff and commercial routes well with live GPS and order management. Read more",
+              "id": "S1.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "www.curbwaste.com",
+              "url": "https://www.curbwaste.com/glossary/best-waste-management-software",
+              "title": "best waste management software",
+              "description": "Best Waste Management Software refers to top-rated software solutions specifically designed to manage various aspects of waste management operations. Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "feeds.azuga.com",
+              "url": "https://feeds.azuga.com/blog/best-waste-management-software",
+              "title": "Best Waste Management Software 2026",
+              "description": "Aug 4, 2026 — Waste management software covers platforms: AMCS, Routeware, Soft-Pak, Azuga, and RouteSmart, each suited to different hauler needs",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.fleetio.com",
+              "url": "https://www.fleetio.com/industries/waste-management-fleet-software",
+              "title": "Waste Management Fleet Software: Maximize Route Uptime",
+              "description": "Manage waste collection fleets efficiently. Track vehicles, automate maintenance, and reduce downtime with mobile-accessible fleet software.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.guideflow.com",
+              "url": "https://www.guideflow.com/blog/waste-collection-software",
+              "title": "7 best waste collection software for 2026",
+              "description": "Jul 23, 2026 — Compare the 7 best waste collection software platforms for 2026 across routing, billing, verification, and customer self-service to find ...",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "blog.haulerhero.com",
+              "url": "https://blog.haulerhero.com/best-waste-management-software-in-2026-how-to-choose-the-right-platform-for-your-operation",
+              "title": "Best Waste Management Software in 2026: How to Choose ...",
+              "description": "Mar 4, 2026 — Waste management software is designed to help haulers and municipalities manage daily operations such as: Route planning and dispatch Driver ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.geofluxus.com",
+              "url": "https://www.geofluxus.com/blog/top-waste-management-applications",
+              "title": "Top 8 Features Every Waste Management Application Needs",
+              "description": "Feb 9, 2026 — 8 Capabilities Every Waste Management Software Needs · 1. Automated Data Capture & Global Classification Solutions · 2. Traceable Data to Help ... Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "epa hazardous waste fines",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-22T10:48:05.562Z",
+          "checkUrl": "https://www.google.com/search?q=epa%20hazardous%20waste%20fines&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.lion.com",
+              "url": "https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021",
+              "title": "EPA Increases Civil Penalties for 2021",
+              "description": "Dec 28, 2020 — US EPA increased its maximum monetary civil penalties for violations of air, water, chemical, and hazardous waste programs on December 23, 2020 ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/ozone-layer-protection/enforcement-actions-under-title-vi-clean-air-act",
+              "title": "Enforcement Actions under Title VI of the Clean Air Act",
+              "description": "AKE Safety has agreed to pay a penalty of $52,345 for violating the halon emissions reduction requirements by releasing Halon 1211 during promotional ... Read more",
+              "id": "S2.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.lion.com",
+              "url": "https://www.lion.com/lion-news/december-2023/epa-civil-penalty-maximums-increase-for-2024",
+              "title": "EPA, DOT Civil Penalty Maximums Increase for 2024",
+              "description": "Dec 28, 2023 — The new maximum (and minimum) monetary penalties for hazmat shipping violations: $99,756 per day, per violation for a hazardous materials ...",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "blog.idrenvironmental.com",
+              "url": "http://blog.idrenvironmental.com/the-10-most-common-hazardous-waste-violations-and-how-to-avoid-them",
+              "title": "The 10 Most Common Hazardous Waste Violations And ...",
+              "description": "Feb 24, 2025 — Lack of or Improper Labeling of Hazardous Waste · Failure to Perform Hazardous Waste Determinations · Improper Disposal of Hazardous Waste ... Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.cplabsafety.com",
+              "url": "https://www.cplabsafety.com/avoid-epa-fines/?srsltid=AYCX9vJybhStrkmFn8eAJM-XoFq8fH5xhgcF41Y6tD_hJbEoyf8NOOfy",
+              "title": "Avoid EPA Fines: Are you in Compliance?",
+              "description": "The company could face a penalty of up to $37,500 per violation per day for improper disposal and storage of hazardous wastes, including acids, alkalis, ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CSOUCges6xw",
+              "title": "EPA fines ATSU over hazardous waste violations",
+              "description": "For more about this and related stories visit http://www.ktvo.com/ EPA fines ATSU over hazardous waste violations",
+              "id": "S2.8",
+              "class": "reference_media"
+            },
+            {
+              "rank": 9,
+              "domain": "www.fedcenter.gov",
+              "url": "https://www.fedcenter.gov/epacorner/actions/",
+              "title": "EPA Enforcement Actions and Press Releases",
+              "description": "EPA announced that U.S. Army Garrison Fort Wainwright will pay $233,300 for violating federal hazardous waste management requirements.",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/aboutepa/epa-hotlines",
+              "title": "EPA Hotlines",
+              "description": "Environmental Violations Emergency events and spills or releases should be reported through the National Response Center: 1-800-424-8802. Phone: 800-368-5888 ...",
+              "id": "S2.10",
+              "class": "government"
+            },
+            {
+              "rank": 11,
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pulse/epa-imposes-first-ever-fine-violating-e-manifest-95-million-hammer-ewlzc",
+              "title": "EPA Imposes First-Ever Fine for Violating e-Manifest ...",
+              "description": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million ... hazardous waste as mandated by the e-Manifest system. This ... Read more",
+              "id": "S2.11",
+              "class": "platform"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "lion.com",
+          "url": "https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021",
+          "finalUrl": "https://www.lion.com/lion-news/december-2020/epa-increases-civil-penalties-for-2021",
+          "retrievedAt": "2026-10-22T10:48:18.977Z",
+          "status": 200,
+          "error": null,
+          "title": "Environmental Civil Penalties Rise for 2021 | Lion Technology",
+          "description": "The cost of noncompliance with US EPA&#x27;s air, water, chemical, and hazardous waste regulations just went up.",
+          "priceMentions": [
+            {
+              "text": "$75,867",
+              "billingUnit": false,
+              "context": "er 12/23/20 Resource Conservation and Recovery Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water"
+            },
+            {
+              "text": "$76,764",
+              "billingUnit": false,
+              "context": "/20 Resource Conservation and Recovery Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( C"
+            },
+            {
+              "text": "$101,439",
+              "billingUnit": false,
+              "context": "Recovery Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency"
+            },
+            {
+              "text": "$102,638",
+              "billingUnit": false,
+              "context": "Act ( RCRA ) $75,867 $76,764 Clean Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency Planning/"
+            },
+            {
+              "text": "$55,800",
+              "billingUnit": false,
+              "context": "n Air Act ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58"
+            },
+            {
+              "text": "$56,460",
+              "billingUnit": false,
+              "context": "t ( CAA ) $101,439 $102,638 Clean Water Act ( CWA ) $55,800 $56,460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58,328 $59"
+            },
+            {
+              "text": "$58,328",
+              "billingUnit": false,
+              "context": "800 $56,460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58,328 $59,017 Comp. Environmental Response... Act ( CERCLA ) $58,"
+            },
+            {
+              "text": "$59,017",
+              "billingUnit": false,
+              "context": "460 Emergency Planning/ Right-to-Know Act ( EPCRA ) $58,328 $59,017 Comp. Environmental Response... Act ( CERCLA ) $58,328 $59,"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "lion.com",
+          "url": "https://www.lion.com/pricing",
+          "finalUrl": "https://www.lion.com/pricing",
+          "retrievedAt": "2026-10-22T10:48:18.978Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "wm.com",
+          "url": "https://www.wm.com/",
+          "finalUrl": "https://www.wm.com/",
+          "retrievedAt": "2026-10-21T09:46:55.520Z",
+          "status": 200,
+          "error": null,
+          "title": "WM | Waste Management & Recycling Services",
+          "description": "WM is the leading provider of comprehensive waste management, offering services such as garbage collection, recycling pickup and dumpster rental.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "wm.com",
+          "url": "https://www.wm.com/pricing",
+          "finalUrl": "https://www.wm.com/pricing",
+          "retrievedAt": "2026-10-21T09:46:55.521Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "netzerocompare.com",
+          "url": "https://netzerocompare.com/waste-management-software",
+          "finalUrl": "https://netzerocompare.com/waste-management-software",
+          "retrievedAt": "2026-10-21T09:46:55.523Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "netzerocompare.com",
+          "url": "https://netzerocompare.com/pricing",
+          "finalUrl": "https://netzerocompare.com/pricing",
+          "retrievedAt": "2026-10-21T09:46:55.524Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 2,
+          "totalCount": 4,
+          "top": {
+            "keyword": "hazardous waste record keeping",
+            "searchVolume": 10,
+            "id": "K3"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 5,
+          "flags": [
+            {
+              "id": "K6",
+              "kind": "uncorroborated",
+              "text": "\"hazardous waste tracking system\" (390/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            },
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"waste management software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"environmental compliance software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"waste management software pricing\": relevance unclear — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best waste management software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"environmental compliance cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"hazardous waste record keeping\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K6"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $21.34 on \"hazardous waste tracking system\"). CPC is an advertiser bid, not a customer's willingness to pay."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "lion.com",
+            "wm.com",
+            "netzerocompare.com",
+            "curbwaste.com",
+            "blog.idrenvironmental.com",
+            "feeds.azuga.com",
+            "cplabsafety.com",
+            "fleetio.com",
+            "guideflow.com",
+            "blog.haulerhero.com",
+            "geofluxus.com"
+          ],
+          "platformDomains": [
+            "linkedin.com"
+          ],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "11 vendor-like or publisher domain(s) and 1 broad platform(s) (linkedin.com) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 0 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "4ecdb9383bb9c347",
+      "evidenceUpdatedAt": "2026-10-22T10:48:19.232Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-10-22T10:52:54.464Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-22T10:48:19.232Z",
+        "qualifiers": [
+          "independent auto repair shop owner"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching for EPA hazardous waste fines are likely concerned about the problem of fines for improper waste management."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching for auto shop waste disposal are looking for information on how to manage waste in their specific business, which relates to the problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching for hazardous waste record keeping are concerned about compliance, which is part of the problem."
+          },
+          "K4": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "This is a general term for software to manage waste, which is a broader category than the specific record-keeping log for auto repair shops."
+          },
+          "K5": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "This is a general term for software to ensure environmental compliance, which is a broader category than the specific waste record-keeping for auto repair shops."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching for a hazardous waste tracking system are looking for a solution to manage their hazardous waste records and disposal, which directly addresses the problem."
+          },
+          "K7": {
+            "searcher": "broader",
+            "topic": "wider",
+            "reason": "This is a general term for pricing of waste management software, which is a wider product category than the idea's specific log for auto repair shops."
+          },
+          "K8": {
+            "searcher": "broader",
+            "topic": "wider",
+            "reason": "This is a general term for comparing waste management software, which is a wider product category than the idea's specific log for auto repair shops."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "People searching for environmental compliance costs are concerned about the financial implications of compliance, which is a broader problem than just hazardous waste record-keeping and disposal."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is about a large waste management company's general services, not about independent auto repair shop owners' specific record-keeping problem."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item discusses waste management software for businesses generally, which is broader than the specific problem and customer of the idea."
+          },
+          "S1.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item is a Reddit discussion about waste management software for waste collection companies, which is different from the idea's customer and problem."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is about waste management software for waste operations, which is different from the idea's customer and problem."
+          },
+          "S1.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item lists waste management software for waste haulers, which is different from the idea's customer and problem."
+          },
+          "S1.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This item is about fleet management software for waste collection companies, which is different from the idea's customer and problem."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item compares waste collection software, which is for a different customer (haulers) and problem than the idea."
+          },
+          "S1.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "This item discusses waste management software for haulers and municipalities, which is different from the idea's customer and problem."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item discusses general features for waste management applications, which is broader than the specific hazardous waste record-keeping problem for auto repair shops."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses EPA civil penalties for hazardous waste violations, which is the same problem, but for a broader customer group."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item is about EPA fines for halon emissions, which is a different specific problem and customer than the idea."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item discusses EPA/DOT civil penalties for hazmat shipping violations, which is a broader problem than the idea's focus on on-site hazardous waste management."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses common hazardous waste violations, which directly relates to the idea's problem, but for a broader customer group."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses avoiding EPA fines for improper disposal and storage of hazardous wastes, which is the same problem, but for a broader customer group."
+          },
+          "S2.8": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is a news report about EPA fines for hazardous waste violations at a university, which is the same problem but for a different customer."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about EPA fines for hazardous waste violations at a military installation, which is the same problem but for a different customer."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item provides contact information for reporting environmental violations, which is related to the problem but broader in scope."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses EPA fines for violating e-Manifest requirements for hazardous waste, which is the same problem (record-keeping) but for a broader customer group."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page discusses rising environmental civil penalties, which is the same problem, but for a broader customer group."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This page is about a large waste management company's general services, not about independent auto repair shop owners' specific record-keeping problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-22:auto-repair-waste-log",
+        "opportunity": "There is an opportunity to address the problem of hazardous waste management and record-keeping, which can lead to significant EPA fines and liabilities for businesses. The current evidence suggests a sparse competitive landscape for a specific solution tailored to this problem.",
+        "whoPays": "Owners of independent auto repair shops would pay to avoid significant EPA fines and environmental liabilities related to hazardous waste management, as inferred from the stated problem and the general nature of regulatory compliance costs.",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "EPA increased its maximum monetary civil penalties for violations of air, water, chemical, and hazardous waste programs"
+            },
+            {
+              "id": "S2.6",
+              "quote": "Lack of or Improper Labeling of Hazardous Waste · Failure to Perform Hazardous Waste Determinations · Improper Disposal of Hazardous Waste"
+            },
+            {
+              "id": "S2.7",
+              "quote": "Avoid EPA Fines: Are you in Compliance?"
+            },
+            {
+              "id": "S2.7",
+              "quote": "The company could face a penalty of up to $37,500 per violation per day for improper disposal and storage of hazardous wastes"
+            },
+            {
+              "id": "S2.11",
+              "quote": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million"
+            },
+            {
+              "id": "P1",
+              "quote": "The cost of noncompliance with US EPA's air, water, chemical, and hazardous waste regulations just went up."
+            }
+          ],
+          "observed": "The quoted items show that the EPA imposes civil penalties for violations related to hazardous waste programs, including increased maximum monetary penalties. Common violations include lack of or improper labeling, failure to perform hazardous waste determinations, and improper disposal. There are also fines for violating e-Manifest requirements, with one instance of a $9.5 million fine.",
+          "inference": "Businesses, including those in categories broader than auto repair, face significant financial risks and regulatory burdens due to hazardous waste management and record-keeping requirements. The problem of avoiding EPA fines for improper disposal, storage, and record-keeping of hazardous wastes is a real concern for regulated entities."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "There are no identified direct competitors offering a specific 'EPA-Proof' waste management log for independent auto repair shops.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "No indirect alternatives specifically addressing the hazardous waste record-keeping problem for this customer segment were found.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Auto repair shops face significant fines and environmental liabilities for improper disposal and incomplete record-keeping of hazardous wastes.",
+            "finding": "The evidence shows that businesses generally face significant fines and liabilities for hazardous waste violations, including improper disposal, labeling, and e-Manifest record-keeping.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "EPA increased its maximum monetary civil penalties for violations of air, water, chemical, and hazardous waste programs"
+              },
+              {
+                "id": "S2.6",
+                "quote": "Lack of or Improper Labeling of Hazardous Waste · Failure to Perform Hazardous Waste Determinations · Improper Disposal of Hazardous Waste"
+              },
+              {
+                "id": "S2.7",
+                "quote": "The company could face a penalty of up to $37,500 per violation per day for improper disposal and storage of hazardous wastes"
+              },
+              {
+                "id": "S2.11",
+                "quote": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million"
+              },
+              {
+                "id": "P1",
+                "quote": "The cost of noncompliance with US EPA's air, water, chemical, and hazardous waste regulations just went up."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The Environmental Protection Agency (EPA) explicitly requires proper storage, labeling, and detailed record-keeping for used oil management in vehicle maintenance facilities.",
+            "finding": "While the evidence confirms EPA fines for hazardous waste violations and e-Manifest record-keeping, it does not explicitly detail requirements for 'used oil management in vehicle maintenance facilities' or for auto repair shops specifically.",
+            "basis": [
+              {
+                "id": "S2.11",
+                "quote": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as a digital logbook or checklist for hazardous waste record-keeping, could be built with minimal technical complexity."
+        },
+        "unproven": [
+          "The specific hazardous waste management and record-keeping challenges faced by independent auto repair shops.",
+          "The willingness of independent auto repair shop owners to pay for a dedicated software solution for this problem.",
+          "The exact features and user experience required by the target customer to make a solution 'EPA-Proof' and valuable.",
+          "The actual demand for a solution specific to auto repair shops, as current direct keyword search volume is low."
+        ],
+        "nextExperiment": {
+          "what": "Conduct qualitative interviews with 5-10 independent auto repair shop owners or managers to understand their current hazardous waste management processes, pain points, existing record-keeping methods, and perceived risk of EPA fines.",
+          "cost": "$0 (time only)",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "At least 3 out of 5 interviewed auto repair shop owners/managers express a clear, unaddressed pain related to hazardous waste record-keeping and compliance, and indicate they currently use manual or inadequate systems.",
+        "stopIf": "Most interviewed auto repair shop owners/managers report that their current hazardous waste management and record-keeping systems are sufficient, or that EPA fines are not a significant concern for their business."
+      },
+      "assessment": {
+        "opportunity": "There is an opportunity to address the problem of hazardous waste management and record-keeping, which can lead to significant EPA fines and liabilities for businesses. The current evidence suggests a sparse competitive landscape for a specific solution tailored to this problem.",
+        "whoPays": "Owners of independent auto repair shops would pay to avoid significant EPA fines and environmental liabilities related to hazardous waste management, as inferred from the stated problem and the general nature of regulatory compliance costs.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "EPA increased its maximum monetary civil penalties for violations of air, water, chemical, and hazardous waste programs",
+              "domain": "lion.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses EPA civil penalties for hazardous waste violations, which is the same problem, but for a broader customer group."
+            },
+            {
+              "id": "S2.6",
+              "quote": "Lack of or Improper Labeling of Hazardous Waste · Failure to Perform Hazardous Waste Determinations · Improper Disposal of Hazardous Waste",
+              "domain": "blog.idrenvironmental.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses common hazardous waste violations, which directly relates to the idea's problem, but for a broader customer group."
+            },
+            {
+              "id": "S2.7",
+              "quote": "Avoid EPA Fines: Are you in Compliance?",
+              "domain": "cplabsafety.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses avoiding EPA fines for improper disposal and storage of hazardous wastes, which is the same problem, but for a broader customer group."
+            },
+            {
+              "id": "S2.11",
+              "quote": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million",
+              "domain": "linkedin.com",
+              "kind": "S",
+              "cls": "platform",
+              "relevance": "category",
+              "relevanceReason": "This item discusses EPA fines for violating e-Manifest requirements for hazardous waste, which is the same problem (record-keeping) but for a broader customer group."
+            }
+          ],
+          "observed": "The quoted items show that the EPA imposes civil penalties for violations related to hazardous waste programs, including increased maximum monetary penalties. Common violations include lack of or improper labeling, failure to perform hazardous waste determinations, and improper disposal. There are also fines for violating e-Manifest requirements, with one instance of a $9.5 million fine.",
+          "inference": "Businesses, including those in categories broader than auto repair, face significant financial risks and regulatory burdens due to hazardous waste management and record-keeping requirements. The problem of avoiding EPA fines for improper disposal, storage, and record-keeping of hazardous wastes is a real concern for regulated entities."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [],
+          "directCompetitors": [],
+          "indirectAlternatives": [],
+          "alternatives": [],
+          "strengths": [],
+          "gaps": [
+            {
+              "text": "There are no identified direct competitors offering a specific 'EPA-Proof' waste management log for independent auto repair shops.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "No indirect alternatives specifically addressing the hazardous waste record-keeping problem for this customer segment were found.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The Environmental Protection Agency (EPA) explicitly requires proper storage, labeling, and detailed record-keeping for used oil management in vehicle maintenance facilities.",
+            "finding": "While the evidence confirms EPA fines for hazardous waste violations and e-Manifest record-keeping, it does not explicitly detail requirements for 'used oil management in vehicle maintenance facilities' or for auto repair shops specifically.",
+            "basis": [
+              {
+                "id": "S2.11",
+                "quote": "EPA Imposes First-Ever Fine for Violating e-Manifest Requirements for $9.5 million",
+                "domain": "linkedin.com",
+                "kind": "S",
+                "cls": "platform",
+                "relevance": "category",
+                "relevanceReason": "This item discusses EPA fines for violating e-Manifest requirements for hazardous waste, which is the same problem (record-keeping) but for a broader customer group."
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as a digital logbook or checklist for hazardous waste record-keeping, could be built with minimal technical complexity."
+        },
+        "unproven": [
+          "The specific hazardous waste management and record-keeping challenges faced by independent auto repair shops.",
+          "The willingness of independent auto repair shop owners to pay for a dedicated software solution for this problem.",
+          "The exact features and user experience required by the target customer to make a solution 'EPA-Proof' and valuable.",
+          "The actual demand for a solution specific to auto repair shops, as current direct keyword search volume is low."
+        ],
+        "nextExperiment": {
+          "what": "Conduct qualitative interviews with 5-10 independent auto repair shop owners or managers to understand their current hazardous waste management processes, pain points, existing record-keeping methods, and perceived risk of EPA fines.",
+          "cost": "$0 (time only)",
+          "duration": "1-2 weeks"
+        },
+        "continueIf": "At least 3 out of 5 interviewed auto repair shop owners/managers express a clear, unaddressed pain related to hazardous waste record-keeping and compliance, and indicate they currently use manual or inadequate systems.",
+        "stopIf": "Most interviewed auto repair shop owners/managers report that their current hazardous waste management and record-keeping systems are sufficient, or that EPA fines are not a significant concern for their business.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [
+            {
+              "claim": "problem evidence",
+              "id": "P1",
+              "reason": "quote not found in the cited item"
+            }
+          ],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": [
+            "change: original text \"Auto repair shops face significant fines and environmental l\" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-10-22T10:53:17.668Z",
+        "evidenceUpdatedAt": "2026-10-22T10:48:19.232Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-22T10:48:02.353Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 7,
+      "holdId": "40f070e0-9ba0-513c-b9f9-883483e5c7f3",
+      "estimateUsd": 0.014124,
+      "costUsd": 0.01272,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-22T10:48:05.562Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "eaf8511f-3799-55c5-9c8d-f562b0e0852b",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.20416,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.79584
+    },
+    "monthToDateUsdBefore": 0.20416,
+    "spentThisRunUsd": 0.01472
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 7,
+    "keywordsFromCache": 2,
+    "labsUsd": 0.01284,
+    "serpQueries": 1,
+    "serpsFromCache": 1,
+    "serpUsd": 0.002,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 1,
+        "keywordsToBuy": 7
+      }
+    ],
+    "totalUsd": 0.01484,
+    "reservedUsd": 0.016324
+  },
+  "lastGather": {
+    "at": "2026-10-22T10:48:19.232Z",
+    "mode": "live",
+    "pendingIdeas": 1,
+    "spentUsd": 0.01472,
+    "note": null
+  }
+}
