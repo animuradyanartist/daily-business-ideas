@@ -1,0 +1,2380 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-23.md"
+  },
+  "createdAt": "2026-10-23T09:41:14.784Z",
+  "updatedAt": "2026-10-23T09:41:14.785Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-23.md",
+    "title": "The Independent Home Health Agency's \"CMS-Ready\" Electronic Visit Verification (EVV) & Billing Hub",
+    "score": 95,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-23:small-hotel-ada-compliance-hub",
+      "slug": "small-hotel-ada-compliance-hub",
+      "title": "The Small Hotel's ADA Website Compliance Log & Remediation Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The Americans with Disabilities Act (ADA) is a US federal law, making the United States the primary market."
+      },
+      "plan": {
+        "slug": "small-hotel-ada-compliance-hub",
+        "title": "The Small Hotel's ADA Website Compliance Log & Remediation Hub",
+        "problem": "These operators face increasing legal exposure to lawsuits regarding website accessibility under the Americans with Disabilities Act (ADA).",
+        "targetCustomer": "Owners of independent small hotels, boutique inns, or property managers overseeing 5-50 short-term rental units.",
+        "payer": "Owners of independent small hotels, boutique inns, or property managers overseeing 5-50 short-term rental units.",
+        "whyPayerPays": "They pay to avoid costly lawsuits and fines related to ADA website non-compliance.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The Americans with Disabilities Act (ADA) is a US federal law, making the United States the primary market."
+        },
+        "keywords": {
+          "problem": [
+            "ada website compliance lawsuits",
+            "ada website accessibility requirements",
+            "ada website non compliance penalty"
+          ],
+          "solution": [
+            "ada compliance software",
+            "website accessibility checker",
+            "ada website audit service"
+          ],
+          "buying": [
+            "ada compliance cost",
+            "best ada compliance tools",
+            "ada website remediation pricing"
+          ]
+        },
+        "serpQueries": [
+          "ada compliance software",
+          "ada website compliance lawsuits"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ada website compliance lawsuits",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 210,
+          "cpcUsd": 13.61,
+          "adCompetition": 0.34,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-19 20:20:07 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 390
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 210
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 0,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "ada website accessibility requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 70,
+          "cpcUsd": 13.14,
+          "adCompetition": 0.35,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -92,
+          "providerUpdatedAt": "2026-10-17 07:45:30 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 20
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -65,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "ada website non compliance penalty",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "ada compliance software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 48.34,
+          "adCompetition": 0.56,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -85,
+          "providerUpdatedAt": "2026-10-15 18:26:16 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 8100
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 260
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -72,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "website accessibility checker",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 2900,
+          "cpcUsd": 17.73,
+          "adCompetition": 0.51,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -19,
+          "providerUpdatedAt": "2026-10-15 12:12:57 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 49500
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 3600
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -18,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "ada website audit service",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "ada compliance cost",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": null,
+          "adCompetition": 0.17,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-09-17 14:58:06 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 90
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (20 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best ada compliance tools",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 19.05,
+          "adCompetition": 0.68,
+          "adCompetitionLevel": "HIGH",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-18 13:33:48 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 30
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "ada website remediation pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:17.852Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "ada compliance software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:21.053Z",
+          "checkUrl": "https://www.google.com/search?q=ada%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.audioeye.com",
+              "url": "https://www.audioeye.com/compliance/ada/",
+              "title": "Expert Guide to ADA Compliance",
+              "description": "ADA compliance for websites means meeting WCAG guidelines. Learn what the ADA requires, who must comply, and how to meet the standard.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.acquia.com",
+              "url": "https://www.acquia.com/glossary/ada-website-compliance",
+              "title": "What Is ADA Website Compliance?",
+              "description": "Stay ahead of the curve with ADA Website Compliance, ensuring your site is accessible to users with disabilities. Learn the essentials now.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.withpavilion.com",
+              "url": "https://www.withpavilion.com/offerings/ada-web-compliance-software",
+              "title": "Vendors for ADA Web Compliance Software",
+              "description": "YuJa provides digital compliance solutions for regulated sectors, including higher education, K-12, healthcare, finance, and government.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "zen.agency",
+              "url": "https://zen.agency/the-5-best-ada-compliance-services-compared/",
+              "title": "Best 5 ADA Compliance Services Compared - Zen Agency",
+              "description": "Compare the 5 best ADA compliance services: automated overlays, manual audits, hybrid, developer tools & PDF remediation for WCAG AA success.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "userway.org",
+              "url": "https://userway.org/blog/ada-compliance-audit/",
+              "title": "ADA Compliance Audit: How to Test Your Website",
+              "description": "The audit pairs expert testing with automated tools to find and document barriers that block people with disabilities. UserWay provides expert audits and helps ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.bluleadz.com",
+              "url": "https://www.bluleadz.com/blog/website-accessibility-software",
+              "title": "9 Website Accessibility Softwares That Help You Achieve ...",
+              "description": "Jun 25, 2020 — 9 of the Best Web Accessibility Solutions · 1. accessiBe · 2. DYNO Mapper · 3. A11Y Compliance Platform · 4. EqualWeb · 5. Crownpeak Digital Quality ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "accessibility.huit.harvard.edu",
+              "url": "https://accessibility.huit.harvard.edu/testing",
+              "title": "Accessibility Testing Tools and Practices",
+              "description": "Siteimprove breaks down accessibility issues into manageable tasks, tracks progress toward compliance, and provides recommendations and guidance. Read more",
+              "id": "S1.9",
+              "class": "reference_media"
+            },
+            {
+              "rank": 10,
+              "domain": "www.webability.io",
+              "url": "https://www.webability.io/blog/web-accessibility-testing-tools",
+              "title": "12 Best Web Accessibility Testing Tools (2026 Reviewed)",
+              "description": "WebAbility.io. An all-in-one, AI-powered accessibility platform that pairs a visitor-facing Accessibility Enhancer with a complete backend compliance dashboard. Read more",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.equalweb.com",
+              "url": "https://www.equalweb.com/",
+              "title": "EqualWeb - The Hybrid Accessibility Platform | ADA & EAA",
+              "description": "EqualWeb, the hybrid accessibility platform: AI + certified IAAP/CPWA experts + monitoring to build, maintain and prove WCAG 2.2, ADA & EAA compliance.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "ada website compliance lawsuits",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-23T09:41:28.470Z",
+          "checkUrl": "https://www.google.com/search?q=ada%20website%20compliance%20lawsuits&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.saul.com",
+              "url": "https://www.saul.com/insights/blog/ada-website-accessibility-risk",
+              "title": "A Rise in ADA Website Accessibility Lawsuits May Leave ...",
+              "description": "Jul 11, 2025 — In 2024, over 4,000 lawsuits were filed in federal and state courts by individuals with visual, hearing, or other disabilities, alleging that ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/smallbusiness/comments/p3lzap/hit_with_a_lawsuit_for_violating_ada_website/",
+              "title": "Hit with a lawsuit for violating ADA website compliance?",
+              "description": "This is an incredibly common scam. The ADA does not apply to websites by private businesses. I have worked with numerous businesses that lawyers ... Read more",
+              "id": "S2.3",
+              "class": "discussion"
+            },
+            {
+              "rank": 4,
+              "domain": "www.uschamber.com",
+              "url": "https://www.uschamber.com/co/run/technology/ada-website-accessibility-compliance",
+              "title": "ADA Website Accessibility Lawsuits: How to Protect Your ...",
+              "description": "Mar 20, 2025 — With website accessibility lawsuits on the rise — 3,225 were filed in federal court in 2022, marking a 12% increase from the year prior — it's ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.ada.gov",
+              "url": "https://www.ada.gov/cases/",
+              "title": "Cases",
+              "description": "The Department of Justice enforces the ADA through lawsuits and settlement agreements to achieve greater access, inclusion, and equal opportunity for people ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "instituteforlegalreform.com",
+              "url": "https://instituteforlegalreform.com/blog/small-businesses-targeted-with-ada-lawsuits/",
+              "title": "How Small Businesses are Targeted with Abusive ADA ...",
+              "description": "Oct 12, 2022 — In 2020, more than 2,500 lawsuits were filed alleging that websites or mobile apps weren't accessible to blind users, according to Seyfarth Shaw ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.karlinlaw.com",
+              "url": "https://www.karlinlaw.com/ada-accessibility-law/ada-website-lawsuits-and-compliance/",
+              "title": "ADA Website And App Lawsuits Defense Attorneys",
+              "description": "Learn about website compliance lawsuits and how to protect your business. Karlin Law Firm LLP offers experienced ADA website defense nationwide.",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "news.mobar.org",
+              "url": "https://news.mobar.org/confronting-the-rise-in-ada-website-accessibility-lawsuits-against-businesses/",
+              "title": "Confronting the rise in ADA website accessibility lawsuits",
+              "description": "by AT Peebles · Cited by 2 — Website accessibility lawsuits have become a cottage industry in recent years, and the evidence indicates that the filing of these claims will ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.dentons.com",
+              "url": "https://www.dentons.com/en/find-your-dentons-team/practices/litigation-and-dispute-resolution/regional-practices/litigation-and-dispute-resolution-in-the-united-states/ada-website-compliance-and-litigation",
+              "title": "ADA Website Compliance and Litigation",
+              "description": "Dentons is a market leader in this emerging area. During the past five years, we have defended more than 600 website accessibility/closed captioning lawsuits/ ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.audioeye.com",
+              "url": "https://www.audioeye.com/post/ada-compliance-lawsuit/",
+              "title": "How to Navigate ADA Compliance and Website ...",
+              "description": "Feb 28, 2025 — Factors behind the lawsuits range from poor color contrast, lack of text alternatives, inaccessible online forms, lack of assistive technology ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "audioeye.com",
+          "url": "https://www.audioeye.com/compliance/ada/",
+          "finalUrl": "https://www.audioeye.com/compliance/ada/",
+          "retrievedAt": "2026-10-23T09:41:33.311Z",
+          "status": 429,
+          "error": "HTTP 429"
+        },
+        {
+          "id": "P2",
+          "domain": "audioeye.com",
+          "url": "https://www.audioeye.com/pricing",
+          "finalUrl": "https://www.audioeye.com/pricing",
+          "retrievedAt": "2026-10-23T09:41:33.312Z",
+          "status": 429,
+          "error": "HTTP 429"
+        },
+        {
+          "id": "P3",
+          "domain": "saul.com",
+          "url": "https://www.saul.com/insights/blog/ada-website-accessibility-risk",
+          "finalUrl": "https://www.saul.com/insights/blog/ada-website-accessibility-risk",
+          "retrievedAt": "2026-10-23T09:41:33.314Z",
+          "status": 200,
+          "error": null,
+          "title": "A Rise in ADA Website Accessibility Lawsuits May Leave You Asking: Is My Website A Risk? | Saul Ewing LLP",
+          "description": "Introduction",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "saul.com",
+          "url": "https://www.saul.com/pricing",
+          "finalUrl": "https://www.saul.com/pricing",
+          "retrievedAt": "2026-10-23T09:41:33.315Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "acquia.com",
+          "url": "https://www.acquia.com/glossary/ada-website-compliance",
+          "finalUrl": "https://www.acquia.com/glossary/ada-website-compliance",
+          "retrievedAt": "2026-10-23T09:41:33.316Z",
+          "status": 200,
+          "error": null,
+          "title": "What Is ADA Website Compliance? | Acquia",
+          "description": "Stay ahead of the curve with ADA Website Compliance, ensuring your site is accessible to users with disabilities. Learn the essentials now.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "acquia.com",
+          "url": "https://www.acquia.com/pricing",
+          "finalUrl": "https://www.acquia.com/products",
+          "retrievedAt": "2026-10-23T09:41:33.317Z",
+          "status": 200,
+          "error": null,
+          "title": "Open Digital Command Center for Drupal | Acquia",
+          "description": "Acquia Source is the open digital command center for Drupal, with Acquia Cloud Platform and Acquia DAM as your on-ramps. Build faster and manage less.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 3,
+          "totalCount": 5,
+          "top": {
+            "keyword": "ada website accessibility requirements",
+            "searchVolume": 70,
+            "id": "K2"
+          },
+          "category": {
+            "level": "substantial",
+            "measuredCount": 3,
+            "totalCount": 4,
+            "top": {
+              "keyword": "website accessibility checker",
+              "searchVolume": 2900,
+              "id": "K5"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K1",
+              "kind": "uncorroborated",
+              "text": "\"ada website compliance lawsuits\" (210/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"ada website accessibility requirements\" at 70/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: substantial (\"website accessibility checker\" 2900/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K5",
+            "K8"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 3 commercial keyword(s) (highest CPC $48.34 on \"ada compliance software\"). CPC is an advertiser bid, not a customer's willingness to pay. 3 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "audioeye.com",
+            "saul.com",
+            "acquia.com",
+            "withpavilion.com",
+            "uschamber.com",
+            "zen.agency",
+            "userway.org",
+            "instituteforlegalreform.com",
+            "bluleadz.com",
+            "karlinlaw.com",
+            "news.mobar.org",
+            "webability.io",
+            "dentons.com",
+            "equalweb.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com"
+          ],
+          "pricedDomains": [],
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 2 domain(s) with a direct competitor (same problem) (karlinlaw.com, dentons.com), 5 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "karlinlaw.com",
+            "dentons.com"
+          ],
+          "indirectAlternativeDomains": [
+            "zen.agency",
+            "userway.org",
+            "bluleadz.com",
+            "webability.io",
+            "equalweb.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "b1cb6dfa0c40f6d0",
+      "evidenceUpdatedAt": "2026-10-23T09:41:34.388Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-23T09:45:55.187Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-23T09:41:34.388Z",
+        "qualifiers": [
+          "owner of independent small hotel",
+          "owner of boutique inn",
+          "property manager overseeing 5-50 short-term rental units"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer concerned about legal exposure to ADA website lawsuits."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer needing to understand requirements to avoid lawsuits."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer wanting to understand consequences of non-compliance, which is part of their legal exposure problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer looking for solutions, but 'ADA compliance software' is a broader product category than the specific 'log & remediation hub'."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer looking for tools to check accessibility, but 'website accessibility checker' is a broader product category."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer looking for services to audit their website, but 'ADA website audit service' is a broader product category."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer researching the financial implications of their problem and its solutions."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer looking for solutions, but 'best ADA compliance tools' is a broader product category."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer researching the cost of fixing accessibility issues, which is part of addressing their problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This expert guide discusses general ADA compliance for a broad audience, not specifically small hotel owners or their legal exposure problem."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article provides general information on ADA website compliance for a broad audience, not specifically targeting small hotel owners or their legal exposure problem."
+          },
+          "S1.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item lists software vendors for regulated sectors like education and healthcare, which are different from small hotels and property managers."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item compares general ADA compliance services for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers general ADA compliance audits for any website, not specifically for small hotel owners or their legal exposure problem."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item lists general website accessibility software for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+          },
+          "S1.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item is from Harvard University, likely for an academic or internal audience, which is different from small hotel owners."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item lists general web accessibility testing tools for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers a general accessibility platform for ADA and EAA compliance, not specifically for small hotel owners or their legal exposure problem."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the rise in ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This Reddit thread discusses being hit with an ADA website compliance lawsuit, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses ADA website accessibility lawsuits and protection for businesses, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item is from the Department of Justice, discussing their enforcement of the ADA, which is different from the target customer's perspective."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses how small businesses are targeted with ADA lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers legal defense services for businesses facing ADA website lawsuits, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This news article discusses the rise in ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item discusses ADA website compliance and litigation services from a law firm, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article provides guidance on navigating ADA compliance and website lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This article discusses the risk of ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This article provides general information on ADA website compliance for a broad audience, not specifically targeting small hotel owners or their legal exposure problem."
+          },
+          "P6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "This page is about a digital command center for Drupal, which is unrelated to the target customer's problem of ADA website compliance lawsuits."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-23:small-hotel-ada-compliance-hub",
+        "opportunity": "The opportunity is to provide a specialized solution for owners of independent small hotels and property managers to manage ADA website compliance. This aims to mitigate their increasing legal exposure to lawsuits regarding website accessibility.",
+        "whoPays": "Owners of independent small hotels, boutique inns, or property managers overseeing 5-50 short-term rental units would pay. This is an inference that they would pay to avoid costly lawsuits and fines related to ADA website non-compliance.",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "A Rise in ADA Website Accessibility Lawsuits May Leave"
+            },
+            {
+              "id": "S2.3",
+              "quote": "Hit with a lawsuit for violating ADA website compliance?"
+            },
+            {
+              "id": "S2.4",
+              "quote": "ADA Website Accessibility Lawsuits: How to Protect Your"
+            },
+            {
+              "id": "S2.7",
+              "quote": "How Small Businesses are Targeted with Abusive ADA"
+            },
+            {
+              "id": "S2.8",
+              "quote": "ADA Website And App Lawsuits Defense Attorneys"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Confronting the rise in ADA website accessibility lawsuits"
+            },
+            {
+              "id": "S2.10",
+              "quote": "ADA Website Compliance and Litigation"
+            },
+            {
+              "id": "S2.11",
+              "quote": "How to Navigate ADA Compliance and Website"
+            },
+            {
+              "id": "P3",
+              "quote": "A Rise in ADA Website Accessibility Lawsuits May Leave You Asking: Is My Website A Risk?"
+            }
+          ],
+          "observed": "Multiple sources indicate a significant and rising trend in ADA website accessibility lawsuits. Businesses are being targeted, and there is concern about how to protect against or navigate these lawsuits. Some entities are already offering legal defense and compliance services in response to this problem.",
+          "inference": "Small businesses, including potentially small hotels, face substantial and increasing legal exposure due to ADA website non-compliance, driving a need for solutions to manage this risk."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "ADA Website And App Lawsuits Defense Attorneys"
+            },
+            {
+              "id": "S2.10",
+              "quote": "ADA Website Compliance and Litigation"
+            },
+            {
+              "id": "S1.6",
+              "quote": "Best 5 ADA Compliance Services Compared"
+            },
+            {
+              "id": "S1.7",
+              "quote": "ADA Compliance Audit: How to Test Your Website"
+            },
+            {
+              "id": "S1.8",
+              "quote": "9 Website Accessibility Softwares That Help You Achieve"
+            },
+            {
+              "id": "S1.10",
+              "quote": "12 Best Web Accessibility Testing Tools (2026 Reviewed)"
+            },
+            {
+              "id": "S1.11",
+              "quote": "EqualWeb - The Hybrid Accessibility Platform | ADA & EAA"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Karlin Law Firm LLP",
+              "type": "direct",
+              "what": "Offers experienced ADA website defense nationwide for businesses facing ADA website and app lawsuits.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "ADA Website And App Lawsuits Defense Attorneys"
+                }
+              ]
+            },
+            {
+              "name": "Dentons",
+              "type": "direct",
+              "what": "Provides ADA website compliance and litigation services, having defended over 600 website accessibility/closed captioning lawsuits.",
+              "basis": [
+                {
+                  "id": "S2.10",
+                  "quote": "ADA Website Compliance and Litigation"
+                }
+              ]
+            },
+            {
+              "name": "Zen Agency",
+              "type": "indirect",
+              "what": "Compares ADA compliance services including automated overlays, manual audits, hybrid solutions, developer tools, and PDF remediation.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Best 5 ADA Compliance Services Compared"
+                }
+              ]
+            },
+            {
+              "name": "UserWay",
+              "type": "indirect",
+              "what": "Offers ADA compliance audits that pair expert testing with automated tools to find and document barriers.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "ADA Compliance Audit: How to Test Your Website"
+                }
+              ]
+            },
+            {
+              "name": "Bluleadz (listing various software)",
+              "type": "indirect",
+              "what": "Lists various website accessibility software solutions like accessiBe, DYNO Mapper, A11Y Compliance Platform, EqualWeb, and Crownpeak Digital Quality.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "9 Website Accessibility Softwares That Help You Achieve"
+                }
+              ]
+            },
+            {
+              "name": "WebAbility.io",
+              "type": "indirect",
+              "what": "Offers an AI-powered accessibility platform with a visitor-facing Accessibility Enhancer and a complete backend compliance dashboard.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "An all-in-one, AI-powered accessibility platform that pairs a visitor-facing Accessibility Enhancer with a complete backend compliance dashboard."
+                }
+              ]
+            },
+            {
+              "name": "EqualWeb",
+              "type": "indirect",
+              "what": "Provides a hybrid accessibility platform using AI, certified experts, and monitoring to build, maintain, and prove WCAG 2.2, ADA & EAA compliance.",
+              "basis": [
+                {
+                  "id": "S1.11",
+                  "quote": "EqualWeb, the hybrid accessibility platform: AI + certified IAAP/CPWA experts + monitoring to build, maintain and prove WCAG 2.2, ADA & EAA compliance."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Law firms like Karlin Law and Dentons offer direct legal defense and litigation services, addressing the immediate threat of lawsuits.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "ADA Website And App Lawsuits Defense Attorneys"
+                },
+                {
+                  "id": "S2.10",
+                  "quote": "ADA Website Compliance and Litigation"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Indirect competitors provide a range of general ADA compliance tools, audits, and platforms, some leveraging AI and expert services for comprehensive accessibility solutions.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Best 5 ADA Compliance Services Compared"
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "ADA Compliance Audit: How to Test Your Website"
+                },
+                {
+                  "id": "S1.11",
+                  "quote": "EqualWeb, the hybrid accessibility platform: AI + certified IAAP/CPWA experts + monitoring to build, maintain and prove WCAG 2.2, ADA & EAA compliance."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No observed competitor explicitly targets independent small hotels, boutique inns, or property managers overseeing 5-50 short-term rental units with a specialized 'log & remediation hub' tailored to their specific operational needs or scale.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "robust demand for targeted, compliance-driven, or efficiency-critical solutions for small and medium-sized businesses",
+            "finding": "Idea-level search demand for directly relevant keywords is low, with 'ada website accessibility requirements' at 70/month. However, category-level demand for broader solutions like 'website accessibility checker' is substantial at 2900/month.",
+            "basis": [
+              {
+                "id": "K2",
+                "quote": "ada website accessibility requirements"
+              },
+              {
+                "id": "K5",
+                "quote": "website accessibility checker"
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "escalating regulatory scrutiny, the high cost of non-compliance (fines, lawsuits, lost revenue)",
+            "finding": "Evidence strongly indicates a rise in ADA website accessibility lawsuits, with small businesses being targeted. Law firms are offering defense and litigation services in response to this trend.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "A Rise in ADA Website Accessibility Lawsuits May Leave"
+              },
+              {
+                "id": "S2.7",
+                "quote": "How Small Businesses are Targeted with Abusive ADA"
+              },
+              {
+                "id": "S2.9",
+                "quote": "Confronting the rise in ADA website accessibility lawsuits"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "limitations of generalist tools for niche-specific problems.",
+            "finding": "While numerous general ADA compliance services, audits, software, and platforms exist, none explicitly target the specific niche of small hotel owners or property managers with a 'log & remediation hub'.",
+            "basis": [
+              {
+                "id": "S1.6",
+                "quote": "Best 5 ADA Compliance Services Compared"
+              },
+              {
+                "id": "S1.7",
+                "quote": "ADA Compliance Audit: How to Test Your Website"
+              },
+              {
+                "id": "S1.8",
+                "quote": "9 Website Accessibility Softwares That Help You Achieve"
+              },
+              {
+                "id": "S1.10",
+                "quote": "12 Best Web Accessibility Testing Tools (2026 Reviewed)"
+              },
+              {
+                "id": "S1.11",
+                "quote": "EqualWeb - The Hybrid Accessibility Platform | ADA & EAA"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as a targeted landing page to gauge interest or a manual audit service for a few clients, is highly feasible with minimal resources."
+        },
+        "unproven": [
+          "The specific demand from small hotel owners and property managers for a dedicated 'log & remediation hub' solution.",
+          "The willingness of the target customer to pay for a specialized solution over existing general tools or legal services.",
+          "The precise limitations of generalist tools for this specific niche and how a 'log & remediation hub' would uniquely address them."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page describing the 'Small Hotel's ADA Website Compliance Log & Remediation Hub', emphasizing benefits like lawsuit avoidance and simplified management for small hotel owners. Drive targeted traffic via Google Ads or social media to offer beta access or an early bird discount sign-up.",
+          "cost": "~$500 (ad spend) + 1 week (landing page creation)",
+          "duration": "2-4 weeks"
+        },
+        "continueIf": "Achieve a 5%+ conversion rate on landing page sign-ups from the target audience, and receive at least 10 qualitative inquiries from small hotel owners expressing strong interest in the specific features of a 'log & remediation hub'.",
+        "stopIf": "Conversion rate on landing page sign-ups is below 2%, or no qualitative inquiries or feedback indicate a strong need for a specialized 'log & remediation hub' over existing general solutions or legal services."
+      },
+      "assessment": {
+        "opportunity": "The opportunity is to provide a specialized solution for owners of independent small hotels and property managers to manage ADA website compliance. This aims to mitigate their increasing legal exposure to lawsuits regarding website accessibility.",
+        "whoPays": "Owners of independent small hotels, boutique inns, or property managers overseeing 5-50 short-term rental units would pay. This is an inference that they would pay to avoid costly lawsuits and fines related to ADA website non-compliance.",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "A Rise in ADA Website Accessibility Lawsuits May Leave",
+              "domain": "saul.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses the rise in ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.3",
+              "quote": "Hit with a lawsuit for violating ADA website compliance?",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "This Reddit thread discusses being hit with an ADA website compliance lawsuit, which is the core problem for the target customer, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.4",
+              "quote": "ADA Website Accessibility Lawsuits: How to Protect Your",
+              "domain": "uschamber.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses ADA website accessibility lawsuits and protection for businesses, which is the core problem for the target customer, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.7",
+              "quote": "How Small Businesses are Targeted with Abusive ADA",
+              "domain": "instituteforlegalreform.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article discusses how small businesses are targeted with ADA lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.8",
+              "quote": "ADA Website And App Lawsuits Defense Attorneys",
+              "domain": "karlinlaw.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item offers legal defense services for businesses facing ADA website lawsuits, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.9",
+              "quote": "Confronting the rise in ADA website accessibility lawsuits",
+              "domain": "news.mobar.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This news article discusses the rise in ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.10",
+              "quote": "ADA Website Compliance and Litigation",
+              "domain": "dentons.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses ADA website compliance and litigation services from a law firm, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.11",
+              "quote": "How to Navigate ADA Compliance and Website",
+              "domain": "audioeye.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This article provides guidance on navigating ADA compliance and website lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+            },
+            {
+              "id": "P3",
+              "quote": "A Rise in ADA Website Accessibility Lawsuits May Leave You Asking: Is My Website A Risk?",
+              "domain": "saul.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "This article discusses the risk of ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+            }
+          ],
+          "observed": "Multiple sources indicate a significant and rising trend in ADA website accessibility lawsuits. Businesses are being targeted, and there is concern about how to protect against or navigate these lawsuits. Some entities are already offering legal defense and compliance services in response to this problem.",
+          "inference": "Small businesses, including potentially small hotels, face substantial and increasing legal exposure due to ADA website non-compliance, driving a need for solutions to manage this risk."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S2.8",
+              "quote": "ADA Website And App Lawsuits Defense Attorneys",
+              "domain": "karlinlaw.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This item offers legal defense services for businesses facing ADA website lawsuits, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S2.10",
+              "quote": "ADA Website Compliance and Litigation",
+              "domain": "dentons.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "This item discusses ADA website compliance and litigation services from a law firm, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+            },
+            {
+              "id": "S1.6",
+              "quote": "Best 5 ADA Compliance Services Compared",
+              "domain": "zen.agency",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item compares general ADA compliance services for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+            },
+            {
+              "id": "S1.7",
+              "quote": "ADA Compliance Audit: How to Test Your Website",
+              "domain": "userway.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item offers general ADA compliance audits for any website, not specifically for small hotel owners or their legal exposure problem."
+            },
+            {
+              "id": "S1.8",
+              "quote": "9 Website Accessibility Softwares That Help You Achieve",
+              "domain": "bluleadz.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item lists general website accessibility software for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+            },
+            {
+              "id": "S1.10",
+              "quote": "12 Best Web Accessibility Testing Tools (2026 Reviewed)",
+              "domain": "webability.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item lists general web accessibility testing tools for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+            },
+            {
+              "id": "S1.11",
+              "quote": "EqualWeb - The Hybrid Accessibility Platform | ADA & EAA",
+              "domain": "equalweb.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item offers a general accessibility platform for ADA and EAA compliance, not specifically for small hotel owners or their legal exposure problem."
+            }
+          ],
+          "directCompetitors": [
+            "karlinlaw.com",
+            "dentons.com"
+          ],
+          "indirectAlternatives": [
+            "zen.agency",
+            "userway.org",
+            "bluleadz.com",
+            "webability.io",
+            "equalweb.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Karlin Law Firm LLP",
+              "type": "direct",
+              "what": "Offers experienced ADA website defense nationwide for businesses facing ADA website and app lawsuits.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "ADA Website And App Lawsuits Defense Attorneys",
+                  "domain": "karlinlaw.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This item offers legal defense services for businesses facing ADA website lawsuits, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+                }
+              ]
+            },
+            {
+              "name": "Dentons",
+              "type": "direct",
+              "what": "Provides ADA website compliance and litigation services, having defended over 600 website accessibility/closed captioning lawsuits.",
+              "basis": [
+                {
+                  "id": "S2.10",
+                  "quote": "ADA Website Compliance and Litigation",
+                  "domain": "dentons.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "This item discusses ADA website compliance and litigation services from a law firm, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+                }
+              ]
+            },
+            {
+              "name": "Zen Agency",
+              "type": "indirect",
+              "what": "Compares ADA compliance services including automated overlays, manual audits, hybrid solutions, developer tools, and PDF remediation.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Best 5 ADA Compliance Services Compared",
+                  "domain": "zen.agency",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item compares general ADA compliance services for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+                }
+              ]
+            },
+            {
+              "name": "UserWay",
+              "type": "indirect",
+              "what": "Offers ADA compliance audits that pair expert testing with automated tools to find and document barriers.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "ADA Compliance Audit: How to Test Your Website",
+                  "domain": "userway.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item offers general ADA compliance audits for any website, not specifically for small hotel owners or their legal exposure problem."
+                }
+              ]
+            },
+            {
+              "name": "Bluleadz (listing various software)",
+              "type": "indirect",
+              "what": "Lists various website accessibility software solutions like accessiBe, DYNO Mapper, A11Y Compliance Platform, EqualWeb, and Crownpeak Digital Quality.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "9 Website Accessibility Softwares That Help You Achieve",
+                  "domain": "bluleadz.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item lists general website accessibility software for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+                }
+              ]
+            },
+            {
+              "name": "WebAbility.io",
+              "type": "indirect",
+              "what": "Offers an AI-powered accessibility platform with a visitor-facing Accessibility Enhancer and a complete backend compliance dashboard.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "An all-in-one, AI-powered accessibility platform that pairs a visitor-facing Accessibility Enhancer with a complete backend compliance dashboard.",
+                  "domain": "webability.io",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item lists general web accessibility testing tools for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Law firms like Karlin Law and Dentons offer direct legal defense and litigation services, addressing the immediate threat of lawsuits.",
+              "basis": [
+                {
+                  "id": "S2.8",
+                  "quote": "ADA Website And App Lawsuits Defense Attorneys",
+                  "domain": "karlinlaw.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This item offers legal defense services for businesses facing ADA website lawsuits, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+                },
+                {
+                  "id": "S2.10",
+                  "quote": "ADA Website Compliance and Litigation",
+                  "domain": "dentons.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "This item discusses ADA website compliance and litigation services from a law firm, which directly addresses the target customer's problem, though it doesn't specify small hotels."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Indirect competitors provide a range of general ADA compliance tools, audits, and platforms, some leveraging AI and expert services for comprehensive accessibility solutions.",
+              "basis": [
+                {
+                  "id": "S1.6",
+                  "quote": "Best 5 ADA Compliance Services Compared",
+                  "domain": "zen.agency",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This item compares general ADA compliance services for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "ADA Compliance Audit: How to Test Your Website",
+                  "domain": "userway.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This item offers general ADA compliance audits for any website, not specifically for small hotel owners or their legal exposure problem."
+                },
+                {
+                  "id": "S1.11",
+                  "quote": "EqualWeb, the hybrid accessibility platform: AI + certified IAAP/CPWA experts + monitoring to build, maintain and prove WCAG 2.2, ADA & EAA compliance.",
+                  "domain": "equalweb.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This item offers a general accessibility platform for ADA and EAA compliance, not specifically for small hotel owners or their legal exposure problem."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No observed competitor explicitly targets independent small hotels, boutique inns, or property managers overseeing 5-50 short-term rental units with a specialized 'log & remediation hub' tailored to their specific operational needs or scale.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "robust demand for targeted, compliance-driven, or efficiency-critical solutions for small and medium-sized businesses",
+            "finding": "Idea-level search demand for directly relevant keywords is low, with 'ada website accessibility requirements' at 70/month. However, category-level demand for broader solutions like 'website accessibility checker' is substantial at 2900/month.",
+            "basis": [
+              {
+                "id": "K2",
+                "quote": "ada website accessibility requirements",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "People searching this plausibly include the target customer needing to understand requirements to avoid lawsuits."
+              },
+              {
+                "id": "K5",
+                "quote": "website accessibility checker",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "category",
+                "relevanceReason": "People searching this plausibly include the target customer looking for tools to check accessibility, but 'website accessibility checker' is a broader product category."
+              }
+            ],
+            "effect": "weakens"
+          },
+          {
+            "original": "escalating regulatory scrutiny, the high cost of non-compliance (fines, lawsuits, lost revenue)",
+            "finding": "Evidence strongly indicates a rise in ADA website accessibility lawsuits, with small businesses being targeted. Law firms are offering defense and litigation services in response to this trend.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "A Rise in ADA Website Accessibility Lawsuits May Leave",
+                "domain": "saul.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article discusses the rise in ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+              },
+              {
+                "id": "S2.7",
+                "quote": "How Small Businesses are Targeted with Abusive ADA",
+                "domain": "instituteforlegalreform.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This article discusses how small businesses are targeted with ADA lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+              },
+              {
+                "id": "S2.9",
+                "quote": "Confronting the rise in ADA website accessibility lawsuits",
+                "domain": "news.mobar.org",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This news article discusses the rise in ADA website accessibility lawsuits, which is the core problem for the target customer, though it doesn't specify small hotels."
+              }
+            ],
+            "effect": "untested"
+          },
+          {
+            "original": "limitations of generalist tools for niche-specific problems.",
+            "finding": "While numerous general ADA compliance services, audits, software, and platforms exist, none explicitly target the specific niche of small hotel owners or property managers with a 'log & remediation hub'.",
+            "basis": [
+              {
+                "id": "S1.6",
+                "quote": "Best 5 ADA Compliance Services Compared",
+                "domain": "zen.agency",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This item compares general ADA compliance services for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+              },
+              {
+                "id": "S1.7",
+                "quote": "ADA Compliance Audit: How to Test Your Website",
+                "domain": "userway.org",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This item offers general ADA compliance audits for any website, not specifically for small hotel owners or their legal exposure problem."
+              },
+              {
+                "id": "S1.8",
+                "quote": "9 Website Accessibility Softwares That Help You Achieve",
+                "domain": "bluleadz.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This item lists general website accessibility software for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+              },
+              {
+                "id": "S1.10",
+                "quote": "12 Best Web Accessibility Testing Tools (2026 Reviewed)",
+                "domain": "webability.io",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This item lists general web accessibility testing tools for a broad audience, not specifically for small hotel owners or their legal exposure problem."
+              },
+              {
+                "id": "S1.11",
+                "quote": "EqualWeb - The Hybrid Accessibility Platform | ADA & EAA",
+                "domain": "equalweb.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "broader",
+                "relevanceReason": "This item offers a general accessibility platform for ADA and EAA compliance, not specifically for small hotel owners or their legal exposure problem."
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as a targeted landing page to gauge interest or a manual audit service for a few clients, is highly feasible with minimal resources."
+        },
+        "unproven": [
+          "The specific demand from small hotel owners and property managers for a dedicated 'log & remediation hub' solution.",
+          "The willingness of the target customer to pay for a specialized solution over existing general tools or legal services.",
+          "The precise limitations of generalist tools for this specific niche and how a 'log & remediation hub' would uniquely address them."
+        ],
+        "nextExperiment": {
+          "what": "Create a landing page describing the 'Small Hotel's ADA Website Compliance Log & Remediation Hub', emphasizing benefits like lawsuit avoidance and simplified management for small hotel owners. Drive targeted traffic via Google Ads or social media to offer beta access or an early bird discount sign-up.",
+          "cost": "~$500 (ad spend) + 1 week (landing page creation)",
+          "duration": "2-4 weeks"
+        },
+        "continueIf": "Achieve a 5%+ conversion rate on landing page sign-ups from the target audience, and receive at least 10 qualitative inquiries from small hotel owners expressing strong interest in the specific features of a 'log & remediation hub'.",
+        "stopIf": "Conversion rate on landing page sign-ups is below 2%, or no qualitative inquiries or feedback indicate a strong need for a specialized 'log & remediation hub' over existing general solutions or legal services.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "change \"escalating regulatory scrutiny, the high cost of n\" supports → untested: offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "change \"escalating regulatory scrutiny, the high cost of n\" supports → untested: offerings existing (often free) do not show that buyers pay; supporting a validated or paying market needs at least a cited published price"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-23T09:46:31.495Z",
+        "evidenceUpdatedAt": "2026-10-23T09:41:34.388Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-23T09:41:17.852Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 9,
+      "holdId": "28052067-9ce9-53aa-aa48-9fa8e6fa5de8",
+      "estimateUsd": 0.014388,
+      "costUsd": 0.01272,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-23T09:41:21.052Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "fa6555e8-78f4-5d7f-bd95-409708370139",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-23T09:41:28.470Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "83b9eed4-fbd6-511e-9641-17f0928f7e7a",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.21888,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.78112
+    },
+    "monthToDateUsdBefore": 0.21888,
+    "spentThisRunUsd": 0.01672
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 9,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01308,
+    "serpQueries": 2,
+    "serpsFromCache": 0,
+    "serpUsd": 0.004,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 1,
+        "keywordsToBuy": 9
+      }
+    ],
+    "totalUsd": 0.01708,
+    "reservedUsd": 0.018788
+  },
+  "lastGather": {
+    "at": "2026-10-23T09:41:34.388Z",
+    "mode": "live",
+    "pendingIdeas": 1,
+    "spentUsd": 0.01672,
+    "note": null
+  }
+}

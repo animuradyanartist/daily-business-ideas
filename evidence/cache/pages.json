@@ -9563,6 +9563,84 @@
         "mentionsContactSales": false,
         "mentionsPricing": false
       }
+    },
+    "page|https://www.saul.com/insights/blog/ada-website-accessibility-risk": {
+      "fetchedAt": "2026-10-23T09:41:33.314Z",
+      "data": {
+        "url": "https://www.saul.com/insights/blog/ada-website-accessibility-risk",
+        "finalUrl": "https://www.saul.com/insights/blog/ada-website-accessibility-risk",
+        "retrievedAt": "2026-10-23T09:41:33.314Z",
+        "status": 200,
+        "error": null,
+        "title": "A Rise in ADA Website Accessibility Lawsuits May Leave You Asking: Is My Website A Risk? | Saul Ewing LLP",
+        "description": "Introduction",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.audioeye.com/pricing": {
+      "fetchedAt": "2026-10-23T09:41:33.312Z",
+      "data": {
+        "url": "https://www.audioeye.com/pricing",
+        "finalUrl": "https://www.audioeye.com/pricing",
+        "retrievedAt": "2026-10-23T09:41:33.312Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://www.audioeye.com/compliance/ada/": {
+      "fetchedAt": "2026-10-23T09:41:33.311Z",
+      "data": {
+        "url": "https://www.audioeye.com/compliance/ada/",
+        "finalUrl": "https://www.audioeye.com/compliance/ada/",
+        "retrievedAt": "2026-10-23T09:41:33.311Z",
+        "status": 429,
+        "error": "HTTP 429"
+      }
+    },
+    "page|https://www.acquia.com/glossary/ada-website-compliance": {
+      "fetchedAt": "2026-10-23T09:41:33.316Z",
+      "data": {
+        "url": "https://www.acquia.com/glossary/ada-website-compliance",
+        "finalUrl": "https://www.acquia.com/glossary/ada-website-compliance",
+        "retrievedAt": "2026-10-23T09:41:33.316Z",
+        "status": 200,
+        "error": null,
+        "title": "What Is ADA Website Compliance? | Acquia",
+        "description": "Stay ahead of the curve with ADA Website Compliance, ensuring your site is accessible to users with disabilities. Learn the essentials now.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.acquia.com/pricing": {
+      "fetchedAt": "2026-10-23T09:41:33.317Z",
+      "data": {
+        "url": "https://www.acquia.com/pricing",
+        "finalUrl": "https://www.acquia.com/products",
+        "retrievedAt": "2026-10-23T09:41:33.317Z",
+        "status": 200,
+        "error": null,
+        "title": "Open Digital Command Center for Drupal | Acquia",
+        "description": "Acquia Source is the open digital command center for Drupal, with Acquia Cloud Platform and Acquia DAM as your on-ramps. Build faster and manage less.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.saul.com/pricing": {
+      "fetchedAt": "2026-10-23T09:41:33.315Z",
+      "data": {
+        "url": "https://www.saul.com/pricing",
+        "finalUrl": "https://www.saul.com/pricing",
+        "retrievedAt": "2026-10-23T09:41:33.315Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

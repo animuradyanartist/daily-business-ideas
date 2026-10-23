@@ -86,6 +86,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 96 | high | 2026-06-21 | The Home Healthcare Agency's "Audit-Proof" EVV & Scheduling Hub |
 | 96 | high | 2026-06-20 | The 3PL's "Audit-Proof" Food Safety Compliance Hub |
 | 96 | high | 2026-06-18 | The Small Law Firm's "IOLTA Compliance" Hub |
+| 95 | high | 2026-10-23 | The Independent Home Health Agency's "CMS-Ready" Electronic Visit Verification (EVV) & Billing Hub |
 | 95 | high | 2026-10-17 | The Small Landscaping Contractor's "DOL-Proof" H-2B Visa Compliance Hub |
 | 95 | high | 2026-10-01 | The Small Government Contractor's "DCAA-Proof" Timesheet Hub |
 | 95 | high | 2026-09-23 | The Towing Operator's "Lien-Ready" Impound & Disposal Hub |

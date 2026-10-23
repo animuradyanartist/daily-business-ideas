@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-23
+- The Small Hotel's ADA Website Compliance Log & Remediation Hub — While a compliance pain, the financial impact of ADA lawsuits, while severe, is less frequent and directly tied to daily revenue than EVV payment denials for home health agencies.
+- The Small Construction Contractor's "OSHA-Proof" Fall Protection & Scaffolding Inspection Log — Good compliance pain, but OSHA citations, while costly, are generally less frequent and less directly tied to daily payment cycles than EVV compliance for Medicaid services.
+- The Independent Dental Practice's "Insurance Audit-Proof" Claims Documentation Hub — A strong compliance pain, but the market for dental practices is highly saturated with practice management software, and the "why now" for a *new* documentation hub is less acute than the escalating EVV enforcement.
+
 ## 2026-10-22
 *   **The Small Commercial Janitorial Service's "OSHA-Proof" Chemical Safety & Training Log** — While a strong compliance pain, the multi-agency compliance overlap (EPA, state environmental) for auto repair waste management feels more acute and financially catastrophic than OSHA's Hazard Communication Standard alone for janitorial services.
 *   **The Small-Scale Food Processor's "USDA/FDA-Ready" HACCP Plan & CCP Monitoring Log** — This is a high-stakes compliance pain, but the regulatory framework (HACCP) is highly specialized and often requires extensive scientific validation, potentially increasing the complexity and time-to-market for an MVP compared to the more standardized waste management logs for auto repair.

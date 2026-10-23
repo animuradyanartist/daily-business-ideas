@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-23
+- **"Why Now" can be driven by escalating enforcement of existing regulations:** The federal EVV mandate has been in place, but the shift to "hard edits" and rising compliance thresholds by states in 2026 creates a renewed, acute "why now" for agencies to upgrade or adopt more robust solutions, even if they had a basic system previously. This is a powerful, quantifiable driver of demand beyond new regulations.
+- **The "Cost of Non-Compliance" is a direct revenue drain, not just a fine:** For home health agencies, EVV non-compliance doesn't just mean potential fines; it directly results in denied claims and lost revenue for services already rendered, making the solution a revenue-enabler rather than merely a cost-reducer. This elevates the pain from operational inefficiency to existential financial threat.
+- **Micro-niches within regulated SMBs often lack specialized, user-friendly solutions:** While large EHRs and state-mandated aggregators exist, they often fail to provide the tailored, proactive, and intuitive experience that smaller, independent agencies need to navigate complex, evolving compliance requirements without significant administrative burden. This creates a clear opportunity for focused, compliance-orchestrating software.
+
 ## 2026-10-22 (trends)
 - AI is systematically productizing the "creative back office" for solo creators. This includes generating visual assets, orchestrating learning experiences, and managing micro-communities.
 - The "Scaffolding Kit" opportunity is consistently strong. For every complex AI-driven workflow, a market emerges for digital products (guides, templates, prompt packs) that teach non-experts how to effectively leverage these tools for specific outcomes.
