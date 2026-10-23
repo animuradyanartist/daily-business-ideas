@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-23 (trends)
+- **AI as a "System Enforcer" in Creative Workflows:** AI is increasingly used to ensure consistency and adherence to established rules (design systems, brand guidelines, IP requirements) rather than just generating novel outputs. This reduces "context amnesia" and ensures governance, particularly in design and content creation.
+- **The "Human-Augmented AI" Opportunity:** For high-stakes or highly creative tasks, the most valuable AI applications are those that clearly define the human's role in guiding, refining, and overseeing AI outputs, rather than attempting full autonomy. This creates a market for tools that enhance human judgment and provide auditable trails of human intervention.
+- **The "Compliance Layer" for AI-Generated Content:** As AI becomes pervasive in content creation, a new market is emerging for tools and services that help creators and businesses navigate the legal and ethical complexities of intellectual property, licensing, and disclosure for AI-assisted work. This is a non-negotiable pain point that requires structured solutions.
+
+---
+
 ## 2026-10-23
 - **"Why Now" can be driven by escalating enforcement of existing regulations:** The federal EVV mandate has been in place, but the shift to "hard edits" and rising compliance thresholds by states in 2026 creates a renewed, acute "why now" for agencies to upgrade or adopt more robust solutions, even if they had a basic system previously. This is a powerful, quantifiable driver of demand beyond new regulations.
 - **The "Cost of Non-Compliance" is a direct revenue drain, not just a fine:** For home health agencies, EVV non-compliance doesn't just mean potential fines; it directly results in denied claims and lost revenue for services already rendered, making the solution a revenue-enabler rather than merely a cost-reducer. This elevates the pain from operational inefficiency to existential financial threat.
