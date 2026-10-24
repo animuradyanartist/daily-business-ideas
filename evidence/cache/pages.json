@@ -9641,6 +9641,326 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://www.flowforma.com/blog/insurance-claims-management-software/": {
+      "fetchedAt": "2026-10-24T09:14:55.521Z",
+      "data": {
+        "url": "https://www.flowforma.com/blog/insurance-claims-management-software/",
+        "finalUrl": "https://www.flowforma.com/blog/insurance-claims-management-software/",
+        "retrievedAt": "2026-10-24T09:14:55.521Z",
+        "status": 200,
+        "error": null,
+        "title": "10 Insurance Claims Processing Software Tools Reviewed By Experts",
+        "description": "Compare the leading insurance claims management software in 2026. Discover no-code automation, AI features, and Microsoft 365 integration with FlowForma.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.flowforma.com/pricing": {
+      "fetchedAt": "2026-10-24T09:14:55.523Z",
+      "data": {
+        "url": "https://www.flowforma.com/pricing",
+        "finalUrl": "https://www.flowforma.com/pricing",
+        "retrievedAt": "2026-10-24T09:14:55.523Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.damcogroup.com/insurance/claims-management-software": {
+      "fetchedAt": "2026-10-24T09:14:55.524Z",
+      "data": {
+        "url": "https://www.damcogroup.com/insurance/claims-management-software",
+        "finalUrl": "https://www.damcogroup.com/insurance/claims-management-software",
+        "retrievedAt": "2026-10-24T09:14:55.524Z",
+        "status": 200,
+        "error": null,
+        "title": "Insurance Claims Management Software | Damco Solutions",
+        "description": "Streamline claims with Damco’s insurance claims management software. Automate workflows, reduce errors, and improve efficiency. Request a demo today.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://autel.us/pricing": {
+      "fetchedAt": "2026-10-24T09:14:55.527Z",
+      "data": {
+        "url": "https://autel.us/pricing",
+        "finalUrl": "https://autel.us/pricing",
+        "retrievedAt": "2026-10-24T09:14:55.527Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.damcogroup.com/pricing": {
+      "fetchedAt": "2026-10-24T09:14:55.525Z",
+      "data": {
+        "url": "https://www.damcogroup.com/pricing",
+        "finalUrl": "https://www.damcogroup.com/pricing",
+        "retrievedAt": "2026-10-24T09:14:55.525Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://autel.us/what-are-insurance-companies-paying-for-calibrations/": {
+      "fetchedAt": "2026-10-24T09:14:55.526Z",
+      "data": {
+        "url": "https://autel.us/what-are-insurance-companies-paying-for-calibrations/",
+        "finalUrl": "https://autel.us/what-are-insurance-companies-paying-for-calibrations/",
+        "retrievedAt": "2026-10-24T09:14:55.526Z",
+        "status": 200,
+        "error": null,
+        "title": "What Are Insurance Companies Paying For Calibrations? | Autel",
+        "description": "a. Insurance companies are typically paying between $200 and $300 for each ADAS calibration.",
+        "priceMentions": [
+          {
+            "text": "$200",
+            "billingUnit": false,
+            "context": "ations? a. Insurance companies are typically paying between $200 and $300 for each ADAS calibration. b. The ADAS application"
+          },
+          {
+            "text": "$300",
+            "billingUnit": false,
+            "context": ". Insurance companies are typically paying between $200 and $300 for each ADAS calibration. b. The ADAS application also pro"
+          },
+          {
+            "text": "$100",
+            "billingUnit": false,
+            "context": "e Pre and Post-SCAN features, which insurance companies pay $100-$150 for. Back Products Diagnostic Tools TPMS Service Heavy"
+          },
+          {
+            "text": "$150",
+            "billingUnit": false,
+            "context": "and Post-SCAN features, which insurance companies pay $100-$150 for. Back Products Diagnostic Tools TPMS Service Heavy Duty"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.avail.com/": {
+      "fetchedAt": "2026-10-24T09:14:57.681Z",
+      "data": {
+        "url": "https://www.avail.com/",
+        "finalUrl": "https://www.avail.com/",
+        "retrievedAt": "2026-10-24T09:14:57.681Z",
+        "status": 200,
+        "error": null,
+        "title": "Avail | Landlord Software & Property Management Software for Rental Property Management",
+        "description": "Simplify rental property management with Avail. Use free landlord software to screen tenants, create leases, and collect rent with our DIY landlord tools.",
+        "priceMentions": [
+          {
+            "text": "$0/unit",
+            "billingUnit": true,
+            "context": "who want more control, speed, and customization. Unlimited $0/unit Unlimited Units Access basic rental property management too"
+          },
+          {
+            "text": "$9/unit",
+            "billingUnit": true,
+            "context": "to tenants & leads with Messages Get Started Unlimited Plus $9/unit Per Month Upgrade for speed, customization, and exclusive t"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "ticles Guides Landlord Resources Avail Community Forum Earn $50 Get Support Contact Us Help Center (312) 292-9347 901 E. 6t"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.point-of-rental.com/": {
+      "fetchedAt": "2026-10-24T09:14:57.685Z",
+      "data": {
+        "url": "https://www.point-of-rental.com/",
+        "finalUrl": "https://www.point-of-rental.com/",
+        "retrievedAt": "2026-10-24T09:14:57.685Z",
+        "status": 200,
+        "error": null,
+        "title": "Point of Rental | Rental and Inventory Management Software",
+        "description": "Rental management software for equipment, tools, events, and specialty rentals. Manage inventory, contracts, bookings, and operations with 40+ years’ expertise.",
+        "priceMentions": [
+          {
+            "text": "$398",
+            "billingUnit": false,
+            "context": "2025 Sara Bell [email protected] Mini Skid Steer Confirmed $398 #172134 June 22, 2025 Bradley Rowe [email protected] Excava"
+          },
+          {
+            "text": "$462",
+            "billingUnit": false,
+            "context": "22, 2025 Bradley Rowe [email protected] Excavator Confirmed $462 #172543 June 21, 2025 Tyler Gerhold [email protected] Spray"
+          },
+          {
+            "text": "$1,863",
+            "billingUnit": false,
+            "context": "21, 2025 Tyler Gerhold [email protected] Sprayer Confirmed $1,863 #172402 June 21, 2025 Henry Nader [email protected] Compres"
+          },
+          {
+            "text": "$245",
+            "billingUnit": false,
+            "context": "21, 2025 Henry Nader [email protected] Compressor Confirmed $245 Email Uploaded List Subject Reservation Reminder Message {C"
+          },
+          {
+            "text": "$1,173",
+            "billingUnit": false,
+            "context": "on Excavator 344300 Grease Gun 22998 Road Sign Grand Total: $1,173 e-Sign Make payment Rental Management is good enough &ndash"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.point-of-rental.com/pricing": {
+      "fetchedAt": "2026-10-24T09:14:57.685Z",
+      "data": {
+        "url": "https://www.point-of-rental.com/pricing",
+        "finalUrl": "https://www.point-of-rental.com/pricing",
+        "retrievedAt": "2026-10-24T09:14:57.685Z",
+        "status": 200,
+        "error": null,
+        "title": "Rental Software Pricing | Point of Rental's Flexible Plans",
+        "description": "Discover flexible rental software pricing with Point of Rental. Scalable plans designed to grow with your business, from small shops to global enterprises.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.avail.com/pricing": {
+      "fetchedAt": "2026-10-24T09:14:57.682Z",
+      "data": {
+        "url": "https://www.avail.com/pricing",
+        "finalUrl": "https://www.avail.com/pricing",
+        "retrievedAt": "2026-10-24T09:14:57.682Z",
+        "status": 200,
+        "error": null,
+        "title": "Avail Pricing Plans: Free Property Management Software Options",
+        "description": "View Avail pricing plans. Choose between Unlimited, our free property management software for essential tools, or Unlimited Plus for premium features.",
+        "priceMentions": [
+          {
+            "text": "$0/unit",
+            "billingUnit": true,
+            "context": "who want more control, speed, and customization. Unlimited $0/unit Unlimited Units Access basic rental property management too"
+          },
+          {
+            "text": "$9/unit",
+            "billingUnit": true,
+            "context": "to tenants & leads with Messages Get Started Unlimited Plus $9/unit Per Month Upgrade for speed, customization, and exclusive t"
+          },
+          {
+            "text": "$2.50",
+            "billingUnit": false,
+            "context": "pay from a bank account. With Unlimited (free), tenants pay $2.50 per bank transfer. If a credit or debit card is used, a 3.5"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "ticles Guides Landlord Resources Avail Community Forum Earn $50 Get Support Contact Us Help Center (312) 292-9347 901 E. 6t"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://rental.software/pricing": {
+      "fetchedAt": "2026-10-24T09:14:57.684Z",
+      "data": {
+        "url": "https://rental.software/pricing",
+        "finalUrl": "https://rental.software/pricing",
+        "retrievedAt": "2026-10-24T09:14:57.684Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://rental.software/": {
+      "fetchedAt": "2026-10-24T09:14:57.683Z",
+      "data": {
+        "url": "https://rental.software/",
+        "finalUrl": "https://rental.software/",
+        "retrievedAt": "2026-10-24T09:14:57.683Z",
+        "status": 200,
+        "error": null,
+        "title": "Rental Software for Party, Event, Tent, Equipment, Pressure washing, and more",
+        "description": "Rental Software to automate your business. Quotes, emails, surveys, contracts, pay & book online. Integrates w/Google Calendar, WordPress, Quickbooks",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://play.google.com/store/apps/details?id=com.google.android.apps.photosgo&hl=en_US": {
+      "fetchedAt": "2026-10-24T09:14:58.034Z",
+      "data": {
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photosgo&hl=en_US",
+        "finalUrl": "https://play.google.com/store/apps/details?id=com.google.android.apps.photosgo&hl=en_US",
+        "retrievedAt": "2026-10-24T09:14:58.034Z",
+        "status": 200,
+        "error": null,
+        "title": null,
+        "description": null,
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.gallerysystems.com/": {
+      "fetchedAt": "2026-10-24T09:14:58.037Z",
+      "data": {
+        "url": "https://www.gallerysystems.com/",
+        "finalUrl": "https://www.gallerysystems.com/",
+        "retrievedAt": "2026-10-24T09:14:58.037Z",
+        "status": 200,
+        "error": null,
+        "title": "Gallery & Museum Management Software | Gallery Systems",
+        "description": "Explore Gallery Systems software for museums, galleries, and collections. Manage collections, workflows, data, and digital assets on a connected platform.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://decadentartgallery.com/pricing": {
+      "fetchedAt": "2026-10-24T09:14:58.036Z",
+      "data": {
+        "url": "https://decadentartgallery.com/pricing",
+        "finalUrl": "https://decadentartgallery.com/pricing",
+        "retrievedAt": "2026-10-24T09:14:58.036Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://decadentartgallery.com/pages/consign-sell?srsltid=AYCX9vJPtpfAYZpCYjxqxqY1qWAgP1zxBY80h9zsmsdrGzl94kVmAd6r": {
+      "fetchedAt": "2026-10-24T09:14:58.035Z",
+      "data": {
+        "url": "https://decadentartgallery.com/pages/consign-sell?srsltid=AYCX9vJPtpfAYZpCYjxqxqY1qWAgP1zxBY80h9zsmsdrGzl94kVmAd6r",
+        "finalUrl": "https://decadentartgallery.com/pages/consign-sell?srsltid=AYCX9vJPtpfAYZpCYjxqxqY1qWAgP1zxBY80h9zsmsdrGzl94kVmAd6r",
+        "retrievedAt": "2026-10-24T09:14:58.035Z",
+        "status": 200,
+        "error": null,
+        "title": "Consign / Sell &ndash; Decadent Art Gallery",
+        "description": "Consign or sell your urban art, graffiti / street art and contemporary art with us. Interested in Virgil Abloh, Daniel Arsham, Hebru Brantley, Javier Calleja, Joan Cornella, CRYPTIK, Shepard Fairey, FriendsWithYou, CB Hoyo, James Jean, JR, KAWS, Takashi Murkami, DABS MYLA, Felipe Pantone, Jose Parla",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.gallerysystems.com/pricing": {
+      "fetchedAt": "2026-10-24T09:14:58.038Z",
+      "data": {
+        "url": "https://www.gallerysystems.com/pricing",
+        "finalUrl": "https://www.gallerysystems.com/pricing",
+        "retrievedAt": "2026-10-24T09:14:58.038Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
     }
   }
 }

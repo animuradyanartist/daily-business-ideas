@@ -2,6 +2,14 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-24
+Several other opportunities were considered but did not meet the bar for acute pain, clear "why now," or market structure as effectively as the chosen idea.
+
+*   **The Small Event Rental Company's "Damage-Proof" Inventory & Asset Tracker** — While a clear pain, the financial impact of inventory errors and damage disputes, while costly, is less acute and directly tied to daily revenue than ADAS claim denials.
+*   **The Independent Art Gallery's "Artist-Friendly" Consignment & Sales Ledger** — Good compliance and trust pain, but the market size is likely smaller, and the pain is less directly tied to immediate, high-stakes revenue loss than ADAS claims.
+*   **The Specialty Coffee Roaster's "Farm-to-Roast" Traceability Hub** — Strong operational pain, but the regulatory pressure and direct financial loss from non-compliance are less severe and less immediately quantifiable than with ADAS insurance claims.
+*   **The Boutique Fitness Studio's "Instructor-Proof" Class Schedule & Payroll Hub** — Operational efficiency pain, but not a high-stakes compliance or direct revenue-loss issue with the same urgency as ADAS claim denials.
+
 ## 2026-10-23
 - The Small Hotel's ADA Website Compliance Log & Remediation Hub — While a compliance pain, the financial impact of ADA lawsuits, while severe, is less frequent and directly tied to daily revenue than EVV payment denials for home health agencies.
 - The Small Construction Contractor's "OSHA-Proof" Fall Protection & Scaffolding Inspection Log — Good compliance pain, but OSHA citations, while costly, are generally less frequent and less directly tied to daily payment cycles than EVV compliance for Medicaid services.

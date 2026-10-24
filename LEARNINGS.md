@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-24
+This analysis revealed several patterns regarding market dynamics, particularly in technically evolving and regulated SMB niches.
+
+*   **"Why Now" can be driven by the increasing ubiquity of a complex technology:** The rapid adoption of ADAS in vehicles creates a new, non-negotiable compliance and documentation burden for a broad segment of the auto repair industry, even without new regulations. This is a powerful, quantifiable driver of demand beyond new regulations.
+*   **The "Cost of Non-Compliance" is a direct revenue drain, not just a fine:** For auto glass shops, inadequate ADAS documentation directly results in denied claims and lost revenue for services already rendered, making the solution a revenue-enabler rather than merely a cost-reducer. This elevates the pain from operational inefficiency to existential financial threat.
+*   **Micro-niches within evolving technical fields often lack specialized, user-friendly solutions:** While general shop management software exists, it often fails to provide the tailored, proactive, and intuitive experience that smaller, independent shops need to navigate complex, evolving technical documentation requirements without significant administrative burden. This creates a clear opportunity for focused, compliance-orchestrating software.
+
 ## 2026-10-23 (trends)
 - **AI as a "System Enforcer" in Creative Workflows:** AI is increasingly used to ensure consistency and adherence to established rules (design systems, brand guidelines, IP requirements) rather than just generating novel outputs. This reduces "context amnesia" and ensures governance, particularly in design and content creation.
 - **The "Human-Augmented AI" Opportunity:** For high-stakes or highly creative tasks, the most valuable AI applications are those that clearly define the human's role in guiding, refining, and overseeing AI outputs, rather than attempting full autonomy. This creates a market for tools that enhance human judgment and provide auditable trails of human intervention.
