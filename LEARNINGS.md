@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-24 (trends)
+- **AI as a "Cognitive Offloader":** Across personal productivity, content creation, and even design, AI is increasingly being used to reduce the mental load of planning, organizing, and executing complex, multi-step workflows. This shifts the user's role from active management to high-level direction and oversight.
+- **The "Strategic Automation" Opportunity:** The most compelling AI applications are moving beyond automating discrete tasks to automating entire strategic processes (e.g., content strategy, product launch blueprint). This creates opportunities for digital products that provide the frameworks and guidance for leveraging AI in these higher-level functions.
+- **Vertical AI for Fragmented Markets:** Specialized AI tools are emerging to serve niche professional verticals (e.g., interior designers, solopreneur course creators) that are often underserved by horizontal solutions. These tools gain traction by deeply integrating into existing workflows and addressing specific, high-friction pain points with tailored AI capabilities.
+
+---
+
 ## 2026-10-24
 This analysis revealed several patterns regarding market dynamics, particularly in technically evolving and regulated SMB niches.
 
