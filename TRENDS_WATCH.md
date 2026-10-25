@@ -468,6 +468,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Personalized Digital Planners & Productivity Systems** · Using AI to dynamically generate and adapt personal and professional schedules, tasks, and habits. · flagged 2026-10-24 · last checked 2026-10-24 · [origin memo](trends/2026-10-24.md)
 - **AI-Automated Content Curation & Newsletter Production** · Automating the sourcing, filtering, writing, and formatting of newsletters and social media content for creators and businesses. · flagged 2026-10-24 · last checked 2026-10-24 · [origin memo](trends/2026-10-24.md)
 - **AI-Accelerated Micro-Product & Course Creation** · Leveraging AI to rapidly develop and launch digital products and online courses for solopreneurs. · flagged 2026-10-24 · last checked 2026-10-24 · [origin memo](trends/2026-10-24.md)
+- **AI-Powered Personalized Video Marketing** · Using AI to generate thousands of personalized marketing videos at scale for enhanced engagement. · flagged 2026-10-25 · last checked 2026-10-25 · [origin memo](trends/2026-10-25.md)
+- **AI-Generated Virtual Influencers for Personal Branding** · Creating consistent AI personas for scalable social media presence and content production without being on camera. · flagged 2026-10-25 · last checked 2026-10-25 · [origin memo](trends/2026-10-25.md)
+- **AI-Powered Interactive Video for Education** · Transforming passive video content into engaging, interactive learning experiences with quizzes and AI tutors. · flagged 2026-10-25 · last checked 2026-10-25 · [origin memo](trends/2026-10-25.md)
 
 
 ## ➡️ Active — plateauing
@@ -787,3 +790,5 @@ _(empty)_
 <!-- 2026-10-23 status-update directive: 🚀 | AI as a Thought Partner -->
 
 <!-- 2026-10-24 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
+
+<!-- 2026-10-25 status-update directive: 🚀 | AI-Automated Controlled Substance Compliance for Veterinarians -->
