@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-25
+- **Regulatory Threshold Shifts are Powerful "Why Now" Drivers:** The reduction of a compliance threshold (e.g., EPA 608 from 50 lbs to 15 lbs) can dramatically expand a market and create an acute "why now" even without entirely new regulations, by bringing a previously unaddressed segment under direct scrutiny.
+- **Compliance Pain is Multi-faceted:** Beyond direct fines, compliance pain includes operational inefficiencies (e.g., dispatchers hunting for certifications), financial losses from lost product ("lost 400 lbs of R22"), and even reputational damage or accusations (e.g., "stealing refrigerant") due to poor record-keeping.
+- **"Audit-Ready" is a Core Value Prop for Small Businesses:** For SMBs in regulated industries, the ability to generate a comprehensive, unalterable, one-click audit report is a high-value feature, as it directly mitigates severe financial and legal risks with minimal administrative burden.
+
 ## 2026-10-24 (trends)
 - **AI as a "Cognitive Offloader":** Across personal productivity, content creation, and even design, AI is increasingly being used to reduce the mental load of planning, organizing, and executing complex, multi-step workflows. This shifts the user's role from active management to high-level direction and oversight.
 - **The "Strategic Automation" Opportunity:** The most compelling AI applications are moving beyond automating discrete tasks to automating entire strategic processes (e.g., content strategy, product launch blueprint). This creates opportunities for digital products that provide the frameworks and guidance for leveraging AI in these higher-level functions.

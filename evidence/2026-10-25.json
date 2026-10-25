@@ -1,0 +1,3039 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-25.md"
+  },
+  "createdAt": "2026-10-25T09:31:21.531Z",
+  "updatedAt": "2026-10-25T09:31:21.532Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-25.md",
+    "title": "The Independent HVAC Contractor's \"EPA-Proof\" Refrigerant Tracking & 608 Log",
+    "score": 96,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-25:hvac-refrigerant-tracking-software",
+      "slug": "hvac-refrigerant-tracking-software",
+      "title": "The Independent HVAC Contractor's \"EPA-Proof\" Refrigerant Tracking & 608 Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The regulatory context (EPA Section 608, AIM Act) and NAICS codes explicitly refer to the U.S. market."
+      },
+      "plan": {
+        "slug": "hvac-refrigerant-tracking-software",
+        "title": "The Independent HVAC Contractor's \"EPA-Proof\" Refrigerant Tracking & 608 Log",
+        "problem": "Independent HVAC contractors face significant financial penalties and reputational damage due to complex, high-stakes requirements for maintaining precise, auditable records for refrigerant handling to comply with EPA Section 608 and the AIM Act.",
+        "targetCustomer": "Owners or operations managers of small to mid-sized independent HVAC installation and service companies (NAICS 238220) responsible for commercial and industrial refrigeration and air-conditioning systems.",
+        "payer": "The owner or operations manager of an independent HVAC contractor.",
+        "whyPayerPays": "The payer spends money to avoid substantial financial penalties for non-compliance and mitigate reputational damage.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The regulatory context (EPA Section 608, AIM Act) and NAICS codes explicitly refer to the U.S. market."
+        },
+        "keywords": {
+          "problem": [
+            "epa 608 compliance requirements",
+            "hvac refrigerant tracking rules",
+            "epa refrigerant violation penalties"
+          ],
+          "solution": [
+            "refrigerant software",
+            "epa 608 compliance software",
+            "hvac record keeping software"
+          ],
+          "buying": [
+            "refrigerant software pricing",
+            "best hvac compliance tools",
+            "refrigerant tracking system cost"
+          ]
+        },
+        "serpQueries": [
+          "refrigerant software",
+          "epa refrigerant violation penalties"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "epa 608 compliance requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "hvac refrigerant tracking rules",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "epa refrigerant violation penalties",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "refrigerant software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.64,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-09-17 05:56:48 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "epa 608 compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "hvac record keeping software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "refrigerant software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best hvac compliance tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "refrigerant tracking system cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "refrigerant software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:28.417Z",
+          "checkUrl": "https://www.google.com/search?q=refrigerant%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 1,
+              "domain": "servicechannel.com",
+              "url": "https://servicechannel.com/blog/achieve-epa-compliance-refrigerant-tracking-software/",
+              "title": "Achieve EPA Compliance with Refrigerant Tracking",
+              "description": "Jan 4, 2024 — Channel's Refrigerant Tracking Manager reduces regulatory risk by automating the scheduling of maintenance, repairs and follow-up verification",
+              "id": "S1.1",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "oxmaint.com",
+              "url": "https://oxmaint.com/industries/hvac/hvac-refrigerant-tracking-management-digital-system",
+              "title": "HVAC Refrigerant Tracking and Management: Digital System",
+              "description": "Mar 12, 2026 — Discover how digital HVAC refrigerant tracking and management systems ensure complete regulatory compliance. Learn how automated tracking, ...",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "gitnux.org",
+              "url": "https://gitnux.org/best/refrigerant-compliance-management-software/",
+              "title": "Best Refrigerant Compliance Management Software (2026)",
+              "description": "Feb 11, 2026 — Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting across unlimited users and sites.",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.danfoss.com",
+              "url": "https://www.danfoss.com/en-us/service-and-support/downloads/dcs/ref-tools/",
+              "title": "Ref Tools (previously Refrigerant Slider)",
+              "description": "Refrigeration support and tools - Ref Tools is a free, all-in-one, powerful app with essential tools for air conditioning and refrigeration technicians.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "buyersguide.ohsonline.com",
+              "url": "https://buyersguide.ohsonline.com/category/software/software-refrigerant-regulations-compliance",
+              "title": "Software - Refrigerant Regulations/Compliance",
+              "description": "Software - Refrigerant Regulations/Compliance. Compare and research Refrigerant Regulation Software companies and businesses online. Showing 10 of 24 results. Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.axiomcloud.ai",
+              "url": "https://www.axiomcloud.ai/post/refrigeration-management-optimizing-energy-efficiency-and-reducing-costs",
+              "title": "Refrigerant Management Software: Optimize Energy & ...",
+              "description": "Apr 11, 2023 — Refrigerant management software cuts costs when refrigeration drives 70% of facility energy use. See how AI optimization reduces energy ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/401492793685661/posts/2390213814813539/",
+              "title": "Anyone have a recommendation for a good, basic app ...",
+              "description": "Anyone have a recommendation for a good, basic app for logging refrigerant?",
+              "id": "S1.8",
+              "class": "discussion"
+            },
+            {
+              "rank": 9,
+              "domain": "www.coolingpost.com",
+              "url": "https://www.coolingpost.com/products/refrigerant-management-software-now-available-for-free/",
+              "title": "Refrigerant management software now available for free",
+              "description": "Jan 15, 2020 — The software is an enterprise-scale system to track refrigerant usage, leak inspections, and leak events, as well as provide compliance ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.servicetitan.com",
+              "url": "https://www.servicetitan.com/blog/best-refrigeration-design-software",
+              "title": "7 Best Refrigeration Design Software Solutions for 2026",
+              "description": "Jun 4, 2026 — 7 Best Refrigeration Design Software Solutions for 2026 · 1. ServiceTitan · 2. KeepRite · 3. Coolselector2 · 4. CoolTools · 5. CoilDesigner · 6. Read more",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "epa refrigerant violation penalties",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:37.674Z",
+          "checkUrl": "https://www.google.com/search?q=epa%20refrigerant%20violation%20penalties&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+              "title": "Homeowners and Consumers: Frequently Asked Questions",
+              "description": "Apr 1, 2026 — Under Section 608 of the Clean Air Act, EPA prohibits individuals from knowingly venting refrigerants containing ozone-depleting refrigerants ( ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/HVAC/comments/1goo609/i_want_to_get_into_hvac_the_fines_the_epa_give/",
+              "title": "I want to get into HVAC, the fines the EPA give kind of ...",
+              "description": "When I researched EPA 608 certifications, I saw you can get a fat fine for releasing refrigerant, not record keeping properly, etc. I'm ... Read more",
+              "id": "S2.3",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "augustmack.com",
+              "url": "https://augustmack.com/2024/07/16/common-violations-of-the-clean-air-act/",
+              "title": "Common Violations of The Clean Air Act",
+              "description": "Jul 16, 2024 — Recent enforcement statistics from the Environmental Protection Agency (EPA) show that enforcement penalties have increased approximately 7% ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "quizlet.com",
+              "url": "https://quizlet.com/study-guides/epa-refrigerant-venting-violations-key-regulations-and-exceptions-f62364f4-3d6c-436e-a6b7-dec01ca27555",
+              "title": "EPA Refrigerant Venting Violations: Key Regulations and ...",
+              "description": "Oct 8, 2025 — Consequences of Violations. Violating the EPA prohibition can lead to legal repercussions, including fines and mandatory training for personnel. Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "hazchem.com",
+              "url": "https://hazchem.com/epa-penalties/",
+              "title": "EPA PENALTIES",
+              "description": "The maximum civil penalty for violations of the Clean Air Act is $93,750. The maximum penalties under the Clean Water Act is $51,570. In addition, the maximum ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.lion.com",
+              "url": "https://www.lion.com/lion-news/december-2024/epa-to-revise-40-cfr,-clarify-penalty-dollar-amounts",
+              "title": "EPA Revises 40 CFR to Clarify Penalty Amounts",
+              "description": "Dec 2, 2024 — In reality, EPCRA penalties assessed after December 27, 2023, can be as high as $69,733 per day, per violation. EPA Revises 40 CFR to Clarify ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/section608/recordkeeping-and-reporting-requirements-stationary-refrigeration",
+              "title": "Recordkeeping and Reporting Requirements for Stationary ...",
+              "description": "Owners or operators must submit a report to EPA for any appliance containing 50 or more pounds of ozone-depleting refrigerant that leaks 125 percent or more of ... Read more",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "www.environmentalsafetyupdate.com",
+              "url": "https://www.environmentalsafetyupdate.com/2016/07/maximum-civil-penalties-significantly-higher-after-inflation-adjustment/",
+              "title": "Maximum Civil Penalties for Violations of Environmental ...",
+              "description": "Jul 6, 2016 — Readers familiar with EPA's penalty structure know that statutory penalties of $25,000 per day per violation were previously adjusted for ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.hvac-talk.com",
+              "url": "https://www.hvac-talk.com/threads/has-the-epa-ever-taken-any-action.97978/",
+              "title": "Has the EPA ever taken any action",
+              "description": "Feb 21, 2006 — EPA assessed a $177,156 penalty for the violations that apply to Grainger's business headquartered in Lake Forest, Illinois. May 2, 2005: EPA ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "servicechannel.com",
+          "url": "https://servicechannel.com/blog/achieve-epa-compliance-refrigerant-tracking-software/",
+          "finalUrl": "https://servicechannel.com/blog/achieve-epa-compliance-refrigerant-tracking-software/",
+          "retrievedAt": "2026-10-25T09:32:16.744Z",
+          "status": 200,
+          "error": null,
+          "title": "Achieve EPA Compliance with Refrigerant Tracking | ServiceChannel",
+          "description": "EPA refrigerant regulations require that businesses apply strict procedures and processes around the use, management and disposal of refrigerant compounds. Find out how to get compliant and protect the environment by reducing leakage.",
+          "priceMentions": [
+            {
+              "text": "$37,500",
+              "billingUnit": false,
+              "context": "ror-prone, but can also increase exposure to fines totaling $37,500 a day if they fail to meet the regulatory compliance guidel"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "servicechannel.com",
+          "url": "https://servicechannel.com/pricing",
+          "finalUrl": "https://servicechannel.com/pricing",
+          "retrievedAt": "2026-10-25T09:32:16.746Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "oxmaint.com",
+          "url": "https://oxmaint.com/industries/hvac/hvac-refrigerant-tracking-management-digital-system",
+          "finalUrl": "https://oxmaint.com/industries/hvac/hvac-refrigerant-tracking-management-digital-system",
+          "retrievedAt": "2026-10-25T09:32:16.747Z",
+          "status": 200,
+          "error": null,
+          "title": "HVAC Refrigerant Tracking and Management: Digital System for Complete Compliance",
+          "description": "Discover how digital HVAC refrigerant tracking and management systems ensure complete regulatory compliance. Learn how automated tracking, leak monitoring, and reporting tools help facility managers maintain accurate refrigerant records and improve HVAC m",
+          "priceMentions": [
+            {
+              "text": "$44,539",
+              "billingUnit": false,
+              "context": "f refrigerant history. One missing log entry could cost you $44,539 per day in federal penalties. But what if compliance wasn't"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "oxmaint.com",
+          "url": "https://oxmaint.com/pricing",
+          "finalUrl": "https://oxmaint.com/pricing",
+          "retrievedAt": "2026-10-25T09:32:16.748Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing Plans & Free Trial | Oxmaint CMMS Software",
+          "description": "We offer great prices, premium and quality products for your business. Enjoy a free forever plan and experience the full service. No credit card required.",
+          "priceMentions": [
+            {
+              "text": "$19",
+              "billingUnit": false,
+              "context": "Community Pro All modules, no AI — ideal for growing teams $19 user/month Billed Monthly $190 user/year Billed annually Tr"
+            },
+            {
+              "text": "$190",
+              "billingUnit": false,
+              "context": "AI — ideal for growing teams $19 user/month Billed Monthly $190 user/year Billed annually Try Free Unlimited team members -"
+            },
+            {
+              "text": "$49",
+              "billingUnit": false,
+              "context": "Agentic Most Popular All modules + AI Agents for automation $49 user/month Billed Monthly $490 user/year Billed annually Tr"
+            },
+            {
+              "text": "$490",
+              "billingUnit": false,
+              "context": "es + AI Agents for automation $49 user/month Billed Monthly $490 user/year Billed annually Try Free AI Agents Included Every"
+            },
+            {
+              "text": "$98/user",
+              "billingUnit": true,
+              "context": "e — no penalty. Save More Yearly Annual billing saves up to $98/user/yr. A 10-person team saves $980. AI-Powered Automation Agen"
+            },
+            {
+              "text": "$980",
+              "billingUnit": false,
+              "context": "ual billing saves up to $98/user/yr. A 10-person team saves $980. AI-Powered Automation Agentic & Enterprise include AI agen"
+            },
+            {
+              "text": "$190/yr",
+              "billingUnit": true,
+              "context": "aily back-ups. How much do I save with yearly billing? Pro: $190/yr vs $228 monthly — save $38/user. Agentic: $490/yr vs $588 —"
+            },
+            {
+              "text": "$228",
+              "billingUnit": false,
+              "context": "ps. How much do I save with yearly billing? Pro: $190/yr vs $228 monthly — save $38/user. Agentic: $490/yr vs $588 — save $9"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "gitnux.org",
+          "url": "https://gitnux.org/best/refrigerant-compliance-management-software/",
+          "finalUrl": "https://gitnux.org/best/refrigerant-compliance-management-software/",
+          "retrievedAt": "2026-10-25T09:32:16.749Z",
+          "status": 200,
+          "error": null,
+          "title": "Best Refrigerant Compliance Management Software (2026)",
+          "description": "Atrium is the best fit when compliance teams need configurable refrigerant workflows with tight audit-trail control across facilities.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "gitnux.org",
+          "url": "https://gitnux.org/pricing",
+          "finalUrl": "https://gitnux.org/pricing/",
+          "retrievedAt": "2026-10-25T09:32:16.749Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 9,
+          "top": {
+            "keyword": "refrigerant software",
+            "searchVolume": 10,
+            "id": "K4"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"refrigerant software\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "servicechannel.com",
+            "oxmaint.com",
+            "gitnux.org",
+            "danfoss.com",
+            "augustmack.com",
+            "buyersguide.ohsonline.com",
+            "quizlet.com",
+            "axiomcloud.ai",
+            "hazchem.com",
+            "lion.com",
+            "coolingpost.com",
+            "servicetitan.com",
+            "environmentalsafetyupdate.com",
+            "hvac-talk.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "facebook.com"
+          ],
+          "pricedDomains": [
+            "oxmaint.com"
+          ],
+          "note": "14 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on oxmaint.com. Judged for relevance: 2 domain(s) with a direct competitor (same problem) (oxmaint.com, gitnux.org), 3 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "oxmaint.com",
+            "gitnux.org"
+          ],
+          "indirectAlternativeDomains": [
+            "servicechannel.com",
+            "axiomcloud.ai",
+            "facebook.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "536275456968244a",
+      "evidenceUpdatedAt": "2026-10-25T09:32:19.817Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-10-25T09:37:48.333Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-25T09:32:19.817Z",
+        "qualifiers": [
+          "independent HVAC installation and service company",
+          "commercial and industrial refrigeration and air-conditioning systems"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific compliance problem."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific problem related to refrigerant tracking rules."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific problem of financial penalties."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific compliance solution."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type for HVAC record keeping."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes pricing for the idea's specific solution type."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes tools for the idea's specific compliance problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the cost for the idea's specific tracking system."
+          }
+        },
+        "items": {
+          "S1.1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about refrigerant tracking software for businesses to reduce regulatory risk, which is a broader customer and problem than the idea's specific HVAC contractors and EPA 608 compliance."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is about refrigerant compliance software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is about a free app for air conditioning and refrigeration technicians for general support, which is a different customer and problem than the idea's compliance focus for HVAC business owners."
+          },
+          "S1.6": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item lists software for refrigerant regulations/compliance, which matches the problem, but the target customer is unclear."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about refrigerant management software for optimizing energy use in facilities, which is a broader problem and customer than the idea's specific compliance issue for HVAC contractors."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is a Facebook post asking for a basic app for logging refrigerant, which is a broader problem and customer than the idea's specific compliance focus for HVAC business owners."
+          },
+          "S1.9": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item is about enterprise-scale software to track refrigerant usage and provide compliance, which matches the problem, but the customer is unclear and potentially larger than the idea's target."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is about refrigeration design software, which is a different problem and customer than the idea's compliance tracking for HVAC contractors."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is an EPA FAQ for homeowners and consumers about refrigerant venting prohibitions, which is a broader customer than the idea's HVAC contractors, though it discusses the core problem context."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a Reddit discussion from someone getting into HVAC about EPA 608 fines and record-keeping, which matches the problem but is a broader customer (individual technician vs. business owner)."
+          },
+          "S2.5": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item discusses common violations of the Clean Air Act and EPA enforcement, which is a broader problem than the idea's specific refrigerant compliance."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a Quizlet study guide about EPA refrigerant venting violations and consequences, which matches the problem but is for broader personnel (e.g., students, technicians)."
+          },
+          "S2.7": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item provides general information on maximum civil penalties for Clean Air Act and Clean Water Act violations, which is a broader problem than the idea's specific refrigerant compliance."
+          },
+          "S2.8": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item discusses EPA revisions to penalty amounts, including EPCRA, which is a broader problem than the idea's specific refrigerant compliance."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is EPA guidance on recordkeeping and reporting for stationary refrigeration, which matches the problem but is for a broader group of owners/operators."
+          },
+          "S2.10": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item discusses general maximum civil penalties for environmental violations, which is a broader problem than the idea's specific refrigerant compliance."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a forum discussion mentioning a large penalty assessed by the EPA for violations, which matches the problem but is for a much larger business than the idea's target."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The page is about achieving EPA compliance with refrigerant tracking for businesses, which is a broader customer than the idea's specific HVAC contractors, though the problem is similar."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The page is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "The page is a pricing page for CMMS software, which is an offering, but the customer and problem are unclear in relation to the idea."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The page is about refrigerant compliance management software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-25:hvac-refrigerant-tracking-software",
+        "opportunity": "A standalone software-as-a-service (SaaS) tool for small to mid-sized independent HVAC installation and service companies that automates meticulous record-keeping for refrigerant purchases, use, recovery, and disposal. This addresses the significant financial penalties and reputational damage faced by contractors due to complex EPA Section 608 and AIM Act compliance requirements.",
+        "whoPays": "The owner or operations manager of an independent HVAC contractor pays to avoid substantial financial penalties for non-compliance and mitigate reputational damage. (inference)",
+        "problemEvidence": {
+          "level": "strong",
+          "basis": [
+            {
+              "id": "S2.3",
+              "quote": "you can get a fat fine for releasing refrigerant, not record keeping properly, etc."
+            },
+            {
+              "id": "P3",
+              "quote": "One missing log entry could cost you $44,539 per day in federal penalties."
+            },
+            {
+              "id": "S1.3",
+              "quote": "digital HVAC refrigerant tracking and management systems ensure complete regulatory compliance."
+            },
+            {
+              "id": "S1.4",
+              "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Owners or operators must submit a report to EPA for any appliance containing 50 or more pounds"
+            }
+          ],
+          "observed": "There is a clear regulatory requirement for precise record-keeping for refrigerant handling, specifically related to EPA Section 608 and the AIM Act. Failure to comply, including improper record-keeping, can lead to substantial financial penalties, with one missing log entry potentially costing $44,539 per day in federal penalties. Discussions and official guidance highlight the need for compliance and reporting.",
+          "inference": "The complexity and high stakes of these regulations create a significant pain point for HVAC contractors, driving a need for automated and auditable record-keeping solutions."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "HVAC Refrigerant Tracking and Management: Digital System"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting"
+            },
+            {
+              "id": "S1.1",
+              "quote": "Achieve EPA Compliance with Refrigerant Tracking"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Anyone have a recommendation for a good, basic app for logging refrigerant?"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Oxmaint",
+              "type": "direct",
+              "what": "Offers digital HVAC refrigerant tracking and management systems that ensure complete regulatory compliance, including automated tracking, leak monitoring, and reporting tools.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "HVAC Refrigerant Tracking and Management: Digital System"
+                },
+                {
+                  "id": "P3",
+                  "quote": "automated tracking, leak monitoring, and reporting tools help facility managers maintain accurate refrigerant records"
+                }
+              ]
+            },
+            {
+              "name": "Atrium (listed by Gitnux)",
+              "type": "direct",
+              "what": "Provides refrigerant tracking and compliance software supporting EPA 608 and AIM Act reporting, with configurable workflows and tight audit-trail control across facilities.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting"
+                },
+                {
+                  "id": "P5",
+                  "quote": "compliance teams need configurable refrigerant workflows with tight audit-trail control across facilities."
+                }
+              ]
+            },
+            {
+              "name": "ServiceChannel",
+              "type": "indirect",
+              "what": "Offers a Refrigerant Tracking Manager that reduces regulatory risk by automating the scheduling of maintenance, repairs, and follow-up verification to achieve EPA compliance.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Achieve EPA Compliance with Refrigerant Tracking"
+                },
+                {
+                  "id": "S1.1",
+                  "quote": "Channel's Refrigerant Tracking Manager reduces regulatory risk by automating the scheduling of maintenance, repairs and follow-up verification"
+                }
+              ]
+            },
+            {
+              "name": "Basic apps/manual logging",
+              "type": "indirect",
+              "what": "Users are seeking basic applications for logging refrigerant, suggesting simpler or less comprehensive solutions are also considered.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Anyone have a recommendation for a good, basic app for logging refrigerant?"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Oxmaint offers a free trial, automated tracking, leak monitoring, and reporting tools.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "automated tracking, leak monitoring, and reporting tools help facility managers maintain accurate refrigerant records"
+                },
+                {
+                  "id": "P3",
+                  "quote": "free trial"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Atrium (listed by Gitnux) provides configurable refrigerant workflows with tight audit-trail control.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "configurable refrigerant workflows with tight audit-trail control across facilities."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "ServiceChannel automates maintenance scheduling and follow-up verification to reduce regulatory risk.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "automating the scheduling of maintenance, repairs and follow-up verification"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing direct competitors and indirect alternatives appear to target broader audiences like facility managers or compliance teams across facilities, potentially overlooking the specific needs or budget constraints of small to mid-sized independent HVAC contractors.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "There is an expressed need for a 'good, basic app for logging refrigerant,' suggesting current solutions might be overly complex or expensive for some users.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Anyone have a recommendation for a good, basic app for logging refrigerant?"
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The pain is the non-negotiable, complex, and high-stakes requirement of maintaining precise, auditable records for refrigerant handling to comply with EPA Section 608 and the AIM Act. Failure to do so incurs substantial financial penalties.",
+            "finding": "Evidence strongly supports the high stakes and financial penalties associated with non-compliance and improper record-keeping for EPA Section 608 and AIM Act regulations.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "you can get a fat fine for releasing refrigerant, not record keeping properly, etc."
+              },
+              {
+                "id": "P3",
+                "quote": "One missing log entry could cost you $44,539 per day in federal penalties."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Money and effort are actively flowing to mitigate this risk, primarily through specialized software.",
+            "finding": "The existence of direct and indirect competitor software solutions confirms that money and effort are flowing towards mitigating this risk through specialized software.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "HVAC Refrigerant Tracking and Management: Digital System"
+              },
+              {
+                "id": "S1.4",
+                "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "\"HVAC refrigerant tracking software\" Search Intent: Search terms like \"HVAC refrigerant tracking software\" and \"EPA 608 compliance software\" indicate clear commercial intent.",
+            "finding": "While 'refrigerant software' has a low search volume (10/month), other directly relevant keywords like 'hvac refrigerant tracking rules' and 'epa 608 compliance software' have no measured search volume, suggesting lower measured search intent than implied by the original memo.",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "refrigerant software"
+              },
+              {
+                "id": "K5",
+                "quote": "epa 608 compliance software"
+              },
+              {
+                "id": "K6",
+                "quote": "hvac record keeping software"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a minimum viable product (MVP) for basic refrigerant tracking and 608 log functionality is moderately feasible, given the regulatory complexity but focused scope."
+        },
+        "unproven": [
+          "The specific willingness to pay for a tailored solution among small to mid-sized independent HVAC contractors, as existing solutions target broader audiences.",
+          "The exact features most critical to this specific customer segment for an 'EPA-Proof' log.",
+          "The actual severity of 'reputational damage' as a primary driver for payment for this specific customer segment.",
+          "The total addressable market size of small to mid-sized independent HVAC contractors facing this problem."
+        ],
+        "nextExperiment": {
+          "what": "Conduct problem interviews with 10-15 owners or operations managers of small to mid-sized independent HVAC contractors to understand their current record-keeping processes, specific pain points with compliance, and reactions to existing software solutions.",
+          "cost": "Approximately $0 (time only)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 70% of interviewed contractors express significant frustration with current record-keeping methods or existing software, and indicate a clear need for a more tailored, simpler, or more affordable solution.",
+        "stopIf": "Most interviewed contractors report that their current manual methods or existing software solutions (including broader CMMS) are sufficient, affordable, and meet their compliance needs without significant pain."
+      },
+      "assessment": {
+        "opportunity": "A standalone software-as-a-service (SaaS) tool for small to mid-sized independent HVAC installation and service companies that automates meticulous record-keeping for refrigerant purchases, use, recovery, and disposal. This addresses the significant financial penalties and reputational damage faced by contractors due to complex EPA Section 608 and AIM Act compliance requirements.",
+        "whoPays": "The owner or operations manager of an independent HVAC contractor pays to avoid substantial financial penalties for non-compliance and mitigate reputational damage. (inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.3",
+              "quote": "you can get a fat fine for releasing refrigerant, not record keeping properly, etc.",
+              "domain": "reddit.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "The item is a Reddit discussion from someone getting into HVAC about EPA 608 fines and record-keeping, which matches the problem but is a broader customer (individual technician vs. business owner)."
+            },
+            {
+              "id": "P3",
+              "quote": "One missing log entry could cost you $44,539 per day in federal penalties.",
+              "domain": "oxmaint.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "category",
+              "relevanceReason": "The page is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+            },
+            {
+              "id": "S1.3",
+              "quote": "digital HVAC refrigerant tracking and management systems ensure complete regulatory compliance.",
+              "domain": "oxmaint.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+            },
+            {
+              "id": "S1.4",
+              "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting",
+              "domain": "gitnux.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item is about refrigerant compliance software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+            },
+            {
+              "id": "S2.9",
+              "quote": "Owners or operators must submit a report to EPA for any appliance containing 50 or more pounds",
+              "domain": "epa.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "The item is EPA guidance on recordkeeping and reporting for stationary refrigeration, which matches the problem but is for a broader group of owners/operators."
+            }
+          ],
+          "observed": "There is a clear regulatory requirement for precise record-keeping for refrigerant handling, specifically related to EPA Section 608 and the AIM Act. Failure to comply, including improper record-keeping, can lead to substantial financial penalties, with one missing log entry potentially costing $44,539 per day in federal penalties. Discussions and official guidance highlight the need for compliance and reporting.",
+          "inference": "The complexity and high stakes of these regulations create a significant pain point for HVAC contractors, driving a need for automated and auditable record-keeping solutions."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "HVAC Refrigerant Tracking and Management: Digital System",
+              "domain": "oxmaint.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+            },
+            {
+              "id": "S1.4",
+              "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting",
+              "domain": "gitnux.org",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item is about refrigerant compliance software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+            },
+            {
+              "id": "S1.1",
+              "quote": "Achieve EPA Compliance with Refrigerant Tracking",
+              "domain": "servicechannel.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about refrigerant tracking software for businesses to reduce regulatory risk, which is a broader customer and problem than the idea's specific HVAC contractors and EPA 608 compliance."
+            },
+            {
+              "id": "S1.8",
+              "quote": "Anyone have a recommendation for a good, basic app for logging refrigerant?",
+              "domain": "facebook.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is a Facebook post asking for a basic app for logging refrigerant, which is a broader problem and customer than the idea's specific compliance focus for HVAC business owners."
+            }
+          ],
+          "directCompetitors": [
+            "oxmaint.com",
+            "gitnux.org"
+          ],
+          "indirectAlternatives": [
+            "servicechannel.com",
+            "facebook.com"
+          ],
+          "alternatives": [
+            {
+              "name": "Oxmaint",
+              "type": "direct",
+              "what": "Offers digital HVAC refrigerant tracking and management systems that ensure complete regulatory compliance, including automated tracking, leak monitoring, and reporting tools.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "HVAC Refrigerant Tracking and Management: Digital System",
+                  "domain": "oxmaint.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+                },
+                {
+                  "id": "P3",
+                  "quote": "automated tracking, leak monitoring, and reporting tools help facility managers maintain accurate refrigerant records",
+                  "domain": "oxmaint.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The page is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "Atrium (listed by Gitnux)",
+              "type": "direct",
+              "what": "Provides refrigerant tracking and compliance software supporting EPA 608 and AIM Act reporting, with configurable workflows and tight audit-trail control across facilities.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting",
+                  "domain": "gitnux.org",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item is about refrigerant compliance software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+                },
+                {
+                  "id": "P5",
+                  "quote": "compliance teams need configurable refrigerant workflows with tight audit-trail control across facilities.",
+                  "domain": "gitnux.org",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The page is about refrigerant compliance management software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+                }
+              ]
+            },
+            {
+              "name": "ServiceChannel",
+              "type": "indirect",
+              "what": "Offers a Refrigerant Tracking Manager that reduces regulatory risk by automating the scheduling of maintenance, repairs, and follow-up verification to achieve EPA compliance.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "Achieve EPA Compliance with Refrigerant Tracking",
+                  "domain": "servicechannel.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about refrigerant tracking software for businesses to reduce regulatory risk, which is a broader customer and problem than the idea's specific HVAC contractors and EPA 608 compliance."
+                }
+              ]
+            },
+            {
+              "name": "Basic apps/manual logging",
+              "type": "indirect",
+              "what": "Users are seeking basic applications for logging refrigerant, suggesting simpler or less comprehensive solutions are also considered.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Anyone have a recommendation for a good, basic app for logging refrigerant?",
+                  "domain": "facebook.com",
+                  "kind": "S",
+                  "cls": "discussion",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is a Facebook post asking for a basic app for logging refrigerant, which is a broader problem and customer than the idea's specific compliance focus for HVAC business owners."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Oxmaint offers a free trial, automated tracking, leak monitoring, and reporting tools.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "automated tracking, leak monitoring, and reporting tools help facility managers maintain accurate refrigerant records",
+                  "domain": "oxmaint.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "The page is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Atrium (listed by Gitnux) provides configurable refrigerant workflows with tight audit-trail control.",
+              "basis": [
+                {
+                  "id": "P5",
+                  "quote": "configurable refrigerant workflows with tight audit-trail control across facilities.",
+                  "domain": "gitnux.org",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "category",
+                  "relevanceReason": "The page is about refrigerant compliance management software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "ServiceChannel automates maintenance scheduling and follow-up verification to reduce regulatory risk.",
+              "basis": [
+                {
+                  "id": "S1.1",
+                  "quote": "automating the scheduling of maintenance, repairs and follow-up verification",
+                  "domain": "servicechannel.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item is about refrigerant tracking software for businesses to reduce regulatory risk, which is a broader customer and problem than the idea's specific HVAC contractors and EPA 608 compliance."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "Existing direct competitors and indirect alternatives appear to target broader audiences like facility managers or compliance teams across facilities, potentially overlooking the specific needs or budget constraints of small to mid-sized independent HVAC contractors.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "There is an expressed need for a 'good, basic app for logging refrigerant,' suggesting current solutions might be overly complex or expensive for some users.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "Anyone have a recommendation for a good, basic app for logging refrigerant?",
+                  "domain": "facebook.com",
+                  "kind": "S",
+                  "cls": "discussion",
+                  "relevance": "broader",
+                  "relevanceReason": "The item is a Facebook post asking for a basic app for logging refrigerant, which is a broader problem and customer than the idea's specific compliance focus for HVAC business owners."
+                }
+              ],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "The pain is the non-negotiable, complex, and high-stakes requirement of maintaining precise, auditable records for refrigerant handling to comply with EPA Section 608 and the AIM Act. Failure to do so incurs substantial financial penalties.",
+            "finding": "Evidence strongly supports the high stakes and financial penalties associated with non-compliance and improper record-keeping for EPA Section 608 and AIM Act regulations.",
+            "basis": [
+              {
+                "id": "S2.3",
+                "quote": "you can get a fat fine for releasing refrigerant, not record keeping properly, etc.",
+                "domain": "reddit.com",
+                "kind": "S",
+                "cls": "discussion",
+                "relevance": "category",
+                "relevanceReason": "The item is a Reddit discussion from someone getting into HVAC about EPA 608 fines and record-keeping, which matches the problem but is a broader customer (individual technician vs. business owner)."
+              },
+              {
+                "id": "P3",
+                "quote": "One missing log entry could cost you $44,539 per day in federal penalties.",
+                "domain": "oxmaint.com",
+                "kind": "P",
+                "cls": "page",
+                "relevance": "category",
+                "relevanceReason": "The page is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Money and effort are actively flowing to mitigate this risk, primarily through specialized software.",
+            "finding": "The existence of direct and indirect competitor software solutions confirms that money and effort are flowing towards mitigating this risk through specialized software.",
+            "basis": [
+              {
+                "id": "S1.3",
+                "quote": "HVAC Refrigerant Tracking and Management: Digital System",
+                "domain": "oxmaint.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "The item is about digital HVAC refrigerant tracking for regulatory compliance, which matches the problem but targets facility managers, a broader customer."
+              },
+              {
+                "id": "S1.4",
+                "quote": "Refrigerant tracking and compliance software supporting EPA 608, CARB, F-Gas, and AIM Act reporting",
+                "domain": "gitnux.org",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "The item is about refrigerant compliance software supporting EPA 608 and AIM Act reporting, which matches the problem, but targets compliance teams across facilities, a broader customer."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "\"HVAC refrigerant tracking software\" Search Intent: Search terms like \"HVAC refrigerant tracking software\" and \"EPA 608 compliance software\" indicate clear commercial intent.",
+            "finding": "[removed: a statement about search demand that the collected evidence does not show]",
+            "basis": [
+              {
+                "id": "K4",
+                "quote": "refrigerant software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+              },
+              {
+                "id": "K5",
+                "quote": "epa 608 compliance software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "People searching this plausibly include the target customer, and the search describes the idea's specific compliance solution."
+              },
+              {
+                "id": "K6",
+                "quote": "hvac record keeping software",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type for HVAC record keeping."
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a minimum viable product (MVP) for basic refrigerant tracking and 608 log functionality is moderately feasible, given the regulatory complexity but focused scope."
+        },
+        "unproven": [
+          "The specific willingness to pay for a tailored solution among small to mid-sized independent HVAC contractors, as existing solutions target broader audiences.",
+          "The exact features most critical to this specific customer segment for an 'EPA-Proof' log.",
+          "The actual severity of 'reputational damage' as a primary driver for payment for this specific customer segment.",
+          "The total addressable market size of small to mid-sized independent HVAC contractors facing this problem."
+        ],
+        "nextExperiment": {
+          "what": "Conduct problem interviews with 10-15 owners or operations managers of small to mid-sized independent HVAC contractors to understand their current record-keeping processes, specific pain points with compliance, and reactions to existing software solutions.",
+          "cost": "Approximately $0 (time only)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 70% of interviewed contractors express significant frustration with current record-keeping methods or existing software, and indicate a clear need for a more tailored, simpler, or more affordable solution.",
+        "stopIf": "Most interviewed contractors report that their current manual methods or existing software solutions (including broader CMMS) are sufficient, affordable, and meet their compliance needs without significant pain.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 1,
+          "removedSentences": [
+            "While 'refrigerant software' has a low search volume (10/month), other directly relevant keywords like 'hvac refrigerant tracking rules' and 'epa 608 compliance software' have no measured search volume, suggesting lower measured search intent than implied by the original memo."
+          ],
+          "rejectedCitations": [
+            {
+              "claim": "strength",
+              "id": "P3",
+              "reason": "quote not found in the cited item"
+            }
+          ],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence strong → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-25T09:38:59.853Z",
+        "evidenceUpdatedAt": "2026-10-25T09:32:19.817Z"
+      }
+    },
+    {
+      "id": "2026-10-25:equine-health-record-software",
+      "slug": "equine-health-record-software",
+      "title": "The Independent Equine Boarding Stable's \"Audit-Ready\" Animal Health & Treatment Log",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The NAICS codes and general context of equine boarding stables are broadly applicable to the U.S. market, and no other country is specified."
+      },
+      "plan": {
+        "slug": "equine-health-record-software",
+        "title": "The Independent Equine Boarding Stable's \"Audit-Ready\" Animal Health & Treatment Log",
+        "problem": "Independent equine boarding and training stables need precise, accessible, and unalterable documentation of each horse's care to manage liability risks, avoid disputes with owners, and improve operational efficiency, as manual systems are prone to errors.",
+        "targetCustomer": "Owners or barn managers of small to mid-sized independent equine boarding and training stables (NAICS 115210 or 713990).",
+        "payer": "The owner or barn manager of an independent equine boarding stable.",
+        "whyPayerPays": "The payer spends money to mitigate liability risks, prevent owner disputes, and enhance operational efficiency through reliable record-keeping.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The NAICS codes and general context of equine boarding stables are broadly applicable to the U.S. market, and no other country is specified."
+        },
+        "keywords": {
+          "problem": [
+            "horse care record keeping mistakes",
+            "equine liability risks",
+            "horse owner communication issues"
+          ],
+          "solution": [
+            "horse software",
+            "equine health record software",
+            "stable management app"
+          ],
+          "buying": [
+            "horse software pricing",
+            "best stable management tools",
+            "equine record keeping cost"
+          ]
+        },
+        "serpQueries": [
+          "horse software",
+          "horse care record keeping mistakes"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "horse care record keeping mistakes",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "equine liability risks",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "horse owner communication issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "horse software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 30,
+          "cpcUsd": null,
+          "adCompetition": 0.18,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "transactional",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-18 07:39:51 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (30 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "equine health record software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "stable management app",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": 7.86,
+          "adCompetition": 0.63,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-15 23:27:45 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (10 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "horse software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best stable management tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "equine record keeping cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:24.737Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "horse software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:46.221Z",
+          "checkUrl": "https://www.google.com/search?q=horse%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.getapp.ae",
+              "url": "https://www.getapp.ae/directory/963/horse/deployment-options/windows/software",
+              "title": "Horse Software for Windows - Prices & Reviews",
+              "description": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "thepegasus.app",
+              "url": "https://thepegasus.app/",
+              "title": "Pegasus OS - Horse show & event management software",
+              "description": "Open an account, connect your bank, publish your event, and start accepting entries. Built for any discipline, any size, anywhere in the world.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Equestrian/comments/1n9xplp/horse_show_software/",
+              "title": "Horse Show Software : r/Equestrian",
+              "description": "Horseshowsonline software. Horsespot is very easy to use imo mostly Hunter Jumper",
+              "id": "S1.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "sourceforge.net",
+              "url": "https://sourceforge.net/software/horse/europe/",
+              "title": "Best Horse Software in Europe of 2026",
+              "description": "Horse software is designed to help equine professionals manage the care, the table below. Price: $49 per month",
+              "id": "S1.5",
+              "class": "review_directory"
+            },
+            {
+              "rank": 6,
+              "domain": "www.filehorse.com",
+              "url": "https://www.filehorse.com/latest.php",
+              "title": "Latest Software Releases for Windows / FileHorse",
+              "description": "Discover the Latest Software Releases for Windows. Free Software for Desktop Video Recording and PC Live Streaming! Create beautiful interactive maps, charts ...",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.equicty.com",
+              "url": "https://www.equicty.com/",
+              "title": "Equicty - Innovative digital horse management solutions!",
+              "description": "The software for any type of equestrian business that will simplify your and your teams life! Reduce your administrative workload by more than 75% teams life!",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.equinebusinessmagazine.com",
+              "url": "https://www.equinebusinessmagazine.com/directory/equestrian-tech-software",
+              "title": "Equestrian Tech & Software Directory",
+              "description": "EQUESTRIAN TECH & SOFTWARE ; ELITEQUINE ; Hippik ; Horse Spot ; Horse Trade Market ; Howdi - The Barrel Racing App. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "equinem.com",
+              "url": "https://equinem.com/",
+              "title": "EquineM - Online stable management",
+              "description": "Our software helps you to oversee your horses and business and allows you to efficiently manage activities anytime, anywhere, via your mobile phone, tablet ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.getapp.com.au",
+              "url": "https://www.getapp.com.au/directory/963/horse/pricing/free/software",
+              "title": "Free Horse Software",
+              "description": "Run your barn from one platform: schedule, care, and bill. Cloud-based equine management software for scheduling, horse care records, automated billing, ... Read more",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "horse care record keeping mistakes",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-25T09:31:54.931Z",
+          "checkUrl": "https://www.google.com/search?q=horse%20care%20record%20keeping%20mistakes&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/kessockequinevets/videos/a-key-indicator-that-something-is-wrong-with-your-horse-is-a-change-in-your-hors/373052291165752/",
+              "title": "A key indicator that something is wrong with your horse ...",
+              "description": "A key indicator that something is wrong with your horse is a change in your horse's behaviour, alongside changes in their 'normal' health.",
+              "id": "S2.2",
+              "class": "discussion"
+            },
+            {
+              "rank": 3,
+              "domain": "bestfarrierapp.com",
+              "url": "https://bestfarrierapp.com/avoiding-liability-with-photos-and-records/",
+              "title": "Avoiding Liability With Photos And Records",
+              "description": "May 13, 2020 — Unless there is demonstrated negligence or deliberate harmful conduct, a farrier cannot be held liable. On the other hand, a farrier who uses ... Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.quora.com",
+              "url": "https://www.quora.com/What-are-common-mistakes-riders-make-that-lead-to-back-problems-in-horses-and-how-can-they-be-avoided",
+              "title": "What are common mistakes riders make that lead to back ...",
+              "description": "A few I can think of; · Not having a well fitted saddle. · Horse changing fitness or ageing and saddle fitting not adjusted to suit. · Rider too ... Read more",
+              "id": "S2.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "reiterwelt.eu",
+              "url": "https://reiterwelt.eu/blogs/our-latest-posts/what-are-some-common-horse-riding-mistakes?srsltid=AYCX9vIj_DkWRMYY3LaYi3gXC4zEdXYskZAMbIPu78ZOghgVuvmov_IV",
+              "title": "What are some common horse riding mistakes?",
+              "description": "Jan 16, 2025 — We'll look at mistakes like not understanding our horse's needs and poor riding posture. Spotting. Skill Development Poor technique Solid ...",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "forum.chronofhorse.com",
+              "url": "https://forum.chronofhorse.com/t/organizing-your-horses-information/811940",
+              "title": "Organizing your horses information - Chronicle Forums",
+              "description": "Feb 25, 2026 — I put all of my horse's records in a large 3 ring binder, divided by years. It's been helpful as I've had one of my horses for 13 years at this ... Read more",
+              "id": "S2.6",
+              "class": "discussion"
+            },
+            {
+              "rank": 7,
+              "domain": "practicalhorseman.com",
+              "url": "https://practicalhorseman.com/buyer-beware/",
+              "title": "Buyer Beware",
+              "description": "Jul 10, 2019 — The best course of action is to have your veterinarian talk directly with the horse's owner and to obtain the horse's complete medical records. Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "forum.chronofhorse.com",
+              "url": "https://forum.chronofhorse.com/t/mistakes-you-made-when-you-first-got-into-horses/774085?page=4",
+              "title": "Mistakes you made when you first got into horses - Page 4",
+              "description": "Jul 1, 2022 — Mistakes you made when you first got into horses ... Not knowing / understanding the importance of verifying a trainer's actual track record ... Read more",
+              "id": "S2.8",
+              "class": "discussion"
+            },
+            {
+              "rank": 9,
+              "domain": "equimanagement.com",
+              "url": "https://equimanagement.com/sponsored-content/business-briefs-preventing-malpractice-claims-in-equine-veterinary-medicine/",
+              "title": "Preventing Malpractice Claims in Equine Veterinary Medicine",
+              "description": "Mar 8, 2023 — Lawsuits concerning PPE claims often center around economic loss due to lameness of the horse that the veterinarian examined prior to purchase. Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "madbarn.com",
+              "url": "https://madbarn.com/research-topics/medical-records/?srsltid=AYCX9vLaOSOMEDyOYnTP8gHT5lHtQiXrPUe8F_m8PS-hkM6lWbQmiia2",
+              "title": "Medical Records and Horses - Equine Research Database",
+              "description": "Medical records in relation to horses are systematic documentation of a horse's medical history, treatments, and health-related events. Read more",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "getapp.ae",
+          "url": "https://www.getapp.ae/directory/963/horse/deployment-options/windows/software",
+          "finalUrl": "https://www.getapp.ae/directory/963/horse/deployment-options/windows/software",
+          "retrievedAt": "2026-10-25T09:32:17.379Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P2",
+          "domain": "getapp.ae",
+          "url": "https://www.getapp.ae/pricing",
+          "finalUrl": "https://www.getapp.ae/pricing",
+          "retrievedAt": "2026-10-25T09:32:17.380Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P3",
+          "domain": "thepegasus.app",
+          "url": "https://thepegasus.app/",
+          "finalUrl": "https://thepegasus.app/",
+          "retrievedAt": "2026-10-25T09:32:17.381Z",
+          "status": 200,
+          "error": null,
+          "title": "Pegasus OS - Horse show & event management software",
+          "description": "Open an account, connect your bank, publish your event, and start accepting entries. Built for any discipline, any size, anywhere in the world.",
+          "priceMentions": [
+            {
+              "text": "$18,420",
+              "billingUnit": false,
+              "context": "lass All classes · 312 rows Sheet Daily Financials Jun 14 · $18,420 Sheet Stall Assignments Barn A–D · 96 stalls PDF Reporting"
+            },
+            {
+              "text": "$120.00",
+              "billingUnit": false,
+              "context": "r 3&#x27;3 Horse: Lemon Drop Trainer: Tyler Jennings Unpaid $120.00 Cash 21 Jul, 2024 Edit 1 Horse 1 Participant Digital Paperw"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "thepegasus.app",
+          "url": "https://thepegasus.app/pricing",
+          "finalUrl": "https://thepegasus.app/pricing",
+          "retrievedAt": "2026-10-25T09:32:17.382Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing - Pegasus OS",
+          "description": "5% transaction fee. No subscriptions, no setup fees, no contracts. Only pay when your event makes money.",
+          "priceMentions": [
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "wsOnline Windows for Horses by Funnware Annual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only"
+            },
+            {
+              "text": "$1,800",
+              "billingUnit": false,
+              "context": "nline Windows for Horses by Funnware Annual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only Per-en"
+            },
+            {
+              "text": "$1,500",
+              "billingUnit": false,
+              "context": "ndows for Horses by Funnware Annual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only Per-entry fee"
+            },
+            {
+              "text": "$500",
+              "billingUnit": false,
+              "context": "ual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only Per-entry fee $0 $3–5 $4–6 $3–5 Support fee"
+            },
+            {
+              "text": "$3",
+              "billingUnit": false,
+              "context": "uote only Setup fee $0 $500+ $0 Quote only Per-entry fee $0 $3–5 $4–6 $3–5 Support fee $0 Tiered $0 Tiered Contract None A"
+            },
+            {
+              "text": "$4",
+              "billingUnit": false,
+              "context": "only Setup fee $0 $500+ $0 Quote only Per-entry fee $0 $3–5 $4–6 $3–5 Support fee $0 Tiered $0 Tiered Contract None Annual"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "bestfarrierapp.com",
+          "url": "https://bestfarrierapp.com/avoiding-liability-with-photos-and-records/",
+          "finalUrl": "https://bestfarrierapp.com/avoiding-liability-with-photos-and-records/",
+          "retrievedAt": "2026-10-25T09:32:17.382Z",
+          "status": 200,
+          "error": null,
+          "title": "Avoiding Liability With Photos And Records - The Best Farrier App",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$50",
+              "billingUnit": false,
+              "context": "ble to cover the veterinary costs. Trimming might cost only $50, but the costs of an alleged mistake can be much, much high"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "bestfarrierapp.com",
+          "url": "https://bestfarrierapp.com/pricing",
+          "finalUrl": "https://bestfarrierapp.com/pricing/",
+          "retrievedAt": "2026-10-25T09:32:17.383Z",
+          "status": 200,
+          "error": null,
+          "title": "Pricing - The Best Farrier App",
+          "description": null,
+          "priceMentions": [
+            {
+              "text": "$ 30.99 / month",
+              "billingUnit": true,
+              "context": "you reactivate your subscription. Best Farrier Subscription $ 30.99 / month with 1 month free trial (plus applicable taxes) Includes: F"
+            }
+          ],
+          "mentionsFreeTrial": true,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 5,
+          "top": null,
+          "category": {
+            "level": "low",
+            "measuredCount": 2,
+            "totalCount": 4,
+            "top": {
+              "keyword": "horse software",
+              "searchVolume": 30,
+              "id": "K4"
+            }
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 5 directly relevant keyword(s) returned data (unknown, not zero). Category-level: low (\"horse software\" 30/mo); broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K6"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 1 commercial keyword(s) (highest CPC $7.86 on \"stable management app\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "getapp.ae",
+            "thepegasus.app",
+            "bestfarrierapp.com",
+            "reiterwelt.eu",
+            "filehorse.com",
+            "equicty.com",
+            "practicalhorseman.com",
+            "equinebusinessmagazine.com",
+            "equinem.com",
+            "equimanagement.com",
+            "getapp.com.au",
+            "madbarn.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "forum.chronofhorse.com",
+            "facebook.com",
+            "reddit.com",
+            "quora.com",
+            "sourceforge.net"
+          ],
+          "pricedDomains": [
+            "thepegasus.app",
+            "bestfarrierapp.com"
+          ],
+          "note": "12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on thepegasus.app, bestfarrierapp.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "getapp.ae",
+            "sourceforge.net",
+            "equicty.com",
+            "equinem.com",
+            "getapp.com.au"
+          ]
+        }
+      },
+      "evidenceFingerprint": "b5e27ae9d5be69e8",
+      "evidenceUpdatedAt": "2026-10-25T09:32:19.817Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-25T09:37:48.334Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-25T09:32:19.817Z",
+        "qualifiers": [
+          "independent equine boarding and training stable"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific problem of errors in horse care record keeping."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific problem of managing liability risks."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific problem of avoiding disputes with owners."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer, but 'horse software' is a wider product category than the idea's specific health record software."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer, but 'stable management app' is a wider product category than the idea's specific health record software."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer, but 'horse software pricing' is for a wider product category than the idea's specific health record software."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer, but 'best stable management tools' is for a wider product category than the idea's specific health record software."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the cost for the idea's specific record-keeping solution."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "same",
+            "customerMatches": [
+              "independent equine boarding and training stable"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about cloud-based equine management software for horse care records, scheduling, billing, and client management, which directly targets the idea's customer and addresses their broader operational problems including record-keeping."
+          },
+          "S1.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is about horse show and event management software, which is for a different customer (event organizers) and a different problem than the idea's stable management and health records."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is a Reddit discussion about horse show software, which is for a different problem and customer than the idea's stable health record management."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item lists horse software designed to help equine professionals manage care, which is a broader customer and problem than the idea's specific stable health record compliance."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item is a generic software download site, which is unrelated to the idea's customer or problem."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about digital horse management solutions for any equestrian business to reduce administrative workload, which is a broader customer and problem than the idea's specific health record compliance for boarding stables."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "The item is a directory of equestrian tech and software, which is an offering for a broader customer, but the specific problem is unclear."
+          },
+          "S1.9": {
+            "customer": "same",
+            "customerMatches": [
+              "independent equine boarding and training stable"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about online stable management software to oversee horses and business, which directly targets the idea's customer and addresses their broader operational efficiency problems including record-keeping."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "independent equine boarding and training stable"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item is about cloud-based equine management software for running a barn, including horse care records, which directly targets the idea's customer and addresses their broader operational problems including record-keeping."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item is a Facebook post about observing changes in a horse's behavior and health, which is a different problem for a broader customer (individual horse owners) than the idea's stable record-keeping."
+          },
+          "S2.3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is an article about farriers avoiding liability with photos and records, which is a related problem but for a different customer (farriers)."
+          },
+          "S2.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item is a Quora discussion about common mistakes riders make, which is a different problem and customer than the idea's stable health record management."
+          },
+          "S2.5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item is an article about common horse riding mistakes, which is a different problem and customer than the idea's stable health record management."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a forum discussion about organizing horse information and records, which matches the problem but is for a broader customer (individual horse owners)."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is an article about obtaining a horse's medical records when buying, which is a broader problem context for a broader customer (horse owners/vets) than the idea's stable management liability."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item is a forum discussion about general mistakes made when first getting into horses, which is a different problem and customer than the idea's stable health record management."
+          },
+          "S2.9": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is an article about preventing malpractice claims in equine veterinary medicine, which is a related problem but for a different customer (veterinarians)."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is an article defining medical records for horses, which matches the problem of needing precise documentation but is for a broader customer (general horse care)."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The page is about horse show and event management software, which is for a different customer (event organizers) and a different problem than the idea's stable management and health records."
+          },
+          "P4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "The page is a pricing page for horse show and event management software, which is an offering, but the customer and problem are different from the idea."
+          },
+          "P5": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The page is an article about farriers avoiding liability with photos and records, which is a related problem but for a different customer (farriers)."
+          },
+          "P6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "unclear",
+            "offering": "yes",
+            "reason": "The page is a pricing page for a farrier app, which is an offering, but the customer and problem are different from the idea."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-25:equine-health-record-software",
+        "opportunity": "A standalone software-as-a-service (SaaS) tool for small to mid-sized independent equine boarding and training stables that automates precise, accessible, and unalterable documentation of each horse's care. This addresses the need to manage liability risks, avoid disputes with owners, and improve operational efficiency, as manual systems are prone to errors.",
+        "whoPays": "The owner or barn manager of an independent equine boarding stable pays to mitigate liability risks, prevent owner disputes, and enhance operational efficiency through reliable record-keeping. (inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "I put all of my horse's records in a large 3 ring binder, divided by years."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Medical records in relation to horses are systematic documentation of a horse's medical history, treatments, and health-related events."
+            }
+          ],
+          "observed": "There is an observed practice of manual record-keeping for horse information, such as using 3-ring binders. There is also a general understanding of medical records for horses as systematic documentation of health-related events.",
+          "inference": "The reliance on manual systems suggests potential for errors or inefficiencies, and the definition of medical records implies a need for structured documentation. However, direct evidence of acute pain from 'liability risks' or 'disputes with owners' for the target customer is not present."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform."
+            },
+            {
+              "id": "S1.7",
+              "quote": "Innovative digital horse management solutions! The software for any type of equestrian business that will simplify your and your teams life!"
+            },
+            {
+              "id": "S1.9",
+              "quote": "Our software helps you to oversee your horses and business and allows you to efficiently manage activities anytime, anywhere, via your mobile phone, tablet"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "Equine Management Software (e.g., listed on GetApp)",
+              "type": "indirect",
+              "what": "Cloud-based solutions that offer broad equine management features including scheduling, horse care records, automated billing, and client management.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform."
+                },
+                {
+                  "id": "S1.10",
+                  "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing,"
+                }
+              ]
+            },
+            {
+              "name": "Equicty",
+              "type": "indirect",
+              "what": "Innovative digital horse management solutions designed for any equestrian business to simplify operations and reduce administrative workload.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Innovative digital horse management solutions! The software for any type of equestrian business that will simplify your and your teams life!"
+                }
+              ]
+            },
+            {
+              "name": "EquineM",
+              "type": "indirect",
+              "what": "Online stable management software that helps oversee horses and business, allowing efficient management of activities via mobile devices.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Our software helps you to oversee your horses and business and allows you to efficiently manage activities anytime, anywhere, via your mobile phone, tablet"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Indirect competitors offer comprehensive platforms that integrate various aspects of stable management, including scheduling, billing, and client management, alongside horse care records.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform."
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "Reduce your administrative workload by more than 75% teams life!"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No direct competitors specifically focused on 'audit-ready' animal health and treatment logs for mitigating liability risks and avoiding owner disputes for independent boarding stables were identified. Existing solutions are broader management platforms.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "The broader nature of existing solutions suggests a potential gap for a more focused, specialized, or simpler tool specifically addressing health record compliance and liability for the target customer.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "Building a minimum viable product (MVP) for basic equine health and treatment logging is relatively easy, focusing on core record-keeping functionality."
+        },
+        "unproven": [
+          "The acute pain points related to 'liability risks' and 'disputes with owners' for the target customer due to current record-keeping methods.",
+          "The specific features required for an 'audit-ready' log that would effectively mitigate these risks for independent boarding stables.",
+          "Willingness to pay for a standalone equine health record solution versus a broader, existing stable management software suite.",
+          "The actual number of small to mid-sized independent equine boarding and training stables experiencing this problem acutely."
+        ],
+        "nextExperiment": {
+          "what": "Conduct problem interviews with 10-15 owners or barn managers of small to mid-sized independent equine boarding and training stables to deeply understand their current record-keeping practices, specific liability concerns, and experiences with owner disputes.",
+          "cost": "Approximately $0 (time only)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 60% of interviewed stables clearly articulate significant pain points related to liability or owner disputes directly stemming from inadequate health records, and express a strong desire for a specialized solution.",
+        "stopIf": "Most interviewed stables report that their current manual methods or existing broader stable management software adequately address their health record-keeping, liability, and owner dispute concerns."
+      },
+      "assessment": {
+        "opportunity": "A standalone software-as-a-service (SaaS) tool for small to mid-sized independent equine boarding and training stables that automates precise, accessible, and unalterable documentation of each horse's care. This addresses the need to manage liability risks, avoid disputes with owners, and improve operational efficiency, as manual systems are prone to errors.",
+        "whoPays": "The owner or barn manager of an independent equine boarding stable pays to mitigate liability risks, prevent owner disputes, and enhance operational efficiency through reliable record-keeping. (inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.6",
+              "quote": "I put all of my horse's records in a large 3 ring binder, divided by years.",
+              "domain": "forum.chronofhorse.com",
+              "kind": "S",
+              "cls": "discussion",
+              "relevance": "category",
+              "relevanceReason": "The item is a forum discussion about organizing horse information and records, which matches the problem but is for a broader customer (individual horse owners)."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Medical records in relation to horses are systematic documentation of a horse's medical history, treatments, and health-related events.",
+              "domain": "madbarn.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item is an article defining medical records for horses, which matches the problem of needing precise documentation but is for a broader customer (general horse care)."
+            }
+          ],
+          "observed": "There is an observed practice of manual record-keeping for horse information, such as using 3-ring binders. There is also a general understanding of medical records for horses as systematic documentation of health-related events.",
+          "inference": "The reliance on manual systems suggests potential for errors or inefficiencies, and the definition of medical records implies a need for structured documentation. However, direct evidence of acute pain from 'liability risks' or 'disputes with owners' for the target customer is not present."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform.",
+              "domain": "getapp.ae",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about cloud-based equine management software for horse care records, scheduling, billing, and client management, which directly targets the idea's customer and addresses their broader operational problems including record-keeping."
+            },
+            {
+              "id": "S1.7",
+              "quote": "Innovative digital horse management solutions! The software for any type of equestrian business that will simplify your and your teams life!",
+              "domain": "equicty.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about digital horse management solutions for any equestrian business to reduce administrative workload, which is a broader customer and problem than the idea's specific health record compliance for boarding stables."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Our software helps you to oversee your horses and business and allows you to efficiently manage activities anytime, anywhere, via your mobile phone, tablet",
+              "domain": "equinem.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item is about online stable management software to oversee horses and business, which directly targets the idea's customer and addresses their broader operational efficiency problems including record-keeping."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "getapp.ae",
+            "equicty.com",
+            "equinem.com",
+            "getapp.com.au"
+          ],
+          "alternatives": [
+            {
+              "name": "Equine Management Software (e.g., listed on GetApp)",
+              "type": "indirect",
+              "what": "Cloud-based solutions that offer broad equine management features including scheduling, horse care records, automated billing, and client management.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform.",
+                  "domain": "getapp.ae",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about cloud-based equine management software for horse care records, scheduling, billing, and client management, which directly targets the idea's customer and addresses their broader operational problems including record-keeping."
+                },
+                {
+                  "id": "S1.10",
+                  "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing,",
+                  "domain": "getapp.com.au",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about cloud-based equine management software for running a barn, including horse care records, which directly targets the idea's customer and addresses their broader operational problems including record-keeping."
+                }
+              ]
+            },
+            {
+              "name": "Equicty",
+              "type": "indirect",
+              "what": "Innovative digital horse management solutions designed for any equestrian business to simplify operations and reduce administrative workload.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Innovative digital horse management solutions! The software for any type of equestrian business that will simplify your and your teams life!",
+                  "domain": "equicty.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about digital horse management solutions for any equestrian business to reduce administrative workload, which is a broader customer and problem than the idea's specific health record compliance for boarding stables."
+                }
+              ]
+            },
+            {
+              "name": "EquineM",
+              "type": "indirect",
+              "what": "Online stable management software that helps oversee horses and business, allowing efficient management of activities via mobile devices.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Our software helps you to oversee your horses and business and allows you to efficiently manage activities anytime, anywhere, via your mobile phone, tablet",
+                  "domain": "equinem.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item is about online stable management software to oversee horses and business, which directly targets the idea's customer and addresses their broader operational efficiency problems including record-keeping."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Indirect competitors offer comprehensive platforms that integrate various aspects of stable management, including scheduling, billing, and client management, alongside horse care records.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Cloud-based equine management software for scheduling, horse care records, automated billing, and client management in one platform.",
+                  "domain": "getapp.ae",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item is about cloud-based equine management software for horse care records, scheduling, billing, and client management, which directly targets the idea's customer and addresses their broader operational problems including record-keeping."
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "Reduce your administrative workload by more than 75% teams life!",
+                  "domain": "equicty.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item is about digital horse management solutions for any equestrian business to reduce administrative workload, which is a broader customer and problem than the idea's specific health record compliance for boarding stables."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No direct competitors specifically focused on 'audit-ready' animal health and treatment logs for mitigating liability risks and avoiding owner disputes for independent boarding stables were identified. Existing solutions are broader management platforms.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "The broader nature of existing solutions suggests a potential gap for a more focused, specialized, or simpler tool specifically addressing health record compliance and liability for the target customer.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "easy",
+          "note": "Building a minimum viable product (MVP) for basic equine health and treatment logging is relatively easy, focusing on core record-keeping functionality."
+        },
+        "unproven": [
+          "The acute pain points related to 'liability risks' and 'disputes with owners' for the target customer due to current record-keeping methods.",
+          "The specific features required for an 'audit-ready' log that would effectively mitigate these risks for independent boarding stables.",
+          "Willingness to pay for a standalone equine health record solution versus a broader, existing stable management software suite.",
+          "The actual number of small to mid-sized independent equine boarding and training stables experiencing this problem acutely."
+        ],
+        "nextExperiment": {
+          "what": "Conduct problem interviews with 10-15 owners or barn managers of small to mid-sized independent equine boarding and training stables to deeply understand their current record-keeping practices, specific liability concerns, and experiences with owner disputes.",
+          "cost": "Approximately $0 (time only)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 60% of interviewed stables clearly articulate significant pain points related to liability or owner disputes directly stemming from inadequate health records, and express a strong desire for a specialized solution.",
+        "stopIf": "Most interviewed stables report that their current manual methods or existing broader stable management software adequately address their health record-keeping, liability, and owner dispute concerns.",
+        "removedLinks": 0,
+        "downgraded": [
+          "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "competition sparse → unknown: \"sparse\" contradicts 5 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-25T09:38:59.859Z",
+        "evidenceUpdatedAt": "2026-10-25T09:32:19.817Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-25T09:31:24.737Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 18,
+      "holdId": "ba163b5e-af24-53cd-b006-b6fde1f9f543",
+      "estimateUsd": 0.015576,
+      "costUsd": 0.01236,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-25T09:31:28.417Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "db98c188-29d4-5dd8-af28-be491b549681",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-25T09:31:37.674Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "85fd89f6-0a24-5172-9933-451017f1a28c",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-25T09:31:46.221Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "670137ba-49dd-5368-ba33-ca2c2b294520",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-25T09:31:54.931Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "9e9d6644-f756-5c2b-ac31-55eafa3afab5",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.26068,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.73932
+    },
+    "monthToDateUsdBefore": 0.26068,
+    "spentThisRunUsd": 0.02036
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 18,
+    "keywordsFromCache": 0,
+    "labsUsd": 0.01416,
+    "serpQueries": 4,
+    "serpsFromCache": 0,
+    "serpUsd": 0.008,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 2,
+        "keywordsToBuy": 18
+      }
+    ],
+    "totalUsd": 0.02216,
+    "reservedUsd": 0.024376
+  },
+  "lastGather": {
+    "at": "2026-10-25T09:32:19.817Z",
+    "mode": "live",
+    "pendingIdeas": 2,
+    "spentUsd": 0.02036,
+    "note": null
+  }
+}

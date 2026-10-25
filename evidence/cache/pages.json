@@ -9961,6 +9961,281 @@
         "status": 404,
         "error": "HTTP 404"
       }
+    },
+    "page|https://servicechannel.com/pricing": {
+      "fetchedAt": "2026-10-25T09:32:16.746Z",
+      "data": {
+        "url": "https://servicechannel.com/pricing",
+        "finalUrl": "https://servicechannel.com/pricing",
+        "retrievedAt": "2026-10-25T09:32:16.746Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://oxmaint.com/pricing": {
+      "fetchedAt": "2026-10-25T09:32:16.748Z",
+      "data": {
+        "url": "https://oxmaint.com/pricing",
+        "finalUrl": "https://oxmaint.com/pricing",
+        "retrievedAt": "2026-10-25T09:32:16.748Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing Plans & Free Trial | Oxmaint CMMS Software",
+        "description": "We offer great prices, premium and quality products for your business. Enjoy a free forever plan and experience the full service. No credit card required.",
+        "priceMentions": [
+          {
+            "text": "$19",
+            "billingUnit": false,
+            "context": "Community Pro All modules, no AI — ideal for growing teams $19 user/month Billed Monthly $190 user/year Billed annually Tr"
+          },
+          {
+            "text": "$190",
+            "billingUnit": false,
+            "context": "AI — ideal for growing teams $19 user/month Billed Monthly $190 user/year Billed annually Try Free Unlimited team members -"
+          },
+          {
+            "text": "$49",
+            "billingUnit": false,
+            "context": "Agentic Most Popular All modules + AI Agents for automation $49 user/month Billed Monthly $490 user/year Billed annually Tr"
+          },
+          {
+            "text": "$490",
+            "billingUnit": false,
+            "context": "es + AI Agents for automation $49 user/month Billed Monthly $490 user/year Billed annually Try Free AI Agents Included Every"
+          },
+          {
+            "text": "$98/user",
+            "billingUnit": true,
+            "context": "e — no penalty. Save More Yearly Annual billing saves up to $98/user/yr. A 10-person team saves $980. AI-Powered Automation Agen"
+          },
+          {
+            "text": "$980",
+            "billingUnit": false,
+            "context": "ual billing saves up to $98/user/yr. A 10-person team saves $980. AI-Powered Automation Agentic & Enterprise include AI agen"
+          },
+          {
+            "text": "$190/yr",
+            "billingUnit": true,
+            "context": "aily back-ups. How much do I save with yearly billing? Pro: $190/yr vs $228 monthly — save $38/user. Agentic: $490/yr vs $588 —"
+          },
+          {
+            "text": "$228",
+            "billingUnit": false,
+            "context": "ps. How much do I save with yearly billing? Pro: $190/yr vs $228 monthly — save $38/user. Agentic: $490/yr vs $588 — save $9"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://oxmaint.com/industries/hvac/hvac-refrigerant-tracking-management-digital-system": {
+      "fetchedAt": "2026-10-25T09:32:16.747Z",
+      "data": {
+        "url": "https://oxmaint.com/industries/hvac/hvac-refrigerant-tracking-management-digital-system",
+        "finalUrl": "https://oxmaint.com/industries/hvac/hvac-refrigerant-tracking-management-digital-system",
+        "retrievedAt": "2026-10-25T09:32:16.747Z",
+        "status": 200,
+        "error": null,
+        "title": "HVAC Refrigerant Tracking and Management: Digital System for Complete Compliance",
+        "description": "Discover how digital HVAC refrigerant tracking and management systems ensure complete regulatory compliance. Learn how automated tracking, leak monitoring, and reporting tools help facility managers maintain accurate refrigerant records and improve HVAC m",
+        "priceMentions": [
+          {
+            "text": "$44,539",
+            "billingUnit": false,
+            "context": "f refrigerant history. One missing log entry could cost you $44,539 per day in federal penalties. But what if compliance wasn't"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://servicechannel.com/blog/achieve-epa-compliance-refrigerant-tracking-software/": {
+      "fetchedAt": "2026-10-25T09:32:16.744Z",
+      "data": {
+        "url": "https://servicechannel.com/blog/achieve-epa-compliance-refrigerant-tracking-software/",
+        "finalUrl": "https://servicechannel.com/blog/achieve-epa-compliance-refrigerant-tracking-software/",
+        "retrievedAt": "2026-10-25T09:32:16.744Z",
+        "status": 200,
+        "error": null,
+        "title": "Achieve EPA Compliance with Refrigerant Tracking | ServiceChannel",
+        "description": "EPA refrigerant regulations require that businesses apply strict procedures and processes around the use, management and disposal of refrigerant compounds. Find out how to get compliant and protect the environment by reducing leakage.",
+        "priceMentions": [
+          {
+            "text": "$37,500",
+            "billingUnit": false,
+            "context": "ror-prone, but can also increase exposure to fines totaling $37,500 a day if they fail to meet the regulatory compliance guidel"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://gitnux.org/best/refrigerant-compliance-management-software/": {
+      "fetchedAt": "2026-10-25T09:32:16.749Z",
+      "data": {
+        "url": "https://gitnux.org/best/refrigerant-compliance-management-software/",
+        "finalUrl": "https://gitnux.org/best/refrigerant-compliance-management-software/",
+        "retrievedAt": "2026-10-25T09:32:16.749Z",
+        "status": 200,
+        "error": null,
+        "title": "Best Refrigerant Compliance Management Software (2026)",
+        "description": "Atrium is the best fit when compliance teams need configurable refrigerant workflows with tight audit-trail control across facilities.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://gitnux.org/pricing": {
+      "fetchedAt": "2026-10-25T09:32:16.749Z",
+      "data": {
+        "url": "https://gitnux.org/pricing",
+        "finalUrl": "https://gitnux.org/pricing/",
+        "retrievedAt": "2026-10-25T09:32:16.749Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.getapp.ae/directory/963/horse/deployment-options/windows/software": {
+      "fetchedAt": "2026-10-25T09:32:17.379Z",
+      "data": {
+        "url": "https://www.getapp.ae/directory/963/horse/deployment-options/windows/software",
+        "finalUrl": "https://www.getapp.ae/directory/963/horse/deployment-options/windows/software",
+        "retrievedAt": "2026-10-25T09:32:17.379Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://www.getapp.ae/pricing": {
+      "fetchedAt": "2026-10-25T09:32:17.380Z",
+      "data": {
+        "url": "https://www.getapp.ae/pricing",
+        "finalUrl": "https://www.getapp.ae/pricing",
+        "retrievedAt": "2026-10-25T09:32:17.380Z",
+        "status": 403,
+        "error": "HTTP 403"
+      }
+    },
+    "page|https://bestfarrierapp.com/avoiding-liability-with-photos-and-records/": {
+      "fetchedAt": "2026-10-25T09:32:17.382Z",
+      "data": {
+        "url": "https://bestfarrierapp.com/avoiding-liability-with-photos-and-records/",
+        "finalUrl": "https://bestfarrierapp.com/avoiding-liability-with-photos-and-records/",
+        "retrievedAt": "2026-10-25T09:32:17.382Z",
+        "status": 200,
+        "error": null,
+        "title": "Avoiding Liability With Photos And Records - The Best Farrier App",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "ble to cover the veterinary costs. Trimming might cost only $50, but the costs of an alleged mistake can be much, much high"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://bestfarrierapp.com/pricing": {
+      "fetchedAt": "2026-10-25T09:32:17.383Z",
+      "data": {
+        "url": "https://bestfarrierapp.com/pricing",
+        "finalUrl": "https://bestfarrierapp.com/pricing/",
+        "retrievedAt": "2026-10-25T09:32:17.383Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - The Best Farrier App",
+        "description": null,
+        "priceMentions": [
+          {
+            "text": "$ 30.99 / month",
+            "billingUnit": true,
+            "context": "you reactivate your subscription. Best Farrier Subscription $ 30.99 / month with 1 month free trial (plus applicable taxes) Includes: F"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://thepegasus.app/": {
+      "fetchedAt": "2026-10-25T09:32:17.381Z",
+      "data": {
+        "url": "https://thepegasus.app/",
+        "finalUrl": "https://thepegasus.app/",
+        "retrievedAt": "2026-10-25T09:32:17.381Z",
+        "status": 200,
+        "error": null,
+        "title": "Pegasus OS - Horse show & event management software",
+        "description": "Open an account, connect your bank, publish your event, and start accepting entries. Built for any discipline, any size, anywhere in the world.",
+        "priceMentions": [
+          {
+            "text": "$18,420",
+            "billingUnit": false,
+            "context": "lass All classes · 312 rows Sheet Daily Financials Jun 14 · $18,420 Sheet Stall Assignments Barn A–D · 96 stalls PDF Reporting"
+          },
+          {
+            "text": "$120.00",
+            "billingUnit": false,
+            "context": "r 3&#x27;3 Horse: Lemon Drop Trainer: Tyler Jennings Unpaid $120.00 Cash 21 Jul, 2024 Edit 1 Horse 1 Participant Digital Paperw"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://thepegasus.app/pricing": {
+      "fetchedAt": "2026-10-25T09:32:17.382Z",
+      "data": {
+        "url": "https://thepegasus.app/pricing",
+        "finalUrl": "https://thepegasus.app/pricing",
+        "retrievedAt": "2026-10-25T09:32:17.382Z",
+        "status": 200,
+        "error": null,
+        "title": "Pricing - Pegasus OS",
+        "description": "5% transaction fee. No subscriptions, no setup fees, no contracts. Only pay when your event makes money.",
+        "priceMentions": [
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "wsOnline Windows for Horses by Funnware Annual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only"
+          },
+          {
+            "text": "$1,800",
+            "billingUnit": false,
+            "context": "nline Windows for Horses by Funnware Annual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only Per-en"
+          },
+          {
+            "text": "$1,500",
+            "billingUnit": false,
+            "context": "ndows for Horses by Funnware Annual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only Per-entry fee"
+          },
+          {
+            "text": "$500",
+            "billingUnit": false,
+            "context": "ual subscription $0 $1,800+ $1,500+ Quote only Setup fee $0 $500+ $0 Quote only Per-entry fee $0 $3–5 $4–6 $3–5 Support fee"
+          },
+          {
+            "text": "$3",
+            "billingUnit": false,
+            "context": "uote only Setup fee $0 $500+ $0 Quote only Per-entry fee $0 $3–5 $4–6 $3–5 Support fee $0 Tiered $0 Tiered Contract None A"
+          },
+          {
+            "text": "$4",
+            "billingUnit": false,
+            "context": "only Setup fee $0 $500+ $0 Quote only Per-entry fee $0 $3–5 $4–6 $3–5 Support fee $0 Tiered $0 Tiered Contract None Annual"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
     }
   }
 }

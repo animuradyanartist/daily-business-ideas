@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-25
+- The Small-Batch Craft Brewery's "TABC-Proof" Production & Sales Log — While a compliance pain, the market size is likely smaller, and the daily financial penalties are less severe and direct than EPA 608 violations.
+- The Independent Pet Groomer's "Liability-Proof" Client & Incident Log — Clear pain around liability, but the financial stakes are lower, and there isn't an acute, federally mandated "why now" with daily fines.
+- The Local Tour Operator's "Weather-Proof" Booking & Refund Manager — Addresses an operational pain, but it is not a high-stakes compliance issue, nor does it carry the same direct, quantifiable financial threat from regulatory penalties.
+
 ## 2026-10-24
 Several other opportunities were considered but did not meet the bar for acute pain, clear "why now," or market structure as effectively as the chosen idea.
 
