@@ -7900,12 +7900,22 @@
       "data": null
     },
     "labs|united states|en|nfpa 96 compliance": {
-      "fetchedAt": "2026-09-15T09:33:26.583Z",
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
       "returned": true,
       "data": {
         "keyword": "nfpa 96 compliance",
         "searchVolume": 50,
         "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 30
+          },
           {
             "year": 2026,
             "month": 7,
@@ -8015,24 +8025,14 @@
             "year": 2024,
             "month": 10,
             "searchVolume": 20
-          },
-          {
-            "year": 2024,
-            "month": 9,
-            "searchVolume": 20
-          },
-          {
-            "year": 2024,
-            "month": 8,
-            "searchVolume": 20
           }
         ],
-        "cpcUsd": 5.93,
-        "adCompetition": 0.13,
+        "cpcUsd": 2.05,
+        "adCompetition": 0.11,
         "adCompetitionLevel": "LOW",
-        "providerTrendYearlyPct": -71,
+        "providerTrendYearlyPct": -20,
         "mainIntent": "informational",
-        "providerUpdatedAt": "2026-08-24 11:27:56 +00:00"
+        "providerUpdatedAt": "2026-10-19 08:54:34 +00:00"
       }
     },
     "labs|united states|en|commercial kitchen fire inspection": {
@@ -8172,7 +8172,7 @@
       }
     },
     "labs|united states|en|hood cleaning documentation": {
-      "fetchedAt": "2026-09-15T09:33:26.583Z",
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
       "returned": false,
       "data": null
     },
@@ -23026,7 +23026,7 @@
       "data": null
     },
     "labs|united states|en|fsma 204 compliance": {
-      "fetchedAt": "2026-09-26T10:28:39.026Z",
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
       "returned": true,
       "data": {
         "keyword": "fsma 204 compliance",
@@ -41897,6 +41897,1013 @@
     },
     "labs|united states|en|equine record keeping cost": {
       "fetchedAt": "2026-10-25T09:31:24.737Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fda food traceability rule": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "fda food traceability rule",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 110
+          }
+        ],
+        "cpcUsd": 4.08,
+        "adCompetition": 0.14,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 180,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 03:46:48 +00:00"
+      }
+    },
+    "labs|united states|en|seafood traceability requirements": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|haccp software": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "haccp software",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 390
+          }
+        ],
+        "cpcUsd": 32.93,
+        "adCompetition": 0.26,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -40,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-17 05:06:44 +00:00"
+      }
+    },
+    "labs|united states|en|food traceability system": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "food traceability system",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 40
+          }
+        ],
+        "cpcUsd": 19.31,
+        "adCompetition": 0.14,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -86,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 23:22:37 +00:00"
+      }
+    },
+    "labs|united states|en|fda compliance solution": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|haccp software pricing": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best food traceability tools": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|seafood compliance cost": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|kitchen hood cleaning regulations": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|commercial kitchen fire safety": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "commercial kitchen fire safety",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.11,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 16:10:09 +00:00"
+      }
+    },
+    "labs|united states|en|nfpa 96 software": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire safety compliance tool": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|nfpa 96 software cost": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best hood cleaning software": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire marshal compliance tools": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|elevator inspection requirements": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "elevator inspection requirements",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 140
+          }
+        ],
+        "cpcUsd": 4.08,
+        "adCompetition": 0.04,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -22,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 01:45:29 +00:00"
+      }
+    },
+    "labs|united states|en|asme a17.1 compliance": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|elevator maintenance regulations": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "elevator maintenance regulations",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 03:48:03 +00:00"
+      }
+    },
+    "labs|united states|en|elevator logbook": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|elevator inspection software": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": true,
+      "data": {
+        "keyword": "elevator inspection software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.46,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 22:34:26 +00:00"
+      }
+    },
+    "labs|united states|en|maintenance compliance tool": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|elevator software pricing": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best elevator maintenance tools": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hire elevator inspector": {
+      "fetchedAt": "2026-10-26T10:40:35.580Z",
       "returned": false,
       "data": null
     }

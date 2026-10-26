@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-26
+*   **Regulatory Updates as Hard "Why Now":** Specific, published regulatory updates that mandate *how* compliance is documented (e.g., digital records in NFPA 96 2025) create an exceptionally strong and quantifiable "why now" for specialized software, even more so than general compliance pressure.
+*   **Insurance Carriers as De Facto Enforcers:** Beyond direct government fines, the threat of denied insurance claims due to poor documentation is a powerful, direct financial pain point that drives demand for robust compliance solutions, effectively making insurers a key "authority having jurisdiction."
+*   **The "Per-User Penalty" in SMB SaaS:** For SMBs, especially in service industries with field technicians, per-user pricing models in software are often perceived as punitive and can be a significant competitive weakness for incumbents, creating an opening for flat-rate or account-based pricing.
+
 ## 2026-10-25 (trends)
 - **AI as a "Scalability Engine" for Personal Brands:** AI is increasingly enabling creators to scale their personal brand and content output beyond their individual time constraints, particularly through personalized video and virtual personas, democratizing access to high-impact marketing channels.
 - **The "Interactive Layer" in AI-Powered Education:** Beyond generating content, AI is adding an interactive layer to educational experiences, transforming passive consumption into active learning through quizzes, conversational tutors, and adaptive pathways embedded directly within media.
