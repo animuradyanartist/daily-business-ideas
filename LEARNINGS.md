@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-26 (trends)
+- **AI as a "Full-Stack Solopreneur":** AI is enabling solopreneurs to perform entire business functions (product creation, learning and development, creator management) that previously required a team, by automating everything from ideation and content generation to marketing and operational workflows.
+- **The "Agentic Layer" for Personal & Professional Growth:** The most compelling AI applications are shifting from reactive tools to proactive "agents" that continuously monitor, adapt, and orchestrate complex processes (e.g., learning paths, content strategies, community engagement) with minimal human intervention.
+- **The "Scaffolding Kit" as a Product Category:** For every powerful new AI-driven workflow, a robust secondary market is emerging for digital products (templates, prompt guides, frameworks) that teach non-experts how to structure their inputs, manage outputs, and strategically leverage these tools for specific, high-value outcomes.
+
+---
+
 ## 2026-10-26
 *   **Regulatory Updates as Hard "Why Now":** Specific, published regulatory updates that mandate *how* compliance is documented (e.g., digital records in NFPA 96 2025) create an exceptionally strong and quantifiable "why now" for specialized software, even more so than general compliance pressure.
 *   **Insurance Carriers as De Facto Enforcers:** Beyond direct government fines, the threat of denied insurance claims due to poor documentation is a powerful, direct financial pain point that drives demand for robust compliance solutions, effectively making insurers a key "authority having jurisdiction."

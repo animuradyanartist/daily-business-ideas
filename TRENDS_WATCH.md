@@ -471,6 +471,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered Personalized Video Marketing** · Using AI to generate thousands of personalized marketing videos at scale for enhanced engagement. · flagged 2026-10-25 · last checked 2026-10-25 · [origin memo](trends/2026-10-25.md)
 - **AI-Generated Virtual Influencers for Personal Branding** · Creating consistent AI personas for scalable social media presence and content production without being on camera. · flagged 2026-10-25 · last checked 2026-10-25 · [origin memo](trends/2026-10-25.md)
 - **AI-Powered Interactive Video for Education** · Transforming passive video content into engaging, interactive learning experiences with quizzes and AI tutors. · flagged 2026-10-25 · last checked 2026-10-25 · [origin memo](trends/2026-10-25.md)
+- **AI-Powered "Done-For-You" Digital Product Creation for Solopreneurs** · AI platforms that automate the entire process of creating digital products from idea to publishable format. · flagged 2026-10-26 · last checked 2026-10-26 · [origin memo](trends/2026-10-26.md)
+- **AI-Driven Personalized Learning Pathways for Professional Upskilling** · AI used to create highly personalized and adaptive learning paths for professional development and skill acquisition. · flagged 2026-10-26 · last checked 2026-10-26 · [origin memo](trends/2026-10-26.md)
+- **AI-Powered "Agentic" Creator Management & Monetization** · AI acting as an agent for creators, automating audience management, monetization, and brand deal workflows. · flagged 2026-10-26 · last checked 2026-10-26 · [origin memo](trends/2026-10-26.md)
 
 
 ## ➡️ Active — plateauing
@@ -792,3 +795,5 @@ _(empty)_
 <!-- 2026-10-24 status-update directive: 🚀 | Generative AI for Interior Design Ideation -->
 
 <!-- 2026-10-25 status-update directive: 🚀 | AI-Automated Controlled Substance Compliance for Veterinarians -->
+
+<!-- 2026-10-26 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
