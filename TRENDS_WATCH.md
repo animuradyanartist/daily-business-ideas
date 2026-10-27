@@ -474,6 +474,9 @@ Status legend: 🚀 accelerating · ➡️ plateauing · 📉 fading · ⛔ kill
 - **AI-Powered "Done-For-You" Digital Product Creation for Solopreneurs** · AI platforms that automate the entire process of creating digital products from idea to publishable format. · flagged 2026-10-26 · last checked 2026-10-26 · [origin memo](trends/2026-10-26.md)
 - **AI-Driven Personalized Learning Pathways for Professional Upskilling** · AI used to create highly personalized and adaptive learning paths for professional development and skill acquisition. · flagged 2026-10-26 · last checked 2026-10-26 · [origin memo](trends/2026-10-26.md)
 - **AI-Powered "Agentic" Creator Management & Monetization** · AI acting as an agent for creators, automating audience management, monetization, and brand deal workflows. · flagged 2026-10-26 · last checked 2026-10-26 · [origin memo](trends/2026-10-26.md)
+- **AI-Powered Multi-Channel Content Repurposing for Creators** · Automating the transformation of long-form content into diverse, platform-native short-form assets for social media. · flagged 2026-10-27 · last checked 2026-10-27 · [origin memo](trends/2026-10-27.md)
+- **AI-Driven Personal Branding Strategy & Automation for Solopreneurs** · Using AI agents to automate content strategy, ideation, drafting, and multi-channel publishing for personal brands. · flagged 2026-10-27 · last checked 2026-10-27 · [origin memo](trends/2026-10-27.md)
+- **AI for Early-Stage Digital Product Validation & Niche Discovery** · Leveraging AI to simulate customer feedback, validate ideas, and identify low-competition niches for digital products. · flagged 2026-10-27 · last checked 2026-10-27 · [origin memo](trends/2026-10-27.md)
 
 
 ## ➡️ Active — plateauing
@@ -797,3 +800,5 @@ _(empty)_
 <!-- 2026-10-25 status-update directive: 🚀 | AI-Automated Controlled Substance Compliance for Veterinarians -->
 
 <!-- 2026-10-26 status-update directive: 🚀 | Short-Form Video as an Automated Workflow -->
+
+<!-- 2026-10-27 status-update directive: 🚀 | AI-Automated Agricultural Supply Chain Compliance -->
