@@ -2,6 +2,12 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-27
+*   **The Small-Scale Seafood Processor's "FDA-Proof" HACCP & Traceability Hub** — While a strong compliance pain, the FDA FSMA 204 enforcement date was pushed back, and the commercial kitchen hood cleaning market appeared more immediately impacted by the 2025/2026 NFPA 96 digital documentation mandate.
+*   **The Independent Elevator Maintenance Company's "State-Ready" Inspection & Maintenance Log** — Addresses a compliance pain, but the "why now" is less acute and less universally driven by a recent, specific regulatory shift than the NFPA 96 2025 updates. The market size and direct financial penalties also appear less severe.
+*   **The Small-Batch Craft Brewery's "TABC-Proof" Production & Sales Log** — While a compliance pain, the market size is likely smaller, and the daily financial penalties are less severe and direct than OSHA fall protection violations.
+*   **The Independent Pet Groomer's "Liability-Proof" Client & Incident Log** — Clear pain around liability, but the financial stakes are lower, and there isn't an acute, federally mandated "why now" with daily fines.
+
 ## 2026-10-26
 *   **The Small-Scale Seafood Processor's "FDA-Proof" HACCP & Traceability Hub** — While a strong compliance pain, the FDA FSMA 204 enforcement date was pushed back, and the commercial kitchen hood cleaning market appears larger and more universally impacted by the immediate 2025/2026 NFPA 96 digital documentation mandate.
 *   **The Independent Elevator Maintenance Company's "State-Ready" Inspection & Maintenance Log** — Addresses a compliance pain, but the "why now" is less acute and less universally driven by a recent, specific regulatory shift than the NFPA 96 2025 updates. The market size and direct financial penalties also appear less severe.

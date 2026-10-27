@@ -42906,6 +42906,1053 @@
       "fetchedAt": "2026-10-26T10:40:35.580Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|osha fall protection violations": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha fall protection violations",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.14,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 15:06:25 +00:00"
+      }
+    },
+    "labs|united states|en|roofing safety compliance issues": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fall protection audit readiness": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|safety log software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fall protection documentation platform": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|construction safety management system": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "construction safety management system",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 44.53,
+        "adCompetition": 0.16,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 18:31:57 +00:00"
+      }
+    },
+    "labs|united states|en|osha compliance software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha compliance software",
+        "searchVolume": 170,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": 125.43,
+        "adCompetition": 0.25,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 25,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 01:49:58 +00:00"
+      }
+    },
+    "labs|united states|en|roofing safety software pricing": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best construction safety tools": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa stormwater discharge violations": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|spcc plan compliance issues": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|marina environmental regulations": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa compliance software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "epa compliance software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 24.81,
+        "adCompetition": 0.39,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -86,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-16 10:23:23 +00:00"
+      }
+    },
+    "labs|united states|en|spcc plan documentation platform": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|environmental management system": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "environmental management system",
+        "searchVolume": 720,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1300
+          }
+        ],
+        "cpcUsd": 14.2,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -41,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-18 21:11:12 +00:00"
+      }
+    },
+    "labs|united states|en|spcc software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "spcc software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.33,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-17 17:51:55 +00:00"
+      }
+    },
+    "labs|united states|en|best environmental compliance tools": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|marina compliance software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide application record requirements": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|state pesticide board audits": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide log software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pest control recordkeeping platform": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide application management": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide software": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": true,
+      "data": {
+        "keyword": "pesticide software",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 94.05,
+        "adCompetition": 0.56,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-20 03:15:49 +00:00"
+      }
+    },
+    "labs|united states|en|best pesticide tracking tools": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|pesticide recordkeeping cost": {
+      "fetchedAt": "2026-10-27T10:09:19.320Z",
+      "returned": false,
+      "data": null
     }
   }
 }

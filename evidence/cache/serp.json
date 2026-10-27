@@ -1,228 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "serp|united states|en|d10|h2a compliance software": {
-      "fetchedAt": "2026-09-15T09:33:33.340Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=h2a%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "organic"
-        ],
-        "items": [
-          {
-            "rank": 2,
-            "domain": "www.sesolabor.com",
-            "url": "https://www.sesolabor.com/solutions/h-2a-software",
-            "title": "H-2A Filing and Compliance Software",
-            "description": "Seso harnesses the power of the industry's best H-2A legal resources and Seso's H-2A filing & compliance software to simplify and streamline the H-2A ..."
-          },
-          {
-            "rank": 3,
-            "domain": "www.dol.gov",
-            "url": "https://www.dol.gov/agencies/whd/h2a-compliance-review",
-            "title": "H-2A Compliance Review",
-            "description": "You must provide the work contract or job order (Form ETA-790) to each H-2A worker no later than when the worker applies for the visa and to each non-h3A worker ... Read more"
-          },
-          {
-            "rank": 4,
-            "domain": "www.harrisbeachmurtha.com",
-            "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
-            "title": "H-2A Compliance Strategies for Employers",
-            "description": "Oct 24, 2025 — This article highlights key employer obligations, common pitfalls and best practices for maintaining full compliance with the H-2A program — ... Read more"
-          },
-          {
-            "rank": 5,
-            "domain": "h2acompass.com",
-            "url": "https://h2acompass.com/",
-            "title": "H2A Compass | Self-Service H-2A Compliance Software ...",
-            "description": "H2A Compass is the central resource for the H-2A industry — regulations, wage rates, compliance guidance, worker protections, employer requirements, and ... Read more"
-          },
-          {
-            "rank": 6,
-            "domain": "www.usafarmlabor.com",
-            "url": "https://www.usafarmlabor.com/blog/maintaining-h2a-compliance-all-season-long",
-            "title": "How Ag Employers Can Maintain H2A Compliance All ...",
-            "description": "May 11, 2026 — This blog is designed to help H2A Program employers clearly understand their ongoing H2A compliance responsibilities once H2A employees have ... Read more"
-          },
-          {
-            "rank": 7,
-            "domain": "farmerenterprises.com",
-            "url": "https://farmerenterprises.com/services/h-2a-workforce-management-software/",
-            "title": "H-2A Workforce Management Software",
-            "description": "Take control of your H-2A program with a single, transparent, and compliance-forward platform that unifies worker management, communication, and operational ... Read more"
-          },
-          {
-            "rank": 8,
-            "domain": "www.harvust.com",
-            "url": "https://www.harvust.com/h-2a",
-            "title": "A Comprehensive Guide to H-2A Visas and How ...",
-            "description": "Our all-in-one platform streamlines compliance tasks, offers expert guidance, and empowers you to manage your H-2A workforce with confidence. By navigating ... Read more"
-          },
-          {
-            "rank": 9,
-            "domain": "www.agri-trak.com",
-            "url": "https://www.agri-trak.com/",
-            "title": "Agri-Trak | Farm Labor Tracking Software | H-2A Compliance ...",
-            "description": "Optimize your farm's labor management with our all-in-one solution. Track hours, ensure H-2A compliance, and streamline payroll. Save time and money today!"
-          },
-          {
-            "rank": 10,
-            "domain": "www.dol.gov",
-            "url": "https://www.dol.gov/agencies/whd/agriculture/h2a",
-            "title": "H-2A: Temporary Agricultural Employment of Foreign ...",
-            "description": "Learn more by reading fact sheets that cover a variety of H-2A topics, including recruitment, worker rights, records retention, meal obligations, wage ... Read more"
-          }
-        ]
-      }
-    },
-    "serp|united states|en|d10|h2a visa compliance issues": {
-      "fetchedAt": "2026-09-15T09:33:50.185Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=h2a%20visa%20compliance%20issues&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "organic",
-          "people_also_ask"
-        ],
-        "items": [
-          {
-            "rank": 2,
-            "domain": "www.dol.gov",
-            "url": "https://www.dol.gov/agencies/whd/agriculture/h2a",
-            "title": "H-2A: Temporary Agricultural Employment of Foreign ...",
-            "description": "Learn more by reading fact sheets that cover a variety of H-2A topics, including recruitment, worker rights, records retention, meal obligations, wage ... Read more"
-          },
-          {
-            "rank": 3,
-            "domain": "www.gislason.com",
-            "url": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
-            "title": "Top 5 Compliance Issues for Employers Using H-2A Visa ...",
-            "description": "Dec 12, 2022 — An employer found to have rejected, laid off, or otherwise displaced a qualified U.S. worker to employ an H-2A worker may be assessed a civil ... Read more"
-          },
-          {
-            "rank": 4,
-            "domain": "www.epi.org",
-            "url": "https://www.epi.org/policywatch/department-of-labor-halts-enforcement-of-expanded-labor-protections-for-migrant-farmworkers-on-h-2a-temporary-visas/",
-            "title": "Department of Labor halts enforcement of expanded ...",
-            "description": "Jun 24, 2025 — Department of Labor halts enforcement of expanded labor protections for migrant farmworkers on H-2A temporary visas ... The H-2A program is ... Read more"
-          },
-          {
-            "rank": 5,
-            "domain": "www.harrisbeachmurtha.com",
-            "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
-            "title": "H-2A Compliance Strategies for Employers",
-            "description": "Oct 24, 2025 — Failure to comply with these provisions can trigger significant penalties, including back-wage liability and debarment from the H-2A program. Read more"
-          },
-          {
-            "rank": 6,
-            "domain": "www.fb.org",
-            "url": "https://www.fb.org/intel/markets/debunking-h-2a-myths",
-            "title": "Debunking H-2A Myths | Farm Bureau Intel Markets",
-            "description": "Nov 15, 2024 — However, a worker who holds a H-2A visa may take different employment contracts to remain in the U.S. for up to three years, if they utilize one ... Read more"
-          },
-          {
-            "rank": 7,
-            "domain": "www.gao.gov",
-            "url": "https://www.gao.gov/products/gao-25-106389",
-            "title": "H-2A Visa Program: Agencies Should Take Additional ...",
-            "description": "Nov 14, 2024 — GAO found that H-2A violations accounted for 54 percent of back wages assessed to all agricultural employers during the 6-year period GAO ... Read more"
-          },
-          {
-            "rank": 9,
-            "domain": "www.uscis.gov",
-            "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2a-temporary-agricultural-workers",
-            "title": "H-2A Temporary Agricultural Workers",
-            "description": "Sep 1, 2026 — You may email USCIS-H2A@uscis.dhs.gov to raise general concerns about H-2A petition processing or to inquire about your specific H-2A petition. Read more"
-          },
-          {
-            "rank": 10,
-            "domain": "federal-lawyer.com",
-            "url": "https://federal-lawyer.com/business-litigation/h2a-visa/",
-            "title": "H-2A Visa Compliance & Investigation Defense",
-            "description": "This includes violations such as failure to withhold Social Security and Medicare taxes when required, failure to maintain W-4 forms (Employee's Withholding ... Read more"
-          },
-          {
-            "rank": 11,
-            "domain": "www.propublica.org",
-            "url": "https://www.propublica.org/article/h-2a-farmworker-visa-safety-suggestions-experts",
-            "title": "How to Make H-2A Farmworker Visa Program Safer, ...",
-            "description": "Sep 16, 2025 — The seasonal visa program has failed to protect migrant farmworkers from wage theft, forced labor, violence and death. Experts, lawyers and ... Read more"
-          }
-        ]
-      }
-    },
-    "serp|united states|en|d10|kitchen hood log": {
-      "fetchedAt": "2026-09-15T09:41:55.253Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=kitchen%20hood%20log&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "video",
-          "people_also_ask",
-          "organic",
-          "related_searches"
-        ],
-        "items": [
-          {
-            "rank": 4,
-            "domain": "hoodsly.com",
-            "url": "https://hoodsly.com/wood-range-hoods?srsltid=AfmBOor3f8NK-reE2zzVJfIiQzYcQcB82H1MedniFL6g3GpegAHrJp88",
-            "title": "Made To Order Wood Range Hoods Covers - Shop",
-            "description": "Shop an extensive selection of wood range hoods at Hoodsly. We offer unique selection of wood range hood covers, stove vent hood cover. Log ..."
-          },
-          {
-            "rank": 5,
-            "domain": "www.hoodmart.com",
-            "url": "https://www.hoodmart.com/?srsltid=AfmBOoq2ig2m9Lc5MbY1ZySmTjyvA4ClEn325e3zZLtpWRlzxlVv7k9J",
-            "title": "HoodMart | Commercial Range Hoods, Exhaust and Vents",
-            "description": "Buy factory-direct commercial exhaust hoods and fans from Hoodmart. Our high-quality selection is all NSF, UL, NFPA and ETL approved. Check us out today!"
-          },
-          {
-            "rank": 6,
-            "domain": "www.thorkitchen.com",
-            "url": "https://www.thorkitchen.com/collections/range-hood?srsltid=AfmBOor7xhiWaFfn0lDnKHVB0EXQPVF-wzJG_NzPkyf6naewEzzzPSUM",
-            "title": "Range Hoods | Kitchen Exhaust and Vent Hoods",
-            "description": "THOR Kitchen's luxury stove hoods deliver professional ventilation for residential, commercial, and restaurant kitchens. Powerful exhaust fans remove smoke ..."
-          },
-          {
-            "rank": 7,
-            "domain": "ventahood.com",
-            "url": "https://ventahood.com/",
-            "title": "Vent-A-Hood® Range Hoods | Luxury Kitchen Ventilation ...",
-            "description": "Designed to Keep Life Flowing Beautifully · Vent-A-Hood range hoods combine powerful ventilation, remarkably quiet performance and limitless customization. Read more"
-          },
-          {
-            "rank": 8,
-            "domain": "www.stollindustries.com",
-            "url": "https://www.stollindustries.com/range-hoods/",
-            "title": "Metal Range Hoods",
-            "description": "Luxurious, hand-crafted designs that bring the beauty of metal into your kitchen. These premium hoods are forged by hand for a one-of-a-kind look. . Choose ..."
-          },
-          {
-            "rank": 9,
-            "domain": "www.halton.com",
-            "url": "https://www.halton.com/productgroup/commercial-kitchen-exhaust-hoods/",
-            "title": "Commercial Kitchen Exhaust Hoods",
-            "description": "Halton's lineup of commercial kitchen exhaust hoods include a variety of models, each tailored to meet different needs."
-          },
-          {
-            "rank": 10,
-            "domain": "en.wikipedia.org",
-            "url": "https://en.wikipedia.org/wiki/Kitchen_hood",
-            "title": "Kitchen hood",
-            "description": "A kitchen hood, exhaust hood, hood fan, extractor hood, or range hood is a device containing a mechanical fan that hangs above the stove or cooktop in the ... Read more"
-          },
-          {
-            "rank": 11,
-            "domain": "www.youtube.com",
-            "url": "https://www.youtube.com/watch?v=DSj_tCbVza0",
-            "title": "How to Make a Gorgeous DIY Range Hood you can be ...",
-            "description": "In this video, I build a custom range hood cover and structure for my recently remodeled kitchen. This hood cover is made from black walnut ..."
-          }
-        ]
-      }
-    },
     "serp|united states|en|d10|nfpa 96 compliance": {
       "fetchedAt": "2026-10-26T10:41:00.351Z",
       "data": {
@@ -296,159 +74,6 @@
             "url": "https://mfstradeschool.com/en-us/blogs/kitchen-exhaust-hood-cleaning/decoding-nfpa-96-the-ultimate-guide-for-kitchen-technicians?srsltid=AYCX9vL_ZDJdvTcx7_oauAIZixGggdOpefSk4a5VvMYg0a3ysmTSGg9J",
             "title": "NFPA 96: Kitchen Vent & Fire Safety Tips",
             "description": "Jun 16, 2025 — NFPA 96 is the fire safety standard for commercial kitchen exhaust systems. It establishes requirements for hood cleaning, grease removal, ... Read more"
-          }
-        ]
-      }
-    },
-    "serp|united states|en|d10|child care billing": {
-      "fetchedAt": "2026-09-15T09:42:08.405Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=child%20care%20billing&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "organic",
-          "related_searches"
-        ],
-        "items": [
-          {
-            "rank": 1,
-            "domain": "www.michigan.gov",
-            "url": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/cdc/providers/resources/provider-billing-help",
-            "title": "Provider Billing Help",
-            "description": "Call Child Development and Care 866-990-3227 option: 3 for PIN, or billing payment issue. Call MDHHS 844-464-3447 for authorizations (child assignments), number ... Read more"
-          },
-          {
-            "rank": 2,
-            "domain": "www.michigan.gov",
-            "url": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/cdc/providers/resources/provider-billing-guidance",
-            "title": "Provider Billing Guidance",
-            "description": "Call Child Development and Care 866-990-3227 option: 3 for PIN, or billing payment issue. Call MDHHS 844-464-3447 for authorizations (child assignments), number ... Read more"
-          },
-          {
-            "rank": 4,
-            "domain": "idec.illinois.gov",
-            "url": "https://idec.illinois.gov/forproviders/ccap.html",
-            "title": "Child Care Assistance Program",
-            "description": "CCAP Billing and Payment Information … calling 217-557-0930. Child Care Payment Inquiry - (800) 804-3833 a toll-free number"
-          },
-          {
-            "rank": 5,
-            "domain": "www.dhs.state.mn.us",
-            "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903",
-            "title": "9.3 Payments to Providers",
-            "description": "Your agency sends the provider the Child Care Assistance Billing Form (DHS-5523 ), and the provider completes the paper bill and resubmits to the agency. Read more"
-          },
-          {
-            "rank": 6,
-            "domain": "www.tryplayground.com",
-            "url": "https://www.tryplayground.com/solutions/billing",
-            "title": "Child Care Billing & Autopay Software - Playground",
-            "description": "Set mandatory autopay, automate invoicing, and stop chasing late payments. Child care billing software built for centers and home providers."
-          },
-          {
-            "rank": 7,
-            "domain": "www.dhs.state.il.us",
-            "url": "https://www.dhs.state.il.us/page.aspx?item=34482",
-            "title": "IDHS: Child Care Telephone Billing System - CCR&R Staff",
-            "description": "Providers may track the status of payments through the IDHS Payment Inquiry Line by calling 1 (800) 804-3833. The Payment Inquiry Line is updated every ... Read more"
-          },
-          {
-            "rank": 8,
-            "domain": "dss.sd.gov",
-            "url": "https://dss.sd.gov/childcare/billing",
-            "title": "Login - Child Care Provider Payment",
-            "description": "PAYMENT LOGIN Enter your provider number, the month and year of the invoice, and your PIN. 57501 605.773.3165"
-          },
-          {
-            "rank": 9,
-            "domain": "mybrightwheel.com",
-            "url": "https://mybrightwheel.com/blog/child-care-billing",
-            "title": "The 7-Step Guide to Stress-Free Childcare Billing",
-            "description": "Nov 4, 2025 — 7 steps for creating a childcare billing process · Step 1: Review your current billing inefficiencies · Step 2: Choose your billing system. Read more"
-          },
-          {
-            "rank": 10,
-            "domain": "www.lillio.com",
-            "url": "https://www.lillio.com/blog/childcare-billing-payment-guide",
-            "title": "Complete guide to billing and payments for child care centers",
-            "description": "Sep 26, 2024 — Complete guide to billing and payments for child care centers · Setting Your Rates · Bookkeeping · Invoices & Billing · Accepting Payments. Read more"
-          }
-        ]
-      }
-    },
-    "serp|united states|en|d10|child care subsidy delays": {
-      "fetchedAt": "2026-09-15T09:42:18.909Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=child%20care%20subsidy%20delays&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "organic",
-          "people_also_ask",
-          "related_searches"
-        ],
-        "items": [
-          {
-            "rank": 2,
-            "domain": "dese.mo.gov",
-            "url": "https://dese.mo.gov/communications/missouri-submits-justification-federal-child-care-payments",
-            "title": "Missouri Submits Justification for Federal Child Care Payments",
-            "description": "Jan 9, 2026 — As of Friday, 1,743 Missouri child care providers, roughly 53%, were impacted by the delay in federal payment. Phone 573-751-3469"
-          },
-          {
-            "rank": 4,
-            "domain": "www.komu.com",
-            "url": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
-            "title": "Missouri receives delayed federal child care subsidy funds",
-            "description": "Jan 13, 2026 — Providers who submitted invoices between Dec. 30, 2025, and Jan. 12, 2026, can expect payments by Jan. 16. Providers are advised to monitor the ..."
-          },
-          {
-            "rank": 5,
-            "domain": "missouriindependent.com",
-            "url": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
-            "title": "Missouri waiting on $25.7 million payment from feds to ...",
-            "description": "Jan 9, 2026 — The federal government has yet to release $25.7 million in child care subsidy funds to the state of Missouri, leaving providers without pay."
-          },
-          {
-            "rank": 6,
-            "domain": "www.facebook.com",
-            "url": "https://www.facebook.com/groups/721966061245916/posts/25540183595664152/",
-            "title": "Childcare providers missing subsidy payments in ...",
-            "description": "While DESE claimed in late January that 70% of the backlog had been resolved, the ongoing delays have left many families still waiting—and now, ... Read more"
-          },
-          {
-            "rank": 7,
-            "domain": "ncchildcare.ncdhhs.gov",
-            "url": "https://ncchildcare.ncdhhs.gov/Whats-New/payment-delays-possible",
-            "title": "Payment Delays Possible - What's New",
-            "description": "The North Carolina Department of Health and Human Services has experienced delays in the release of federal grant dollars. Child Care Subsidy Subsidy"
-          },
-          {
-            "rank": 8,
-            "domain": "www.youtube.com",
-            "url": "https://www.youtube.com/watch?v=o_gzeL5WJTw",
-            "title": "Delayed federal payment threatens to upend Missouri's ...",
-            "description": "Missouri childcare center closes temporarily amid subsidy delays. Relief Millions Will Lose Medicaid"
-          },
-          {
-            "rank": 9,
-            "domain": "www.childrenofamerica.com",
-            "url": "https://www.childrenofamerica.com/childcare-subsidy-funding-delays-risk-irreparable-harm-to-families-and-the-economy/",
-            "title": "Childcare Subsidy Funding Delays, Risk Irreparable Harm ...",
-            "description": "Applying broad, systemic payment delays or freezes in response to fraud concerns unfairly penalizes responsible providers and the families they serve."
-          },
-          {
-            "rank": 10,
-            "domain": "ctf4kids.org",
-            "url": "https://ctf4kids.org/2024/10/missouris-child-care-crisis/",
-            "title": "Missouri's Child Care Crisis",
-            "description": "Oct 23, 2024 — child care providers receiving subsidy can expect another five weeks of delays due to “missing data.”"
-          },
-          {
-            "rank": 11,
-            "domain": "www.the74million.org",
-            "url": "https://www.the74million.org/article/officials-sound-alarm-over-delayed-federal-child-care-payments-to-states/",
-            "title": "Officials Sound Alarm Over Delayed Federal Child Care ...",
-            "description": "May 16, 2025 — It usually takes two weeks for these block grants to flow to states after Congress passes a continuing resolution funding the government, which ... Read more"
           }
         ]
       }
@@ -11523,6 +11148,384 @@
             "url": "https://oxmaint.com/industries/property-management/elevator-code-compliance-requirements-guide",
             "title": "Elevator Code Compliance: Requirements & Checklist Guide",
             "description": "Apr 6, 2026 — 1 requires annual Category 1 inspections and five-year Category 5 full-load tests. Some jurisdictions require semi-annual inspections. OxMaint ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|osha compliance software": {
+      "fetchedAt": "2026-10-27T10:09:22.439Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=osha%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.sms360.com",
+            "url": "https://www.sms360.com/blog/streamlining-osha-reporting-with-incident-management-software",
+            "title": "Streamlining OSHA Reporting with Incident Management ...",
+            "description": "Mar 12, 2025 — Managing all safety data in one place enables organizations to maintain a single source of truth. This central repository aids in faster access ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.campusoptics.com",
+            "url": "https://www.campusoptics.com/articles/safety-audit-software-for-osha-compliance/",
+            "title": "Top Safety Audit Software for OSHA Compliance 2025",
+            "description": "Sep 10, 2025 — KPA Flex is designed as a broad EHS software platform that helps organizations manage day-to-day safety activities while keeping OSHA ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.cloudapper.ai",
+            "url": "https://www.cloudapper.ai/ehs-software-for-osha-compliance/",
+            "title": "EHS Software for OSHA Record-Keeping and Safety ...",
+            "description": "CloudApper Safety is a simple, affordable EHS software that simplifies all of your regulatory compliance, risk, and workplace safety data."
+          },
+          {
+            "rank": 5,
+            "domain": "www.ideagen.com",
+            "url": "https://www.ideagen.com/thought-leadership/blog/ehs-management-software-osha-compliance",
+            "title": "EHS Management Software for OSHA compliance",
+            "description": "Dec 8, 2023 — Discover how EHS management software can help businesses improve workplace safety, promote accountability, and boost efficiency."
+          },
+          {
+            "rank": 6,
+            "domain": "qhsealert.com",
+            "url": "https://qhsealert.com/workplace-safety-compliance-software-for-osha-readiness/",
+            "title": "Workplace Safety Compliance Software for OSHA Readiness",
+            "description": "Workplace safety compliance software helps organizations meet OSHA standards through automated report, tracking, and real-time monitoring."
+          },
+          {
+            "rank": 7,
+            "domain": "goaudits.com",
+            "url": "https://goaudits.com/blog/best-osha-apps/",
+            "title": "Top 5 OSHA Apps & Software in 2026",
+            "description": "Feb 20, 2026 — GoAudits OSHA compliance software is an all-in-one solution for audits, inspections, and compliance. Its intuitive OSHA mobile app and web ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "revenuebase.ai",
+            "url": "https://revenuebase.ai/companies/browse/osha-compliance-software-companies",
+            "title": "Top 25 Osha compliance software companies Worldwide",
+            "description": "Sep 29, 2026 — The top 25 of 887 company matches for osha compliance software companies worldwide, ordered by contacts tracked, with recorded descriptions, ..."
+          },
+          {
+            "rank": 10,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/fb-answers/osha-compliance-software-reviews/",
+            "title": "OSHA Compliance Software Reviews and ...",
+            "description": "SafeOps and ARC Safety Platform are two AI-powered options getting attention for automating OSHA compliance, with SafeOps handling 300/300A/301 forms and..."
+          },
+          {
+            "rank": 11,
+            "domain": "blog.snapinspect.com",
+            "url": "https://blog.snapinspect.com/how-to-ensure-osha-compliance-with-the-right-inspection-software/",
+            "title": "How to Ensure OSHA Compliance with the Right ...",
+            "description": "Using inspection software like SnapInspect simplifies the process by automating inspections, tracking corrective actions, and ensuring accurate record-keeping. Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|osha fall protection violations": {
+      "fetchedAt": "2026-10-27T10:09:28.869Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=osha%20fall%20protection%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.osha.gov",
+            "url": "http://www.osha.gov/fall-protection",
+            "title": "Fall Protection - Overview",
+            "description": "Employers must set up the work place to prevent employees from falling off of overhead platforms, elevated work stations or into holes in the floor and walls. Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.safetybydesigninc.com",
+            "url": "https://www.safetybydesigninc.com/osha-violation-types-osha-fines-list/",
+            "title": "OSHA Violations 2026 Guide to Citations and Federal Fines",
+            "description": "Feb 23, 2026 — Fall Protection – General Requirements. High-gravity (serious) violation penalties are $16,550. Moderate-gravity (semi-serious) violation fines ..."
+          },
+          {
+            "rank": 4,
+            "domain": "www.osha.gov",
+            "url": "http://www.osha.gov/penalties",
+            "title": "OSHA Penalties",
+            "description": "$16,550 per violation Failure to Abate $16,550 per day beyond the abatement date Willful or Repeated $165,514 per violation"
+          },
+          {
+            "rank": 6,
+            "domain": "amtrustfinancial.com",
+            "url": "https://amtrustfinancial.com/blog/loss-control/what-are-the-types-of-osha-violations",
+            "title": "What are the Types of OSHA Violations?",
+            "description": "Fall Protection-General Requirements · Hazard Communications · Respiratory Protection · Ladders · Scaffolding · Lockout/Tagout · Powered Industrial Trucks · Fall ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.safetyevolution.com",
+            "url": "https://www.safetyevolution.com/blog/fall-protection-violations",
+            "title": "Fall Protection Violations: OSHA Citations and Penalties",
+            "description": "Apr 9, 2026 — As of January 2025, a serious fall protection violation carries a maximum penalty of $16,550. Willful or repeated violations carry a maximum of ... Read more"
+          },
+          {
+            "rank": 8,
+            "domain": "garlocksafety.com",
+            "url": "https://garlocksafety.com/fall-protection-oshas-1-violation-for-14-years-straight-and-what-that-means-for-your-business/",
+            "title": "Fall Protection: OSHA's #1 Violation for 14 Years Straight",
+            "description": "OSHA penalties for fall protection violations in 2024 are steep : Serious / Other-than-Serious / Posting Requirements – $16,550 per violation; Failure to Abate – ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "safetyrailsource.com",
+            "url": "https://safetyrailsource.com/blogs/news/the-most-common-osha-fall-protection-violations?srsltid=AYCX9vIA09n9jzUizjS1QicENwhQZtiqXVbBrDuwPsSacorLpEKmXDWk",
+            "title": "The Most Common OSHA Fall-Protection Violations",
+            "description": "Mar 27, 2025 — The Most Common OSHA Fall-Protection Violations · 1. Failure to Provide Fall Protection at Required Heights · 2. Lack of Proper Guardrails and ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "arauniversity.org",
+            "url": "https://arauniversity.org/fall-protection-how-to-avoid-the-most-common-osha-violation/",
+            "title": "Fall Protection: How to Avoid the Most Common OSHA Violation",
+            "description": "“Fall Protection – Training Requirements” was ranked at #8. Combined, violations of these two standards accounted for nearly 8,000 OSHA citations in 2019. Read more"
+          },
+          {
+            "rank": 11,
+            "domain": "simplifiedsafety.com",
+            "url": "https://simplifiedsafety.com/blog/how-much-does-osha-violation-cost/?srsltid=AYCX9vI8P2b0Y7RrrWN94yBxVhIbK2JGJ4EJXCEk45rNLyy2yntzOmqM",
+            "title": "How Much Does a Fall Protection Violation Cost?",
+            "description": "Common OSHA Violations That Drive These Fines · Unprotected Leading Edges · Unprotected Skylights · Improper Rooftop Access Systems · Unsafe Walking/Working ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|epa compliance software": {
+      "fetchedAt": "2026-10-27T10:09:34.617Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=epa%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "dakotasoft.com",
+            "url": "https://dakotasoft.com/our-customers/",
+            "title": "EHS Software Case Studies by Industry",
+            "description": "Explore real-world case studies of companies using EHS software to improve audits, compliance, and reporting with Dakota's ProActivity Suite."
+          },
+          {
+            "rank": 3,
+            "domain": "www.enterbridge.com",
+            "url": "https://www.enterbridge.com/blog/top-10-environmental-compliance-software",
+            "title": "Top 10 Environmental Compliance Software",
+            "description": "Aug 22, 2024 — Top 10 Environmental Compliance Software · EHS Insight · Benchmark Gensuite EHS · Cority · ecoPortal · Forms On Fire · SafetyCulture · ETQ Reliance. Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "farmonaut.com",
+            "url": "https://farmonaut.com/mining/oil-and-gas-environmental-compliance-top-7-software",
+            "title": "Oil and Gas Environmental Compliance Software Compared",
+            "description": "Jul 21, 2026 — Environmental compliance platforms used in oil and gas range from Enablon and Sphera to Cority and Ecesis,"
+          },
+          {
+            "rank": 5,
+            "domain": "www.locustec.com",
+            "url": "https://www.locustec.com/applications/risk-compliance/",
+            "title": "EHS Compliance Management Software",
+            "description": "Our EHS compliance management software helps businesses optimize operations, fulfill every regulatory requirement, and minimize carbon."
+          },
+          {
+            "rank": 7,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=5SjB-y1AAtU",
+            "title": "Environmental Compliance Tools to Streamline Your Programs",
+            "description": "Ensure environmental regulatory compliance and save time on data collection and report generation with ERA's software."
+          },
+          {
+            "rank": 8,
+            "domain": "www.era-environmental.com",
+            "url": "https://www.era-environmental.com/blog/compliance-software-systems-understanding-your-choices",
+            "title": "Compliance Software Systems: Understanding Your Choices",
+            "description": "Sep 17, 2024 — Learn about the different types of compliance software available: environmental management, health & safety, CMS, enterprise compliance ..."
+          },
+          {
+            "rank": 9,
+            "domain": "response.epa.gov",
+            "url": "https://response.epa.gov/main/sw_db.aspx",
+            "title": "Software & Databases - EPA OSC Response",
+            "description": "This web site contains software packages including the Removal Cost Management System (RCMS), and Scribe. Databases and Software for EPA Emergency Management Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.qualityze.com",
+            "url": "https://www.qualityze.com/blogs/environmental-compliance-tracking-software",
+            "title": "The Best Environmental Compliance Tracking Software",
+            "description": "Aug 18, 2026 — Environmental compliance tracking software is a digital platform that helps businesses monitor and organize their environmental tasks."
+          },
+          {
+            "rank": 11,
+            "domain": "dakotasoft.com",
+            "url": "https://dakotasoft.com/solutions/ehs-compliance/",
+            "title": "EHS Compliance Made Actionable",
+            "description": "Simplify EHS compliance with regulatory intelligence, compliance planning, audits, and task management in one integrated platform."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|pesticide software": {
+      "fetchedAt": "2026-10-27T10:10:00.598Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=pesticide%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "video",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "gorilladesk.com",
+            "url": "https://gorilladesk.com/",
+            "title": "GorillaDesk: Pest control software with AI at the core",
+            "description": "GorillaDesk is the all-in-one, AI-powered operating system for the green service industry & hybrid field companies. Start 14-day trial Watch a demo No setup ..."
+          },
+          {
+            "rank": 3,
+            "domain": "knowtify.net",
+            "url": "https://knowtify.net/pesticide-compliance-software-features/",
+            "title": "Pesticide Compliance Software | SaaS Tools",
+            "description": "Discover Pesticide Compliance Software With EPA Tracking, MRID Data Search, And Product Label Comparison Tools. Stay Ahead Of Market Changes."
+          },
+          {
+            "rank": 4,
+            "domain": "mitti.com",
+            "url": "https://mitti.com/apps/best-pest-control-software",
+            "title": "10 Best Pest Control Software Programs 2026 - Mitti",
+            "description": "The 10 Best Pest Control Software of 2026 · Mitti (by SafetyCulture) · Breezeworks · Fieldster · FieldRoutes · Kickserv · Briostack · PestaRoo · GroundsKeeper ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.reddit.com",
+            "url": "https://www.reddit.com/r/pestcontrol/comments/1ccbqzj/whats_the_best_pest_control_software_for_someone/",
+            "title": "What's the best pest control software for someone just ...",
+            "description": "Howdy. I'm helping a friend who runs a small but fast growing lawn care business with a couple of digital upgrades. His entire business a been running purely ..."
+          },
+          {
+            "rank": 6,
+            "domain": "myquoteiq.com",
+            "url": "https://myquoteiq.com/top-10-best-pesticide-record-keeping-software-for-pest-control-businesses-in-2026/",
+            "title": "Top 10 Pesticide Record Keeping Software 2026",
+            "description": "Oct 7, 2026 — Compare the 10 best pesticide record keeping software tools for pest control businesses in 2026: verified pricing, EPA-number logs and ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.pestboss.com",
+            "url": "https://www.pestboss.com/",
+            "title": "PestBoss: Pest Control Software that adapts to the way you do ...",
+            "description": "Pest control productivity software that helps professionals streamline core processes and get more work done. PestBoss helps you do less and earn more."
+          },
+          {
+            "rank": 9,
+            "domain": "www.servicetitan.com",
+            "url": "https://www.servicetitan.com/industries/pest-control-software",
+            "title": "Best Pest Control Software 2026 | Scheduling, CRM ...",
+            "description": "Increase efficiency and improve customer service with our easy to use, all-in-one pest control software. Digital Invoicing, Dispatching, Reporting and more."
+          },
+          {
+            "rank": 11,
+            "domain": "www.capterra.com",
+            "url": "https://www.capterra.com/pest-control-software/s/free/",
+            "title": "Best Free Pest Control Software Solutions 2026",
+            "description": "Find and compare the 2026 best free Pest Control software solutions, using our interactive tool to quickly narrow your choices based on businesses like ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|pesticide application record requirements": {
+      "fetchedAt": "2026-10-27T10:10:10.046Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=pesticide%20application%20record%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "agr.wa.gov",
+            "url": "https://agr.wa.gov/departments/pesticides-and-fertilizers/pesticides/compliance/recordkeeping",
+            "title": "Pesticide Recordkeeping Requirements",
+            "description": "If the WSDA requests the submission of pesticide application records you must use an official WSDA form. Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "texasagriculture.gov",
+            "url": "https://texasagriculture.gov/Regulatory-Programs/Pesticides/Agricultural-Applicators/Agriculture-Pesticide-Applicator-Recordkeeping-Requirements",
+            "title": "Agriculture Pesticide Applicator Recordkeeping ...",
+            "description": "Certified Private and Private Applicators must maintain records of each application of a restricted-use pesticide, state-limited-use pesticide, or regulated ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "extension.psu.edu",
+            "url": "https://extension.psu.edu/pesticide-application-recordkeeping-manual/",
+            "title": "Pesticide Application Recordkeeping Manual",
+            "description": "Feb 6, 2024 — These records must be maintained for three years and be completed within 24 hours of the pesticide application."
+          },
+          {
+            "rank": 6,
+            "domain": "pested.osu.edu",
+            "url": "https://pested.osu.edu/PrivateApplicator/recordkeeping",
+            "title": "Ohio Pesticide Application Recordkeeping Requirements",
+            "description": "Records for restricted-use pesticide applications are recorded on date of application Must retain records for 3 years from the date of application"
+          },
+          {
+            "rank": 7,
+            "domain": "pestmanagement.rutgers.edu",
+            "url": "https://pestmanagement.rutgers.edu/pat/record-forms-2-2/",
+            "title": "Pesticide Application Records & Forms",
+            "description": "Records of all pesticide applications must be maintained on file as follows: Private applicators: 3 years Commercial applicators: 3 years;"
+          },
+          {
+            "rank": 8,
+            "domain": "rules.sos.ga.gov",
+            "url": "https://rules.sos.ga.gov/gac/40-21-5",
+            "title": "Subject 40-21-5 RECORD KEEPING REQUIREMENTS",
+            "description": "All records required for pesticide application shall be maintained for a period of two (2) years. Rule 40-21-5-.04 Inspection of Records. The Commissioner or ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "pested.unl.edu",
+            "url": "https://pested.unl.edu/private-applicator-recordkeeping-resources/",
+            "title": "Private Applicator Recordkeeping Resources",
+            "description": "Private pesticide applicators must make records of all applications involving restricted-use pesticides (RUPs) within 14 days of an application."
+          },
+          {
+            "rank": 10,
+            "domain": "www.nysprl.com",
+            "url": "https://www.nysprl.com/PRLRecordkeepingRequirementsforApplicators.pdf",
+            "title": "PRL: Recordkeeping Requirements for Pesticide Applicators",
+            "description": "Records must be maintained for 3 years and shall be available for inspection upon request by the Department. All WPS records must be retained for 2 years and ..."
+          },
+          {
+            "rank": 11,
+            "domain": "www.ams.usda.gov",
+            "url": "https://www.ams.usda.gov/rules-regulations/pesticide-records/understanding",
+            "title": "Understanding Federal Pesticide Recordkeeping",
+            "description": "Spot Treatment Requirements · Date of application including month, day, and year. · Brand or product name. · EPA registration number. · Total amount of pesticide ... Read more"
           }
         ]
       }

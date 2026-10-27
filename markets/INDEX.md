@@ -4,6 +4,7 @@ Structural teardowns of markets this agent has analyzed. Newest update first.
 
 | Market | Slug | Last updated | Last score | Last idea |
 |---|---|---|---|---|
+| US Commercial Roofing Contractor Fall Protection Compliance Software | us-commercial-roofing-fall-protection-compliance-software | 2026-10-27 | 96 | The Commercial Roofing Contractor's "Fall Protection Audit-Ready" Daily Log |
 | US Independent HVAC Contractor | us-independent-hvac-refrigerant-compliance-software | 2026-10-25 | 96 | The Independent HVAC Contractor's "EPA-Proof" Refrigerant Tracking & 608 Log |
 | US Independent Auto Repair Shop Environmental Waste Management Software | us-independent-auto-repair-environmental-waste-management-so | 2026-10-22 | 91 | The Independent Auto Repair Shop's "EPA-Proof" Waste Management Log |
 | US Independent Veterinary Clinic Medical Waste Compliance Software | us-independent-veterinary-clinic-medical-waste-compliance-so | 2026-10-21 | 92 | The Independent Veterinary Clinic's "Multi-Agency Medical Waste" Compliance Hub |

@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-27
+*   **"Instance-by-Instance" Enforcement as a Super-Charger:** Specific regulatory policy shifts, like OSHA's "instance-by-instance" citation, can dramatically amplify existing compliance pain, turning a manageable risk into a catastrophic financial threat, creating an extremely powerful "why now" for specialized solutions.
+*   **Insurance Premiums as a Constant, Quantifiable Pain:** Beyond direct fines, consistently high and unavoidable operational costs, such as workers' compensation insurance premiums in high-risk industries, represent a continuous, quantifiable financial pain point that drives demand for solutions that can demonstrate risk reduction.
+*   **The "Mobile-First for Field Crews" Imperative:** For industries with a significant field component, the success of digital compliance tools hinges on an extremely intuitive, mobile-first design that minimizes data entry friction and accommodates varying levels of tech literacy among workers.
+
 ## 2026-10-26 (trends)
 - **AI as a "Full-Stack Solopreneur":** AI is enabling solopreneurs to perform entire business functions (product creation, learning and development, creator management) that previously required a team, by automating everything from ideation and content generation to marketing and operational workflows.
 - **The "Agentic Layer" for Personal & Professional Growth:** The most compelling AI applications are shifting from reactive tools to proactive "agents" that continuously monitor, adapt, and orchestrate complex processes (e.g., learning paths, content strategies, community engagement) with minimal human intervention.

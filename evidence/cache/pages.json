@@ -1,131 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "page|https://www.sesolabor.com/pricing": {
-      "fetchedAt": "2026-09-15T09:34:16.089Z",
-      "data": {
-        "url": "https://www.sesolabor.com/pricing",
-        "finalUrl": "https://www.sesolabor.com/pricing",
-        "retrievedAt": "2026-09-15T09:34:16.089Z",
-        "status": 404,
-        "error": "HTTP 404"
-      }
-    },
-    "page|https://www.sesolabor.com/solutions/h-2a-software": {
-      "fetchedAt": "2026-09-15T09:34:16.088Z",
-      "data": {
-        "url": "https://www.sesolabor.com/solutions/h-2a-software",
-        "finalUrl": "https://www.sesolabor.com/solutions/h-2a-software",
-        "retrievedAt": "2026-09-15T09:34:16.088Z",
-        "status": 200,
-        "error": null,
-        "title": "H-2A Filing and Compliance Software | Seso, Inc.",
-        "description": "Seso harnesses the power of the industry’s best H-2A legal resources and Seso’s H-2A filing & compliance software to simplify and streamline the H-2A process.",
-        "priceMentions": [],
-        "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
-        "mentionsPricing": false
-      }
-    },
-    "page|https://www.harrisbeachmurtha.com/pricing": {
-      "fetchedAt": "2026-09-15T09:34:16.086Z",
-      "data": {
-        "url": "https://www.harrisbeachmurtha.com/pricing",
-        "finalUrl": "https://www.harrisbeachmurtha.com/pricing",
-        "retrievedAt": "2026-09-15T09:34:16.086Z",
-        "status": 404,
-        "error": "HTTP 404"
-      }
-    },
-    "page|https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/": {
-      "fetchedAt": "2026-09-15T09:34:16.085Z",
-      "data": {
-        "url": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
-        "finalUrl": "https://www.harrisbeachmurtha.com/insights/growing-right-employer-strategies-for-h-2a-compliance-obligations-and-best-practices/",
-        "retrievedAt": "2026-09-15T09:34:16.085Z",
-        "status": 200,
-        "error": null,
-        "title": "H-2A Compliance Strategies for Employers | Harris Beach Murtha",
-        "description": "Learn key H-2A visa compliance tips and best practices for agricultural employers.",
-        "priceMentions": [
-          {
-            "text": "$16.28",
-            "billingUnit": false,
-            "context": "and outbound travel costs, subsistence expenses (currently $16.28/day, or up to $68/day with receipts), and daily transport b"
-          },
-          {
-            "text": "$68",
-            "billingUnit": false,
-            "context": "costs, subsistence expenses (currently $16.28/day, or up to $68/day with receipts), and daily transport between housing and"
-          },
-          {
-            "text": "$2.40",
-            "billingUnit": false,
-            "context": "tate minimum wage. In New York State, this deduction equals $2.40/hour. This adjustment does not apply to domestic workers ev"
-          }
-        ],
-        "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
-        "mentionsPricing": false
-      }
-    },
-    "page|https://www.gislason.com/pricing": {
-      "fetchedAt": "2026-09-15T09:34:16.090Z",
-      "data": {
-        "url": "https://www.gislason.com/pricing",
-        "finalUrl": "https://www.gislason.com/pricing",
-        "retrievedAt": "2026-09-15T09:34:16.090Z",
-        "status": 404,
-        "error": "HTTP 404"
-      }
-    },
-    "page|https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/": {
-      "fetchedAt": "2026-09-15T09:34:16.089Z",
-      "data": {
-        "url": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
-        "finalUrl": "https://www.gislason.com/top-5-compliance-issues-for-employers-using-h-2a-visa-workers/",
-        "retrievedAt": "2026-09-15T09:34:16.089Z",
-        "status": 200,
-        "error": null,
-        "title": "Top 5 Compliance Issues for Employers Using H-2A Visa Workers - Gislason & Hunter",
-        "description": "The H-2A program allows foreign workers to perform agricultural labor or services of a temporary or seasonal nature in the United States. This program,",
-        "priceMentions": [
-          {
-            "text": "$6,386",
-            "billingUnit": false,
-            "context": "be an expensive mistake resulting in civil penalties up to $6,386 per violation (each day is a separate violation). Employers"
-          },
-          {
-            "text": "$14",
-            "billingUnit": false,
-            "context": "he amount allowed by the DOL. The current maximum charge is $14 per day for three meals. 5 Employers cannot charge an H-2A"
-          },
-          {
-            "text": "$63,232",
-            "billingUnit": false,
-            "context": "reover, the DOL can assess additional civil penalties up to $63,232 or $126,463 (repeat or willful violation) per worker for vi"
-          },
-          {
-            "text": "$126,463",
-            "billingUnit": false,
-            "context": "DOL can assess additional civil penalties up to $63,232 or $126,463 (repeat or willful violation) per worker for violations of"
-          },
-          {
-            "text": "$18,970",
-            "billingUnit": false,
-            "context": "employ an H-2A worker may be assessed a civil penalty up to $18,970 per rejected, laid off, or displaced U.S. worker and liable"
-          },
-          {
-            "text": "$10,000",
-            "billingUnit": false,
-            "context": "fraudulent statement or entry, shall be fined not more than $10,000 or imprisoned not more than 5 years, or both.” 29 C.F.R. §"
-          }
-        ],
-        "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
-        "mentionsPricing": false
-      }
-    },
     "page|https://www.nfpa.org/codes-and-standards/nfpa-96-standard-development/96": {
       "fetchedAt": "2026-10-26T10:41:25.067Z",
       "data": {
@@ -142,119 +17,12 @@
         "mentionsPricing": false
       }
     },
-    "page|https://kitchenguard.com/nfpa-96-codes/": {
-      "fetchedAt": "2026-09-15T09:42:23.212Z",
-      "data": {
-        "url": "https://kitchenguard.com/nfpa-96-codes/",
-        "finalUrl": "https://kitchenguard.com/nfpa-96-codes/",
-        "retrievedAt": "2026-09-15T09:42:23.212Z",
-        "status": 200,
-        "error": null,
-        "title": "NFPA 96 Standards Explained - Safety Guide | Kitchen Guard",
-        "description": "Kitchen Guard follows the highest NFPA standards to protect your kitchen and ensure safety. Trust our certified team for expert cleaning and compliance.",
-        "priceMentions": [],
-        "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
-        "mentionsPricing": false
-      }
-    },
     "page|https://www.nfpa.org/pricing": {
       "fetchedAt": "2026-10-26T10:41:25.067Z",
       "data": {
         "url": "https://www.nfpa.org/pricing",
         "finalUrl": "https://www.nfpa.org/pricing",
         "retrievedAt": "2026-10-26T10:41:25.067Z",
-        "status": 404,
-        "error": "HTTP 404"
-      }
-    },
-    "page|https://kitchenguard.com/pricing": {
-      "fetchedAt": "2026-09-15T09:42:23.213Z",
-      "data": {
-        "url": "https://kitchenguard.com/pricing",
-        "finalUrl": "https://kitchenguard.com/pricing",
-        "retrievedAt": "2026-09-15T09:42:23.213Z",
-        "status": 404,
-        "error": "HTTP 404"
-      }
-    },
-    "page|https://www.komu.com/pricing": {
-      "fetchedAt": "2026-09-15T09:42:25.367Z",
-      "data": {
-        "url": "https://www.komu.com/pricing",
-        "finalUrl": "https://www.komu.com/pricing",
-        "retrievedAt": "2026-09-15T09:42:25.367Z",
-        "status": 429,
-        "error": "HTTP 429"
-      }
-    },
-    "page|https://www.dhs.state.mn.us/pricing": {
-      "fetchedAt": "2026-09-15T09:42:25.368Z",
-      "data": {
-        "url": "https://www.dhs.state.mn.us/pricing",
-        "retrievedAt": "2026-09-15T09:42:25.368Z",
-        "status": null,
-        "error": "robots.txt disallows this path"
-      }
-    },
-    "page|https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903": {
-      "fetchedAt": "2026-09-15T09:42:25.367Z",
-      "data": {
-        "url": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=ccap_0903",
-        "retrievedAt": "2026-09-15T09:42:25.367Z",
-        "status": null,
-        "error": "robots.txt disallows this path"
-      }
-    },
-    "page|https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html": {
-      "fetchedAt": "2026-09-15T09:42:25.366Z",
-      "data": {
-        "url": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
-        "finalUrl": "https://www.komu.com/news/state/missouri-receives-delayed-federal-child-care-subsidy-funds/article_6de0d438-fed7-4608-a9f5-68809ba879b8.html",
-        "retrievedAt": "2026-09-15T09:42:25.366Z",
-        "status": 200,
-        "error": null,
-        "title": "Missouri receives delayed federal child care subsidy funds | State News | komu.com",
-        "description": "A federal requirement to justify funding caused delays that affected more than half of Missouri child care providers.",
-        "priceMentions": [],
-        "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
-        "mentionsPricing": true
-      }
-    },
-    "page|https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/": {
-      "fetchedAt": "2026-09-15T09:42:25.369Z",
-      "data": {
-        "url": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
-        "finalUrl": "https://missouriindependent.com/2026/01/09/missouri-waiting-on-25-7-million-payment-from-feds-to-reimburse-child-care-providers/",
-        "retrievedAt": "2026-09-15T09:42:25.369Z",
-        "status": 200,
-        "error": null,
-        "title": "Missouri waiting on $25.7 million payment from feds to reimburse child care providers • Missouri Independent",
-        "description": "The federal government has yet to release $25.7 million in child care subsidy funds to the state of Missouri, leaving providers without pay.",
-        "priceMentions": [
-          {
-            "text": "$49,000",
-            "billingUnit": false,
-            "context": "state owes her business, Rising Sun Learning Center, around $49,000 in payments as part of a subsidy program that reimburses ch"
-          },
-          {
-            "text": "$48,225",
-            "billingUnit": false,
-            "context": "erty level to qualify for a full benefit. In 2025, that was $48,225 for a family of four. Families earning up to 215% of the fe"
-          }
-        ],
-        "mentionsFreeTrial": false,
-        "mentionsContactSales": false,
-        "mentionsPricing": false
-      }
-    },
-    "page|https://missouriindependent.com/pricing": {
-      "fetchedAt": "2026-09-15T09:42:25.370Z",
-      "data": {
-        "url": "https://missouriindependent.com/pricing",
-        "finalUrl": "https://missouriindependent.com/pricing",
-        "retrievedAt": "2026-09-15T09:42:25.370Z",
         "status": 404,
         "error": "HTTP 404"
       }
@@ -413,20 +181,20 @@
       }
     },
     "page|https://mitti.com/pricing": {
-      "fetchedAt": "2026-09-16T09:39:05.728Z",
+      "fetchedAt": "2026-10-27T10:10:17.471Z",
       "data": {
         "url": "https://mitti.com/pricing",
         "finalUrl": "https://mitti.com/pricing",
-        "retrievedAt": "2026-09-16T09:39:05.728Z",
+        "retrievedAt": "2026-10-27T10:10:17.471Z",
         "status": 200,
         "error": null,
-        "title": "Pricing | Mitti (by SafetyCulture)",
+        "title": "Pricing | SafetyCulture",
         "description": "Try any plan free for 30 days, no upfront commitment. Used for more than 50+ million inspections in over 80 countries.",
         "priceMentions": [
           {
             "text": "$0",
             "billingUnit": false,
-            "context": "ams (up to 10) getting started with inspections and reports $0 Start for free (opens in new tab) Includes: Up to 300 AI cr"
+            "context": "ams (up to 10) getting started with inspections and reports $0 Start for free (opens in new tab) Per-seat pricing only Inc"
           },
           {
             "text": "$24 / seat",
@@ -439,7 +207,7 @@
             "context": "17%) $24 / seat / month Excl. all applicable taxes Monthly $29 / seat / month Excl. all applicable taxes Start for free (opens in"
           }
         ],
-        "mentionsFreeTrial": true,
+        "mentionsFreeTrial": false,
         "mentionsContactSales": true,
         "mentionsPricing": true
       }
@@ -9105,6 +8873,449 @@
         "priceMentions": [],
         "mentionsFreeTrial": false,
         "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.sms360.com/blog/streamlining-osha-reporting-with-incident-management-software": {
+      "fetchedAt": "2026-10-27T10:10:14.143Z",
+      "data": {
+        "url": "https://www.sms360.com/blog/streamlining-osha-reporting-with-incident-management-software",
+        "finalUrl": "https://www.sms360.com/blog/streamlining-osha-reporting-with-incident-management-software",
+        "retrievedAt": "2026-10-27T10:10:14.143Z",
+        "status": 200,
+        "error": null,
+        "title": "Streamlining OSHA Reporting with Incident Management Software",
+        "description": "Navigating Occupational Safety and Health Administration (OSHA) regulations can be challenging for organizations, especially when it comes to reporting workplace incidents.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.sms360.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:14.145Z",
+      "data": {
+        "url": "https://www.sms360.com/pricing",
+        "finalUrl": "https://www.sms360.com/pricing",
+        "retrievedAt": "2026-10-27T10:10:14.145Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.campusoptics.com/articles/safety-audit-software-for-osha-compliance/": {
+      "fetchedAt": "2026-10-27T10:10:14.146Z",
+      "data": {
+        "url": "https://www.campusoptics.com/articles/safety-audit-software-for-osha-compliance/",
+        "finalUrl": "https://www.campusoptics.com/articles/safety-audit-software-for-osha-compliance/",
+        "retrievedAt": "2026-10-27T10:10:14.146Z",
+        "status": 200,
+        "error": null,
+        "title": "Top Safety Audit Software for OSHA Compliance 2025",
+        "description": "Discover the top safety audit software for OSHA compliance in 2025 - compare tools that simplify inspections, audits, and recordkeeping.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.safetybydesigninc.com/osha-violation-types-osha-fines-list/": {
+      "fetchedAt": "2026-10-27T10:10:14.149Z",
+      "data": {
+        "url": "https://www.safetybydesigninc.com/osha-violation-types-osha-fines-list/",
+        "finalUrl": "https://www.safetybydesigninc.com/osha-violation-types-osha-fines-list/",
+        "retrievedAt": "2026-10-27T10:10:14.149Z",
+        "status": 200,
+        "error": null,
+        "title": "OSHA Violations 2026 Guide to Citations and Federal Fines",
+        "description": "Safety by Design is a full service third party safety consulting firm specializing in laying the foundation and working with management to maintain overall effectiveness.",
+        "priceMentions": [
+          {
+            "text": "$17,004",
+            "billingUnit": false,
+            "context": "sed on the seriousness of the violation and can reach up to $17,004 for each. It can be more cost-effective to have a workplace"
+          },
+          {
+            "text": "$16,550",
+            "billingUnit": false,
+            "context": "categories. High-gravity (serious) violation penalties are $16,550. Moderate-gravity (semi-serious) violation fines range from"
+          },
+          {
+            "text": "$9,457",
+            "billingUnit": false,
+            "context": "Moderate-gravity (semi-serious) violation fines range from $9,457 to $14,187. A low-gravity (less serious) violation fine is"
+          },
+          {
+            "text": "$14,187",
+            "billingUnit": false,
+            "context": "gravity (semi-serious) violation fines range from $9,457 to $14,187. A low-gravity (less serious) violation fine is $7,093 for"
+          },
+          {
+            "text": "$7,093",
+            "billingUnit": false,
+            "context": "to $14,187. A low-gravity (less serious) violation fine is $7,093 for each incurred penalty. 2. Other-Than-Serious An Other-T"
+          },
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "oyer shows a proactive commitment to safety. Penalty Range: $0 to $16,550 per violation. Reductions: While the maximum is"
+          },
+          {
+            "text": "$165,514",
+            "billingUnit": false,
+            "context": "five years, companies will face stiffer penalties of up to $165,514. Willful violations are the most serious. The violation occ"
+          },
+          {
+            "text": "$1,221",
+            "billingUnit": false,
+            "context": ". Type of Violation Minimum Penalty Maximum Penalty Serious $1,221 per violation $16,550 per violation Other-than-serious $0 p"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.campusoptics.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:14.147Z",
+      "data": {
+        "url": "https://www.campusoptics.com/pricing",
+        "finalUrl": "https://www.campusoptics.com/pricing",
+        "retrievedAt": "2026-10-27T10:10:14.147Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.safetybydesigninc.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:14.150Z",
+      "data": {
+        "url": "https://www.safetybydesigninc.com/pricing",
+        "finalUrl": "https://www.safetybydesigninc.com/pricing",
+        "retrievedAt": "2026-10-27T10:10:14.150Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.enterbridge.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:16.311Z",
+      "data": {
+        "url": "https://www.enterbridge.com/pricing",
+        "finalUrl": "https://www.enterbridge.com/pricing",
+        "retrievedAt": "2026-10-27T10:10:16.311Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://dakotasoft.com/our-customers/": {
+      "fetchedAt": "2026-10-27T10:10:16.308Z",
+      "data": {
+        "url": "https://dakotasoft.com/our-customers/",
+        "finalUrl": "https://dakotasoft.com/our-customers/",
+        "retrievedAt": "2026-10-27T10:10:16.308Z",
+        "status": 200,
+        "error": null,
+        "title": "EHS Software Case Studies by Industry | Dakota Software",
+        "description": "Explore real-world case studies of companies using EHS software to improve audits, compliance, and reporting with Dakota’s ProActivity Suite.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://farmonaut.com/mining/oil-and-gas-environmental-compliance-top-7-software": {
+      "fetchedAt": "2026-10-27T10:10:16.312Z",
+      "data": {
+        "url": "https://farmonaut.com/mining/oil-and-gas-environmental-compliance-top-7-software",
+        "finalUrl": "https://farmonaut.com/mining/oil-and-gas-environmental-compliance-top-7-software",
+        "retrievedAt": "2026-10-27T10:10:16.312Z",
+        "status": 200,
+        "error": null,
+        "title": "Oil and Gas Environmental Compliance Software Compared",
+        "description": "Environmental compliance platforms used in oil and gas range from Enablon and Sphera to Cority and Ecesis, with different owners, coverage and pricing.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.enterbridge.com/blog/top-10-environmental-compliance-software": {
+      "fetchedAt": "2026-10-27T10:10:16.310Z",
+      "data": {
+        "url": "https://www.enterbridge.com/blog/top-10-environmental-compliance-software",
+        "finalUrl": "https://www.enterbridge.com/blog/top-10-environmental-compliance-software",
+        "retrievedAt": "2026-10-27T10:10:16.310Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 10 Environmental Compliance Software",
+        "description": "We",
+        "priceMentions": [
+          {
+            "text": "$ 7,000 per year",
+            "billingUnit": true,
+            "context": "Pricing: Benchmark Gensuite EHS has a basic pricing plan of $ 7,000 per year and offers a free trial; however, it does not offer a free"
+          },
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "n. Based on our most recent analysis, its pricing starts at $1,000. Considerations: EcoPortal is best suited for midsize to la"
+          },
+          {
+            "text": "$25 /mo",
+            "billingUnit": true,
+            "context": "ctions(CAPA) Pricing: Standard pricing for Forms On Fire is $25 /mo, with a premium of $35/mo. A custom option is available for"
+          },
+          {
+            "text": "$35/mo",
+            "billingUnit": true,
+            "context": "ard pricing for Forms On Fire is $25 /mo, with a premium of $35/mo. A custom option is available for enterprises. Consideratio"
+          },
+          {
+            "text": "$24.00 per month",
+            "billingUnit": true,
+            "context": "ffers both a free version and a free trial. Prices start at $24.00 per month. Considerations: SafetyCulture is suitable for businesses o"
+          },
+          {
+            "text": "$35",
+            "billingUnit": false,
+            "context": "ractice Management has three pricing editions: Mango Basic, $35; Mango Plus, $59; and Mango Pro, $69. Considerations: Mango"
+          },
+          {
+            "text": "$59",
+            "billingUnit": false,
+            "context": "t has three pricing editions: Mango Basic, $35; Mango Plus, $59; and Mango Pro, $69. Considerations: Mango is suitable for"
+          },
+          {
+            "text": "$69",
+            "billingUnit": false,
+            "context": "editions: Mango Basic, $35; Mango Plus, $59; and Mango Pro, $69. Considerations: Mango is suitable for businesses of all si"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://dakotasoft.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:16.309Z",
+      "data": {
+        "url": "https://dakotasoft.com/pricing",
+        "finalUrl": "https://dakotasoft.com/pricing/",
+        "retrievedAt": "2026-10-27T10:10:16.309Z",
+        "status": 200,
+        "error": null,
+        "title": "EHS Software Pricing | Dakota Software",
+        "description": "Explore pricing for Dakota’s EHS software, based on company size, modules, and support. Includes unlimited users, regulatory updates, and onboarding.",
+        "priceMentions": [],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://farmonaut.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:16.313Z",
+      "data": {
+        "url": "https://farmonaut.com/pricing",
+        "finalUrl": "https://sat.farmonaut.com/pricing.html",
+        "retrievedAt": "2026-10-27T10:10:16.313Z",
+        "status": 200,
+        "error": null,
+        "title": "Satellite Crop Monitoring & AI Farm Advisory | Farmonaut",
+        "description": "Satellite crop monitoring and precision agriculture software with AI farm advisory. NDVI maps, soil moisture and irrigation advice. From $4.99/month.",
+        "priceMentions": [
+          {
+            "text": "$4.99 a month",
+            "billingUnit": true,
+            "context": "to satellite-based advisory. Read the case study Plans from $4.99 a month. See plans and pricing AI advisory powered by JEEVN AI. Pri"
+          },
+          {
+            "text": "$4.99",
+            "billingUnit": false,
+            "context": "are. Plan Monthly price Area included Cost per hectare Mini $4.99 5 hectares $1.00 Basic $29.99 30 hectares $1.00 Standard $6"
+          },
+          {
+            "text": "$1.00",
+            "billingUnit": false,
+            "context": "price Area included Cost per hectare Mini $4.99 5 hectares $1.00 Basic $29.99 30 hectares $1.00 Standard $64.99 80 hectares"
+          },
+          {
+            "text": "$29.99",
+            "billingUnit": false,
+            "context": "included Cost per hectare Mini $4.99 5 hectares $1.00 Basic $29.99 30 hectares $1.00 Standard $64.99 80 hectares $0.81 Premium"
+          },
+          {
+            "text": "$64.99",
+            "billingUnit": false,
+            "context": "99 5 hectares $1.00 Basic $29.99 30 hectares $1.00 Standard $64.99 80 hectares $0.81 Premium $224.99 300 hectares $0.75 Elite"
+          },
+          {
+            "text": "$0.81",
+            "billingUnit": false,
+            "context": "Basic $29.99 30 hectares $1.00 Standard $64.99 80 hectares $0.81 Premium $224.99 300 hectares $0.75 Elite $949.99 1,500 hect"
+          },
+          {
+            "text": "$224.99",
+            "billingUnit": false,
+            "context": "30 hectares $1.00 Standard $64.99 80 hectares $0.81 Premium $224.99 300 hectares $0.75 Elite $949.99 1,500 hectares $0.63 Annua"
+          },
+          {
+            "text": "$0.75",
+            "billingUnit": false,
+            "context": "ndard $64.99 80 hectares $0.81 Premium $224.99 300 hectares $0.75 Elite $949.99 1,500 hectares $0.63 Annual billing is also a"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://knowtify.net/pesticide-compliance-software-features/": {
+      "fetchedAt": "2026-10-27T10:10:17.469Z",
+      "data": {
+        "url": "https://knowtify.net/pesticide-compliance-software-features/",
+        "finalUrl": "https://knowtify.net/pesticide-compliance-software-features/",
+        "retrievedAt": "2026-10-27T10:10:17.469Z",
+        "status": 200,
+        "error": null,
+        "title": "Pesticide Compliance Software | SaaS Tools | Knowtify Features",
+        "description": "Discover Pesticide Compliance Software With EPA Tracking, MRID Data Search, And Product Label Comparison Tools. Stay Ahead Of Market Changes.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://gorilladesk.com/": {
+      "fetchedAt": "2026-10-27T10:10:17.467Z",
+      "data": {
+        "url": "https://gorilladesk.com/",
+        "finalUrl": "https://gorilladesk.com/",
+        "retrievedAt": "2026-10-27T10:10:17.467Z",
+        "status": 200,
+        "error": null,
+        "title": "Pest control software with AI at the core | GorillaDesk",
+        "description": "GorillaDesk is pest control software with AI at the core: scheduling, dispatch, routes, invoicing, renewals, and built-in agents for calls, quotes, and follow-ups — one platform for pest control operators.",
+        "priceMentions": [
+          {
+            "text": "$49 per month",
+            "billingUnit": true,
+            "context": "ustomers on Excel and missing stops because of it. Its only $49 per month for 1 route, and can send out automated scheduling emails a"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://gorilladesk.com/pricing": {
+      "fetchedAt": "2026-10-27T10:10:17.468Z",
+      "data": {
+        "url": "https://gorilladesk.com/pricing",
+        "finalUrl": "https://gorilladesk.com/pricing/",
+        "retrievedAt": "2026-10-27T10:10:17.468Z",
+        "status": 200,
+        "error": null,
+        "title": "Plans & pricing — simple per-schedule pricing for field service teams | GorillaDesk",
+        "description": "Compare Basic, Pro, and Growth. One price per technician schedule, unlimited admin and crew users, no contracts. Most scaling teams standardize on Growth for Smart Views, pipeline, and advanced routing.",
+        "priceMentions": [
+          {
+            "text": "$ 49 / mo",
+            "billingUnit": true,
+            "context": ", no annual lock-in , and we move your data for free. Basic $ 49 / mo Paid Monthly (USD) Unlimited Admin Users Add as many admin"
+          },
+          {
+            "text": "$ 99 / mo",
+            "billingUnit": true,
+            "context": "built-in reports & a robust dashboard. Start Free Trial Pro $ 99 / mo Paid Monthly (USD) Customer Online Portal Provide your cust"
+          },
+          {
+            "text": "$ 149 / mo",
+            "billingUnit": true,
+            "context": "y employee’s workday to the minute. Start Free Trial Growth $ 149 / mo Paid Monthly (USD) Map Estimation Tools Instantly map out p"
+          },
+          {
+            "text": "$ 50 /mo",
+            "billingUnit": true,
+            "context": "hat ride together share one schedule. Basic: routes 2–3 add $ 50 /mo each; route 4+ adds $ 30 /mo each. Pro: +$ 50 /mo per added"
+          },
+          {
+            "text": "$ 30 /mo",
+            "billingUnit": true,
+            "context": "chedule. Basic: routes 2–3 add $ 50 /mo each; route 4+ adds $ 30 /mo each. Pro: +$ 50 /mo per added route. Growth: route 2 adds"
+          },
+          {
+            "text": "$ 100 /mo",
+            "billingUnit": true,
+            "context": "each. Pro: +$ 50 /mo per added route. Growth: route 2 adds $ 100 /mo; route 3+ adds $ 50 /mo each. Compare all plan features Sti"
+          },
+          {
+            "text": "$5 per month",
+            "billingUnit": true,
+            "context": "iption + Credits We offer competitive SMS pricing. For just $5 per month, you can send text messages to your customers before, durin"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "ted from for outgoing text messages. Pricing is as follows: $50 for 1000 text messages $100 for 2500 text messages (save 20"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://mitti.com/apps/best-pest-control-software": {
+      "fetchedAt": "2026-10-27T10:10:17.470Z",
+      "data": {
+        "url": "https://mitti.com/apps/best-pest-control-software",
+        "finalUrl": "https://mitti.com/apps/best-pest-control-software",
+        "retrievedAt": "2026-10-27T10:10:17.470Z",
+        "status": 200,
+        "error": null,
+        "title": "10 Best Pest Control Software Programs 2026 | Mitti (by SafetyCulture)",
+        "description": "With this list of the 10 best pest control software programs of 2026, you’ll be able to compare features, pricing, and deployment, as well as book demos and see reviews. Find the right pest control app for your business today.",
+        "priceMentions": [
+          {
+            "text": "$24/seat",
+            "billingUnit": true,
+            "context": "on : Available for teams of up to 10 Pricing : Premium plan $24/seat/month (with free trial period) Platforms supported : Availa"
+          },
+          {
+            "text": "$25.59/month",
+            "billingUnit": true,
+            "context": "notifications and job mapping Free Version : None Pricing : $25.59/month (with a 14-day free trial) Platforms supported : Web-based"
+          },
+          {
+            "text": "$134/month",
+            "billingUnit": true,
+            "context": "cations to customers Free Version : None Pricing : Pricing: $134/month Platforms supported : Web-based software and pest control a"
+          },
+          {
+            "text": "$47/month",
+            "billingUnit": true,
+            "context": "sion : Yes, add up to 2 users Pricing : Paid plan starts at $47/month (with free trial) Platforms supported : Web-based software"
+          },
+          {
+            "text": "$579",
+            "billingUnit": false,
+            "context": "customers and apply late fees Free Version : None Pricing : $579 one-time payment Platforms supported : Web-based software o"
+          },
+          {
+            "text": "€45/month",
+            "billingUnit": true,
+            "context": "authored by field technicians Free Version : None Pricing : €45/monthly (with a 30-day free trial) Platforms supported : Web-base"
+          },
+          {
+            "text": "$0",
+            "billingUnit": false,
+            "context": "e Cost to Entry Scalability Mobile Mitti (by SafetyCulture) $0 High Yes Breezeworks $0 for 14 days High Yes Fieldster $434"
+          },
+          {
+            "text": "$434",
+            "billingUnit": false,
+            "context": ") $0 High Yes Breezeworks $0 for 14 days High Yes Fieldster $434* Low Yes FieldRoutes Unavailable Low Yes Kickserv $0 Low Ye"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": true,
         "mentionsPricing": true
       }
     }
