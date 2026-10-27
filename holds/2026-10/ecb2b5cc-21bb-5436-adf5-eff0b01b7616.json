@@ -2,15 +2,24 @@
   "id": "ecb2b5cc-21bb-5436-adf5-eff0b01b7616",
   "month": "2026-10",
   "client": "scout",
-  "status": "reserved",
+  "status": "charged",
   "estimatedUsd": 0.0022,
-  "actualUsd": null,
+  "actualUsd": 0.002,
   "endpoint": "serp/google/organic/live/regular",
   "requestKey": "313c54e55e65e167563efad0",
   "runId": "2026-10-27-a1-1793095756649",
   "createdAt": "2026-10-27T10:09:40.245Z",
   "expiresAt": "2026-10-27T10:24:40.245Z",
-  "settledAt": null,
+  "settledAt": "2026-10-27T10:09:58.211Z",
   "note": null,
-  "payload": null
+  "payload": {
+    "endpoint": "serp/google/organic/live/regular",
+    "requested": 1,
+    "location": "United States",
+    "language": "en",
+    "source": "scout",
+    "runId": "2026-10-27-a1-1793095756649",
+    "measured": 0,
+    "error": "DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
+  }
 }
