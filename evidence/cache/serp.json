@@ -11529,6 +11529,83 @@
           }
         ]
       }
+    },
+    "serp|united states|en|d10|epa stormwater discharge violations": {
+      "fetchedAt": "2026-10-27T11:12:26.628Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=epa%20stormwater%20discharge%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/npdes/stormwater-discharges-municipal-sources",
+            "title": "Stormwater Discharges from Municipal Sources",
+            "description": "May 20, 2026 — To prevent harmful pollutants from being washed or dumped into MS4s, certain operators are required to obtain NPDES permits and develop ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/npdes/npdes-stormwater-program",
+            "title": "NPDES Stormwater Program",
+            "description": "May 4, 2026 — The NPDES stormwater program regulates some stormwater discharges from three potential sources: municipal separate storm sewer systems (MS4s), ... Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/npdes/stormwater-discharges-construction-activities",
+            "title": "Stormwater Discharges from Construction Activities",
+            "description": "EPA recently finalized a modification to its 2022 CGP to cover stormwater discharges from construction activities in Lands of Exclusive Federal Jurisdiction. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.complianceplace.com",
+            "url": "https://www.complianceplace.com/stormwater-compliance-7-mistakes-that-lead-to-epa-violations/",
+            "title": "Stormwater Compliance: EPA Violations Risks",
+            "description": "Jul 11, 2026 — Industrial stormwater violations can trigger EPA penalties of up to $64,618 per day. Here are the seven recurring mistakes that most often ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/newsreleases/epa-takes-action-against-five-construction-companies-massachusetts-and-new-hampshire",
+            "title": "EPA Takes Action Against Five Construction Companies in ...",
+            "description": "May 18, 2022 — Under the settlements, the five companies agreed to pay penalties and follow the terms of their permits for discharging stormwater. \"In order to ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.verrill-law.com",
+            "url": "https://www.verrill-law.com/blog/when-it-rains-it-pours-be-aware-of-stormwater-discharge-permit-requirements/",
+            "title": "When it Rains it Pours: Be Aware of Stormwater Discharge…",
+            "description": "Jan 12, 2026 — when it rains, it pours, when. Environmental Protection Agency (“EPA”) a total of $170,000 in penalties for alleged stormwater discharges in  ..."
+          },
+          {
+            "rank": 9,
+            "domain": "www.reworldwaste.com",
+            "url": "https://www.reworldwaste.com/news-and-resources/blog/common-epa-violations",
+            "title": "10 Common EPA Violations (and How to Avoid Them)",
+            "description": "Nov 5, 2025 — Violations can involve unpermitted discharges, exceedances of discharge limits, or failure to implement required best management practices. Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "epa.ohio.gov",
+            "url": "https://epa.ohio.gov/divisions-and-offices/surface-water/permitting/stormwater-program",
+            "title": "Stormwater Program | Ohio Environmental Protection Agency",
+            "description": "Aug 4, 2025 — Most stormwater discharges are considered point sources and require coverage by a discharge permit. The primary method to control stormwater ..."
+          },
+          {
+            "rank": 11,
+            "domain": "www.epa.gov",
+            "url": "https://www.epa.gov/npdes/stormwater-discharges-industrial-activities",
+            "title": "Stormwater Discharges from Industrial Activities",
+            "description": "Mar 1, 2026 — Federal regulations require stormwater discharges associated with industrial activity to be covered under NPDES permits."
+          }
+        ]
+      }
     }
   }
 }

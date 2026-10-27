@@ -6,8 +6,8 @@
     "memo": "ideas/2026-10-27.md"
   },
   "createdAt": "2026-10-27T10:09:16.648Z",
-  "updatedAt": "2026-10-27T10:09:16.649Z",
-  "attempts": 1,
+  "updatedAt": "2026-10-27T11:12:22.374Z",
+  "attempts": 2,
   "mode": "live",
   "market": {
     "locationName": "United States",
@@ -1742,8 +1742,8 @@
           "finalIssues": []
         }
       },
-      "status": "partial",
-      "attempts": 1,
+      "status": "enriched",
+      "attempts": 2,
       "keywords": [
         {
           "id": "K1",
@@ -2345,6 +2345,98 @@
               "class": "site"
             }
           ]
+        },
+        {
+          "id": "S2",
+          "query": "epa stormwater discharge violations",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-27T11:12:26.628Z",
+          "checkUrl": "https://www.google.com/search?q=epa%20stormwater%20discharge%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/npdes/stormwater-discharges-municipal-sources",
+              "title": "Stormwater Discharges from Municipal Sources",
+              "description": "May 20, 2026 — To prevent harmful pollutants from being washed or dumped into MS4s, certain operators are required to obtain NPDES permits and develop ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/npdes/npdes-stormwater-program",
+              "title": "NPDES Stormwater Program",
+              "description": "May 4, 2026 — The NPDES stormwater program regulates some stormwater discharges from three potential sources: municipal separate storm sewer systems (MS4s), ... Read more",
+              "id": "S2.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/npdes/stormwater-discharges-construction-activities",
+              "title": "Stormwater Discharges from Construction Activities",
+              "description": "EPA recently finalized a modification to its 2022 CGP to cover stormwater discharges from construction activities in Lands of Exclusive Federal Jurisdiction. Read more",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "www.complianceplace.com",
+              "url": "https://www.complianceplace.com/stormwater-compliance-7-mistakes-that-lead-to-epa-violations/",
+              "title": "Stormwater Compliance: EPA Violations Risks",
+              "description": "Jul 11, 2026 — Industrial stormwater violations can trigger EPA penalties of up to $64,618 per day. Here are the seven recurring mistakes that most often ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/newsreleases/epa-takes-action-against-five-construction-companies-massachusetts-and-new-hampshire",
+              "title": "EPA Takes Action Against Five Construction Companies in ...",
+              "description": "May 18, 2022 — Under the settlements, the five companies agreed to pay penalties and follow the terms of their permits for discharging stormwater. \"In order to ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.verrill-law.com",
+              "url": "https://www.verrill-law.com/blog/when-it-rains-it-pours-be-aware-of-stormwater-discharge-permit-requirements/",
+              "title": "When it Rains it Pours: Be Aware of Stormwater Discharge…",
+              "description": "Jan 12, 2026 — when it rains, it pours, when. Environmental Protection Agency (“EPA”) a total of $170,000 in penalties for alleged stormwater discharges in  ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.reworldwaste.com",
+              "url": "https://www.reworldwaste.com/news-and-resources/blog/common-epa-violations",
+              "title": "10 Common EPA Violations (and How to Avoid Them)",
+              "description": "Nov 5, 2025 — Violations can involve unpermitted discharges, exceedances of discharge limits, or failure to implement required best management practices. Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "epa.ohio.gov",
+              "url": "https://epa.ohio.gov/divisions-and-offices/surface-water/permitting/stormwater-program",
+              "title": "Stormwater Program | Ohio Environmental Protection Agency",
+              "description": "Aug 4, 2025 — Most stormwater discharges are considered point sources and require coverage by a discharge permit. The primary method to control stormwater ...",
+              "id": "S2.10",
+              "class": "government"
+            },
+            {
+              "rank": 11,
+              "domain": "www.epa.gov",
+              "url": "https://www.epa.gov/npdes/stormwater-discharges-industrial-activities",
+              "title": "Stormwater Discharges from Industrial Activities",
+              "description": "Mar 1, 2026 — Federal regulations require stormwater discharges associated with industrial activity to be covered under NPDES permits.",
+              "id": "S2.11",
+              "class": "government"
+            }
+          ]
         }
       ],
       "pages": [
@@ -2515,7 +2607,7 @@
           "mentionsPricing": true
         }
       ],
-      "reason": "search results for \"epa stormwater discharge violations\" not collected — DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later",
+      "reason": null,
       "readings": {
         "demand": {
           "level": "unknown",
@@ -2523,7 +2615,7 @@
           "upTo": null,
           "classified": true,
           "measuredCount": 0,
-          "totalCount": 0,
+          "totalCount": 5,
           "top": null,
           "category": {
             "level": "unknown",
@@ -2537,32 +2629,12 @@
             "totalCount": 0,
             "top": null
           },
-          "uncertainCount": 9,
+          "uncertainCount": 4,
           "flags": [
-            {
-              "id": "K1",
-              "kind": "uncertain",
-              "text": "\"epa stormwater discharge violations\": relevance unclear — not counted."
-            },
-            {
-              "id": "K2",
-              "kind": "uncertain",
-              "text": "\"spcc plan compliance issues\": relevance unclear — not counted."
-            },
-            {
-              "id": "K3",
-              "kind": "uncertain",
-              "text": "\"marina environmental regulations\": relevance unclear — not counted."
-            },
             {
               "id": "K4",
               "kind": "uncertain",
               "text": "\"epa compliance software\": relevance unclear — not counted."
-            },
-            {
-              "id": "K5",
-              "kind": "uncertain",
-              "text": "\"spcc plan documentation platform\": relevance unclear — not counted."
             },
             {
               "id": "K6",
@@ -2578,14 +2650,9 @@
               "id": "K8",
               "kind": "uncertain",
               "text": "\"best environmental compliance tools\": relevance unclear — not counted."
-            },
-            {
-              "id": "K9",
-              "kind": "uncertain",
-              "text": "\"marina compliance software\": relevance unclear — not counted."
             }
           ],
-          "note": "Idea-level demand (directly relevant keywords only): unknown. No keyword was judged directly relevant to the idea, so idea-level demand is unknown. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 5 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
         },
         "commercial": {
           "level": "unknown",
@@ -2593,7 +2660,7 @@
           "pricedPageIds": [],
           "pricedDomains": [],
           "pricedPlatforms": [],
-          "note": "No commercial data was collected."
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
         },
         "competitors": {
           "vendorLikeDomains": [
@@ -2601,7 +2668,10 @@
             "enterbridge.com",
             "farmonaut.com",
             "locustec.com",
+            "complianceplace.com",
+            "verrill-law.com",
             "era-environmental.com",
+            "reworldwaste.com",
             "qualityze.com"
           ],
           "platformDomains": [],
@@ -2610,75 +2680,73 @@
             "enterbridge.com",
             "farmonaut.com"
           ],
-          "note": "6 vendor-like or publisher domain(s) rank across 1 query (not all are competitors — some are consultants or publishers); published offer prices on enterbridge.com, farmonaut.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 6 with an indirect alternative.",
+          "note": "9 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on enterbridge.com, farmonaut.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
           "directCompetitorDomains": [],
           "indirectAlternativeDomains": [
             "dakotasoft.com",
             "enterbridge.com",
             "locustec.com",
             "youtube.com",
-            "response.epa.gov",
             "qualityze.com"
           ]
         }
       },
-      "evidenceFingerprint": "6e3b6ba0f387ee59",
-      "evidenceUpdatedAt": "2026-10-27T10:10:25.566Z",
+      "evidenceFingerprint": "16759e0389a3c37c",
+      "evidenceUpdatedAt": "2026-10-27T11:12:31.194Z",
       "matchesOriginalPick": false,
       "relevance": {
-        "at": "2026-10-27T10:15:38.192Z",
+        "at": "2026-10-27T11:13:02.874Z",
         "models": null,
-        "evidenceUpdatedAt": "2026-10-27T10:10:25.566Z",
+        "evidenceUpdatedAt": "2026-10-27T11:12:31.194Z",
         "qualifiers": [
-          "independent marina owner",
-          "independent marina general manager",
-          "boatyard owner"
+          "owner or general manager",
+          "independent marina or boatyard"
         ],
         "keywords": {
           "K1": {
             "searcher": "includes",
             "topic": "same",
-            "reason": ""
+            "reason": "This keyword directly addresses the problem of EPA stormwater discharge violations, which independent marina owners are concerned about."
           },
           "K2": {
             "searcher": "includes",
             "topic": "same",
-            "reason": ""
+            "reason": "This keyword directly addresses the problem of SPCC plan compliance issues, which independent marina owners are concerned about."
           },
           "K3": {
             "searcher": "includes",
             "topic": "same",
-            "reason": ""
+            "reason": "This keyword directly names 'marina' and 'environmental regulations,' which are central to the idea's customer and problem."
           },
           "K4": {
             "searcher": "broader",
             "topic": "category",
-            "reason": ""
+            "reason": "This keyword is for a broader category of software for EPA compliance, not specific to marinas or their unique documentation problem."
           },
           "K5": {
             "searcher": "includes",
             "topic": "same",
-            "reason": ""
+            "reason": "This keyword directly names a solution for SPCC plan documentation, which is central to the idea's problem."
           },
           "K6": {
             "searcher": "broader",
-            "topic": "category",
-            "reason": ""
+            "topic": "wider",
+            "reason": "This keyword is a very broad term for environmental management systems, not specific to marinas or their documentation problem."
           },
           "K7": {
-            "searcher": "includes",
+            "searcher": "broader",
             "topic": "category",
-            "reason": ""
+            "reason": "This keyword is for a broader category of SPCC software, not specific to marinas or their unique documentation problem."
           },
           "K8": {
             "searcher": "broader",
             "topic": "wider",
-            "reason": ""
+            "reason": "This keyword is a very generic search for environmental compliance tools, not specific to marinas or their documentation problem."
           },
           "K9": {
             "searcher": "includes",
-            "topic": "category",
-            "reason": ""
+            "topic": "same",
+            "reason": "This keyword directly names 'marina' and 'compliance software,' which is central to the idea's customer and solution."
           }
         },
         "items": {
@@ -2687,63 +2755,126 @@
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item is about general companies using EHS software for compliance, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item is about EHS software for various industries, not specifically for independent marinas or their stormwater/SPCC documentation problem."
           },
           "S1.3": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item lists general environmental compliance software, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item lists general environmental compliance software, not specific to independent marinas or their stormwater/SPCC documentation problem."
           },
           "S1.4": {
             "customer": "different",
             "customerMatches": [],
             "problem": "broader",
-            "offering": "no",
-            "reason": "This item compares environmental compliance software specifically for the oil and gas industry, which is a different customer than independent marinas."
+            "offering": "yes",
+            "reason": "This item is about environmental compliance software specifically for the oil and gas industry, which is a different customer."
           },
           "S1.5": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item is about general EHS compliance management software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item is about general EHS compliance management software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
           },
           "S1.7": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item discusses general environmental compliance tools to streamline programs, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item discusses general environmental compliance tools, not specific to independent marinas or their stormwater/SPCC documentation problem."
           },
           "S1.8": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "no",
-            "reason": "This item is an article explaining different types of general compliance software systems, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item is an article discussing general types of compliance software, not specific to independent marinas or their stormwater/SPCC documentation problem."
           },
           "S1.9": {
-            "customer": "broader",
+            "customer": "different",
             "customerMatches": [],
-            "problem": "broader",
+            "problem": "different",
             "offering": "yes",
-            "reason": "This item lists EPA's own software and databases for emergency management, which is broader and for a different user context than independent marinas."
+            "reason": "This item is about software for EPA emergency management and response, which is for a different customer and problem than independent marinas' routine compliance documentation."
           },
           "S1.10": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item discusses general environmental compliance tracking software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item describes general environmental compliance tracking software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
           },
           "S1.11": {
             "customer": "broader",
             "customerMatches": [],
             "problem": "broader",
             "offering": "yes",
-            "reason": "This item is about a general EHS compliance platform, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+            "reason": "This item is about general EHS compliance for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
+          },
+          "S2.2": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about stormwater discharges from municipal sources (MS4s), which is a different customer, though the problem of preventing pollutants is the same."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about the general NPDES stormwater program, which is broader than independent marinas, though it addresses the same problem of regulating stormwater discharges."
+          },
+          "S2.4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about stormwater discharges from construction activities, which is a different customer, though the problem of stormwater discharge is the same."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses EPA violation risks for industrial stormwater, which is a broader customer but directly addresses the problem of fines and compliance."
+          },
+          "S2.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about EPA action against construction companies for stormwater violations, which is a different customer, though it addresses the same problem of stormwater discharge violations."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is a legal article discussing EPA penalties for stormwater discharges generally, which is a broader customer but addresses the same problem of fines and compliance."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses common EPA violations generally, which is a broader customer but directly addresses the problem of avoiding violations."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about the Ohio EPA stormwater program generally, which is a broader customer but addresses the same problem of stormwater discharge permits."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is about stormwater discharges from industrial activities, which is a broader customer category that might include marinas, and addresses the same problem of NPDES permits."
           }
         },
         "missing": [
@@ -2756,24 +2887,45 @@
       },
       "assessmentRaw": {
         "id": "2026-10-27:marina-epa-stormwater-spcc-log",
-        "opportunity": "Independent marinas and boatyards need to automate and centralize documentation for EPA stormwater discharge permits and SPCC plans. This creates an opportunity for a specialized platform to ensure audit readiness and prevent significant fines and environmental damage.",
-        "whoPays": "The owner or general manager of an independent marina or boatyard would pay because they need to maintain operational permits and avoid EPA fines, reputational damage, and facility shutdowns. This is an inference.",
+        "opportunity": "The opportunity is to provide independent marinas and boatyards with a specialized tool to manage EPA stormwater discharge permits and SPCC plans. This aims to help them achieve audit readiness and avoid significant fines and environmental damage.",
+        "whoPays": "The owner or general manager of an independent marina or boatyard would pay. This is an inference, as they are motivated to maintain operational permits and avoid EPA fines, reputational damage, and facility shutdowns due to environmental incidents near sensitive waterways.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "No evidence directly describes independent marinas or boatyards struggling to automate and centralize documentation for EPA stormwater discharge permits and SPCC plans.",
-          "inference": "The specific problem for this customer remains unproven by the evidence."
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "Industrial stormwater violations can trigger EPA penalties of up to $64,618 per day."
+            },
+            {
+              "id": "S2.7",
+              "quote": "Environmental Protection Agency (“EPA”) a total of $170,000 in penalties for alleged stormwater discharges"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Violations can involve unpermitted discharges, exceedances of discharge limits, or failure to implement required best management practices."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Most stormwater discharges are considered point sources and require coverage by a discharge permit."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Federal regulations require stormwater discharges associated with industrial activity to be covered under NPDES permits."
+            }
+          ],
+          "observed": "Evidence shows that industrial stormwater violations can lead to substantial EPA penalties, with examples of fines up to '$64,618 per day' and a total of '$170,000 in penalties for alleged stormwater discharges'. It is also observed that 'Most stormwater discharges are considered point sources and require coverage by a discharge permit' and 'Federal regulations require stormwater discharges associated with industrial activity to be covered under NPDES permits'. Violations can include 'unpermitted discharges, exceedances of discharge limits, or failure to implement required best management practices.'",
+          "inference": "Independent marinas, as facilities with stormwater discharges or industrial activities, are likely subject to these federal regulations and face similar risks of significant fines and compliance issues if documentation and practices are not properly managed."
         },
         "competition": {
           "level": "some",
           "basis": [
             {
-              "id": "S1.2",
-              "quote": "EHS Software Case Studies by Industry"
-            },
-            {
               "id": "S1.3",
               "quote": "Top 10 Environmental Compliance Software"
+            },
+            {
+              "id": "S1.2",
+              "quote": "EHS Software Case Studies by Industry"
             },
             {
               "id": "S1.5",
@@ -2784,89 +2936,78 @@
               "quote": "Environmental Compliance Tools to Streamline Your Programs"
             },
             {
-              "id": "S1.9",
-              "quote": "Software & Databases - EPA OSC Response"
-            },
-            {
               "id": "S1.10",
-              "quote": "The Best Environmental Compliance Tracking Software"
+              "quote": "Environmental compliance tracking software is a digital platform"
             },
             {
-              "id": "S1.11",
-              "quote": "EHS Compliance Made Actionable"
+              "id": "P3",
+              "quote": "Benchmark Gensuite EHS has a basic pricing plan of $ 7,000 per year"
             }
           ],
           "alternatives": [
             {
-              "name": "Dakota Software ProActivity Suite",
+              "name": "Dakota's ProActivity Suite",
               "type": "indirect",
-              "what": "EHS software to improve audits, compliance, and reporting",
+              "what": "Offers 'EHS software to improve audits, compliance, and reporting' for various industries.",
               "basis": [
                 {
                   "id": "S1.2",
-                  "quote": "companies using EHS software to improve audits, compliance, and reporting with Dakota's ProActivity Suite."
+                  "quote": "EHS Software Case Studies by Industry"
                 }
               ]
             },
             {
-              "name": "EHS Insight (via Enterbridge)",
+              "name": "General Environmental Compliance Software (e.g., Benchmark Gensuite EHS, Forms On Fire, Mango)",
               "type": "indirect",
-              "what": "environmental compliance software",
+              "what": "Various platforms listed as 'Top 10 Environmental Compliance Software' that help businesses with general environmental compliance. Pricing examples include 'Benchmark Gensuite EHS has a basic pricing plan of $ 7,000 per year', 'Standard pricing for Forms On Fire is $25 /mo', and 'Mango Basic, $35; Mango Plus, $59; and Mango Pro, $69'.",
               "basis": [
                 {
                   "id": "S1.3",
-                  "quote": "Top 10 Environmental Compliance Software · EHS Insight"
+                  "quote": "Top 10 Environmental Compliance Software"
+                },
+                {
+                  "id": "P3",
+                  "quote": "Benchmark Gensuite EHS has a basic pricing plan of $ 7,000 per year"
                 }
               ]
             },
             {
-              "name": "Locustec EHS compliance management software",
+              "name": "Locustec EHS Compliance Management Software",
               "type": "indirect",
-              "what": "helps businesses optimize operations, fulfill every regulatory requirement, and minimize carbon",
+              "what": "Provides 'EHS compliance management software' to help businesses 'optimize operations, fulfill every regulatory requirement'.",
               "basis": [
                 {
                   "id": "S1.5",
-                  "quote": "Our EHS compliance management software helps businesses optimize operations, fulfill every regulatory requirement, and minimize carbon."
+                  "quote": "EHS Compliance Management Software"
                 }
               ]
             },
             {
-              "name": "ERA Environmental Software",
+              "name": "ERA's software",
               "type": "indirect",
-              "what": "Ensure environmental regulatory compliance and save time on data collection and report generation with ERA's software",
+              "what": "Offers 'Environmental Compliance Tools to Streamline Your Programs' for data collection and report generation.",
               "basis": [
                 {
                   "id": "S1.7",
-                  "quote": "Ensure environmental regulatory compliance and save time on data collection and report generation with ERA's software."
-                }
-              ]
-            },
-            {
-              "name": "EPA's own software and databases",
-              "type": "indirect",
-              "what": "software packages including the Removal Cost Management System (RCMS), and Scribe. Databases and Software for EPA Emergency Management",
-              "basis": [
-                {
-                  "id": "S1.9",
-                  "quote": "software packages including the Removal Cost Management System (RCMS), and Scribe. Databases and Software for EPA Emergency Management"
+                  "quote": "Environmental Compliance Tools to Streamline Your Programs"
                 }
               ]
             },
             {
               "name": "Qualityze Environmental Compliance Tracking Software",
               "type": "indirect",
-              "what": "a digital platform that helps businesses monitor and organize their environmental tasks",
+              "what": "A 'digital platform that helps businesses monitor and organize their environmental tasks'.",
               "basis": [
                 {
                   "id": "S1.10",
-                  "quote": "Environmental compliance tracking software is a digital platform that helps businesses monitor and organize their environmental tasks."
+                  "quote": "Environmental compliance tracking software is a digital platform"
                 }
               ]
             }
           ],
           "strengths": [
             {
-              "text": "Several indirect competitors offer general EHS or environmental compliance software that helps businesses with audits, reporting, and regulatory requirements.",
+              "text": "Existing solutions offer broad EHS and environmental compliance management, auditing, reporting, and tracking capabilities for various industries.",
               "basis": [
                 {
                   "id": "S1.2",
@@ -2881,16 +3022,22 @@
                   "quote": "EHS Compliance Management Software"
                 },
                 {
-                  "id": "S1.7",
-                  "quote": "Environmental Compliance Tools to Streamline Your Programs"
-                },
-                {
                   "id": "S1.10",
-                  "quote": "The Best Environmental Compliance Tracking Software"
+                  "quote": "Environmental compliance tracking software is a digital platform"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some indirect competitors offer free trials or free versions, making them accessible entry points for businesses.",
+              "basis": [
+                {
+                  "id": "P3",
+                  "quote": "Benchmark Gensuite EHS has a basic pricing plan of $ 7,000 per year and offers a free trial"
                 },
                 {
-                  "id": "S1.11",
-                  "quote": "EHS Compliance Made Actionable"
+                  "id": "P3",
+                  "quote": "Forms On Fire ... offers both a free version and a free trial."
                 }
               ],
               "kind": "observed"
@@ -2898,56 +3045,105 @@
           ],
           "gaps": [
             {
-              "text": "No direct competitors specifically address the unique EPA stormwater and SPCC documentation needs of independent marinas and boatyards.",
-              "basis": [],
-              "kind": "inference"
-            },
-            {
-              "text": "The existing indirect competitors are broader environmental management systems, suggesting a potential gap for a specialized tool tailored to the specific regulatory context of marinas.",
+              "text": "No direct competitors or indirect alternatives are observed to be specifically tailored to the unique needs or documentation requirements of independent marinas or boatyards for stormwater and SPCC plans.",
               "basis": [],
               "kind": "inference"
             }
           ]
         },
-        "changes": [],
+        "changes": [
+          {
+            "original": "prevent significant fines and environmental damage.",
+            "finding": "Evidence shows that EPA violations can lead to substantial penalties, supporting the idea that avoiding fines is a strong motivator.",
+            "basis": [
+              {
+                "id": "S2.5",
+                "quote": "Industrial stormwater violations can trigger EPA penalties of up to $64,618 per day."
+              },
+              {
+                "id": "S2.7",
+                "quote": "Environmental Protection Agency (“EPA”) a total of $170,000 in penalties for alleged stormwater discharges"
+              }
+            ],
+            "effect": "supports"
+          }
+        ],
         "feasibility": {
           "level": "easy",
-          "note": "A small first experiment, such as a basic digital checklist or log for stormwater and SPCC, would be straightforward to develop."
+          "note": "A small first experiment, such as a basic digital log or checklist for stormwater and SPCC documentation, is technically straightforward to build using common web or mobile development tools."
         },
         "unproven": [
-          "The acute pain point for independent marinas regarding EPA stormwater and SPCC documentation.",
-          "The demand for a specialized digital solution tailored to this specific industry and problem.",
-          "The willingness of independent marina owners or general managers to pay for such a specialized solution."
+          "Direct evidence of the problem specifically for independent marinas and boatyards, as current problem evidence is category-level.",
+          "Specific demand for a marina-specific solution, as all directly relevant keywords have null search volume.",
+          "The willingness of independent marina owners or general managers to pay for a specialized documentation platform.",
+          "The specific pain points related to documentation automation and centralization experienced by independent marinas."
         ],
         "nextExperiment": {
-          "what": "Conduct qualitative interviews with 5-10 independent marina owners or general managers to understand their current EPA stormwater and SPCC documentation processes, specific pain points, and how they currently manage audit readiness.",
-          "cost": "$0 (time only)",
-          "duration": "1-2 weeks"
+          "what": "Conduct qualitative interviews with 5-10 independent marina owners or general managers to understand their current processes for EPA stormwater and SPCC compliance, identify specific pain points with documentation, and gauge their interest in a specialized digital log.",
+          "cost": "Approximately $100-$200 (for small incentives) + founder's time.",
+          "duration": "2-3 weeks"
         },
-        "continueIf": "Interviews reveal a strong, specific, and unmet need for a specialized digital log for EPA stormwater and SPCC that is not adequately addressed by existing general environmental software, and a clear indication of willingness to pay for a solution.",
-        "stopIf": "Interviews indicate that existing solutions (manual or general software) are sufficient, the problem is not acute enough to warrant a new tool, or there is no clear willingness to pay for a specialized solution."
+        "continueIf": "At least 3 out of 5-10 interviewed marina owners/managers express significant, unaddressed pain with their current stormwater/SPCC documentation methods and indicate a clear interest in a specialized digital solution.",
+        "stopIf": "Most interviewed marina owners/managers report that their current compliance methods are sufficient, they use existing general tools effectively, or they do not see value in a specialized solution for marinas."
       },
       "assessment": {
-        "opportunity": "Independent marinas and boatyards need to automate and centralize documentation for EPA stormwater discharge permits and SPCC plans. This creates an opportunity for a specialized platform to ensure audit readiness and prevent significant fines and environmental damage.",
-        "whoPays": "The owner or general manager of an independent marina or boatyard would pay because they need to maintain operational permits and avoid EPA fines, reputational damage, and facility shutdowns. This is an inference.",
+        "opportunity": "The opportunity is to provide independent marinas and boatyards with a specialized tool to manage EPA stormwater discharge permits and SPCC plans. This aims to help them achieve audit readiness and avoid significant fines and environmental damage.",
+        "whoPays": "The owner or general manager of an independent marina or boatyard would pay. This is an inference, as they are motivated to maintain operational permits and avoid EPA fines, reputational damage, and facility shutdowns due to environmental incidents near sensitive waterways.",
         "problemEvidence": {
-          "level": "unknown",
-          "basis": [],
-          "observed": "",
-          "inference": "The specific problem for this customer remains unproven by the evidence."
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.5",
+              "quote": "Industrial stormwater violations can trigger EPA penalties of up to $64,618 per day.",
+              "domain": "complianceplace.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses EPA violation risks for industrial stormwater, which is a broader customer but directly addresses the problem of fines and compliance."
+            },
+            {
+              "id": "S2.7",
+              "quote": "Environmental Protection Agency (“EPA”) a total of $170,000 in penalties for alleged stormwater discharges",
+              "domain": "verrill-law.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item is a legal article discussing EPA penalties for stormwater discharges generally, which is a broader customer but addresses the same problem of fines and compliance."
+            },
+            {
+              "id": "S2.9",
+              "quote": "Violations can involve unpermitted discharges, exceedances of discharge limits, or failure to implement required best management practices.",
+              "domain": "reworldwaste.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses common EPA violations generally, which is a broader customer but directly addresses the problem of avoiding violations."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Most stormwater discharges are considered point sources and require coverage by a discharge permit.",
+              "domain": "epa.ohio.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "This item is about the Ohio EPA stormwater program generally, which is a broader customer but addresses the same problem of stormwater discharge permits."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Federal regulations require stormwater discharges associated with industrial activity to be covered under NPDES permits.",
+              "domain": "epa.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "This item is about stormwater discharges from industrial activities, which is a broader customer category that might include marinas, and addresses the same problem of NPDES permits."
+            }
+          ],
+          "observed": "Evidence shows that industrial stormwater violations can lead to substantial EPA penalties, with examples of fines up to '$64,618 per day' and a total of '$170,000 in penalties for alleged stormwater discharges'. It is also observed that 'Most stormwater discharges are considered point sources and require coverage by a discharge permit' and 'Federal regulations require stormwater discharges associated with industrial activity to be covered under NPDES permits'. Violations can include 'unpermitted discharges, exceedances of discharge limits, or failure to implement required best management practices.'",
+          "inference": "Independent marinas, as facilities with stormwater discharges or industrial activities, are likely subject to these federal regulations and face similar risks of significant fines and compliance issues if documentation and practices are not properly managed."
         },
         "competition": {
           "level": "some",
           "basis": [
-            {
-              "id": "S1.2",
-              "quote": "EHS Software Case Studies by Industry",
-              "domain": "dakotasoft.com",
-              "kind": "S",
-              "cls": "site",
-              "relevance": "indirect alternative",
-              "relevanceReason": "This item is about general companies using EHS software for compliance, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
-            },
             {
               "id": "S1.3",
               "quote": "Top 10 Environmental Compliance Software",
@@ -2955,7 +3151,16 @@
               "kind": "S",
               "cls": "site",
               "relevance": "indirect alternative",
-              "relevanceReason": "This item lists general environmental compliance software, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+              "relevanceReason": "This item lists general environmental compliance software, not specific to independent marinas or their stormwater/SPCC documentation problem."
+            },
+            {
+              "id": "S1.2",
+              "quote": "EHS Software Case Studies by Industry",
+              "domain": "dakotasoft.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item is about EHS software for various industries, not specifically for independent marinas or their stormwater/SPCC documentation problem."
             },
             {
               "id": "S1.5",
@@ -2964,7 +3169,7 @@
               "kind": "S",
               "cls": "site",
               "relevance": "indirect alternative",
-              "relevanceReason": "This item is about general EHS compliance management software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+              "relevanceReason": "This item is about general EHS compliance management software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
             },
             {
               "id": "S1.7",
@@ -2973,146 +3178,111 @@
               "kind": "S",
               "cls": "reference_media",
               "relevance": "indirect alternative",
-              "relevanceReason": "This item discusses general environmental compliance tools to streamline programs, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
-            },
-            {
-              "id": "S1.9",
-              "quote": "Software & Databases - EPA OSC Response",
-              "domain": "response.epa.gov",
-              "kind": "S",
-              "cls": "government",
-              "relevance": "indirect alternative",
-              "relevanceReason": "This item lists EPA's own software and databases for emergency management, which is broader and for a different user context than independent marinas."
+              "relevanceReason": "This item discusses general environmental compliance tools, not specific to independent marinas or their stormwater/SPCC documentation problem."
             },
             {
               "id": "S1.10",
-              "quote": "The Best Environmental Compliance Tracking Software",
+              "quote": "Environmental compliance tracking software is a digital platform",
               "domain": "qualityze.com",
               "kind": "S",
               "cls": "site",
               "relevance": "indirect alternative",
-              "relevanceReason": "This item discusses general environmental compliance tracking software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
-            },
-            {
-              "id": "S1.11",
-              "quote": "EHS Compliance Made Actionable",
-              "domain": "dakotasoft.com",
-              "kind": "S",
-              "cls": "site",
-              "relevance": "indirect alternative",
-              "relevanceReason": "This item is about a general EHS compliance platform, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+              "relevanceReason": "This item describes general environmental compliance tracking software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
             }
           ],
           "directCompetitors": [],
           "indirectAlternatives": [
-            "dakotasoft.com",
             "enterbridge.com",
+            "dakotasoft.com",
             "locustec.com",
             "youtube.com",
-            "response.epa.gov",
             "qualityze.com"
           ],
           "alternatives": [
             {
-              "name": "Dakota Software ProActivity Suite",
+              "name": "Dakota's ProActivity Suite",
               "type": "indirect",
-              "what": "EHS software to improve audits, compliance, and reporting",
+              "what": "Offers 'EHS software to improve audits, compliance, and reporting' for various industries.",
               "basis": [
                 {
                   "id": "S1.2",
-                  "quote": "companies using EHS software to improve audits, compliance, and reporting with Dakota's ProActivity Suite.",
+                  "quote": "EHS Software Case Studies by Industry",
                   "domain": "dakotasoft.com",
                   "kind": "S",
                   "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This item is about general companies using EHS software for compliance, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item is about EHS software for various industries, not specifically for independent marinas or their stormwater/SPCC documentation problem."
                 }
               ]
             },
             {
-              "name": "EHS Insight (via Enterbridge)",
+              "name": "General Environmental Compliance Software (e.g., Benchmark Gensuite EHS, Forms On Fire, Mango)",
               "type": "indirect",
-              "what": "environmental compliance software",
+              "what": "Various platforms listed as 'Top 10 Environmental Compliance Software' that help businesses with general environmental compliance. Pricing examples include 'Benchmark Gensuite EHS has a basic pricing plan of $ 7,000 per year', 'Standard pricing for Forms On Fire is $25 /mo', and 'Mango Basic, $35; M",
               "basis": [
                 {
                   "id": "S1.3",
-                  "quote": "Top 10 Environmental Compliance Software · EHS Insight",
+                  "quote": "Top 10 Environmental Compliance Software",
                   "domain": "enterbridge.com",
                   "kind": "S",
                   "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This item lists general environmental compliance software, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item lists general environmental compliance software, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 }
               ]
             },
             {
-              "name": "Locustec EHS compliance management software",
+              "name": "Locustec EHS Compliance Management Software",
               "type": "indirect",
-              "what": "helps businesses optimize operations, fulfill every regulatory requirement, and minimize carbon",
+              "what": "Provides 'EHS compliance management software' to help businesses 'optimize operations, fulfill every regulatory requirement'.",
               "basis": [
                 {
                   "id": "S1.5",
-                  "quote": "Our EHS compliance management software helps businesses optimize operations, fulfill every regulatory requirement, and minimize carbon.",
+                  "quote": "EHS Compliance Management Software",
                   "domain": "locustec.com",
                   "kind": "S",
                   "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This item is about general EHS compliance management software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item is about general EHS compliance management software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 }
               ]
             },
             {
-              "name": "ERA Environmental Software",
+              "name": "ERA's software",
               "type": "indirect",
-              "what": "Ensure environmental regulatory compliance and save time on data collection and report generation with ERA's software",
+              "what": "Offers 'Environmental Compliance Tools to Streamline Your Programs' for data collection and report generation.",
               "basis": [
                 {
                   "id": "S1.7",
-                  "quote": "Ensure environmental regulatory compliance and save time on data collection and report generation with ERA's software.",
+                  "quote": "Environmental Compliance Tools to Streamline Your Programs",
                   "domain": "youtube.com",
                   "kind": "S",
                   "cls": "reference_media",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This item discusses general environmental compliance tools to streamline programs, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
-                }
-              ]
-            },
-            {
-              "name": "EPA's own software and databases",
-              "type": "indirect",
-              "what": "software packages including the Removal Cost Management System (RCMS), and Scribe. Databases and Software for EPA Emergency Management",
-              "basis": [
-                {
-                  "id": "S1.9",
-                  "quote": "software packages including the Removal Cost Management System (RCMS), and Scribe. Databases and Software for EPA Emergency Management",
-                  "domain": "response.epa.gov",
-                  "kind": "S",
-                  "cls": "government",
-                  "relevance": "indirect alternative",
-                  "relevanceReason": "This item lists EPA's own software and databases for emergency management, which is broader and for a different user context than independent marinas."
+                  "relevanceReason": "This item discusses general environmental compliance tools, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 }
               ]
             },
             {
               "name": "Qualityze Environmental Compliance Tracking Software",
               "type": "indirect",
-              "what": "a digital platform that helps businesses monitor and organize their environmental tasks",
+              "what": "A 'digital platform that helps businesses monitor and organize their environmental tasks'.",
               "basis": [
                 {
                   "id": "S1.10",
-                  "quote": "Environmental compliance tracking software is a digital platform that helps businesses monitor and organize their environmental tasks.",
+                  "quote": "Environmental compliance tracking software is a digital platform",
                   "domain": "qualityze.com",
                   "kind": "S",
                   "cls": "site",
                   "relevance": "indirect alternative",
-                  "relevanceReason": "This item discusses general environmental compliance tracking software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item describes general environmental compliance tracking software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 }
               ]
             }
           ],
           "strengths": [
             {
-              "text": "Several indirect competitors offer general EHS or environmental compliance software that helps businesses with audits, reporting, and regulatory requirements.",
+              "text": "Existing solutions offer broad EHS and environmental compliance management, auditing, reporting, and tracking capabilities for various industries.",
               "basis": [
                 {
                   "id": "S1.2",
@@ -3121,7 +3291,7 @@
                   "kind": "S",
                   "cls": "site",
                   "relevance": "broader",
-                  "relevanceReason": "This item is about general companies using EHS software for compliance, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item is about EHS software for various industries, not specifically for independent marinas or their stormwater/SPCC documentation problem."
                 },
                 {
                   "id": "S1.3",
@@ -3130,7 +3300,7 @@
                   "kind": "S",
                   "cls": "site",
                   "relevance": "broader",
-                  "relevanceReason": "This item lists general environmental compliance software, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item lists general environmental compliance software, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 },
                 {
                   "id": "S1.5",
@@ -3139,47 +3309,29 @@
                   "kind": "S",
                   "cls": "site",
                   "relevance": "broader",
-                  "relevanceReason": "This item is about general EHS compliance management software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
-                },
-                {
-                  "id": "S1.7",
-                  "quote": "Environmental Compliance Tools to Streamline Your Programs",
-                  "domain": "youtube.com",
-                  "kind": "S",
-                  "cls": "reference_media",
-                  "relevance": "broader",
-                  "relevanceReason": "This item discusses general environmental compliance tools to streamline programs, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item is about general EHS compliance management software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 },
                 {
                   "id": "S1.10",
-                  "quote": "The Best Environmental Compliance Tracking Software",
+                  "quote": "Environmental compliance tracking software is a digital platform",
                   "domain": "qualityze.com",
                   "kind": "S",
                   "cls": "site",
                   "relevance": "broader",
-                  "relevanceReason": "This item discusses general environmental compliance tracking software for businesses, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
-                },
-                {
-                  "id": "S1.11",
-                  "quote": "EHS Compliance Made Actionable",
-                  "domain": "dakotasoft.com",
-                  "kind": "S",
-                  "cls": "site",
-                  "relevance": "broader",
-                  "relevanceReason": "This item is about a general EHS compliance platform, which is broader than independent marinas' specific EPA stormwater and SPCC documentation."
+                  "relevanceReason": "This item describes general environmental compliance tracking software for businesses, not specific to independent marinas or their stormwater/SPCC documentation problem."
                 }
               ],
               "kind": "observed"
+            },
+            {
+              "text": "Some indirect competitors offer free trials or free versions, making them accessible entry points for businesses.",
+              "basis": [],
+              "kind": "inference"
             }
           ],
           "gaps": [
             {
-              "text": "No direct competitors specifically address the unique EPA stormwater and SPCC documentation needs of independent marinas and boatyards.",
-              "basis": [],
-              "kind": "inference"
-            },
-            {
-              "text": "The existing indirect competitors are broader environmental management systems, suggesting a potential gap for a specialized tool tailored to the specific regulatory context of marinas.",
+              "text": "No direct competitors or indirect alternatives are observed to be specifically tailored to the unique needs or documentation requirements of independent marinas or boatyards for stormwater and SPCC plans.",
               "basis": [],
               "kind": "inference"
             }
@@ -3188,33 +3340,67 @@
         "changes": [],
         "feasibility": {
           "level": "easy",
-          "note": "A small first experiment, such as a basic digital checklist or log for stormwater and SPCC, would be straightforward to develop."
+          "note": "A small first experiment, such as a basic digital log or checklist for stormwater and SPCC documentation, is technically straightforward to build using common web or mobile development tools."
         },
         "unproven": [
-          "The acute pain point for independent marinas regarding EPA stormwater and SPCC documentation.",
-          "The demand for a specialized digital solution tailored to this specific industry and problem.",
-          "The willingness of independent marina owners or general managers to pay for such a specialized solution."
+          "Direct evidence of the problem specifically for independent marinas and boatyards, as current problem evidence is category-level.",
+          "Specific demand for a marina-specific solution, as all directly relevant keywords have null search volume.",
+          "The willingness of independent marina owners or general managers to pay for a specialized documentation platform.",
+          "The specific pain points related to documentation automation and centralization experienced by independent marinas."
         ],
         "nextExperiment": {
-          "what": "Conduct qualitative interviews with 5-10 independent marina owners or general managers to understand their current EPA stormwater and SPCC documentation processes, specific pain points, and how they currently manage audit readiness.",
-          "cost": "$0 (time only)",
-          "duration": "1-2 weeks"
+          "what": "Conduct qualitative interviews with 5-10 independent marina owners or general managers to understand their current processes for EPA stormwater and SPCC compliance, identify specific pain points with documentation, and gauge their interest in a specialized digital log.",
+          "cost": "Approximately $100-$200 (for small incentives) + founder's time.",
+          "duration": "2-3 weeks"
         },
-        "continueIf": "Interviews reveal a strong, specific, and unmet need for a specialized digital log for EPA stormwater and SPCC that is not adequately addressed by existing general environmental software, and a clear indication of willingness to pay for a solution.",
-        "stopIf": "Interviews indicate that existing solutions (manual or general software) are sufficient, the problem is not acute enough to warrant a new tool, or there is no clear willingness to pay for a specialized solution.",
+        "continueIf": "At least 3 out of 5-10 interviewed marina owners/managers express significant, unaddressed pain with their current stormwater/SPCC documentation methods and indicate a clear interest in a specialized digital solution.",
+        "stopIf": "Most interviewed marina owners/managers report that their current compliance methods are sufficient, they use existing general tools effectively, or they do not see value in a specialized solution for marinas.",
         "removedLinks": 0,
-        "downgraded": [],
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "strength \"Some indirect competitors offer free trials or free versions\" observed → inference"
+        ],
         "validation": {
           "removedLinks": 0,
           "scrubbedSentences": 0,
           "removedSentences": [],
-          "rejectedCitations": [],
-          "irrelevantCitations": [],
-          "downgraded": [],
-          "dropped": []
+          "rejectedCitations": [
+            {
+              "claim": "strength",
+              "id": "P3",
+              "reason": "quote not found in the cited item"
+            }
+          ],
+          "irrelevantCitations": [
+            {
+              "claim": "competition",
+              "id": "P3",
+              "relevance": "uncertain",
+              "reason": "not judged for relevance"
+            },
+            {
+              "claim": "alternative General Environmental Compliance Software (e.g., Benchmark Gensuite EHS, Forms On Fire, Mango)",
+              "id": "P3",
+              "relevance": "uncertain",
+              "reason": "not judged for relevance"
+            },
+            {
+              "claim": "strength",
+              "id": "P3",
+              "relevance": "uncertain",
+              "reason": "not judged for relevance"
+            }
+          ],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "strength \"Some indirect competitors offer free trials or free versions\" observed → inference"
+          ],
+          "dropped": [
+            "change: original text \"prevent significant fines and environmental damage.\" is not in Scout's memo"
+          ]
         },
-        "assessedAt": "2026-10-27T10:16:25.437Z",
-        "evidenceUpdatedAt": "2026-10-27T10:10:25.566Z"
+        "assessedAt": "2026-10-27T11:13:33.612Z",
+        "evidenceUpdatedAt": "2026-10-27T11:12:31.194Z"
       }
     },
     {
@@ -4738,14 +4924,23 @@
       "status": "charged",
       "budget": "recorded",
       "costEstimated": false
+    },
+    {
+      "at": "2026-10-27T11:12:26.628Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "3cbeff88-c133-54d9-9eed-268ac6f7cdc6",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
     }
   ],
   "provider": {
     "status": "live",
     "reason": null,
-    "warnings": [
-      "serp/google/organic/live/regular: DataForSEO task_failed (40101): Internal SE Server Error. — this request only; it can be tried again later"
-    ]
+    "warnings": []
   },
   "budget": {
     "backend": "git-ledger",
@@ -4757,14 +4952,14 @@
       "month": "2026-10",
       "capUsd": 2,
       "maxRequestUsd": 0.1,
-      "chargedUsd": 0.30612,
+      "chargedUsd": 0.33096,
       "heldUsd": 0,
       "openHolds": 0,
       "uncertainHolds": 0,
-      "remainingUsd": 1.69388
+      "remainingUsd": 1.66904
     },
-    "monthToDateUsdBefore": 0.30612,
-    "spentThisRunUsd": 0.02484
+    "monthToDateUsdBefore": 0.33096,
+    "spentThisRunUsd": 0.002
   },
   "marketSupport": {
     "united states|en": {
@@ -4775,29 +4970,29 @@
     }
   },
   "projection": {
-    "labsTasks": 1,
-    "labsKeywords": 26,
-    "keywordsFromCache": 1,
-    "labsUsd": 0.01512,
-    "serpQueries": 6,
-    "serpsFromCache": 0,
-    "serpUsd": 0.012,
+    "labsTasks": 0,
+    "labsKeywords": 0,
+    "keywordsFromCache": 9,
+    "labsUsd": 0,
+    "serpQueries": 1,
+    "serpsFromCache": 1,
+    "serpUsd": 0.002,
     "markets": [
       {
         "location": "United States",
         "language": "en",
-        "ideas": 3,
-        "keywordsToBuy": 26
+        "ideas": 1,
+        "keywordsToBuy": 0
       }
     ],
-    "totalUsd": 0.02712,
-    "reservedUsd": 0.029832
+    "totalUsd": 0.002,
+    "reservedUsd": 0.0022
   },
   "lastGather": {
-    "at": "2026-10-27T10:10:25.567Z",
+    "at": "2026-10-27T11:12:31.194Z",
     "mode": "live",
-    "pendingIdeas": 3,
-    "spentUsd": 0.02484,
+    "pendingIdeas": 1,
+    "spentUsd": 0.002,
     "note": null
   }
 }
