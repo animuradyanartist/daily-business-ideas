@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-28
+*   **Regulatory Flux as a "Why Now" Multiplier:** While general compliance is a pain, *active changes* in regulations (like temporary fuel tax holidays or rate adjustments) create an amplified "why now" for automated solutions, as manual processes cannot keep pace with dynamic rules without significant error.
+*   **The "Cost of Doing Business" Fallacy:** Many small business owners view compliance tasks as an unavoidable "cost of doing business" and underestimate the true financial drain of manual processes (time opportunity cost, hidden penalties). Solutions that explicitly quantify these hidden costs resonate more powerfully.
+*   **Mobile-First for Field Operations is Table Stakes, Not a Feature:** For industries with mobile workforces (like trucking), a truly effective compliance solution must be mobile-first and either integrate seamlessly with existing field tools (like ELDs) or leverage smartphone capabilities (GPS) to minimize data entry friction.
+
 ## 2026-10-27 (trends)
 - **AI as a "Strategic Content Orchestrator":** AI is moving beyond generating individual content pieces to orchestrating entire content strategies, including repurposing, multi-channel distribution, and personal branding, significantly reducing the strategic and operational burden for solo creators.
 - **The "Pre-Product" AI Opportunity:** For digital product creators, AI is becoming a powerful tool for de-risking ideas *before* development. This includes simulating market feedback, validating niches, and refining value propositions, accelerating the path to market fit.

@@ -1,0 +1,4408 @@
+{
+  "schema": 1,
+  "date": "2026-10-28",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-28.md"
+  },
+  "createdAt": "2026-10-28T11:47:24.743Z",
+  "updatedAt": "2026-10-28T11:47:24.744Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-28.md",
+    "title": "The Small Independent Trucking Company's \"Audit-Proof\" IFTA Fuel Tax & Mileage Hub",
+    "score": 91,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-28:pest-control-osha-sds-hub",
+      "slug": "pest-control-osha-sds-hub",
+      "title": "The Independent Pest Control Operator's \"OSHA-Proof\" SDS & Chemical Inventory Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "OSHA and EPA regulations are specific to the United States, making it the most plausible market for this solution."
+      },
+      "plan": {
+        "slug": "pest-control-osha-sds-hub",
+        "title": "The Independent Pest Control Operator's \"OSHA-Proof\" SDS & Chemical Inventory Hub",
+        "problem": "Pest control operators face substantial risks from OSHA Hazard Communication Standard (HCS) violations and EPA EPCRA reporting requirements, leading to fines and errors with manual management.",
+        "targetCustomer": "Owner-operator of an independent pest control company (1-15 trucks).",
+        "payer": "Owner-operator of an independent pest control company.",
+        "whyPayerPays": "The payer would pay to avoid costly OSHA and EPA fines, ensure worker safety, and simplify compliance burdens.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "OSHA and EPA regulations are specific to the United States, making it the most plausible market for this solution."
+        },
+        "keywords": {
+          "problem": [
+            "osha hazard communication violations",
+            "epa tier ii reporting requirements",
+            "pest control chemical inventory"
+          ],
+          "solution": [
+            "sds management",
+            "chemical inventory software",
+            "osha compliance solution"
+          ],
+          "buying": [
+            "sds software pricing",
+            "best chemical inventory tools",
+            "osha compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "sds management",
+          "osha hazard communication violations"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "osha hazard communication violations",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "epa tier ii reporting requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -100,
+          "providerUpdatedAt": "2026-10-19 10:20:31 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 10
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (7 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "pest control chemical inventory",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "sds management",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 1000,
+          "cpcUsd": 26.77,
+          "adCompetition": 0.29,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "navigational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-19 23:01:36 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 880
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 590
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 1000
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -9,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "chemical inventory software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 390,
+          "cpcUsd": 52.69,
+          "adCompetition": 0.18,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -70,
+          "providerUpdatedAt": "2026-10-19 07:19:37 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 260
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 720
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 320
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 210
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 260
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -61,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "osha compliance solution",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "sds software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-20T10:35:17.084Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best chemical inventory tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "osha compliance cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "sds management",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:31.825Z",
+          "checkUrl": "https://www.google.com/search?q=sds%20management&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.enhesa.com",
+              "url": "https://www.enhesa.com/solutions/safety-data-sheets/sds-manager",
+              "title": "SDS Manager - Safety Data Sheets",
+              "description": "SDS Manager supports the management and distribution of approved safety data sheets, with SDS Sourcing available to help keep supplier documents current. Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.totalsds.com",
+              "url": "https://www.totalsds.com/sds-manager/",
+              "title": "Safety Data Sheet Management Software",
+              "description": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.workhub.com",
+              "url": "https://www.workhub.com/features/safety-data-sheets/",
+              "title": "Free Safety Data Sheet (MSDS/SDS) Management ...",
+              "description": "Our Safety Data Sheet Management Software makes it easy to store, organize & distribute SDS's. Upload SDS to database & scan container QR codes with mobile ...",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "hsi.com",
+              "url": "https://hsi.com/blog/instant-sds-access",
+              "title": "Modern SDS Management Tools for Safer Workplaces - HSI",
+              "description": "Learn why slow SDS access is a safety risk and how cloud solutions help teams respond faster, work safer, and stay compliant in real time.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.totalsds.com",
+              "url": "https://www.totalsds.com/is-cloud-based-sds-management-right-for-my-company/",
+              "title": "Is Cloud-Based SDS Management Right For My Company?",
+              "description": "Apr 10, 2018 — An electronic SDS system reduces redundancies and provides accessible and transparent compliance information across an organization. So at ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "cloudsds.com",
+              "url": "https://cloudsds.com/",
+              "title": "CloudSDS: Best SDS Management Software | Fast and ...",
+              "description": "CloudSDS, the best SDS Management System, guarantees monthly updates to keep you compliant. Our AI-powered search helps you find data 25x faster",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "cloudsds.com",
+              "url": "https://cloudsds.com/safety-data-sheet-management/top-25-sds-management-software-in-2026-detailed-feature-analysis/",
+              "title": "Top 25 SDS Management Software in 2026",
+              "description": "Sep 18, 2026 — Compare the top 25 SDS management software in 2026 with detailed features, compliance capabilities, pros, cons, and ideal use cases.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=XXREIfVdkmk",
+              "title": "SDS Management System for Compliance and Chemical Safety",
+              "description": "ERA's SDS Management Software empowers you to securely store and share your SDS library allowing you to access premium digital storage features ...",
+              "id": "S1.10",
+              "class": "reference_media"
+            },
+            {
+              "rank": 11,
+              "domain": "www.msdssource.com",
+              "url": "https://www.msdssource.com/resources/sds-management-municipalities-compliance-msdssource",
+              "title": "SDS Management for Municipalities: Simplify OSHA & ...",
+              "description": "Apr 24, 2025 — Streamline SDS compliance for municipalities with msds Source. Ensure OSHA, WHMIS & GHS compliance via cloud access, automated updates ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "osha hazard communication violations",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:39.569Z",
+          "checkUrl": "https://www.google.com/search?q=osha%20hazard%20communication%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.staffmanagement.com",
+              "url": "https://www.staffmanagement.com/insight/the-top-osha-violations-and-how-to-fix-them/",
+              "title": "The top OSHA violations and how to fix them",
+              "description": "Oct 22, 2024 — Here are 5 of the most common violations. 1. Hazard communication standard. The rule: To ensure chemical safety in the workplace, information ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.osha.gov",
+              "url": "http://www.osha.gov/laws-regs/oshact/section_17",
+              "title": "Penalties",
+              "description": "Any employer who willfully or repeatedly violates … a civil penalty of not more than $70,000 for each violation, but not less than $5,000 for each willful  ...",
+              "id": "S2.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.alert-software.com",
+              "url": "https://www.alert-software.com/blog/osha-violations-list-for-safety-in-the-workplace",
+              "title": "OSHA Violations List for Safety in the Workplace",
+              "description": "Feb 16, 2026 — Examples of OSHA violations in the workplace include failure to provide fall protection, inadequate hazard communication, improper machine ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "facs.com",
+              "url": "https://facs.com/blog/the-1-osha-violation-and-how-to-avoid-it/",
+              "title": "The #1 OSHA Violation and How to Avoid It in 2024",
+              "description": "Mar 22, 2024 — Stay ahead of 2024 OSHA rules with our guide on OSHA compliance. Learn the top OSHA violation and master fall prevention laws to ensure ...",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.osha.gov",
+              "url": "http://www.osha.gov/news/newsreleases/enforcement",
+              "title": "OSHA News Releases – Enforcement",
+              "description": "Hazard Communication · Personal Protective Equipment · Suicide Prevention ... OSHA News Release - New York City Region - Judge affirms serious violations ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "home.sentryroad.com",
+              "url": "https://home.sentryroad.com/blog/top-10-osha-violations-2024",
+              "title": "Top 10 OSHA Violations of 2024: What They Mean and ...",
+              "description": "Dec 3, 2024 — Hazard Communication (1910.1200) Number of Violations: 2,888 2023 Rank: #2 (325 fewer violations than in 2023) What It Is: Hazard communication ...",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.gofmx.com",
+              "url": "https://www.gofmx.com/blog/top-5-osha-violations-avoid/",
+              "title": "The Top 5 OSHA Violations and How to Avoid Them",
+              "description": "Mar 1, 2024 — Lack of a documented hazard communication program including safety datasheets · Lack of labels on hazardous materials · Inadequate training for ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.osha.gov",
+              "url": "http://www.osha.gov/hazardous-waste/osha",
+              "title": "Hazardous Waste - OSHA Compliance Issues",
+              "description": "The delays placed workers in unnecessarily high levels of PPE with increased risk of heat stress, restricted vision, impaired communication, and increased ... Read more",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "www.workyard.com",
+              "url": "https://www.workyard.com/us-labor-laws/ohsa-violations-list",
+              "title": "OSHA Violations List: Most Common, Most Serious and ...",
+              "description": "Jun 18, 2026 — 2. Hazard Communication, General Industry (29 CFR 1910.1200) · Chemicals stored without proper labeling. · Employees handling hazardous materials ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "totalsds.com",
+          "url": "https://www.totalsds.com/sds-manager/",
+          "finalUrl": "https://www.totalsds.com/sds-manager/",
+          "retrievedAt": "2026-10-28T11:48:01.197Z",
+          "status": 200,
+          "error": null,
+          "title": "TotalSDS Manager | Safety Data Sheet Management Software",
+          "description": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "totalsds.com",
+          "url": "https://www.totalsds.com/pricing",
+          "finalUrl": "https://www.totalsds.com/pricing",
+          "retrievedAt": "2026-10-20T10:36:02.926Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "cloudsds.com",
+          "url": "https://cloudsds.com/",
+          "finalUrl": "https://cloudsds.com/",
+          "retrievedAt": "2026-10-28T11:48:01.199Z",
+          "status": 200,
+          "error": null,
+          "title": "Best SDS Management Software | Fast and Compliant | CloudSDS",
+          "description": "23M+ safety data sheets, monthly compliance updates and AI-powered search — CloudSDS is the most complete SDS management software. Try it free.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "cloudsds.com",
+          "url": "https://cloudsds.com/pricing",
+          "finalUrl": "https://cloudsds.com/",
+          "retrievedAt": "2026-10-28T11:48:01.200Z",
+          "status": 200,
+          "error": null,
+          "title": "Best SDS Management Software | Fast and Compliant | CloudSDS",
+          "description": "23M+ safety data sheets, monthly compliance updates and AI-powered search — CloudSDS is the most complete SDS management software. Try it free.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "enhesa.com",
+          "url": "https://www.enhesa.com/solutions/safety-data-sheets/sds-manager",
+          "finalUrl": "https://www.enhesa.com/solutions/safety-data-sheets/sds-manager",
+          "retrievedAt": "2026-10-28T11:48:01.201Z",
+          "status": 200,
+          "error": null,
+          "title": "SDS Manager: Safety Data Sheet Management | Enhesa",
+          "description": "Bring approved safety data sheets into one searchable library and make them easy to access wherever work happens across your organization.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "enhesa.com",
+          "url": "https://www.enhesa.com/pricing",
+          "finalUrl": "https://www.enhesa.com/pricing",
+          "retrievedAt": "2026-10-28T11:48:01.202Z",
+          "status": 200,
+          "error": null,
+          "title": "Enhesa Pricing: Tailored to Your Regulatory Needs | Enhesa",
+          "description": "Pricing is built around the domains, jurisdictions and team size you need. See how the options are structured and request a tailored proposal.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 1,
+          "totalCount": 3,
+          "top": {
+            "keyword": "epa tier ii reporting requirements",
+            "searchVolume": 10,
+            "id": "K2"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 6,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncertain",
+              "text": "\"sds management\": relevance unclear — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"chemical inventory software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"osha compliance solution\": relevance unclear — not counted."
+            },
+            {
+              "id": "K7",
+              "kind": "uncertain",
+              "text": "\"sds software pricing\": relevance unclear — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best chemical inventory tools\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"osha compliance cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low. Largest directly relevant keyword: \"epa tier ii reporting requirements\" at 10/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "totalsds.com",
+            "cloudsds.com",
+            "enhesa.com",
+            "staffmanagement.com",
+            "workhub.com",
+            "alert-software.com",
+            "hsi.com",
+            "facs.com",
+            "home.sentryroad.com",
+            "gofmx.com",
+            "workyard.com",
+            "msdssource.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "12 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 5 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "enhesa.com",
+            "totalsds.com",
+            "workhub.com",
+            "cloudsds.com",
+            "youtube.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "847f9208fa7fc2ca",
+      "evidenceUpdatedAt": "2026-10-28T11:48:04.938Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-28T11:53:55.568Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-28T11:48:04.938Z",
+        "qualifiers": [
+          "owner-operator",
+          "independent pest control company",
+          "1-15 trucks"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of OSHA HCS violations."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of EPA EPCRA reporting requirements."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes a key aspect of the idea's problem (chemical inventory management in pest control)."
+          },
+          "K4": {
+            "searcher": "broader",
+            "topic": "same",
+            "reason": "While SDS management is central to the idea's solution, the searcher could be from any industry, making the customer broader. The topic is the same as it directly relates to the solution."
+          },
+          "K5": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "The searcher could be from any industry needing chemical inventory software, making the customer broader. The topic is a wider product category that the idea's solution falls into."
+          },
+          "K6": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "The searcher could be from any business needing OSHA compliance, making the customer broader. The topic is a wider product category that the idea's solution falls into."
+          },
+          "K7": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "The searcher could be from any industry looking for SDS software pricing, making the customer broader. The topic is pricing for a category of software relevant to the solution."
+          },
+          "K8": {
+            "searcher": "broader",
+            "topic": "category",
+            "reason": "The searcher could be from any industry needing chemical inventory tools, making the customer broader. The topic is a broader category of tools."
+          },
+          "K9": {
+            "searcher": "broader",
+            "topic": "wider",
+            "reason": "The searcher could be from any business concerned about OSHA compliance costs, making the customer broader. The topic is a general business concern, wider than the idea's specific problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item discusses general SDS management tools for safer workplaces, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item discusses the benefits of cloud-based SDS management for general organizations, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item compares general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is a video about general SDS management software for compliance, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "S1.11": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item is about SDS management for municipalities, which is a different customer than independent pest control operators."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses common OSHA hazard communication violations, which is the idea's specific problem, but for a broader customer base than pest control operators."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is from OSHA and discusses penalties for violations, which is the idea's specific problem, but for a broader customer base than pest control operators."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item lists OSHA violations, including hazard communication, which is the idea's specific problem, but for a broader customer base than pest control operators."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses avoiding OSHA violations, including hazard communication, which is the idea's specific problem, but for a broader customer base than pest control operators."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is an OSHA news release mentioning hazard communication violations in enforcement, which is the idea's specific problem, but for a broader customer base."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item lists Hazard Communication as a top OSHA violation, which is the idea's specific problem, but for a broader customer base than pest control operators."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses top OSHA violations, including hazard communication program deficiencies, which is the idea's specific problem, but for a broader customer base."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item discusses OSHA compliance issues related to hazardous waste, which is a broader problem than the idea's specific focus on HCS violations and EPCRA reporting for pest control."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item lists Hazard Communication as a common OSHA violation, which is the idea's specific problem, but for a broader customer base than pest control operators."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          },
+          "P6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page discusses pricing for general regulatory compliance solutions, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-28:pest-control-osha-sds-hub",
+        "opportunity": "Independent pest control operators face risks from OSHA Hazard Communication Standard (HCS) violations and EPA EPCRA reporting requirements. An opportunity exists to provide a specialized digital solution for managing Safety Data Sheets (SDS) and chemical inventory, aiming to simplify compliance and reduce fines for these businesses.",
+        "whoPays": "The owner-operator of an independent pest control company (1-15 trucks) would pay to avoid costly OSHA and EPA fines, ensure worker safety, and simplify compliance burdens. (inference)",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Hazard Communication (1910.1200) Number of Violations: 2,888"
+            },
+            {
+              "id": "S2.3",
+              "quote": "a civil penalty of not more than $70,000 for each violation"
+            },
+            {
+              "id": "S2.8",
+              "quote": "Lack of a documented hazard communication program including safety datasheets"
+            },
+            {
+              "id": "S2.10",
+              "quote": "Chemicals stored without proper labeling"
+            },
+            {
+              "id": "K2",
+              "quote": "epa tier ii reporting requirements"
+            }
+          ],
+          "observed": "OSHA Hazard Communication (1910.1200) is a frequently cited violation, with \"2,888\" violations recorded in 2024. These violations can lead to \"a civil penalty of not more than $70,000 for each violation\" and often stem from a \"Lack of a documented hazard communication program including safety datasheets\" or \"Chemicals stored without proper labeling\". There is also search demand for \"epa tier ii reporting requirements\" at 10 searches per month.",
+          "inference": "While the general problem of OSHA HCS violations and EPA reporting requirements is evident, the direct relevance to the specific independent pest control operator customer is inferred. The low search volume for direct problem keywords suggests that this specific customer segment may not be actively searching for solutions using these exact terms, or the problem is addressed through broader compliance searches."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Safety Data Sheet Management Software"
+            },
+            {
+              "id": "P1",
+              "quote": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management."
+            },
+            {
+              "id": "S1.8",
+              "quote": "CloudSDS, the best SDS Management System, guarantees monthly updates to keep you compliant. Our AI-powered search helps you find data 25x faster"
+            },
+            {
+              "id": "S1.4",
+              "quote": "Our Safety Data Sheet Management Software makes it easy to store, organize & distribute SDS's. Upload SDS to database & scan container QR codes with mobile"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "TotalSDS Manager",
+              "type": "indirect",
+              "what": "Offers \"Safety Data Sheet Management Software\" designed to optimize \"SDS management\" for \"accessible, compliant, and up-to-date safety data sheet management.\"",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Safety Data Sheet Management Software"
+                },
+                {
+                  "id": "P1",
+                  "quote": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management."
+                }
+              ]
+            },
+            {
+              "name": "CloudSDS",
+              "type": "indirect",
+              "what": "Provides \"Best SDS Management Software\" with \"monthly updates to keep you compliant\" and \"AI-powered search\" for faster data retrieval.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "CloudSDS, the best SDS Management System, guarantees monthly updates to keep you compliant. Our AI-powered search helps you find data 25x faster"
+                }
+              ]
+            },
+            {
+              "name": "Workhub",
+              "type": "indirect",
+              "what": "Offers \"Free Safety Data Sheet (MSDS/SDS) Management Software\" that makes it \"easy to store, organize & distribute SDS's\" and allows scanning \"container QR codes with mobile.\"",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Free Safety Data Sheet (MSDS/SDS) Management ... Our Safety Data Sheet Management Software makes it easy to store, organize & distribute SDS's. Upload SDS to database & scan container QR codes with mobile"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Indirect competitors offer comprehensive SDS management features, including accessibility, compliance, and up-to-date document management.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "accessible, compliant, and up-to-date safety data sheet management"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some solutions provide mobile capabilities, such as scanning QR codes for container information.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "scan container QR codes with mobile"
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "At least one indirect competitor offers a free SDS management solution.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Free Safety Data Sheet (MSDS/SDS) Management"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No direct competitors specifically target independent pest control operators or explicitly address the unique combination of OSHA HCS and EPA EPCRA reporting requirements for this niche.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "The evidence does not show any competitor offering features explicitly tailored to the specific chemical inventory needs or field operations of pest control companies.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Pest control operators face substantial risks from Occupational Safety and Health Administration (OSHA) Hazard Communication Standard (HCS) violations, which can result in fines of up to $16,550 for serious violations and $165,514 for willful or repeat violations under OSHA's 2026 penalty schedule. Common citations include missing Safety Data Sheets (SDS) for chemicals on site, unlabeled secondary containers, and a lack of a written HCS program.",
+            "finding": "OSHA Hazard Communication (1910.1200) is a top violation, with \"2,888\" violations in 2024, and penalties can be \"not more than $70,000 for each violation\". Common issues include \"Lack of a documented hazard communication program including safety datasheets\" and \"Chemicals stored without proper labeling\".",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "Hazard Communication (1910.1200) Number of Violations: 2,888"
+              },
+              {
+                "id": "S2.3",
+                "quote": "a civil penalty of not more than $70,000 for each violation"
+              },
+              {
+                "id": "S2.8",
+                "quote": "Lack of a documented hazard communication program including safety datasheets"
+              },
+              {
+                "id": "S2.10",
+                "quote": "Chemicals stored without proper labeling"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Furthermore, the EPA's Emergency Planning and Community Right-to-Know Act (EPCRA) requires annual hazardous chemical inventory reporting (Tier II) to state and local authorities by March 1st for facilities exceeding certain thresholds, adding another layer of compliance burden.",
+            "finding": "There is some search demand for \"epa tier ii reporting requirements\" at 10 searches per month.",
+            "basis": [
+              {
+                "id": "K2",
+                "quote": "epa tier ii reporting requirements"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Manual management of SDS and chemical inventory is time-consuming and prone to errors for field technicians.",
+            "finding": "The evidence does not directly confirm that manual management is time-consuming or error-prone specifically for pest control field technicians. However, general SDS management tools are discussed as helping \"teams respond faster, work safer, and stay compliant in real time\" and reducing \"redundancies and provides accessible and transparent compliance information\" across organizations.",
+            "basis": [
+              {
+                "id": "S1.5",
+                "quote": "cloud solutions help teams respond faster, work safer, and stay compliant in real time"
+              },
+              {
+                "id": "S1.7",
+                "quote": "An electronic SDS system reduces redundancies and provides accessible and transparent compliance information"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as building a basic web form or spreadsheet template for chemical inventory and SDS linking tailored to common pest control chemicals, requires minimal technical expertise and can be done quickly."
+        },
+        "unproven": [
+          "The specific pain level and willingness to pay of independent pest control operators for a specialized solution.",
+          "The exact features most critical to this specific customer segment.",
+          "The actual demand for a specialized solution versus general SDS management software.",
+          "The current methods pest control operators use for SDS and chemical inventory management and their satisfaction with them."
+        ],
+        "nextExperiment": {
+          "what": "Conduct qualitative interviews with 5-10 independent pest control operators (1-15 trucks) to understand their current process for managing SDS and chemical inventory, the specific challenges they face with OSHA HCS and EPA EPCRA compliance, and their perceived value of a specialized digital hub.",
+          "cost": "$0 (time for outreach and interviews)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 out of 5 interviewed pest control operators express a strong, quantifiable pain point related to OSHA HCS or EPA EPCRA compliance that is not adequately addressed by existing general solutions, and indicate a willingness to pay for a specialized tool.",
+        "stopIf": "Fewer than 2 out of 5 interviewed pest control operators express a strong, quantifiable pain point or indicate a willingness to pay for a specialized solution, suggesting the problem is not acute enough or their needs are met by existing alternatives."
+      },
+      "assessment": {
+        "opportunity": "Independent pest control operators face risks from OSHA Hazard Communication Standard (HCS) violations and EPA EPCRA reporting requirements. An opportunity exists to provide a specialized digital solution for managing Safety Data Sheets (SDS) and chemical inventory, aiming to simplify compliance and reduce fines for these businesses.",
+        "whoPays": "The owner-operator of an independent pest control company (1-15 trucks) would pay to avoid costly OSHA and EPA fines, ensure worker safety, and simplify compliance burdens. (inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.7",
+              "quote": "Hazard Communication (1910.1200) Number of Violations: 2,888",
+              "domain": "home.sentryroad.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item lists Hazard Communication as a top OSHA violation, which is the idea's specific problem, but for a broader customer base than pest control operators."
+            },
+            {
+              "id": "S2.3",
+              "quote": "a civil penalty of not more than $70,000 for each violation",
+              "domain": "osha.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "This item is from OSHA and discusses penalties for violations, which is the idea's specific problem, but for a broader customer base than pest control operators."
+            },
+            {
+              "id": "S2.8",
+              "quote": "Lack of a documented hazard communication program including safety datasheets",
+              "domain": "gofmx.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item discusses top OSHA violations, including hazard communication program deficiencies, which is the idea's specific problem, but for a broader customer base."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Chemicals stored without proper labeling",
+              "domain": "workyard.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "This item lists Hazard Communication as a common OSHA violation, which is the idea's specific problem, but for a broader customer base than pest control operators."
+            },
+            {
+              "id": "K2",
+              "quote": "epa tier ii reporting requirements",
+              "domain": null,
+              "kind": "K",
+              "cls": "keyword",
+              "relevance": "direct",
+              "relevanceReason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of EPA EPCRA reporting requirements."
+            }
+          ],
+          "observed": "OSHA Hazard Communication (1910.1200) is a frequently cited violation, with \"2,888\" violations recorded in 2024. These violations can lead to \"a civil penalty of not more than $70,000 for each violation\" and often stem from a \"Lack of a documented hazard communication program including safety datasheets\" or \"Chemicals stored without proper labeling\". There is also search demand for \"epa tier ii reporting requirements\" at 10 searches per month.",
+          "inference": "While the general problem of OSHA HCS violations and EPA reporting requirements is evident, the direct relevance to the specific independent pest control operator customer is inferred. The low search volume for direct problem keywords suggests that this specific customer segment may not be actively searching for solutions using these exact terms, or the problem is addressed through broader compliance searches."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.3",
+              "quote": "Safety Data Sheet Management Software",
+              "domain": "totalsds.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+            },
+            {
+              "id": "P1",
+              "quote": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management.",
+              "domain": "totalsds.com",
+              "kind": "P",
+              "cls": "page",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+            },
+            {
+              "id": "S1.8",
+              "quote": "CloudSDS, the best SDS Management System, guarantees monthly updates to keep you compliant. Our AI-powered search helps you find data 25x faster",
+              "domain": "cloudsds.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+            },
+            {
+              "id": "S1.4",
+              "quote": "Our Safety Data Sheet Management Software makes it easy to store, organize & distribute SDS's. Upload SDS to database & scan container QR codes with mobile",
+              "domain": "workhub.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "totalsds.com",
+            "cloudsds.com",
+            "workhub.com"
+          ],
+          "alternatives": [
+            {
+              "name": "TotalSDS Manager",
+              "type": "indirect",
+              "what": "Offers \"Safety Data Sheet Management Software\" designed to optimize \"SDS management\" for \"accessible, compliant, and up-to-date safety data sheet management.\"",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Safety Data Sheet Management Software",
+                  "domain": "totalsds.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                },
+                {
+                  "id": "P1",
+                  "quote": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management.",
+                  "domain": "totalsds.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                }
+              ]
+            },
+            {
+              "name": "CloudSDS",
+              "type": "indirect",
+              "what": "Provides \"Best SDS Management Software\" with \"monthly updates to keep you compliant\" and \"AI-powered search\" for faster data retrieval.",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "CloudSDS, the best SDS Management System, guarantees monthly updates to keep you compliant. Our AI-powered search helps you find data 25x faster",
+                  "domain": "cloudsds.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                }
+              ]
+            },
+            {
+              "name": "Workhub",
+              "type": "indirect",
+              "what": "Offers \"Free Safety Data Sheet (MSDS/SDS) Management Software\" that makes it \"easy to store, organize & distribute SDS's\" and allows scanning \"container QR codes with mobile.\"",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Free Safety Data Sheet (MSDS/SDS) Management ... Our Safety Data Sheet Management Software makes it easy to store, organize & distribute SDS's. Upload SDS to database & scan container QR codes with mobile",
+                  "domain": "workhub.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Indirect competitors offer comprehensive SDS management features, including accessibility, compliance, and up-to-date document management.",
+              "basis": [
+                {
+                  "id": "P1",
+                  "quote": "accessible, compliant, and up-to-date safety data sheet management",
+                  "domain": "totalsds.com",
+                  "kind": "P",
+                  "cls": "page",
+                  "relevance": "broader",
+                  "relevanceReason": "This page is for general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "Some solutions provide mobile capabilities, such as scanning QR codes for container information.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "scan container QR codes with mobile",
+                  "domain": "workhub.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                }
+              ],
+              "kind": "observed"
+            },
+            {
+              "text": "At least one indirect competitor offers a free SDS management solution.",
+              "basis": [
+                {
+                  "id": "S1.4",
+                  "quote": "Free Safety Data Sheet (MSDS/SDS) Management",
+                  "domain": "workhub.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "This item is about general SDS management software, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "No direct competitors specifically target independent pest control operators or explicitly address the unique combination of OSHA HCS and EPA EPCRA reporting requirements for this niche.",
+              "basis": [],
+              "kind": "inference"
+            },
+            {
+              "text": "The evidence does not show any competitor offering features explicitly tailored to the specific chemical inventory needs or field operations of pest control companies.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Pest control operators face substantial risks from Occupational Safety and Health Administration (OSHA) Hazard Communication Standard (HCS) violations, which can result in fines of up to $16,550 for serious violations and $165,514 for willful or repeat violations under OSHA's 2026 penalty schedule. Common citations include missing Safety Data Sheets (SDS) for chemicals on site, unlabeled secondary containers, and a lack of a written HCS program.",
+            "finding": "OSHA Hazard Communication (1910.1200) is a top violation, with \"2,888\" violations in 2024, and penalties can be \"not more than $70,000 for each violation\". Common issues include \"Lack of a documented hazard communication program including safety datasheets\" and \"Chemicals stored without proper labeling\".",
+            "basis": [
+              {
+                "id": "S2.7",
+                "quote": "Hazard Communication (1910.1200) Number of Violations: 2,888",
+                "domain": "home.sentryroad.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This item lists Hazard Communication as a top OSHA violation, which is the idea's specific problem, but for a broader customer base than pest control operators."
+              },
+              {
+                "id": "S2.3",
+                "quote": "a civil penalty of not more than $70,000 for each violation",
+                "domain": "osha.gov",
+                "kind": "S",
+                "cls": "government",
+                "relevance": "category",
+                "relevanceReason": "This item is from OSHA and discusses penalties for violations, which is the idea's specific problem, but for a broader customer base than pest control operators."
+              },
+              {
+                "id": "S2.8",
+                "quote": "Lack of a documented hazard communication program including safety datasheets",
+                "domain": "gofmx.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This item discusses top OSHA violations, including hazard communication program deficiencies, which is the idea's specific problem, but for a broader customer base."
+              },
+              {
+                "id": "S2.10",
+                "quote": "Chemicals stored without proper labeling",
+                "domain": "workyard.com",
+                "kind": "S",
+                "cls": "site",
+                "relevance": "category",
+                "relevanceReason": "This item lists Hazard Communication as a common OSHA violation, which is the idea's specific problem, but for a broader customer base than pest control operators."
+              }
+            ],
+            "effect": "untested"
+          },
+          {
+            "original": "Furthermore, the EPA's Emergency Planning and Community Right-to-Know Act (EPCRA) requires annual hazardous chemical inventory reporting (Tier II) to state and local authorities by March 1st for facilities exceeding certain thresholds, adding another layer of compliance burden.",
+            "finding": "There is some search demand for \"epa tier ii reporting requirements\" at 10 searches per month.",
+            "basis": [
+              {
+                "id": "K2",
+                "quote": "epa tier ii reporting requirements",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of EPA EPCRA reporting requirements."
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "Manual management of SDS and chemical inventory is time-consuming and prone to errors for field technicians.",
+            "finding": "The evidence does not directly confirm that manual management is time-consuming or error-prone specifically for pest control field technicians. However, general SDS management tools are discussed as helping \"teams respond faster, work safer, and stay compliant in real time\" and reducing \"redundancies and provides accessible and transparent compliance information\" across organizations.",
+            "basis": [],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "easy",
+          "note": "A small first experiment, such as building a basic web form or spreadsheet template for chemical inventory and SDS linking tailored to common pest control chemicals, requires minimal technical expertise and can be done quickly."
+        },
+        "unproven": [
+          "The specific pain level and willingness to pay of independent pest control operators for a specialized solution.",
+          "The exact features most critical to this specific customer segment.",
+          "The actual demand for a specialized solution versus general SDS management software.",
+          "The current methods pest control operators use for SDS and chemical inventory management and their satisfaction with them."
+        ],
+        "nextExperiment": {
+          "what": "Conduct qualitative interviews with 5-10 independent pest control operators (1-15 trucks) to understand their current process for managing SDS and chemical inventory, the specific challenges they face with OSHA HCS and EPA EPCRA compliance, and their perceived value of a specialized digital hub.",
+          "cost": "$0 (time for outreach and interviews)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 out of 5 interviewed pest control operators express a strong, quantifiable pain point related to OSHA HCS or EPA EPCRA compliance that is not adequately addressed by existing general solutions, and indicate a willingness to pay for a specialized tool.",
+        "stopIf": "Fewer than 2 out of 5 interviewed pest control operators express a strong, quantifiable pain point or indicate a willingness to pay for a specialized solution, suggesting the problem is not acute enough or their needs are met by existing alternatives.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "change \"pest control operators face substantial risks from\" supports → untested: Scout's claim is that something is absent, which quoted items cannot show — at most an inference",
+          "change \"manual management of sds and chemical inventory is\" weakens → untested: cites only evidence judged to be about a different customer or problem, or not judged"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "change",
+              "id": "S1.5",
+              "relevance": "broader",
+              "reason": "This item discusses general SDS management tools for safer workplaces, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+            },
+            {
+              "claim": "change",
+              "id": "S1.7",
+              "relevance": "broader",
+              "reason": "This item discusses the benefits of cloud-based SDS management for general organizations, which is broader than the specific pest control customer and their unique OSHA/EPA risks."
+            }
+          ],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "change \"pest control operators face substantial risks from\" supports → untested: Scout's claim is that something is absent, which quoted items cannot show — at most an inference",
+            "change \"manual management of sds and chemical inventory is\" weakens → untested: cites only evidence judged to be about a different customer or problem, or not judged"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-28T11:54:27.531Z",
+        "evidenceUpdatedAt": "2026-10-28T11:48:04.938Z"
+      }
+    },
+    {
+      "id": "2026-10-28:trucking-ifta-fuel-tax-hub",
+      "slug": "trucking-ifta-fuel-tax-hub",
+      "title": "The Small Independent Trucking Company's \"Audit-Proof\" IFTA Fuel Tax & Mileage Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "IFTA regulations apply across US states and Canadian provinces, but the penalties and audit figures mentioned are US-centric, making the United States the primary market."
+      },
+      "plan": {
+        "slug": "trucking-ifta-fuel-tax-hub",
+        "title": "The Small Independent Trucking Company's \"Audit-Proof\" IFTA Fuel Tax & Mileage Hub",
+        "problem": "Small independent trucking companies face significant financial penalties and audit risks due to non-compliance with IFTA regulations and inaccurate record-keeping.",
+        "targetCustomer": "Owner-operator or small fleet owner (1-10 trucks) of an independent trucking company.",
+        "payer": "Owner-operator or small fleet owner of an independent trucking company.",
+        "whyPayerPays": "The payer would pay to avoid IFTA penalties, audit assessments, and the time-consuming burden of manual record-keeping.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "IFTA regulations apply across US states and Canadian provinces, but the penalties and audit figures mentioned are US-centric, making the United States the primary market."
+        },
+        "keywords": {
+          "problem": [
+            "ifta audit penalties",
+            "ifta compliance issues",
+            "trucking mileage tracking problems"
+          ],
+          "solution": [
+            "ifta software",
+            "fuel tax software",
+            "trucking compliance system"
+          ],
+          "buying": [
+            "ifta software pricing",
+            "best ifta reporting tools",
+            "fuel tax software cost"
+          ]
+        },
+        "serpQueries": [
+          "ifta software",
+          "ifta audit penalties"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ifta audit penalties",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": null,
+          "adCompetition": 0.06,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -50,
+          "providerUpdatedAt": "2026-10-15 13:50:19 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (13 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "ifta compliance issues",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "trucking mileage tracking problems",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "ifta software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 140,
+          "cpcUsd": 18.24,
+          "adCompetition": 0.57,
+          "adCompetitionLevel": "MEDIUM",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -56,
+          "providerUpdatedAt": "2026-09-17 12:53:42 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 140
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -38,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "fuel tax software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 20,
+          "cpcUsd": 44.2,
+          "adCompetition": 0.22,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -82,
+          "providerUpdatedAt": "2026-10-19 06:56:44 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 20
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 40
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 40
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -71,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "trucking compliance system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "ifta software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best ifta reporting tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "fuel tax software cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "ifta software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-20T09:45:45.626Z",
+          "checkUrl": "https://www.google.com/search?q=ifta%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.geotab.com",
+              "url": "https://www.geotab.com/fleet-management-solutions/ifta/",
+              "title": "International Fuel Tax Agreement (IFTA) reporting software",
+              "description": "Track fuel costs, integrate fuel cards, and automate IFTA reporting with Geotab's open telematics platform IFTA software. Learn more about our products.",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "gomotive.com",
+              "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
+              "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation",
+              "description": "IFTA automation simplifies key aspects of fleet compliance by automating fuel tax calculations and report creation. Combined with Motive's compliance tools",
+              "id": "S1.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.verizonconnect.com",
+              "url": "https://www.verizonconnect.com/resources/article/ifta-tracking-reporting/",
+              "title": "Simplify IFTA tracking with fleet management software",
+              "description": "Sep 9, 2025 — Fleet management software offers a practical solution, helping fleets automate complex IFTA reporting tasks and stay ahead of compliance ... Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.trucklogics.com",
+              "url": "https://www.trucklogics.com/solutions/ifta-reporting-software",
+              "title": "IFTA Fuel Tax Reporting Software",
+              "description": "Our IFTA reporting software helps generate quarterly fuel tax reports easily with multiple data import options and accurate tax calculations.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "fleetworthy.com",
+              "url": "https://fleetworthy.com/resources/blog/best-ifta-software-private-fleets-2026/",
+              "title": "Best IFTA Software for Private Fleets in 2026",
+              "description": "Sep 25, 2026 — 1. Dedicated fleet compliance platform · 2. Telematics-native IFTA module · 3. Standalone fuel tax calculator · 4. Outsourced service bureau / ... Read more",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.radius.com",
+              "url": "https://www.radius.com/en-us/telematics/dot-compliance/ifta-software/",
+              "title": "IFTA Reporting Software - Radius",
+              "description": "Our integrated IFTA reporting software automates and simplifies the entire fuel tax reporting process, ensuring accuracy and saving you valuable time. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.torotms.com",
+              "url": "https://www.torotms.com/blog/ifta-software",
+              "title": "IFTA Software: How to Spend Less Time on Fuel Tax ...",
+              "description": "IFTA reporting is tedious and error-prone. Dedicated IFTA software like Toro TMS helps trucking companies save time and stay compliant.",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.expressifta.com",
+              "url": "https://www.expressifta.com/",
+              "title": "IFTA Reporting Software - IFTA Filing Online - Quarterly Fuel ...",
+              "description": "Generate quarterly fuel tax reports easily with our online IFTA reporting software. Our tax calculation, auto IFTA report updates, helps to generate reports ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "tentrucks.com",
+              "url": "https://tentrucks.com/blog/best-ifta-software-owner-operators",
+              "title": "Best IFTA Software for Owner-Operators 2026",
+              "description": "Jul 7, 2026 — Compare the 5 best IFTA reporting software options for owner-operators in 2026. See why TenTrucks ranks #1 for IFTA, dispatch, ...",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "ifta audit penalties",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:46.135Z",
+          "checkUrl": "https://www.google.com/search?q=ifta%20audit%20penalties&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.ncdor.gov",
+              "url": "https://www.ncdor.gov/documents/files/12-ifta-irp-audit-process-dor/open",
+              "title": "IFTA/IRP Audit Process",
+              "description": "This is when there are not enough records to audit. Effective for audits July 1, 2013 and after, penalties based on license fees. • First Audit 20% penalty. Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "truckstop.com",
+              "url": "https://truckstop.com/blog/ifta-audit/",
+              "title": "IFTA Audits: A Survival Guide for Truckers",
+              "description": "Jun 8, 2022 — In general, you'll owe $50 or 10% of the total tax due (whichever is higher) for non-filing or filing late, along with 0.4167% interest per ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "fleetcollect.net",
+              "url": "https://fleetcollect.net/blog/ifta-penalties-and-audits",
+              "title": "IFTA Penalties & Audits: What Happens If You Don't ...",
+              "description": "Jul 23, 2026 — If an audit finds discrepancies, you may owe additional taxes plus interest (typically 1% per month) and penalties ranging from 10–25% of the ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.thetruckersreport.com",
+              "url": "https://www.thetruckersreport.com/truckingindustryforum/threads/ifta-irp-audit.2344493/",
+              "title": "Ifta irp audit",
+              "description": "Sep 5, 2021 — Just got hit with ifta/irp audit. What is the max penalty/fine/interest if I give them zero documents and just pay them AGAIN to leave me ...",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "fleetrabbit.com",
+              "url": "https://fleetrabbit.com/blogs/post/ifta-compliance101",
+              "title": "IFTA Compliance 101: Avoiding Penalties with FleetRabbit",
+              "description": "Aug 30, 2025 — IFTA violation costs vary by jurisdiction and violation type but typically range from $1,000-25,000 annually for fleets with compliance problems ... Read more",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.eform2290.com",
+              "url": "https://www.eform2290.com/blog/failed-ifta-audit-consequences/",
+              "title": "IFTA Audit Penalties: What Happens If You Fail",
+              "description": "Oct 3, 2022 — In most cases, you'll face a fine of $50 or 10% of the total tax due (whichever is higher) for late or non-filing, plus 0.4167% interest per ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "tbrothers.com",
+              "url": "https://tbrothers.com/blog/what-is-an-ifta-audit-and-how-to-prepare",
+              "title": "What Is an IFTA Audit and How Do I Prepare for One?",
+              "description": "Mar 17, 2026 — An IFTA audit reviews your fuel-tax records to verify ... Failure to file accurately can trigger penalties, and, eventually, an audit. Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.freightwaves.com",
+              "url": "https://www.freightwaves.com/news/5-red-flags-that-can-trigger-an-ifta-audit",
+              "title": "5 red flags that can trigger an IFTA audit",
+              "description": "Mar 3, 2022 — Carriers that fail to file their IFTA tax records and payments on time face penalties of as much as 10% of the unpaid taxes and including ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.iftach.org",
+              "url": "https://www.iftach.org/committee/ac/Best%20Practices%20Guide.pdf",
+              "title": "Best Practices Audit Guide",
+              "description": "They shall also include the assessment or refund for the jurisdictions and the net total assessment or refund due for the audit, including all penalties and ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "geotab.com",
+          "url": "https://www.geotab.com/fleet-management-solutions/ifta/",
+          "finalUrl": "https://www.geotab.com/fleet-management-solutions/ifta/",
+          "retrievedAt": "2026-10-20T09:46:31.713Z",
+          "status": 200,
+          "error": null,
+          "title": "IFTA Reporting Software: Easily Automate IFTA Reporting | Geotab",
+          "description": "Track fuel costs, integrate fuel cards, and automate IFTA reporting with Geotab’s open telematics platform IFTA software. Learn more about our products.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "geotab.com",
+          "url": "https://www.geotab.com/pricing",
+          "finalUrl": "https://www.geotab.com/pricing/",
+          "retrievedAt": "2026-10-20T09:46:31.715Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "gomotive.com",
+          "url": "https://gomotive.com/products/features/ifta-reporting-automation/",
+          "finalUrl": "https://gomotive.com/products/features/ifta-reporting-automation/",
+          "retrievedAt": "2026-10-20T09:46:31.716Z",
+          "status": 200,
+          "error": null,
+          "title": "IFTA Fuel Tax Reporting Software, Tracking, & Automation | Motive",
+          "description": "Automate IFTA compliance with Motive’s platform. Simplify reporting, reduce errors, & boost efficiency with one-click report generation.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "gomotive.com",
+          "url": "https://gomotive.com/pricing",
+          "finalUrl": "https://gomotive.com/get-in-touch/?id=pricing",
+          "retrievedAt": "2026-10-20T09:46:31.716Z",
+          "status": 200,
+          "error": null,
+          "title": "Motive Pricing | ELD | Dash Cam | Motive",
+          "description": "With Motive, minimize violations, boost productivity, decrease audit risk, and lower insurance costs all-in-one fleet management platform.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "truckstop.com",
+          "url": "https://truckstop.com/blog/ifta-audit/",
+          "finalUrl": "https://truckstop.com/blog/ifta-audit/",
+          "retrievedAt": "2026-10-28T11:48:03.826Z",
+          "status": 200,
+          "error": null,
+          "title": "IFTA Audit Checklist: How to Prepare",
+          "description": "Selected for an IFTA audit? See the step-by-step process, penalties and record rules, plus a checklist to prepare.",
+          "priceMentions": [
+            {
+              "text": "$35",
+              "billingUnit": false,
+              "context": "er boards are raising rates. We’re adding tools. Plans from $35. See plans → &times; --> --> --> --> --> Search --> --> -->"
+            },
+            {
+              "text": "$50",
+              "billingUnit": false,
+              "context": "alties are typically not too severe. In general, you’ll owe $50 or 10% of the total tax due (whichever is higher) for non-f"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P6",
+          "domain": "truckstop.com",
+          "url": "https://truckstop.com/pricing",
+          "finalUrl": "https://truckstop.com/pricing",
+          "retrievedAt": "2026-10-28T11:48:03.827Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "low",
+          "scope": "direct keywords only",
+          "upTo": "some",
+          "classified": true,
+          "measuredCount": 3,
+          "totalCount": 8,
+          "top": {
+            "keyword": "ifta audit penalties",
+            "searchVolume": 20,
+            "id": "K1"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [
+            {
+              "id": "K4",
+              "kind": "uncorroborated",
+              "text": "\"ifta software\" (140/mo) alone would put idea-level demand at \"some\"; no other directly relevant keyword is in that band, so it is not counted until a person confirms it is about this idea."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): low (up to \"some\" if a flagged keyword is confirmed). Largest confirmed directly relevant keyword: \"ifta audit penalties\" at 20/month. Low measured volume is not evidence of low demand for B2B, regulated or emerging problems. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "moderate",
+          "biddingKeywordIds": [
+            "K4",
+            "K5"
+          ],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $44.20 on \"fuel tax software\"). CPC is an advertiser bid, not a customer's willingness to pay. 1 keyword(s) show medium/high Google Ads competition — auction pressure, not SEO difficulty. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "geotab.com",
+            "gomotive.com",
+            "truckstop.com",
+            "verizonconnect.com",
+            "fleetcollect.net",
+            "trucklogics.com",
+            "thetruckersreport.com",
+            "fleetworthy.com",
+            "fleetrabbit.com",
+            "radius.com",
+            "eform2290.com",
+            "torotms.com",
+            "tbrothers.com",
+            "expressifta.com",
+            "freightwaves.com",
+            "tentrucks.com",
+            "iftach.org"
+          ],
+          "platformDomains": [],
+          "discussionResults": [],
+          "pricedDomains": [],
+          "note": "17 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 7 domain(s) with a direct competitor (same problem) (geotab.com, gomotive.com, verizonconnect.com, trucklogics.com, radius.com, torotms.com, expressifta.com), 1 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "geotab.com",
+            "gomotive.com",
+            "verizonconnect.com",
+            "trucklogics.com",
+            "radius.com",
+            "torotms.com",
+            "expressifta.com"
+          ],
+          "indirectAlternativeDomains": [
+            "gomotive.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "4988d6dec578b3a3",
+      "evidenceUpdatedAt": "2026-10-28T11:48:04.939Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-10-28T11:53:55.568Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-28T11:48:04.939Z",
+        "qualifiers": [
+          "owner-operator",
+          "small fleet owner",
+          "independent trucking company"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of IFTA audit risks and financial penalties."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of IFTA non-compliance."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes a key aspect of the idea's problem (inaccurate mileage record-keeping for IFTA)."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type (IFTA is a fuel tax)."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "People searching this plausibly include the target customer, and the search describes a wider product category that the idea's solution falls into."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes pricing for the idea's specific solution type."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the cost for the idea's specific solution type."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers IFTA reporting software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers IFTA automation software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers fleet management software with IFTA tracking, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers IFTA reporting software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA software for private fleets, which is related to the idea's problem, but 'private fleets' is a broader or different customer segment than small independent trucking companies."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers IFTA reporting software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers IFTA software for trucking companies, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This item offers online IFTA reporting software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "S1.11": {
+            "customer": "same",
+            "customerMatches": [
+              "owner-operator",
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item compares IFTA reporting software specifically for owner-operators, directly matching the idea's customer and problem."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses the IFTA audit process and penalties, which is the idea's specific problem, but for a broader range of IFTA licensees."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA audits and penalties for truckers, which is the idea's specific problem, but for a broader customer base than small independent owner-operators."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA penalties and audits, which is the idea's specific problem, but for a broader range of fleets."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is a forum discussion about an IFTA/IRP audit and penalties, which is the idea's specific problem, but from a general trucker's perspective."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA compliance and avoiding penalties for fleets, which is the idea's specific problem, but for a broader range of fleets."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA audit penalties, which is the idea's specific problem, but for a broader range of IFTA filers."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA audits and preparation, which is the idea's specific problem, but for a broader range of IFTA filers."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses IFTA audit triggers and penalties for carriers, which is the idea's specific problem, but for a broader range of carriers."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item is an official IFTA audit guide discussing penalties, which is the idea's specific problem, but for all IFTA members."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page is for IFTA reporting software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "This page is for IFTA compliance software, which directly addresses the idea's problem, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page discusses pricing for a general fleet management platform, which includes reducing audit risk, but it targets a broader range of trucking companies than just small independent owner-operators."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent trucking company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This page provides an IFTA audit checklist and discusses penalties, directly addressing the idea's problem, but for a broader range of truckers."
+          }
+        },
+        "missing": []
+      }
+    },
+    {
+      "id": "2026-10-28:daycare-licensing-incident-reporting",
+      "slug": "daycare-licensing-incident-reporting",
+      "title": "The Independent Daycare's \"State-Ready\" Licensing & Incident Reporting Hub",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The problem description explicitly mentions 'state licensing violations' and 'mandated reporting laws' which are specific to US states."
+      },
+      "plan": {
+        "slug": "daycare-licensing-incident-reporting",
+        "title": "The Independent Daycare's \"State-Ready\" Licensing & Incident Reporting Hub",
+        "problem": "Daycare centers face severe consequences from state licensing violations, inadequate record-keeping, and failure to comply with mandated reporting laws.",
+        "targetCustomer": "Owner or director of a small to medium-sized independent daycare or childcare center (e.g., 20-100 children).",
+        "payer": "Owner or director of a small to medium-sized independent daycare or childcare center.",
+        "whyPayerPays": "The payer would pay to avoid fines, license suspension, reputational damage, and legal penalties associated with non-compliance.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The problem description explicitly mentions 'state licensing violations' and 'mandated reporting laws' which are specific to US states."
+        },
+        "keywords": {
+          "problem": [
+            "daycare licensing violations",
+            "childcare staff ratio requirements",
+            "daycare incident reporting laws"
+          ],
+          "solution": [
+            "daycare software",
+            "childcare management system",
+            "daycare compliance solution"
+          ],
+          "buying": [
+            "daycare software pricing",
+            "best childcare management tools",
+            "daycare licensing compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "daycare software",
+          "daycare licensing violations"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "daycare licensing violations",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 50,
+          "cpcUsd": null,
+          "adCompetition": 0,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 367,
+          "providerUpdatedAt": "2026-09-13 17:22:44 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (40 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-16T09:25:05.368Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "childcare staff ratio requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "daycare incident reporting laws",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "daycare software",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 480,
+          "cpcUsd": 58.77,
+          "adCompetition": 0.23,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -61,
+          "providerUpdatedAt": "2026-10-16 02:40:30 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 880
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 5400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 3600
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 12100
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 18100
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -53,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-16T09:25:05.368Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "childcare management system",
+          "group": "solution",
+          "status": "measured",
+          "searchVolume": 210,
+          "cpcUsd": 128.68,
+          "adCompetition": 0.16,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -21,
+          "providerUpdatedAt": "2026-09-16 12:35:48 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 390
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 320
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 70
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": 3,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-16T09:25:05.368Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "daycare compliance solution",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "daycare software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-06-17 10:16:02 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-16T09:25:05.368Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best childcare management tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "daycare licensing compliance cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "daycare software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-16T09:25:09.083Z",
+          "checkUrl": "https://www.google.com/search?q=daycare%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.procaresoftware.com",
+              "url": "https://www.procaresoftware.com/",
+              "title": "Procare | The Leader in Child Care Management Software",
+              "description": "Easily manage every part of your child care business by letting Procare organize family information, track attendance, automate tuition collection and do more ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "mybrightwheel.com",
+              "url": "https://mybrightwheel.com/",
+              "title": "Brightwheel | The Best Childcare Management Software",
+              "description": "Your complete preschool & childcare management system · Manage your admissions process and waitlist online · Track prospects, tours, and applications in one ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.tryplayground.com",
+              "url": "https://www.tryplayground.com/",
+              "title": "Playground: Child Care Management Software & App",
+              "description": "Playground is an all-in-one child care management software that streamlines operations and administration for 5,000+ child care programs. Read more",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.lillio.com",
+              "url": "https://www.lillio.com/",
+              "title": "Lillio - The Best Childcare Solution for Daycare Centers | Lillio",
+              "description": "Lillio is the all-in-one daycare solution with parent messaging, daily reports, check in and more. It's childcare management made easy! Book your demo now.",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ECEProfessionals/comments/1mwduhr/best_child_care_management_software_playground_vs/",
+              "title": "Best child care management software (Playground vs ...",
+              "description": "One of the biggest areas for growth is picking the best management system. We've narrowed it down to Playground, Brightwheel, and Procare, and I ... Read more",
+              "id": "S1.7",
+              "class": "discussion"
+            },
+            {
+              "rank": 8,
+              "domain": "enginehire.io",
+              "url": "https://enginehire.io/childcare-daycare-management-software/",
+              "title": "Best Daycare Management Software & Childcare ...",
+              "description": "Streamline every part of your child care business - organize and engage family and staff, track attendance and schedules, automate billing and payments and so ... Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "www.mykidzday.com",
+              "url": "https://www.mykidzday.com/",
+              "title": "myKidzDay: Free Childcare, Attendance App for Parent ...",
+              "description": "myKidzDay is an All-in-One software for childcare centers, preschools, homecare providers, special needs programs, before & after care, summer programs, and ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "mykidreports.com",
+              "url": "https://mykidreports.com/blog/best-childcare-software-for-preschool-childcare-compared",
+              "title": "Best Childcare & Daycare Software 2026: 19 Real Prices",
+              "description": "Oct 7, 2026 — The best childcare management software in 2026 is MyKidReports. free for up to 5 children, then $0.99 per enrolled child per month.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.capterra.com",
+              "url": "https://www.capterra.com/child-care-software/s/free/",
+              "title": "Best Free Daycare Software Solutions 2026",
+              "description": "Find and compare the 2026 best free Daycare software solutions, using our interactive tool to quickly narrow your choices based on businesses like yours.",
+              "id": "S1.11",
+              "class": "review_directory"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "daycare licensing violations",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:54.761Z",
+          "checkUrl": "https://www.google.com/search?q=daycare%20licensing%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.cdss.ca.gov",
+              "url": "https://www.cdss.ca.gov/inforesources/child-care-licensing/public-information-and-resources",
+              "title": "Child Care Licensing - Public Information and Resources",
+              "description": "Civil Penalties (these vary according to the violation) · Non-compliance office conferences · Administrative legal actions. Denial of applications; Compliance ... Read more",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "sunshine.dcfs.illinois.gov",
+              "url": "https://sunshine.dcfs.illinois.gov/Content/Licensing/Daycare/MonitoringReports.aspx",
+              "title": "Monitoring Report Search",
+              "description": "This site contains licensing compliance information on early care and education center, Information Line at 1-877-746-0829 … monitoring and inspection reports",
+              "id": "S2.3",
+              "class": "government"
+            },
+            {
+              "rank": 4,
+              "domain": "www.michigan.gov",
+              "url": "https://www.michigan.gov/mileap/early-childhood-education/cclb",
+              "title": "Child Care Licensing",
+              "description": "complaint investigations, File a complaint against a licensed child care facility, agency, or provider. Call 517-284-9730 between the hours of 8:00 a.m.–5:00 p ...",
+              "id": "S2.4",
+              "class": "government"
+            },
+            {
+              "rank": 5,
+              "domain": "www.illinoiscaresforkids.org",
+              "url": "https://www.illinoiscaresforkids.org/toddler/early-care-and-education/licensing-and-monitoring-process",
+              "title": "Licensing and Monitoring Process",
+              "description": "IDEC offers a search tool to check for licensing violations in a child care program. Key licensing requirements for child care programs in the state of Illinois ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "dcf.wisconsin.gov",
+              "url": "https://dcf.wisconsin.gov/cclicensing/seriousviolations",
+              "title": "Serious Violations in Licensed Child Care",
+              "description": "Mandated reporting - child abuse and neglect A. Spanking, hitting, pinching, shaking, slapping, twisting, throwing, 2. Verbal abuse, threats or derogatory ...",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "childcare.hhs.texas.gov",
+              "url": "https://childcare.hhs.texas.gov/Public/InspectionAndComplianceHistory?operationId=1469132",
+              "title": "Inspection and Compliance History - Search Texas Child Care",
+              "description": "Child Care Regulation can impose corrective or adverse actions when an operation has a pattern of deficiencies that endangers the health and safety of children. Read more",
+              "id": "S2.7",
+              "class": "government"
+            },
+            {
+              "rank": 8,
+              "domain": "dcyf.mn.gov",
+              "url": "https://dcyf.mn.gov/partners-and-providers/licensing/child-care-centers/licensing-inspections-child-care-centers",
+              "title": "Licensing inspections for child care centers",
+              "description": "Licensors are required to issue a fix-it ticket for certain violations identified by the Commissioner that do not imminently endanger the health, safety, or ... Read more",
+              "id": "S2.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "mybrightwheel.com",
+              "url": "https://mybrightwheel.com/blog/common-daycare-licensing-violations",
+              "title": "10 Common Licensing Inspection Mistakes and How to ...",
+              "description": "Dec 18, 2025 — A common violation involves missing or expired documentation, such as background checks, CPR and first aid certifications, or training hours.",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.berkeleyparentsnetwork.org",
+              "url": "https://www.berkeleyparentsnetwork.org/advice/childcare/violations",
+              "title": "How to Look Up a License for Preschools & Daycares",
+              "description": "Your child's childcare provider is required to keep 3 year's worth of any confirmed violations and show them to you if you ask. If you want to check a daycare ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "mybrightwheel.com",
+          "url": "https://mybrightwheel.com/",
+          "finalUrl": "https://mybrightwheel.com/",
+          "retrievedAt": "2026-10-16T09:25:56.930Z",
+          "status": 200,
+          "error": null,
+          "title": "Brightwheel | The Best Childcare Management Software",
+          "description": "Start the new school year with one less thing to worry about. Brightwheel is the most trusted all-in-one childcare management platform for billing, communication, attendance, and more.",
+          "priceMentions": [
+            {
+              "text": "$0",
+              "billingUnit": false,
+              "context": "monthly savings Admin time + paper + late payment friction $0 Check-in & sign-out 0.0 hrs / month Chasing late payments 0"
+            },
+            {
+              "text": "$0 / month",
+              "billingUnit": true,
+              "context": "hrs / month Forms & admin 0.0 hrs / month Paper & printing $0 / month Late payment cash flow $0 delayed / month Annualized saving"
+            },
+            {
+              "text": "$0 / year",
+              "billingUnit": true,
+              "context": "ate payment cash flow $0 delayed / month Annualized savings $0 / year Most programs recoup this in their first billing cycle Brig"
+            },
+            {
+              "text": "$18",
+              "billingUnit": false,
+              "context": "lapping tasks. Monthly savings = (total admin hours &times; $18/hr assumed avg ECE staff wage) + paper & printing costs. Ho"
+            },
+            {
+              "text": "$13",
+              "billingUnit": false,
+              "context": "med at $18/hr, the midpoint of the typical ECE staff range ($13-$24/hr). Adjust for your program in future iterations. Chec"
+            },
+            {
+              "text": "$24",
+              "billingUnit": false,
+              "context": "at $18/hr, the midpoint of the typical ECE staff range ($13-$24/hr). Adjust for your program in future iterations. Check-in"
+            },
+            {
+              "text": "$800",
+              "billingUnit": false,
+              "context": "texts, calls, and reconciliation. Late payment cash flow: ~$800 avg monthly tuition &times; 0 % late families ( 0 families)"
+            },
+            {
+              "text": "$2",
+              "billingUnit": false,
+              "context": "per child/month. Capped at 80 hrs/month. Paper & printing: ~$2-$4 per child/month. Note: does not include brightwheel subs"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P2",
+          "domain": "mybrightwheel.com",
+          "url": "https://mybrightwheel.com/pricing",
+          "finalUrl": "https://mybrightwheel.com/pricing/",
+          "retrievedAt": "2026-10-16T09:25:56.931Z",
+          "status": 200,
+          "error": null,
+          "title": "Brightwheel Custom Pricing: Plan for the New School Year",
+          "description": "Discover brightwheel pricing & features for the new school year. Find the plan that fits your program before the school year begins.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P3",
+          "domain": "procaresoftware.com",
+          "url": "https://www.procaresoftware.com/",
+          "finalUrl": "https://www.procaresoftware.com/",
+          "retrievedAt": "2026-10-16T09:25:56.927Z",
+          "status": 200,
+          "error": null,
+          "title": "Procare | The Leader in Child Care Management Software",
+          "description": "Procare's child care management software simplifies all of your child care program operations so you can focus on what matters – the children.",
+          "priceMentions": [
+            {
+              "text": "$25 per month",
+              "billingUnit": true,
+              "context": "provide all these features for the affordable price of just $25 per month. Let us handle the business of child care so you can get ba"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "procaresoftware.com",
+          "url": "https://www.procaresoftware.com/pricing",
+          "finalUrl": "https://www.procaresoftware.com/request-pricing/",
+          "retrievedAt": "2026-10-16T09:25:56.929Z",
+          "status": 200,
+          "error": null,
+          "title": "Request Procare Pricing | Procare",
+          "description": "Request pricing for Procare child care management software today. Our team will show you how our software solution can help streamline child care management.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": true,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P5",
+          "domain": "tryplayground.com",
+          "url": "https://www.tryplayground.com/",
+          "finalUrl": "https://www.tryplayground.com/",
+          "retrievedAt": "2026-10-28T11:48:04.589Z",
+          "status": 200,
+          "error": null,
+          "title": "Child Care Management Software & App | Playground",
+          "description": "Manage billing, attendance, payroll & communication in one app. Rated #1 for support. Trusted by 500,000+ providers, teachers, and families.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "tryplayground.com",
+          "url": "https://www.tryplayground.com/pricing",
+          "finalUrl": "https://www.tryplayground.com/demo",
+          "retrievedAt": "2026-10-28T11:48:04.591Z",
+          "status": 200,
+          "error": null,
+          "title": "Schedule a Demo | Playground Child Care Management Software",
+          "description": "The best child care management software for managing billing, registration, communication, attendance, and payroll. Trusted by 300,000+ providers & teachers.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "some",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 3,
+          "totalCount": 9,
+          "top": {
+            "keyword": "daycare software",
+            "searchVolume": 480,
+            "id": "K4"
+          },
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 0,
+          "flags": [],
+          "note": "Idea-level demand (directly relevant keywords only): some. Largest directly relevant keyword: \"daycare software\" at 480/month; next \"childcare management system\" at 210/month. Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "strong",
+          "biddingKeywordIds": [
+            "K4",
+            "K5"
+          ],
+          "pricedPageIds": [
+            "P1",
+            "P3"
+          ],
+          "pricedDomains": [
+            "mybrightwheel.com",
+            "procaresoftware.com"
+          ],
+          "pricedPlatforms": [],
+          "note": "Advertisers bid on 2 commercial keyword(s) (highest CPC $128.68 on \"childcare management system\"). CPC is an advertiser bid, not a customer's willingness to pay. Published offer prices seen on 2 ranking site(s): mybrightwheel.com, procaresoftware.com. Prices show what sellers ask, not verified sales, and a ranking site is not necessarily a direct competitor."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "mybrightwheel.com",
+            "procaresoftware.com",
+            "tryplayground.com",
+            "illinoiscaresforkids.org",
+            "lillio.com",
+            "enginehire.io",
+            "mykidzday.com",
+            "mykidreports.com",
+            "berkeleyparentsnetwork.org"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "reddit.com",
+            "capterra.com"
+          ],
+          "pricedDomains": [
+            "mybrightwheel.com",
+            "procaresoftware.com"
+          ],
+          "note": "9 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers); published offer prices on mybrightwheel.com, procaresoftware.com. Judged for relevance: 0 domain(s) with a direct competitor (same problem), 6 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "procaresoftware.com",
+            "mybrightwheel.com",
+            "tryplayground.com",
+            "lillio.com",
+            "enginehire.io",
+            "mykidzday.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "fcb479a448d35cef",
+      "evidenceUpdatedAt": "2026-10-28T11:48:04.939Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-28T11:53:55.569Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-28T11:48:04.939Z",
+        "qualifiers": [
+          "owner or director",
+          "small to medium-sized independent daycare or childcare center",
+          "20-100 children"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of state licensing violations."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes a specific aspect of the idea's problem (licensing compliance related to staff ratios)."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's core problem of mandated incident reporting laws."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes pricing for the idea's specific solution type."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the idea's specific solution type."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "People searching this plausibly include the target customer, and the search describes the cost related to the idea's problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers general daycare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item is a Reddit discussion about general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This item offers very broad childcare management software, which addresses general operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item compares general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item compares general daycare software solutions, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses civil penalties and legal actions for child care licensing violations, which is the idea's specific problem, but for all child care facilities."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item provides licensing compliance information for early care and education centers, which is the idea's specific problem, but for all centers."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses child care licensing and complaints, which is related to the idea's problem, but for all licensed child care facilities."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses checking for licensing violations in child care programs, which is the idea's specific problem, but for all programs."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses serious violations in licensed child care, including mandated reporting, which is the idea's specific problem, but for all licensed child care."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses inspection and compliance history for child care operations, which is related to the idea's problem, but for all operations."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses licensing inspections and violations for child care centers, which is the idea's specific problem, but for all centers."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "This item discusses common licensing inspection mistakes, which is the idea's specific problem, but for a broader range of childcare providers."
+          },
+          "S2.10": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "This item is for parents looking up daycare licenses and violations, which is a different customer and problem perspective than the daycare owner facing violations."
+          },
+          "P1": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "P2": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page discusses pricing for general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "P4": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page discusses pricing for general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          },
+          "P6": {
+            "customer": "broader",
+            "customerMatches": [
+              "independent daycare or childcare center"
+            ],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "This page is for general childcare management software, which addresses broader operational aspects rather than specifically targeting state licensing violations and incident reporting for small to medium independent daycares."
+          }
+        },
+        "missing": []
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-28T11:47:28.246Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 22,
+      "holdId": "8e8d5529-32c0-521e-a909-a3b572d891d1",
+      "estimateUsd": 0.016104,
+      "costUsd": 0.01272,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-28T11:47:31.825Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "5912526a-3d52-5691-9c3e-bb87c0e6056e",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-28T11:47:39.569Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "a6565ad0-70a5-55d3-a993-7d55225405a1",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-28T11:47:46.135Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "1ceca107-6e18-51bb-9f67-a6698b283bd0",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-28T11:47:54.761Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "ec10da87-54d8-58ff-9c33-b3ac959fb81f",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.35828,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.64172
+    },
+    "monthToDateUsdBefore": 0.35828,
+    "spentThisRunUsd": 0.02072
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 22,
+    "keywordsFromCache": 5,
+    "labsUsd": 0.01464,
+    "serpQueries": 4,
+    "serpsFromCache": 2,
+    "serpUsd": 0.008,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 22
+      }
+    ],
+    "totalUsd": 0.02264,
+    "reservedUsd": 0.024904
+  },
+  "lastGather": {
+    "at": "2026-10-28T11:48:04.939Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.02072,
+    "note": null
+  },
+  "assessmentError": "assessment not written for some ideas (they will be retried): 2026-10-28:trucking-ifta-fuel-tax-hub: the model returned no assessment for it | 2026-10-28:daycare-licensing-incident-reporting: the model returned no assessment for it"
+}

@@ -9970,7 +9970,7 @@
       "data": null
     },
     "labs|united states|en|best chemical inventory tools": {
-      "fetchedAt": "2026-09-16T09:37:28.865Z",
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
       "returned": false,
       "data": null
     },
@@ -19728,7 +19728,7 @@
       }
     },
     "labs|united states|en|ifta software": {
-      "fetchedAt": "2026-09-24T09:39:19.334Z",
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
       "returned": true,
       "data": {
         "keyword": "ifta software",
@@ -45497,6 +45497,761 @@
     },
     "labs|united states|en|medical device qms cost": {
       "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha hazard communication violations": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa tier ii reporting requirements": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": true,
+      "data": {
+        "keyword": "epa tier ii reporting requirements",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": -100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 10:20:31 +00:00"
+      }
+    },
+    "labs|united states|en|pest control chemical inventory": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|sds management": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": true,
+      "data": {
+        "keyword": "sds management",
+        "searchVolume": 1000,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1000
+          }
+        ],
+        "cpcUsd": 26.77,
+        "adCompetition": 0.29,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-10-19 23:01:36 +00:00"
+      }
+    },
+    "labs|united states|en|chemical inventory software": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": true,
+      "data": {
+        "keyword": "chemical inventory software",
+        "searchVolume": 390,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 320
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 320
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 52.69,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -70,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-19 07:19:37 +00:00"
+      }
+    },
+    "labs|united states|en|osha compliance solution": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha compliance cost": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta audit penalties": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": true,
+      "data": {
+        "keyword": "ifta audit penalties",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.06,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 13:50:19 +00:00"
+      }
+    },
+    "labs|united states|en|ifta compliance issues": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|trucking mileage tracking problems": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fuel tax software": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": true,
+      "data": {
+        "keyword": "fuel tax software",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 40
+          }
+        ],
+        "cpcUsd": 44.2,
+        "adCompetition": 0.22,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -82,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-19 06:56:44 +00:00"
+      }
+    },
+    "labs|united states|en|trucking compliance system": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|ifta software pricing": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best ifta reporting tools": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fuel tax software cost": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|childcare staff ratio requirements": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|daycare incident reporting laws": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|daycare compliance solution": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best childcare management tools": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|daycare licensing compliance cost": {
+      "fetchedAt": "2026-10-28T11:47:28.246Z",
       "returned": false,
       "data": null
     }

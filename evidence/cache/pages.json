@@ -9290,6 +9290,155 @@
         "mentionsContactSales": false,
         "mentionsPricing": true
       }
+    },
+    "page|https://www.totalsds.com/sds-manager/": {
+      "fetchedAt": "2026-10-28T11:48:01.197Z",
+      "data": {
+        "url": "https://www.totalsds.com/sds-manager/",
+        "finalUrl": "https://www.totalsds.com/sds-manager/",
+        "retrievedAt": "2026-10-28T11:48:01.197Z",
+        "status": 200,
+        "error": null,
+        "title": "TotalSDS Manager | Safety Data Sheet Management Software",
+        "description": "Optimize your SDS management with TotalSDS Manager, your solution for accessible, compliant, and up-to-date safety data sheet management.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.enhesa.com/pricing": {
+      "fetchedAt": "2026-10-28T11:48:01.202Z",
+      "data": {
+        "url": "https://www.enhesa.com/pricing",
+        "finalUrl": "https://www.enhesa.com/pricing",
+        "retrievedAt": "2026-10-28T11:48:01.202Z",
+        "status": 200,
+        "error": null,
+        "title": "Enhesa Pricing: Tailored to Your Regulatory Needs | Enhesa",
+        "description": "Pricing is built around the domains, jurisdictions and team size you need. See how the options are structured and request a tailored proposal.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.enhesa.com/solutions/safety-data-sheets/sds-manager": {
+      "fetchedAt": "2026-10-28T11:48:01.201Z",
+      "data": {
+        "url": "https://www.enhesa.com/solutions/safety-data-sheets/sds-manager",
+        "finalUrl": "https://www.enhesa.com/solutions/safety-data-sheets/sds-manager",
+        "retrievedAt": "2026-10-28T11:48:01.201Z",
+        "status": 200,
+        "error": null,
+        "title": "SDS Manager: Safety Data Sheet Management | Enhesa",
+        "description": "Bring approved safety data sheets into one searchable library and make them easy to access wherever work happens across your organization.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://cloudsds.com/": {
+      "fetchedAt": "2026-10-28T11:48:01.199Z",
+      "data": {
+        "url": "https://cloudsds.com/",
+        "finalUrl": "https://cloudsds.com/",
+        "retrievedAt": "2026-10-28T11:48:01.199Z",
+        "status": 200,
+        "error": null,
+        "title": "Best SDS Management Software | Fast and Compliant | CloudSDS",
+        "description": "23M+ safety data sheets, monthly compliance updates and AI-powered search — CloudSDS is the most complete SDS management software. Try it free.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://cloudsds.com/pricing": {
+      "fetchedAt": "2026-10-28T11:48:01.200Z",
+      "data": {
+        "url": "https://cloudsds.com/pricing",
+        "finalUrl": "https://cloudsds.com/",
+        "retrievedAt": "2026-10-28T11:48:01.200Z",
+        "status": 200,
+        "error": null,
+        "title": "Best SDS Management Software | Fast and Compliant | CloudSDS",
+        "description": "23M+ safety data sheets, monthly compliance updates and AI-powered search — CloudSDS is the most complete SDS management software. Try it free.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://truckstop.com/blog/ifta-audit/": {
+      "fetchedAt": "2026-10-28T11:48:03.826Z",
+      "data": {
+        "url": "https://truckstop.com/blog/ifta-audit/",
+        "finalUrl": "https://truckstop.com/blog/ifta-audit/",
+        "retrievedAt": "2026-10-28T11:48:03.826Z",
+        "status": 200,
+        "error": null,
+        "title": "IFTA Audit Checklist: How to Prepare",
+        "description": "Selected for an IFTA audit? See the step-by-step process, penalties and record rules, plus a checklist to prepare.",
+        "priceMentions": [
+          {
+            "text": "$35",
+            "billingUnit": false,
+            "context": "er boards are raising rates. We’re adding tools. Plans from $35. See plans → &times; --> --> --> --> --> Search --> --> -->"
+          },
+          {
+            "text": "$50",
+            "billingUnit": false,
+            "context": "alties are typically not too severe. In general, you’ll owe $50 or 10% of the total tax due (whichever is higher) for non-f"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://truckstop.com/pricing": {
+      "fetchedAt": "2026-10-28T11:48:03.827Z",
+      "data": {
+        "url": "https://truckstop.com/pricing",
+        "finalUrl": "https://truckstop.com/pricing",
+        "retrievedAt": "2026-10-28T11:48:03.827Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.tryplayground.com/": {
+      "fetchedAt": "2026-10-28T11:48:04.589Z",
+      "data": {
+        "url": "https://www.tryplayground.com/",
+        "finalUrl": "https://www.tryplayground.com/",
+        "retrievedAt": "2026-10-28T11:48:04.589Z",
+        "status": 200,
+        "error": null,
+        "title": "Child Care Management Software & App | Playground",
+        "description": "Manage billing, attendance, payroll & communication in one app. Rated #1 for support. Trusted by 500,000+ providers, teachers, and families.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
+    },
+    "page|https://www.tryplayground.com/pricing": {
+      "fetchedAt": "2026-10-28T11:48:04.591Z",
+      "data": {
+        "url": "https://www.tryplayground.com/pricing",
+        "finalUrl": "https://www.tryplayground.com/demo",
+        "retrievedAt": "2026-10-28T11:48:04.591Z",
+        "status": 200,
+        "error": null,
+        "title": "Schedule a Demo | Playground Child Care Management Software",
+        "description": "The best child care management software for managing billing, registration, communication, attendance, and payroll. Trusted by 300,000+ providers & teachers.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": false
+      }
     }
   }
 }
