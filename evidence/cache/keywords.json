@@ -43953,6 +43953,1552 @@
       "fetchedAt": "2026-10-27T10:09:19.320Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|epa lead paint rule": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|lead paint rrp compliance": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa rrp fines": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "epa rrp fines",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-17 09:05:27 +00:00"
+      }
+    },
+    "labs|united states|en|rrp log": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|lead paint compliance software": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa rrp record keeping": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|rrp software": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|lead paint compliance cost": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best epa rrp tools": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|itar compliance requirements": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "itar compliance requirements",
+        "searchVolume": 170,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 260
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 260
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 16.3,
+        "adCompetition": 0.39,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -19,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 03:20:55 +00:00"
+      }
+    },
+    "labs|united states|en|itar deemed export": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "itar deemed export",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.04,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 15:43:29 +00:00"
+      }
+    },
+    "labs|united states|en|itar violation penalties": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "itar violation penalties",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 20.17,
+        "adCompetition": 0.02,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 07:05:53 +00:00"
+      }
+    },
+    "labs|united states|en|itar software": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "itar software",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": 51.14,
+        "adCompetition": 0.42,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -60,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-10-19 06:35:08 +00:00"
+      }
+    },
+    "labs|united states|en|export compliance software": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "export compliance software",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 70
+          }
+        ],
+        "cpcUsd": 56.21,
+        "adCompetition": 0.55,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -67,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-09-17 10:13:34 +00:00"
+      }
+    },
+    "labs|united states|en|itar record keeping system": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|itar compliance cost": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "itar compliance cost",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-17 02:13:41 +00:00"
+      }
+    },
+    "labs|united states|en|best itar tools": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|export compliance pricing": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fda mdr requirements": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "fda mdr requirements",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.18,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 12:21:23 +00:00"
+      }
+    },
+    "labs|united states|en|medical device adverse event": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "medical device adverse event",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 40
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 30
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-17 02:11:12 +00:00"
+      }
+    },
+    "labs|united states|en|fda complaint handling": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "fda complaint handling",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 30
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.05,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-17 10:13:12 +00:00"
+      }
+    },
+    "labs|united states|en|mdr software": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": true,
+      "data": {
+        "keyword": "mdr software",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 390
+          }
+        ],
+        "cpcUsd": 150.89,
+        "adCompetition": 0.52,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-19 08:53:32 +00:00"
+      }
+    },
+    "labs|united states|en|medical device reporting software": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fda complaint management system": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|mdr software pricing": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best fda compliance tools": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|medical device qms cost": {
+      "fetchedAt": "2026-10-28T10:56:02.702Z",
+      "returned": false,
+      "data": null
     }
   }
 }
