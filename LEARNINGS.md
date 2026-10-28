@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-28 (trends)
+- **AI as a "Dynamic Workflow Orchestrator":** AI is increasingly moving beyond automating discrete tasks to orchestrating entire dynamic workflows across content creation, community engagement, and product validation. This reduces cognitive load and enables continuous adaptation and optimization with minimal human intervention.
+- **The "Pre-Commitment Validation" Opportunity:** For solo founders, AI is becoming a powerful tool to de-risk significant time and resource investments *before* they are made. This includes simulating market feedback, testing product ideas, and refining strategies, accelerating the path to market fit and reducing the cost of failure.
+- **The "Scaffolding Kit" for AI-Powered Workflows Remains Strong:** As AI tools become more powerful and agentic, the demand for digital products (templates, prompt guides, frameworks) that teach non-experts how to structure their inputs, manage outputs, and strategically leverage these tools for specific, high-value outcomes continues to be a robust opportunity.
+
+---
+
 ## 2026-10-28
 *   **Regulatory Flux as a "Why Now" Multiplier:** While general compliance is a pain, *active changes* in regulations (like temporary fuel tax holidays or rate adjustments) create an amplified "why now" for automated solutions, as manual processes cannot keep pace with dynamic rules without significant error.
 *   **The "Cost of Doing Business" Fallacy:** Many small business owners view compliance tasks as an unavoidable "cost of doing business" and underestimate the true financial drain of manual processes (time opportunity cost, hidden penalties). Solutions that explicitly quantify these hidden costs resonate more powerfully.
