@@ -155,160 +155,6 @@
         ]
       }
     },
-    "serp|united states|en|d10|medical records software": {
-      "fetchedAt": "2026-09-17T09:45:27.989Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=medical%20records%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "organic",
-          "people_also_ask",
-          "related_searches"
-        ],
-        "items": [
-          {
-            "rank": 2,
-            "domain": "www.epic.com",
-            "url": "https://www.epic.com/",
-            "title": "Epic | ...With the patient at the heart",
-            "description": "Our software makes it possible for every patient to have a single, comprehensive medical record that informs and is informed by their health experiences. Read more"
-          },
-          {
-            "rank": 4,
-            "domain": "ehr.meditech.com",
-            "url": "https://ehr.meditech.com/meditech",
-            "title": "MEDITECH EHR Software | MEDITECH",
-            "description": "MEDITECH's electronic health record (EHR) platform that securely unifies data from inside and outside your organization and delivers AI-driven insights,"
-          },
-          {
-            "rank": 5,
-            "domain": "www.open-emr.org",
-            "url": "https://www.open-emr.org/",
-            "title": "Fund OpenEMR Certification Together",
-            "description": "Fully Open-Source. Free Software, Always and Forever. OpenEMR is the most popular open source electronic health records and medical practice management solution ... Read more"
-          },
-          {
-            "rank": 6,
-            "domain": "digital.ahrq.gov",
-            "url": "https://digital.ahrq.gov/electronic-medical-record-systems",
-            "title": "Electronic Medical Record Systems",
-            "description": "Physician access to patient information, such as diagnoses, allergies, lab results, and medications. · Access to new and past test results among providers in ... Read more"
-          },
-          {
-            "rank": 7,
-            "domain": "practicesuite.com",
-            "url": "https://practicesuite.com/resources/ehr/",
-            "title": "Top EHR Software Providers for Detailed Records",
-            "description": "May 15, 2026 — An electronic health record (EHR) software solution can significantly impact patient care, administrative burden, and clinical intelligence. Read more"
-          },
-          {
-            "rank": 8,
-            "domain": "www.advancedmd.com",
-            "url": "https://www.advancedmd.com/emr-ehr-software/",
-            "title": "EHR Software Systems | 3 Months Free For New Practices",
-            "description": "EHR / EMR software is a computer system that helps healthcare providers manage patient medical records and automate clinical workflows."
-          },
-          {
-            "rank": 9,
-            "domain": "www.athenahealth.com",
-            "url": "https://www.athenahealth.com/resources/blog/4-types-of-electronic-health-and-medical-records-systems",
-            "title": "4 types of electronic health and medical records systems",
-            "description": "Sep 30, 2024 — Understand the different types of EHR software and electronic medical record systems to help you choose the best EMR program solution for ..."
-          },
-          {
-            "rank": 10,
-            "domain": "www.ehrinpractice.com",
-            "url": "https://www.ehrinpractice.com/ehr-product-comparison.html",
-            "title": "EHR Software Comparison | 2026 Pricing, Features & More",
-            "description": "Find and compare the top EHR and EMR systems of 2026. Get side-by-side comparisons of popular EHR vendors like Epic, Oracle Health (Cerner), athenahealth, ... Read more"
-          },
-          {
-            "rank": 11,
-            "domain": "www.praxisemr.com",
-            "url": "https://www.praxisemr.com/top-ehr-physicians-systems.html",
-            "title": "Physicians choose their top 10 EHR systems for 2026",
-            "description": "Compare the top 10 EHR systems in different care settings. Praxis EMR, Epic, Oracle Cerner, eClinicalWorks, Athenahealth, Allscripts Veradigm, Nextgen, ..."
-          }
-        ]
-      }
-    },
-    "serp|united states|en|d10|personal injury records management": {
-      "fetchedAt": "2026-09-17T09:45:33.509Z",
-      "data": {
-        "checkUrl": "https://www.google.com/search?q=personal%20injury%20records%20management&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
-        "itemTypes": [
-          "ai_overview",
-          "organic",
-          "people_also_ask",
-          "related_searches"
-        ],
-        "items": [
-          {
-            "rank": 2,
-            "domain": "www.casepeer.com",
-            "url": "https://www.casepeer.com/blog/medical-records-management/",
-            "title": "Mastering Medical Records Management for Personal ...",
-            "description": "Sep 4, 2026 — Best practices for managing personal injury medical records include timely requests, consistent organization, secure storage, compliance with ..."
-          },
-          {
-            "rank": 3,
-            "domain": "www.paxton.ai",
-            "url": "https://www.paxton.ai/post/navigating-hipaa-compliance-in-personal-injury-cases-best-practices-for-secure-medical-record-management",
-            "title": "Navigating HIPAA Compliance in Personal Injury Cases",
-            "description": "Best Practices for Secure Medical Record Management in Litigation · Proper Authorizations: Before requesting any PHI, obtain a clearly-worded, HIPAA-compliant ... Read more"
-          },
-          {
-            "rank": 4,
-            "domain": "gainservicing.com",
-            "url": "https://gainservicing.com/medical-record-management/",
-            "title": "Medical Records Management: A Complete Guide for 2026",
-            "description": "Medical records management covers secure storage, EHR systems, and HIPAA compliance. Learn best practices, key components, and what is involved."
-          },
-          {
-            "rank": 5,
-            "domain": "www.tavrn.ai",
-            "url": "https://www.tavrn.ai/blog/personal-injury-medical-records-request",
-            "title": "Personal Injury Medical Records Request: A Legal Guide",
-            "description": "Nov 27, 2025 — How PI teams request medical records under HIPAA: pathways, deadlines, state rules, fees, and escalation."
-          },
-          {
-            "rank": 7,
-            "domain": "www.recordrs.com",
-            "url": "https://www.recordrs.com/blog/best-personal-injury-case-management-software/",
-            "title": "10 Best Personal Injury Case Management Software ...",
-            "description": "Jun 16, 2026 — The best personal injury case management software. Filevine, Litify, SmartAdvocate, CASEpeer, and Clio are among the most popular choices based ..."
-          },
-          {
-            "rank": 8,
-            "domain": "www.clio.com",
-            "url": "https://www.clio.com/features/personal-injury-case-management-software/",
-            "title": "AI for Personal Injury Lawyers | Case Management - Clio",
-            "description": "As a robust personal injury AI platform, Clio helps your firm securely manage confidential medical information, settlements, and more."
-          },
-          {
-            "rank": 9,
-            "domain": "www.chartrequest.com",
-            "url": "https://www.chartrequest.com/articles/medical-record-review-for-personal-injury",
-            "title": "Guide to Medical Record Review for Personal Injury Lawyers",
-            "description": "May 26, 2026 — Learn how medical record review helps personal injury lawyers catch missing records and prepare stronger demand packages."
-          },
-          {
-            "rank": 10,
-            "domain": "gsblposervices.com",
-            "url": "https://gsblposervices.com/personal-injury/medical-records-organization/",
-            "title": "Medical Records Organization for Personal Injury Cases",
-            "description": "At GSB Paralegals, we provide Medical Records Organization Services for personal injury cases within 24 to 48 hours, depending on record volume and complexity. Read more"
-          },
-          {
-            "rank": 11,
-            "domain": "www.cloudlex.com",
-            "url": "https://www.cloudlex.com/law-firm-management/how-to-organize-personal-injury-medical-records/",
-            "title": "Medical Records Organize for Law Firms",
-            "description": "Apr 16, 2024 — Obtaining, managing, and analyzing personal injury medical records can be a difficult task for law firms but is key. ✓ Learn more!"
-          }
-        ]
-      }
-    },
     "serp|united states|en|d10|brewery software": {
       "fetchedAt": "2026-09-18T09:19:27.666Z",
       "data": {
@@ -11996,6 +11842,232 @@
             "url": "https://www.berkeleyparentsnetwork.org/advice/childcare/violations",
             "title": "How to Look Up a License for Preschools & Daycares",
             "description": "Your child's childcare provider is required to keep 3 year's worth of any confirmed violations and show them to you if you ask. If you want to check a daycare ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|nfpa 96 documentation requirements": {
+      "fetchedAt": "2026-10-29T11:12:58.592Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=nfpa%2096%20documentation%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic",
+          "related_searches"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "fss-slc.com",
+            "url": "http://fss-slc.com/Codes/NFPA/NFPA-96-Hoods/Older/2011%20NFPA%2096%20Vent%20&%20Fire%20Protect%20Cooking%20Equipment.pdf",
+            "title": "2011 NFPA 96 Vent & Fire Protect Cooking Equipment.pdf",
+            "description": "New requirements were also added for documentation of exhaust system cleaning and maintenance. The 2011 edition adds additional requirements for equipment ... Read more"
+          },
+          {
+            "rank": 3,
+            "domain": "www.nfpa.org",
+            "url": "https://www.nfpa.org/api/files?path=%2Ffiles%2FAboutTheCodes%2F96%2F96_A2023_VEN_AAA_SD_SRStatements.pdf",
+            "title": "Second Revision No. 5-NFPA 96-2022 [ Global Comment ]",
+            "description": "Oct 25, 2022 — The label in Figure 17.8.4.4.3 shall be located in all cylinder cabinets, with the word. “NOTICE” in white Arial italic font 1⁄2 in. Read more"
+          },
+          {
+            "rank": 4,
+            "domain": "www.tfp1.com",
+            "url": "https://www.tfp1.com/blog/understanding-nfpa-96-standards-for-ventilation-control-and-fire-protection/",
+            "title": "Understanding NFPA 96: Standards for Ventilation Control ...",
+            "description": "May 8, 2024 — NFPA 96 details the construction standards for hoods, including materials and the need for noncombustible construction. Exhaust Systems: The ... Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "www.slideshare.net",
+            "url": "https://www.slideshare.net/slideshow/nfpa-96-a-guide-for-commercial-kitchen-safety/61591365",
+            "title": "NFPA 96: A Guide for Commercial Kitchen Safety | PDF",
+            "description": "The document provides guidance on adhering to NFPA 96 standards for fire safety and exhaust systems in commercial kitchens. It emphasizes the importance of ..."
+          },
+          {
+            "rank": 6,
+            "domain": "www.rujohoodcleaning.com",
+            "url": "https://www.rujohoodcleaning.com/post/nfpa-96-requirements-for-commercial-cooking-operations",
+            "title": "NFPA 96: Requirements for Commercial Cooking Operations",
+            "description": "Nov 25, 2019 — NFPA 96 is the ventilation and fire protection standards set by the National Fire Protection Association for restaurants and cooking operations. Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "cleanhoodsexpress.com",
+            "url": "https://cleanhoodsexpress.com/nfpa-96-standards-a-guide-for-commercial-kitchens/",
+            "title": "NFPA 96 Standards: Commercial Kitchen Guide",
+            "description": "Jul 15, 2024 — A complete guide to NFPA 96 standards for commercial kitchen ventilation, helping you meet fire safety and hygiene requirements."
+          },
+          {
+            "rank": 8,
+            "domain": "webstore.ansi.org",
+            "url": "https://webstore.ansi.org/standards/nfpa/nfpa962008?srsltid=AYCX9vKXqgNrQMXkc8ilpK8cOxtYneke4kuh0vXL4dGS319qpVwJEwR-",
+            "title": "NFPA 96-2008",
+            "description": "Requirements apply to both public and private facilities, so you'll be prepared to work on any project. ... Essential for restaurant owners, designers, engineers, ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "downloads.regulations.gov",
+            "url": "https://downloads.regulations.gov/EPA-R09-OAR-2023-0477-0028/attachment_51.pdf",
+            "title": "Commercial Hoods and Kitchen",
+            "description": "(8) The minimum safety requirements of Section 515.0. (9) The requirements of Section 516.0. [NFPA 96:13.1] ... [NFPA 96:14.1.3]. 2019 CALIFORNIA MECHANICAL CODE. Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.hoodzinternational.com",
+            "url": "https://www.hoodzinternational.com/southern-maine/nfpa-standards/",
+            "title": "NFPA Standards - HOODZ of Southern Maine",
+            "description": "The NFPA 96 Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations provides fundamental safety standards and protocols for the ... Read more"
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|propane compliance software": {
+      "fetchedAt": "2026-10-29T11:13:07.165Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=propane%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "www.featuredcustomers.com",
+            "url": "https://www.featuredcustomers.com/software/propane-software",
+            "title": "Best Propane Software 2026 - Reviews, Case Studies & ...",
+            "description": "Find the best Propane Software companies for your business. Compare case studies, success stories, & testimonials from the top Propane Software vendors. iRely ..."
+          },
+          {
+            "rank": 3,
+            "domain": "energytechsolutions.net",
+            "url": "https://energytechsolutions.net/detailed-tank-information/",
+            "title": "Advanced Propane Tank Management System",
+            "description": "Manage your propane business utilizing our advanced, state-of-the art propane tank management system. Contact us for a demo today."
+          },
+          {
+            "rank": 4,
+            "domain": "www.youtube.com",
+            "url": "https://www.youtube.com/watch?v=wmtkc_VDRc0",
+            "title": "ADD Systems discusses software offerings for propane retailers",
+            "description": "ADD Systems, a software provider with over 50 years of experience, has to offer the propane industry, including its E3 management system, Raven ..."
+          },
+          {
+            "rank": 5,
+            "domain": "propanesafetypro.com",
+            "url": "https://propanesafetypro.com/new-mobile-app-reduces-safety-risks-for-propane-dispenser-operations/",
+            "title": "New Mobile App Reduces Safety Risks for Propane ...",
+            "description": "Dispenser managers and propane companies can now remotely track and manage training, ensuring 100% compliance, even with new hires in this dynamic industry."
+          },
+          {
+            "rank": 6,
+            "domain": "www.applytosupply.digitalmarketplace.service.gov.uk",
+            "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/667522357592952",
+            "title": "C365Cloud Gas Safety and LGSR Software for Government",
+            "description": "C365Cloud can help you track your LGSR and fuel checks. Features Live, interactive dashboards to overview compliance . Track LGSR and fuel check dates. Pricing ..."
+          },
+          {
+            "rank": 7,
+            "domain": "www.ginasoftware.com",
+            "url": "https://www.ginasoftware.com/blog/oil-and-gas-compliance-management-software/",
+            "title": "Oil and gas compliance management software - GINA",
+            "description": "Sep 24, 2025 — Discover how oil and gas compliance management software helps energy companies improve safety, meet regulations, and streamline daily ..."
+          },
+          {
+            "rank": 8,
+            "domain": "www.energy-xprt.com",
+            "url": "https://www.energy-xprt.com/software/ssi-fuel-and-propane-management-software-589571",
+            "title": "SSI Fuel and Propane Management Software",
+            "description": "Immerse in a seamless, integrated system that simplifies every step of serving your refined fuel and propane process. Give drivers control and dispatch the p ..."
+          },
+          {
+            "rank": 9,
+            "domain": "energytechsolutions.net",
+            "url": "https://energytechsolutions.net/precision-in-parts-inventory-tracking/",
+            "title": "Precision in Propane Parts Inventory Tracking",
+            "description": "Stay up-to-date with live tracking of inventory levels, ensuring immediate Access comprehensive reports on inventory status, usage patterns, and reorder history"
+          },
+          {
+            "rank": 10,
+            "domain": "gitnux.org",
+            "url": "https://gitnux.org/best/oil-and-gas-compliance-software/",
+            "title": "Top 10 Best Oil And Gas Compliance Software of 2026",
+            "description": "Jun 30, 2026 — Quentic is the strongest overall pick for Oil and Gas Compliance Software in 2026, with IsoMetrix and Quorum Software rounding out the top ..."
+          }
+        ]
+      }
+    },
+    "serp|united states|en|d10|propane dot compliance": {
+      "fetchedAt": "2026-10-29T11:13:15.647Z",
+      "data": {
+        "checkUrl": "https://www.google.com/search?q=propane%20dot%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "itemTypes": [
+          "ai_overview",
+          "organic"
+        ],
+        "items": [
+          {
+            "rank": 2,
+            "domain": "ai.fmcsa.dot.gov",
+            "url": "https://ai.fmcsa.dot.gov/SMS/Event/Inspection/86838632.aspx",
+            "title": "Safety Measurement System - Inspection NC0006840755 ...",
+            "description": "Compliance, Safety, Accountability. A Carrier may be prioritized for an intervention action and roadside inspection. Crash Inspection: No Hazmat Placard ..."
+          },
+          {
+            "rank": 3,
+            "domain": "www.lpgasmagazine.com",
+            "url": "https://www.lpgasmagazine.com/securing-dot-security-plans/",
+            "title": "Securing DOT security plans",
+            "description": "Nov 24, 2021 — DOT security plan training must be completed at least every three years or within 90 days after any revisions are made to your plan. DOT ..."
+          },
+          {
+            "rank": 4,
+            "domain": "p3propane.com",
+            "url": "https://p3propane.com/wp-content/uploads/2020/09/P3-Article-Security-Plan-BPN-December-2018.pdf",
+            "title": "Meet Critical DOT Security Plan Requirements",
+            "description": "The DOT Code of Federal. Regulations (49 CFR 172.802) requires companies that transport hazmat to have a written security plan. Propane, or LP-gas, falls under. Read more"
+          },
+          {
+            "rank": 5,
+            "domain": "3eightenergy.com",
+            "url": "https://3eightenergy.com/safety/",
+            "title": "Safety",
+            "description": "Propane containers are installed in accordance with the requirements of NFPA 58, which specifies the minimum separation distances from buildings and property ... Read more"
+          },
+          {
+            "rank": 6,
+            "domain": "ai.fmcsa.dot.gov",
+            "url": "https://ai.fmcsa.dot.gov/SMS/Event/Inspection/86758870.aspx",
+            "title": "Safety Measurement System - Inspection FL1763003980 ...",
+            "description": "Carrier Information ; Carrier Name: Palmdale Como Propane Llc ; U.S. DOT#: 4137408 ; Carrier Address: 911 N 2nd St Fort Pierce, FL 34950-9121 ... Read more"
+          },
+          {
+            "rank": 7,
+            "domain": "www.americanfarriers.com",
+            "url": "https://www.americanfarriers.com/articles/465-proper-transportation-of-fuels",
+            "title": "Proper Transportation of Fuels",
+            "description": "Apr 1, 2012 — DOT requires that propane cylinders be secured on a flat surface or in a rack, tote or mounted so they won't move around in the vehicle."
+          },
+          {
+            "rank": 8,
+            "domain": "www.phmsa.dot.gov",
+            "url": "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/legacy/interpretations/Interpretation%20Files/2016/160060.pdf",
+            "title": "of Transportation",
+            "description": "Apr 13, 2016 — It recognizes that the gauges on containers cannot accurately measure contents below 5 percent and that 5 percent is a small quantity of propane ... Read more"
+          },
+          {
+            "rank": 9,
+            "domain": "www.safetysign.com",
+            "url": "https://www.safetysign.com/propane?srsltid=AYCX9vIGI-WX_nP_iKLnvcJn5wi3jxrwMGjlxhCfy0MzR5Nvfc2UdIhx",
+            "title": "What is Propane?",
+            "description": "Domestically in the US, the Department of Transportation allows the display of the indentification number UN1075 and use of this number should be consistent on ... Read more"
+          },
+          {
+            "rank": 10,
+            "domain": "www.facebook.com",
+            "url": "https://www.facebook.com/groups/usvicruisers/posts/9648745725177993/",
+            "title": "Is there a DOT inspection place for Propane tanks in the ...",
+            "description": "As far as I know a fire station is the only place that can test a re-certify a propane tank.|I don't know if they do, but you could try ..."
           }
         ]
       }

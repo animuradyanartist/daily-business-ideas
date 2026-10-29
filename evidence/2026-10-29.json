@@ -1,0 +1,3904 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "source": {
+    "kind": "scan",
+    "memo": "ideas/2026-10-29.md"
+  },
+  "createdAt": "2026-10-29T11:12:51.101Z",
+  "updatedAt": "2026-10-29T11:12:51.101Z",
+  "attempts": 1,
+  "mode": "live",
+  "market": {
+    "locationName": "United States",
+    "languageCode": "en",
+    "support": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "original": {
+    "memo": "ideas/2026-10-29.md",
+    "title": "The Independent Used Car Dealership's \"FTC Compliance & Transparent Pricing Hub\"",
+    "score": 91,
+    "conviction": "high"
+  },
+  "ideas": [
+    {
+      "id": "2026-10-29:commercial-kitchen-hood-cleaning-documentation",
+      "slug": "commercial-kitchen-hood-cleaning-documentation",
+      "title": "The Commercial Kitchen Hood Cleaning Contractor's \"NFPA 96 Digital Documentation Hub\"",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The US commercial kitchen hood cleaning market is fragmented, with many independent operators who lack sophisticated digital tools, and NFPA 96 updates and New York State's Fire Code mandate digital documentation."
+      },
+      "plan": {
+        "slug": "commercial-kitchen-hood-cleaning-documentation",
+        "title": "The Commercial Kitchen Hood Cleaning Contractor's \"NFPA 96 Digital Documentation Hub\"",
+        "problem": "Commercial kitchen hood cleaning contractors face a growing burden to provide detailed, auditable digital documentation for their services, with failure leading to significant fines for clients and reputational damage for the contractor.",
+        "targetCustomer": "The owner-operator of an independent commercial kitchen hood cleaning company.",
+        "payer": "The owner-operator of an independent commercial kitchen hood cleaning company.",
+        "whyPayerPays": "The payer pays to meet evolving compliance demands, protect their clients from fines and closures, and maintain their business reputation.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The US commercial kitchen hood cleaning market is fragmented, with many independent operators who lack sophisticated digital tools, and NFPA 96 updates and New York State's Fire Code mandate digital documentation."
+        },
+        "keywords": {
+          "problem": [
+            "nfpa 96 documentation requirements",
+            "kitchen hood cleaning compliance",
+            "commercial kitchen fire safety fines"
+          ],
+          "solution": [
+            "nfpa 96 software",
+            "fire safety documentation system",
+            "kitchen hood cleaning reports"
+          ],
+          "buying": [
+            "nfpa 96 software pricing",
+            "best kitchen hood cleaning software",
+            "fire safety compliance tools"
+          ]
+        },
+        "serpQueries": [
+          "nfpa 96 software",
+          "nfpa 96 documentation requirements"
+        ],
+        "planning": {
+          "draftIssues": [
+            {
+              "group": "buying",
+              "issue": "no_head_term"
+            }
+          ],
+          "repairRequested": true,
+          "repaired": false,
+          "repairOutcome": "repair not better (1 issue(s) vs 1)",
+          "finalIssues": [
+            {
+              "group": "buying",
+              "issue": "no_head_term"
+            }
+          ]
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "nfpa 96 documentation requirements",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "kitchen hood cleaning compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "commercial kitchen fire safety fines",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "nfpa 96 software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-26T10:40:35.580Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "fire safety documentation system",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "kitchen hood cleaning reports",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "cpcUsd": null,
+          "adCompetition": null,
+          "adCompetitionLevel": null,
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": 0,
+          "providerUpdatedAt": "2026-10-19 07:00:04 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 0
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 0
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 0
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (0 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "nfpa 96 software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best kitchen hood cleaning software",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "fire safety compliance tools",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "nfpa 96 software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-26T10:40:54.586Z",
+          "checkUrl": "https://www.google.com/search?q=nfpa%2096%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.madcad.com",
+              "url": "https://www.madcad.com/store/subscription/NFPA-96-2024/",
+              "title": "NFPA 96: Standard for Ventilation Control and Fire ...",
+              "description": "The 2021 edition offers the latest information and criteria for commercial kitchen safety and compliance. NFPA 96 is a must-have for designers, installers, ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/episode/0hpblntJqSE5HPlObo5FB0",
+              "title": "Get NFPA 96, Standard for Ventilation Control and Fire ...",
+              "description": "Aug 28, 2026 — Download NFPA 96, Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations, 2021 by NFPA (Author) Online ... Read more",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/879396223770622/posts/1510122664031305/",
+              "title": "How do hood cleaners handle NFPA 96 compliance ...",
+              "description": "Hood cleaners — real question.\n\nAfter every job, how are you handling your NFPA 96 compliance documentation?\n\nTexting photos to the restaurant ...",
+              "id": "S1.5",
+              "class": "discussion"
+            },
+            {
+              "rank": 6,
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/episode/68jcn7xX4WV3aLafWSRbYs",
+              "title": "Trending Read NFPA 96, Standard for Ventilation Control ...",
+              "description": "Aug 28, 2026 — Access NFPA 96, Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations, 2021 by NFPA (Author) Free READ ... Read more",
+              "id": "S1.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.madcad.com",
+              "url": "https://www.madcad.com/library/454494/view/",
+              "title": "Standard for Ventilation Control and Fire Protection ...",
+              "description": "NFPA 96 covers all types of cooking equipment in public and private kitchens, including: Fans Stove exhaust hoods Grease removal devices Cooking exhaust systems",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "procomclean.com",
+              "url": "https://procomclean.com/kitchen-maintenance-and-cleaning-tips/recent-changes-to-nfpa-standards-what-you-need-to-know/",
+              "title": "Recent Changes to NFPA Standards: What You Need to Know",
+              "description": "One of the most significant updates pertains to NFPA 96, which governs ventilation control and fire protection for commercial cooking operations.",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "open.spotify.com",
+              "url": "https://open.spotify.com/episode/1gj51oTV69kYA4F6EKqBPL",
+              "title": "Access NFPA 96, Standard for Ventilation Control and Fire ...",
+              "description": "Sep 9, 2026 — The standard covers requirements for all types of cooking equipment, fans, stove exhaust hoods, grease removal devices, cooking exhaust systems ...",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "fldiq.com",
+              "url": "https://fldiq.com/hood-cleaning-software",
+              "title": "Hood Cleaning Software — Baffle Logs, Routes ... - FieldIQ",
+              "description": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date.",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.sasmedia.net",
+              "url": "https://www.sasmedia.net/dev/wp-includes/pomo/nfpa.php?id=NFPA+96+2024+PDF",
+              "title": "NFPA 96 2024 PDF,Fire Protection",
+              "description": "NFPA 96 2024 PDF ... 2 Only approved water detergents or solutions shall be 4.1 Exhaust systems shall be operated whenever cooking equipment is turned on. Read more",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "nfpa 96 documentation requirements",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:58.592Z",
+          "checkUrl": "https://www.google.com/search?q=nfpa%2096%20documentation%20requirements&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "fss-slc.com",
+              "url": "http://fss-slc.com/Codes/NFPA/NFPA-96-Hoods/Older/2011%20NFPA%2096%20Vent%20&%20Fire%20Protect%20Cooking%20Equipment.pdf",
+              "title": "2011 NFPA 96 Vent & Fire Protect Cooking Equipment.pdf",
+              "description": "New requirements were also added for documentation of exhaust system cleaning and maintenance. The 2011 edition adds additional requirements for equipment ... Read more",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "www.nfpa.org",
+              "url": "https://www.nfpa.org/api/files?path=%2Ffiles%2FAboutTheCodes%2F96%2F96_A2023_VEN_AAA_SD_SRStatements.pdf",
+              "title": "Second Revision No. 5-NFPA 96-2022 [ Global Comment ]",
+              "description": "Oct 25, 2022 — The label in Figure 17.8.4.4.3 shall be located in all cylinder cabinets, with the word. “NOTICE” in white Arial italic font 1⁄2 in. Read more",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.tfp1.com",
+              "url": "https://www.tfp1.com/blog/understanding-nfpa-96-standards-for-ventilation-control-and-fire-protection/",
+              "title": "Understanding NFPA 96: Standards for Ventilation Control ...",
+              "description": "May 8, 2024 — NFPA 96 details the construction standards for hoods, including materials and the need for noncombustible construction. Exhaust Systems: The ... Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "www.slideshare.net",
+              "url": "https://www.slideshare.net/slideshow/nfpa-96-a-guide-for-commercial-kitchen-safety/61591365",
+              "title": "NFPA 96: A Guide for Commercial Kitchen Safety | PDF",
+              "description": "The document provides guidance on adhering to NFPA 96 standards for fire safety and exhaust systems in commercial kitchens. It emphasizes the importance of ...",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.rujohoodcleaning.com",
+              "url": "https://www.rujohoodcleaning.com/post/nfpa-96-requirements-for-commercial-cooking-operations",
+              "title": "NFPA 96: Requirements for Commercial Cooking Operations",
+              "description": "Nov 25, 2019 — NFPA 96 is the ventilation and fire protection standards set by the National Fire Protection Association for restaurants and cooking operations. Read more",
+              "id": "S2.6",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "cleanhoodsexpress.com",
+              "url": "https://cleanhoodsexpress.com/nfpa-96-standards-a-guide-for-commercial-kitchens/",
+              "title": "NFPA 96 Standards: Commercial Kitchen Guide",
+              "description": "Jul 15, 2024 — A complete guide to NFPA 96 standards for commercial kitchen ventilation, helping you meet fire safety and hygiene requirements.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "webstore.ansi.org",
+              "url": "https://webstore.ansi.org/standards/nfpa/nfpa962008?srsltid=AYCX9vKXqgNrQMXkc8ilpK8cOxtYneke4kuh0vXL4dGS319qpVwJEwR-",
+              "title": "NFPA 96-2008",
+              "description": "Requirements apply to both public and private facilities, so you'll be prepared to work on any project. ... Essential for restaurant owners, designers, engineers, ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "downloads.regulations.gov",
+              "url": "https://downloads.regulations.gov/EPA-R09-OAR-2023-0477-0028/attachment_51.pdf",
+              "title": "Commercial Hoods and Kitchen",
+              "description": "(8) The minimum safety requirements of Section 515.0. (9) The requirements of Section 516.0. [NFPA 96:13.1] ... [NFPA 96:14.1.3]. 2019 CALIFORNIA MECHANICAL CODE. Read more",
+              "id": "S2.9",
+              "class": "government"
+            },
+            {
+              "rank": 10,
+              "domain": "www.hoodzinternational.com",
+              "url": "https://www.hoodzinternational.com/southern-maine/nfpa-standards/",
+              "title": "NFPA Standards - HOODZ of Southern Maine",
+              "description": "The NFPA 96 Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations provides fundamental safety standards and protocols for the ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "open.spotify.com",
+          "url": "https://open.spotify.com/episode/0hpblntJqSE5HPlObo5FB0",
+          "finalUrl": "https://open.spotify.com/episode/0hpblntJqSE5HPlObo5FB0",
+          "retrievedAt": "2026-10-26T10:41:25.063Z",
+          "status": 200,
+          "error": null,
+          "title": "Get NFPA 96, Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations, 2021 PDF | Listen to the Podcast on Spotify",
+          "description": "Listen to this episode from OI58580ydU on Spotify. Download NFPA 96, Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations, 2021 by NFPA (Author) Online 👉📖 READ NOW — NFPA 96, Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations, 202",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P2",
+          "domain": "open.spotify.com",
+          "url": "https://open.spotify.com/pricing",
+          "finalUrl": "https://open.spotify.com/pricing",
+          "retrievedAt": "2026-10-26T10:41:25.064Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P3",
+          "domain": "madcad.com",
+          "url": "https://www.madcad.com/store/subscription/NFPA-96-2024/",
+          "finalUrl": "https://www.madcad.com/store/subscription/NFPA-96-2024/",
+          "retrievedAt": "2026-10-26T10:41:25.065Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P4",
+          "domain": "madcad.com",
+          "url": "https://www.madcad.com/pricing",
+          "finalUrl": "https://www.madcad.com/pricing",
+          "retrievedAt": "2026-10-26T10:41:25.066Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P5",
+          "domain": "fss-slc.com",
+          "url": "http://fss-slc.com/Codes/NFPA/NFPA-96-Hoods/Older/2011%20NFPA%2096%20Vent%20&%20Fire%20Protect%20Cooking%20Equipment.pdf",
+          "finalUrl": "http://fss-slc.com/Codes/NFPA/NFPA-96-Hoods/Older/2011%20NFPA%2096%20Vent%20&%20Fire%20Protect%20Cooking%20Equipment.pdf",
+          "retrievedAt": "2026-10-29T11:13:21.830Z",
+          "status": 406,
+          "error": "HTTP 406"
+        },
+        {
+          "id": "P6",
+          "domain": "fss-slc.com",
+          "url": "http://fss-slc.com/pricing",
+          "finalUrl": "http://fss-slc.com/pricing",
+          "retrievedAt": "2026-10-29T11:13:21.831Z",
+          "status": 404,
+          "error": "HTTP 404"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 6,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 3,
+          "flags": [
+            {
+              "id": "K3",
+              "kind": "uncertain",
+              "text": "\"commercial kitchen fire safety fines\": relevance unclear — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"fire safety documentation system\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"fire safety compliance tools\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 6 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "open.spotify.com",
+            "madcad.com",
+            "fss-slc.com",
+            "nfpa.org",
+            "tfp1.com",
+            "slideshare.net",
+            "rujohoodcleaning.com",
+            "cleanhoodsexpress.com",
+            "procomclean.com",
+            "webstore.ansi.org",
+            "fldiq.com",
+            "hoodzinternational.com",
+            "sasmedia.net"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "facebook.com"
+          ],
+          "pricedDomains": [],
+          "note": "13 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 1 domain(s) with a direct competitor (same problem) (fldiq.com), 0 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "fldiq.com"
+          ],
+          "indirectAlternativeDomains": []
+        }
+      },
+      "evidenceFingerprint": "62a3edd40ac7456d",
+      "evidenceUpdatedAt": "2026-10-29T11:13:22.708Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-29T11:18:24.333Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-29T11:13:22.708Z",
+        "qualifiers": [
+          "owner-operator",
+          "independent commercial kitchen hood cleaning company"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly asks about documentation requirements for NFPA 96, which is the specific problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about compliance for kitchen hood cleaning, which is the target customer's business and problem context."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about fines for commercial kitchen fire safety, which is a broader consequence of non-compliance, not specifically documentation failure for the contractor."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly searches for software related to NFPA 96, which is the standard causing the documentation problem for the target customer."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about a fire safety documentation system, which is broader than one specifically for commercial kitchen hood cleaning or NFPA 96."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly refers to reports generated by kitchen hood cleaning, which is central to the documentation problem for the target customer."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about pricing for NFPA 96 software, which is a buying intent for a solution to the target customer's problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about the best software for kitchen hood cleaning, which directly relates to the target customer's business and potential solutions for their problem."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about fire safety compliance tools, which is broader than tools specifically for commercial kitchen hood cleaning documentation."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is about the NFPA 96 standard itself, not specifically documentation for hood cleaning contractors."
+          },
+          "S1.3": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is about accessing the NFPA 96 standard, not a solution for the target customer's documentation problem."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "independent commercial kitchen hood cleaning company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item directly asks hood cleaners about their NFPA 96 compliance documentation process, matching the target customer and problem."
+          },
+          "S1.6": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is about accessing the NFPA 96 standard, not a solution for the target customer's documentation problem."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item describes the scope of NFPA 96, not the specific documentation problem for hood cleaning contractors."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item discusses general updates to NFPA 96 standards, not the specific documentation burden for hood cleaning contractors."
+          },
+          "S1.9": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is about accessing the NFPA 96 standard, not a solution for the target customer's documentation problem."
+          },
+          "S1.10": {
+            "customer": "same",
+            "customerMatches": [
+              "independent commercial kitchen hood cleaning company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item offers software specifically for hood and kitchen exhaust cleaning, addressing the documentation needs of the target customer."
+          },
+          "S1.11": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is about accessing the NFPA 96 standard PDF, not a solution for the target customer's documentation problem."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a PDF of the NFPA 96 standard, which contains documentation requirements but is not specifically for the contractor's burden."
+          },
+          "S2.3": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a technical revision document for NFPA 96, not directly addressing the target customer's documentation problem."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item provides general information about NFPA 96 standards, not the specific documentation burden for hood cleaning contractors."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a general guide for commercial kitchen safety and NFPA 96, not specifically for hood cleaning contractors' documentation."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item explains NFPA 96 requirements for commercial cooking operations, not the specific documentation burden for hood cleaning contractors."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a guide to NFPA 96 standards for commercial kitchen ventilation, not the specific documentation problem for hood cleaning contractors."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is about purchasing the NFPA 96 standard, not a solution for the target customer's documentation problem."
+          },
+          "S2.9": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item contains excerpts from regulations related to commercial hoods and kitchens, not the specific documentation problem for hood cleaning contractors."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item provides general information about NFPA 96 standards, not the specific documentation burden for hood cleaning contractors."
+          },
+          "P1": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a podcast about accessing the NFPA 96 standard, not a solution for the target customer's documentation problem."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-29:commercial-kitchen-hood-cleaning-documentation",
+        "opportunity": "Commercial kitchen hood cleaning contractors need a solution to provide detailed, auditable digital documentation for their services. This addresses the growing burden of meeting compliance demands, protecting clients from fines, and maintaining the contractor's reputation.",
+        "whoPays": "The owner-operator of an independent commercial kitchen hood cleaning company pays to meet evolving compliance demands, protect their clients from fines and closures, and maintain their business reputation. (Inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S1.5",
+              "quote": "How do hood cleaners handle NFPA 96 compliance documentation?"
+            }
+          ],
+          "observed": "Hood cleaners are observed discussing how they handle NFPA 96 compliance documentation after each job, including methods like \"Texting photos to the restaurant\".",
+          "inference": "There is an existing, possibly informal, process for documentation among hood cleaners, suggesting a need for a more structured solution. The discussion implies a challenge in managing this documentation effectively."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.10",
+              "quote": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "FieldIQ",
+              "type": "direct",
+              "what": "Offers \"Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date.\"",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "FieldIQ provides specialized software with specific fields relevant to hood cleaning crews, such as baffle count and grease depth.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is an inference that existing solutions may not fully address the \"growing burden to provide detailed, auditable digital documentation\" or the specific \"NFPA 96 2025 updates\" mentioned in the original memo, as the competitor's description is general.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Commercial kitchen hood cleaning contractors face a growing burden to provide detailed, auditable digital documentation for their services",
+            "finding": "There is an observed discussion among hood cleaners about how they handle NFPA 96 compliance documentation, suggesting an existing burden.",
+            "basis": [
+              {
+                "id": "S1.5",
+                "quote": "How do hood cleaners handle NFPA 96 compliance documentation?"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The NFPA 96 2025 updates specifically mandate digital documentation for cleaning and inspection activities",
+            "finding": "No evidence was found to confirm the NFPA 96 2025 updates or their specific mandate for digital documentation. Keywords like \"nfpa 96 documentation requirements\" and \"kitchen hood cleaning compliance\" returned no search volume data.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "nfpa 96 documentation requirements"
+              },
+              {
+                "id": "K2",
+                "quote": "kitchen hood cleaning compliance"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a basic digital documentation tool with customizable fields and photo upload capabilities for a specific industry is achievable for a solo founder."
+        },
+        "unproven": [
+          "The specific details and urgency of the \"growing burden\" for contractors beyond general compliance discussions.",
+          "The exact requirements of the \"NFPA 96 2025 updates\" and their impact.",
+          "The willingness of contractors to pay for a new digital documentation solution.",
+          "The actual search demand for solutions, as all direct keywords returned null search volume."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 independent commercial kitchen hood cleaning owner-operators to understand their current documentation processes, pain points with NFPA 96 compliance, and willingness to pay for a digital solution.",
+          "cost": "$0 (time only for outreach and interviews)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 out of 5 interviewed contractors express a strong need for a better digital documentation solution and indicate a budget for such a tool.",
+        "stopIf": "Most interviewed contractors report that their current documentation methods (e.g., paper, generic apps, texting photos) are sufficient, or they are unwilling to pay for a specialized solution."
+      },
+      "assessment": {
+        "opportunity": "Commercial kitchen hood cleaning contractors need a solution to provide detailed, auditable digital documentation for their services. This addresses the growing burden of meeting compliance demands, protecting clients from fines, and maintaining the contractor's reputation.",
+        "whoPays": "The owner-operator of an independent commercial kitchen hood cleaning company pays to meet evolving compliance demands, protect their clients from fines and closures, and maintain their business reputation. (Inference)",
+        "problemEvidence": {
+          "level": "unknown",
+          "basis": [],
+          "observed": "",
+          "inference": "There is an existing, possibly informal, process for documentation among hood cleaners, suggesting a need for a more structured solution. The discussion implies a challenge in managing this documentation effectively."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.10",
+              "quote": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses",
+              "domain": "fldiq.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item offers software specifically for hood and kitchen exhaust cleaning, addressing the documentation needs of the target customer."
+            }
+          ],
+          "directCompetitors": [
+            "fldiq.com"
+          ],
+          "indirectAlternatives": [],
+          "alternatives": [
+            {
+              "name": "FieldIQ",
+              "type": "direct",
+              "what": "Offers \"Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date.\"",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date.",
+                  "domain": "fldiq.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item offers software specifically for hood and kitchen exhaust cleaning, addressing the documentation needs of the target customer."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "FieldIQ provides specialized software with specific fields relevant to hood cleaning crews, such as baffle count and grease depth.",
+              "basis": [
+                {
+                  "id": "S1.10",
+                  "quote": "Hood and kitchen exhaust cleaning software with the fields your crew actually uses — baffle count, grease depth, fan condition, next service date.",
+                  "domain": "fldiq.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item offers software specifically for hood and kitchen exhaust cleaning, addressing the documentation needs of the target customer."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is an inference that existing solutions may not fully address the \"growing burden to provide detailed, auditable digital documentation\" or the specific \"NFPA 96 2025 updates\" mentioned in the original memo, as the competitor's description is general.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Commercial kitchen hood cleaning contractors face a growing burden to provide detailed, auditable digital documentation for their services",
+            "finding": "There is an observed discussion among hood cleaners about how they handle NFPA 96 compliance documentation, suggesting an existing burden.",
+            "basis": [],
+            "effect": "untested"
+          },
+          {
+            "original": "The NFPA 96 2025 updates specifically mandate digital documentation for cleaning and inspection activities",
+            "finding": "No evidence was found to confirm the NFPA 96 2025 updates or their specific mandate for digital documentation. Keywords like \"nfpa 96 documentation requirements\" and \"kitchen hood cleaning compliance\" returned no search volume data.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "nfpa 96 documentation requirements",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "The keyword directly asks about documentation requirements for NFPA 96, which is the specific problem for the target customer."
+              },
+              {
+                "id": "K2",
+                "quote": "kitchen hood cleaning compliance",
+                "domain": null,
+                "kind": "K",
+                "cls": "keyword",
+                "relevance": "direct",
+                "relevanceReason": "The keyword is about compliance for kitchen hood cleaning, which is the target customer's business and problem context."
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a basic digital documentation tool with customizable fields and photo upload capabilities for a specific industry is achievable for a solo founder."
+        },
+        "unproven": [
+          "The specific details and urgency of the \"growing burden\" for contractors beyond general compliance discussions.",
+          "The exact requirements of the \"NFPA 96 2025 updates\" and their impact.",
+          "The willingness of contractors to pay for a new digital documentation solution.",
+          "The actual search demand for solutions, as all direct keywords returned null search volume."
+        ],
+        "nextExperiment": {
+          "what": "Conduct interviews with 5-10 independent commercial kitchen hood cleaning owner-operators to understand their current documentation processes, pain points with NFPA 96 compliance, and willingness to pay for a digital solution.",
+          "cost": "$0 (time only for outreach and interviews)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 out of 5 interviewed contractors express a strong need for a better digital documentation solution and indicate a budget for such a tool.",
+        "stopIf": "Most interviewed contractors report that their current documentation methods (e.g., paper, generic apps, texting photos) are sufficient, or they are unwilling to pay for a specialized solution.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence weak → unknown: no citation was supported by a verbatim quote",
+          "change \"commercial kitchen hood cleaning contractors face \" supports → untested: no quoted evidence"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [
+            {
+              "claim": "problem evidence",
+              "id": "S1.5",
+              "reason": "quote not found in the cited item"
+            },
+            {
+              "claim": "change",
+              "id": "S1.5",
+              "reason": "quote not found in the cited item"
+            }
+          ],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence weak → unknown: no citation was supported by a verbatim quote",
+            "change \"commercial kitchen hood cleaning contractors face \" supports → untested: no quoted evidence"
+          ],
+          "dropped": []
+        },
+        "assessedAt": "2026-10-29T11:19:14.360Z",
+        "evidenceUpdatedAt": "2026-10-29T11:13:22.708Z"
+      }
+    },
+    {
+      "id": "2026-10-29:used-car-dealership-ftc-compliance",
+      "slug": "used-car-dealership-ftc-compliance",
+      "title": "The Independent Used Car Dealership's \"FTC Compliance & Transparent Pricing Hub\"",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The US used car dealer market is highly fragmented, with many independent dealers needing robust, integrated systems to address evolving FTC enforcement priorities."
+      },
+      "plan": {
+        "slug": "used-car-dealership-ftc-compliance",
+        "title": "The Independent Used Car Dealership's \"FTC Compliance & Transparent Pricing Hub\"",
+        "problem": "Independent used car dealerships face significant financial penalties and legal exposure due to non-compliance with FTC regulations, particularly the Used Car Rule and recent focus on price transparency.",
+        "targetCustomer": "The owner-operator of an independent used car dealership in the US.",
+        "payer": "The owner-operator of an independent used car dealership in the US.",
+        "whyPayerPays": "The payer pays to reduce legal risk, avoid substantial fines and consumer lawsuits, and ensure accurate, transparent pricing across all channels.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The US used car dealer market is highly fragmented, with many independent dealers needing robust, integrated systems to address evolving FTC enforcement priorities."
+        },
+        "keywords": {
+          "problem": [
+            "ftc used car rule violations",
+            "used car dealer compliance",
+            "auto dealer pricing transparency"
+          ],
+          "solution": [
+            "dealer compliance software",
+            "auto pricing tools",
+            "used car dealer solutions"
+          ],
+          "buying": [
+            "auto dealer software",
+            "ftc compliance tools cost"
+          ]
+        },
+        "serpQueries": [
+          "dealer compliance software",
+          "ftc used car rule violations"
+        ],
+        "planning": {
+          "draftIssues": [
+            {
+              "group": "buying",
+              "issue": "no_head_term"
+            }
+          ],
+          "repairRequested": true,
+          "repaired": true,
+          "draftKeywords": {
+            "problem": [
+              "ftc used car rule violations",
+              "used car dealer compliance",
+              "auto dealer pricing transparency"
+            ],
+            "solution": [
+              "dealer compliance software",
+              "auto pricing tools",
+              "used car dealer solutions"
+            ],
+            "buying": [
+              "dealer compliance software pricing",
+              "best auto dealer software",
+              "ftc compliance tools cost"
+            ]
+          },
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "ftc used car rule violations",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "used car dealer compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "auto dealer pricing transparency",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "dealer compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:11.050Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "auto pricing tools",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "used car dealer solutions",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "auto dealer software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 880,
+          "cpcUsd": 19.07,
+          "adCompetition": 0.26,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": -18,
+          "providerUpdatedAt": "2026-10-18 07:27:53 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 720
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 880
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 880
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 2400
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 2900
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 4400
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 1600
+            }
+          ],
+          "trend": {
+            "direction": "flat",
+            "changePct": -3,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "ftc compliance tools cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "dealer compliance software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:50.921Z",
+          "checkUrl": "https://www.google.com/search?q=dealer%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "get.dealercenter.com",
+              "url": "https://get.dealercenter.com/complyauto/",
+              "title": "The #1 Dealership Privacy & Cybersecurity Platform",
+              "description": "Navigate the regulatory landscape with confidence using our top-tier auto dealership compliance tools. Expertly designed to ensure seamless FTC Safeguards ... Read more",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "us.dealertrack.com",
+              "url": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+              "title": "Dealer Management System (DMS) Overview",
+              "description": "A dealer management system (DMS) is software that connects every department in your dealership. With powerful, real-time accounting and reporting, Dealertrack",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/fb-answers/which-dealership-software-offers-robust-compliance-tools-to-help-us-navigate-evolving-automotive-industry-regulations/",
+              "title": "Which Dealership Software Offers Robust Compliance ...",
+              "description": "Dealership Accelerator Ai is called out for automatically detecting opt-out signals to avoid compliance issues, while platforms like DealerFlow and Juggernaut ... Read more",
+              "id": "S1.4",
+              "class": "discussion"
+            },
+            {
+              "rank": 5,
+              "domain": "www.mosaiccs.com",
+              "url": "https://www.mosaiccs.com/",
+              "title": "Mosaic Compliance Services: Compliance for Dealerships",
+              "description": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services. Explore Mosaic's tools and managed compliance programs.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 7,
+              "domain": "www.gartner.com",
+              "url": "https://www.gartner.com/reviews/market/dealer-management-systems",
+              "title": "Best Dealer Management Systems Reviews 2026",
+              "description": "Dealertrack enables dealerships to automate tasks such as contract processing, compliance management, and reporting, reducing manual data entry and improving ... Read more",
+              "id": "S1.7",
+              "class": "review_directory"
+            },
+            {
+              "rank": 8,
+              "domain": "www.dealerware.com",
+              "url": "https://www.dealerware.com/",
+              "title": "Dealerware: Dealership Mobility Solutions",
+              "description": "Dealerware + is the only solution in the industry that manages all dealership fleets and programs on one platform with one mobile app. Read more",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "dealerclick.com",
+              "url": "https://dealerclick.com/blog/cloud-based-auto-dealer-software",
+              "title": "Cloud-Based Auto Dealer Software: Benefits & Features",
+              "description": "May 5, 2025 — Security & Compliance. Modern cloud providers offer encryption, SOC 2 compliance, MFA, single sign-on, automated backups, and disaster ... Read more",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "slashdot.org",
+              "url": "https://slashdot.org/software/compliance/for-dealer-mate/",
+              "title": "Top Compliance Software for Dealer-Mate in 2026",
+              "description": "Use the comparison tool below to compare the top Compliance software for Dealer-Mate on the market. You can filter results by user reviews, pricing, features, ...",
+              "id": "S1.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "nccdirect.com",
+              "url": "https://nccdirect.com/guide-to-dealership-compliance-tech-and-ops/",
+              "title": "A Practical Guide to Dealership Compliance, Tech, and Ops",
+              "description": "Sep 10, 2025 — Learn how dealerships can boost lead conversion, fight fraud, and simplify compliance with NCC's automotive credit and compliance solutions.",
+              "id": "S1.11",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "ftc used car rule violations",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-17T09:52:56.334Z",
+          "checkUrl": "https://www.google.com/search?q=ftc%20used%20car%20rule%20violations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.consumerlawpa.com",
+              "url": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+              "title": "The FTC And The Used Car Rule",
+              "description": "Dec 10, 2018 — Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines ...",
+              "id": "S2.2",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.rathautofortsmith.com",
+              "url": "https://www.rathautofortsmith.com/blog/everything-you-need-to-know-about-the-ftcs-used-car-rule",
+              "title": "Everything You Need to Know About the FTC's Used Car ...",
+              "description": "Sep 20, 2018 — If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation.",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "fada.org",
+              "url": "https://fada.org/ftc-amends-used-car-rule/",
+              "title": "FTC Amends Used Car Rule",
+              "description": "The amended rule is effective January 27, 2017. However, the final rule permits dealers to use their existing stock of Buyers Guides for up to one year after ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.militaryconsumer.gov",
+              "url": "https://www.militaryconsumer.gov/blog/ftc-used-car-dealers-play-rules-or-pay-price",
+              "title": "FTC to used car dealers: Play by the rules or pay the price",
+              "description": "Mar 18, 2014 — Each violation could result in a civil penalty of $16,000. The FTC's Buyers Guide must tell you: whether the vehicle is being sold \"as is\" or ...",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.jfeyginesq.com",
+              "url": "https://www.jfeyginesq.com/ftc-used-car-rule-buyers-guide/",
+              "title": "FTC Used Car Rule and the Buyers Guide",
+              "description": "Consumers commonly raise Buyers Guide violations through state-law claims such as FDUTPA, and through warranty or misrepresentation theories.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.paschgroup.com",
+              "url": "https://www.paschgroup.com/glossary/used-car-rule/",
+              "title": "FTC Used Car Rule and the Buyers Guide",
+              "description": "6 days ago — The rule covers dealers that sold or offered for sale five or more used vehicles in the previous 12 months, so it reaches franchise and ... Read more",
+              "id": "S2.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "hs.kpa.io",
+              "url": "https://hs.kpa.io/blog/what-you-need-to-know-about-the-new-ftc-cars-rule",
+              "title": "What You Need to Know About the New FTC CARS Rule",
+              "description": "Dec 27, 2023 — Violations of the CARS Rule constitute unfair and deceptive acts and practices under Section 5 of the FTC ACT, and the FTC can impose penalties ...",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "kpa.io",
+              "url": "https://kpa.io/blog/compliance-tips-for-the-used-car-rule-and-buyers-guides-fi-minute",
+              "title": "Compliance Tips for the Used Car Rule and Buyers Guides",
+              "description": "May 18, 2022 — The FTC has direct oversight over this. Currently, the new citation amount will be $46,517 per violation. In April of 2018, they actually had a ... Read more",
+              "id": "S2.10",
+              "class": "site"
+            },
+            {
+              "rank": 11,
+              "domain": "www.autoraptor.com",
+              "url": "https://www.autoraptor.com/blog/stay-compliant-ftc-used-car-rule",
+              "title": "How to Stay Compliant with the FTC Used Car",
+              "description": "Aug 17, 2016 — Non-compliance can result in significant civil penalties — one dealership was ordered to pay $90,000 after ignoring the rule following an ... Read more",
+              "id": "S2.11",
+              "class": "site"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "get.dealercenter.com",
+          "url": "https://get.dealercenter.com/complyauto/",
+          "finalUrl": "https://get.dealercenter.com/complyauto/",
+          "retrievedAt": "2026-10-17T09:53:05.337Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P2",
+          "domain": "get.dealercenter.com",
+          "url": "https://get.dealercenter.com/pricing",
+          "finalUrl": "https://get.dealercenter.com/pricing",
+          "retrievedAt": "2026-10-17T09:53:05.338Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P3",
+          "domain": "consumerlawpa.com",
+          "url": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+          "finalUrl": "https://www.consumerlawpa.com/the-ftc-and-the-used-car-rule/",
+          "retrievedAt": "2026-10-17T09:53:05.339Z",
+          "status": 200,
+          "error": null,
+          "title": "The FTC And The Used Car Rule | Philadelphia Used Car Fraud Attorney",
+          "description": "Please contact Louis S. Schwartz at CONSUMERLAWPA.com to discuss your legal options with an experienced and dedicated Philadelphia used car fraud attorney.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P4",
+          "domain": "consumerlawpa.com",
+          "url": "https://www.consumerlawpa.com/pricing",
+          "finalUrl": "https://www.consumerlawpa.com/",
+          "retrievedAt": "2026-10-17T09:53:05.340Z",
+          "status": 200,
+          "error": null,
+          "title": "Philadelphia Consumer Lawyer",
+          "description": "Our Philadelphia consumer lawyers will ensure you are treated with appropriate professionalism in all consumer interactions.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P5",
+          "domain": "us.dealertrack.com",
+          "url": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+          "finalUrl": "https://us.dealertrack.com/content/dealertrack/en/dealer-management-solutions.html",
+          "retrievedAt": "2026-10-17T09:53:05.340Z",
+          "status": 200,
+          "error": null,
+          "title": "Dealer Management System (DMS) Overview | Dealertrack",
+          "description": "Run your dealership with an easy-to-use DMS featuring cloud access, open integrations, and performance management. See features and benefits.",
+          "priceMentions": [
+            {
+              "text": "$ 0",
+              "billingUnit": false,
+              "context": "Marketing F&I Menu Calculate Data Fees Calculate Data Fees $ 0 in data fees over the remainder of contract term Integratio"
+            }
+          ],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": false
+        },
+        {
+          "id": "P6",
+          "domain": "us.dealertrack.com",
+          "url": "https://us.dealertrack.com/pricing",
+          "finalUrl": "https://us.dealertrack.com/pricing",
+          "retrievedAt": "2026-10-17T09:53:05.341Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 5,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 1,
+            "top": null
+          },
+          "broader": {
+            "level": "some",
+            "measuredCount": 1,
+            "totalCount": 1,
+            "top": {
+              "keyword": "auto dealer software",
+              "searchVolume": 880,
+              "id": "K7"
+            }
+          },
+          "uncertainCount": 1,
+          "flags": [
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"auto pricing tools\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 5 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: some (\"auto dealer software\" 880/mo) — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "weak",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No published offer prices were found on the fetched competitor pages."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "get.dealercenter.com",
+            "consumerlawpa.com",
+            "us.dealertrack.com",
+            "rathautofortsmith.com",
+            "mosaiccs.com",
+            "fada.org",
+            "jfeyginesq.com",
+            "dealerware.com",
+            "paschgroup.com",
+            "dealerclick.com",
+            "hs.kpa.io",
+            "slashdot.org",
+            "kpa.io",
+            "nccdirect.com",
+            "autoraptor.com"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "facebook.com",
+            "gartner.com"
+          ],
+          "pricedDomains": [],
+          "note": "15 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 0 domain(s) with a direct competitor (same problem), 4 with an indirect alternative.",
+          "directCompetitorDomains": [],
+          "indirectAlternativeDomains": [
+            "get.dealercenter.com",
+            "us.dealertrack.com",
+            "mosaiccs.com",
+            "dealerclick.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "1963fbfa283d0ee9",
+      "evidenceUpdatedAt": "2026-10-29T11:13:22.709Z",
+      "matchesOriginalPick": true,
+      "relevance": {
+        "at": "2026-10-29T11:18:24.333Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-29T11:13:22.709Z",
+        "qualifiers": [
+          "owner-operator",
+          "independent used car dealership",
+          "US"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly addresses violations of the FTC Used Car Rule, which is the specific problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about compliance for used car dealers, which is the target customer's business and problem context."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly addresses auto dealer pricing transparency, which is a specific focus of the target customer's compliance problem."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly searches for software related to dealer compliance, which addresses the target customer's problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about auto pricing tools, which is broader than tools specifically for pricing transparency or compliance."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "category",
+            "reason": "The keyword is a generic term for solutions for used car dealers, not specific to the compliance or pricing transparency problem."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "wider",
+            "reason": "The keyword is a generic term for auto dealer software, which is a wider market than solutions for FTC compliance."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about the cost of FTC compliance tools, which is a buying intent for a solution to the target customer's problem."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers compliance tools for auto dealerships, which is broader than independent used car dealerships and includes broader compliance issues."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers a general Dealer Management System, which is broader than a specific compliance solution for independent used car dealerships."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a general discussion about dealership compliance software, not specific to independent used car dealerships or their particular FTC compliance problems."
+          },
+          "S1.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers compliance services for dealerships generally, including broader compliance areas beyond the target customer's specific problem."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item reviews general Dealer Management Systems, which are broader than specific compliance solutions for independent used car dealerships."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item offers dealership mobility solutions, which is a different problem than FTC compliance for used car dealerships."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers general cloud-based auto dealer software with broad compliance features, not specific to the target customer's problem."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item compares general compliance software for dealerships, not specific to the target customer's problem."
+          },
+          "S1.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a guide for general dealership compliance, tech, and operations, which is broader than the target customer's specific FTC compliance problem."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses the FTC Used Car Rule and violations, which is the target problem, but it's from a consumer law perspective, not directly for the dealership owner."
+          },
+          "S2.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item provides general information about the FTC Used Car Rule, which is the target problem, but not specifically for the independent used car dealership owner."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses amendments to the FTC Used Car Rule, which is the target problem, but it's from a dealer association, not specifically for independent used car dealerships."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is an FTC warning to used car dealers about compliance, directly addressing the target problem but for a broader customer group."
+          },
+          "S2.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses the FTC Used Car Rule from a legal perspective, which is the target problem, but not directly for the dealership owner."
+          },
+          "S2.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses the FTC Used Car Rule from a legal perspective, which is the target problem, but not directly for the dealership owner."
+          },
+          "S2.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses the new FTC CARS Rule and violations, which is highly relevant to the target problem, but for a broader dealership audience."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item provides compliance tips for the Used Car Rule, directly addressing the target problem, but for a broader dealership audience."
+          },
+          "S2.11": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses how to stay compliant with the FTC Used Car Rule, directly addressing the target problem, but for a broader dealership audience."
+          },
+          "P3": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is from a consumer law firm, targeting consumers who have experienced fraud, which is a different customer than the dealership owner."
+          },
+          "P4": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "no",
+            "reason": "The item is for consumers seeking legal help, which is a different customer and problem than the dealership owner's compliance issues."
+          },
+          "P5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers a general Dealer Management System, which is broader than a specific compliance solution for independent used car dealerships."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-29:used-car-dealership-ftc-compliance",
+        "opportunity": "Independent used car dealerships need a solution to manage compliance with FTC regulations, particularly the Used Car Rule and price transparency. This opportunity aims to help them avoid significant financial penalties and legal exposure.",
+        "whoPays": "The owner-operator of an independent used car dealership in the US pays to reduce legal risk, avoid substantial fines and consumer lawsuits, and ensure accurate, transparent pricing across all channels. (Inference)",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines"
+            },
+            {
+              "id": "S2.4",
+              "quote": "If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation."
+            },
+            {
+              "id": "S2.6",
+              "quote": "FTC to used car dealers: Play by the rules or pay the price"
+            },
+            {
+              "id": "S2.9",
+              "quote": "Violations of the CARS Rule constitute unfair and deceptive acts and practices under Section 5 of the FTC ACT, and the FTC can impose penalties"
+            },
+            {
+              "id": "S2.10",
+              "quote": "Currently, the new citation amount will be $46,517 per violation."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Non-compliance can result in significant civil penalties — one dealership was ordered to pay $90,000 after ignoring the rule following an"
+            }
+          ],
+          "observed": "Dealerships face significant fines (e.g., \"$2 Million in Fines\", \"$41,484 per violation\", \"$46,517 per violation\", \"$90,000\") and liability for failing to comply with FTC regulations like the Used Car Rule and the new CARS Rule. The FTC actively warns used car dealers to comply or \"pay the price\".",
+          "inference": "The financial and legal risks associated with FTC non-compliance are substantial for dealerships, creating a strong incentive for them to seek solutions."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Navigate the regulatory landscape with confidence using our top-tier auto dealership compliance tools."
+            },
+            {
+              "id": "S1.3",
+              "quote": "A dealer management system (DMS) is software that connects every department in your dealership."
+            },
+            {
+              "id": "S1.5",
+              "quote": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Security & Compliance. Modern cloud providers offer encryption, SOC 2 compliance, MFA, single sign-on, automated backups, and disaster"
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "DealerCenter",
+              "type": "indirect",
+              "what": "Offers \"auto dealership compliance tools\" and a \"Dealership Privacy & Cybersecurity Platform\" including \"FTC Safeguards\".",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Navigate the regulatory landscape with confidence using our top-tier auto dealership compliance tools. Expertly designed to ensure seamless FTC Safeguards"
+                }
+              ]
+            },
+            {
+              "name": "Dealertrack",
+              "type": "indirect",
+              "what": "Offers a \"Dealer Management System (DMS)\" that connects departments and includes \"compliance management\".",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "A dealer management system (DMS) is software that connects every department in your dealership."
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "Dealertrack enables dealerships to automate tasks such as contract processing, compliance management, and reporting"
+                }
+              ]
+            },
+            {
+              "name": "Mosaic Compliance Services",
+              "type": "indirect",
+              "what": "Provides \"Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.\"",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services."
+                }
+              ]
+            },
+            {
+              "name": "DealerClick",
+              "type": "indirect",
+              "what": "Offers \"Cloud-Based Auto Dealer Software\" with \"Security & Compliance\" features like encryption and automated backups.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Cloud-Based Auto Dealer Software: Benefits & Features"
+                },
+                {
+                  "id": "S1.9",
+                  "quote": "Security & Compliance. Modern cloud providers offer encryption, SOC 2 compliance, MFA, single sign-on, automated backups, and disaster"
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors offer broad compliance tools, full Dealer Management Systems, and services like training and audits, covering various aspects of dealership operations and regulations.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "auto dealership compliance tools"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "A dealer management system (DMS) is software that connects every department in your dealership."
+                },
+                {
+                  "id": "S1.5",
+                  "quote": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is an inference that existing solutions may not specifically focus on the unique needs of independent used car dealerships or provide a highly specialized \"Transparent Pricing Hub\" as described in the idea, as most competitors offer broader, more general compliance or DMS solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Independent used car dealerships face significant financial penalties and legal exposure due to non-compliance with FTC regulations, particularly the Used Car Rule and recent focus on price transparency.",
+            "finding": "Multiple sources confirm that dealerships face substantial fines (e.g., \"$46,517 per violation\") and legal consequences for violations of the FTC Used Car Rule and the new CARS Rule.",
+            "basis": [
+              {
+                "id": "S2.10",
+                "quote": "Currently, the new citation amount will be $46,517 per violation."
+              },
+              {
+                "id": "S2.9",
+                "quote": "Violations of the CARS Rule constitute unfair and deceptive acts and practices under Section 5 of the FTC ACT"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "The owner-operator of an independent used car dealership in the US.",
+            "finding": "While the problem of FTC compliance is evident for \"used car dealers\" generally, the evidence does not specifically highlight the unique pain or demand from independent used car dealership owner-operators.",
+            "basis": [
+              {
+                "id": "K1",
+                "quote": "ftc used car rule violations"
+              },
+              {
+                "id": "K2",
+                "quote": "used car dealer compliance"
+              }
+            ],
+            "effect": "untested"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a focused compliance tool for specific FTC rules, including features for transparent pricing, is a manageable scope for a solo founder, especially if integrated with existing dealership workflows."
+        },
+        "unproven": [
+          "The specific pain points and unmet needs of independent used car dealership owner-operators, as opposed to larger dealerships.",
+          "The actual search demand for solutions, as all direct keywords returned null search volume.",
+          "The willingness of the target customer to pay for a specialized compliance solution when broader DMS systems exist."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page describing the \"FTC Compliance & Transparent Pricing Hub\" for independent used car dealerships, highlighting the specific pain points and proposed features. Run targeted ads on platforms like Facebook or Google Ads (if CPC data becomes available for relevant keywords) to independent used car dealership owners.",
+          "cost": "$200-$500 (for landing page tools and initial ad spend)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "The landing page receives a click-through rate of at least 5% from the target audience, and at least 10% of visitors provide their email for early access or more information.",
+        "stopIf": "The ad campaign yields a low click-through rate (below 2%) or very few sign-ups, indicating a lack of interest in the proposed solution or the problem as framed."
+      },
+      "assessment": {
+        "opportunity": "Independent used car dealerships need a solution to manage compliance with FTC regulations, particularly the Used Car Rule and price transparency. This opportunity aims to help them avoid significant financial penalties and legal exposure.",
+        "whoPays": "The owner-operator of an independent used car dealership in the US pays to reduce legal risk, avoid substantial fines and consumer lawsuits, and ensure accurate, transparent pricing across all channels. (Inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Dealerships that fail to comply with these requirements can and should be held liable for resulting damages, Pay More than $2 Million in Fines",
+              "domain": "consumerlawpa.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses the FTC Used Car Rule and violations, which is the target problem, but it's from a consumer law perspective, not directly for the dealership owner."
+            },
+            {
+              "id": "S2.4",
+              "quote": "If the dealership still does not comply, the FTC can issue fines of up to $41,484 per violation.",
+              "domain": "rathautofortsmith.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item provides general information about the FTC Used Car Rule, which is the target problem, but not specifically for the independent used car dealership owner."
+            },
+            {
+              "id": "S2.6",
+              "quote": "FTC to used car dealers: Play by the rules or pay the price",
+              "domain": "militaryconsumer.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "The item is an FTC warning to used car dealers about compliance, directly addressing the target problem but for a broader customer group."
+            },
+            {
+              "id": "S2.9",
+              "quote": "Violations of the CARS Rule constitute unfair and deceptive acts and practices under Section 5 of the FTC ACT, and the FTC can impose penalties",
+              "domain": "hs.kpa.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses the new FTC CARS Rule and violations, which is highly relevant to the target problem, but for a broader dealership audience."
+            },
+            {
+              "id": "S2.10",
+              "quote": "Currently, the new citation amount will be $46,517 per violation.",
+              "domain": "kpa.io",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item provides compliance tips for the Used Car Rule, directly addressing the target problem, but for a broader dealership audience."
+            },
+            {
+              "id": "S2.11",
+              "quote": "Non-compliance can result in significant civil penalties — one dealership was ordered to pay $90,000 after ignoring the rule following an",
+              "domain": "autoraptor.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses how to stay compliant with the FTC Used Car Rule, directly addressing the target problem, but for a broader dealership audience."
+            }
+          ],
+          "observed": "Dealerships face significant fines (e.g., \"$2 Million in Fines\", \"$41,484 per violation\", \"$46,517 per violation\", \"$90,000\") and liability for failing to comply with FTC regulations like the Used Car Rule and the new CARS Rule. The FTC actively warns used car dealers to comply or \"pay the price\".",
+          "inference": "The financial and legal risks associated with FTC non-compliance are substantial for dealerships, creating a strong incentive for them to seek solutions."
+        },
+        "competition": {
+          "level": "some",
+          "basis": [
+            {
+              "id": "S1.2",
+              "quote": "Navigate the regulatory landscape with confidence using our top-tier auto dealership compliance tools.",
+              "domain": "get.dealercenter.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers compliance tools for auto dealerships, which is broader than independent used car dealerships and includes broader compliance issues."
+            },
+            {
+              "id": "S1.3",
+              "quote": "A dealer management system (DMS) is software that connects every department in your dealership.",
+              "domain": "us.dealertrack.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers a general Dealer Management System, which is broader than a specific compliance solution for independent used car dealerships."
+            },
+            {
+              "id": "S1.5",
+              "quote": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.",
+              "domain": "mosaiccs.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers compliance services for dealerships generally, including broader compliance areas beyond the target customer's specific problem."
+            },
+            {
+              "id": "S1.9",
+              "quote": "Security & Compliance. Modern cloud providers offer encryption, SOC 2 compliance, MFA, single sign-on, automated backups, and disaster",
+              "domain": "dealerclick.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers general cloud-based auto dealer software with broad compliance features, not specific to the target customer's problem."
+            }
+          ],
+          "directCompetitors": [],
+          "indirectAlternatives": [
+            "get.dealercenter.com",
+            "us.dealertrack.com",
+            "mosaiccs.com",
+            "dealerclick.com"
+          ],
+          "alternatives": [
+            {
+              "name": "DealerCenter",
+              "type": "indirect",
+              "what": "Offers \"auto dealership compliance tools\" and a \"Dealership Privacy & Cybersecurity Platform\" including \"FTC Safeguards\".",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "Navigate the regulatory landscape with confidence using our top-tier auto dealership compliance tools. Expertly designed to ensure seamless FTC Safeguards",
+                  "domain": "get.dealercenter.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers compliance tools for auto dealerships, which is broader than independent used car dealerships and includes broader compliance issues."
+                }
+              ]
+            },
+            {
+              "name": "Dealertrack",
+              "type": "indirect",
+              "what": "Offers a \"Dealer Management System (DMS)\" that connects departments and includes \"compliance management\".",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "A dealer management system (DMS) is software that connects every department in your dealership.",
+                  "domain": "us.dealertrack.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers a general Dealer Management System, which is broader than a specific compliance solution for independent used car dealerships."
+                }
+              ]
+            },
+            {
+              "name": "Mosaic Compliance Services",
+              "type": "indirect",
+              "what": "Provides \"Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.\"",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.",
+                  "domain": "mosaiccs.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers compliance services for dealerships generally, including broader compliance areas beyond the target customer's specific problem."
+                }
+              ]
+            },
+            {
+              "name": "DealerClick",
+              "type": "indirect",
+              "what": "Offers \"Cloud-Based Auto Dealer Software\" with \"Security & Compliance\" features like encryption and automated backups.",
+              "basis": [
+                {
+                  "id": "S1.9",
+                  "quote": "Cloud-Based Auto Dealer Software: Benefits & Features",
+                  "domain": "dealerclick.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers general cloud-based auto dealer software with broad compliance features, not specific to the target customer's problem."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "Competitors offer broad compliance tools, full Dealer Management Systems, and services like training and audits, covering various aspects of dealership operations and regulations.",
+              "basis": [
+                {
+                  "id": "S1.2",
+                  "quote": "auto dealership compliance tools",
+                  "domain": "get.dealercenter.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item offers compliance tools for auto dealerships, which is broader than independent used car dealerships and includes broader compliance issues."
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "A dealer management system (DMS) is software that connects every department in your dealership.",
+                  "domain": "us.dealertrack.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item offers a general Dealer Management System, which is broader than a specific compliance solution for independent used car dealerships."
+                },
+                {
+                  "id": "S1.5",
+                  "quote": "Dealership compliance training, policies, deal audits, FTC Safeguards support, and EHS services.",
+                  "domain": "mosaiccs.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item offers compliance services for dealerships generally, including broader compliance areas beyond the target customer's specific problem."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is an inference that existing solutions may not specifically focus on the unique needs of independent used car dealerships or provide a highly specialized \"Transparent Pricing Hub\" as described in the idea, as most competitors offer broader, more general compliance or DMS solutions.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "moderate",
+          "note": "Building a focused compliance tool for specific FTC rules, including features for transparent pricing, is a manageable scope for a solo founder, especially if integrated with existing dealership workflows."
+        },
+        "unproven": [
+          "The specific pain points and unmet needs of independent used car dealership owner-operators, as opposed to larger dealerships.",
+          "The actual search demand for solutions, as all direct keywords returned null search volume.",
+          "The willingness of the target customer to pay for a specialized compliance solution when broader DMS systems exist."
+        ],
+        "nextExperiment": {
+          "what": "Create a simple landing page describing the \"FTC Compliance & Transparent Pricing Hub\" for independent used car dealerships, highlighting the specific pain points and proposed features. Run targeted ads on platforms like Facebook or Google Ads (if CPC data becomes available for relevant keywords) to independent used car dealership owners.",
+          "cost": "$200-$500 (for landing page tools and initial ad spend)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "The landing page receives a click-through rate of at least 5% from the target audience, and at least 10% of visitors provide their email for early access or more information.",
+        "stopIf": "The ad campaign yields a low click-through rate (below 2%) or very few sign-ups, indicating a lack of interest in the proposed solution or the problem as framed.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [
+            {
+              "claim": "alternative Dealertrack",
+              "id": "S1.7",
+              "relevance": "none",
+              "reason": "The item reviews general Dealer Management Systems, which are broader than specific compliance solutions for independent used car dealerships."
+            }
+          ],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem"
+          ],
+          "dropped": [
+            "change: original text \"Independent used car dealerships face significant financial \" is not in Scout's memo",
+            "change: original text \"The owner-operator of an independent used car dealership in \" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-10-29T11:19:14.365Z",
+        "evidenceUpdatedAt": "2026-10-29T11:13:22.709Z"
+      }
+    },
+    {
+      "id": "2026-10-29:propane-delivery-compliance-ledger",
+      "slug": "propane-delivery-compliance-ledger",
+      "title": "The Small Propane Delivery Company's \"DOT & OSHA Compliance Ledger\"",
+      "market": {
+        "locationName": "United States",
+        "languageCode": "en",
+        "source": "planner",
+        "reason": "The US propane market is highly fragmented with many small, regional operators who lack sophisticated in-house compliance systems, and PHMSA has increased enforcement scrutiny."
+      },
+      "plan": {
+        "slug": "propane-delivery-compliance-ledger",
+        "title": "The Small Propane Delivery Company's \"DOT & OSHA Compliance Ledger\"",
+        "problem": "Small propane delivery companies face complex and evolving federal and state regulations regarding hazardous materials transportation, employee safety, and cylinder maintenance, leading to fines and operational disruptions if not managed correctly.",
+        "targetCustomer": "The owner-operator of a small, independent propane delivery company in the US.",
+        "payer": "The owner-operator of a small, independent propane delivery company in the US.",
+        "whyPayerPays": "The payer pays to avoid severe fines, operational disruptions, and catastrophic safety incidents, and to manage detailed logs efficiently.",
+        "market": {
+          "location": "United States",
+          "language": "en",
+          "reason": "The US propane market is highly fragmented with many small, regional operators who lack sophisticated in-house compliance systems, and PHMSA has increased enforcement scrutiny."
+        },
+        "keywords": {
+          "problem": [
+            "propane dot compliance",
+            "hazmat training requirements",
+            "osha propane safety"
+          ],
+          "solution": [
+            "propane compliance software",
+            "hazmat record keeping",
+            "dot compliance tools"
+          ],
+          "buying": [
+            "propane compliance software pricing",
+            "best dot compliance software",
+            "osha compliance cost"
+          ]
+        },
+        "serpQueries": [
+          "propane compliance software",
+          "propane dot compliance"
+        ],
+        "planning": {
+          "draftIssues": [],
+          "repairRequested": false,
+          "repaired": false,
+          "finalIssues": []
+        }
+      },
+      "status": "enriched",
+      "attempts": 1,
+      "keywords": [
+        {
+          "id": "K1",
+          "keyword": "propane dot compliance",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K2",
+          "keyword": "hazmat training requirements",
+          "group": "problem",
+          "status": "measured",
+          "searchVolume": 90,
+          "cpcUsd": 2.32,
+          "adCompetition": 0.19,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "informational",
+          "providerTrendYearlyPct": -18,
+          "providerUpdatedAt": "2026-10-18 05:18:33 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 110
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 170
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 210
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 170
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 110
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 170
+            }
+          ],
+          "trend": {
+            "direction": "declining",
+            "changePct": -24,
+            "basis": "last 3 months vs the same 3 months a year earlier"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K3",
+          "keyword": "osha propane safety",
+          "group": "problem",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K4",
+          "keyword": "propane compliance software",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K5",
+          "keyword": "hazmat record keeping",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K6",
+          "keyword": "dot compliance tools",
+          "group": "solution",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K7",
+          "keyword": "propane compliance software pricing",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K8",
+          "keyword": "best dot compliance software",
+          "group": "buying",
+          "status": "measured",
+          "searchVolume": 10,
+          "cpcUsd": null,
+          "adCompetition": 0.13,
+          "adCompetitionLevel": "LOW",
+          "mainIntent": "commercial",
+          "providerTrendYearlyPct": 100,
+          "providerUpdatedAt": "2026-10-15 09:26:31 +00:00",
+          "monthlySearches": [
+            {
+              "year": 2026,
+              "month": 9,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "searchVolume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "searchVolume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "searchVolume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "searchVolume": 20
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "searchVolume": 30
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "searchVolume": 40
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "searchVolume": 70
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "searchVolume": 140
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "searchVolume": 50
+            },
+            {
+              "year": 2025,
+              "month": 1,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 12,
+              "searchVolume": 50
+            },
+            {
+              "year": 2024,
+              "month": 11,
+              "searchVolume": 70
+            },
+            {
+              "year": 2024,
+              "month": 10,
+              "searchVolume": 50
+            }
+          ],
+          "trend": {
+            "direction": "unknown",
+            "changePct": null,
+            "basis": "baseline too small to compare (20 searches/month)"
+          },
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:12:54.581Z",
+          "adsChecked": false
+        },
+        {
+          "id": "K9",
+          "keyword": "osha compliance cost",
+          "group": "buying",
+          "status": "no_data",
+          "searchVolume": null,
+          "provider": "DataForSEO Labs · keyword_overview",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-28T11:47:28.246Z",
+          "adsChecked": false
+        }
+      ],
+      "serps": [
+        {
+          "id": "S1",
+          "query": "propane compliance software",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:13:07.165Z",
+          "checkUrl": "https://www.google.com/search?q=propane%20compliance%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "www.featuredcustomers.com",
+              "url": "https://www.featuredcustomers.com/software/propane-software",
+              "title": "Best Propane Software 2026 - Reviews, Case Studies & ...",
+              "description": "Find the best Propane Software companies for your business. Compare case studies, success stories, & testimonials from the top Propane Software vendors. iRely ...",
+              "id": "S1.2",
+              "class": "site"
+            },
+            {
+              "rank": 3,
+              "domain": "energytechsolutions.net",
+              "url": "https://energytechsolutions.net/detailed-tank-information/",
+              "title": "Advanced Propane Tank Management System",
+              "description": "Manage your propane business utilizing our advanced, state-of-the art propane tank management system. Contact us for a demo today.",
+              "id": "S1.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=wmtkc_VDRc0",
+              "title": "ADD Systems discusses software offerings for propane retailers",
+              "description": "ADD Systems, a software provider with over 50 years of experience, has to offer the propane industry, including its E3 management system, Raven ...",
+              "id": "S1.4",
+              "class": "reference_media"
+            },
+            {
+              "rank": 5,
+              "domain": "propanesafetypro.com",
+              "url": "https://propanesafetypro.com/new-mobile-app-reduces-safety-risks-for-propane-dispenser-operations/",
+              "title": "New Mobile App Reduces Safety Risks for Propane ...",
+              "description": "Dispenser managers and propane companies can now remotely track and manage training, ensuring 100% compliance, even with new hires in this dynamic industry.",
+              "id": "S1.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "www.applytosupply.digitalmarketplace.service.gov.uk",
+              "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/667522357592952",
+              "title": "C365Cloud Gas Safety and LGSR Software for Government",
+              "description": "C365Cloud can help you track your LGSR and fuel checks. Features Live, interactive dashboards to overview compliance . Track LGSR and fuel check dates. Pricing ...",
+              "id": "S1.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.ginasoftware.com",
+              "url": "https://www.ginasoftware.com/blog/oil-and-gas-compliance-management-software/",
+              "title": "Oil and gas compliance management software - GINA",
+              "description": "Sep 24, 2025 — Discover how oil and gas compliance management software helps energy companies improve safety, meet regulations, and streamline daily ...",
+              "id": "S1.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.energy-xprt.com",
+              "url": "https://www.energy-xprt.com/software/ssi-fuel-and-propane-management-software-589571",
+              "title": "SSI Fuel and Propane Management Software",
+              "description": "Immerse in a seamless, integrated system that simplifies every step of serving your refined fuel and propane process. Give drivers control and dispatch the p ...",
+              "id": "S1.8",
+              "class": "site"
+            },
+            {
+              "rank": 9,
+              "domain": "energytechsolutions.net",
+              "url": "https://energytechsolutions.net/precision-in-parts-inventory-tracking/",
+              "title": "Precision in Propane Parts Inventory Tracking",
+              "description": "Stay up-to-date with live tracking of inventory levels, ensuring immediate Access comprehensive reports on inventory status, usage patterns, and reorder history",
+              "id": "S1.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "gitnux.org",
+              "url": "https://gitnux.org/best/oil-and-gas-compliance-software/",
+              "title": "Top 10 Best Oil And Gas Compliance Software of 2026",
+              "description": "Jun 30, 2026 — Quentic is the strongest overall pick for Oil and Gas Compliance Software in 2026, with IsoMetrix and Quorum Software rounding out the top ...",
+              "id": "S1.10",
+              "class": "site"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "query": "propane dot compliance",
+          "provider": "DataForSEO SERP · google organic live",
+          "location": "United States",
+          "language": "en",
+          "retrievedAt": "2026-10-29T11:13:15.647Z",
+          "checkUrl": "https://www.google.com/search?q=propane%20dot%20compliance&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "items": [
+            {
+              "rank": 2,
+              "domain": "ai.fmcsa.dot.gov",
+              "url": "https://ai.fmcsa.dot.gov/SMS/Event/Inspection/86838632.aspx",
+              "title": "Safety Measurement System - Inspection NC0006840755 ...",
+              "description": "Compliance, Safety, Accountability. A Carrier may be prioritized for an intervention action and roadside inspection. Crash Inspection: No Hazmat Placard ...",
+              "id": "S2.2",
+              "class": "government"
+            },
+            {
+              "rank": 3,
+              "domain": "www.lpgasmagazine.com",
+              "url": "https://www.lpgasmagazine.com/securing-dot-security-plans/",
+              "title": "Securing DOT security plans",
+              "description": "Nov 24, 2021 — DOT security plan training must be completed at least every three years or within 90 days after any revisions are made to your plan. DOT ...",
+              "id": "S2.3",
+              "class": "site"
+            },
+            {
+              "rank": 4,
+              "domain": "p3propane.com",
+              "url": "https://p3propane.com/wp-content/uploads/2020/09/P3-Article-Security-Plan-BPN-December-2018.pdf",
+              "title": "Meet Critical DOT Security Plan Requirements",
+              "description": "The DOT Code of Federal. Regulations (49 CFR 172.802) requires companies that transport hazmat to have a written security plan. Propane, or LP-gas, falls under. Read more",
+              "id": "S2.4",
+              "class": "site"
+            },
+            {
+              "rank": 5,
+              "domain": "3eightenergy.com",
+              "url": "https://3eightenergy.com/safety/",
+              "title": "Safety",
+              "description": "Propane containers are installed in accordance with the requirements of NFPA 58, which specifies the minimum separation distances from buildings and property ... Read more",
+              "id": "S2.5",
+              "class": "site"
+            },
+            {
+              "rank": 6,
+              "domain": "ai.fmcsa.dot.gov",
+              "url": "https://ai.fmcsa.dot.gov/SMS/Event/Inspection/86758870.aspx",
+              "title": "Safety Measurement System - Inspection FL1763003980 ...",
+              "description": "Carrier Information ; Carrier Name: Palmdale Como Propane Llc ; U.S. DOT#: 4137408 ; Carrier Address: 911 N 2nd St Fort Pierce, FL 34950-9121 ... Read more",
+              "id": "S2.6",
+              "class": "government"
+            },
+            {
+              "rank": 7,
+              "domain": "www.americanfarriers.com",
+              "url": "https://www.americanfarriers.com/articles/465-proper-transportation-of-fuels",
+              "title": "Proper Transportation of Fuels",
+              "description": "Apr 1, 2012 — DOT requires that propane cylinders be secured on a flat surface or in a rack, tote or mounted so they won't move around in the vehicle.",
+              "id": "S2.7",
+              "class": "site"
+            },
+            {
+              "rank": 8,
+              "domain": "www.phmsa.dot.gov",
+              "url": "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/legacy/interpretations/Interpretation%20Files/2016/160060.pdf",
+              "title": "of Transportation",
+              "description": "Apr 13, 2016 — It recognizes that the gauges on containers cannot accurately measure contents below 5 percent and that 5 percent is a small quantity of propane ... Read more",
+              "id": "S2.8",
+              "class": "government"
+            },
+            {
+              "rank": 9,
+              "domain": "www.safetysign.com",
+              "url": "https://www.safetysign.com/propane?srsltid=AYCX9vIGI-WX_nP_iKLnvcJn5wi3jxrwMGjlxhCfy0MzR5Nvfc2UdIhx",
+              "title": "What is Propane?",
+              "description": "Domestically in the US, the Department of Transportation allows the display of the indentification number UN1075 and use of this number should be consistent on ... Read more",
+              "id": "S2.9",
+              "class": "site"
+            },
+            {
+              "rank": 10,
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/usvicruisers/posts/9648745725177993/",
+              "title": "Is there a DOT inspection place for Propane tanks in the ...",
+              "description": "As far as I know a fire station is the only place that can test a re-certify a propane tank.|I don't know if they do, but you could try ...",
+              "id": "S2.10",
+              "class": "discussion"
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "id": "P1",
+          "domain": "energytechsolutions.net",
+          "url": "https://energytechsolutions.net/detailed-tank-information/",
+          "retrievedAt": "2026-10-29T11:13:22.171Z",
+          "status": null,
+          "error": "fetch failed"
+        },
+        {
+          "id": "P2",
+          "domain": "energytechsolutions.net",
+          "url": "https://energytechsolutions.net/pricing",
+          "retrievedAt": "2026-10-29T11:13:22.172Z",
+          "status": null,
+          "error": "fetch failed"
+        },
+        {
+          "id": "P3",
+          "domain": "featuredcustomers.com",
+          "url": "https://www.featuredcustomers.com/software/propane-software",
+          "finalUrl": "https://www.featuredcustomers.com/software/propane-software",
+          "retrievedAt": "2026-10-29T11:13:22.173Z",
+          "status": 200,
+          "error": null,
+          "title": "Best Propane Software 2026 - Reviews, Case Studies & Videos",
+          "description": "The best Propane Software according to your needs. Propane Software is critical to businesses in 2026, find out what they have to say.",
+          "priceMentions": [],
+          "mentionsFreeTrial": false,
+          "mentionsContactSales": false,
+          "mentionsPricing": true
+        },
+        {
+          "id": "P4",
+          "domain": "featuredcustomers.com",
+          "url": "https://www.featuredcustomers.com/pricing",
+          "finalUrl": "https://www.featuredcustomers.com/pricing",
+          "retrievedAt": "2026-10-29T11:13:22.173Z",
+          "status": 404,
+          "error": "HTTP 404"
+        },
+        {
+          "id": "P5",
+          "domain": "lpgasmagazine.com",
+          "url": "https://www.lpgasmagazine.com/securing-dot-security-plans/",
+          "finalUrl": "https://www.lpgasmagazine.com/securing-dot-security-plans/",
+          "retrievedAt": "2026-10-29T11:13:22.174Z",
+          "status": 403,
+          "error": "HTTP 403"
+        },
+        {
+          "id": "P6",
+          "domain": "lpgasmagazine.com",
+          "url": "https://www.lpgasmagazine.com/pricing",
+          "finalUrl": "https://www.lpgasmagazine.com/pricing",
+          "retrievedAt": "2026-10-29T11:13:22.175Z",
+          "status": 403,
+          "error": "HTTP 403"
+        }
+      ],
+      "reason": null,
+      "readings": {
+        "demand": {
+          "level": "unknown",
+          "scope": "direct keywords only",
+          "upTo": null,
+          "classified": true,
+          "measuredCount": 0,
+          "totalCount": 4,
+          "top": null,
+          "category": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "broader": {
+            "level": "unknown",
+            "measuredCount": 0,
+            "totalCount": 0,
+            "top": null
+          },
+          "uncertainCount": 5,
+          "flags": [
+            {
+              "id": "K2",
+              "kind": "uncertain",
+              "text": "\"hazmat training requirements\": relevance unclear — not counted."
+            },
+            {
+              "id": "K5",
+              "kind": "uncertain",
+              "text": "\"hazmat record keeping\": relevance unclear — not counted."
+            },
+            {
+              "id": "K6",
+              "kind": "uncertain",
+              "text": "\"dot compliance tools\": relevance unclear — not counted."
+            },
+            {
+              "id": "K8",
+              "kind": "uncertain",
+              "text": "\"best dot compliance software\": relevance unclear — not counted."
+            },
+            {
+              "id": "K9",
+              "kind": "uncertain",
+              "text": "\"osha compliance cost\": relevance unclear — not counted."
+            }
+          ],
+          "note": "Idea-level demand (directly relevant keywords only): unknown. None of the 4 directly relevant keyword(s) returned data (unknown, not zero). Category-level: unknown; broader market: unknown — shown separately, not idea demand. Volumes are separate, overlapping keywords and are not added together. Searches are not customers."
+        },
+        "commercial": {
+          "level": "unknown",
+          "biddingKeywordIds": [],
+          "pricedPageIds": [],
+          "pricedDomains": [],
+          "pricedPlatforms": [],
+          "note": "No advertiser CPC was returned for the commercial keywords. No commercial data was collected."
+        },
+        "competitors": {
+          "vendorLikeDomains": [
+            "energytechsolutions.net",
+            "featuredcustomers.com",
+            "lpgasmagazine.com",
+            "p3propane.com",
+            "propanesafetypro.com",
+            "3eightenergy.com",
+            "ginasoftware.com",
+            "americanfarriers.com",
+            "energy-xprt.com",
+            "safetysign.com",
+            "gitnux.org"
+          ],
+          "platformDomains": [],
+          "discussionResults": [
+            "facebook.com"
+          ],
+          "pricedDomains": [],
+          "note": "11 vendor-like or publisher domain(s) rank across 2 queries (not all are competitors — some are consultants or publishers). Judged for relevance: 1 domain(s) with a direct competitor (same problem) (propanesafetypro.com), 3 with an indirect alternative.",
+          "directCompetitorDomains": [
+            "propanesafetypro.com"
+          ],
+          "indirectAlternativeDomains": [
+            "energytechsolutions.net",
+            "ginasoftware.com",
+            "energy-xprt.com"
+          ]
+        }
+      },
+      "evidenceFingerprint": "4e4227bd11733a7e",
+      "evidenceUpdatedAt": "2026-10-29T11:13:22.709Z",
+      "matchesOriginalPick": false,
+      "relevance": {
+        "at": "2026-10-29T11:18:24.333Z",
+        "models": null,
+        "evidenceUpdatedAt": "2026-10-29T11:13:22.709Z",
+        "qualifiers": [
+          "owner-operator",
+          "small, independent propane delivery company",
+          "US"
+        ],
+        "keywords": {
+          "K1": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly addresses DOT compliance for propane, which is a specific problem for the target customer."
+          },
+          "K2": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about general hazmat training requirements, which is broader than specific to propane delivery, though relevant to the target customer's problem."
+          },
+          "K3": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly addresses OSHA safety specific to propane, which is a specific problem for the target customer."
+          },
+          "K4": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword directly searches for software related to propane compliance, which addresses the target customer's problem."
+          },
+          "K5": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about general hazmat record keeping, which is broader than specific to propane delivery, though relevant to the target customer's problem."
+          },
+          "K6": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about general DOT compliance tools, which is broader than specific to propane delivery."
+          },
+          "K7": {
+            "searcher": "includes",
+            "topic": "same",
+            "reason": "The keyword is about pricing for propane compliance software, which is a buying intent for a solution to the target customer's problem."
+          },
+          "K8": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about the best DOT compliance software generally, which is broader than specific to propane delivery."
+          },
+          "K9": {
+            "searcher": "includes",
+            "topic": "broader",
+            "reason": "The keyword is about general OSHA compliance costs, which is broader than specific to propane delivery."
+          }
+        },
+        "items": {
+          "S1.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a review site for general propane software, which is broader than compliance software for small, independent propane delivery companies."
+          },
+          "S1.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers a general propane tank management system, which is broader than a specific compliance solution for the target customer."
+          },
+          "S1.4": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a video discussing general software offerings for propane retailers, which is broader than compliance software for the target customer."
+          },
+          "S1.5": {
+            "customer": "same",
+            "customerMatches": [
+              "small, independent propane delivery company"
+            ],
+            "problem": "same",
+            "offering": "yes",
+            "reason": "The item offers a mobile app for propane companies to manage safety training and compliance, directly addressing the target customer's problem."
+          },
+          "S1.6": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers gas safety software for government, which is a different customer and a broader problem than propane delivery compliance."
+          },
+          "S1.7": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers compliance software for the broader oil and gas industry, not specifically for small propane delivery companies."
+          },
+          "S1.8": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "yes",
+            "reason": "The item offers general fuel and propane management software, which is broader than a specific compliance solution for the target customer."
+          },
+          "S1.9": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "different",
+            "offering": "yes",
+            "reason": "The item offers propane parts inventory tracking, which is a different problem than regulatory compliance for the target customer."
+          },
+          "S1.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item reviews general oil and gas compliance software, which is broader than specific to propane delivery companies."
+          },
+          "S2.2": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item is a DOT inspection record showing a hazmat placard violation, which is relevant to the target problem, but for a general carrier."
+          },
+          "S2.3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses DOT security plan training for companies transporting hazmat, which is relevant to the target problem for propane delivery companies."
+          },
+          "S2.4": {
+            "customer": "same",
+            "customerMatches": [
+              "small, independent propane delivery company"
+            ],
+            "problem": "same",
+            "offering": "no",
+            "reason": "The item discusses DOT security plan requirements specifically for propane transport, directly addressing the target customer's problem."
+          },
+          "S2.5": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item discusses NFPA 58 for propane container installation, which is related to safety but not the specific DOT/OSHA compliance burden for delivery companies."
+          },
+          "S2.6": {
+            "customer": "broader",
+            "customerMatches": [
+              "small, independent propane delivery company"
+            ],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a DOT inspection record for a propane carrier, showing compliance status but not addressing the problem of managing compliance for the owner-operator."
+          },
+          "S2.7": {
+            "customer": "different",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item discusses DOT requirements for transporting fuels, which is relevant to the problem, but it's from a farrier's association, a different customer."
+          },
+          "S2.8": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a government document discussing technical aspects of propane containers, not the overall compliance management problem for delivery companies."
+          },
+          "S2.9": {
+            "customer": "unclear",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item provides general information about propane and DOT identification, not the specific compliance management problem for delivery companies."
+          },
+          "S2.10": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a general question about propane tank inspection, likely from a consumer, not the target customer's complex compliance management problem."
+          },
+          "P3": {
+            "customer": "broader",
+            "customerMatches": [],
+            "problem": "broader",
+            "offering": "no",
+            "reason": "The item is a review site for general propane software, which is broader than compliance software for small, independent propane delivery companies."
+          }
+        },
+        "missing": []
+      },
+      "assessmentRaw": {
+        "id": "2026-10-29:propane-delivery-compliance-ledger",
+        "opportunity": "Small propane delivery companies need a solution to manage complex and evolving federal and state regulations regarding hazardous materials transportation, employee safety, and cylinder maintenance. This opportunity aims to prevent fines and operational disruptions by providing an efficient way to manage detailed compliance logs.",
+        "whoPays": "The owner-operator of a small, independent propane delivery company in the US pays to avoid severe fines, operational disruptions, and catastrophic safety incidents, and to manage detailed logs efficiently. (Inference)",
+        "problemEvidence": {
+          "level": "moderate",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Crash Inspection: No Hazmat Placard"
+            },
+            {
+              "id": "S2.3",
+              "quote": "DOT security plan training must be completed at least every three years"
+            },
+            {
+              "id": "S2.4",
+              "quote": "The DOT Code of Federal. Regulations (49 CFR 172.802) requires companies that transport hazmat to have a written security plan. Propane, or LP-gas, falls under."
+            }
+          ],
+          "observed": "Companies transporting hazmat, including propane, are required by DOT regulations (49 CFR 172.802) to have written security plans and complete security plan training every three years. Violations like \"No Hazmat Placard\" are observed during DOT inspections.",
+          "inference": "Small propane delivery companies face specific, mandatory DOT compliance requirements related to security plans and placarding, with non-compliance leading to inspection failures and potential penalties."
+        },
+        "competition": {
+          "level": "sparse",
+          "basis": [
+            {
+              "id": "S1.5",
+              "quote": "New Mobile App Reduces Safety Risks for Propane ..."
+            },
+            {
+              "id": "S1.3",
+              "quote": "Manage your propane business utilizing our advanced, state-of-the art propane tank management system."
+            },
+            {
+              "id": "S1.7",
+              "quote": "Discover how oil and gas compliance management software helps energy companies improve safety, meet regulations, and streamline daily"
+            },
+            {
+              "id": "S1.8",
+              "quote": "Immerse in a seamless, integrated system that simplifies every step of serving your refined fuel and propane process."
+            }
+          ],
+          "alternatives": [
+            {
+              "name": "PropaneSafetyPro",
+              "type": "direct",
+              "what": "Offers a \"New Mobile App\" that \"Reduces Safety Risks for Propane\" companies by allowing them to \"remotely track and manage training, ensuring 100% compliance\".",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "New Mobile App Reduces Safety Risks for Propane ..."
+                },
+                {
+                  "id": "S1.5",
+                  "quote": "Dispenser managers and propane companies can now remotely track and manage training, ensuring 100% compliance, even with new hires in this dynamic industry."
+                }
+              ]
+            },
+            {
+              "name": "Energy Tech Solutions",
+              "type": "indirect",
+              "what": "Offers an \"Advanced Propane Tank Management System\" for managing propane businesses.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Manage your propane business utilizing our advanced, state-of-the art propane tank management system."
+                }
+              ]
+            },
+            {
+              "name": "GINA Software",
+              "type": "indirect",
+              "what": "Offers \"Oil and gas compliance management software\" to \"improve safety, meet regulations, and streamline daily\" operations for energy companies.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Oil and gas compliance management software - GINA"
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "Discover how oil and gas compliance management software helps energy companies improve safety, meet regulations, and streamline daily"
+                }
+              ]
+            },
+            {
+              "name": "SSI Fuel and Propane Management Software (Energy-XPRT)",
+              "type": "indirect",
+              "what": "Offers a \"seamless, integrated system that simplifies every step of serving your refined fuel and propane process.\"",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "SSI Fuel and Propane Management Software"
+                },
+                {
+                  "id": "S1.8",
+                  "quote": "Immerse in a seamless, integrated system that simplifies every step of serving your refined fuel and propane process."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "PropaneSafetyPro offers a mobile app specifically for propane companies to track and manage safety training and compliance. Other indirect competitors provide broader propane or oil/gas management and compliance software.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "remotely track and manage training, ensuring 100% compliance"
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "Advanced Propane Tank Management System"
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "Oil and gas compliance management software"
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is an inference that existing solutions may not fully cover the specific \"complex and evolving federal and state regulations regarding hazardous materials transportation, employee safety, and cylinder maintenance\" in a single, easy-to-use ledger format tailored for small, independent propane delivery companies. PropaneSafetyPro focuses on training, while others are broader management systems.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [
+          {
+            "original": "Small propane delivery companies face complex and evolving federal and state regulations regarding hazardous materials transportation, employee safety, and cylinder maintenance",
+            "finding": "Evidence confirms that companies transporting hazmat (including propane) must comply with DOT security plan requirements and training, and face inspections for issues like hazmat placarding.",
+            "basis": [
+              {
+                "id": "S2.4",
+                "quote": "The DOT Code of Federal. Regulations (49 CFR 172.802) requires companies that transport hazmat to have a written security plan. Propane, or LP-gas, falls under."
+              },
+              {
+                "id": "S2.3",
+                "quote": "DOT security plan training must be completed at least every three years"
+              },
+              {
+                "id": "S2.2",
+                "quote": "Crash Inspection: No Hazmat Placard"
+              }
+            ],
+            "effect": "supports"
+          },
+          {
+            "original": "leading to fines and operational disruptions if not managed correctly.",
+            "finding": "While violations are observed (e.g., \"No Hazmat Placard\"), the evidence does not explicitly detail \"fines and operational disruptions\" for small propane delivery companies, though it is implied by the regulatory context.",
+            "basis": [
+              {
+                "id": "S2.2",
+                "quote": "Crash Inspection: No Hazmat Placard"
+              }
+            ],
+            "effect": "weakens"
+          }
+        ],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A digital ledger for tracking specific compliance items (e.g., security plan dates, training records, cylinder maintenance logs) is a well-defined and achievable first experiment."
+        },
+        "unproven": [
+          "The specific \"evolving federal and state regulations\" beyond DOT security plans and placarding.",
+          "The exact nature and frequency of \"fines and operational disruptions\" experienced by small propane delivery companies.",
+          "The willingness of small, independent propane delivery companies to pay for a specialized compliance ledger, especially given the existence of broader propane management software and a direct competitor focused on safety training.",
+          "The actual search demand for solutions, as all direct keywords returned null search volume."
+        ],
+        "nextExperiment": {
+          "what": "Develop a simple, interactive prototype (e.g., a clickable Figma design or a basic web form) for a \"DOT & OSHA Compliance Ledger\" focusing on tracking security plan training dates and hazmat placarding checks. Present this prototype to 5-10 small propane delivery company owners for feedback.",
+          "cost": "$0 (time only for design and outreach)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 out of 5 owners express strong interest in using such a tool, confirm it addresses a significant pain point, and indicate they would pay for it.",
+        "stopIf": "Owners report that existing methods (e.g., spreadsheets, paper logs, or broader software) are sufficient, or they do not perceive the compliance burden as severe enough to warrant a new specialized tool."
+      },
+      "assessment": {
+        "opportunity": "Small propane delivery companies need a solution to manage complex and evolving federal and state regulations regarding hazardous materials transportation, employee safety, and cylinder maintenance. This opportunity aims to prevent fines and operational disruptions by providing an efficient way to manage detailed compliance logs.",
+        "whoPays": "The owner-operator of a small, independent propane delivery company in the US pays to avoid severe fines, operational disruptions, and catastrophic safety incidents, and to manage detailed logs efficiently. (Inference)",
+        "problemEvidence": {
+          "level": "weak",
+          "basis": [
+            {
+              "id": "S2.2",
+              "quote": "Crash Inspection: No Hazmat Placard",
+              "domain": "ai.fmcsa.dot.gov",
+              "kind": "S",
+              "cls": "government",
+              "relevance": "category",
+              "relevanceReason": "The item is a DOT inspection record showing a hazmat placard violation, which is relevant to the target problem, but for a general carrier."
+            },
+            {
+              "id": "S2.3",
+              "quote": "DOT security plan training must be completed at least every three years",
+              "domain": "lpgasmagazine.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses DOT security plan training for companies transporting hazmat, which is relevant to the target problem for propane delivery companies."
+            },
+            {
+              "id": "S2.4",
+              "quote": "The DOT Code of Federal. Regulations (49 CFR 172.802) requires companies that transport hazmat to have a written security plan. Propane, or LP-gas, falls under.",
+              "domain": "p3propane.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "category",
+              "relevanceReason": "The item discusses DOT security plan requirements specifically for propane transport, directly addressing the target customer's problem."
+            }
+          ],
+          "observed": "Companies transporting hazmat, including propane, are required by DOT regulations (49 CFR 172.802) to have written security plans and complete security plan training every three years. Violations like \"No Hazmat Placard\" are observed during DOT inspections.",
+          "inference": "Small propane delivery companies face specific, mandatory DOT compliance requirements related to security plans and placarding, with non-compliance leading to inspection failures and potential penalties."
+        },
+        "competition": {
+          "level": "unknown",
+          "basis": [
+            {
+              "id": "S1.5",
+              "quote": "New Mobile App Reduces Safety Risks for Propane ...",
+              "domain": "propanesafetypro.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "direct competitor",
+              "relevanceReason": "The item offers a mobile app for propane companies to manage safety training and compliance, directly addressing the target customer's problem."
+            },
+            {
+              "id": "S1.3",
+              "quote": "Manage your propane business utilizing our advanced, state-of-the art propane tank management system.",
+              "domain": "energytechsolutions.net",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers a general propane tank management system, which is broader than a specific compliance solution for the target customer."
+            },
+            {
+              "id": "S1.7",
+              "quote": "Discover how oil and gas compliance management software helps energy companies improve safety, meet regulations, and streamline daily",
+              "domain": "ginasoftware.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers compliance software for the broader oil and gas industry, not specifically for small propane delivery companies."
+            },
+            {
+              "id": "S1.8",
+              "quote": "Immerse in a seamless, integrated system that simplifies every step of serving your refined fuel and propane process.",
+              "domain": "energy-xprt.com",
+              "kind": "S",
+              "cls": "site",
+              "relevance": "indirect alternative",
+              "relevanceReason": "The item offers general fuel and propane management software, which is broader than a specific compliance solution for the target customer."
+            }
+          ],
+          "directCompetitors": [
+            "propanesafetypro.com"
+          ],
+          "indirectAlternatives": [
+            "energytechsolutions.net",
+            "ginasoftware.com",
+            "energy-xprt.com"
+          ],
+          "alternatives": [
+            {
+              "name": "PropaneSafetyPro",
+              "type": "direct",
+              "what": "Offers a \"New Mobile App\" that \"Reduces Safety Risks for Propane\" companies by allowing them to \"remotely track and manage training, ensuring 100% compliance\".",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "New Mobile App Reduces Safety Risks for Propane ...",
+                  "domain": "propanesafetypro.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "direct competitor",
+                  "relevanceReason": "The item offers a mobile app for propane companies to manage safety training and compliance, directly addressing the target customer's problem."
+                }
+              ]
+            },
+            {
+              "name": "Energy Tech Solutions",
+              "type": "indirect",
+              "what": "Offers an \"Advanced Propane Tank Management System\" for managing propane businesses.",
+              "basis": [
+                {
+                  "id": "S1.3",
+                  "quote": "Manage your propane business utilizing our advanced, state-of-the art propane tank management system.",
+                  "domain": "energytechsolutions.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers a general propane tank management system, which is broader than a specific compliance solution for the target customer."
+                }
+              ]
+            },
+            {
+              "name": "GINA Software",
+              "type": "indirect",
+              "what": "Offers \"Oil and gas compliance management software\" to \"improve safety, meet regulations, and streamline daily\" operations for energy companies.",
+              "basis": [
+                {
+                  "id": "S1.7",
+                  "quote": "Oil and gas compliance management software - GINA",
+                  "domain": "ginasoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers compliance software for the broader oil and gas industry, not specifically for small propane delivery companies."
+                }
+              ]
+            },
+            {
+              "name": "SSI Fuel and Propane Management Software (Energy-XPRT)",
+              "type": "indirect",
+              "what": "Offers a \"seamless, integrated system that simplifies every step of serving your refined fuel and propane process.\"",
+              "basis": [
+                {
+                  "id": "S1.8",
+                  "quote": "SSI Fuel and Propane Management Software",
+                  "domain": "energy-xprt.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "indirect alternative",
+                  "relevanceReason": "The item offers general fuel and propane management software, which is broader than a specific compliance solution for the target customer."
+                }
+              ]
+            }
+          ],
+          "strengths": [
+            {
+              "text": "PropaneSafetyPro offers a mobile app specifically for propane companies to track and manage safety training and compliance. Other indirect competitors provide broader propane or oil/gas management and compliance software.",
+              "basis": [
+                {
+                  "id": "S1.5",
+                  "quote": "remotely track and manage training, ensuring 100% compliance",
+                  "domain": "propanesafetypro.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "category",
+                  "relevanceReason": "The item offers a mobile app for propane companies to manage safety training and compliance, directly addressing the target customer's problem."
+                },
+                {
+                  "id": "S1.3",
+                  "quote": "Advanced Propane Tank Management System",
+                  "domain": "energytechsolutions.net",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item offers a general propane tank management system, which is broader than a specific compliance solution for the target customer."
+                },
+                {
+                  "id": "S1.7",
+                  "quote": "Oil and gas compliance management software",
+                  "domain": "ginasoftware.com",
+                  "kind": "S",
+                  "cls": "site",
+                  "relevance": "broader",
+                  "relevanceReason": "The item offers compliance software for the broader oil and gas industry, not specifically for small propane delivery companies."
+                }
+              ],
+              "kind": "observed"
+            }
+          ],
+          "gaps": [
+            {
+              "text": "It is an inference that existing solutions may not fully cover the specific \"complex and evolving federal and state regulations regarding hazardous materials transportation, employee safety, and cylinder maintenance\" in a single, easy-to-use ledger format tailored for small, independent propane delivery companies. PropaneSafetyPro focuses on training, while others are broader management systems.",
+              "basis": [],
+              "kind": "inference"
+            }
+          ]
+        },
+        "changes": [],
+        "feasibility": {
+          "level": "moderate",
+          "note": "A digital ledger for tracking specific compliance items (e.g., security plan dates, training records, cylinder maintenance logs) is a well-defined and achievable first experiment."
+        },
+        "unproven": [
+          "The specific \"evolving federal and state regulations\" beyond DOT security plans and placarding.",
+          "The exact nature and frequency of \"fines and operational disruptions\" experienced by small propane delivery companies.",
+          "The willingness of small, independent propane delivery companies to pay for a specialized compliance ledger, especially given the existence of broader propane management software and a direct competitor focused on safety training.",
+          "The actual search demand for solutions, as all direct keywords returned null search volume."
+        ],
+        "nextExperiment": {
+          "what": "Develop a simple, interactive prototype (e.g., a clickable Figma design or a basic web form) for a \"DOT & OSHA Compliance Ledger\" focusing on tracking security plan training dates and hazmat placarding checks. Present this prototype to 5-10 small propane delivery company owners for feedback.",
+          "cost": "$0 (time only for design and outreach)",
+          "duration": "2-3 weeks"
+        },
+        "continueIf": "At least 3 out of 5 owners express strong interest in using such a tool, confirm it addresses a significant pain point, and indicate they would pay for it.",
+        "stopIf": "Owners report that existing methods (e.g., spreadsheets, paper logs, or broader software) are sufficient, or they do not perceive the compliance burden as severe enough to warrant a new specialized tool.",
+        "removedLinks": 0,
+        "downgraded": [
+          "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+          "competition sparse → unknown: \"sparse\" contradicts 4 relevant competitor or alternative domains in the collected results"
+        ],
+        "validation": {
+          "removedLinks": 0,
+          "scrubbedSentences": 0,
+          "removedSentences": [],
+          "rejectedCitations": [],
+          "irrelevantCitations": [],
+          "downgraded": [
+            "problem evidence moderate → weak: the cited items concern a broader audience or an adjacent problem, not this customer and problem",
+            "competition sparse → unknown: \"sparse\" contradicts 4 relevant competitor or alternative domains in the collected results"
+          ],
+          "dropped": [
+            "change: original text \"Small propane delivery companies face complex and evolving f\" is not in Scout's memo",
+            "change: original text \"leading to fines and operational disruptions if not managed \" is not in Scout's memo"
+          ]
+        },
+        "assessedAt": "2026-10-29T11:19:14.369Z",
+        "evidenceUpdatedAt": "2026-10-29T11:13:22.709Z"
+      }
+    }
+  ],
+  "spend": [
+    {
+      "at": "2026-10-29T11:12:54.581Z",
+      "endpoint": "dataforseo_labs/google/keyword_overview/live",
+      "requested": 22,
+      "holdId": "7f478cc2-0b8c-54da-a284-5f98b4bdd4f0",
+      "estimateUsd": 0.016104,
+      "costUsd": 0.01248,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-29T11:12:58.591Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "e00c8f06-b160-5cab-b6f5-ab436782da81",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-29T11:13:07.165Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "cd8782a8-e9bf-50df-9220-691fc72f4875",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    },
+    {
+      "at": "2026-10-29T11:13:15.647Z",
+      "endpoint": "serp/google/organic/live/regular",
+      "requested": 1,
+      "holdId": "ce5dd880-8a4f-5aef-b28f-3fcf9bdf1228",
+      "estimateUsd": 0.0022,
+      "costUsd": 0.002,
+      "status": "charged",
+      "budget": "recorded",
+      "costEstimated": false
+    }
+  ],
+  "provider": {
+    "status": "live",
+    "reason": null,
+    "warnings": []
+  },
+  "budget": {
+    "backend": "git-ledger",
+    "scope": "scout-only",
+    "capUsd": 2,
+    "maxRunUsd": 0.1,
+    "maxRequestUsd": 0.1,
+    "ledgerBefore": {
+      "month": "2026-10",
+      "capUsd": 2,
+      "maxRequestUsd": 0.1,
+      "chargedUsd": 0.379,
+      "heldUsd": 0,
+      "openHolds": 0,
+      "uncertainHolds": 0,
+      "remainingUsd": 1.621
+    },
+    "monthToDateUsdBefore": 0.379,
+    "spentThisRunUsd": 0.01848
+  },
+  "marketSupport": {
+    "united states|en": {
+      "supported": true,
+      "reason": null,
+      "locationCode": 2840,
+      "checkedAt": "2026-10-16T09:25:03.647Z"
+    }
+  },
+  "projection": {
+    "labsTasks": 1,
+    "labsKeywords": 22,
+    "keywordsFromCache": 4,
+    "labsUsd": 0.01464,
+    "serpQueries": 3,
+    "serpsFromCache": 3,
+    "serpUsd": 0.006,
+    "markets": [
+      {
+        "location": "United States",
+        "language": "en",
+        "ideas": 3,
+        "keywordsToBuy": 22
+      }
+    ],
+    "totalUsd": 0.02064,
+    "reservedUsd": 0.022704
+  },
+  "lastGather": {
+    "at": "2026-10-29T11:13:22.709Z",
+    "mode": "live",
+    "pendingIdeas": 3,
+    "spentUsd": 0.01848,
+    "note": null
+  }
+}

@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-29
+*   **Regulatory Enforcement as a "Why Now" Multiplier, Even Without New Rules:** The vacating of a specific rule (CARS Rule) does not necessarily diminish the "why now" if the regulatory body (FTC) maintains consistent enforcement priorities and increases scrutiny under existing statutes (Section 5 of the FTC Act). This highlights that *active enforcement* is a stronger signal than *new legislation* alone.
+*   **Platform Policy Changes Drive Compliance Demand:** Major platform policy updates (e.g., Google's ad transparency rules) can create a powerful, immediate "why now" for businesses that rely on those platforms, effectively acting as a de facto regulator for digital operations.
+*   **The "Per Violation" Penalty is a Critical Pain Multiplier:** When regulatory fines are assessed "per violation" (especially per unit, like per vehicle or per ad), the potential financial impact escalates dramatically, turning a manageable risk into a catastrophic threat and greatly increasing willingness to pay for preventative solutions.
+
 ## 2026-10-28 (trends)
 - **AI as a "Dynamic Workflow Orchestrator":** AI is increasingly moving beyond automating discrete tasks to orchestrating entire dynamic workflows across content creation, community engagement, and product validation. This reduces cognitive load and enables continuous adaptation and optimization with minimal human intervention.
 - **The "Pre-Commitment Validation" Opportunity:** For solo founders, AI is becoming a powerful tool to de-risk significant time and resource investments *before* they are made. This includes simulating market feedback, testing product ideas, and refining strategies, accelerating the path to market fit and reducing the cost of failure.

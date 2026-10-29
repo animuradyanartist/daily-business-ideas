@@ -2,7 +2,13 @@
 
 Niches, buyers, and comparable products this agent has studied. Updated incrementally.
 
-
+_(2026-10-29 update)_ (updated existing: US Independent Used Car Dealerships)
+- Buyer: owner-operator of an independent US used car dealership.
+- Where they gather: NIADA, state-level dealer associations, *Auto Dealer Today*, specialized online forums for independent auto dealers.
+- Comparable products + revenue: ComplyAuto (compliance suite, reseller lists module at $315/month), DealerCenter (DMS, $99/month for DMS module), Frazer (DMS, $129/month), DealerVLO (DMS, $29/month).
+- Price range: $29 (basic DMS) – $315+ (specialized compliance module) per month.
+- Last researched: 2026-10-29
+- Status: open
 
 ## LinkedIn personal brand for non-native solo creators
 - Buyer: non-native English-speaking solo designer, freelancer, consultant, coach, or knowledge-worker creator (EU, LatAm, India, MENA, SEA) building inbound on LinkedIn. Visually fluent, English-anxious. Willingness to pay anchored by Justin Welsh's $250-300 LinkedIn OS at the top of the funnel.

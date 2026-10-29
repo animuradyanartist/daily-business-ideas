@@ -46254,6 +46254,640 @@
       "fetchedAt": "2026-10-28T11:47:28.246Z",
       "returned": false,
       "data": null
+    },
+    "labs|united states|en|nfpa 96 documentation requirements": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|kitchen hood cleaning compliance": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|commercial kitchen fire safety fines": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire safety documentation system": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|kitchen hood cleaning reports": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": true,
+      "data": {
+        "keyword": "kitchen hood cleaning reports",
+        "searchVolume": null,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 0
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 0
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 0
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": null,
+        "adCompetitionLevel": null,
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 07:00:04 +00:00"
+      }
+    },
+    "labs|united states|en|nfpa 96 software pricing": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best kitchen hood cleaning software": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fire safety compliance tools": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|used car dealer compliance": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|auto dealer pricing transparency": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|auto pricing tools": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|used car dealer solutions": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|auto dealer software": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": true,
+      "data": {
+        "keyword": "auto dealer software",
+        "searchVolume": 880,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1600
+          }
+        ],
+        "cpcUsd": 19.07,
+        "adCompetition": 0.26,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -18,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-18 07:27:53 +00:00"
+      }
+    },
+    "labs|united states|en|ftc compliance tools cost": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|propane dot compliance": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hazmat training requirements": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": true,
+      "data": {
+        "keyword": "hazmat training requirements",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 170
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 170
+          }
+        ],
+        "cpcUsd": 2.32,
+        "adCompetition": 0.19,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -18,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-18 05:18:33 +00:00"
+      }
+    },
+    "labs|united states|en|osha propane safety": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|propane compliance software": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hazmat record keeping": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|dot compliance tools": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|propane compliance software pricing": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best dot compliance software": {
+      "fetchedAt": "2026-10-29T11:12:54.581Z",
+      "returned": true,
+      "data": {
+        "keyword": "best dot compliance software",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.13,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 100,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 09:26:31 +00:00"
+      }
     }
   }
 }

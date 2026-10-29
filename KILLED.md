@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-29
+*   **The Commercial Kitchen Hood Cleaning Contractor's "NFPA 96 Digital Documentation Hub"** — While a clear compliance pain with a "why now" from NFPA 96 updates, the market size and direct financial penalties for the *contractor* (rather than their client) appeared less acute and less universally quantifiable than the FTC fines for used car dealers.
+*   **The Independent Daycare's "State-Ready" Licensing & Incident Reporting Hub** — Market sizing reference in previous analysis was flawed, and the overall market structure and "why now" were less compelling than the FTC opportunity.
+*   **The Independent Pest Control Operator's "OSHA-Proof" SDS & Chemical Inventory Hub** — Addresses a strong compliance pain, but the direct, recurring financial penalties and immediate operational halt risk for non-compliance were less acute and frequent than FTC civil penalties.
+
 ## 2026-10-28
 *   **The Independent Daycare's "State-Ready" Licensing & Incident Reporting Hub** — While a clear compliance pain, the market sizing reference in the red team analysis was flawed, and the overall market structure and "why now" were less compelling than the IFTA opportunity.
 *   **The Independent Pest Control Operator's "OSHA-Proof" SDS & Chemical Inventory Hub** — Addresses a strong compliance pain, but the direct, recurring financial penalties and immediate operational halt risk for non-compliance were less acute and frequent than IFTA license revocation.
