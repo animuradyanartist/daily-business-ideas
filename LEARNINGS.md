@@ -2,6 +2,9 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-29 (trends)
+- (no patterns extracted)
+
 ## 2026-10-29
 *   **Regulatory Enforcement as a "Why Now" Multiplier, Even Without New Rules:** The vacating of a specific rule (CARS Rule) does not necessarily diminish the "why now" if the regulatory body (FTC) maintains consistent enforcement priorities and increases scrutiny under existing statutes (Section 5 of the FTC Act). This highlights that *active enforcement* is a stronger signal than *new legislation* alone.
 *   **Platform Policy Changes Drive Compliance Demand:** Major platform policy updates (e.g., Google's ad transparency rules) can create a powerful, immediate "why now" for businesses that rely on those platforms, effectively acting as a de facto regulator for digital operations.
