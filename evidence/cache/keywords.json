@@ -46888,6 +46888,1033 @@
         "mainIntent": "commercial",
         "providerUpdatedAt": "2026-10-15 09:26:31 +00:00"
       }
+    },
+    "labs|united states|en|osha lockout tagout requirements": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha lockout tagout requirements",
+        "searchVolume": 140,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 7.79,
+        "adCompetition": 0.34,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "transactional",
+        "providerUpdatedAt": "2026-10-15 08:10:55 +00:00"
+      }
+    },
+    "labs|united states|en|lockout tagout compliance": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "lockout tagout compliance",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 9.68,
+        "adCompetition": 0.51,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -89,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-20 07:45:02 +00:00"
+      }
+    },
+    "labs|united states|en|osha 1910.147 violations": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|lockout tagout log": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "lockout tagout log",
+        "searchVolume": 50,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 40
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 2.31,
+        "adCompetition": 1,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "navigational",
+        "providerUpdatedAt": "2026-09-17 04:47:34 +00:00"
+      }
+    },
+    "labs|united states|en|safety management system": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "safety management system",
+        "searchVolume": 1000,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1600
+          }
+        ],
+        "cpcUsd": 46.5,
+        "adCompetition": 0.36,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -23,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-18 21:44:55 +00:00"
+      }
+    },
+    "labs|united states|en|lockout tagout software pricing": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best safety logbook": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha bloodborne pathogens requirements": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha bloodborne pathogens requirements",
+        "searchVolume": 20,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.12,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 100,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 12:32:05 +00:00"
+      }
+    },
+    "labs|united states|en|bloodborne pathogens compliance": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha 1910.1030 violations": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|bloodborne pathogens log": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha compliance training": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha compliance training",
+        "searchVolume": 1000,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 720
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 590
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 880
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 480
+          }
+        ],
+        "cpcUsd": 11.88,
+        "adCompetition": 0.21,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -63,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-18 23:23:20 +00:00"
+      }
+    },
+    "labs|united states|en|safety record keeping software": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|bloodborne pathogens plan pricing": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|epa spcc plan requirements": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fuel spill prevention compliance": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|spcc inspection log": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|spcc compliance software": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|spill prevention plan": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": true,
+      "data": {
+        "keyword": "spill prevention plan",
+        "searchVolume": 90,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 90
+          }
+        ],
+        "cpcUsd": 3.77,
+        "adCompetition": 0.25,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -29,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 00:22:56 +00:00"
+      }
+    },
+    "labs|united states|en|epa spcc plan cost": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|spill prevention software pricing": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best spcc logbook": {
+      "fetchedAt": "2026-10-30T11:07:21.614Z",
+      "returned": false,
+      "data": null
     }
   }
 }

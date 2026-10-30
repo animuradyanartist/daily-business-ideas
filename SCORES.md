@@ -77,6 +77,7 @@ Every scored idea, ranked highest-conviction first. Score is the agent's calibra
 | 97 | high | 2026-06-26 | The construction subcontractor's "get paid on time" hub |
 | 97 | high | 2026-06-24 | The Durable Medical Equipment (DME) Supplier's "Audit-Proof" Delivery Log |
 | 97 | high | 2026-06-19 | The CPG Brand's "Chargeback Defender" Kit |
+| 96 | high | 2026-10-30 | The Small-Scale Metal Fabricator's "OSHA-Proof" Lockout/Tagout Log |
 | 96 | high | 2026-10-27 | The Commercial Roofing Contractor's "Fall Protection Audit-Ready" Daily Log |
 | 96 | high | 2026-10-25 | The Independent HVAC Contractor's "EPA-Proof" Refrigerant Tracking & 608 Log |
 | 96 | high | 2026-09-27 | The Commercial Insurance Broker's "E&O-Proof" Statement of Values (SOV) Hub |

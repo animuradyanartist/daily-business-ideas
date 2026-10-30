@@ -2,6 +2,11 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-30
+*   **The Commercial Cleaning Company's "OSHA-Proof" Bloodborne Pathogens Log** — While a clear compliance pain, the market size and the direct, recurring financial penalties for record-keeping failures appeared less acute and less universally quantifiable than LOTO violations in manufacturing.
+*   **The Independent Daycare's "State-Ready" Licensing & Incident Reporting Hub** — Market sizing and the "why now" were less compelling, and the financial penalties less severe and direct compared to LOTO.
+*   **The Small-Scale Seafood Processor's "FDA-Proof" HACCP & Traceability Hub** — The FDA FSMA 204 enforcement date was pushed back, reducing the immediate "why now" compared to the persistent and high-stakes LOTO deadlines.
+
 ## 2026-10-29
 *   **The Commercial Kitchen Hood Cleaning Contractor's "NFPA 96 Digital Documentation Hub"** — While a clear compliance pain with a "why now" from NFPA 96 updates, the market size and direct financial penalties for the *contractor* (rather than their client) appeared less acute and less universally quantifiable than the FTC fines for used car dealers.
 *   **The Independent Daycare's "State-Ready" Licensing & Incident Reporting Hub** — Market sizing reference in previous analysis was flawed, and the overall market structure and "why now" were less compelling than the FTC opportunity.

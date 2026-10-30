@@ -2,6 +2,11 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-30
+*   **Regulatory Enforcement Nuance:** OSHA's shift to "instance-by-instance" citations is a powerful "why now" multiplier, turning a single violation into potentially multiple, compounding penalties, significantly increasing the perceived risk for businesses. This is a stronger signal than just a high base fine.
+*   **"Binder Problem" as a Universal Pain:** The struggle with paper-based documentation (outdated, lost, ignored) is a pervasive and acute pain point across regulated industries, creating a strong demand for digital solutions that offer immutable, real-time, and auditable records. This goes beyond mere inconvenience; it's a critical safety and financial liability.
+*   **SME Digital Adoption Trends:** While many small businesses remain at basic digital adoption levels, the accelerating growth of mobile-first SaaS for SMEs indicates a growing receptiveness to specialized, easy-to-use digital tools that directly address critical operational pains without requiring enterprise-level IT infrastructure.
+
 ## 2026-10-29 (trends)
 - (no patterns extracted)
 
