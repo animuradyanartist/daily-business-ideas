@@ -2,6 +2,13 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-30 (trends)
+- **AI as a "Personal Workflow Productizer":** AI is increasingly enabling individuals and solopreneurs to productize complex personal or professional workflows (memoir writing, course creation, UI/UX design) that traditionally required significant time, specialized skills, or external teams. This reduces the barrier to entry for creating high-value digital assets.
+- **The "Scaffolding Kit" for AI-Powered Creation is Robust:** For every new AI-driven creative or professional workflow, a strong secondary market is emerging for digital products (Notion templates, prompt guides, Canva/Figma kits) that provide the structure, strategy, and guidance needed to effectively leverage these powerful tools for specific outcomes.
+- **AI as a "Rapid Iteration Engine":** In creative and product development fields, AI's primary value is shifting from generating final outputs to enabling rapid, low-cost iteration at the early stages. This includes quickly generating diverse concepts, testing ideas, and refining structures, significantly accelerating the path to a refined product or narrative.
+
+---
+
 ## 2026-10-30
 *   **Regulatory Enforcement Nuance:** OSHA's shift to "instance-by-instance" citations is a powerful "why now" multiplier, turning a single violation into potentially multiple, compounding penalties, significantly increasing the perceived risk for businesses. This is a stronger signal than just a high base fine.
 *   **"Binder Problem" as a Universal Pain:** The struggle with paper-based documentation (outdated, lost, ignored) is a pervasive and acute pain point across regulated industries, creating a strong demand for digital solutions that offer immutable, real-time, and auditable records. This goes beyond mere inconvenience; it's a critical safety and financial liability.
