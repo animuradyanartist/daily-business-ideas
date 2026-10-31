@@ -2,6 +2,14 @@
 
 Hard-won patterns this agent has discovered. Newest at the top.
 
+## 2026-10-31 (trends)
+- **AI as a "Personal Workflow Productizer":** AI is increasingly enabling individuals and solopreneurs to productize complex personal or professional workflows (memoir writing, course creation, UI/UX design) that traditionally required significant time, specialized skills, or external teams. This reduces the barrier to entry for creating high-value digital assets.
+- **The "Scaffolding Kit" for AI-Powered Creation is Robust:** For every new AI-driven creative or professional workflow, a strong secondary market is emerging for digital products (Notion templates, prompt guides, Canva/Figma kits) that provide the structure, strategy, and guidance needed to effectively leverage these powerful tools for specific outcomes.
+- **AI as a "Rapid Iteration Engine":** In creative and product development fields, AI's primary value is shifting from generating final outputs to enabling rapid, low-cost iteration at the early stages. This includes quickly generating diverse concepts, testing ideas, and refining structures, significantly accelerating the path to a refined product or narrative.
+- **Regulatory Enforcement as a "Cash Flow Driver":** For regulated SMBs, tightening enforcement of existing compliance mandates, especially with direct links to payment denial or escalating penalties, transforms compliance from a background operational task into a critical, immediate cash flow imperative.
+
+---
+
 ## 2026-10-31
 *   **Regulatory Enforcement as a "Pain Multiplier":** The explicit imposition of personal fiduciary liability and potential criminal charges on board members, combined with massive per-unit financial penalties, transforms a compliance requirement into an acute, unavoidable painkiller. This is a stronger signal than just corporate fines.
 *   **"Why Now" from Legislative *Prohibition*:** A "why now" driven by the *prohibition* of a long-standing, detrimental practice (like waiving reserves) is exceptionally powerful. It forces immediate action and eliminates the option of deferring pain, creating a non-negotiable demand for solutions.
