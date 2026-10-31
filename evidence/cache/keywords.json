@@ -18122,7 +18122,7 @@
       "data": null
     },
     "labs|united states|en|hoa software pricing": {
-      "fetchedAt": "2026-09-23T09:40:13.346Z",
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
       "returned": true,
       "data": {
         "keyword": "hoa software pricing",
@@ -18130,6 +18130,26 @@
         "monthlySearches": [
           {
             "year": 2026,
+            "month": 9,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 0
+          },
+          {
+            "year": 2026,
             "month": 5,
             "searchVolume": 0
           },
@@ -18226,26 +18246,6 @@
           {
             "year": 2024,
             "month": 10,
-            "searchVolume": 0
-          },
-          {
-            "year": 2024,
-            "month": 9,
-            "searchVolume": 0
-          },
-          {
-            "year": 2024,
-            "month": 8,
-            "searchVolume": 0
-          },
-          {
-            "year": 2024,
-            "month": 7,
-            "searchVolume": 0
-          },
-          {
-            "year": 2024,
-            "month": 6,
             "searchVolume": 0
           }
         ],
@@ -18254,7 +18254,7 @@
         "adCompetitionLevel": null,
         "providerTrendYearlyPct": 0,
         "mainIntent": "commercial",
-        "providerUpdatedAt": "2026-06-11 17:18:34 +00:00"
+        "providerUpdatedAt": "2026-10-15 09:05:28 +00:00"
       }
     },
     "labs|united states|en|best hoa management software": {
@@ -48220,6 +48220,1265 @@
     },
     "labs|united states|en|cosmetic gmp audit pricing": {
       "fetchedAt": "2026-10-31T10:40:42.988Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|fda dental lab": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|qms compliance requirements": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|medical device qms": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "medical device qms",
+        "searchVolume": 390,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 170
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 210
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 320
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 590
+          }
+        ],
+        "cpcUsd": 44.47,
+        "adCompetition": 0.26,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -71,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-18 09:12:42 +00:00"
+      }
+    },
+    "labs|united states|en|qms system": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "qms system",
+        "searchVolume": 2900,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 5400
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 5400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 4400
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 5400
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 5400
+          }
+        ],
+        "cpcUsd": 58.01,
+        "adCompetition": 0.32,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-19 14:40:30 +00:00"
+      }
+    },
+    "labs|united states|en|best qms software": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "best qms software",
+        "searchVolume": 110,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 210
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 260
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 89.04,
+        "adCompetition": 0.26,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 80,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-15 21:26:27 +00:00"
+      }
+    },
+    "labs|united states|en|qms system cost": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|hoa reserve study": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "hoa reserve study",
+        "searchVolume": 1900,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 2900
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 880
+          }
+        ],
+        "cpcUsd": 10.93,
+        "adCompetition": 0.15,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": 0,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-15 13:06:15 +00:00"
+      }
+    },
+    "labs|united states|en|condo reserve funding": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|florida reserve law": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|reserve study software": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "reserve study software",
+        "searchVolume": 70,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 110
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 110
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 140
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 170
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 70
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 90
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 110
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 260
+          }
+        ],
+        "cpcUsd": 76.14,
+        "adCompetition": 0.35,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -22,
+        "mainIntent": "commercial",
+        "providerUpdatedAt": "2026-10-18 20:19:28 +00:00"
+      }
+    },
+    "labs|united states|en|hoa management tools": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "hoa management tools",
+        "searchVolume": 10,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 10
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 10
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 20
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 10
+          }
+        ],
+        "cpcUsd": 62.95,
+        "adCompetition": 0.75,
+        "adCompetitionLevel": "HIGH",
+        "providerTrendYearlyPct": -80,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 23:26:52 +00:00"
+      }
+    },
+    "labs|united states|en|reserve study service": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|reserve study cost": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "reserve study cost",
+        "searchVolume": 30,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 30
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 20
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 20
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 30
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 40
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 90
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 50
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 70
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 140
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 50
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "searchVolume": 40
+          }
+        ],
+        "cpcUsd": null,
+        "adCompetition": 0.09,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -50,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-09-17 23:17:27 +00:00"
+      }
+    },
+    "labs|united states|en|best reserve study": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha silica standard": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha silica standard",
+        "searchVolume": 480,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 390
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 390
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 480
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 720
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 590
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 480
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 590
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 720
+          }
+        ],
+        "cpcUsd": 4.8,
+        "adCompetition": 0.07,
+        "adCompetitionLevel": "LOW",
+        "providerTrendYearlyPct": -19,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-18 18:04:44 +00:00"
+      }
+    },
+    "labs|united states|en|silica dust compliance": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|construction safety fines": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|silica compliance software": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|osha safety training": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": true,
+      "data": {
+        "keyword": "osha safety training",
+        "searchVolume": 1900,
+        "monthlySearches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "searchVolume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "searchVolume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "searchVolume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "searchVolume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "searchVolume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "searchVolume": 1600
+          }
+        ],
+        "cpcUsd": 8.66,
+        "adCompetition": 0.47,
+        "adCompetitionLevel": "MEDIUM",
+        "providerTrendYearlyPct": -33,
+        "mainIntent": "informational",
+        "providerUpdatedAt": "2026-10-17 00:01:24 +00:00"
+      }
+    },
+    "labs|united states|en|safety software pricing": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
+      "returned": false,
+      "data": null
+    },
+    "labs|united states|en|best silica control": {
+      "fetchedAt": "2026-10-31T11:23:41.609Z",
       "returned": false,
       "data": null
     }

@@ -886,55 +886,55 @@
       }
     },
     "page|https://www.payhoa.com/pricing": {
-      "fetchedAt": "2026-09-23T09:40:59.164Z",
+      "fetchedAt": "2026-10-31T11:25:01.720Z",
       "data": {
         "url": "https://www.payhoa.com/pricing",
         "finalUrl": "https://www.payhoa.com/pricing/",
-        "retrievedAt": "2026-09-23T09:40:59.164Z",
+        "retrievedAt": "2026-10-31T11:25:01.720Z",
         "status": 200,
         "error": null,
-        "title": "HOA Software Pricing | HOA Management Software Pricing - PayHOA",
-        "description": "Whether you self-manage a small HOA or oversee multiple condo associations, our HOA software pricing is flexible based on your association's units.",
+        "title": "HOA Software Pricing: Plans From $49/mo | PayHOA",
+        "description": "PayHOA is priced by community size, not by feature: plans start at $49/mo billed yearly, or pay monthly. Start a 30-day free trial with no credit card.",
         "priceMentions": [
           {
-            "text": "$54 /mo",
+            "text": "$49/mo",
             "billingUnit": true,
-            "context": "0 units 401 – 500 units 500+ units Your plan (0 - 25 units) $54 /mo $49 per month, billed yearly Your plan (26 - 50 units) $65"
+            "context": "HOA Software Pricing: Plans From $49/mo | PayHOA Skip to content Features Financial Invoicing & Pay"
           },
           {
-            "text": "$49 per month",
+            "text": "$60/yr",
             "billingUnit": true,
-            "context": "401 – 500 units 500+ units Your plan (0 - 25 units) $54 /mo $49 per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per mo"
+            "context": "ompany How many units? units 1 125 250 375 500+ Yearly Save $60/yr Monthly Plan for 1–25 units $49 /month Billed $588 once a y"
           },
           {
-            "text": "$65 /mo",
+            "text": "$49 /month",
             "billingUnit": true,
-            "context": "/mo $49 per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per month, billed yearly Your plan (51 - 100 units) $10"
+            "context": "250 375 500+ Yearly Save $60/yr Monthly Plan for 1–25 units $49 /month Billed $588 once a year. Gable AI: free for 3 months, then"
           },
           {
-            "text": "$59 per month",
-            "billingUnit": true,
-            "context": "per month, billed yearly Your plan (26 - 50 units) $65 /mo $59 per month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per"
+            "text": "$588",
+            "billingUnit": false,
+            "context": "y Save $60/yr Monthly Plan for 1–25 units $49 /month Billed $588 once a year. Gable AI: free for 3 months, then +$24.50/mo O"
           },
           {
-            "text": "$109 /mo",
+            "text": "$24.50/mo",
             "billingUnit": true,
-            "context": "/mo $59 per month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per month, billed yearly Your plan (101 - 150 units) $1"
+            "context": "Billed $588 once a year. Gable AI: free for 3 months, then +$24.50/mo On by default. You can turn it off from your subscription p"
           },
           {
-            "text": "$99 per month",
+            "text": "$24.50 /mo",
             "billingUnit": true,
-            "context": "er month, billed yearly Your plan (51 - 100 units) $109 /mo $99 per month, billed yearly Your plan (101 - 150 units) $142 /mo $129 pe"
+            "context": "m your subscription page. Your community units From month 4 $24.50 /mo Billed yearly, with your plan. Over 500 units or for manage"
           },
           {
-            "text": "$142 /mo",
+            "text": "$0.27 per unit",
             "billingUnit": true,
-            "context": "mo $99 per month, billed yearly Your plan (101 - 150 units) $142 /mo $129 per month, billed yearly Your plan (151 - 200 units) $"
+            "context": "with your plan. Over 500 units or for management companies: $0.27 per unit a month. Optional expert services Bookkeeping service from"
           },
           {
-            "text": "$129 per month",
+            "text": "$199 a month",
             "billingUnit": true,
-            "context": "r month, billed yearly Your plan (101 - 150 units) $142 /mo $129 per month, billed yearly Your plan (151 - 200 units) $186 /mo $169 pe"
+            "context": "a month. Optional expert services Bookkeeping service from $199 a month 1120-H tax filing from $399 per filing Full 1120 tax filing"
           }
         ],
         "mentionsFreeTrial": true,
@@ -8700,6 +8700,154 @@
         ],
         "mentionsFreeTrial": true,
         "mentionsContactSales": true,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://google.com/goto?url=CAESkwEB6zswFc-A5JgdSQT-Fbk8XwUeG_9tGuz6hUWcJjJjxlv1R68rQmF_2G4JXbfuxYbRTysFjd48FP-sp5bP9DAFHHfw_O4taGTOTetq1baS--COEqNGoZl-KFvnkUrX5Kka1U7i2PwsEjmt3XeIOWu07AeHTywzbUOl3AQAnP4NAcBJNwL21y2PiN4vhwnQzqU1cJw": {
+      "fetchedAt": "2026-10-31T11:25:01.561Z",
+      "data": {
+        "url": "https://google.com/goto?url=CAESkwEB6zswFc-A5JgdSQT-Fbk8XwUeG_9tGuz6hUWcJjJjxlv1R68rQmF_2G4JXbfuxYbRTysFjd48FP-sp5bP9DAFHHfw_O4taGTOTetq1baS--COEqNGoZl-KFvnkUrX5Kka1U7i2PwsEjmt3XeIOWu07AeHTywzbUOl3AQAnP4NAcBJNwL21y2PiN4vhwnQzqU1cJw",
+        "retrievedAt": "2026-10-31T11:25:01.561Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://google.com/goto?url=CAESfQHrOzAVbRqoS8lf0pGRZnALD456Vny37BOa5kq8hQ4o7sL8oLNWI4Jj_92QM8hNsCqDIimnua1YMZSS4fAy8lcsXTo5LS7aVLqrPiaGnbQeE4RVBSSVm9DRdx8C_6AGPKHaxmjLr_oR7qqMB76l7lyFOyGAIX_DtD63K8GS": {
+      "fetchedAt": "2026-10-31T11:25:01.719Z",
+      "data": {
+        "url": "https://google.com/goto?url=CAESfQHrOzAVbRqoS8lf0pGRZnALD456Vny37BOa5kq8hQ4o7sL8oLNWI4Jj_92QM8hNsCqDIimnua1YMZSS4fAy8lcsXTo5LS7aVLqrPiaGnbQeE4RVBSSVm9DRdx8C_6AGPKHaxmjLr_oR7qqMB76l7lyFOyGAIX_DtD63K8GS",
+        "retrievedAt": "2026-10-31T11:25:01.719Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://www.payhoa.com/hoa-reserve-fund-management/": {
+      "fetchedAt": "2026-10-31T11:25:01.719Z",
+      "data": {
+        "url": "https://www.payhoa.com/hoa-reserve-fund-management/",
+        "finalUrl": "https://www.payhoa.com/hoa-reserve-fund-management/",
+        "retrievedAt": "2026-10-31T11:25:01.719Z",
+        "status": 200,
+        "error": null,
+        "title": "Manage HOA Reserve Funds Like a Pro With Tech | PayHOA",
+        "description": "You don’t have to be a bookkeeping wizard to manage your community’s reserve fund. Learn how smart HOA accounting software makes it easy.",
+        "priceMentions": [
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "pool needs resurfacing in eight years. It will cost roughly $10,000. This means the HOA needs to contribute around $1,300 each"
+          },
+          {
+            "text": "$1,300",
+            "billingUnit": false,
+            "context": "ghly $10,000. This means the HOA needs to contribute around $1,300 each year to prepare for the resurfacing expense. Tracking"
+          }
+        ],
+        "mentionsFreeTrial": true,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.grahammanagementhouston.com/hoa-reserve-study/": {
+      "fetchedAt": "2026-10-31T11:25:01.721Z",
+      "data": {
+        "url": "https://www.grahammanagementhouston.com/hoa-reserve-study/",
+        "finalUrl": "https://www.grahammanagementhouston.com/hoa-reserve-study/",
+        "retrievedAt": "2026-10-31T11:25:01.721Z",
+        "status": 200,
+        "error": null,
+        "title": "Texas HOA Reserve Study: Requirements and Laws | Graham",
+        "description": "What is an HOA reserve study? What are the requirements and procedures under Texas law? Click here to find out!",
+        "priceMentions": [
+          {
+            "text": "$250",
+            "billingUnit": false,
+            "context": "e higher the price. Financial-only updates can cost between $250 and $1,000, whereas updates with on-site inspections can co"
+          },
+          {
+            "text": "$1,000",
+            "billingUnit": false,
+            "context": "the price. Financial-only updates can cost between $250 and $1,000, whereas updates with on-site inspections can cost between"
+          },
+          {
+            "text": "$3,000",
+            "billingUnit": false,
+            "context": "as updates with on-site inspections can cost between $1,000 $3,000. For a full reserve study, associations should expect to pa"
+          },
+          {
+            "text": "$2,000",
+            "billingUnit": false,
+            "context": "study, associations should expect to pay somewhere between $2,000 and $10,000 or more. For the HOA’s Future It is clear that"
+          },
+          {
+            "text": "$10,000",
+            "billingUnit": false,
+            "context": "ociations should expect to pay somewhere between $2,000 and $10,000 or more. For the HOA’s Future It is clear that an HOA reser"
+          }
+        ],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.grahammanagementhouston.com/pricing": {
+      "fetchedAt": "2026-10-31T11:25:01.722Z",
+      "data": {
+        "url": "https://www.grahammanagementhouston.com/pricing",
+        "finalUrl": "https://www.grahammanagementhouston.com/pricing",
+        "retrievedAt": "2026-10-31T11:25:01.722Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://google.com/goto?url=CAESegHrOzAV2r8W4N3E8PoiaR9UP23R77FHpVq5J6hUM8hRnakG2tJGPl4QxOsd0d-KHmvZlV01QwgWXR67FWbSOyWK1hJJcdS9hF9-4FH5osL0F91h_pLoIDi17yx4SdMdovmYRYF8MgYLODU78Fx1_8moLFdKkgeCZeYt": {
+      "fetchedAt": "2026-10-31T11:25:03.636Z",
+      "data": {
+        "url": "https://google.com/goto?url=CAESegHrOzAV2r8W4N3E8PoiaR9UP23R77FHpVq5J6hUM8hRnakG2tJGPl4QxOsd0d-KHmvZlV01QwgWXR67FWbSOyWK1hJJcdS9hF9-4FH5osL0F91h_pLoIDi17yx4SdMdovmYRYF8MgYLODU78Fx1_8moLFdKkgeCZeYt",
+        "retrievedAt": "2026-10-31T11:25:03.636Z",
+        "status": null,
+        "error": "robots.txt disallows this path"
+      }
+    },
+    "page|https://gitnux.org/best/osha-compliance-software/": {
+      "fetchedAt": "2026-10-31T11:25:03.636Z",
+      "data": {
+        "url": "https://gitnux.org/best/osha-compliance-software/",
+        "finalUrl": "https://gitnux.org/best/osha-compliance-software/",
+        "retrievedAt": "2026-10-31T11:25:03.636Z",
+        "status": 200,
+        "error": null,
+        "title": "Top 10 Best Osha Compliance Software: 2026 Comparison",
+        "description": "Procore is the strongest overall pick for Osha Compliance Software in 2026, with Raken and EHS Insight rounding out the top 3.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
+        "mentionsPricing": true
+      }
+    },
+    "page|https://www.usequantum.com/pricing": {
+      "fetchedAt": "2026-10-31T11:25:03.638Z",
+      "data": {
+        "url": "https://www.usequantum.com/pricing",
+        "finalUrl": "https://www.usequantum.com/pricing",
+        "retrievedAt": "2026-10-31T11:25:03.638Z",
+        "status": 404,
+        "error": "HTTP 404"
+      }
+    },
+    "page|https://www.usequantum.com/inspection-audit-software-for-regulatory-adherence/": {
+      "fetchedAt": "2026-10-31T11:25:03.637Z",
+      "data": {
+        "url": "https://www.usequantum.com/inspection-audit-software-for-regulatory-adherence/",
+        "finalUrl": "https://www.usequantum.com/inspection-audit-software-for-regulatory-adherence/",
+        "retrievedAt": "2026-10-31T11:25:03.637Z",
+        "status": 200,
+        "error": null,
+        "title": "Inspection & Audit Software for Regulatory Adherence - Quantum Compliance",
+        "description": "Inspection & Audit Software is specifically designed to fortify compliance practices, enhancing regulatory adherence.",
+        "priceMentions": [],
+        "mentionsFreeTrial": false,
+        "mentionsContactSales": false,
         "mentionsPricing": true
       }
     }

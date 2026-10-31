@@ -2,6 +2,10 @@
 
 Do not re-pitch these without a fundamentally new signal.
 
+## 2026-10-31
+*   **The Independent Dental Lab's "FDA Medical Device Quality System (QMS) Hub"** — While a clear compliance pain with a "why now" from the QMSR update, the market size (4,375-14,769 labs) is smaller and more fragmented than Florida condos, and the direct, recurring financial penalties for QMS failures appeared less universally quantifiable and immediate than SB 4-D's impact.
+*   **The Commercial Kitchen Hood Cleaning Service's "NFPA 96-Ready" Compliance Hub** (from yesterday's memo) — The market size and direct financial penalties for the *contractor* appeared less acute and less universally quantifiable than the SB 4-D fines and special assessments for condo associations. The NFPA 96 digital documentation mandate, while a "why now," is less severe in its immediate financial impact on the end-payer than the Florida condo laws.
+
 ## 2026-10-30
 *   **The Commercial Cleaning Company's "OSHA-Proof" Bloodborne Pathogens Log** — While a clear compliance pain, the market size and the direct, recurring financial penalties for record-keeping failures appeared less acute and less universally quantifiable than LOTO violations in manufacturing.
 *   **The Independent Daycare's "State-Ready" Licensing & Incident Reporting Hub** — Market sizing and the "why now" were less compelling, and the financial penalties less severe and direct compared to LOTO.
